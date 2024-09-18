@@ -12,11 +12,11 @@
          <publicationStmt>
             <publisher>Formierung Europas</publisher>
             <availability>
-               <licence>CC-BY-</licence>
+               <licence>CC-BY-SA</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <diploDesc><p><issued><placeName>Ausstellungsort</placeName><date type="issued" notBefore="1000-01-01" notAfter="1000-01-01">Ausstellungsdatum (Zeitraum)</date>
+            <diploDesc><p><issued><placeName>(Abtei Montier-la-Celle)</placeName><date type="issued" notBefore="1000-01-01" notAfter="1000-01-01">Ausstellungsdatum (Zeitraum)</date>
                <date type="issued" when="1000-01-01">Ausstellungsdatum (Zeitpunkt)</date></issued></p><p><objectType>Filterkategorie 1</objectType></p><p><objectType>Filterkategorie 2...</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
