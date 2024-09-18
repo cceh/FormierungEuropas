@@ -6,29 +6,36 @@
       <fileDesc>
          <titleStmt>
             <title>Die Nummer des Regests im Projekt</title>
-            <respStmt xml:id="FE"><resp>Bearbeiter*in:</resp><persName>Isabel Blumenroth</persName></respStmt>
-           <respStmt xml:id="HB"><resp when="2024">Encoding:</resp><persName>Hannah Busch</persName></respStmt>
+            <respStmt xml:id="FE">
+               <resp>Bearbeiter*in:</resp>
+               <persName>Vorname Nachname</persName>
+            </respStmt>
+           <respStmt xml:id="HB">
+              <resp when="2024">Encoding:</resp>
+              <persName>Vorname Nachname</persName>
+           </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher>Formierung Europas</publisher>
+            <publisher>Informationen über das Projekt:</publisher>
             <availability>
-               <licence>CC-BY-SA</licence>
+               <licence>Lizenz:</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <diploDesc><p><issued><placeName>(Abtei Montier-la-Celle)</placeName><date type="issued" notBefore="1159-09-01" notAfter="1160-07-31">September 1159 x Juli 1160</date>
-               <date type="issued" notBefore="1160-07-01" notAfter="1160-07-31">Juli 1160</date></issued></p>
-               <p><legalActor type="issuer" xml:id="aaa">Abt PetrusAlexander III</legalActor>
-                  <legalActor type="recipient" xml:id="bbb">Bischof (Hugo) von Durham</legalActor>
-                  <legalActor type="recipient">Abt (Clemens) von St. Mary in <placeName>York</placeName></legalActor></p>
-               <p><objectType>Brief</objectType></p><p><objectType>Beschäftigung mit Alexander III</objectType></p><p><objectType>Beschäftigung mit dem Schisma</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <diploDesc><p><issued><placeName>Ausstellungsort</placeName><date type="issued" notBefore="1000-01-01" notAfter="1000-01-01">Ausstellungsdatum (Zeitraum)</date>
+               <date type="issued" when="1000-01-01">Ausstellungsdatum (Zeitpunkt)</date></issued></p>
+               <p><legalActor type="issuer">Issuer</legalActor></p>
+                 <p> <legalActor type="recipient">Recipient 1</legalActor></p>
+                 <p> <legalActor type="recipient">Recipient 2</legalActor></p>
+               <p><objectType>Filterkategorie 1</objectType></p>
+               <p><objectType>Filterkategorie 2...</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
    <text>
       <body>
-         <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>*!?</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit</head><p>Hactenus in palestra</p></div>
+         <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>*!?</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit</head><p>Lorem Ipsum</p></div>
          <div type="abstract"><head>Abstract:</head>
          <div>
             <p>Regestentext mit <legalActor type="issuer"><persName>Aussteller</persName></legalActor>, <legalActor type="beneficiary"><persName>Empfänger</persName></legalActor>; weitere <persName>Personen</persName>, <placeName>Orte</placeName>, <orgName>Institutionen</orgName> und auch <eventName>Ereignisse</eventName>. Außerdem sind ggf. <bibl>Literaturzitate</bibl> und <ref>Querverweise</ref> möglich. Wörtliche Zitate könnten mit dem entsprechenden <diploPart>Urkundenbestandtteil</diploPart> ausgezeichet werden. Einzelne Rechtstitel, etwa bei Privilegien, werden als Liste aufgeführt, auch dort können alle im "abstract" zulässigen Entitäten ausgezeichnet werden.</p>
@@ -56,7 +63,7 @@
                   </msDesc></witness>
                <witness><msDesc>
                   <msIdentifier>
-                     </msIdentifier></msDesc></witness></listWit></div><div><listWit><witness><msDesc><msIdentifier><placeName>Bibliotheksort</placeName>
+                     <placeName>Bibliotheksort</placeName>
                      <institution>Institution</institution>
                      <collection>Sammlung</collection>
                      <idno>Signatur</idno>
@@ -72,7 +79,7 @@
                <witness><bibl>Dekretale 2</bibl></witness>
             </listWit>
          </div>
-         <div type="historyography">
+         <div type="historiography">
             <head>Erwähnungen in der Historiographie</head>
             <listWit>
                <witness>
@@ -100,7 +107,6 @@
          <div type="Sachkommentar">
             <head>Sachkommentar</head>
             <p>Mit <bibl>Bibliographischen Angaben</bibl>, weiteren Entitäten und Anmerkungen zu Urkundenbestandtteilen, der Echtheit und Datierung...</p>
-            <p>Sollen neben dem Sachkommentar auch noch Fußnoten (an beliebiger Stelle im Dokument) erlaubt sein?</p>
          </div>
          <div type="bibliography">
          <listBibl>
