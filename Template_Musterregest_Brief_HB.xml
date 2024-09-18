@@ -16,8 +16,8 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <diploDesc><p><issued><placeName>(Abtei Montier-la-Celle)</placeName><date type="issued" notBefore="1000-01-01" notAfter="1000-01-01">September 1159 x Juli 1160</date>
-               <date type="issued" when="1000-01-01">Juli 1160</date></issued></p><p><objectType>Filterkategorie 1</objectType></p><p><objectType>Filterkategorie 2...</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <diploDesc><p><issued><placeName>(Abtei Montier-la-Celle)</placeName><date type="issued" notBefore="1159-09-01" notAfter="1160-07-31">September 1159 x Juli 1160</date>
+               <date type="issued" when="1160-07-00">Juli 1160</date></issued></p><p><objectType>Filterkategorie 1</objectType></p><p><objectType>Filterkategorie 2...</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
