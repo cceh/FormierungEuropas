@@ -23,7 +23,12 @@
          </publicationStmt>
          <sourceDesc>
             <diploDesc><p><issued><placeName>Ausstellungsort</placeName><date type="issued" notBefore="1000-01-01" notAfter="1000-01-01">Ausstellungsdatum (Zeitraum)</date>
-               <date type="issued" when="1000-01-01">Ausstellungsdatum (Zeitpunkt)</date></issued></p><p><objectType>Filterkategorie 1</objectType></p><p><objectType>Filterkategorie 2...</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+               <date type="issued" when="1000-01-01">Ausstellungsdatum (Zeitpunkt)</date></issued></p>
+               <p><legalActor type="issuer">Issuer</legalActor></p>
+                 <p> <legalActor type="recipient">Recipient 1</legalActor></p>
+                 <p> <legalActor type="recipient">Recipient 2</legalActor></p>
+               <p><objectType>Filterkategorie 1</objectType></p>
+               <p><objectType>Filterkategorie 2...</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
@@ -58,7 +63,7 @@
                   </msDesc></witness>
                <witness><msDesc>
                   <msIdentifier>
-                     </msIdentifier></msDesc></witness></listWit></div><div><listWit><witness><msDesc><msIdentifier><placeName>Bibliotheksort</placeName>
+                     <placeName>Bibliotheksort</placeName>
                      <institution>Institution</institution>
                      <collection>Sammlung</collection>
                      <idno>Signatur</idno>
@@ -74,7 +79,7 @@
                <witness><bibl>Dekretale 2</bibl></witness>
             </listWit>
          </div>
-         <div type="historyography">
+         <div type="historiography">
             <head>Erwähnungen in der Historiographie</head>
             <listWit>
                <witness>
@@ -102,7 +107,6 @@
          <div type="Sachkommentar">
             <head>Sachkommentar</head>
             <p>Mit <bibl>Bibliographischen Angaben</bibl>, weiteren Entitäten und Anmerkungen zu Urkundenbestandtteilen, der Echtheit und Datierung...</p>
-            <p>Sollen neben dem Sachkommentar auch noch Fußnoten (an beliebiger Stelle im Dokument) erlaubt sein?</p>
          </div>
          <div type="bibliography">
          <listBibl>
