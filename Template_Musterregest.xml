@@ -90,18 +90,18 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Sirmond, Concilia Galliae III, S. 107–108, Nr. 1</bibl>
-               <bibl>Marlot, Metropolis Remensis historia I, S. 426 (Auszug)</bibl>
-               <bibl>Labbe/Cossart, Sacrosancta concilia 8, Sp. 232C–233D, Nr. 1</bibl>
+               <bibl>Edition 1</bibl>
+               <bibl>Edition 2</bibl>
+               <bibl>Edition 3</bibl>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>JE 2664</bibl>
-               <bibl>J3 5631</bibl>
-               <bibl>Böhmer/Herbers, RI I,4,2,1, Nr. 376</bibl>
-               <bibl>GPO Reims I: Erzbischöfe, Nr. 53. DOI: <ref>10.58137/001-2023-53</ref></bibl>
+               <bibl>Regest 1</bibl>
+               <bibl>Regest 2</bibl>
+               <bibl>Regest 3</bibl>
+               <bibl>Regest 4 mit doi: <ref>10.58137/001-2023-53</ref></bibl>
             </listBibl>
          </div>
          <div type="Sachkommentar">
