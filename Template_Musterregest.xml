@@ -46,7 +46,7 @@
             <div>
             <listWit>   
                <witness><msDesc>
-                     <msIdentifier><placeName>[Bibliotheksort] </placeName><institution>[Institution] </institution><repository>[Bibliothek] </repository><collection>Sammlung</collection><idno type="shelfmark">Signatur</idno></msIdentifier>
+                     <msIdentifier><placeName>[Bibliotheksort] </placeName></msIdentifier></msDesc></witness></listWit></div><div><listWit><witness><msDesc><msIdentifier><institution>[Institution]</institution></msIdentifier></msDesc></witness></listWit></div><div><listWit><witness><msDesc><msIdentifier><institution> </institution><repository>[Bibliothek] </repository></msIdentifier></msDesc></witness></listWit></div><div><listWit><witness><msDesc><msIdentifier><collection>[Sammlung]</collection><idno type="shelfmark">[Signatur]</idno></msIdentifier>
                      <copyStatus type="original">Original</copyStatus>
                      <history>
                         <origin notBefore="0799-01-01" notAfter="0900-01-01">9. Jh.</origin>
