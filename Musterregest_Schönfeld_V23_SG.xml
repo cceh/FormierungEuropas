@@ -34,7 +34,7 @@
       <body>
          <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[]</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit:</head><p>[Lorem Ipsum]</p></div>
          <div type="abstract"><head>Abstract:</head>
-         <div><p>Victor IV. bestätigt dem Kloster (St. Georg) in Naumburg</p></div></div>
+         <div><p><legalActor>Victor IV.</legalActor> bestätigt dem Kloster (St. Georg) in Naumburg</p></div></div>
          <div type="witness">
             <head>Überlieferungsträger</head>
          </div>
