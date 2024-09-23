@@ -52,7 +52,12 @@
          </div><div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl><bibl>JL -</bibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 262-264, Nr. V 23</bibl><bibl>GN 1904 [vgl. Krafft]</bibl><bibl>Mayr : Der Pontifikat, S. 93, Nr. 13</bibl><bibl>Krafft: Bene Valete, S. 233</bibl></listBibl>
-         </div><div type="Sachkommentar">
+         </div>
+         <div type="Asbbildungen">
+            <head>Abbildungen</head>
+            <listBibl><bibl>PH LBA, Nr. 1578</bibl></listBibl>
+            </div>
+         <div type="Sachkommentar">
             <head>Sachkommentar</head>
             <p>[Mit <bibl>Bibliographischen Angaben</bibl>, weiteren Entitäten und Anmerkungen zu Urkundenbestandtteilen, der Echtheit und Datierung.]</p>
          </div><div type="bibliography">
