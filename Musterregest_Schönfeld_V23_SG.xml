@@ -6,11 +6,8 @@
       <fileDesc>
          <titleStmt>
             <title>Die Nummer des Regests im Projekt</title>
-            <respStmt xml:id="FE">
-               <resp>Bearbeiter*in:</resp>
-               <persName>[Harald Müller]</persName>
-            </respStmt>
-           <respStmt xml:id="HB"><resp when="2024">Encoding:</resp><persName>[Sebastian Gensicke]</persName></respStmt>
+            <respStmt xml:id="FE"><resp>Bearbeiter*in:</resp><persName>Harald Müller</persName></respStmt>
+           <respStmt xml:id="HB"><resp when="2024">Encoding:</resp><persName>Sebastian Gensicke</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
