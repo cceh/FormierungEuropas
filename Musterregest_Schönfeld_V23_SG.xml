@@ -34,7 +34,7 @@
       <body>
          <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[]</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit:</head><p>[Lorem Ipsum]</p></div>
          <div type="abstract"><head>Abstract:</head>
-         <div><p><legalActor><persName>Victor IV.</persName></legalActor> bestätigt dem <legalActor><orgName>Kloster (St. Georg) in Naumburg</orgName></legalActor> (<foreign>Nuenburgensis</foreign>) auf Bitten des Abtes Theoderich (<foreign>Teodoricus</foreign>)</p><p/><p/></div></div>
+         <div><p cert="high" generatedBy="human" part="Y" xml:space="default"><legalActor><persName>Victor IV.</persName></legalActor> bestätigt dem <legalActor cert="high" type="issuer" xml:lang="latin" xml:space="default"><orgName>Kloster (St. Georg) in Naumburg</orgName></legalActor> (<foreign>Nuenburgensis</foreign>) auf Bitten des Abtes Theoderich (<foreign>Teodoricus</foreign>)</p><p/><p/></div></div>
          <div type="witness">
             <head>Überlieferungsträger</head>
          </div>
