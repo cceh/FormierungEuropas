@@ -37,7 +37,7 @@
             </list>
             <diploPart cert="high" type="subscriptio" xml:space="default">[Ego Victor catholice ecclesie episcopus subscripsi. Ego Ymarus Tusculanus episcopus subscripsi. Ego Hubaldus episcopus subscripsi. Ego Iohannes presbiter cardinalis tituli sancto-rum Silvestri et Martini subscripsi. Ego Guido presbiter cardinalis tituli Calixti subscripsi. Ego  Berardus diaconus cardinalis sancti Sergii subscripsi. Ego Lando diaconus cardinalis sancte Marie in Aquiro subscripsi.]
                </diploPart>
-            <diploPart type="Datierung">[Data Papie per manum Gerardi sancte Romane ecclesie subdiaconi, XI kalendas martii indictione VII, anno incarnationis domini MCLX, pontificatus domini Victoris anno eius primo.]
+            <diploPart cert="high" type="datatio" xml:space="default">[Data Papie per manum Gerardi sancte Romane ecclesie subdiaconi, XI kalendas martii indictione VII, anno incarnationis domini MCLX, pontificatus domini Victoris anno eius primo.]
                </diploPart>
                </div></div>
          <div type="witness"><head>Überlieferungsträger</head></div><div type="msSources"><head>Handschriftliche Überlieferung (Liste)</head><head/><div>
