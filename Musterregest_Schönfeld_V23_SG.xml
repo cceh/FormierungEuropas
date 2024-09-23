@@ -38,11 +38,11 @@
             </list>
          </div></div>
          <div type="witness"><head>Überlieferungsträger</head></div><div type="msSources">
-             <head>Handschriftliche Überlieferung (Liste)</head>
+             <head>Handschriftliche Überlieferung (Liste)</head><head/>
             <div>
             <listWit>   
                <witness><msDesc>
-                     <msIdentifier><placeName>[Bibliotheksort] </placeName><institution>[Institution]</institution><repository>[Bibliothek] </repository><collection>[Sammlung]</collection><idno type="shelfmark">[Signatur]</idno></msIdentifier>
+                     <msIdentifier><placeName>Weimar, </placeName><institution>StA,</institution><repository>[Bibliothek] </repository><collection>[Sammlung]</collection><idno type="shelfmark">Urk.[Signatur]</idno></msIdentifier>
                      <copyStatus type="original">[Original]</copyStatus>
                      <history>
                         <origin notBefore="0799-01-01" notAfter="0900-01-01">[12. Jh.]</origin>
