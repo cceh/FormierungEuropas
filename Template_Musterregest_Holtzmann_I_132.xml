@@ -87,10 +87,10 @@
          <div type="regesta">
             <head>Regesten</head><head>JL 12345 </head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl/>
-               <bibl/>
-               <bibl/>
-               <bibl/>
+               <bibl>Regest 1</bibl>
+               <bibl>Regest 2</bibl>
+               <bibl>Regest 3</bibl>
+               <bibl>Regest 4</bibl>
             </listBibl>
          </div>
          <div type="Sachkommentar">
