@@ -36,12 +36,7 @@
             <head>Überlieferungsträger</head>
          </div>
          <div type="msSources">
-             <head>Handschriftliche Überlieferung (Liste)</head>
-            <div>
-            <listWit>   
-               <witness><msDesc>
-                     <msIdentifier>
-                        <placeName>Bibliotheksort</placeName>
+             <head>Handschriftliche Überlieferung (Liste)<listWit><witness><msDesc><msIdentifier><placeName>Bibliotheksort</placeName>
                         <institution>Institution</institution>
                         <repository>Bibliothek</repository>
                         <collection>Sammlung</collection>
@@ -61,7 +56,7 @@
                   </msIdentifier>
              </msDesc></witness>
             </listWit>
-         </div>
+         </head>
          </div>
          <div type="decretals">
             <head>Dekretalen</head>
