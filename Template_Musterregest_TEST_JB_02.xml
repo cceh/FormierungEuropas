@@ -46,35 +46,27 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listWit>
-               <witness><bibl>[Dekretale 1]</bibl></witness>
-               <witness><bibl>[Dekretale 2]</bibl></witness>
+               <witness><bibl/></witness>
+               <witness><bibl/></witness>
             </listWit>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie</head>
             <listWit>
                <witness>
-                  <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+                  <bibl/>
                </witness>
             </listWit>
          </div>
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>[Edition 1]</bibl>
-               <bibl>[Edition 2]</bibl>
-               <bibl>[Edition 3]</bibl>
-            </listBibl>
-         </div>
-         <div type="regesta">
-            <head>Regesten</head> <!-- Konkordanzregesten -->
-            <listBibl>
-               <bibl>[Regest 1]</bibl>
                <bibl/>
                <bibl/>
                <bibl/>
             </listBibl>
          </div>
+         <div type="regesta"><head>Regesten</head><!-- Konkordanzregesten --></div>
          <div type="Sachkommentar"><head>Sachkommentar</head><p>Ein gleichlautendes Mandat an die Calatravaritter stellte Alexander 1175 Oktober 10 aus (JL 12519), daher ergibt sich die Datierung. Das Stück ist im Zusammenhang mit dem dritten Laterankonzil 1179 zu sehen, das die Vorrechte der Ritterorden bezüglich der Kirchenzehnten, der Almosensammlung, der Immunität gegen Kirchenstrafen eingeschränkt hat (vgl. <bibl>Concilium Lateranense III, Can. 9</bibl>).</p></div>
          <div type="bibliography">
          <listBibl/>
