@@ -70,19 +70,14 @@
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>[Regest 1]</bibl>
-               <bibl>[Regest 2]</bibl>
-               <bibl>[Regest 3]</bibl>
-               <bibl>[Regest 4 mit doi: <ref>[10.58137/001-2023-53]</ref>]</bibl>
+               <bibl/>
+               <bibl/>
+               <bibl/>
             </listBibl>
          </div>
-         <div type="Sachkommentar">
-            <head>Sachkommentar</head>
-            <p>Ein gleichlautendes Mandat an die Calatravaritter stellte Alexander 1175 Oktober 10 aus (JL 12519), daher ergibt sich die Datierung. Das Stück ist im Zusammenhang mit dem dritten Laterankonzil 1179 zu sehen, das die Vorrechte der Ritterorden bezüglich der Kirchenzehnten, der Almosensammlung, der Immunität gegen Kirchenstrafen eingeschränkt hat (vgl. <bibl>Concilium Lateranense III, Can. 9</bibl>).</p><p>[Mit <bibl>Bibliographischen Angaben</bibl>, weiteren Entitäten und Anmerkungen zu Urkundenbestandtteilen, der Echtheit und Datierung.]</p>
-         </div>
+         <div type="Sachkommentar"><head>Sachkommentar</head><p>Ein gleichlautendes Mandat an die Calatravaritter stellte Alexander 1175 Oktober 10 aus (JL 12519), daher ergibt sich die Datierung. Das Stück ist im Zusammenhang mit dem dritten Laterankonzil 1179 zu sehen, das die Vorrechte der Ritterorden bezüglich der Kirchenzehnten, der Almosensammlung, der Immunität gegen Kirchenstrafen eingeschränkt hat (vgl. <bibl>Concilium Lateranense III, Can. 9</bibl>).</p></div>
          <div type="bibliography">
-         <listBibl>
-            <bibl>[Weitere Referenzen]</bibl>
-         </listBibl>
+         <listBibl/>
          </div>
       </body>
    </text>
