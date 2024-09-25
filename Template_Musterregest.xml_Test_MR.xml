@@ -16,8 +16,8 @@
             <diploDesc><p><issued><placeName>Bourges</placeName>
                <date type="issued" when="1000-01-01">1163 August 2</date></issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-                 <p> <legalActor type="recipient">Kloster Lambach</legalActor></p>
-                 <p> </p>
+                 <p> <legalActor>Kloster Lambach</legalActor></p>
+                  
                <p><objectType>Typisierung 1</objectType></p>
                <p><objectType>Typisierung 2</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
