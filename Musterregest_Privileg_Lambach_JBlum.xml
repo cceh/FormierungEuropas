@@ -8,7 +8,7 @@
             <title>Die Nummer des Regests im Projekt</title>
             <respStmt xml:id="FE">
                <resp>Bearbeiter*in:</resp><persName>Julia Becker</persName></respStmt>
-           <respStmt xml:id="default"><resp when="2024">Encoding:</resp><persName>Jonathan Blumtritt<persName/></persName></respStmt>
+           <respStmt xml:id="default"><resp when="2024">Encoding:</resp><persName>Jonathan Blumtritt<persName><persName/></persName></persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
