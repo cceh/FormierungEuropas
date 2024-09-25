@@ -20,7 +20,7 @@
          </publicationStmt>
          <sourceDesc>
             <diploDesc><p><issued><placeName>Ferentino</placeName>
-               <date type="issued" when="1000-01-01">(1175) Oktober 10</date></issued></p><p> <legalActor type="recipient">Alexander III.</legalActor></p><p><legalActor type="recipient">Templer von Toledo</legalActor></p><p><objectType>Typisierung 1</objectType></p><p><objectType>Typisierung 2</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+               <date type="issued" when="1000-01-01">(1175) Oktober 10</date></issued></p><p> <legalActor type="recipient">Alexander III.</legalActor></p><p><legalActor type="recipient"><orgName cert="high">Templer von Toledo</orgName></legalActor></p><p><objectType>Typisierung 1</objectType></p><p><objectType>Typisierung 2</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
