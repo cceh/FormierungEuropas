@@ -4,14 +4,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
-         <titleStmt>
-            <title>Die Nummer des Regests im Projekt</title>
-            <respStmt xml:id="FE">
-               <resp>Bearbeiter*in:</resp>
-               <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
-            </respStmt>
-           <respStmt xml:id="default"><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Bearbeiter*in]</persName></respStmt>
-         </titleStmt>
+         <titleStmt><title>Die Nummer des Regests im Projekt</title><respStmt xml:id="FE"><resp>Bearbeiter*in:</resp><persName>Blumenroth</persName></respStmt><respStmt xml:id="default"><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Bearbeiter*in]</persName></respStmt></titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
             <availability>
