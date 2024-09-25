@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Die Nummer des Regests im Projekt</title>
+            <respStmt xml:id="FE"><resp>Bearbeiter*in:</resp><persName>Isabel Blumenroth</persName></respStmt>
+           <respStmt xml:id="default"><resp when="2024">Encoding:</resp><persName>Hannah Busch</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc><p><issued><placeName>Ferentino</placeName><date type="issued" notBefore="1000-01-01" notAfter="1000-01-01">Ausstellungsdatum (Zeitraum)</date>
+               <date type="issued" when="1000-01-01">(1175) Oktober 10.</date></issued></p>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+                 <p><legalActor type="recipient">Templer von Toledo</legalActor></p>
+                 <p> <legalActor type="recipient">Recipient 2</legalActor></p>
+               <p><objectType>Mandat, päpstlich</objectType></p>
+               <p><objectType>direkte persönliche Einwirkung</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+   <text>
+      <body>
+         <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[*!?]</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit:</head><p>Licet uos sicut religiosos uiros</p></div>
+         <div type="abstract"><head>Abstract:</head>
+         <div>
+            <p><legalActor>Alexander III. </legalActor> befiehlt den <orgName>Templern</orgName> von <placeName>Toledo</placeName>, in ihren Kirchen die Rechte des <persName>Erzbischofs von Toledo</persName> und seiner Suffragane auf Zehntzahlungen und Klerikereinsetzungen einzuhalten. Außerdem sollen die Ritter auch für neu eroberte Siedlungen, auf die die Bischöfe traditionelle Ansprüche haben, den Zehnten entrichten.</p>
+            <list>
+               <item>[Item 1]</item>
+               <item>[Item 2]</item>
+               <item>[Item 3]</item>
+               <item>[Item 4]</item>
+            </list>
+         </div>
+         </div>
+         <div type="witness">
+            <head>Überlieferungsträger</head>
+         </div>
+         <div type="msSources">
+             <head>Handschriftliche Überlieferung (Liste)</head>
+            <div>
+            <listWit>   
+               <witness><msDesc>
+                     <msIdentifier><placeName>[Bibliotheksort] </placeName><institution>[Institution]</institution><repository>[Bibliothek] </repository><collection>[Sammlung]</collection><idno type="shelfmark">[Signatur]</idno></msIdentifier>
+                     <copyStatus type="original">[Original]</copyStatus>
+                     <history>
+                        <origin notBefore="0799-01-01" notAfter="0900-01-01">[12. Jh.]</origin>
+                     </history>
+                  </msDesc></witness>
+               <witness><msDesc>
+                  <msIdentifier>
+                     <placeName>[Bibliotheksort]</placeName>
+                     <institution>[Institution]</institution>
+                     <collection>[Sammlung]</collection>
+                     <idno>[Signatur]</idno>
+                  </msIdentifier>
+             </msDesc></witness>
+            </listWit>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listWit>
+               <witness><bibl>[Dekretale 1]</bibl></witness>
+               <witness><bibl>[Dekretale 2]</bibl></witness>
+            </listWit>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listWit>
+               <witness>
+                  <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+               </witness>
+            </listWit>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>[Edition 1]</bibl>
+               <bibl>[Edition 2]</bibl>
+               <bibl>[Edition 3]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>[Regest 1]</bibl>
+               <bibl>[Regest 2]</bibl>
+               <bibl>[Regest 3]</bibl>
+               <bibl>[Regest 4 mit doi: <ref>[10.58137/001-2023-53]</ref>]</bibl>
+            </listBibl>
+         </div>
+         <div type="Sachkommentar">
+            <head>Sachkommentar</head>
+            <p>[Mit <bibl>Bibliographischen Angaben</bibl>, weiteren Entitäten und Anmerkungen zu Urkundenbestandtteilen, der Echtheit und Datierung.]</p>
+         </div>
+         <div type="bibliography">
+         <listBibl>
+            <bibl>[Weitere Referenzen]</bibl>
+         </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>
