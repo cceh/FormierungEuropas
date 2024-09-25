@@ -11,11 +11,11 @@
                <licence>Lizenz</licence>
             </availability>
          </publicationStmt>
-         <sourceDesc><diploDesc><p><issued><placeName>Anagni</placeName><date type="issued" notBefore="1000-01-01" notAfter="1000-01-01">(1174-1176)</date>
+         <sourceDesc><diploDesc><p><issued><placeName>Anagni</placeName><date type="issued" notBefore="1000-01-01" notAfter="1000-01-01">1174-1176</date>
                <date type="issued" when="1000-01-01">März 14</date></issued></p>
                <p><legalActor type="issuer">Alexander III. </legalActor></p>
                  <p> <legalActor type="recipient">Kloster Rievaulx </legalActor></p>
-                 <p> <legalActor cert="high" type="recipient" xml:space="default">Bischof (Hugo) von Durham</legalActor></p><p><legalActor>empfänger3</legalActor></p><p/><p><objectType>Typisierung 1</objectType></p>
+                 <p> <legalActor cert="high" type="recipient" xml:space="default">Bischof (Hugo) von Durham</legalActor></p><p><legalActor>Abt (Clemens) von St. Mary</legalActor></p><p><objectType>Typisierung 1</objectType></p>
                <p><objectType>Typisierung 2</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc></sourceDesc>
       </fileDesc>
