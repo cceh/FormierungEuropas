@@ -34,14 +34,14 @@
                <witness><msDesc><msIdentifier><placeName/>Chartular<idno type="shelfmark"/></msIdentifier><copyStatus type="original">[Original]</copyStatus></msDesc></witness></listWit></div></div><div type="editions">
             <head>Editionen</head>
             <listBibl><bibl>John Christopher Atkinson (Hg.): Cartularium Abbathiæ de Rievalle ordinis Cisterciensis fundatæ anno MCXXXII, Durham; London; Edinburgh 1889 (The publications of the Surtees Society), S. 197 n. 267</bibl></listBibl></div><div type="regesta"><head>Regesten</head> <!-- Konkordanzregesten -->
-            <listBibl><bibl>JL -</bibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 262-264, Nr. V 23</bibl><bibl>GN 1904 [vgl. Krafft]</bibl><bibl>Mayr : Der Pontifikat, S. 93, Nr. 13</bibl><bibl>Krafft: Bene Valete, S. 233</bibl></listBibl>
+            <listBibl><bibl>JL -</bibl><bibl/></listBibl>
          </div>
          <div type="Asbbildungen">
             <head>Abbildungen</head>
-            <listBibl><bibl>PH LBA, Nr. <ref cert="high" evaluate="all" generatedBy="human" target="https://urkundenrepositorium.uni-marburg.de/handle/lba/1578" xml:space="default">1578</ref></bibl></listBibl>
+            <listBibl><bibl/></listBibl>
             </div>
          <div type="Sachkommentar">
             <head>Sachkommentar</head>
-            <p>Echtheit?! </p></div></body>
+            <p/></div></body>
    </text>
 </TEI>
