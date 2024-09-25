@@ -18,7 +18,7 @@
          </publicationStmt>
          <sourceDesc>
             <diploDesc><p><issued><placeName><placeName key="Ferentino" ref="http://www.wikidata.org/entity/Q50197">Ferentino</placeName></placeName>
-               <date type="issued" when="1000-01-01">(1175) Oktober 10</date></issued></p><p><legalActor type="recipient">Alexander III.</legalActor></p><p><legalActor type="recipient"><orgName cert="high">Templer von <placeName key="Toledo" ref="http://www.wikidata.org/entity/Q5836" cert="high">Toledo<precision match="@ref" precision="high"/></placeName></orgName></legalActor></p><p><objectType>Mandat, päpstlich</objectType></p><p><objectType>direkte persönliche Einwirkung</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+               <date type="issued" when="1000-01-01">(1175) Oktober 10</date></issued></p><p><legalActor type="recipient">Alexander III.</legalActor></p><p/><p><legalActor type="recipient"><orgName cert="high">Templer von <placeName key="Toledo" ref="http://www.wikidata.org/entity/Q5836" cert="high">Toledo<precision match="@ref" precision="high"/></placeName></orgName></legalActor></p><p><objectType>Mandat, päpstlich</objectType></p><p><objectType>direkte persönliche Einwirkung</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
@@ -84,7 +84,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Template_Musterregest.xml?place_annotation_20240925114424160#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/teiHeader/fileDesc/sourceDesc/diploDesc/p[3]/legalActor/orgName/placeName"
+			"rdf:value": "TEI/teiHeader/fileDesc/sourceDesc/diploDesc/p[4]/legalActor/orgName/placeName"
 		}
 	},
 	"oa:hasBody": {
