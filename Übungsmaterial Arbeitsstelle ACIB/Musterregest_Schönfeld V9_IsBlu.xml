@@ -20,7 +20,7 @@
                <date type="issued" when="1000-01-01">Ausstellungsdatum (Zeitpunkt)</date></issued></p>
                <p><legalActor type="issuer"><persName key="Antipope Victor IV" ref="http://www.wikidata.org/entity/Q405986" type="real">Viktor IV.</persName></legalActor></p>
                  <p><legalActor type="recipient"><orgName key="Kloster Oberalteich" ref="http://viaf.org/viaf/144522919/">Kloster Oberaltaich</orgName></legalActor></p>
-                 <p> <legalActor type="recipient">Recipient 2</legalActor></p>
+                 <p><legalActor type="recipient">Theoderich</legalActor></p>
                <p><objectType>Typisierung 1</objectType></p>
                <p><objectType>Typisierung 2</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
