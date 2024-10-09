@@ -28,8 +28,7 @@
          <div>
             <p>[Regestentext mit <legalActor type="issuer"><persName>Viktor IV., Papst</persName></legalActor>, verbietet<legalActor type="beneficiary"><persName>Bruno, Bischof von Hildesheim,</persName></legalActor>und seinen Nachfolgern, die zum Schutz der <orgName>Hildesheimer Kirche</orgName> errichtete <placeName>Winzenburg</placeName>, einem Laien zum Lehen zu geben <diploPart>alicui laicorum infeodare</diploPart>oder anderweitig zu veräußern <diploPart>aliquo modo ab usu et dominicatu <orgName>episcopi Hildensemensis</orgName> audeat alienare</diploPart> </p><p/><p>[Item 1]</p><list>
                <item>[Item 2]</item>
-               <item>[Item 3]</item>
-               <item>[Item 4]</item>
+               <item>[Item</item>
             </list>
          </div>
          </div>
