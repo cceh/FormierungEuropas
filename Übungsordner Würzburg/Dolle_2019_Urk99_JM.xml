@@ -20,8 +20,8 @@
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
                  <p><legalActor>Erzbischof Hartwig von Bremen</legalActor></p>
                  <p> <legalActor type="recipient">Recipient 2</legalActor></p>
-               <p><objectType>Privileg</objectType></p>
-               <p><objectType>Typisierung 2</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+               <p><objectType>Privileg, päpstlich</objectType></p>
+               <p><objectType>direkte persönliche Einwirkung</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
