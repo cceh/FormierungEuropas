@@ -62,15 +62,14 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listWit>
-               <witness><bibl>[Dekretale 1]</bibl></witness>
-               <witness><bibl>[Dekretale 2]</bibl></witness>
+               <witness><bibl>-</bibl></witness>
             </listWit>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie</head>
             <listWit>
                <witness>
-                  <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+                  <bibl>-</bibl>
                </witness>
             </listWit>
          </div>
