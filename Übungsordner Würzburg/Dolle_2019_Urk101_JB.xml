@@ -31,7 +31,7 @@
          <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[]</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit</head><p>Venerabilis frater noster H(artwicus) Bremensis </p></div>
          <div type="abstract"><head>Abstract:</head>
          <div>
-            <p><legalActor type="issuer"><persName>Papst Viktor IV. </persName></legalActor>teilt dem <legalActor type="beneficiary"><persName>Abt Bruno von Hersefeld</persName></legalActor>und dem Konvent mit, dass er das Kloster an den  <persName>Erzbischof Hartwig von Hamburg-Bremen</persName>,  übertragen habe und fordert sie zum geschuldeten Gehorsam <diploPart>(debitum obsequium)</diploPart> auf.  Außerdem sind ggf. <bibl>Literaturzitate</bibl> und <ref>Querverweise</ref> möglich. Wörtliche Zitate könnten mit dem entsprechenden <diploPart>Urkundenbestandtteil</diploPart> ausgezeichet werden. Einzelne Rechtstitel, etwa bei Privilegien, werden als Liste aufgeführt, auch dort können alle im "abstract" zulässigen Entitäten ausgezeichnet werden.]</p>
+            <p><legalActor type="issuer"><persName>Papst Viktor IV. </persName></legalActor>teilt dem <legalActor type="beneficiary"><persName>Abt Bruno von Hersefeld </persName></legalActor>und dem Konvent mit, dass er das Kloster an den  <persName>Erzbischof Hartwig von Hamburg-Bremen</persName>, übertragen habe und fordert sie zum geschuldeten Gehorsam <diploPart>(debitum obsequium)</diploPart> auf. </p>
             <list>
                <item>[Item 1]</item>
                <item>[Item 2]</item>
