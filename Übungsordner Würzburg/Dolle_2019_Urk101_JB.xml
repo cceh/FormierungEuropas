@@ -20,8 +20,8 @@
                <legalActor type="issuer">Viktor IV., Papst</legalActor></issued></p>
                  <p> <legalActor type="recipient">Bruno, Abt des Klosters Hersefeld</legalActor></p>
                  <p> <legalActor type="recipient">Kloster Hersefeld</legalActor></p>
-               <p><objectType>Typisierung 1</objectType></p>
-               <p><objectType>Typisierung 2</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+               <p><objectType>Privileg</objectType></p>
+               <p><objectType>direkte persönliche Einwirkung</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
