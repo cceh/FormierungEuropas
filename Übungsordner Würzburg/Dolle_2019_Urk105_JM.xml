@@ -27,7 +27,7 @@
       </fileDesc>
    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
    <text>
-      <body>
+      
          <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[]</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit:</head><p>Relatam est auribus nostris, quod</p></div>
          <div type="abstract"><head>Abstract:</head>
          <div>
@@ -89,11 +89,7 @@
                <bibl>JL 12089</bibl>
                <bibl>Germ. Pont. VI S. 94 Nr. 5.</bibl>
                <bibl>RegEbBremen 1 Nr. 577</bibl>
-               <bibl>[Regest 4 mit doi: <ref>[10.58137/001-2023-53]</ref>]</bibl>
-            </listBibl>
-         </div>
-         <div type="Sachkommentar">
-            <head>Sachkommentar</head>
+               </listBibl></div><div type="Sachkommentar"><head>Sachkommentar</head>
             <p>[Mit <bibl>Bibliographischen Angaben</bibl>, weiteren Entitäten und Anmerkungen zu Urkundenbestandtteilen, der Echtheit und Datierung.]</p>
          </div>
          <div type="bibliography">
@@ -101,6 +97,6 @@
             <bibl>[Weitere Referenzen]</bibl>
          </listBibl>
          </div>
-      </body>
+      
    </text>
 </TEI>
