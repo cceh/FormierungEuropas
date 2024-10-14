@@ -60,20 +60,20 @@
             </listWit>
          </div>
          </div>
-         <div type="decretals">
+         
             <head>Dekretalen</head><head/>
             
                <witness/><witness/>
             
-         </div>
-         <div type="historiography">
-            <head>Erwähnungen in der Historiographie</head>
+         
+         
+            Erwähnungen in der Historiographie
             <listWit>
                <witness>
                   <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
                </witness>
             </listWit>
-         </div>
+         
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
