@@ -61,11 +61,10 @@
          </div>
          </div>
          <div type="decretals">
-            <head>Dekretalen</head>
-            <listWit>
-               <witness><bibl>[Dekretale 1]</bibl></witness>
-               <witness><bibl>[Dekretale 2]</bibl></witness>
-            </listWit>
+            <head>Dekretalen</head><head/>
+            
+               <witness/><witness/>
+            
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie</head>
