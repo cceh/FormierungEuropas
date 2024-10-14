@@ -31,7 +31,7 @@
          <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[]</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit:</head><p>Relatam est auribus nostris, quod</p></div>
          <div type="abstract"><head>Abstract:</head>
          <div>
-            <p>[Regestentext mit <legalActor type="issuer"><persName>Aussteller</persName></legalActor>, <legalActor type="beneficiary"><persName>Empfänger</persName></legalActor>; weitere <persName>Personen</persName>, <placeName>Orte</placeName>, <orgName>Institutionen</orgName> und auch <eventName>Ereignisse</eventName>. Außerdem sind ggf. <bibl>Literaturzitate</bibl> und <ref>Querverweise</ref> möglich. Wörtliche Zitate könnten mit dem entsprechenden <diploPart>Urkundenbestandtteil</diploPart> ausgezeichet werden. Papst Alexander III. schreibt dem Bremer Domkapitel die Art und Weise der Bischofswahl vor und befiehlt den Ausschluss der Laien.</p>
+            <p>[Regestentext mit <legalActor type="issuer"><persName>Aussteller</persName></legalActor>, <legalActor type="beneficiary"><persName>Empfänger</persName></legalActor>; weitere <persName>Personen</persName>, <placeName>Orte</placeName>, <orgName>Institutionen</orgName> und auch <eventName>Ereignisse</eventName>. Außerdem sind ggf. <bibl>Literaturzitate</bibl> und <ref>Querverweise</ref> möglich. Wörtliche Zitate könnten mit dem entsprechenden <diploPart>Urkundenbestandtteil</diploPart> ausgezeichet werden. <legalActor><persName>Papst Alexander III.</persName></legalActor> schreibt dem Bremer Domkapitel die Art und Weise der Bischofswahl vor und befiehlt den Ausschluss der Laien.</p>
             <list>
                <item>[Item 1]</item>
                <item>[Item 2]</item>
