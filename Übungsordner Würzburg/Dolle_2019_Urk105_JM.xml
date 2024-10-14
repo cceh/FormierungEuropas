@@ -21,7 +21,7 @@
                  <p> <legalActor type="recipient">Bremer Domkapitel</legalActor></p>
                  <p> <legalActor type="recipient">Recipient 2</legalActor></p>
                <p><objectType>Päpstliches Mandat</objectType></p>
-               <p><objectType>Typisierung 2</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+               <p><objectType>direkte Einwirkung</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
@@ -31,7 +31,7 @@
          <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[]</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit:</head><p>Relatam est auribus nostris, quod</p></div>
          <div type="abstract"><head>Abstract:</head>
          <div>
-            <p>[Regestentext mit <legalActor type="issuer"><persName>Aussteller</persName></legalActor>, <legalActor type="beneficiary"><persName>Empfänger</persName></legalActor>; weitere <persName>Personen</persName>, <placeName>Orte</placeName>, <orgName>Institutionen</orgName> und auch <eventName>Ereignisse</eventName>. Außerdem sind ggf. <bibl>Literaturzitate</bibl> und <ref>Querverweise</ref> möglich. Wörtliche Zitate könnten mit dem entsprechenden <diploPart>Urkundenbestandtteil</diploPart> ausgezeichet werden. Einzelne Rechtstitel, etwa bei Privilegien, werden als Liste aufgeführt, auch dort können alle im "abstract" zulässigen Entitäten ausgezeichnet werden.]</p>
+            <p>[Regestentext mit <legalActor type="issuer"><persName>Aussteller</persName></legalActor>, <legalActor type="beneficiary"><persName>Empfänger</persName></legalActor>; weitere <persName>Personen</persName>, <placeName>Orte</placeName>, <orgName>Institutionen</orgName> und auch <eventName>Ereignisse</eventName>. Außerdem sind ggf. <bibl>Literaturzitate</bibl> und <ref>Querverweise</ref> möglich. Wörtliche Zitate könnten mit dem entsprechenden <diploPart>Urkundenbestandtteil</diploPart> ausgezeichet werden. EPapst Alexander ITI. schreibt dem Bremer Domkapitel die Art und Weise der Bischofswahl vor und befiehlt den Ausschluss der Laien. ]</p>
             <list>
                <item>[Item 1]</item>
                <item>[Item 2]</item>
