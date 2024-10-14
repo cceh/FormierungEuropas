@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Die Nummer des Regests im Projekt</title>
@@ -25,46 +24,28 @@
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
-   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
-   
-      
-         <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[]</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit:</head><p>Relatam est auribus nostris, quod</p></div>
-         <div type="abstract"><head>Abstract:</head>
+   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader><div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[]</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit:</head><p>Relatam est auribus nostris, quod</p></div><div type="abstract"><head>Abstract:</head>
          <div>
             <p><legalActor><persName>Papst Alexander III.</persName></legalActor> schreibt dem <legalActor><orgName>Bremer Domkapitel</orgName></legalActor> die Art und Weise der Bischofswahl vor und befiehlt den Ausschluss der Laien.</p>
             
          </div>
-         </div>
-         <div type="witness">
+         </div><div type="witness">
             <head>Überlieferungsträger</head>
-         </div>
-         <div type="msSources">
+         </div><div type="msSources">
              <head>Handschriftliche Überlieferung (Liste)</head>
             
-         </div>
-         
-            <head>Dekretalen</head><head/>
-            
-               <witness/><witness/>
-            
-         
-         
-            Erwähnungen in der Historiographie
-            <listWit>
+         </div><head>Dekretalen</head><head/><witness/><witness/><listWit>
                <witness>
                   <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
                </witness>
-            </listWit>
-         
-         <div type="editions">
+            </listWit><div type="editions">
             <head>Editionen</head>
             <listBibl>
                <bibl>PL 200 Sp. 1270f. Nr. 1462</bibl>
                <bibl>UB Hamburg 1, Nr. 237</bibl><bibl>PU Niedersachsen und Bremen, Nr. 105</bibl>
                
             </listBibl>
-         </div>
-         <div type="regesta">
+         </div><div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 12089</bibl>
@@ -72,12 +53,8 @@
                <bibl>Reg. Ebf. Bremen 1 Nr. 577</bibl>
                </listBibl></div><div type="Sachkommentar"><head>Sachkommentar</head>
             <p>Der Papst bezieht sich laut von Below auf die zwiespältige Wahl nach dem Tod Erzbischof Hartwigs von Bremen (ft 11. Okt, 1168). Auf Veranlassung Heinrichs des Löwen wurde schließlich die Wahl durch den Kaiser für ungültig erklärt und Heinrichs Günstling Balduin gewählt.</p>
-         </div>
-         <div type="bibliography">
+         </div><div type="bibliography">
          <listBibl>
             <bibl>[Weitere Referenzen]</bibl>
          </listBibl>
-         </div>
-      
-   
-</TEI>
+         </div></TEI>
