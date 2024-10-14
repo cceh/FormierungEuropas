@@ -31,8 +31,8 @@
          <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[]</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit:</head><p>Relatam est auribus nostris, quod</p></div>
          <div type="abstract"><head>Abstract:</head>
          <div>
-            <p><legalActor><persName>Papst Alexander III.</persName></legalActor> schreibt dem <legalActor><orgName>Bremer Domkapitel</orgName></legalActor> die Art und Weise der Bischofswahl vor und befiehlt den Ausschluss der Laien.</p><list>
-            </list>
+            <p><legalActor><persName>Papst Alexander III.</persName></legalActor> schreibt dem <legalActor><orgName>Bremer Domkapitel</orgName></legalActor> die Art und Weise der Bischofswahl vor und befiehlt den Ausschluss der Laien.</p>
+            
          </div>
          </div>
          <div type="witness">
@@ -86,8 +86,8 @@
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>[Regest 1]</bibl>
-               <bibl>[Regest 2]</bibl>
+               <bibl>JL 12089</bibl>
+               <bibl>Germ. Pont. VI S. 94 Nr. 5.</bibl>
                <bibl>[Regest 3]</bibl>
                <bibl>[Regest 4 mit doi: <ref>[10.58137/001-2023-53]</ref>]</bibl>
             </listBibl>
