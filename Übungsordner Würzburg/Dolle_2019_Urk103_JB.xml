@@ -32,7 +32,7 @@
          <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[]</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit:</head><p>Iustis petentium desideriis facilem nos</p></div>
          <div type="abstract"><head>Abstract:</head>
          <div>
-            <p> <legalActor type="issuer"><persName>Papst Viktor IV.</persName></legalActor>nimmt die <legalActor><orgName>Kirche von Hildesheim</orgName></legalActor> weitere <persName>Personen</persName>, <placeName>Orte</placeName>, <orgName>Institutionen</orgName> und auch <eventName>Ereignisse</eventName>. Außerdem sind ggf. <bibl>Literaturzitate</bibl> und <ref>Querverweise</ref> möglich. Wörtliche Zitate könnten mit dem entsprechenden <diploPart>Urkundenbestandtteil</diploPart> ausgezeichet werden. Einzelne Rechtstitel, etwa bei Privilegien, werden als Liste aufgeführt, auch dort können alle im "abstract" zulässigen Entitäten ausgezeichnet werden.]</p>
+            <p> <legalActor type="issuer"><persName>Papst Viktor IV.</persName></legalActor>nimmt die <legalActor><orgName>Kirche von Hildesheim</orgName></legalActor>in den päpstlichen Schutz weitere <persName>Personen</persName>, <placeName>Orte</placeName>, <orgName>Institutionen</orgName> und auch <eventName>Ereignisse</eventName>. Außerdem sind ggf. <bibl>Literaturzitate</bibl> und <ref>Querverweise</ref> möglich. Wörtliche Zitate könnten mit dem entsprechenden <diploPart>Urkundenbestandtteil</diploPart> ausgezeichet werden. Einzelne Rechtstitel, etwa bei Privilegien, werden als Liste aufgeführt, auch dort können alle im "abstract" zulässigen Entitäten ausgezeichnet werden.]</p>
             <list>
                <item>[Item 1]</item>
                <item>[Item 2]</item>
