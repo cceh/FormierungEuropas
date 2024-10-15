@@ -19,9 +19,9 @@
             <diploDesc><p><issued><placeName>Pavia</placeName><date type="issued" notBefore="1000-01-01" notAfter="1000-01-01">1160 November 19</date>
                </issued></p>
                <p><legalActor type="issuer">Viktor IV., Papst</legalActor></p>
-                 <p> <legalActor type="recipient">Recipient 1</legalActor></p>
+                 <p> <legalActor type="recipient">Kirche von Hildesheim</legalActor></p>
                  <p> <legalActor type="recipient">Recipient 2</legalActor></p>
-               <p><objectType>Typisierung 1</objectType></p>
+               <p><objectType>Privileg</objectType></p>
                <p><objectType>Typisierung 2</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
