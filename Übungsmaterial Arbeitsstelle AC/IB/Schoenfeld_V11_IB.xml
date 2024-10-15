@@ -22,13 +22,7 @@
          <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[*!?]</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit:</head><p>[Quam amabilis deo]</p></div>
          <div type="abstract"><head>Abstract:</head>
          <div>
-            <p>[<legalActor type="issuer"><persName>Viktor IV.</persName></legalActor> ruft <legalActor type="beneficiary"><persName>alle kirchlichen Würdenträger</persName></legalActor> zur Unterstützung der <orgName>Johanniter</orgName> und zu Sammlungen zu deren Gunsten auf. Er führt Gegenleistungen auf, die allen Wohltätern des <orgName>Hospitals</orgName> in <placeName>Jerusalem</placeName> zuteilwerden sollen, und ordnet die Weiterverbreitung der genannten Verfügungen durch die Empfänger an.  <persName>Personen</persName>, <placeName>Orte</placeName>, <orgName>Institutionen</orgName> und auch <eventName>Ereignisse</eventName>.]</p>
-            <list>
-               <item>[Item 1]</item>
-               <item>[Item 2]</item>
-               <item>[Item 3]</item>
-               <item>[Item 4]</item>
-            </list>
+            <p>[<legalActor type="issuer"><persName>Viktor IV.</persName></legalActor> ruft <legalActor type="beneficiary"><persName>alle kirchlichen Würdenträger</persName></legalActor> zur Unterstützung der <orgName>Johanniter</orgName> und zu Sammlungen zu deren Gunsten auf. Er führt Gegenleistungen auf, die allen Wohltätern des <orgName>Hospitals</orgName> in <placeName>Jerusalem</placeName> zuteilwerden sollen, und ordnet die Weiterverbreitung der genannten Verfügungen durch die Empfänger an.  <persName>Personen</persName>, <placeName>Orte</placeName>, <orgName>Institutionen</orgName> und auch <eventName>Ereignisse</eventName>.<item>]</item><item>[Item 2]</item><item>[Item 3]</item><item>[Item 4]</item></p>
          </div>
          </div>
          <div type="witness">
