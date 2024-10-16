@@ -23,9 +23,9 @@
                </issued></p>
                <p><legalActor cert="high" type="issuer" xml:space="default"><persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="Viktor IV. (Oktavian)" xml:space="default">Viktor IV.</persName></legalActor></p>
                  <p> <legalActor type="recipient"><orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="Kloster Floreffe" xml:space="default">Kloster Floreffe</orgName></legalActor></p>
-                 <p> <legalActor type="recipient">Recipient 2</legalActor></p>
-               <p><objectType>Typisierung 1</objectType></p>
-               <p><objectType>Typisierung 2</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+                 
+               <p><objectType>Einfaches Privileg</objectType></p>
+               <p><objectType>Besitzbestätigung</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
