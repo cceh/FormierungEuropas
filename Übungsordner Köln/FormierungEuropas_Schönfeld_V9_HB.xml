@@ -18,7 +18,7 @@
          <sourceDesc>
             <diploDesc><p><issued><placeName>Segni</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1159-11-30" precision="high" unit="cm" xml:space="default" notBefore="1150-10-01" type="issued">1159, (Oktober-November)</date>
                <date type="issued" when="1000-01-01">Ausstellungsdatum (Zeitpunkt)</date></issued></p>
-               <p><legalActor cert="high" type="issuer" xml:space="default">Victor IV.</legalActor></p>
+               <p><persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="Viktor, Oktavian, 1159-1164" xml:space="default">Victor IV.</persName></p>
                  <p> <legalActor type="recipient">Recipient 1</legalActor></p>
                  <p> <legalActor type="recipient">Recipient 2</legalActor></p>
                <p><objectType>Typisierung 1</objectType></p>
