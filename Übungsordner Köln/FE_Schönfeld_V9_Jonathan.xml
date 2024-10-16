@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Die Nummer des Regests im Projekt</title>
+            <title>FE_Schönfeld_V9</title>
             <respStmt xml:id="FE">
                <resp>Bearbeiter*in:</resp><persName>Bejamin Schönfeld</persName></respStmt>
            <respStmt xml:id="default"><resp when="2024">Encoding:</resp><persName>Jonathan Blumtritt</persName></respStmt>
