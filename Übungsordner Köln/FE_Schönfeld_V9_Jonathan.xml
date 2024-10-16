@@ -20,8 +20,8 @@
             <diploDesc><p><issued><placeName>Segni</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1159-10-01" precision="high" unit="cm" xml:space="default" notBefore="1159-11-30" type="issued">1159, (Oktober–November)</date>
                </issued></p>
                <p><legalActor type="issuer"><persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" xml:space="default" key="Viktor IV. (Oktavian), 1059–1164" ref="https://d-nb.info/gnd/100963838">Viktor IV.</persName></legalActor></p>
-                 <p><legalActor type="recipient"><orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" ref="https://d-nb.info/gnd/4438899-8" xml:space="default">Kloster Oberaltaich</orgName></legalActor></p><p><objectType>Typisierung 1</objectType></p>
-               <p><objectType>Typisierung 2</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+                 <p><legalActor type="recipient"><orgName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" ref="https://d-nb.info/gnd/4438899-8" xml:space="default">Kloster Oberaltaich</orgName></legalActor></p><p><objectType>päpstliches Privileg</objectType></p>
+               <p><objectType>päpstlicher Schutz</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
