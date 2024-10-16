@@ -244,15 +244,15 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>[Edition 1]</bibl>
-               <bibl>[Edition 2]</bibl>
-               <bibl>[Edition 3]</bibl>
+               <bibl>[Leibniz: Origines Guelfice, Bd. III, S. 449]</bibl>
+               <bibl>[Walther: Lexicon diplomaticum, Taf. 11 (Ausz.)]</bibl>
+               <bibl>[Janicke: Urkundenbuch des Hochstifts Hildesheim, Bd. I, S. 299, Nr. 315]</bibl>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>[Regest 1]</bibl>
+               <bibl>[ JL 14429]</bibl>
                <bibl>[Regest 2]</bibl>
                <bibl>[Regest 3]</bibl>
                <bibl>[Regest 4 mit doi: <ref>[10.58137/001-2023-53]</ref>]</bibl>
