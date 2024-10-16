@@ -34,15 +34,12 @@
       <body>
          <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[*!?]</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit:</head><p>[Ex iniuncto apostolatus]</p></div>
          <div type="abstract"><head>Abstract:</head>
-         <div>
-            <p>[<legalActor type="issuer"><persName>Viktor IV.</persName></legalActor>, bestätigt dem Abt von <placeName>Floreffe</placeName>, <legalActor type="beneficiary"><persName>Gerland</persName></legalActor>, die in seinem Besitz befindlichen Pfarrkirchen und bestätigt ihm das Recht, die Seelsorge dieser Pfarren geeigneten Priestern zu übertragen.</p><p>weitere <persName>Personen</persName>, <placeName>Orte</placeName>, <orgName>Institutionen</orgName> und auch <eventName>Ereignisse</eventName>. Außerdem sind ggf. <bibl>Literaturzitate</bibl> und <ref>Querverweise</ref> möglich. Wörtliche Zitate könnten mit dem entsprechenden <diploPart>Urkundenbestandtteil</diploPart> ausgezeichet werden. Einzelne Rechtstitel, etwa bei Privilegien, werden als Liste aufgeführt, auch dort können alle im "abstract" zulässigen Entitäten ausgezeichnet werden.]</p>
-            <list>
+         <div><legalActor type="issuer"><persName>Viktor IV.</persName></legalActor><placeName><orgName>Floreffe</orgName></placeName><legalActor type="beneficiary"><persName>Gerland</persName></legalActor><list>
                <item>[Item 1]</item>
                <item>[Item 2]</item>
                <item>[Item 3]</item>
                <item>[Item 4]</item>
-            </list>
-         </div>
+            </list></div>
          </div>
          <div type="witness">
             <head>Überlieferungsträger</head>
