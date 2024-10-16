@@ -16,8 +16,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <diploDesc><p><issued><placeName>Segni</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1159-11-30" precision="high" unit="cm" xml:space="default" notBefore="1150-10-01" type="issued">1159, (Oktober-November)</date>
-               Ausstellungsdatum (Zeitpunkt)</issued></p>
+            <diploDesc><p><issued><placeName>Segni</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1159-11-30" precision="high" unit="cm" xml:space="default" notBefore="1150-10-01" type="issued">1159, (Oktober-November)</date></issued></p>
                <p><legalActor cert="high" type="issuer" xml:space="default"><persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="Viktor, Oktavian, 1159-1164" xml:space="default">Victor IV.</persName></legalActor></p>
                  <p> <legalActor type="recipient"><orgName>Kloster Oberaltaich</orgName></legalActor></p>
                  <p> <legalActor type="recipient">Recipient 2</legalActor></p>
