@@ -19,13 +19,13 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <diploDesc><p><issued><placeName>Segni</placeName><date type="issued" notBefore="1000-01-01" notAfter="1000-01-01"><date from="1159-10-01" to="1159-11-30">Ausstellungsdatum (Zeitraum)</date></date>
-               <date type="issued" when="1000-01-01"><date when="1160-02-19">Ausstellungsdatum (Zeitpunkt)</date></date></issued></p>
+            <diploDesc><p><issued><placeName>Segni</placeName><date type="issued" notBefore="1000-01-01" notAfter="1000-01-01"><date from="1160-10-01" to="1160-11-30">Ausstellungsdatum (Zeitraum)</date></date>
+               <date type="issued" when="1000-01-01">Ausstellungsdatum (Zeitpunkt)</date></issued></p>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
                  <p><legalActor type="recipient">Kloster Oberaltaich</legalActor></p>
                  <p> <legalActor type="recipient">Recipient 2</legalActor></p>
-               <p><objectType>Urkunde</objectType></p>
-               <p><objectType>direkte persönliche Einwirkung</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+               <p><objectType>Typisierung 1</objectType></p>
+               <p><objectType>Typisierung 2</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
@@ -61,10 +61,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Template_Musterregest.xml?date_annotation_20241016155553676",
+	"id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Übungsmaterial Arbeitsstelle AC/Template_Musterregest.xml?date_annotation_20241016160029262",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-10-16T13:55:53.676Z",
-	"dcterms:modified": "2024-10-16T13:55:53.676Z",
+	"dcterms:created": "2024-10-16T14:00:29.262Z",
+	"dcterms:modified": "2024-10-16T14:00:29.262Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/isabelblumenroth",
 		"@type": [
@@ -75,10 +75,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Template_Musterregest.xml?date_annotation_20241016155553676#Target",
+		"@id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Übungsmaterial Arbeitsstelle AC/Template_Musterregest.xml?date_annotation_20241016160029262#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Template_Musterregest.xml",
+			"@id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Übungsmaterial Arbeitsstelle AC/Template_Musterregest.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -89,14 +89,14 @@
 			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Template_Musterregest.xml?date_annotation_20241016155553676#Selector",
+			"@id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Übungsmaterial Arbeitsstelle AC/Template_Musterregest.xml?date_annotation_20241016160029262#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/teiHeader/fileDesc/sourceDesc/diploDesc/p/issued/date/date"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "xsd:date",
-		"rdf:value": "1159-10-01/1159-11-30"
+		"rdf:value": "1160-10-01/1160-11-30"
 	},
 	"as:generator": {
 		"@id": "https://stable.leafwriter.users.h-da.cloud",
@@ -110,10 +110,10 @@
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
-         <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[*!?]</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit:</head><p>[Pie postulatio voluntatis]</p></div>
+         <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[*!?]</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit:</head><p>[Lorem Ipsum]</p></div>
          <div type="abstract"><head>Abstract:</head>
          <div>
-            [<legalActor type="issuer"><persName>Viktor IV.</persName></legalActor>, stellt das <legalActor type="beneficiary"><placeName>Kloster Oberaltaich</placeName></legalActor> unter Abt <persName>Theoderich</persName>, unter apostolischen Schutz <placeName>Orte</placeName>, <orgName>Institutionen</orgName> und auch <eventName>Ereignisse</eventName>. Außerdem sind ggf. <bibl>Literaturzitate</bibl> und <ref>Querverweise</ref> möglich. Wörtliche Zitate könnten mit dem entsprechenden <diploPart>Urkundenbestandtteil</diploPart> ausgezeichet werden. Einzelne Rechtstitel, etwa bei Privilegien, werden als Liste aufgeführt, auch dort können alle im "abstract" zulässigen Entitäten ausgezeichnet werden.]
+            <p>[Regestentext mit <legalActor type="issuer"><persName>Aussteller</persName></legalActor>, <legalActor type="beneficiary"><persName>Empfänger</persName></legalActor>; weitere <persName>Personen</persName>, <placeName>Orte</placeName>, <orgName>Institutionen</orgName> und auch <eventName>Ereignisse</eventName>. Außerdem sind ggf. <bibl>Literaturzitate</bibl> und <ref>Querverweise</ref> möglich. Wörtliche Zitate könnten mit dem entsprechenden <diploPart>Urkundenbestandtteil</diploPart> ausgezeichet werden. Einzelne Rechtstitel, etwa bei Privilegien, werden als Liste aufgeführt, auch dort können alle im "abstract" zulässigen Entitäten ausgezeichnet werden.]</p>
             <list>
                <item>[Item 1]</item>
                <item>[Item 2]</item>
