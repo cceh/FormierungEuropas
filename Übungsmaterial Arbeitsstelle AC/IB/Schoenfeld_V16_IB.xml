@@ -21,8 +21,8 @@
          <sourceDesc>
             <diploDesc><p><placeName>Pavia</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1160-02-17" precision="high" unit="cm" xml:space="default" notBefore="1160-02-13" type="issued"><date from="1160-02-13" to="1160-02-17">Ausstellungsdatum (Zeitraum)</date></date>
                <date type="issued" when="1000-01-01">Ausstellungsdatum (Zeitpunkt)</date></p>
-               <p><legalActor type="issuer">Issuer</legalActor></p>
-                 <p> <legalActor type="recipient">Recipient 1</legalActor></p>
+               <p><legalActor type="issuer">Viktor IV.</legalActor></p>
+                 <p><legalActor type="recipient">Hartwig</legalActor></p>
                  <p> <legalActor type="recipient">Recipient 2</legalActor></p>
                <p><objectType>Typisierung 1</objectType></p>
                <p><objectType>Typisierung 2</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
