@@ -61,10 +61,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Template_Musterregest.xml?date_annotation_20241016125257156",
+	"id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Übungsmaterial Arbeitsstelle AC/IB/Schoenfeld_V*17_IB.xml?date_annotation_20241016125257156",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-16T10:52:57.156Z",
-	"dcterms:modified": "2024-10-16T10:52:57.156Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/isabelblumenroth",
 		"@type": [
@@ -75,10 +74,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Template_Musterregest.xml?date_annotation_20241016125257156#Target",
+		"@id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Übungsmaterial Arbeitsstelle AC/IB/Schoenfeld_V*17_IB.xml?date_annotation_20241016125257156#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Template_Musterregest.xml",
+			"@id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Übungsmaterial Arbeitsstelle AC/IB/Schoenfeld_V*17_IB.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -89,7 +88,7 @@
 			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Template_Musterregest.xml?date_annotation_20241016125257156#Selector",
+			"@id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Übungsmaterial Arbeitsstelle AC/IB/Schoenfeld_V*17_IB.xml?date_annotation_20241016125257156#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/teiHeader/fileDesc/sourceDesc/diploDesc/p/issued/date/date"
 		}
@@ -113,7 +112,7 @@
          <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[*]</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit:</head><p>[‒]</p></div>
          <div type="abstract"><head>Abstract:</head>
          <div>
-            <p>[<legalActor type="issuer"><persName>Viktor IV. </persName></legalActor>entsendet Legaten, um die auf dem Konzil von <placeName>Pavia</placeName> gefassten Beschlüsse publik zu machen, so zum Beispiel <persName>Hermann</persName> von <placeName>Verden</placeName> nach <placeName>Spanien</placeName> und Bischof <persName>Daniel</persName> von <placeName>Prag</placeName> nach <placeName>Ungarn</placeName>.]</p>
+            <p>[<legalActor type="issuer"><persName>Viktor IV. </persName></legalActor>entsendet Legaten, um die auf dem Konzil von Pavia gefassten Beschlüsse publik zu machen, so zum Beispiel <persName>Hermann</persName> von <placeName>Verden</placeName> nach <placeName>Spanien</placeName> und Bischof <persName>Daniel</persName> von <placeName>Prag</placeName> nach <placeName>Ungarn</placeName>.]</p>
             <list>
                <item>[Item 1]</item>
                <item>[Item 2]</item>
