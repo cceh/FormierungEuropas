@@ -23,8 +23,8 @@
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
                  <p> <legalActor type="recipient"><orgName key="Abbaye de Floreffe" ref="https://d-nb.info/gnd/4237173-9">Floreffe</orgName></legalActor></p>
                  <p> <legalActor type="recipient">Recipient 2</legalActor></p>
-               <p><objectType>einfac</objectType></p>
-               <p><objectType>Typisierung 2</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+               <p><objectType>einfaches Privileg</objectType></p>
+               <p><objectType>Besitzbestätigung</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
