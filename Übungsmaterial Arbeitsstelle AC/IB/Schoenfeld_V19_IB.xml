@@ -8,7 +8,7 @@
             <title>Die Nummer des Regests im Projekt</title>
             <respStmt xml:id="FE">
                <resp>Bearbeiter*in:</resp>
-               <persName>[Benjamin Schönfeld]</persName>
+               <persName>[Benjamin Schönefeld]</persName>
             </respStmt>
            <respStmt xml:id="default"><resp when="2024">Encoding:</resp><persName>[Isabel Blumenroth]</persName></respStmt>
          </titleStmt>
@@ -22,10 +22,10 @@
             <diploDesc><p><issued><placeName>Pavia</placeName><date type="issued" notBefore="1000-01-01" notAfter="1000-01-01">Ausstellungsdatum (Zeitraum)</date>
                <date type="issued" when="1000-01-01"><date when="1160-02-15">Ausstellungsdatum (Zeitpunkt)</date></date></issued></p>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
-                 <p><legalActor type="recipient">Magdeburger Kanoniker</legalActor></p>
+                 <p><legalActor type="recipient">Magdeburger Kanoni</legalActor></p>
                  <p> <legalActor type="recipient">Recipient 2</legalActor></p>
-               <p><objectType>Urkunde</objectType></p>
-               <p><objectType>direkte persönliche Einwirkung</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+               <p><objectType>Typisierung 1</objectType></p>
+               <p><objectType>Typisierung 2</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
@@ -61,10 +61,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Übungsmaterial Arbeitsstelle AC/Template_Musterregest.xml?date_annotation_20241016152032735",
+	"id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Übungsmaterial Arbeitsstelle AC/Template_Musterregest.xml?date_annotation_20241016152503843",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-10-16T13:20:32.735Z",
-	"dcterms:modified": "2024-10-16T13:20:32.735Z",
+	"dcterms:created": "2024-10-16T13:25:03.843Z",
+	"dcterms:modified": "2024-10-16T13:25:03.843Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/isabelblumenroth",
 		"@type": [
@@ -75,7 +75,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Übungsmaterial Arbeitsstelle AC/Template_Musterregest.xml?date_annotation_20241016152032735#Target",
+		"@id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Übungsmaterial Arbeitsstelle AC/Template_Musterregest.xml?date_annotation_20241016152503843#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Übungsmaterial Arbeitsstelle AC/Template_Musterregest.xml",
@@ -89,7 +89,7 @@
 			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Übungsmaterial Arbeitsstelle AC/Template_Musterregest.xml?date_annotation_20241016152032735#Selector",
+			"@id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Übungsmaterial Arbeitsstelle AC/Template_Musterregest.xml?date_annotation_20241016152503843#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/teiHeader/fileDesc/sourceDesc/diploDesc/p/issued/date[2]/date"
 		}
@@ -110,14 +110,17 @@
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
-         <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[*!?]</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit:</head><p>[Iustis petencium desideriis]</p></div>
+         <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[*!?]</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit:</head><p>[Lorem Ipsum]</p></div>
          <div type="abstract"><head>Abstract:</head>
-         <div><legalActor type="issuer"><persName>Viktor IV. </persName></legalActor><legalActor type="beneficiary"><orgName>Magdeburger Kanonikern</orgName></legalActor><persName>Personen</persName><placeName>Orte</placeName><orgName>Institutionen</orgName><eventName>Ereignisse</eventName><bibl>Literaturzitate</bibl><ref>Querverweise</ref><diploPart>Urkundenbestandtteil</diploPart><list>
+         <div>
+            <p>[Regestentext mit <legalActor type="issuer"><persName>Aussteller</persName></legalActor>, <legalActor type="beneficiary"><persName>Empfänger</persName></legalActor>; weitere <persName>Personen</persName>, <placeName>Orte</placeName>, <orgName>Institutionen</orgName> und auch <eventName>Ereignisse</eventName>. Außerdem sind ggf. <bibl>Literaturzitate</bibl> und <ref>Querverweise</ref> möglich. Wörtliche Zitate könnten mit dem entsprechenden <diploPart>Urkundenbestandtteil</diploPart> ausgezeichet werden. Einzelne Rechtstitel, etwa bei Privilegien, werden als Liste aufgeführt, auch dort können alle im "abstract" zulässigen Entitäten ausgezeichnet werden.]</p>
+            <list>
                <item>[Item 1]</item>
                <item>[Item 2]</item>
                <item>[Item 3]</item>
                <item>[Item 4]</item>
-            </list></div>
+            </list>
+         </div>
          </div>
          <div type="witness">
             <head>Überlieferungsträger</head>
