@@ -107,13 +107,92 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Template_Musterregest.xml?place_annotation_20241016132926362",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-16T11:29:26.362Z",
+	"dcterms:modified": "2024-10-16T11:29:26.362Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/isabelblumenroth",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Isabel Blumenroth"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Template_Musterregest.xml?place_annotation_20241016132926362#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Template_Musterregest.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://stable.leafwriter.users.h-da.cloud",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Template_Musterregest.xml?place_annotation_20241016132926362#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[3]/div/p/rs/rs/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q32761313",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://stable.leafwriter.users.h-da.cloud",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
          <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[*!?]</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit:</head><p>[Sacrosancta Romana sedes]</p></div>
          <div type="abstract"><head>Abstract:</head>
          <div>
-            <p>[<legalActor type="issuer"><persName>Viktor IV. </persName></legalActor>untersagt <persName>Bruno</persName>, dem Bischof von <placeName>Hildesheim</placeName>, und seinen Nachfolgern, die zum Schutz der <orgName>Hildesheimer Kirche</orgName> errichtete <rs><rs>Winzenburg</rs></rs> einem Laien zum Lehen zu geben oder anderweitig zu veräußern.]</p>
+            <p>[<legalActor type="issuer"><persName>Viktor IV. </persName></legalActor>untersagt <persName>Bruno</persName>, dem Bischof von <placeName>Hildesheim</placeName>, und seinen Nachfolgern, die zum Schutz der <orgName>Hildesheimer Kirche</orgName> errichtete <rs><rs><placeName key="Winzenburg" ref="http://www.wikidata.org/entity/Q32761313">Winzenburg</placeName></rs></rs> einem Laien zum Lehen zu geben oder anderweitig zu veräußern.]</p>
             <list>
                <item>[Item 1]</item>
                <item>[Item 2]</item>
