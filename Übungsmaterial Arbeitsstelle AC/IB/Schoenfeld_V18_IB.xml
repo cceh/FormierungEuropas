@@ -113,7 +113,7 @@
          <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[*!?]</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit:</head><p>[Sacrosancta Romana sedes]</p></div>
          <div type="abstract"><head>Abstract:</head>
          <div>
-            <p>[<legalActor type="issuer"><persName>Viktor IV. </persName></legalActor>untersagt <persName>Bruno</persName>, dem Bischof von <placeName>Hildesheim</placeName>, und seinen Nachfolgern, die zum Schutz der <orgName>Hildesheimer Kirche</orgName> errichtete <rs>Winzenburg</rs> einem Laien zum Lehen zu geben oder anderweitig zu veräußern.]</p>
+            <p>[<legalActor type="issuer"><persName>Viktor IV. </persName></legalActor>untersagt <persName>Bruno</persName>, dem Bischof von <placeName>Hildesheim</placeName>, und seinen Nachfolgern, die zum Schutz der <orgName>Hildesheimer Kirche</orgName> errichtete <rs><rs>Winzenburg</rs></rs> einem Laien zum Lehen zu geben oder anderweitig zu veräußern.]</p>
             <list>
                <item>[Item 1]</item>
                <item>[Item 2]</item>
