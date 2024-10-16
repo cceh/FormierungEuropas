@@ -20,7 +20,7 @@
                <p><legalActor cert="high" type="issuer" xml:space="default"><persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" key="Viktor, Oktavian, 1159-1164" xml:space="default">Victor IV.</persName></legalActor></p>
                  <p> <legalActor type="recipient"><orgName>Kloster Oberaltaich</orgName></legalActor></p>
                  <p> <legalActor type="recipient">Recipient 2</legalActor></p>
-               <p><objectType>päpstliches Privileg</objectType></p>
+               <p><objectType>feierliches Privileg</objectType></p>
                <p><objectType>Typisierung 2</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
