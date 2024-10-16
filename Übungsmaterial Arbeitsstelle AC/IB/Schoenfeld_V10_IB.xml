@@ -10,7 +10,7 @@
                <resp>Bearbeiter*in:</resp>
                <persName>[Benjamin Schönfeld]</persName>
             </respStmt>
-           <respStmt xml:id="default"><resp when="2024">Encoding:</resp><persName>[Isabel Blumenroth]</persName></respStmt>
+           <respStmt xml:id="default"><resp when="2024">Encoding:</resp><persName>[Isabel Blumenroth</persName><persName>]</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -34,12 +34,15 @@
       <body>
          <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[*!?]</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit:</head><p>[Ex iniuncto apostolatus]</p></div>
          <div type="abstract"><head>Abstract:</head>
-         <div><legalActor type="issuer"><persName>Viktor IV.</persName></legalActor><placeName><orgName>Floreffe</orgName></placeName><legalActor type="beneficiary"><persName>Gerland</persName></legalActor><list>
+         <div>
+            <p>[<legalActor type="issuer"><persName>Viktor IV.</persName></legalActor>, <legalActor type="beneficiary"><persName>Empfänger</persName></legalActor>; weitere <persName>Personen</persName>, <placeName>Orte</placeName>, <orgName>Institutionen</orgName> und auch <eventName>Ereignisse</eventName>. Außerdem sind ggf. <bibl>Literaturzitate</bibl> und <ref>Querverweise</ref> möglich. Wörtliche Zitate könnten mit dem entsprechenden <diploPart>Urkundenbestandtteil</diploPart> ausgezeichet werden. Einzelne Rechtstitel, etwa bei Privilegien, werden als Liste aufgeführt, auch dort können alle im "abstract" zulässigen Entitäten ausgezeichnet werden.]</p>
+            <list>
                <item>[Item 1]</item>
                <item>[Item 2]</item>
                <item>[Item 3]</item>
                <item>[Item 4]</item>
-            </list></div>
+            </list>
+         </div>
          </div>
          <div type="witness">
             <head>Überlieferungsträger</head>
