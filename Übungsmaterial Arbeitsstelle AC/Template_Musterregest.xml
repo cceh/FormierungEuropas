@@ -13,10 +13,8 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <diploDesc><p><issued><placeName>Pavia</placeName></issued></p><p><issued>Februar ex.-vor März 27 (Zeitraum)<date type="issued" when="1000-01-01">Ausstellungsdatum (Zeitpunkt)</date></issued></p>
-               <p><legalActor type="issuer">Issuer</legalActor></p>
-                 <p> <legalActor type="recipient">Recipient 1</legalActor></p>
-                 <p> <legalActor type="recipient">Recipient 2</legalActor></p>
+            <diploDesc><p><issued><placeName>Pavia</placeName></issued></p><p><issued>Februar ex.-vor März 27 (Zeitraum)<date type="issued" when="1000-01-01">1160 (Zeitpunkt)</date></issued></p>
+               <p><legalActor type="issuer">Viktor IV.</legalActor></p>
                <p><objectType>Typisierung 1</objectType></p>
                <p><objectType>Typisierung 2</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
