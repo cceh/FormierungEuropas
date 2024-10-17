@@ -6,10 +6,7 @@
       <fileDesc>
          <titleStmt>
             <title>Die Nummer des Regests im Projekt</title>
-            <respStmt xml:id="FE">
-               <resp>Bearbeiter*in:</resp>
-               <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
-            </respStmt>
+            <respStmt xml:id="FE"><resp>Bearbeiter*in:</resp><persName>Julia Becker</persName></respStmt>
            <respStmt xml:id="default"><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Bearbeiter*in]</persName></respStmt>
          </titleStmt>
          <publicationStmt>
