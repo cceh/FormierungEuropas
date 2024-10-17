@@ -26,7 +26,7 @@
          <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[*!?]</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit:</head><p>[Lorem Ipsum]</p></div>
          <div type="abstract"><head>Abstract:</head>
          <div>
-            <p>Viktor IV. entsendet Legaten, um die auf dem Konzil von Pavia gefassten Beschlüsse publik zu machen, so zum Beispiel Bischof Hermann von Verden nach Spanien und Bischof Daniel von Prag nach Ungarn. Wörtliche Zitate könnten mit dem entsprechenden <diploPart>Urkundenbestandtteil</diploPart> ausgezeichet werden. Einzelne Rechtstitel, etwa bei Privilegien, werden als Liste aufgeführt, auch dort können alle im "abstract" zulässigen Entitäten ausgezeichnet werden.]</p>
+            <p><persName>Viktor IV.</persName> entsendet Legaten, um die auf dem Konzil von <placeName>Pavia</placeName> gefassten Beschlüsse publik zu machen, so zum Beispiel Bischof Hermann von Verden nach Spanien und Bischof Daniel von Prag nach Ungarn. Wörtliche Zitate könnten mit dem entsprechenden <diploPart>Urkundenbestandtteil</diploPart> ausgezeichet werden. Einzelne Rechtstitel, etwa bei Privilegien, werden als Liste aufgeführt, auch dort können alle im "abstract" zulässigen Entitäten ausgezeichnet werden.]</p>
             <list>
                <item>[Item 1]</item>
                <item>[Item 2]</item>
