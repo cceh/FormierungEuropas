@@ -48,7 +48,7 @@
          <div type="msSources">
              <head>Handschriftliche Überlieferung (Liste)</head>
             <div>
-            <listWit><witness><bibl><msDesc><msIdentifier><placeName>[Bibliotheksort] </placeName><institution>[Institution]</institution><repository>[Bibliothek] </repository><collection>[Sammlung]</collection><idno type="shelfmark">[Signatur]</idno></msIdentifier><copyStatus type="original">[Original]</copyStatus><history><origin notBefore="0799-01-01" notAfter="0900-01-01">[12. Jh.]</origin></history></msDesc></bibl></witness><witness><msDesc>
+            <listWit><witness><bibl>[Bibliotheksort] <institution>[Institution]</institution><repository>[Bibliothek] </repository><collection>[Sammlung]</collection><idno type="shelfmark">[Signatur]</idno><copyStatus type="original">[Original]</copyStatus><history><origin notBefore="0799-01-01" notAfter="0900-01-01">[12. Jh.]</origin></history></bibl></witness><witness><msDesc>
                   <msIdentifier>
                      <placeName>[Bibliotheksort]</placeName>
                      <institution>[Institution]</institution>
