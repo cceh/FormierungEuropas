@@ -39,7 +39,7 @@
          </div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung (Liste)</head>
-            <div><p>Verlorene Kopie: Namur, Staatsarchiv, Floreffe Nr. 7, olim 139.</p></div>
+            <div><p>Verlorene Kopie: <bibl cert="high" default="true" generatedBy="human" type="manuscript" xml:space="default">Namur, Staatsarchiv, Floreffe Nr. 7, olim 139</bibl>.</p></div>
          </div>
          <div type="decretals"><head>Dekretalen</head><listWit>
                <witness><bibl>[Dekretale 1]</bibl></witness>
