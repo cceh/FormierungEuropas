@@ -71,33 +71,15 @@
             <head>Dekretalen</head>
             <listWit>
                <witness><bibl>[Dekretale 1]</bibl></witness>
-               <witness><bibl>[Dekretale 2]</bibl></witness>
-            </listWit>
-         </div>
-         <div type="historiography">
-            <head>Erwähnungen in der Historiographie</head>
-            <listWit>
-               <witness>
-                  <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
-               </witness>
-            </listWit>
-         </div>
+               <witness><bibl>[Dekretale 2]</bibl></witness></listWit></div>
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>[Edition 1]</bibl>
-               <bibl>[Edition 2]</bibl>
-               <bibl>[Edition 3]</bibl>
-            </listBibl>
+               <bibl>Mayr : Der Pontifikat, S. 87, Nr. 5</bibl></listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
-            <listBibl>
-               <bibl>Delaville Le Roulx: Cartulaire, Bd. I, S. 209, Nr. 281 bzw. S. 107, Nr. 130</bibl>
-               <bibl>Schönfeld, Gegenpäpste, S. 258, Nr. </bibl>
-               <bibl>[Regest 3]</bibl>
-               <bibl>[Regest 4 mit doi: <ref>[10.58137/001-2023-53]</ref>]</bibl>
-            </listBibl>
+            <listBibl><bibl>Delaville Le Roulx: Cartulaire, Bd. I, S. 209, Nr. 281 bzw. S. 107, Nr. 130</bibl><bibl>Schönfeld, Gegenpäpste, S. 258, Nr. V 11</bibl></listBibl>
          </div>
          <div type="Sachkommentar">
             <head>Sachkommentar</head>
