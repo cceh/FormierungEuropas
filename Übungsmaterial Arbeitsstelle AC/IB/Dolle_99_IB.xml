@@ -111,7 +111,7 @@
          <div type="other"><authen type="formula"><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit:</head><p>Quociens illud  a nobis petitur</p></div>
          <div type="abstract"><head>Abstract:</head>
          <div>
-            <p>Papst <legalActor type="issuer"><persName>Viktor IV. </persName></legalActor>bestätigt Erzbischof <legalActor type="beneficiary"><persName>Hartwig von Bremen</persName></legalActor> die Oberhoheit über die Bistümer der <orgName>Slawen</orgName> in <placeName>Oldenburg</placeName>, <placeName>Mecklenburg</placeName> und <placeName>Ratzeburg</placeName> sowie die von seinen Amtsvorgängern, den Päpsten <persName>Gregor IV.</persName>, <persName>Sergius II.</persName>, <persName>Nikolaus I.</persName>, <persName>Benedikt VIII.</persName>, <persName>Hadrian II.</persName>, <persName>Viktor II.</persName>, <persName>Stephan V.</persName> und <persName>Innozenz II.</persName>, der <orgName>Hamburger Kirche</orgName> und Bremer Kirche verliehenen Privilegien, ferner die Übertragung der <orgName>Abtei Harsefeld</orgName> und die Wiederübertragung der <orgName>Abtei Rastede</orgName>.</p><p/>
+            <p>Papst <legalActor type="issuer"><persName>Viktor IV. </persName></legalActor>bestätigt Erzbischof <legalActor type="beneficiary"><persName>Hartwig von Bremen</persName></legalActor> die Oberhoheit über die Bistümer der <orgName>Slawen</orgName> in <placeName>Oldenburg</placeName>, <placeName>Mecklenburg</placeName> und <placeName>Ratzeburg</placeName> sowie die von seinen Amtsvorgängern, den Päpsten <persName>Gregor IV.</persName>, <persName>Sergius II.</persName>, <persName>Nikolaus I.</persName>, <persName>Benedikt VIII.</persName>, <persName>Hadrian II.</persName>, <persName>Viktor II.</persName>, <persName>Stephan V.</persName> und <persName>Innozenz II.</persName>, der <orgName>Hamburger Kirche</orgName> und <orgName>Bremer Kirche</orgName> verliehenen Privilegien, ferner die Übertragung der <orgName>Abtei Harsefeld</orgName> und die Wiederübertragung der <orgName>Abtei Rastede</orgName>.</p><p/>
             <list/>
          </div>
          </div>
@@ -120,7 +120,7 @@
          </div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung (Liste)</head>
-            <div><listWit><witness><msDesc><msIdentifier><placeName>[Bibliotheksort] </placeName><institution>[Institution]</institution><repository>[Bibliothek] </repository><collection>[Sammlung]</collection><idno type="shelfmark">[Signatur]</idno></msIdentifier><copyStatus type="original">Ausfertigung fehlt, im 17. Jahrhundert in der Stader Registratur noch vorhanden unter der Signatur</copyStatus></msDesc></witness> </listWit><listWit><witness><msDesc><msIdentifier><idno>Stade, Cal. 118 Nr. 3.</idno></msIdentifier></msDesc></witness></listWit><listWit><witness><msDesc>
+            <div><listWit><witness><msDesc><copyStatus type="original">Ausfertigung fehlt, im 17. Jahrhundert in der Stader Registratur noch vorhanden unter der Signatur</copyStatus></msDesc></witness> </listWit><listWit><witness><msDesc><msIdentifier><idno>Stade, Cal. 118 Nr. 3.</idno></msIdentifier></msDesc></witness></listWit><listWit><witness><msDesc>
              </msDesc></witness>
             </listWit>
          </div>
