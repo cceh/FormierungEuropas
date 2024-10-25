@@ -115,7 +115,7 @@
             <div>
             <listWit>   
                <witness><msDesc>
-                     <msIdentifier><placeName>[Hannover] </placeName><institution>[Niedersächsisches Landesarchiv]</institution><repository>[Bibliothek] </repository><collection>Hildesheim Domstift</collection><idno type="shelfmark">[Hild. Or. I; frühere Signatur Cal. Or. 31, Hildesheim Nr. 2 (A), 1943 verbrannt]</idno></msIdentifier>
+                     <msIdentifier><placeName>[Hannover] </placeName><institution>[Insitution]</institution><repository>[Bibliothek] </repository><collection>Hildesheim Domstift</collection><idno type="shelfmark">[Hild. Or. I; frühere Signatur Cal. Or. 31, Hildesheim Nr. 2 (A), 1943 verbrannt]</idno></msIdentifier>
                      <copyStatus type="original">[Original]</copyStatus>
                      <history>
                         <origin notBefore="0799-01-01" notAfter="0900-01-01">[12. Jh.]</origin>
@@ -123,9 +123,9 @@
                   </msDesc></witness>
                <witness><msDesc>
                   <msIdentifier>
-                     <placeName>[Bibliotheksort]</placeName>
-                     <institution>[Institution]</institution>
-                     <collection>[Sammlung]</collection>
+                     <placeName>[Hannover]</placeName>
+                     <institution>[<witness><msDesc><msIdentifier><institution>Niedersächsisches Landesarchiv</institution></msIdentifier></msDesc></witness>]</institution>
+                     <collection>[<witness><msDesc><msIdentifier><collection>Hildesheim Domstift</collection></msIdentifier></msDesc></witness>]</collection>
                      <idno>[Signatur]</idno>
                   </msIdentifier>
              </msDesc></witness>
