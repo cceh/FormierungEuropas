@@ -144,7 +144,13 @@
                <bibl/>
             </listBibl>
          </div>
-         <div type="Sachkommentar"><head>Sachkommentar</head></div><div type="bibliography"><listBibl>
+         <div type="Sachkommentar">
+            <head>Sachkommentar</head>
+            <p>Datiert nach dem Itinerar des (Gegen-)Papstes.</p>
+         </div>
+         <div type="bibliography">
+         <listBibl>
+            <bibl>Vgl. Hei]</bibl>
          </listBibl>
          </div>
       </body>
