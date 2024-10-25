@@ -120,9 +120,7 @@
          </div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung (Liste)</head>
-            <div>
-            <listWit>   
-               <witness><msDesc><msIdentifier><placeName>[Bibliotheksort] </placeName><institution>[Institution]</institution><repository>[Bibliothek] </repository><collection>[Sammlung]</collection><idno type="shelfmark">[Signatur]</idno></msIdentifier><copyStatus type="original">Ausfertigung fehlt, im 17. Jahrhundert in der Stader Registratur noch vorhanden unter der Signatur</copyStatus></msDesc></witness> <witness><msDesc><msIdentifier><idno>tade, Cal. 118 Nr. 3.</idno></msIdentifier>
+            <div><listWit><witness><msDesc><msIdentifier><placeName>[Bibliotheksort] </placeName><institution>[Institution]</institution><repository>[Bibliothek] </repository><collection>[Sammlung]</collection><idno type="shelfmark">[Signatur]</idno></msIdentifier><copyStatus type="original">Ausfertigung fehlt, im 17. Jahrhundert in der Stader Registratur noch vorhanden unter der Signatur</copyStatus></msDesc></witness> </listWit><listWit><witness><msDesc><msIdentifier><idno>Stade, Cal. 118 Nr. 3.</idno></msIdentifier></msDesc></witness></listWit><listWit><witness><msDesc>
              </msDesc></witness>
             </listWit>
          </div>
