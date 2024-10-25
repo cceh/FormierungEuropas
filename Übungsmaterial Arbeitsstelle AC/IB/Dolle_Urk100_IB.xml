@@ -136,25 +136,15 @@
             <listBibl>
                <bibl>Origines Guelficae III S. 449, f. Nr. 23 (nach B)</bibl>
                <bibl>UB HHildesheim I Nr. 315 (nach A)</bibl>
-               <bibl>[Edition 3]</bibl>
-            </listBibl>
-         </div>
-         <div type="regesta">
-            <head>Regesten</head> <!-- Konkordanzregesten -->
+               </listBibl></div><div type="regesta"><head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14429</bibl>
                <bibl>Germ. pont. V/2, VI S. 51 Nr. 99.</bibl>
-               <bibl>[Regest 3]</bibl>
-               <bibl>[Regest 4 mit doi: <ref>[10.58137/001-2023-53]</ref>]</bibl>
+               <bibl>Hempel, Inventarium I Sp. 98.</bibl>
+               <bibl/>
             </listBibl>
          </div>
-         <div type="Sachkommentar">
-            <head>Sachkommentar</head>
-            <p>[Mit <bibl>Bibliographischen Angaben</bibl>, weiteren Entitäten und Anmerkungen zu Urkundenbestandtteilen, der Echtheit und Datierung.]</p>
-         </div>
-         <div type="bibliography">
-         <listBibl>
-            <bibl>[Weitere Referenzen]</bibl>
+         <div type="Sachkommentar"><head>Sachkommentar</head></div><div type="bibliography"><listBibl>
          </listBibl>
          </div>
       </body>
