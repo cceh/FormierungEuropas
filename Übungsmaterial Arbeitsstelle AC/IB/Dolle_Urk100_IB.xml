@@ -114,10 +114,7 @@
              <head>Handschriftliche Überlieferung (Liste)</head>
             <div>
             <listWit>   
-               <witness><msDesc><msIdentifier><placeName>[Hannover] </placeName><institution>[Insitution]</institution><repository>[Bibliothek] Sammlung</repository><idno type="shelfmark">[Signatur]</idno></msIdentifier><copyStatus type="original">[Ausfertigung]</copyStatus></msDesc></witness><witness><msDesc><msIdentifier><placeName>[Hannover]</placeName><institution>[<witness><msDesc><msIdentifier><institution>Niedersächsisches Landesarchiv</institution></msIdentifier></msDesc></witness>]</institution><collection>[<witness><msDesc><msIdentifier><collection>Hildesheim Domstift</collection></msIdentifier></msDesc></witness>]</collection><idno><witness><msDesc><msIdentifier/></msDesc></witness></idno></msIdentifier>
-             </msDesc></witness>
-            </listWit>
-         </div>
+               <witness><msDesc><msIdentifier><placeName>[Hannover] </placeName><institution>[Insitution]</institution><repository>[Bibliothek] Sammlung</repository><idno type="shelfmark">[Signatur]</idno></msIdentifier><copyStatus type="original">[Ausfertigung]</copyStatus></msDesc></witness><witness><msDesc><msIdentifier><placeName>[Hannover]</placeName><institution>[<witness><msDesc><msIdentifier><institution>Niedersächsisches Landesarchiv</institution></msIdentifier></msDesc></witness>]</institution><collection>[<witness><msDesc><msIdentifier><collection>Hildesheim Domstift</collection></msIdentifier></msDesc></witness>]</collection></msIdentifier></msDesc></witness></listWit></div><div/>
          </div>
          <div type="decretals">
             <head>Dekretalen</head>
