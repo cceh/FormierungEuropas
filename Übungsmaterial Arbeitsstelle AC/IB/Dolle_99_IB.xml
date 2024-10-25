@@ -123,8 +123,7 @@
             <div>
             <listWit>   
                <witness><msDesc>
-                     <msIdentifier><placeName>[Bibliotheksort] </placeName><institution>[Institution]</institution><repository>[Bibliothek] </repository><collection>[Sammlung]</collection><idno type="shelfmark">[Signatur]</idno></msIdentifier>
-                     <copyStatus type="original">[Original]</copyStatus>
+                     <msIdentifier><placeName>[Bibliotheksort] </placeName><institution>[Institution]</institution><repository>[Bibliothek] </repository><collection>[Sammlung]</collection><idno type="shelfmark">[Signatur]</idno></msIdentifier> <copyStatus type="original">Ausfertigung fehlt, im 17. Jahrhundert in der Stader Registratur noch vorhanden unter der Signatur</copyStatus>
                      <history>
                         <origin notBefore="0799-01-01" notAfter="0900-01-01">[12. Jh.]</origin>
                      </history>
