@@ -16,8 +16,8 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <diploDesc><p><issued><placeName>Ausstellungsort</placeName><date type="issued" notBefore="1000-01-01" notAfter="1000-01-01">Ausstellungsdatum (Zeitraum)</date>
-               <date type="issued" when="1000-01-01">Ausstellungsdatum (Zeitpunkt)</date></issued></p>
+            <diploDesc><p><issued><placeName>Lateran</placeName><date type="issued" notBefore="1000-01-01" notAfter="1000-01-01">1178 Mai 25</date>
+               <date type="issued" when="1000-01-01">Ausstellungsdatum (Zeitpunkt)1179 Mai 25</date></issued></p>
                <p><legalActor type="issuer">Issuer</legalActor></p>
                  <p> <legalActor type="recipient">Recipient 1</legalActor></p>
                  <p> <legalActor type="recipient">Recipient 2</legalActor></p>
