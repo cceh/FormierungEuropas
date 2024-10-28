@@ -19,7 +19,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <diploDesc><p><issued><placeName>nicht angegeben</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1163-11-18" precision="high" unit="cm" xml:space="default" notBefore="1159-11-18" type="issued">(1159-1163), November 18</date></issued></p>
+            <diploDesc><p><issued><placeName>nicht angegeben </placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1163-11-18" precision="high" unit="cm" xml:space="default" notBefore="1159-11-18" type="issued">(1159-1163), November 18</date></issued></p>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
                  <p> <legalActor type="recipient"><orgName key="Abbaye de Floreffe" ref="https://d-nb.info/gnd/4237173-9">Floreffe</orgName></legalActor></p><p><objectType>einfaches Privileg</objectType></p>
                <p><objectType>Besitzbestätigung</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
@@ -58,10 +58,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Template_Musterregest.xml?organization_annotation_20241016110549000",
+	"id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Übungsordner Köln/FE_Schönfeld_V10_HB.xml?organization_annotation_20241016110549000",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-16T09:05:49.000Z",
-	"dcterms:modified": "2024-10-16T09:05:49.000Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/hannahbusch",
 		"@type": [
@@ -72,10 +71,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Template_Musterregest.xml?organization_annotation_20241016110549000#Target",
+		"@id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Übungsordner Köln/FE_Schönfeld_V10_HB.xml?organization_annotation_20241016110549000#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Template_Musterregest.xml",
+			"@id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Übungsordner Köln/FE_Schönfeld_V10_HB.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -86,7 +85,7 @@
 			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Template_Musterregest.xml?organization_annotation_20241016110549000#Selector",
+			"@id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Übungsordner Köln/FE_Schönfeld_V10_HB.xml?organization_annotation_20241016110549000#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/teiHeader/fileDesc/sourceDesc/diploDesc/p[3]/legalActor/orgName"
 		}
