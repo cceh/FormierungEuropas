@@ -19,10 +19,10 @@
             <diploDesc><p><issued><placeName>Tusculum</placeName><date type="issued" notBefore="1000-01-01" notAfter="1000-01-01">1179 Januar 17 </date>
                <date type="issued" when="1000-01-01"/></issued></p>
                <p><legalActor type="issuer">Alexander III., Papst</legalActor></p>
-                 <p> <legalActor type="recipient">Kloster St. Godeshardi in Hildesheim</legalActor></p>
-                 <p> <legalActor type="recipient">Recipient 2</legalActor></p>
-               <p><objectType>Typisierung 1</objectType></p>
-               <p><objectType>Typisierung 2</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+                 <p> <legalActor type="recipient">Kloster St. Godehardi in Hildesheim</legalActor></p>
+                 <p> <legalActor type="recipient">Arnold, Abt des Klosters St. Godehardi</legalActor></p>
+               <p><objectType>Privileg</objectType></p>
+               <p><objectType>Typisierung 2dire</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
