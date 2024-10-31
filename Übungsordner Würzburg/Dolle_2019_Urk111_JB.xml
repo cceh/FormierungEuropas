@@ -32,12 +32,12 @@
          <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[]</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit:</head><p>Viros religiosos et divino cultui</p></div>
          <div type="abstract"><head>Abstract:</head>
          <div>
-            <p><legalActor type="issuer"><persName>Papst Alexander III.</persName></legalActor>nimmt die <legalActor><orgName>Propstei Wanlefsrode</orgName></legalActor> und ihren Besitz in den apostolischen Schutz </p>
+            <p><legalActor type="issuer"><persName>Papst Alexander III. </persName></legalActor>nimmt die <legalActor><orgName>Propstei Wanlefsrode</orgName></legalActor> und ihren Besitz in den apostolischen Schutz </p>
             <list>
                <item>er erlaubt, dort für Laien durch einen Kaplan die Messe feiern zu lassen</item>
                <item>Schlussformeln: Perturbationsverbot und Sanctio negativa</item>
-               <item>Originaldatierung: [Dat. Laterani, XII kal. marcii.]</item>
-               <item>[I</item>
+               <item>Originaldatierung: [Dat. <placeName>Laterani</placeName>, XII kal. marcii.]</item>
+               <item/>
             </list>
          </div>
          </div>
@@ -69,7 +69,7 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listWit>
-               <witness><bibl>[Dekretale 1]</bibl></witness>
+               <witness><bibl>-</bibl></witness>
                <witness><bibl>[Dekretale 2]</bibl></witness>
             </listWit>
          </div>
