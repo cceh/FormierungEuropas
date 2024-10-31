@@ -16,9 +16,9 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <diploDesc><p><issued><placeName>Ausstellungsort</placeName><date type="issued" notBefore="1000-01-01" notAfter="1000-01-01">Ausstellungsdatum (Zeitraum)</date>
-               <date type="issued" when="1000-01-01">Ausstellungsdatum (Zeitpunkt)</date></issued></p>
-               <p><legalActor type="issuer">Issuer</legalActor></p>
+            <diploDesc><p><issued><placeName>Lateran</placeName><date type="issued" notBefore="1000-01-01" notAfter="1000-01-01">1179 Mai 29</date>
+               <date type="issued" when="1000-01-01"/></issued></p>
+               <p><legalActor type="issuer">IssuerAlexander III.</legalActor></p>
                  <p> <legalActor type="recipient">Recipient 1</legalActor></p>
                  <p> <legalActor type="recipient">Recipient 2</legalActor></p>
                <p><objectType>Typisierung 1</objectType></p>
