@@ -20,9 +20,9 @@
                <date type="issued" when="1000-01-01"/></issued></p>
                <p><legalActor type="issuer">Alexander III., Papst</legalActor></p>
                  <p> <legalActor type="recipient">Stifte St. Stephan und St. Willehad in Bremen</legalActor></p>
-                 <p> <legalActor type="recipient">Recipient 2Propst Heinri</legalActor></p>
-               <p><objectType>Typisierung 1</objectType></p>
-               <p><objectType>Typisierung 2</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+                 <p> <legalActor type="recipient">Propst Heinrich</legalActor></p>
+               <p><objectType>Privileg</objectType></p>
+               <p><objectType>direkte persönliche Einwirkung</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
