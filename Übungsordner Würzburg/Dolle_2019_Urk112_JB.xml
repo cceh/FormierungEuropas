@@ -32,7 +32,7 @@
          <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[]</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit:</head><p>Cum in sacris dei ecclesiis</p></div>
          <div type="abstract"><head>Abstract:</head>
          <div>
-            <p><legalActor type="issuer"><persName>Papst Alexander III.</persName></legalActor>bestätigt die durch <persName>Erzbischof Adalbero</persName> vorgenommene Verlegung des <legalActor><orgName>Stifts St. Stephani und St. Wilhadi</orgName></legalActor>, bestätigt seine Freiheiten und Immunitäten und nimmt das Stift in den apostolischen Schutz <legalActor type="beneficiary"><persName>Erzbischof Adalbero </persName></legalActor>; weitere <persName>Personen</persName>, <placeName>Orte</placeName>, <orgName>Institutionen</orgName> und auch <eventName>Ereignisse</eventName>. Außerdem sind ggf. <bibl>Literaturzitate</bibl> und <ref>Querverweise</ref> möglich. Wörtliche Zitate könnten mit dem entsprechenden <diploPart>Urkundenbestandtteil</diploPart> ausgezeichet werden. Einzelne Rechtstitel, etwa bei Privilegien, werden als Li</p>
+            <p><legalActor type="issuer"><persName>Papst Alexander III.</persName></legalActor>bestätigt die durch <persName>Erzbischof Adalbero</persName> vorgenommene Verlegung des <legalActor><orgName>Stifts St. Stephani und St. Wilhadi</orgName></legalActor>, bestätigt seine Freiheiten und Immunitäten und nimmt das Stift in den apostolischen Schutz <legalActor type="beneficiary"><persName>Erzbischof Adalbero </persName></legalActor>; weitere <persName/> </p>
             <list>
                <item>[Item 1]</item>
                <item>[Item 2]</item>
