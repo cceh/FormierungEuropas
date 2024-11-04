@@ -19,7 +19,7 @@
             <diploDesc><p><issued><placeName>Lateran</placeName><date type="issued" notBefore="1000-01-01" notAfter="1000-01-01">1179 Mai 29</date>
                <date type="issued" when="1000-01-01"/></issued></p>
                <p><legalActor type="issuer">Alexander III., Papst</legalActor></p>
-                 <p> <legalActor type="recipient">Stifte St. Stephani und St. Willehadi in Bremen</legalActor></p>
+                 <p> <legalActor type="recipient">Stift St. Stephani und St. Willehadi in Bremen</legalActor></p>
                  <p> <legalActor type="recipient">Propst Heinrich</legalActor></p>
                <p><objectType>Privileg</objectType></p>
                <p><objectType>direkte persönliche Einwirkung</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
@@ -32,7 +32,7 @@
          <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[]</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit:</head><p>Cum in sacris dei ecclesiis</p></div>
          <div type="abstract"><head>Abstract:</head>
          <div>
-            <p><legalActor type="issuer"><persName>Papst Alexander III.</persName></legalActor>bestätigt die durch Erzbischof Adalbero vorgenommene Verlegung des Stifts St. Stephani und St. Wilhadi <legalActor type="beneficiary"><persName>Erzbischof Adalbero </persName></legalActor>; weitere <persName>Personen</persName>, <placeName>Orte</placeName>, <orgName>Institutionen</orgName> und auch <eventName>Ereignisse</eventName>. Außerdem sind ggf. <bibl>Literaturzitate</bibl> und <ref>Querverweise</ref> möglich. Wörtliche Zitate könnten mit dem entsprechenden <diploPart>Urkundenbestandtteil</diploPart> ausgezeichet werden. Einzelne Rechtstitel, etwa bei Privilegien, werden als Liste aufgeführt, auch dort können alle im "abstract" zulässigen Entitäten ausgezeichnet werden.]</p>
+            <p><legalActor type="issuer"><persName>Papst Alexander III.</persName></legalActor>bestätigt die durch Erzbischof Adalbero vorgenommene Verlegung des Stifts St. Stephani und St. Wilhadi, bestätigt seine Freiheiten und Immunitäten und ni <legalActor type="beneficiary"><persName>Erzbischof Adalbero </persName></legalActor>; weitere <persName>Personen</persName>, <placeName>Orte</placeName>, <orgName>Institutionen</orgName> und auch <eventName>Ereignisse</eventName>. Außerdem sind ggf. <bibl>Literaturzitate</bibl> und <ref>Querverweise</ref> möglich. Wörtliche Zitate könnten mit dem entsprechenden <diploPart>Urkundenbestandtteil</diploPart> ausgezeichet werden. Einzelne Rechtstitel, etwa bei Privilegien, werden als Liste aufgeführt, auch dort können alle im "abstract" zulässigen Entitäten ausgezeichnet werden.]</p>
             <list>
                <item>[Item 1]</item>
                <item>[Item 2]</item>
