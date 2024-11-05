@@ -83,7 +83,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>[Edition 1]PUU Niedersachsen u Bremen, S. 237-239, Nr. 113</bibl>
+               <bibl>PUU Niedersachsen u Bremen, S. 237-239, Nr. 113</bibl>
                <bibl>[Edition 2]</bibl>
                <bibl>[Edition 3]</bibl>
             </listBibl>
@@ -91,7 +91,7 @@
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>[Regest 1]</bibl>
+               <bibl>JL 13451</bibl>
                <bibl>[Regest 2]</bibl>
                <bibl>[Regest 3]</bibl>
                <bibl>[Regest 4 mit doi: <ref>[10.58137/001-2023-53]</ref>]</bibl>
