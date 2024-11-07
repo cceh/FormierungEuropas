@@ -35,7 +35,7 @@
          </div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung (Liste)</head>
-            <div><listWit/></div>
+            <div><listWit><bibl/></listWit></div>
          </div>
          <div type="decretals">
             <head>Dekretalen</head>
