@@ -33,9 +33,9 @@
          </div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung (Liste)</head>
-            <div><listWit><witness><msDesc><msIdentifier><placeName>Hannover, </placeName><institution>NLA</institution><repository>[Bibliothek] </repository><collection>[Sammlung]</collection><idno type="shelfmark">Hild. Or. 1</idno></msIdentifier><copyStatus type="original">Original</copyStatus><history> <origin notBefore="0799-01-01" notAfter="0900-01-01">olim Cal. Or. 31, Hildesheim Nr. 2</origin>
+            <div><listWit><witness><msDesc><msIdentifier><placeName>Hannover, </placeName><institution>NLA</institution><repository>[Bibliothek] </repository><collection>[Sammlung]</collection><idno type="shelfmark">Hild. Or. 1</idno></msIdentifier><copyStatus type="original">Original</copyStatus><history> <origin notBefore="0799-01-01" notAfter="0900-01-01">olim Cal. Or. 31, Hildesheim Nr. 2. 1943 verbrannt</origin>
                      </history></msDesc></witness><witness><msDesc><msIdentifier>
-                     <placeName>[Bibliotheksort]</placeName>
+                     <placeName>[Hannover]</placeName>
                      <institution>[Institution]</institution>
                      <collection>[Sammlung]</collection>
                      <idno>[Signatur]</idno>
