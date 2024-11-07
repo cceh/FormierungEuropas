@@ -35,12 +35,9 @@
          </div><div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl><bibl>JL 14429</bibl><bibl>Germ. Pont. V/2, VI, S. 51, Nr. 99</bibl><bibl>Hempel, Inventarium I, Sp. 98</bibl></listBibl>
-         </div><div cert="high" org="composite" part="Y" sample="initial" type="faksimile" xml:space="default"><head>Abbildungen</head></div><div type="Sachkommentar">
+         </div><div type="faksimile"><head>Abbildungen</head><listBibl><bibl>Walther, Lexicon diplomaticum Taf. II. (Teilfacsimile)</bibl></listBibl></div><div type="Sachkommentar">
             <head>Sachkommentar</head>
-            <p>[Mit <bibl>Bibliographischen Angaben</bibl>, weiteren Entitäten und Anmerkungen zu Urkundenbestandtteilen, der Echtheit und Datierung.]</p>
-         </div><div type="bibliography">
-         <listBibl>
-            <bibl>[Weitere Referenzen]</bibl>
+            </div><div type="bibliography"><listBibl><bibl>Datiert nach dem Itinerar Victors (Dolle)</bibl>
          </listBibl>
          </div></body>
    </text>
