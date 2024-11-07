@@ -35,8 +35,8 @@
          </div><div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl><bibl>JL 14429</bibl><bibl>Germ. Pont. V/2, VI, S. 51, Nr. 99</bibl><bibl>Hempel, Inventarium I, Sp. 98</bibl></listBibl>
-         </div><div type="Sachkommentar">
-            <head/><head>Sachkommentar</head><head/>
+         </div><div cert="high" org="composite" part="Y" sample="initial" type="faksimile" xml:space="default"/><div type="Sachkommentar">
+            <head>Sachkommentar</head>
             <p>[Mit <bibl>Bibliographischen Angaben</bibl>, weiteren Entitäten und Anmerkungen zu Urkundenbestandtteilen, der Echtheit und Datierung.]</p>
          </div><div type="bibliography">
          <listBibl>
