@@ -47,7 +47,7 @@
          </div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung (Liste)</head>
-            <div><listWit><witness><msDesc><msIdentifier><placeName>Wolfenbüttel </placeName><institution>[Institution]</institution><repository>[Bibliothek] </repository><collection>[Sammlung]</collection><idno type="shelfmark">[Signatur]</idno></msIdentifier>
+            <div><listWit><witness><msDesc><msIdentifier><placeName>Wolfenbüttel </placeName><institution>NLA</institution><idno type="shelfmark">[Signatur]</idno></msIdentifier>
                      <copyStatus type="original">[Original]</copyStatus>
                      <history>
                         <origin notBefore="0799-01-01" notAfter="0900-01-01">[12. Jh.]</origin>
