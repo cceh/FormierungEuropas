@@ -29,9 +29,7 @@
       </fileDesc>
    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
    <text>
-      <body>
-         <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[*!?]</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit:</head><p>Quotiens illud a nobis petitur</p></div>
-         <div type="abstract"><head>Abstract:</head>
+      <body><div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[*!?]</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit:</head><p>Quotiens illud a nobis petitur</p></div><div type="abstract"><head>Abstract:</head>
          <div>
             <p>[Regestentext mit <legalActor type="issuer"><persName>Aussteller</persName></legalActor>, <legalActor type="beneficiary"><persName>Empfänger</persName></legalActor>; weitere <persName>Personen</persName>, <placeName>Orte</placeName>, <orgName>Institutionen</orgName> und auch <eventName>Ereignisse</eventName>. Außerdem sind ggf. <bibl>Literaturzitate</bibl> und <ref>Querverweise</ref> möglich. Wörtliche Zitate könnten mit dem entsprechenden <diploPart>Urkundenbestandtteil</diploPart> ausgezeichet werden. Einzelne Rechtstitel, etwa bei Privilegien, werden als Liste aufgeführt, auch dort können alle im "abstract" zulässigen Entitäten ausgezeichnet werden.]</p>
             <list>
@@ -41,38 +39,25 @@
                <item>[Item 4]</item>
             </list>
          </div>
-         </div>
-         <div type="witness">
+         </div><div type="witness">
             <head>Überlieferungsträger</head>
-         </div>
-         <div type="msSources">
+         </div><div type="msSources">
              <head>Handschriftliche Überlieferung (Liste)</head>
-            <div><listWit><witness><msDesc><msIdentifier><placeName>Wolfenbüttel </placeName><institution>NLA</institution><idno type="shelfmark">22 Urk 4</idno></msIdentifier><copyStatus type="original">Original</copyStatus></msDesc></witness><witness><msDesc><msIdentifier><placeName>Wolfenbüttel</placeName><institution>NLA</institution><collection>VII B</collection><idno>Hs 340, p. 11-14</idno></msIdentifier></msDesc></witness><witness><msDesc><msIdentifier><placeName>Wolfenbüttel</placeName><institution>NLA</institution><collection>VII B</collection><idno>Hs 341, fol 17v-18v</idno></msIdentifier></msDesc></witness><witness><msDesc><msIdentifier><placeName>Wolfenbüttel</placeName><institution>NLA</institution><collection>VII B</collection><idno>Hs 342, fol 52v-53r</idno></msIdentifier></msDesc></witness><witness><msDesc><msIdentifier><placeName>Wolfenbüttel</placeName><institution>NLA</institution><collection>VII B</collection><idno>Hs 344, p. 12-14</idno></msIdentifier></msDesc></witness><witness><msDesc><msIdentifier><placeName>Hannover</placeName><institution>GWLB</institution><idno>Ms XXIII 586, fol. 13r-13v</idno></msIdentifier></msDesc></witness><witness/></listWit></div>
-         </div>
-         <div type="decretals">
-            <head>Dekretalen</head>
-            <listWit>
-               <witness><bibl>[Dekretale 1]</bibl></witness>
-               <witness><bibl>[Dekretale 2]</bibl></witness>
-            </listWit>
-         </div>
-         <div type="historiography">
+            <div><listWit><witness><msDesc><msIdentifier><placeName>Wolfenbüttel </placeName><institution>NLA</institution><idno type="shelfmark">22 Urk 4</idno></msIdentifier><copyStatus type="original">Original</copyStatus></msDesc></witness><witness><msDesc><msIdentifier><placeName>Wolfenbüttel</placeName><institution>NLA</institution><collection>VII B</collection><idno>Hs 340, p. 11-14</idno></msIdentifier></msDesc></witness><witness><msDesc><msIdentifier><placeName>Wolfenbüttel</placeName><institution>NLA</institution><collection>VII B</collection><idno>Hs 341, fol 17v-18v</idno></msIdentifier></msDesc></witness><witness><msDesc><msIdentifier><placeName>Wolfenbüttel</placeName><institution>NLA</institution><collection>VII B</collection><idno>Hs 342, fol 52v-53r</idno></msIdentifier></msDesc></witness><witness><msDesc><msIdentifier><placeName>Wolfenbüttel</placeName><institution>NLA</institution><collection>VII B</collection><idno>Hs 344, p. 12-14</idno></msIdentifier></msDesc></witness><witness><msDesc><msIdentifier><placeName>Hannover</placeName><institution>GWLB</institution><idno>Ms XXIII 586, fol. 13r-13v</idno></msIdentifier></msDesc></witness><witness/></listWit></div></div><div type="historiography">
             <head>Erwähnungen in der Historiographie</head>
             <listWit>
                <witness>
                   <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
                </witness>
             </listWit>
-         </div>
-         <div type="editions">
+         </div><div type="editions">
             <head>Editionen</head>
             <listBibl>
                <bibl>[Edition 1]</bibl>
                <bibl>[Edition 2]</bibl>
                <bibl>[Edition 3]</bibl>
             </listBibl>
-         </div>
-         <div type="regesta">
+         </div><div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>[Regest 1]</bibl>
@@ -80,16 +65,13 @@
                <bibl>[Regest 3]</bibl>
                <bibl>[Regest 4 mit doi: <ref>[10.58137/001-2023-53]</ref>]</bibl>
             </listBibl>
-         </div>
-         <div type="Sachkommentar">
+         </div><div type="Sachkommentar">
             <head>Sachkommentar</head>
             <p>[Mit <bibl>Bibliographischen Angaben</bibl>, weiteren Entitäten und Anmerkungen zu Urkundenbestandtteilen, der Echtheit und Datierung.]</p>
-         </div>
-         <div type="bibliography">
+         </div><div type="bibliography">
          <listBibl>
             <bibl>[Weitere Referenzen]</bibl>
          </listBibl>
-         </div>
-      </body>
+         </div></body>
    </text>
 </TEI>
