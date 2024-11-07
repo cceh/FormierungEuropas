@@ -33,7 +33,7 @@
          </div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung (Liste)</head>
-            <div><listWit><witness><msDesc><msIdentifier><placeName>Hannover, </placeName><institution>NLA</institution><repository>[Bibliothek] </repository><collection>[Sammlung]</collection><idno type="shelfmark">Hild. Or. 1</idno></msIdentifier><copyStatus type="original">Original</copyStatus><history> <origin notBefore="0799-01-01" notAfter="0900-01-01">olim Cal. Or. 31, Hildesheim Nr. 2. 1943 verbrannt</origin> </history></msDesc></witness><witness><msDesc><msIdentifier><placeName>Hannover, </placeName><institution>NLA</institution><collection>[Sammlung]</collection><idno>[Signatur]</idno></msIdentifier></msDesc></witness></listWit></div>
+            <div><listWit><witness><msDesc><msIdentifier><placeName>Hannover, </placeName><institution>NLA</institution>[Bibliothek] <collection>[Sammlung]</collection><idno type="shelfmark">Hild. Or. 1, Hildesheim Domstoift Nr. [..]</idno></msIdentifier><copyStatus type="original">Original</copyStatus><history> <origin notBefore="0799-01-01" notAfter="0900-01-01">olim Cal. Or. 31, Hildesheim Nr. 2. 1943 verbrannt</origin> </history></msDesc></witness><witness><msDesc><msIdentifier><placeName>Hannover, </placeName><institution>NLA</institution><collection>[Sammlung]</collection><idno>[Signatur]</idno></msIdentifier></msDesc></witness></listWit></div>
          </div>
          <div type="decretals">
             <head>Dekretalen</head>
