@@ -47,10 +47,7 @@
          </div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung (Liste)</head>
-            <div><listWit><witness><msDesc><msIdentifier><placeName>Wolfenbüttel </placeName><institution>NLA</institution><idno type="shelfmark">22 Urk 4</idno></msIdentifier><copyStatus type="original">Original</copyStatus></msDesc></witness><witness><msDesc><msIdentifier><placeName>ibliotheksort]</placeName>
-                     <institution>[Institution]</institution>
-                     <collection>[Sammlung]</collection>
-                     <idno>[Signatur]</idno></msIdentifier></msDesc></witness></listWit></div>
+            <div><listWit><witness><msDesc><msIdentifier><placeName>Wolfenbüttel </placeName><institution>NLA</institution><idno type="shelfmark">22 Urk 4</idno></msIdentifier><copyStatus type="original">Original</copyStatus></msDesc></witness><witness><msDesc><msIdentifier><placeName>Wolfenbüttel</placeName><institution>NLA</institution><collection>[Sammlung]</collection><idno>[Signatur]</idno></msIdentifier></msDesc></witness></listWit></div>
          </div>
          <div type="decretals">
             <head>Dekretalen</head>
