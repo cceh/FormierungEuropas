@@ -31,15 +31,11 @@
                <witness><msDesc><msIdentifier><placeName>Hannover, </placeName><institution>NLA</institution><idno type="shelfmark">Hild. Or. 1, Hildesheim Domstoift Nr. [..]</idno></msIdentifier><copyStatus type="original">Original</copyStatus><history> <origin notBefore="0799-01-01" notAfter="0900-01-01">olim Cal. Or. 31, Hildesheim Nr. 2. 1943 verbrannt</origin> </history></msDesc></witness>
                <witness><msDesc><msIdentifier><placeName>Hannover, </placeName><institution>NLA</institution><idno>Cop. VI 11 Nr. 1102</idno></msIdentifier><copyStatus>Kopie</copyStatus></msDesc></witness><witness><bibl>Göttingen, SUB, Ms Hist 1, XI, fol. 102v (Kopie)</bibl></witness></listWit></div></div><div type="editions">
             <head>Editionen</head>
-            <listBibl>
-               <bibl>Origines Guelficae III, S. 449-440, </bibl>
-               <bibl>[Edition 2]</bibl>
-               <bibl>[Edition 3]</bibl>
-            </listBibl>
+            <listBibl><bibl>Origines Guelficae III, S. 449-440, Nr. 23</bibl><bibl>UB Hildesheim I, Nr. 315</bibl></listBibl>
          </div><div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>[Regest 1]</bibl>
+               <bibl>J</bibl>
                <bibl>[Regest 2]</bibl>
                <bibl>[Regest 3]</bibl>
                <bibl>[Regest 4 mit doi: <ref>[10.58137/001-2023-53]</ref>]</bibl>
