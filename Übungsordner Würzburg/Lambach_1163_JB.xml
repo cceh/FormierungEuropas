@@ -32,9 +32,9 @@
          <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[]</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit:</head><p>Desiderium, quod ad religionis propositum </p></div>
          <div type="abstract"><head>Abstract:</head>
          <div>
-            <p><legalActor type="issuer"><persName>Papst Alexander III.</persName></legalActor>nimmt das <legalActor><orgName>Kloster Lambach</orgName></legalActor> unter dem <legalActor type="beneficiary"><persName>Abt Bernard</persName></legalActor>in den apostolischen Schutz und bestätigt seine Einrichtung nach der Regel des hl. Benedikt <diploPart>(secundum deum et beati Benedicti regulam)</diploPart><persName>Personen</persName>, <placeName>Orte</placeName>, <orgName>Institutionen</orgName> und auch <eventName>Ereignisse</eventName>. Außerdem sind ggf. <bibl>Literaturzitate</bibl> und <ref>Querverweise</ref> möglich. Wörtliche Zitate könnten mit dem entsprechenden <diploPart>Urkundenbestandtteil</diploPart> ausgezeichet werden. Einzelne Rechtstitel, etwa bei Privilegien, werden als Liste aufgeführt, auch dort können alle im "abstract" zulässigen Entitäten ausgezeichnet werden.]</p>
+            <p><legalActor type="issuer"><persName>Papst Alexander III.</persName></legalActor>nimmt das <legalActor><orgName>Kloster Lambach</orgName></legalActor> unter dem <legalActor type="beneficiary"><persName>Abt Bernard</persName></legalActor>in den apostolischen Schutz und bestätigt seine Einrichtung nach der Regel des hl. Benedikt <diploPart>(secundum deum et beati Benedicti regulam)</diploPart><persName>Personen</persName>, <placeName>Orte</placeName>, <orgName>Institutionen</orgName> und auch <eventName>Ereignisse</eventName>. Außerdem sind ggf. <bibl>Literaturzitate</bibl> und <ref/> </p>
             <list>
-               <item>[Item 1]</item>
+               <item>eingeschlossen sind alle Besitzungen und Güter, die die Kirche in der Gegenwart rechtmäßig besitzt beziehungsweise in der Zukunft rechtmäßig erwerben wird</item>
                <item>[Item 2]</item>
                <item>[Item 3]</item>
                <item>[Item 4]</item>
