@@ -50,16 +50,13 @@
             <listWit>   
                <witness><msDesc>
                      <msIdentifier><placeName>[Lambach] </placeName><institution>[Stiftsarchiv, </institution><repository/><collection/><idno type="shelfmark">Urkunden (992-1600) 1163 VIII 02</idno></msIdentifier>
-                     <copyStatus type="original">[Original]</copyStatus>
-                     <history>
-                        <origin notBefore="0799-01-01" notAfter="0900-01-01">[12. Jh.]</origin>
-                     </history>
+                     <copyStatus type="original">[Original]</copyStatus> <history/>
                   </msDesc></witness>
                <witness><msDesc>
                   <msIdentifier>
-                     <placeName>[Bibliotheksort]</placeName>
-                     <institution>[Institution]</institution>
-                     <collection>[Sammlung]</collection>
+                     
+                     
+                     
                      <idno>[Signatur]</idno>
                   </msIdentifier>
              </msDesc></witness>
