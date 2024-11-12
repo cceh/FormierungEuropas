@@ -52,15 +52,15 @@
                      <msIdentifier><placeName>[Landesarchiv Thüringen] </placeName><institution>Hauptstaatsarchiv Weimar</institution><repository>, Ernestinisches Gesamtarchiv</repository><collection/><idno type="shelfmark">Urkunde Nr. 4547</idno></msIdentifier>
                      <copyStatus type="original">[Original]</copyStatus>
                      <history>
-                        <origin notBefore="0799-01-01" notAfter="0900-01-01">[12. Jh.]</origin>
+                        <origin notBefore="0799-01-01" notAfter="0900-01-01"/>
                      </history>
                   </msDesc></witness>
                <witness><msDesc>
                   <msIdentifier>
-                     <placeName>[Bibliotheksort]</placeName>
-                     <institution>[Institution]</institution>
                      
-                     <idno>[Signatur]</idno>
+                     
+                     
+                     <idno/>
                   </msIdentifier>
              </msDesc></witness>
             </listWit>
@@ -69,8 +69,7 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listWit>
-               <witness><bibl>[Dekretale 1]</bibl></witness>
-               <witness><bibl>[Dekretale 2]</bibl></witness>
+               <witness><bibl>-</bibl></witness><witness/>
             </listWit>
          </div>
          <div type="historiography">
