@@ -49,7 +49,7 @@
             <div>
             <listWit>   
                <witness><msDesc>
-                     <msIdentifier><placeName>[Lambach] </placeName><institution>[Stiftsarchiv, </institution><repository/><collection>ammlung]</collection><idno type="shelfmark">Lambach, Stiftsarchiv, Urkunden (992-1600) 1163 VIII 02</idno></msIdentifier>
+                     <msIdentifier><placeName>[Lambach] </placeName><institution>[Stiftsarchiv, </institution><repository/><collection/><idno type="shelfmark">Urkunden (992-1600) 1163 VIII 02</idno></msIdentifier>
                      <copyStatus type="original">[Original]</copyStatus>
                      <history>
                         <origin notBefore="0799-01-01" notAfter="0900-01-01">[12. Jh.]</origin>
