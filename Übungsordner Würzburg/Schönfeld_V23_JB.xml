@@ -32,12 +32,12 @@
          <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[?]</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit:</head><p><foreign>Ad hoc universalis ecclesie cura</foreign></p></div>
          <div type="abstract"><head>Abstract:</head>
          <div>
-            <p><legalActor type="issuer"><persName>Papst Viktor IV.</persName></legalActor>bestätigt dem <legalActor><orgName>Kloster St. Georg in Naumburg </orgName></legalActor><diploPart>(Nuenburgensis)</diploPart> auf Bitten des <legalActor><persName>Abtes Theoderich</persName></legalActor> <diploPart>(Teodoricus)</diploPart> </p>
+            <p><legalActor type="issuer"><persName>Papst Viktor IV. </persName></legalActor>bestätigt dem <legalActor><orgName>Kloster St. Georg in Naumburg </orgName></legalActor><diploPart>(Nuenburgensis)</diploPart> auf Bitten des <legalActor><persName>Abtes Theoderich</persName></legalActor> <diploPart>(Teodoricus)</diploPart> </p>
             <list>
                <item>alle derzeitigen und künftigen Güter und Besitzungen jedweder Herkunft</item>
                <item>darunter einige namentlich und im Umfang genannte Besitzungen aus der Zuwendung des Klostergründers, <persName>Markgraf Eckhard</persName> (<foreign>Ekigardus</foreign>), dazu zwei Mühlen, eine davon in Naumburg (<foreign>Nuemburch</foreign>) aus der Schenkung des <persName>Bischofs Walram</persName> (<foreign>Gualdramus</foreign>)</item>
-               <item>[Item 3]</item>
-               <item>[Item 4]</item>
+               <item>er verbietet hinderliche Baumaßnahmen an der Wasserleitung zur Mühle oder deren Ableitung</item>
+               <item>er bekräftigt die Verpflichtung der Lehnsleute der Naumburger Kirche zur Zahlung der Abgaben (servitium) an den Bischof</item><item>er bestätigt, dass bei einem Mannfall ohne direkten Erben das betreffende Lehen an das Kloster zurückfällt</item><item>er verbietet, dass Besitzungen des Klosters entfremdet werden</item><item>er bestätigt dem Kloster die Immunität von Abgaben und Belastungen durch Kleriker wie Laien</item><item>beim Tod des Abtes sollen die Brüder nach den Vorgaben der Regel ohne jeden Druck von außen gemeinschaftlich oder nach dem Votum der sanior pars einen Nachfolger wählen</item><item>der Gewählte soll ohne Gegenleistung nach den Gepflogenheiten von Cluny oder Hirsau die Weihe erhalten</item><item>der Bischof soll sich in der Zwischenzeit jede Einmischung in die Angelegenheiten des Klosters versagen und den Gewählten mit der nötigen Verfügungsgewalt ausstatten</item><item>Schlussformeln: Perturbationsverbot (<foreign>Nullus ergo hominum</foreign> …), Sanctio negativa und positiva</item><item>Subscriptiones und Originaldatierung: <diploPart type="subscriptio" xml:space="default">[Ego <persName>Victor catholice ecclesie episcopus</persName> subscripsi. Ego <persName>Ymarus Tusculanus episcopus</persName> subscripsi. Ego <persName>Hubaldus episcopus</persName> subscripsi. Ego <persName>Iohannes presbiter cardinalis tituli sanctorum Silvestri et Martini</persName> subscripsi. Ego <persName>Guido presbiter cardinalis tituli Calixti</persName> subscripsi. Ego <persName>Berardus diaconus cardinalis sancti Sergii</persName> subscripsi. Ego <persName>Lando diaconus cardinalis sancte Marie in Aquiro</persName> subscripsi. </diploPart><diploPart cert="high" type="datatio" xml:space="default">Data <placeName>Papie</placeName> per manum <persName>Gerardi sancte Romane ecclesie subdiaconi</persName>, XI kalendas martii indictione VII, anno incarnationis domini MCLX, pontificatus domini <persName>Victoris</persName> anno eius primo.]</diploPart></item>
             </list>
          </div>
          </div>
@@ -49,18 +49,18 @@
             <div>
             <listWit>   
                <witness><msDesc>
-                     <msIdentifier><placeName>[Bibliotheksort] </placeName><institution>[Institution]</institution><repository>[Bibliothek] </repository><collection>[Sammlung]</collection><idno type="shelfmark">[Signatur]</idno></msIdentifier>
+                     <msIdentifier><placeName>[Landesarchiv Thüringen] </placeName><institution>Hauptstaatsarchiv Weimar</institution><repository>, Ernestinisches Gesamtarchiv</repository><collection/><idno type="shelfmark">Urkunde Nr. 4547</idno></msIdentifier>
                      <copyStatus type="original">[Original]</copyStatus>
                      <history>
-                        <origin notBefore="0799-01-01" notAfter="0900-01-01">[12. Jh.]</origin>
+                        <origin notBefore="0799-01-01" notAfter="0900-01-01"/>
                      </history>
                   </msDesc></witness>
                <witness><msDesc>
                   <msIdentifier>
-                     <placeName>[Bibliotheksort]</placeName>
-                     <institution>[Institution]</institution>
-                     <collection>[Sammlung]</collection>
-                     <idno>[Signatur]</idno>
+                     
+                     
+                     
+                     <idno/>
                   </msIdentifier>
              </msDesc></witness>
             </listWit>
@@ -69,39 +69,35 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listWit>
-               <witness><bibl>[Dekretale 1]</bibl></witness>
-               <witness><bibl>[Dekretale 2]</bibl></witness>
+               <witness><bibl>-</bibl></witness><witness/>
             </listWit>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie</head>
             <listWit>
                <witness>
-                  <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+                  <bibl>-</bibl>
                </witness>
             </listWit>
          </div>
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>[Edition 1]</bibl>
-               <bibl>[Edition 2]</bibl>
-               <bibl>[Edition 3]</bibl>
+               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 262-264, V 23</bibl>
+               <bibl>UB Hochstift Naumburg I, S. 221, Nr. 239</bibl><bibl>Brackmann, Papsturkunden des Nordens, S. 24, Nr. 2</bibl>
+               <bibl>Pflugk-Harttung, Bulle Victors IV., S. 207-209</bibl>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>[Regest 1]</bibl>
-               <bibl>[Regest 2]</bibl>
-               <bibl>[Regest 3]</bibl>
-               <bibl>[Regest 4 mit doi: <ref>[10.58137/001-2023-53]</ref>]</bibl>
+               <bibl>JL -</bibl>
+               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 262-264, V 23</bibl>
+               <bibl>Mayr, Pontifikat, S. 93, Nr. 13</bibl>
+               <bibl>Krafft, Bene Valete, S. 233</bibl>
             </listBibl>
          </div>
-         <div type="Sachkommentar">
-            <head>Sachkommentar</head>
-            <p>[Mit <bibl>Bibliographischen Angaben</bibl>, weiteren Entitäten und Anmerkungen zu Urkundenbestandtteilen, der Echtheit und Datierung.]</p>
-         </div>
+         <div type="Sachkommentar"><head>Sachkommentar</head><p>Die Echtheit dieses Privilegs Viktors IV. ist umstritten. Pflugk-Harttung hält diese Urkunde sowohl hinsichtlicher innerer als auch äußerer Merkmale für eine geschickte Nachbildung eines Original <bibl>(vgl. Pflugk-Harttung, Bulle Victors IV., S. 207-212).</bibl></p></div>
          <div type="bibliography">
          <listBibl>
             <bibl>[Weitere Referenzen]</bibl>
