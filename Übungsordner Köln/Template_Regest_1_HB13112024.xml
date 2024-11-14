@@ -9,8 +9,7 @@
             <respStmt xml:id="FE">
                <resp>Ersteller der Konkordanzregesten:</resp>
                <persName>[Vor- und Nachname des Erstellers]</persName>
-            </respStmt><respStmt xml:id="FE"><resp>Ersteller Konkordanzregest 2</resp><resp/></respStmt>
-           <respStmt xml:id="default"><resp when="2024">Encoding (Creator of the file):</resp><persName>[Vorname und Nachname der Bearbeiter*in]</persName></respStmt><respStmt xml:id="default"><resp>Revision of the contents</resp><persName>Julia Becker</persName></respStmt>
+            </respStmt><respStmt xml:id="FE"><resp>Ersteller Konkordanzregest </resp><resp when="2024"/><resp when="2024">Encoding (Creator of the file):</resp></respStmt><respStmt xml:id="default"><persName>[Vorname und Nachname der Bearbeiter*in]</persName></respStmt><respStmt xml:id="default"><resp>Revision of the contents</resp><persName>Julia Becker</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
