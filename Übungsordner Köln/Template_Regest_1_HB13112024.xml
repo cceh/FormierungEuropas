@@ -7,10 +7,9 @@
          <titleStmt>
             <title>Die Nummer des Regests im Projekt</title>
             <respStmt xml:id="FE">
-               <resp>Bearbeiter*in:</resp>
-               <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
-            </respStmt>
-           <respStmt xml:id="default"><resp when="2024">Encoding(Creator of the file):</resp><persName>[Vorname und Nachname der Bearbeiter*in]</persName></respStmt><respStmt xml:id="default"><resp>Revision of the contents</resp><persName>Julia Becker</persName></respStmt>
+               <resp>Ersteller der Konkordanzregesten:</resp>
+               <persName>[Vor- und Nachname des Erstellers]</persName>
+            </respStmt><respStmt xml:id="FE"><resp>Ersteller Konkordanzregest </resp><resp when="2024"/><resp when="2024">Encoding (Creator of the file):</resp></respStmt><respStmt xml:id="default"><persName>[Vorname und Nachname der Bearbeiter*in]</persName></respStmt><respStmt xml:id="default"><resp>Revision of the contents</resp><persName>Julia Becker</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -20,8 +19,8 @@
          </publicationStmt>
          <sourceDesc>
             <diploDesc><p><issued><placeName>Ausstellungsort</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" unit="cm" when="1181-01-01" xml:space="default">1. Januar 1181</date></issued></p>
-               <p><legalActor type="issuer">Issuer</legalActor></p>
-               <p> <legalActor type="recipient">Recipient 1</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><legalActor type="issuer">Kloster, Name, Abt</legalActor></p>
+               <p><p> <legalActor cert="high" type="beneficiary" xml:space="default">Recipient 1</legalActor></p> <legalActor type="recipient">Recipient 1</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType>Typisierung 1</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
@@ -30,9 +29,9 @@
    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
    <text>
       <body>
-         <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[*!?]</p><!-- Echtheitskriterien --></authen></div><div><head>Incipit:</head><diploPart type="incipit">Lorem ipsum dolor sit amet</diploPart></div>
+         <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[*!?-]</p><!-- Echtheitskriterien --></authen></div><div><head>Incipit:</head><diploPart type="incipit">Lorem ipsum dolor sit amet</diploPart></div>
          <div type="abstract"><head>Abstract:</head>
-            <p>Regestentext</p>
+            <p>Regestentext</p><p><list/>Alexander</p>
          </div>
          <div type="witness">
             <head>Überlieferungsträger</head>
