@@ -31,7 +31,7 @@
       <body>
          <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[*!?-]</p><!-- Echtheitskriterien --></authen></div><div><head>Incipit:</head><diploPart type="incipit">Lorem ipsum dolor sit amet</diploPart></div>
          <div type="abstract"><head>Abstract:</head>
-            <p>Regestentext</p><p><list/>Alexander</p>
+            <p>Regestentext</p><p>Alexander</p>
          </div>
          <div type="witness">
             <head>Überlieferungsträger</head>
@@ -76,7 +76,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>[Edition 1]</bibl>
+               <bibl>[Edition 1]</bibl><bibl>Alter Druck</bibl>
                <bibl>[Edition 2]</bibl>
                <bibl>[Edition 3]</bibl>
             </listBibl>
