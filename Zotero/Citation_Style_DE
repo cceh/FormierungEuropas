@@ -2,10 +2,10 @@
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never">
   <!-- This style was edited with the Visual CSL Editor (https://editor.citationstyles.org/visualEditor/) -->
   <info>
-    <title>Formierung mit Stil</title>
-    <id>http://www.zotero.org/styles/formierung-mit-stil</id>
-    <link rel="self" href="http://www.zotero.org/styles/formierung-mit-stil"/>
-    <updated>2024-05-22T15:16:30+00:00</updated>
+    <title>Formierung mit VuF-Stil</title>
+    <id>http://www.zotero.org/styles/formierung-mit-vuf-stil</id>
+    <link rel="self" href="http://www.zotero.org/styles/formierung-mit-vuf-stil"/>
+    <updated>2024-11-15T13:50:15+00:00</updated>
   </info>
   <macro name="author medieval">
     <names variable="author"/>
@@ -79,6 +79,13 @@
         <text variable="URL" prefix=", URL: &lt;" suffix="&gt;"/>
       </else-if>
     </choose>
+  </macro>
+  <macro name="date(tt.mm.jjjj)">
+    <date delimiter="." variable="issued">
+      <date-part name="day"/>
+      <date-part name="month" form="numeric"/>
+      <date-part name="year"/>
+    </date>
   </macro>
   <citation>
     <layout>
@@ -167,12 +174,31 @@
             <text macro="DOI or URL"/>
           </group>
         </else-if>
-        <else-if type="webpage" match="any">
+        <else-if type="webpage dataset" match="any">
           <group>
             <text macro="author"/>
             <text variable="title"/>
-            <text value=""/>
+            <text macro="place, edition, year"/>
+            <text macro="DOI or URL"/>
           </group>
+        </else-if>
+        <else-if type="post-weblog" match="any">
+          <group>
+            <text macro="author"/>
+            <text variable="title"/>
+            <text variable="container-title" prefix=", Blogbeitrag auf: "/>
+            <text macro="date(tt.mm.jjjj)" prefix=", "/>
+            <text macro="DOI or URL"/>
+          </group>
+        </else-if>
+        <else-if type="speech" match="any">
+          <text macro="author"/>
+          <text variable="genre" suffix=": "/>
+          <text variable="title"/>
+          <text variable="event-title" prefix=", "/>
+          <text variable="publisher-place" prefix=", "/>
+          <text macro="date(tt.mm.jjjj)" prefix=" "/>
+          <text macro="DOI or URL"/>
         </else-if>
       </choose>
       <text value="."/>
