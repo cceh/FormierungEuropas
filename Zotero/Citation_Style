@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never">
+  <!-- This style was edited with the Visual CSL Editor (https://editor.citationstyles.org/visualEditor/) -->
+  <info>
+    <title>Formierung mit Stil</title>
+    <id>http://www.zotero.org/styles/formierung-mit-stil</id>
+    <link rel="self" href="http://www.zotero.org/styles/formierung-mit-stil"/>
+    <updated>2024-05-22T15:16:30+00:00</updated>
+  </info>
+  <macro name="author medieval">
+    <names variable="author"/>
+  </macro>
+  <macro name="author">
+    <names variable="author" suffix=", ">
+      <name delimiter="/" delimiter-precedes-last="always">
+        <name-part name="family" font-variant="small-caps"/>
+      </name>
+    </names>
+  </macro>
+  <macro name="editor (Hg.)">
+    <names variable="editor" prefix=", hg. von ">
+      <name delimiter="/" delimiter-precedes-last="always">
+        <name-part name="family" font-variant="small-caps"/>
+      </name>
+    </names>
+  </macro>
+  <macro name="editor (ed.)">
+    <names variable="editor" prefix=", ed. ">
+      <name and="text" delimiter-precedes-last="never" et-al-min="4">
+        <name-part name="family" font-variant="small-caps"/>
+      </name>
+    </names>
+  </macro>
+  <macro name="journal: issue, number, year">
+    <group>
+      <number prefix=" " variable="volume"/>
+      <number prefix="," variable="issue"/>
+      <date date-parts="year" form="numeric" variable="issued">
+        <date-part name="year" prefix=" (" suffix=")"/>
+      </date>
+    </group>
+  </macro>
+  <macro name="collection">
+    <group prefix=" (" suffix=")">
+      <text variable="collection-title"/>
+      <number prefix=" " variable="collection-number"/>
+    </group>
+  </macro>
+  <macro name="place, edition, year">
+    <group prefix=", ">
+      <text variable="publisher-place" suffix=" "/>
+      <number vertical-align="sup" variable="edition"/>
+      <date date-parts="year" form="text" variable="issued">
+        <date-part name="year"/>
+      </date>
+    </group>
+  </macro>
+  <macro name="short: author">
+    <names variable="author" suffix=": ">
+      <name form="short" font-variant="small-caps" delimiter="/" delimiter-precedes-last="never" et-al-min="4" name-as-sort-order="all"/>
+      <substitute>
+        <names variable="editor" suffix=" (Hg.): ">
+          <name form="short" font-variant="small-caps" delimiter="/"/>
+        </names>
+      </substitute>
+    </names>
+  </macro>
+  <macro name="short: editor">
+    <names variable="editor" prefix=", hg. von ">
+      <name form="short" font-variant="small-caps" delimiter="/" et-al-min="4"/>
+    </names>
+  </macro>
+  <macro name="DOI or URL">
+    <choose>
+      <if match="any" variable="DOI">
+        <text variable="DOI" prefix=", DOI: &lt;" suffix="&gt;"/>
+      </if>
+      <else-if match="any" variable="URL">
+        <text variable="URL" prefix=", URL: &lt;" suffix="&gt;"/>
+      </else-if>
+    </choose>
+  </macro>
+  <citation>
+    <layout>
+      <group>
+        <text macro="short: author"/>
+        <text variable="title-short"/>
+        <text macro="short: editor"/>
+      </group>
+    </layout>
+  </citation>
+  <bibliography>
+    <sort>
+      <key variable="author"/>
+      <key variable="title"/>
+    </sort>
+    <layout>
+      <choose>
+        <if type="article-newspaper" match="all" variable="editor"/>
+        <else-if type="book" match="all" variable="editor">
+          <choose>
+            <if match="all" variable="author">
+              <group>
+                <text macro="author"/>
+                <text variable="title"/>
+                <number prefix=", " suffix=" Bde." variable="number-of-volumes"/>
+                <text macro="editor (ed.)"/>
+                <text macro="collection"/>
+                <text macro="place, edition, year"/>
+                <text macro="DOI or URL"/>
+              </group>
+            </if>
+            <else>
+              <group>
+                <text variable="title"/>
+                <number prefix=", " suffix=" Bde." variable="number-of-volumes"/>
+                <text macro="editor (Hg.)"/>
+                <text macro="collection"/>
+                <text macro="place, edition, year"/>
+                <text macro="DOI or URL"/>
+              </group>
+            </else>
+          </choose>
+        </else-if>
+        <else-if type="book" match="all">
+          <group>
+            <text macro="author"/>
+            <text variable="title" strip-periods="false" font-style="normal"/>
+            <number prefix=", " suffix=" Bde." variable="number-of-volumes"/>
+            <text macro="collection"/>
+            <text macro="place, edition, year"/>
+            <text macro="DOI or URL"/>
+          </group>
+        </else-if>
+        <else-if type="chapter" match="any">
+          <group>
+            <text macro="author"/>
+            <text variable="title"/>
+            <text value=", in: " strip-periods="false"/>
+            <text variable="container-title"/>
+            <text macro="editor (Hg.)"/>
+            <text macro="collection"/>
+            <text macro="place, edition, year"/>
+            <number prefix=", Bd. " variable="volume"/>
+            <number prefix=", S. " variable="page"/>
+            <text macro="DOI or URL"/>
+          </group>
+        </else-if>
+        <else-if type="article-journal" match="any">
+          <group>
+            <text macro="author"/>
+            <text variable="title"/>
+            <text variable="container-title" prefix=", in: "/>
+            <text macro="journal: issue, number, year"/>
+            <number prefix=", S. " variable="page"/>
+            <text macro="DOI or URL"/>
+          </group>
+        </else-if>
+        <else-if type="thesis" match="any">
+          <group>
+            <text macro="author"/>
+            <text variable="title"/>
+            <number variable="number-of-volumes"/>
+            <text macro="collection"/>
+            <text value=", Diss. masch."/>
+            <text macro="place, edition, year"/>
+            <text macro="DOI or URL"/>
+          </group>
+        </else-if>
+        <else-if type="webpage" match="any">
+          <group>
+            <text macro="author"/>
+            <text variable="title"/>
+            <text value=""/>
+          </group>
+        </else-if>
+      </choose>
+      <text value="."/>
+    </layout>
+  </bibliography>
+</style>
