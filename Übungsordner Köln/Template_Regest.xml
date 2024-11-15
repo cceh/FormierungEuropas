@@ -6,11 +6,11 @@
       <fileDesc>
          <titleStmt>
             <title>Die Nummer des Regests im Projekt</title>
-            <respStmt xml:id="FE">
+            <respStmt>
                <resp>Bearbeiter*in:</resp>
                <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
             </respStmt>
-           <respStmt xml:id="default"><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Bearbeiter*in]</persName></respStmt>
+           <respStmt><resp>Encoding:</resp><persName>[Vorname und Nachname der Bearbeiter*in]</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -23,9 +23,8 @@
                <date type="issued" when="1000-01-01">Ausstellungsdatum (Zeitpunkt)</date></issued></p>
                <p><legalActor type="issuer">Issuer</legalActor></p>
                  <p> <legalActor type="recipient">Recipient 1</legalActor></p>
-                 <p> <legalActor type="recipient">Recipient 2</legalActor></p>
                <p><objectType>Typisierung 1</objectType></p>
-               <p><objectType>Typisierung 2</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+               <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
@@ -35,7 +34,7 @@
          <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[*!?]</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit:</head><p>[Lorem Ipsum]</p></div>
          <div type="abstract"><head>Abstract:</head>
          <div>
-            <p>[Regestentext mit <legalActor type="issuer"><persName>Aussteller</persName></legalActor>, <legalActor type="beneficiary"><persName>Empfänger</persName></legalActor>; weitere <persName>Personen</persName>, <placeName>Orte</placeName>, <orgName>Institutionen</orgName> und auch <eventName>Ereignisse</eventName>. Außerdem sind ggf. <bibl>Literaturzitate</bibl> und <ref>Querverweise</ref> möglich. Wörtliche Zitate könnten mit dem entsprechenden <diploPart>Urkundenbestandtteil</diploPart> ausgezeichet werden. Einzelne Rechtstitel, etwa bei Privilegien, werden als Liste aufgeführt, auch dort können alle im "abstract" zulässigen Entitäten ausgezeichnet werden.]</p>
+            <p>[Regestentext ef> möglich. Wörtliche Zitate könnten mit dem entsprechenden <diploPart>Urkundenbestandtteil</diploPart> ausgezeichet werden. Einzelne Rechtstitel, etwa bei Privilegien, werden als Liste aufgeführt, auch dort können alle im "abstract" zulässigen Entitäten ausgezeichnet werden.]</p>
             <list>
                <item>[Item 1]</item>
                <item>[Item 2]</item>
