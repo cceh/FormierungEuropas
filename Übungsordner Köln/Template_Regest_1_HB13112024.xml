@@ -6,10 +6,12 @@
       <fileDesc>
          <titleStmt>
             <title>Die Nummer des Regests im Projekt</title>
-            <respStmt xml:id="FE">
+            <respStmt>
                <resp>Ersteller der Konkordanzregesten:</resp>
                <persName>[Vor- und Nachname des Erstellers]</persName>
-            </respStmt><respStmt xml:id="FE"><resp>Ersteller Konkordanzregest </resp><resp when="2024"/><resp when="2024">Encoding (Creator of the file):</resp></respStmt><respStmt xml:id="default"><persName>[Vorname und Nachname der Bearbeiter*in]</persName></respStmt><respStmt xml:id="default"><resp>Revision of the contents</resp><persName>Julia Becker</persName></respStmt>
+            </respStmt>
+            <respStmt><persName>Ersteller Konkordanzregest </persName><resp when="2024"/><resp when="2024">Encoding (Creator of the file):</resp></respStmt>
+            <respStmt><resp>Revision of the contents</resp><persName>Julia Becker</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -20,7 +22,7 @@
          <sourceDesc>
             <diploDesc><p><issued><placeName>Ausstellungsort</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" unit="cm" when="1181-01-01" xml:space="default">1. Januar 1181</date></issued></p>
                <p><legalActor type="issuer">Kloster, Name, Abt</legalActor></p>
-               <p><p> <legalActor cert="high" type="beneficiary" xml:space="default">Recipient 1</legalActor></p> <legalActor type="recipient">Recipient 1</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><legalActor cert="high" type="beneficiary" xml:space="default">Recipient 1</legalActor></p><p> <legalActor type="recipient">Recipient 1</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType>Typisierung 1</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
