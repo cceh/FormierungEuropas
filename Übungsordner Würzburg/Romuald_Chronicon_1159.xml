@@ -52,12 +52,7 @@
                         <origin notBefore="0799-01-01" notAfter="0900-01-01">[12. Jh.]</origin>
                      </history></msDesc></witness>
                <witness><msDesc>
-                  <msIdentifier>
-                     <placeName>[Bibliotheksort]</placeName>
-                     <institution>[Institution]</institution>
-                     <collection>[Sammlung]</collection>
-                     <idno>[Signatur]</idno>
-                  </msIdentifier>
+                  <msIdentifier/>
              </msDesc></witness>
             </listWit>
          </div>
