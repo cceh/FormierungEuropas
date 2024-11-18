@@ -32,7 +32,7 @@
          <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>-</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit:</head><p>Licet uos sicut religiosos uiros</p></div>
          <div type="abstract"><head>Abstract:</head>
          <div>
-            <p>[Regestentext mit <legalActor type="issuer"><persName>Papst Alexander III.</persName></legalActor> befiehlt den <legalActor type="beneficiary"><persName>Rittern von Calatrava</persName></legalActor>, in ihren Kirchen die Rechte des Erzbischofs von Toledo und seiner Suffragane auf Zehntzahlungen und die Einsetzung von Klerikern einzuhalten. Außerdem sollen die Ritter auch für neu eroberte Siedlungen, auf die die Bischöfe traditionelle Ansprüche haben, den Zehnten entrichten. Zur Durchsetzung dieser Rechte hat Alexander den Bischöfen das Recht eingeräumt, das Interdikt oder die Exkommunikation gegen den <orgName>Calatravaorden </orgName>zu verhängen.</p>
+            <p>[Regestentext mit <legalActor type="issuer"><persName>Papst Alexander III.</persName></legalActor> befiehlt den <legalActor type="beneficiary"><persName>Rittern von Calatrava</persName></legalActor>, in ihren Kirchen die Rechte des <legalActor>Erzbischofs von Toledo</legalActor> und seiner Suffragane auf Zehntzahlungen und die Einsetzung von Klerikern einzuhalten. Außerdem sollen die Ritter auch für neu eroberte Siedlungen, auf die die Bischöfe traditionelle Ansprüche haben, den Zehnten entrichten. Zur Durchsetzung dieser Rechte hat Alexander den Bischöfen das Recht eingeräumt, das Interdikt oder die Exkommunikation gegen den <orgName>Calatravaorden</orgName> zu verhängen.</p>
             
          </div>
          </div>
@@ -44,7 +44,7 @@
             <div>
             <listWit>   
                <witness><msDesc>
-                     <msIdentifier><placeName>[Bibliotheksort] </placeName><institution>[Institution]</institution><repository>[Bibliothek] </repository><collection>[Sammlung]</collection><idno type="shelfmark">[Signatur]</idno></msIdentifier>
+                     <msIdentifier><placeName>[Madrid </placeName><institution>[Institution]</institution><repository>[Bibliothek] </repository><collection>[Sammlung]</collection><idno type="shelfmark">[Signatur]</idno></msIdentifier>
                      <copyStatus type="original">[Original]</copyStatus>
                      <history>
                         <origin notBefore="0799-01-01" notAfter="0900-01-01">[12. Jh.]</origin>
