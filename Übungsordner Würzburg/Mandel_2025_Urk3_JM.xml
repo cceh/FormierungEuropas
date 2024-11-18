@@ -19,7 +19,7 @@
             <diploDesc><p><issued><placeName>Ferentino</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" unit="cm" xml:space="default" notBefore="1000-01-01" type="issued">-</date>
                <date type="issued" when="1000-01-01">(1175) Oktober 10</date></issued></p>
                <p><legalActor type="issuer">Papst Alexander III.</legalActor></p>
-                 <p><legalActor type="recipient">Hospitaliterorden</legalActor></p>
+                 <p><legalActor type="recipient">Templerorden</legalActor></p>
                  <p> <legalActor type="recipient">-</legalActor></p>
                <p><objectType>päpstliches Mandat</objectType></p>
                <p><objectType>-</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
@@ -31,7 +31,7 @@
       <body>
          <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>-</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit:</head><p>Licet uos sicut religiosos uiros</p></div>
          <div type="abstract"><head>Abstract:</head>
-         <div><p>[Regestentext mit <legalActor type="issuer"><persName>Papst Alexander III.</persName></legalActor> befiehlt den <legalActor>Hospitalitern von Toledo</legalActor>, in ihren Kirchen die Rechte des <legalActor>Erzbischofs von Toledo</legalActor> und seiner Suffragane auf Zehntzahlungen und die Einsetzung von Klerikern einzuhalten. Außerdem sollen die Ritter auch für neu eroberte Siedlungen, auf die die Bischöfe traditionelle Ansprüche haben, den Zehnten entrichten. Zur Durchsetzung dieser Rechte hat Alexander den Bischöfen das Recht eingeräumt, das Interdikt oder die Exkommunikation gegen den <orgName>Hospitaliterorden</orgName> zu verhängen.</p></div>
+         <div><p>[Regestentext mit <legalActor type="issuer"><persName>Papst Alexander III.</persName></legalActor> befiehlt den <legalActor>Templern von Toledo</legalActor>, in ihren Kirchen die Rechte des <legalActor>Erzbischofs von Toledo</legalActor> und seiner Suffragane auf Zehntzahlungen und die Einsetzung von Klerikern einzuhalten. Außerdem sollen die Ritter auch für neu eroberte Siedlungen, auf die die Bischöfe traditionelle Ansprüche haben, den Zehnten entrichten. Zur Durchsetzung dieser Rechte hat Alexander den Bischöfen das Recht eingeräumt, das Interdikt oder die Exkommunikation gegen den <orgName>Templerorden</orgName> zu verhängen.</p></div>
          </div>
          <div type="witness">
             <head>Überlieferungsträger</head>
