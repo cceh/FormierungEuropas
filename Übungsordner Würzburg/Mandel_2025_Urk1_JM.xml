@@ -19,7 +19,7 @@
             <diploDesc><p><issued><placeName>Ferentino</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" unit="cm" xml:space="default" notBefore="1000-01-01" type="issued">-</date>
                <date type="issued" when="1000-01-01">(1175) Oktober 10</date></issued></p>
                <p><legalActor type="issuer">Papst Alexander III.</legalActor></p>
-                 <p> <legalActor type="recipient">Ritter von Calatrava</legalActor></p>
+                 <p><legalActor type="recipient">Calatravaorden</legalActor></p>
                  <p> <legalActor type="recipient">-</legalActor></p>
                <p><objectType>päpstliches Mandat</objectType></p>
                <p><objectType>-</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
@@ -72,11 +72,7 @@
                <bibl>JL 12519</bibl>
                <bibl>Ewald, Reise nach Spanien im Winter von 1878 auf 1879, in: NA 6, S. 296</bibl>
                </listBibl></div><div type="Sachkommentar"><head>Sachkommentar</head>
-            <p>[Mit <bibl>Bibliographischen Angaben</bibl>, weiteren Entitäten und Anmerkungen zu Urkundenbestandtteilen, der Echtheit und Datierung.]</p>
-         </div>
-         <div type="bibliography">
-         <listBibl>
-            <bibl>[Weitere Referenzen]</bibl>
+            <p>-</p></div><div type="bibliography"><listBibl>
          </listBibl>
          </div>
       </body>
