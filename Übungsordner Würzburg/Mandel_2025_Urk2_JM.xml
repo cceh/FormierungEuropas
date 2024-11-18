@@ -31,7 +31,7 @@
       <body>
          <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>-</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit:</head><p>Licet uos sicut religiosos uiros</p></div>
          <div type="abstract"><head>Abstract:</head>
-         <div><p>[Regestentext mit <legalActor type="issuer"><persName>Papst Alexander III.</persName></legalActor> befiehlt den <legalActor>Hospitalitern von Toledo</legalActor>, in ihren Kirchen die Rechte des <legalActor>Erzbischofs von Toledo</legalActor> und seiner Suffragane auf Zehntzahlungen und die Einsetzung von Klerikern einzuhalten. Außerdem sollen die Ritter auch für neu eroberte Siedlungen, auf die die Bischöfe traditionelle Ansprüche haben, den Zehnten entrichten. Zur Durchsetzung dieser Rechte hat Alexander den Bischöfen das Recht eingeräumt, das Interdikt oder die Exkommunikation gegen den <orgName>Calatravaorden</orgName> zu verhängen.</p></div>
+         <div><p>[Regestentext mit <legalActor type="issuer"><persName>Papst Alexander III.</persName></legalActor> befiehlt den <legalActor>Hospitalitern von Toledo</legalActor>, in ihren Kirchen die Rechte des <legalActor>Erzbischofs von Toledo</legalActor> und seiner Suffragane auf Zehntzahlungen und die Einsetzung von Klerikern einzuhalten. Außerdem sollen die Ritter auch für neu eroberte Siedlungen, auf die die Bischöfe traditionelle Ansprüche haben, den Zehnten entrichten. Zur Durchsetzung dieser Rechte hat Alexander den Bischöfen das Recht eingeräumt, das Interdikt oder die Exkommunikation gegen den <orgName>Hospitaliterorden</orgName> zu verhängen.</p></div>
          </div>
          <div type="witness">
             <head>Überlieferungsträger</head>
@@ -40,9 +40,7 @@
              <head>Handschriftliche Überlieferung (Liste)</head>
             <div>
             <listWit>   
-               <witness><msDesc><msIdentifier><placeName>Madrid </placeName><institution>Archivo Histórico Nacional</institution> <collection>CLERO-SECULAR_CAR.3017</collection><idno type="shelfmark">Nr. 16 [Original]</idno></msIdentifier></msDesc></witness></listWit></div><div><listWit><witness><msDesc><history>                     </history></msDesc></witness>
-               <witness><msDesc>
-                  <msIdentifier><placeName>Madrid </placeName><listWit><witness><msDesc><msIdentifier><institution>Archivo Histórico Nacional </institution></msIdentifier></msDesc></witness></listWit><collection>CLERO-SECULAR_CAR.3017</collection><idno>Nr. 11 [Kopie 14. Jahrhundert]</idno><idno><listWit><listWit><witness><msDesc><msIdentifier><placeName>Madrid</placeName><institution> Biblioteca Nacional </institution><collection>Sign. 13040-Dd-61: Cartas y bulas para Toledo</collection></msIdentifier></msDesc></witness></listWit></listWit><idno type="shelfmark">fol. 90r-91v [Kopie 17. Jahrhundert]</idno></idno><idno/></msIdentifier>
+               <witness><msDesc><msIdentifier><placeName>Madrid </placeName><institution>Archivo Histórico Nacional</institution> <collection>CLERO-SECULAR_CAR.3017</collection><idno type="shelfmark">Nr. 16 [Original]</idno></msIdentifier></msDesc></witness></listWit></div><div><listWit><witness><msDesc><msIdentifier><idno><listWit><listWit><witness><msDesc><msIdentifier><placeName>Madrid</placeName><institution> Biblioteca Nacional </institution><collection>Sign. 13040-Dd-61: Cartas y bulas para Toledo</collection></msIdentifier></msDesc></witness></listWit></listWit><idno type="shelfmark">fol. 90r-91v [Kopie 17. Jahrhundert]</idno></idno><idno/></msIdentifier>
              </msDesc></witness>
             </listWit>
          </div>
