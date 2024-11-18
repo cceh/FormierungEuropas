@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Die Nummer des Regests im Projekt</title>
-            <respStmt>
+            <respStmt xml:id="FE">
                <resp>Bearbeiter*in:</resp>
                <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
             </respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Bearbeiter*in]</persName></respStmt>
+           <respStmt xml:id="default"><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Bearbeiter*in]</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -16,30 +16,53 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <diploDesc><p><issued><placeName>Ausstellungsort</placeName><date type="issued">Ausstellungsdatum</date>
-               </issued></p>
+            <diploDesc><p><issued><placeName>Ausstellungsort</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" unit="cm" xml:space="default" notBefore="1000-01-01" type="issued">Ausstellungsdatum (Zeitraum)</date>
+               <date type="issued" when="1000-01-01">Ausstellungsdatum (Zeitpunkt)</date></issued></p>
                <p><legalActor type="issuer">Issuer</legalActor></p>
-               <p> <legalActor type="recipient">Recipient 1</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+                 <p> <legalActor type="recipient">Recipient 1</legalActor></p>
+                 <p> <legalActor type="recipient">Recipient 2</legalActor></p>
                <p><objectType>Typisierung 1</objectType></p>
-<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+               <p><objectType>Typisierung 2</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
    <text>
-      
-         
-         <div type="abstract"><head>Abstract:</head><p>Alexander III. befiehlt den Rittern von Calatrava, in ihren Kirchen die Rechte des Erzbischofs von Toledo und seiner Suffragane auf Zehntzahlungen und die Einsetzung von Klerikern einzuhalten. Außerdem sollen die Ritter auch für neu eroberte Siedlungen, auf die die Bischöfe traditionelle Ansprüche haben, den Zehnten entrichten. Zur Durchsetzung dieser Rechte hat Alexander den Bischöfen das Recht eingeräumt, das Interdikt oder die Exkommunikation gegen den Calatravaorden zu verhängen.</p></div>
-         <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[*!?-]</p><!-- Echtheitskriterien --></authen></div><div><head>Incipit:</head><head>Licet uos sicut religiosos uiros</head></div>
+      <body>
+         <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[*!?]</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit:</head><p>[Lorem Ipsum]</p></div>
+         <div type="abstract"><head>Abstract:</head>
+         <div>
+            <p>[Regestentext mit <legalActor type="issuer"><persName>Aussteller</persName></legalActor>, <legalActor type="beneficiary"><persName>Empfänger</persName></legalActor>; weitere <persName>Personen</persName>, <placeName>Orte</placeName>, <orgName>Institutionen</orgName> und auch <eventName>Ereignisse</eventName>. Außerdem sind ggf. <bibl>Literaturzitate</bibl> und <ref>Querverweise</ref> möglich. Wörtliche Zitate könnten mit dem entsprechenden <diploPart>Urkundenbestandtteil</diploPart> ausgezeichet werden. Einzelne Rechtstitel, etwa bei Privilegien, werden als Liste aufgeführt, auch dort können alle im "abstract" zulässigen Entitäten ausgezeichnet werden.]</p>
+            <list>
+               <item>[Item 1]</item>
+               <item>[Item 2]</item>
+               <item>[Item 3]</item>
+               <item>[Item 4]</item><item/><item/>
+            </list>
+         </div>
+         </div>
          <div type="witness">
             <head>Überlieferungsträger</head>
          </div>
          <div type="msSources">
-             <head>Handschriftliche Überlieferung und alte Drucke</head>
+             <head>Handschriftliche Überlieferung (Liste)</head>
             <div>
             <listWit>   
-               <witness><bibl>Handschrift oder Alter Druck</bibl></witness>
-               <witness><bibl>Handschrift oder Alter Druck</bibl></witness>
+               <witness><msDesc>
+                     <msIdentifier><placeName>[Bibliotheksort] </placeName><institution>[Institution]</institution><repository>[Bibliothek] </repository><collection>[Sammlung]</collection><idno type="shelfmark">[Signatur]</idno></msIdentifier>
+                     <copyStatus type="original">[Original]</copyStatus>
+                     <history>
+                        <origin notBefore="0799-01-01" notAfter="0900-01-01">[12. Jh.]</origin>
+                     </history>
+                  </msDesc></witness>
+               <witness><msDesc>
+                  <msIdentifier>
+                     <placeName>[Bibliotheksort]</placeName>
+                     <institution>[Institution]</institution>
+                     <collection>[Sammlung]</collection>
+                     <idno>[Signatur]</idno>
+                  </msIdentifier>
+             </msDesc></witness>
             </listWit>
          </div>
          </div>
@@ -72,19 +95,18 @@
                <bibl>[Regest 1]</bibl>
                <bibl>[Regest 2]</bibl>
                <bibl>[Regest 3]</bibl>
+               <bibl>[Regest 4 mit doi: <ref>[10.58137/001-2023-53]</ref>]</bibl>
             </listBibl>
          </div>
-         <div type="commentary">
+         <div type="Sachkommentar">
             <head>Sachkommentar</head>
-            <p>Inhalt des Sachkommentars. Bibliographische Referenzen werden als <bibl>Bibliographische Angabe</bibl> getagged</p>
+            <p>[Mit <bibl>Bibliographischen Angaben</bibl>, weiteren Entitäten und Anmerkungen zu Urkundenbestandtteilen, der Echtheit und Datierung.]</p>
          </div>
          <div type="bibliography">
-            <head>Bibliographie</head>
          <listBibl>
-            <bibl>[Weitere Referenzen als listBibl]</bibl>
+            <bibl>[Weitere Referenzen]</bibl>
          </listBibl>
          </div>
-         <div type="note"><head>Anmerkungen, Notizen und Fragen der Bearbeiter*in.</head></div>
-      
+      </body>
    </text>
 </TEI>
