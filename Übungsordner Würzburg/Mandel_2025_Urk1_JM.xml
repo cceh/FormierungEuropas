@@ -5,9 +5,9 @@
             <title>Die Nummer des Regests im Projekt</title>
             <respStmt xml:id="FE">
                <resp>Bearbeiter*in:</resp>
-               <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+               <persName>Jakob Mandel</persName>
             </respStmt>
-           <respStmt xml:id="default"><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Bearbeiter*in]</persName></respStmt>
+           <respStmt xml:id="default"><resp when="2024">Encoding:</resp><persName>Jakob Mandel</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -16,7 +16,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <diploDesc><p><issued><placeName>Ausstellungsort</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" unit="cm" xml:space="default" notBefore="1000-01-01" type="issued">Ausstellungsdatum (Zeitraum)</date>
+            <diploDesc><p><issued><placeName>Ferentino</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" unit="cm" xml:space="default" notBefore="1000-01-01" type="issued">-</date>
                <date type="issued" when="1000-01-01">Ausstellungsdatum (Zeitpunkt)</date></issued></p>
                <p><legalActor type="issuer">Issuer</legalActor></p>
                  <p> <legalActor type="recipient">Recipient 1</legalActor></p>
