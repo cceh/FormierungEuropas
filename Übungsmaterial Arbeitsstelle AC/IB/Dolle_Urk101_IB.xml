@@ -22,16 +22,11 @@
       </fileDesc>
    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
    <text>
-      <body>
-         
-         <div type="abstract"><head>Abstract:</head>
+      <body><div type="abstract"><head>Abstract:</head>
             <p><persName>Papst Viktor IV.</persName> teilt dem <persName>Abt Bruno von Harsefeld</persName> und <orgName>dem Konvent von Harsefeld</orgName> mit, dass er das Kloster dem <persName>Erzbischof Hartwig von Bremen</persName> übertragen hat und fordert diese zum schuldigen Gehorsam auf (<diploPart cert="high" type="other" xml:space="default">debitum obsequium</diploPart>).</p>
-         </div>
-         <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>-</p><!-- Echtheitskriterien --></authen></div><div><head>Incipit:</head><diploPart type="incipit">Venerabilis frater noster H(artwicus) Bremensis</diploPart></div>
-         <div type="witness">
+         </div><div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>-</p><!-- Echtheitskriterien --></authen></div><div><head>Incipit:</head><diploPart type="incipit">Venerabilis frater noster H(artwicus) Bremensis</diploPart></div><div type="witness">
             <head>Überlieferungsträger</head>
-         </div>
-         <div type="msSources">
+         </div><div type="msSources">
              <head>Handschriftliche Überlieferung und alte Drucke</head>
             <div>
             <listWit>   
@@ -39,45 +34,37 @@
                <witness><bibl><witness>GWLB Hannover, MS XXIII 1052 fol. 56r-56v Nr. 119 (F)</witness></bibl><bibl>Leibniz, Scriptores II S. 259</bibl><bibl>Lünig, Reichsarchiv XVI Anhang S. 103f. Nr. 70</bibl><bibl>Staphorst, Hamburgische Kirchen-Geschichte I, I S. 570</bibl><bibl>Hamburgisches UB I Nr. 222.</bibl><bibl>Capelle, Johannis Rode ... registrum S. 203 f. Nr. 88.</bibl></witness>
             </listWit>
          </div>
-         </div>
-         <div type="decretals">
+         </div><div type="decretals">
             <head>Dekretalen</head>
             <listWit>
                <witness><bibl>[Dekretale 1]</bibl></witness>
                <witness><bibl>[Dekretale 2]</bibl></witness>
             </listWit>
-         </div>
-         <div type="historiography">
+         </div><div type="historiography">
             <head>Erwähnungen in der Historiographie</head>
             <listWit>
                <witness>
                   <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
                </witness>
             </listWit>
-         </div>
-         <div type="editions">
+         </div><div type="editions">
             <head>Editionen</head>
             <listBibl>
                <bibl>[Edition 1]</bibl>
                <bibl>[Edition 2]</bibl>
                <bibl>[Edition 3]</bibl>
             </listBibl>
-         </div>
-         <div type="regesta">
+         </div><div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
-            <listBibl><bibl>JL 14432</bibl><bibl>Germ. Pont. </bibl><bibl>[Regest 3]</bibl></listBibl>
-         </div>
-         <div type="commentary">
+            <listBibl><bibl>JL 14432</bibl><bibl>Germ. Pont. VI S. 118 Nr. 6</bibl><bibl>Hempel, Inventarium I Sp. 98</bibl><bibl>RegEb Bremen I Nr. 546</bibl><bibl>Handschr</bibl></listBibl>
+         </div><div type="commentary">
             <head>Sachkommentar</head>
             <p>Der Druck bei Dolle folgt dem Hamburgischen UB (HUB) mit den Korrekturen aus dem, Nachlass Brackmann (Br.). Datiert nach dem Itinerar des (Gegen-)Papstes. <bibl>Fiehn, Geschichte S. 274f.</bibl><bibl>Schulze, Art. Harsefeld S. 139f.</bibl> getagged</p>
-         </div>
-         <div type="bibliography">
+         </div><div type="bibliography">
             <head>Bibliographie</head>
          <listBibl>
             <bibl>[Weitere Referenzen als listBibl]</bibl>
          </listBibl>
-         </div>
-         <div type="note"><head>Anmerkungen, Notizen und Fragen der Bearbeiter*in.</head></div>
-      </body>
+         </div><div type="note"><head>Anmerkungen, Notizen und Fragen der Bearbeiter*in.</head></div></body>
    </text>
 </TEI>
