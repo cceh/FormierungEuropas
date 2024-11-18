@@ -17,12 +17,8 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <diploDesc><p><issued><placeName>Ausstellungsort</placeName><date when="1160-02-17">Ausstellungsdatum</date>
-               </issued></p>
-               <p><legalActor type="issuer">Issuer</legalActor></p>
-               <p> <legalActor type="recipient">Recipient 1</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType>Typisierung 1</objectType></p>
-<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <diploDesc><issued><placeName>Ausstellungsort</placeName></issued><issued><placeName>t</placeName><date when="1160-02-17">Ausstellungsdatum</date>
+               </issued><p><legalActor type="issuer">Issuer</legalActor></p><p> <legalActor type="recipient">Recipient 1</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType>Typisierung 1</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
@@ -88,7 +84,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Template_Regest_1.xml?date_annotation_20241118134212078#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/teiHeader/fileDesc/sourceDesc/diploDesc/p/issued/date"
+			"rdf:value": "TEI/teiHeader/fileDesc/sourceDesc/diploDesc/issued[2]/date"
 		}
 	},
 	"oa:hasBody": {
