@@ -16,11 +16,11 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <diploDesc><p><issued><placeName>Lateran</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" unit="cm" xml:space="default" notBefore="1000-01-01" type="issued">1178–79 Mai</date>
+            <diploDesc><p><issued><placeName>Tusculum</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" unit="cm" xml:space="default" notBefore="1000-01-01" type="issued">-</date>
                <date type="issued" when="1000-01-01">-</date></issued></p>
                <p><legalActor type="issuer">Papst Alexander III.</legalActor></p>
-                 <p><legalActor type="recipient">Bischof Sancho von Ávila</legalActor></p>
-                 <p><legalActor type="recipient">Erzdiakon A. von León</legalActor></p>
+                 <p><legalActor type="recipient">Santiagoorden</legalActor></p>
+                 <p><legalActor type="recipient">- León</legalActor></p>
                <p><objectType>päpstliches Mandat</objectType></p>
                <p><objectType>-</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
