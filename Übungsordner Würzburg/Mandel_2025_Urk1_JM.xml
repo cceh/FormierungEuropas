@@ -70,8 +70,8 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>[Edition 1]</bibl>
-               <bibl>[Edition 2]</bibl>
+               <bibl>Rivera Recio, La Iglesia de Toledo 2, S. 229 mit Anm. 50</bibl>
+               <bibl>O’Callaghan, Calatrava and Toledo, Appendices, Nr. 2, S. 83–85</bibl>
                <bibl>[Edition 3]</bibl>
             </listBibl>
          </div>
@@ -79,7 +79,7 @@
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 12519</bibl>
-               <bibl>[Ewald, Reise nach Spanien im Winter von 1878 auf 1879, in: NA 6, S. 296</bibl>
+               <bibl>Ewald, Reise nach Spanien im Winter von 1878 auf 1879, in: NA 6, S. 296</bibl>
                <bibl>[Regest 3]</bibl>
                <bibl>[Regest 4 mit doi: <ref>[10.58137/001-2023-53]</ref>]</bibl>
             </listBibl>
