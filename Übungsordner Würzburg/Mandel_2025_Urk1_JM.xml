@@ -40,7 +40,7 @@
              <head>Handschriftliche Überlieferung (Liste)</head>
             <div>
             <listWit>   
-               <witness><msDesc><msIdentifier><placeName>Madrid </placeName><institution>Archivo Histórico Nacional</institution><repository>[Bibliothek] </repository><collection>CLERO-SECULAR_CAR.3017</collection><idno type="shelfmark">[CAR.3017, Nr. 16]</idno></msIdentifier><copyStatus type="original">[Original]</copyStatus><history>
+               <witness><msDesc><msIdentifier><placeName>Madrid </placeName><institution>Archivo Histórico Nacional</institution><repository>[Bibliothek] </repository><collection>CLERO-SECULAR_CAR.3017</collection><idno type="shelfmark">Nr. 16</idno></msIdentifier><copyStatus type="original">[Original]</copyStatus><history>
                         <origin notBefore="0799-01-01" notAfter="0900-01-01">[12. Jh.]</origin>
                      </history></msDesc></witness>
                <witness><msDesc>
