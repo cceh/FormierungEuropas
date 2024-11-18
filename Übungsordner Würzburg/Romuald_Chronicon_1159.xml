@@ -16,8 +16,8 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <diploDesc><p><issued><placeName>Ausstellungsort</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" unit="cm" xml:space="default" notBefore="1000-01-01" type="issued">Ausstellungsdatum (Zeitraum)</date>
-               <date type="issued" when="1000-01-01">Ausstellungsdatum (Zeitpunkt)</date></issued></p>
+            <diploDesc><p><issued><placeName>St. Peter in Rom</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" unit="cm" xml:space="default" notBefore="1000-01-01" type="issued">1159 September 7</date>
+               <date type="issued" when="1000-01-01"/></issued></p>
                <p><legalActor type="issuer">Issuer</legalActor></p>
                  <p> <legalActor type="recipient">Recipient 1</legalActor></p>
                  <p> <legalActor type="recipient">Recipient 2</legalActor></p>
