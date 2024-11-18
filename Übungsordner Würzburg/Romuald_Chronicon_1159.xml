@@ -48,13 +48,9 @@
              <head>Handschriftliche Überlieferung (Liste)</head>
             <div>
             <listWit>   
-               <witness><msDesc>
-                     <msIdentifier><placeName>[Bibliotheksort] </placeName><institution>[Institution]</institution><repository>[Bibliothek] </repository><collection>[Sammlung]</collection><idno type="shelfmark">[Signatur]</idno></msIdentifier>
-                     <copyStatus type="original">[Original]</copyStatus>
-                     <history>
+               <witness><msDesc><msIdentifier><placeName>Rom, Biblioteca Apostolica Vaticana, Vat. lat. 3973, fol. 234v </placeName><institution>[Institution]</institution><repository>[Bibliothek]Biblioteca Apostolica Vaticana, Vat. </repository><collection>[Sammlung]</collection><idno type="shelfmark">[Signatur]</idno></msIdentifier><copyStatus type="original">[Original]</copyStatus><history>
                         <origin notBefore="0799-01-01" notAfter="0900-01-01">[12. Jh.]</origin>
-                     </history>
-                  </msDesc></witness>
+                     </history></msDesc></witness>
                <witness><msDesc>
                   <msIdentifier>
                      <placeName>[Bibliotheksort]</placeName>
