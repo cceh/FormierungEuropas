@@ -42,12 +42,7 @@
             <listWit>   
                <witness><msDesc><msIdentifier><placeName>Madrid </placeName><institution>Archivo Histórico Nacional</institution><repository>[Bibliothek] </repository><collection>CLERO-SECULAR_CAR.3017</collection><idno type="shelfmark">Nr. 16</idno></msIdentifier></msDesc></witness></listWit></div><div><listWit><witness><msDesc><history>                     </history></msDesc></witness>
                <witness><msDesc>
-                  <msIdentifier>
-                     <placeName>[Bibliotheksort]</placeName>
-                     <institution>[Institution]</institution>
-                     <collection>[Sammlung]</collection>
-                     <idno>[Signatur]</idno>
-                  </msIdentifier>
+                  <msIdentifier><placeName>Madrid]</placeName><institution>[Institution]</institution><collection>[Sammlung]</collection><idno>[Signatur]</idno></msIdentifier>
              </msDesc></witness>
             </listWit>
          </div>
