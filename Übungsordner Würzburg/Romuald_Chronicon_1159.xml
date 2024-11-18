@@ -29,7 +29,7 @@
    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
    <text>
       <body>
-         <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[-]</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit:</head><p>[Lorem Ipsum]</p></div>
+         <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[-]</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit:</head><p>-</p></div>
          <div type="abstract"><head>Abstract:</head>
          <div>
             <p>Nach dem Tod von <persName>Papst Hadrian [IV.]</persName> am 1. September 1159 bei <placeName>Anagni</placeName>, der Überführung seines Leichnams nach <placeName>Rom</placeName> und seiner Bestattung, versammeln sich die Kardinäle in der Kirche <placeName>St. Peter in Rom</placeName> .<legalActor type="issuer"/></p>
@@ -75,7 +75,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>[Edition 1]</bibl>
+               <bibl>Romuald von Salerno, Chronicon, ed. Carlo Alberto Garufi (Rerum Italicarum scriptores. Nuova Edizione, 7,1), Città di Castello 1935, S. 243.</bibl>
                <bibl>[Edition 2]</bibl>
                <bibl>[Edition 3]</bibl>
             </listBibl>
