@@ -30,9 +30,9 @@
       <body>
          
          <div type="abstract"><head>Abstract:</head>
-            <p><legalActor>Alexander III.</legalActor> befielt dem <legalActor>Santiagoorden</legalActor>, die Zehnten der Kirche von Toledo nicht einzubehalten.</p>
+            <p><legalActor>Alexander III.</legalActor> befielt dem <legalActor>Santiagoorden</legalActor>, die Zehnten der <legalActor>Kirche von Toledo</legalActor> nicht einzubehalten.</p>
          </div>
-         <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[-]</p><!-- Echtheitskriterien --></authen></div><div><head>Incipit:</head><diploPart type="incipit">Causam que inter uenerabilem fratrem</diploPart></div>
+         <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[-]</p><!-- Echtheitskriterien --></authen></div><div><head>Incipit:</head><diploPart type="incipit">Cum decime et primicie spirituales</diploPart></div>
          <div type="witness">
             <head>Datatio:</head><diploPart>Datum La[teranum] […] [Idus] Maii.</diploPart>
 </div>
