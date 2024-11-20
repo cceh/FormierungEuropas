@@ -16,10 +16,10 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <diploDesc><p><issued><placeName>Lateran</placeName><date type="issued">(1178) Mai</date><date type="issued">(1179) Oktober 10</date>
+            <diploDesc><p><issued><placeName>Lateran</placeName><date type="issued">(1178) Mai</date><date type="issued">(1179) Mai</date>
                </issued></p>
                <p><legalActor type="issuer">Papst Alexander III.</legalActor></p>
-               <p> <legalActor type="recipient">Templerorden</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient">Santiagoorden</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType>Mandat</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
