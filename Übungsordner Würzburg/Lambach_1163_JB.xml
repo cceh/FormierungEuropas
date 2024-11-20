@@ -48,10 +48,7 @@
              <head>Handschriftliche Überlieferung (Liste)</head>
             <div>
             <listWit>   
-               <witness><msDesc>
-                     <msIdentifier><placeName>[Lambach,</placeName><institution>Stiftsarchiv, </institution><repository/><collection/><idno type="shelfmark">Urkunden (992-1600) 1163 VIII 02</idno></msIdentifier>
-                     <copyStatus type="original">[Original]</copyStatus> <history/>
-                  </msDesc></witness>
+               <witness><msDesc><msIdentifier><placeName>Lambach,</placeName><institution>Stiftsarchiv, </institution><repository/><collection/><idno type="shelfmark">Urkunden (992-1600) 1163 VIII 02</idno></msIdentifier><copyStatus type="original">[Original]</copyStatus><history/></msDesc></witness>
                <witness><msDesc>
                   <msIdentifier>
                      
