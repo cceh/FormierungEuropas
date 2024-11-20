@@ -27,64 +27,6 @@
       </fileDesc>
    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
    <text>
-      <body>
-         
-         <div type="abstract"><head>Abstract:</head>
-            <p><legalActor>Alexander III.</legalActor> befiehlt den <legalActor>Rittern von Calatrava</legalActor>, in ihren Kirchen die Rechte des <legalActor>Erzbischofs von Toledo</legalActor> und seiner Suffragane auf Zehntzahlungen und Einsetzung von Klerikern einzuhalten. Außerdem sollen die Ritter auch für neu eroberte Siedlungen, auf die die Bischöfe traditionelle Ansprüche haben, den Zehnten entrichten. Zur Durchsetzung dieser Rechte hat Alexander den Bischöfen das Recht eingeräumt, das Interdikt oder die Exkommunikation gegen den Calatravaorden zu verhängen.</p>
-         </div>
-         <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[-]</p><!-- Echtheitskriterien --></authen></div><div><head>Incipit:</head><diploPart cert="high" type="incipit" xml:space="default">Licet uos sicut religiosos uiros</diploPart></div><div><head>Datatio:</head><diploPart>Datum Ferentini, vi. Idus Octubris.</diploPart><div type="msSources"/></div><div><diploPart cert="high" type="incipit" xml:space="default">Datum Ferentini, vi. Idus Octubris.</diploPart></div>
-         
-         <div type="msSources">
-             <head>Handschriftliche Überlieferung und alte Drucke</head>
-            <div>
-            <listWit>   
-               <witness><bibl>Madrid, Archivo Histórico Nacional, CLERO-SECULAR_CAR.3017, Nr. 16</bibl></witness>
-               <witness><bibl>Handschrift oder Alter Druck</bibl></witness>
-            </listWit>
-         </div>
-         </div>
-         <div type="decretals">
-            <head>Dekretalen</head>
-            <listWit>
-               <witness><bibl>[Dekretale 1]</bibl></witness>
-               <witness><bibl>[Dekretale 2]</bibl></witness>
-            </listWit>
-         </div>
-         <div type="historiography">
-            <head>Erwähnungen in der Historiographie</head>
-            <listWit>
-               <witness>
-                  <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
-               </witness>
-            </listWit>
-         </div>
-         <div type="editions">
-            <head>Editionen</head>
-            <listBibl>
-               <bibl>[Edition 1]</bibl>
-               <bibl>[Edition 2]</bibl>
-               <bibl>[Edition 3]</bibl>
-            </listBibl>
-         </div>
-         <div type="regesta">
-            <head>Regesten</head> <!-- Konkordanzregesten -->
-            <listBibl>
-               <bibl>[Regest 1]</bibl>
-               <bibl>[Regest 2]</bibl>
-               <bibl>[Regest 3]</bibl>
-            </listBibl>
-         </div>
-         <div type="commentary">
-            <head>Sachkommentar</head>
-            <p>Inhalt des Sachkommentars. Bibliographische Referenzen werden als <bibl>Bibliographische Angabe</bibl> getagged</p>
-         </div>
-         <div type="bibliography">
-            <head>Bibliographie</head>
-         <listBibl>
-            <bibl>[Weitere Referenzen als listBibl]</bibl>
-         </listBibl>
-         </div>
-         <div type="note"><head>Anmerkungen, Notizen und Fragen der Bearbeiter*in.</head><p>Hier kommt der Text hin.</p></div>
-      </body>
+      
    </text>
 </TEI>
