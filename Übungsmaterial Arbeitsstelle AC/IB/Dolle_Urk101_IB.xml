@@ -47,11 +47,7 @@
             </listWit>
          </div><div type="editions">
             <head>Editionen</head>
-            <listBibl>
-               <bibl>[Edition 1]</bibl>
-               <bibl><listWit/></bibl>
-               <bibl>[Edition 3]</bibl>
-            </listBibl>
+            <listBibl><bibl>PUU in Niedersachsen und Bremen bis 1198</bibl><bibl><listWit/></bibl></listBibl>
          </div><div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl><bibl>JL 14432</bibl><bibl>Germ. Pont. VI S. 118 Nr. 6</bibl><bibl>Hempel, Inventarium I Sp. 98</bibl><bibl>RegEb Bremen I Nr. 546</bibl><bibl>Handschriftliches Regest mit Hinweisen auf Lesefehler beim Druck im Hamburgischen Urkundenbuch: Göttingen, Pius-Stiftung für Papsturkundenforschung, Nachlass Brackmann</bibl></listBibl>
