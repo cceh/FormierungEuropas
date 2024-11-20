@@ -41,7 +41,6 @@
             <div>
             <listWit>   
                <witness><bibl>Madrid, Archivo Histórico Nacional, CLERO-SECULAR_CAR.3017, N.12</bibl></witness>
-               <witness><bibl/></witness>
             </listWit>
          </div>
          </div>
@@ -68,7 +67,7 @@
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>JL -</bibl>
+               <bibl>JL -</bibl><bibl>Iberia Pontificia 4, S. 26, Nr. 60.</bibl>
                </listBibl></div><div type="commentary"><head>Sachkommentar</head>
             <p>Über das Itinerar lässt sich das Ausstellungsjahr auf die Jahre 1178 und 1179 eingrenzen. In diesen Jahren hielt sich Alexander Anfang Mai jeweils im Lateran auf (JL 13062–13066 und JL 13408–13417).</p>
          </div>
