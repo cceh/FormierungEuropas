@@ -19,7 +19,7 @@
             <diploDesc><p><issued><placeName>Ferentimo</placeName><date type="issued">(1174 Oktober 10</date><date type="issued">(1175) Oktober 10</date>
                </issued></p>
                <p><legalActor type="issuer">Papst Alexander III.</legalActor></p>
-               <p> <legalActor type="recipient">Hospitalsorden</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient">Hospitaliterorden</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType>Mandat</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
@@ -30,7 +30,7 @@
       <body>
          
          <div type="abstract"><head>Abstract:</head>
-            <p><legalActor>Alexander III.</legalActor> befiehlt den <legalActor>Rittern von Calatrava</legalActor>, in ihren Kirchen die Rechte des <legalActor>Erzbischofs von Toledo</legalActor> und seiner Suffragane auf Zehntzahlungen und die Einsetzung von Klerikern einzuhalten. Außerdem sollen die Ritter auch für neu eroberte Siedlungen, auf die die Bischöfe traditionelle Ansprüche haben, den Zehnten entrichten. Zur Durchsetzung dieser Rechte hat Alexander den Bischöfen das Recht eingeräumt, das Interdikt oder die Exkommunikation gegen den Calatravaorden zu verhängen.</p>
+            <p><legalActor>Alexander III.</legalActor> befiehlt den <legalActor>Hospitalitern von Toledo</legalActor>, in ihren Kirchen die Rechte des <legalActor>Erzbischofs von Toledo</legalActor> und seiner Suffragane auf Zehntzahlungen und die Einsetzung von Klerikern einzuhalten. Außerdem sollen die Ritter auch für neu eroberte Siedlungen, auf die die Bischöfe traditionelle Ansprüche haben, den Zehnten entrichten. Zur Durchsetzung dieser Rechte hat Alexander den Bischöfen das Recht eingeräumt, das Interdikt oder die Exkommunikation gegen den Hospitaliterorden zu verhängen.</p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[-]</p><!-- Echtheitskriterien --></authen></div><div><head>Incipit:</head><diploPart type="incipit">Licet uos sicut religiosos uiros</diploPart></div>
          <div type="witness">
