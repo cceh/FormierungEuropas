@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Die Nummer des Regests im Projekt</title>
+            <respStmt>
+               <resp>Bearbeiter*in:</resp>
+               <persName>Jakob Mandel</persName>
+            </respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>Jakob Mandel</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc><p><issued><placeName>Lateran</placeName><date type="issued">(1178) Mai</date><date type="issued">(1179) Mai</date>
+               </issued></p>
+               <p><legalActor type="issuer">Papst Alexander III.</legalActor></p>
+               <p> <legalActor type="recipient">Santiagoorden</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType>Mandat</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+   <text>
+      <body>
+         
+         <div type="abstract"><head>Abstract:</head>
+            <p><legalActor>Alexander III.</legalActor> trägt <legalActor>Bischof Sancho II. von Ávila</legalActor> und <legalActor>Erzdiakon A. von Leon</legalActor> auf, den Konflikt zwischen der <legalActor>Kirche von Toledo</legalActor> und dem <legalActor>Santiagoorden</legalActor> als delegierte Richter zu schlichten. Falls einer der beiden nicht als Richter fungieren könne, sollen sie selbst einen anderen delegierten Richter bestimmen, der kein Suffragan des Erzbischofs von Compostela oder des Erzbischofs von Toledo sein solle.</p>
+         </div>
+         <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[-]</p><!-- Echtheitskriterien --></authen></div><div><head>Incipit:</head><diploPart type="incipit">Causam que inter uenerabilem fratrem</diploPart></div>
+         <div type="witness">
+            <head>Datatio:</head><diploPart>Datum La[teranum] […] [Idus] Maii.</diploPart>
+</div>
+         <div type="msSources">
+             <head>Handschriftliche Überlieferung und alte Drucke</head>
+            <div>
+            <listWit>   
+               <witness><bibl>Madrid, Archivo Histórico Nacional, CLERO-SECULAR_CAR.3017, N.12</bibl></witness>
+               <witness><bibl/></witness>
+            </listWit>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listWit>
+               <witness><bibl>-</bibl></witness>
+            </listWit>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listWit>
+               <witness>
+                  <bibl>-</bibl>
+               </witness>
+            </listWit>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Mandel, Urkunden Papst Alexanders III. über spanische Kirchenzehnte, Nr. 4</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL -</bibl>
+               </listBibl></div><div type="commentary"><head>Sachkommentar</head>
+            <p>Über das Itinerar lässt sich das Ausstellungsjahr auf die Jahre 1178 und 1179 eingrenzen. In diesen Jahren hielt sich Alexander Anfang Mai jeweils im Lateran auf (JL 13062–13066 und JL 13408–13417).</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+         <listBibl>
+            <bibl>Mandel, Urkunden Papst Alexanders III. über spanische Kirchenzehnte</bibl>
+         </listBibl>
+         </div>
+         <div type="note"><head>Anmerkungen, Notizen und Fragen der Bearbeiter*in.</head><p>Literaturangaben nach Erscheinen des Aufsatzes von Mandel (AfD 62, 2025) aktualisieren!</p></div>
+      </body>
+   </text>
+</TEI>
