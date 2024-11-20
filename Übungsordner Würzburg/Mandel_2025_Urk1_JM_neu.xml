@@ -34,7 +34,7 @@
          </div>
          <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[-]</p><!-- Echtheitskriterien --></authen></div><div><head>Incipit:</head><diploPart cert="high" type="incipit" xml:space="default">Licet uos sicut religiosos uiros</diploPart></div>
          <div type="witness">
-            <head>Datatio:</head><head/><head>Überlieferungsträger</head>
+            <head>Datatio:</head><head><diploPart>Datum Ferentini, vi. Idus Octubris.</diploPart></head><head>Überlieferungsträger</head>
          </div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung und alte Drucke</head>
