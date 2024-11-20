@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Die Nummer des Regests im Projekt</title>
+            <respStmt>
+               <resp>Bearbeiter*in:</resp>
+               <persName>Jakob Mandel</persName>
+            </respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>Jakob Mandel</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc><p><issued><placeName>Ferentimo</placeName><date type="issued">(1174 Oktober 10</date><date type="issued">(1175) Oktober 10</date>
+               </issued></p>
+               <p><legalActor type="issuer">Papst Alexander III.</legalActor></p>
+               <p> <legalActor type="recipient">Calatravaorden</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType>Mandat</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+   <text>
+      <body>
+         
+         <div type="abstract"><head>Abstract:</head>
+            <p><legalActor>Alexander III.</legalActor> befiehlt den <legalActor>Rittern von Calatrava</legalActor>, in ihren Kirchen die Rechte des <legalActor>Erzbischofs von Toledo</legalActor> und seiner Suffragane auf Zehntzahlungen und die Einsetzung von Klerikern einzuhalten. Außerdem sollen die Ritter auch für neu eroberte Siedlungen, auf die die Bischöfe traditionelle Ansprüche haben, den Zehnten entrichten. Zur Durchsetzung dieser Rechte hat Alexander den Bischöfen das Recht eingeräumt, das Interdikt oder die Exkommunikation gegen den Calatravaorden zu verhängen.</p>
+         </div>
+         <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[-]</p><!-- Echtheitskriterien --></authen></div><div><head>Incipit:</head><diploPart type="incipit">Licet uos sicut religiosos uiros</diploPart></div>
+         <div type="witness">
+            <head>Datatio:</head><diploPart>Datum Ferentini, vi. Idus Octubris.</diploPart>
+         </div>
+         <div type="msSources">
+             <head>Handschriftliche Überlieferung und alte Drucke</head>
+            <div>
+            <listWit>   
+               <witness><bibl>Madrid, Archivo Histórico Nacional, CLERO-SECULAR_CAR.3017, N.16</bibl></witness>
+               <witness><bibl>Madrid, Archivo Histórico Nacional, CLERO-SECULAR_CAR.3017, N.11</bibl><bibl>Madrid, Biblioteca Nacional, Sign. 13040-Dd-61: Cartas y bulas para Toledo, fol. 90r–91v</bibl></witness>
+            </listWit>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listWit>
+               <witness><bibl>-</bibl></witness>
+            </listWit>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listWit>
+               <witness>
+                  <bibl>-</bibl>
+               </witness>
+            </listWit>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Rivera Recio, La Iglesia de Toledo 2, S. 229 mit Anm. 50 (Teildruck)</bibl>
+               <bibl>O’Callaghan, Calatrava and Toledo (wie Anm. 2), Appendices, Nr. 2 S. 83–85</bibl>
+               <bibl>Mandel, Urkunden Papst Alexanders III. über spanische Kirchenzehnte, Nr. 1</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL 12519</bibl>
+               <bibl>Ewald, Reise nach Spanien, S. 296</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Über das Itinerar lässt sich das Mandat auf die Jahre 1174 und 1175 eingrenzen: Alexander war am 8. Oktober 1174 in Anagni (JL 12393) und dann 17 Tage später in Ferentino (JL 12394). Im folgenden Jahr war er am 8. September 1175 in Ferentino (JL 12518) und dann am 19. Oktober in Anagni (JL 12520).</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+         <listBibl>
+            <bibl>Mandel, Urkunden Papst Alexanders III. über spanische Kirchenzehnte</bibl>
+         </listBibl>
+         </div>
+         <div type="note"><head>Anmerkungen, Notizen und Fragen der Bearbeiter*in.</head><p>Literaturangaben nach Erscheinen des Aufsatzes von Mandel (AfD 62, 2025) aktualisieren!</p></div>
+      </body>
+   </text>
+</TEI>
