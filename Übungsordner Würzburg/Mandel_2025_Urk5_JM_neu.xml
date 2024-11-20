@@ -33,14 +33,12 @@
             <p><legalActor>Alexander III.</legalActor> befielt dem <legalActor>Santiagoorden</legalActor>, die Zehnten der <legalActor>Kirche von Toledo</legalActor> nicht einzubehalten.</p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[-]</p><!-- Echtheitskriterien --></authen></div><div><head>Incipit:</head><diploPart type="incipit">Cum decime et primicie spirituales</diploPart></div>
-         <div type="witness">
-            <head>Datatio:</head><diploPart>Datum La[teranum] […] [Idus] Maii.</diploPart>
-</div>
+         <div type="witness"><head>Datatio:</head><diploPart>Datum Tusculanum vi. Nonas maii.</diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung und alte Drucke</head>
             <div>
             <listWit>   
-               <witness><bibl>Madrid, Archivo Histórico Nacional, CLERO-SECULAR_CAR.3017, N.12</bibl></witness>
+               <witness><bibl>Madrid, Archivo Histórico Nacional, CLERO-SECULAR_CAR.3017, N.13</bibl></witness>
                <witness><bibl/></witness>
             </listWit>
          </div>
