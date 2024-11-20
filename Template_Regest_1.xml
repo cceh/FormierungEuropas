@@ -5,9 +5,9 @@
             <title>Die Nummer des Regests im Projekt</title>
             <respStmt>
                <resp>Bearbeiter*in:</resp>
-               <persName>Jakob Mande</persName>
+               <persName>Jakob Mandel</persName>
             </respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Bearbeiter*in]</persName></respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>Jakob Mandel</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -16,11 +16,11 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <diploDesc><p><issued><placeName>Ausstellungsort</placeName><date type="issued">(1174 Oktober 10</date><date type="issued">(1175) Oktober 10</date>
+            <diploDesc><p><issued><placeName>Ferentimo</placeName><date type="issued">(1174 Oktober 10</date><date type="issued">(1175) Oktober 10</date>
                </issued></p>
                <p><legalActor type="issuer">Papst Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Calatravaorden</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType>Typisierung 1</objectType></p>
+               <p><objectType>Mandat</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
