@@ -19,7 +19,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <diploDesc><p><issued><placeName>Ausstellungsort</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" type="issued" unit="cm" xml:space="default">Ausstellungsdatum1 </date><date type="issued"/>
+            <diploDesc><p><issued><placeName>Ausstellungsort</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" type="issued" unit="cm" xml:space="default">Ausstellungsdatum </date><date type="issued"/>
                </issued></p>
                <p><legalActor type="issuer">Issuer</legalActor></p>
                <p> <legalActor type="recipient">Recipient 1</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
@@ -35,7 +35,7 @@
          <div type="abstract"><head>Abstract:</head>
             <p>Regestentext kann diploParts mit Sprachangabe enthalten</p>
          </div>
-         <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[*!?-]</p><!-- Echtheitskriterien --></authen></div><div><head>Incipit:</head><diploPart type="incipit">Lorem ipsum dolor sit amet</diploPart></div>
+         <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[*!?-]</p><!-- Echtheitskriterien --></authen></div><div><head>Incipit:</head><diploPart cert="high" type="incipit" xml:space="default">Lorem ipsum dolor sit amet</diploPart></div>
          <div type="witness">
             <head>Überlieferungsträger</head>
          </div>
