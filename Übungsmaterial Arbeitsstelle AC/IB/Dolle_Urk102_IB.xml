@@ -18,7 +18,7 @@
          <sourceDesc>
             <diploDesc><p><issued><placeName>Pavia</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" type="issued" unit="cm" xml:space="default">1160 März 2</date>
                </issued></p>
-               <p><legalActor type="issuer">Issuer</legalActor></p>
+               <p><legalActor type="issuer">Viktor IV.</legalActor></p>
                <p> <legalActor type="recipient">Recipient 1</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType>Typisierung 1</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
