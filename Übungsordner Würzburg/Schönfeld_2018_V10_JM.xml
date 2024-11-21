@@ -15,10 +15,10 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <diploDesc><p><issued><placeName>Segni</placeName><date type="issued">1159 (Oktober-November)</date>
+            <diploDesc><p><issued><placeName>Segni</placeName><date type="issued">(1159--1163) November 18</date>
                </issued></p>
                <p><legalActor type="issuer">Papst Viktor IV.</legalActor></p>
-               <p> <legalActor type="recipient">Abt Theoderich von Oberaltaich</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient">Abt Gerland von Floreffevon Oberaltaich</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType>feierliches Privileg</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
