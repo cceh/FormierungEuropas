@@ -19,7 +19,7 @@
                </issued></p>
                <p><legalActor type="issuer">Papst Viktor IV.</legalActor></p>
                <p> <legalActor type="recipient">Abt Theoderich von Oberaltaich</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType>Privileg</objectType></p>
+               <p><objectType>feierliches Privileg</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
@@ -59,7 +59,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Schönfeld, Die Urkunden der Gegenpäpste, V9</bibl>
+               <bibl>Schönfeld, Die Urkunden der Gegenpäpste, V9, S. 256f</bibl>
             </listBibl>
          </div>
          <div type="regesta">
