@@ -15,11 +15,10 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <diploDesc><p><issued><placeName>Segni</placeName><date type="issued">1159 (</date>
+            <diploDesc><p><issued><placeName>Segni</placeName><date type="issued">1159 (Oktober-November)</date>
                </issued></p>
-               <p><legalActor type="issuer">Issuer</legalActor></p>
-               <p> <legalActor type="recipient">Recipient 1</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType>Typisierung 1</objectType></p>
+               <p><legalActor type="issuer">Papst Viktor IV.</legalActor></p>
+               <p>Abt TTypisierung 1</p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
