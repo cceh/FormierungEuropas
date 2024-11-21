@@ -57,9 +57,7 @@
          </div>
          <div type="editions">
             <head>Editionen</head>
-            <listBibl>
-               <bibl><div type="regesta"><listBibl><bibl>Papsturkunden für Templer und Johanniter 2, S. 159–162</bibl><bibl>Mayr, Der Pontifikat, S. 87, Nr. 5</bibl></listBibl></div></bibl>
-            </listBibl>
+            <p><listBibl/></p>
          </div>
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
