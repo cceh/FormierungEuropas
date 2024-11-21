@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Die Nummer des Regests im Projekt</title>
+            <respStmt>
+               <resp>Bearbeiter*in:</resp>
+               <persName>Benjamin Schönfeld</persName></respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>Jakob Mandel</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc><p><issued><placeName>Segni</placeName><date type="issued">(1159--1163) November 18</date>
+               </issued></p>
+               <p><legalActor type="issuer">Papst Viktor IV.</legalActor></p>
+               <p> <legalActor type="recipient">Alle Prälaten</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType>einfaches Privileg</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+   <text>
+      <body>
+         
+         <div type="abstract"><head>Abstract:</head>
+            <p><legalActor>Viktor IV.</legalActor> ruft <legalActor>alle kirchlichen Würdenträger</legalActor> zur Unterstützung der <legalActor>Hospitaliter </legalActor>und zu Sammlungen zu deren Gunsten auf. Er führt Gegenleistungen auf, die allen Wohltätern des Hospitals in Jerusalem zuteilwerden sollen, und ordnet die Weiterverbreitung der genannten Verfügungen durch die Empfänger an.</p>
+         </div>
+         <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[-]</p><!-- Echtheitskriterien --></authen></div><div><head>Incipit:</head><diploPart type="incipit">Quam amabilis Deo</diploPart></div>
+         <div type="witness"><head>Datatio:</head><diploPart>-</diploPart></div>
+         <div type="msSources">
+             <head>Handschriftliche Überlieferung und alte Drucke</head>
+            <div>
+            <listWit>   
+               <witness><bibl>-</bibl></witness>
+            </listWit>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listWit>
+               <witness><bibl>-</bibl></witness>
+            </listWit>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listWit>
+               <witness>
+                  <bibl>-</bibl>
+               </witness>
+            </listWit>
+         </div>
+         <div type="editions"><head>Editionen</head><listBibl><bibl>Papsturkunden für Templer und Johanniter 2, S. 159–162</bibl><bibl>Mayr, Der Pontifikat, S. 87, Nr. 5</bibl></listBibl></div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL -</bibl><bibl>Delaville Le Roulx, Cartulaire genéral de l'Ordre des Hospitaliers 1, S. 209, Nr. 281</bibl><bibl>Schönfeld, Die Urkunden der Gegenpäpste, V11, S. 258</bibl>
+               </listBibl></div><div type="commentary"><head>Sachkommentar</head>
+            <p>Die verschiedenen Überlieferungen dieses Schreibens hat Rudolf Hiestand in seiner Edition aufgearbeitet und einen verlässlichen Text hergestellt, den die verschiedenen Einzeleditionen, die Schönfeld zitiert, nicht bieten</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+         <listBibl>
+            <bibl>Mayr, Der Pontifikat</bibl><bibl>künftig die Diss von JM</bibl>
+         </listBibl>
+         </div>
+         <div type="note"><head>Anmerkungen, Notizen und Fragen der Bearbeiter*in.</head><p>Diese Papsturkunde ist zwar formal ein Mandat an die Prälaten der lateinischen Christenheit, inhaltlich ist es aber viel mehr ein Privileg für den Hospitaliterorden. Ist der inhaltlichen oder der formalen Einordnung der Vorzug zu geben?</p></div>
+      </body>
+   </text>
+</TEI>
