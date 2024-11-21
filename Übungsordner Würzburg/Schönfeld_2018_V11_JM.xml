@@ -18,7 +18,7 @@
             <diploDesc><p><issued><placeName>Segni</placeName><date type="issued">(1159--1163) November 18</date>
                </issued></p>
                <p><legalActor type="issuer">Papst Viktor IV.</legalActor></p>
-               <p> <legalActor type="recipient">Abt Gerland von Floreffe</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient">Alle Prälaten</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType>einfaches Privileg</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
@@ -69,7 +69,7 @@
             <bibl>Mayr, Der Pontifikat</bibl><bibl>künftig die Diss von JM</bibl>
          </listBibl>
          </div>
-         <div type="note"><head>Anmerkungen, Notizen und Fragen der Bearbeiter*in.</head><p>Diese Papsturkunde ist Schönfelds Angaben zu diesem mehrfach ausgestellten Privileg sind ein wenig irreführend, weil er - wie mir scheint - die durchaus etwas kompliziertere Editionslage zu diesem Schreiben nicht ganz durchdrungen hat.</p></div>
+         <div type="note"><head>Anmerkungen, Notizen und Fragen der Bearbeiter*in.</head><p>Diese Papsturkunde ist zwar  Schönfelds Angaben zu diesem mehrfach ausgestellten Privileg sind ein wenig irreführend, weil er - wie mir scheint - die durchaus etwas kompliziertere Editionslage zu diesem Schreiben nicht ganz durchdrungen hat.</p></div>
       </body>
    </text>
 </TEI>
