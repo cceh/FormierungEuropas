@@ -18,7 +18,8 @@
             <diploDesc><p><issued><placeName>Segni</placeName><date type="issued">1159 (Oktober-November)</date>
                </issued></p>
                <p><legalActor type="issuer">Papst Viktor IV.</legalActor></p>
-               <p>Abt TTypisierung 1</p>
+               <p> <legalActor type="recipient">Abt Theoderich von Oberaltaich</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType>Privileg</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
@@ -28,7 +29,7 @@
       <body>
          
          <div type="abstract"><head>Abstract:</head>
-            <p>Regestentext kann diploParts mit Sprachangabe enthalten</p>
+            <p>Viktor IV. stellt das Kloster Oberaltaich unter Abt Theoderich unter apostolischen Schutz, bestätigt seine Besitzungen und Rechte und bestimmt die jährliche Zahlung eines bereits durch den Grafen Albert und den Vogt Friedrich festgelegten Schutzzinses.diploParts mit Sprachangabe enthalten</p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[*!?-]</p><!-- Echtheitskriterien --></authen></div><div><head>Incipit:</head><diploPart type="incipit">Lorem ipsum dolor sit amet</diploPart></div>
          <div type="witness">
