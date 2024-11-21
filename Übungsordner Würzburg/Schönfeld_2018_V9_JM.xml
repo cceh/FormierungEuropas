@@ -37,7 +37,7 @@
              <head>Handschriftliche Überlieferung und alte Drucke</head>
             <div>
             <listWit>   
-               <witness><bibl>Handschrift oder Alter Druck</bibl></witness>
+               <witness><bibl>München, Bayerisches HStA</bibl></witness>
                <witness><bibl>Handschrift oder Alter Druck</bibl></witness>
             </listWit>
          </div>
@@ -83,7 +83,7 @@
             <bibl>[Weitere Referenzen als listBibl]</bibl>
          </listBibl>
          </div>
-         <div type="note"><head>Anmerkungen, Notizen und Fragen der Bearbeiter*in.</head></div>
+         <div type="note"><head>Anmerkungen, Notizen und Fragen der Bearbeiter*in.</head><head/></div>
       </body>
    </text>
 </TEI>
