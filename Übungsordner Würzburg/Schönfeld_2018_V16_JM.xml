@@ -5,7 +5,7 @@
             <title>Die Nummer des Regests im Projekt</title>
             <respStmt>
                <resp>Bearbeiter*in:</resp>
-               <persName>Benjamin Schönfeld</persName></respStmt><respStmt><persName>JosDolle</persName></respStmt>
+               <persName>Benjamin Schönfeld</persName></respStmt><respStmt><persName>Josef Dolle</persName></respStmt>
            <respStmt><resp when="2024">Encoding:</resp><persName>Jakob Mandel</persName></respStmt>
          </titleStmt>
          <publicationStmt>
@@ -18,7 +18,7 @@
             <diploDesc><p><issued><placeName>Pavia</placeName><date type="issued">1160 (Februar 13-17)</date>
                </issued></p>
                <p><legalActor type="issuer">Papst Viktor IV.</legalActor></p>
-               <p> <legalActor type="recipient">Alle Prälaten</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient">Erzbischof Hartwig von Hamburg-Bremen</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType>einfaches Privileg</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
