@@ -1,0 +1,57 @@
+<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1370601251247">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName/>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1370601251247</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus/>
+               <origDate when="1161-06-22">1161 iun. 19 - 22</origDate>
+               <legalActor type="issuer">Victore IV</legalActor>
+               <legalActor type="issuer">Friderico imperatore</legalActor>
+               <legalActor type="recipient">(Vladislai) regis Boemiae</legalActor>
+               <origPlace>Lodi</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>Victore IV et Friderico imperatore praesentibus inter alia litterae excusatoriae (Vladislai) regis Boemiae recitantur, in quibus continetur, ipsum regem cum universa eius provincia velle se tenere domnum Victorem pro papa et domino et se velle ratum habere hoc totum, quod domnus Victor statuerit in ipso synodo cum aliis ibi praesentibus.</p>
+         </div>
+         <div type="Sachkommentar">
+            <p/>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>Bohemia, Duces ac reges Regnum et Imperium; Bohemia, Duces ac reges n. *67 (Boh. Pont. 58).</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl/>
+         </div>
+      </body>
+   </text>
+</TEI>

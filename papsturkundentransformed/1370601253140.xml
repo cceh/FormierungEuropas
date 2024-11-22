@@ -1,0 +1,73 @@
+<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1370601253140">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName/>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1370601253140</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Kopial</copyStatus>
+               <origDate when="1172-06-12">(1172) iun. 12</origDate>
+               <legalActor type="issuer">Alexander III</legalActor>
+               <legalActor type="recipient">(Sibotoni) Salzpurgensi</legalActor>
+               <legalActor type="recipient">(Romano) Gurcensi praepositis</legalActor>
+               <origPlace>Tuscolo</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+            Alexander III(Sibotoni) Salzpurgensi
+                    et (Romano) Gurcensi praepositis : inter alia
+                nuntiat se utique gravatum esse, quod per Boemiam et alias regiones publice fecissent praedicari se
+                depositionem et eiectionem A(dalberti) Salzpurgensis
+                    archiepiscopi omnino intendere; addit nuntios archiepiscopi se
+                certificavisse de animo litterarum, quas pater Adalberti (Vladislaus sc. rex Bohemorum) ab imperatore
+                    (Frederico) impetraverat (Böhmer-Opll n. 1966).
+        </p>
+         </div>
+         <div type="Sachkommentar">
+            <p>
+            De re cf. Novotný I 2, 993; Dopsch Geschichte Salzburgs I 1 (1983)
+                292.
+        </p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>Bohemia, Duces ac reges
+            Salzburg, Archiepisc. n. 110 (Germ. Pont. I 34); Bohemia, Duces ac reges n. 71 (Boh.
+            Pont. 59).</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl>Friedrich Cod. dipl. Bohem. I 234 n. 263;</bibl>
+               <bibl>Günther Hödl-Peter Classen Die Admonter Briefsammlung nebst ergänzenden Briefen [Mon. Germ. Briefe d. dt. Kaiserzeit VI. München 1983] 205 n. 4</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

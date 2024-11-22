@@ -1,0 +1,59 @@
+<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1422544641588">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName/>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1422544641588</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Original und Kopial</copyStatus>
+               <origDate when="1163-06-06">1163 iun. 6</origDate>
+               <legalActor type="issuer">Alexander III</legalActor>
+               <legalActor type="recipient">Gundisalvo</legalActor>
+               <origPlace>Tours</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>Alexander IIIGundisalvo abbati monasterii Oniensis cunctisque fratribus etc.: postulationibus eorum annuens ad exemplar praedecessorum Urbani II, Paschalis II, Eugenii III (Oña n. 5. 9. 14) suscipit monasterium s. Salvatoris sub b. Petri protectione et confirmat, quascumque possessiones idem monasterium impraesentiarum possidet aut in futurum poterit adipisci, in quibus propriis vocabulis duodecim villas et cellas exprimit; concedit, ut chrisma, oleum sanctum, consecrationes altarium seu basilicarum ac ordinationes monachorum ab episcopo dioecesano accipiant; defuncto abbate fratres communi consensu vel fratrum pars consilii sanioris novum abbatem sibi eligant, qui electus a dioecesano episcopo benedictionem accipiat; pro communi parrochiae interdicto in ecclesia ipsorum exclusis excommunicatis interdictisque divina officia celebrari liceat; statuit, ne aut episcopus aut ministri sui monasterio Oniensi exactiones indicant; concedit sepulturam liberam; praecipit denique, ut ad indicium huiusmodi libertatis quotannis unciam auri apostolicae sedi persolvant.</p>
+         </div>
+         <div type="Sachkommentar">
+            <p>Bulla plumbea deest, sed sericum adhuc exstat. De re cf. Serrano Obispado de Burgos II 368. Pontifice Innocentio III inter coenobium Oniense et episcopum Burgensem causam super statu monasterii coram apostolica sede versa est, qua occasione quidam monachus L., procurator monasterii Oniensis, privilegia Urbani II, Paschalis II, Eugenii III, Alexandri III protulit. Cf. litteras commissorias Innocentii III a. 1210 april. 24 episcopis Zamorensi et Legionensi directas (ed. Domínguez Sánchez Documentos p. 195 n. 133).</p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>San Salvador de Oña San Salvador de Oña n. 28 (Ib. Pont. I 139).</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl>Fita Canonización p. 104 n. 8.</bibl>
+               <bibl>Álamo Colección Oña I 271 n. 227</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

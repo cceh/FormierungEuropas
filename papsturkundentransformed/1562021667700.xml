@@ -1,0 +1,86 @@
+<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1562021667700">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName/>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1562021667700</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus/>
+               <origDate from="1172-21101-01" to="1172-29999-31">(1172 ex.)</origDate>
+               <legalActor type="issuer">Ferdinandus</legalActor>
+               <legalActor type="issuer">Alphonsus (VIII</legalActor>
+               <legalActor type="issuer">Alphonsus (I</legalActor>
+               <legalActor type="recipient">Iacinto</legalActor>
+               <origPlace/>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+            
+                
+                     Iacinto  S.R.E. diacono cardinali 
+                s. Mariae in Cosmedin et 
+                apostolicae sedis (
+                Alexandri III) legato, 
+                
+                     Ferdinandus 
+                
+                     Hispaniae  (II 
+                
+                     Legionensis ), 
+                
+                     Alphonsus (VIII ) 
+                
+                     Castellae  et 
+                
+                     Alphonsus (I ) 
+                
+                     Portugalliae  reges, una cum undecim episcopis et quampluribus praelatis, inter quos 
+                Iohanne
+                Legionensi episcopo et 
+                (Guterrio) abbate
+                s. Facundi, supplicant ut 
+                Rudesindum
+                Dumiensis (Mondoñedo) ecclesiae quondam episcopum canonizet.
+        </p>
+         </div>
+         <div type="Sachkommentar">
+            <p/>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+            León, Episc. León, Episc. (Ib. Pont. II 34 n. *71); v. etiam Sahagún n. *42 (Ib. Pont. II 120)</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl/>
+         </div>
+      </body>
+   </text>
+</TEI>

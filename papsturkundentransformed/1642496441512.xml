@@ -1,0 +1,108 @@
+<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1642496441512">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName/>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1642496441512</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus/>
+               <origDate from="1171-10224-24" to="1172-20225-25">(1171–1172) febr. 24 (25)</origDate>
+               <legalActor type="issuer">Alexander III</legalActor>
+               <legalActor type="recipient">Guerico</legalActor>
+               <legalActor type="recipient">Petro</legalActor>
+               <origPlace>Tusculum</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+            
+                
+                     Alexander III
+                 (
+                
+                     Guerico
+                ) 
+                
+                     Caturcensi (Cahors)
+                 et (
+                
+                     Petro
+                ) 
+                
+                     Diensi
+                 episcopis: refert causam inter canonicos 
+                Brivatenses (Brioude, diocèse du Puy) et monachos de 
+                Cantagols (Chanteuges, diocèse du Puy) exortam, qualiter illud monasterium olim a 
+                Brivatensibus aedificatum et diuturnis temporibus possessum, postea vero abbati et monasterio 
+                Casae Dei (La Chaise-Dieu, diocèse de Clermont) reformandum concessum fuerit, ita scilicet ut in prioratum converteretur et monachi quorum viginti a 
+                Casa Dei venire debebant, 
+                Brivatenses certis temporibus, scil. In 
+                Festo s. Juliani (28 août) in 
+                refectorio Brivatensi, et in 
+                Festo s. Marcellini (20 avril) in 
+                prioratu de Cantagols, procurare illosque sicut dominos honorare deberent. Addit monachos contra hujusmodi institutiones se privilegio apostolicae auctoritatis (
+                J. L. – ?) munitos asserere, quod quidem canonicos 
+                Brivatenses ad jurisdictionem 
+                b. Petri et suam nullo mediante spectantes non credere. Unde eis mandat ut utramque partem ad praesentiam vocent causamque audiant eamque, appellatione remota, fine debito terminent.
+        </p>
+         </div>
+         <div type="Sachkommentar">
+            <p>
+            Des années 1171, 1172 et 1181 qui conviennent à la présence du pape a 
+                Tusculum un 24 (25) février (voir 
+                J. L., II, p. 242, 250, 260, 407, 414), on peut écarter 1181, vu que le pape, dans sa relation detaillée, ne mentionne pas la commission du 
+                cardinal-diacre Hyacinthe (Célestin III) de 1174 dans cette affaire; voir la charte d’ 
+                Hyacinthe du 9 décembre 1174 (
+                Chaix de Lavarene, Monumenta, Appendice, no 63, p. 508 [erronément sous 1175]; 
+                Weiß, no 45, p. 188; 
+                Janssen, p. 89 n. 10). Sur le 
+                monastère de Chanteuges, voir 
+                Gaussin, L’abbaye de La Chaise-Dieu, 1962, p. 150–151, 229–231, qui ne connaît (p. 182) que la commisssion du 
+                cardinal-diacre Hyacinthe. On notera ici une éventuelle commission de 
+                l’évêque Pierre dans un conflit opposant 
+                Saint-Ruf a l’évêque de 
+                Viviers, prévue par 
+                Alexandre III en 1170/72 (
+                Gallia pontificia, III/2, 
+                Saint-Ruf, no 113).
+        </p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+            Die, episc. Die, episc. (Gall. Pont. III,3 85 n. 119); Clermont, monasterium Casae Dei</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl>Chaix de Lavarène, Monumenta , no 197, p. 321</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

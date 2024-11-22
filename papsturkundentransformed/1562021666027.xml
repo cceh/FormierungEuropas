@@ -1,0 +1,73 @@
+<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1562021666027">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName/>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1562021666027</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Erwähnung</copyStatus>
+               <origDate from="1164-40603-03" to="1164-40603-03">(1164 ante iun. 3)</origDate>
+               <legalActor type="issuer">Alexander III</legalActor>
+               <origPlace/>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+            
+                
+                     Alexander III 
+                
+                     Asturicensi  et 
+                
+                     Zamorensi  episcopis, in causa quae vertitur inter ecclesias et episcopos 
+                Iohannem
+                Legionensem et 
+                Iohannem
+                Lucensem super archidiaconatu de 
+                Triacastella, ne huiusmodi litigium in inmensum trahatur, 
+                Legionensi episcopo pertinaciter postponente, dictis episcopis per apostolica scripta mandat, quatinus eundem 
+                Lucensem, auctoritate apostolica, in possessionem illius, sicut antea fuerat de mandato archiepiscopi 
+                Toletani, restituant.
+        </p>
+         </div>
+         <div type="Sachkommentar">
+            <p>
+        </p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+            León, Episc. León, Episc. (Ib. Pont. II 33 n. *65); v. etiam León, Eccl. cath. n. *22 (Ib. Pont. II 67); Ib. Pont Lugo, Episc.; Astorga, Episc; Zamora, Episc.</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl/>
+         </div>
+      </body>
+   </text>
+</TEI>

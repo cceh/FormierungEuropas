@@ -1,0 +1,61 @@
+<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1422544641191">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName/>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1422544641191</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Erwähnung</copyStatus>
+               <origDate when="1163-06-31">(1163 post mai.?)</origDate>
+               <legalActor type="issuer">Petrus (II</legalActor>
+               <origPlace/>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>Ex mandato Alexandri (III) Petrus (II) episcopus Burgensis ad monasterium Oniense veniens inibi divina mysteria in memoriam Dei electi (i. e. Eneconis quondam abbatis Oniensis) celebrat; praecipit, ut deinceps in honorem Eneconis officium confessoris decantetur; festum illius quotannis kalendis iunii celebrandum esse constituit; concedit omnibus fidelibus ad diem festum natalis Eneconis occurrentibus quadraginta dierum absolutionem.</p>
+         </div>
+         <div type="Sachkommentar">
+            <p>De tempore sermonis, qui potius saec. XV quam saec. XIII conceptus esse videtur, cf. praesertim Fita Canonización p. 79sq. Cum tempore pontificis Alexandri II nullus episcopus Burgensis nomine Petrus comparuerit, dubium non est, quin Eneco abbas Oniensis († 1057 aut 1068) sub pontificatu Alexandri III (a. 1159-1181) et episcopatu Petri Petri (Pedro Pérez, a. 1156-1181) canonizatus sit. Cf. Flórez España Sagrada XXVI 247sq.; Fita Canonización p. 83-85; Fita Abad Íñigo p. 206-213; Herrera Oria Autenticidad p. 360-366; Serrano Obispado de Burgos II 405; Kemp Canonization p. 84sq.; Mínguez Gutiérrez San Íñigo p. 120sq., qui censent canonizationem Eneconis in concilio Turonensi a. 1163 mense maio celebrato impetratam esse. Alexander III re vera concilio habito privilegia in favorem abbatis et fratrum Oniensium exhibuit (Oña n. 28. 29). Respice etiam, quod in quodam elencho abbatum Oniensium saec. XII ex. 'Sanctus Henneco' invenitur, cf. Fita Abad Íñigo p. 208. Forte iam saec. XI ex. sub abbate Iohanne (II) 'Vita s. Eneconis' conscripta est, cf. Herrera Oria Autenticidad p. 361sq. Constat quidem bibliothecam Oniensem saec. XIII librum 'Vitam sancti Enneconis' possedisse, cf. Fita Abad Íñigo p. 206-209; Beer Handschriftenschätze p. 369sq. Canonizatio Eneconis apostolica auctoritate facta esse probatur ex quodam authentico pergameno (fortasse a. 1504 scripto), quod abbas Iohannis Bacca altare s. Eneconis a. 1598 ian. 18 aperiens iuxta reliquias invenit. Legitur in hoc authentico: "[…] auctoritate apostolica relatus est in catalogum sanctorum […]". Cf. Dameto Historia f. 49’; Yepes Corónica VI 280’ (= ed. Pérez de Urbel III 179 [c. 187]); Tamayo de Salazar Anamnesis I 192; Flórez España Sagrada XXVII 332; Fita Canonización p. 76. Praeterea elucet ex brevi Gregorii XIII a. 1576, in quo legitur "corpus s. Eneci per tunc existentem Episcopum Burgensem Apostolica auctoritate canonizatum", cf. Flórez España Sagrada XXVII 872 De re, fide modoque canonizationis cf. Kemp Alexander III p. 18; Kemp Canonization p. 83-85; Petersohn Kanonisationsdelegation p. 178sq.; Krafft Papsturkunde p. 104 adn. 11.</p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>San Salvador de Oña  San Salvador de Oña n. *27 (Ib. Pont. I 138); Burgos, Episc. n. *105a (Ib. Pont. I 67).</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl>Yepes Corónica VI 279’ (= ed. Pérez de Urbel III 178 [c. 187] cum versione castellana). Dameto Historia f. 40’ =</bibl>
+               <bibl>Tamayo de Salazar Anamnesis I 192 =</bibl>
+               <bibl>AA SS iun. 1 p. 119 =</bibl>
+               <bibl>Fita Canonización p. 79.</bibl>
+               <bibl>Flórez España Sagrada XXVI 277 (versio castellana)</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

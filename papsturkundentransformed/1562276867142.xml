@@ -1,0 +1,75 @@
+<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1562276867142">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName/>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1562276867142</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Original</copyStatus>
+               <origDate from="1163-30531-31" to="1163-30531-31">(1163) mai. 31</origDate>
+               <origPlace>Tours</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+            
+                Alexander III
+                Dominico abbati 
+                s. Facundi: ad exemplar 
+                Paschalis II (Sahagún n. 22) et 
+                Hadriani IV (Sahagún n. *36), confirmat et concedit ei et successoribus eius potestatem ligandi atque solvendi in villa 
+                s. Facundi et infra “cautum” monasterii, a rege 
+                Aldefonso (VI
+                Castellae et 
+                Legionis) determinatum; ac etiam habet ratum et concedit usum mitrae eidem abbati et successoribus eius.
+        </p>
+         </div>
+         <div type="Sachkommentar">
+            <p>
+             De tempore cf. itinerarium 
+                Alexandri III in 
+                JL. II p. 169. – De re cf. 
+                Escalona Historia de Sahagún p. 118.
+        </p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+            Sahagún Sahagún (Ib. Pont. II 119 n. 39)</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl>Escalona Historia de Sahagún app. III p. 541 n. 175.</bibl>
+               <bibl>Fernández Flórez Colección de Sahagún IV 300sq. n. 1347.</bibl>
+               <bibl>Domínguez Sánchez Documentos pontificios de León p. 91sq. n. 29</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

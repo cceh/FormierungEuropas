@@ -1,0 +1,85 @@
+<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1562021661792">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName/>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1562021661792</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Original</copyStatus>
+               <origDate from="1157-70608-08" to="1157-70608-08">(1157) iun. 8</origDate>
+               <legalActor type="issuer">Hadrianus IV</legalActor>
+               <legalActor type="recipient">(Iohanni) episcopo</legalActor>
+               <origPlace>Laterano</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+            
+                
+                     Hadrianus IV 
+                
+                     (Iohanni) episcopo  et 
+                
+                     canonicis Legionensibus : precibus 
+                Gaucelmi archidiaconi
+                Legionensis et duorum 
+                canonicorum Legionensium procuratorum episcopi et capituli annuens (cf. León, Episc. n. *53), confirmat 
+                Legionensem ecclesiam ad ius 
+                b. Petri specialiter pertinere; notificat, quod, quae 
+                Toletano archiepiscopo super illicite cum violentia laicali extorta oboedientia scripsit, ex litteris apostolicis illi directis cognoverit; statuit enim ut infra quadraginta dies ex quo archiepiscopus scripta apostolica receperit, ab extorta oboedientia, episcopus 
+                Legionensis omni subiectione maneat absolutus.
+        </p>
+         </div>
+         <div type="Sachkommentar">
+            <p>
+             De data praesentium litterarum a. 1157 et non a. 1155, 1158 aut 1159, cf. itinerarium 
+                Hadriani IV in 
+                JL. II p. 111. 125. 133 et 
+                Hiestand Initienverzeichnis p. 204. 212. 216. 220. – De re cf. 
+                Panera Burón Exención de la iglesia Legionense p. 396sq.; 
+                Fletcher The Episcopate p. 71; 
+                Fletcher Las iglesias p. 476; 
+                Cavero Domínguez El episcopado p. 219sq. 
+        </p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+            León, Episc. León, Episc. (Ib. Pont. II 29 n. 55); v. etiam León, Eccl. cath. n. 14 (Ib. Pontificia II 66); Ib. Pont. Toledo, Archiepisc.</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl>Panera Burón Exención de la iglesia Legionense p. 423 (ad a. 1154).</bibl>
+               <bibl>Fernández Catón Colección catedral de León V 305sq. n. 1501 (ad a. 1157–1159).</bibl>
+               <bibl>Domínguez Sánchez Documentos pontificios de León p. 84sq. n. 24 (ad a. 1157–1159)</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,98 @@
+<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1562021668592">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName/>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1562021668592</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus/>
+               <origDate from="1172-21101-01" to="1172-29999-31">(1172 ex.)</origDate>
+               <legalActor type="issuer">Iacintus</legalActor>
+               <legalActor type="recipient">Iohanni</legalActor>
+               <origPlace/>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+            
+                
+                     Iacintus  S.R.E. diaconus cardinalis 
+                
+                     s. Mariae in Cosmedin  et 
+                
+                     apostolicae sedis  (
+                Alexandri III) legatus 
+                
+                     Iohanni 
+                
+                     Bracarensi  archiepiscopo et universis eius suffraganeis omnibusque ecclesiarum praelatis per provinciam suam constitutis: ad instantiam et preces 
+                Hispaniae
+                Ferdinandi (II
+                Legionensis), 
+                Alphonsi (VIII) 
+                Castellae et 
+                Alphonsi (I) 
+                Portugalliae regum, et ad petitionem undecim episcoporum et quamplurium praelatorum, inter quos 
+                Iohanne
+                Legionensi episcopo et 
+                (Guterrio) abbate
+                s. Facundi, auctoritate domini papae, 
+                Rudesindum
+                Dumiensis ecclesiae quondam episcopum canonizat, et mandat, ut sicut sanctus in terris ab universis Christi fidelibus veneretur.
+        </p>
+         </div>
+         <div type="Sachkommentar">
+            <p>
+             De re cf. 
+                Goodich The Canonization p. 307–309; 
+                Petersohn Die päpstliche Kanonisationsdelegation p. 163–206; 
+                Paccioco Sublimia negotia p. 21–41; 
+                Kemp Canonization p. 89sq.; 
+                Krafft Papsturkunde p. 204–208. – De legatione cardinalis 
+                Iacinti cf. 
+                Weiß Legaten p. 182–203; 
+                Fleisch Rom p. 144–161 cum studiis laudatis; 
+                Smith Iberian Legations passim. 
+        </p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+            León, Episc. León, Episc. (Ib. Pont. II 35 n. 72); Ib. Pont. Braga, Archiepisc. v. etiam Sahagún n. 43 (Ib. Pont. II 120); Toledo, Archiepisc.; Compostela, Archiepisc.; Oviedo, Episc.; Coria, Episc.; Zamora, Episc.; Lisboa, Episc.; Sigüenza, Episc.; Palencia, Episc.; Segovia, Episc.; Lugo, Episc.; Mondoñedo, Episc.; Tui, Episc.; Regnum Castellae; Regnum Legionis; Regnum Portugalliae.</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl>Yepes Corónica V 14sq. [versio castellana];</bibl>
+               <bibl>García y García A propos de la canonisation p. 3–15; García y García La canonización de san Rosendo p. 167–170;</bibl>
+               <bibl>Díaz y Díaz Ordoño de Celanova: Vida y milagros de San Rosendo p. 278–281</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

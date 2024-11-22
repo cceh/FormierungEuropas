@@ -1,0 +1,145 @@
+<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1422544611822">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName/>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1422544611822</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Kopial</copyStatus>
+               <origDate from="--" to="1164-40622-22">(1164) iun. 22</origDate>
+               <legalActor type="issuer">Alexander III</legalActor>
+               <legalActor type="issuer">Alexander III</legalActor>
+               <legalActor type="recipient">I(ohanni)</legalActor>
+               <legalActor type="recipient">I(ohanni)</legalActor>
+               <legalActor type="recipient">S(tephano)</legalActor>
+               <legalActor type="recipient">P(etro II)</legalActor>
+               <origPlace>Sens</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+            
+                
+                    Alexander III
+                
+                
+                    I(ohanni)
+                
+                
+                    Toletano
+                 archiepiscopo et 
+                
+                    I(ohanni)
+                
+                
+                    Legionensi
+                , 
+                
+                    S(tephano)
+                
+                
+                    Zamorensi
+                 et 
+                
+                    P(etro II)
+                
+                
+                    Burgensi
+                 episcopis: memorans ea, quae eisdem episcopis - iudicibus delegatis in causa versa inter episcopos 
+                Seguntinum et 
+                Oxomensem - olim per scripta in mandatis dederit (Burgos, Episc. n. 110), cum litterae eorum super his nondum receperit, iterum mandat, ut infra triginta dies post harum susceptionem causam inquirant et secundum tenorem harum litterarum procedere studeant. Si episcopi litigantes, ut dicitur, re vera in regem 
+                Hispaniarum (
+                Fredinandum II
+                Legionensem) legitime compromiserunt, episcopum 
+                Oxomensem a sententia excommunicationis, quam 
+                Toletanus archiepiscopus iam promulgaverit (Burgos, Episc. n. *111), absolvant; si vero non, mandat, ut sententia excommunicationis firmiter observetur et insuper villae ab episcopo 
+                Oxomensi occupatae, videlicet 
+                Ailon (
+                Ayllón), 
+                Caracena, 
+                Berlanga atque 
+                Almazan, interdicto subiaceant - sicut et 
+                ecclesia cathedralis Oxomensis, si episcopus eius reatum suum non correxerit.
+            
+                
+                     Alexander III 
+                 I(ohanni ) 
+                
+                     Toletano  archiepiscopo, et 
+                 I(ohanni ) 
+                
+                     Legionensi , 
+                 S(tephano ) 
+                
+                     Zamorensi , et 
+                 P(etro II ) 
+                
+                     Burgensi  episcopis: memorans ea, quae olim episcopis (
+                Toletano, 
+                Zamorensi, 
+                Burgensi), iudicibus delegatis in causa versa inter episcopos 
+                Seguntinum et 
+                Oxomensem, per scripta in mandatis dederit (cf. 
+                Ib. Pont. I 69 n. 110, [1163] nov. 13), cum litterae eorum super his nondum receperit, iterum mandat, ut infra triginta dies post harum susceptionem causam inquirant et secundum tenorem harum litterarum procedere studeant. Si episcopi litigantes, ut dicitur, re vera in regem 
+                Hispaniarum
+                (Fredinandum II
+                Legionensem) legitime compromiserunt, episcopum 
+                Oxomensem a sententia excommunicationis, quam 
+                Toletanus archiepiscopus iam promulgaverit (cf. 
+                Ib. Pont. I 69 n. *111), absolvant; si vero non, mandat, ut sententia excommunicationis firmiter observetur et insuper villae ab episcopo 
+                Oxomensi occupatae, videlicet 
+                Ailon (Ayllón), 
+                Caracena, 
+                Berlanga atque 
+                Almazan, interdicto sub iaceant – sicut et 
+                ecclesia cathedralis Oxomensis, si episcopus eius reatum suum non correxerit.
+        </p>
+         </div>
+         <div type="Sachkommentar">
+            <p>
+            De re v. supra Burgos, Episc. n. 110. Eodem die 
+                Alexander III litteras eiusdem argumenti capitulo 
+                Oxomensi direxit (ed. 
+                Minguella y Arnedo Historia I 409 n. 54).
+        </p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+            Burgos, Episc.
+            León, Episc. Burgos, Episc. n. 112 (Ib. Pont. I 70); Sigüenza, Episc.; León, Episc. n. 69 (Ib. Pont. II 34); Toledo, Archiepisc.; Osma, Episc.; Zamora, Episc.</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl>Minguella y Arnedo Historia I 404 n. 49</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

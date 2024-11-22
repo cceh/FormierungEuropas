@@ -1,0 +1,73 @@
+<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1643728124491">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName/>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1643728124491</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus/>
+               <origDate from="1154-40424-24" to="1154-40424-24">1154 april. 24</origDate>
+               <legalActor type="issuer">Anastasius IV</legalActor>
+               <legalActor type="recipient">(Durando) abbati</legalActor>
+               <legalActor type="recipient">ejusque fratribus</legalActor>
+               <origPlace>Roma, Laterano</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+            
+                
+                     Anastasius IV
+                
+                
+                     (Durando) abbati
+                
+                
+                     S. Ruffi
+                
+                
+                     ejusque fratribus
+                 regularem vitam professis: in privilegio generali confirmat 
+                ecclesiam S. Mariae de Volvenco.
+        </p>
+         </div>
+         <div type="Sachkommentar">
+            <p/>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+            Die, ecclesia S. Mariae de Volvenco Valence, ecclesia S. Ruffi (Gall. Pont. III,2 376 n. 61); Die, ecclesia S. Petri (Gall. Pont. III,3 100 n. 3); Die, ecclesia S. Mariae de Volvenco (Gall. Pont. III,3 102 n. 7); Die, ecclesia S. Mariae de Claellis (Gall. Pont. III,3 104 n. 2)</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl/>
+         </div>
+      </body>
+   </text>
+</TEI>

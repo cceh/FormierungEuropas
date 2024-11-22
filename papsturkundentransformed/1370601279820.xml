@@ -1,0 +1,56 @@
+<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1370601279820">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName/>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1370601279820</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Erwähnung</copyStatus>
+               <origDate when="1162-09-08">1162 sept. 7 - 8</origDate>
+               <legalActor type="issuer">Victor IV</legalActor>
+               <legalActor type="recipient">Daniel Pragensis episcopus</legalActor>
+               <origPlace>St. Jean-de-Losne</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>Victor IV generalem synodum celebrat, cui Daniel Pragensis episcopus interest.</p>
+         </div>
+         <div type="Sachkommentar">
+            <p>V. Regnum et Imperium; Mainz, Archiepisc. n. *356, Germ. Pont. IV 158 et Verden, Episc. n. *44, Germ. Pont. V 1, 218 atque opera ibid. laudata et novissime Uebach Ratgeber p. 183.</p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>Praha, Episc.Regnum et Imperium; Mainz, Archiepisc. n. *356 (Germ. Pont. IV 158); Verden, Episc. n. *44 (Germ. Pont. V 1, 218); Praha, Episc. n. *94 (Boh. Pont. 101).</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl/>
+         </div>
+      </body>
+   </text>
+</TEI>

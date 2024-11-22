@@ -1,0 +1,70 @@
+<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1561819231119">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName/>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1561819231119</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Erwähnung</copyStatus>
+               <origDate from="1157-70608-08" to="1157-70608-08">(ante 1157 iun. 8)</origDate>
+               <legalActor type="issuer">(Iohannes) episcopus</legalActor>
+               <origPlace/>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+            
+                
+                     (Iohannes) episcopus 
+                
+                     Lucensis , in causa exsistente inter se ipsum et 
+                (Iohannem) 
+                Legionensem episcopum super archidiaconatu de 
+                Triacastella, ventilata apud 
+                Iacintum
+                s. Mariae in Cosmedin diaconum cardinalem et legatum (
+                Hadriani IV) 
+                apostolicae sedis, contestata lite et per dictum cardinalem agendi termino utrique parti praefixo, querelae suae supersedet.
+        </p>
+         </div>
+         <div type="Sachkommentar">
+            <p>
+        </p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+            León, Episc. León, Episc. (Ib. Pont. II 28 n. *52); v. etiam León, Eccl. cath. n. *11 (Ib. Pont. II 65); Ib. Pont. Lugo, Episc.</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl/>
+         </div>
+      </body>
+   </text>
+</TEI>

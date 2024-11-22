@@ -1,0 +1,56 @@
+<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1370601250861">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName/>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1370601250861</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Erwähnung</copyStatus>
+               <origDate when="1160-06-16">1160 iun. 16</origDate>
+               <legalActor type="issuer">Wladizlaus rex Boemorum</legalActor>
+               <legalActor type="issuer">Daniele episcopo (Pragensi)</legalActor>
+               <origPlace>Praha</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>Wladizlaus rex Boemorum una cum Daniele episcopo (Pragensi) 'ex canonica et apostolica auctoritate' (Victoris IV) possessiones monasterii s. Stephani (Gradicensis) confirmat et contradictores banno apponit.</p>
+         </div>
+         <div type="Sachkommentar">
+            <p/>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>Hradisko Hradisko n. *5 (Boh. Pont. 210); Bohemia, Duces ac reges n. *65 (Boh. Pont. 57); Praha, Episc. n. *93 (Boh. Pont. 101).</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl/>
+         </div>
+      </body>
+   </text>
+</TEI>

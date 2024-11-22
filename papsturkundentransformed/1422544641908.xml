@@ -1,0 +1,59 @@
+<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1422544641908">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName/>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1422544641908</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Original und Kopial</copyStatus>
+               <origDate when="1163-06-07">(1163) iun. 7</origDate>
+               <legalActor type="issuer">Alexander III</legalActor>
+               <legalActor type="recipient">Gundisalvo</legalActor>
+               <origPlace>Tours</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>Alexander IIIGundisalvo abbati et fratribus Oniensis ecclesiae: postulationibus eorum annuens confirmat compositionem factam inter ecclesiam Oniensem et bonae memoriae Victorem quondam Burgensem episcopum super tertiis decimarum; quocirca Burgensis episcopus assensu totius capituli sui Iohanni (IV) quondam abbati Oniensi eiusque successoribus tertias decimarum concessit in omnibus ecclesiis, quas abbas possedit, nec non decimas, quas episcopus in septem villis propriis vocabulis expressis recipere consueverat; abbas vero cum consensu capituli sui episcopo Burgensi villam Ribillam (Revillaruz) concessit (cf. Oña n. 17. 20. 21).</p>
+         </div>
+         <div type="Sachkommentar">
+            <p>Ex itinerario Alexandri III elucet has litteras a. 1163 exhibitas esse, quamquam et in bullario Oniensi (C) et in indice documentorum (Ind.) ad a. 1159 positae sunt, cf. JL. II p. 168-171; Hiestand Initienverzeichnis p. 229-231. Álamo Colección Oña I 269 n. 225 excerpta in [C1] et Ind. perperam ad alias litteras se referre censuit. De re cf. supra Oña n. 20. Ad exemplar harum litterarum Innocentius III a. 1210 mai. 7 compositionem inter Oniensem et Burgensem ecclesias factam confirmavit (ed. Álamo Colección Oña I 471 n. 388).</p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>San Salvador de Oña San Salvador de Oña n. 29 (Ib. Pont. I 139); Burgos, Episc. n. 106 (Ib. Pont. I 67).</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl>Fita Canonización p. 107 n. 9.</bibl>
+               <bibl>Álamo Colección Oña I 274 n. 228</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

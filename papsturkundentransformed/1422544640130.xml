@@ -1,0 +1,55 @@
+<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1422544640130">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName/>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1422544640130</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Erwähnung</copyStatus>
+               <origDate from="1088-89999-31" to="1157-79999-31">(1088-1114 aut 1125 aut 1137-1157)</origDate>
+               <legalActor type="recipient">Iohannes</legalActor>
+               <origPlace/>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>Ex sedis apostolicae facultate et praesentibus Adefonso (VII?) imperatore Hispaniae, episcopo Burgensi nec non aliis praelatis vel principibus Iohannes abbas ("Iuan segundo deste nombre") et conventus Oniensis sacrum corpus et reliquias b. Eneconis (San Íñigo), eiusdem coenobii quondam abbatis, in alium sublimem locum transferunt.</p>
+         </div>
+         <div type="Sachkommentar">
+            <p>Quibus fontibus Dameto usus sit, nescimus (Tamayo de Salazar Anamnesis I 191 mentionem facit de "antiquis illius regii coenobii [i. e. monasterii Oniensis] monimentis"). Fortasse etiam illo manuscripto nisus est, quod scripsit a. 1610Didacus Núñez, monachus et custos archivi Oniensis, et cui titulus 'Relación breve que trata de la vida y milagros de nuestro glorioso padre San Íñigo, sacada por su indigno y menor hijo Fray Diego Núñez, de los libros, papeles y escrituras que hay en este archivo y de las tablas de la capilla del dicho santo, para que haya eterna memoria, la qual saqué para inviar al P. Fray Antonio de Yepes coronista de la Orden. A 20 de henero año de 1610' inscriptus est. In hoc opere Didacus Núñez narravit corpus Eneconis a. 1125 ab abbate Iohanne II e claustro in ecclesiam translatum esse, cf. Herrera Oria Autenticidad p. 362; Yepes Corónica (ed. Pérez de Urbel III 176); haudquaquam vero ille auctor translationem ab apostolica sede concessam aut confirmatam esse affirmat. Immo vero apostolica sedes b. Eneconem pontifice demum Alexandro III (a. 1163?) canonizavisse videtur (cf. Oña n. 27). Facultatem igitur apostolicam prioris translationis peragendae, cum solum apud Dameto referatur, suspectam et parvi momenti aestimamus. Et tempus ipsius translationis incertum est. Fortasse Dameto verbis "Abad [...] Iuan segundo deste nombre" illum Iohannem (III) denotavit, qui a. 1125 rexisse probatur. Ad eundem enim annum Didacus Núñez translationem Eneconis refert, sed eo anno Adefonsus VII († 1157) nondum in Castella regnabat. Adefonso VII quidem imperatore abbas Iohannes (IV), a. videlicet 1137-1160, regebat. Praeterea, si respicimus, quod primus abbas nomine Iohannis iam ad a. 1014 probatur, excludendum fortasse non est Dameto translationem Eneconis ad tempora abbatis Iohannis (II) (a. 1088-1114), regis ergo Adefonsi VI rettulisse; sed elenchi abbatiales et medii aevi (cf. e. g. Fita Abad Íñigo p. 208) et aetatis moderni (cf. elenchos laudatos apud Zaragoza Pascual Abadologio de Oña p. 557sq.) initium ab Garsia abbate (a. 1032), i. e. post reformationem ad consuetudines Cluniacenses, factam capiunt. De translationibus b. Eneconis cf. praecipue Herrera Oria Autenticidad p. 361-365.</p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>San Salvador de Oña San Salvador de Oña n. *†24 (Ib. Pont. I 137); Burgos, Episc. n. *†99 (Ib. Pont. I 65).</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl/>
+         </div>
+      </body>
+   </text>
+</TEI>

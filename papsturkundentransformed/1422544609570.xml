@@ -1,0 +1,59 @@
+<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1422544609570">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName/>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1422544609570</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Original</copyStatus>
+               <origDate when="1162-07-16">(1162) iul. 16</origDate>
+               <legalActor type="issuer">Alexander III</legalActor>
+               <legalActor type="recipient">Petro (II)</legalActor>
+               <origPlace>Montpellier</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>Alexander IIIPetro (II)Burgensi episcopo: de communi fratrum consilio statuit, ut abbas monasterii s. Petri CaradignaeBurgensem episcopum a sede apostolica seu ab expeditione regia redeuntem cum processione recipiat et semel in anno cum viginti equitaturis illuc eunti procurationem faciat, donec aliis forte rationibus monasterium Cardinense ab huiusmodi onere immune probetur. Orta enim querela inter episcopum Burgensem et abbatem de iure episcopi cum processione recipiendi ac procurandi ambae partes in praesentia apostolicae sedis constitutae sunt (Burgos, Episc. n. *102), ubi abbas privilegium Eugenii (III) (Cardeña n. 18) exhibens monasterium suum ab omni iure episcopali liberum esse et ad proprietatem S.R.E. specialiter pertinere affirmavit, quae quidem libertas ex tenore illius privilegii plene cognosci non potuit, abbas quidem confitens praedecessores suos antecessorem episcopum (Victorem) in processione suscepisse et ei in procuratione providisse.</p>
+         </div>
+         <div type="Sachkommentar">
+            <p>Alexander III non solum a. 1162 sed etiam a. 1165 mense iulio apud Montem Pessulanum moratus est, sed cum in his litteris solam mentionem fiat illius privilegii, quod Eugenius III monasterio Cardinensi concesserit (Cardeña n. 18), et non alterius, quod ipse Alexander III a. 1162 iul. 25 eidem monasterio exhibuerit (Cardeña n. 21), has litteras ad a. 1162 ponendas censemus. Bulla plumbea deest, restat sericum. De re cf. Serrano Obispado de Burgos II 363sq. (ad iul. 17); Martínez Díez Iglesia p. 66. Laud. etiam apud Fleisch Sacerdotium p. 163.</p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>Burgos, Episc. Burgos, Episc. n. 103 (Ib. Pont. I 66); Cardeña n. 20 (Ib. Pont. I 115).</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl>Serrano Obispado de Burgos III 213 n. 129.</bibl>
+               <bibl>Garrido Garrido Documentación I 262 n. 163 ad a. 1162-1165</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

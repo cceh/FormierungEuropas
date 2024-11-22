@@ -1,0 +1,57 @@
+<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1422544642904">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName/>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1422544642904</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Kopial</copyStatus>
+               <origDate from="1168-80830-30" to="1169-90830-30">(1168-1169) aug. 30</origDate>
+               <legalActor type="issuer">Alexander III</legalActor>
+               <origPlace>Benevento</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>Alexander III abbati et fratribus s. Aemiliani (San Millán de la Cogolla): confirmat institutionem, sicut ex relatione cardinalis Iacinti et ex quodam rescripto accepit (Oña n. *30. *31), qua Iacintuss. Mariae in Cosmidin diac. card. et fungens in Hispaniarum partibus officio legationis controversiam inter ecclesias s. Aemiliani et Oniensem de parrochiali ecclesia in Artable (Altable) ortam composuit (cf. Oña n. 22).</p>
+         </div>
+         <div type="Sachkommentar">
+            <p>Alexander III et a. 1168 et 1169 mense augusto Beneventi moratus est, cf. JL. II p. 210, 225.</p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>San Salvador de OñaSan Salvador de Oña n. 32 (Ib. Pont. I 140); Calahorra-Nájera, San Millán de la Cogolla.</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl>Kehr Papsturkunden Spanien II 435 n. 108 ad a. 1169</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

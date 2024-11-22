@@ -1,0 +1,89 @@
+<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1653475913657">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName/>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1653475913657</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus/>
+               <origDate from="1170-01216-16" to="1172-21216-16">(1170–1172?) dec. 16</origDate>
+               <legalActor type="issuer">Alexander III</legalActor>
+               <legalActor type="recipient">Nicolao</legalActor>
+               <legalActor type="recipient">Roberto</legalActor>
+               <origPlace>Tusculum</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+            
+                
+                     Alexander III
+                 (
+                
+                     Nicolao
+                ? 
+                
+                     Roberto
+                ?) 
+                
+                     Vivariensi
+                 episcopo: miratur plurimum eum fratres 
+                S. Ruphi super 
+                ecclesia S. Andeoli contra 
+                apostolicae sedis sententiam fatigare, cum eandem ecclesiam de qua olim inter praedictos fratres et canonicos 
+                B. Andeoli controversia verteretur, inspectis rationibus, de fratrum suorum consilio cum omnibus bonis et possessionibus fratribus 
+                S. Ruphi adjudicaverit (
+                Gall. Pont. III,3 309 n. *14 ), salvo jure pontificali 
+                Vivariensis episcopi, censu olei et consueta reverentia 
+                ecclesiae Vivariensis. Refert se etiam decrevisse eandem ecclesiam «sub religione, oboedientia et subjectione 
+                S. Ruphi» permansuram, «ita quidem ut, si capitulum Vivariense jus fundi ad se probaret legitime pertinere, idem obtineret quod jure fundi de canonum sanctione debetur». Addit se accepisse eum sententiam apostolicam non observare, sed eandem ecclesiam molestare scil. indebitas ei exactiones imponere, «contra antiquam et rationabilem consuetudinem 
+                S. Ruphi» priorem per abbatem institui contradicere et permitttere ut presbyteri capellarum aliarumque ecclesiarum infra parrochiam 
+                S. Andeoli parrochianis ipsius ecclesiae contra voluntatem canonicorum ecclesiastica sacramenta ministrent. Unde ei mandat ut praescriptam ecclesiam non longius gravet, sed permittat in ea priorem secundum antiquam consuetudinem ordinari. Praecipit etiam ut capellanis vel presbyteris interdicat ne parrochianis ejusdem ecclesiae sacramenta ministrent. Decernit ut, si contra fratres 
+                S. Ruphi aliquid quaestionis habere aestimat, id coram 
+                Diensi et 
+                Gratianopolitano episcopis ordine judiciario experiatur.
+        </p>
+         </div>
+         <div type="Sachkommentar">
+            <p>
+            Voir: 
+                Gall. Pont. III,2 399 n. 113.
+        </p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+            Viviers, ecclesia S. Andeoli Valence, ecclesia S. Ruffi (Gall. Pont. III,2 399 n. 113); Viviers, episc. (Gall. Pont. III,3 288 n. 148); Viviers, ecclesia S. Vincentii martyris (Gall. Pont. III,3 296 n. 10); Viviers, ecclesia S. Andeoli (Gall. Pont. III,3 309 n. 16)</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl/>
+         </div>
+      </body>
+   </text>
+</TEI>

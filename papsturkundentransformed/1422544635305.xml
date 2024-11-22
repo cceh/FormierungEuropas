@@ -1,0 +1,58 @@
+<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1422544635305">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName/>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1422544635305</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Kopial</copyStatus>
+               <origDate when="1173-12-07">1173 dec. 7</origDate>
+               <legalActor type="issuer">Iacintus</legalActor>
+               <legalActor type="recipient">Iohanni</legalActor>
+               <origPlace>Silos</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>Iacintus S.R.E. diaconus cardinalis, apostolicae sedis (Alexandri III) legatus, Iohanni abbati s. Petri de Caradigna eiusque fratribus tam praesentibus quam futuris: suscipit monasterium eorum sub beatorum Petri et Pauli et sua protectione; confirmat bona omnia tam ecclesiastica quam saecularia, quae impraesentiarum possident aut in futurum adipiscentur; decernit, ut ordo b. Benedicti sicut ab eis secundum monasterii s. Facundi (Sahagún, dioec. Legionensis) constitutionem nunc observatur, ita perpetuis temporibus observetur; prohibet, ne quis sive clericus sive laicus decimas ab eis exigat; confirmat sepulturam liberam et ius eligendi abbatis.</p>
+         </div>
+         <div type="Sachkommentar">
+            <p>De hoc privilegio cf. Yepes Corónica III f. 186'; González Reino I 496; Moreta Velayos Monasterio p. 200. Laud. etiam apud Fita Canonización p. 109; Säbekow Legationen p. 54; Serrano Obispado de Burgos II 364 adn. 1; González Regesta p. 105; Smith Iberian Legations p. 88. Fita, Säbekow, Serrano hoc privilegium non in monasterio s. Dominici de Silos sed in ecclesia s. Dominici de Calziata (Santo Domingo de la Calzada) exhibitum esse censent. Nota, quod charta cardinalis legati accurate ad formam privilegii pontificii perfecta est.</p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>San Pedro de Cardeña San Pedro de Cardeña n. 22 (Ib. Pont. I 116).</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl>Berganza Antigüedades II 462 n. 148; ibid. II 101 (versio castellana)</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

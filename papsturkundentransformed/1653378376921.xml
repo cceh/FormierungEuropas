@@ -1,0 +1,81 @@
+<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1653378376921">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName/>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1653378376921</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus/>
+               <origDate from="1170-00520-20" to="1170-00520-20">(1170) mai. 20</origDate>
+               <legalActor type="issuer">Alexander III</legalActor>
+               <legalActor type="recipient">Aldeberto</legalActor>
+               <legalActor type="recipient">Raimundo</legalActor>
+               <origPlace>Verulana</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+            
+                
+                     Alexander III  (
+                
+                     Aldeberto ) 
+                
+                     Mimatensi (Mende)  et (
+                
+                     Raimundo ) 
+                
+                     Vivariensi  episcopis: mandat ut 
+                G. et A. de 
+                Chaldemac (Chadenac, commune de Mariac) moneant compellantque quatenus 
+                Chiriacensi (Chirac, diocèse de Mende) monasterio quod ad jus 
+                Massiliensis monasterii (Saint-Victor de Marseille) pertinet, villam de Menzozac restituant libereque dimittant vel in 
+                Vivariensis episcopi praesentia plenam exinde justitiam, appellatione remota, exhibeant. 
+                Vivariensi episcopo injungit ut, si illi causam potius intrare quam villam restituere velint, partes convocet et causam, rationibus auditis, viris discretis sibi ascitis, appellatione remota, decidat. Addit de excommunicationis sententia in praedictos viros ferienda, si neutrum horum adimpleverint.
+        </p>
+         </div>
+         <div type="Sachkommentar">
+            <p>
+            Sur ce monastère, voir 
+                J. Belmon, Les débuts d’un prieuré victorin en Gévaudan: le Monastier-Chirac (XIe–XIIe siècle), dans B. É.Ch., 152, 1994, p. 5–50, ici p. 7 et 19 n. 70.
+        </p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+            Viviers, episc. Viviers, episc. (Gall. Pont. III,3 288 n. 146); Mende, monasterium Chiriacensi</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl>Wiederhold, VII , no 82, p. 131 [réimpr., p. 841]</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

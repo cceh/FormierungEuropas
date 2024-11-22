@@ -1,0 +1,60 @@
+<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1422544639425">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName/>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1422544639425</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Original</copyStatus>
+               <origDate from="--" to="1155-50308-08">1155 mart. 8</origDate>
+               <legalActor type="issuer">Iacinctus</legalActor>
+               <legalActor type="recipient">Garsiae</legalActor>
+               <origPlace>Estella</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>Iacinctus S.R.E. diac. card., apostolicae sedis (Hadriani IV) legatus Garsiae abbati s. Aemiliani (San Millán de la Cogolla) eiusque successoribus etc.: componit controversiam de iuribus parrochialibus in villa Artable (Altable) inter Oniensem et s. Aemiliani ecclesias diutius agitatam. Cum monasterium s. Aemiliani in dicta villa ex antiquo ecclesiam parrochialem possedisset, Oniense monasterium regalem hereditatem adeptum deinceps ibi aliam denuo ecclesiam construxisset atque ad eam rusticos suos ire fecisset, ut priori ecclesiae parrochianos subtraheret; statuit, ut ecclesia prior omnes parrochianos recuperet; de decimis rusticorum ecclesia Oniensis duas partes, tertiam vero ecclesia s. Aemiliani habeat.</p>
+         </div>
+         <div type="Sachkommentar">
+            <p/>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>San Salvador de OñaSan Salvador de Oña n. 22 (Ib. Pont. I 136); Calahorra-Nájera, San Millan de la Cogolla.</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl>Kehr Papsturkunden Spanien II 386 n. 73;</bibl>
+               <bibl>Rodríguez de Lama Colección medieval II 251 n. 178;</bibl>
+               <bibl>Ledesma Rubio Cartulario San Millán p. 278 n. 394 [mendose]</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

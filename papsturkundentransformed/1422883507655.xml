@@ -1,0 +1,60 @@
+<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1422883507655">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName/>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1422883507655</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Original und Kopial</copyStatus>
+               <origDate when="1173-10-31">(1173 oct.?)</origDate>
+               <legalActor type="issuer">Iacinctus</legalActor>
+               <legalActor type="recipient">Andreae</legalActor>
+               <origPlace/>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>Iacinctus Dei gratia S.R.E. diac. card., apostolicae sedis (Alexandri III) legatus, Andreae abbati et universis canonicis s. Mariae de Agilar Praemonstratensis ordinis: assidentibus P(etro) Burgensi, M(artino) s. Mariae (de Albarracín) episcopis, pluribus abbatibus aliisque viris prudentibus componit litem, quae inter abbatem et conventum ordinis Praemonstratensis ex una parte atque quondam abbatem (eiusdem nominis) Andream et quinque clericos saeculares ipsius ecclesiae ex altera parte vertitur; cum Andreas, quondam abbas, et clerici saeculares conquererentur se laicali potentia ex ecclesia de Aguilar eiectos esse et deinde canonicos Praemonstratenses inibi violenter intravisse, canonici vero Praemonstratenses e contrario se dictam ecclesiam auctoritate Burgensis episcopi, ad cuius iurisdictionem pertineret, legitime possidere monstrarent, concordia talis facta est: abbas et canonici Praemonstratenses ecclesiam de Aguilar, in qua secundum b. Augustini regulam et Praemonstratensium tenorem vivant, deinceps omni pace et quiete possideant. Andreae autem quondam abbati et clericis saecularibus, videlicet Iohanni Martini, Petro Pelagii, Petro Stephani, Dominico Petri, Roderico Roderici, quidam redditus ut solacium usque ad finem eorum vitae praestentur; abbati Andreae insuper pro bono pacis ecclesia s. Cipriani (de Ríofresnos aut de la Nava?) detur.</p>
+         </div>
+         <div type="Sachkommentar">
+            <p>Rodríguez de Diego Colección p. 139 etiam hanc chartam in editione eius ‚B’ signatam apographum aestimare videtur, cui, quoniam charta olim sigillata fuit, assentiri nolumus. Sigillum, quod olim pendebat, nunc deest, sed plica perforata exstat. – De re cf. Serrano Obispado de Burgos II 333sq.; Backmund Monasticon III 237sq.; González Reino I 545sq.; Merchán Fernández Orígenes p. 57sq.; López de Guereño Sanz Monasterios II 346sq.; Rodríguez de Diego Colección p. 31. 62. 73. Charta certe a. 1173 mai.-dec., cum cardinalis Iacintus in Castella morabatur, et post electionem Martini episcopi Albarracinensis (ante a. 1173 aug. 29) conscripta est. Verisimiliter haec concordia eodem tempore confirmata est, quo Praemonstratenses de Aguilar ab ipso Iacinto alter privilegium ordinem et possessiones suas confirmans impetraverunt (1173 oct. 19, Aguilar de Campóo n. 1). Cf. etiam Rodríguez de Diego Colección p. 139; González Reino I 380. Ecclesiam s. Cipriani (de Ríofresnos aut de la Nava), quae in hac charta quondam abbati Andreae ut solacium usque ad finem vitae eius conceditur, eandem esse censemus, cuius possessio fratribus Praemonstratensibus in altero privilegio Iacinti expresse confirmatur; Rodríguez de Diego Monasterios p. 442 adn. 14 econtra eam ecclesiam San Cipriano de la Vega fuisse arbitratur. Nota, quod charta sine signis chronologicis mundata est.</p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>Aguilar de Campóo Aguilar de Campóo n. 2 (Ib. Pont. I 164); Burgos, Episc. n. *122 (Ib. Pont. I 72); Albarracín, Episc.</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl>Noriega Dissertatio p. 112 (editio partialis).</bibl>
+               <bibl>Assas Monasterio p. 604 adn. 1 ad a. 1162.</bibl>
+               <bibl>Rodríguez de Diego Colección p. 139 n. 36</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

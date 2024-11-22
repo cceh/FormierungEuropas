@@ -1,0 +1,77 @@
+<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1562021663963">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName/>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1562021663963</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Original</copyStatus>
+               <origDate from="1163-30614-14" to="1163-30614-14">(1163) iun. 14</origDate>
+               <legalActor type="issuer">Alexander III</legalActor>
+               <legalActor type="recipient">Iohanni</legalActor>
+               <origPlace>Tours</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+            
+                
+                     Alexander III 
+                
+                     Iohanni 
+                
+                     Legionensi  episcopo: precibus eius annuens, confirmat ei eiusque successoribus et, per eum, 
+                ecclesiae Legionensi, archidiaconatum de 
+                Triacastella, cum ecclesiis, decimis et aliis pertinentiis suis, ab ipso et eius antecessoribus per continuum quadraginta retro annorum spatium sine legitima interruptione cuiuslibet quiete possessum.
+        </p>
+         </div>
+         <div type="Sachkommentar">
+            <p>
+             De tempore cf. itinerarium 
+                Alexandri III in 
+                JL. II 170sq. – De re cf. 
+                Valiña El camino de Santiago p. 210sq.; 
+                Fletcher The Episcopate p. 205. 
+        </p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+            León, Episc. León, Episc. (Ib. Pont. II 31 n. 60); v. etiam León, Eccl. cath. n. 18 (Ib. Pont. II 67); Ib. Pont. Lugo, Episc.</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl>Valiña El camino de Santiago p. 233sq. (s. d.).</bibl>
+               <bibl>Fernández Catón Colección catedral de León V 348sq. n. 1524.</bibl>
+               <bibl>Domínguez Sánchez Documentos pontificios de León p. 92 n. 30</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

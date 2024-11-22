@@ -1,0 +1,91 @@
+<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1653378690595">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName/>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1653378690595</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus/>
+               <origDate from="1145-50101-01" to="1153-31231-31">(1145–1153)</origDate>
+               <legalActor type="issuer">Bernardus</legalActor>
+               <legalActor type="recipient">Petrum</legalActor>
+               <legalActor type="recipient">Armannum vicecomitem</legalActor>
+               <legalActor type="recipient">Pontium</legalActor>
+               <legalActor type="recipient">Eraclium</legalActor>
+               <origPlace/>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+            Ex mandato 
+                Eugenii III (
+                Gall. Pont. III,2 294 n. *115), 
+                
+                     Bernardus 
+                
+                     Valentinensis  episcopus, praesentibus 
+                Guillelmo
+                Ebredunensi (Embrun) archiepiscopo et 
+                Guillelmo
+                Vivariensi episcopo, pacis compositionem inter 
+                
+                     Petrum 
+                
+                     Aniciensem (Le Puy)  episcopum et 
+                
+                     Armannum vicecomitem
+                
+                
+                     Podempniacum (Polignac)  filiosque ipsius 
+                
+                     Pontium  et 
+                
+                     Eraclium  celebrat et tam patris quam filiorum multorumque militum sacramento firmare sigillisque antistitum consignare facit.
+        </p>
+         </div>
+         <div type="Sachkommentar">
+            <p>
+            Connu par une lettre du 
+                roi Louis VII relatant les faits (dans 
+                É. Baluze, Histoire généalogique de la maison d’Auvergne, II, Paris, 1708, p. 66; 
+                R. H. F., XIV, c. 465; 
+                A. Luchaire, Études sur les actes de Louis VII, Paris, 1885, no 600, p. 289).
+        </p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+            Viviers, episc. Viviers, episc. (Gall. Pont. III,3 286 n. *140); Le Puy, episc.</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl/>
+         </div>
+      </body>
+   </text>
+</TEI>

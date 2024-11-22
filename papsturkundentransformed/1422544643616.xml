@@ -1,0 +1,58 @@
+<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1422544643616">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName/>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1422544643616</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Erwähnung</copyStatus>
+               <origDate when="1173-08-29">1173 aug. 29</origDate>
+               <legalActor type="issuer">Iacinti</legalActor>
+               <legalActor type="recipient">Iohannes (V)</legalActor>
+               <origPlace>Burgos</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>In praesentia Iacinti S.R.E. cardinalis (et legati Alexandri III) Iohannes (V) abbas Oniensis et homines de Barrio (Barrio de Díaz Ruiz) conveniunt de controversia iam diu inter eos ventilata super ecclesia s. Salvatoris, quam convenientiam inter alios Petrus (II) episcopus Burgensis, Marinus ac Aldericus archidiaconi totumque capitulum Burgense, totum concilium de Barrio nec non totum capitulum Oniense confirmant sive testantur.</p>
+         </div>
+         <div type="Sachkommentar">
+            <p>Cf. Serrano Obispado de Burgos II 109; González Reino I 380.</p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>San Salvador de Oña San Salvador de Oña n. *34 (Ib.Pont. I 141); Burgos, Episc. n. *121 (Ib. Pont. I 72); Burgos, Eccl. Cath. n. *3 (Ib. Pont. I 92); Burgos, Laici n. *2 (Ib. Pont. I 183); Albarracín, Episc.</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl>Álamo Colección Oña I 289 n. 241</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

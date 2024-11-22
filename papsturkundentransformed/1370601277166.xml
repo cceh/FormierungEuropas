@@ -1,0 +1,57 @@
+<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1370601277166">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName/>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1370601277166</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Erwähnung</copyStatus>
+               <origDate when="1159-11-30">(1159 nov. ex.)</origDate>
+               <legalActor type="issuer">Daniel Pragensis</legalActor>
+               <legalActor type="issuer">Hermannus Verdensis</legalActor>
+               <legalActor type="recipient">Octaviani (Victoris IV)</legalActor>
+               <origPlace>Segni</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>Ad Octaviani (Victoris IV) praesentiam episcopi Daniel Pragensis et Hermannus Verdensis legati Friderici I imperatoris accedunt.</p>
+         </div>
+         <div type="Sachkommentar">
+            <p>'Praesentatis itaque sibi imperialibus litteris, prostraverunt se ad pedes eius (sc. Octaviani) et adoraverunt eum” (ita Boso pergit narrando). – De re cf. Wurst Bischof Hermann p. 86sq., ubi et de tempore. – cf. etiam Regnum et Imperium; Verden, Episc. n. *37, Germ. Pont. V 1, 216</p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>Praha, Episc. Praha, Episc. n. *87 (Boh. Pont. 99).</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl/>
+         </div>
+      </body>
+   </text>
+</TEI>

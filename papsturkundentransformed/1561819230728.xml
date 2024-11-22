@@ -1,0 +1,77 @@
+<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1561819230728">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName/>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1561819230728</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Erwähnung</copyStatus>
+               <origDate from="1154-49999-31" to="1157-70607-07">(ante 1157 iun. 8)</origDate>
+               <legalActor type="issuer">Iacintus</legalActor>
+               <origPlace/>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+            
+                
+                     Iacintus 
+                
+                     s. Mariae in Cosmedin  diaconus cardinalis et legatus 
+                apostolicae sedis (
+                Hadriani IV) causam audit quae vertitur inter episcopos 
+                (Iohannem) 
+                Lucensem et 
+                (Iohannem) 
+                Legionensem super archidiaconatu de 
+                Triacastella. In praesentia eius episcopus 
+                Lucensis quaestionem movet, et ad litis contestationem procedit.
+        </p>
+         </div>
+         <div type="Sachkommentar">
+            <p>
+                Iacintus legatus fuit in 
+                Hispania (prima vice) a. 1155. – De legatione cardinalis 
+                Iacinti cf. 
+                Weiß Legaten p. 173–203; 
+                Fleisch Rom p. 144–161 cum studiis laudatis; 
+                Smith Iberian Legations passim.
+        </p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+            León, Episc. León, Episc. (Ib. Pont. II 28 n. *51); v. etiam León, Eccl. cath. n. *10 (Ib. Pont. II 65); Ib. Pont. Lugo, Episc.</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl/>
+         </div>
+      </body>
+   </text>
+</TEI>
