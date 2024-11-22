@@ -1,16 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Die Nummer des Regests im Projekt</title>
             <respStmt>
                <resp>Bearbeiter*in:</resp>
-               <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+               <persName>Jakob Mandel</persName>
             </respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Bearbeiter*in]</persName></respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>Jakob Mandel</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -19,11 +16,11 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <diploDesc><p><issued><placeName>Ausstellungsort</placeName><date type="issued">Ausstellungsdatum</date>
+            <diploDesc><p><issued><placeName>Ferentimo</placeName><date type="issued">(1174 Oktober 10</date><date type="issued">(1175) Oktober 10</date>
                </issued></p>
-               <p><legalActor type="issuer">Issuer</legalActor></p>
-               <p> <legalActor type="recipient">Recipient 1</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType>Typisierung 1</objectType></p>
+               <p><legalActor type="issuer">Papst Alexander III.</legalActor></p>
+               <p> <legalActor type="recipient">Calatravaorden</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType>Mandat</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
@@ -33,11 +30,11 @@
       <body>
          
          <div type="abstract"><head>Abstract:</head>
-            <p>Regestentext kann diploParts mit Sprachangabe enthalten</p>
+            <p><legalActor>Alexander III.</legalActor> befiehlt den <legalActor>Rittern von Calatrava</legalActor>, in ihren Kirchen die Rechte des <legalActor>Erzbischofs von Toledo</legalActor> und seiner Suffragane auf Zehntzahlungen und die Einsetzung von Klerikern einzuhalten. Außerdem sollen die Ritter auch für neu eroberte Siedlungen, auf die die Bischöfe traditionelle Ansprüche haben, den Zehnten entrichten. Zur Durchsetzung dieser Rechte hat Alexander den Bischöfen das Recht eingeräumt, das Interdikt oder die Exkommunikation gegen den Calatravaorden zu verhängen.</p>
          </div>
-         <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[*!?-]</p><!-- Echtheitskriterien --></authen></div><div><head>Incipit:</head><diploPart type="incipit">Lorem ipsum dolor sit amet</diploPart></div>
+         <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[-]</p><!-- Echtheitskriterien --></authen></div><div><head>Incipit:</head><diploPart type="incipit">Licet uos sicut religiosos uiros</diploPart></div>
          <div type="witness">
-            <head>Überlieferungsträger</head>
+            <head>Datatio:</head><diploPart>Datum Ferentini, vi. Idus Octubris.</diploPart>
          </div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung und alte Drucke</head>
@@ -89,7 +86,7 @@
             <bibl>[Weitere Referenzen als listBibl]</bibl>
          </listBibl>
          </div>
-         <div type="note"><head>Anmerkungen, Notizen und Fragen der Bearbeiter*in.</head></div>
+         <div type="note"><head>Anmerkungen, Notizen und Fragen der Bearbeiter*in.</head><p>Hier kommt der Text hin.</p></div>
       </body>
    </text>
 </TEI>
