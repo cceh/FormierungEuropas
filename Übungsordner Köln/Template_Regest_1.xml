@@ -7,10 +7,10 @@
          <titleStmt>
             <title>Die Nummer des Regests im Projekt</title>
             <respStmt>
-               <resp>Bearbeiter*in:</resp>
+               <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
                <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
             </respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Bearbeiter*in]</persName></respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -36,9 +36,6 @@
             <p>Regestentext kann diploParts mit Sprachangabe enthalten</p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[*!?-]</p><!-- Echtheitskriterien --></authen></div><div><head>Incipit:</head><diploPart type="incipit">Lorem ipsum dolor sit amet</diploPart></div>
-         <div type="witness">
-            <head>Überlieferungsträger</head>
-         </div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung und alte Drucke</head>
             <div>
