@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Converted Document</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Automated Transformation</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Source XML Document</bibl>
+            <diploDesc>
+               <p><issued><date type="issued">1161 lan. 20.</date><placeName>Anagniae</placeName><p>ALEXANDER III.</p></issued></p>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <p>10645 (7157)</p>
+            <div type="abstract"><p>Eberhardum, archiepiscopum Salzburgensem, laudat, quod „in unitate catholicae ecclesiae ac devotione b. Petri et sua permanserit, et minas principis non timuerit“. Ad perseverantiam hortatur. Nunciat haec: „orientalis ecclesia in con- cilio, Nazareth praesente Ierosolymorum rege sollemniter celebrato, Francorum, Anglorum, Hispaniarum et tota occidentalis ecclesia cum regibus, archiepiscopis, epi- scopis et toto clero et populo suo schismaticum (Victorem IV.), eiusque principales fautores damnarunt, nosque in patrem spiritualem et summum pontificem receperunt“. Monet, ut „statum ecclesiae ac Teutonici regni, animos quoque et voluntates hominum eiusdem regni propriis litteris sibi indicet“.</p></div>
+            <div type="commentary"><listBibl>(In cod. ms. Vindob. pro „Romae“ legi „Anagniae“, nos docuit Wattenbach.)</listBibl></div>
+            <div type="editions"><listBibl>Tengnagel Vet. mon. p. 407, Mansi XXI. 1036, Migne 200 p. 101.</listBibl></div>
+            <div type="incipit"><diploPart>— „Ad haereses et“.</diploPart></div>
+         </div>
+      </body>
+   </text>
+</TEI>

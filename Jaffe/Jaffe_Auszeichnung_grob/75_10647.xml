@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Converted Document</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Automated Transformation</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Source XML Document</bibl>
+            <diploDesc>
+               <p><issued><date type="issued">1161 lan. 22.</date><placeName>Anagniae</placeName><p>ALEXANDER III.</p></issued></p>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <p>10647</p>
+            <div type="abstract"><p>Compositionem inter ecclesiam Lincolniensem et monasterium S. Albani factam confirmat.</p></div>
+            <div type="editions"><listBibl>Mon. Angl. nov. ed. II. 231, (Gesta abb. S. Alb. ed. Riley I. 179).</listBibl></div>
+            <div type="incipit"><diploPart>— „Ea, quae compositione“ („Quae compositione vel“).</diploPart></div>
+         </div>
+      </body>
+   </text>
+</TEI>
