@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Converted Document</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Automated Transformation</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Source XML Document</bibl>
+            <diploDesc>
+               <p><issued><date type="issued">10614 Febr. 19.</date><placeName>Anarnlae</placeName><p>ALEXANDER III.</p></issued></p>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <p>10624 (7144)</p>
+            <div type="abstract"><p>Monasterii Pontiniacensis tutelam suscipit, ac possessiones privilegiaque confirmat, petente Wichardo abbate.</p></div>
+            <div type="editions"><listBibl>Martene Thes. III. 1232, Migne 200 p. 85.</listBibl></div>
+            <div type="incipit"><diploPart>— „Quotiens illud“.</diploPart></div>
+         </div>
+      </body>
+   </text>
+</TEI>

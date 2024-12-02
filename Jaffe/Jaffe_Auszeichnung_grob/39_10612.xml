@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Converted Document</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Automated Transformation</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Source XML Document</bibl>
+                <diploDesc>
+                    <p><issued><date type="issued">1160 lan. 2.</date><placeName>Anarnlae</placeName><p>ALEXANDER III.</p></issued></p>
+                </diploDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>10612</p>
+                <div type="abstract"><p>B(osonis) episcopi Catalaunensis studium erga se et Romanam ecclesiam laudat. De appellationibus respondet, „non licere civilibus personis in causa civili ante pro- nuntiationem sententiae in vocem appellationis prorumpere“, cet. R. canonici, ex ecclesia Omnium samnctorum eiecti, causam ei demandat; qui eum verberaverint. eos tamdiu excommunicatione innodandos esse iubet, donec satisfacturi ad sedem apo- stolicam accesserint.</p></div>
+                <div type="editions"><listBibl>Loewenfeld Epistolae p. 131.</listBibl></div>
+                <div type="incipit"><diploPart>— „Constitutus in praesentia“.</diploPart></div>
+            </div>
+        </body>
+    </text>
+</TEI>
