@@ -19,7 +19,7 @@
             <diploDesc><p><issued><placeName>Vebedig, Rialto</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" unit="cm" xml:space="default" type="issued" when="1177-08-03">(1177) August 3</date><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" unit="cm" xml:space="default" type="issued" when="1178-08-03"/>
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p>P</p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><legalActor type="recipient">Philipp, Bischof von Osnab</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType>Typisierung 1</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
