@@ -20,7 +20,7 @@
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Philipp, Bischof von Osnabrück </legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType>Littera cum serico</objectType></p>
+               <p><objectType>Litterae cum serico</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
@@ -40,7 +40,7 @@
             <div>
             <listBibl>   
                <bibl>Handschrift oder Alter Druck</bibl>
-               <bibl>Handschrift oder Alter Druck</bibl>
+               <bibl>Handschrift oder Alter Druck</bibl><bibl/>
             </listBibl>
          </div>
          </div>
