@@ -19,7 +19,7 @@
             <diploDesc><p><issued><placeName>Vebedig, Rialto</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" unit="cm" xml:space="default" type="issued" when="1177-08-03">(1177) August 3</date><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" unit="cm" xml:space="default" type="issued" when="1178-08-03"/>
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Philipp, Bischof von Osnabrück</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><legalActor type="recipient">Peter, Bischof von Osnabrück</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType>Litterae cum serico</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
@@ -30,7 +30,7 @@
       <body>
          
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. bestätigt die von Philipp Bischof von Odsnabrück, vorgenommene Abgrenzung der Dompfarrei.</p>
+            <p>Alexander III. bestätigt Peter, Bischof von Osnabrück, die von dessen Vorgänger Philipp vorgenommene Abgrenzung der Dompfarrei.</p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[*!?-]</p><!-- Echtheitskriterien --></authen></div>
          <div><head>Incipit:</head><diploPart type="incipit">Lorem ipsum dolor sit amet</diploPart></div>
