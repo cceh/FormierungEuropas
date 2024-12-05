@@ -16,7 +16,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <diploDesc><p><issued><placeName>Venedig, Rialto</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" unit="cm" xml:space="default" type="issued">(1177) August 3</date>
+            <diploDesc><p><issued><placeName>Venedig, Rialto</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" type="issued" unit="cm" xml:space="default" when="1177-08-03">(1177) August 3</date>
                </issued></p>
                <p><legalActor type="issuer">Issuer</legalActor></p>
                <p> <legalActor type="recipient">Recipient 1</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
