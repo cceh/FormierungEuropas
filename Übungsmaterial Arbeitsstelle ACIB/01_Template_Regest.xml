@@ -6,8 +6,11 @@
       <fileDesc>
          <titleStmt>
             <title>Die Nummer des Regests im Projekt</title>
-            <respStmt><resp>Bearbeiter*in:</resp><persName>Josef Dolle</persName></respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>Isabel Blumenroth</persName></respStmt>
+            <respStmt>
+               <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+               <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -16,8 +19,12 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <diploDesc><p><issued><placeName>Pavia</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" type="issued" unit="cm" xml:space="default">1160 März 2</date>
-               </issued></p><p><legalActor type="issuer">Viktor IV.</legalActor></p><p><legalActor type="recipient">Dudelin, Abt des Klosters Mariental</legalActor></p><p><legalActor cert="high" type="recipient" xml:space="default"><orgName>Kloster Mariental</orgName></legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType>Urkunde</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <diploDesc><p><issued><placeName>Ausstellungsort</placeName><date type="issued">Ausstellungsdatum</date>
+               </issued></p>
+               <p><legalActor type="issuer">Issuer</legalActor></p>
+               <p> <legalActor type="recipient">Recipient 1</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType>Typisierung 1</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
@@ -25,34 +32,33 @@
    <text>
       <body>
          
-         <div type="abstract"><head>Abstract:</head><p>Papst <persName>Viktor IV.</persName> nimmt auf Bitten des <persName>Abtes Dudelin</persName> das <orgName>Kloster Mariental</orgName> in apostolischen Schutz und bestätigt ihm seine Besitztümer</p></div>
-         <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[-]</p><!-- Echtheitskriterien --></authen></div><div><head>Incipit:</head><diploPart type="incipit">Quotiens illud a nobis petitur</diploPart></div>
-         <div type="witness">
-            <head>Überlieferungsträger</head>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Regestentext kann diploParts mit Sprachangabe enthalten</p>
          </div>
+         <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[*!?-]</p><!-- Echtheitskriterien --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit">Lorem ipsum dolor sit amet</diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung und alte Drucke</head>
             <div>
-            <listWit>   
-               <witness><bibl>Handschrift oder Alter Druck</bibl></witness>
-               <witness><bibl>Handschrift oder Alter Druck</bibl></witness>
-            </listWit>
+            <listBibl>   
+               <bibl>Handschrift oder Alter Druck</bibl>
+               <bibl>Handschrift oder Alter Druck</bibl>
+            </listBibl>
          </div>
          </div>
          <div type="decretals">
             <head>Dekretalen</head>
-            <listWit>
-               <witness><bibl>[Dekretale 1]</bibl></witness>
-               <witness><bibl>[Dekretale 2]</bibl></witness>
-            </listWit>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie</head>
-            <listWit>
-               <witness>
-                  <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
-               </witness>
-            </listWit>
+            <listBibl>
+               <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+            </listBibl>
          </div>
          <div type="editions">
             <head>Editionen</head>
@@ -80,7 +86,7 @@
             <bibl>[Weitere Referenzen als listBibl]</bibl>
          </listBibl>
          </div>
-         <div type="note"><head>Anmerkungen, Notizen und Fragen der Bearbeiter*in.</head><p>Hier kommt der Text hin.</p></div>
+         <div type="note"><head>Anmerkungen, Notizen und Fragen der Bearbeiter*in.</head></div>
       </body>
    </text>
 </TEI>

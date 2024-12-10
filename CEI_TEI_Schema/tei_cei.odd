@@ -66,7 +66,7 @@
          representation of persons across documents and abstracts.</item>
         <item>As much as possible, tracking of individual persons should be done through references
          to a personography file, where titles and parts of names can be specified. Lists of names
-         with parallel elements are not normalized in the text, but in the persography; so, in the
+         with parallel elements are not normalized in the text, but in the personography; so, in the
          list "Erzbischöfe Johannes von Edessa (Eddessiensis) und Pontius von Seleucia
          (Seleuciensis)", Pontius von Seleucia (Seleuciensis) would be marked as a persName and the
          title of Archbishop of Seleucia in Isauria would be indicated as a roleName in the

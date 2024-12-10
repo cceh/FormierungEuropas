@@ -6,8 +6,11 @@
       <fileDesc>
          <titleStmt>
             <title>Die Nummer des Regests im Projekt</title>
-            <respStmt><resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp><persName>Josef Dolle</persName></respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>Isabel Blumenroth</persName></respStmt>
+            <respStmt>
+               <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+               <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -16,11 +19,11 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <diploDesc><p><issued><placeName>Venedig, Rialto</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" type="issued" unit="cm" xml:space="default" when="1177-08-03">(1177) August 3</date><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" type="issued" unit="cm" xml:space="default" when="1178-08-03"/>
+            <diploDesc><p><issued><placeName>Ausstellungsort</placeName><date type="issued">Ausstellungsdatum</date>
                </issued></p>
-               <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p> <legalActor type="recipient">Domkapitel von Osnabrück </legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType>Litterae cum serico</objectType></p>
+               <p><legalActor type="issuer">Issuer</legalActor></p>
+               <p> <legalActor type="recipient">Recipient 1</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType>Typisierung 1</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
@@ -30,7 +33,7 @@
       <body>
          
          <div type="abstract"><head>Abstract:</head>
-            <p><persName>Alexander III.</persName> bestätigt dem Domkapitel (<diploPart cert="high" type="other" xml:space="default">clericis</diploPart>) in Osnabrück die Rechte und Grenzen ihrer Kirche (<diploPart cert="high" type="other" xml:space="default">iura et terminos</diploPart>), die in einer Urkunde des verstorbenen Bischofs Philipp von Osnabrück (1141-1173) festgehalten geworden waren.</p>
+            <p>Regestentext kann diploParts mit Sprachangabe enthalten</p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[*!?-]</p><!-- Echtheitskriterien --></authen></div>
          <div><head>Incipit:</head><diploPart type="incipit">Lorem ipsum dolor sit amet</diploPart></div>
@@ -40,7 +43,7 @@
             <div>
             <listBibl>   
                <bibl>Handschrift oder Alter Druck</bibl>
-               <bibl>Handschrift oder Alter Druck</bibl><bibl/><bibl/>
+               <bibl>Handschrift oder Alter Druck</bibl>
             </listBibl>
          </div>
          </div>

@@ -7,10 +7,10 @@
          <titleStmt>
             <title>Die Nummer des Regests im Projekt</title>
             <respStmt>
-               <resp>Bearbeiter*in:</resp>
+               <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
                <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
             </respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Bearbeiter*in]</persName></respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -35,33 +35,30 @@
          <div type="abstract"><head>Abstract:</head>
             <p>Regestentext kann diploParts mit Sprachangabe enthalten</p>
          </div>
-         <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[*!?-]</p><!-- Echtheitskriterien --></authen></div><div><head>Incipit:</head><diploPart type="incipit">Lorem ipsum dolor sit amet</diploPart></div>
-         <div type="witness">
-            <head>Überlieferungsträger</head>
-         </div>
+         <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[*!?-]</p><!-- Echtheitskriterien --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit">Lorem ipsum dolor sit amet</diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung und alte Drucke</head>
             <div>
-            <listWit>   
-               <witness><bibl>Handschrift oder Alter Druck</bibl></witness>
-               <witness><bibl>Handschrift oder Alter Druck</bibl></witness>
-            </listWit>
+            <listBibl>   
+               <bibl>Handschrift oder Alter Druck</bibl>
+               <bibl>Handschrift oder Alter Druck</bibl>
+            </listBibl>
          </div>
          </div>
          <div type="decretals">
             <head>Dekretalen</head>
-            <listWit>
-               <witness><bibl>[Dekretale 1]</bibl></witness>
-               <witness><bibl>[Dekretale 2]</bibl></witness>
-            </listWit>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie</head>
-            <listWit>
-               <witness>
-                  <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
-               </witness>
-            </listWit>
+            <listBibl>
+               <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+            </listBibl>
          </div>
          <div type="editions">
             <head>Editionen</head>
