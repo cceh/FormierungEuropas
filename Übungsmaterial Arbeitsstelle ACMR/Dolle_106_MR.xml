@@ -30,7 +30,7 @@
             <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Papst Alexander III.</persName></legalActor> bestätigt dem <legalActor cert="high" type="beneficiary" xml:space="default"><orgName>Domkapitel</orgName></legalActor> (<diploPart>clericiis</diploPart>) der Kathedrale St. Peter in Osnabrück die Rechte und Grenzen ihrer Kirche (<diploPart>iura et terminos</diploPart>) die in einer Urkunde <persName>Philipps, verstorbener Bischof von Osnabrück</persName> (1141-1173) festgehalten wurden.</p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>-</p><!-- Echtheitskriterien --></authen></div>
-         <div><head>Incipit:</head><diploPart type="incipit">Lorem ipsum dolor sit amet</diploPart></div>
+         <div><head>Incipit:</head><diploPart type="incipit">Iustis petentium desideriis</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung und alte Drucke</head>
