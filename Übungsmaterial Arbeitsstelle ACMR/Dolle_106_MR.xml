@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -30,7 +27,7 @@
       <body>
          
          <div type="abstract"><head>Abstract:</head>
-            <p>Papst Alexander III. bestätigt dem Domkapitel (<diploPart>clericiis</diploPart>) der Kathedrale St. Peter in Osnabrück die Rechte und Grenzen ihrer Kirche (<diploPart>iura et terminos</diploPart>) die in einer Urkunde des verstorbenen Bischofs von Osnabrück Phillip (1141-1173) festgehalten wurden.</p>
+            <p><legalActor cert="high" subtype="Aussteller" type="issuer" xml:space="default">Papst Alexander III.</legalActor> bestätigt dem Domkapitel (<diploPart>clericiis</diploPart>) der Kathedrale St. Peter in Osnabrück die Rechte und Grenzen ihrer Kirche (<diploPart>iura et terminos</diploPart>) die in einer Urkunde des verstorbenen Bischofs von Osnabrück Phillip (1141-1173) festgehalten wurden.</p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[*!?-]</p><!-- Echtheitskriterien --></authen></div>
          <div><head>Incipit:</head><diploPart type="incipit">Lorem ipsum dolor sit amet</diploPart></div>
