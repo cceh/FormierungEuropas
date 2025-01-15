@@ -16,24 +16,25 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <diploDesc><p><issued><placeName>Dôle</placeName><date type="issued">1162 Sept. 20</date>
+            <diploDesc><p><issued><placeName>Dôle</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" type="issued" unit="cm" xml:space="default" when="1162-09-20">1162 Sept. 20</date>
                </issued></p>
-               <p><legalActor type="issuer">Issuer</legalActor></p>
-               <p> <legalActor type="recipient">Recipient 1</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType>Typisierung 1</objectType></p>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p><legalActor type="recipient">Nikolausberg, Kanonissenstift</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType>Feierliches Privileg</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
    <text>
-      <body>
+      <body><div type="abstract"><head>Abstract:</head>
+            <p>Alexander III. gewährt dem Kanonissenstift Nikolausberg ein Privileg mit folgenden Rechten:
          
-         <div type="abstract"><head>Abstract:</head>
-            <p>Regestentext kann diploParts mit Sprachangabe enthalten</p>
+         </p>
+         <list><item>Aufnahme in den apostolischen Schutz</item><item>Bestätigung der Augustinusregel</item><item>Bestätigung des Besitzes in namentlich genannten Orten</item><item>Freie Wahl des Propstes</item><item>Besonderer Schutz der Pilger, die das Stift aufsuchen</item></list>
          </div>
-         <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[*!?-]</p><!-- Echtheitskriterien --></authen></div>
-         <div><head>Incipit:</head><diploPart type="incipit">Lorem ipsum dolor sit amet</diploPart></div>
+         <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>-</p><!-- Echtheitskriterien --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit">Religiosam vitam eligentibus ap</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung und alte Drucke</head>

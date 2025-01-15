@@ -13,11 +13,11 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <diploDesc><p><issued><placeName>Dôle</placeName><date type="issued">1162 Sept. 20</date>
+            <diploDesc><p><issued><placeName>Dôle</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" type="issued" unit="cm" xml:space="default" when="1162-09-20">1162 Sept. 20</date>
                </issued></p>
-               <p><legalActor type="issuer">Issuer</legalActor></p>
-               <p> <legalActor type="recipient">Recipient 1</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType>Typisierung 1</objectType></p>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p> <legalActor type="recipient">Nikolausberg, Kanonissenstift</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType>Feierliches Privileg</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
@@ -27,10 +27,13 @@
       <body>
          
          <div type="abstract"><head>Abstract:</head>
-            <p>Regestentext kann diploParts mit Sprachangabe enthalten</p>
+            <p>Alexander III. gewährt dem Kanonissenstift Nikolausberg ein Privileg mit folgenden Rechten:
+
+            </p>
+            <list><item>Aufnahme in den apostolischen Schutz</item><item>Bestätigung der Augustinerregel</item><item>Bestätigung des Besitzes in namentlich genannten Orten</item><item>freie Wahl des Propstes</item><item>besonderen Schutz der Pilger, die das Stift aufsuchen</item></list>
          </div>
-         <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[*!?-]</p><!-- Echtheitskriterien --></authen></div>
-         <div><head>Incipit:</head><diploPart type="incipit">Lorem ipsum dolor sit amet</diploPart></div>
+         <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[-]</p><!-- Echtheitskriterien --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit">Religiosam vitam eligentibus apostolicum convenit</diploPart></div><div><head>Subscriptiones:</head><diploPart cert="high" type="subscriptio" xml:space="default">Papst und ... Kardinäle (mit Kreuz, Name und SS.)</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung und alte Drucke</head>

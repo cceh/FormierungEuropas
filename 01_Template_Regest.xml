@@ -32,7 +32,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Regestentext kann diploParts mit Sprachangabe enthalten</p>
+            <p>Regestentext kann diploParts mit Sprachangabe enthalten.</p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head>
             <authen type="formula"><p>[*!?-]</p><!-- Echtheitskriterien --></authen></div>
@@ -78,7 +78,7 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Inhalt des Sachkommentars. Bibliographische Referenzen werden als <bibl>Bibliographische Angabe</bibl> getagged</p>
+            <p>Inhalt des Sachkommentars. Bibliographische Referenzen werden als <bibl>Bibliographische Angabe</bibl> getagged.</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
