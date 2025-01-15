@@ -28,8 +28,8 @@
    <text>
       <body>
          
-         <div type="abstract"><head>A </head>
-            <p>Regestentext kann diploParts mit Sprachangabe enthalten</p>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Alexander III. gewährt dem Kanonissenstift</p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[*!?-]</p><!-- Echtheitskriterien --></authen></div>
          <div><head>Incipit:</head><diploPart type="incipit">Lorem ipsum dolor sit amet</diploPart></div>
