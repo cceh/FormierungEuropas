@@ -5,12 +5,8 @@
             <title>Die Nummer des Regests im Projekt</title>
             <respStmt>
                <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
-               <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
-            </respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <publisher>Die Formierung Europas</publisher>
+               <persName>Schönfeld V22</persName></respStmt>
+           <respStmt><resp when="2024">Encoding:</resp></respStmt></titleStmt><publicationStmt><publisher>HMDie Formierung Europas</publisher>
             <availability>
                <licence>Lizenz</licence>
             </availability>
