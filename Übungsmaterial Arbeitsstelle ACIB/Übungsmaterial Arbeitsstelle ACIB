@@ -27,16 +27,8 @@
       </fileDesc>
    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
    <text>
-      <body>
-         <div type="abstract"><head>Abstract:</head>
-            <p>Viktor IV. gewährt dem Kloster Ilsenburg auf Bitten des Abtes Sigebod und gemäß einer Urkunde Innozenz' II. ein Privileg mit folgenden Rechten:</p>
-            <list><item>[xx</item><item>x]</item></list>
-         </div>
-         <div type="other"><head>Echtheitskriterien:</head>
-            <authen type="formula"><p>[*!?-]</p><!-- Echtheitskriterien --></authen></div>
-         <div><head>Incipit:</head><diploPart type="incipit">Lorem ipsum dolor sit amet</diploPart></div>
-         <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
-         <div type="msSources">
+      <body><div type="abstract"><head>Abstract:</head><p>Viktor IV. gewährt dem Kloster Ilsenburg auf Bitten des Abtes Sigebod und gemäß einer Urkunde Innozenz' II. ein Privileg mit folgenden Rechten:</p><list><item>[xx</item><item>x]</item></list></div><div type="other"><head>Echtheitskriterien:</head>
+            <authen type="formula"><p>[*!?-]</p><!-- Echtheitskriterien --></authen></div><div><head>Incipit:</head><diploPart type="incipit">Lorem ipsum dolor sit amet</diploPart></div><div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div><div type="msSources">
              <head>Handschriftliche Überlieferung und alte Drucke</head>
             <div>
             <listBibl>   
@@ -44,47 +36,39 @@
                <bibl>Handschrift oder Alter Druck</bibl>
             </listBibl>
          </div>
-         </div>
-         <div type="decretals">
+         </div><div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
                <bibl>[Dekretale 1]</bibl>
                <bibl>[Dekretale 2]</bibl>
             </listBibl>
-         </div>
-         <div type="historiography">
+         </div><div type="historiography">
             <head>Erwähnungen in der Historiographie</head>
             <listBibl>
                <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
             </listBibl>
-         </div>
-         <div type="editions">
+         </div><div type="editions">
             <head>Editionen</head>
             <listBibl>
                <bibl>[Edition 1]</bibl>
                <bibl>[Edition 2]</bibl>
                <bibl>[Edition 3]</bibl>
             </listBibl>
-         </div>
-         <div type="regesta">
+         </div><div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>[Regest 1]</bibl>
                <bibl>[Regest 2]</bibl>
                <bibl>[Regest 3]</bibl>
             </listBibl>
-         </div>
-         <div type="commentary">
+         </div><div type="commentary">
             <head>Sachkommentar</head>
             <p>Inhalt des Sachkommentars. Bibliographische Referenzen werden als <bibl>Bibliographische Angabe</bibl> getagged.</p>
-         </div>
-         <div type="bibliography">
+         </div><div type="bibliography">
             <head>Bibliographie</head>
          <listBibl>
             <bibl>[Weitere Referenzen als listBibl]</bibl>
          </listBibl>
-         </div>
-         <div type="note"><head>Anmerkungen, Notizen und Fragen der Bearbeiter*in.</head></div>
-      </body>
+         </div><div type="note"><head>Anmerkungen, Notizen und Fragen der Bearbeiter*in.</head></div></body>
    </text>
 </TEI>
