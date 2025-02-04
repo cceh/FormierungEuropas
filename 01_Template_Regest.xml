@@ -19,6 +19,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <bibl type="jaffe">[Jaffe-Nummer]</bibl>
             <diploDesc><p><issued><placeName>[Ausstellungsort]</placeName><date type="issued">[Ausstellungsdatum]</date>
                </issued></p>
                <p><legalActor type="issuer">[Issuer]</legalActor></p>
@@ -35,7 +36,7 @@
             <p>[Regestentext kann diploParts mit Sprachangabe enthalten.]</p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head>
-            <authen type="formula"><p>[+!?-]</p><!-- Echtheitskriterien --></authen></div>
+            <authen type="formula"><p>[*+?-]</p><!-- Echtheitskriterien --></authen></div>
          <div><head>Incipit:</head><diploPart type="incipit">[Lorem ipsum dolor sit amet]</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
          <div type="msSources">
