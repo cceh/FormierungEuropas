@@ -5,7 +5,7 @@
     <title>Formierung_Citation_Style_DE</title>
     <id>http://www.zotero.org/styles/formierung_citation_style_de</id>
     <link rel="self" href="http://www.zotero.org/styles/formierung_citation_style_de"/>
-    <updated>2025-02-05T11:33:30+00:00</updated>
+    <updated>2025-02-05T12:00:13+00:00</updated>
   </info>
   <macro name="author medieval">
     <names variable="author"/>
@@ -48,7 +48,7 @@
   </macro>
   <macro name="place, edition, year">
     <group prefix=", ">
-      <text variable="original-title" suffix=" "/>
+      <text variable="publisher-place" suffix=" "/>
       <choose>
         <if match="any" is-numeric="edition">
           <number vertical-align="sup" variable="edition"/>
