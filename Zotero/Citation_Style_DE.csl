@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never">
   <!-- This style was edited with the Visual CSL Editor (https://editor.citationstyles.org/visualEditor/) -->
   <info>
     <title>Formierung_Citation_Style_DE</title>
-    <id>http://www.zotero.org/styles/formierung-mit-vuf-stil</id>
-    <link rel="self" href="http://www.zotero.org/styles/formierung-mit-vuf-stil"/>
-    <updated>2024-11-15T13:50:15+00:00</updated>
+    <id>http://www.zotero.org/styles/formierung_citation_style_de</id>
+    <link rel="self" href="http://www.zotero.org/styles/formierung_citation_style_de"/>
+    <updated>2025-02-05T12:00:13+00:00</updated>
   </info>
   <macro name="author medieval">
     <names variable="author"/>
@@ -49,11 +49,28 @@
   <macro name="place, edition, year">
     <group prefix=", ">
       <text variable="publisher-place" suffix=" "/>
-      <number vertical-align="sup" variable="edition"/>
+      <choose>
+        <if match="any" is-numeric="edition">
+          <number vertical-align="sup" variable="edition"/>
+        </if>
+        <else>
+          <text variable="edition" suffix=" "/>
+        </else>
+      </choose>
       <date date-parts="year" form="text" variable="issued">
         <date-part name="year"/>
       </date>
     </group>
+  </macro>
+  <macro name="page or column">
+    <choose>
+      <if match="any" is-numeric="page">
+        <number prefix=", S. " variable="page"/>
+      </if>
+      <else>
+        <text variable="page" prefix=", "/>
+      </else>
+    </choose>
   </macro>
   <macro name="short: author">
     <names variable="author" suffix=": ">
@@ -112,6 +129,7 @@
                 <text variable="title"/>
                 <number prefix=", " suffix=" Bde." variable="number-of-volumes"/>
                 <text macro="editor (ed.)"/>
+                <number prefix=", Bd. " variable="volume"/>
                 <text macro="collection"/>
                 <text macro="place, edition, year"/>
                 <text macro="DOI or URL"/>
@@ -122,6 +140,7 @@
                 <text variable="title"/>
                 <number prefix=", " suffix=" Bde." variable="number-of-volumes"/>
                 <text macro="editor (Hg.)"/>
+                <number prefix=", Bd. " variable="volume"/>
                 <text macro="collection"/>
                 <text macro="place, edition, year"/>
                 <text macro="DOI or URL"/>
@@ -134,6 +153,7 @@
             <text macro="author"/>
             <text variable="title" strip-periods="false" font-style="normal"/>
             <number prefix=", " suffix=" Bde." variable="number-of-volumes"/>
+            <number prefix=", Bd. " variable="volume"/>
             <text macro="collection"/>
             <text macro="place, edition, year"/>
             <text macro="DOI or URL"/>
@@ -163,11 +183,22 @@
             <text macro="DOI or URL"/>
           </group>
         </else-if>
+        <else-if type="entry-encyclopedia" match="any">
+          <group>
+            <text macro="author"/>
+            <text variable="title"/>
+            <text variable="container-title" prefix=", in: "/>
+            <number prefix=", Bd. " variable="volume"/>
+            <text macro="page or column"/>
+            <text macro="DOI or URL"/>
+          </group>
+        </else-if>
         <else-if type="thesis" match="any">
           <group>
             <text macro="author"/>
             <text variable="title"/>
             <number variable="number-of-volumes"/>
+            <number prefix=", Bd. " variable="volume"/>
             <text macro="collection"/>
             <text value=", Diss. masch."/>
             <text macro="place, edition, year"/>
