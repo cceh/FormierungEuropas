@@ -5,7 +5,7 @@
     <title>Formierung_Citation_Style_DE</title>
     <id>http://www.zotero.org/styles/formierung_citation_style_de</id>
     <link rel="self" href="http://www.zotero.org/styles/formierung_citation_style_de"/>
-    <updated>2025-02-05T12:00:13+00:00</updated>
+    <updated>2025-02-11T14:30:56+00:00</updated>
   </info>
   <macro name="author medieval">
     <names variable="author"/>
@@ -47,20 +47,42 @@
     </group>
   </macro>
   <macro name="place, edition, year">
-    <group prefix=", ">
-      <text variable="publisher-place" suffix=" "/>
-      <choose>
-        <if match="any" is-numeric="edition">
-          <number vertical-align="sup" variable="edition"/>
-        </if>
-        <else>
-          <text variable="edition" suffix=" "/>
-        </else>
-      </choose>
-      <date date-parts="year" form="text" variable="issued">
-        <date-part name="year"/>
-      </date>
-    </group>
+    <choose>
+      <if match="any" variable="original-date">
+        <group prefix=", ">
+          <text variable="original-publisher-place" suffix=" "/>
+          <date date-parts="year" form="text" variable="original-date"/>
+          <text value="(ND " prefix=" "/>
+          <text variable="publisher-place" suffix=" "/>
+          <choose>
+            <if match="any" is-numeric="edition">
+              <number vertical-align="sup" variable="edition"/>
+            </if>
+            <else>
+              <text variable="edition"/>
+            </else>
+          </choose>
+          <date date-parts="year" form="text" variable="issued"/>
+          <text value=")"/>
+        </group>
+      </if>
+      <else>
+        <group prefix=", ">
+          <text variable="publisher-place" suffix=" "/>
+          <choose>
+            <if match="any" is-numeric="edition">
+              <number vertical-align="sup" variable="edition"/>
+            </if>
+            <else>
+              <text variable="edition" suffix=" "/>
+            </else>
+          </choose>
+          <date date-parts="year" form="text" variable="issued">
+            <date-part name="year"/>
+          </date>
+        </group>
+      </else>
+    </choose>
   </macro>
   <macro name="page or column">
     <choose>
