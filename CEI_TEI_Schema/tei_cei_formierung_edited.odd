@@ -560,6 +560,9 @@
           <desc>
            <ref target="http://www.cei.lmu.de/VID/VID.php?155">VID 155</ref>Description of benevalete </desc>
          </valItem>
+         <valItem ident="incipit">
+          <desc> Citation of the first five words of the charter's text.  </desc>
+         </valItem>
          <valItem ident="other">
           <desc>
            Any standard clause that does not fit into the schemata that are documented here. Please consider submitting an issue on GitHub documenting this usage.</desc>
