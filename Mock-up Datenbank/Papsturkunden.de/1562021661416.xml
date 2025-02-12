@@ -1,0 +1,56 @@
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1562021661416">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName/>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1562021661416</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Erwähnung</copyStatus>
+               <origDate from="1154-01-01" to="1159-12-31">(1154–1159)</origDate>
+               <legalActor type="issuer">Hadrianus IV</legalActor>
+               <legalActor type="recipient">Iohanni</legalActor>
+               <origPlace/>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>Hadrianus IV (Iohanni ) Legionensi  episcopo confirmat ea quae Aldefonsus (VII) rex Castellae et Legionis (a. 1143 ian. 30), pro peccatorum suorum remissione, ecclesiae b. Mariae Legionensi devotionis intuitu obtulit, specialiter decimas ad Legionensem episcopum pertinentes in omnibus villis quae infra eiusdem episcopatus terminos continentur, et quae ad honorem ecclesiae et “infantagii” s. Pelagii (infantado de San Pelayo) spectare noscuntur.
+        </p> </div>
+         <div type="commentary">
+            <p>
+        </p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+            León, Episc. León, Episc. (Ib. Pont. II 29 n. *56); v. etiam León, Eccl. cath. n. *15 (Ib. Pont. II 66); Ib. Pont. Regnum Castellae et Legionis.</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>
