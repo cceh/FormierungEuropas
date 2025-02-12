@@ -1,6 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1422544635305">
+<TEI xml:id="papsturkunden_1422544635305" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,7 +32,7 @@
             </diploDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><revisionDesc>
          <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
       </revisionDesc>
    </teiHeader>
@@ -44,7 +45,7 @@
             <p>De hoc privilegio cf. Yepes Corónica III f. 186'; González Reino I 496; Moreta Velayos Monasterio p. 200. Laud. etiam apud Fita Canonización p. 109; Säbekow Legationen p. 54; Serrano Obispado de Burgos II 364 adn. 1; González Regesta p. 105; Smith Iberian Legations p. 88. Fita, Säbekow, Serrano hoc privilegium non in monasterio s. Dominici de Silos sed in ecclesia s. Dominici de Calziata (Santo Domingo de la Calzada) exhibitum esse censent. Nota, quod charta cardinalis legati accurate ad formam privilegii pontificii perfecta est.</p>
          </div>
          <div type="regesta">
-            <head>Regestenwerk</head>
+            <head>Regestenwerke</head>
             <listBibl>
                <bibl>San Pedro de Cardeña San Pedro de Cardeña n. 22 (Ib. Pont. I 116).</bibl>
             </listBibl>
