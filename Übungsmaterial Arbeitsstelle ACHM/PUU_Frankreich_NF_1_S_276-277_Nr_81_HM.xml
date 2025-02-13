@@ -18,7 +18,7 @@
          <sourceDesc>
             <diploDesc><p><issued><placeName>Praeneste</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" type="when" unit="cm" xml:space="default" when="1161-06-21">1161 Juni 28</date>
                </issued></p>
-               <p><legalActor type="issuer">Issuer</legalActor></p>
+               <p>Alexander III. </p>
                <p> <legalActor type="recipient">Recipient 1</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType>Typisierung 1</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
