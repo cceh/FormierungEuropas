@@ -20,7 +20,7 @@
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient"> Châlons-sur-Marne, Kloster St Memmie</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType>Typisierung 1</objectType></p>
+               <p><objectType>Privileg, feierlich</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
@@ -30,7 +30,7 @@
       <body>
          
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. nimmt nach, dem Vorgange Innocenz' II.  *) und Eugens III. das Kloster S.  Memmie zu  Châlons-sur-Marne in  Schutz,  bestätigt die Augustinerregel, die Besitzungen und Freiheiten, den dritten Teil der Sühnegelder in  der Stadt Châlons vom  Freitag abend bis zum Sonnabend abend, das Pfarrbesetzungsrecht sowie die freie Abtwahl. </p>
+            <p>Alexander III. nimmt nach dem Vorgange Innocenz' II.  *) und Eugens III. das Kloster S.  Memmie zu  Châlons-sur-Marne in  Schutz,  bestätigt die Augustinerregel, die Besitzungen und Freiheiten, den dritten Teil der Sühnegelder in  der Stadt Châlons vom  Freitag abend bis zum Sonnabend abend, das Pfarrbesetzungsrecht sowie die freie Abtwahl. </p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[*!?-]</p><!-- Echtheitskriterien --></authen></div>
          <div><head>Incipit:</head><diploPart type="incipit">Lorem ipsum dolor sit amet</diploPart></div>
