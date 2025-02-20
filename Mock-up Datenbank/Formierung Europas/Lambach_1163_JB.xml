@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
@@ -29,7 +29,7 @@
    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
    <text>
       <body>
-         <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[-]</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit:</head><p>Desiderium, quod ad religionis propositum </p></div>
+         <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[-]</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit:</head><diploPart type="incipit">Desiderium, quod ad religionis propositum </diploPart></div>
          <div type="abstract"><head>Abstract:</head>
          <div>
             <p><legalActor type="issuer"><persName>Papst Alexander III. </persName></legalActor>nimmt das <legalActor><orgName>Kloster Lambach</orgName></legalActor> unter dem <legalActor type="beneficiary"><persName>Abt Bernard </persName></legalActor>in den apostolischen Schutz und bestätigt seine Einrichtung nach der Regel des hl. Benedikt <diploPart>(secundum deum et beati Benedicti regulam)</diploPart> </p>
@@ -84,8 +84,13 @@
          </div>
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
-            <listBibl><bibl>JL 10919</bibl><bibl>Germ. Pont. 1, S. 210, Nr. 2</bibl><bibl/><bibl/></listBibl><head>Digitalisate</head><bibl>https://www.monasterium.net/mom/AT-StiAL/LambachOSB/1163_VIII_02/charter</bibl><head>Sachkommentar</head>
-            <p>Original auf Pergament, Bleibulle noch erhalten. Eigenhändige Unterschriften des Papstes und der Kardinäle<bibl>(vgl. OÖUB 2, S. 326).</bibl></p>
+            <listBibl><bibl>JL 10919</bibl><bibl>Germ. Pont. 1, S. 210, Nr. 2</bibl></listBibl></div>
+            <div type="digitised_ressources">
+               <head>Digitalisate</head>
+               <listBibl><bibl>https://www.monasterium.net/mom/AT-StiAL/LambachOSB/1163_VIII_02/charter</bibl></listBibl>
+               </div>
+                 <div type="commentary"> <head>Sachkommentar</head>
+            <p>Original auf Pergament, Bleibulle noch erhalten. Eigenhändige Unterschriften des Papstes und der Kardinäle <bibl>(vgl. OÖUB 2, S. 326).</bibl></p>
          </div>
          <div type="bibliography">
          <listBibl>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
@@ -12,9 +12,10 @@
             </respStmt>
            <respStmt xml:id="default"><resp when="2024">Encoding:</resp><persName>[Isabel Blumenroth]</persName></respStmt>
          </titleStmt>
-         <publicationStmt><publisher>Die Formierung Europas</publisher><availability><licence>Lizenz</licence></availability><diploDesc><p><issued><placeName>Vetralla</placeName><date type="issued" notBefore="1000-01-01" notAfter="1000-01-01">Ausstellungsdatum (Zeitraum)</date>
+         <publicationStmt><publisher>Die Formierung Europas</publisher><availability><licence>Lizenz</licence></availability></publicationStmt>
+            <sourceDesc><diploDesc><p><issued><placeName>Vetralla</placeName><date type="issued" notBefore="1000-01-01" notAfter="1000-01-01">Ausstellungsdatum (Zeitraum)</date>
                <date type="issued" when="1000-01-01">(1159)-11-29</date></issued></p><p><legalActor type="issuer">Viktor IV.</legalActor></p><p><legalActor type="recipient"><orgName>alle kirchlichen Würdenträger</orgName></legalActor></p><p> <legalActor type="recipient">Recipient 2</legalActor></p><p><objectType>Urkunde</objectType></p><p><objectType>direkte persönliche Einwirkung</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
-            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc></publicationStmt>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc></sourceDesc>
       </fileDesc>
    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
    <text>
@@ -22,7 +23,13 @@
          <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[*!?]</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit:</head><p>[Quam amabilis deo]</p></div>
          <div type="abstract"><head>Abstract:</head>
          <div>
-            <p>[<legalActor type="issuer"><persName>Viktor IV.</persName></legalActor> <item>[ruft <legalActor type="beneficiary"><persName>alle kirchlichen Würdenträger</persName></legalActor> zur Unterstützung der <orgName>Johanniter</orgName> und zu Sammlungen zu deren Gunsten auf]</item><item>[führt Gegenleistungen auf, die allen Wohltätern des <orgName>Hospitals</orgName> in <placeName>Jerusalem</placeName> zuteilwerden sollen]</item><item>[ordnet die Weiterverbreitung der genannten Verfügungen durch die Empfänger an.]</item><item>[Item 4]</item></p>
+            <p>[<legalActor type="issuer"><persName>Viktor IV.</persName></legalActor>
+               <list>
+                  <item>[ruft <legalActor type="beneficiary"><persName>alle kirchlichen Würdenträger</persName></legalActor> zur Unterstützung der <orgName>Johanniter</orgName> und zu Sammlungen zu deren Gunsten auf]</item>
+                  <item>[führt Gegenleistungen auf, die allen Wohltätern des <orgName>Hospitals</orgName> in <placeName>Jerusalem</placeName> zuteilwerden sollen]</item>
+                  <item>[ordnet die Weiterverbreitung der genannten Verfügungen durch die Empfänger an.]</item>
+               </list>
+                </p>
          </div>
          </div>
          <div type="witness">

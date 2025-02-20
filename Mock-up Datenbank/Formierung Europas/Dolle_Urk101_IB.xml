@@ -15,7 +15,7 @@
                <licence>Lizenz</licence>
             </availability>
          </publicationStmt>
-         <sourceDesc><diploDesc><issued><placeName>Pavia</placeName></issued><date when="1160-02-17">1160 Februar 17</date>
+         <sourceDesc><diploDesc><p><issued><placeName>Pavia</placeName><date type="issued" when="1160-02-17">1160 Februar 17</date></issued></p>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p><p><legalActor type="recipient">Bruno, Abt von Harsefeld</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType>Urkunde</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc></sourceDesc>
       </fileDesc>
@@ -34,20 +34,15 @@
          </div>
          </div><div type="decretals">
             <head>Dekretalen</head>
-            <listWit>
-               <witness><bibl><listWit><witness>-</witness></listWit></bibl></witness>
-               <witness/>
-            </listWit>
+           <listBibl><bibl>[Dekretale 1]</bibl></listBibl>
          </div><div type="historiography">
             <head>Erwähnungen in der Historiographie</head>
-            <listWit>
-               <witness>
-                  <bibl><listWit><witness>-</witness></listWit></bibl>
-               </witness>
-            </listWit>
+            <listBibl>
+               <bibl>[Historiography]</bibl>
+            </listBibl>
          </div><div type="editions">
             <head>Editionen</head>
-            <listBibl><bibl>PUU Niedersachsen und Bremen, S. 220. Nr. 101</bibl><bibl>UB Hamburg I, S. 207, Nr. 222</bibl><bibl>Staphorst, Historia I, S. 580</bibl><bibl><listWit/></bibl></listBibl>
+            <listBibl><bibl>PUU Niedersachsen und Bremen, S. 220. Nr. 101</bibl><bibl>UB Hamburg I, S. 207, Nr. 222</bibl><bibl>Staphorst, Historia I, S. 580</bibl></listBibl>
          </div><div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl><bibl>JL 14432</bibl><bibl>Germ. Pont. VI S. 118 Nr. 6</bibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 260, Nr. V21</bibl><bibl>PUU Niedersachsen und Bremen, S. 220, Nr. 101</bibl><bibl>Hempel, Inventarium I Sp. 98</bibl><bibl>RegEb Bremen I Nr. 546</bibl><bibl>Handschriftliches Regest mit Hinweisen auf Lesefehler beim Druck im Hamburgischen Urkundenbuch: Göttingen, Pius-Stiftung für Papsturkundenforschung, Nachlass Brackmann</bibl></listBibl>
