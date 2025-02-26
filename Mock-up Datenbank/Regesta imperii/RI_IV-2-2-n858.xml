@@ -5,25 +5,25 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>[Import RI online 1]</title>
+            <title>[Import RI online 2]</title>
             <respStmt>
-               <resp>Mapping von Ri online auf Formierung Europas</resp>
+               <resp>Mapping von Regesta imperii online auf Regesta imperii</resp>
                <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
             </respStmt>
            <respStmt><resp when="2024">Encoding:</resp><persName>[Hannah Busch]</persName></respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher>Regesta Imperii online</publisher>
-            <idno>RI IV,2,2 n. 806</idno>
-            <idno type="URN">1160-01-25_1_0_4_2_2_248_806</idno>
+            <publisher>Regesta imperii online</publisher>
+            <idno>RI IV,2,2 n.858</idno>
+            <idno type="URN">1160-03-24_1_0_4_2_2_300_858</idno>
             <availability>
                <licence>Lizenz</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>Friedrich I., RI IV,2,2 n. 806</bibl>
+            <bibl>Friedrich I, RI IV,2,2 n.858 </bibl>
             <bibl type="jaffe">[Jaffe-Nummer]</bibl>
-            <diploDesc><p><issued><placeName>[Ausstellungsort]</placeName><date type="issued" notBefore="1160-01-25" notAfter="1160-01-25">[1160-01-25]</date>
+            <diploDesc><p><issued><placeName>[Anagni]</placeName><date type="issued" notBefore="1160-03-24" notAfter="1160-03-24">[1160 März 24]</date>
                </issued></p>
                <p><legalActor type="issuer">[Issuer]</legalActor></p>
                <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
@@ -42,7 +42,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>[Erzbischof E(berhard) von Salzburg berichtet Bischof R(oman) von Gurk über seine Rückreise aus Italien und darüber, daß Papst Alexander III. (Patriarch Amalrich I.) von Jerusalem, Erzbischof (Heraclius) von Cesarea, einen französischen Erzbischof (Hardouin von Bordeaux ?) und zwei weitere Bischöfe (Petrus von Angoulême und Johannes von Perigueux ?) geweiht habe, die allesamt - wie auch Patriarch (Heinrich) von Grado und (Erzbischof Villanus) von Pisa mit den Suffraganen der beiden letzteren - Oktavian (Viktor IV.) exkommuniziert haben. Oktavian werde von vielen Bischöfen der Lombardei und Tusziens, darunter (Petrus) von Pavia, (Ognibene) von Verona, (Johannes) von Padua und (Rainer) von Siena, abgelehnt, von anderen nur aus Furcht (vor dem Kaiser) akzeptiert. Er unterrichtet ihn weiters über Gewalttaten, u. a. des Pfalzgrafen (Otto von Wittelsbach) gegen einen Boten Erzbischof (Oberts) von Mailand, sowie darüber, daß er Propst (Heinrich) von Berchtesgaden zur Entschuldigung für sein krankheitsbedingtes Fernbleiben (von der Synode von Pavia) mit Fischen, Käse und 30 Mark an den Kaiser geschickt habe.]</p>
+            <p>[Papst Alexander III. exkommuniziert Kaiser Friedrich und Oktavian (Viktor IV.) samt deren Anhängern, namentlich Pfalzgraf Otto (von Wittelsbach), und löst alle dem Kaiser durch Treueid Verpflichteten von diesem Eid.]</p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head>
             <authen type="formula"><p>[*+?-]</p><!-- Echtheitskriterien --></authen></div>
@@ -50,12 +50,12 @@
          <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>[Zum Inhalt vgl. Rahewini Gesta Frid. l. IV cap. 83, ed. Waitz - Simson, MG. SS rer. Germ. in us. schol., 339 sowie die erläuternden Hinweise in der genannten Edition. - Das Schreiben weist auch auf ein verlorenes Ladungsschreiben an den Salzburger Metropoliten hin, das wohl im Oktober 1159 (vgl. Reg. &lt;link riregesten:ri_1159-10-23_000003_000001_004_002_002_000209_0000000767&gt;767&lt;/link&gt;) abgegangen sein muß.]</p>
+            <p>[Friedrich war schon am 28. Februar durch Kardinal Johannes von Anagni exkommuniziert worden, vgl. Reg. &lt;link riregesten:ri_1160-02-28_000001_000001_004_002_002_000288_0000000846&gt;846&lt;/link&gt;. - Vgl. des weiteren auch Reg. <bibl> &lt;link riregesten:ri_1160-03-28_000001_000001_004_002_002_000306_0000000864&gt;864&lt;/link&gt;. &lt;strong&gt;Verbesserungen und Zusätze (2011):&lt;/strong&gt;</bibl> Zur Bewertung der Exkommunikation des Kaisers und deren Folgen vgl. jüngst <bibl>Raccagni, The Lombard League, 142–144.</bibl>]</p>
          </div>
          <div type="bibliography">
             <head>Archival History</head>
             <listBibl>
-               <bibl>[Admonter Briefsammlung, ed. Hödl - Classen, MG. Briefe VI, 87 n&lt;sup&gt;o&lt;/sup&gt; 43.]</bibl>
+               <bibl>[Boso, ed. Duchesne, 403; vgl. die Schreiben Alexanders III. an Erzbischof Eberhard von Salzburg von 1160 April 4, Admonter Briefsammlung, ed. Hödl - Classen, MG. Briefe VI, 103 n&lt;sup&gt;o&lt;/sup&gt; 53, und an Arnulf von Lisieux von 1160 April 1, ed. Migne, PL 200, Sp. 88 n&lt;sup&gt;o&lt;/sup&gt; 19; JL. nach 10.626, 10.627 und 10.628.]</bibl>
             </listBibl>
          </div>
          <div type="note"><head>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</head></div>
