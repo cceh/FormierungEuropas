@@ -38,13 +38,13 @@
             <p><persName>Viktor IV.</persName></p>
             <list>
                <item>ruft <orgName>alle kirchlichen Würdenträger</orgName> zur Unterstützung der<orgName> Johanniter</orgName> und zu Sammlungen zu deren Gunsten auf.</item>
-               <item>Er führt Gegenleistungen auf, die allen Wohltätern des Hospitals in Jerusalem zuteilwerden sollen, und</item>
+               <item>Er führt Gegenleistungen auf, die allen Wohltätern des Hospitals in <placeName>Jerusalem</placeName> zuteilwerden sollen, und</item>
                <item>ordnet die Weiterverbreitung der genannten Verfügungen durch die Empfänger an.</item>
             </list>
          </div>
          <div type="other"><head>Echtheitskriterien:</head>
             <authen type="formula"><p>[*+?-]</p><!-- Echtheitskriterien --></authen></div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Quam amabil</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung und alte Drucke</head>
