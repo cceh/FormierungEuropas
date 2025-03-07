@@ -48,10 +48,7 @@
          <div type="msSources">
              <head>Handschriftliche Überlieferung und alte Drucke</head>
             <div>
-            <listBibl>   
-               <bibl>[Handschrift oder Alter Druck]</bibl>
-               <bibl>[Handschrift oder Alter Druck]</bibl>
-            </listBibl>
+            <listBibl><bibl>[Handschrift oder Alter Druck]</bibl><bibl>[Handschrift oder Alter Druck]</bibl></listBibl>
          </div>
          </div>
          <div type="decretals">
@@ -70,7 +67,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>[Edition 1]</bibl>
+               <bibl>sdddd</bibl>
                <bibl>[Edition 2]</bibl>
                <bibl>[Edition 3]</bibl>
             </listBibl>
