@@ -44,13 +44,13 @@
          </div>
          <div type="other"><head>Echtheitskriterien:</head>
             <authen type="formula"><p>[*+?-]</p><!-- Echtheitskriterien --></authen></div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Quam amabil</diploPart></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Quam amabilis deo</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung und alte Drucke</head>
             <div>
             <listBibl>   
-               <bibl>[Handschrift oder Alter Druck]</bibl>
+               <bibl>Kopial [vgl. Kehr: Papsturkunden in Malta, S. 381f.; Prutz: Malteser Urkunden,S. 30; Hiestand: Papsturkunden für Templer und Johanniter, Bd. I, S. 74, S. 87 u.S. 133]</bibl>
                <bibl>[Handschrift oder Alter Druck]</bibl>
             </listBibl>
          </div>
