@@ -16,7 +16,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl type="jaffe">-</bibl>
-            <diploDesc><p><issued><placeName>Vetralla</placeName><date type="issued">(1159) November 29</date>
+            <diploDesc><p><issued><placeName>Vetralla</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" type="issued" unit="cm" xml:space="default" when="1159-11-29">(1159) November 29</date>
                </issued></p>
                <p><legalActor type="issuer">[Issuer]</legalActor></p>
                <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
