@@ -20,7 +20,7 @@
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
                  <p><legalActor type="recipient">Alle kirchlichen Würdenträger</legalActor></p>
                  <p><legalActor type="recipient">Johanniterorden</legalActor></p><p><objectType>Typisierung 1</objectType></p>
-               <p><objectType>Typisierung 2</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+               <p><objectType>Typisierung 2</objectType></p><p/><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc></sourceDesc>
       </fileDesc>
    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader><text>
@@ -39,7 +39,7 @@
             <listWit><witness><bibl>Toulouse, Archives départementales, H Malte fonds général 67, p. 9 und 10</bibl></witness><witness><bibl>Madrid, Archivio Histórico Nacional, Sección Ordenes Militares, San Juan 1436 C, fol. 6v, n. 7 (von 1454)</bibl></witness><witness><bibl>Poitiers, AD, fonds de Malte 3 H 2 , p. 27</bibl></witness></listWit></div></div><div type="editions"><head>Editionen</head><listBibl>
                <bibl>Mayr : Der Pontifikat, S. 87, Nr. 5</bibl></listBibl></div><div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
-            <listBibl><bibl>Delaville Le Roulx: Cartulaire, Bd. I, S. 209, Nr. 281 bzw. S. 107, Nr. 130</bibl><bibl>Schönfeld, Gegenpäpste, S. 258, Nr. V 11</bibl></listBibl>
+            <listBibl><bibl>Delaville Le Roulx: Cartulaire, Bd. I, S. 209, Nr. 281 bzw. S. 107, Nr. 130</bibl><bibl>Schönfeld, Gegenpäpste, S. 258, Nr. V 11</bibl><bibl/></listBibl>
          </div><div type="Sachkommentar">
             <head>Sachkommentar</head>
             <p>Zur Überlieferung siehe <bibl>Kehr: Papsturkunden in Malta, S. 381-382</bibl>; <bibl>Prutz: Malteser Urkunden, S. 30</bibl>; <bibl>Hiestand: Papsturkunden für Templer und Johanniter, Bd. I, S. 74, S. 87 u. S. 13</bibl>.</p>
