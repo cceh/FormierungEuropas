@@ -71,7 +71,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl/>
+               <bibl>Monumenta Boica, Bd. XII, S. 108, Nr. 13</bibl>
                <bibl>[Edition 2]</bibl>
                <bibl>[Edition 3]</bibl>
             </listBibl>
@@ -79,8 +79,8 @@
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>[Regest 1]</bibl>
-               <bibl>[Regest 2]</bibl>
+               <bibl>Lang: Regesta,Bd. I, S. 236</bibl>
+               <bibl>Pflugk-Harttung: Päpstliche Original-Urkunden, S. 575, Nr. 958 („Scheinoriginal“)</bibl>
                <bibl>[Regest 3]</bibl>
             </listBibl>
          </div>
