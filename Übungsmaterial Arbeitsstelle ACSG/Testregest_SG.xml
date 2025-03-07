@@ -20,7 +20,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl type="jaffe">[Jaffe-Nummer]</bibl>
-            <diploDesc><p><issued><placeName>[Ausstellungsort]</placeName><date type="issued">[Ausstellungsdatum]</date>
+            <diploDesc><p><issued><placeName>[Ausstellungsort]</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" type="issued" unit="cm" xml:space="default" when="1160-01-02">1160 Januar 2</date>
                </issued></p>
                <p><legalActor type="issuer">[Issuer]</legalActor></p>
                <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
