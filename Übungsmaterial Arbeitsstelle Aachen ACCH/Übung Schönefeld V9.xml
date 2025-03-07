@@ -16,10 +16,10 @@
          </publicationStmt>
          <sourceDesc>
             <bibl type="jaffe">14427</bibl>
-            <diploDesc><p><issued><placeName>Segni</placeName><date type="issued">1159 Oktober - November</date>
+            <diploDesc><p><issued><placeName>Segni</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1159-11-30" precision="high" unit="cm" xml:space="default" notBefore="1159-10-01" type="issued">1159 Oktober - November</date>
                </issued></p>
-               <p><legalActor type="issuer">[Issuer]</legalActor></p>
-               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><legalActor type="issuer">Viktor IV.</legalActor></p>
+               <p> <legalActor type="recipient">Kloster O</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType>[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
