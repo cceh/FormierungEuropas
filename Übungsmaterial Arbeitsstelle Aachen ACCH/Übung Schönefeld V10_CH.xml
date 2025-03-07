@@ -35,7 +35,11 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p><persName>Viktor IV.</persName> bestätigt dem <persName>Abt von <placeName>Floreffe</placeName>, Gerland</persName>, die in seinem Besitz befindlichenPfarrkirchen und bestätigt ihm das Recht, die Seelsorge dieser Pfarren geeignetenPriestern zu übertragen. </p>
+            <p><persName>Viktor IV.</persName></p>
+            <list>
+               <item>bestätigt dem <persName>Abt von <placeName>Floreffe</placeName>, Gerland</persName>, die in seinem Besitz befindlichen Pfarrkirchen und</item>
+               <item>bestätigt ihm das Recht, die Seelsorge dieser Pfarren geeigneten Priestern zu übertragen.</item>
+            </list>
          </div>
          <div type="other"><head>Echtheitskriterien:</head>
             <authen type="formula"><p>[*+?-]</p><!-- Echtheitskriterien --></authen></div>
