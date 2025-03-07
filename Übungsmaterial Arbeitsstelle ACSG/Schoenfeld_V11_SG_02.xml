@@ -15,16 +15,13 @@
                <licence>Lizenz</licence>
             </availability>
          </publicationStmt>
-         <sourceDesc>
-            <diploDesc><p><issued><placeName>Vetralla</placeName>
+         <sourceDesc><diploDesc><p><issued><placeName>Vetralla</placeName>
                <date type="issued" when="1000-01-01"><date when="1160-02-19">(115</date><date when="1160-02-19">9), November 29</date><date when="1160-02-19">  </date></date></issued></p>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
                  <p><legalActor type="recipient">Alle kirchlichen Würdenträger</legalActor></p>
-                 <p><legalActor type="recipient">Johanniterorde</legalActor></p><p><legalActor type="recipient">n</legalActor></p>
-               <p><objectType>Typisierung 1</objectType></p>
+                 <p><legalActor type="recipient">Johanniterorden</legalActor></p><p><objectType>Typisierung 1</objectType></p>
                <p><objectType>Typisierung 2</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
-            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
-         </sourceDesc>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc></sourceDesc>
       </fileDesc>
    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader><text>
       <body><div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[*!?]</p><!-- Echtheitskriterien --></authen></div><div type="incipit"><head>Incipit:</head><p>Quam amabilis deo et quam venerandus locus hominibus</p></div><div type="abstract"><head>Abstract:</head>
