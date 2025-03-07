@@ -44,7 +44,12 @@
          </div>
          <div type="witness">
             <head>Überlieferungsträger (Zeugen):</head>
-            <p>Iohannes ...</p>
+            <p>
+               <list>
+                  <item>[</item><item/>
+                  <item>[witness]</item>
+               </list>
+            </p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head>
             <authen type="formula"><p>-</p><!-- Echtheitskriterien --></authen></div>
