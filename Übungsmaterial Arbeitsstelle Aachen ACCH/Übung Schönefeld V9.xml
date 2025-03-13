@@ -42,13 +42,14 @@
                <item>bestimmt die jährliche Zahlungeines bereits durch den <persName>Grafen Albert</persName> und den <persName>Vogt Friedrich</persName> festgelegten Schutzzinses.</item>
             </list>
          </div>
-         <div><diploPart type="subscriptiones">
+         <div>
             <head>Überlieferungsträger (Zeugen):</head>
+            <diploPart type="subscriptiones">
                <list>
                   <item><persName>Victor</persName> catholice ecclesie episcopus subscripsi</item><item><persName>Iobannes</persName> presbiter cardinalistituli sanctorum Silvestri et Martini subscripsi</item>
                   <item><persName>Iohannes Botomiensis</persName> episcopus subscripsi</item><item><persName>Guido</persName> presbiter cardinalis tituli Calixti subscripsi</item><item><persName>Riccardus Melfictensis</persName> episcopus subscripsi</item>
                </list>
-         </diploPart>
+            </diploPart>
          </div>
          <div type="other"><head>Echtheitskriterien:</head>
             <authen type="formula"><p>-</p><!-- Echtheitskriterien --></authen></div>
