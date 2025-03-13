@@ -21,7 +21,7 @@
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
                <p> <legalActor type="recipient">Bischof Hermann von Verden</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p> <legalActor type="recipient">Bischof Daniel von Prag</legalActor></p>
-               <p><objectType>[Typisierung 1]</objectType></p>
+               <p><objectType>Urkunde</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
@@ -36,7 +36,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>[Regestentext kann diploParts mit Sprachangabe enthalten.]</p>
+            <p/>
          </div>
          <div type="other"><head>Echtheitskriterien:</head>
             <authen type="formula"><p>[*+?-]</p><!-- Echtheitskriterien --></authen></div>
