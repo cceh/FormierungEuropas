@@ -5,9 +5,8 @@
             <title>[Die Nummer des Regests im Projekt]</title>
             <respStmt>
                <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
-               <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
-            </respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
+               <persName>Benjamin Schönefeld</persName> </respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>CH</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -16,8 +15,8 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl type="jaffe">[Jaffe-Nummer]</bibl>
-            <diploDesc><p><issued><placeName>[Ausstellungsort]</placeName><date type="issued">[Ausstellungsdatum]</date>
+            <bibl type="jaffe">-</bibl>
+            <diploDesc><p><issued><placeName>Pavia</placeName><date type="issued">(1160, Febru</date>
                </issued></p>
                <p><legalActor type="issuer">[Issuer]</legalActor></p>
                <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
