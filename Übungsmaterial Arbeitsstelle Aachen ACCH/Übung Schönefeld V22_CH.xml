@@ -42,7 +42,7 @@
          <div type="other"><head>Echtheitskriterien:</head>
             <authen type="formula"><p>-</p><!-- Echtheitskriterien --></authen></div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Ad hoc universalis ecclesie cura</diploPart></div>
-         <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">Data Papie per manum <persName>Gerardi</persName> subdiaconi sancte Romane ecclesie, XI kalendas martis indictione VIII, anno incarnationis domini millesimo CLX, pontificatus domini <persName>Victoris IIII</persName> pape anno I.</diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung und alte Drucke</head>
             <div>
@@ -68,7 +68,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Schönefeld: Urkunden und Regesten der Gegenpäpste, S.260-261, V22</bibl>
+               <bibl>Schönefeld: Urkunden und Regesten der Gegenpäpste, S.260-262, V22</bibl>
                <bibl>[Edition 2]</bibl>
                <bibl>[Edition 3]</bibl>
             </listBibl>
