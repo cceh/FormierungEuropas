@@ -35,11 +35,11 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p><persName>Viktor IV. </persName>untersagt <persName>Bruno, dem Bischof von Hildesheim</persName>, und seinen Nachfolgern, die zum Schutz der Hildesheimer  Kirche errichtete <placeName>Winzenburg</placeName> einem Laien zum Lehen zu geben oder anderweitig zu veräußern.</p>
+            <p><persName>Viktor IV. </persName>untersagt <persName>Bruno</persName>, dem Bischof von Hildesheim, und seinen Nachfolgern, die zum Schutz der Hildesheimer  Kirche errichtete <placeName>Winzenburg</placeName> einem Laien zum Lehen zu geben oder anderweitig zu veräußern.</p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head>
             <authen type="formula"><p>-</p><!-- Echtheitskriterien --></authen></div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Sacrosancta Romana sedes</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung und alte Drucke</head>
