@@ -5,9 +5,9 @@
             <title>[Die Nummer des Regests im Projekt]</title>
             <respStmt>
                <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
-               <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+               <persName>Benjamin Schönefeld</persName>
             </respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>CH</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -16,12 +16,12 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl type="jaffe">[Jaffe-Nummer]</bibl>
-            <diploDesc><p><issued><placeName>[Ausstellungsort]</placeName><date type="issued">[Ausstellungsdatum]</date>
+            <bibl type="jaffe">14434</bibl>
+            <diploDesc><p><issued><placeName>Pavia</placeName><date type="issued" when="1160-02-19">1160 Feburar 19</date>
                </issued></p>
-               <p><legalActor type="issuer">[Issuer]</legalActor></p>
-               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType>[Typisierung 1]</objectType></p>
+               <p><legalActor type="issuer">Viktor IV.</legalActor></p>
+               <p> <legalActor type="recipient">Abt Sigebod</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType>feierliches Privileg</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
@@ -36,17 +36,18 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>[Regestentext kann diploParts mit Sprachangabe enthalten.]</p>
+            <p><persName>Viktor IV.</persName> bestätigt auf Bitten des <persName>Abtes Sigebod</persName> die von <persName>Innozenz II.</persName> dem <orgName>Kloster Ilsenburg</orgName> verliehenen Besitzungen und Rechte wie</p>
+            <list><item>das Begräbnisrecht,</item><item>die Immunität,</item><item>die freie Abtswahl und</item><item>die Exemtion.</item></list>
          </div>
          <div type="other"><head>Echtheitskriterien:</head>
-            <authen type="formula"><p>[*+?-]</p><!-- Echtheitskriterien --></authen></div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
+            <authen type="formula"><p>-</p><!-- Echtheitskriterien --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Ad hoc universalis ecclesie cura</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung und alte Drucke</head>
             <div>
             <listBibl>   
-               <bibl>[Handschrift oder Alter Druck]</bibl>
+               <bibl>Original, LHA Sachsen-Anhalt, Abt. Magdeburg, StO Wernigerode, LHASA, MD, H 9- 2,3 Fach 7, Nr. 9</bibl>
                <bibl>[Handschrift oder Alter Druck]</bibl>
             </listBibl>
          </div>
@@ -67,7 +68,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>[Edition 1]</bibl>
+               <bibl>Schönefeld: Urkunden und Regesten der Gegenpäpste, S.260-261, V22</bibl>
                <bibl>[Edition 2]</bibl>
                <bibl>[Edition 3]</bibl>
             </listBibl>
@@ -75,7 +76,7 @@
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>[Regest 1]</bibl>
+               <bibl>GP V/2, S. 359, Nr. 9</bibl>
                <bibl>[Regest 2]</bibl>
                <bibl>[Regest 3]</bibl>
             </listBibl>
@@ -90,7 +91,7 @@
             <bibl>[Weitere Referenzen als listBibl]</bibl>
          </listBibl>
          </div>
-         <div type="note"><head>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</head></div>
+         <div type="note"><head>Anmerkungen, Notizen und Fragen der Bearbeiter*in:</head><p>Abb. dig.: PH LHA Sachsen-Anhalt, Abt. MAgdeburg, StO Wernigerode</p></div>
       </body>
    </text>
 </TEI>
