@@ -19,8 +19,8 @@
             <diploDesc><p><issued><placeName>Pavia</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1160-02-17" precision="high" unit="cm" xml:space="default" notBefore="1160-02-13" type="issued">1160 (Februar 13 - 17)</date>
                </issued></p>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
-               <p> <legalActor type="recipient">Hart</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType>[Typisierung 1]</objectType></p>
+               <p> <legalActor type="recipient">Hartwig, Erzbischof von Hamburg-Bremen</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType>feierliches Privileg</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
@@ -35,7 +35,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>[Regestentext kann diploParts mit Sprachangabe enthalten.]</p>
+            <p>[Regestentext kann diploParts mit Spra</p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head>
             <authen type="formula"><p>[*+?-]</p><!-- Echtheitskriterien --></authen></div>
