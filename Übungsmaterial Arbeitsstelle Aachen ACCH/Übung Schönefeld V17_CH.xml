@@ -67,7 +67,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Schönefeld: Urkunden und Regesten der Gegenpäpste, S. 259, V*17.</bibl>
+               <bibl>Schönefeld: Urkunden und Regesten der Gegenpäpste, S. 259, V*17</bibl>
                <bibl>[Edition 2]</bibl>
                <bibl>[Edition 3]</bibl>
             </listBibl>
@@ -75,8 +75,8 @@
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>[Regest 1]</bibl>
-               <bibl>[Regest 2]</bibl>
+               <bibl>GP V/1, S. 217, Nr.*41</bibl>
+               <bibl>GP V/3, S. 100, Nr. *91</bibl>
                <bibl>[Regest 3]</bibl>
             </listBibl>
          </div>
