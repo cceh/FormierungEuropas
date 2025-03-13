@@ -36,11 +36,11 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Viktor IV. entsendet Legaten, um die auf dem Konzil von Pavia gefassten Beschlüsse publik zu machen, so zum Beispiel Bischof Hermann von Verden nach Spanien und Bischof Daniel von Prag nach Ungarn.</p>
+            <p>Viktor IV. entsendet Legaten, um die auf dem Konzil von Pavia gefassten Beschlüsse publik zu machen, so zum Beispiel <persName>Bischof Hermann von Verden</persName> nach <placeName>Spanien</placeName> und <persName>Bischof Daniel von Prag</persName> nach <placeName>Ungarn</placeName>.</p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head>
-            <authen type="formula"><p>[*+?-]</p><!-- Echtheitskriterien --></authen></div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
+            <authen type="formula"><p>*</p><!-- Echtheitskriterien --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">-</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung und alte Drucke</head>
