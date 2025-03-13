@@ -19,7 +19,7 @@
             <diploDesc><p><issued><placeName>Pavia</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1160-03-26" precision="high" unit="cm" xml:space="default" type="issued">(1160, Februar ex. - vor März 27</date>
                </issued></p>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
-               <p> <legalActor type="recipient"/></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient">Hermann von Verden</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType>[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
