@@ -13,7 +13,7 @@
             <sourceDesc>
                 <bibl>Source XML Document</bibl>
                 <diploDesc>
-                    <p><issued><date type="issued">1159 — 1160?</date><placeName> </placeName><p>ALEXANDER III.</p></issued></p>
+                    <p><issued><date type="issued" notBefore="1159" notAfter="1160">1159 — 1160?</date><placeName> </placeName><p>ALEXANDER III.</p></issued></p>
                 </diploDesc>
             </sourceDesc>
         </fileDesc>
