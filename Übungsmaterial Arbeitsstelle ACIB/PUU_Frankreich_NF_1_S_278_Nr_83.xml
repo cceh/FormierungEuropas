@@ -111,7 +111,7 @@
          <div type="other"><head>Echtheitskriterien:</head>
             <authen type="formula"><p>[-]</p><!-- Echtheitskriterien --></authen></div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Contrahencium uoluntates scriptuarum</diploPart></div>
-         <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">undatiert</diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung und alte Drucke</head>
             <div>
@@ -149,7 +149,7 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>[Zur zeitlichen Einordnung des </p><p/><p/><p>Inhalt des Sachkommentars. Bibliographische Referenzen werden als <bibl>Bibliographische Angabe</bibl> getagged.]</p>
+            <p>[Zur zeitlichen Einordnung siehe Wilhelm Ohnsorge,  </p><p/><p/><p>Inhalt des Sachkommentars. Bibliographische Referenzen werden als <bibl>Bibliographische Angabe</bibl> getagged.]</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
