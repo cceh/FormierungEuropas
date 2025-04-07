@@ -3,7 +3,7 @@
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
-      <fileDesc><titleStmt><title>[Die Nummer des Regests im Projekt]</title><respStmt><resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp><persName>PUU Frankreich NF1 S. 278, Nr. 83</persName></respStmt><respStmt><resp when="2024">Encoding:</resp><persName>Isabel Blumenroth</persName></respStmt></titleStmt><publicationStmt>
+      <fileDesc><titleStmt><title>[Die Nummer des Regests im Projekt]</title><respStmt><resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>PUU Frankreich NF1 S. 278, Nr. 83</respStmt><respStmt><resp when="2024">Encoding:</resp><persName>Isabel Blumenroth</persName></respStmt></titleStmt><publicationStmt>
             <publisher>Die Formierung Europas</publisher>
             <availability>
                <licence>Lizenz</licence>
