@@ -10,9 +10,9 @@
             </availability>
          </publicationStmt><sourceDesc>
             <bibl type="jaffe">[-]</bibl>
-            <diploDesc><p><issued><placeName>[-]</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" unit="cm" when="1160" xml:space="default"><date from="1160-01-01" to="1162-12-31">1160-1162</date></date>
+            <diploDesc><p><issued><placeName>[-]</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" unit="cm" xml:space="default" when="1160"><date from="1160-01-01" to="1162-12-31">1160-1162</date></date>
                </issued></p>
-               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p><legalActor type="issuer">[Kardinallegat]</legalActor></p>
                <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType>[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
