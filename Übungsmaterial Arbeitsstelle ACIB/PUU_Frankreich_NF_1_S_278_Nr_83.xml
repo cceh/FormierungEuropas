@@ -12,7 +12,7 @@
             <bibl type="jaffe">[-]</bibl>
             <diploDesc><p><issued><placeName>[-]</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" unit="cm" xml:space="default" when="1160"><date from="1160-01-01" to="1162-12-31">1160-1162</date></date>
                </issued></p>
-               <p><legalActor type="issuer">Kardinallegat <legalActor>Heinrich von S. Nereus und Achilleus</legalActor></legalActor></p>
+               <p><legalActor type="issuer"><legalActor>Heinrich von S. Nereus und Achilleus, Kardinallegat</legalActor></legalActor></p>
                <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType>Urkunde eines nichtpäpstlichen Ausstellers</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
@@ -106,7 +106,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Kardinallegat Heinrich, Kardinalpriester von S. Nereus und Achilleus, schlichtet einen Streit zwischen dem Abt von <orgName>Cheminon</orgName> (OCist) und den Kanonikern von <orgName>S. Nicolas</orgName> zu <placeName>Châlons-en-Champagne</placeName> um den Zehnten eines Stück Lands und Weinbergs bei <placeName>Togny-en-Champagne</placeName> (?), indem er die Höhe der vom Abt zu leistenden Zahlung festlegt.]</p>
+            <p>Kardinallegat Heinrich, Kardinalpriester von S. Nereus und Achilleus, schlichtet einen Streit zwischen dem Abt von <orgName>Cheminon</orgName> (OCist) und den Kanonikern von <orgName>S. Nicolas</orgName> zu <placeName>Châlons-en-Champagne</placeName> um den Zehnten eines Stück Lands und Weinbergs bei <placeName>Togny-en-Champagne</placeName> (?), indem er die Höhe der vom Abt zu leistenden Zahlung festlegt.</p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head>
             <authen type="formula"><p>[-]</p><!-- Echtheitskriterien --></authen></div>
