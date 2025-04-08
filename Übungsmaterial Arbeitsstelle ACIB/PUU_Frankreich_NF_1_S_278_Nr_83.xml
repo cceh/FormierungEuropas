@@ -10,7 +10,7 @@
             </availability>
          </publicationStmt><sourceDesc>
             <bibl type="jaffe">[-]</bibl>
-            <diploDesc><p><issued><placeName>[-]</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" unit="cm" xml:space="default" when="1160">1160-1162</date>
+            <diploDesc><p><issued><placeName>[-]</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1162" precision="high" unit="cm" xml:space="default" notBefore="1160">1160-1162</date>
                </issued></p>
                <p><legalActor type="issuer"><legalActor>Heinrich von S. Nereus und Achilleus, Kardinallegat</legalActor></legalActor></p>
                <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
