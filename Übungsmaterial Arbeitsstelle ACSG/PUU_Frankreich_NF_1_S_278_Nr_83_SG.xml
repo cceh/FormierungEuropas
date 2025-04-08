@@ -22,7 +22,7 @@
             <diploDesc><p><issued><placeName>Ausstellungsort</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" unit="cm" xml:space="default" notAfter="1162-12-31" notBefore="1160-01-01" type="issued">(cr. 1160-62)</date>
                </issued></p>
                <p><legalActor type="issuer">Heinrich, Kardinallegat von S. Nereus und Achilleus</legalActor></p>
-               <p><legalActor type="recipient">Cheminon, Kloster</legalActor></p><p>St. Nicolas zu Châlons-en-Champagne</p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><legalActor type="recipient">Cheminon, Kloster</legalActor></p><p><legalActor cert="high" type="recipient" xml:space="default">St. Nicolas zu Châlons-en-Champagne</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType>Typisierung 1</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
