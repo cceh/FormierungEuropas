@@ -19,7 +19,7 @@
             <diploDesc><p><issued><placeName>–</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" unit="cm" xml:space="default" notAfter-custom="1162-12-31" notBefore-iso="1160-01-01" type="issued">(ca. 1160-62)</date>
                </issued></p>
                <p><legalActor type="issuer">Heinrich, KPr von SS. Nereus und Achilles</legalActor></p>
-               <p> <legalActor type="recipient">Chem</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient">Cheminon, Kloste</legalActor></p><p/> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType>Typisierung 1</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
