@@ -16,7 +16,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <diploDesc><p><issued><placeName>–</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter-custom="116212-31" precision="high" unit="cm" xml:space="default" type="issued">(ca. 1160-62)</date>
+            <diploDesc><p><issued><placeName>–</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" unit="cm" xml:space="default" notAfter-custom="1162-12-31" notBefore-iso="1160-01-01" type="issued">(ca. 1160-62)</date>
                </issued></p>
                <p><legalActor type="issuer">Issuer</legalActor></p>
                <p> <legalActor type="recipient">Recipient 1</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
