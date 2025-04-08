@@ -19,7 +19,7 @@
             <diploDesc><p><issued><placeName>-</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1162-12-31" precision="high" unit="cm" xml:space="default" notBefore="1160-01-01" type="issued">(ca. 1160-62)</date>
                </issued></p>
                <p><legalActor type="issuer">Heinrich, Kardinalpriester von SS. Nereus und Achilleus</legalActor></p>
-               <p> <legalActor type="recipient">Cheminon, Kloster</legalActor></p><p><legalActor type="recipient">S. Nicolas zu Châlons-sue</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient">Cheminon, Kloster</legalActor></p><p><legalActor type="recipient">S. Nicolas zu Châlons-sur-Marne, </legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType>Typisierung 1</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
@@ -30,7 +30,7 @@
       <body>
          
          <div type="abstract"><head>Abstract:</head>
-            <p>Kardinallegat Heinrich  von  S. Nereus  und  Achilleus schlichtet einen Streit zwischen dem Abte von Gheminon und den Kanonikern von S.  Nicolas zu Châlons-sur-Marne. </p>
+            <p>Kardinallegat Heinrich  von  S. Nereus  und  Achilleus schlichtet einen Streit zwischen dem Abte von Cheminon und den Kanonikern von S.  Nicolas zu Châlons-sur-Marne. </p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[*!?-]</p><!-- Echtheitskriterien --></authen></div>
          <div><head>Incipit:</head><diploPart type="incipit">Lorem ipsum dolor sit amet</diploPart></div>
