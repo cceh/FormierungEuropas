@@ -32,56 +32,44 @@
    <text>
       <body><div type="abstract"><head>Abstract:</head>
             <p>Kardinallegat Heinrich  von  S. Nereus  und  Achilleus schlichtet einen Streit zwischen dem Abt von Cheminon und den Kanonikern von S.  Nicolas zu Châlons-en-Champagne. </p>
-         </div>
-         <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[*!?-]</p><!-- Echtheitskriterien --></authen></div>
-         <div><head>Incipit:</head><diploPart type="incipit">Contrahencium uoluntates scripturarum stabilitate mandantur</diploPart></div>
-         <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
-         <div type="msSources">
+         </div><div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[*!?-]</p><!-- Echtheitskriterien --></authen></div><div><head>Incipit:</head><diploPart type="incipit">Contrahencium uoluntates scripturarum stabilitate mandantur</diploPart></div><div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div><div type="msSources">
              <head>Handschriftliche Überlieferung und alte Drucke</head>
             <div>
-            <listBibl><bibl>Kopie:  Châlons-sur-Marne Arch. dép Kop. s. XII im Cartul. de Cheminon f. 37 
+            <listBibl><bibl>Kopie:  Châlons-en-Champagen, AD, Cartul. de Cheminon, f. 37 
          
-         </bibl></listBibl></div></div>
-         <div type="decretals">
+         </bibl></listBibl></div></div><div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
                <bibl>[Dekretale 1]</bibl>
                <bibl>[Dekretale 2]</bibl>
             </listBibl>
-         </div>
-         <div type="historiography">
+         </div><div type="historiography">
             <head>Erwähnungen in der Historiographie</head>
             <listBibl>
                <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
             </listBibl>
-         </div>
-         <div type="editions">
+         </div><div type="editions">
             <head>Editionen</head>
             <listBibl>
                <bibl>PUU Frankreich NF 1, S. 278, Nr. 83</bibl>
                <bibl>[Edition 2]</bibl>
                <bibl>[Edition 3]</bibl>
             </listBibl>
-         </div>
-         <div type="regesta">
+         </div><div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>[Regest 1]</bibl>
                <bibl>[Regest 2]</bibl>
                <bibl>[Regest 3]</bibl>
             </listBibl>
-         </div>
-         <div type="commentary">
+         </div><div type="commentary">
             <head>Sachkommentar</head>
             <p>Inhalt des Sachkommentars. Bibliographische Referenzen werden als <bibl>Bibliographische Angabe</bibl> getagged</p>
-         <p>Wegen  der zeitlichen Einordnung vgl. W.  Ohnsorge,  Die Legaten Alexanders III. im  ersten Jahrzehnt seines Pontìfikats (1159-1169) S.  15 f f . und  S. 162. </p></div>
-         <div type="bibliography">
+         <p>Wegen  der zeitlichen Einordnung vgl. W.  Ohnsorge,  Die Legaten Alexanders III. im  ersten Jahrzehnt seines Pontìfikats (1159-1169) S.  15 f f . und  S. 162. </p></div><div type="bibliography">
             <head>Bibliographie</head>
          <listBibl>
             <bibl>[Weitere Referenzen als listBibl]</bibl>
          </listBibl>
-         </div>
-         <div type="note"><head>Anmerkungen, Notizen und Fragen der Bearbeiter*in.</head></div>
-      </body>
+         </div><div type="note"><head>Anmerkungen, Notizen und Fragen der Bearbeiter*in.</head></div></body>
    </text>
 </TEI>
