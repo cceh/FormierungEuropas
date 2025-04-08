@@ -60,7 +60,7 @@
          </div><div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>Weiß, Legaten, </bibl>
+               <bibl>Weiß, Legaten, </bibl>
                <bibl>[Regest 2]</bibl>
                <bibl>[Regest 3]</bibl>
             </listBibl>
@@ -72,6 +72,6 @@
          <listBibl>
             <bibl>[Weitere Referenzen als listBibl]</bibl>
          </listBibl>
-         </div><div type="note"><head>Anmerkungen, Notizen und Fragen der Bearbeiter*in.</head><p>Bei Weiß, Legaten nachschlagen</p></div></body>
+         </div><div type="note"><head>Anmerkungen, Notizen und Fragen der Bearbeiter*in.</head><p>Bei Weiß, Legaten nachschlagen; Archivsignatur prüfen!</p></div></body>
    </text>
 </TEI>
