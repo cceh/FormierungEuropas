@@ -19,7 +19,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <diploDesc><p><issued><placeName>Ausstellungsort</placeName><date type="issued">(cr. 1160-62)</date>
+            <diploDesc><p><issued><placeName>Ausstellungsort</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1162-31-12" precision="high" unit="cm" xml:space="default" notBefore="1160-01-01" type="issued">(cr. 1160-62)</date>
                </issued></p>
                <p><legalActor type="issuer">Issuer</legalActor></p>
                <p> <legalActor type="recipient">Recipient 1</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
