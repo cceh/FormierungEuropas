@@ -1,0 +1,88 @@
+TEI {
+    margin : 10px 25px;
+    font-family : Georgia, serif;
+    line-height : 1.5;
+}
+
+[_tag="teiHeader"] {
+    display: block !important;
+}
+
+[_tag="objectType"] {
+    color: red;
+    font-weight: 400;
+}
+
+[_tag="placeName"] {
+    color: blue;
+    font-weight: 400;
+}
+
+[_tag="head"] {
+    font-weight: 800;
+}
+
+[_tag="authen"] {
+    color: orange;
+    font-weight: 400;
+}
+
+[_tag="date"] {
+    color: blue;
+    font-weight: 400;
+}
+
+[_tag="persName"] {
+    color: green;
+    font-weight: 400;
+}
+
+[_tag="resp"] {
+    font-weight: 800;
+}
+
+[_tag="legalActor"] {
+    color: green;
+    font-weight: 400;
+}
+
+[_tag="orgName"] {
+    color: green;
+    font-weight: 400;
+}
+
+[_tag="institution"] {
+    font-weight: 400;
+}
+
+[_tag="repository"] {
+    font-weight: 400;
+}
+
+[_tag="msIdentifier"] {
+    font-weight: 400;
+}
+
+[_tag="eventName"] {
+    color: green;
+    font-weight: 400;
+}
+
+[_tag="publicationStmt"] {
+    font-weight: 800;
+}
+
+[_tag="title"] {
+    font-weight: 800;
+}
+
+[_tag="item"] {
+    display: list-item;
+    list-style-type: "👉";
+    padding-inline-start: 1ch;
+
+}
+[_tag="bibl"] {
+    color: magenta;
+    font-weight: 400;
+}
