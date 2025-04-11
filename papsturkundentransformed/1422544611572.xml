@@ -1,12 +1,11 @@
-<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1422544611572">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1422544611572">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title></title>
             <respStmt xml:id="papsturkunden.de">
                <resp when="2012">papsturkunden</resp>
-               <persName/>
+               <persName></persName>
             </respStmt>
             <respStmt xml:id="HB">
                <resp when="2024">Transformation</resp>
@@ -23,35 +22,42 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Erwähnung</copyStatus>
-               <origDate from="1163-31299-31" to="1164-40599-31">(1163 dec.-1164 mai.)</origDate>
+               <origDate from="1163-12-31" to="1164-05-31">(1163 dec.-1164 mai.)</origDate>
                <legalActor type="issuer">Iohannes</legalActor>
                <legalActor type="issuer">Stephanus</legalActor>
                <legalActor type="issuer">Petrus (II</legalActor>
                <legalActor type="recipient">Iohannem</legalActor>
-               <origPlace/>
+               <origPlace></origPlace>
             </diploDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="abstract">
-            <p>IohannesToletanus archiepiscopus, StephanusZamorensis et Petrus (II) Burgensis episcopi, iudices delegati ex mandato Alexandri III (Burgos, Episc. n. 110), IohannemOxomensem episcopum, cum legitime ad suam praesentiam citatus nec accedere nec possessiones iniuste ablatas episcopo Seguntino reddere voluerit, ab omni pontificali officio suspendunt atque sententiam excommunicatonis in eum pronuntiant.</p>
+            <p>IohannesToletanus archiepiscopus, StephanusZamorensis et Petrus (II) Burgensis episcopi,
+               iudices delegati ex mandato Alexandri III (Burgos, Episc. n. 110), IohannemOxomensem
+               episcopum, cum legitime ad suam praesentiam citatus nec accedere nec possessiones
+               iniuste ablatas episcopo Seguntino reddere voluerit, ab omni pontificali officio suspendunt
+               atque sententiam excommunicatonis in eum pronuntiant.</p>
          </div>
          <div type="Sachkommentar">
-            <p/>
+            <p></p>
          </div>
          <div type="regesta">
             <head>Regestenwerk</head>
             <listBibl>
-               <bibl>Burgos, Episc. Burgos, Episc. n. *111 (Ib. Pont. I 69); Toledo, Archiepisc.; Zamora, Episc.; Osma, Episc.; Sigüenza, Episc.</bibl>
+               <bibl>Burgos, Episc. Burgos, Episc. n. *111 (Ib. Pont. I 69); Toledo, Archiepisc.; Zamora,
+                  Episc.; Osma, Episc.; Sigüenza, Episc.</bibl>
             </listBibl>
          </div>
          <div type="edition">
-            <listBibl/>
+            <listBibl>
+               <bibl></bibl>
+            </listBibl>
          </div>
       </body>
    </text>

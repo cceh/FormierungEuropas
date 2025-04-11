@@ -1,12 +1,11 @@
-<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1644229835915">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1644229835915">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title></title>
             <respStmt xml:id="papsturkunden.de">
                <resp when="2012">papsturkunden</resp>
-               <persName/>
+               <persName></persName>
             </respStmt>
             <respStmt xml:id="HB">
                <resp when="2024">Transformation</resp>
@@ -23,7 +22,7 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Original und Kopial</copyStatus>
-               <origDate from="1165-50715-15" to="1165-50715-15">1165 iul. 15</origDate>
+               <origDate from="1165-07-15" to="1165-07-15">1165 iul. 15</origDate>
                <legalActor type="issuer">Alexander III</legalActor>
                <legalActor type="recipient">Hugoni abbati</legalActor>
                <legalActor type="recipient">ejusque fratribus</legalActor>
@@ -32,45 +31,49 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="abstract">
             <p>
-            
-                
-                     Alexander III 
-                
-                     Hugoni abbati 
-                
-                     monasterii Fontis Leonne 
-                
-                     ejusque fratribus
-                : suscipit monasterium eorum sub 
-                b. Petri et sua protectione. Statuit de ordine monastico secundum 
-                b. Benedicti regulam et Cisterciensium fratrum institutionem observando. Confirmat possessiones propriis expressas vocabulis (inter quas 4 rangiae enumerantur). Statuit de laborum sive de nutrimentorum animalium decimis, de stabilitate fratrum, de tranquillitate et integritate monasterii et possessionum eorum, salva in omnibus 
-                sedis apostolicae auctoritate.
-        </p>
+               
+               
+               Alexander III 
+               
+               Hugoni abbati 
+               
+               monasterii Fontis Leonne 
+               
+               ejusque fratribus
+               : suscipit monasterium eorum sub 
+               b. Petri et sua protectione. Statuit de ordine monastico secundum 
+               b. Benedicti regulam et Cisterciensium fratrum institutionem observando. Confirmat
+               possessiones propriis expressas vocabulis (inter quas 4 rangiae enumerantur). Statuit
+               de laborum sive de nutrimentorum animalium decimis, de stabilitate fratrum, de tranquillitate
+               et integritate monasterii et possessionum eorum, salva in omnibus 
+               sedis apostolicae auctoritate.
+               </p>
          </div>
          <div type="Sachkommentar">
             <p>
-            Sur les possessions confirmées, voir 
-                Dimier, Saint Hugues, p. 31–33; 
-                Josserand, Léoncel, p. 481, 482–484 (avec carte), 530.
-        </p>
+               Sur les possessions confirmées, voir 
+               Dimier, Saint Hugues, p. 31–33; 
+               Josserand, Léoncel, p. 481, 482–484 (avec carte), 530.
+               </p>
          </div>
          <div type="regesta">
             <head>Regestenwerk</head>
             <listBibl>
                <bibl>
-            Die, Leoncellum Die, Leoncellum (Gall. Pont. III,3 116 n. 5)</bibl>
+                  Die, Leoncellum Die, Leoncellum (Gall. Pont. III,3 116 n. 5)</bibl>
             </listBibl>
          </div>
          <div type="edition">
             <listBibl>
-               <bibl>Chevalier, Cartulaire de Léoncel , no 13, p. 14 (d’après A, citant deux cotes anciennes: Ad 444 [Inv. A] et DCVII [Inv. B], et une notice dorsale)</bibl>
+               <bibl>Chevalier, Cartulaire de Léoncel , no 13, p. 14 (d’après A, citant deux cotes anciennes: Ad 444 [Inv. A] et DCVII
+                  [Inv. B], et une notice dorsale)</bibl>
             </listBibl>
          </div>
       </body>

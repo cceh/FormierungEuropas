@@ -1,12 +1,11 @@
-<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1653378374218">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1653378374218">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title></title>
             <respStmt xml:id="papsturkunden.de">
                <resp when="2012">papsturkunden</resp>
-               <persName/>
+               <persName></persName>
             </respStmt>
             <respStmt xml:id="HB">
                <resp when="2024">Transformation</resp>
@@ -22,37 +21,43 @@
          </publicationStmt>
          <sourceDesc>
             <diploDesc>
-               <copyStatus/>
-               <origDate from="1160-00205-05" to="1160-00211-11">1160 febr. 5–11</origDate>
+               <copyStatus></copyStatus>
+               <origDate from="1160-02-05" to="1160-02-11">1160 febr. 5–11</origDate>
                <origPlace>Papia</origPlace>
             </diploDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="abstract">
-            <p/>
+            <p></p>
          </div>
          <div type="Sachkommentar">
             <p>
-            Sur l’évêque de ces années, 
-                Raimond, attesté de 1157 à 1170, voir 
-                Régné, Histoire, II, p. 38–41.
-        </p>
+               Sur l’évêque de ces années, 
+               Raimond, attesté de 1157 à 1170, voir 
+               Régné, Histoire, II, p. 38–41.
+               </p>
          </div>
          <div type="regesta">
             <head>Regestenwerk</head>
             <listBibl>
                <bibl>
-            Viviers, episc. Suffraganei Viennensi (Gall. Pont. III, 2 39 n. *54 et Gall. Pont. III,3 39 n. *54); Vienne, archiepisc. (Gall. Pont. III,1 184 n. *299); Grenoble, episc. (Gall. Pont. III,2 116 n. *172); Valence, episc. (Gall. Pont. III,2 295 n. *120); Die, episc. (Gall. Pont. III,3 84 n. *116); Viviers, episc. (Gall. Pont. III,3 287 n. *142)</bibl>
+                  Viviers, episc. Suffraganei Viennensi (Gall. Pont. III, 2 39 n. *54 et Gall. Pont.
+                  III,3 39 n. *54); Vienne, archiepisc. (Gall. Pont. III,1 184 n. *299); Grenoble, episc.
+                  (Gall. Pont. III,2 116 n. *172); Valence, episc. (Gall. Pont. III,2 295 n. *120);
+                  Die, episc. (Gall. Pont. III,3 84 n. *116); Viviers, episc. (Gall. Pont. III,3 287
+                  n. *142)</bibl>
             </listBibl>
          </div>
          <div type="edition">
-            <listBibl/>
+            <listBibl>
+               <bibl></bibl>
+            </listBibl>
          </div>
       </body>
    </text>

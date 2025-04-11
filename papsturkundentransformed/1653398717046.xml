@@ -1,12 +1,11 @@
-<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1653398717046">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1653398717046">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title></title>
             <respStmt xml:id="papsturkunden.de">
                <resp when="2012">papsturkunden</resp>
-               <persName/>
+               <persName></persName>
             </respStmt>
             <respStmt xml:id="HB">
                <resp when="2024">Transformation</resp>
@@ -22,8 +21,8 @@
          </publicationStmt>
          <sourceDesc>
             <diploDesc>
-               <copyStatus/>
-               <origDate from="1157-71213-13" to="1157-71213-13">(1157) dec. 13</origDate>
+               <copyStatus></copyStatus>
+               <origDate from="1157-12-13" to="1157-12-13">(1157) dec. 13</origDate>
                <legalActor type="issuer">Adrianus IV</legalActor>
                <legalActor type="recipient">Jordano abbati</legalActor>
                <legalActor type="recipient">universo capitulo</legalActor>
@@ -32,54 +31,58 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="abstract">
             <p>
-            
-                
-                     Adrianus IV
-                
-                
-                     Jordano abbati
-                 et 
-                
-                     universo capitulo
-                
-                
-                     monasterii de Caza Dei (La Chaise-Dieu, diocèse de Clermont)
-                : eorum postulationibus annuens, confirmat communitque patrocinio concordiam quae inter eos et Raymundum abbatem et fratres 
-                Crudatensis ecclesiae super ecclesiis de 
-                Malliaco (Mailhac, commune de Saint-Jean le Centenier) per manum 
-                Raymundi
-                Vivariensis episcopi et 
-                Durantii
-                Mansiadensis (Mazan) abbatis utriusque partis assensu facta est, sicut in authentico scripto continetur.
-        </p>
+               
+               
+               Adrianus IV
+               
+               
+               Jordano abbati
+               et 
+               
+               universo capitulo
+               
+               
+               monasterii de Caza Dei (La Chaise-Dieu, diocèse de Clermont)
+               : eorum postulationibus annuens, confirmat communitque patrocinio concordiam quae
+               inter eos et Raymundum abbatem et fratres 
+               Crudatensis ecclesiae super ecclesiis de 
+               Malliaco (Mailhac, commune de Saint-Jean le Centenier) per manum 
+               Raymundi
+               Vivariensis episcopi et 
+               Durantii
+               Mansiadensis (Mazan) abbatis utriusque partis assensu facta est, sicut in authentico
+               scripto continetur.
+               </p>
          </div>
          <div type="Sachkommentar">
             <p>
-            Vu que 
-                La Chaise-Dieu obtint, le 13 décembre 1157, aussi un privilège général en deux expéditions (
-                J. L. 10315 et 
-                J. L. 10315α; éd. 
-                Chaix de Lavarène, Monumenta, no 149, p. 235 [traduction française]; 
-                Pflugk-Harttung, Acta pontificum inedita, III, no 174,p. 185), la lettre peut être datée de cette année. De l’abbatiat de 
-                Jourdain de Montboissier (1146–1157), on connaît également un conflit opposant 
-                La Chaise-Dieu à 
-                l’abbaye de Cruas au sujet du prieuré casadéen de 
-                Barjac; voir 
-                P.-R. Gaussin, L’abbaye de La Chaise-Dieu (1043–1518), Toulouse, 1962, p. 158, 387.
-        </p>
+               Vu que 
+               La Chaise-Dieu obtint, le 13 décembre 1157, aussi un privilège général en deux expéditions (
+               J. L. 10315 et 
+               J. L. 10315α; éd. 
+               Chaix de Lavarène, Monumenta, no 149, p. 235 [traduction française]; 
+               Pflugk-Harttung, Acta pontificum inedita, III, no 174,p. 185), la lettre peut être datée de cette année. De l’abbatiat de
+               
+               Jourdain de Montboissier (1146–1157), on connaît également un conflit opposant 
+               La Chaise-Dieu à 
+               l’abbaye de Cruas au sujet du prieuré casadéen de 
+               Barjac; voir 
+               P.-R. Gaussin, L’abbaye de La Chaise-Dieu (1043–1518), Toulouse, 1962, p. 158, 387.
+               </p>
          </div>
          <div type="regesta">
             <head>Regestenwerk</head>
             <listBibl>
                <bibl>
-            Crudatis. Monasterium B. Mariae de Crudiaco Viviers, monasterium B. Mariae de Crudiaco (Gall. Pont. III,3 300 n. 2); Clermont, monasterium Casae Dei</bibl>
+                  Crudatis. Monasterium B. Mariae de Crudiaco Viviers, monasterium B. Mariae de Crudiaco
+                  (Gall. Pont. III,3 300 n. 2); Clermont, monasterium Casae Dei</bibl>
             </listBibl>
          </div>
          <div type="edition">

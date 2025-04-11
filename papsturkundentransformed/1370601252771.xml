@@ -1,12 +1,11 @@
-<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1370601252771">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1370601252771">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title></title>
             <respStmt xml:id="papsturkunden.de">
                <resp when="2012">papsturkunden</resp>
-               <persName/>
+               <persName></persName>
             </respStmt>
             <respStmt xml:id="HB">
                <resp when="2024">Transformation</resp>
@@ -28,32 +27,41 @@
                <legalActor type="issuer">S(iboto) maioris ecclesiae (Salisburgensis) praepositus</legalActor>
                <legalActor type="issuer">A. (=Meingotus) decanus</legalActor>
                <legalActor type="recipient">A(lexandro) III</legalActor>
-               <origPlace/>
+               <origPlace></origPlace>
             </diploDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="abstract">
-            <p>A(lexandro) IIIH(einricus) Gurcensis ecclesiae humilis minister , S(iboto) maioris ecclesiae (Salisburgensis) praepositus , A. (=Meingotus) decanus cum universo capitulo, praelati omnes, ministeriales universi: inter alia referunt de curia in dominica Exsurge (febr. 20) Salisburgi celebrata, in qua dominus imperator (Fredericus) exposuit eis conventionem inter ipsum et regem Bohemorum (Vladislaum) in causa archiepiscopi (Adalberti), filii regis, factam; rescriptum chartae regis Bohemorum de a. 1172 in. (Böhmer-Opll n. 1962) apostolico mittunt.</p>
+            <p>A(lexandro) IIIH(einricus) Gurcensis ecclesiae humilis minister , S(iboto) maioris
+               ecclesiae (Salisburgensis) praepositus , A. (=Meingotus) decanus cum universo capitulo,
+               praelati omnes, ministeriales universi: inter alia referunt de curia in dominica Exsurge
+               (febr. 20) Salisburgi celebrata, in qua dominus imperator (Fredericus) exposuit eis
+               conventionem inter ipsum et regem Bohemorum (Vladislaum) in causa archiepiscopi (Adalberti),
+               filii regis, factam; rescriptum chartae regis Bohemorum de a. 1172 in. (Böhmer-Opll
+               n. 1962) apostolico mittunt.</p>
          </div>
          <div type="Sachkommentar">
-            <p>cf. etiam Salzburg, Archiepisc. n. 104, Germ. Pont. I 32. - Litterae post curiam 1172 febr. 20 a Friderico I imperatore Salisburgi habitam, de qua cf. Böhmer-Opll n. 1966, scriptae sunt. – De tempore et re cf. Ohnsorge Legaten p. 41-48 et Dopsch Geschichte Salzburgs I 1 (1983) 291-293.</p>
+            <p>cf. etiam Salzburg, Archiepisc. n. 104, Germ. Pont. I 32. - Litterae post curiam 1172 febr. 20 a Friderico I imperatore Salisburgi habitam,
+               de qua cf. Böhmer-Opll n. 1966, scriptae sunt. – De tempore et re cf. Ohnsorge Legaten p. 41-48 et Dopsch Geschichte Salzburgs I 1 (1983) 291-293.</p>
          </div>
          <div type="regesta">
             <head>Regestenwerk</head>
             <listBibl>
-               <bibl>Bohemia, Duces ac reges Salzburg, Archiepisc. n. 109 (Germ. Pont. I 34); Bohemia, Duces ac reges n. 70 (Boh. Pont. 58).</bibl>
+               <bibl>Bohemia, Duces ac reges Salzburg, Archiepisc. n. 109 (Germ. Pont. I 34); Bohemia,
+                  Duces ac reges n. 70 (Boh. Pont. 58).</bibl>
             </listBibl>
          </div>
          <div type="edition">
             <listBibl>
                <bibl>Friedrich Cod. dipl. Bohem. I 231 n. 262;</bibl>
-               <bibl>Günther Hödl-Peter Classen Die Admonter Briefsammlung nebst ergänzenden Briefen [Mon. Germ. Briefe der dt. Kaiserzeit VI. München 1983] 154 n. 3</bibl>
+               <bibl>Günther Hödl-Peter Classen Die Admonter Briefsammlung nebst ergänzenden Briefen [Mon.
+                  Germ. Briefe der dt. Kaiserzeit VI. München 1983] 154 n. 3</bibl>
             </listBibl>
          </div>
       </body>

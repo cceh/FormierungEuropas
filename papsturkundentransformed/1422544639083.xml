@@ -1,12 +1,11 @@
-<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1422544639083">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1422544639083">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title></title>
             <respStmt xml:id="papsturkunden.de">
                <resp when="2012">papsturkunden</resp>
-               <persName/>
+               <persName></persName>
             </respStmt>
             <respStmt xml:id="HB">
                <resp when="2024">Transformation</resp>
@@ -31,21 +30,31 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="abstract">
-            <p>Iacinctus S.R.E. diac. card., apostolicae sedis (Hadriani IV) legatus, Iohanni (IV)Oniensi abbati eiusque successoribus etc.: confirmat diffinitionem controversiae, quae diutissime inter ecclesias Burgensem et Oniensem in praesentia tam Romanorum pontificum (Oña n. *16) quam iudicum delectorum (cf. Oña n. 17) agitata est, consensu et concordia utriusque partis hoc modo factam: VictorBurgensis episcopus assensu totius capituli sui Iohanni (IV) Oniensi abbati eiusque successoribus concedit tertias decimarum in omnibus ecclesiis eius nec non decimas sex villarum propriis vocabulis expressarum; Oniensis abbas ad invicem cum capituli sui consensu Burgensi episcopo concedit villam Ribilles (Revillaruz) cum omnibus pertinentiis perpetuo possidendam.</p>
+            <p>Iacinctus S.R.E. diac. card., apostolicae sedis (Hadriani IV) legatus, Iohanni (IV)Oniensi
+               abbati eiusque successoribus etc.: confirmat diffinitionem controversiae, quae diutissime
+               inter ecclesias Burgensem et Oniensem in praesentia tam Romanorum pontificum (Oña
+               n. *16) quam iudicum delectorum (cf. Oña n. 17) agitata est, consensu et concordia
+               utriusque partis hoc modo factam: VictorBurgensis episcopus assensu totius capituli
+               sui Iohanni (IV) Oniensi abbati eiusque successoribus concedit tertias decimarum in
+               omnibus ecclesiis eius nec non decimas sex villarum propriis vocabulis expressarum;
+               Oniensis abbas ad invicem cum capituli sui consensu Burgensi episcopo concedit villam
+               Ribilles (Revillaruz) cum omnibus pertinentiis perpetuo possidendam.</p>
          </div>
          <div type="Sachkommentar">
-            <p>Sigillum, quod olim pendebat, nunc deest. Notandum est in hac confirmatione non septem sed solum sex villas, de quibus monasterium Oniense tertias decimarum episcopo Burgensi solvere non teneretur, enumeratas esse, videlicet Arenis (Arenas), Sant (Sante), Tamaio (Tamayo), Ventretea, Solas, Pernegas (Pérnegas). Et in concordia inter episcopum Burgensem ac abbatem Oniensem facta (ed. Fita Canonización p. 101 n. 6; Álamo Colección Oña I 256 n. 212) et in confirmatione Iacinti cardinalis episcopo Burgensi directa (Oña n. 20) et in confirmatione Alexandri III (Oña n. 29) insuper villa Terminon (Terminón) proprio vocabulo exprimitur, qua ex re Fita Primer siglo p. 275 in editione sua coniecturam huius villae addidit. De re et legatione Iacinti cardinalis cf. ut supra Oña n. 20.</p>
+            <p>Sigillum, quod olim pendebat, nunc deest. Notandum est in hac confirmatione non septem
+               sed solum sex villas, de quibus monasterium Oniense tertias decimarum episcopo Burgensi solvere non teneretur, enumeratas esse, videlicet Arenis (Arenas), Sant (Sante), Tamaio (Tamayo), Ventretea, Solas, Pernegas (Pérnegas). Et in concordia inter episcopum Burgensem ac abbatem Oniensem facta (ed. Fita Canonización p. 101 n. 6; Álamo Colección Oña I 256 n. 212) et in confirmatione Iacinti cardinalis episcopo Burgensi directa (Oña n. 20) et in confirmatione Alexandri III (Oña n. 29) insuper villa Terminon (Terminón) proprio vocabulo exprimitur, qua ex re Fita Primer siglo p. 275 in editione sua coniecturam huius villae addidit. De re et legatione Iacinti cardinalis cf. ut supra Oña n. 20.</p>
          </div>
          <div type="regesta">
             <head>Regestenwerk</head>
             <listBibl>
-               <bibl>San Salvador de Oña San Salvador de Oña n. 21 (Ib. Pont. I 136); Burgos, Episc. n. 98 (Ib. Pont. I 64).</bibl>
+               <bibl>San Salvador de Oña San Salvador de Oña n. 21 (Ib. Pont. I 136); Burgos, Episc. n.
+                  98 (Ib. Pont. I 64).</bibl>
             </listBibl>
          </div>
          <div type="edition">

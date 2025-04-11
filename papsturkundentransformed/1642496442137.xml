@@ -1,12 +1,11 @@
-<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1642496442137">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1642496442137">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title></title>
             <respStmt xml:id="papsturkunden.de">
                <resp when="2012">papsturkunden</resp>
-               <persName/>
+               <persName></persName>
             </respStmt>
             <respStmt xml:id="HB">
                <resp when="2024">Transformation</resp>
@@ -22,76 +21,85 @@
          </publicationStmt>
          <sourceDesc>
             <diploDesc>
-               <copyStatus/>
-               <origDate from="1173-30101-01" to="1173-31231-31">(ante seu anno 1173)</origDate>
+               <copyStatus></copyStatus>
+               <origDate from="1173-01-01" to="1173-12-31">(ante seu anno 1173)</origDate>
                <legalActor type="issuer">Alexander III</legalActor>
                <legalActor type="recipient">Petro</legalActor>
                <legalActor type="recipient">Guigoni de Revel abbati</legalActor>
                <legalActor type="recipient">Berengario</legalActor>
-               <origPlace/>
+               <origPlace></origPlace>
             </diploDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="abstract">
             <p>
-            (
-                 Lucius III rectius:) 
-                
-                     Alexander III
-                 committit 
-                
-                     Petro
-                
-                
-                     Diensi
-                 episcopo, 
-                
-                     Guigoni de Revel abbati
-                
-                
-                     monasterii Boscodunensis (Boscodon, diocèse d’Embrun)
-                 et 
-                
-                     Berengario
-                 litem inter 
-                (Guillelmum) archiepiscopum
-                Ebredunensem (Embrun) ejusque canonicos sopiendam
-        </p>
+               (
+               Lucius III rectius:) 
+               
+               Alexander III
+               committit 
+               
+               Petro
+               
+               
+               Diensi
+               episcopo, 
+               
+               Guigoni de Revel abbati
+               
+               
+               monasterii Boscodunensis (Boscodon, diocèse d’Embrun)
+               et 
+               
+               Berengario
+               litem inter 
+               (Guillelmum) archiepiscopum
+               Ebredunensem (Embrun) ejusque canonicos sopiendam
+               </p>
          </div>
          <div type="Sachkommentar">
             <p>
-            Commission mentionnée par l’ 
-                Histoire générale des Alpes maritimes ou Cottiennes, et particulière de leur métropolitaine Ambrun, de Marcellin Fornier (1592–1649], fol. 237r, publiée par P. Guillaume, I, Paris, 1890, ici p. 720. La datation de cette commission pose problème: selon 
-                Fornier, Histoire (éd. Guillaume, I, p. 720), elle aurait été confiée aux prélats cités après une médiation infructueuse, entreprise en 1174 par 
-                l’archevêque (Raimond)
-                d’Arles (1163–1182) (
-                J. L. –). Or, 
-                l’évêque Pierre de 
-                Die, attesté jusqu’en 1173, et 
-                 l’abbé Guigues Ier de 
-                Boscodon (attesté jusque vers 1169) ne peuvent avoir été commissionnés que par 
-                Alexandre III. Il semble que Fornier ait confondu les juges d’une première tentative de médiation avec ceux qui avaient été commissionnés par 
-                Lucius III. Ces derniers auraient d’ailleurs réalisé une amicabilis compositio, confirmée par 
-                Lucius III (
-                J. L. –; 
-                Böhmer-Baaken / Schmidt, no 2124, p. 438). Fornier, Histoire, I, Appendice, p. 718 se prévaut d’un «récit qui en est déduit en l’acte de la pacification seconde ou mesme troisième et derniere qui eschoit au siècle suivant»..
-        </p>
+               Commission mentionnée par l’ 
+               Histoire générale des Alpes maritimes ou Cottiennes, et particulière de leur métropolitaine
+               Ambrun, de Marcellin Fornier (1592–1649], fol. 237r, publiée par P. Guillaume, I,
+               Paris, 1890, ici p. 720. La datation de cette commission pose problème: selon 
+               Fornier, Histoire (éd. Guillaume, I, p. 720), elle aurait été confiée aux prélats cités après une médiation infructueuse,
+               entreprise en 1174 par 
+               l’archevêque (Raimond)
+               d’Arles (1163–1182) (
+               J. L. –). Or, 
+               l’évêque Pierre de 
+               Die, attesté jusqu’en 1173, et 
+                l’abbé Guigues Ier de 
+               Boscodon (attesté jusque vers 1169) ne peuvent avoir été commissionnés que par 
+               Alexandre III. Il semble que Fornier ait confondu les juges d’une première tentative de médiation
+               avec ceux qui avaient été commissionnés par 
+               Lucius III. Ces derniers auraient d’ailleurs réalisé une amicabilis compositio, confirmée par
+               
+               Lucius III (
+               J. L. –; 
+               Böhmer-Baaken / Schmidt, no 2124, p. 438). Fornier, Histoire, I, Appendice, p. 718 se prévaut d’un «récit
+               qui en est déduit en l’acte de la pacification seconde ou mesme troisième et derniere
+               qui eschoit au siècle suivant»..
+               </p>
          </div>
          <div type="regesta">
             <head>Regestenwerk</head>
             <listBibl>
                <bibl>
-            Die, episc. Die, episc. (Gall. Pont. III,3 86 n. *120)</bibl>
+                  Die, episc. Die, episc. (Gall. Pont. III,3 86 n. *120)</bibl>
             </listBibl>
          </div>
          <div type="edition">
-            <listBibl/>
+            <listBibl>
+               <bibl></bibl>
+            </listBibl>
          </div>
       </body>
    </text>

@@ -1,12 +1,11 @@
-<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1422544610726">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1422544610726">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title></title>
             <respStmt xml:id="papsturkunden.de">
                <resp when="2012">papsturkunden</resp>
-               <persName/>
+               <persName></persName>
             </respStmt>
             <respStmt xml:id="HB">
                <resp when="2024">Transformation</resp>
@@ -31,16 +30,37 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="abstract">
-            <p>Alexander IIIPetro (II)Burgensi episcopo eiusque successoribus etc.: postulationibus eius annuens confirmat ecclesiam Burgensem et quascumque possessiones in praesentiarum possidet aut in futurum poterit adipisci; statuit, ut bona, quae infra certos terminos continentur - videlicet "a populationibus, quae sunt in Pirineis montibus (i. e. Montes Cantábricos), donec perveniatur ad mare Oceanum, et totis Asturiis usque ad fluvium Deba (Deva), qui descendit a supradictis montibus, et sicut discurrunt aquae ad meridianam partem inter Mutave (Mudá) et Rotundum (Redondos) usque ad Pennam Perforatam (Peña Perforada) sequente ibi fluvio, qui dicitur Pisorga (Pisuerga), donec labitur in rivo Aslanza (Arlanza)" - et alia etiam omnia ad iurisdictionem ecclesiae Burgensis pertinentia praefato episcopo eiusque successoribus perpetuo iure firma consistant; exprimit propriis vocabulis ecclesiam s. Petri de Berlangas, ecclesiam s. Mariae de Castro Suriz (Castrojeriz), ecclesiam s. Adriani in villa quae dicitur Munio (San Adrián de Muño), ecclesiam S. Quirici (San Quirce), ecclesiam s. Michaelis iuxta Agosin (Los Ausines) et alias duodequinquaginta ecclesias, quarum undecim in civitate Burgensi consistunt; confirmat insuper ius, quod habet praesul in monasteriis Burgensis episcopatus - nominatim in monasteriis Oniensi (Oña), Caradignae (Cardeña), s. Petri de Aslanz (Arlanza), s. Christophori de Evea (Ibeas de Juarros) - nec non quasdam donationes et hereditates, inter quas etiam hospitalis domus Burgensis enumeratur; denique ad exemplar praedecessoris sui Paschalis (II) (Burgos, Episc. n. 45. 46) statuit, ut Burgensis episcopus et successores eius nulli metropolitano nisi Romano pontifici subiecti sint.</p>
+            <p>Alexander IIIPetro (II)Burgensi episcopo eiusque successoribus etc.: postulationibus
+               eius annuens confirmat ecclesiam Burgensem et quascumque possessiones in praesentiarum
+               possidet aut in futurum poterit adipisci; statuit, ut bona, quae infra certos terminos
+               continentur - videlicet "a populationibus, quae sunt in Pirineis montibus (i. e. Montes
+               Cantábricos), donec perveniatur ad mare Oceanum, et totis Asturiis usque ad fluvium
+               Deba (Deva), qui descendit a supradictis montibus, et sicut discurrunt aquae ad meridianam
+               partem inter Mutave (Mudá) et Rotundum (Redondos) usque ad Pennam Perforatam (Peña
+               Perforada) sequente ibi fluvio, qui dicitur Pisorga (Pisuerga), donec labitur in rivo
+               Aslanza (Arlanza)" - et alia etiam omnia ad iurisdictionem ecclesiae Burgensis pertinentia
+               praefato episcopo eiusque successoribus perpetuo iure firma consistant; exprimit propriis
+               vocabulis ecclesiam s. Petri de Berlangas, ecclesiam s. Mariae de Castro Suriz (Castrojeriz),
+               ecclesiam s. Adriani in villa quae dicitur Munio (San Adrián de Muño), ecclesiam S.
+               Quirici (San Quirce), ecclesiam s. Michaelis iuxta Agosin (Los Ausines) et alias duodequinquaginta
+               ecclesias, quarum undecim in civitate Burgensi consistunt; confirmat insuper ius,
+               quod habet praesul in monasteriis Burgensis episcopatus - nominatim in monasteriis
+               Oniensi (Oña), Caradignae (Cardeña), s. Petri de Aslanz (Arlanza), s. Christophori
+               de Evea (Ibeas de Juarros) - nec non quasdam donationes et hereditates, inter quas
+               etiam hospitalis domus Burgensis enumeratur; denique ad exemplar praedecessoris sui
+               Paschalis (II) (Burgos, Episc. n. 45. 46) statuit, ut Burgensis episcopus et successores
+               eius nulli metropolitano nisi Romano pontifici subiecti sint.</p>
          </div>
          <div type="Sachkommentar">
-            <p>Laud. apud Fita Canonización p. 108 (ad iul. 21); Serrano Obispado de Burgos II 107; Vehse Bistumsexemtionen p. 136sq.; Fleisch Sacerdotium p. 163. De enumeratione ecclesiarum parrochialium civitatis Burgensis cf. Mansilla Obispado p. 315. Bulla plumbea deest, sed fragmentum serici restat. Terminationes dioeceseos e privilegio spurio Urbani II (Burgos, Episc. n. 18) sumptae sunt. Cancellaria pontificia hoc documentum ad exemplar privilegiorum Urbani II (Burgos, Episc. n. 18) et Paschalis II (Burgos, Episc. n. 45 et/aut 46) confecisse videtur. Renovatum est a. 1182 ian. 7 a Lucio III (Burgos, Episc. n. 133).</p>
+            <p>Laud. apud Fita Canonización p. 108 (ad iul. 21); Serrano Obispado de Burgos II 107; Vehse Bistumsexemtionen p. 136sq.; Fleisch Sacerdotium p. 163. De enumeratione ecclesiarum parrochialium civitatis Burgensis cf. Mansilla Obispado p. 315. Bulla plumbea deest, sed fragmentum serici restat. Terminationes dioeceseos
+               e privilegio spurio Urbani II (Burgos, Episc. n. 18) sumptae sunt. Cancellaria pontificia hoc documentum ad exemplar
+               privilegiorum Urbani II (Burgos, Episc. n. 18) et Paschalis II (Burgos, Episc. n. 45 et/aut 46) confecisse videtur. Renovatum est a. 1182 ian. 7 a Lucio III (Burgos, Episc. n. 133).</p>
          </div>
          <div type="regesta">
             <head>Regestenwerk</head>

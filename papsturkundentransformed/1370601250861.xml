@@ -1,12 +1,11 @@
-<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1370601250861">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1370601250861">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title></title>
             <respStmt xml:id="papsturkunden.de">
                <resp when="2012">papsturkunden</resp>
-               <persName/>
+               <persName></persName>
             </respStmt>
             <respStmt xml:id="HB">
                <resp when="2024">Transformation</resp>
@@ -31,25 +30,30 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="abstract">
-            <p>Wladizlaus rex Boemorum una cum Daniele episcopo (Pragensi) 'ex canonica et apostolica auctoritate' (Victoris IV) possessiones monasterii s. Stephani (Gradicensis) confirmat et contradictores banno apponit.</p>
+            <p>Wladizlaus rex Boemorum una cum Daniele episcopo (Pragensi) 'ex canonica et apostolica
+               auctoritate' (Victoris IV) possessiones monasterii s. Stephani (Gradicensis) confirmat
+               et contradictores banno apponit.</p>
          </div>
          <div type="Sachkommentar">
-            <p/>
+            <p></p>
          </div>
          <div type="regesta">
             <head>Regestenwerk</head>
             <listBibl>
-               <bibl>Hradisko Hradisko n. *5 (Boh. Pont. 210); Bohemia, Duces ac reges n. *65 (Boh. Pont. 57); Praha, Episc. n. *93 (Boh. Pont. 101).</bibl>
+               <bibl>Hradisko Hradisko n. *5 (Boh. Pont. 210); Bohemia, Duces ac reges n. *65 (Boh. Pont.
+                  57); Praha, Episc. n. *93 (Boh. Pont. 101).</bibl>
             </listBibl>
          </div>
          <div type="edition">
-            <listBibl/>
+            <listBibl>
+               <bibl></bibl>
+            </listBibl>
          </div>
       </body>
    </text>

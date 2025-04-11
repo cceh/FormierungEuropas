@@ -1,12 +1,11 @@
-<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1561819230728">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1561819230728">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title></title>
             <respStmt xml:id="papsturkunden.de">
                <resp when="2012">papsturkunden</resp>
-               <persName/>
+               <persName></persName>
             </respStmt>
             <respStmt xml:id="HB">
                <resp when="2024">Transformation</resp>
@@ -23,54 +22,58 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Erwähnung</copyStatus>
-               <origDate from="1154-49999-31" to="1157-70607-07">(ante 1157 iun. 8)</origDate>
+               <origDate from="1154-12-31" to="1157-06-07">(ante 1157 iun. 8)</origDate>
                <legalActor type="issuer">Iacintus</legalActor>
-               <origPlace/>
+               <origPlace></origPlace>
             </diploDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="abstract">
             <p>
-            
-                
-                     Iacintus 
-                
-                     s. Mariae in Cosmedin  diaconus cardinalis et legatus 
-                apostolicae sedis (
-                Hadriani IV) causam audit quae vertitur inter episcopos 
-                (Iohannem) 
-                Lucensem et 
-                (Iohannem) 
-                Legionensem super archidiaconatu de 
-                Triacastella. In praesentia eius episcopus 
-                Lucensis quaestionem movet, et ad litis contestationem procedit.
-        </p>
+               
+               
+               Iacintus 
+               
+               s. Mariae in Cosmedin  diaconus cardinalis et legatus 
+               apostolicae sedis (
+               Hadriani IV) causam audit quae vertitur inter episcopos 
+               (Iohannem) 
+               Lucensem et 
+               (Iohannem) 
+               Legionensem super archidiaconatu de 
+               Triacastella. In praesentia eius episcopus 
+               Lucensis quaestionem movet, et ad litis contestationem procedit.
+               </p>
          </div>
          <div type="Sachkommentar">
             <p>
-                Iacintus legatus fuit in 
-                Hispania (prima vice) a. 1155. – De legatione cardinalis 
-                Iacinti cf. 
-                Weiß Legaten p. 173–203; 
-                Fleisch Rom p. 144–161 cum studiis laudatis; 
-                Smith Iberian Legations passim.
-        </p>
+               
+               Iacintus legatus fuit in 
+               Hispania (prima vice) a. 1155. – De legatione cardinalis 
+               Iacinti cf. 
+               Weiß Legaten p. 173–203; 
+               Fleisch Rom p. 144–161 cum studiis laudatis; 
+               Smith Iberian Legations passim.
+               </p>
          </div>
          <div type="regesta">
             <head>Regestenwerk</head>
             <listBibl>
                <bibl>
-            León, Episc. León, Episc. (Ib. Pont. II 28 n. *51); v. etiam León, Eccl. cath. n. *10 (Ib. Pont. II 65); Ib. Pont. Lugo, Episc.</bibl>
+                  León, Episc. León, Episc. (Ib. Pont. II 28 n. *51); v. etiam León, Eccl. cath. n.
+                  *10 (Ib. Pont. II 65); Ib. Pont. Lugo, Episc.</bibl>
             </listBibl>
          </div>
          <div type="edition">
-            <listBibl/>
+            <listBibl>
+               <bibl></bibl>
+            </listBibl>
          </div>
       </body>
    </text>

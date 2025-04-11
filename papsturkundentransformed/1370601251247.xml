@@ -1,12 +1,11 @@
-<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1370601251247">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1370601251247">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title></title>
             <respStmt xml:id="papsturkunden.de">
                <resp when="2012">papsturkunden</resp>
-               <persName/>
+               <persName></persName>
             </respStmt>
             <respStmt xml:id="HB">
                <resp when="2024">Transformation</resp>
@@ -22,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <diploDesc>
-               <copyStatus/>
+               <copyStatus></copyStatus>
                <origDate when="1161-06-22">1161 iun. 19 - 22</origDate>
                <legalActor type="issuer">Victore IV</legalActor>
                <legalActor type="issuer">Friderico imperatore</legalActor>
@@ -32,25 +31,31 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="abstract">
-            <p>Victore IV et Friderico imperatore praesentibus inter alia litterae excusatoriae (Vladislai) regis Boemiae recitantur, in quibus continetur, ipsum regem cum universa eius provincia velle se tenere domnum Victorem pro papa et domino et se velle ratum habere hoc totum, quod domnus Victor statuerit in ipso synodo cum aliis ibi praesentibus.</p>
+            <p>Victore IV et Friderico imperatore praesentibus inter alia litterae excusatoriae (Vladislai)
+               regis Boemiae recitantur, in quibus continetur, ipsum regem cum universa eius provincia
+               velle se tenere domnum Victorem pro papa et domino et se velle ratum habere hoc totum,
+               quod domnus Victor statuerit in ipso synodo cum aliis ibi praesentibus.</p>
          </div>
          <div type="Sachkommentar">
-            <p/>
+            <p></p>
          </div>
          <div type="regesta">
             <head>Regestenwerk</head>
             <listBibl>
-               <bibl>Bohemia, Duces ac reges Regnum et Imperium; Bohemia, Duces ac reges n. *67 (Boh. Pont. 58).</bibl>
+               <bibl>Bohemia, Duces ac reges Regnum et Imperium; Bohemia, Duces ac reges n. *67 (Boh. Pont.
+                  58).</bibl>
             </listBibl>
          </div>
          <div type="edition">
-            <listBibl/>
+            <listBibl>
+               <bibl></bibl>
+            </listBibl>
          </div>
       </body>
    </text>

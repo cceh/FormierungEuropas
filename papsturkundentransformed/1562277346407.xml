@@ -1,12 +1,11 @@
-<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1562277346407">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1562277346407">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title></title>
             <respStmt xml:id="papsturkunden.de">
                <resp when="2012">papsturkunden</resp>
-               <persName/>
+               <persName></persName>
             </respStmt>
             <respStmt xml:id="HB">
                <resp when="2024">Transformation</resp>
@@ -23,38 +22,41 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Erwähnung</copyStatus>
-               <origDate from="1154-49999-31" to="1159-99999-31">(1154–1159)</origDate>
-               <origPlace/>
+               <origDate from="1154-12-31" to="1159-12-31">(1154–1159)</origDate>
+               <origPlace></origPlace>
             </diploDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="abstract">
             <p>
-            
-                Hadrianus IV
-                Dominico abbati 
-                monasterii s. Facundi eiusque successoribus, concedit iurisdictionem et potestatem solvendi atque ligandi in ecclesiis et fidelibus villae et “cauti” 
-                s. Facundi.
-        </p>
+               
+               Hadrianus IV
+               Dominico abbati 
+               monasterii s. Facundi eiusque successoribus, concedit iurisdictionem et potestatem
+               solvendi atque ligandi in ecclesiis et fidelibus villae et “cauti” 
+               s. Facundi.
+               </p>
          </div>
          <div type="Sachkommentar">
-            <p/>
+            <p></p>
          </div>
          <div type="regesta">
             <head>Regestenwerk</head>
             <listBibl>
                <bibl>
-            Sahagún Sahagún (Ib. Pont. II 118 n. *36)</bibl>
+                  Sahagún Sahagún (Ib. Pont. II 118 n. *36)</bibl>
             </listBibl>
          </div>
          <div type="edition">
-            <listBibl/>
+            <listBibl>
+               <bibl></bibl>
+            </listBibl>
          </div>
       </body>
    </text>

@@ -1,12 +1,11 @@
-<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1562192844001">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1562192844001">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title></title>
             <respStmt xml:id="papsturkunden.de">
                <resp when="2012">papsturkunden</resp>
-               <persName/>
+               <persName></persName>
             </respStmt>
             <respStmt xml:id="HB">
                <resp when="2024">Transformation</resp>
@@ -23,79 +22,83 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Erwähnung</copyStatus>
-               <origDate from="1172-20623-23" to="1172-20623-23">1172 iun. 23</origDate>
+               <origDate from="1172-06-23" to="1172-06-23">1172 iun. 23</origDate>
                <legalActor type="issuer">Iacintus</legalActor>
                <legalActor type="recipient">Pelagio abbati</legalActor>
-               <origPlace/>
+               <origPlace></origPlace>
             </diploDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="abstract">
             <p>
-            
-                
-                     Iacintus
-                 diaconus cardinalis 
-                s. Mariae in Cosmedin et 
-                apostolicae sedis (
-                Alexandri III) legatus 
-                
-                     Pelagio abbati
-                
-                
-                     monasterii s. Claudii Legionensis
-                , audit querelam et confirmat concordiam initam inter 
-                monasteria Carracetesem (Carracedo), 
-                Asturicensis dioecesis, et 
-                s. Claudii super 
-                monasterio de Toletanis (Toldanos), 
-                Legionensis dioecesis, secesso ab oboedientia 
-                monasterii de Carraceto. Dictum 
-                coenobium de Toletanis nolebat ingredi in 
-                monasterio Clarae Vallis, et ascriptum est denique 
-                monasterio s. Claudii. In dicta concordia decernitur quod, in recompensatione, 
-                monasterium s. Claudii debebat tradere 
-                monasterio Carraceti
-                ecclesiam s. Claudii loci de 
-                Valderas, 
-                Legionensis dioecesis.
-        </p>
+               
+               
+               Iacintus
+               diaconus cardinalis 
+               s. Mariae in Cosmedin et 
+               apostolicae sedis (
+               Alexandri III) legatus 
+               
+               Pelagio abbati
+               
+               
+               monasterii s. Claudii Legionensis
+               , audit querelam et confirmat concordiam initam inter 
+               monasteria Carracetesem (Carracedo), 
+               Asturicensis dioecesis, et 
+               s. Claudii super 
+               monasterio de Toletanis (Toldanos), 
+               Legionensis dioecesis, secesso ab oboedientia 
+               monasterii de Carraceto. Dictum 
+               coenobium de Toletanis nolebat ingredi in 
+               monasterio Clarae Vallis, et ascriptum est denique 
+               monasterio s. Claudii. In dicta concordia decernitur quod, in recompensatione, 
+               monasterium s. Claudii debebat tradere 
+               monasterio Carraceti
+               ecclesiam s. Claudii loci de 
+               Valderas, 
+               Legionensis dioecesis.
+               </p>
          </div>
          <div type="Sachkommentar">
             <p>
-             De re cf. 
-                Risco España Sagrada XXXV 231; 
-                Díaz-Jiménez y Molleda Historia de San Claudio p. 156sq.; Julio 
-                González Regesta de Fernando II 104; 
-                Domínguez Sánchez San Claudio p. 12. Videatur insuper quod 
-                Martín Martínez Martínez Cartulario de Carracedo p. 66–67 n. 57, edit aliud instrumentum, ex Cartulario Carracetensi, dat. Zamora a. 1172 iul. 10 (D f. 78 n. 31), in quo legatus 
-                Iacintus recipit 
-                monasterium Carracetensem in protectionem s. 
-                Romanae ecclesiae et suae, sub annuo censu unius morabetini persolvendo singulis annis in palatio 
-                Lateranensi. De legatione 
-                cardinalis Iacinti cf. 
-                Weiß Legaten p. 173–203; 
-                Fleisch Rom p. 144–161 cum studiis laudatis; 
-                Smith Iberian Legations passim.
-        </p>
+                De re cf. 
+               Risco España Sagrada XXXV 231; 
+               Díaz-Jiménez y Molleda Historia de San Claudio p. 156sq.; Julio 
+               González Regesta de Fernando II 104; 
+               Domínguez Sánchez San Claudio p. 12. Videatur insuper quod 
+               Martín Martínez Martínez Cartulario de Carracedo p. 66–67 n. 57, edit aliud instrumentum, ex Cartulario Carracetensi, dat. Zamora
+               a. 1172 iul. 10 (D f. 78 n. 31), in quo legatus 
+               Iacintus recipit 
+               monasterium Carracetensem in protectionem s. 
+               Romanae ecclesiae et suae, sub annuo censu unius morabetini persolvendo singulis annis in palatio 
+               Lateranensi. De legatione 
+               cardinalis Iacinti cf. 
+               Weiß Legaten p. 173–203; 
+               Fleisch Rom p. 144–161 cum studiis laudatis; 
+               Smith Iberian Legations passim.
+               </p>
          </div>
          <div type="regesta">
             <head>Regestenwerk</head>
             <listBibl>
                <bibl>
-            San Claudio San Claudio (Ib. Pont. II 79 n. *1); v. etiam Toldanos n. *1 (Ib. Pont. II 137); Ib. Pont. Astorga, Carracedo.</bibl>
+                  San Claudio San Claudio (Ib. Pont. II 79 n. *1); v. etiam Toldanos n. *1 (Ib. Pont.
+                  II 137); Ib. Pont. Astorga, Carracedo.</bibl>
             </listBibl>
          </div>
          <div type="edition">
             <listBibl>
-               <bibl>Martín Martínez Martínez D. Gualterio, abad de Carracedo en el siglo XII (1158–1184), in: El monacato en la diócesis de Astorga durante la Edad Media (Astorga 1995) p. 229–253.</bibl>
-               <bibl>Martín Martínez Martínez Cartulario de Carracedo p. 63–65, n. 56 (ex Cartulario seu Indicador de Carracedo: Astorga, Archivo Histórico Diocesano, cogn. R-4)</bibl>
+               <bibl>Martín Martínez Martínez D. Gualterio, abad de Carracedo en el siglo XII (1158–1184),
+                  in: El monacato en la diócesis de Astorga durante la Edad Media (Astorga 1995) p. 229–253.</bibl>
+               <bibl>Martín Martínez Martínez Cartulario de Carracedo p. 63–65, n. 56 (ex Cartulario seu Indicador de Carracedo: Astorga, Archivo Histórico
+                  Diocesano, cogn. R-4)</bibl>
             </listBibl>
          </div>
       </body>

@@ -1,12 +1,11 @@
-<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1562021661792">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1562021661792">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title></title>
             <respStmt xml:id="papsturkunden.de">
                <resp when="2012">papsturkunden</resp>
-               <persName/>
+               <persName></persName>
             </respStmt>
             <respStmt xml:id="HB">
                <resp when="2024">Transformation</resp>
@@ -23,7 +22,7 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Original</copyStatus>
-               <origDate from="1157-70608-08" to="1157-70608-08">(1157) iun. 8</origDate>
+               <origDate from="1157-06-08" to="1157-06-08">(1157) iun. 8</origDate>
                <legalActor type="issuer">Hadrianus IV</legalActor>
                <legalActor type="recipient">(Iohanni) episcopo</legalActor>
                <origPlace>Laterano</origPlace>
@@ -31,46 +30,52 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="abstract">
             <p>
-            
-                
-                     Hadrianus IV 
-                
-                     (Iohanni) episcopo  et 
-                
-                     canonicis Legionensibus : precibus 
-                Gaucelmi archidiaconi
-                Legionensis et duorum 
-                canonicorum Legionensium procuratorum episcopi et capituli annuens (cf. León, Episc. n. *53), confirmat 
-                Legionensem ecclesiam ad ius 
-                b. Petri specialiter pertinere; notificat, quod, quae 
-                Toletano archiepiscopo super illicite cum violentia laicali extorta oboedientia scripsit, ex litteris apostolicis illi directis cognoverit; statuit enim ut infra quadraginta dies ex quo archiepiscopus scripta apostolica receperit, ab extorta oboedientia, episcopus 
-                Legionensis omni subiectione maneat absolutus.
-        </p>
+               
+               
+               Hadrianus IV 
+               
+               (Iohanni) episcopo  et 
+               
+               canonicis Legionensibus : precibus 
+               Gaucelmi archidiaconi
+               Legionensis et duorum 
+               canonicorum Legionensium procuratorum episcopi et capituli annuens (cf. León, Episc.
+               n. *53), confirmat 
+               Legionensem ecclesiam ad ius 
+               b. Petri specialiter pertinere; notificat, quod, quae 
+               Toletano archiepiscopo super illicite cum violentia laicali extorta oboedientia scripsit,
+               ex litteris apostolicis illi directis cognoverit; statuit enim ut infra quadraginta
+               dies ex quo archiepiscopus scripta apostolica receperit, ab extorta oboedientia, episcopus
+               
+               Legionensis omni subiectione maneat absolutus.
+               </p>
          </div>
          <div type="Sachkommentar">
             <p>
-             De data praesentium litterarum a. 1157 et non a. 1155, 1158 aut 1159, cf. itinerarium 
-                Hadriani IV in 
-                JL. II p. 111. 125. 133 et 
-                Hiestand Initienverzeichnis p. 204. 212. 216. 220. – De re cf. 
-                Panera Burón Exención de la iglesia Legionense p. 396sq.; 
-                Fletcher The Episcopate p. 71; 
-                Fletcher Las iglesias p. 476; 
-                Cavero Domínguez El episcopado p. 219sq. 
-        </p>
+                De data praesentium litterarum a. 1157 et non a. 1155, 1158 aut 1159, cf. itinerarium
+               
+               Hadriani IV in 
+               JL. II p. 111. 125. 133 et 
+               Hiestand Initienverzeichnis p. 204. 212. 216. 220. – De re cf. 
+               Panera Burón Exención de la iglesia Legionense p. 396sq.; 
+               Fletcher The Episcopate p. 71; 
+               Fletcher Las iglesias p. 476; 
+               Cavero Domínguez El episcopado p. 219sq. 
+               </p>
          </div>
          <div type="regesta">
             <head>Regestenwerk</head>
             <listBibl>
                <bibl>
-            León, Episc. León, Episc. (Ib. Pont. II 29 n. 55); v. etiam León, Eccl. cath. n. 14 (Ib. Pontificia II 66); Ib. Pont. Toledo, Archiepisc.</bibl>
+                  León, Episc. León, Episc. (Ib. Pont. II 29 n. 55); v. etiam León, Eccl. cath. n. 14
+                  (Ib. Pontificia II 66); Ib. Pont. Toledo, Archiepisc.</bibl>
             </listBibl>
          </div>
          <div type="edition">

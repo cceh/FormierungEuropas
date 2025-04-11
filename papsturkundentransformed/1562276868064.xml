@@ -1,12 +1,11 @@
-<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1562276868064">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1562276868064">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title></title>
             <respStmt xml:id="papsturkunden.de">
                <resp when="2012">papsturkunden</resp>
-               <persName/>
+               <persName></persName>
             </respStmt>
             <respStmt xml:id="HB">
                <resp when="2024">Transformation</resp>
@@ -23,42 +22,46 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Kopial</copyStatus>
-               <origDate from="1165-50309-09" to="1165-50309-09">(1165) mart. 9</origDate>
+               <origDate from="1165-03-09" to="1165-03-09">(1165) mart. 9</origDate>
                <origPlace>Sens</origPlace>
             </diploDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="abstract">
             <p>
-            
-                Alexander III
-                Goterrio (Gutierre) abbati
-                s. Facundi: ad instar 
-                Paschalis II (Sahagún n. 22) et 
-                Hadriani IV (Sahagún n. *36), concedit potestatem ligandi atque solvendi in villa 
-                s. Facundi et infra “cautum” monasterii praedicti, quod ad ius et proprietatem 
-                b. Petri specialiter pertinet; prohibet in ipsam villam, praeter abbatis voluntatem, ecclesiam quamlibet haberi; vetat ne in eodem burgo oleum sanctum aut chrisma, nisi per abbatis manum, ab episcopo quolibet detur; addit etiam ut abbas praeter alicuius episcopi controversiam in praedicta villa et “cauto” hac potestate fungatur.
-        </p>
+               
+               Alexander III
+               Goterrio (Gutierre) abbati
+               s. Facundi: ad instar 
+               Paschalis II (Sahagún n. 22) et 
+               Hadriani IV (Sahagún n. *36), concedit potestatem ligandi atque solvendi in villa
+               
+               s. Facundi et infra “cautum” monasterii praedicti, quod ad ius et proprietatem 
+               b. Petri specialiter pertinet; prohibet in ipsam villam, praeter abbatis voluntatem,
+               ecclesiam quamlibet haberi; vetat ne in eodem burgo oleum sanctum aut chrisma, nisi
+               per abbatis manum, ab episcopo quolibet detur; addit etiam ut abbas praeter alicuius
+               episcopi controversiam in praedicta villa et “cauto” hac potestate fungatur.
+               </p>
          </div>
          <div type="Sachkommentar">
             <p>
-             De tempore cf. itinerarium 
-                Alexandri III in 
-                JL. II p. 187. – De re cf. 
-                Fletcher Las iglesias p. 477 (ad a. 1164).
-        </p>
+                De tempore cf. itinerarium 
+               Alexandri III in 
+               JL. II p. 187. – De re cf. 
+               Fletcher Las iglesias p. 477 (ad a. 1164).
+               </p>
          </div>
          <div type="regesta">
             <head>Regestenwerk</head>
             <listBibl>
                <bibl>
-            Sahagún Sahagún (Ib. Pont. II 120 n. 41)</bibl>
+                  Sahagún Sahagún (Ib. Pont. II 120 n. 41)</bibl>
             </listBibl>
          </div>
          <div type="edition">

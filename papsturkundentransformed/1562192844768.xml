@@ -1,12 +1,11 @@
-<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1562192844768">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1562192844768">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title></title>
             <respStmt xml:id="papsturkunden.de">
                <resp when="2012">papsturkunden</resp>
-               <persName/>
+               <persName></persName>
             </respStmt>
             <respStmt xml:id="HB">
                <resp when="2024">Transformation</resp>
@@ -23,7 +22,7 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Erwähnung</copyStatus>
-               <origDate from="1173-30422-22" to="1173-30422-22">1173 april. 22</origDate>
+               <origDate from="1173-04-22" to="1173-04-22">1173 april. 22</origDate>
                <legalActor type="issuer">Iacintus</legalActor>
                <legalActor type="recipient">Pelagio abbati</legalActor>
                <origPlace>León</origPlace>
@@ -31,13 +30,24 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="abstract">
-            <p>   Iacintus  diaconus cardinalis s. Mariae in Cosmedin et apostolicae sedis (Alexandri III) legatus   Pelagio abbati    monasterii s. Claudii Legionensis , omnibus vere paenitentibus et confessis qui ad ecclesiam ipsius monasterii s. Claudii accesserint, dona sua offerentibus, et simili modo operae ecclesiae benefacientibus, annuatim, decem dies de iniunctis sibi paenitentiis relaxat; refert se in Legionensem urbem, precibus Ferdinandi II regis Legionis, Iohannis Legionensis episcopi, Pelagii abbatis s. Claudii, et Legionensis populi, intravisse et corpora ss. martyrum Claudii, Lupercii et Victorici, de humili loco quo condita fuerant, (Petro) Compostellano et (Iohanne) Bracharensi archiepiscopis, (Petro) Ovetensi, (Arnaldo?) Asturicensi, (Stephano) Zamorensi, (Petro) Salamantino et (Iohanne) Lucensi episcopis praesentibus, duodecim abbatibus et multa quoque clericorum et laicorum turba circumstantibus, super altare eiusdem ecclesiae devote reposuisse.</p>
+            <p>   Iacintus  diaconus cardinalis s. Mariae in Cosmedin et apostolicae sedis (Alexandri
+               III) legatus   Pelagio abbati    monasterii s. Claudii Legionensis , omnibus vere
+               paenitentibus et confessis qui ad ecclesiam ipsius monasterii s. Claudii accesserint,
+               dona sua offerentibus, et simili modo operae ecclesiae benefacientibus, annuatim,
+               decem dies de iniunctis sibi paenitentiis relaxat; refert se in Legionensem urbem,
+               precibus Ferdinandi II regis Legionis, Iohannis Legionensis episcopi, Pelagii abbatis
+               s. Claudii, et Legionensis populi, intravisse et corpora ss. martyrum Claudii, Lupercii
+               et Victorici, de humili loco quo condita fuerant, (Petro) Compostellano et (Iohanne)
+               Bracharensi archiepiscopis, (Petro) Ovetensi, (Arnaldo?) Asturicensi, (Stephano) Zamorensi,
+               (Petro) Salamantino et (Iohanne) Lucensi episcopis praesentibus, duodecim abbatibus
+               et multa quoque clericorum et laicorum turba circumstantibus, super altare eiusdem
+               ecclesiae devote reposuisse.</p>
          </div>
          <div type="Sachkommentar">
             <p> De re cf. Yepes Corónica (ed. Pérez de Urbel I 36. 39–40); Tamayo de Salazar Anamnesis p. 363–365 (ad a. 1173 mart. 23); Risco España Sagrada XXXV 218. 407–409; Tejada y Ramiro Colección de cánones III 277–278 (ad a. 1173 mart. 23); Julio González Regesta de Fernando II p. 104; García y García A propos de la canonization p. 3–15; Martínez Díez Concilios p. 548 (ad a. 1173 mart. 23); García y García Concilios p. 446 (ad a. 1173 mart. 23); Fletcher Las iglesias p. 489; Weiß Legaten p. 186; Martínez Díez Legislación conciliar p. 355–360; Kemp Canonization p. 89; Krafft Papsturkunde p. 204 adn. 197. – De legatione cardinalis Iacinti cf. Weiß Legaten p. 173–203; Fleisch Rom p. 144–161 cum studiis laudatis; Smith Iberian Legations passim.</p>
@@ -45,11 +55,16 @@
          <div type="regesta">
             <head>Regestenwerk</head>
             <listBibl>
-               <bibl>San Claudio San Claudio (Ib. Pont. II 80 n. *3); v. etiam León, Episc. n. *74 (Ib. Pont. II 35); Ib. Pont. Compostela, Archiepisc.; Braga, Archiepisc.; Oviedo, Episc.; Astorga, Episc.; Zamora, Episc.; Salamanca, Episc.; Lugo, Episc.; Regnum Castellae et Legionis.</bibl>
+               <bibl>San Claudio San Claudio (Ib. Pont. II 80 n. *3); v. etiam León, Episc. n. *74 (Ib.
+                  Pont. II 35); Ib. Pont. Compostela, Archiepisc.; Braga, Archiepisc.; Oviedo, Episc.;
+                  Astorga, Episc.; Zamora, Episc.; Salamanca, Episc.; Lugo, Episc.; Regnum Castellae
+                  et Legionis.</bibl>
             </listBibl>
          </div>
          <div type="edition">
-            <listBibl/>
+            <listBibl>
+               <bibl></bibl>
+            </listBibl>
          </div>
       </body>
    </text>

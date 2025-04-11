@@ -1,12 +1,11 @@
-<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1562277346736">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1562277346736">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title></title>
             <respStmt xml:id="papsturkunden.de">
                <resp when="2012">papsturkunden</resp>
-               <persName/>
+               <persName></persName>
             </respStmt>
             <respStmt xml:id="HB">
                <resp when="2024">Transformation</resp>
@@ -23,57 +22,69 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Original</copyStatus>
-               <origDate from="1161-10226-26" to="1161-10226-26">1161 febr. 26</origDate>
+               <origDate from="1161-02-26" to="1161-02-26">1161 febr. 26</origDate>
                <origPlace>Anagni</origPlace>
             </diploDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="abstract">
             <p>
-            
-                Alexander III
-                Dominico abbati 
-                monasterii ss. Facundi et Primitivi, constituti 
-                in loco qui dicitur Dominis sanctis, eiusque fratribus tam praesentibus quam futuris etc.: precibus eiusdem monasterii annuens, ad instar 
-                Gregorii VII (Sahagùn n. 7) et 
-                Urbani II (
-                Sahagún n. 11), suscipit sub 
-                b. Petri et sua protectione monasterium, quod ad ius 
-                b. Petri specialiter pertinere dinoscitur, cum “cauto”, quod particulatim finitur; statuit ut quascumque possessiones et quaecumque bona idem monasterium iuste et canonice possidet, aut in futurum poterit adipisci, firma coenobio et illibata permaneant; sancit ut chrisma, oleum sanctum, consecrationes altarium seu basilicarum, ordinationes monachorum et clericorum degentium infra “cautum”, ab 
-                Aldefonso (VI) rege (
-                Castellae et 
-                Legionis) determinatum, a quocumque episcopo suscipiantur; sancit ut nullus episcoporum infra ipsum monasterium praesumat consecrationem aut ordinationem facere, aut missas publicas celebrare; concedit liberam electionem abbatis, secundum b. Benedicti regulam, maxime de eadem congregatione; concedit benedictionis gratiam a quocumque episcopo accipiendam; decernit tandem ut abbates et fratres, ad indicium huius perceptae a 
-                Romana Ecclesia libertatis, duos solidos ipsius terrae monetae 
-                Romanis pontificibus annis singulis persolvant.
-        </p>
+               
+               Alexander III
+               Dominico abbati 
+               monasterii ss. Facundi et Primitivi, constituti 
+               in loco qui dicitur Dominis sanctis, eiusque fratribus tam praesentibus quam futuris
+               etc.: precibus eiusdem monasterii annuens, ad instar 
+               Gregorii VII (Sahagùn n. 7) et 
+               Urbani II (
+               Sahagún n. 11), suscipit sub 
+               b. Petri et sua protectione monasterium, quod ad ius 
+               b. Petri specialiter pertinere dinoscitur, cum “cauto”, quod particulatim finitur;
+               statuit ut quascumque possessiones et quaecumque bona idem monasterium iuste et canonice
+               possidet, aut in futurum poterit adipisci, firma coenobio et illibata permaneant;
+               sancit ut chrisma, oleum sanctum, consecrationes altarium seu basilicarum, ordinationes
+               monachorum et clericorum degentium infra “cautum”, ab 
+               Aldefonso (VI) rege (
+               Castellae et 
+               Legionis) determinatum, a quocumque episcopo suscipiantur; sancit ut nullus episcoporum
+               infra ipsum monasterium praesumat consecrationem aut ordinationem facere, aut missas
+               publicas celebrare; concedit liberam electionem abbatis, secundum b. Benedicti regulam,
+               maxime de eadem congregatione; concedit benedictionis gratiam a quocumque episcopo
+               accipiendam; decernit tandem ut abbates et fratres, ad indicium huius perceptae a
+               
+               Romana Ecclesia libertatis, duos solidos ipsius terrae monetae 
+               Romanis pontificibus annis singulis persolvant.
+               </p>
          </div>
          <div type="Sachkommentar">
             <p>
-             Cancellaria pontificia utebatur hoc tempore crebro computo 
-                Pisae in anno incarnationis. Cf. 
-                JL. I p. IX praefationem prioris editionis (“Ab 
-                Urbano II ad 
-                Lucium II, ab a. 1088 ad a. 1145, tria illa annorum incarnationis genera – anni vulgares, anni Florentini et anni Pisani – permixte adhibentur”). – De re cf. 
-                Escalona Historia de Sahagún p. 118; 
-                García Lobo Exención y jurisdicción p. 4; 
-                Fletcher Las iglesias p. 476. – 
-                monasterium s. Facundi sub censu duorum solidorum monetae illius terrae etiam in Libro Censuum invenies est, cf. 
-                Fabre/Duchesne Liber censuum I 221. II 116; cf. etiam 
-                Pfaff Liber Censuum p. 341 n. 645. Privilegium a. 1194 iul. 14 (n. 67) a 
-                Celestino III renovatum est.
-        </p>
+                Cancellaria pontificia utebatur hoc tempore crebro computo 
+               Pisae in anno incarnationis. Cf. 
+               JL. I p. IX praefationem prioris editionis (“Ab 
+               Urbano II ad 
+               Lucium II, ab a. 1088 ad a. 1145, tria illa annorum incarnationis genera – anni vulgares, anni
+               Florentini et anni Pisani – permixte adhibentur”). – De re cf. 
+               Escalona Historia de Sahagún p. 118; 
+               García Lobo Exención y jurisdicción p. 4; 
+               Fletcher Las iglesias p. 476. – 
+               monasterium s. Facundi sub censu duorum solidorum monetae illius terrae etiam in Libro Censuum invenies
+               est, cf. 
+               Fabre/Duchesne Liber censuum I 221. II 116; cf. etiam 
+               Pfaff Liber Censuum p. 341 n. 645. Privilegium a. 1194 iul. 14 (n. 67) a 
+               Celestino III renovatum est.
+               </p>
          </div>
          <div type="regesta">
             <head>Regestenwerk</head>
             <listBibl>
                <bibl>
-            Sahagún Sahagún (Ib. Pont. II 118 n. 37)</bibl>
+                  Sahagún Sahagún (Ib. Pont. II 118 n. 37)</bibl>
             </listBibl>
          </div>
          <div type="edition">

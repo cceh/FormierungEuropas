@@ -1,12 +1,11 @@
-<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1644229832309">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1644229832309">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title></title>
             <respStmt xml:id="papsturkunden.de">
                <resp when="2012">papsturkunden</resp>
-               <persName/>
+               <persName></persName>
             </respStmt>
             <respStmt xml:id="HB">
                <resp when="2024">Transformation</resp>
@@ -22,47 +21,48 @@
          </publicationStmt>
          <sourceDesc>
             <diploDesc>
-               <copyStatus/>
-               <origDate from="1162-20415-15" to="1162-20716-16">(1162 april. 15–iul. 16)</origDate>
+               <copyStatus></copyStatus>
+               <origDate from="1162-04-15" to="1162-07-16">(1162 april. 15–iul. 16)</origDate>
                <origPlace>Monspessulanus</origPlace>
             </diploDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="abstract">
             <p>
-            
-                Valentino et 
-                Diensi episcopis de situ 
-                abbatiae Liuncellis litigantibus, 
-                Hugo abbas electus ad 
-                Alexandrum III papam cum comitatu congruo proficiscitur, a quo gratanti animo recipitur et honorifice benedicitur.
-        </p>
+               
+               Valentino et 
+               Diensi episcopis de situ 
+               abbatiae Liuncellis litigantibus, 
+               Hugo abbas electus ad 
+               Alexandrum III papam cum comitatu congruo proficiscitur, a quo gratanti animo recipitur
+               et honorifice benedicitur.
+               </p>
          </div>
          <div type="Sachkommentar">
             <p>
-            Étant donné que 
-                Hugues apparaît, des 1163, comme abbé dans les chartes de 
-                Léoncel, Dimier, p. 28, a daté sa consécration du premier séjour d’ 
-                Alexandre III à 
-                Montpellier et non du second en 1165 durant lequel 
-                Hugues impétra pourtant un privilège (
-                Gall. Pont. III,3 116 n. 5. La querelle des évêques de 
-                Die et de 
-                Valence au sujet de 
-                Léoncel est ici attestée pour la première fois.
-        </p>
+               Étant donné que 
+               Hugues apparaît, des 1163, comme abbé dans les chartes de 
+               Léoncel, Dimier, p. 28, a daté sa consécration du premier séjour d’ 
+               Alexandre III à 
+               Montpellier et non du second en 1165 durant lequel 
+               Hugues impétra pourtant un privilège (
+               Gall. Pont. III,3 116 n. 5. La querelle des évêques de 
+               Die et de 
+               Valence au sujet de 
+               Léoncel est ici attestée pour la première fois.
+               </p>
          </div>
          <div type="regesta">
             <head>Regestenwerk</head>
             <listBibl>
                <bibl>
-            Die, Leoncellum Die, Leoncellum (Gall. Pont. III,3 116 n. *3)</bibl>
+                  Die, Leoncellum Die, Leoncellum (Gall. Pont. III,3 116 n. *3)</bibl>
             </listBibl>
          </div>
          <div type="edition">

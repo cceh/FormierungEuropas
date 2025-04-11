@@ -1,12 +1,11 @@
-<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_P5_PAPAL-Alexander.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="papsturkunden_1562021667700">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1562021667700">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title></title>
             <respStmt xml:id="papsturkunden.de">
                <resp when="2012">papsturkunden</resp>
-               <persName/>
+               <persName></persName>
             </respStmt>
             <respStmt xml:id="HB">
                <resp when="2024">Transformation</resp>
@@ -22,64 +21,68 @@
          </publicationStmt>
          <sourceDesc>
             <diploDesc>
-               <copyStatus/>
-               <origDate from="1172-21101-01" to="1172-29999-31">(1172 ex.)</origDate>
+               <copyStatus></copyStatus>
+               <origDate from="1172-11-01" to="1172-12-31">(1172 ex.)</origDate>
                <legalActor type="issuer">Ferdinandus</legalActor>
                <legalActor type="issuer">Alphonsus (VIII</legalActor>
                <legalActor type="issuer">Alphonsus (I</legalActor>
                <legalActor type="recipient">Iacinto</legalActor>
-               <origPlace/>
+               <origPlace></origPlace>
             </diploDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2024-09-13+02:00">Automatische XSLT Transformation</change>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="abstract">
             <p>
-            
-                
-                     Iacinto  S.R.E. diacono cardinali 
-                s. Mariae in Cosmedin et 
-                apostolicae sedis (
-                Alexandri III) legato, 
-                
-                     Ferdinandus 
-                
-                     Hispaniae  (II 
-                
-                     Legionensis ), 
-                
-                     Alphonsus (VIII ) 
-                
-                     Castellae  et 
-                
-                     Alphonsus (I ) 
-                
-                     Portugalliae  reges, una cum undecim episcopis et quampluribus praelatis, inter quos 
-                Iohanne
-                Legionensi episcopo et 
-                (Guterrio) abbate
-                s. Facundi, supplicant ut 
-                Rudesindum
-                Dumiensis (Mondoñedo) ecclesiae quondam episcopum canonizet.
-        </p>
+               
+               
+               Iacinto  S.R.E. diacono cardinali 
+               s. Mariae in Cosmedin et 
+               apostolicae sedis (
+               Alexandri III) legato, 
+               
+               Ferdinandus 
+               
+               Hispaniae  (II 
+               
+               Legionensis ), 
+               
+               Alphonsus (VIII ) 
+               
+               Castellae  et 
+               
+               Alphonsus (I ) 
+               
+               Portugalliae  reges, una cum undecim episcopis et quampluribus praelatis, inter quos
+               
+               Iohanne
+               Legionensi episcopo et 
+               (Guterrio) abbate
+               s. Facundi, supplicant ut 
+               Rudesindum
+               Dumiensis (Mondoñedo) ecclesiae quondam episcopum canonizet.
+               </p>
          </div>
          <div type="Sachkommentar">
-            <p/>
+            <p></p>
          </div>
          <div type="regesta">
             <head>Regestenwerk</head>
             <listBibl>
                <bibl>
-            León, Episc. León, Episc. (Ib. Pont. II 34 n. *71); v. etiam Sahagún n. *42 (Ib. Pont. II 120)</bibl>
+                  León, Episc. León, Episc. (Ib. Pont. II 34 n. *71); v. etiam Sahagún n. *42 (Ib. Pont.
+                  II 120)</bibl>
             </listBibl>
          </div>
          <div type="edition">
-            <listBibl/>
+            <listBibl>
+               <bibl></bibl>
+            </listBibl>
          </div>
       </body>
    </text>
