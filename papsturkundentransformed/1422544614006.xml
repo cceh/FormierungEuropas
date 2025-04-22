@@ -22,7 +22,10 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Erwähnung</copyStatus>
-               <origDate from="1160-07-06" to="1176-07-06">(1160, 1173-1174 aut 1176) iul. 6</origDate>
+               <origDate when="1160-07-06">(1160, 1173-1174 aut 1176) iul. 6</origDate> 
+               <origDate when="1173-07-06"/>
+               <origDate when="1174-07-06"/>
+               <origDate when="1176-07-06"/>
                <legalActor type="issuer">Alexander III</legalActor>
                <legalActor type="recipient">Petro II</legalActor>
                <legalActor type="recipient">Sancio II</legalActor>

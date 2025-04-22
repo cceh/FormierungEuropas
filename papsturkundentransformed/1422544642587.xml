@@ -22,7 +22,8 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Erwähnung</copyStatus>
-               <origDate from="1168-08-30" to="1169-08-30">(1168-1169 aug. 30 aut ante)</origDate>
+               <origDate notAfter="1168-08-30">(1168-1169 aug. 30 aut ante)</origDate>
+               <origDate notAfter="1169-08-30"/>
                <legalActor type="issuer">Iacintus</legalActor>
                <legalActor type="recipient">Alexandro III</legalActor>
                <origPlace></origPlace>

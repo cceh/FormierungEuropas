@@ -22,7 +22,7 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Erwähnung</copyStatus>
-               <origDate from="1148-12-31" to="1153-12-31">(1148–1153)</origDate>
+               <origDate notBefore="1148-01-01" notAfter="1153-12-31">(1148–1153)</origDate>
                <legalActor type="issuer">Eugenius III</legalActor>
                <origPlace></origPlace>
             </diploDesc>

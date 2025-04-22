@@ -22,7 +22,7 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus></copyStatus>
-               <origDate from="1173-10-31" to="1173-10-31">1173 oct.</origDate>
+               <origDate notBefore="1173-10-01" notAfter="1173-10-31">1173 oct.</origDate>
                <legalActor type="issuer">Iacintus</legalActor>
                <origPlace>Sahagún</origPlace>
             </diploDesc>

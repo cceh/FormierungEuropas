@@ -22,7 +22,7 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus></copyStatus>
-               <origDate from="1172-01-01" to="1173-12-31">(1172–1173)</origDate>
+               <origDate notBefore="1172-01-01" notAfter="1173-12-31">(1172–1173)</origDate>
                <legalActor type="issuer">Alexander III</legalActor>
                <legalActor type="recipient">Robertum</legalActor>
                <origPlace></origPlace>

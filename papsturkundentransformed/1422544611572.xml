@@ -22,7 +22,7 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Erwähnung</copyStatus>
-               <origDate from="1163-12-31" to="1164-05-31">(1163 dec.-1164 mai.)</origDate>
+               <origDate notBefore="1163-12-01" notAfter="1164-05-31">(1163 dec.-1164 mai.)</origDate>
                <legalActor type="issuer">Iohannes</legalActor>
                <legalActor type="issuer">Stephanus</legalActor>
                <legalActor type="issuer">Petrus (II</legalActor>

@@ -22,7 +22,9 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Erwähnung</copyStatus>
-               <origDate from="1088-12-31" to="1157-12-31">(1088-1114 aut 1125 aut 1137-1157)</origDate>
+               <origDate notBefore="1088-01-01" notAfter="1114-12-31">(1088-1114 aut 1125 aut 1137-1157)</origDate>
+               <origDate notBefore="1125-01-01" notAfter="1125-12-31"/>
+               <origDate notBefore="1137-01-01" notAfter="1157-12-31"/>
                <legalActor type="recipient">Iohannes</legalActor>
                <origPlace></origPlace>
             </diploDesc>

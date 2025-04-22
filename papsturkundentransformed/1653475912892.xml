@@ -22,7 +22,9 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus></copyStatus>
-               <origDate from="1170-01-01" to="1172-12-15">(ante [1170–1172?] dec. 16)</origDate>
+               <origDate notAfter="1170-12-15">(ante [1170–1172?] dec. 16)</origDate>
+               <origDate notAfter="1171-12-15"/>
+               <origDate notAfter="1172-12-15"/>
                <legalActor type="issuer">fratribus</legalActor>
                <legalActor type="recipient">Alexander III papa</legalActor>
                <origPlace></origPlace>

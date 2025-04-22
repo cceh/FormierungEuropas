@@ -22,7 +22,7 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Erwähnung</copyStatus>
-               <origDate from="1155-01-25" to="1155-02-04">1155 (cr. ian. 25-febr. 4)</origDate>
+               <origDate notBefore="1155-01-25" notAfter="1155-02-04">1155 (cr. ian. 25-febr. 4)</origDate>
                <legalActor type="issuer">Iacintus</legalActor>
                <legalActor type="issuer">Iacintus</legalActor>
                <origPlace>Valladolid</origPlace>

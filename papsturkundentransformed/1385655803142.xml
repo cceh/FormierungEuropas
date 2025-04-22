@@ -22,7 +22,7 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Erwähnung</copyStatus>
-               <origDate when="1160-02-11">1160 febr. 5 - 11</origDate>
+               <origDate notBefore="1160-02-05" notAfter="1160-02-11">1160 febr. 5 - 11</origDate>
                <legalActor type="issuer">Daniel Pragensis episcopi</legalActor>
                <legalActor type="recipient">Victorem IV</legalActor>
                <origPlace>Pavia</origPlace>

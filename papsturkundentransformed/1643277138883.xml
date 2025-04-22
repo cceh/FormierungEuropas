@@ -22,7 +22,7 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus></copyStatus>
-               <origDate from="1145-01-01" to="1153-31-12">(1145–1153)</origDate>
+               <origDate notBefore="1145-01-01" norAfter="1153-31-12">(1145–1153)</origDate>
                <legalActor type="issuer">Eugenius III</legalActor>
                <origPlace></origPlace>
             </diploDesc>

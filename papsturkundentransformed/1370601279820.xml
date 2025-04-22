@@ -22,7 +22,7 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Erwähnung</copyStatus>
-               <origDate when="1162-09-08">1162 sept. 7 - 8</origDate>
+               <origDate notBefore="1162-09-07" notAfter="1162-09-08">1162 sept. 7 - 8</origDate>
                <legalActor type="issuer">Victor IV</legalActor>
                <legalActor type="recipient">Daniel Pragensis episcopus</legalActor>
                <origPlace>St. Jean-de-Losne</origPlace>

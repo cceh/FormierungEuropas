@@ -22,7 +22,8 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Kopial</copyStatus>
-               <origDate from="1168-08-30" to="1169-08-30">(1168-1169) aug. 30</origDate>
+               <origDate when="1168-08-30">(1168-1169) aug. 30</origDate>
+               <origDate when="1169-08-30"></origDate>
                <legalActor type="issuer">Alexander III</legalActor>
                <origPlace>Benevento</origPlace>
             </diploDesc>

@@ -22,7 +22,10 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus></copyStatus>
-               <origDate from="1171-02-24" to="1172-02-25">(1171–1172) febr. 24 (25)</origDate>
+               <origDate when="1171-02-24">(1171–1172) febr. 24 (25)</origDate>
+               <origDate when="1171-02-25"/>
+               <origDate when="1172-02-24"/>
+               <origDate when="1172-02-25"/>
                <legalActor type="issuer">Alexander III</legalActor>
                <legalActor type="recipient">Guerico</legalActor>
                <legalActor type="recipient">Petro</legalActor>

@@ -22,7 +22,7 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus></copyStatus>
-               <origDate when="1166-03-31">1166 (mart.)</origDate>
+               <origDate notBefore="1166-03-01" notAfter="1166-03-31">1166 (mart.)</origDate>
                <legalActor type="issuer">Petrus (II)</legalActor>
                <legalActor type="issuer">Rodericus</legalActor>
                <legalActor type="issuer">P.</legalActor>

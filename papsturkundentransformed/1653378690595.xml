@@ -22,7 +22,7 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus></copyStatus>
-               <origDate from="1145-01-01" to="1153-12-31">(1145–1153)</origDate>
+               <origDate notBefore="1145-01-01" notAfter="1153-12-31">(1145–1153)</origDate>
                <legalActor type="issuer">Bernardus</legalActor>
                <legalActor type="recipient">Petrum</legalActor>
                <legalActor type="recipient">Armannum vicecomitem</legalActor>

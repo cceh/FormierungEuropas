@@ -22,7 +22,7 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Original und Kopial</copyStatus>
-               <origDate when="1173-10-31">(1173 oct.?)</origDate>
+               <origDate notBefore="1173-10-01" notAfter="1173-10-31">(1173 oct.?)</origDate>
                <legalActor type="issuer">Iacinctus</legalActor>
                <legalActor type="recipient">Andreae</legalActor>
                <origPlace></origPlace>

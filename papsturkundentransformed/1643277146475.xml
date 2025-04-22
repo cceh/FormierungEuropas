@@ -22,7 +22,7 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus></copyStatus>
-               <origDate from="1154-01-01" to="1159-12-31">(1154–1159)</origDate>
+               <origDate notBefore="1154-01-01" notAfter="1159-12-31">(1154–1159)</origDate>
                <legalActor type="issuer">Adrianus IV</legalActor>
                <legalActor type="recipient">Petro priori</legalActor>
                <legalActor type="recipient">ejusque fratribus</legalActor>

@@ -22,7 +22,7 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus></copyStatus>
-               <origDate from="1158-01-01" to="1158-12-31">1158</origDate>
+               <origDate notBefore="1158-01-01" notAfter="1158-12-31">1158</origDate>
                <legalActor type="issuer">Odone</legalActor>
                <legalActor type="recipient">Raimundo abbati</legalActor>
                <legalActor type="recipient">ejusque canonicis</legalActor>

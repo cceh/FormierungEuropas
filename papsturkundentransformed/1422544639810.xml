@@ -22,7 +22,7 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Kopial</copyStatus>
-               <origDate from="1155-12-31" to="1156-12-31">(1155-1156)</origDate>
+               <origDate notBefore="1155-01-01" notAfter="1156-12-31">(1155-1156)</origDate>
                <legalActor type="issuer">Hadrianus IV</legalActor>
                <legalActor type="recipient">I(ohanni IV)</legalActor>
                <origPlace></origPlace>

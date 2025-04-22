@@ -22,7 +22,7 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Erwähnung</copyStatus>
-               <origDate from="1154-07-02" to="1154-07-11">1154 iul. 2-11</origDate>
+               <origDate notBefore="1154-07-02" notAfter="1154-07-11">1154 iul. 2-11</origDate>
                <legalActor type="issuer">Iacintus</legalActor>
                <legalActor type="issuer">Iacintus</legalActor>
                <origPlace>Segovia</origPlace>

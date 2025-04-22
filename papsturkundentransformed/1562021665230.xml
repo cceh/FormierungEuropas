@@ -22,7 +22,7 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Erwähnung</copyStatus>
-               <origDate from="1152-12-31" to="1164-12-31">(1152–1164)</origDate>
+               <origDate notBefore="1152-01-01" notAfter="1164-12-31">(1152–1164)</origDate>
                <legalActor type="issuer">Iohannes archiepiscopus</legalActor>
                <origPlace></origPlace>
             </diploDesc>

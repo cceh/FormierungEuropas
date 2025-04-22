@@ -22,7 +22,7 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Erwähnung</copyStatus>
-               <origDate when="1163-05-31">(1163 mai.?)</origDate>
+               <origDate notBefore="1163-05-01" notAfter="1163-05-31">(1163 mai.?)</origDate>
                <legalActor type="issuer">Alexander III</legalActor>
                <legalActor type="recipient">Petro (II)</legalActor>
                <origPlace></origPlace>

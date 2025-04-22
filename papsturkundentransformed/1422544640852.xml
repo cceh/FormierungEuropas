@@ -22,7 +22,7 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Erwähnung</copyStatus>
-               <origDate from="1155-03-09" to="1159-09-01">(1155 post mart. 8-1159 sept. 1)</origDate>
+               <origDate notBefore="1155-03-08" notAfter="1159-09-01">(1155 post mart. 8-1159 sept. 1)</origDate>
                <legalActor type="issuer">Hadrianus IV</legalActor>
                <origPlace></origPlace>
             </diploDesc>

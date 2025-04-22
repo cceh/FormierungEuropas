@@ -22,7 +22,7 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus></copyStatus>
-               <origDate from="1160-02-05" to="1160-02-11">1160 febr. 5–11</origDate>
+               <origDate notBefore="1160-02-05" notAfter="1160-02-11">1160 febr. 5–11</origDate>
                <origPlace>Papia</origPlace>
             </diploDesc>
          </sourceDesc>
