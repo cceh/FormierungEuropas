@@ -22,7 +22,7 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Erwähnung</copyStatus>
-               <origDate when="1159-11-30">(1159 nov. ex.)</origDate>
+               <origDate notBefore="1159-11-30" notAfter="1159-12-31">(1159 nov. ex.)</origDate>
                <legalActor type="issuer">Daniel Pragensis</legalActor>
                <legalActor type="issuer">Hermannus Verdensis</legalActor>
                <legalActor type="recipient">Octaviani (Victoris IV)</legalActor>

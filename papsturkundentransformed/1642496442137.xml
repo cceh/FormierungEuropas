@@ -22,7 +22,8 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus></copyStatus>
-               <origDate notBefore="1173-01-01" notAfter="1173-12-31">(ante seu anno 1173)</origDate>
+               <origDate notAfter="1173-01-01">(ante seu anno 1173)</origDate>
+               <origDate notBefore="1173-01-01" notAfter="1173-12-31"/>
                <legalActor type="issuer">Alexander III</legalActor>
                <legalActor type="recipient">Petro</legalActor>
                <legalActor type="recipient">Guigoni de Revel abbati</legalActor>

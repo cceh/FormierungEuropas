@@ -22,7 +22,7 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Erwähnung</copyStatus>
-               <origDate when="1170-06-30">(1170 iun. ex.)</origDate>
+               <origDate notBefore="1170-06-30">(1170 iun. ex.)</origDate>
                <legalActor type="issuer">Cerebrunus</legalActor>
                <legalActor type="recipient">Garsiam</legalActor>
                <origPlace>Oña</origPlace>

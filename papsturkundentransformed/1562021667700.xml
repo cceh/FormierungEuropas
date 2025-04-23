@@ -22,7 +22,7 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus></copyStatus>
-               <origDate from="1172-11-01" to="1172-12-31">(1172 ex.)</origDate>
+               <origDate notBefore="1172-12-01" notAfter="1172-12-31">(1172 ex.)</origDate>
                <legalActor type="issuer">Ferdinandus</legalActor>
                <legalActor type="issuer">Alphonsus (VIII</legalActor>
                <legalActor type="issuer">Alphonsus (I</legalActor>
