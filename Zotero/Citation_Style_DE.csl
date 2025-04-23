@@ -5,7 +5,7 @@
     <title>Formierung_Citation_Style_DE</title>
     <id>http://www.zotero.org/styles/formierung_citation_style_de</id>
     <link rel="self" href="http://www.zotero.org/styles/formierung_citation_style_de"/>
-    <updated>2025-02-11T14:30:56+00:00</updated>
+    <updated>2025-04-23T13:24:40+00:00</updated>
   </info>
   <macro name="author medieval">
     <names variable="author"/>
@@ -26,7 +26,14 @@
   </macro>
   <macro name="editor (ed.)">
     <names variable="editor" prefix=", ed. ">
-      <name and="text" delimiter-precedes-last="never" et-al-min="4">
+      <name delimiter="/" delimiter-precedes-last="always">
+        <name-part name="family" font-variant="small-caps"/>
+      </name>
+    </names>
+  </macro>
+  <macro name="translator (Übers.)">
+    <names variable="translator" prefix=", übers. von ">
+      <name delimiter="/" delimiter-precedes-last="always">
         <name-part name="family" font-variant="small-caps"/>
       </name>
     </names>
@@ -151,6 +158,7 @@
                 <text variable="title"/>
                 <number prefix=", " suffix=" Bde." variable="number-of-volumes"/>
                 <text macro="editor (ed.)"/>
+                <text macro="translator (Übers.)"/>
                 <number prefix=", Bd. " variable="volume"/>
                 <text macro="collection"/>
                 <text macro="place, edition, year"/>
@@ -161,6 +169,7 @@
               <group>
                 <text variable="title"/>
                 <number prefix=", " suffix=" Bde." variable="number-of-volumes"/>
+                <text macro="translator (Übers.)"/>
                 <text macro="editor (Hg.)"/>
                 <number prefix=", Bd. " variable="volume"/>
                 <text macro="collection"/>
@@ -176,6 +185,7 @@
             <text variable="title" strip-periods="false" font-style="normal"/>
             <number prefix=", " suffix=" Bde." variable="number-of-volumes"/>
             <number prefix=", Bd. " variable="volume"/>
+            <text macro="translator (Übers.)"/>
             <text macro="collection"/>
             <text macro="place, edition, year"/>
             <text macro="DOI or URL"/>
