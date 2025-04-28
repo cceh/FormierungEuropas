@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1562276869440">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName></persName>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1562276869440</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Erwähnung</copyStatus>
+               <origDate when="1177-08-01">1177 aug. 1</origDate>
+               <origPlace>Venezia</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-04-28+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+               
+               Alexander III concilio celebrato 
+               Venetiae praesidet, cui inter alios 
+               Iohannes, sacrista 
+               monasterii s. Facundi, adest. In concilio pontifex et imperator 
+               Fredericus I pacem firmant.
+               </p>
+         </div>
+         <div type="Sachkommentar">
+            <p>
+                Cf. 
+               Böhmer-Opll n. 2291 p. 171.
+               </p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+                  Sahagún Sahagún (Ib. Pont. II 122 n. *47)</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl></bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

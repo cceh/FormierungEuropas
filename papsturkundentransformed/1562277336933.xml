@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1562277336933">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName></persName>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1562277336933</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Erwähnung</copyStatus>
+               <origDate notAfter="1177-12-31">(ante 1178)</origDate>
+               <origPlace></origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-04-28+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+               
+               Alexandrum III nuntii 
+               Martini abbatis monasterii 
+               s. Isidori Legionensis visitant, et deponunt gravem querimoniam super iniusta eiectione
+               prioris et canonicorum ecclesiae s. Mariae de Vega01 
+               Salamantinae facta a 
+               Velasco Henrici milite 
+               Salamantino. Certiorem faciunt dominum papam de contentione inter dictos abbatem et
+               
+               Velascum Henrici, quia ipse miles, licet primo per testamentum, iure hereditario,
+               ecclesiam s. Mariae de Vega01 coenobio 
+               s. Isidori concesserat, postea priorem et canonicos quos abbas 
+               s. Isidori miserat in ecclesiam s. Mariae02 ad serviendum Deo, absque iudicio et rationabili
+               causa, fecit expelli.
+               </p>
+         </div>
+         <div type="Sachkommentar">
+            <p></p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+                  San Isidoro San Isidoro (Ib. Pont. II 92 n. *21)</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl></bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

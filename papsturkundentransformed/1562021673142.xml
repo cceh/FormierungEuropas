@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1562021673142">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName></persName>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1562021673142</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Erwähnung</copyStatus>
+               <origDate notBefore="1178-01-01" notAfter="1178-12-31">(1178)</origDate>
+               <legalActor type="issuer">Thomas</legalActor>
+               <origPlace>Roma</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-04-28+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+               In audientia 
+               Alexandri III magister 
+               
+               Thomas
+               , archidiaconus 
+               
+               Legionensis
+               , sicut “procurator” vel syndicus 
+               ecclesiae Legionensis, causam super 
+               ecclesia s. Marcelli Legionensi, pertinente ad ordinationem et dispositionem episcopi
+               et 
+               capituli Legionensium, agitat.
+               </p>
+         </div>
+         <div type="Sachkommentar">
+            <p>
+                De re cf. Villacorta El cabildo p. 76. 94; 
+               Estepa Estructura p. 184. 192; 
+               Fletcher The Episcopate p. 92. 93. 100; 
+               Fletcher Las iglesias p. 478. – In ipsa charta 
+               Legionensis episcopus se obligat 
+               Iohanni, servienti 
+               Arnulfi archidiaconi
+               Legionensis, et constituit seipsum debitorem super 150 morabetinos puri auri valoris magis appretiati
+               et legitimi ponderis, quod ipse 
+               Iohannes dicto episcopo libenter accommodavit, ad persolvendum creditoribus quibus 
+               Legionensis praesul tenebatur pro necessitatibus ecclesiae 
+               Legionensis commissae, et pro expensis quas praedictus magister 
+               Thomas fecerat 
+               Romae.
+               </p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+                  León, Episc. León, Episc. (Ib. Pont. II 39 n. *87); v. etiam León, Eccl. cath. n.
+                  *36 (Ib. Pont. II 70)</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl>Valdeavellano Contribución al estudio del feudalismo p. 92sq.</bibl>
+               <bibl>Fernández Catón Colección catedral de León V 524–526 n. 1630</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

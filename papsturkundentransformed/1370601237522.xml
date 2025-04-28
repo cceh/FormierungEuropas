@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1370601237522">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName></persName>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1370601237522</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Erwähnung</copyStatus>
+               <origDate notBefore="1178-03-01" notAfter="1178-08-31">(1178 mart. - aug. aut 1179 febr. - iul.)</origDate>
+               <origDate notBefore="1179-02-01" notAfter="1179-07-31"/>
+               <legalActor type="issuer">Alexander III</legalActor>
+               <legalActor type="recipient">Wilhalmo comiti</legalActor>
+               <origPlace>Roma</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-04-28+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+               Alexander IIIWilhalmo comiti
+               paenitendi causa Romam venienti
+               iubet, ut claustrum construat.
+               </p>
+         </div>
+         <div type="Sachkommentar">
+            <p>
+               Gerlacus his verbis de primordiis monasterii
+               Cunicensis enarrat: 'Erat in Moravia quidam comes nomine Wilhalmus [de Pulin] de gratia
+               praedicti Kunradi [scil. ducis Znoimensis], qui cum in vastatione Austriae manus non continuerat ab
+               incendiis ecclesiarum dei, pro his et aliis peccatis compunctus Romam adiit et
+               secreta cordis sui domno papae aperuit, qui iussit, ut claustrum construeret et
+               religiosas personas domno servituras adunaret.’ Iter Romanum Wilhalmi ergo post
+               devastationem Austriae a. 1176 factam (de ea cf.
+               Bohemia, Duces ac reges n. *72 cum adn.) et ante diem mortis Alexandri III evenisse
+               videtur. Romae papa his temporibus a. 1178
+               mart.-aug. et a. 1179
+               febr.-iul. moratus est. Ante 1181 oct.
+               Wilhalmus a capitulo generali Praemonstratensi conventum sororum pro noviter ab eo
+               fundato monasterio exoptabat, cf. Dolista Circaria n. 5.
+               </p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>Kounice Kounice n. *1
+                  (Boh. Pont. 214).</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl></bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

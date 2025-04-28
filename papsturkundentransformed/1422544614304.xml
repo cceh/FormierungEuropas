@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1422544614304">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName></persName>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1422544614304</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Original</copyStatus>
+               <origDate when="1178-05-15">(1178-1179) mai. 15</origDate>
+               <origDate when="1179-05-15"/>
+               <legalActor type="issuer">Alexander III</legalActor>
+               <legalActor type="issuer">Alexander III</legalActor>
+               <origPlace>Laterano</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-04-28+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+               Alexander III
+               Hovetensi
+               ,  Legionensi
+               et  Burgensi
+               episcopis: mandat, quatenus C(erebruno) Toletano archiepiscopo et successoribus eius,
+               sicut iam praedecessoribus eorum ab antecessoribus Romanis pontificibus sit iniunctum,
+               infra duos menses post harum susceptionem debitam reverentiam et subiectionem iure
+               primatiae promittant eumque sicut primatem suum diligant.
+               	
+               
+               Alexander III 
+               
+               Hovetensi , 
+               
+               Legionensi  et 
+               
+               Burgensi  episcopis: mandat quatenus 
+               C(erebruno) 
+               Toletano archiepiscopo et successoribus eius iure primatiae, contradictione et appellatione
+               remota, debitam reverentiam et subiectionem infra duos menses post praesentium litterarum
+               susceptionem promittant pariter et observent, eumque sicut primatem suum sincera curent
+               affectione diligere et multipliciter honorare.
+               </p>
+         </div>
+         <div type="Sachkommentar">
+            <p>
+                Cerebrunus a. 1167 nov. 1 in archiepiscopum electus est, cf. Hernández Cartularios p. 139 n. 146. Tempore litterarum Rodericus Ovetensis, Iohannes Legionensis, Petrus II Burgensis episcopi fungebantur. Anteriorum mandatorum eiusdem argumenti, quae in his litteris
+               laudantur, nulla vestigia invenimus.
+               	  De tempore praesentium litterarum (“Dat. 
+               Laterani id. mai”) cf. itinerarium 
+               Alexandri III in 
+               JL. II p. 323. 333. – De re cf. 
+               Rivera Recio Iglesia de Toledo I 350; 
+               Panera Burón Exención de la iglesia Legionense p. 398; 
+               Cavero Domínguez El episcopado p. 221. – Tempore litterarum 
+               Rodericus
+               Ovetensis, 
+               Iohannes
+               Legionensis, 
+               Petrus II
+               Burgensis episcopi fungebantur. 
+               </p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+                  Burgos, Episc. León, Episc. Burgos, Episc. n. 125 (Ib. Pont. I 73); Toledo, Archiepisc.;
+                  León, Episc. n. 89 (Ib. Pont. II 40); Oviedo, Episc.</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl>Castejón i Fonseca Primacía f. 24 [ad a. 1169–1179];</bibl>
+               <bibl>Kehr Gött. Nachr. 1903 p. 151 n. 5 ad a. 1166-1179 [ex: Collectio synodorum et epistolarum decretalium sive
+                  dogmaticarum summorum pontificum (saec. XVI): Roma Biblioteca Vallicelliana Ms. C
+                  23, ad a. 1169–1179 (cf.</bibl>
+               <bibl>Mansilla La documetación pontificia hasta Inocencio III p. XIIIsq.)];</bibl>
+               <bibl>Mansilla La documentación pontificia hasta Inocencio III p. 135 n. 115 [ex: Collectio synodorum et epistolarum decretalium sive dogmaticarum
+                  summorum pontificum (saec. XVI): Roma Biblioteca Vallicelliana Ms. C 23, ad a. 1169–1179];</bibl>
+               <bibl>Domínguez Sánchez Documentos p. 115 n. 50</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>
