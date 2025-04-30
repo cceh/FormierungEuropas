@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1653378375499">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName></persName>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1653378375499</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus></copyStatus>
+               <origDate notBefore="1162-09-07" notAfter="1162-09-08">1162 sept. 7–8</origDate>
+               <legalActor type="issuer">Victor IV</legalActor>
+               <origPlace>Apud pontem Laone</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+               
+               
+               Victor IV  generalem synodum celebrat, cui 
+               Stephanus
+               Viennensis archiepiscopus una cum (
+               Gottfrido) 
+               Gratianopolitano et (
+               Raimundo) 
+               Vivariensi episcopis interest.
+               </p>
+         </div>
+         <div type="Sachkommentar">
+            <p>
+               Voir: 
+               Gall. Pont. III,1 185 n. *302 (
+               J. L., II, p. 161). La présence de 
+               l’évêque Raimond est attestée par le 
+               M. G. H., Dipl. Frédéric Ier, no 388 du 7 septembre 1162, réglant le conflit entre l’évêque et le comte de 
+               Genève; 
+               Böhmer-Opll, no 1145, p. 148; 
+               Reg. dauph., I, no 4145, c. 694; 
+               Reg. Vivarois, no 41, p. 10.
+               </p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+                  Viviers, episc. Vienne, archiepisc. (Gall. Pont. III,1 185 n. *302); Grenoble, episc
+                  (Gall. Pont. III,2 116 n. *174); Viviers, episc. (Gall. Pont. III,3 287 n. *144)</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl></bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

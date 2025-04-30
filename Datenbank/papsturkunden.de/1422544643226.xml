@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1422544643226">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName></persName>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1422544643226</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Erwähnung</copyStatus>
+               <origDate notBefore="1170-06-30">(1170 iun. ex.)</origDate>
+               <legalActor type="issuer">Cerebrunus</legalActor>
+               <legalActor type="recipient">Garsiam</legalActor>
+               <origPlace>Oña</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>Mandatu pontificis (Alexandri III) Cerebrunus archiepiscopus Toletanus assistente
+               PetroBurgensi episcopo Garsiam abbatem Oniensem deponit.</p>
+         </div>
+         <div type="Sachkommentar">
+            <p>Constat Cerebrunum archiepiscopum Toletanum et Petrum episcopum Burgensem regem Adefonsum VIII comitantes a. 1170 iun. 24-26 in monasterio Oniensi moratos esse (cf. González Reino II 242-246 n. 141-143). Eodem anno mense novembri Garsia in diploma Adefonsi VIII 'olim Oniensis abbas' titulatus est (cf. González Reino II 258 n. 151).</p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>San Salvador de Oña San Salvador de Oña n. *?33 (Ib. Pont. I 140); Burgos, Episc.
+                  n. 119 (Ib. Pont. I 72); Toledo, Archiepisc.</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl></bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1370601293749">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName></persName>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1370601293749</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Original</copyStatus>
+               <origDate when="1166-01">(1166 aut 1178 - 1179) iun. 1</origDate>
+               <origDate when="1178-06-01"/>
+               <origDate when="1179-06-01"/>
+               <legalActor type="issuer">Alexander III</legalActor>
+               <origPlace>Laterano</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-04-28+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>Alexander III archiepiscopis, episcopis, abbatibus, prioribus et universis ecclesiarum
+               praelatis: mandat atque praecipit, quatenus de his, quae fratribus hospitalis Hierosolymitani
+               dantur ab aliquibus in sanitate vel in infirmitate, si postea convaluerint aut apud
+               alios tumulati fuerint, portionem aliquam non quaerant, de aliis vero parrochianis,
+               qui laborantes in extremis apud praedictos fratres eligunt sepeliri, quarta sint testamenti
+               parte contenti, nec aliquid ab eis amplius exigant, sed nec sepulturam, quam per indulgentiam
+               apostolicae sedis habere noscuntur, occasione ista quisquam impedire contendat.</p>
+         </div>
+         <div type="Sachkommentar">
+            <p>De his litteris adminus quattuor alia exemplaria sub eodem die datas cognoscuntur,
+               tria ex archivo Massiliensi et uno deperdito olim in archivo Melitensi, cf. Delaville l.c.</p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>Praha, Sv. Maria na Male Strane Add. Praha, Sv. Maria na Male Strane Add. n. 1 (Boh.
+                  Pont. 128); Ordines militares, Oriens Pont.</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl>Delaville le Roulx I 248 n. 360</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

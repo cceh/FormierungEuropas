@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1643277141117">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName></persName>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1643277141117</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus></copyStatus>
+               <origDate notBefore="1154-01-01" notAfter="1159-12-31">(1154–1159)</origDate>
+               <legalActor type="issuer">Hadrianus IV</legalActor>
+               <origPlace></origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+               
+               
+               Hadrianus IV  confirmat sententiam ab 
+               Amedeo
+               Lugdunensi archiepiscopo, 
+               apostolicae sedis legato, in causa monachorum 
+               S. Geraldi (Saint-Géraud d’Aurillac, diocèse de Clermont) contra canonicos 
+               S. Rufi super 
+               ecclesia de Volvent latam.
+               </p>
+         </div>
+         <div type="Sachkommentar">
+            <p></p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+                  Die, ecclesia S. Mariae de Volvenco Valence, ecclesia S. Ruffi (Gall. Pont. III,2
+                  391 n. *96); Die, ecclesia S. Mariae de Volvenco (Gall. Pont. III,3 103 n. *9)</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl></bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

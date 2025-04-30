@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1422544607703">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName></persName>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1422544607703</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Erwähnung</copyStatus>
+               <origDate notBefore="1154-07-02" notAfter="1154-07-11">1154 iul. 2-11</origDate>
+               <legalActor type="issuer">Iacintus</legalActor>
+               <legalActor type="issuer">Iacintus</legalActor>
+               <origPlace>Segovia</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+               
+               
+               Iacintus  S.R.E. cardinalis et legatus (
+               Anastasii IV) una cum multis episcopis regnorum Castellae, 
+               Legionis atque 
+               Gallaeciae apud curiam 
+               Adefonsi VII imperatoris moratur, ubi etiam 
+               Victor
+               Burgensis episcopus versatur.
+               
+               
+               Iacintus , diaconus cardinalis S.R.E. et 
+               apostolicae sedis (
+               Anastasii IV) legatus in 
+               Hispania, una cum sexdecim episcopis, inter eos 
+               Iohanne episcopo
+               Legionensi, apud curiam 
+               Aldefonsi VII imperatoris totius 
+               Hispaniae (regis 
+               Castellae et 
+               Legionis) moratur.
+               </p>
+         </div>
+         <div type="Sachkommentar">
+            <p>
+               Cf. 
+               Smith Iberian Legations p. 84. De 
+               Iacinto cardinali diacono 
+               s. Mariae in Cosmedin legationibusque eius cf. 
+               Fleisch Rom p. 144-161 cum studiis laudatis nec non 
+               Smith Iberian Legations passim.
+               
+               </p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+                  Burgos Episc. Burgos Episc. n. *94 (Ib. Pont. I 63); Toledo, Archiepisc.; Palencia,
+                  Episc.; Osma, Episc.; Segovia, Episc.; Sigüenza, Episc.; Compostela, Archiepisc.;
+                  Ávila, Episc.; Salamanca, Episc.; Zamora, Episc.; Lugo, Episc.;Calahorra-Nájera, Episc.;
+                  Oviedo, Episc. 
+                  León, Episc. León, Episc. (Ib. Pont. II 26 n. *47); Ib. Pont. Regnum Castellae et
+                  Legionis. – De re et legatione Iacinti cf. Weiß Legaten p. 173–203, praesertim p.
+                  175; Smith Iberian Legations p. 84.</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl></bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

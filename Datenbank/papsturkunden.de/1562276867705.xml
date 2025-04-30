@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1562276867705">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName></persName>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1562276867705</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Kopial</copyStatus>
+               <origDate when="1163-06-19">1163 iun. 19</origDate>
+               <origPlace></origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+               
+               Alexander III
+               Dominico abbati 
+               monasterii ss. Facundi et Primitivi eiusque successoribus etc.: precibus eiusdem abbatis
+               annuens, ad exemplar 
+               Gregorii VII (Sahagún n. 7), 
+               Paschalis II (Sahagún n. 23) et 
+               Eugenii III (Sahagún n. 34), suscipit monasterium, cum “cauto” suo, sub 
+               b. Petri et sua protectione; statuit ut quascumque possessiones et quaecumque bona,
+               propriis vocabulis expressa, ab ipsius loci fundatoribus, vel ab aliis fidelibus oblata,
+               et 
+               Romanorum pontificum auctoritate firmata, idem coenobium possidet, aut in futurum
+               iustis modis poterit adipisci, firma eidem abbati eiusque successoribus et illibata
+               permaneant; decernit tandem ut abbates et fratres, ad indicium huius perceptae a 
+               Romana Ecclesia libertatis, duos solidos ipsius terrae monetae 
+               Romanis pontificibus annis singulis persolvant.
+               </p>
+         </div>
+         <div type="Sachkommentar">
+            <p>
+                De re cf. 
+               Escalona Historia de Sahagún p. 118; 
+               Fletcher Las iglesias p. 477. 
+               monasterium s. Facundi sub censu duorum solidorum monetae illius terrae etiam in Libro Censuum invenies,
+               cf. 
+               Fabre/Duchesne Liber censuum I 221. II 116; cf. etiam 
+               Pfaff Liber Censuum p. 341 n. 645.
+               </p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+                  Sahagún Sahagún (Ib. Pont. II 119 n. 40)</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl>Escalona Historia de Sahagún app. III p. 543sq. n. 177.</bibl>
+               <bibl>Fernández Martín Villafrades p. 255–257 n. 7 (ad a. 1163 iun. 18).</bibl>
+               <bibl>Fernández Flórez Colección de Sahagún IV 301–304 n. 1348.</bibl>
+               <bibl>Domínguez Sánchez Documentos pontificios de León p. 94–96 n. 33.</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

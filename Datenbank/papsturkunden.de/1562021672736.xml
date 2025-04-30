@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1562021672736">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName></persName>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1562021672736</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Original</copyStatus>
+               <origDate when="1177-10-10">(1177) oct. 10</origDate>
+               <legalActor type="issuer">Alexander III</legalActor>
+               <legalActor type="recipient">(Ioscelmo</legalActor>
+               <legalActor type="recipient">(Roderico</legalActor>
+               <origPlace>Venezia, Rialto</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-04-28+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+               
+               
+               Alexander III 
+               
+               (Ioscelmo ) 
+               
+               Seguntino  et 
+               
+               (Roderico ) 
+               
+               Ovetensi  episcopis: committit eis causam inter 
+               (Iohannem) episcopum et 
+               canonicos Legionenses, ex parte una, et 
+               (Guterrium) abbatem et capitulum 
+               monasterii s. Facundi ex altera, super diversis articulis de iure et iurisdictione
+               episcopi in ecclesiis ipsius villae et “cauti” monastici, et extra burgum et “cautum”.
+               Procurator enim episcopi (cf. León, Episc. n. *78, *79 et *80) asserebat quod 
+               Legionensis episcopus in burgo et “cauto” 
+               s. Facundi ius episcopale consuevit habere amplis retro temporibus, quia certum privilegium
+               quod monasterium praesentabat datum ab 
+               Hadriano IV (Sahagún n. *36) super eodem burgo et “cauto” 
+               Dominico abbati eiusdem monasterii, “personaliter” indultum fuit, et non valebat post
+               mortem ipsius abbatis; ac etiam affirmabat quod monasterium usurpaverat tertias quarundam
+               ecclesiarum, videlicet, 
+               s. Gervasii (Santervás), 
+               s. Felicis de Ceia (Sahelices) et aliarum multarum quae ad 
+               Legionensem episcopum spectare noscuntur, et 
+               monasterium de Piasca, situm in Liebana, et omnes ecclesias quas detinuerat comes
+               
+               Didacus Assuri, cuius corpus in 
+               Legionensi ecclesia requiescit. Procurator autem monasterii memorati (cf. León, Episc.
+               n. *82, *83 et *84) significabat quod episcopus fecit destrui quandam ecclesiam eiusdem
+               monasterii dicatam in honore 
+               s. Andreae, reliquiis sanctorum quae ibi erant manibus laicorum male tractatis, et
+               quod ipse in parochiis ecclesiarum monasterii novas fecit ecclesias, et permittebat
+               ab aliis fieri, et quasdam de novis ecclesiis consecravit, et quod eis nocebat super
+               decimis, primitiis, iuribus ecclesiasticis et possessionibus, et quod episcopus in
+               villa 
+               s. Facundi domos aedificare illegitime praesumpsit, et permisit homines suos de 
+               Castroterra contra iustitiam detinere montes et hereditates monasterii; praeterea,
+               asserens etiam quod quidam 
+               Legionenses canonici violentas manus iniecerunt in monachos 
+               s. Facundi, alteri peregerunt insidias in eos, et quod episcopus memoratus eis tertias
+               ecclesiarum 
+               s. Martini de Fonte, 
+               s. Romani de la Cuba et aliarum ecclesiarum contra iustitiam auferre praesumpsit,
+               et insuper quod idem episcopus et canonici ecclesias, villas et possessiones alias
+               praescripti monasterii, videlicet 
+               ecclesiam s. Vincentii de Aratoi (Valderaduey), 
+               ecclesiam s. Martini de Saldania (Saldaña), 
+               Villam Carlon (Villacarralón), villam quae 
+               s. Maria de Val de Vimine (Valdevimbre) dicitur, prata, molendina et possessiones
+               alias 
+               ecclesiae s. Andreae Legionensis, quae ad ipsum monasterium pertinebant, contra iustitiam
+               detinere praesumunt, asserens quod ipsi in villa 
+               s. Facundi multos homines occiderunt et quosdam monachos ipsius monasterii lanceis
+               vulneraverunt, boves, oves et cetera animalia inde abducere praesumpserunt. Mandat
+               ergo 
+               Romanus pontifex 
+               Seguntino et 
+               Ovetensi episcopis ut monachos et 
+               monasterium s. Facundi ab impetitione memorati episcopi et canonicorum suorum super
+               quaestione de consecratione cuiusdam ecclesiae infra 
+               Legionensem episcopatum constitutae ab episcopo alieno, vocato a 
+               Iacinto, 
+               s. Mariae in Cosmedin diacono cardinali et S.R.E. legato, et de verberatione canonicorum
+               in cantorem et alios 
+               canonicos Legionenses penitus absolutos denuntient.
+               </p>
+         </div>
+         <div type="Sachkommentar">
+            <p>
+                De tempore praesentium litterarum cf. itinerarium 
+               Alexandri III in 
+               JL. II p. 315. – De legatione cardinalis 
+               Iacinti cf. 
+               Weiß Legaten p. 173–203. 
+               </p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+                  León, Episc. León, Episc. (Ib. Pont. II 38 n. 86); v. etiam Sahagún n. 55 (Ib. Pont.
+                  II 123); Eccl. cath. n. 35 (Ib. Pont. II 70); Ib. Pont. Sigüenza, Episc.; Oviedo,
+                  Episc.</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl>Rodríguez de Lama Alejandro IV 292–296 n. 310 (ad a. 1257!).</bibl>
+               <bibl>Fernández Catón Colección catedral de León V 484–489 n. 1606.</bibl>
+               <bibl>Domínguez Sánchez Documentos pontificios de León p. 113–115 n. 49</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

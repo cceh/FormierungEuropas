@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1422544608863">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName></persName>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1422544608863</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Original</copyStatus>
+               <origDate when="1157-06-08">(1157) iun. 8</origDate>
+               <legalActor type="issuer">Hadrianus IV</legalActor>
+               <legalActor type="recipient">Stephano</legalActor>
+               <legalActor type="recipient">Petro II</legalActor>
+               <origPlace>Laterano</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+               
+               Hadrianus IV 
+               (Stephano ) 
+               
+               Zamorensi  (et 
+               Petro II ) 
+               
+               Burgensi  episcopis: committit eis causam quae vertitur inter episcopos 
+               (Iohannem) 
+               Lucensem et 
+               (Iohannem) 
+               Legionensem super archidiaconatu de 
+               Triacastella; certiores facit eos quod, cum nuper episcopus 
+               Lucensis quaestionem hanc movisse dicitur in praesentia 
+               Iacinti, diaconi cardinalis et legati 
+               apostolicae sedis in 
+               Hispania, et ad litis contestationem processisse (León, Episc. n. *51), ceterum, contestata
+               lite, et apud dictum cardinalem aliquamdiu ventilata, et agendi termino utrique parti
+               praefixo, querelae suae idem episcopus 
+               Lucensis supersedit (León, Episc. n. *52), unde nunc, per praesentes litteras, 
+               Zamorensi et 
+               Burgensi episcopis mandat quatinus si litem contestatam fuisse constiterit, in unum
+               convenientes utramque partem ante suam praesentiam convocent, et rationibus utriusque
+               diligenter auditis et plenarie cognitis, causam ipsam, mediante iustitia, decidant;
+               si vero alter utra pars appellationis obstaculum decreverit opponendum, mandat ut
+               testes faciant sibi nichilominus exhiberi, et, eis examinatis legitime, et si idonei
+               fuerint inventi receptis, attestationes eorum quas iurati deposuerint, in scripturae
+               seriem redigant, et sigillorum suorum impressione signantes, transmittant 
+               apostolicae sedis notitiae cognoscendas; committit tandem eis causam quae vertitur
+               inter episcopos 
+               Legionensem et 
+               Palentinum super iurisdictione de 
+               Medina (Medina de Rioseco).
+               
+               
+               Hadrianus IV
+               (
+               
+               Stephano
+               ) 
+               
+               Zamorensi
+               (et 
+               
+               Petro II
+               ) 
+               
+               Burgensi
+               episcopis: mandat, ut episcopos 
+               Lucensem (
+               Lugo) et 
+               
+               Legionensem
+               (
+               León) litigantes de archidiaconatu, qui dicitur 
+               Triacastella (
+               Triacastela), in praesentiam suam convocent causamque inter eos iam diu etiam coram
+               
+               I(acinto) diac. card. in 
+               Hispania legationis officio fungente agitatam mediante iustitia decidant. Si vero
+               alterutra pars illato sibi iudicio appellare decreverit, ipsi iudices testes exhiberi
+               faciant, attestationes eorum in scripturae seriem redigant et sigillorum impressione
+               signantes ad decisionem litis procedendam notitiae Romani pontificis cognoscendas
+               transmittant. Eodem modo alia lis, quae inter 
+               Palentinum et 
+               Legionensem episcopos de 
+               Medina (de Rioseco) ventilatur, diffiniant.
+               </p>
+         </div>
+         <div type="Sachkommentar">
+            <p>
+                In dorso legitur: “Anno 1155”. De tempore litterarum a. 1157 et non a. 1155 aut 1158,
+               cf. itinerarium 
+               Hadriani IV in 
+               JL. II p. 111. 125. 133, et 
+               Hiestand Initienverzeichnis p. 204. 212. 216. – De re cf. 
+               Estepa Estructura p. 192 (ad a. 1190); 
+               Fletcher Las iglesias p. 476. 483. – De legatione cardinalis 
+               Iacinti cf. 
+               Weiß Legaten p. 173–203. 
+               Ex itinerario 
+               Hadriani IV elucet has litteras non a. 
+               1155, sed a. 
+               1157 exhibitas esse, cf. 
+               JL. II p. 125. A. 
+               1155 iun. 8
+               Hadrianus IV in civitate 
+               Nepesina, a. 
+               1158 iun. 8
+               Sutrii moratus est, cf. ibid. p. 111; 
+               Hiestand Initienverzeichnis p. 216.
+               </p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+                  León, Episc.
+                  Burgos, Episc. León, Episc. n. 54 (Ib. Pont. II 28); Burgos, Episc. n. 101 (Ib. Pont.
+                  I 65); Lugo, Episc.; Zamora, Episc.; Palencia, Episc.; v. etiam León, Eccl. cath.
+                  n. 13 (Ib. Pont. II 65)</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl>Valiña El camino de Santiago p. 123 (ad a. 1156);</bibl>
+               <bibl>Fernández Catón Colección León V 281 n. 1485 ad a. 1155 iun. 19;</bibl>
+               <bibl>Domínguez Sánchez Documentos p. 83 n. 22 ad a. 1155</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

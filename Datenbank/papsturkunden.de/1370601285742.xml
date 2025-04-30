@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1370601285742">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName></persName>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1370601285742</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Original und Kopial</copyStatus>
+               <origDate when="1178-10-21">(1178) oct. 21</origDate>
+               <legalActor type="issuer">Alexander III</legalActor>
+               <legalActor type="recipient">M(artino) Bragensi praeposito</legalActor>
+               <legalActor type="recipient">G(ervasio) quondam ibidem dicto praeposito (scil. Wissegradensi)</legalActor>
+               <origPlace>Tuscolo</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-04-28+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+               
+               
+               Alexander III
+               
+               
+               M(artino) Bragensi praeposito 
+               et 
+               
+               G(ervasio) quondam ibidem dicto praeposito (scil. Wissegradensi) 
+               : referente sibi Carsilio de Ger(vasio), quod, ex quo Dominus eum corripuerit in corpore,
+               quidam filii afflictionem eius ampliare intendunt in rerum suarum violenta distractione,
+               personas eorum cum omnibus eorum possessionibus in tutelam beatorum apostolorum Petri
+               et Pauli et suam ponit et personas eorum commendat 
+               duci Boemiae et 
+               uxori eius.
+               </p>
+         </div>
+         <div type="Sachkommentar">
+            <p>
+               Gervasius Vissegradensis et Martinus Pragensis (
+               1174-1182) praepositi (de iis cf. 
+               Wilhelm Wostry Deutsche Weltgeistliche vor 1200. Kanzler Gervasius. Notar Martin in: Sudetendeutsche Lebensbilder 3, hrsg. von Erich Gierach [Reichenberg 1934] p.
+               42-49 et 
+               Hanke-Hajek Zusammensetzung [1940] p. 34-39) permulta bona fratribus ordinis sancti Iohannis Hierosolimitani largiti
+               sunt, v. 
+               Friedrich Cod. dipl. Bohem. I n. 245. 318; ob eam rem haec charta ad archivum fratrum eorundem pervenit. Tempus
+               evincitur ex eo, quod Alexander III die oct. 21 Tusculani annis 1178 et 
+               1180 morabatur; vicissim in litteris de morbo Gervasii praepositi (‘corripuerit in corpore’)
+               enarratur, qui de praepositura sua iam resignavit (‘quondam ... preposito’) et mox
+               (fortasse 
+               1179 febr. 10) de vita discessit. De tempore et re cf. 
+               Kristen l.c. p. 77-86 et 
+               Skopal Založení komendy p. 20sq. adn. 50.
+               </p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+                  Praha, Eccl. cath. Praha, Eccl. cath. n. 13 (Boh. Pont. 111); Bohemia, Duces ac reges
+                  n. 73 (Boh. Pont. 59); Praha, Vyšehrad n. 8 (Boh. Pont. 122).</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl>Zdeněk Kristen in: Sborník Vysoké školy pedagogické v Olomouci, Historie 4 (1957) 78</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

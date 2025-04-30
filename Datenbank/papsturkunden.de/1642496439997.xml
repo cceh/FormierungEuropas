@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1642496439997">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName></persName>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1642496439997</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus></copyStatus>
+               <origDate when="1163-05-19">1163 mai. 19</origDate>
+               <origPlace>Turonum</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p></p>
+         </div>
+         <div type="Sachkommentar">
+            <p>
+               On peut supposer que, lorsque 
+               l’archevêque élu Rainaud de 
+               Cologne rassembla, en juin 1164, un concile à 
+               Vienne pour faire reconnaître 
+               l’antipape Pascal III, l’évêque de 
+               Die y fut aussi présent. Au sujet de cet acte, voir 
+               Gall. Pont. III,1186 n. *304.
+               Lorsque 
+               l’archevêque élu Rainaud de 
+               Cologne rassembla, en juin 1164, un concile à 
+               Vienne pour faire reconnaître 
+               l’antipape Pascal III, 
+               l’évêque Raimond fut-il présent? À propos de cet acte, voir 
+               Gall. Pont. III,1 186 n. *304.
+               </p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+                  Die, episc. Vienne, archiepisc. (Gall. Pont. III,1 185 n. ?*303); Suffraganei Viennensi
+                  (Gall. Pont. III,2 39 n. ?*55 et Gall. Pont. III,3 39 n. ?*55); Grenoble, episc. (Gall.
+                  Pont. III,2 117 n. ?*176); Valence, episc. (Gall. Pont. III,2 295 n. ?*121); Die,
+                  episc. (Gall. Pont. III,3 84 n. ?*117); Viviers, episc. (Gall. Pont. III,3 287 n.
+                  ?*145) 
+                  Viviers, episc.
+                  </bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl></bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

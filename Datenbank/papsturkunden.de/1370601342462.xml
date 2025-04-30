@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1370601342462">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName></persName>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1370601342462</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Erwähnung</copyStatus>
+               <origDate notBefore="1161-06-19" notAfter="1161-06-22">1161 iun. 19 - 22</origDate>
+               <legalActor type="issuer">Victore IV</legalActor>
+               <legalActor type="issuer">Friderico I imperatore</legalActor>
+               <legalActor type="recipient">(Dipoldus)</legalActor>
+               <origPlace>Lodi</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>Victore IV et Friderico I imperatore praesentibus (Dipoldus) frater (Vladislai) regis
+               Boemiorum cum multis aliis synodo interest, qua concilii Papiensis decreta de Victore
+               IV et Rolando (Alexandro III) confirmantur.</p>
+         </div>
+         <div type="Sachkommentar">
+            <p>De re cf. Hefele-Leclercq V 2, 950sq.; Novotný I 2, 927; Laudage Alexander III. p. 128-149. – De Dipoldo I duce († 1167), qui et Theobaldus nominatur, filio Vladislai I, et familia eius cf. H. Kohn Die böhmischen Theobalde, in: MVGDB 6 (1868) 185-195. 212-222 (de Theobaldo I imprimis p. 185-193); Kazimierz Jasiński Działalność czeskich Dypoldowiców na Śląsku w pierwszej połowie
+               XIII w. [Die Tätigkeit der böhmischen Theobalde in Schlesien während der ersten Hälfte
+               des 13. Jhs.], in: Społeczeństwo Polski średniowiecznej IV (Warszawa 1990) 171-203 et Miloš Šolle Po stopách přemyslovských Děpolticů. Příspěvek ke genezi města Kouřimě
+               [Auf den Spuren der přemyslidischen Theobalde. Ein Beitrag zur Entstehung der Stadt
+               Kouřim] (Praha 2000).</p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>Bohemia, Duces ac reges Regnum et Imperium; Verden, Episc. n. *43 (Germ. Pont. V 1,
+                  217); Köln, Archiepisc. n. *327 (Germ. Pont. VII 108); Utrecht, Episc. n. *56; Münster,
+                  Episc. n. *38; Minden, Episc. n. *56 (Germ. Pont. IX, 26. 77. 164); Trier, Archiepisc.
+                  n. *301 (Germ. Pont. X 131); Bohemia, Duces ac reges n. *66 (Boh. Pont. 57).</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl></bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

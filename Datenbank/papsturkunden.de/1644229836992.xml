@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1644229836992">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName></persName>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1644229836992</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Original und Kopial</copyStatus>
+               <origDate when="1176-04-02">1176 april. 2</origDate>
+               <legalActor type="issuer">Alexander III</legalActor>
+               <legalActor type="recipient">Pontio abbati</legalActor>
+               <legalActor type="recipient">ejusque fratribus</legalActor>
+               <origPlace>Anagnia</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+               
+               
+               Alexander III 
+               
+               Pontio abbati 
+               
+               monasterii S. Mariae de Leoncellis 
+               
+               ejusque fratribus : concedit ut in 
+               Gall. Pont. III,3 116 n. 5, adjunctis (inter possessiones) una grangia et 7 locis.
+               Insuper statuit de clericis vel laicis ad conversionem libere recipiendis necnon de
+               pace et tranquillitate infra clausuras locorum seu grangiarum eorum.
+               </p>
+         </div>
+         <div type="Sachkommentar">
+            <p>
+               Le domaine ici confirmé, considérablement accru depuis le privilège de 1165, a été
+               étudié par 
+               Josserand, Léoncel, p. 486–487 (avec carte), 530. La plupart de ces possessions figureront deux ans
+               plus tard dans l’acte 
+               M. G. H., Dipl. Frédéric Ier, no 751.
+               </p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+                  Die, Leoncellum Die, Leoncellum (Gall. Pont. III,3 117 n. 6)</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl>Chevalier, Cartulaire de Léoncel , no 25, p. 29 (d’après A, citant deux cotes anciennes: Tua 450 [Inv. A] et DCVIII
+                  [Inv. B], et une notice dorsale)</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

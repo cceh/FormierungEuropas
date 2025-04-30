@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1422544639810">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName></persName>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1422544639810</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Kopial</copyStatus>
+               <origDate notBefore="1155-01-01" notAfter="1156-12-31">(1155-1156)</origDate>
+               <legalActor type="issuer">Hadrianus IV</legalActor>
+               <legalActor type="recipient">I(ohanni IV)</legalActor>
+               <origPlace></origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>Hadrianus IVI(ohanni IV)Oniensi (abbati): mandat, ut quicquid contra tenorem transactionis,
+               quae mediante I(acinto) diacono cardinali (Oña n. 22) inter eum et G(arsiam) abbatem
+               s. Aemiliani (San Millán de la Cogolla) de iure parrochiali quorundam parrochianorum
+               de Artable (Altable) facta est, recipere praesumpserit, eidem abbati infra triginta
+               dies restituat et eandem transactionem inviolabiliter studeat observare.</p>
+         </div>
+         <div type="Sachkommentar">
+            <p>In inscriptione perperam scriptum est 'venerabili fratri' loco 'dilecto filio', ut
+               convenit abbatibus.</p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>San Salvador de Oña San Salvador de Oña n. 23 (Ib. Pont. I 136); Calahorra-Nájera,
+                  San Millán de la Cogolla.</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl>Kehr Papsturkunden Spanien II 399 n. 82</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

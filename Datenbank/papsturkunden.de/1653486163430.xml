@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1653486163430">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName></persName>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1653486163430</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Kopial</copyStatus>
+               <origDate when="1176-11-09"> 1176 nov. 9</origDate>
+               <legalActor type="issuer">Alexander III</legalActor>
+               <legalActor type="recipient">Roberto priori</legalActor>
+               <legalActor type="recipient">ejusque fratribus</legalActor>
+               <origPlace>Anagnia</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+               
+               
+               Alexander III 
+               
+               Roberto priori 
+               
+               S. Mariae Bonae Fidei 
+               
+               ejusque fratribus : concedit ut in privilegio Cartusiae eodem die concesso (
+               Gall. Pont. III,2 199 n. 50) statuens tamen etiam de ordine monastico secundum 
+               b. Benedicti regulam et institutionem Cartusiensium fratrum observando.
+               </p>
+         </div>
+         <div type="Sachkommentar">
+            <p>
+               Le privilège fait partie d’une série de privilèges accordés par le pape en récompense
+               de l’engagement du 
+               Chartreux Thierry de 
+                La Silve-Bénite (diocèse de Vienne) lors des négociations qui aboutirent à la paix de 
+               Venise (1177); voir 
+               Gall. Pont. III,1 328 n. *1 et 329 n. 3 n. Le privilège de 
+               Bonnevaux et le privilège du même jour en faveur de la maison-mère attesteraient notamment
+               un second séjour de 
+               Thierry à la Curie après celui de septembre 1176; sur la chronologie, voir 
+               Gall. Pont. III,2 198 n. 49. Le prieur Robert aurait-il accompagné Thierry à l’automne 1176? On notera
+               que le texte ne fut pas établi à l’intention d’une maison particulière, mais fut calqué,
+               dans sa première partie, sur le privilège du 2 septembre 1176 en faveur de 
+               la Grande Chartreuse (
+               Gall. Pont. III,2 198 n. 49), sans doute présenté à la chancellerie. Ainsi, la protection apostolique
+               est octroyée à la maison destinataire aussi bien qu’«aux autres maisons de votre ordre»
+               et les limites leur sont confirmées bien que, dans le cas de 
+               Bonnefoy, elles n’aient pas encore été fixées. Sur la «clause de régularité», attestée ici
+               pour la première fois, voir 
+               Gall. Pont. III,2 199 n. 50. Le privilège est mentionné comme autorité pour l’exemption de dîmes dans
+               une lettre postérieure d’ 
+               Alexandre III (
+               Gall. Pont. III,3 326 n. 3 ) ainsi que dans un accord avec 
+               Saint-Chaffre (
+               Gall. Pont. III,3 327 n. 4 n.  et 
+                328 n. ?*9).
+               </p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+                  Viviers, monasterium S. Mariae Bonae Fidei Viviers, monasterium S. Mariae Bonae Fidei
+                  (Gall. Pont. III,3 325 n. 1)</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl>Lemaitre, Cartulaire de Bonnefoy , no 1, p. 11</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

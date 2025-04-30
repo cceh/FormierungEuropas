@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1642496440669">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName></persName>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1642496440669</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Original und Kopial</copyStatus>
+               <origDate when="1165-03-28">1165 mart. 28</origDate>
+               <legalActor type="issuer">Alexander III</legalActor>
+               <legalActor type="recipient">Petro</legalActor>
+               <origPlace>Senonum</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+               
+               
+               Alexander III
+               
+               
+               Petro
+               
+               
+               Diensi
+               episcopo ejusque successoribus: ejus postulationibus annuens, suscipit 
+               Diensem ecclesiam sub 
+               b. Petri et sua protectione communitque privilegio. Confirmat possessiones in quibus
+               propriis duxit exprimenda vocabulis 
+               Diensem civitatem cum omnibus pertinentiis, 10 castra inter quae 
+               castrum de Crista (Crest) cum omnibus quae 
+               Arnaldus de 
+               Crista in 
+               Diensi episcopatu possidet, et 
+               castrum de Gigorz (Gigors, canton Crest-Nord, arr. Die) cum omnibus que 
+               Guillelmus  de 
+               Pictavia (Poitiers) in eodem episcopatu tenet, 4 abbatias, videlicet 
+               S. Marcelli (Saint-Marcel de Die), 
+               S. Medardi (Saint-Médard-en-Piégros), 
+               S. Crucis (Sainte-Croix de Quint) et 
+               S. Juliani Guiniasie (Guignaise, commune de Châtillon), in quibus potestatem liberam
+               habeat de temporalibus et spiritualibus ordinandi et canonice disponendi necnon abbatias
+               
+               Fontis Leonne (Léoncel) et 
+               Seonis (Saou) «parrochiali jure ad 
+               Diensem ecclesiam pertinentes». Statuit ut nulli priorum ejus episcopatus seu clericorum
+               liceat ecclesias ad ejus jurisdictionem pertinentes ad alios sine ejus consilio ac
+               praescientia transferre nec ulli vicinorum episcoporum liceat eas recipere aut receptas
+               retinere. Decernit de tranquillitate et integritate 
+               Diensis ecclesiae salva in omnibus 
+               apostolicae sedis auctoritate.
+               
+               Alexander III
+               Petro
+               Diensi episcopo: in generali privilegio confirmat 
+               abbatiam Fontis Leonne parrochiali jure ad 
+               Diensem ecclesiam pertinere.
+               </p>
+         </div>
+         <div type="Sachkommentar">
+            <p>
+               D’une note dorsale du XIVe siècle de la chancellerie pontificale il ressort qu’A devait
+               servir a la chancellerie comme modèle pour un nouveau privilège (fratri episcopo 
+               Diensi privilegium commune). A ne fut pas rendu et fut incorporé comme la pièce la plus
+               ancienne dans une collection d’originaux, appelée Bullarium generale, qui, en 1783,
+               entra avec les registres avignonnais au Vatican et fut déreliée a l’époque de Bruno
+               Katterbach († 1931); voir 
+               A. Mercato, Il «Bullarium generale» dell’Archivio Segreto Vaticano e supplementi al
+               registro dell’antipapa Niccolo V, Citta del Vaticano, 1947 (Sussidi per la consultazione
+               dell’Archivio Vaticano = Studi e testi, 134), p. V–VI, A no 1, p. 1. Par sa liste des possessions, surtout celle des dix castra,
+               le privilège doit etre rapproché du diplôme de 
+               Frédéric Barberousse du 30 juillet 1178 en faveur de 
+               L’évêque Robert (
+               M. G. H., Dipl. Frédéric Ier, no 743) confirmant treize châteaux. La liste met en évidence deux donations particulièrement
+               importantes, a savoir celle du 
+               château de Crest effectuée par 
+               Arnaud de 
+               Crest et celle du 
+               château de Gigors par le comte Guillaume Ier de 
+               Poitiers (1158–1189), dont les actes de 1145, et de 1163, sont également transmis par C; voir
+               
+               Chevalier, Tituli Dienses, nos 12 et 13, p. 33 et p. 35; 
+               Reg. dauph., I, nos 3737 et 4153, c. 627, 695. Au sujet du 
+               château de Crest, voir Gall. Pont. III,3, p. 104–107, et, sur 
+               Saint-Médard: 
+               Gall. Pont. III,3 89 n. *133 et Gall. Pont. III,3 90 n. 134. En ce qui concerne les abbayes confirmées,
+               le privilège distingue entre celles qui dépendent de l’évêque a la fois pour le temporel
+               et le spirituel, et celles qui ne lui sont soumises qu’en tant que diocésaines (le
+               parrochiale jus), a savoir 
+               Léoncel et 
+               Saou. 
+               L’abbaye de Saou, située dans le 
+               Diois, avait été fondée a partir de biens du 
+               chapitre cathédral de Valence, tandis que 
+               Léoncel se trouvait près de la limite séparant le 
+               diocèse de Die de celui de 
+               Valence. Le privilège semble constituer le premier témoignage du conflit opposant les évêques
+               de 
+               Die et de 
+               Valence au sujet de cette abbaye; voir 
+               Gall. Pont. III,3, p. 111-119. L’interdiction faite à l’adresse des prieurs et clercs du diocèse de
+               soustraire des églises a la juridiction de l’évêque de 
+               Die en les «transférant» a des évêques voisins, et l’interdiction respective aux évêques
+               voisins de les accepter, pourraient bien se rapporter à des églises dépendantes de
+               
+               Léoncel ou de 
+               Saou, situées dans le diocèse de 
+               Die. Ces prieurs ou clercs s’étaient-ils adressés a l’évêque de 
+               Valence pour la cura animarum et le saint chrême? Malheureusement, les événements qui avaient
+               donné lieu à cette interdiction nous échappent. Sur ce privilège, voir 
+               Chevalier, Essai, I, p. 207–209 (avec traduction), et pour 
+               l’évêque Pierre, attesté des 1163 jusqu’en 1173: 
+               Chevalier, Essai, I, p. 207–213; 
+               Chevalier, Notes, p. 269.
+               L’appartenance de 
+               Léoncel à l’évêché de 
+               Die fut contestée aux évêques (de 
+               Die) par les évêques de 
+               Valence à partir de 1162 au plus tard (voir 
+               Gall. Pont. III,3 116 n. 5).
+               </p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+                  Die, episc. Die, episc. (Gall. Pont. III,3 84 n. 118);Die, abbatia S. Medardi (Gall.
+                  Pont. III,3 108 n. 1); 
+                  Die, Leoncellum Die, Leoncellum (Gall. Pont. III,3 116 n. 4)</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl>Gallia Christiana , XVI, instr., no 3, c. 186 (d’après C).</bibl>
+               <bibl>Chevalier, Tituli Dienses , no 6, p. 20</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

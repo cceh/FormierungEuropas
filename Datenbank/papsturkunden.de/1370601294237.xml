@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1370601294237">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName></persName>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1370601294237</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Original</copyStatus>
+               <origDate when="1179-06-01">(1179) iun. 1</origDate>
+               <legalActor type="issuer">Alexander III</legalActor>
+               <legalActor type="recipient">Rogerio magistro</legalActor>
+               <origPlace>Laterano</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-04-28+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>Alexander IIIRogerio magistro et fratribus Ierosolimitani hospitalis : decretum in
+               concilio (Lateranensi) promulgatum, quo ecclesias et decimas eis moderno tempore a
+               laicis concessas revocaverat, ita interpretatur, ut fratres Hospitalis eas, quas a
+               decem annis retro habent, eis confirmat.</p>
+         </div>
+         <div type="Sachkommentar">
+            <p>De his litteris adminus alia sex exemplaria sub eodem die concessa ex archivo Massiliensi
+               et hodie deperdita in archivo Melitensi cognoscuntur, cf. Delaville l.c.</p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>Praha, Sv. Maria na Male Strane Add. Praha, Sv. Maria na Male Strane Add. n. 2 (Boh.
+                  Pont. 129); Ordines militares, Oriens Pont.</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl>Delaville le Roulx I 385 n. 566;</bibl>
+               <bibl>Hiestand Papsturkunden für Templer und Johanniter p. 292 n. 104</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

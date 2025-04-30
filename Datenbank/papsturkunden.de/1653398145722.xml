@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1653398145722">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName></persName>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1653398145722</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Original und Kopial</copyStatus>
+               <origDate when="1175-01-31">(1175) ian. 31</origDate>
+               <legalActor type="issuer">Alexander III</legalActor>
+               <legalActor type="recipient">Johanni</legalActor>
+               <legalActor type="recipient">Nicolao</legalActor>
+               <origPlace>Ferentinum</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+               
+               
+               Alexander III
+               (
+               
+               Johanni
+               ) 
+               
+               Graciopolitano
+               et (
+               
+               Nicolao
+               ) 
+               
+               Vivariensi
+               episcopis: scribit se audivisse de prava consuetudine in partibus ejus irrepta quod
+               videlicet aliqui, cum clericos capiant aut in eos manus violentas injiciant, ne puniri
+               possint, ab eisdem clericis juramentum de pacis observantia extorquent. Miratur eos
+               in puniendis hujusmodi malefactoribus querimoniam expectare cum non ignorent illos
+               qui in clericos manus injiciunt violentas ex ipso actu sententiam excommunicationis
+               incurrere. Eis mandat quatenus illos qui, talia praesumentes, in clericis manus violentas
+               extenderunt vel in posterum extenderint, sublato appellationis remedio, pace taliter
+               extorta non obstante, excommunicent donec quid abstulerint, restituant et de illatis
+               injuriis congrue satisfaciant et cum litteris eorum apostolico se conspectui repraesentent.
+               </p>
+         </div>
+         <div type="Sachkommentar">
+            <p>
+               Sur la Collectio Oenipontana, voir 
+               S. Kuttner, Repertorium der Kanonistik (1140–1234), Città del Vaticano, 1937, p. 286, et, au sujet du manuscrit, voir 
+               W. Neuhauser, Katalog der Handschriften der Universitätsbibliothek Innsbruck. Cod.1–100,
+               Wien, 1987 (Veröffentlichungen der Kommission für Schrift- und Buchwesen des Mittelalters,
+               2, 4, 1), p. 247–250. Les collections des manuscrits de 
+               Londres et de 
+               Cambridge, mutilés, appartiennent à la famille de collections dite de 
+               “Worcester” (Wigorniensis); voir 
+               C. Duggan, Decretal Collections from Gratian’s Decretum to the Compilationes antiquae.
+               The Making of the New Case Law, dans W. Hartmann, K. Pennington (dir.), The History
+               of Medieval Canon Law in the Classical Period (1140–1234). From Gratian to the Decretals
+               of Pope Gregory IX, Washington D. C., 2008, p. 274–277. Sur 
+               l’évêque Nicolas (1173–1205), voir 
+               Régné, Histoire, II, p. 47–68.
+               </p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+                  Viviers, episc. Grenoble, episc. (Gall. Pont. III,2 118 n. 179); Viviers, episc. (Gall.
+                  Pont. III,3 289 n. 150)</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl>F. Maassen, Beiträge zur juristischen Literaturgeschichte des Mittelalters, dans Sitzungsberichte
+                  der Philosophisch-Historischen Classe der kaiserlichen Akademie der Wissenschaften,
+                  24/1–2, 1857 , p. 64 n. 5 (d’après Innsbruck, Cod. 90).</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1422883505051">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName></persName>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1422883505051</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Erwähnung</copyStatus>
+               <origDate notAfter="1163-11-13">(ante 1163 nov. 13)</origDate>
+               <legalActor type="issuer">Iohannes</legalActor>
+               <legalActor type="issuer">Petrus (II)</legalActor>
+               <legalActor type="recipient">Alexandro III</legalActor>
+               <origPlace></origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>Alexandro IIIIohannesToletanus archiepiscopus, Petrus (II)Burgensis aliique episcopi
+               Hispani litteras mittunt, in quibus apostolicam sedem de quadam controversia inter
+               episcopos Oxomensem et Seguntinum orta certiorem faciunt; significant inter alia Oxomensem
+               episcopum praesentiam Toletani archiepiscopi, iudicis delegati ex mandato apostolico,
+               adire et de excessibus respondere contempsisse.</p>
+         </div>
+         <div type="Sachkommentar">
+            <p>Litterae commissoriae, quae laudantur, deperditae sunt.</p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>Burgos, Episc. Burgos, Episc. n. *109 (Ib. Pont. I 69); Toledo, Archiepisc.; Osma,
+                  Episc.; Sigüenza, Episc.</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl></bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1422544611246">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName></persName>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1422544611246</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus></copyStatus>
+               <origDate when="1163-11-13">(1163) nov. 13</origDate>
+               <legalActor type="issuer">Alexander III</legalActor>
+               <legalActor type="recipient">Iohanni</legalActor>
+               <legalActor type="recipient">Stephano</legalActor>
+               <legalActor type="recipient">P(etro II)</legalActor>
+               <origPlace>Sens</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>Alexander IIIIohanniToletano archiepiscopo et StephanoZamorensi ac P(etro II)Burgensi
+               episcopis: litteris eorum et aliorum episcoporum Hispanorum (Burgos, Episc. n. *109)
+               cognitis mandat, ut episcopum Oxomensem infra viginti dies post harum susceptionem
+               ante suam praesentiam evocent super quibusdam excessibus canonice responsurum, significans,
+               quod Oxomensis episcopus, cum in Seguntina dioecesi plurimas violentias perpetravisset,
+               nec ad praesentiam archiepiscopi Toletani, qui eum ex mandato apostolico super hiis
+               evocavisset, venit nec ablata reddidit, verum etiam villam nomine Almazam (Almazán)
+               ad Segontinum episcopum pertinentem occupavit; mandat, ut episcopus Oxomensis, si
+               in praesentiam iudicum delegatorum venire contempserit vel se purgare non potuerit,
+               auctoritate apostolica ab omni pontificali officio suspendatur; insuper si praefatam
+               villam et ceteras sibi occupatas infra triginta dies post commonitionem episcopo Seguntino
+               non reddiderit, ipsi iudices Seguntinum in possessionem reducant aut, si non potuerint,
+               Oxomensem episcopum publice excommunicatum enuntient.</p>
+         </div>
+         <div type="Sachkommentar">
+            <p>De re v. etiam litteras Alexandri III, quas eodem anno nov. 21 regi Fredinando II direxit (ed. Minguella y Arnedo Historia I 412 n. 57) nec non eas, quas a. 1164 iun. 22 eisdem iudicibus delegatis episcopo Legionensi addito misit (Burgos, Episc. n. 112). Cf. Serrano Obispado de Burgos II 104; González Reino I 368sq. Episcopus Oxomensis vituperabatur, quod praeter villam Almazam has villas iniuste occupaverat: Ayllon, Caracena, Berlanga, cf. Burgos, Episc. n. 112.</p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>Burgos, Episc.; confer Ib. Pont I Burgos, Episc. n. 112.; Vide Ib. Pont. Sigüenza,
+                  Episc.; vide etiam Ib. Pont. Toledo, Archiepisc.; Ib. Pont. Zamora, Episc.; Ib. Pont.
+                  Osma, Episc.</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl>Minguella y Arnedo Historia I 406 n. 50</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

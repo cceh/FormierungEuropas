@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1562277337887">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName></persName>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1562277337887</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Kopial</copyStatus>
+               <origDate when="1177-08-02">(1177) aug. 2</origDate>
+               <origPlace>Venezia, Rialto</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-04-28+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+               
+               Alexander III
+               (Martino) abbati et capitulo monasterii 
+               s. Isidori
+               Legionensis: in virtute oboedientiae et sub diversis poenis mandat ut firmiter observent
+               compositionem quondam initam inter dictum monasterium et episcopum et canonicos 
+               Legionenses super praestatione bituri et mellis, et super aliis consuetudinibus et
+               iure episcopali; refert episcopum 
+               Legionensem
+               (Iohannem) querelam interposuisse (cf. San Isidoro n. *19), quia asserebat monasterium
+               compositionem et iuramentum non servare; vetat eis ne excommunicatos vel interdictos
+               episcopi ad divina officia, vel excommunicatos ad sepulturam seu ad conversionem in
+               coenobio praesumant recipere, aut, cum commune interdictum terrae fuerit, nisi clausis
+               ianuis, non pulsatis 
+               Campanis, exclusis excommunicatis et interdictis, suppressa voce, divina officia celebrare.
+               </p>
+         </div>
+         <div type="Sachkommentar">
+            <p>
+                De tempore cf. itinerarium 
+               Alexandri III in 
+               JL. II p. 313. Forsan loquitur ficticie de his litteris 
+               Lucas Tudensis in cap. 43 “De miraculis s. Isidori”, in quo narrat quod rex 
+               Ferdinandus II
+               Legionensis et uxor eius, 
+               Tarasia (1177–1180), una cum episcopo 
+               Legionensi, 
+               Iohanne, supplicarunt pontifici (
+               Alexandro III) ut ecclesia cathedralis 
+               Legionensis transferatur in ecclesiam 
+               s. Isidori (!), et quod ipse pontifex acceptavit hanc petitionem, et dictavit litteras executorias
+               ad hoc, postea mirabiliter deperditas (!) Cf. Lucae de 
+               Tuy Milagros de San Isidoro, Salamanca 1525 
+               (ed. Juan de Robles) p. 82sq.; 
+               Risco España Sagrada XXXV 364sq.
+               </p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+                  San Isidoro San Isidoro (Ib. Pont. II 92 n. 20); v. etiam Episc. n. 81 (Ib. Pont.
+                  II 37) ; et Eccl. cath. n. 30 (Ib. Pont. II 69).</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl>Fernández Catón Colección catedral de León V 483–484 n. 1605.</bibl>
+               <bibl>Martín López Patrimonio de San Isidoro p. 152–153 n. 119.</bibl>
+               <bibl>Domínguez Sánchez Documentos pontificios de León p. 112 n. 48</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

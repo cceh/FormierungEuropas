@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1370601279341">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName></persName>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1370601279341</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Erwähnung</copyStatus>
+               <origDate notBefore="1160-06-16">(1160 ante iun. 16)</origDate>
+               <legalActor type="issuer">Daniel Pragensis episcopus</legalActor>
+               <origPlace>Praha</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>Legatione Friderici I imperatoris et Victoris IV papae in Hungaria perfecta Daniel
+               Pragensis episcopus ad propriam pontificatus sedem (Pragam) proficiscitur (et ibi
+               eadem legatione fungitur).</p>
+         </div>
+         <div type="Sachkommentar">
+            <p>De re cf. Novotný I 2, 917sq.; Ohnsorge Päpstliche und gegenpäpstliche Legaten p. 7; Hilsch Bischöfe (I) p. 109sq. et novissime Uebach Ratgeber p. 183. Legimus in Vincentii Pragensis Annalibus (l.c.): ‘Tandem Pragam uenit eum
+               cruce precedente papalibus ornatus insigniis (!), qui honestissime a presbiteris,
+               canonicis et omni clero cum solempni processione suscipitur et ibi legatione imperatoris
+               domino regi relata in gratiam domni sui regis recipitur’. Tempus legationis ex privilegio
+               Vladislai I regis Boemorum in favorem Gradicensis monasterii a. 1160 iun. 16 dato
+               elucet (cf. regestum subsequens), in quo rex una cum Daniele episcopo 'ex canonica
+               et apostolica auctoritate' possessiones monasterii confirmat et contradictores banno
+               apponit (cf. Friedrich Cod. dipl. Bohem. I 196 n. 208).</p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>Praha, Episc. Praha, Episc. n. *92 (Boh. Pont. 100); Praha, Eccl. cath. n. *12 (Boh.
+                  Pont. 111).</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl></bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

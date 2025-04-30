@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1562277336480">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName></persName>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1562277336480</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Original</copyStatus>
+               <origDate when="1176-05-09">1176 mai. 9</origDate>
+               <legalActor type="issuer">Alexander III</legalActor>
+               <legalActor type="recipient">Martino abbati</legalActor>
+               <origPlace>Anagni</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+               
+               
+               Alexander III 
+               
+               Martino abbati 
+               
+               monasterii s. Isidori  eiusque fratribus tam praesentibus quam futuris etc.: ad exemplar
+               
+               Eugenii III (n. *6) et 
+               Hadriani IV (n. *8) et ad postulationem eiusdem coenobii, 
+               ecclesiam s. Isidori, quae iuri 
+               b. Petri specialiter esse dinoscitur, sub 
+               b. Petri et sua protectione suscipit; statuit ut ordo canonicus secundum 
+               b. Augustini regulam conservetur; sancit ut omnes possessiones et bona, propriis vocabulis
+               expressa, firma et illibata monasterio conserventur; concedit liberam electionem abbati;
+               concedit benedictionis gratiam a quocumque episcopo accipiendam; sancit ut chrisma,
+               oleum sanctum, consecrationes et ordinationes a quocumque episcopo suscipiantur; prohibet
+               ne ullus episcoporum ecclesiam aut clericos monasterii memorati interdicto supponat;
+               concedit cum commune interdictum terrae fuerit divina officia celebrare; concedit
+               liberam facultatem suscipiendi in monasterio ipso personas absolutas; interdicit ne
+               ullus professorum de claustro discedat; concedit liberam sepulturam in dicto loco;
+               sancit ut unus aureus ad indicium protectionis a 
+               sede apostolica annuatim persolvatur.
+               </p>
+         </div>
+         <div type="Sachkommentar">
+            <p>
+                Rota, BV. – De re cf. 
+               Pérez Llamazares Historia de San Isidoro p. 708; J. 
+               Rodríguez Señorío de Renueva p. 126sq.; 
+               Fletcher Las iglesias p. 477, 480; 
+               Suárez Aproximación p. 158. – 
+               monasterium s. Isidori sub censu unius marabotini etiam in Libro Censuum invenies, cf. 
+               Fabre-Duchesne Liber censuum I 221. II 116; cf. etiam 
+               Pfaff Liber Censuum p. 341 n. 646.
+               </p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+                  San Isidoro San Isidoro (Ib. Pont. II 91 n. 18)</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl>Lucas de Tuy Milagros de San Isidoro, Salamanca 1525 (ed. Juan de Robles) p. 397sq.</bibl>
+               <bibl>Valcarce El dominio de San Isidoro p. 82–85.</bibl>
+               <bibl>Domínguez Sánchez Patrimonio de San Isidoro p. 256–261 n. 137 (ex León Archivo de la Colegiata de San Isidoro n. 5).</bibl>
+               <bibl>Martín López Patrimonio de San Isidoro p. 145–149 n. 115.</bibl>
+               <bibl>Domínguez Sánchez Documentos pontificios de León p. 109–112 n. 47</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

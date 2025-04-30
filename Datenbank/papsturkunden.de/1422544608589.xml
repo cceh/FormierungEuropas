@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1422544608589">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName></persName>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1422544608589</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Kopial</copyStatus>
+               <origDate when="1157-05-13">(1157) mai. 13</origDate>
+               <legalActor type="issuer">Hadrianus IV</legalActor>
+               <legalActor type="recipient">Petro (II)</legalActor>
+               <origPlace>Laterano</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>Hadrianus IVPetro (II)Burgensi episcopo: postulationibus eius grato assensu concurrens
+               significat eum in ea libertate permanere, in qua praedecessores sui permansisse noscuntur;
+               statuit, ut nulli personae nisi Romano pontifici subiectus sit aut in aliquo respondeat.</p>
+         </div>
+         <div type="Sachkommentar">
+            <p>De re cf. Flórez España Sagrada XXVI 270sq.; Serrano Obispado de Burgos II 60sq.; Vehse Bistumsexemtionen p. 136sq. – Hadrianus IV non solum a. 1157 verum etiam a. 1158 et 1159 mense maioLaterani residebat, sed cum Petrus Petri, qui a. 1156 ex. electus erat, in documentis iam a. 1157 episcopus egerit, nos auctoribus Flórez et Serrano assentientes eum a. 1157 primo
+               vere apostolicam sedem ad consecrationem accipiendam adiisse censemus, ubi confirmationem
+               exemptionis ecclesiae suae impetraverit.</p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>Burgos, Episc. Burgos, Episc. n. 100 (Ib. Pont. I 65).</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl>Kehr Gött. Nachr. 1902 [Lombardei] p. 151 n. 3 =</bibl>
+               <bibl>Kehr-Volpini III 326 n. 3 ad a. 1157-1159 (ex Pav. cum initio Iniunctum nobis a).</bibl>
+               <bibl>Serrano Obispado de Burgos III 203 n. 121.</bibl>
+               <bibl>Garrido Garrido Documentación I 239 n. 143 ad a. 1155-1158</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1653378378452">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName></persName>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1653378378452</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus></copyStatus>
+               <origDate notBefore="1172-01-01" notAfter="1173-12-31">(1172–1173)</origDate>
+               <legalActor type="issuer">Alexander III</legalActor>
+               <legalActor type="recipient">Robertum</legalActor>
+               <origPlace></origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+               
+               
+               Alexander III
+               
+               
+               Robertum
+               
+               
+               Vivariensem
+               episcopum in 
+               Viennensem sedem transfert.
+               </p>
+         </div>
+         <div type="Sachkommentar">
+            <p>
+               Connu par un accord conclu en 1173 entre 
+               l’évêque Pierre du 
+               Puy et le 
+               vicomte Ponce de 
+               Polignac dans lequel un des médiateurs est désigné comme 
+               R. Dei gratia 
+               Viennensis electus et 
+               Vivariensis episcopus (
+               Vic-Vaissète, Histoire générale de Languedoc, VIII², no 16, p. 296 = 
+               A. Teulet, Layettes du Trésor des chartes, I, Paris, 1863 , no 245, p. 105). Cette translation, inconnue jusqu’ici de l’historiographie (voir
+               
+               Galland, Deux archevêchés, p. 87–88; 
+               Gall. Pont. III,1 186 n. 305), se situe avant le 11 août 1173, première attestation de 
+               Robert comme élu de 
+               Vienne (ibid.). Les auteurs anciens ont bien connu cette charte, mais suivant 
+               Gallia Christiana, XVI, c. 558, on contestait l’identité de 
+               R. avec 
+               l’archevêque Robert de 
+               Vienne tout en supposant l’existence d’un évêque de 
+               Viviers de ce nom, attesté le 11 novembre 1171 (
+               Reg. dauph., I, no 4452, c. 743) et mentionné pour la dernière fois dans la décrétale du 31 janvier
+               (1175) (
+               Gall. Pont. III,3 289 n. 150 ); voir 
+               Régné, Histoire, II, p. 45. L’adresse de cette lettre ne donne pourtant pas les noms des évêques
+               destinataires. Il n’existe pas non plus de témoignage sur l’origine casadéenne de
+               
+               Robert de 
+               Vienne, affirmée par la 
+               Gallia Christiana, XVI, c. 558, et 
+               P.-R. Gaussin, L’abbaye de La Chaise-Dieu (1043–1518), Toulouse, 1962, p. 370.
+               </p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+                  Viviers, episc. Viviers, episc. (Gall. Pont. III,3 289 n. *149)</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl></bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1653378374734">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName></persName>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1653378374734</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus></copyStatus>
+               <origDate when="1162-07-14">(1162) iul. 14</origDate>
+               <legalActor type="issuer">Alexander III</legalActor>
+               <legalActor type="recipient">Pontio</legalActor>
+               <legalActor type="recipient">universis utriusque suffraganeis</legalActor>
+               <legalActor type="recipient">Raimundo</legalActor>
+               <legalActor type="recipient">Petro</legalActor>
+               <legalActor type="recipient">Aldeberto</legalActor>
+               <legalActor type="recipient">Hugoni</legalActor>
+               <origPlace>Monspessulanus</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+               
+               
+               Alexander III  (
+               
+               Pontio ) 
+               
+               Narbonensi (Narbonne)  archiepiscopo, 
+               
+               Arelatensis (Arles) ecclesiae capitulo  et 
+               
+               universis utriusque suffraganeis , (
+               
+               Raimundo ) 
+               
+               Vivariensi , (
+               
+               Petro ) 
+               
+               Aniciensi (Le Puy) , (
+               
+               Aldeberto ) 
+               
+               Mimatensi (Mende)  et (
+               
+               Hugoni ) 
+               
+               Ruthenensi (Rodez)  episcopis: notificat se nobilem virum 
+               Guillelmum de 
+               Montepessulano (Montpellier) ejusque bona, homines et mercatores Montispessulanos
+               sub 
+               b. Petri et sua protectione suscepisse ipsosque tanquam principis apostolorum speciales
+               filios confovere. Eis mandat quatenus pro 
+               b. Petri et sua reverentia ipsos diligant ipsisque opem et consilium exhibeant necnon
+               apud parrochianos eorum satisfactionem faciant.
+               </p>
+         </div>
+         <div type="Sachkommentar">
+            <p>
+               Sur le contexte, voir 
+               J. Fried, Der päpstliche Schutz für Laienfürsten, Heidelberg, 1980 (Abhandlungen der
+               Heidelberger Akademie der Wissenschaften. Philosophisch-Historische Klasse, 1980/1), p. 171–173, et, au sujet de la curie itinérante: 
+               Hiestand, Kardinalizisches Gefolge, p. 245–247.
+               </p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+                  Viviers, episc. Viviers, episc. (Gall. Pont. III,3 287 n. 143); Montpellier, domini</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl>Germain, Liber instrumentorum memorialium , no 19, p. 47;</bibl>
+               <bibl>Migne, P. L. , 200, no 89, c. 163</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

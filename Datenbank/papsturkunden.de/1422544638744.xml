@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1422544638744">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName></persName>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1422544638744</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Original</copyStatus>
+               <origDate when="1155-03-03">1155 mart. 3</origDate>
+               <legalActor type="issuer">Iacinctus</legalActor>
+               <legalActor type="recipient">Victori</legalActor>
+               <origPlace>Nájera</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>Iacinctus S.R.E. diac. card., apostolicae sedis (Hadriani IV) legatus, VictoriBurgensi
+               episcopo eiusque successoribus etc.: confirmat diffinitionem controversiae inter Burgensem
+               et Oniensem ecclesias tam in praesentia Romanorum pontificum (Oña n. *16) quam iudicum
+               delectorum diutissime agitatae (cf. Oña n. 17), quae diffinitio utriusque partis consensu
+               et concordia hoc modo facta est: VictorBurgensis episcopus assensu totius capituli
+               sui Iohanni (IV) Oniensi abbati eiusque successoribus tertias decimarum in omnibus
+               eius ecclesiis nec non decimas septem villarum propriis vocabulis expressarum concedit;
+               Oniensis abbas cum capituli sui consensu Burgensi episcopo villam Ribilles (Revillaruz)
+               cum omnibus pertinentiis perpetuo possidendam concedit.</p>
+         </div>
+         <div type="Sachkommentar">
+            <p>Sigillum, quod olim pendebat, nunc deest. Charta confirmationis, quamquam episcopo
+               Burgensi directa est, cum aliis litteris eiusdem paene tenoris in favorem abbatis Oniensis exhibitis (Oña n. 21) in archivo Oniensi conservabatur. De re cf. Serrano Obispado de Burgos II 360sq.; Smith Iberian Legations p. 85; praeterea Oña n. 21 adn. Textum concordiae ed. Fita Canonización p. 101 n. 6. De Iacinto cardinali diacono s. Mariae in Cosmedin legationibusque eius cf. Fleisch Rom p. 144-161 cum studiis laudatis nec non Smith Iberian Legations passim. Eodem die Iacintus cardinalis eadem arenga 'Officii nostri debitum' usus litteras Toletano archiepiscopo exhibuit (ed. Kehr Gött. Nachr. 1903 p. 158 n. 13 = Kehr-Volpini IV 158 n. 13. Reg. Hernández Cartularios p. 508 n. 597).</p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>San Salvador de Oña San Salvador de Oña n. 20 (Ib. Pont. I 135); Burgos, Episc. n.
+                  97 (Ib. Pont. I 64).</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl>Fita Canonización p. 102 n. 7.</bibl>
+               <bibl>Álamo Colección Oña I 261 n. 219</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

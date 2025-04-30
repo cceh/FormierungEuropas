@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1653475912892">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName></persName>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1653475912892</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus></copyStatus>
+               <origDate notAfter="1170-12-15">(ante [1170–1172?] dec. 16)</origDate>
+               <origDate notAfter="1171-12-15"/>
+               <origDate notAfter="1172-12-15"/>
+               <legalActor type="issuer">fratribus</legalActor>
+               <legalActor type="recipient">Alexander III papa</legalActor>
+               <origPlace></origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+               
+               
+               Alexander III papa  a 
+               
+               fratribus 
+               
+               S. Ruphi , ut videtur, accipit 
+               Vivariensem episcopum suam sententiam super ecclesia 
+               S. Andeoli (
+               Gall. Pont. III,3 309 n. *14 ) non observare, sed eandem ecclesiam molestare et permittere
+               ut ei ab aliis gravamina inferantur.
+               </p>
+         </div>
+         <div type="Sachkommentar">
+            <p>
+               Connu par l’acte 
+               Gall. Pont. III,3 309 n. 16 . Voir aussi 
+               Gall. Pont. III,2 399 n. *112.
+               </p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+                  Viviers, ecclesia S. Andeoli Valence, ecclesia S. Ruffi (Gall. Pont. III,2 399 n.
+                  *112); Viviers, episc. (Gall. Pont. III,3 288 n. *147); Viviers, ecclesia S. Andeoli
+                  (Gall. Pont. III,3 309 n. *15)</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl></bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1422544607956">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName></persName>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1422544607956</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Erwähnung</copyStatus>
+               <origDate notBefore="1155-01-25" notAfter="1155-02-04">1155 (cr. ian. 25-febr. 4)</origDate>
+               <legalActor type="issuer">Iacintus</legalActor>
+               <legalActor type="issuer">Iacintus</legalActor>
+               <origPlace>Valladolid</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+               
+               
+               Iacintus  (diac. card. et) S.R.E. legatus (
+               Hadriani IV) praesentibus 
+               Adefonso VII rege, filiis eius 
+               Sancio et 
+               Ferrando nec non archiepiscopis 
+               Toletano ac 
+               Compostellano et permultis tam episcopis quam abbatibus generale concilium apud 
+               vallem Oliti celebrat, cui inter alios 
+               Victor
+               Burgensis episcopus et 
+               Iohannes (IV) abbas 
+               Oniensis intersunt.
+               
+               
+               Iacintus  (diac. card. et) S.R.E. (
+               Hadriani IV) legatus, praesentibus rege 
+               Aldefonso VII
+               Castellae et 
+               Legionis, filiis eius, 
+               Sancio et 
+               Ferrando, necnon permultis archiepiscopis, episcopis et abbatibus, inter eos antistite
+               
+               Iohanne
+               Legionensi et abbate 
+               Dominico
+               Sancti Facundi, generale concilium apud 
+               Vallem Oleti celebrat; in quo, inter alia, stabiliuntur iterum dispositiones concilii
+               
+               Lateranensis II a. 1139. In ipso concilio episcopus 
+               Lucensis querimoniam defert, quoniam ecclesiae de 
+               Triacastella, 
+               Valle Carceris (Valcárcel) et 
+               Navia, sitae in episcopatu eius longis retro temporibus, a 
+               Legionensi episcopo illicite occupatae fuerant.
+               </p>
+         </div>
+         <div type="Sachkommentar">
+            <p>
+               De concilio cf. 
+               Diz. Conc. VI 33sq.; 
+               García y García Concilios p. 442; 
+               Martínez Díez Legislación p. 349-353, ubi et anteriora studia reperies; insuper cf. 
+               Sandoval Historia f. 208 (= II 323); 
+               Serrano Obispado de Burgos II 49. De tempore cf. 
+               Fita Concilios nacionales de Salamanca y Valladolid p. 467-475. De 
+               Iacinto cardinali diacono 
+               s. Mariae in Cosmedin legationibusque eius cf. 
+               Fleisch Rom p. 144-161 cum studiis laudatis nec non 
+               Smith Iberian Legations passim.
+                Cf. etiam Sahagún n. *35. – De re, concilio et legatione cf. 
+               Sáenz de Aguirre Collectio maxima V 69; 
+               Mansi Sacrorum Conciliorum collectio XXI 835sq.; 
+               Escalona Historia de Sahagún p. 109. 115. 538; 
+               Risco España Sagrada XXXV 210; 
+               Tejada y Ramiro Colección de cánones III 273sq.; 
+               Fita Primera legación del cardenal Jacinto p. 530–555; 
+               Fita Concilios de Salamanca y Valladolid p. 449–475; 
+               Rassow La Cofradía de Belchite p. 129; 
+               Fletcher The Episcopate p. 32. 63. 175. 208. 211; 
+               Martínez Díez Concilios p. 573sq.; 
+               García y García Concilios p. 442; 
+               Martínez Díez Legislación conciliar p. 349–353; 
+               Smith Iberian Legations p. 84. – De quaestione archidiaconatus de 
+               Triacastella cf. 
+               García Conde Episcopologio Lucense p. 218. – De legatione cardinalis 
+               Iacinti cf. 
+               Weiß Legaten p. 173–203; 
+               Fleisch Rom p. 144–161 cum studiis laudatis; 
+               Smith Iberian Legations passim. Praeterea, videatur quod in illo tempore, in data 1155 antea febr. 1, cardinalis
+               
+               Iacintus, praesens in civitate 
+               Legionensi, misit litteras regi 
+               Sancio III
+               Castellae super habitatoribus villae de Olite. Cf. 
+               Weiß Legaten p. 176sq.
+               </p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+                  Burgos, Episc. Burgos, Episc. n. *95 (Ib. Pont. I 63); Regnum Castellae et Legionis;
+                  Palencia, Episc.; Oña n. *19 (Ib. Pont. I 135); León, Episc. n. *48 (Ib. Pont. II
+                  26); Sahagún n. *35 (Ib. Pont. II 118); Toledo, Archiepisc.; Osma, Episc.; Sigüenza,
+                  Episc.; Segovia, Episc.; Compostela, Archiepisc.; Ávila, Episc.; Salamanca, Episc.;
+                  Zamora, Episc.; Astorga; Episc.; Lugo, Episc.; Ourense, Episc.; Lamego, Episc.; Viseu,
+                  Episc.; Coimbra, Episc.; Porto, Episc.; Pamplona, Episc.; Calahorra-Nájera, Episc.;
+                  Oviedo, Episc.; Almería, Episc. 
+                  León, Episc. León, Episc. (Ib. Pont. II 26 n. *48); Palencia, Valladolid;</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl></bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

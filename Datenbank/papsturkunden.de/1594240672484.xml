@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1594240672484">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName></persName>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1594240672484</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Kopial</copyStatus>
+               <origDate when="1169-07-04">1169 iul. 4</origDate>
+               <origPlace>Benevento</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+               
+               Alexander III
+               Alexandro abbati
+               Cisterciensi et universis eiusdem ordinis coabbatibus etc.: concedit ut abbates ordinis
+               Cisterciensis qui de aliquo crimine vel infamia respersi, aut publice convicti, a
+               patribus abbatibus et demum a communi capitulo commoniti, suae praelationi sponte
+               cedere noluerint, ad 
+               sedem apostolicam appellandi facultatem non habeant aut suum reatum per episcopos
+               defendendi; sancit ut si episcopi substitutos abbates benedicere forte renuerint,
+               eisdem abbatibus liceat proprios novicios benedicere et alia quae ad illum officium
+               pertinent exercere, donec episcopi ipsi duritiam suam recogitent, et abbates benedicendos
+               benedicere non recussent; et, si episcopi aliquid ab abbatibus praeter oboedientiam
+               debitam contra libertatem ipsius Ordinis a 
+               Romanis pontificibus indultam expetiverint, liberum sit eisdem abbatibus, apostolica
+               auctoritate, denegare quod petitur, ne occassione ista Ordo ipse qui hactenus liber
+               extitit perpetue servitutis laqueo vinciatur; sancit quod si episcopi aliquam paenitentiam
+               propter hoc in personas vel ecclesias eiusdem Ordinis promulgaverint, eadem sententia
+               tamquam contra 
+               apostolicae sedis indulta prolata irrita sit.
+               </p>
+         </div>
+         <div type="Sachkommentar">
+            <p>
+               
+               </p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+                  Sandoval Sandoval (Ib. Pont. II 139 n. 1); Gall. Pont. Cîteaux.</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl>Henríquez Regula p. 56 =</bibl>
+               <bibl>Manrique Annales II 478 =</bibl>
+               <bibl>Chronica et cartularium p. 125 =</bibl>
+               <bibl>Migne PL 200 col. 592.</bibl>
+               <bibl>Castán Lanaspa Documentos de Sandoval p. 47sq. n. 6.</bibl>
+               <bibl>Domínguez Sánchez Documentos pontificios de León p. 97sq. n. 36.</bibl>
+               <bibl>Herrero Jiménez Colección de Sandoval p. 55–57 n. 8.</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1562021663432">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName></persName>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1562021663432</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Original</copyStatus>
+               <origDate when="1163-05-16">1163 mai. 16</origDate>
+               <origPlace>Tours</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+               
+               Alexander III
+               Iohanni
+               Legionensi episcopo eiusque successoribus etc.: ad exemplar 
+               Paschalis II (León, Episc. n. 13) et 
+               Hadriani IV (León, Episc. n. 55) et precibus ipsius episcopi et capituli 
+               Legionensium annuens (cf. León, Episc. n. *57), statuit ut episcopus et successores
+               eius nulli umquam metropolitano debeant nisi tantum 
+               Romano pontifici subiacere, et omnes qui episcopo in eadem sede successerint per manus
+               
+               Romani pontificis tamquam speciales 
+               Romanae Sedis suffraganei consecrentur; sancit etiam ut omnes possessiones et bona,
+               propriis vocabulis expressa, 
+               Legionensi ecclesiae perpetuis temporibus illibata conserventur, specialiter, ad exemplar
+               
+               Eugenii III (León, Episc. n. 46) et 
+               Hadriani IV (León, Episc. n. *56), decimas ecclesiarum pertinentium ad honorem 
+               s. Pelagii (infantado de San Pelayo) concessas a 
+               rege Aldefonso VII (a. 1143 ian. 30).
+               
+               Alexander III
+               Iohanni
+               Legionensi episcopo eiusque successoribus etc.: ad exemplar 
+               Paschalis II (León, Episc. n. 13) et 
+               Hadriani IV (León, Episc. n. 55) et precibus ipsius episcopi et capituli 
+               Legionensium annuens (cf. León, Episc. n. *57), statuit ut episcopus et successores
+               eius nulli umquam metropolitano debeant nisi tantum 
+               Romano pontifici subiacere, et omnes qui episcopo in eadem sede successerint per manus
+               
+               Romani pontificis tamquam speciales 
+               Romanae Sedis suffraganei consecrentur; sancit etiam ut omnes possessiones et bona,
+               propriis vocabulis expressa, 
+               Legionensi ecclesiae perpetuis temporibus illibata conserventur, specialiter, ad exemplar
+               
+               Eugenii III (León, Episc. n. 46) et 
+               Hadriani IV (León, Episc. n. *56), decimas ecclesiarum pertinentium ad honorem 
+               s. Pelagii (infantado de San Pelayo) concessas a 
+               rege Aldefonso VII (a. 1143 ian. 30).
+               </p>
+         </div>
+         <div type="Sachkommentar">
+            <p>
+                Scissum sinistrorsum. Rota, BV. – De re 
+               Risco España Sagrada XXXV 215; 
+               Panera Burón Exención de la iglesia Legionense p. 397; 
+               Posadilla Episcopologio I 237; 
+               Estepa Estructura p. 469 (ex España Sagrada, et ad a. 1170); 
+               Fletcher Las iglesias p. 477 et 479; 
+               Cavero Domínguez El episcopado p. 220. 
+                Scissum sinistrorsum. Rota, BV. – De re 
+               Risco España Sagrada XXXV 215; 
+               Panera Burón Exención de la iglesia Legionense p. 397; 
+               Posadilla Episcopologio I 237; 
+               Estepa Estructura p. 469 (ex España Sagrada, et ad a. 1170); 
+               Fletcher Las iglesias p. 477 et 479; 
+               Cavero Domínguez El episcopado p. 220. 
+               </p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+                  León, Episc. León, Episc. (Ib. Pont. II 30 n. 58); v. etiam León, Eccl. cath. n. 17
+                  (Ib. Pont. II 66); Escalada n. 3 (Ib. Pont. II 101); Eslonza n. 3 (Ib. Pont. II 134).
+                  
+                  León, Episc. León, Episc. (Ib. Pont. II 30 n. 58); v. etiam León, Eccl. cath. n. 17
+                  (Ib. Pont. II 66); Escalada n. 3 (Ib. Pont. II 101); Eslonza n. 3 (Ib. Pont. II 134).</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl>Risco España Sagrada XXXV app. V p. 421–424 =</bibl>
+               <bibl>Migne PL 200 col. 219–222.</bibl>
+               <bibl>Posadilla Episcopologio I app. III p. 245–248.</bibl>
+               <bibl>Panera Burón Exención de la iglesia Legionense p. 423–425.</bibl>
+               <bibl>Fernández Catón Colección catedral de León V 343–346 n. 1522.</bibl>
+               <bibl>Domínguez Sánchez Documentos pontificios de León p. 90sq. n. 28</bibl>
+               <bibl>Risco España Sagrada XXXV app. V p. 421–424 =</bibl>
+               <bibl>Migne PL 200 col. 219–222.</bibl>
+               <bibl>Posadilla Episcopologio I app. III p. 245–248.</bibl>
+               <bibl>Panera Burón Exención de la iglesia Legionense p. 423–425.</bibl>
+               <bibl>Fernández Catón Colección catedral de León V 343–346 n. 1522.</bibl>
+               <bibl>Domínguez Sánchez Documentos pontificios de León p. 90sq. n. 28.</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

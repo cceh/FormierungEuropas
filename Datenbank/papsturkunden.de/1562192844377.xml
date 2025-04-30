@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1562192844377">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName></persName>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1562192844377</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus></copyStatus>
+               <origDate when="1173-04-22">(1173 april. 22)</origDate>
+               <legalActor type="issuer">Ferdinandus (II) rex</legalActor>
+               <legalActor type="issuer">Iohannes</legalActor>
+               <legalActor type="recipient">Iacinto diacono cardinali</legalActor>
+               <origPlace>León</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+               
+               
+               Ferdinandus (II) rex 
+               
+               Legionis  et 
+               
+               Iohannes 
+               
+               Legionensis  episcopus supplicant 
+               
+               Iacinto diacono cardinali 
+               s. Mariae in Cosmedin et 
+               apostolicae sedis (
+               Alexandri III) legato ut corpora ss. martyrum 
+               Claudii, 
+               Lupercii et 
+               Victorici, de humili loco quo condita fuerant, super altare ecclesiae 
+               monasterii s. Claudii Legionensis devote reponat.
+               </p>
+         </div>
+         <div type="Sachkommentar">
+            <p>
+               
+               </p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+                  San Claudio San Claudio (Ib. Pont. II 80 n. *2); v. etiam León, Episc. n. *73 (Ib.
+                  Pont. II 73).</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl></bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

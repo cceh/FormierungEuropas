@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1653486164961">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName></persName>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1653486164961</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Kopial</copyStatus>
+               <origDate when="1179-02-15">(1179 febr. 15/iul. 4)</origDate>
+               <origDate when="1179-07-04"/>
+               <legalActor type="issuer">Alexander III</legalActor>
+               <legalActor type="recipient">Petro</legalActor>
+               <legalActor type="recipient">Nicolao</legalActor>
+               <origPlace>Roma, Laterano</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-04-28+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+               
+               
+               Alexander III  (
+               
+               Petro ) 
+               
+               Aniciensi (Le Puy)  et (
+               
+               Nicolao ) 
+               
+               Vivariensi  episcopis: scribit priorem et fratres 
+               Bonae Fidei sibi significavisse quod a quibusdam in eorum episcopatibus constitutis
+               super decimis laborum et nutrimentorum animalium contra tenorem privilegii Cartusiensi
+               ordini indulti (
+               Gall. Pont. III,3 325 n. 1 ) fatigantur. Unde eis mandat quatinus sub suspensionis
+               vel excommunicationis sententia prohibeant ne quis a fratribus 
+               Bonae Fidei vel aliis Cartusiensis ordinis decimas extorqueat.
+               </p>
+         </div>
+         <div type="Sachkommentar">
+            <p>
+               Vu que, quelques années plus tard, 
+               Urbain III intercéda au même sujet auprès de l’abbé de 
+               Saint-Chaffre et des chanoines de 
+               Charay (
+               Gall. Pont. III,3 328 n. 8 ), on peut conclure que cette lettre visait déjà ces deux institutions. Aussi un règlement
+               avec 
+               Charay, réalisé le 12 octobre 1179 par 
+               l’évêque Nicolas de 
+               Viviers (
+               Lemaitre, no 14, p. 22), apparaît-il comme le résultat de l’intervention pontificale. Sa date
+               permet de préciser celle de la lettre du pape: 
+               Alexandre III résidant au 
+               Latran du 15 mars jusqu’au 5 août 1178 (voir 
+               Falkenstein, Litterae, p. 364) et du 15 février jusqu’au 4 juillet 1179 (ibid.), une date vers la fin du
+               second séjour paraît probable, puisque 
+               l’évêque Nicolas de 
+               Viviers n’aurait certainement pas attendu une année pour agir. Un règlement avec 
+               Saint-Chaffre, discuté dans un premier temps avec 
+               l’abbé Guillaume (attesté seulement en 1179), et conclu, après sa mort, avec son successeur 
+               l’abbé Francon, apparemment sans la médiation de l’évêque du 
+               Puy, est transmis seulement par le cartulaire de 
+               Saint-Chaffre (
+               Chevalier, Cartulaire de Saint-Chaffre, c. 464, p. 209 = 
+               Lemaitre, Cartulaire de Bonnefoy, Annexe, no 203, p. 161).
+               </p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+                  Viviers, monasterium S. Mariae Bonae Fidei Viviers, episc. (Gall. Pont. III,3 290
+                  n. 154); Viviers, monasterium S. Mariae Bonae Fidei (Gall. Pont. III,3 326 n. 3)</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl>Lemaitre, Cartulaire de Bonnefoy , no 9, p. 19</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

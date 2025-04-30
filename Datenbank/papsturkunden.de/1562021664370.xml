@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1562021664370">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName></persName>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1562021664370</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Original</copyStatus>
+               <origDate when="1163-06-15">1163 iun. 15</origDate>
+               <legalActor type="issuer">Alexander III</legalActor>
+               <legalActor type="recipient">Iohanni</legalActor>
+               <origPlace>Tours</origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+               
+               
+               Alexander III 
+               
+               Iohanni 
+               
+               Legionensi  episcopo eiusque successoribus etc.: ad exemplar 
+               Eugenii III (n. 46), confirmat in perpetuum ei decimas ad 
+               Legionensem episcopum pertinentes in omnibus villis quae infra eiusdem episcopatus
+               terminos continentur, et quae ad honorem 
+               ecclesiae s. Pelagii spectare noscuntur, et de infantagii honore (infantado de San
+               Pelayo) fuerunt, concessas a 
+               rege Aldefonso VII (a. 1143 ian. 30) et 
+               Berengaria uxore eius, cum filiis suis, et 
+               Sanctia germana sua, pro peccatorum suorum remissione; praeter villas in quibus istae
+               ecclesiae fundatae sunt, ecclesia scilicet 
+               s. Michaelis de Scalada, 
+               ecclesia s. Petri de Aslonza (Eslonza) et 
+               ecclesia de Vega, et exceptis monasteriis quae sunt in 
+               Legionensi civitate, videlicet, 
+               ecclesia s. Salvatoris quae est extra murum ipsius civitatis, et aliis infra murum
+               exsistentibus, et 
+               villa de Fresno quae est in 
+               Valle de Uncina (Fresno del Camino aut de la Valdoncina), et 
+               villa s. Gervasii (Santervás de Campos); statuit ut census et consuetudines quas 
+               sedes Legionensis a praefatis ecclesiis accipere consueverat, eidem sedi ab ipsis
+               monasteriis more solito persolvantur.
+               </p>
+         </div>
+         <div type="Sachkommentar">
+            <p>
+                Rota, BV. – De re cf. 
+               Risco España Sagrada XXXV 215; 
+               Fletcher The Episcopate p. 205; 
+               Fletcher Las iglesias p. 477. 
+               </p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+                  León, Episc. León, Episc. (Ib. Pont. II 31 n. 61); v. etiam León, Eccl. cath. n. 19
+                  (Ib. Pont. II 67); Escalada n. 4 (Ib. Pont. II 101); Eslonza n. 4 (Ib. Pont. II 134);
+                  Ib. Pont. Regnum Castellae et Legionis.</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl>Fernández Catón Colección catedral de León V 349–351 n. 1525.</bibl>
+               <bibl>Domínguez Sánchez Documentos pontificios de León p. 93sq. n. 31</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

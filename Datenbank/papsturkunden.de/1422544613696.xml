@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1422544613696">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName></persName>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1422544613696</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Erwähnung</copyStatus>
+               <origDate notBefore="1172-01-01" notAfter="1173-12-31">(1172-1173)</origDate>
+               <legalActor type="issuer">Iacincto</legalActor>
+               <legalActor type="recipient">Petro (II)</legalActor>
+               <origPlace></origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-04-09+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>Praesentibus inter alios Iacincto S.R.E. diac. card., apostolicae sedis (Alexandri
+               III) legato, et Petro (II) episcopo Burgensi quaedam confraternitas benefactorum abbatiae
+               de Lebanza instituitur.</p>
+         </div>
+         <div type="Sachkommentar">
+            <p>Documenta abbatiae s. Mariae de Lebanza (dioec. Palentinae; cf. DHEE III 1584), quibus Serrano nisus est, adhibere non potuimus. Fortasse Serrano ad librum
+               dictum Becerro huius abbatiae rettulit; mentio eius et apud Navarro García Catálogo monumental III 188sq. et in DHEE III 1584 fit. Nuper quidem José María Canal Sánchez-Pagín/Roberto Gordaliza Aparicio
+               Don Rodrigo Gustioz, magnate Palentino del siglo XII, in: PITTM 72 (2001) 366 nullam
+               notitiam huius chartularii habere denuntiaverunt.</p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>Burgos, Episc. Burgos, Episc. n. *?120 (Ib. Pont. I 72); Palencia, Laici.</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl></bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

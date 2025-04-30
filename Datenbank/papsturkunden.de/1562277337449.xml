@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1562277337449">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title></title>
+            <respStmt xml:id="papsturkunden.de">
+               <resp when="2012">papsturkunden</resp>
+               <persName></persName>
+            </respStmt>
+            <respStmt xml:id="HB">
+               <resp when="2024">Transformation</resp>
+               <persName>Hannah Busch</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publisher</publisher>
+            <distributor>
+               <orgName>papsturkunden.de</orgName>
+            </distributor>
+            <idno type="id">1562277337449</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <diploDesc>
+               <copyStatus>Erwähnung</copyStatus>
+               <origDate notAfter="1177-12-31">(ante 1178)</origDate>
+               <origPlace></origPlace>
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-04-28+02:00">Automatische XSLT Transformation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <p>
+               
+               Alexander III praecipit ut ecclesia s. Mariae de Vega01, sita in suburbio 
+               civitatis Salamantinae, cum omnibus pertinentiis et redditibus suis, monasterio 
+               s. Isidori Legionensi revertatur. Significat quod orta fuit contentio inter 
+               Martinum abbatem ipsius monasterii et 
+               Velascum Henrici militem Salamatinum, quia ipse miles, licet primo per testamentum,
+               iure hereditario, ecclesiam s. Mariae de Vega01 coenobio 
+               s. Isidori concesserat, postea priorem et canonicos quos abbas 
+               s. Isidori miserat in ecclesiam s. Mariae02 ad serviendum Deo, absque iudicio et rationabili
+               causa, fecerat expelli; qua propter abbas per nuntios suos in praesentia 
+               Alexandri III de tam iniusta electionem gravem deposuit querimoniam (cf. San Isidoro
+               n. *21).
+               </p>
+         </div>
+         <div type="Sachkommentar">
+            <p>
+               
+               </p>
+         </div>
+         <div type="regesta">
+            <head>Regestenwerk</head>
+            <listBibl>
+               <bibl>
+                  San Isidoro San Isidoro (Ib. Pont. II 92 n. *22); v. etiam Ib. Pont. Salamanca, Episc.;
+                  Salamanca, Laici.</bibl>
+            </listBibl>
+         </div>
+         <div type="edition">
+            <listBibl>
+               <bibl>Valcarce El dominio de San Isidoro p. 174sq.</bibl>
+               <bibl>Martín López Patrimonio de San Isidoro p. 154–156 n. 121. Julio</bibl>
+               <bibl>González Regesta de Fernando II p. 120)</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>
