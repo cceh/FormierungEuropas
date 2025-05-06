@@ -19,7 +19,7 @@
             <bibl type="jaffe">[Jaffe-Nummer]</bibl>
             <diploDesc><p><issued><placeName>[Würzburg]</placeName><date type="issued" notBefore="1165-06-01" notAfter="1165-06-01">[(1165) Juni 1]</date>
                </issued></p>
-               <p><legalActor type="issuer">Friedrich I., Kaiser</legalActor></p><p>Heinrich, Graf  Troyes]</p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><legalActor type="issuer">Friedrich I., Kaiser</legalActor></p><p>Heinrich, Graf von Troyes</p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType>[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
