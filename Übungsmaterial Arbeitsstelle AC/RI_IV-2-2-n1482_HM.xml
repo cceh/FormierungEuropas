@@ -20,7 +20,7 @@
          <sourceDesc>
             <bibl>Friedrich I, RI IV,2,2 n. 1482 </bibl>
             <bibl type="jaffe">[Jaffe-Nummer]</bibl>
-            <diploDesc><p><issued><placeName>[Würzburg]</placeName><date type="issued" notBefore="1165-06-01" notAfter="1165-06-01">[(1165) Juni 1]</date>
+            <diploDesc><p><issued><placeName>[Würzburg]</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1165-06-01" precision="high" unit="cm" xml:space="default" notBefore="1165-06-01" type="issued">[(1165) Juni 1]</date>
                </issued></p>
                <p><legalActor type="issuer">[Issuer]</legalActor></p>
                <p> <legalActor type="recipient">[Rundschreiben; Heinrich; Troyes]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
