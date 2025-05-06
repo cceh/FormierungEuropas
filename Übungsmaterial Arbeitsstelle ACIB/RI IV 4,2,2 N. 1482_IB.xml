@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="null"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
@@ -23,7 +23,7 @@
          <sourceDesc>
             <bibl>Friedrich I, RI IV,2,2 n. 1482 </bibl>
             <bibl type="jaffe">[Jaffe-Nummer]</bibl>
-            <diploDesc><p><issued><placeName>[Würzburg]</placeName><date type="issued" notBefore="1165-06-01" notAfter="1165-06-01">[(1165) Juni 1]</date>
+            <diploDesc><p><issued><placeName>[Würzburg]</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1165-06-01" precision="high" unit="cm" xml:space="default" notBefore="1165-06-01" type="issued">[(1165) Juni 1]</date>
                </issued></p>
                <p><legalActor type="issuer">[Issuer]</legalActor></p>
                <p> <legalActor type="recipient">[Rundschreiben; Heinrich; Troyes]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
