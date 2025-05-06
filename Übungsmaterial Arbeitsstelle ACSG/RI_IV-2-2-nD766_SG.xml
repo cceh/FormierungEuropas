@@ -23,7 +23,7 @@
          <sourceDesc>
             <bibl>Friedrich I, RI IV,2,2 n. D766 </bibl>
             <bibl type="jaffe">[Jaffe-Nummer]</bibl>
-            <diploDesc><p><issued><placeName>[Ausstellungsort]</placeName><date type="issued" notBefore="1159-10-23" notAfter="1159-10-23">[(1159 wohl vor Oktober 23)]</date>
+            <diploDesc><p><issued><placeName>[Ausstellungsort]</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1159-10-23" precision="high" unit="cm" xml:space="default" notBefore="1159-10-23" type="issued">[(1159 wohl vor Oktober 23)]</date>
                </issued></p>
                <p><legalActor type="issuer">[Issuer]</legalActor></p>
                <p> <legalActor type="recipient">[Papst Viktor IV.]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
@@ -45,7 +45,7 @@
             <p>[Friedrich lädt Papst Viktor IV. ein, an der zur Beendigung des Schismas für die Oktav nach Epiphanie (= 1160 Januar 13) nach Pavia einberufenen Kirchenversammlung teilzunehmen.]</p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head>
-            <authen type="formula"><p>[*+?-]</p><!-- Echtheitskriterien --></authen></div>
+            <authen type="formula"><p>[*]</p><!-- Echtheitskriterien --></authen></div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
          <div type="commentary">
