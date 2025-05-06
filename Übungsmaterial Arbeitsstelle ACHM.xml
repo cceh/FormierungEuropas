@@ -23,8 +23,8 @@
             <diploDesc><p><issued><placeName>[-]</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1159-10-23" precision="high" unit="cm" xml:space="default" notBefore="1159-09-05" type="issued">[(1159 Sept. 5 – Okt. 23)]</date>
                </issued></p>
                <p><legalActor type="issuer">[Issuer]</legalActor></p>
-               <p> <legalActor type="recipient">[Papst Viktor IV.]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType>[Typisierung 1]</objectType></p>
+               <p> <legalActor type="recipient">[Viktor IV.]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType>[Brief]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
@@ -39,7 +39,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>[Friedrich lädt Papst Viktor IV. ein, an der zur Beendigung des Schismas für die Oktav nach Epiphanie (= 1160 Januar 13) nach Pavia einberufenen Kirchenversammlung teilzunehmen.]</p>
+            <p>[Kaiser Friedrich lädt Papst Viktor IV. ein, an der zur Beendigung des Schismas für die Oktav nach Epiphanie (= 1160 Januar 13) nach Pavia einberufenen Kirchenversammlung teilzunehmen.]</p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head>
             <authen type="formula"><p>[*+?-]</p><!-- Echtheitskriterien --></authen></div>
