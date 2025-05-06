@@ -25,7 +25,7 @@
             <bibl type="jaffe">[Jaffe-Nummer]</bibl>
             <diploDesc><p><issued><placeName>[Würzburg]</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1165-06-01" precision="high" unit="cm" xml:space="default" notBefore="1165-06-01" type="issued">[(1165) Juni 1]</date>
                </issued></p>
-               <p><legalActor type="issuer">[Friedrich I., Kaiser des Heiligen Römis]</legalActor></p>
+               <p><legalActor type="issuer">[Friedrich I., Kaiser des Heiligen Römischen Reiches]</legalActor></p>
                <p> <legalActor type="recipient">[Heinrich, Graf von Troyes]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType>[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
