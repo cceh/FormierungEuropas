@@ -20,9 +20,9 @@
          <sourceDesc>
             <bibl>Friedrich I, RI IV,2,2 n. D766 </bibl>
             <bibl type="jaffe">[Jaffe-Nummer]</bibl>
-            <diploDesc><p><issued><placeName>[Ausstellungsort]</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1159-10-23" precision="high" unit="cm" xml:space="default" notBefore="1159-09-05" type="issued">[(1159 wohl vor Oktober 23)]</date>
+            <diploDesc><p><issued><placeName>[-]</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1159-10-23" precision="high" unit="cm" xml:space="default" notBefore="1159-09-05" type="issued">[(1159 wohl vor Oktober 23)]</date>
                </issued></p>
-               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p><legalActor type="issuer">[Friedrich I., Kaiser]</legalActor></p>
                <p> <legalActor type="recipient">[Papst Viktor IV.]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType>[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
