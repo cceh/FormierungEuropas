@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Import RI online 2]</title>
+            <respStmt><resp>Mapping von Regesta imperii online auf Regesta imperii</resp><persName>MR</persName></respStmt>
+           <respStmt><resp when="2025">Encoding:</resp><persName>Sebastian Gensicke</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Regesta imperii online</publisher>
+            <idno>RI IV,2,2 n. 1482</idno>
+            <idno type="URN">1165-06-01_1_0_4_2_2_924_1482</idno>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Friedrich I, RI IV,2,2 n. 1482 </bibl>
+            <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+            <diploDesc><p><issued><placeName>Würzburg</placeName><date type="issued" notBefore="1165-06-01" notAfter="1165-06-01">(1165) Juni 1</date><date type="issued" notBefore="1165-06-01" notAfter="1165-06-01">Friedrich I., Kaiser</date></issued></p><p>Heinrich, Graf von Troyes</p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType>[Typisierung 1]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage></profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Kaiser Friedrich I. berichtet in einem Rundschreiben, das er unter anderem  an seinen Verwandten, Heinrich, Graf von Troyes, richtet, daß er auf dem auf Pfingsten (Mai 23) einberufenen Reichstag zu Würzburg nach der Bestätigung Papst Paschalis' (III.) persönlich den Eid abgelegt habe, den Schismatiker Roland oder seine Nachfolger niemals anzuerkennen; diesem Vorgang hätten sich alle 40 anwesenden Erzbischöfe, Bischöfe und Elekten sowie die weltlichen Fürsten, darunter (Heinrich der Löwe), Herzog von Sachsen und Bayern, Markgraf Albrecht der Ältere (der Bär), Konrad, Pfalzgraf bei Rhein und Ludwig, Landgraf (von Thüringen), angeschlossen. Nachdem alle anwesenden Elekten, unter ihnen als erster Rainald von Dassel, zu den Quatembern (Mai 29) ihre Weihen empfangen hatten, sei beschlossen worden, daß die noch ausstehenden Weihen bis zu den nächsten Quatembern (September 18) zu spenden seien. Die Leistung des Eides auf Papst Paschal (III.), die auch von den Legaten König Heinrichs von England erbracht wurde, wird bei Androhung des Verlustes aller kirchlichen Würden und Pfründen bzw. aller Lehen und Eigengüter jedermann aufgetragen. </p>
+         </div>
+         <div type="other"><head>Echtheitskriterien:</head>
+            <authen type="formula"><p>[*+?-]</p><!-- Echtheitskriterien --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Cunctis populis quos clemencie nostre</diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">Dat. Wirceburh, kal. iunii</diploPart></div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Vermutlich unter Beteiligung Rainalds von Dassel verfaßt. </p><p>Vgl. zur Sache die Erwähnung des Schreibens in einem Brief Johns von Salisbury an Bischof Jean von Poitiers von ca. 1166 Juli, Letters of John of Salisbury II, ed. Millor - Brooke, no 177 (S. 182).</p>
+         </div>
+         <div type="bibliography">
+            <head>Archival History</head>
+            <listBibl>
+               <bibl>Kop.: Abschriften des 12. Jh. im Cod. Vat. Regin. 179 f. 226', Vatikanische Bibliothek Rom (an den Grafen von Troyes, C); im Ms. Add. 25.438 f. 102', Britisches Museum London (D); sowie in folgenden Handschriften der Briefsammlung des Thomas Becket: Cod. Bodleianus 937 f. 66' (12. Jh.), Bibliothek zu Oxford (T1); Cod. Cottonianus Claud. B. II. f. 56 (12. Jh.), Britisches Museum zu London (T2); Cod. Vat. Regin. 1220 f. 87' (13. Jh.), Vatikanische Bibliothek Rom (T3). Drucke: MG. Const. 1, 314 no 223; MG. DF. I. 480. Reg.: Dobenecker, Reg. Thur. 2, no 293; Stumpf 4045.</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</head>
+            <p>[]</p>
+         </div>
+      </body>
+   </text>
+</TEI>
