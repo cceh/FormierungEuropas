@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_puu-in"> <!-- Ordnername hier ergänzen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+               <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>PUU Frankreich NF 8, S. 227-229, Nr. 56</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>PUU Frankreich NF 8, S. 227-229, Nr. 56</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
+            <diploDesc><p><issued><placeName>[Ausstellungsort]</placeName><date type="issued" notBefore="1159-01-06" notAfter="1159-09-30">(1159 Jan. 6-Sept. </date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+               </issued></p>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage></profileDesc>
+   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Der päpstliche Kaplan Petrus entbietet dem Abt A(chardus) von St-Vic- tor/Paris seine weiteren Dienste, berichtet vom Erwerb eines für  St-Victor  günstigeren Papstbriefes, gerichtet an den Bischof von Chartres gegen ein  Nonnenkloster,  und wünscht künftig - wegen fehlender Angaben in der  Supplik - Antragsschreiben,  die der Abt persönlich diktiert.  A(chardus)  habe 21 Mark gegenüber dem Papst (Hadrian IV.) erwähnt, dagegen ein  Versprechen des Gilbert, Sonderboten des Abtes von Fleury, betreffend zwei  - dem Petrus durch Tempelritter bis Epiphanias zu übersendende - Silber- mark verschwiegen. Der Kaplan klagt andererseits über Undank des Priors  Hu. von Eaucourt, empfiehlt dagegen einen magister Pe(trus) und ein ne- gotium fratris Hu(gonis). Über den Elekten  von Soissons,  (Hugo von  Champfleury), wünscht der Papst Nachrichten; der Elekt hätte ohne Hilfe  des Petrus seine Präbende in Paris nicht erhalten und solle sich dankbar er- weisen. Abt A(chardus)  und tunlichst auch die anderen  Viktorineräbte  möchten für den Kaplan Petrus zum Nutzen von St-Victor Bitten an den  Papstsenden. </p>
+         </div>
+         <div type="other"><head>Echtheitskriterien:</head>
+            <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
+         <div type="msSources">
+             <head>Handschriftliche Überlieferung</head>
+            <div>
+            <listBibl>   
+               <bibl>[Original]</bibl>
+               <bibl>Kopien s. XVII aus verlorener Briefsammlung  von St-Victor: Bibl. Nat.,  ms. lat. 14615  f . 315' [G*]; Annales (J. de Thoulouse), ibid., mss. lat. 14368  p.817 [H] und 14679 p.48l; Antiquitates  (J. de Thoulouse), ibid., ms. lat.  14677 f . 49'. - </bibl>
+               <bibl>[ggf. Druck]</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle mit Edition 1]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Ed.: Luchaire, Etudes p.117 n.62 aus G4H.  - Französ.  Übersetzung: Bonnard I, 206s. - </bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>[Regest 1]</bibl>
+               <bibl>[Regest 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Der Brief ist in mehrfacher Weise aufschlußreich für die sonst wenig be- zeugte Praxis der römischen Kurie des 12. Jh. bei der Ausstellung von Brie- fen, Eingaben der Bittsteller und Autorisation  von  Präbendenkumulation.  - Die Datierung zu 1159 ergibt sich durch die Nachrichten über den Elek- ten von Soissons, Hugo von Champfleury; vgl. Gallia Chr. IX, 361, wo auch  die anderen Pfründen dieses Präbendenpluralisten  großen Stils  vermerkt  sind: Arras, Orléans, Paris, Soissons; man denkt zugleich an den kapetingi- schen Prinzen Philipp, Bruder König Ludwigs VII., und andere  zeitgenössi- sche Fälle. Bei der Genehmigung von Hugos Pariser Präbende war an der  Kurie offenbar erheblicher Widerstand aufgetreten  (cf. JL 10126, 10340,  10522). Der Vorgänger Hugos als Bischof von Soissons starb 1158 Septem- ber 19; Papst Hadrian IV. verschied 1159 September  1. Der 6. Januar  (Theophania,) als Terminus post wird im Text bei Anm. 4 genannt. Die erwähnten finanziellen Transaktionen  bleiben teilweise dunkel. Si- cher ist bezüglich der zwei Silbermark zunächst nur der Termin zu Epipha- nias und der geplante Transfer durch die Templer. Die 21 Mark scheinen  von St-Victor und von St-Benoît-sur-Loire  beansprucht  worden zu sein.  Etwa zehn Prozent darüber hinaus waren offenbar dem Kaplan Petrus von  seiten des Abtes von St-Benoît zugesagt. Weitere Finanztransaktionen  des- selben Kaplans erwähnen die Briefe Nr. 93 und Nr. 94. Am Schluß scheint Petrus den Wunsch zu äußern, im Dienste des Viktori- nerordens befördert zu werden; es ist keineswegs Naivität, die hier zum  Ausdruck kommt. Der Kaplan gehört mit Sicherheit auch zum Konvent von  St-Victor. Romanus in der Intitulatio ist als Herkunftsangabe  aufzufassen;  vgl. Nr. 77 natione Romanus. </p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+         <listBibl>
+            <bibl>[Titel 1]</bibl>
+            <bibl>nan</bibl>
+         </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_puu-in"> <!-- Ordnername hier ergänzen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+               <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>PUU Frankreich NF 8, S. 340-343, Nr. 146</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>PUU Frankreich NF 8, S. 340-343, Nr. 146</bibl><bibl type="jaffe">13081</bibl>
+            <diploDesc><p><issued><placeName>Lateran</placeName><date type="issued" notBefore="1178-07-10" notAfter="1178-07-10">1178 Juli 10. </date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+               </issued></p>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage></profileDesc>
+   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Alexander III. bestätigt dem Abt Stephan und den  Regularkanonikern  des päpstlichen Eigenklosters Ste-Geneviève den päpstlichen Schutz sowie  die im einzelnen genannten Besitzungen und Rechte. </p>
+         </div>
+         <div type="other"><head>Echtheitskriterien:</head>
+            <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
+         <div type="msSources">
+             <head>Handschriftliche Überlieferung</head>
+            <div>
+            <listBibl>   
+               <bibl>[Original]</bibl>
+               <bibl>Chartular s. XIII: Bibl. Ste-Geneviève,  ms. 356 p.l7[C].  - Auszug s.  XVII (A. Duchesne nach C): Bibl. Nat., Coll. Baluze 55 f . 161. - Inventar s.  XVII: Arch. Nat., LL 1445p. 5 n. 6.-  </bibl>
+               <bibl>[ggf. Druck]</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle mit Edition 1]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>[Edition 1]</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL: 13081</bibl>
+               <bibl>Regesten: Lasteyrie p.455 n.557</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Bestätigt werden im  allgemeinen:  1. Die Augustinusregel;  vgl. Eugen III. 1150 (Nr. 40).  2. Die Besitzungen  nur allgemein; ausführliche Liste dagegen 1163 im  Privileg Alexanders III. (Nr. 87).  3. Exemtion aus der Jurisdiktion von Erzbischöfen, Bischöfen und päpstli- chen Legaten, die nicht a latere entsandt sind; vgl. Eugen III. 1150  (Nr. 40).  4. Verbot von Interdikts-  oder Exkommunikationssentenzen  gegen Klo- ster, Burgus und Kanoniker außer durch den Papst oder dessen Son- derbeauftragte  (gerichtet gegen ständige päpstliche  Legaten).  5. Schutz der Pfarrkirchen vor neuen Abgaben und  Prokurationsansprü- chen.  6. Rückkaufrecht  für Zehnten  aus Laienhand  und Verbot  unerlaubter  Vergabe von Zehnten durch Laien. 7.  Verbot unerlaubten  Baues von Kirchen oder Kapellen innerhalb der  Pfarreibezirke (päpstlicher  Vorbehalt).  8. Befreiung von Noval- und  Futterzehnten.  9. Verbot unerlaubten Austritts; vgl. Eugen III. 1148 (Nr. 31) und Alexan- der III. 1163 (Nr. 87).  10. Liberias der drei Pariser Kapellen von Ste-Geneviève  und ihrer Ka- pläne wie zur Zeit der Säkularkanoniker;  vgl. Eugen III. 1153 (Nr. 41).  11. Stille Messe in Prioraten bei  Generalinterdikt.  12. Verbot für fremde Kirchen, ihnen übertragene Zinsgüter oder Teilbau- rechte von Ste-Geneviève zu behalten.  13 Alienationsverbot für den Abt bei fehlender Zustimmung  des Kapitels.  14. Haftungsausschluß  bei Bürgschaft  von Kanonikern  und  Konversen  ohne Erlaubnis von Abt und Kapitel. Die Abfolge der Einzelbestimmungen  zeigt - unter Berücksichtigung  des  Datums 1178 - bemerkenswerten juristischen Sachverstand.  Dieser dürfte  unter anderem mit der Person des Bittstellers, Abt Stephan,  zusammenhän- gen (vgl. Einleitung). Der Text wird 1184 von Lucius III. (Nr. 161), 1190  von Clemens III. (Nr. 173) und 1196 von Celestin III. (Nr. 189) fast wört- lich wiederholt und nur um wenige Bestimmungen  erweitert. Die Rubrik in C trifft angesichts des weitgehend neuen Diktats nur sehr  unvollkommen zu: Item priuilegium domini Alexandri pape III, qui con- firmat predecessorum suorum priuilegia ecclesie beate Genouefe in- dulta. Zwei Marginalnotizen s. XIII sind dagegen bemerkenswert. Die erste  betrifft das verlorene Original: In scrinio papae XXXIIII. Die zweite ver- weist auf eine Bestätigung  Clemens' IV.: Hoc priuilegium habemus re- nouatum a domino Clemente papa IIII'° (geschrieben nach 1264; von Cle- mens IV. ist ein Privileg im Chartular C nicht  enthalten). </p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+         <listBibl>
+            <bibl>[Titel 1]</bibl>
+            <bibl>Regesten: Lasteyrie p.455 n.557</bibl>
+         </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+         </div>
+      </body>
+   </text>
+</TEI>

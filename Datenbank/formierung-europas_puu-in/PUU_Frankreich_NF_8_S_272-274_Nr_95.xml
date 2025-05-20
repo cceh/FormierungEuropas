@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_puu-in"> <!-- Ordnername hier ergänzen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+               <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>PUU Frankreich NF 8, S. 272-274, Nr. 95</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>PUU Frankreich NF 8, S. 272-274, Nr. 95</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
+            <diploDesc><p><issued><placeName>[Ausstellungsort]</placeName><date type="issued" notBefore="1162-03-01" notAfter="1165-03-31">(1162-65 März). </date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+               </issued></p>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage></profileDesc>
+   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Petrus (päpstlicher Kaplan?) übersendet dem Abt Ernisius von St-Victor  einen bereits mündlich erwähnten Brieftext, den der Abt ändern kann und  durch einen Schreiber ausfertigen lassen soll, da die Hand (littera) des Pe- trus und die eines dominus Durandus den Klerikern des Königs  bekannt  sind. Im Falle einer Gefahr soll der Brief sofort an den König  gelangen.  Über geheime Gespräche zwischen dem dominus des Petrus und dem Kö- nig soll der Abt in Geheimschrift (inter signa) berichten. </p>
+         </div>
+         <div type="other"><head>Echtheitskriterien:</head>
+            <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
+         <div type="msSources">
+             <head>Handschriftliche Überlieferung</head>
+            <div>
+            <listBibl>   
+               <bibl>[Original]</bibl>
+               <bibl>Kopien s. XVII aus verlorener Briefsammlung  von St-Victor: Bibl. Nat.,  ms. lat. 14615 f . 318' [G *]; Annales (Jean de Thoulouse), ibid. mss. lat.  14368 p.1014 [H] und 14679 p.597; Antiquitates  (Jean de  Thoulouse),  ibid., ms. lat. 14677f. 50 [JJ. - </bibl>
+               <bibl>[ggf. Druck]</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle mit Edition 1]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Ed.: Luchaire, Etudes p. 119 n.66 aus G*H;  Lohrmann, Petrus von S. Grisogonus p. 265. - </bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>[Regest 1]</bibl>
+               <bibl>[Regest 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Jean de Thoulouse stellt den Brief in den Annales (H) zunächst zu 1168  und bemerkt nur, diese „epistola Petri cuiusdam" zeige, „quanta autem es- set familiaritas  Ernisii abbatis cum rege Ludovico". In den Antiquitates  (J)  hingegen ordnet er den Brief den übrigen Schreiben des päpstlichen  Ka- plans Petrus zu, den er (zu Unrecht) mit dem Kardinal Petrus von S. Griso-gonus identifiziert. Er bezieht das Gespräch mit Ernisius auf die Zeit, „quo  Alexander morabatur in Galliis". Die Wendung nouissime cum loquerer  uobiscum spricht für diese Datierung, sofern wirklich der päpstliche  Ka- plan hier schreibt. Nähere Prüfung der Frage, wer in den beiden Schlußsätzen  mit dominus  meus gemeint sein kann, ergibt unter anderm die Möglichkeiten  eines Be- zugs auf den Papst, den Legaten Odo oder den Abt Ernisius. Der Papst  kommt in Frage, wenn Petrus identisch mit dem päpstlichen Kaplan von  Nr. 93-94 ist; die Gefahr wäre eventuell im Zusammenhang  der Ereignisse  von St-Jean-de-Losne  zu sehen. Für Ernisius käme die Zeit vor 1165 April  in Frage, in der Alexander III. ihn mehrfach schriftlich und mündlich ver- mahnt hat (unten Nr. 108); man vermißt aber auch in diesem Fall den Titel  capellanus pape. Mehr Wahrscheinlichkeit  bietet, wenn wir es recht sehen, nur der Bezug  auf den Legaten, Kardinal Odo von S. Nicolaus in carcere Tulliano. Wie  vor allem die Briefe Nr. 82-83 zeigen, befand er sich Ende 1161 - Anfang  1162 in einer außerordentlich  kritischen Lage gegenüber dem König von  Frankreich. Die befürchtete  Gefahr wäre der Landesverweis,  der nach  Nr. 83 tatsächlich eingetreten ist und auch von Ernisius nicht  verhindert  werden konnte. Der Brief gehört demnach am ehesten zum Anfang des Jah- res 1162. Petrus wäre demnach zu diesem Zeitpunkt nicht mehr Kaplan des  Papstes gewesen, sondern Begleiter des Legaten. Mit dem dominus Durandus kann ein Magister Durandus,  Kanoniker  des Domkapitels Paris, gemeint sein. Um Einkünfte in Höhe von 25 Pfund,  die er dem viktorinischen  Priorat von St-Paul bei Chevreuse  übertragen  hatte, lief 1173 ein Prozeß (Chartular Arch. Nat., LL 1450 A f . 173; cf.  Schoebel, Archiv und Besitz p. 218). Zu den Beziehungen zwischen Schrei- bern von St-Victor und solchen des Königs vgl. die Arbeiten von Fran(oise  Gasparri. </p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+         <listBibl>
+            <bibl>[Titel 1]</bibl>
+            <bibl>nan</bibl>
+         </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+         </div>
+      </body>
+   </text>
+</TEI>

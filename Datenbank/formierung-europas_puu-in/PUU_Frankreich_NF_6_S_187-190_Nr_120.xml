@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_puu-in"> <!-- Ordnername hier ergänzen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+               <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>PUU Frankreich NF 6, S. 187-190, Nr. 120</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>PUU Frankreich NF 6, S. 187-190, Nr. 120</bibl><bibl type="jaffe">12140</bibl>
+            <diploDesc><p><issued><placeName>Tusculanum</placeName><date type="issued" notBefore="1172-02-17" notAfter="1172-02-17">1172 Februar 17. </date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+               </issued></p>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage></profileDesc>
+   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Verfälscht. Alexander  III. nimmt das Kloster Le Gué de l'Orme unter dem Abt  Sidimis in Schutz und bestätigt die Cisterziensergewohnheiten, Besitzungen  und Rechte. </p>
+         </div>
+         <div type="other"><head>Echtheitskriterien:</head>
+            <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
+         <div type="msSources">
+             <head>Handschriftliche Überlieferung</head>
+            <div>
+            <listBibl>   
+               <bibl>[Original]</bibl>
+               <bibl>Transsumt s. XVII Orléans Arch. dép. du Loiret, H 18bis [B]; Char- tular von Saint-Euverte von 1775 p. 503 Paris Bibl. Nat., Ms. lat. 10089  [CJ; Kopie s. XVII ebenda Coli. Baluze 78 f. 72bis [D]; Kopie s. XVIII  ebenda Ms. lat. 12682 f. 104 [E]; Auszug von 1680 ebenda Ms. lat. 12775  p. 14.</bibl>
+               <bibl>[ggf. Druck]</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle mit Edition 1]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Auszug Vidier in Le Moyen-Age 19 (1906) 135 Nr. 9.</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL: 12140</bibl>
+               <bibl>[Regest 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Das vorliegende Privileg fällt unter den Urkunden für Le Gué de  l'Orme in mehrfacher Beziehung auf. In den Adressen der Papsturkunden  für diese Gemeinschaft ist sonst von dem Prior oder den Kanonikern die  Rede (Nr. 107, 111 und 131). Hier aber wird der Vorsteher als Abt be- zeichnet. Noch merkwürdiger ist jedoch der Wechsel, der hier im Vergleich  zu Alexander III. J.-L. 11180 Nr. 107 und J.-L. 12690 Nr. 131 bezüglich  der Ordenszugehörigkeit vorgenommen wurde. Während in den beiden genannten Privilegien dem Stift Le Gué de l'Orme die Stiftsverfassung nach  der Augustinerregel und den Prämonstratensergewohnheiten bestätigt wird,  ist in unserem Stück ein sonderbarer Wechsel eingetreten. Hier wird die  Klosterverfassung nach der Benediktinerregel und den Cisterziensergewohn- heiten bestätigt. Bei der Verleihung des päpstlichen Schutzes, die mit dem  Satz Quapropter beginnt, erweist sich die Phrase quod - instituta als  fälschender Einschub, weil dadurch der Rhythmus gestört wird und außer- dem dieser eingeschobene Satz im zweiten Teil aus der Konstruktion fällt.  Sonst erheben sich gegen das Privileg aber keine Bedenken. Es ist in der  Formulierung wie in den Unterschriften und der Datierung kanzleigemäß.  Die hier verliehenen Vorrechte der Zehntfreiheit, des Schutzes des klöster- lichen Friedens, der Aufnahmefreiheit sowie des Austrittsverbots sind  typisch für ein Cisterzienserprivileg, sie fehlten selten in einem Papst- privileg aus der zweiten Hälfte des 12. Jahrhunderts für ein Cisterzienser- kloster. Charakteristischerweise wird hier die Zehntfreiheit entsprechend dem  Sprachgebrauch bei Cisterzienserprivilegien auf die labores, d.h. auf den  ganzen Ackerbau, ausgedehnt, dagegen in Nr. 131 nur den novalia, d.h. den  Neubruchsländereien, zugestanden. Beim Vergleich des Privilegs mit den anderen Papsturkunden für Le  Gué de l'Orme fällt weiter auf, daß hier die Gründung einzig dem frater  Guido zugeschrieben wird, während in Nr. 107 und Nr. 131 die Beteiligung  des Königs Ludwig VII. von Frankreich mit Recht stark hervorgehoben und  in Nr. 131 an erster Stelle das Kapitel von Jargeau-sur-Loire genannt wird.  Ferner hat die Besitzliste in unserem Stück zu den anderen Papsturkunden  von Le Gué de l'Orme keinen Bezug. Das Privileg erklärt sich nur aus den  wirren Schicksalen, die Le Gué de l'Orme zu Ende der sechziger und zu  Beginn der siebziger Jahre des 12. Jahrhunderts erlebt hat, als der in der  Adresse genannte Abt Sidinus oder Sevinus gegen den Willen seiner Mit- brüder, aber mit Hilfe des Klosters Saint-Benoît-sur-Loire die Gemeinschaft  von Le Gué de l'Orme wegverlegen und Saint-Benoît-sur-Loire anschließen  wollte (vgl. Vidier a.a.O. S. 64 f. und 95 Nr. 7). Die Kanoniker beantworteten  den Plan Sevins mit dessen Vertreibung. In einer Urkunde des Bischofs  Mariasses von Orléans aus dem Jahre 1170 ed. Vidier a.a.O. S. 134 Nr. 8  bringen die Kanoniker vor, daß es niemandem erlaubt sei, ihre Verfassung  zu ändern oder ihr Haus dem Hause eines anderen Ordens zu unterwerfen,  es sei denn, es geschehe mit ihrem Willen. Sie stellten sich unter den Schutz  des Bischofs von Orléans. In Le Gué de l'Orme lehnte man Sevins Vorgehen  also rundweg ab. Das hinderte diesen aber nicht, nachdem er, wie Vidier  a.a.O. S. 75 wahrscheinlich machte, 1171 Abt des Cisterzienserklosters La  Cour-Dieu geworden war, seine Pläne, und zwar dieses Mal zugunsten des  Cisterzienserordens, wieder  auf  zunehmen. So erklärt sich die Änderung der  Gewohnheiten. Das Privileg ist also ein sehr bemerkenswerter Beleg für das  Bemühen großer Klöster, kleine religiöse Gemeinschaften ihrem Verbände  anzuschließen, um die Gefahr lästiger Mitbewerber in ihrem geschlossenen  Besitz fernzuhalten. Gegen Saint-Benoît-sur-Loire und La Cour Dieu hatte der Kampf von Le Gué de l'Orme Erfolg. Aber auf die Dauer konnte es sich  als kleines Prämonstratenserstift nicht halten und wurde 1178 vom Bischof  Manasses von Orléans dem Augustinerchorherrenstift Saint-Euverte in  Orléans übertragen (ed. Gallia christ. VIII Instr. 520 Nr. 46 und Vidier  a.a.O. S. 143 Nr. 16), was Alexander III. 1179 bestätigte (J.-L. 13468  Nr. 156). Die Interpolation ist ziemlich gleichzeitig und gehört in die Zeit  kurz nach 1172. </p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+         <listBibl>
+            <bibl>[Titel 1]</bibl>
+            <bibl>[Titel 2]</bibl>
+         </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_puu-in"> <!-- Ordnername hier ergänzen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+               <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>PUU Frankreich NF 8, S. 258-263, Nr. 87</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>PUU Frankreich NF 8, S. 258-263, Nr. 87</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
+            <diploDesc><p><issued><placeName>Paris</placeName><date type="issued" notBefore="1163-04-24" notAfter="1163-04-24">1163 April 24. </date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+               </issued></p>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage></profileDesc>
+   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Alexander III. bestätigt dem Abt Albert von Ste-Geneviève im Anschluß  an Eugen III. die Reform seiner Kirche, die Besitzungen und Rechte. </p>
+         </div>
+         <div type="other"><head>Echtheitskriterien:</head>
+            <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
+         <div type="msSources">
+             <head>Handschriftliche Überlieferung</head>
+            <div>
+            <listBibl>   
+               <bibl>[Original]</bibl>
+               <bibl>Chartular s. XIII: Bibl. Ste-Geneviève, ms. 356 p. 13 [C], - Kopie s. XVII  (A. Duchesne aus C): Bibl. Nat., Coll. Baluze 55 f . 159'. - Kopie von 1741  (aus C, mit Identifizierung  der Ortsnamen): Bibl. Ste-Geneviève, ms. 1708 </bibl>
+               <bibl>[ggf. Druck]</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle mit Edition 1]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>[Edition 1]</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>[Regest 1]</bibl>
+               <bibl>[Regest 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>/ 4 [C'J. - Inventar s. XVII: Arch. Nat., LL 1445 p.2n.5  [I]. - Ed.: Gallia  Chr. VII, Instr. p.24l n.28 (nach C') = Migne 200, 211 n. 150. -  Auszug:  Lasteyrie p.377 n.438 (nur Paris betreffend). - Zit.: Giard p.6O, passim;  Krusch, Neues Archiv 40 (1916) p.3l3s.;  M.Bloch, Mélanges hist. I, 452  n. 4. - Regest: JL 10855. Bestätigt werden im einzelnen:  1. die  Augustinusregel;  2. die Besitzungen allgemein mit  Einzelaufzählung;  3. Liberias und Immunität  samt Verbot der Verlehnung;  4. Verbot unerlaubten  Austritts;  5.  Exemtion;  6. freie Wahl des Bischofs bei  Weihehandlungen;  7. freie  Abtswahl;  8. Konsekration  des Abtes durch einen frei gewählten Bischof oder den Papst. Als Vorurkunde diente hauptsächlich das Privileg Eugens III. von 1150  (I; oben Nr. 40). Beim Verlehnungsverbot (3) ist auch das Privileg Pascha- lis' II. von 1107 direkt herangezogen  (II, oben Nr. 1). Das  Austrittsverbot  (4) entspricht dem von 1148 Okt. 20 (III, oben Nr. 31). Neu sind danach nur  noch der Verzicht auf ausschließliche  Konsekration  des Abtes durch den  Papst (8) und die detaillierte Güteraufzählung.  Diese Aufzählung  freilich  hat sehr hohen Wert, denn eine ältere Güterliste von Ste-Geneviève hat sich  nicht erhalten. Die wichtigsten alten Gütereinheiten  haben wir durch  voraufgehenden  Strich (-) hervorgehoben und auf der Karte im Einleitungsteil als „villae"  gekennzeichnet.  Diese „villae" liegen zunächst im Süden, dann im Osten,  Nordosten, Westen von Paris. Dem eingeschobenen Streubesitz geht jeweils  die Angabe Apud voran. Der Einzelbesitz  von Palaiseau (Anm. 14) bis  Vanves (Anm. 17) scheint geographisch nicht richtig eingefügt; er gehört am  ehesten zur „villa" Rungis (Anm. 2). Auteuil (erworben erst Anfang 12. Jh.)  ist zum Haupthof Nanterre gestellt. Mit Rosny-sous-Bois  (bei Vincennes)  beginnt vielleicht eine jüngere Erwerbsschicht (vgl. M. Bloch, Mélanges hist.  I, 452). Die Einzelangaben  ermöglichen, was sehr selten in Güterauf Zählungen  dieser Art vorkommt,  auch Einblick in die Sozialstruktur  der einzelnen  Grundherrschaften.  Die Angaben  über den Kopfzins  fcapitalia,) gehen  mehreren Prozessen der Abtei gegen die unfreie Bevölkerung vorauf und  sind in den Forschungen von Archibald (1910) und Marc Bloch (1938) noch  nicht  berücksichtigt. Die Liste als ganze wie auch der Rückgriff auf das Privileg von 1107 le- gen die Annahme nahe, daß Archiv und Schatz, welche die  Säkularkanoni- ker nach der Reform 1148 den Regularkanonikern  zunächst  vorenthalten  hatten, inzwischen wenigstens teilweise übergeben sind. Das Original des  Privilegs war im 17.-18. Jahrhundert  noch erhalten. Es bildete aber nicht  die Grundlage des Erstdruckes in Gallia Christiana VII. Benutzt hat dieser Druck vielmehr die Kopie C' und dazu eine von anderer Hand  beigefügte Identifizierung  der Ortsnamen  (vgl. auch Bibl. Ste-Geneviève,  ms. 376 f . 48). An einer Stelle verweist C' ausdrücklich  auf das  „authenticum" (Anm.e). Auch das Inventar I setzt die Existenz des Originals noch voraus.  Rubrik in C: Priuilegium domini Alexandri pape III. In quo confirmat predeeessorum suorum priuilegia ecclesie beate Genouefe Parisiensis indulta. In quo etiam connumerat singillatim et propriis uocabulis uillas, ecclesias, terras, possessiones, et redditus eiusdem ecclesie exprimit et suo priuilegio communit. Marginalie s. XIII in C (stark verblaßt): In scrinio [pap]e </p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+         <listBibl>
+            <bibl>[Titel 1]</bibl>
+            <bibl>[Titel 2]</bibl>
+         </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+         </div>
+      </body>
+   </text>
+</TEI>

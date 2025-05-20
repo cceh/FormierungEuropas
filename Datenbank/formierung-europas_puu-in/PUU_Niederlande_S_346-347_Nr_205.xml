@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_puu-in"> <!-- Ordnername hier ergänzen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+               <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>PUU Niederlande, S. 346-347, Nr. 205</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>PUU Niederlande, S. 346-347, Nr. 205</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
+            <diploDesc><p><issued><placeName>(Lateran</placeName><date type="issued" notBefore="1179-03-05" notAfter="1179-03-19">1179 März 5—19).</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+               </issued></p>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage></profileDesc>
+   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Alexander III. teilt dem Bischof U(lrich) und der Kirche von Halberstadt mit, daß er auf Veranlassung der Abte Dietrich von Ilsen burg und Thietmar von Michaelstein die Frage der Gültigkeit der von Gero erteilten Weihen im Kardinalskollegium untersucht habe; dabei habe er festgestellt, daß Gero vor dem Schisma von Erzbischof Hart- wich von Bremen geweiht sei und daher die von Gero geweihten Priester rechtmäßig Gottesdienst abhalten dürfen.</p>
+         </div>
+         <div type="other"><head>Echtheitskriterien:</head>
+            <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
+         <div type="msSources">
+             <head>Handschriftliche Überlieferung</head>
+            <div>
+            <listBibl>   
+               <bibl>[Original]</bibl>
+               <bibl>Kopie s. XIIIin. im Ms. 1440 (9645—49) f. 151 Brüssel Kgl. Bibl.</bibl>
+               <bibl>[ggf. Druck]</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle mit Edition 1]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>[Edition 1]</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>[Regest 1]</bibl>
+               <bibl>[Regest 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Der für die Geschichte des Bistums Halberstadt wichtige Brief, der durch die von Bischof Ulrich nach dem Frieden von Venedig er- griffenen Maßnahmen — die von dem kaiserlichen Bischof Gero ge- spendeten Weihen erkannte er nicht an und suspendierte die von Gero Geweihten — veranlaßt wurde (vgl. J. Fritsch, Die Besetzung des Halberstädter Bistums, Diss. Halle 1913, S. 83), hat kein Datum. Er läßt sich aber auf die Zeit vom 5.—19. März 1179 festsetzen, da Ar- nolds Slawenchronik II c. 9 (MG. SS. rer. Germ. S. 46) berichtet, daß die Frage der Gültigkeit der von Gero erteilten Weihen auf dem dritten Laterankonzil geprüft worden sei, wobei gleichfalls der Abt Dietrich von Ilsenburg als Intervenient erscheint. Sowohl bei Arnold wie auch nach der Darstellung, die Alexander III. in diesem Briefe von den Verhandlungen an der Kurie gibt, ist von den Abten versichert worden, daß Gero bereits vor dem Schisma von Erzbischof Hartwich von Bremen geweiht worden und infolge dessen die von Gero erteilten Weihen gültig seien. Wäre die eidliche Aussage, die die Abte vor dem Kardinals- kollegium gemacht haben, richtig, dann müßte Gero bereits 1159 vor dem Tode Hadrians IV. Bischof von Halberstadt geworden sein. Allein dagegen sprechen die klaren Angaben der Chroniken, die die Absetzung Ulrichs durch den Kardinaldiakon Gerhard und die Einsetzung des bisherigen Halberstädter Domdekans Gero als Bischof zum Jahre 1160 setzen (vgl. W. Ohnsorge, Päpstliche und gegenpäpstliche Legaten in Deutschland und Skandinavien 1159—1181 S. 9—12), und die Tat- sache, daß Gero noch 1160 als Domdekan vorkommt (G. Schmidt, Ur¬ kundenbuch des Hochstifts Halberstadt I 221 Nr. 255). Daß Gero von Hartwich von Bremen bereits vor dem Schisma geweiht sei, ist also eine falsche Aussage der beiden Abte gewesen, wobei es nicht zu entscheiden ist, ob sie den wahren Sachverhalt nicht besser wußten oder nicht wissen wollten. Schon vor Beendigung des Schismas hat die Weihe Geros eine Rolle gespielt, wie aus J.-L. 11943 hervorgeht. Vgl. auch O. H. May, Regesten der Erzbischöfe von Bremen I 149 Nr. 573.</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+         <listBibl>
+            <bibl>[Titel 1]</bibl>
+            <bibl>[Titel 2]</bibl>
+         </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+         </div>
+      </body>
+   </text>
+</TEI>

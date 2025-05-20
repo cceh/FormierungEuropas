@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_puu-in"> <!-- Ordnername hier ergänzen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+               <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>PUU Frankreich NF 5, S. 203-205, Nr. 113</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>PUU Frankreich NF 5, S. 203-205, Nr. 113</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
+            <diploDesc><p><issued><placeName>Sees</placeName><date type="issued" notBefore="1161-03-01" notAfter="1161-03-15">1161 (Anfang März). </date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+               </issued></p>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage></profileDesc>
+   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Der päpstliche Legat Kardinalpriester Heinrich  (von SS. Nereus  und Achilleus)  beurkundet den Schiedsspruch, den auf seinen Rat die  Äbte Robert von Saint-V  incent in Le Mans und H(erard) von Perseigne  und Magister Johannes, Kaplan des Königs Heinrich (II. von England)  in dem Streit der Äbte (Johannes) von Saint-Martin (in Sdes) und (Robert)  von Falaise über die Kirche Saint-Pierre in Le Gast gefällt haben, sowie  den Verzicht des Bischofs (Froger) von Sees auf die Klage gegen die beiden  Äbte. </p>
+         </div>
+         <div type="other"><head>Echtheitskriterien:</head>
+            <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
+         <div type="msSources">
+             <head>Handschriftliche Überlieferung</head>
+            <div>
+            <listBibl>   
+               <bibl>[Original]</bibl>
+               <bibl>Histoire de l'abbaye de St. Martin de Sees s. XVII Paris Bibl. Nat.,  Ms. franq. 18953 p. 40 [G 1] und p. 226 [G 2]. </bibl>
+               <bibl>[ggf. Druck]</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle mit Edition 1]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>[Edition 1]</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>[Regest 1]</bibl>
+               <bibl>[Regest 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Der Kardinalpriester Heinrich von SS. Nereus und Achilleus hielt  sich in den ersten Jahren von Alexanders III. Pontifikat lange Zeit in der  Normandie auf (vgl. J. Ramackers, Papsturkunden in Frankreich, N. F. II  196 Nr. 107). Der hier als Schiedsrichter tätige Kaplan Heinrichs II. von  England ist wohl entgegen Delisle, der a.a.O. S. 397 zweifelnd an Johannes  von Oxford dachte, Johannes Cumin, der spätere Erzbischof von Dublin  (Delisle a.a.O. S. 395), der bereits in einer Urkunde Heinrichs II. aus  den Jahren 1155-58 vorkommt (ed. Delisle, Recueil 1146 Nr. 45). Nach  dem zweiten Pontifikatsjahr Alexanders III., das am 20. September 1160  begann, und dem Inkarnationsjahr 1160 wäre als zeitliche Begrenzung der Zeitraum zwischen dem 20. September 1160 und dem 24. März 1161  möglich. Wir können aber diese Zeitspanne noch stärker eingrenzen. Zu  Beginn der Fastenzeit 1161 - nicht Anfang Juni, wie W. Ohnsorge, Die  Legaten Alexanders  III. im ersten Jahrzehnt seines Pontifikats (1159-1169)  (Berlin 1928) S. 41, die Zeitangabe Roberts von Torigny, Chronica a. 1161  ed. MG. SS. VI 511, 46 = Chronique de Robert de Torigni II 332 (in capite  ieiunii) übersetzt, obwohl der Bericht richtig zwischen Weihnachten 1160  und Ostern 1161 steht! - war nämlich eine wichtige Versammlung in  Le Mans, auf der der erblindete Erzbischof Hugo von Dol in Anwesenheit  des Königs Heinrich II. von England und der beiden Kardinäle Heinrich  von Pisa und Wilhelm von Pavia auf sein Erzbistum verzichtete. In Le Mans  ist der Streitfall zwischen Saint-Martin in Sees und Falaise wohl auch schon  vorverhandelt worden. Das muß man aus der Wahl des Abtes von Saint- Vincent  in Le Mans sowie eines Kaplans Heinrichs II. von England zu Schieds- richtern schließen. Von Le Mans hat sich die Reisegesellschaft nach Norden  begeben, und in Sdes hat dann der Kardinallegat Heinrich die durch Schieds- spruch zustande gekommene Einigung der beiden Parteien beurkundet.  Gerade die Mitbeteiligung des königlichen Kaplans bei diesem Schieds- spruch ist sehr aufschlußreich. Zeigt sie uns doch, daß in dem Augenblick  Verhandlungen zwischen dem Legaten und dem englischen König schwebten.  Der Aschermittwoch des Jahres 1161 fiel auf den 1. März, so daß die  Ausstellung der Legatenurkunde einige Tage später in Sees erfolgt sein  wird. </p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+         <listBibl>
+            <bibl>[Titel 1]</bibl>
+            <bibl>nan</bibl>
+         </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+         </div>
+      </body>
+   </text>
+</TEI>

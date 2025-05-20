@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_puu-in"> <!-- Ordnername hier ergänzen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+               <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>PUU Frankreich NF 8, S. 266-267, Nr. 90</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>PUU Frankreich NF 8, S. 266-267, Nr. 90</bibl><bibl type="jaffe">11055</bibl>
+            <diploDesc><p><issued><placeName>Sens</placeName><date type="issued" notBefore="1164-08-18" notAfter="1164-08-18">(1164) August 18. </date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+               </issued></p>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage></profileDesc>
+   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Alexander  III. beauftragt  die Äbte (Hugo) von  St-Germain-des-Prés,  (Ernisius) von St-Victor, den Prior und Subprior von St-Victor sowie den  ehemaligen Abt Odo von Ste-Geneviève  mit einem  Untersuchungsbericht  betreffend die Mißhandlung  des Kanonikers  Wilhelm von  Ste-Geneviève  nach dessen Rückkehr von einer ohne Erlaubnis angetretenen  Reise zum  Papst. </p>
+         </div>
+         <div type="other"><head>Echtheitskriterien:</head>
+            <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
+         <div type="msSources">
+             <head>Handschriftliche Überlieferung</head>
+            <div>
+            <listBibl>   
+               <bibl>[Original]</bibl>
+               <bibl>Briefsammlung  s. XII von St-Victor: Rom Bibl.Vat., ms. Reg. lat. 179  f . 258 [F]. - Kopie s. XVI aus F: Paris Bibl. Nat., ms. lat. 15058f.  76'[G}].  - Kopien s. XVII: Annales (J. de Thoulouse), ibid., mss. lat. 14368 p. 930  [H] und 14679 p. 548; Bibl. Ste-Geneviève, ms. 715 f . 12. - </bibl>
+               <bibl>[ggf. Druck]</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle mit Edition 1]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Ed.: Duchesne,  Script. IV (1641) 752 n.535 [L] aus F; Labbe, Concil.X, 1339; Hardouin,  Concil. VI, 2, 1536; Launoy, Opera II, 2, 670 (alle aus L); Martène, Coll. VI  (1724) 233 [M] aus G\- Mansi XXI, 1030 (aus Hardouin); RHFXV,  823  n.147 (aus LM); Migne 200, 307 n.267 (aus Mansi); Lasteyrie  p.384  n.454 (aus H). - </bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL: 11055</bibl>
+               <bibl>[Regest 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Den Anlaß der Untersuchung klärt die Vita des hier von Alexander  III.  geschützten Kanonikers  Wilhelm fWilhelmus de S. Germanoj, der später  Abt von S. Thomas de Paracleto in der Diözese Roskilde  wurde (Acta  Sanctorum April. I, 628s.). Nach der Vita hatte der Abt von Ste-Geneviève  (Garinus) vom König einen neuen Prior einsetzen lassen, was gegen die  Statuten  von St-Victor verstieß (cf. Liber ordinis, ed. Jocqué-Milis,  c.5,  p.25). Als dieser Prior zur Mahlzeit das cymbalum schlug (cf. ibid. c.35,  p. 166), hatte ihn Wilhelm zur Seite gedrängt und durch den Subprior er- setzt. Der Abt gebot Wilhelm darauf Schweigen und ließ ihn drei Tage pro  Woche bei Wasser und Brot auf der Erde essen. Ein Bruder habe die Sache  dem Papst in Sens gemeldet. - Das Folgende in der Vita steht in deutli- chem Gegensatz zu dem hier vorliegenden Mandat: Summus pontifex non  bene ferens ordinis prevaricationem et innocentem graviter sententia-tum, abbati de S. Genovefa subito mandavit, ut sue presentie sine mora  se exhiberet et Wilhelmum sui itineris faceret consortem. Paruit ille  mandato, assumptoque secum Wilhelme» venit Senonis, assistensque  summo pontifici temeritatis et indiscretionis arguitur, et Wilhelmus a  sententia liberatur. Et ne de cetero offîciales contra ordinis instituta eli- gantur vel instituantur, districtissime preeipitur. In den Verlauf der von Alexander III. vielmehr angeordneten  Untersu- chung gehört nach Martène, Coll. VI, 237 Anm. a, ein dort gedruckter Brief  eines frater G. an den Prior Richard von St-Victor, in dem ferner der Abt  von St-Germain-des-Prés  und ein negotium nostrum erwähnt sind. Abt Garinus von Ste-Geneviève  ist 1164-65 wahrscheinlich  abgesetzt  worden. Mit dem späteren Abt Guarinus von St-Victor (1172-92) ist er  schwerlich identisch (anders eine Vermutung in Gallia Chr. VII, 717). Der  künftige Abt von St-Victor war zuvor jedoch Kanoniker von Notre-Dame de  Châge in Meaux; vgl. RHF Obit. prov. de Sens I, 1 p.593 zu Oktober 19  (St-Victor) und ibid. IV, 200 zu Oktober 20 (N.-D. de Chaage in Meaux). </p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+         <listBibl>
+            <bibl>[Titel 1]</bibl>
+            <bibl>nan</bibl>
+         </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+         </div>
+      </body>
+   </text>
+</TEI>

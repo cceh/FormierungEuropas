@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_puu-in"> <!-- Ordnername hier ergänzen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+               <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>PUU Frankreich NF 9, S. 201-203, Nr. 69</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>PUU Frankreich NF 9, S. 201-203, Nr. 69</bibl><bibl type="jaffe">–</bibl>
+            <diploDesc><p><issued><placeName>[Ausstellungsort]</placeName><date type="issued" notBefore="1168-01-01" notAfter="1178-12-31">(1168-78). </date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+               </issued></p>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage></profileDesc>
+   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>(Alexander III.) befiehlt dem Abt (Hugo) von Saint-Germain-des-Prés  in  Paris (Ben., Diöz. Paris) und dem Magister P(etrus), Kanzler der Pariser  Kirche, dafür zu sorgen, daß der ehemalige Abt 0(do II. ? III. ?) von  Saint-Denis einem gewissen B. seine Schulden innerhalb von dreißig Ta- gen zurückzahlt oder sich vor ihnen rechtfertigt. </p>
+         </div>
+         <div type="other"><head>Echtheitskriterien:</head>
+            <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
+         <div type="msSources">
+             <head>Handschriftliche Überlieferung</head>
+            <div>
+            <listBibl>   
+               <bibl>[Original]</bibl>
+               <bibl>Collectio Wigorniensis 7.61 = London, British Museum, Royal 10 A  II f . 58 [Wig], - Collectio Claustroneoburgensis 293 = Klosterneuburg,  Stiftsbibliothek, CCI. 19 f . 80 [Cla]. - </bibl>
+               <bibl>[ggf. Druck]</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle mit Edition 1]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Ed.: F.Schönsteiner, in: Jahrbuch  des Stiftes Klosterneuburg 2 (1909) p. 120 n.293 (aus Cla); H.-E. Loh- mann, in: Zeitschrift der Savigny-Stiftung für Rechtsgeschichte 53, kan.  Abt. 22 (1933) p. 141 n. VII, 61 (aus Wig). - </bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL: – .</bibl>
+               <bibl>[Regest 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Die Datierung dieser Dekretale ergibt sich aus der Amtszeit des Pari- ser Kanzlers Petrus (1168-78); cf. zu ihm J. Longere, in: Dictionnaire de  Spiritualité ascétique et mystique XII/2, Paris 1986, col. 1614-26. Kaum  zu entscheiden ist hingegen, ob mit dem ehemaligen Abt von Saint-Denis  Odo II. (1151-62?) oder Odo III. (11627-68/69?) gemeint ist: weder ih- re genauen Amtszeiten  noch ihre Todesjahre stehen fest. Cf. Félibien  p. 198 s.; H. Waquet (ed.), Eudes de Deuil: La croisade de Louis VII, roi  de France, Paris 1949, p.9 gibt als Todesdatum Odos II. 1162 April 8  an, doch stützt er sich auf das unzuverlässige Nekrolog von Dom Racine  aus dem Jahre 1760. - Immerhin ist von Odo II. bekannt, daß er sich zu  Beginn seines Abbatiats schweren Vorwürfen ausgesetzt sah und deswe- gen an der Kurie Eugens III. und Anastasius' IV. prozessierte; cf. oben  die Vorbemerkungen zu Nr. 45. Während seines Romaufenthaltes lag die  Leitung der Abtei in Händen des Priors Ansellus (Félibien p. 194), von ei- ner zeitweiligen Amtsenthebung oder Resignation ist nichts bekannt; viel- mehr wissen wir, daß er sich schließlich vor Anastasius IV. rechtfertigen  konnte und weiterhin als Abt fungierte. In Saint-Denis bewahrte man  ihm und seinem gleichnamigen Nachfolger ein ehrenvolles Angedenken,  wie aus der Anniversarstiftung für beide durch Abt Odo IV. (1229-45)  hervorgeht (Félibien, pièces justif. p. CXXII n. 170). Die Frage, weshalb  in der Dekretale von Odo quondam abbas die Rede ist, muß somit unbe- antwortet bleiben. - Auf Odo III. folgten Ivo II. (1169-72) und Wilhelm  II. (1172-86), der tatsächlich demissionieren mußte; cf. unten die Vorbe- merkungen zu Nr. 92. Zu den beiden oben genannten Sammlungen, die dieses Stück überlie- fern, cf. St. Kuttner, Repertorium der Kanonistik (1140-1234), Cittä dei  Vaticano 1937, p. 278, 288, Ch. Duggan, Twelfth-century décrétai collec- tions and their importance in English history, London 1963, p. 49-51, 95- 117 sowie P.Landau,  in: Zeitschrift der Savigny-Stiftung für Rechtsge- schichte 96, kan. Abt. 66 (1979) p. 127s. Weitere Sammlungen,  in denen sich das Schreiben findet, teilte uns  Charles Duggan (London) aus den Scheden von Walther Holtzmann mit  (WH 541): Cusana 37, Cheltenhamensis  18.21, Cottoniana 7.27 und  Francofortana 54.4. Da Ch. Duggan beabsichtigt, im Rahmen einer grö- ßeren Edition von Dekretalen auch dieses Stück zu veröffentlichen, haben  wir uns darauf beschränkt, den Text auf der Basis von Wig und Cla her- zustellen. - Zur falschen Lesart diocesani statt Dionisii in Cla (Variante  c) cf. Duggan l. c. p. 115s., der auf die häufigen Schreibfehler bei Eigen- namen hinweist. </p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+         <listBibl>
+            <bibl>[Titel 1]</bibl>
+            <bibl>[Titel 2]</bibl>
+         </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_puu-in"> <!-- Ordnername hier ergänzen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+               <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>PUU Frankreich NF 8, S. 269-271, Nr. 93</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>PUU Frankreich NF 8, S. 269-271, Nr. 93</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
+            <diploDesc><p><issued><placeName>[Ausstellungsort]</placeName><date type="issued" notBefore="1162-01-01" notAfter="1164-09-21">(1162-1164 vor Herbst). </date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+               </issued></p>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage></profileDesc>
+   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Der päpstliche Kaplan Pe(trus) berichtet dem Abt Er(nisius) von St-Vic- tor/Paris über einen Kredit von zwei Pfund Silber, den er auf Bitten des Er- nisius dem Bruder Robert von Bristol gewährt hat, und bittet um Mitteilung  davon an den Abt von Bristol. </p>
+         </div>
+         <div type="other"><head>Echtheitskriterien:</head>
+            <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
+         <div type="msSources">
+             <head>Handschriftliche Überlieferung</head>
+            <div>
+            <listBibl>   
+               <bibl>[Original]</bibl>
+               <bibl>Briefsammlung  s. XII von St-Victor: Rom Bibl. Vat., ms. Reg. lat. 179 f .  265' [F], - Kopie s. XVI aus F: Bibl. Nat., ms. lat. 15058 f.77[G3].-  Ko- pien s. XVII (J. de Thoulouse aus G}): Annales, ibid., mss. lat. 14368 p. 971  [H] und 14679 p.573; Antiquitates,  ibid., ms. lat. 14677f. 50'. - </bibl>
+               <bibl>[ggf. Druck]</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle mit Edition 1]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Ed.: Du- chesne, Script. IV (1641) 756 n. 551 [L] aus F; Martène, Coll. VI (1724) 234  [M] aus G1; Migne 196, 1383 n. 3 aus M. - </bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>[Regest 1]</bibl>
+               <bibl>[Regest 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Wegen des Kredits an Robert von Bristol ist der Verfasser des Briefes mit  Sicherheit derselbe wie der von Nr. 94. Die Handschrift F nennt ihn Pe.  sancti Grisogoni (Anm. c; ebenso G3 und die Drucke). Der Schreiber des  ausgehenden 12. Jh. hat hier offenbar anzeigen wollen, daß es sich um den  später hochberühmten  Kardinalpriester  Petrus von S. Grisogonus  handele.  Dieser wurde aber erst 1173 kreiert und hieß in Wirklichkeit magister Pe- trus Iterius (Wiederhold VI n. 4 7). In Frankreich versah er 1174- 78 eine po- litisch hochbedeutende  Legation (Janssen, Legaten p. 92-108). Seine frü- here Zugehörigkeit  zum Konvent von St-Victor war deshalb lange umstrit- ten: Jean de Thoulouse nahm sie an, Delehaye hat sie entschieden bezwei- felt, Luchaire sie vorsichtig bejaht, Janssen offen gelassen, Châtillon wieder  verneint. Den Ausschlag zum Negativen geben getrennte Einträge für den  Kaplan und den nur als Wohltäter bezeichneten Kardinal im Obituar von  St-Victor zum 26. Juli (Kardinal) und 22. September (RHF Obit. prov. de  Sens 1,1 p.572, 588; vgl. Lohrmann, Petrus von S. Grisogonus p.266). Abt Ernisius hat sich der erbetenen Mitteilung an den Abt von Bristol,  wie es scheint, nicht entzogen. Ein Schreiben an ihn aus Bristol erwähnt be- neficia (que erogastis) fratri nostro Rob. verbo, opere atque consilio  (Migne 196, 1386 n. 10). Zu den weiteren Beziehungen zwischen  St-Victor  und Bristol vgl. Luchaire, Etudes p. 106 n. 36 (langer Brief eines Victoriners  Thomas aus Bristol an den seit 16 Jahren abwesenden Prior Robert) sowie  Bonnard I, l55ss., und allgemein J.C. Dickinson, English regulär canons  and the continent in the twelfth Century, in: Transactions of the Royal Hi- storical Society 1951, p. 71-89. </p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+         <listBibl>
+            <bibl>[Titel 1]</bibl>
+            <bibl>nan</bibl>
+         </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+         </div>
+      </body>
+   </text>
+</TEI>

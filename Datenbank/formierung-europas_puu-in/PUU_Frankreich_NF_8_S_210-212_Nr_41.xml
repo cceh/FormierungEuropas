@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_puu-in"> <!-- Ordnername hier ergänzen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+               <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>PUU Frankreich NF 8, S. 210-212, Nr. 41</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>PUU Frankreich NF 8, S. 210-212, Nr. 41</bibl><bibl type="jaffe">9661</bibl>
+            <diploDesc><p><issued><placeName>Lateran</placeName><date type="issued" notBefore="1153-01-08" notAfter="1153-01-08">(1153) Januar 8. </date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+               </issued></p>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage></profileDesc>
+   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Eugen III. bestätigt dem Bischof Theobald von Paris seine  Entscheidung  im Streit zwischen dem Bischof und den (Regulär-)Kanonikern  von Ste-Ge- neviève über die Pfarrei St-Jean (-du-Mont).  </p>
+         </div>
+         <div type="other"><head>Echtheitskriterien:</head>
+            <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
+         <div type="msSources">
+             <head>Handschriftliche Überlieferung</head>
+            <div>
+            <listBibl>   
+               <bibl>Orig. aus dem Archiv des Bischofs von Paris: Arch. Nat., L 228 n.2 [AJ. </bibl>
+               <bibl>Cartul. de l`évêché s. XIII: Bibl. Nat., ms. lat. 5526 f . 20', ohne Datum  [C], - Grand cartul. de l`évêché, s. XIV: Arch. Nat., LL7f.172  [DJ. - Ko- pie s. XVII (Gaignières aus C): Bibl. Nat., ms. lat. 5185 p. 16. - Kopien s.  XVIII aus C: ibid., ms. lat. 9150 f . 40' und Coll. Moreau 62 f . 54; Arch.  Nat., LL 185 f.39. - </bibl>
+               <bibl>[ggf. Druck]</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle mit Edition 1]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Ed.: Sauval, Antiquités de Paris III (1724) Preuves  p.49 (aus Cartul. de M. de la Mothe p.89 f . 16'); Guérard, Cartul. de  Notre-Dame de Paris I, 30 n.13 (aus CD zu 1145-53); Migne 180, 1565  n.547. - </bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL: 9661 (zu 1146-53) </bibl>
+               <bibl>Regesten: Lasteyrie p.32l n.356 (zu 1150 oder 1153)</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Der Ausstellungsort  Lateran ermöglicht Einordnung zu den Jahren 1146.  50. 53. Die Formulierungen  siue sit regularis canonicus siue non und ab- bati et fratribus setzen die Einführung der Regularkanoniker  in Ste-Gene- viève voraus. Diese Reform war Anfang 1146 noch nicht begonnen und An-fang 1150 noch nicht definitiv abgeschlossen. Da die Pfarrei vermutlich erst  nach dem Mandat Eugens III. von 1149 Februar 25 (Nr. 34) mit einem Re- gularkanoniker  besetzt werden konnte und die Brüder ihre Abgaben an den  Bischof wiederholt, das heißt mehrere Jahre, verweigert haben (tibi nullo  modo exsoluebantj, bleibt somit nur 1153. Die umstrittene Pfarrkirche war St-Jean-du-Mont  und nicht  St-Jean-en- Grève auf der Ile-de-la-Cité, was sich vor allem aus der bischöflichen  Ex- emtion von 1107 ergibt (Anm.2). Vgl. auch Friedmann p. 100-103 und 244- 251 (neuer Prozeß unter Innocenz III.).  Dorsualnotiz s. XIII zu A: Eugeni III I Theobaldum episcopum et ec- clesiam sancte Genofeue ... I super ecclesia sancti Iohannis de sententia  lata. </p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+         <listBibl>
+            <bibl>[Titel 1]</bibl>
+            <bibl>[Titel 2]</bibl>
+         </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_puu-in"> <!-- Ordnername hier ergänzen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+               <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>PUU Frankreich NF 9, S. 200-201, Nr. 68</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>PUU Frankreich NF 9, S. 200-201, Nr. 68</bibl><bibl type="jaffe">12930</bibl>
+            <diploDesc><p><issued><placeName>Venedig, Rialto</placeName><date type="issued" notBefore="1177-08-28" notAfter="1177-08-28">(1177) August 28. </date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+               </issued></p>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage></profileDesc>
+   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Alexander III. gewährt dem Abt und dem Kapitel von Saint-Denis das  Recht, nur päpstlichen Legaten a latere antworten zu müssen. </p>
+         </div>
+         <div type="other"><head>Echtheitskriterien:</head>
+            <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
+         <div type="msSources">
+             <head>Handschriftliche Überlieferung</head>
+            <div>
+            <listBibl>   
+               <bibl>2 Originale: Arch. nat., L 231 n. 59 [A] und L 231 n. 59bis [A'J. - </bibl>
+               <bibl>Li- vre des privilèges s.XIII:  ibid., LL 1156 f . 87' (92') [E]. - Cartulaire  blanc II s. XIII ex. : ibid., LL 1158 p. 518 n.2 [F]. - Kopie des Cartulaire  blanc II s. XVII:  Versailles, Arch. dép. Yvelines, D 518 p. 897 n. 2. - Ko- pie des Cartulaire blanc VI s. XVII/XVIII:  Saint-Denis, Arch. mun.,  GG 15 p.261 n.2. - Inventaire noir s.XIII  ex.: Arch. nat., LL 1184  p. 509 n. 2. - Inventar von 1520: ibid., LL 1187 p. 56. - Inventar s. XVI:  ibid., LL 1316 f . l . - Inventar von Coignée von 1619: ibid., LL 1188 A  f . 8' n. 18. - Inventar von Locquet II von 1681: ibid., LL 1188 C f . 234  (aus F). - Inventar von Thomas von 1688: ibid., LL 1189 p. 459 n. 431. - </bibl>
+               <bibl>[ggf. Druck]</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle mit Edition 1]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Ed.: Doublet p.511. - </bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL: 12930</bibl>
+               <bibl>Regesten: Lebel, Catalogue p. 10 n. 49; </bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Da Saint-Denis als exemtes Kloster der Jurisdiktion des Ordinarius  entzogen war, fungierten der Papst oder seine Legaten als Richter; in  diese Richtung wies bereits das Schreiben Alexanders III. Nr. 63. Wich- tig ist, daß Saint-Denis fortan nur dem legatus a latere unterworfen war,  nicht aber dem aus dem örtlichen Klerus genommenen ständigen Lega- ten, bei dem die Gefahr bestand, daß er seine eigenen bischöflichen Inter- essen verfolgte. Diese Vorzugsstellung nahm neben Saint-Denis nur eine  Minderheit von Klöstern ein. Cf. dazu ausführlich Schreiber l. c. p. 194- 200; zu den Legatenklassen cf. Janssen l. c. p. 170-174. Auf einen möglichen Grund für die Ausstellung der Urkunde gerade zu  diesem Zeitpunkt wies uns Rudolf Hiestand (Düsseldorf) hin: Er vermu- tet, daß sie mit der 1176 erfolgten Translation des Erzbischof s Wilhelm  von Sens nach Reims zusammenhängt.  Wilhelm war ständiger Legat für  die Kirchenprovinz Sens gewesen, und die Legatenwürde wurde ihm auch  für Reims bestätigt. Da sein Nachfolger in Sens offenbar keine ständige  Legation erhielt, ergab sich vielleicht zunächst die Frage, ob Wilhelms  Amtsbereich sich nicht nur auf seine neue, sondern auch die alte Kirchen- provinz erstrecken sollte. Für diesen Fall konnte Saint-Denis mit dem  Mandat Alexanders III. Vorsorge treffen. Cf. zu Erzbischof Wilhelm von  Sens Janssen l. c. p. 166, 168. Zum Problem der Mehrfachausfertigung,  die für eine große Gemein- schaft, etwa einen Orden, verständlich, für ein einzelnes Kloster aber nur  selten belegt ist, cf. Hiestand, Privilegien p. 241 s. mit adn. 16. - Im Text  ist das Zeilenende von A mit \, von A ' mit II gekennzeichnet. </p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+         <listBibl>
+            <bibl>[Titel 1]</bibl>
+            <bibl>Regesten: Lebel, Catalogue p. 10 n. 49; </bibl>
+         </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+         </div>
+      </body>
+   </text>
+</TEI>

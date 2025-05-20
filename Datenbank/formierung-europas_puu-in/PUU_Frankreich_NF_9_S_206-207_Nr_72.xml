@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_puu-in"> <!-- Ordnername hier ergänzen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+               <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>PUU Frankreich NF 9, S. 206-207, Nr. 72</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>PUU Frankreich NF 9, S. 206-207, Nr. 72</bibl><bibl type="jaffe">13256</bibl>
+            <diploDesc><p><issued><placeName>Lateran</placeName><date type="issued" notBefore="1179-03-30" notAfter="1179-03-31">(1179) März 30. 31. </date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+               </issued></p>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage></profileDesc>
+   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Alexander III. gewährt Abt Wilhelm (II.) von Saint-Denis und seinen  Nachfolgern das Recht, Mitra, Ring und Sandalen zu tragen. </p>
+         </div>
+         <div type="other"><head>Echtheitskriterien:</head>
+            <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
+         <div type="msSources">
+             <head>Handschriftliche Überlieferung</head>
+            <div>
+            <listBibl>   
+               <bibl>2 Originale: Arch. nat., L 231 n. 61 [A] und L 231 n. 61his [A'j. - </bibl>
+               <bibl>Li- vre des privilèges s. XIII: ibid., LL 1156  f . 89 (94) [E], - Cartulaire blanc  II s. XIII ex. : ibid., LL 1158 p. 518 n. 3 (aus A ') [F]. - Kopie des Cartu- laire blanc II s. XVII:  Versailles, Arch. dép. Yvelines, D 518 p. 898 n. 3.  - Kopie des Cartulaire blanc VI s. XVII/XVIII:  Saint-Denis,  Arch.  mun., GG 15 p. 262 n. 3. - Inventaire noir s. XIII ex. : Arch. nat., LL  1184 p. 509 n. 3. - Inventar von Coignée von 1619: ibid., LL 1188  Af.9.  - Inventar von Locquet II von 1681 : ibid., LL 1188 C  f . 235 (aus F). - In- ventar von Thomas von 1688: ibid., LL 1189 p. 436 n. 408 (aus A, zu ca.  1174). - </bibl>
+               <bibl>[ggf. Druck]</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle mit Edition 1]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Ed.: Doublet p.508 (aus A'); Félibien, pièces justif. p. CXI  n. 147 (aus A) (zu ca. 1179) = Migne 200, 1200 n. 1385. - </bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL: 13256 (zu 1178-79) </bibl>
+               <bibl>Regesten: Lebel, Ca- talogue p. 11 n. 55 (zu 1178-79 März 30); </bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Bereits Stephan II. hatte Abt Fulrad den ornatus apostolici uestimen- ti verliehen (Nr. 4). Galt dies nur zum persönlichen Gebrauch, so ist das  von Alexander III. gewährte Vorrecht für Abt Wilhelm und seine Nach- folger bestimmt. Zur Verleihung der Pontifikalinsignien an Äbte, die bis  in die Zeit Alexanders III. als Kriterium der Exemtion gelten darf, cf.  Schreiber, Kurie I, 153-158, Braun, Gewandung p. 398s., 453-455 sowie  P. Salmon, Mitra und Stab. Die Pontifikalinsignien im römischen Ritus,  Mainz 1960, p. 32-40. Das Indult Alexanders III. hat seinen Niederschlag auch in der Histo- riographie gefunden. Im Chronicon s. Dionysii ad cyclos paschales, ed.  Berger, Annales p.279 heißt es zum Jahr 1179: Hoc anno celebratum  est concilium Rome ab Alexandre papa, ubi fuerunt CCC. episcopi  XII. minus; abbatum Deus numerum novit; ibique concessus est usus  mitre anuli et sandaliorum Wuillelmo abbati et successoribus suis, et  prima sedes in dextro latere ante omnes archimandritas, et prima vox  in sententiis. Ein fast gleichlautender Eintrag findet sich im Chronicon s.  Dionysii recentius, ibid. p.288 zu 1179. Mit dem in Rom veranstalteten  Konzil ist das 3. Laterankonzil gemeint, das 1179 März 5-19 (22?) tagte.  Wenngleich die weiteren dem Abt von Saint-Denis verliehenen Vorrechte  ('prima sedes und prima vox,) sonst nicht belegt sind und in derselben  Notiz der Tod König Ludwigs VII. von Frankreich ebenfalls auf 1179  (statt 1180) datiert wird, dürfen wir mit der gebotenen Vorsicht anneh- men, daß die Urkunde im Anschluß an das Konzil, also 1179, ausgestellt  wurde. Wie bei Nr. 68 handelt es sich um eine Doppelausfertigung; im Wort- laut identisch, unterscheiden sich beide Exemplare nur durch die Datie-rung. Das Zeilenende von A ist mit I, von A ' mit II gekennzeichnet. - Der  Schluß der Urkunde ist in E kaum noch lesbar, da das Pergament trans- parent ist; die Vorlage des Chartulars ist deshalb nicht sicher zu bestim- men. </p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+         <listBibl>
+            <bibl>[Titel 1]</bibl>
+            <bibl>Regesten: Lebel, Ca- talogue p. 11 n. 55 (zu 1178-79 März 30); </bibl>
+         </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+         </div>
+      </body>
+   </text>
+</TEI>

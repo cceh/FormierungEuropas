@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_puu-in"> <!-- Ordnername hier ergänzen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+               <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>PUU Frankreich NF 9, S. 177-182, Nr. 52</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>PUU Frankreich NF 9, S. 177-182, Nr. 52</bibl><bibl type="jaffe">10225</bibl>
+            <diploDesc><p><issued><placeName>Lateran</placeName><date type="issued" notBefore="1156-12-18" notAfter="1156-12-18">1156 Dezember 18. </date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+               </issued></p>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage></profileDesc>
+   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Hadrian IV. bestätigt dem Kloster Saint-Denis unter Abt Odo (II.) nach  dem Vorgang Zacharias' (Nr. 1), Stephans (II.) (Nr. 2b), Leos  (IX.)  (Nr. 16b), Alexanders (II.) (Nr. 18a/b), Paschalis' (II.) (Nr. 25), Calixts (II.) (Nr. 29), Innocenz' (II.) (Nr. 35) und Eugens (III.) (Nr. 44) seine  Freiheiten, Rechte und namentlich aufgeführten  Besitzungen. </p>
+         </div>
+         <div type="other"><head>Echtheitskriterien:</head>
+            <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
+         <div type="msSources">
+             <head>Handschriftliche Überlieferung</head>
+            <div>
+            <listBibl>   
+               <bibl>Orig. : Arch. nat., L 229 II n. 8 fAJ. - </bibl>
+               <bibl>Cartulaire blanc II s. XIII ex. :  ibid., LL 1158 p. 489 n. 11 [F], - Kopie des Cartulaire blanc II s. XVII:  Versailles, Arch. dép. Yvelines, D 518p. 837 n. 11. - Kopie des Cartulaire  blanc VI s. XVII/XVIII:  Saint-Denis, Arch. mun., GG 15p. 191 n. 11. - Inventaire noir s. XIII ex. : Arch. nat., LL 1184 p. 503 n. 11. - Inventaire  jaune II s. XIV: ibid., LL 1186 p. 452 n. 11. - Inventar von Coignée von  1619: ibid., LL 1188 A f.7'.  - Inventar von Locquet II von 1681: ibid.,  LL 1188 C  f . 233. - </bibl>
+               <bibl>[ggf. Druck]</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle mit Edition 1]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Ed.: Doublet p. 501 (exc., wohl aus A) = Migne 188,  1485 n. 114. - </bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL: 10225</bibl>
+               <bibl>Regesten: Lebel, Catalogue p. 2 n. 6</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Das Privileg folgt zum größten Teil wörtlich der Vorurkunde Eugens  III. Nr. 44. Die Besitzliste wurde gegenüber der Vorurkunde vor allem  um zahlreiche Kirchen im Berry erweitert, die dem von Saint-Denis ab- hängigen Priorat La Chapelaude gehörten oder von ihm beansprucht  wurden. Um ihre Forderungen durchzusetzen, hatten die Mönche mehrere  Urkunden, u. a. ein Diplom Karls des Großen (MGH D Karol. I, 420  n. 282, ed. van de Kieft, Etude p. 213 n. 4) und eine Urkunde des Erzbi- schof s Richard von Bourges (ed. van de Kieft I.e. p.218 n.6) gefälscht;  letztere hat, wie ein Vergleich der Besitzlisten ergibt, bei der Ausstellung  des Privilegs Hadrians IV. vorgelegen. Cf. dazu die beiden oben zit. Ar- beiten von van de Kieft. Restitutionsbemühun^en  von La Chapelaude be- treffen auch die Nr. 36-38, 40-42, 45, 47, 51. - Der aus dem Privileg Eu- gens III. Nr. 44 und der Urkunde Richards von Bourges übernommene  Text steht in Petit. Das Decretum fDecernimus ergo ...) befindet sich nicht mehr wie bei  den Vorurkunden seit Paschalis II. (Nr. 25) innerhalb der Dispositio, son- dern schließt erstmals an sie an. - Die beiden ersten Zeilen des Originals  sind sehr stark verblichen und teilweise nur noch mit der UV-Lampe les- bar. Der Name Odo steht in der ersten und dritten Zeile auf Rasur;  wahrscheinlich hatte der Schreiber ursprünglich aus der Vorurkunde den  Namen Sugers übernommen. - Migne rekonstruiert den Text nach den  Angaben von Doublet teilweise falsch. </p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+         <listBibl>
+            <bibl>[Titel 1]</bibl>
+            <bibl>Regesten: Lebel, Catalogue p. 2 n. 6</bibl>
+         </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_puu-in"> <!-- Ordnername hier ergänzen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+               <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>PUU Frankreich NF 8, S. 324-326, Nr. 134</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>PUU Frankreich NF 8, S. 324-326, Nr. 134</bibl><bibl type="jaffe">14007</bibl>
+            <diploDesc><p><issued><placeName>[Ausstellungsort]</placeName><date type="issued" notBefore="1173-10-01" notAfter="1174-04-30">(1173 Oktober- 1174 April). </date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+               </issued></p>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage></profileDesc>
+   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>(Alexander III.) rät dem Erzbischof (Eskil) von Lund, zwecks  Rücker- stattung seines ihm bisher verweigerten Depositums Klage gegen den Räu- ber und Dieb, (den abgesetzten  Abt Ernisius von St-Victor/Paris),  anzu- strengen. Der Erzbischof von Sens und der Bischof von Paris seien angewie- sen, den Belial (Ernisius) als Gefangenen zu verhören. Mit St-Victor sei  gütliche Einigung anzustreben; die Kirche hafte nur  für dasjenige Geld, das  ihr zunutzen gekommen sei, nicht für Deposita bei einer Einzelperson.  Im  Falle fortgesetzter  Haftungsklage  Eskils auf das gesamte Depositum seien  als Richter die Bischöfe von Troyes und Amiens  eingesetzt. </p>
+         </div>
+         <div type="other"><head>Echtheitskriterien:</head>
+            <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
+         <div type="msSources">
+             <head>Handschriftliche Überlieferung</head>
+            <div>
+            <listBibl>   
+               <bibl>[Original]</bibl>
+               <bibl>Kopie s. XIII (Briefsammlung  von St-Victor): Bibl. Nat., ms. lat. 15135  f . 93 n. 13 [G 1]. - Kopien s. XVII (J. de Thoulouse aus G1): Annales, ibid.,  mss. lat. 14368 p. 1183 [H] und 14679 p. 694. - Auszug s. XIII: Coll. Victo- rina prima, ibid., ms. lat. 14938f. 261' [V]. - </bibl>
+               <bibl>[ggf. Druck]</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle mit Edition 1]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Ed.: Laehr, Festschrift Brack- mann (1931) p.417 n.13 aus G1 (zu 1172-77). - Auszug: Friedberg, Cor- pus iuris canonici II, 517 (X 3.16.1). - </bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL: 14007 (zu 1159-81) </bibl>
+               <bibl>Regesten: Jaffé 9072 (1.Auflage, hier wegen der Verweise bei Friedberg zitiert);</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Auf dieses zentrale Schreiben der gesamten Depositenaffäre  weisen be- reits mehrere der voraufgehenden Kardinalsbriefe  hin. Es ist deshalb nicht  möglich, mit Jean de Thoulouse und Bonnard als Empfänger den erst 1179  erhobenen Erzbischof Absalon von Lund anzunehmen  (vgl. Laehr p.410  n.3). Zur Datierung seien einige ergänzende  Hinweise mitgeteilt. Der Text  zeigt, daß Abt Guarinus (seit Anfang März 1172) bereits geraume Zeit im  Amt ist. Mit dem Papst und dem Kardinal Johannes Neapolitanus hat er  zunächst noch korrespondiert, ohne mit dem Betrug seines Vorgängers kon- frontiert zu sein. Auch erscheint, wie gezeigt, der Kardinal Hugo Pierleone  (Nr. 131) erst seit März 1173 und der Kardinal Petrus von  S.Grisogonus  (Nr. 130) erst ab Oktober 1173. Es wird dadurch so gut wie sicher, daß der  Erzbischof von Lund erst nach Bekanntwerden  der Umstände, die mit dem  Rücktritt des Ernisius verbunden waren, sich bemüht hat, sein Depositum  im Gesamtwert von 370 Mark Silber sicherzustellen (RHFXVI,  158 n.47l:  Brief Eskils an König Ludwig VII.). In Paris kann Eskil nach  insgesamt  drei Mahnbriefen an Ernisius (zitiert ebenda) nicht vor dem Frühjahr 1173  eingetroffen sein. Die Verhandlungen am Papsthof fallen dadurch nach al- ler Wahrscheinlichkeit  in den Herbst 1173. Deposita bilden an sich eine Materie des Zivilrechts. Als solche charakte- risieren sie auch die voraufgehenden Briefe der Kardinäle, insbesondere der  Brief des Petrus von S.Grisogonus  und der unten Nr. 137  nachfolgende  Brief des Johannes Neapolitanus.  Die Praxis führte indes auch zu Berüh- rungen mit dem Kirchenrecht. Die Unterscheidung  von persönlicher  Haf-tung und Haftung der Institution war den kirchlichen Juristen  willkommen.  Die Stellungnahme  Alexanders III. gelangte dadurch in zahlreiche Dekre- talensammlungen,  von denen oben nur die Sammlung  aus St-Victor selbst  (Coll. Victorina prima) berücksichtigt ist. Das Erscheinen in der Appendix- Sammlung  zum dritten Laterankonzil  (App. 50.35) legt einen Bezug zum  verlorenen Register des Papstes nahe, doch ist dieser im vorliegenden Fall  nach W.Holtzmann  nicht sicher (Quellen und Forschungen aus italieni- schen Archiven und Bibliotheken  30, 1940, p.53). Wichtig auch die aus  Reims stammende  Collectio Brugensis (6.2); in sie kann das Stück durch  die Vermittlung des Erzbischofs Wilhelm gelangt sein, der 1173, als er mit  der Sache befaßt war (Nr. 139), freilich noch Erzbischof von Sens war. Weitere Sammlungen  sind teilweise schon bei Jaffé- Loewenfeld  ge- nannt; andere teilte mir Stephan Kuttner aus den Scheden von Walther  Holtzmann mit (WH 536). Es sind die coll. Lipsiensis (53 unice), Casselana  (53.24), Bambergensis (46 unice), Tanneriana (6.6 unice),  Sangermanensis  7.96 (p. 303), Francofurtana 58.1; schließlich Bernhard von Pavia (I Comp.  3.14.2) und die Dekretalen Gregors IX. (3.16.1; ed. Friedberg, Corpus iuris  can. II, 517). Unice in den vorauf gehenden Angaben deutet an, daß die De- kretale unter den einschlägigen Titeln De depositis die einzige geblieben  ist. Für die rechtliche Beurteilung  des Falles allgemein sei verwiesen auf  M.A.Zurowski,  Die Haftung der Korporation für Delikte ihrer Vorgesetz- ten nach der Lehre der Dekretalisten, in: ZRG kan.Abt.68  (1982) p.47O- 476. Das wichtigste Prinzip (Delictum  personae non debet in detrimen- tum ecclesiae redundarej wurde später als 76. regula iuris in den Liber  sextus aufgenommen  (Friedberg, Corpus iuris can. II, 1124). </p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+         <listBibl>
+            <bibl>[Titel 1]</bibl>
+            <bibl>Regesten: Jaffé 9072 (1.Auflage, hier wegen der Verweise bei Friedberg zitiert);</bibl>
+         </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+         </div>
+      </body>
+   </text>
+</TEI>

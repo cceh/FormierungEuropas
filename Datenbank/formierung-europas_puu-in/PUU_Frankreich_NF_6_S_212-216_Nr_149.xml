@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_puu-in"> <!-- Ordnername hier ergänzen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+               <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>PUU Frankreich NF 6, S. 212-216, Nr. 149</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>PUU Frankreich NF 6, S. 212-216, Nr. 149</bibl><bibl type="jaffe">13333</bibl>
+            <diploDesc><p><issued><placeName>Lateran</placeName><date type="issued" notBefore="1179-03-19" notAfter="1179-03-19">1179 März 19. </date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+               </issued></p>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage></profileDesc>
+   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Alexander  III. nimmt das von Gottfried von Bouillon erbaute und  von Urban II. in das päpstliche Eigentum übernommene Stift St. Maria  und Heiliggeist auf dem Berge Sion in Jerusalem unter dem Abt Johannes  nach dem Vorgang Paschais II., Innocenz' II. und Eugens III. gegen einen  jährlichen Zins von einem Goldgulden in Schutz und bestätigt die Augustiner- regel, Besitzungen und Rechte. </p>
+         </div>
+         <div type="other"><head>Echtheitskriterien:</head>
+            <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
+         <div type="msSources">
+             <head>Handschriftliche Überlieferung</head>
+            <div>
+            <listBibl>   
+               <bibl>[Original]</bibl>
+               <bibl>Vidimus von 1337 VII 12 Orléans Arch. dép. du Loiret, D 357 n. 5  fBJ; Chartular s. XV f. 6 ebenda D 371; Kopie s. XVI ebenda D 372 p. 11;  Liber statutorum von 1519 f. 103 ebenda Suppl. D 25 = Kopie von 1638  ebenda D 358 n. 10.</bibl>
+               <bibl>[ggf. Druck]</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle mit Edition 1]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Ed. Mémoires de la Soc. nationale des Antiquaires  de France 48 (1887) 37 (fehlerhaft); Le Bibliographe moderne 19 (1918  -19) 68 Nr. 12 (beide aus B). - AuszugR. Pirri, Sicilia sacra31 (Palermo  1733) 753; E.Rey,  Les colonies franques de Syrie aux XIIe  et  XIIIe  siècles (Paris 1883) S. 281.</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL: 13333</bibl>
+               <bibl>Reg. Migne 200, 1214 Nr. 1403; R. Röhricht, Regesta regni Hiersolymitani (Innsbruch 1893) S.153 Nr. 576; Bulletins de la Soc. archéol. et hist. de l'Orléanais 17 (1914-16) 224 Nr. 5.</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Die erwähnten Vorurkunden Paschais II., Innocenz1 II. und Eugens  III. sind verloren. Unter den Prälaten des Heiligen Landes, die am 3.  Laterankonzil 1179 teilnahmen, nennt der Erzbischof Wilhelm von Tyrus  in seiner Historia L. 21 c. 26 (Receuil des historiens des croisades, Hist.  occidentaux I [Paris 1844] S. 1049) auch den Abt des Stiftes auf dem  Berge Sion. Er heißt hier aber, ebenso auch 1181 Rainald (ebenda L. 22  c. 7 S. 1073f.). Die Übernahme des Stiftes St. Maria auf dem Berge Sion in das päpstliche Eigentum kann unmöglich durch Urban II. erfolgt sein,  weil dieser Papst am 29. Juli 1099 starb (vgl. J.-L. I p. 701), also 2  Wochen nach der Eroberung der Heiligen Stadt durch das Kreuzfahrerheer.  In der kurzen Zwischenzeit kann also keineswegs das Sionsstift bereits von  Urban II. als päpstliches Eigentum übernommen worden sein. Wahrschein- lich hat man später die dahin zielende Absicht Gottfrieds von Bouillon, des  ersten christlichen Herrschers des Heiligen Landes, als dieser am 18. Juli  1100 starb, als verwirklicht angesehen und entsprechend unserem Privileg  bereits das Privileg Paschais II. gestaltet. Die Besitzliste zeigt, wie die  Besitzungen des Sionstiftes zum Großteil in Palästina lagen, aber darüber  hinaus über Sizilien, Oberitalien, Frankreich und Spanien verteilt waren.  Vgl. auch S. 275. </p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+         <listBibl>
+            <bibl>[Titel 1]</bibl>
+            <bibl>Reg. Migne 200, 1214 Nr. 1403; R. Röhricht, Regesta regni Hiersolymitani (Innsbruch 1893) S.153 Nr. 576; Bulletins de la Soc. archéol. et hist. de l'Orléanais 17 (1914-16) 224 Nr. 5.</bibl>
+         </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+         </div>
+      </body>
+   </text>
+</TEI>

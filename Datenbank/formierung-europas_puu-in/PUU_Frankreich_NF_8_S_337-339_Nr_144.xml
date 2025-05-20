@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_puu-in"> <!-- Ordnername hier ergänzen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+               <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>PUU Frankreich NF 8, S. 337-339, Nr. 144</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>PUU Frankreich NF 8, S. 337-339, Nr. 144</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
+            <diploDesc><p><issued><placeName>Paris, St-Martin-des-Champs</placeName><date type="issued" notBefore="1178-01-01" notAfter="1178-07-10">(1178 vor Juli 10). </date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+               </issued></p>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage></profileDesc>
+   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Im Auftrag Alexanders III. entscheidet der päpstliche Legat Petrus, Kar- dinalpriester von S. Grisogonus, über Kopfzins und Rechtsstand des Theo- bald und Odo von Vanves gegenüber der Abtei  Ste-Geneviève.  </p>
+         </div>
+         <div type="other"><head>Echtheitskriterien:</head>
+            <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
+         <div type="msSources">
+             <head>Handschriftliche Überlieferung</head>
+            <div>
+            <listBibl>   
+               <bibl>[Original]</bibl>
+               <bibl>Chartular s. XIII: Bibl. Ste-Geneviève,  ms. 356 p.22l  [C1] und p.102  nach Vidimus Anfang 13. Jh. [C2]. - Kopie s. XVII (A. Duchesne):  Bibl.  Nat., Coll. Baluze 55f.154'.  - </bibl>
+               <bibl>[ggf. Druck]</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle mit Edition 1]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Ed.: Lasteyrie p. 429 n. 519 (zu 1173-79).  - Auszug:  Depoin, Recueil des chartes de St-Martin-des-Champs  11,326  n.415 (zu 1172-73). - </bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>[Regest 1]</bibl>
+               <bibl>[Regest 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Das Urteil behandelt den ältesten der überlieferten Einzelprozesse,  die  Ste-Geneviève zur Behauptung seiner Ansprüche auf kopfzinsige servi ge- führt hat (vgl. Archibald 1910; Bloch 1938). Man versteht in diesem  Zu- sammenhang,  dem schon bald (1178-79) der erste Prozeß der Leute von  Rosny-sous-Bois folgt, warum das Privileg von 1163 (Nr. 87) an 19 Orten  capitalia bzw. capitalia tam uirorum quam mulierum verzeichnet. In un- mittelbarer Nähe von Paris bewahren außer Vanves auch Nanterre,  Auteuil,  Ivry und Vitry-sur-Seine, Rosny-sous-Bois  und die Pariser Vorstadt von St- Médard (?) Elemente dieser Sozialstruktur.  Der Kampf um die Freilassung  zog sich bis weit ins 13. Jahrhundert. Welche Bedeutung Ste-Geneviève  dem Urteil des Kardinallegaten  bei- maß, ergibt sich aus der Zahl der beratend hinzugezogenen  Prälaten und  Magister. Von fünf dieser Prälaten und einem der Magister (Herbert von Bosham) bewahrt das Chartular (C p. 128, 221-224) auch  Einzelbestäti- gungen, alle jedoch undatiert. Alexander III. bestätigte seinerseits die Ent- scheidung des Legaten 1178 Juli 10 (Nr. 145); Honorius III. tat es erneut  1220 Oktober 25 (C p. 36; Potthast -; Pressutti, Regesta  -). Zur Datierung verweist Janssen, Legaten p. 94, auf den bekannten  Auf- trag Alexanders  III. an den Legaten, sich um die Einkünfteordnung  der  Lehrer an den Pariser Schulen zu bemühen (1174 Oktober 29; JL 12397).  Janssen vermutet, der Legat habe sich um die Jahreswende  1174- 75 auf  der Durchreise von Limoges (September 1174) nach Arras (20. April 1175)  der Sache in Paris angenommen.  Wir fänden unter den assessores seines  vorliegenden Urteils somit auch die Persönlichkeiten,  die er beratend für  seine Ordnung der Pariser Schulen hinzugezogen  hätte. Andere Gesichtspunkte  lassen indes eher an Parisaufenthalte  des Lega- ten in den Jahren 1176-77 und vor allem 1178 denken (Janssen p.97, 100,  103). Zunächst hat 1176 der Abt von Ste-Geneviève gewechselt. Es ist nun- mehr der bekannte Jurist Stephan, der sich intensiv um Bewahrung  der  Rechte seiner Abtei gegenüber  ihren servi bemüht  hat (Giard  p.65).  1178-79 führte er einen gleichartigen Prozeß gegen die Leute von Rosny  (Nr. 153). Er steht außerdem seit langem in Verbindung zu dem  Kardinal  Petrus von S. Grisogonus, kennt diesen wahrscheinlich seit seinem  Studium  des römischen Rechts in Bologna (epist. ed. Desilve n.25, 44, 56), wird mit  ihm gemeinsam 1176- 78 nach Corbie delegiert (oben S.35 n. 48) und schul- det ihm nach seinem Tod 1182 einen Betrag von 100 Pfund (unten Nr. 157).  So dürfte am ehesten Stephan und nicht schon Abt Hugo, die Verbindung  zu den zahlreichen Prälaten und Magistern in dieser Sache hergestellt ha- ben. Wichtigster Gesichtspunkt ist schließlich die Bestätigung des Urteils 1178  Juli 10 durch Alexander III. Angesichts der Bedeutung der Sache, die vor  allem aus der Zahl der anderen  Bestätigungen  hervorgeht, dürfte die  päpstliche Konfirmation  so früh wie möglich erwirkt worden sein. Das Ur- teil selbst fällt damit am ehesten ins Frühjahr 1178. Die im 12. Jahrhundert noch seltene Angabe diffinitiuam sententiam in  der Bestätigung Alexanders III. läßt an einen relativ schwierigen Prozeß- verlauf denken. - Rubrik in C; De sententia lata contra Theobaldum et  Odonem de Vanuis homines ecclesie nostre. - Marginalie s. XIII zu C1:  ab [...]; zu C2;  fehlt. </p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+         <listBibl>
+            <bibl>[Titel 1]</bibl>
+            <bibl>nan</bibl>
+         </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+         </div>
+      </body>
+   </text>
+</TEI>
