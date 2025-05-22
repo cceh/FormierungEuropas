@@ -8,9 +8,9 @@
             <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
             <respStmt>
                <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
-               <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+               <persName>WUB 2, Nr. 406, S. 179-180</persName>
             </respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>Julia Becker</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -19,8 +19,8 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl type="jaffe">[Jaffe-Nummer]</bibl>
-            <diploDesc><p><issued><placeName>[Ausstellungsort]</placeName><date type="issued">[Ausstellungsdatum]</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+            <bibl type="jaffe">JL 12740</bibl>
+            <diploDesc><p><issued><placeName>Anagni</placeName><date type="issued">[1176 November 8ungsdatum]</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued></p>
                <p><legalActor type="issuer">[Issuer]</legalActor></p>
                <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
