@@ -17,7 +17,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl type="jaffe">JL 12740</bibl>
-            <diploDesc><p><issued><placeName>Anagni</placeName><date type="issued">[Ausstellungsdatum]</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+            <diploDesc><p><issued><placeName>Anagni</placeName><date type="issued">1176 November 8</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued></p>
                <p><legalActor type="issuer">[Issuer]</legalActor></p>
                <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
