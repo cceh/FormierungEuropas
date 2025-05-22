@@ -39,11 +39,11 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>[Regestentext kann diploParts mit Sprachangabe enthalten.]</p>
+            <p>[Papst Alexander III. Regestentext kann diploParts mit Sprachangabe enthalten.]</p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head>
             <authen type="formula" n="deperditum"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Religiosam vitam eligentibus apostolicum convenit</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung und alte Drucke</head>
