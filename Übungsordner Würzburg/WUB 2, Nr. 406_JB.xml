@@ -36,7 +36,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p><persName>Papst Alexander III.</persName> nimmt das Kloster Schöntal Speciose Vallis auf Bitten des Abtes Hertwig Regestentext kann diploParts mit Sprachangabe enthalten.]</p>
+            <p><persName>Papst Alexander III.</persName> nimmt das Kloster Schöntal <diploPart>Speciose Vallis</diploPart> auf Bitten des Abtes Hertwig Regestentext kann diploParts mit Sprachangabe enthalten.]</p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head>
             <authen type="formula" n="deperditum"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
