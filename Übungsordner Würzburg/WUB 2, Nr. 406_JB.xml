@@ -34,15 +34,8 @@
          </langUsage></profileDesc>
    </teiHeader>
    <text>
-      <body>
-         <head>Abstract:</head>
-            <persName>Papst Alexander III.</persName> nimmt das Kloster Schöntal <diploPart>Speciose Vallis</diploPart> auf Bitten des Abtes Hertwig Regestentext kann diploParts mit Sprachangabe enthalten.]
-         
-         <div type="other"><head>Echtheitskriterien:</head>
-            <authen type="formula" n="deperditum"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Religiosam vitam eligentibus apostolicum convenit</diploPart></div>
-         <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
-         <div type="msSources">
+      <body><head>Abstract:</head><persName>apst Alexander III.</persName><diploPart>peciose Vallis</diploPart><div type="other"><head>Echtheitskriterien:</head>
+            <authen type="formula" n="deperditum"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div><div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Religiosam vitam eligentibus apostolicum convenit</diploPart></div><div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div><div type="msSources">
              <head>Handschriftliche Überlieferung und alte Drucke</head>
             <div>
             <listBibl>   
@@ -50,48 +43,39 @@
                <bibl>[Handschrift oder Alter Druck]</bibl>
             </listBibl>
          </div>
-         </div>
-         <div type="decretals">
+         </div><div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
                <bibl>[Dekretale 1]</bibl>
                <bibl>[Dekretale 2]</bibl>
             </listBibl>
-         </div>
-         <div type="historiography">
+         </div><div type="historiography">
             <head>Erwähnungen in der Historiographie</head>
             <listBibl>
                <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
             </listBibl>
-         </div>
-         <div type="editions">
+         </div><div type="editions">
             <head>Editionen</head>
             <listBibl>
                <bibl>[Edition 1]</bibl>
                <bibl>[Edition 2]</bibl>
                <bibl>[Edition 3]</bibl>
             </listBibl>
-         </div>
-         <div type="regesta">
+         </div><div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>[Regest 1]</bibl>
                <bibl>[Regest 2]</bibl>
                <bibl>[Regest 3]</bibl>
             </listBibl>
-         </div>
-         <div type="commentary">
+         </div><div type="commentary">
             <head>Sachkommentar</head>
             <p>[Inhalt des Sachkommentars. Bibliographische Referenzen werden als <bibl>Bibliographische Angabe</bibl> getagged.]</p>
-         </div>
-         <div type="bibliography">
+         </div><div type="bibliography">
             <head>Bibliographie</head>
          <listBibl>
             <bibl>[Weitere Referenzen als listBibl]</bibl>
          </listBibl>
-         </div>
-         <div type="note"><head>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</head></div>
-         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
-      </body>
+         </div><div type="note"><head>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</head></div><!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.--></body>
    </text>
 </TEI>
