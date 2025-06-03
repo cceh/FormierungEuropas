@@ -66,15 +66,15 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>[PUU Niedersachsen u Bremen, S. 242-245, Nr. 115</bibl>
-               <bibl>[Edition 2]</bibl>
+               <bibl>PUU Niedersachsen u Bremen, S. 242-245, Nr. 115</bibl>
+               <bibl>Pflugk-Harttung, Acta I, S. 275-276, Nr. 307</bibl>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>[Regest 1]</bibl>
-               <bibl>[Regest 2]</bibl>
+               <bibl>JL 13672</bibl>
+               <bibl>[Germ. Pont. 5,2, S. 463, Nr. 5Regest 2]</bibl>
             </listBibl>
          </div>
          <div type="commentary">
