@@ -35,15 +35,9 @@
          </langUsage></profileDesc>
    </teiHeader>
    <text>
-      <body>
-         <div type="abstract"><head>Abstract:</head>
+      <body><div type="abstract"><head>Abstract:</head>
             <p><legalActor><persName>Papst Alexander III.</persName></legalActor> nimmt das <legalActor><orgName>Kloster Schöntal</orgName></legalActor> <diploPart>(Speciose Vallis)</diploPart> auf Bitten des <legalActor><persName>Abtes Hertwig</persName></legalActor> in den apostolischen Schutz, bestätigt ihm die Regel des heiligen <persName>Benedikt</persName> und die Einführung der Zisterzienserordnung</p>
-         </div>
-         <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="deperditum"><p>[*-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
-         <div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item></list></diploPart></div>
-         <div><head>Datatio:</head><diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart></div>
-         <div type="msSources">
+         </div><div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="deperditum"><p>[-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div><div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat"><diploPart type="incipit" xml:lang="lat">Religiosam vitam eligentibus apostolicum convenit</diploPart></diploPart></div><div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item></list></diploPart></div><div><head>Datatio:</head><diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart></div><div type="msSources">
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
@@ -51,47 +45,38 @@
                <bibl>[Kopie]</bibl>
             </listBibl>
          </div>
-         </div>
-         <div type="decretals">
+         </div><div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
                <bibl>[Dekretale 1]</bibl>
                <bibl>[Dekretale 2]</bibl>
             </listBibl>
-         </div>
-         <div type="historiography">
+         </div><div type="historiography">
             <head>Erwähnungen in der Historiographie</head>
             <listBibl>
                <bibl>[Quelle 1]</bibl>
                <bibl>[Quelle 2]</bibl>
             </listBibl>
-         </div>
-         <div type="editions">
+         </div><div type="editions">
             <head>Editionen</head>
             <listBibl>
                <bibl>[Edition 1]</bibl>
                <bibl>[Edition 2]</bibl>
             </listBibl>
-         </div>
-         <div type="regesta">
+         </div><div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>[Regest 1]</bibl>
                <bibl>[Regest 2]</bibl>
             </listBibl>
-         </div>
-         <div type="commentary">
+         </div><div type="commentary">
             <head>Sachkommentar</head>
             <p>[Inhalt des Sachkommentars. Bibliographische Referenzen werden als Bibliographische Angabe getagged.]</p>
-         </div>
-         <div type="bibliography">
+         </div><div type="bibliography">
             <head>Bibliographie</head>
          <listBibl>
             <bibl>[Weitere Referenzen als listBibl]</bibl>
          </listBibl>
-         </div>
-         <div type="note"><head>Notizen</head><p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p></div>
-         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
-      </body>
+         </div><div type="note"><head>Notizen</head><p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p></div><!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.--></body>
    </text>
 </TEI>
