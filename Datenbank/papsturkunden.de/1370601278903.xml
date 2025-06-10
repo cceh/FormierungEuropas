@@ -1,11 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1370601278903">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     source="papsturkunden.de"
+     xml:id="papsturkunden_1370601278903">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title></title>
+            <title/>
             <respStmt xml:id="papsturkunden.de">
                <resp when="2012">papsturkunden</resp>
-               <persName></persName>
+               <persName/>
             </respStmt>
             <respStmt xml:id="HB">
                <resp when="2024">Transformation</resp>
@@ -22,10 +27,12 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Erwähnung</copyStatus>
-               <origDate notAfter="1160-03-27">(1160 ante mart. 27)</origDate>
                <legalActor type="issuer">Victore IV</legalActor>
                <legalActor type="recipient">Daniel Pragensis episcopus</legalActor>
-               <origPlace></origPlace>
+               <issued>
+                  <placeName/>
+                  <date notAfter="1160-03-27">(1160 ante mart. 27)</date>
+               </issued>
             </diploDesc>
          </sourceDesc>
       </fileDesc>
@@ -40,7 +47,7 @@
                legationis apostolicae, ad regem Ungariae mittitur, ut inthronisationem Victoris papae
                annuntiet.</p>
          </div>
-         <div type="Sachkommentar">
+         <div type="commentary">
             <p>De re et tempore cf. Ohnsorge Päpstliche und gegenpäpstliche Legaten p. 7; Hilsch Bischöfe (I) p. 109sq. et novissime Uebach Ratgeber p. 182sq. Legimus praeterea in Vincentii Pragensis Annalibus (l.c.): 'In festo pasche
                (mart. 27) praedictus episcopus Pragensis a Luca archiepiscopo et ab aliis Ungariae episcopis sicut nuntius papae et imperatoris papalibus ornamentis
                insignitus cum processione suscipitur, deinde ad regem eum cruce precedente adducitur';
@@ -54,7 +61,7 @@
          </div>
          <div type="edition">
             <listBibl>
-               <bibl></bibl>
+               <bibl/>
             </listBibl>
          </div>
       </body>

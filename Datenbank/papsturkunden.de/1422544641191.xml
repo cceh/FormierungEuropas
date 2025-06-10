@@ -1,11 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1422544641191">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     source="papsturkunden.de"
+     xml:id="papsturkunden_1422544641191">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title></title>
+            <title/>
             <respStmt xml:id="papsturkunden.de">
                <resp when="2012">papsturkunden</resp>
-               <persName></persName>
+               <persName/>
             </respStmt>
             <respStmt xml:id="HB">
                <resp when="2024">Transformation</resp>
@@ -22,9 +27,11 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Erwähnung</copyStatus>
-               <origDate notBefore="1163-05-31">(1163 post mai.?)</origDate>
                <legalActor type="issuer">Petrus (II</legalActor>
-               <origPlace></origPlace>
+               <issued>
+                  <placeName/>
+                  <date notBefore="1163-05-31">(1163 post mai.?)</date>
+               </issued>
             </diploDesc>
          </sourceDesc>
       </fileDesc>
@@ -42,7 +49,7 @@
                omnibus fidelibus ad diem festum natalis Eneconis occurrentibus quadraginta dierum
                absolutionem.</p>
          </div>
-         <div type="Sachkommentar">
+         <div type="commentary">
             <p>De tempore sermonis, qui potius saec. XV quam saec. XIII conceptus esse videtur, cf.
                praesertim Fita Canonización p. 79sq. Cum tempore pontificis Alexandri II nullus episcopus Burgensis nomine Petrus comparuerit, dubium non est, quin Eneco abbas Oniensis († 1057 aut 1068) sub pontificatu Alexandri III (a. 1159-1181) et episcopatu Petri Petri (Pedro Pérez, a. 1156-1181) canonizatus sit. Cf. Flórez España Sagrada XXVI 247sq.; Fita Canonización p. 83-85; Fita Abad Íñigo p. 206-213; Herrera Oria Autenticidad p. 360-366; Serrano Obispado de Burgos II 405; Kemp Canonization p. 84sq.; Mínguez Gutiérrez San Íñigo p. 120sq., qui censent canonizationem Eneconis in concilio Turonensi a. 1163 mense maio celebrato impetratam esse. Alexander III re vera concilio habito privilegia in favorem abbatis et fratrum Oniensium exhibuit
                (Oña n. 28. 29). Respice etiam, quod in quodam elencho abbatum Oniensium saec. XII

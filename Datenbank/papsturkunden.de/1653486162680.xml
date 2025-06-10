@@ -1,11 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1653486162680">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     source="papsturkunden.de"
+     xml:id="papsturkunden_1653486162680">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title></title>
+            <title/>
             <respStmt xml:id="papsturkunden.de">
                <resp when="2012">papsturkunden</resp>
-               <persName></persName>
+               <persName/>
             </respStmt>
             <respStmt xml:id="HB">
                <resp when="2024">Transformation</resp>
@@ -22,11 +27,13 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Kopial</copyStatus>
-               <origDate when="1176-09-25">1176 sept. 25</origDate>
                <legalActor type="issuer">Alexander III</legalActor>
                <legalActor type="recipient">Vuillelmo abbati</legalActor>
                <legalActor type="recipient">ejusque fratribus</legalActor>
-               <origPlace>Anagnia</origPlace>
+               <issued>
+                  <placeName>Anagnia</placeName>
+                  <date when="1176-09-25">1176 sept. 25</date>
+               </issued>
             </diploDesc>
          </sourceDesc>
       </fileDesc>
@@ -63,7 +70,7 @@
                libertates sive a praedecessoribus suis sive a regibus et principibus concessas.
                </p>
          </div>
-         <div type="Sachkommentar">
+         <div type="commentary">
             <p>
                Le contexte historique de l’acquisition de ce privilège, par ailleurs classique, mérite
                attention. 
@@ -99,7 +106,7 @@
          </div>
          <div type="edition">
             <listBibl>
-               <bibl></bibl>
+               <bibl/>
             </listBibl>
          </div>
       </body>

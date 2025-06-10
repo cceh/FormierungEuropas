@@ -1,11 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1653378378452">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     source="papsturkunden.de"
+     xml:id="papsturkunden_1653378378452">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title></title>
+            <title/>
             <respStmt xml:id="papsturkunden.de">
                <resp when="2012">papsturkunden</resp>
-               <persName></persName>
+               <persName/>
             </respStmt>
             <respStmt xml:id="HB">
                <resp when="2024">Transformation</resp>
@@ -21,11 +26,13 @@
          </publicationStmt>
          <sourceDesc>
             <diploDesc>
-               <copyStatus></copyStatus>
-               <origDate notBefore="1172-01-01" notAfter="1173-12-31">(1172–1173)</origDate>
+               <copyStatus/>
                <legalActor type="issuer">Alexander III</legalActor>
                <legalActor type="recipient">Robertum</legalActor>
-               <origPlace></origPlace>
+               <issued>
+                  <placeName/>
+                  <date notBefore="1172-01-01" notAfter="1173-12-31">(1172–1173)</date>
+               </issued>
             </diploDesc>
          </sourceDesc>
       </fileDesc>
@@ -50,7 +57,7 @@
                Viennensem sedem transfert.
                </p>
          </div>
-         <div type="Sachkommentar">
+         <div type="commentary">
             <p>
                Connu par un accord conclu en 1173 entre 
                l’évêque Pierre du 
@@ -93,7 +100,7 @@
          </div>
          <div type="edition">
             <listBibl>
-               <bibl></bibl>
+               <bibl/>
             </listBibl>
          </div>
       </body>

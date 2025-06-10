@@ -1,11 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1422883505419">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     source="papsturkunden.de"
+     xml:id="papsturkunden_1422883505419">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title></title>
+            <title/>
             <respStmt xml:id="papsturkunden.de">
                <resp when="2012">papsturkunden</resp>
-               <persName></persName>
+               <persName/>
             </respStmt>
             <respStmt xml:id="HB">
                <resp when="2024">Transformation</resp>
@@ -22,11 +27,13 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Erwähnung</copyStatus>
-               <origDate notAfter="1164-10-25">(ante 1164 oct. 25)</origDate>
                <legalActor type="issuer">Iohannes</legalActor>
                <legalActor type="issuer">Petrus II</legalActor>
                <legalActor type="recipient">Alexandri III</legalActor>
-               <origPlace></origPlace>
+               <issued>
+                  <placeName/>
+                  <date notAfter="1164-10-25">(ante 1164 oct. 25)</date>
+               </issued>
             </diploDesc>
          </sourceDesc>
       </fileDesc>
@@ -57,7 +64,7 @@
                Legionensem) compromisisse.
                </p>
          </div>
-         <div type="Sachkommentar">
+         <div type="commentary">
             <p>
                
                </p>
@@ -72,7 +79,7 @@
          </div>
          <div type="edition">
             <listBibl>
-               <bibl></bibl>
+               <bibl/>
             </listBibl>
          </div>
       </body>

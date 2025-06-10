@@ -1,11 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1370601275001">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     source="papsturkunden.de"
+     xml:id="papsturkunden_1370601275001">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title></title>
+            <title/>
             <respStmt xml:id="papsturkunden.de">
                <resp when="2012">papsturkunden</resp>
-               <persName></persName>
+               <persName/>
             </respStmt>
             <respStmt xml:id="HB">
                <resp when="2024">Transformation</resp>
@@ -21,10 +26,12 @@
          </publicationStmt>
          <sourceDesc>
             <diploDesc>
-               <copyStatus></copyStatus>
-               <origDate notBefore="1145-01-01" notAfter="1153-12-31">(1145 - 1153)</origDate>
+               <copyStatus/>
                <legalActor type="issuer">Eugenius III</legalActor>
-               <origPlace></origPlace>
+               <issued>
+                  <placeName/>
+                  <date notBefore="1145-01-01" notAfter="1153-12-31">(1145 - 1153)</date>
+               </issued>
             </diploDesc>
          </sourceDesc>
       </fileDesc>
@@ -37,7 +44,7 @@
          <div type="abstract">
             <p>Eugenius IIIecclesiae Pragensi privilegium concedit.</p>
          </div>
-         <div type="Sachkommentar">
+         <div type="commentary">
             <p>Privilegium aut litterae Eugenii III hodie non exstant; sed quia Pessina etiam in
                aliis libris suis permultorum diplomatum mentionem facit, quae adhuc supersunt, litteras
                tales exstitisse non omnino excludimus.</p>
@@ -50,7 +57,7 @@
          </div>
          <div type="edition">
             <listBibl>
-               <bibl></bibl>
+               <bibl/>
             </listBibl>
          </div>
       </body>

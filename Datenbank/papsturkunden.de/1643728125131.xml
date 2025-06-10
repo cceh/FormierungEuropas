@@ -1,11 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1643728125131">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     source="papsturkunden.de"
+     xml:id="papsturkunden_1643728125131">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title></title>
+            <title/>
             <respStmt xml:id="papsturkunden.de">
                <resp when="2012">papsturkunden</resp>
-               <persName></persName>
+               <persName/>
             </respStmt>
             <respStmt xml:id="HB">
                <resp when="2024">Transformation</resp>
@@ -21,12 +26,14 @@
          </publicationStmt>
          <sourceDesc>
             <diploDesc>
-               <copyStatus></copyStatus>
-               <origDate notBefore="1158-01-01" notAfter="1158-12-31">1158</origDate>
+               <copyStatus/>
                <legalActor type="issuer">Odone</legalActor>
                <legalActor type="recipient">Raimundo abbati</legalActor>
                <legalActor type="recipient">ejusque canonicis</legalActor>
-               <origPlace>Valentina, in capitulo</origPlace>
+               <issued>
+                  <placeName>Valentina, in capitulo</placeName>
+                  <date notBefore="1158-01-01" notAfter="1158-12-31">1158</date>
+               </issued>
             </diploDesc>
          </sourceDesc>
       </fileDesc>
@@ -58,8 +65,8 @@
                clerico papae Willelmo Riculfo.
                </p>
          </div>
-         <div type="Sachkommentar">
-            <p></p>
+         <div type="commentary">
+            <p/>
          </div>
          <div type="regesta">
             <head>Regestenwerk</head>
@@ -73,7 +80,7 @@
          </div>
          <div type="edition">
             <listBibl>
-               <bibl></bibl>
+               <bibl/>
             </listBibl>
          </div>
       </body>

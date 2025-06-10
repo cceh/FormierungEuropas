@@ -1,11 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1653378375499">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     source="papsturkunden.de"
+     xml:id="papsturkunden_1653378375499">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title></title>
+            <title/>
             <respStmt xml:id="papsturkunden.de">
                <resp when="2012">papsturkunden</resp>
-               <persName></persName>
+               <persName/>
             </respStmt>
             <respStmt xml:id="HB">
                <resp when="2024">Transformation</resp>
@@ -21,10 +26,12 @@
          </publicationStmt>
          <sourceDesc>
             <diploDesc>
-               <copyStatus></copyStatus>
-               <origDate notBefore="1162-09-07" notAfter="1162-09-08">1162 sept. 7–8</origDate>
+               <copyStatus/>
                <legalActor type="issuer">Victor IV</legalActor>
-               <origPlace>Apud pontem Laone</origPlace>
+               <issued>
+                  <placeName>Apud pontem Laone</placeName>
+                  <date notBefore="1162-09-07" notAfter="1162-09-08">1162 sept. 7–8</date>
+               </issued>
             </diploDesc>
          </sourceDesc>
       </fileDesc>
@@ -47,7 +54,7 @@
                Vivariensi episcopis interest.
                </p>
          </div>
-         <div type="Sachkommentar">
+         <div type="commentary">
             <p>
                Voir: 
                Gall. Pont. III,1 185 n. *302 (
@@ -70,7 +77,7 @@
          </div>
          <div type="edition">
             <listBibl>
-               <bibl></bibl>
+               <bibl/>
             </listBibl>
          </div>
       </body>

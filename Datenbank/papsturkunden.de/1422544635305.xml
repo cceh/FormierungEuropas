@@ -1,11 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1422544635305">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     source="papsturkunden.de"
+     xml:id="papsturkunden_1422544635305">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title></title>
+            <title/>
             <respStmt xml:id="papsturkunden.de">
                <resp when="2012">papsturkunden</resp>
-               <persName></persName>
+               <persName/>
             </respStmt>
             <respStmt xml:id="HB">
                <resp when="2024">Transformation</resp>
@@ -22,10 +27,12 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Kopial</copyStatus>
-               <origDate when="1173-12-07">1173 dec. 7</origDate>
                <legalActor type="issuer">Iacintus</legalActor>
                <legalActor type="recipient">Iohanni</legalActor>
-               <origPlace>Silos</origPlace>
+               <issued>
+                  <placeName>Silos</placeName>
+                  <date when="1173-12-07">1173 dec. 7</date>
+               </issued>
             </diploDesc>
          </sourceDesc>
       </fileDesc>
@@ -45,7 +52,7 @@
                prohibet, ne quis sive clericus sive laicus decimas ab eis exigat; confirmat sepulturam
                liberam et ius eligendi abbatis.</p>
          </div>
-         <div type="Sachkommentar">
+         <div type="commentary">
             <p>De hoc privilegio cf. Yepes Corónica III f. 186'; González Reino I 496; Moreta Velayos Monasterio p. 200. Laud. etiam apud Fita Canonización p. 109; Säbekow Legationen p. 54; Serrano Obispado de Burgos II 364 adn. 1; González Regesta p. 105; Smith Iberian Legations p. 88. Fita, Säbekow, Serrano hoc privilegium non in monasterio s. Dominici de Silos sed in ecclesia s. Dominici de Calziata (Santo Domingo de la Calzada) exhibitum esse censent. Nota, quod charta cardinalis legati accurate ad formam privilegii
                pontificii perfecta est.</p>
          </div>

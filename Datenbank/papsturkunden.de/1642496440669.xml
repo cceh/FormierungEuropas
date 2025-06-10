@@ -1,11 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1642496440669">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     source="papsturkunden.de"
+     xml:id="papsturkunden_1642496440669">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title></title>
+            <title/>
             <respStmt xml:id="papsturkunden.de">
                <resp when="2012">papsturkunden</resp>
-               <persName></persName>
+               <persName/>
             </respStmt>
             <respStmt xml:id="HB">
                <resp when="2024">Transformation</resp>
@@ -22,10 +27,12 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Original und Kopial</copyStatus>
-               <origDate when="1165-03-28">1165 mart. 28</origDate>
                <legalActor type="issuer">Alexander III</legalActor>
                <legalActor type="recipient">Petro</legalActor>
-               <origPlace>Senonum</origPlace>
+               <issued>
+                  <placeName>Senonum</placeName>
+                  <date when="1165-03-28">1165 mart. 28</date>
+               </issued>
             </diploDesc>
          </sourceDesc>
       </fileDesc>
@@ -80,7 +87,7 @@
                Diensem ecclesiam pertinere.
                </p>
          </div>
-         <div type="Sachkommentar">
+         <div type="commentary">
             <p>
                D’une note dorsale du XIVe siècle de la chancellerie pontificale il ressort qu’A devait
                servir a la chancellerie comme modèle pour un nouveau privilège (fratri episcopo 

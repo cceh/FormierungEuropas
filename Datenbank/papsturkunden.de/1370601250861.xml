@@ -1,11 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1370601250861">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     source="papsturkunden.de"
+     xml:id="papsturkunden_1370601250861">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title></title>
+            <title/>
             <respStmt xml:id="papsturkunden.de">
                <resp when="2012">papsturkunden</resp>
-               <persName></persName>
+               <persName/>
             </respStmt>
             <respStmt xml:id="HB">
                <resp when="2024">Transformation</resp>
@@ -22,10 +27,12 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Erwähnung</copyStatus>
-               <origDate when="1160-06-16">1160 iun. 16</origDate>
                <legalActor type="issuer">Wladizlaus rex Boemorum</legalActor>
                <legalActor type="issuer">Daniele episcopo (Pragensi)</legalActor>
-               <origPlace>Praha</origPlace>
+               <issued>
+                  <placeName>Praha</placeName>
+                  <date when="1160-06-16">1160 iun. 16</date>
+               </issued>
             </diploDesc>
          </sourceDesc>
       </fileDesc>
@@ -40,8 +47,8 @@
                auctoritate' (Victoris IV) possessiones monasterii s. Stephani (Gradicensis) confirmat
                et contradictores banno apponit.</p>
          </div>
-         <div type="Sachkommentar">
-            <p></p>
+         <div type="commentary">
+            <p/>
          </div>
          <div type="regesta">
             <head>Regestenwerk</head>
@@ -52,7 +59,7 @@
          </div>
          <div type="edition">
             <listBibl>
-               <bibl></bibl>
+               <bibl/>
             </listBibl>
          </div>
       </body>

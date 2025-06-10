@@ -1,11 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1422544607956">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     source="papsturkunden.de"
+     xml:id="papsturkunden_1422544607956">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title></title>
+            <title/>
             <respStmt xml:id="papsturkunden.de">
                <resp when="2012">papsturkunden</resp>
-               <persName></persName>
+               <persName/>
             </respStmt>
             <respStmt xml:id="HB">
                <resp when="2024">Transformation</resp>
@@ -22,10 +27,12 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Erwähnung</copyStatus>
-               <origDate notBefore="1155-01-25" notAfter="1155-02-04">1155 (cr. ian. 25-febr. 4)</origDate>
                <legalActor type="issuer">Iacintus</legalActor>
                <legalActor type="issuer">Iacintus</legalActor>
-               <origPlace>Valladolid</origPlace>
+               <issued>
+                  <placeName>Valladolid</placeName>
+                  <date notBefore="1155-01-25" notAfter="1155-02-04">1155 (cr. ian. 25-febr. 4)</date>
+               </issued>
             </diploDesc>
          </sourceDesc>
       </fileDesc>
@@ -75,7 +82,7 @@
                Legionensi episcopo illicite occupatae fuerant.
                </p>
          </div>
-         <div type="Sachkommentar">
+         <div type="commentary">
             <p>
                De concilio cf. 
                Diz. Conc. VI 33sq.; 
@@ -132,7 +139,7 @@
          </div>
          <div type="edition">
             <listBibl>
-               <bibl></bibl>
+               <bibl/>
             </listBibl>
          </div>
       </body>

@@ -1,11 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1653486164227">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     source="papsturkunden.de"
+     xml:id="papsturkunden_1653486164227">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title></title>
+            <title/>
             <respStmt xml:id="papsturkunden.de">
                <resp when="2012">papsturkunden</resp>
-               <persName></persName>
+               <persName/>
             </respStmt>
             <respStmt xml:id="HB">
                <resp when="2024">Transformation</resp>
@@ -21,13 +26,14 @@
          </publicationStmt>
          <sourceDesc>
             <diploDesc>
-               <copyStatus></copyStatus>
-               <origDate notAfter="1179-02-15">Ante 1179 febr. 15/iul. 4</origDate>
-               <origDate notAfter="1179-07-04"/>
+               <copyStatus/>
                <legalActor type="issuer">Robertus prior</legalActor>
                <legalActor type="issuer">fratres</legalActor>
                <legalActor type="recipient">Alexandro III papae</legalActor>
-               <origPlace>Roma, Laterano</origPlace>
+               <issued>
+                  <placeName>Roma, Laterano</placeName>
+                  <date notAfter="1179-02-15 1179-07-04">Ante 1179 febr. 15/iul. 4 </date>
+               </issued>
             </diploDesc>
          </sourceDesc>
       </fileDesc>
@@ -57,7 +63,7 @@
                Gall. Pont. III,3 325 n. 1 ) super decimis laborum et nutrimentorum animalium fatigare.
                </p>
          </div>
-         <div type="Sachkommentar">
+         <div type="commentary">
             <p>
                Connu par la lettre que le pape manda aux évêques du 
                Puy et de 
@@ -75,7 +81,7 @@
          </div>
          <div type="edition">
             <listBibl>
-               <bibl></bibl>
+               <bibl/>
             </listBibl>
          </div>
       </body>

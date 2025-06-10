@@ -1,11 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1653398145722">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     source="papsturkunden.de"
+     xml:id="papsturkunden_1653398145722">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title></title>
+            <title/>
             <respStmt xml:id="papsturkunden.de">
                <resp when="2012">papsturkunden</resp>
-               <persName></persName>
+               <persName/>
             </respStmt>
             <respStmt xml:id="HB">
                <resp when="2024">Transformation</resp>
@@ -22,11 +27,13 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Original und Kopial</copyStatus>
-               <origDate when="1175-01-31">(1175) ian. 31</origDate>
                <legalActor type="issuer">Alexander III</legalActor>
                <legalActor type="recipient">Johanni</legalActor>
                <legalActor type="recipient">Nicolao</legalActor>
-               <origPlace>Ferentinum</origPlace>
+               <issued>
+                  <placeName>Ferentinum</placeName>
+                  <date when="1175-01-31">(1175) ian. 31</date>
+               </issued>
             </diploDesc>
          </sourceDesc>
       </fileDesc>
@@ -64,7 +71,7 @@
                injuriis congrue satisfaciant et cum litteris eorum apostolico se conspectui repraesentent.
                </p>
          </div>
-         <div type="Sachkommentar">
+         <div type="commentary">
             <p>
                Sur la Collectio Oenipontana, voir 
                S. Kuttner, Repertorium der Kanonistik (1140–1234), Città del Vaticano, 1937, p. 286, et, au sujet du manuscrit, voir 

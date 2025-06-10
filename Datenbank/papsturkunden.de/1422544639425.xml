@@ -1,11 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1422544639425">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     source="papsturkunden.de"
+     xml:id="papsturkunden_1422544639425">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title></title>
+            <title/>
             <respStmt xml:id="papsturkunden.de">
                <resp when="2012">papsturkunden</resp>
-               <persName></persName>
+               <persName/>
             </respStmt>
             <respStmt xml:id="HB">
                <resp when="2024">Transformation</resp>
@@ -22,10 +27,12 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Original</copyStatus>
-               <origDate when="1155-03-08">1155 mart. 8</origDate>
                <legalActor type="issuer">Iacinctus</legalActor>
                <legalActor type="recipient">Garsiae</legalActor>
-               <origPlace>Estella</origPlace>
+               <issued>
+                  <placeName>Estella</placeName>
+                  <date when="1155-03-08">1155 mart. 8</date>
+               </issued>
             </diploDesc>
          </sourceDesc>
       </fileDesc>
@@ -46,8 +53,8 @@
                recuperet; de decimis rusticorum ecclesia Oniensis duas partes, tertiam vero ecclesia
                s. Aemiliani habeat.</p>
          </div>
-         <div type="Sachkommentar">
-            <p></p>
+         <div type="commentary">
+            <p/>
          </div>
          <div type="regesta">
             <head>Regestenwerk</head>

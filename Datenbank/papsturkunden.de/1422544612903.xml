@@ -1,11 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1422544612903">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     source="papsturkunden.de"
+     xml:id="papsturkunden_1422544612903">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title></title>
+            <title/>
             <respStmt xml:id="papsturkunden.de">
                <resp when="2012">papsturkunden</resp>
-               <persName></persName>
+               <persName/>
             </respStmt>
             <respStmt xml:id="HB">
                <resp when="2024">Transformation</resp>
@@ -22,9 +27,11 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Erwähnung</copyStatus>
-               <origDate when="1166-03-13">1166 (mart. 13?)</origDate>
                <legalActor type="issuer">P.</legalActor>
-               <origPlace>Segovia</origPlace>
+               <issued>
+                  <placeName>Segovia</placeName>
+                  <date when="1166-03-13">1166 (mart. 13?)</date>
+               </issued>
             </diploDesc>
          </sourceDesc>
       </fileDesc>
@@ -40,7 +47,7 @@
                apud Secobiam celebrat, ubi inter alios Petrus (II) Burgensis episcopus et Michael
                abbas s. Petri de Arlanza adsunt.</p>
          </div>
-         <div type="Sachkommentar">
+         <div type="commentary">
             <p>De concilio cf. Colmenares Historia 1I 145; ²I 290 (c. 27 § 7); DHEE I 557 = Martínez Díez Concilios p. 323; Linehan Synod p. 31-44; García y García Concilios p. 443-446; Fleisch Rom p. 168. Diem concilii Colmenares Historia I 145 tradidit. Quidam P. subdiaconus S.R.E. iam a. 1162 mense decembri ab Alexandro III in Hispaniam missus est, ut episcopos Hispanos ad concilium Turonis celebrandum convocaret, cf. Kehr Papsturkunden Spanien I 381 n. 95; Fleisch Rom p. 167sq.</p>
          </div>
          <div type="regesta">
@@ -53,7 +60,7 @@
          </div>
          <div type="edition">
             <listBibl>
-               <bibl></bibl>
+               <bibl/>
             </listBibl>
          </div>
       </body>

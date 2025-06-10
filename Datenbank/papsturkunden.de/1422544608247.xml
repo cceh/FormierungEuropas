@@ -1,11 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1422544608247">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     source="papsturkunden.de"
+     xml:id="papsturkunden_1422544608247">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title></title>
+            <title/>
             <respStmt xml:id="papsturkunden.de">
                <resp when="2012">papsturkunden</resp>
-               <persName></persName>
+               <persName/>
             </respStmt>
             <respStmt xml:id="HB">
                <resp when="2024">Transformation</resp>
@@ -22,9 +27,11 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Erwähnung</copyStatus>
-               <origDate notBefore="1155-02-13" notAfter="1155-02-28">(1155 febr. post med.)</origDate>
                <legalActor type="issuer">Iacintus</legalActor>
-               <origPlace>Burgos</origPlace>
+               <issued>
+                  <placeName>Burgos</placeName>
+                  <date notBefore="1155-02-13" notAfter="1155-02-28">(1155 febr. post med.)</date>
+               </issued>
             </diploDesc>
          </sourceDesc>
       </fileDesc>
@@ -39,7 +46,7 @@
                proficiscitur et Palentiam transiens post febr. 17Burgos accedit, ubi et febr. 24
                commoratus est.</p>
          </div>
-         <div type="Sachkommentar">
+         <div type="commentary">
             <p>Cf. Weiß Legaten p. 177; Smith Iberian Legations p. 85.</p>
          </div>
          <div type="regesta">
@@ -50,7 +57,7 @@
          </div>
          <div type="edition">
             <listBibl>
-               <bibl></bibl>
+               <bibl/>
             </listBibl>
          </div>
       </body>

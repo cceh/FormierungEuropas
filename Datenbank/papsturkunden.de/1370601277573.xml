@@ -1,11 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1370601277573">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     source="papsturkunden.de"
+     xml:id="papsturkunden_1370601277573">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title></title>
+            <title/>
             <respStmt xml:id="papsturkunden.de">
                <resp when="2012">papsturkunden</resp>
-               <persName></persName>
+               <persName/>
             </respStmt>
             <respStmt xml:id="HB">
                <resp when="2024">Transformation</resp>
@@ -22,10 +27,12 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Kopial</copyStatus>
-               <origDate when="1159-12-05">(1159) dec. 5</origDate>
                <legalActor type="issuer">Victor IV</legalActor>
                <legalActor type="recipient">Heinrico abbati Laurisheimensi</legalActor>
-               <origPlace>Vetralla</origPlace>
+               <issued>
+                  <placeName>Vetralla</placeName>
+                  <date when="1159-12-05">(1159) dec. 5</date>
+               </issued>
             </diploDesc>
          </sourceDesc>
       </fileDesc>
@@ -39,7 +46,7 @@
             <p>Victor IVHeinrico abbati Laurisheimensi inter alia: Hermannum Verdensem et Danielem
                Pragensem episcopos eum de statu et proposito suo certificaturos esse scribit.</p>
          </div>
-         <div type="Sachkommentar">
+         <div type="commentary">
             <p>De re cf. insuper Tourtual Böhmens Anteil II (1866) 246sq.; Hilsch Bischöfe (I) p. 106.</p>
          </div>
          <div type="regesta">
@@ -51,7 +58,7 @@
          </div>
          <div type="edition">
             <listBibl>
-               <bibl></bibl>
+               <bibl/>
             </listBibl>
          </div>
       </body>

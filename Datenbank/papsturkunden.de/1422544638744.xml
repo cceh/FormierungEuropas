@@ -1,11 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1422544638744">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     source="papsturkunden.de"
+     xml:id="papsturkunden_1422544638744">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title></title>
+            <title/>
             <respStmt xml:id="papsturkunden.de">
                <resp when="2012">papsturkunden</resp>
-               <persName></persName>
+               <persName/>
             </respStmt>
             <respStmt xml:id="HB">
                <resp when="2024">Transformation</resp>
@@ -22,10 +27,12 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Original</copyStatus>
-               <origDate when="1155-03-03">1155 mart. 3</origDate>
                <legalActor type="issuer">Iacinctus</legalActor>
                <legalActor type="recipient">Victori</legalActor>
-               <origPlace>Nájera</origPlace>
+               <issued>
+                  <placeName>Nájera</placeName>
+                  <date when="1155-03-03">1155 mart. 3</date>
+               </issued>
             </diploDesc>
          </sourceDesc>
       </fileDesc>
@@ -46,7 +53,7 @@
                Oniensis abbas cum capituli sui consensu Burgensi episcopo villam Ribilles (Revillaruz)
                cum omnibus pertinentiis perpetuo possidendam concedit.</p>
          </div>
-         <div type="Sachkommentar">
+         <div type="commentary">
             <p>Sigillum, quod olim pendebat, nunc deest. Charta confirmationis, quamquam episcopo
                Burgensi directa est, cum aliis litteris eiusdem paene tenoris in favorem abbatis Oniensis exhibitis (Oña n. 21) in archivo Oniensi conservabatur. De re cf. Serrano Obispado de Burgos II 360sq.; Smith Iberian Legations p. 85; praeterea Oña n. 21 adn. Textum concordiae ed. Fita Canonización p. 101 n. 6. De Iacinto cardinali diacono s. Mariae in Cosmedin legationibusque eius cf. Fleisch Rom p. 144-161 cum studiis laudatis nec non Smith Iberian Legations passim. Eodem die Iacintus cardinalis eadem arenga 'Officii nostri debitum' usus litteras Toletano archiepiscopo exhibuit (ed. Kehr Gött. Nachr. 1903 p. 158 n. 13 = Kehr-Volpini IV 158 n. 13. Reg. Hernández Cartularios p. 508 n. 597).</p>
          </div>

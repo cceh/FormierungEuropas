@@ -1,11 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" source="papsturkunden.de" xml:id="papsturkunden_1371547927559">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     source="papsturkunden.de"
+     xml:id="papsturkunden_1371547927559">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title></title>
+            <title/>
             <respStmt xml:id="papsturkunden.de">
                <resp when="2012">papsturkunden</resp>
-               <persName></persName>
+               <persName/>
             </respStmt>
             <respStmt xml:id="HB">
                <resp when="2024">Transformation</resp>
@@ -22,10 +27,12 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Erwähnung</copyStatus>
-               <origDate notBefore="1176-01-01" notAfter="1177-12-31">(1176 - 1177)</origDate>
                <legalActor type="issuer">Alexander III</legalActor>
                <legalActor type="recipient">Z(obezlaum) ducem Bohemiae</legalActor>
-               <origPlace></origPlace>
+               <issued>
+                  <placeName/>
+                  <date notBefore="1176-01-01" notAfter="1177-12-31">(1176 - 1177)</date>
+               </issued>
             </diploDesc>
          </sourceDesc>
       </fileDesc>
@@ -38,7 +45,7 @@
          <div type="abstract">
             <p>Alexander III excommunicat Z(obezlaum) ducem Bohemiae propter devastationem Austriae.</p>
          </div>
-         <div type="Sachkommentar">
+         <div type="commentary">
             <p>Praeter Gerlaci Annales de Sobezlao Austriam devastante etiam in Annalibus Pragensibus
                sub a. 1176 (Mon. Germ. Sript. III 121; Font. rer. Bohem. II 379) atque in Canonici Pragensis Continuatione Cosmae (Mon. Germ. Script. IX 166; Font. rer. Bohem. II 279) similibus fere verbis enarratur: ‘1176. Sobezlaus dux vastavit incendio Austriam’.
                In Benedicti Minoritae Chronica (ed. Dušek in: Franciszkanie w Polsce średniowiecznej pars 2 et 3 p. 348) legimus: ‘Anno MCLXXVI
@@ -53,7 +60,7 @@
          </div>
          <div type="edition">
             <listBibl>
-               <bibl></bibl>
+               <bibl/>
             </listBibl>
          </div>
       </body>
