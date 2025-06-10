@@ -15,6 +15,8 @@
     
     <xsl:template match="tei:diploDesc">
         <xsl:copy>
+            
+            <xsl:apply-templates select="node()|@*"/>
             <xsl:element name="issued" namespace="http://www.tei-c.org/ns/1.0">
             <xsl:element name="placeName" namespace="http://www.tei-c.org/ns/1.0">
                 <xsl:value-of select="./tei:origPlace"/>
@@ -32,7 +34,6 @@
                     <xsl:value-of select="./tei:origDate"/>
                 </xsl:element>
         </xsl:element>
-            <xsl:apply-templates select="node()|@*"/>
         </xsl:copy>
     </xsl:template>
     
