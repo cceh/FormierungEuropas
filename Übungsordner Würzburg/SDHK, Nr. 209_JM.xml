@@ -12,7 +12,7 @@
                <licence>Lizenz</licence>
             </availability>
          </publicationStmt>
-         <sourceDesc><bibl type="jaffe">JL 12117</bibl><diploDesc><issued><placeName>Tusculanum</placeName><date type="issued">(1164)-09-10</date><date type="issued">(1165)-09-10</date><date type="issued">(1166)-09-10</date><date type="issued">(1167)-09-10</date><date type="issued">(1168)-09-10</date><date type="issued">(1169)-09-10</date><date type="issued">(1170)-09-10</date><date type="issued">(1171)-09-10</date><date type="issued">(1172)-09-10</date><date type="issued">(1173)-09-10</date><date type="issued">(1174)-09-10</date><date type="issued">(1175)-09-10</date><date type="issued">(1176)-09-10</date><date type="issued">(1177)-09-10</date><date type="issued">(1178)-09-10</date><date type="issued">(1179)-09-10</date><date type="issued">(1180)-09-10</date><date type="issued">(1181)-09-10</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+         <sourceDesc><bibl type="jaffe">JL 12117</bibl><diploDesc><issued><placeName>Tusculanum</placeName><date type="issued">(1165)-09-10</date><date type="issued">(1166)-09-10</date><date type="issued">(1167)-09-10</date><date type="issued">(1168)-09-10</date><date type="issued">(1169)-09-10</date><date type="issued">(1170)-09-10</date><date type="issued">(1171)-09-10</date><date type="issued">(1172)-09-10</date><date type="issued">(1173)-09-10</date><date type="issued">(1174)-09-10</date><date type="issued">(1175)-09-10</date><date type="issued">(1176)-09-10</date><date type="issued">(1177)-09-10</date><date type="issued">(1178)-09-10</date><date type="issued">(1179)-09-10</date><date type="issued">(1180)-09-10</date><date type="issued">(1181)-09-10</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Erzbischof (Stefan) von Uppsala</legalActor></p><p><legalActor type="recipient">Schwedische Bischöfe</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
@@ -72,7 +72,7 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Terminus post quem ist die Errichtung des Erzbistums Uppsala am 5. August 1164 Inhalt des Sachkommentars. Bibliographische Referenzen werden als Bibliographische Angabe getagged.]</p>
+            <p>Terminus post quem ist die Errichtung des Erzbistums Uppsala am 5. August 1164 (JL  Inhalt des Sachkommentars. Bibliographische Referenzen werden als Bibliographische Angabe getagged.]</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
