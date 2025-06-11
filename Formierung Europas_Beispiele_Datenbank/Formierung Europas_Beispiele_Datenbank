@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_jaffe"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt><resp>Datenquelle</resp><persName>Sara Risberg</persName></respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>Jakob Mandel</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc><bibl type="jaffe">JL 12117</bibl><diploDesc><issued><placeName>Tusculanum</placeName><date type="issued">(1166)-09-10</date><date type="issued">(1171)-09-10</date><date type="issued">(1172)-09-10</date><date type="issued">(1173)-09-10</date><date type="issued">(1174)-09-10</date><date type="issued">(1175)-09-10</date><date type="issued">(1176)-09-10</date><date type="issued">(1178)-09-10</date><date type="issued">(1180)-09-10</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p> <legalActor type="recipient">Erzbischof (Stefan) von Uppsala</legalActor></p><p><legalActor type="recipient">Schwedische Bischöfe</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Urkunde</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">Littera</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc></sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage></profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p><legalActor>Papst Alexander III.</legalActor> legt in der Arenga die päpstliche Pflicht zur Sorge um die Einhaltung der christlichen Glaubensregeln in allen Teilen der Welt dar und fordert im Hinblick darauf den <legalActor>Erzbischof (Stefan) von Uppsala</legalActor> und all dessen Suffraganen auf, bei Androhung der Exkommunikation bestimmte Vergehen zu verbieten, die in Schweden und in Gotland vorkommen. Diese Vergehen umfassen: </p><list><item>dass Laien unbefugten Priestern und anderen geistlichen Personen Kirchen und Ämter übertragen, manchmal gegen Bezahlung (Simonie);</item><item>dass Geistliche vor weltliche Gerichte gestellt und dort verurteilt werden;</item><item>dass Kleriker erschlagen und ermordet werden; </item><item>dass Rechtsstreitigkeiten durch Folter bei Verhören, etwa mit kochendem Wasser oder glühendem Eisen, oder durch Zweikämpfe beigelegt werden; </item><item>dass die gewissenhafte Zahlung des Zehnten nicht eingehalten wird;</item><item>dass Eigentum, das der Kirche geschenkt wurde, von einzelnen Personen wieder für sich selbst beansprucht wird</item></list><p>.</p>
+         </div>
+         <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="deperditum"><p>-</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Constituti a Domino, licet insufficientibus</diploPart></div>
+         <div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>keine</item></list></diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">Datum Tusculani IV. Idus Septembris.</diploPart></div>
+         <div type="msSources">
+             <head>Handschriftliche Überlieferung</head>
+            <div>
+            <listBibl>   
+               <bibl>Peringskiöld: Bull. I; Örnhielm: Bull. I p. 86-92</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>SDHK, Nr. 209, https://sok.riksarkivet.se/sdhk?SDHK=209&amp;postid=sdhk_209 </bibl>
+               <bibl>Diplomatarium Suecanum, Bd. 1., ed. Johann Gustav Liljegren, Stockholm 1829, Nr. 54, S. 76-82.</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Terminus post quem ist die Errichtung des Erzbistums Uppsala am 5. August 1164 (<bibl>JL 11047</bibl> = <bibl>SDHK, Nr. 202, https://sok.riksarkivet.se/sdhk?SDHK=202&amp;postid=sdhk_202)</bibl>, Terminus ante quem Alexanders Tod am 30. August 1181. Gemäß des Itinerars scheiden die Jahre 1164 (<bibl>JL 11061-11062</bibl>: Sens), 1165 (<bibl>JL 11238</bibl>: Maguelone), 1167 (<bibl>JL 11361</bibl>: Benevent), 1168 <bibl>(JL 11418-11419</bibl>: Benevent), 1169 (<bibl>JL †11641-11642</bibl>: Benevent), 1170 (<bibl>JL 11832</bibl>: Veroli), 1177 (<bibl>JL 12933-12934</bibl>: Venedig, Rialto) und 1179 (<bibl>JL 13469</bibl>: Segni) als Ausstellungsjahre aus.</p><p>Die Kanzlei Papst Alexanders flicht viele Hinweise auf verschiedene Kirchenautoritäten (Bibel, Konzilskanones, Dekretalen, Kanonisten, Kirchenväter, antike Philosophen) ein, auf deren Basis grundlegende Prinzipien des christlichen Lebens gründen und die besagte Verhaltensweisen verbieten.</p></div><div type="bibliography"><head>Bibliographie</head>
+         <listBibl>
+            <bibl>-</bibl>
+         </listBibl>
+         </div>
+         <div type="note"><head>Notizen</head><p> Interne Übersetzung bei JM, vgl. den Vortrag "Alexander III. und der Hohe Norden" auf der Projekttagung "Europäische Formierungsprozesse"; eine eingehende Besprechung dieses Stück steht noch aus, wäre aber sehr wertvoll aufgrund der Trakat ähnlichen Anlage dieser littera</p></div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>
