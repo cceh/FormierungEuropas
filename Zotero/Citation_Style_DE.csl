@@ -5,27 +5,31 @@
     <title>Formierung_Citation_Style_DE</title>
     <id>http://www.zotero.org/styles/formierung_citation_style_de</id>
     <link rel="self" href="http://www.zotero.org/styles/formierung_citation_style_de"/>
-    <updated>2025-04-23T13:24:40+00:00</updated>
+    <updated>2025-06-11T14:23:12+00:00</updated>
   </info>
-  <macro name="author medieval">
-    <names variable="author"/>
-  </macro>
   <macro name="author">
     <names variable="author" suffix=", ">
-      <name delimiter="/" delimiter-precedes-last="always">
+      <name delimiter="/" delimiter-precedes-last="always" initialize="false">
         <name-part name="family" font-variant="small-caps"/>
       </name>
     </names>
   </macro>
-  <macro name="editor (Hg.)">
-    <names variable="editor" prefix=", hg. von ">
-      <name delimiter="/" delimiter-precedes-last="always">
+  <macro name="collection-editor (Hg.)">
+    <names variable="collection-editor" prefix=", hg. von ">
+      <name delimiter="/" delimiter-precedes-last="always" initialize="false">
         <name-part name="family" font-variant="small-caps"/>
       </name>
     </names>
   </macro>
   <macro name="editor (ed.)">
     <names variable="editor" prefix=", ed. ">
+      <name delimiter="/" delimiter-precedes-last="always" initialize="false">
+        <name-part name="family" font-variant="small-caps"/>
+      </name>
+    </names>
+  </macro>
+  <macro name="contributor (unter Mitarbeit v.)">
+    <names variable="contributor" prefix=", unter Mitarbeit v. ">
       <name delimiter="/" delimiter-precedes-last="always">
         <name-part name="family" font-variant="small-caps"/>
       </name>
@@ -91,6 +95,13 @@
       </else>
     </choose>
   </macro>
+  <macro name="date(tt.mm.jjjj)">
+    <date delimiter="." variable="issued">
+      <date-part name="day"/>
+      <date-part name="month" form="numeric"/>
+      <date-part name="year"/>
+    </date>
+  </macro>
   <macro name="page or column">
     <choose>
       <if match="any" is-numeric="page">
@@ -100,21 +111,6 @@
         <text variable="page" prefix=", "/>
       </else>
     </choose>
-  </macro>
-  <macro name="short: author">
-    <names variable="author" suffix=": ">
-      <name form="short" font-variant="small-caps" delimiter="/" delimiter-precedes-last="never" et-al-min="4" name-as-sort-order="all"/>
-      <substitute>
-        <names variable="editor" suffix=" (Hg.): ">
-          <name form="short" font-variant="small-caps" delimiter="/"/>
-        </names>
-      </substitute>
-    </names>
-  </macro>
-  <macro name="short: editor">
-    <names variable="editor" prefix=", hg. von ">
-      <name form="short" font-variant="small-caps" delimiter="/" et-al-min="4"/>
-    </names>
   </macro>
   <macro name="DOI or URL">
     <choose>
@@ -126,12 +122,20 @@
       </else-if>
     </choose>
   </macro>
-  <macro name="date(tt.mm.jjjj)">
-    <date delimiter="." variable="issued">
-      <date-part name="day"/>
-      <date-part name="month" form="numeric"/>
-      <date-part name="year"/>
-    </date>
+  <macro name="short: editor">
+    <names variable="editor" prefix=", hg. von ">
+      <name form="short" font-variant="small-caps" delimiter="/" et-al-min="4"/>
+    </names>
+  </macro>
+  <macro name="short: author">
+    <names variable="author" suffix=": ">
+      <name form="short" font-variant="small-caps" delimiter="/" delimiter-precedes-last="never" et-al-min="4" name-as-sort-order="all"/>
+      <substitute>
+        <names variable="editor" suffix=" (Hg.): ">
+          <name form="short" font-variant="small-caps" delimiter="/"/>
+        </names>
+      </substitute>
+    </names>
   </macro>
   <citation>
     <layout>
@@ -149,15 +153,15 @@
     </sort>
     <layout>
       <choose>
-        <if type="article-newspaper" match="all" variable="editor"/>
-        <else-if type="book" match="all" variable="editor">
+        <if match="all" variable="editor">
           <choose>
-            <if match="all" variable="author">
+            <if type="book" match="any">
               <group>
                 <text macro="author"/>
                 <text variable="title"/>
                 <number prefix=", " suffix=" Bde." variable="number-of-volumes"/>
                 <text macro="editor (ed.)"/>
+                <text macro="contributor (unter Mitarbeit v.)"/>
                 <text macro="translator (Übers.)"/>
                 <number prefix=", Bd. " variable="volume"/>
                 <text macro="collection"/>
@@ -165,27 +169,17 @@
                 <text macro="DOI or URL"/>
               </group>
             </if>
-            <else>
-              <group>
-                <text variable="title"/>
-                <number prefix=", " suffix=" Bde." variable="number-of-volumes"/>
-                <text macro="translator (Übers.)"/>
-                <text macro="editor (Hg.)"/>
-                <number prefix=", Bd. " variable="volume"/>
-                <text macro="collection"/>
-                <text macro="place, edition, year"/>
-                <text macro="DOI or URL"/>
-              </group>
-            </else>
           </choose>
-        </else-if>
+        </if>
         <else-if type="book" match="all">
           <group>
             <text macro="author"/>
             <text variable="title" strip-periods="false" font-style="normal"/>
             <number prefix=", " suffix=" Bde." variable="number-of-volumes"/>
-            <number prefix=", Bd. " variable="volume"/>
+            <text macro="collection-editor (Hg.)"/>
+            <text macro="contributor (unter Mitarbeit v.)"/>
             <text macro="translator (Übers.)"/>
+            <number prefix=", Bd. " variable="volume"/>
             <text macro="collection"/>
             <text macro="place, edition, year"/>
             <text macro="DOI or URL"/>
@@ -197,7 +191,8 @@
             <text variable="title"/>
             <text value=", in: " strip-periods="false"/>
             <text variable="container-title"/>
-            <text macro="editor (Hg.)"/>
+            <text macro="collection-editor (Hg.)"/>
+            <text macro="contributor (unter Mitarbeit v.)"/>
             <text macro="collection"/>
             <text macro="place, edition, year"/>
             <number prefix=", Bd. " variable="volume"/>
@@ -220,7 +215,8 @@
             <text macro="author"/>
             <text variable="title"/>
             <text variable="container-title" prefix=", in: "/>
-            <number prefix=", Bd. " variable="volume"/>
+            <number prefix=" " variable="volume"/>
+            <date date-parts="year" form="text" variable="issued" prefix=" (" suffix=")"/>
             <text macro="page or column"/>
             <text macro="DOI or URL"/>
           </group>
@@ -229,7 +225,7 @@
           <group>
             <text macro="author"/>
             <text variable="title"/>
-            <number variable="number-of-volumes"/>
+            <number prefix=", " suffix=" Bde." variable="number-of-volumes"/>
             <number prefix=", Bd. " variable="volume"/>
             <text macro="collection"/>
             <text value=", Diss. masch."/>
@@ -241,7 +237,13 @@
           <group>
             <text macro="author"/>
             <text variable="title"/>
-            <text macro="place, edition, year"/>
+            <text variable="collection-title" prefix=", in: "/>
+            <text macro="collection-editor (Hg.)"/>
+            <text macro="contributor (unter Mitarbeit v.)"/>
+            <group delimiter=" " prefix=", ">
+              <text variable="publisher-place"/>
+              <text macro="date(tt.mm.jjjj)"/>
+            </group>
             <text macro="DOI or URL"/>
           </group>
         </else-if>
@@ -250,18 +252,52 @@
             <text macro="author"/>
             <text variable="title"/>
             <text variable="container-title" prefix=", Blogbeitrag auf: "/>
+            <text macro="collection-editor (Hg.)"/>
             <text macro="date(tt.mm.jjjj)" prefix=", "/>
             <text macro="DOI or URL"/>
           </group>
         </else-if>
         <else-if type="speech" match="any">
-          <text macro="author"/>
-          <text variable="genre" suffix=": "/>
-          <text variable="title"/>
-          <text variable="event-title" prefix=", "/>
-          <text variable="publisher-place" prefix=", "/>
-          <text macro="date(tt.mm.jjjj)" prefix=" "/>
-          <text macro="DOI or URL"/>
+          <group>
+            <text macro="author"/>
+            <text variable="genre" suffix=": "/>
+            <text variable="title"/>
+            <text variable="event-title" prefix=". "/>
+            <text variable="publisher-place" prefix=", "/>
+            <text macro="date(tt.mm.jjjj)" prefix=" "/>
+            <text macro="DOI or URL"/>
+          </group>
+        </else-if>
+        <else-if type="paper-conference" match="any">
+          <group>
+            <text macro="author"/>
+            <text variable="title"/>
+            <group delimiter=", " prefix=", ">
+              <text variable="event-title"/>
+              <text macro="date(tt.mm.jjjj)"/>
+            </group>
+            <text macro="DOI or URL"/>
+          </group>
+        </else-if>
+        <else-if type="report" match="any">
+          <group>
+            <text macro="author"/>
+            <text variable="title"/>
+            <text variable="collection-title" prefix=", in: "/>
+            <text macro="date(tt.mm.jjjj)" prefix=", "/>
+            <text macro="DOI or URL"/>
+          </group>
+        </else-if>
+        <else-if type="manuscript" match="any">
+          <group>
+            <text variable="archive"/>
+            <text variable="archive_location" prefix=", "/>
+            <group delimiter=", " prefix=" (" suffix=")">
+              <text variable="publisher-place"/>
+              <date date-parts="year" form="text" variable="issued"/>
+              <text variable="title"/>
+            </group>
+          </group>
         </else-if>
       </choose>
       <text value="."/>
