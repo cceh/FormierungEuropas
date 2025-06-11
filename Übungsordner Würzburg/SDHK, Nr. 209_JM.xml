@@ -12,7 +12,7 @@
                <licence>Lizenz</licence>
             </availability>
          </publicationStmt>
-         <sourceDesc><bibl type="jaffe">JL 12117</bibl><diploDesc><issued><placeName>Tusculanum</placeName><date type="issued">(1166)-09-10</date><date type="issued">(1171)-09-10</date><date type="issued">(1172)-09-10</date><date type="issued">(1173)-09-10</date><date type="issued">(1174)-09-10</date><date type="issued">(1175)-09-10</date><date type="issued">(1176)-09-10</date><date type="issued">(1178)-09-10</date><date type="issued">(1179)-09-10</date><date type="issued">(1180)-09-10</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+         <sourceDesc><bibl type="jaffe">JL 12117</bibl><diploDesc><issued><placeName>Tusculanum</placeName><date type="issued">(1166)-09-10</date><date type="issued">(1171)-09-10</date><date type="issued">(1172)-09-10</date><date type="issued">(1173)-09-10</date><date type="issued">(1174)-09-10</date><date type="issued">(1175)-09-10</date><date type="issued">(1176)-09-10</date><date type="issued">(1178)-09-10</date><date type="issued">(1180)-09-10</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Erzbischof (Stefan) von Uppsala</legalActor></p><p><legalActor type="recipient">Schwedische Bischöfe</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
@@ -72,7 +72,7 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Terminus post quem ist die Errichtung des Erzbistums Uppsala am 5. August 1164 (JL 11047 = SDHK, Nr. 202, https://sok.riksarkivet.se/sdhk?SDHK=202&amp;postid=sdhk_202), Terminus ante quem Alexanders Tod am 30. August 1181. Gemäß des Itinerars scheiden die Jahre 1164 (JL 11061-11062: Sens), 1165 (JL11238: Maguelone), 1167 (JL 11361: Benevent), 1168 (JL 11418-11419: Benevent), 1169 (JL †11641-11642: Benevent), 1170 (JL 11832: Veroli), 1177 (JL 12933-12934: Venedig, Rialto)</p><p>Die Kanzlei Papst Alexanders flicht viele Hinweise auf verschiedene Kirchenautoritäten (Bibel, Konzilskanones, Dekretalen, Kanonisten, Kirchenväter, antike Philosophen) ein, auf deren Basis grundlegende Prinzipien des christlichen Lebens gründen und die besagte Verhaltensweisen verbieten.</p><p> Inhalt des Sachkommentars. Bibliographische Referenzen werden als Bibliographische Angabe getagged.]</p>
+            <p>Terminus post quem ist die Errichtung des Erzbistums Uppsala am 5. August 1164 (JL 11047 = SDHK, Nr. 202, https://sok.riksarkivet.se/sdhk?SDHK=202&amp;postid=sdhk_202), Terminus ante quem Alexanders Tod am 30. August 1181. Gemäß des Itinerars scheiden die Jahre 1164 (JL 11061-11062: Sens), 1165 (JL11238: Maguelone), 1167 (JL 11361: Benevent), 1168 (JL 11418-11419: Benevent), 1169 (JL †11641-11642: Benevent), 1170 (JL 11832: Veroli), 1177 (JL 12933-12934: Venedig, Rialto), 1179 (JL 13469: Segni)</p><p>Die Kanzlei Papst Alexanders flicht viele Hinweise auf verschiedene Kirchenautoritäten (Bibel, Konzilskanones, Dekretalen, Kanonisten, Kirchenväter, antike Philosophen) ein, auf deren Basis grundlegende Prinzipien des christlichen Lebens gründen und die besagte Verhaltensweisen verbieten.</p><p> Inhalt des Sachkommentars. Bibliographische Referenzen werden als Bibliographische Angabe getagged.]</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
