@@ -46,23 +46,23 @@
             <div>
             <listBibl>   
                <bibl type="original">GLA Karlsruhe, B 32</bibl>
-               <bibl type="msCopy">[handschriftliche Kopie]</bibl>
-               <bibl type="print">[Druck]</bibl>
+               <bibl type="msCopy"/>
+               <bibl type="print"/>
             </listBibl>
          </div>
          </div>
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
-               <bibl>[Quelle 2]</bibl>
+               <bibl>-</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="editions">
