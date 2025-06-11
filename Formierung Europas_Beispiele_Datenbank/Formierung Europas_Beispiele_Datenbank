@@ -12,7 +12,7 @@
                <licence>Lizenz</licence>
             </availability>
          </publicationStmt>
-         <sourceDesc><bibl type="jaffe">JL 12117</bibl><diploDesc><issued><placeName>Tusculum</placeName><date type="issued">(1166)-09-10</date><date type="issued">(1171)-09-10</date><date type="issued">(1172)-09-10</date><date type="issued">(1173)-09-10</date><date type="issued">(1174)-09-10</date><date type="issued">(1175)-09-10</date><date type="issued">(1176)-09-10</date><date type="issued">(1178)-09-10</date><date type="issued">(1180)-09-10</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+         <sourceDesc><bibl type="jaffe">JL 12117</bibl><diploDesc><issued><placeName>Tusculanum</placeName><date type="issued">(1166)-09-10</date><date type="issued">(1171)-09-10</date><date type="issued">(1172)-09-10</date><date type="issued">(1173)-09-10</date><date type="issued">(1174)-09-10</date><date type="issued">(1175)-09-10</date><date type="issued">(1176)-09-10</date><date type="issued">(1178)-09-10</date><date type="issued">(1180)-09-10</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Erzbischof (Stefan) von Uppsala</legalActor></p><p><legalActor type="recipient">Schwedische Bischöfe</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
@@ -72,12 +72,12 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Terminus post quem ist die Errichtung des Erzbistums Uppsala am 5. August 1164 (<bibl>JL 11047</bibl> = <bibl>SDHK, Nr. 202, https://sok.riksarkivet.se/sdhk?SDHK=202&amp;postid=sdhk_202)</bibl>, Terminus ante quem Alexanders Tod am 30. August 1181. Gemäß des Itinerars scheiden die Jahre 1164 (<bibl>JL 11061-11062</bibl>: Sens), 1165 (<bibl>JL 11238</bibl>: Maguelone), 1167 (<bibl>JL 11361</bibl>: Benevent), 1168 <bibl>(JL 11418-11419</bibl>: Benevent), 1169 (<bibl>JL †11641-11642</bibl>: Benevent), 1170 (<bibl>JL 11832</bibl>: Veroli), 1177 (<bibl>JL 12933-12934</bibl>: Venedig, Rialto) und 1179 (<bibl>JL 13469</bibl>: Segni) als Ausstellungsjahre aus.</p><p>Die Kanzlei Papst Alexanders flicht viele Hinweise auf verschiedene Kirchenautoritäten (Bibel, Konzilskanones, Dekretalen, Kanonisten, Kirchenväter, antike Philosophen) ein, auf deren Basis grundlegende Prinzipien des christlichen Lebens gründen und die besagte Verhaltensweisen verbieten.</p></div><div type="bibliography"><head>Bibliographie</head>
+            <p>Terminus post quem ist die Errichtung des Erzbistums Uppsala am 5. August 1164 (<bibl>JL 11047</bibl> = <bibl>SDHK, Nr. 202, https://sok.riksarkivet.se/sdhk?SDHK=202&amp;postid=sdhk_202</bibl>), Terminus ante quem Alexanders Tod am 30. August 1181. Gemäß des Itinerars scheiden die Jahre 1164 (<bibl>JL 11061-11062</bibl>: Sens), 1165 (<bibl>JL 11238</bibl>: Maguelone), 1167 (<bibl>JL 11361</bibl>: Benevent), 1168 (<bibl>JL 11418-11419</bibl>: Benevent), 1169 (<bibl>JL †11641-11642</bibl>: Benevent), 1170 (<bibl>JL 11832</bibl>: Veroli), 1177 (<bibl>JL 12933-12934</bibl>: Venedig, Rialto) und 1179 (<bibl>JL 13469</bibl>: Segni) als Ausstellungsjahre aus.</p><p>Die Kanzlei Papst Alexanders flicht viele Hinweise auf verschiedene Kirchenautoritäten (Bibel, Konzilskanones, Dekretalen, Kanonisten, Kirchenväter, antike Philosophen) ein, auf deren Basis grundlegende Prinzipien des christlichen Lebens gründen und die besagte Verhaltensweisen verbieten.</p></div><div type="bibliography"><head>Bibliographie</head>
          <listBibl>
             <bibl>-</bibl>
          </listBibl>
          </div>
-         <div type="note"><head>Notizen</head><p> Interne Übersetzung bei JM, vgl. den Vortrag "Alexander III. und der Hohe Norden" auf der Projekttagung "Europäische Formierungsprozesse"; eine eingehende Besprechung dieses Stück steht noch aus, wäre aber sehr wertvoll aufgrund der Trakat ähnlichen Anlage dieser littera</p></div>
+         <div type="note"><head>Notizen</head><p> Interne Übersetzung bei JM, vgl. den Vortrag "Alexander III. und der Hohe Norden" auf der Projekttagung "Europäische Formierungsprozesse"; eine eingehende Besprechung dieses Stück steht noch aus, wäre aber sehr wertvoll aufgrund der Trakat ähnlichen Anlage dieser littera.</p></div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
    </text>
