@@ -20,7 +20,7 @@
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Kloster St. Blasien</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Privileg, feierlich</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">[direkte persönliche Einwirkung</objectType></p>
+               <p><objectType n="">direkte persönliche Einwirkung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc></sourceDesc>
       </fileDesc>
@@ -34,7 +34,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>[Regestentext kann diploParts mit Sprachangabe enthalten.]
+            <p><legalActor><persName>Papst Alexander III.</persName></legalActor> nimmt das <legalActor><orgName>Kloster Schöntal</orgName></legalActor> <diploPart>(Speciose Vallis)</diploPart> auf Bitten des <legalActor><persName>Abtes Hertwig</persName></legalActor> in den apostolischen Schutz, bestätigt ihm die Regel des heiligen <persName>Benedikt</persName> und die Einführung der ZisterzienserordnungRegestentext kann diploParts mit Sprachangabe enthalten.]
             <list>
                <item>[Listeneintrag 1]</item>
             </list></p>
