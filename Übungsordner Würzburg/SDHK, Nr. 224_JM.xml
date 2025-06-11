@@ -37,9 +37,8 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>[Regestentext kann diploParts mit Sprachangabe enthalten.]
-            <list>
-               <item>[Listeneintrag 1]</item>
+            <p>Brief von Papst Alexander III. an König K. (Knut Eriksson) der Schweden und Goten, die Bischöfe, die Grafen, den Klerus und das Volk von Götaland bezüglich der Statuten des Heiligen Stuhls über<list>
+               <item>[L</item><item>is</item><item>te</item><item>neintrag 1]</item>
             </list></p>
          </div>
          <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="deperditum"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
