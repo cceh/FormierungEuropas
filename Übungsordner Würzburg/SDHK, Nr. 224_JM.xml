@@ -19,8 +19,8 @@
                </issued>
                <p><legalActor type="issuer">Papst Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">König Knut Eriksson von Schweden</legalActor></p><p><legalActor type="recipient">Bischöfe von Schweden</legalActor></p><p><legalActor type="recipient">Adel von Schweden</legalActor></p><p><legalActor type="recipient">Klerus von Schweden</legalActor></p><p><legalActor type="recipient">Volk von Schweden</legalActor></p><p/><p/> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">[Typisierung 2]</objectType></p>
+               <p><objectType n="">Urkunde</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">littera</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc></sourceDesc>
       </fileDesc>
@@ -34,7 +34,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Brief von Papst Alexander III. an König K. (Knut Eriksson) der Schweden und Goten, die Bischöfe, die Grafen, den Klerus und das Volk von Götaland bezüglich der Statuten des Heiligen Stuhls über<list>
+            <p>Brief von Papst Alexander III. an König K(nut Eriksson) der Schweden und Goten, die Bischöfe, die Grafen, den Klerus und das Volk von Götaland bezüglich der Statuten des Heiligen Stuhls über<list>
                <item>Ehe, Scheidung, Ehebruch usw</item><item>die Ehrung von Bischöfen, Priestern und Mönchen, der Diebstahl von Kircheneigentum usw</item><item>den Zehnten</item><item>das Vererben von Gütern an die Kirche und in welchem Verhältnis dies geschehen sollte, um das gesetzliche Erbrecht zu schützen</item><item>die Trunkenheit und insbesondere den Brauch der Goten, einen Mann, der im Rausch getötet wurde, als Heiligen zu verehren</item><item>Wenn diese Vorschriften eingehalten werden, hebt der Papst das vierzigtägige Fasten vor dem Michaelistag auf, mit Ausnahme der Freitage.</item>
             </list></p>
          </div>
