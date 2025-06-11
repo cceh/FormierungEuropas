@@ -43,7 +43,6 @@
             <p>[Regestentext kann diploParts mit Sprachangabe enthalten.]
             <list>
                <item>[Listeneintrag 1]</item>
-               <item>[Listeneintrag 2]</item>
             </list></p>
          </div>
          <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="deperditum"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
