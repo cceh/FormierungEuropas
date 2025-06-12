@@ -15,7 +15,7 @@
                <licence>Lizenz</licence>
             </availability>
          </publicationStmt>
-         <sourceDesc><bibl type="jaffe">JL 13546</bibl><diploDesc><issued><placeName>Tusculum</placeName><date type="issued">(1170)-07-06</date><date type="issued">(1171)-07-06</date><date type="issued">(1172)-07-06</date><date type="issued">(1173)-07-06</date><date type="issued">(1174)-07-06</date><date type="issued">(1175)-07-06</date><date type="issued">(1176)-07-06</date><date type="issued">(1177)-07-06</date><date type="issued">(1178)-07-06</date><date type="issued">(1179)-07-06</date><date type="issued">(1180)-07-06</date><date type="issued">(1181)-07-06</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+         <sourceDesc><bibl type="jaffe">JL 13546</bibl><diploDesc><issued><placeName>Tusculum</placeName><date type="issued">(1171)-07-06</date><date type="issued">(1172)-07-06</date><date type="issued">(1173)-07-06</date><date type="issued">(1174)-07-06</date><date type="issued">(1175)-07-06</date><date type="issued">(1176)-07-06</date><date type="issued">(1177)-07-06</date><date type="issued">(1178)-07-06</date><date type="issued">(1179)-07-06</date><date type="issued">(1180)-07-06</date><date type="issued">(1181)-07-06</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Papst Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">König Knut Eriksson von Schweden</legalActor></p><p><legalActor type="recipient">Bischöfe von Schweden</legalActor></p><p><legalActor type="recipient">Adel von Schweden</legalActor></p><p><legalActor type="recipient">Klerus von Schweden</legalActor></p><p><legalActor type="recipient">Volk von Schweden</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
@@ -73,7 +73,7 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Gemäß Alexanders Itinerar scheiden als Ausstellungsjahre für diese Urkunde die Jahre 1170 (JL 11818: Veroli), 1177 (JL 12878-12879: Venedig, Rivo Alto) und 1181 (JL 14407: Viterbo) aus.</p>
+            <p>Gemäß Alexanders Itinerar scheiden als Ausstellungsjahre für diese Urkunde die Jahre 1170 (<bibl>JL 11818</bibl>: Veroli), 1177 (<bibl>JL 12878-12879</bibl>: Venedig, Rivo Alto) und 1181 (<bibl>JL 14407</bibl>: Viterbo) aus.</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
