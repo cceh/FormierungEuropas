@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt><resp>Datenquelle</resp><persName>Colección Diplomática Alcántara, ed. Bonifacio Palacios Martín, Nr. 13</persName></respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>Jakob Mandel</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc><bibl type="jaffe">JL 12744</bibl><diploDesc><issued><placeName>Benevento</placeName><date type="issued">1176-12-29</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">Papst Alexander III.</legalActor></p>
+               <p><legalActor type="recipient">Gómez, Prior von San Julián del Pereiro</legalActor></p><p><legalActor type="recipient">Brüder von San Julián del Pereiro</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Urkunde</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">Privileg</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc></sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage></profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p><legalActor>Papst Alexander III.</legalActor> nimmt <legalActor>Gómez, Prior von San Julián del Pereiro</legalActor>, mit seinen Brüdern und Gütern unter den apostolischen Schutz, lässt jedoch die canonica iustitia der Diözesanbischöfe unberührt;<list>
+               <item>befreit sie von der Zahlung des Zehnten</item><item>erlaubt ihnen, Klerikeroder freie Laien aufzunehmen</item><item> und jeden, der es wünscht, in Pereiro zu bestatten, unbeschadet der Rechte anderer Kirchen; </item><item>schließlich ermahnter sie, ihre Prioren ordnungsgemäß zu wählen, </item><item>und es obliege allein ihnen, den Austritt der Professen aus dem Kloster zu genehmigen.</item>
+            </list></p>
+         </div>
+         <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="deperditum"><p>-</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Quotiens illud a nobis petitur</diploPart></div>
+         <div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>Ego <persName>Alexander, Catholicae Ecclesiae episcopus</persName>.</item><item>Ego <persName>Manfredus, Praenestinus episcopus</persName>.</item><item>Ego <persName>Joannes, Sancti Joannis et Pauli presbiter cardinalis tituli Pamachii</persName>.</item><item>Ego <persName>Albertus, presbiter cardinalis tituli Sancti Laurentii in Lucina</persName>.</item><item>Ego <persName>Baso, presbiter cardinalis Santi Pudentianae tituli Pastoris</persName>.</item><item>Ego <persName>Theodinus, presbiter cardinalis Sancti Vitalis tituli Vestinae</persName>.</item><item>Ego <persName>Petrus, presbiter cardinalis tituli Sanctae Susanae</persName>.</item><item>Ego <persName>Jacobus, diaconus cardinalis Santae [sic!] Maria in Cosmedin</persName>.</item><item>Ego <persName>Cintius, diaconus cardinalis Sancti Adriani</persName>.</item><item>Ego <persName>Hugo, diaconus cardinalis Sancti Eustachii iuxta Templum Agripae</persName>.</item><item>Ego <persName>Laborans, diaconus cardinalis Sanctae Mariae in Porticu</persName>. </item></list></diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">Datis <placeName>Beneventi</placeName>, per manum <persName>Gratiani Santae Romanae Ecclesiae subdiaconi et notarii</persName>, quarto kalendas ianuarii, indictione decima, incarnationis Dominicae, anno millessimo centesimo septuagesimo septimo, pontificatus vero <persName>D. Alexandri papae III</persName>, anno octavo decimo.</diploPart></div>
+         <div type="msSources">
+             <head>Frühester Überlieferungsträger</head>
+            <div>
+            <listBibl>   
+               <bibl type="msCopy">BNM, Ms. 622, fols. 6-7v.</bibl>
+               
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Colección Diplomática Alcántara, ed. Bonifacio Palacios Martín, Nr. 13, S. 6-8</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL 12744</bibl>
+               </listBibl></div><div type="commentary"><head>Sachkommentar</head>
+            <p>Die Rota Alexanders III. enthält die Umschrift: <diploPart>vias tuas domine demonstra michi</diploPart>.  Bleibulle Alexanders III. mit den bekannten Köpfen auf der einen, der Aufschrift <diploPart>ALEXANDER PP III.</diploPart> auf der anderen Seite.</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+         <listBibl>
+            <bibl>Joseph O’Callaghan, The foundation of the Order of Alcántara, 1176–1218. In: The Catholic Historical Review 47 (1962), S. 471–486 (wieder abgedruckt in: ders., The Spanish military order of Calatrava and its affiliates. Collected studies (Variorum collected studies series 37), London 1975, Nr. IV).</bibl>
+         </listBibl>
+         </div>
+         <div type="note"><head>Notizen</head><p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p></div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>
