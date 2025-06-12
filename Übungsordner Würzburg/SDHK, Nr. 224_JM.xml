@@ -15,7 +15,7 @@
                <licence>Lizenz</licence>
             </availability>
          </publicationStmt>
-         <sourceDesc><bibl type="jaffe">JL 13546</bibl><diploDesc><issued><placeName>Tusculum</placeName><date type="issued">(1170)-07-06</date><date type="issued">(1171)-07-06</date><date type="issued">(1172)-07-06</date><date type="issued">(1173)-07-06</date><date type="issued">(1174)-07-06</date><date type="issued">(1175)-07-06</date><date type="issued">(1176)-07-06</date><date type="issued">(1177)-07-06</date><date type="issued">(1178)-07-06</date><date type="issued">(1179)-07-06</date><date type="issued">(1180)-07-06</date><date type="issued">(1181)07-06</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+         <sourceDesc><bibl type="jaffe">JL 13546</bibl><diploDesc><issued><placeName>Tusculum</placeName><date type="issued">(1170)-07-06</date><date type="issued">(1171)-07-06</date><date type="issued">(1172)-07-06</date><date type="issued">(1173)-07-06</date><date type="issued">(1174)-07-06</date><date type="issued">(1175)-07-06</date><date type="issued">(1176)-07-06</date><date type="issued">(1177)-07-06</date><date type="issued">(1178)-07-06</date><date type="issued">(1179)-07-06</date><date type="issued">(1180)-07-06</date><date type="issued">(1181)-07-06</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Papst Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">König Knut Eriksson von Schweden</legalActor></p><p><legalActor type="recipient">Bischöfe von Schweden</legalActor></p><p><legalActor type="recipient">Adel von Schweden</legalActor></p><p><legalActor type="recipient">Klerus von Schweden</legalActor></p><p><legalActor type="recipient">Volk von Schweden</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
@@ -61,7 +61,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>[Edition 1]</bibl>
+               <bibl>SDHK, Nr. 224, https://sok.riksarkivet.se/sdhk?SDHK=224&amp;postid=sdhk_224</bibl>
                <bibl>[Edition 2]</bibl>
             </listBibl>
          </div>
