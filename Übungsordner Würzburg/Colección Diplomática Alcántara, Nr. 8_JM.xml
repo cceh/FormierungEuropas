@@ -37,9 +37,8 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>[Regestentext kann diploParts mit Sprachangabe enthalten.]
-            <list>
-               <item>Besitzbestätigung</item><item>Schutz vor fremden Besitzansprüchen</item><item>Schutz vor Kirchenstrafen</item><item>Schutz für die Erträge des Ordens</item><item>Aufnahme von Flüchtenden</item><item>Unterordnung unter die Zisterzienser</item><item>Verbot zur Flucht aus dem Orden</item><item>Androhung von Kirchenstrafen für]</item>
+            <p>Papst<list>
+               <item>Besitzbestätigung</item><item>Schutz vor fremden Besitzansprüchen</item><item>Schutz vor Kirchenstrafen</item><item>Schutz für die Erträge des Ordens</item><item>Aufnahme von Flüchtenden</item><item>Unterordnung unter die Zisterzienser</item><item>Verbot zur Flucht aus dem Orden</item><item>Androhung von Kirchenstrafen für die Verletzung dieses Privilegs.</item>
             </list></p>
          </div>
          <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="deperditum"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
