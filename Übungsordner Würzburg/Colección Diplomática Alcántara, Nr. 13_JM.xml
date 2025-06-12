@@ -34,12 +34,12 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p><legalActor>Papst Alexander III.</legalActor> nimmt Gómez, Prior von San Julián del Pereiro, mit seinen Brüdern und Gütern unter den apostolischen Schutz, lässt jedoch die canonica iustitia der Diözesanbischöfe unberührt;<list>
+            <p><legalActor>Papst Alexander III.</legalActor> nimmt <legalActor>Gómez, Prior von San Julián del Pereiro</legalActor>, mit seinen Brüdern und Gütern unter den apostolischen Schutz, lässt jedoch die canonica iustitia der Diözesanbischöfe unberührt;<list>
                <item>befreit sie von der Zahlung des Zehnten</item><item>erlaubt ihnen, Klerikeroder freie Laien aufzunehmen</item><item> und jeden, der es wünscht, in Pereiro zu bestatten, unbeschadet der Rechte anderer Kirchen; </item><item>schließlich ermahnter sie, ihre Prioren ordnungsgemäß zu wählen, </item><item>und es obliege allein ihnen, den Austritt der Professen aus dem Kloster zu genehmigen.</item>
             </list></p>
          </div>
-         <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="deperditum"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
+         <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="deperditum"><p>-</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[r quod religioni et t]</diploPart></div>
          <div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item></list></diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart></div>
          <div type="msSources">
