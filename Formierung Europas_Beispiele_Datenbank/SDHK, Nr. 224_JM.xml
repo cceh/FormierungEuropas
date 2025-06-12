@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>Sara Risberg</persName>
+            </respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>Jakob Mandel</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc><bibl type="jaffe">JL 13546</bibl><diploDesc><issued><placeName>Tusculum</placeName><date type="issued">(1171)-07-06</date><date type="issued">(1172)-07-06</date><date type="issued">(1173)-07-06</date><date type="issued">(1174)-07-06</date><date type="issued">(1175)-07-06</date><date type="issued">(1176)-07-06</date><date type="issued">(1178)-07-06</date><date type="issued">(1179)-07-06</date><date type="issued">(1180)-07-06</date></issued><p><legalActor type="issuer">Papst Alexander III.</legalActor></p>
+               <p> <legalActor type="recipient">König Knut Eriksson von Schweden</legalActor></p><p><legalActor type="recipient">Bischöfe von Schweden</legalActor></p><p><legalActor type="recipient">Adel von Schweden</legalActor></p><p><legalActor type="recipient">Klerus von Schweden</legalActor></p><p><legalActor type="recipient">Volk von Schweden</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Urkunde</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">littera</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc></sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage></profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p><legalActor>Papst Alexander III.</legalActor> schreibt an <legalActor>König K(nut Eriksson) von Schweden</legalActor>, die Bischöfe, die Grafen, den Klerus und das Volk von Schweden bezüglich der Statuten des Heiligen Stuhls. Er unterrichtet sie darüber,<list>
+               <item>dass die Ehe nur zwischen einem Mann und einer Frau erlaubt ist sowie Scheidung, Polygamie und Eheschließungen zwischen einer Witwe bzw. eines Witwers mit einer Person aus der Verwandtschaft der/des Verstorbenen verboten sind,</item><item>dass die Gläubigen Bischöfe, Priester und Mönche ehren sollen, </item><item>dass die Plünderung von Kircheneigentum ein schweres Sakrileg darstellt,</item><item>dass die Zahlung der Zehnten eine gottgegebene Pflicht ist,</item><item>dass die Gläubigen nicht alle ihre Güter an die Kirche vererben dürfen, um das gesetzliche Erbrecht zu schützen</item><item>dass Ehen auch dann noch unverletzlich sind, wenn ein Ehepartner für lange Zeit, etwa wegen Gefangenschaft, abwesend ist,</item><item>dass die Gläubigen auf keinen Fall einen Mann, der im Alkoholrausch getötet wurde, als Heiligen verehren dürfen.</item>
+            </list>Wenn diese Vorschriften eingehalten werden, hebt der Papst das vierzigtägige Fasten vor dem Michaelistag auf, mit Ausnahme der Freitage.</p>
+         </div>
+         <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="deperditum"><p>-</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Nobili viro duci. vniuerso clero</diploPart></div>
+         <div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>keine</item></list></diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">Datum Tusculani secundo non. Julij.</diploPart></div>
+         <div type="msSources">
+             <head>Frühester Überlieferungsträger</head>
+            <div>
+            <listBibl>   
+               <bibl type="msCopy">Registrum ecclesie Lincopensis, hs A 9, f. 21r-22r, SE/RA/0201, https://sok.riksarkivet.se/bildvisning/R0001967_00019</bibl>
+               </listBibl></div></div><div type="decretals"><head>Dekretalen</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>SDHK, Nr. 224, https://sok.riksarkivet.se/sdhk?SDHK=224&amp;postid=sdhk_224</bibl>
+               <bibl>Diplomatarium Suecanum, Bd. 1., ed. Johann Gustav Liljegren, Stockholm 1829, Nr. 41, S. 60-64</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL 13546</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Gemäß Alexanders Itinerar scheiden als Ausstellungsjahre für diese Urkunde die Jahre 1170 (<bibl>JL 11818</bibl>: Veroli), 1177 (<bibl>JL 12878-12879</bibl>: Venedig, Rivo Alto) und 1181 (<bibl>JL 14407</bibl>: Viterbo) aus.</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+         <listBibl>
+            <bibl>Arne Jönsson, St. Eric of Sweden – the drunken Saint? In: Analecta Bollandiana 109 (1991), S. 331–346.</bibl>
+         </listBibl>
+         </div>
+         <div type="note"><head>Notizen</head><p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p></div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>
