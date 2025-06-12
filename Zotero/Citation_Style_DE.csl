@@ -5,7 +5,7 @@
     <title>Formierung_Citation_Style_DE</title>
     <id>http://www.zotero.org/styles/formierung_citation_style_de</id>
     <link rel="self" href="http://www.zotero.org/styles/formierung_citation_style_de"/>
-    <updated>2025-06-11T14:23:12+00:00</updated>
+    <updated>2025-06-12T08:38:03+00:00</updated>
   </info>
   <macro name="author">
     <names variable="author" suffix=", ">
@@ -14,15 +14,15 @@
       </name>
     </names>
   </macro>
-  <macro name="collection-editor (Hg.)">
-    <names variable="collection-editor" prefix=", hg. von ">
+  <macro name="editor (Hg.)">
+    <names variable="editor" prefix=", hg. von ">
       <name delimiter="/" delimiter-precedes-last="always" initialize="false">
         <name-part name="family" font-variant="small-caps"/>
       </name>
     </names>
   </macro>
-  <macro name="editor (ed.)">
-    <names variable="editor" prefix=", ed. ">
+  <macro name="collection-editor (ed.)">
+    <names variable="collection-editor" prefix=", ed. ">
       <name delimiter="/" delimiter-precedes-last="always" initialize="false">
         <name-part name="family" font-variant="small-caps"/>
       </name>
@@ -153,14 +153,14 @@
     </sort>
     <layout>
       <choose>
-        <if match="all" variable="editor">
+        <if match="all" variable="collection-editor">
           <choose>
             <if type="book" match="any">
               <group>
                 <text macro="author"/>
                 <text variable="title"/>
                 <number prefix=", " suffix=" Bde." variable="number-of-volumes"/>
-                <text macro="editor (ed.)"/>
+                <text macro="collection-editor (ed.)"/>
                 <text macro="contributor (unter Mitarbeit v.)"/>
                 <text macro="translator (Übers.)"/>
                 <number prefix=", Bd. " variable="volume"/>
@@ -176,7 +176,7 @@
             <text macro="author"/>
             <text variable="title" strip-periods="false" font-style="normal"/>
             <number prefix=", " suffix=" Bde." variable="number-of-volumes"/>
-            <text macro="collection-editor (Hg.)"/>
+            <text macro="editor (Hg.)"/>
             <text macro="contributor (unter Mitarbeit v.)"/>
             <text macro="translator (Übers.)"/>
             <number prefix=", Bd. " variable="volume"/>
@@ -191,7 +191,7 @@
             <text variable="title"/>
             <text value=", in: " strip-periods="false"/>
             <text variable="container-title"/>
-            <text macro="collection-editor (Hg.)"/>
+            <text macro="editor (Hg.)"/>
             <text macro="contributor (unter Mitarbeit v.)"/>
             <text macro="collection"/>
             <text macro="place, edition, year"/>
@@ -238,7 +238,7 @@
             <text macro="author"/>
             <text variable="title"/>
             <text variable="collection-title" prefix=", in: "/>
-            <text macro="collection-editor (Hg.)"/>
+            <text macro="editor (Hg.)"/>
             <text macro="contributor (unter Mitarbeit v.)"/>
             <group delimiter=" " prefix=", ">
               <text variable="publisher-place"/>
@@ -252,7 +252,7 @@
             <text macro="author"/>
             <text variable="title"/>
             <text variable="container-title" prefix=", Blogbeitrag auf: "/>
-            <text macro="collection-editor (Hg.)"/>
+            <text macro="editor (Hg.)"/>
             <text macro="date(tt.mm.jjjj)" prefix=", "/>
             <text macro="DOI or URL"/>
           </group>
