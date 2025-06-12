@@ -40,7 +40,7 @@
          </div>
          <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="deperditum"><p>-</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Quotiens illud a nobis petitur</diploPart></div>
-         <div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item></list></diploPart></div>
+         <div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>Ego Alexander, Catholicae Ecclesiae episcopus.</item><item>Ego Manfredus, Praenestinus episcopus.</item><item>Ego Joannes, Sancti Joannis et Pauli presbiter cardinalis tituli Pamachii.</item><item>Ego Albertus, presbiter cardinalis tituli Sancti Laurentii in Lucina.</item><item>Ego Baso, presbiter cardinalis Santi Pudentianae tituli Pastoris.</item><item>Ego Theodinus, presbiter cardinalis Sancti Vitalis tituli Vestinae.</item><item>Ego Petrus, presbiter cardinalis tituli Sanctae Susanae.</item><item>Ego Jacobus, diaconus cardinalis Santae [sic!] Maria in Cosmedin.</item><item>Ego Cintius, diaconus cardinalis Sancti Adriani.</item><item>Ego Hugo, diaconus cardinalis Sancti Eustachii iuxta Templum Agripae.</item><item>Ego Laborans, diaconus cardinalis Sanctae Mariae in Porticu. </item></list></diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart></div>
          <div type="msSources">
              <head>Frühester Überlieferungsträger</head>
