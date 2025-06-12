@@ -15,7 +15,7 @@
                <licence>Lizenz</licence>
             </availability>
          </publicationStmt>
-         <sourceDesc><bibl type="jaffe">JL 13546</bibl><diploDesc><issued><placeName>Tusculum</placeName><date type="issued">(1170</date><date type="issued">(1171</date><date type="issued">(1172</date><date type="issued">(1173</date><date type="issued">(1174</date><date type="issued">(1175</date><date type="issued">(1176</date><date type="issued">(1177</date><date type="issued">(1178</date><date type="issued">1(179</date><date type="issued">1180]</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+         <sourceDesc><bibl type="jaffe">JL 13546</bibl><diploDesc><issued><placeName>Tusculum</placeName><date type="issued">(1170)-</date><date type="issued">(1171)-</date><date type="issued">(1172)-</date><date type="issued">(1173)-</date><date type="issued">(1174)-</date><date type="issued">(1175)-</date><date type="issued">(1176)-</date><date type="issued">(1177)-</date><date type="issued">(1178)-</date><date type="issued">(1179)-</date><date type="issued">(1180)-</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Papst Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">König Knut Eriksson von Schweden</legalActor></p><p><legalActor type="recipient">Bischöfe von Schweden</legalActor></p><p><legalActor type="recipient">Adel von Schweden</legalActor></p><p><legalActor type="recipient">Klerus von Schweden</legalActor></p><p><legalActor type="recipient">Volk von Schweden</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
