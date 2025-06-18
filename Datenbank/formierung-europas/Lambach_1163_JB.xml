@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -16,8 +16,8 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <diploDesc><p><issued><placeName>Bourges</placeName><date type="issued" notBefore="1000-01-01" notAfter="1000-01-01">1163 August 2</date>
-               <date type="issued" when="1000-01-01"/></issued></p>
+            <diploDesc><p><issued><placeName>Bourges</placeName><date type="issued" when="1163-08-02">1163 August 2</date>
+    </issued></p>
                <p><legalActor type="issuer">Alexander III., Papst</legalActor></p>
                  <p> <legalActor type="recipient">Kloster Lambach</legalActor></p>
                  <p> <legalActor type="recipient">Bernard, Abt des Klosters Lambach</legalActor></p>
@@ -49,14 +49,6 @@
             <div>
             <listWit>   
                <witness><msDesc><msIdentifier><placeName>Lambach,</placeName><institution>Stiftsarchiv, </institution><repository/><collection/><idno type="shelfmark">Urkunden (992-1600) 1163 VIII 02</idno></msIdentifier><copyStatus type="original">[Original]</copyStatus><history/></msDesc></witness>
-               <witness><msDesc>
-                  <msIdentifier>
-                     
-                     
-                     
-                     
-                  </msIdentifier>
-             </msDesc></witness>
             </listWit>
          </div>
          </div>

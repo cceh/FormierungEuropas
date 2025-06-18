@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -7,7 +7,7 @@
                <resp>Bearbeiter*in:</resp>
                <persName>Jakob Mandel</persName>
             </respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>Jakob Mandel</persName></respStmt>
+           <respStmt><resp when="2025">Encoding:</resp><persName>Jakob Mandel</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -16,7 +16,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <diploDesc><p><issued><placeName>Ferentimo</placeName><date type="issued">(1174 Oktober 10</date><date type="issued">(1175) Oktober 10</date>
+            <diploDesc><p><issued><placeName>Ferentimo</placeName><date type="issued" when="1174-10-10">(1174) Oktober 10</date><date type="issued" when="1175-10-10">(1175) Oktober 10</date>
                </issued></p>
                <p><legalActor type="issuer">Papst Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Templerorden</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
@@ -32,16 +32,15 @@
          <div type="abstract"><head>Abstract:</head>
             <p><legalActor>Alexander III.</legalActor> befiehlt den <legalActor>Templern von Toledo</legalActor>, in ihren Kirchen die Rechte des <legalActor>Erzbischofs von Toledo</legalActor> und seiner Suffragane auf Zehntzahlungen und die Einsetzung von Klerikern einzuhalten. Außerdem sollen die Ritter auch für neu eroberte Siedlungen, auf die die Bischöfe traditionelle Ansprüche haben, den Zehnten entrichten. Zur Durchsetzung dieser Rechte hat Alexander den Bischöfen das Recht eingeräumt, das Interdikt oder die Exkommunikation gegen den Templerorden zu verhängen.</p>
          </div>
-         <div type="other"><head>Echtheitskriterien:</head><authen type="formula"><p>[-]</p><!-- Echtheitskriterien --></authen></div><div><head>Incipit:</head><diploPart type="incipit">Licet uos sicut religiosos uiros</diploPart></div>
+         <div type="other"><head>Echtheitskriterien:</head><authen type="formula" n="na"><p>[-]</p><!-- Echtheitskriterien --></authen></div><div><head>Incipit:</head><diploPart type="incipit">Licet uos sicut religiosos uiros</diploPart></div>
          <div type="witness">
             <head>Datatio:</head><diploPart>Datum Ferentini, vi. Idus Octubris.</diploPart>
          </div>
          <div type="msSources">
-             <head>Handschriftliche Überlieferung und alte Drucke</head>
+             <head>Frühester Überlieferungsträger</head>
             <div>
             <listWit>   
                <witness><bibl>Madrid, Archivo Histórico Nacional, CLERO-SECULAR_CAR.3017, N.17</bibl></witness>
-               <witness><bibl/></witness>
             </listWit>
          </div>
          </div>

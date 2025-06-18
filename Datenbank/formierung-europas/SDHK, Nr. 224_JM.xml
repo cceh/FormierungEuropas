@@ -7,7 +7,7 @@
                <resp>Datenquelle</resp>
                <persName>Sara Risberg</persName>
             </respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>Jakob Mandel</persName></respStmt>
+           <respStmt><resp when="2025">Encoding:</resp><persName>Jakob Mandel</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -15,7 +15,7 @@
                <licence>Lizenz</licence>
             </availability>
          </publicationStmt>
-         <sourceDesc><bibl type="jaffe">JL 13546</bibl><diploDesc><issued><placeName>Tusculum</placeName><date type="issued">(1171)-07-06</date><date type="issued">(1172)-07-06</date><date type="issued">(1173)-07-06</date><date type="issued">(1174)-07-06</date><date type="issued">(1175)-07-06</date><date type="issued">(1176)-07-06</date><date type="issued">(1178)-07-06</date><date type="issued">(1179)-07-06</date><date type="issued">(1180)-07-06</date></issued><p><legalActor type="issuer">Papst Alexander III.</legalActor></p>
+         <sourceDesc><bibl type="jaffe">JL 13546</bibl><diploDesc><issued><placeName>Tusculum</placeName><date type="issued" when="1171-07-06">(1171)-07-06</date><date type="issued" when="1172-07-06">(1172)-07-06</date><date type="issued" when="1173-07-06">(1173)-07-06</date><date type="issued" when="1174-07-06">(1174)-07-06</date><date type="issued" when="1175-07-06">(1175)-07-06</date><date type="issued" when="1176-07-06">(1176)-07-06</date><date type="issued" when="1177-07-06">(1178)-07-06</date><date type="issued" when="1197-07-06">(1179)-07-06</date><date type="issued" when="1180-07-06">(1180)-07-06</date></issued><p><legalActor type="issuer">Papst Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">König Knut Eriksson von Schweden</legalActor></p><p><legalActor type="recipient">Bischöfe von Schweden</legalActor></p><p><legalActor type="recipient">Adel von Schweden</legalActor></p><p><legalActor type="recipient">Klerus von Schweden</legalActor></p><p><legalActor type="recipient">Volk von Schweden</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Urkunde</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
                <p><objectType n="">littera</objectType></p>
