@@ -5,7 +5,7 @@
     <title>Formierung_Citation_Style_DE</title>
     <id>http://www.zotero.org/styles/formierung_citation_style_de</id>
     <link rel="self" href="http://www.zotero.org/styles/formierung_citation_style_de"/>
-    <updated>2025-07-02T07:57:14+00:00</updated>
+    <updated>2025-07-02T10:40:32+00:00</updated>
   </info>
   <macro name="author">
     <names variable="author" suffix=", ">
@@ -30,6 +30,13 @@
   </macro>
   <macro name="collection-editor (Hg.)">
     <names variable="collection-editor" prefix=", hg. v. ">
+      <name delimiter="/" delimiter-precedes-last="always" initialize="false">
+        <name-part name="family" font-variant="small-caps"/>
+      </name>
+    </names>
+  </macro>
+  <macro name="container-author">
+    <names variable="container-author" suffix=", ">
       <name delimiter="/" delimiter-precedes-last="always" initialize="false">
         <name-part name="family" font-variant="small-caps"/>
       </name>
@@ -170,6 +177,7 @@
                 <text macro="contributor (unter Mitarbeit v.)"/>
                 <text macro="translator (Übers.)"/>
                 <text value=", in: "/>
+                <text macro="container-author"/>
                 <text variable="container-title"/>
                 <text macro="collection-editor (Hg.)"/>
                 <text macro="collection"/>
@@ -215,6 +223,7 @@
             <text macro="author"/>
             <text variable="title"/>
             <text value=", in: " strip-periods="false"/>
+            <text macro="container-author"/>
             <text variable="container-title"/>
             <text macro="editor (Hg.)"/>
             <text macro="contributor (unter Mitarbeit v.)"/>
