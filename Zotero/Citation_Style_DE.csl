@@ -5,7 +5,7 @@
     <title>Formierung_Citation_Style_DE</title>
     <id>http://www.zotero.org/styles/formierung_citation_style_de</id>
     <link rel="self" href="http://www.zotero.org/styles/formierung_citation_style_de"/>
-    <updated>2025-06-12T08:38:03+00:00</updated>
+    <updated>2025-07-02T07:57:14+00:00</updated>
   </info>
   <macro name="author">
     <names variable="author" suffix=", ">
@@ -21,8 +21,15 @@
       </name>
     </names>
   </macro>
-  <macro name="collection-editor (ed.)">
-    <names variable="collection-editor" prefix=", ed. ">
+  <macro name="editor (ed.)">
+    <names variable="editor" prefix=", ed. ">
+      <name delimiter="/" delimiter-precedes-last="always" initialize="false">
+        <name-part name="family" font-variant="small-caps"/>
+      </name>
+    </names>
+  </macro>
+  <macro name="collection-editor (Hg.)">
+    <names variable="collection-editor" prefix=", hg. v. ">
       <name delimiter="/" delimiter-precedes-last="always" initialize="false">
         <name-part name="family" font-variant="small-caps"/>
       </name>
@@ -153,22 +160,40 @@
     </sort>
     <layout>
       <choose>
-        <if match="all" variable="collection-editor">
+        <if type="classic" match="all">
           <choose>
-            <if type="book" match="any">
+            <if match="any" variable="container-title">
+              <group>
+                <text macro="author"/>
+                <text variable="title"/>
+                <text macro="editor (ed.)"/>
+                <text macro="contributor (unter Mitarbeit v.)"/>
+                <text macro="translator (Übers.)"/>
+                <text value=", in: "/>
+                <text variable="container-title"/>
+                <text macro="collection-editor (Hg.)"/>
+                <text macro="collection"/>
+                <text macro="place, edition, year"/>
+                <number variable="volume"/>
+                <text macro="page or column"/>
+                <text macro="DOI or URL"/>
+              </group>
+            </if>
+            <else>
               <group>
                 <text macro="author"/>
                 <text variable="title"/>
                 <number prefix=", " suffix=" Bde." variable="number-of-volumes"/>
-                <text macro="collection-editor (ed.)"/>
+                <text macro="editor (ed.)"/>
                 <text macro="contributor (unter Mitarbeit v.)"/>
                 <text macro="translator (Übers.)"/>
                 <number prefix=", Bd. " variable="volume"/>
                 <text macro="collection"/>
                 <text macro="place, edition, year"/>
+                <text macro="page or column"/>
                 <text macro="DOI or URL"/>
               </group>
-            </if>
+            </else>
           </choose>
         </if>
         <else-if type="book" match="all">
@@ -196,7 +221,7 @@
             <text macro="collection"/>
             <text macro="place, edition, year"/>
             <number prefix=", Bd. " variable="volume"/>
-            <number prefix=", S. " variable="page"/>
+            <text macro="page or column"/>
             <text macro="DOI or URL"/>
           </group>
         </else-if>
@@ -206,7 +231,7 @@
             <text variable="title"/>
             <text variable="container-title" prefix=", in: "/>
             <text macro="journal: issue, number, year"/>
-            <number prefix=", S. " variable="page"/>
+            <text macro="page or column"/>
             <text macro="DOI or URL"/>
           </group>
         </else-if>
