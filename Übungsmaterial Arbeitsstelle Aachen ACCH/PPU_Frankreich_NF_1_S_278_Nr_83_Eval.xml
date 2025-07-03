@@ -18,7 +18,7 @@
             <diploDesc><p><issued><placeName>-</placeName><date type="issued">(cr. 1160-62)</date>
                </issued></p>
                <p><legalActor type="issuer">Heinrich, Kardinalpriester von SS. Nereus und Achilleus</legalActor></p>
-               <p> <legalActor type="recipient">Cheminon, Kloste</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient">Cheminon, Kloste</legalActor></p><p><legalActor type="recipient">r</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType>Kardinalsurkunde</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
