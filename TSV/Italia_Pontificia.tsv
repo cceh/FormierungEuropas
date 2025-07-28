@@ -1,4 +1,4 @@
-Lfd. Nummer	 Band	 Seite	 Regestnummer	Listennummer	Ort	 Datum	notBefore	notAfter	Papst	 Aussteller	 Empfänger	Kurzregest	JL	Notiz
+Lfd. Nummer	Band	Seite	Nummer	Listennummer	Ort	Datum	notBefore	notAfter	Papst	Aussteller	Empfänger	Kurzregest	JL	Notiz
 1	It.Pont. 1	67	*8	444	–	06 Juni 1161	1161-06-06	1161-06-06	Alexander III.	Alexander III.	kein direkter Empfänger	Kirchenweihe	–	
 2	It.Pont. 1	175	11	445	Palestrina	10 Juli 1161	1161-07-10	1161-07-10	Alexander III.	Alexander III.	Abt Baldinonus Kloster Tre Fontane etc.		10670	
 3	It.Pont. 1	67	9	446	Terracina	30 September 1161	1161-09-30	1161-09-30	Alexander III.	Alexander III.	Prior Hugo und die Brüder (der Basilika Santa Maria Nova (Santa Francesca Romana al Palatino)		10679	
@@ -47,7 +47,7 @@ Lfd. Nummer	 Band	 Seite	 Regestnummer	Listennummer	Ort	 Datum	notBefore	notAfte
 46	It.Pont. 1	29	†*26	†*497	–	[1159-1181]	1159-01-01	1181-12-31	Alexander III.	Alexander III.	(kein direkter Empfänger)	Einräumung von Ablässen der Lateranskirche und einzelner Personen	–	
 47	It.Pont. 1	32	†*3	†*498	–	[1159-1181]	1159-01-01	1181-12-31	Alexander III.	Alexander III.	(kein direkter Empfänger)	Privilegsvergabe	–	
 48	It.Pont. 1	44	†*2	†*499	–	[1159-1181]	1159-01-01	1181-12-31	Alexander III.	Alexander III.	(kein direkter Empfänger)	Bestätigung der von Gelasius ( Nr.1) gewährten Ablässe	–	
-49	It.Pont. 1	52	*12	*500	–	[1159-1181]	1159-01-01	1181-12-31	Alexander III.	Alexander III.	(kein direkter Empfänger)	 Bestätigung des durch Celestin II. durchgeführten Wiederaufbau (Nr. 4,5,8,10)	–	
+49	It.Pont. 1	52	*12	*500	–	[1159-1181]	1159-01-01	1181-12-31	Alexander III.	Alexander III.	(kein direkter Empfänger)	Bestätigung des durch Celestin II. durchgeführten Wiederaufbau (Nr. 4,5,8,10)	–	
 50	It.Pont. 1	52	*13	*501	–	[1159-1181]	1159-01-01	1181-12-31	Alexander III.	Alexander III.	(kein direkter Empfänger)	Bestätigung der Widerlegung	–	
 51	It.Pont. 1	109	*2	*502	–	[1159-1181]	1159-01-01	1181-12-31	Alexander III.	Alexander III.	(kein direkter Empfänger)	Gewährung von Schutzprivilegium	–	
 52	It.Pont. 1	112	2	503	–	[1159-1181]	1159-01-01	1181-12-31	Alexander III.	Alexander III.	(kein direkter Empfänger)	Bestätigung der gewährten Indulgenzen seiner Vorgänger	–	
@@ -173,7 +173,7 @@ Lfd. Nummer	 Band	 Seite	 Regestnummer	Listennummer	Ort	 Datum	notBefore	notAfte
 172	It.Pont. 2	188	3	550	Laterano	03 Juli 1179	1179-07-03	1179-07-03	Alexander III.	Alexander III.	Johannes, Abt des Klosters St. Maria in Fallerense		13450	
 173	It.Pont. 2	139	16	*551	Anagni	30 September 1179	1179-09-30	1179-09-30	Alexander III.	Alexander III.	–	Weihe der Kirche von Anagni mithilfe der Bischöfe von Porto, Veroli, Segni, Alatri, Terracina und Lusanensi (Fundano an Sorano?)	–	
 174	It.Pont. 2	105	1	552	–	[11 Oktober 1179]	1179-10-11	1179-10-11	Alexander III.	Alexander III.	–	Permutation Alexanders III. zusammen mit dem edlen Herrn Raino von Tusculano [im Inhaltsverzeichnis ist das Datum eingeklammert  beim entsprechenden Regest nicht]	13474	
-175	It.Pont. 2	110	1	552	–	[11 Oktober 1179]	1179-10-11	1179-10-11	Alexander III.	Alexander III.	?	 Permutation Alexanders III. zusammen mit dem edlen Herrn Raino von Tusculano [im Inhaltsverzeichnis ist das Datum eingeklammertbeim entsprechenden Regest nicht])	13474	
+175	It.Pont. 2	110	1	552	–	[11 Oktober 1179]	1179-10-11	1179-10-11	Alexander III.	Alexander III.	?	Permutation Alexanders III. zusammen mit dem edlen Herrn Raino von Tusculano [im Inhaltsverzeichnis ist das Datum eingeklammertbeim entsprechenden Regest nicht])	13474	
 176	It.Pont. 2	160	27	553	Segni	12 Oktober [1179]	1179-10-12	1179-10-12	Alexander III.	Alexander III.	N., Abt des Klosters St. Petrus in Canneto, sowie der gesamte Klerus		–	
 177	It.Pont. 2	166	5	553	Segni	12 Oktober [1179]	1179-10-12	1179-10-12	Alexander III.	Alexander III.	N., Abt des Klosters St. Petrus in Canneto, sowie der gesamte Klerus		–	
 178	It.Pont. 2	163	3	554	Tusculanum	27 November [1170-80]	1170-11-27	1180-11-27	Alexander III.	Alexander III.	Klerus und Volk (von Veruli)		13532	
@@ -242,7 +242,7 @@ Lfd. Nummer	 Band	 Seite	 Regestnummer	Listennummer	Ort	 Datum	notBefore	notAfte
 241	It.Pont. 2	97	57	*597	Segni	[1181]	1181-01-01	1181-12-31	Lucius III.	Lucius III.	Kapitel von Subiaco	Erwähnung des ob genannten Beschlusses als …Alexandri III scriptum authenticum	–	
 242	It.Pont. 2	163	5	598	Laterano	08 Januar [1182]	1182-01-08	1182-01-08	Lucius III.	[Lucius III.]	[Konsuln und gesamtes Volk]	Erwähnung: Alexandri III prohibitionem	14556	
 243	It.Pont. 2	170	8	598	Laterano	08 Januar [1182]	1182-01-08	1182-01-08	Lucius III.	[Lucius III.]	[Konsuln und gesamtes Volk von Veruli]	Erwähnung: Alexandri III prohibitionem	14556	
-244	It.Pont. 2	152	3	600	 Velletri	20 November 1182	1182-11-20	1182-11-20	Lucius III.	Lucius III.	Flavianus, Prior des Klosters St. Agnellus in Guarcino	repetit Alexandri III privilegium	–	
+244	It.Pont. 2	152	3	600	Velletri	20 November 1182	1182-11-20	1182-11-20	Lucius III.	Lucius III.	Flavianus, Prior des Klosters St. Agnellus in Guarcino	repetit Alexandri III privilegium	–	
 245	It.Pont. 2	132	4	601	Velletri	02 Dezember 1182	1182-12-02	1182-12-02	Lucius III.	Lucius III.	Petrus, Bischof	Erwähnung: ad exemplar Alexandri ecclesiam sub apost. Protectione suscipit …	14709	
 246	It.Pont. 2	170	14	632	Laterano	11 Mai 1188	1188-05-11	1188-05-11	Clemens III.	Clemens III.	Abt und Konvent des Klosters St. Johannes und St. Paulus in Casamari	Erwähnung: sed schismatis tempore perdiderunt, integre, sicut continetur in privilegiis Anastasii (n. 7), Hadriani (n. 8), Alexandri (n. 9) …	–	
 247	It.Pont. 2	141	8	648	Roma S. Pietro	21 Oktober 1191	1191-10-21	1191-10-21	Coelestin III.	Celestin III.	(Johannes,) Abt des Klosters St. Petrus in Villa magna, sowie alle Mitbrüder	Erwähnung: repetit Alexandri III concessionem	16749	
@@ -1495,7 +1495,7 @@ Lfd. Nummer	 Band	 Seite	 Regestnummer	Listennummer	Ort	 Datum	notBefore	notAfte
 1494	It.Pont. 6,2	300	2	451	Ferentino	16 September [1170]	1170-09-16	1170-09-16	Alexander III.	Alexander III.	Probst der Kirche St. Maria in Castello, sowie die Kanoniker		11837a	
 1495	It.Pont. 6,2	295	6	452	Ferentino	17 September [1170]	1170-09-17	1170-09-17	Alexander III.	Alexander III.	Kleriker von St. Damianus und St. Nazarius		11837b	
 1496	It.Pont. 6,2	300	3	452	Ferentino	17 September [1170]	1170-09-17	1170-09-17	Alexander III.	Alexander III.	Kleriker von St. Damianus und St. Nazarius		11837b	
-1497	It.Pont. 6,2	107	3	453	Tusculanum	20 März 1171	1171-03-20	1171-03-20	Alexander III.	Alexander III.	 Beatrix, Äbtissin des Klosters St. Maria in Caramagna		–	
+1497	It.Pont. 6,2	107	3	453	Tusculanum	20 März 1171	1171-03-20	1171-03-20	Alexander III.	Alexander III.	Beatrix, Äbtissin des Klosters St. Maria in Caramagna		–	
 1498	It.Pont. 6,2	37	1	454	Tusculanum	20 Juni 1171	1171-06-20	1171-06-20	Alexander III.	Alexander III.	Maria, Äbtissin des Klosters St. Petrus in Lenta		–	
 1499	It.Pont. 6,2	283	*23	*455	–	[cr. 1171]	1171-01-01	1171-12-31	Alexander III.	Alexander III.	(Hugo/Ugo [Ugone della Volta],) Erzbischof von Genua	causa inter abbatem s. Rufi et canonicos Ianuen. super ecclesia de Sarzano audiendam	–	
 1500	It.Pont. 6,2	345	*3	*455	–	[cr. 1171]	1171-01-01	1171-12-31	Alexander III.	Alexander III.	Erzbischof von Genua	causa inter abbatem s. Rufi et canonicos Ianuen. super ecclesia de Sarzano audiendam	–	
@@ -2290,7 +2290,7 @@ Lfd. Nummer	 Band	 Seite	 Regestnummer	Listennummer	Ort	 Datum	notBefore	notAfte
 2289	It.Pont. 8	404	10	1093	Velletri	04 Dezember 1182	1182-12-04	1182-12-04	Lucius III.			ad exemplar … Alexandri	14711	
 2290	It.Pont. 9	402	†4	†611	Roma S. Giovanni in Laterano	24 Dezember [1160]	1160-12-24	1160-12-24	Alexander III.	Alexander III.	Kapitel der Kirche von Oria und der restliche Klerus und das Volk dieser Stadt		11255	
 2291	It.Pont. 9	394	†35	†611	Roma S. Giovanni in Laterano	24 Dezember [1160]	1160-12-24	1160-12-24	Alexander III.	Alexander III.	Kapitel der Kirche von Oria und der restliche Klerus und das Volk dieser Stadt		11255	
-2292	It.Pont. 9	68	65	612	Ferentino	19 August [1161]	1161-08-19	1161-08-19	Alexander III.	Alexander III.	Erzbischof Syrus und die Konsule von Ianuen.		 10676a	
+2292	It.Pont. 9	68	65	612	Ferentino	19 August [1161]	1161-08-19	1161-08-19	Alexander III.	Alexander III.	Erzbischof Syrus und die Konsule von Ianuen.		10676a	
 2293	It.Pont. 9	69	*66	*613	–	[Mai 1164 cr.]	1164-05-01	1164-05-31	Alexander III.	Alexander III.	Erzbischof Henricus (von Benevento)		–	
 2294	It.Pont. 9	264	4	[615]	Benevento	10 September 1167	1167-09-10	1167-09-10	Alexander III.	Alexander III.	Prior Riccardus etc.		11362	
 2295	It.Pont. 9	257	*11	*616	–	[1167]	1167-01-01	1167-12-31	Alexander III.	Alexander III.	kein direkter Empfänger	(Privilegsvergabe)	–	
