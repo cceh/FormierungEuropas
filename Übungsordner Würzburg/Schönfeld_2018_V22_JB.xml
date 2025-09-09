@@ -70,13 +70,13 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl><head/><listBibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 260–262, Nr. V22</bibl></listBibl></bibl><bibl>Jacobs, Urkundenbuch, Bd. I, S. 27, Nr. 23</bibl>
+               <bibl><listBibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 260–262, Nr. V22</bibl></listBibl></bibl><bibl>Jacobs, Urkundenbuch, Bd. I, S. 27, Nr. 23</bibl>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>[Regest 1]</bibl>
+               <bibl>JL 14434</bibl>
                <bibl>[Regest 2]</bibl>
             </listBibl>
          </div>
