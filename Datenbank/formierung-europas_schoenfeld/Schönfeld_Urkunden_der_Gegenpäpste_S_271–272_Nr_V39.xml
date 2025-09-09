@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="schoenfeld"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt>
+              <resp when="2024">Encoding:</resp>
+              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+           </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>Schönfeld, Urkunden der Gegenpäpste, S. 271–272, Nr. V39</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 271–272, Nr. V39</bibl><bibl type="jaffe">14446</bibl>
+            <diploDesc>
+               <issued>
+                  <placeName>Alba</placeName>
+                  <date type="issued" notBefore="1161-03-18" notAfter="1161-03-18">1161, März 18</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Viktor IV . bestätigt dem Kloster Einsiedeln das diesem von Ludolf von Regensburg gestiftete und durch eine Urkunde Lothars III . zuerkannte Kloster Fahr.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+         <div type="other">
+            <head>Echtheitskriterien: </head>
+            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
+         </div>
+         <div>
+            <head>Incipit:</head>
+            <diploPart type="incipit" xml:lang="lat">Iustis petentium desideriis</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones:</head>
+            <diploPart type="subscriptio">
+               <list><item>Rota-Inschrift: Rota-Inschrift: sanctus Petrus / sanctus Paulus / Vic papa / tor IIII</item><item>Rota-Devise: Rota-Devise: Tu es gloria mea, tu es susceptor meus, tu exaltas caput meum domine</item><item>Bene Valete: x</item><item>Komma: –</item><item>Subskriptionen: –</item></list><list>
+                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+               </list>
+            </diploPart>
+         </div>
+         <div>
+            <head>Datatio:</head>
+            <diploPart type="datatio">Datum Albe per manum magistri Girardi sancte Romane ecclesie subdiaconi, XV kalendas aprilis indictione VIIII , incarnationis dominice anno MCLXI , pontificatus vero domni Victoris pape IIII anno II .</diploPart>
+         </div>
+         <div type="msSources">
+             <head>Frühester Überlieferungsträger</head>
+            <div>
+            <listBibl>   
+               <bibl type="original">Original, Einsiedeln, Stiftsarchiv, D A 3;</bibl>
+               <bibl type="msCopy">[handschriftliche Kopie]</bibl>
+               <bibl type="print">[Druck]</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 271–272, Nr. V39</bibl>
+               <bibl>Tschudi: Chronicon, Bd. I, S. 82; Escher: Urkundenbuch der Stadt und Landschaft Zürich, Bd. I, S. 196, Nr. 315;</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL 14446</bibl>
+               <bibl>GP IV , S. 113, Nr. *184; GP V/3, S. 90, Nr. *61; ibid., S. 184, Nr. *38; Stoller: Schism, S. 58, Nr. *20 [†]; Lit.: Holtzmann: Die Urkunde Heinrichs IV ., v. a. S. 192 f.; Ziese: Wibert von Ravenna, S. 115; Stoller: Schism, S. 58 f.; D H IV 390 (1086, April 29).</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>[Inhalt des Sachkommentars. Bibliographische Referenzen werden als Bibliographische Angabe getagged.]</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Weitere Referenzen als listBibl]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>Text (Transkription d. Verf.): Victor episcopus servus servorum dei. Dilectis in Christo filiis Rudolfo abbati et monachis Heremitarum eorumque successoribus regulariter viventibus in perpetuum. Iustis petentium desideriis facilem nos convenit impertiri consensum et vota, que a rationis tramite non discordant, effectu sunt prosequente complenda. Eapropter, dilecti in domino filii, vestris iustis postulationibus clementer annuentes predium V are, quod quidam Lutulfus de Reginsberg et Iudenta ipsius coniux eiusque filius Lutulfus pro animarum suarum salute ecclesię vestre de suo patrimonio contulerunt et Lottarius bone memorie Romanorum imperator imperiali scripto roboravit, nos quoque vobis et ecclesie vestre auctoritate apostolica confirmamus et presentis scripti privilegio communimus. Statuentes, ut idem predium V are et cella inibi fundata cum aliis eiusdem loci pertinentiis firma vobis vestrisque successoribus et illibata permaneant. Salva in omnibus canonica iustitia diocesani episcopi et apostolice sedis auctoritate. Decernimus igitur, ut nulli omnino hominum liceat antedicta bona ab ecclesia vestra alienare, auferre seu ablata detinere, minuere aut vos super eisdem bonis aliquibus vexationibus fatigare, set omnia integra conserventur eorum, pro quorum gubernatione et sustentatione concessa sunt, usibus omnimodis profutura. Si qua igitur in futurum ecclesiastica secularisve persona, hanc nostre constitutionis paginam sciens, contra eam temere venire temptaverit, secundo tertiove commonita, si non satisfactione congrua emendaverit, potestatis honorisque sui dignitate careat reamque se divino iudicio existere de perpetrata iniquitate cognoscat et a sacratissimo corpore et sanguine dei et domini redemptoris nostri Ihesu Christi aliena fiat atque in extremo examine districte ultioni subiaceat. Cunctis autem hanc nostre constitutionis paginam observantibus sit pax domini nostri Ihesu Christi, quatinus et hic fructum bone actionis percipiant et apud districtum iudicem premia eterne pacis inveniant. Amen, Amen, Amen.</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="dolle"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt>
+              <resp when="2024">Encoding:</resp>
+              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+           </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>Dolle, Papsturkunden, S. 211–213, Nr. 96</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Dolle, Papsturkunden, S. 211–213, Nr. 96</bibl><bibl type="jaffe">10407</bibl>
+            <diploDesc>
+               <issued>
+                  <placeName>Lateran</placeName>
+                  <date type="issued" notBefore="1158-05-11" notAfter="1158-05-11">[1158] Mai 11</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Papst Hadrian IV . nimmt das Stift Fischbeck in den apostolischen Schutz, bestätigt seinen Besitz, gewährt das Begräbnisrecht für Adlige beiderlei Geschlechts, verbietet, das Stift als Lehen zu vergeben, stellt es unter den Schutz der Päpste, Kaiser und Könige, bestimmt, dass nur Mitglieder des Stifts dort Wohnung nehmen dürfen, unterstellt es der päpstlichen Jurisdiktion und verbietet allen Bischöfen, ohne Zustimmung der Äbtissin dort Messen zu lesen.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+         <div type="other">
+            <head>Echtheitskriterien: </head>
+            <authen type="formula" n="na"><p>+</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
+         </div>
+         <div>
+            <head>Incipit:</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones:</head>
+            <diploPart type="subscriptio">
+               <list>
+                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+               </list>
+            </diploPart>
+         </div>
+         <div>
+            <head>Datatio:</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+             <head>Frühester Überlieferungsträger</head>
+            <div>
+            <listBibl>   
+               <bibl type="original">Ausfertigung: StiftsA Fischbeck, Urkunde Nr. 4. ( A ). Pergament, italienisch, 30-30,5 × 42,1-42,5 (3,3-3,4). Rota wie Nr. 93 . Bulle ab; Reste von Fäden. Rückvermerk (weitgehend unleserlich): Privi- legium exeq[..... V]isbeke mon[aster…] .</bibl>
+               <bibl type="msCopy">Abschrift: LA NRW , Abteilung Westfalen, Msc. VII Nr. 6810 fol. 9 r -9 v ( B ).</bibl>
+               <bibl type="print">Drucke: Würdtwein, Subsidia diplomatica VI S. 334-337. – PL 188, Sp. 1565 f. Nr. 186. – Westfälisches UB V Nr. 117. – Krumwiede, Stift Fischbeck S. 132 f. Nr. 5. – UB Fischbeck Nr. 25. Teildruck: Hiestand, Privileg Hadrians IV . S. 102 f.</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Dolle, Papsturkunden, S. 211–213, Nr. 96</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL 10407</bibl>
+               <bibl>Regesten: J Nr. 7043. – JL Nr. 10407. – GP IX / III S. 185 f. Nr. † 14. – Ortmanns, Bistum Minden S. 146 Nr. 11. Abbildungen: Diplomatischer Apparat der Universität Göttingen, Schublade Papsturkunden. – Licht- bildarchiv Marburg, Zugangsnummer 15031. – Goetting, Privileg Hadrians IV . Tafel 1. Datiert nach der Indiktion.</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Die Pontifikatsangabe verweist auf 1157, ist aber in der Formulierung ungewöhnlich. Spätestens seit dem Druck der Urkunde und ihrer äußere Beschreibung durch Finke (Westfälisches UB V Nr. 117) wird über ihre Echtheit kontrovers diskutiert. Um seiner Skepsis Ausdruck zu verleihen, bezeichnete Finke sie nicht, wie sonst üblich, als Original, sondern als gleichzeitige Ausfertigung. Ohne das Stück eingesehen zu haben, kam Lübeck zu dem Schluss, dass es sich möglicherweise um »die in- terpolierte Kopie einer Vorurkunde«, wahrscheinlicher aber um »die freie Erfindung eines Fälschers« handelte (Lübeck, Frühzeit S. 37). Erst Goetting unterwarf sie einer gründlichen Untersuchung (Goetting, Privileg Hadrians IV .). Er konstatierte starke »Abweichungen von der Normalform im äußeren Bild der Urkunde«; insbesondere das Eschatokoll wies die »stärksten Unterschiede vom Re- gelfall« auf. Er konnte jedoch nachweisen, dass der Text von der Arenga bis zur Sanctio mit dem Privileg Hadrians IV . für das Stift Herford von 1155 Mai 17 (Westfälisches UB II Nr. 303) überein- stimmt; ausgenommen davon ist nur der Passus über das Begräbnisrecht, der von der kanzleimäßigen Formel stark abweicht und offensichtliche Fehler aufweist (zu den Einzelheiten siehe Goetting, Pri- vileg Hadrians IV . S. 12-16, 28. – Hiestand, Privileg Hadrians IV . S. 76-79). Goetting konstatierte, dass die Urkunde aufgrund ihrer Anomalien nicht in der päpstlichen Kanzlei entstanden sein konn- te. Er vermutete, dass die Legaten, der Kardinaldiakon Heinrich von S. Nerei et Achillei und der Kardinaldiakon Hyacinth von S. Maria in Cosmedin, die im Frühjahr 1158 in das Reich entsandt worden waren, »Blankette, die mit dem päpstlichen Siegel versehen waren,« bei sich führten und einer ihrer Schreiber, der mit den Kanzleiregeln der Kurie nicht gut vertraut war, nach dem Vorbild der Herforder Urkunde, deren Text eine Delegation aus Fischbeck vorgelegt haben könnte, die Urkunde im Namen des Papstes, mit Romdatierung und den angeblichen Unterschriften zweier Kardinäle ausfertigte. Daher müsse die Urkunde »hinsichtlich der äußeren Form … zumindesten der Absicht nach als authentische Papsturkunde« angesprochen werden (Goetting, Privileg Hadrians IV . S. 31-33). Die Kritik Holtzmanns (Holtzmann, Rezension Goetting) konnte Goetting in Bezug auf das Begräb- nisrecht im Stift für Adlige beiderlei Geschlechts mit Hinweis auf einen ähnlichen Passus in einer Urkunde Viktors IV . für Kloster Ilsenburg von 1160 Februar 20 ( UB Ilsenburg I Nr. 23) scheinbar entkräften (Goetting, Echtheitsfrage), ohne Holtzmann grundsätzlich von der Echtheit der Urkunde zu überzeugen (Holtzmann, Schlußwort. Ebenfalls ablehnend: Ortmanns, Bistum Minden S. 75-78). In Bezug auf die päpstliche Jurisdiktion bzw. die Unabhängigkeit Fischbecks vom Bischof machte Krumwiede deutlich, dass es Fischbeck hier nicht um die Herauslösung des Stifts aus dem Mindener Diözesanverband ging, sondern ein Schutz vor den territorialen und eigenkirchlichen Ansprüchen des Bischofs gesucht wurde (Krumwiede, Stift Fischbeck S. 116-124). Hiestand bestritt die Echtheit der Urkunde mit überzeugenden Argumenten: Dass Legaten mit Bullen besiegelte Blankette mit sich führten, hielt er für ausgeschlossen. Über die Legation ist bekannt, dass sie Ende April / Anfang Mai bei Trient von den Grafen von Eppan für einige Zeit gefangengenommen wurde; Anfang Juni erreichte sie Augsburg. Die Urkunde wären dann laut Datierung vermutlich während der Gefangenschaft ausgestellt worden. Wenn die Fischbecker Delegation schon in Nordita- lien war, stellt sich die Frage, weshalb sie nicht gleich die Kurie aufsuchte, um eine zweifelsfrei echte Papsturkunde zu erhalten. Die zahlreichen Abweichungen von den Kanzleiregeln sind nicht durch einen unerfahrenen Schreiber zu erklären. Insbesondere Kardinal Hyacinth von S. Maria in Cosme- din war nachweislich in den Kanzleiregeln sehr erfahren und hätte diese Unregelmäßigkeiten kaum geduldet. Ebensowenig sind die übrigen Fehler im Eschatokoll, etwa die fehlerhafte Datierung oder Unregelmäßigkeiten bei den angeblichen Kardinalsunterschriften in einer echten Urkunde wirklich erklärbar. Zudem betonte Hiestand, wie dies schon Holtzmann getan hatte, dass die Legaten nicht befugt waren, Urkunden im Name des Papstes mit dessen angeblicher Unterschrift und entsprechen- den Unterschriften von Kardinälen auszustellen. Es wären eindeutig Fälschungen gewesen, die mit drakonischen Strafen sanktioniert wurden. Zudem machte Hiestand darauf aufmerksam, dass die Legaten natürlich auch eine Legatenurkunde für Fischbeck hätten ausstellen können. Er vermutete, dass die Urkunde im 13. Jh. gefälscht wurde; bei einem Brand im Jahr 1234 könnte auch eine Pap- sturkunde Hadrians IV . zerstört worden sein und die heute verlorene Bleibulle eine zweite Verwen- dung gefunden haben. Daher lässt sich nicht klären, ob die Fälschnug eventuell als Ersatz für eine vernichtete echte Papsturkunde dienen sollte (Hiestand, Privileg Hadrians IV . S. 82-98). Das Begräb- nisrecht für Adlige beiderlei Geschlechts ist jedoch, anders als von Goetting dargelegt, eine Inter- polation. Hiestand konnte darlegen, dass der entsprechende Passus für Ilsenburg sich eng an die üb liche Sepulturformel anlehnt, während dies bei Fischbeck nicht der Fall ist (Hiestand, Privileg Hadri- ans IV . S. 81 f.) Dieses Recht war den Kanonissen besonders wichtig, weil sie damit auf materielle Zuwendungen hoffen konnten (Oldermann, Stift Fischbeck S. 22). a a b c o a-a subbeati ( A ) . b succeserint ( A ). c so; hinter dem p ein (Teil-)Buchstabe radiert ( A ).</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Weitere Referenzen als listBibl]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>x x x Adrianus episcopus servus servorum dei dilecte filie Demodi Visbikensi abbatisse et aliis cum ea canonicam vitam professis in perpetuum. x x x Pie postulatio voluntatis ef- fectu debet prosequente compleri, quatinus et devotionis sinceritas laudabiliter eni- tescat et utilitas postulata vires indubitanter assumat. Eapropter, dilecta in Christo filia, devotionem, quam erga sedem apostolicam geris, diligencius attendentes mona- sterium, in quo divino mancipate estis obsequio, sub beati Petri et nostra protectio- ne suscipimus et presentis scripti privilegio communimus statuentes, ut quascumque possessiones, quecumque bona idem monasterium in presenciarum iuste et canonice possidet aut in futurum concessione pontificum, largicione regum vel principum, oblacione fidelium seu aliis iustis modis deo propicio poterit adipisci, firma vobis et hiis, que post vos successerint , et illibata permaneant. Cui etiam indifferentem sepultu ram nobilium utriusque sexus et usui vestro et earum, que canonice vobis successerint, auctoritate nostra concedimus. Sanctimus quoque, ut ipsum monaste- rium nulli omnino persone in beneficium quibuslibet occasionibus aliquando conce- datur, set semper sub protectione Romanorum pontificum atque imperatorum vel regum defensione permaneat. Preterea constituimus, ut infra ambitum edificiorum vel sepium memorati monasterii nemo clericorum vel laicorum iure proprietatis vel beneficii mansionem aliquam ullo tempore habeat, set totus loci ipsius ambitus abbatisse, sororum et aliarum religiosarum personarum usibus et habitacionibus pateat. Prohibemus autem, ut in eodem monasterio nulli episcoporum preter Roma- num pontificem liceat quamlibet iurisdictionem habere, ita ut, nisi ab abbatissa ipsius monasterii fuerit invitatus, nec missarum sollepnia ibidem celebrare presu- mat. Ut igitur hec omnia, que supradiximus, plenum inposterum robur obtineant, tam vobis quam his, que post vos successerint, favoris nostri auctoritate firmamus. Decernimus ergo, ut nulli omnino hominum liceat prefatum monasterium temere perturbare aut eius possessiones auferre vel ablatas retinere, minuere aut aliquibus vexationibus fatigare, set omnia integra conserventur harum, pro quarum guberna- cione et sustentacione concessa sunt usibus omnimodis profutura, salva sedis aposto- lice auctoritate et diocesani episcopi canonica iustitia. Siqua igitur in futurum eccle- siastica secularisve persona hanc nostre constitucionis paginam sciens contra eam venire temptaverit, secundo terciove commonita, si non satisfactione congrua emen- daverit, potestatis honorisve sui dignitate careat reamque se divino iudicio existere de perpetrata iniquitate cognoscat et a sacratissimo corpore et sanguine dei et domini redemptoris nostri Iesu Christi aliena fiat atque in extremo examine districte ultioni subiaceat. Cunctis autem eidem loco iusta servantibus sit pax domini nostri Iesu Christi, quatinus et his fructum bone actionis percipiant et apud districtum iudicem premia eterne pacis inveniant. Amen. Amen. Ego Adrianus catholice ecclesie episcopus subscripsi. Ego Hupaldus presbyter cardinalis sancte Praxedis. † Ego Adelbertus presbyter cardinalis sancti Adriani. † Data Laterani per manum Rolandi cancellarii, V idus maii, indictione VI , anno ponti ficatus Adriani III .</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

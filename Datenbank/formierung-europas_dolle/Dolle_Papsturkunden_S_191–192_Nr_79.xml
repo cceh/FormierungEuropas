@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="dolle"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt>
+              <resp when="2024">Encoding:</resp>
+              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+           </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>Dolle, Papsturkunden, S. 191–192, Nr. 79</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Dolle, Papsturkunden, S. 191–192, Nr. 79</bibl><bibl type="jaffe">9225</bibl>
+            <diploDesc>
+               <issued>
+                  <placeName>Reims</placeName>
+                  <date type="issued" notBefore="1148-04-05" notAfter="1148-04-05">[1148] April 5</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Papst Eugen III . fordert Erzbischof Adalbero von Bremen sowie die Bischöfe Heinrich von Minden und Thietmar von Verden auf, für die Rückgabe von verschiedenen Gütern zu sorgen, die dem Kloster Kemnade entfremdet worden sind.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+         <div type="other">
+            <head>Echtheitskriterien: </head>
+            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
+         </div>
+         <div>
+            <head>Incipit:</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones:</head>
+            <diploPart type="subscriptio">
+               <list>
+                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+               </list>
+            </diploPart>
+         </div>
+         <div>
+            <head>Datatio:</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+             <head>Frühester Überlieferungsträger</head>
+            <div>
+            <listBibl>   
+               <bibl type="original">Ausfertigung fehlt.</bibl>
+               <bibl type="msCopy">Abschriften: StA Lüttich, Abbaye de Stavelot-Malmédy Ms 341 fol. 14 v -15 r ( B ). – GWLB Hannover, Ms XXIII 1132 fol. 51 r -51 v ( C ). – Göttingen, Pius-Stiftung für Papsturkundenforschung, Nachlass Brackmann ( C ).</bibl>
+               <bibl type="print">Drucke: Martène-Durand, Collectio II Sp. 240 Nr. 66. – Hamburgisches UB I Nr. 183. – PL 180 Sp. 1331 f. Nr. 280. – Jaffé, Bibliotheca I Nr. 83. – UB Verden I Nr. 115. – Hartmann, Briefbuch I S. 90-92 Brief 53 ( J 83). Teildrucke: Hodenberg, Diöcese Bremen I S. 53 Anm. d.</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Dolle, Papsturkunden, S. 191–192, Nr. 79</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL 9225</bibl>
+               <bibl>Regesten: J Nr. 6412. – JL Nr. 9225. – GP VI S. 74 f. Nr. 126. – GP IX / III S. 194 f. Nr. 21. – Westfä- lisches UB II Nr. 1720. – Westfälisches UB V Nr. 68. – RegEbBremen I Nr. 481. – Ortmanns, Bistum Minden S. 136 f. Nr. 31. – Drögereit, Materialien S. 58 f. Datiert nach dem Itinerar des Papstes. Vgl. zum Hintergrund Lübeck, Korveys Kampf. – Ortmanns, Bistum Minden S. 64-75. – Rabe, Übertragung.</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Zu den entfremdeten Gütern und den Nutznießern siehe Hartmann, Briefbuch I S. 999-101 Brief 58 ( J 82). a b a c d a korrigiert aus impignorati ( B ). b das zweite e korrigiert aus a ( B ). c das u korrigiert ( B ). d e korrigiert ( B ).</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Weitere Referenzen als listBibl]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>Eugenius episcopus servus servorum dei venerabilibus fratribus A(dalberoni) Bremensi archiepiscopo, He(nrico) Mindensi, T(hietmaro) Ferdensi episcopis salutem et aposto- licam benedictionem. Possessiones ęcclesiarum patrimonia pauperum, precia peccato- rum esse noscuntur. Ideoque si quis presumit ea contra iusticiam detinere, sacrilegium profecto committit. Significatum nobis est, quod parrochiani tui, frater archiepsicope, Odico, Ricbertus, Thederus, Rainerus, Heremannus et quidam alii possessiones Ka- minatensis ęcclesię de manu Iudith quondam abbatissae, postquam deposita fuit, recipere presumpserunt et eas eidem monasterio reddere suę salutis immemores contra- dicant. Hugoldus, Waltardus, Gerhardus et quidam alii parrochiani tui, frater Far- densis, beneficia quędam, ut nobis suggestum est, de manu eiusdem abbatissę nichi- lominus, postquam deposita fuit, receperunt. Quia igitur prefata I(udith), postquam per sententiam venerabilis fratris nostri bonę memorię T(home) presbyteri cardinalis tunc apostolice sedis legati a regimine Kaminatensis ęcclesię deposita fuit, nullam alienandi vel impignorandi bona ipsius ęcclesię habuit potestatem, per presencia vobis scripta mandamus, quatinus eos districtius moneatis, ut bona predicte ęcclesię, quę contra animarum salutem detinere presumunt, ei cum integritate restituant et ab ipsius infestacione desistant. Quod si infra XL dies, postquam a vobis commoniti fuerint, facere contempserint, canonicam de ipsis iusticiam faciatis. Nichilominus, frater Minde(nsis), presencium tibi auctoritate mandamus, quatinus Walderum, qui eiusdem monasterii predia clericalis officii consideracione postposita ab eadem, quę potestatem dandi non habuit, dicitur recepisse, districte commoneas, ut male acqui- sita restituat et eandem ęcclesiam in pace permittat. Quod si facere contempserit, canonica eum censura coerceas. x x x Data Remis, non. aprilis. x x x</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

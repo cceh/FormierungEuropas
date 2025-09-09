@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="dolle"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt>
+              <resp when="2024">Encoding:</resp>
+              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+           </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>Dolle, Papsturkunden, S. 197–202, Nr. 87</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Dolle, Papsturkunden, S. 197–202, Nr. 87</bibl><bibl type="jaffe">9529</bibl>
+            <diploDesc>
+               <issued>
+                  <placeName>Segni</placeName>
+                  <date type="issued" notBefore="1152-01-09" notAfter="1152-01-09">1152 Januar 9</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Papst Eugen III . nimmt das Benediktinerkloster Bursfelde unter seinem Abt Nithard in den apostolischen Schutz und bestätigt den namentlich angeführten Besitz sowie die Pri- vilegien des Klosters.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+         <div type="other">
+            <head>Echtheitskriterien: </head>
+            <authen type="formula" n="na"><p>+</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
+         </div>
+         <div>
+            <head>Incipit:</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones:</head>
+            <diploPart type="subscriptio">
+               <list>
+                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+               </list>
+            </diploPart>
+         </div>
+         <div>
+            <head>Datatio:</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+             <head>Frühester Überlieferungsträger</head>
+            <div>
+            <listBibl>   
+               <bibl type="original">Ausfertigung: NLA -Hannover, Cal. Or. 100 Bursfelde Nr. 7 ( A ). Pergament, deutsch, 54,3-54,7 × 82,4-82,8. Rota wie Nr. 73 . Bulle an roten und gelben Seidenfäden, D .: 3,3 cm, auf der Aversseite die Inschrift EU / GENIUS / P ( A ) P ( A ) III , auf der Reversseite die Köpfe der Apostel Petrus und Paulus, getrennt durch ein Kreuz, darüber S ( ANCTUS ) PA ( ULUS ) S ( ANCTUS ) PE ( TRUS ). Rückvermerk (15. Jh.): Bulla domni Eugenii pape tercii, in qua confirmat omnia bona nostra iam habita aut donante deo adhuc in posterum habitura, A V .</bibl>
+               <bibl type="msCopy">Abschriften: NLA -Hannover, Cal. Or. 100 Bursfelde Nr. 30 ( B ). – LA NRW , Abteilung Westfalen, A 260 Fürstbistum Paderborn – Urkunden Nr. 76 ( C ), ohne Eschatokoll. – NLA -Hannover, Cop. III 45 fol. 28a u. fol. 29b ( D ), 1943 verbrannt. – NLA -Hannover, Cop. III 49 fol. 2 a ( E ), 1943 verbrannt. – NLA -Hannover, Cop. III 47 p. 17 ( F ), 1943 verbrannt. – NLA -Hannover, Celle Br. 104b Nr. 111/4 fol. 249 r -255 r ( G ). – NLA -Hannover, Cop. III 48 p. 13 ( H ), 1943 verbrannt.</bibl>
+               <bibl type="print">Drucke: Westfälisches UB V Nr. 95. – Mainzer UB II Nr. 172. Teildruck: Schrader, Dynastenstämme S. 233 f. Nr. 10.</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Dolle, Papsturkunden, S. 197–202, Nr. 87</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL 9529</bibl>
+               <bibl>Regesten: J Nr. 6613. – JL Nr. 9529. – GP IV / IV S. 339 Nr. † 3. – Regesta Thuringia I Nr. 1684. Abbildungen der Bleibulle: Diekamp, Urkundenwesen, zwischen S. 626 u. 627 Nr. 2 u. 15? – Serafini, Le monete I S. 26, Abb. H 6. – Fees / Roberg, Digitale Urkundenbilder IV Taf. 12. Abbildungen: Lichtbildarchiv Marburg, Zugangsnummer 9394. – Diplomatischer Apparat der Uni- versität Göttingen, Schublade Papsturkunden.</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Indiktion, Pontifikatsangabe und Itinerar lassen nur das Jahr 1152 zu. Möglicherweise liegt der cal- culus Florentinus zugrunde. Schon das äußere Erscheinungsbild weist die Urkunde als Fälschung aus (hierzu und zum Folgenden siehe Luntowski, Bursfelder Urkundenfälschungen S. 170-176. – Mainzer UB II S. 315 f. – Zusammen- fassend: Schieffer, Papsttum S. 378-380). Sie ist auf nördlichem Pergament geschrieben und weist ein Chrismon sowie eine Invocatio in verlängerter Schrift auf. Es fehlt am Ende des Protokolls die für feierliche Privilegien typische Verewigungsformel in perpetuum . Am Ende des Kontextes steht nur ein einfaches Amen , gefolgt von der Verewigungsformel, die hier nicht hingehört. Diese und das anschlie- ßende Eschatokoll sind mit dunklerer Tinte geschrieben; die Unterschriften sind nicht eigenhändig. Da die Rota sehr weit nach rechts gerückt ist und das Pergament für die Urkunde zu kurz geraten war, um das Datum am unteren Rand einzufügen, gab es mit den Unterschriften Probleme. Die Papstunterschrift steht zwar richtig zwischen Rota und Monogramm. Die Unterschriften der Kardi- nalpriester sind links, die der Bischöfe in der Mitte, aber nicht unter der des Papstes, sondern unter der Rota, so dass für die Unterschriften der Kardinaldiakone nur Platz unter der Papstunterschrift vorhanden war. Denn den rechten Rand benötigte man, um dort das Datum kanzleiwidrig einzu- fügen. Die Bleibulle ist echt; es muss demnach eine Urkunde Eugens III . vorgelegen haben. Die Bleibulle wurde mit den Seidenfäden an die Fälschung angebracht, wird aber später abgefallen sein, da Finke (Westfälisches UB V Nr. 95) Ende des 19. Jh. nur »Ueberreste einer rothgelben Seidenschnur« nennt, aber die Bulle nicht erwähnt. Sie wurde später offenbar wieder befestigt. Das Formular ent- spricht in weiten Teilen demjenigen einer feierlichen Besitzbestätigung. Allerdings steht der Name des Papstes mit dunklerer Tinte auf Rasur, und ursprünglich war offensichtlich eine andere Datierung vorgesehen (vgl. Anm. w). Schieffer, Papsttum S. 378-380 vermutete, dass eine Papsturkunde auf den Namens eines früheren Papstes angefertigt, dann aber nach dem Erhalt einer echten Eugen-Urkunde die Fälschung entsprechend umgeändert wurde, insbesondere hinsichtlich des Eschatokolls. Da der vorhandene Platz jetzt nicht mehr ausreichte, musste die Datierung an den rechten Rand geschoben werden. Der Papst war tatsächlich zum angegebenen Zeitpunkt bis Anfang Oktober in Segni, und die Namen der Kardinäle sind zeitgenössisch. Zusammen mit der Bleibulle sind dies hinreichende Indizien, dass eine Papsturkunde mit dem angegebenen Datum vorlag und für die Fälschung geopfert wurde. Für andere Teile der Urkunde benutzte der Fälscher mehrere echte Mainzer Erzbischofsurkunden (Mainzer UB II Nr. 31, 54 u. 56) sowie die Fälschung der Gründungsurkunde von 1093 (Mainzer UB I Nr. 385). Der Schreiber dieser Gründungsurkunde könnte identisch mit dem Schreiber der gefälschten Eugen-Urkunde sein, zumal er von dort das Chrismon und die Invocatio übernahm (vgl. Luntowski, Bursfelder Urkundenfälschungen, Abbildung zwischen S. 168 u. 169). Die Besitzliste entspricht den Verhältnissen des Jahres 1152. Eine Schenkung Heinrichs des Löwen aus dem Jahr 1156 fehlt, während das Gut Hötzum, das 1162 an Kloster Riddagshausen verkauft wurde, noch aufgeführt wird ( MGH DD HL Nr. 33 u. 51). Als eigenständiger Einschub des Fälschers ist der Passus Hęc omnia in usum Buresfeldensis ęcclesię banno bis quibus iniuste parcendo quasi consenciens admiscetur anzu- sehen. »Die Sätze stützen sich weder auf damals vorhandene Bursfelder Urkunden, noch sind sie mit den Gepflogenheiten der päpstlichen Kanzlei in Einklang zu bringen« (Schieffer, Papsttum S. 280). In diesem Passus werden harte Strafen gegen Kirchenräuber angedroht und die Erzbischöfe und Bi- schöfe, in deren Diözesen sich Bursfelder Besitz befand, beauftragt, diesen zu schützen. Hier dürfte der Grund für die Fälschung liegen. Nach dem Aussterben der Grafen von Northeim, den Gründern des Klosters, und ihres Erbes, des Grafen Hermann von Winzenburg, befürchtete man offenbar in Bursfelde, Opfer von Übergriffen zu werden, die es abzuwehren galt. Es ging also nicht um eine Besitz erweiterung, sondern um den Schutz der vorhandenen Güter und Rechte. Die Fälschung wur- de vermutlich kurz nach Empfang der echten Eugenius-Urkunde fertiggestellt (so überzeugend UB Mainz II S. 315 u. Schieffer, Papsttum S. 280 gegen Finke = Westfälisches UB V Nr. 95, der sie auf Ende 12. oder 13. Jh. datierte, und Luntowski, Bursfelder Urkundenfälschungen S. 169, welcher das letzte Drittel des 12. Jh. vermutete). Allerdings dürfte die Datierung nicht mit derjenigen der echten Eugenius-Urkunde übereinstimmen. Nach Diekamp, Urkundenwesen, zwischen S. 626-627 wurde für die Bleibulle Eugens III . sein 4. Typar benutzt, das er erstmals für 1153 Januar 2 nachweisen konnte (leicht zu verwechseln mit Typar II ). Die Verwendung des 3. Typars ist zuletzt für 1152 März 26 belegt. a b c d e f g g h i k l m n o p q r s t u u v w o o o o a mit dunklerer Tinte und etwas gedrängt auf Rasur ( A ). b -bis auf Rasur ( A ). c -is in Ligatur übergeschrieben ( A ). d de- auf Rasur ( A ). e t korrigiert aus e ( A ). f r in Majuskel, korrigiert aus l ( A ). g so ( A ). h erstes d aus e verbessert ( A ) . i H auf Rasur ( A ). k a korrigiert aus e oder c ( A ). l unterhalb der Zeile nachgetragen ( A ). m Nachtrag über der Zeile ( A ). n hinter dem g ein l radiert ( A ). o davor ein Buchstabe radiert ( A ). p e korrigiert aus i ( A ). q hospitali / tis ( A ) . r ol auf Rasur ( A ). s us übergeschrieben ( A ). t das zweite s übergeschrieben ( A ). u-u ultionisubiaceat durch Trennzeichen getrennt ( A ). v das Folgende mit etwas dunklerer Tinte, wie bei Anm. a ( A ). w darüber radiert und weitgehend unleserlich […]apr[….] indict. V […] ( A ).</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Weitere Referenzen als listBibl]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>(C.) x x x In nomine sanctę et individuę trinitatis. x x x Eugenius episcopus servus servo- rum dei omnibus Christi ęcclesię filiis. Quoniam universalis matris ęcclesię cura nobis a provisore omnium bonorum deo est commissa, nostrum est filiabus ipsius usquequaque per orbem terrarum constitutis utilia providere, noxia, prout possumus, amovere, religiosas diligere personas, beneplacentem deo religionem modis omnibus propagare, querimonias afflictorum compassibiliter audire, oppressis misericorditer subvenire, gaudere cum gaudentibus, flere cum flentibus. Eapropter dilectum in domino filium Nithardum abbatem miserabilem querimoniam ob dilapidationem possessionum monasterii sui ad nos deferentem paterne audivimus, postulationes eius clementer admisimus et Buresfeldense monasterium, cui deo auctore preesse dinoscitur, apostolicę sedis privilegio communimus statuentes, ut, quęcumque bona, quascumque possessiones in presentiarum idem monasterium iuste ac canonice possidet aut in futurum concessione pontificum, largitione regum, oblatione fide- lium seu aliis iustis modis prestante deo poterit adipisci, firma sibi suisque successo- ribus et illibata permaneant, in quibus hęc propriis nominibus exprimenda subiungi- mus: Gloriosus comes Heinricus filius Ottonis ducis et eius inclita coniux Gerthrudis filia Ecberti marchionis fundatores Buresfeldensis monasterii et Liudolfus canoni- cus Magdeburgensis heredibus eorum consentientibus et laudantibus donaverunt in dotem Buresfeldensi ęcclesię ac ab Artwigo Virdunensi episcopo, qui in ipso monas- terio principale consecravit altare, annuente Rothardo Mogontino archiepiscopo banno confirmari optinuerunt omne predium Adalberti de Insula cum omni iure et proficuo, quo idem Adalbertus eiusque progenitores illud sine omni contradictione per multas etates possederant et usi fuerant, in villis, in agris, silvis, campis, pascuis, cultis et incultis, exitibus et reditibus, aquis, aquarumque decursibus , molendinis, mancipiis, curtim in Buresfelde cum suis appendiciis ex utroque Wirrę fluminis litore, curtim in Wertthen, curtim in Dransfelde, curtim in Bertolderoth, curtim in Fretherixhusin , curtim in Witinburnen, curtim in Herste, villam Berge, curtim in Gardelbic, curtim in Biscopeshusen, curtim in Line minori, villam Biscopeshusen cum appendiciis earum, in Winthusen novem mansos, aliquantulas etiam possessio- nes in his villis, in Altmarethen, Vereldehusen , Wiricsin, Immesin, Burdala, Am- menhusin, Valebercge, Hukelhem, Adenhem, Kæmestide, Belkerroth, Busteleve, Werttere, Steinbrucge, Sunthusin, Odenleve, Ascolfeswinethe, Dopstide, vineam in Wælkerroth, in Sothen tres salinas, in Hildegereshusin V solidos, in Honetha III mansos et molendinum, in Sunneburnen II mansos, in Reinnethe VIIII mansos, in Reinwartdeshusin X mansos, in Kelvera ęcclesiam et XIII mansos et molendinum, in Nora XXII mansos, in Hozenroth IIII mansos, in Wepletha V mansos, in Holbic I talentum. Tradiderunt et curtim in Wiclo, quam cambivit Frethericus Coloniensis archiepiscopus dans possessiones in Horlagan, et rursus Wichmanus comes easdem possessiones in Orlagan cambivit heredum suorum consensu dans ęcclesię Bures- feldensi predium in Liupprectheroth cum suis appendiciis. Tradiderunt et villam Wislincgeburin, quam Lotharius imperator sibi vendicavit pro ea precio comparans ęcclesię possessiones in Gevezenroth, in Bileseroth, in Alboldincgeroth cum suis appendiciis. Tradiderunt quoque possessiones in Holtsaten, quibus cambita est curtis in Dasburcg. Marcolfus Moguntiensis archiepiscopus donavit ęcclesię Buresfeldensi decimas Buresfeldensium, Heinricus archiepiscopus similiter decimam curtis in Biscopes husen, comes Sigifridus senior X mansos in Asla, quidam nobilis homo Dudo II mansos in Rotwardesen, quidam liber homo Ecckehardus heredum suorum consensu cuncta bona sua cum XII mancipiis, quę hereditario iure in duobus viculis Alderixhusen appellatis sive in agris propriis sive in aliis pro pecunia XI talentorum locatis possederat, dedit ęcclesię, Rotherus mansum in Haddesen , Hezel mansum et dimidium in Hesbike, Bertogus mansum in Viribach. Sunt etiam precio comparate quędam possessiones in Havekeburnen, Herebrecthroth , Bezelinesroth, Bileseroth, in Miela, Begedala, Werithen, Othelesem, Hasbike, Immesen. Ad hęc nobilis ille vir Heinricus fundator cenobii statuit et statui impetravit ab his, quorum hęc potestas erat, scilicet, ut nemo heredum suorum aliquid in abbatia sibi usurpet preter advoca- tiam, nulli advocatia in beneficium prestetur, sed ad nutum abbatis in absolutionem peccatorum commendetur, advocatus infra abbatiam absque permissu vel rogatu abbatis nullam potestatem exerceat in aliquo. Si aliquis liber homo in quocumque degens comitatu se vel bona sua ęcclesię prefatę tradere voluerit, liberam potestatem habeat sine cuiuslibet comitis, rectoris, iudicis provintię contradictione. Ibi etiam publicum forum et percussura ad instar Goslariensis monetę cum omni forensi iure pro abbatis disponatur arbitrio, quę etiam Lotharius imperator imperiali sanc- tione confirmavit. Hęc omnia in usum Buresfeldensis ęcclesię banno, auctoritate, privilegio sedis apostolicę communientes confirmamus, offerentibus, conservanti- bus, augentibus hęc benedictionem et vitam ęternam optamus, auferentes, minuen- tes, ablata retinentes, nisi resipiscant, perpetuo anathematis mucrone multamus et omnibus vitandos esse precipiendo pronunciamus. Apostolica etiam auctoritate mandamus atque mandando precipimus, ut sive archiepiscopus sive episcopus, in cuius diocesi aliqua ex his iuste oblatis et banno confirmatis fuerint conservata, stu- diose defendat, direpta, ut restituantur, elaboret, direptores seu direpta retinentes adhuc in hoc seculo viventes banno coercens, ut resipiscant, et nisi ęcclesię restituan- tur sua, divinum officium fieri prohibeat in ęcclesia, in qua vel in cuius cimiterio sepulti sunt, qui in rapina occubuerunt, vel etiam ipsa eorum corpora eici iubens. Prorsus omnibus iustis modis Buresfeldense monasterium tueatur et adiuvet. Quod qui facere contempserit, reus erit inobedientię in apostolicam sedem et eorum damp- nationi inseretur, quibus iniuste parcendo quasi consenciens admiscetur. Abbas autem predicti monasterii pro quavis causa pulsatus a quovis clerico seu laico non nisi coram episcopo suo vel in audientia Romani pontificis respondeat. Verum hoc prohibemus et omnimodis interdicimus, ut neque huic abbati neque suis successori- bus fas sit bona seu possessiones monasterii distrahendi aut sine communi assensu et voluntate fratrum quolibet modo alienandi. Ut vero abbas et fratres sui divinis famu- latibus liberius valeant insistere, immunitatem eis nihilominus confirmamus, ut vide- licet a nemine aliqua preiudicia sive gravamina seu exactiones aliquas aliquando per- ferant, nisi quantum ipsis spontanea voluntate largiri placuerit hospitalitatis gratia exigente. Obeunte autem quolibet eiusdem loci abbate nullus ibi qualibet subreptio- nis astutia seu violentia preponatur, nisi quem fratres communi assensu vel fratrum pars consilii sanioris secundum deum et beati Benedicti regulam providerint eli- gendum. Electus vero sine pravitate et exactione aliqua consecretur ab episcopo et congrua benedictionis reverentia regiminis cura investiatur. Nullus ergo hominum audeat utilitatis statuta immutare vel idem cenobium temere perturbare, possessiones eius auferre, ablatas retinere, minuere seu quibuslibet molestiis fatigare, sed omnia integra conserventur eorum, pro quorum sustentatione et gubernatione concessa sunt usibus profutura. Siqua igitur inposterum ęcclesiastica secularisve persona hanc nostrę constitutionis paginam sciens contra eam temere venire temptaverit, secundo tertiove commonita, si non reatum suum congrua satisfactione correxerit, potestatis honorisque sui dignitate careat reamque se divino iudicio existere de perpetrata ini- quitate cognoscat et a sacratissimo corpore et sanguine dei ac redemptoris nostri Iesu Christi aliena fiat atque in extremo examine districtę ultioni subiaceat . Cunctis autem eidem loco, quę sua sunt, servantibus sit pax domini nostri Iesu Christi, qua- tenus et hic fructum bone actionis percipiant et apud districtum iudicem premia ęternę pacis inveniant. x x x Amen. In perpetuum. x x x (R.) Ego Eugenius catholicę ęcclesię episcopus subscripsi. (M.) † Ego Ymarus Tusculanus episcopus subscripsi. † Ego Nicholaus Albanensis episcopus subscripsi. † Ego Hugo Ostiensis episcopus subscripsi. † Ego G(re)g(orius) cardinalis presbyter tituli sanctę Marię fundentis oleum subscripsi. † Ego Hubaldus presbyter cardinalis tituli sanctę Praxedis subscripsi. † Ego Manfredus presbyter cardinalis tituli sanctę Savinę subscripsi. † Ego Iulius presbyter cardinalis tituli sancti Marcelli subscripsi. † Ego Hubaldus presbyter cardinalis tituli sanctę Crucis in Iherusalem subscripsi. † Ego Bernardus presbyter cardinalis tituli sancti Clementis subscripsi. † Ego Otto diaconus cardinalis sancti Georgii ad velum aureum subscripsi. † Ego Gregorius sancti Angeli diaconus cardinalis subscripsi. † Ego Iohannes diaconus cardinalis sanctę Marię Nove subscripsi. † Ego Guido diaconus cardinalis sanctę Marię in Porticu subscripsi. † Ego Iacintus diaconus cardinalis sanctę Marię in Cosmidyn subscripsi. † Ego Cencius diaconus cardinalis sancte Marię in Akyro subscripsi. Data Signie per manum Bosonis sanctę Romanę ęcclesię scriptoris, V idus ianuarii, indictione XV , incarnationis dominicę anno M . C . L . I ., pontificatus vero domni Eugenii III pape anno septimo.</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

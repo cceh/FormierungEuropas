@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="dolle"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt>
+              <resp when="2024">Encoding:</resp>
+              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+           </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>Dolle, Papsturkunden, S. 205–206, Nr. 91</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Dolle, Papsturkunden, S. 205–206, Nr. 91</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
+            <diploDesc>
+               <issued>
+                  <placeName>Worms]</placeName>
+                  <date type="issued" notBefore="1153-06-07" notAfter="1153-06-14">[1153 ca. Juni 7-14</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Die Legaten Bernhard und Gregor erlauben dem früheren Hildesheimer Bischof Bern- hard, wegen seines Augenleidens sein Amt zu resignieren, aber die bischöflichen Insignien weiterhin zu tragen.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+         <div type="other">
+            <head>Echtheitskriterien: </head>
+            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
+         </div>
+         <div>
+            <head>Incipit:</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones:</head>
+            <diploPart type="subscriptio">
+               <list>
+                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+               </list>
+            </diploPart>
+         </div>
+         <div>
+            <head>Datatio:</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+             <head>Frühester Überlieferungsträger</head>
+            <div>
+            <listBibl>   
+               <bibl type="original">Ausfertigung fehlt.</bibl>
+               <bibl type="msCopy">Abschriften in der Vita Bernhardi: DomB Hildesheim, Hs St. God. 7 fol. 9 r -9 v ( B ). Vor dem Urkundentext steht folgender Eintrag: Anno vero domini millesimo centesimo quinqua- gesimo tercio, sue ordinacionis vicesimo tercio, ingravescente oculorum dolore per dies singulos absolutionem cure pastoralis a summo pontifice et petivit et impetravit. Unde Bernhardus a presbiter et Gregorius diaconus sancte Romane ecclesise cardinales et legati in hec verba litteras suas ad eum postea dederunt.</bibl>
+               <bibl type="print">Druck: AA SS Julii V S. 107 f.</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Dolle, Papsturkunden, S. 205–206, Nr. 91</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>[Regest 1]</bibl>
+               <bibl>Regesten: GP V /2 S. 49 f. Nr. 96. – Weiß, Papsturkunden und Legatenurkunden S. 348 Nr. 2a.</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Der Rücktritt Bischof Bernhards von seinem Amt erfolgte 1153; er starb wenig später am 20. Juli 1153 (Goetting, Bischöfe S. 379). Die Urkunde wurde vermutlich auf dem Hoftag in Worms ausgestellt der Pfingsten 1153 stattfand (Böhmer-Opll / Mayr, Regesta imperii Nr. 178). Die Urkunde ist nur in der Vita Bernhardi überliefert. Dieses Werk wurde in der zweiten Hälfte des 15. Jh. im Godehardikloster verfasst und sollte die Heiligsprechung des Bischofs fördern (Goetting, Bischöfe S. 381). Laut Vita hatte Bischof Bernhard wegen seines schweren Augenleidens den Papst gebeten, dass dieser ihn von der cura pastoralis entbinden möge ( AA SS Julii V S. 107. – Vgl. Goetting, Bischöfe S. 377). Dass Bischof Bernhard tatsächlich seinen Amtspflichten nur noch eingeschränkt nachkommen konnte und auf die Hilfe der Nachbarbischöfe angewiesen war, ist quellenmäßig belegt. Die Weihe des Klosters Neubokel Ende des Jahres 1152 nahm Bischof Heinrich von Minden in An- wesenheit Bernhards vor ( UB HHildesheim I Nr. 280). Auch die Weihe der Adelheid von Sommer- schenburg zur Äbtissin von Gandersheim wenig später musste er wegen seiner Erblindung ( oculorum cecitate praepeditus ) dem Bischof Bernhard von Paderborn überlassen (Pertz, Chronicon Hildes- heimense S. 856). Die Resignation Bischof Bernhards von Hildesheim erfolgte 1153 (vgl. Goetting, Bischöfe S. 376 f., mit Quellenbelegen). Die Pöhlder Annalen benennen als Grund für den Amtsver- zicht dieses Augenleiden (Pertz, Annales Palidenses S. 87). Hingegen behaupten die Steterburger Annalen, dass der Kardinal Gregor Erzbischof Heinrich von Mainz, Bischof Bernhard von Hildesheim und Bischof Heinrich von Minden abgesetzt habe (Pertz, Annales Stederburgenses S. 207). Während Heinemann vermutete, dass dies auf Veranlassung Friedrich Barbarossas auf dem Hoftag in Worms geschehen sei, wobei auch Bischof Burkhard von Eichstätt zum Amtsverzicht gezwungen wurde (Heine man, Bistum Hildesheim S. 209-222), verwies Goetting darauf, dass abgesehen von den Steter- burger Annalen alle anderen Quellen den Amtsverzicht Bernhards ausdrücklich nicht als Amtsent- hebung bezeichnet haben. »Demnach scheint doch eher eine Resignation des Bischofs … als eine förmliche Absetzung vorzuliegen«, auch wenn Goetting einen sanften Druck seitens des König nicht ausschließen wollte (Goetting, Bischöfe S. 375-377). Heinemann hielt die Urkunde der beiden Legaten für eine ungeschickte Fälschung, die als Vorlage eine Urkunde Honorius’ III . aus dem Jahr 1221 be- nutzt habe ( UB HHildesheim I Nr. 758. – Heinemann, Bistum Hildesheim S. 224 Anm. 482). Die Abhängigkeit des Briefs von der Honoriusurkunde bestritt Goetting zwar, doch hielt er die Urkunde der Legaten gleichfalls nicht für echt (Goetting, Bischöfe S. 377). Meyer-Gebel hingegen verwies darauf, dass der Verfasser der Vita »nachweislich keine Quelle, aus der er von der Legation der beiden Kar- dinäle im Jahre 1153 und noch dazu von ihren unterschiedlichen Weihegraden hätte erfahren können«, benutzte. Das lässt den Schluss zu, dass ihm tatsächlich die Urkunde der Legaten vorlag. Außerdem belegten zwei Graböffnungen in den Jahren 1700 und 1862, dass Bischof Bernhard tatsächlich die ornamenta episcopalia trug, die ihm die Legaten zugestanden hatten (Meyer-Gebel, Bischofsabset- zungen S. 238-246, bes. S. 240 u. 246). Zur Legation des Kardinalpriesters Bernhard von S. Clemen- te u. des Kardinaldiakons Gregor von Sant’Angelo in Pescheria vgl. Bachmann, Legaten S. 102-113 u. Zenker, Kardinalkollegium S. 29-31 u. 48-50. Hinsichtlich der Graböffnungen siehe Goetting, Bischöfe S. 380, mit Quellenbelegen. Von daher ist die Wahrscheinlichkeit hoch, dass wir eine echte Urkunde vor uns haben. a ursprünglich nur B ; Randvermerk: Bernhardus ( B ).</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Weitere Referenzen als listBibl]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>Venerabili fratri Bernhardo quondam episcopo Hildensemensi salutem. Humilitatem et mansuetudinem tuam, quam nobis exhibuisti, attendentes in oportunitatibus tuis tibi libenter volumus providere. Sane quia utilitati ecclesie Hildensemensis pocius, quam temporali favori consuluisti, ut magis privatus velles vivere, quam dignitate et cura gravatus, nec tibi nec aliis posses prodesse, racio postulat, ut tanto tibi libencius et plenius subveniamus, quanto te sedis apostolice legatorum consilio devotum obtu- listi. Quapropter ea, que fraternitas tua postulat, per omnia tibi ad sustentacionem tuam volumus adimpleri. Propterea, quia de prudencia et honestate tua ecclesia dei doctrinam suscepit et utilitatem non modicum, ornamenta episcopalia tibi tam in vita quam in morte concedimus.</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

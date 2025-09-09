@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="dolle"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt>
+              <resp when="2024">Encoding:</resp>
+              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+           </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>Dolle, Papsturkunden, S. 187–188, Nr. 76</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Dolle, Papsturkunden, S. 187–188, Nr. 76</bibl><bibl type="jaffe">9125</bibl>
+            <diploDesc>
+               <issued>
+                  <placeName>Auxerre</placeName>
+                  <date type="issued" notBefore="1147-08-25" notAfter="1147-08-25">1147 August 25</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Papst Eugen III . nimmt Kloster Mariental unter dem Abt Heinrich in den apostolischen Schutz, bestätigt ihm die Zisterzienerregel sowie seinen Besitz und befreit es vom Zehnten für Neubrüche bei Eigenbau und für Tierfutter,.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+         <div type="other">
+            <head>Echtheitskriterien: </head>
+            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
+         </div>
+         <div>
+            <head>Incipit:</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones:</head>
+            <diploPart type="subscriptio">
+               <list>
+                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+               </list>
+            </diploPart>
+         </div>
+         <div>
+            <head>Datatio:</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+             <head>Frühester Überlieferungsträger</head>
+            <div>
+            <listBibl>   
+               <bibl type="original">Ausfertigung: NLA -Wolfenbüttel, 22 Urk 1 ( A ). Pergament, 38,8-39 × 43,3-44,5 (3,2). Rota wie Nr. 73 . Bulle an Hanfschnur, wie Nr. 73. Rückvermerke (gleichzeitig): Eugenii pape (14. Jh.) Eugenii pape III de confirmatione bonorum.</bibl>
+               <bibl type="msCopy">Abschriften: NLA -Wolfenbüttel, VII B Hs 340 p. 2-4 ( B ), ohne Eschatokoll. – NLA -Wolfenbüttel, VII B Hs 341 fol. 14 r -17 v ( C ), ohne Eschatokoll. – NLA -Wolfenbüttel, VII B Hs 342 fol. 49 v -50 r ( D ). – NLA -Wolfenbüttel, VII B Hs 344 p. 3-5 ( E ). – NLA -Wolfenbüttel, VII B Hs 346 fol. 2 r ( F ). – Göttin- gen, Pius-Stiftung für Papsturkundenforschung, Nachlass Brackmann ( G ).</bibl>
+               <bibl type="print">Druck: Pflugk-Harttung, Acta I Nr. 214.</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Dolle, Papsturkunden, S. 187–188, Nr. 76</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL 9125</bibl>
+               <bibl>Regesten: JL Nr 9125. – GP V /2, VI S. 461 Nr. 1. – Regesta Thuringia I Nr. 1587. – Lerche, Studien S. 66 Nr. 8. Abbildungen der Bleibulle: Meibom, Chronik des Klosters Marienthal S. 40. – Diekamp, Urkunden- wesen, zwischen S. 626 u. 627 Nr. 2 u. 13. – Marnetté-Kühl, Siegel S. 61 f. Nr. G 1. – Serafini, Le monete I S. 26, Abb. H 6. – Fees / Roberg, Digitale Urkundenbilder IV Taf. 12. Abbildungen: Diplomatischer Apparat der Universität Göttingen, Schublade Papsturkunden. – Licht- bildarchiv Marburg, Zugangsnummer 8057. Teilabbildung: Meibom, Chronik des Klosters Marienthal S. 40. Vgl. Raabe, Zisterzienserkloster Mariental S. 24-26.</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>a b b a cis - auf Rasur ( A ). b-b auf Rasur; zuvor stand vermutlich existere iudicio ( A ).</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Weitere Referenzen als listBibl]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>x x x Eugenius episcopus servus servorum dei dilectis filiis Henrico abbati monasterii Vallis sancte Marie eiusque fratribus tam presentibus quam futuris regularem vitam professis in perpetuum. x x x Quoniam sine vere cultu religionis nec caritatis unitas potest subsistere, nec deo gratum exiberi servitium, expedit apostolice auctoritati religiosas personas diligere et earum quieti auxiliante domino providere. Eapropter, dilecti in domino filii, vestris iustis postulationibus clementer annuimus et prefatum sancte Marie monasterium, in quo divino mancipati estis obsequio, sub beati Petri et nostra protectione suscipimus et presentis scripti privilegio communimus inprimis siquidem statuentes, ut ordo monasticus secundum beati Benedicti regulam et Cis- terciensium fratrum institutionem ibidem perpetuis temporibus inviolabiliter con- servetur. Preterea quascumque possessiones, quecumque bona inpresentiarum idem monasterium iuste et canonice possidet aut in futurum concessione pontificum, largitione regum vel principum, oblatione fidelium seu aliis iustis modis deo propitio poterit adipisci, firma vobis vestrisque successoribus et illibata permaneant, in quibus hęc propriis duximus exprimenda vocabulis: locum ipsum Vallem, scilicet sancte Marie, ab illustri viro Friderico palatino comite omnipotenti deo ad statuendam ibi religionem pia devotione oblatam, curtem Brandesleven cum decimis suis et silvam eidem curti adiacentem, curtem Luthestorph cum decimis suis, quartam partem silve, qui dicitur Lapwalt, eidem curti adiacentem, vineas sitas iuxta Bagherchee cum deci- mis suis. Sane laborum vestrorum, quos propriis manibus aut sumptibus colitis, sive de nutrimentis vestrorum animalium nullus a vobis decimas exigere presumat. Decer- nimus ergo, ut nulli omnino hominum liceat prefatum monasterium temere pertur- bare aut eius possessiones auferre vel ablatas retinere, minuere aut aliquibus vexa- tionibus fatigare, sed omnia integra conserventur eorum, pro quorum gubernatione et sustentatione concessa sunt usibus omnimodis profutura, salva sedis apostolice auctoritate et diocesani episcopi canonica iustitia. Si qua igitur in futurum eccle- siastica secularisve persona hanc nostre constitutionis paginam sciens contra eam te- mere venire temptaverit, secundo tertiove commonita, si non satisfactione congrua emendaverit, potestatis honorisque sui dignitate careat reamque se divino iudicio existere de perpetrata iniquitate cognoscat et a sacratissimo corpore ac sanguine dei et domini nostri Iesu Christi aliena fiat atque in extremo examine districte ultioni subiaceat. Cunctis autem eidem loco iusta servantibus sit pax domini nostri Iesu Christi, quatinus et hic fructum bone actionis percipiant et apud districtum iudicem premia eterne pacis inveniant. x x x Amen. Amen. Amen. x x x (R.) Ego Eugenius catholicę ęcclesię episcopus subscripsi. (M.) † Ego Albericus Hostiensis episcopus subscripsi. † Ego Imarus Tusculanus episcopus subscripsi. Dat. Altisiodori per manum Guidonis sancte Romane ecclesie diaconi cardinalis et can- cellarii, VIII . kl. septembris, indictione X., incarnationis dominice anno MCXLVII ., pontificatus domni Eugenii pape III anno III .</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

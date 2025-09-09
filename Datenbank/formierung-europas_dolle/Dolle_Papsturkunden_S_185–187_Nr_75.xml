@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="dolle"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt>
+              <resp when="2024">Encoding:</resp>
+              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+           </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>Dolle, Papsturkunden, S. 185–187, Nr. 75</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Dolle, Papsturkunden, S. 185–187, Nr. 75</bibl><bibl type="jaffe">9022</bibl>
+            <diploDesc>
+               <issued>
+                  <placeName>St. Denis</placeName>
+                  <date type="issued" notBefore="1147-04-20" notAfter="1147-04-20">1147 April 20</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Papst Eugen III . nimmt das Bistum Verden in den apostolischen Schutz, bestätigt dem Bischof Thietmar von Verden und den Verdener Domherren allen Besitz, den die Kirche zu Verden derzeit besitzt und zukünftig besitzen wird, und bestimmt, dass dieser Besitz von niemandem entfremdet werden darf.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+         <div type="other">
+            <head>Echtheitskriterien: </head>
+            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
+         </div>
+         <div>
+            <head>Incipit:</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones:</head>
+            <diploPart type="subscriptio">
+               <list>
+                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+               </list>
+            </diploPart>
+         </div>
+         <div>
+            <head>Datatio:</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+             <head>Frühester Überlieferungsträger</head>
+            <div>
+            <listBibl>   
+               <bibl type="original">Ausfertigung: NLA -Stade, Rep. 2 Nr. 21 ( A ). Pergament, nicht italienisch, 51,2-51,4 × 48-48,4 (3,6-4); Wasserschaden, an Knickstellen beschädigt; auf Leinwand aufgezogen, dadurch Rückvermerke zer- stört. Rota wie Nr. 73 . Bulle mit Befestigung ab. Die hellgelbe Seidenschnur, die Pflugk-Harttung und Brackmann noch sahen, fehlt.</bibl>
+               <bibl type="msCopy">Abschrift: Göttingen, Pius-Stiftung für Papsturkundenforschung, Nachlass Brackmann ( B ).</bibl>
+               <bibl type="print">Drucke: Pflugk-Harttung, Acta I Nr. 208. – UB Verden I Nr. 113.</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Dolle, Papsturkunden, S. 185–187, Nr. 75</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL 9022</bibl>
+               <bibl>Regesten: JL Nr. 9022. – GP V /1, VI S. 212 f. Nr. 26. – Drögereit, Materialien S. 56. Äußere Beschreibung: Pflugk-Harttung, Päpstliche Original-Urkunden Nr. 480. Abbildung: Lichtbildarchiv Marburg, Zugangsnummer 15754.</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>a a b c d o o o o a so ( A ). b redeptoris ( A ). c Goguido ( A ). c Ego o ( A ).</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Weitere Referenzen als listBibl]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>x x x Eugenius episcopus servus servorum dei venerabili fratri Thiemaro episcopo et dilectis in Christo filiis canonicis Verdensis ęcclesię tam presentibus quam futuris canonice substituendis in perpetuum. x x x Commissę nobis apostolicę sedis nos horta- tur auctoritas, ut locis et personis eius auxilium devotione debita implorantibus tui- tionis presidium impendere debeamus. Quia, sicut iniusta petentibus nullus est tri- buendus effectus, ita legitima et iusta postulantium non est differenda petitio, presertim eorum, qui cum honestate vite et laudabili morum compositione gaudent omnipotenti domino deservire. Eapropter, venerabilis frater Thiemare episcope, tuis iustis postulationibus clementer annuimus et prefatam ęcclesiam, cui deo auctore preesse dinosceris, sub beati Petri et nostra protectione suscipimus et presentis scripti privilegio communimus statuentes, ut quascumque possessiones, quęcumque bona eadem ęcclesia in presentiarum iuste et canonice possidet aut in futurum concessione pontificum, largitione regum vel principum, oblatione fidelium seu aliis iustis modis deo propitio poterit adipisci, firma vobis vestrisque successoribus et illibata perma- neant. Preterea libertates et immunitates a regibus ęcclesię vestrę pia devotione con- cessas et scripto eorum firmatas per presentis scripti paginam eidem ęcclesię con- firmamus. Decernimus ergo, ut nulli omnino hominum liceat prefatam ęcclesiam temere perturbare aut eius possessiones auferre vel ablatas retinere, minuere aut ali- quibus vexationibus fatigare, sed omnia integra conserventur eorum, pro quorum gubernatione et sustentatione concessa sunt usibus omnimodis profutura, salva sedis apostolicę auctoritate. Si qua igitur in futurum ęcclesiastica sęcularisve persona hanc nostre constitutionis paginam sciens contra eam temere venire temptaverit, sęcundo tertiove commonita, si non satisfactione congrua emendaverit, potestatis honorisque sui dignitate careat reamque se divino iudicio existere de perpetrata iniquitate cognos cat et a sacratissimo corpore ac sanguine dei et domini redemptoris nostri Ihesu Christi aliena fiat atque in extremo examine districte ultioni subiaceat. Cunctis autem eidem loco iusta servantibus sit pax domini nostri Ihesu Christi, quatenus et hic fructum bonę actionis percipiant et apud districtum iudicem premia ęternę pacis inveniant. x x x Amen. Amen. Amen. x x x (R.) Ego Eugenius catholicę ęcclesię episcopus subscripsi. (M.) † Ego Albericus Hostiensis episcopus subscripsi. † Ego Imarus Tusculanus episcopus subscripsi. † Ego Guido presbyter cardinalis tituli sancti Grisogoni subscripsi. † Ego Humbaldus presbyter cardinalis tituli sanctorum Iohannis et Pauli subscripsi. † Ego Gillibertus presbyter cardinalis tituli sancti Marci subscripsi. † Ego Guido presbiter cardinalis tituli Pastoris subscripsi. † Ego Oddo diaconus cardinalis sancti Georgii ad velum aureum subscripsi. † Ego Iohannes diaconus cardinalis sanctę Marię Novę subscripsi. † Ego Iacintus diaconus cardinalis sancte Marię in Cosmydyn subscripsi. Dat. apud sanctum Dionisium per manum x x x Hugonis x x x presbyteri cardinalis agentis vicem domni Guidonis sanctę Romanę ęcclesię diaconi cardinalis et cancellarii, XII kl. maii, indictione X , incarnationis dominicę anno M C XL VII ., pontificatus vero domni x x x Eug x x x enii III pape anno tertio.</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

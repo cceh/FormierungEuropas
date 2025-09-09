@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="schoenfeld"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt>
+              <resp when="2024">Encoding:</resp>
+              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+           </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>Schönfeld, Urkunden der Gegenpäpste, S. 250–252, Nr. A80</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 250–252, Nr. A80</bibl><bibl type="jaffe">8426e</bibl>
+            <diploDesc>
+               <issued>
+                  <placeName>Oria</placeName>
+                  <date type="issued" notBefore="1134-12-07" notAfter="1134-12-07">1134, Dezember 7</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Anaklet II . stellt das Kloster S. Giovanni Evangelista in Lecce unter der Äbtissin Agnes unter apostolischen Schutz, bestätigt seine Besitztümer, unterstellt es unmittelbar dem Apostolischen Stuhl, verleiht das Wahl- und Begräbnisrecht und erlaubt die Wahl eines Bischofs für bischöfliche Leistungen.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+         <div type="other">
+            <head>Echtheitskriterien: </head>
+            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
+         </div>
+         <div>
+            <head>Incipit:</head>
+            <diploPart type="incipit" xml:lang="lat">Pię postulatio voluntatis</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones:</head>
+            <diploPart type="subscriptio">
+               <list><item>Rota-Inschrift: Rota-Inschrift: sanctus Petrus / sanctus Paulus / Ana papa / cletus II</item><item>Rota-Devise: Rota-Devise: dominus fortitudo plebis suę</item><item>Bene Valete: x</item><item>Komma: –</item><item>Subskriptionen: –</item></list><list>
+                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+               </list>
+            </diploPart>
+         </div>
+         <div>
+            <head>Datatio:</head>
+            <diploPart type="datatio">[ Datum apud Oriam per manus Mathei presbiteri cardinalis et cancellarii, VII idus ] decembris indictione XIII , incarnationis dominicę IV anno MCXXXIIII , pontificatus autem domini nostri Anacleti secundi pape anno V .</diploPart>
+         </div>
+         <div type="msSources">
+             <head>Frühester Überlieferungsträger</head>
+            <div>
+            <listBibl>   
+               <bibl type="original">Original, Lecce, Arch. abbaz. [vgl. Kehr: Papsturkunden in Apulien, S. 258 und IP ];</bibl>
+               <bibl type="msCopy">[handschriftliche Kopie]</bibl>
+               <bibl type="print">[Druck]</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 250–252, Nr. A80</bibl>
+               <bibl>Kehr: Papsturkunden in Apulien, S. 274, Nr. 9; Guerrieri: I conti normanni, S. 204 – 209; Grassi: Le pergamene, S. 31, Nr. 2;</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL 8426e</bibl>
+               <bibl>JL 8426e; IP IX , S. 424, Nr. 1 Palumbo: Lo scisma, S. 676, Nr. 62; ders.: Il monastero, S. 130; Krafft: Bene Valete, S. 243; Abb. dig.: PH Goe (Auss.); Abb. ana.: Palumbo: Il monastero, S. 130.</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>[Inhalt des Sachkommentars. Bibliographische Referenzen werden als Bibliographische Angabe getagged.]</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Weitere Referenzen als listBibl]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>Text (Transkription d. Verf.): Anacletus episcopus servus servorum dei. Dilectę in Christo filię Agneti abbatissę monasterii sancti Iohannis, quod intra civitatem Lyppiensem situm est, et ceteris in eiusdem cenobii regimine regulariter substituendis in perpetuum. Pię postulatio voluntatis effectu debet prosequente compleri, quatenus et devotionis sinceritas laudabiliter enitescat et utilitas postulata vires indubitanter assumat. Eapropter, dilecta in Christo filia Agnes abbatissa monasterii sancti Iohannis, quod situm est inter civitatem Lyppiensem, preces tuas clementius admittentes, prephatum monasterium, quod frater tuus Ac [ cardus ] nobilissimus baro a fundamento edificavit et tecum pariter per manus nostras beato Petro optulit, in proprietatem et tutelam sedis apostolicę suscipimus et ab omnium hominum infestatione atque molestia liberum fore sancimus et tam tu quam omnes, qu [ e ] tibi in eiusdem cenobii regimine successerint, nulli umquam nisi Romano pontifici respondere debeatis. Confirmamus etiam tibi et per te eidem monasterio in perpetuum omnis (!) possessiones omniaque bona, quę hac presenti XIII indictione possides vel quę in futurum concessione pontificum, liberalitate principum, oblatione fidelium iuste poterit adipisci. Crisma, oleum sanctum, consecrationes altarium seu ęcclesiarum, benedictiones clericorum sive monialium a diocesano episcopo accipietis, si gratis et absque pravitate dare voluerit, alioquin liceat vobis, quem malueritis, adire pontificem et ab eo consecrationum sacramenta percipere, qui nostra fultus auctoritate, quę postulator, indulgeat. Obeunte autem te nunc eius loci abbatissa vel illarum qualibet, quę in eiusdem cenobii regimine tibi successerint, nulla ibi quolibet surreptionis astutia seu violentia preponatur, nisi quam sorores communi consensu vel sororum pars consilii sanioris secundum dei timorem et beati Benedicti regulam elegerint, a Romano tantum pontifice consecranda vel cui ipse iniunxerit. Decernimus igitur, ut nulli omnino hominum liceat idem cenobium temere perturbare aut eius possessiones auferre vel ablatas retinere, minuere seu temerariis vexationibus fatigare, sed omnia integra conserventur earum, pro quarum sustentatione ac gubernatione concessa sunt, usibus omnimodis profutura. Ad indicium vero factę huius traditionis et perceptę libertatis singulis annis Lateranensi palatio dimidiam auri unciam persolvetis. Sepulturam quoque eiusdem loci liberam esse censemus, ut, si quis illic sepeliri deliberaverit, nullus eius petitioni et ęxtreme volu [ ntati ] contradicere audeat. Si quis ergo in crastinum huic nostrę constitutioni sciens contraire presumpserit, nisi post trinam commonitionem congrue satisfecerit, a sacratissimo [ cor ] pore ac sanguine dei ac domini redemptoris nostri Ihesu Christi alienus fiat atque in extremo examine districtę ultioni subiaceat. Cunctis sane hec iust [ a ] servan [ tibus s ] it pax domini nostri Ihesu Christi, quatenus et hic fructum bone actionis percipiant et apud districtum iudicem praemia ęternę pacis inveniant. Amen.</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

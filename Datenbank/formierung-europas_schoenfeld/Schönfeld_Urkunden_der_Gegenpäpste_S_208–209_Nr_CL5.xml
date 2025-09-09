@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="schoenfeld"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt>
+              <resp when="2024">Encoding:</resp>
+              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+           </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>Schönfeld, Urkunden der Gegenpäpste, S. 208–209, Nr. CL5</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 208–209, Nr. CL5</bibl><bibl type="jaffe">5326e</bibl>
+            <diploDesc>
+               <issued>
+                  <placeName>Rom, Lateran</placeName>
+                  <date type="issued" notBefore="1084-11-04" notAfter="1084-11-04">1084, November 4</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Clemens III . überträgt den Klerikern der Titelkirche S. Marcello in Via Lata den Besitz der ęcclesiola SS . Cosme e Damiani und aller ihrer Güter.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+         <div type="other">
+            <head>Echtheitskriterien: </head>
+            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
+         </div>
+         <div>
+            <head>Incipit:</head>
+            <diploPart type="incipit" xml:lang="lat">Dispensatio licet indignę</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones:</head>
+            <diploPart type="subscriptio">
+               <list><item>Rota-Inschrift: Rota-Inschrift: a) Kreuzarme: confirma hoc/deus quod/operatus/es in nobis b) Quadranten : ihc/xpc/dns/nr</item><item>Rota-Devise: Rota-Devise: verbo/domini/caeli/firmati sunt</item><item>Bene Valete: x</item><item>Komma: x</item><item>Subskriptionen: x</item></list><list>
+                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+               </list>
+            </diploPart>
+         </div>
+         <div>
+            <head>Datatio:</head>
+            <diploPart type="datatio">Datum Lateranis per manum Sigefredi Bononiensis episcopi vice Petri cancella- rii anno dominice incarnationis milesimo LXXXIIII indictione VIII , anno autem pontificatus domini Clementis tertii pape, I pridie nonas novembris actum; feliciter amen.</diploPart>
+         </div>
+         <div type="msSources">
+             <head>Frühester Überlieferungsträger</head>
+            <div>
+            <listBibl>   
+               <bibl type="original">Original, Rom, Arch. con. di S. Marcello;</bibl>
+               <bibl type="msCopy">[handschriftliche Kopie]</bibl>
+               <bibl type="print">[Druck]</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 208–209, Nr. CL5</bibl>
+               <bibl>Morini: Monumenta ordinis servorum, S. 191, Nr. 1;</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL 5326e</bibl>
+               <bibl>IP IX , S. 35, Nr. *77; IP VIII , S. 212, Nr. *55; IP IX , S. 35, Nr. *78; Palumbo: Lo scisma, S. 672.</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>[Inhalt des Sachkommentars. Bibliographische Referenzen werden als Bibliographische Angabe getagged.]</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Weitere Referenzen als listBibl]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>Text (Transkription d. Verf.): Clemens episcopus servus servorum dei. Fidelibus Christi, qui nunc sunt et posteris. Dispensatio licet indignę nobis commissa persuadet, ut cunctis pie providere et iuste decernere debeamus, maxime tamen ęcclesiarum dei servitoribus. Igitur clerici tituli sancti pape Marcelli cum multas proclamationes et controversias habuissent apud nostros predecessores venerabiles pontifices pro ęcclesiola sanctorum Cosme et Damiani ac suis bonis, intra claustrum eorum sita, cum abbate sancti Sepulchri aquapendentis, quia constat quidem et constabat eam iuris esse sancti Marcelli, sed pro culpa pene non inpense per XLIIII annos, id est ab anno secundo Iohannis noni decimi pape usque ad annum septimum Alexandi secundi pape, monasterium possessionem debebat ammitere. Sed Leo pius papa iusserat, ut pena tantum legaliter emendaretur, abbatis autem versutia inemendata remansit. Item Victor papa similiter preceperat, sed neglegentia eorum, quibus imperaverat, factum non fuit. Postea Stephanus, Nicolaus pontifices itidem iusserunt, attamen ad impletum non fuit. Alexander vero mitissimus presul voluit possessionem quoque sancto Marcello reddere, sed propter adversantium importunitatem non potuit. Postremo ante nos utreque partes convenerunt. Inter quas huiusmodi pactum composuimus, ut monasterium ęcclesiolam retineret, singulis quibusque annis debitam penam persolvans, eo tamen tenore, ut supradictam penam legaliter emendaret, quod et abbas facturum se promisit. Sed cum aliquantum tempus clerici expectarent et ille promissa non solveret, iterum ad nos proclamatum venerunt. Itaque ad abbatem nuntios misimus. Qui, cum ad tres, quos promiserat, terminos expectatus, per suam contumaciam et inobedientiam non veniret neque excusatorias licteras mitteret, noluimus ultra sanctum Marcellum sua iustitia privare, quippe cui leges, nedum si per quadraginta IIII annos, at si per biennium pena soluta non esset, possessionem reddebant. Itaque reddimus, redducimus, concedimus atque tradimus possessionem predicte ęcclesiolę et omnium bonorum eius clerici sancti Marcelli ad usum et salarium eorum imperpetuum, salva tamen abbatis querela intra praesentis annis spatium. Quod si post annum abbas autem sui successores litem, querimoniam vel molestiam de hac re adversus clericos umquam egerint aut contra nostrum decretum quid facere temptaverint, decem librarum auri pena damnentur, medietatem scilicet camerę nostrę, alia vero medietatem clericis sancti Marcelli componentes.</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

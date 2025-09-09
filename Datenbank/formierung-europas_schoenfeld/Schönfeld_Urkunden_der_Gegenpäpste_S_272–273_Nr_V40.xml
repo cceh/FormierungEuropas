@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="schoenfeld"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt>
+              <resp when="2024">Encoding:</resp>
+              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+           </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>Schönfeld, Urkunden der Gegenpäpste, S. 272–273, Nr. V40</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 272–273, Nr. V40</bibl><bibl type="jaffe">14447</bibl>
+            <diploDesc>
+               <issued>
+                  <placeName>Cremona</placeName>
+                  <date type="issued" notBefore="1161-05-11" notAfter="1161-05-11">1161, Mai 11</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Viktor IV . stellt das Kloster Deutz bei Köln unter Abt Halbernus unter apostolischen Schutz, bestätigt seine Besitzungen und das Recht der freien Wahl des Abtes.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+         <div type="other">
+            <head>Echtheitskriterien: </head>
+            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
+         </div>
+         <div>
+            <head>Incipit:</head>
+            <diploPart type="incipit" xml:lang="lat">Quotiens ea quę</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones:</head>
+            <diploPart type="subscriptio">
+               <list><item>Rota-Inschrift: Rota-Inschrift: sanctus Petrus / sanctus Paulus / Vic papa / tor IIII</item><item>Rota-Devise: Rota-Devise: Tu es gloria mea, tu es susceptor meus, tu exaltas caput meum domine</item><item>Bene Valete: x</item><item>Komma: –</item><item>Subskriptionen: –</item></list><list>
+                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+               </list>
+            </diploPart>
+         </div>
+         <div>
+            <head>Datatio:</head>
+            <diploPart type="datatio">Datum Cremonę per manum Gerardi sanctę Romanę ecclesię subdiaconi et dictatoris, V idus maii indictione VIIII , incarnationis dominice anno MCLXI , pontificatus vero domni Victoris pape IIII anno secundo.</diploPart>
+         </div>
+         <div type="msSources">
+             <head>Frühester Überlieferungsträger</head>
+            <div>
+            <listBibl>   
+               <bibl type="original">Original, Köln, Stadtarchiv, Urkunden der Abtei Deutz 3/8a;</bibl>
+               <bibl type="msCopy">[handschriftliche Kopie]</bibl>
+               <bibl type="print">[Druck]</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 272–273, Nr. V40</bibl>
+               <bibl>Pflugk-Harttung: Acta, Bd. I, S. 286, Nr. 322;</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL 14447</bibl>
+               <bibl>GP III , S. 73, Nr. 2; Santifaller: Saggio, Bd. I, S. 433; Fischer: Wibert von Ravenna, S. 176, Nr. 7; Stoller: Schism, S. 71, Nr. 25[†]; Dahlhaus: Rota oder Unterschrift, S. 299; Abb. dig.: PH GLA Karlsruhe; PH Goe (Auss.); Abb. ana.: Pflugk-Harttung: Specimina, Bd. II , Taf. 116 („bulla spuria“); Lit.: Pflugk-Harttung: Papsturkunden in Karlsruhe, S. 246; Köhncke: Wibert von Ravenna, S. 130 – 132; Erben: Die Anfänge des Klosters Selz, S. 35; Bannasch: Zur Grün- dung, S. 120 f., S. 149 f., Nr. 1; Stoller: Schism, S. 70 – 73; Heidrich: Ravenna, S. 13, S. 55 f., Anm. 59; Ziese: Wibert von Ravenna, S. 97; Krafft: Papsturkunde und Heiligsprechung, S. 65, Anm. 40; Dahlhaus: Rota oder Unterschrift, S. 275 f., Anm. 109. Jaffé datierte auf 1087, März/April/Juni 8, Krafft auf 1084. Hier datiert nach Dahlhaus, Stoller und Fischer.</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>[Inhalt des Sachkommentars. Bibliographische Referenzen werden als Bibliographische Angabe getagged.]</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Weitere Referenzen als listBibl]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>Text (Transkription d. Verf.): Victor episcopus servus servorum dei. Dilectis filiis Halberno abbati et universo Tuitiensi conventui tam presentibus quam futuris regularem vitam professis in perpetuum. Quotiens ea, quę a rationis tramite non discordant, humiliter postulantur, moram ad concedendum facere non debemus, ne differre bona desideria, quę magis fovenda sunt, videamur. Eapropter, dilecti in domino filii, devotionem vestram erga beatum Petrum et nos ipsos propensius attendentes, iustis vestris postulationibus gratiori assensu concurrimus et Tuitiensem ecclesiam cum omnibus suis bonis sub beati Petri et nostra protectione suscipimus et presentis scripti privilegio communimus. Statuentes, ut, quascumque possessiones, quecumque bona eadem ecclesia in presentiarum iuste ac canonice possidet aut in futurum concessione pontificum, largitione regum vel principum, oblatione fidelium seu aliis iustis modis, prestante domino, poterit adipisci, firma vobis vestrisque successoribus et illibata permaneant. In quibus hęc propriis duximus exprimenda vocabulis: ecclesiam de Thesternich cum tota decima, ecclesiam de Anrode cum tota decima, ecclesiam de Unna cum tota decima et cum XII solidis annuatim vobis solvendis, ecclesiam Tuitii cum tota decima, excepta illa, quę provenit ex terra episcopi Coloniensis, decimam de Ruoleshove et de Calca et de Polla, decimam de Westmoven, decimam de Vinze, ecclesiam Windense cum duabus partibus decime, ecclesiam de Aphelterbach cum duabus partibus decimę, ecclesiam de Vene cum medietate decimę, ecclesiam de Escuwlre cum medietate decimę, ecclesiam de Bourgele cum medietate decimę, ecclesiam de Burga cum medietate decimę, ecclesiam de Gualda cum medietate decimę, ecclesiam de Leichlinga cum medietate decimę, ecclesiam de Zuodendorp cum medietate decimę, ecclesiam de Hillen cum medietate decime, ecclesiam de W altorp cum medietate decimę, ecclesiam de Derne cum medietate decimę, ecclesiam de Hatnikke cum medietate decimę, ecclesiam de Heringe cum medietate decimę, ecclesiam de Dattilo cum medietate decimę, ecclesiam de Gladebach cum medietate decimę, ecclesiam de Boinon cum medietate decimę. De istis itaque prefatis decimis statuimus, ut nec tibi, dilecte fili abbas, nec tuis successoribus aut alicui alii persone liceat eas minuere, distrahere vel aliquo modo a Tuitiensi ecclesia alienare, sed ad usum et substentationem fratrum in eadem ecclesia deo servientium perpetuis temporibus conserventur. Obeunte vero te nunc eiusdem loci abbate vel tuorum quolibet succedentium, nullus ibi qualibet surreptionis as [ tutia seu alicuius laici vel alterius persone violentia preponatur, nisi ] quem fratres communi consensu vel conventus pars consilii sanioris secundum dei timorem et beati Benedicti regulam providerint eligendum. Decernimus ergo, ut nullus omnino hominum presumat Tuitiense monasterium temere perturbare aut eius possessiones auferre vel ablatas retinere, minuere seu aliquibus vexationibus fatigare, sed illibata omnia et integra conserventur eorum, pro quorum gubernatione et sustentatione concessa sunt, usibus omnimodis profutura. Salva sedis apostolicę auctoritate et diocesani episcopi canonica iustitia. Si qua igitur in futurum ecclesiastica secularisve persona, hanc nostrę constitutionis paginam sciens, contra eam temere venire temptaverit, secundo tertiove commonita, nisi presumptionem suam congrua satisfactione correxerit, potestatis honorisque sui dignitate careat reamque se divino iudicio existere de perpetrata iniquitate cognoscat et a sacratissimo corpore ac sanguine dei et domini nostri Ihesu Christi aliena fiat atque in extremo examine districte ultioni subiaceat. Cunctis autem eidem loco sua iura servantibus sit pax domini nostri Ihesu Christi, quatinus et hic fructum bone actionis percipiant et apud districtum iudicem premia eternę pacis inveniant. Amen, Amen, Amen.</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

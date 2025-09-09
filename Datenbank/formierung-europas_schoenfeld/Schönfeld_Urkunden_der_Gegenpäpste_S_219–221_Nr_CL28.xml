@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="schoenfeld"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt>
+              <resp when="2024">Encoding:</resp>
+              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+           </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>Schönfeld, Urkunden der Gegenpäpste, S. 219–221, Nr. CL28</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 219–221, Nr. CL28</bibl><bibl type="jaffe">5333</bibl>
+            <diploDesc>
+               <issued>
+                  <placeName>bei Cesena</placeName>
+                  <date type="issued" notBefore="1092-06-13" notAfter="1092-06-13">1092, Juni 13</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Clemens III . bestätigt den Kanonikern der Kathedralkirche SS . Maria e Michele zu Reggio-Emilia, auf die vorausgegangenen Bestimmungen mehrerer Bischöfe Bezug nehmend, ihre einzeln aufgeführten Privilegien und Besitzungen.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+         <div type="other">
+            <head>Echtheitskriterien: </head>
+            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
+         </div>
+         <div>
+            <head>Incipit:</head>
+            <diploPart type="incipit" xml:lang="lat">Opportet nos in</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones:</head>
+            <diploPart type="subscriptio">
+               <list><item>Rota-Inschrift: Rota-Inschrift: a) Kreuzarme: confirma hoc / deus, quod / operatus / es in nobis b) Quadranten: ihc / xpc / dns / nr</item><item>Rota-Devise: Rota-Devise: verbo / domini / caeli / firmati sunt</item><item>Bene Valete: x</item><item>Komma: x</item><item>Subskriptionen: x</item></list><list>
+                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+               </list>
+            </diploPart>
+         </div>
+         <div>
+            <head>Datatio:</head>
+            <diploPart type="datatio">Datum apud Cesenam per manum Bernerii vice Petri cancellarii, anno dominicę incarnationis MXCII indictione XV , anno autem pontificatus domini Clementis tertii papae, VIIII idibus iunii.</diploPart>
+         </div>
+         <div type="msSources">
+             <head>Frühester Überlieferungsträger</head>
+            <div>
+            <listBibl>   
+               <bibl type="original">Original, Reggio-Emilia, Arch. cap.;</bibl>
+               <bibl type="msCopy">[handschriftliche Kopie]</bibl>
+               <bibl type="print">[Druck]</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 219–221, Nr. CL28</bibl>
+               <bibl>Muratori: Anti- quitates, Bd. II , Sp. 185; Migne: PL 148, Sp. 839, Nr. 8;</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL 5333</bibl>
+               <bibl>IP IX , S. 424, Nr. 1 Palumbo: Lo scisma, S. 676, Nr. 62; ders.: Il monastero, S. 130; Krafft: Bene Valete, S. 243; Abb. dig.: PH Goe (Auss.); Abb. ana.: Palumbo: Il monastero, S. 130.</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>[Inhalt des Sachkommentars. Bibliographische Referenzen werden als Bibliographische Angabe getagged.]</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Weitere Referenzen als listBibl]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>Text (Transkription d. Verf.): Clemens episcopus servus servorum dei. Canonicis Regiensis ęcclesię ipsorumque successoribus in perpetuum. Opportet nos in specula sanctę sedis apostolicę constitutos ad defensionem et firmitudinem ęcclesiarum dei vigilanter insistere, quatenus de bono in melius deo adiuvante proficiant, ut remota omnium pravorum hominum inqietudine ministrantes divinis officiis promptius intenti quiete ministrare queant et nos boni pastoris mereamur percipere premia. Ac per hoc per presentem scripturam apostolica auctoritate in perpetuum manendum confirmamus canonicis sanctę Regiensis ęcclesię, ut ad canonicam suam inviolabiliter teneant curtem unam, quę dicitur villa, et mansos tres in Gova, mansum unum in Noniano, in Campilia curtem unam et mansos II et unum, quem dedit Sigefridus, qui dicitur Galliulo, curtem, quę dicitur Massa, cum suis appendiciis, Prenniano cum suis et terram, quę est in castro Holeriano, in Mucleto mansum I, in Dinazano I, in valle Birli I, in monte Babuli I, in Casaliclo I, in Barciano III , in Veteriula I, in monte Fodioni I. Et quicquid pertinet ad [ pre ] dictam sanctę Marię et sancti Michaelis canonicam in Tabiano, Caterniano, Mellocio et Grazano et Verniano cum suis appendiciis et in Civitate Nova et in Curlo et res illas cum silva in Baioarola et plebem I in Rivalta cum castro et suis pertinentiis et mansum in Corniano et in Runculo, Foliano et Alliano et res in Gaziasa cum decimis et silva et in Corrigia, seu in Butrio, in Rio, Fazano, campo Galliani, in Fontana, in Pato, Canulę, Mandrię, in Gurgo. Et sortes duas, quę sunt prope curtem novam, et mansos II in Cetlole et plebem de Nivellare cum omnibus suis pertinentiis et mansos tres in Canole, Corviatico, Mandriole, in Fabrica mansum I et in Siso, Rodano, Silvariano, Carbognano, Caldariola, Campaniola, Bedullo, vico Martini, Querciola, monte Gamoni et capellam sancti Viti in Offiano et capellam sancti Abundi cum suis pertinentiis, p [ r ] atum de Boceto, Ariolę, Gaziata, Motelena, Campigene, Marmoriolo et res, quę reiacent iuxta ponticellum Rodani, silva de Groseto, Purciliole, Runcise et in casale Fossedunde et Razo [ lu ] m cum piscariis et omnibus suis pertinentiis ad sanctum Stephanum, ad sanctum Possidonium, in pago Mutinensi buyda, in monte Passarario, in Puliagnello, Serra, Apollina ad sanctam Mariam cum oliveto et decimam in civitate, quę vocatur Regium, cum omni integritate et in Marsia et omnes res, quę sunt in circuitu civitatis, quę vocatur Emilia, et curtem I in Tertonensibus, quę dicitur nova, et omnes res, quę sunt in aquęductio (!) , et curtem sancti Stephani cum plebe, quę infra castrum sita est, cum omnibus suis pertinentiis, sicuti a bonę memorię Sigefrido episcopo vel ab aliis episcopis pro suis suorumque successorum animabus eidem cannonicę perscriptum vel investituram bene providendo integre collata sunt. Atque omnes res, quas de donis episcoporum vel voto fidelium predictę canonicę vel canonicis oblatas esse dinoscitur, sanctorum canonum auctoritate nostraque apostolica emunitate huic nostro inscripsimus privilegio cum omnibus suis adiacentiis et pertinentiis in perpetuum inviolabiliter conservandum absque omni contradictione alicuius magnę parvęque personę. Si quis autem temerari [ o ] ausum contra hoc nostrum apostolicum privilegium agere vel ordinare aliter res canonicę vel alium in eis usum ponere presumpserit quam eum, quem constituit Teuzo episcopus, Sigefridus, Adhelberius, Wolmarus, Gandulfus, sciat se omnipotentis dei potestate et beati Petri apostoli sanctorumque omnium nostraque etiam auctoritate anathematis vinculo innodatum et a regno dei alienatum et cum omnibus impiis ęterno incendio concremandum. At vero qui observator extiterit, gratiam et misericordiam vitaque ęternam a misericordissimo domino nostro consequi mereatur.</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

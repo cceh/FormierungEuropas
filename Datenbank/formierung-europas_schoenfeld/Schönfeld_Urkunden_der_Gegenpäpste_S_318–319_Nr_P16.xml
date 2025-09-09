@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="schoenfeld"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt>
+              <resp when="2024">Encoding:</resp>
+              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+           </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>Schönfeld, Urkunden der Gegenpäpste, S. 318–319, Nr. P16</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 318–319, Nr. P16</bibl><bibl type="jaffe">14495</bibl>
+            <diploDesc>
+               <issued>
+                  <placeName>Rom, S. Peter</placeName>
+                  <date type="issued" notBefore="1168-02-27" notAfter="1168-02-27">1168, Februar 27</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Paschalis III . bestätigt Erzbischof Philipp von Köln die Enthebung des Bistums Cam- brai aus dem Reimser Metropolitenverband und die Überweisung an den Kölner.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+         <div type="other">
+            <head>Echtheitskriterien: </head>
+            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
+         </div>
+         <div>
+            <head>Incipit:</head>
+            <diploPart type="incipit" xml:lang="lat">Sedes apostolica quę</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones:</head>
+            <diploPart type="subscriptio">
+               <list><item>Rota-Inschrift: Rota-Inschrift: sanctus Petrus / sanctus Paulus / Pas papa /ca lis III</item><item>Rota-Devise: Rota-Devise: Adiutor meus esto domine, ne derelinquas me</item><item>Bene Valete: x</item><item>Komma: –</item><item>Subskriptionen: –</item></list><list>
+                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+               </list>
+            </diploPart>
+         </div>
+         <div>
+            <head>Datatio:</head>
+            <diploPart type="datatio">Datum Romę apud sanctum Petrum per manum Riccardi civitatis Castellanę episcopi, IIII kalendas martii indictione I incarnationis dominicę anno MCLXVIIII , pontificatus vero domini Pascalis pape III anno IIII .</diploPart>
+         </div>
+         <div type="msSources">
+             <head>Frühester Überlieferungsträger</head>
+            <div>
+            <listBibl>   
+               <bibl type="original">Original, Köln, Stadtarchiv, Domstift Urkunden 3 / 859;</bibl>
+               <bibl type="msCopy">[handschriftliche Kopie]</bibl>
+               <bibl type="print">[Druck]</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 318–319, Nr. P16</bibl>
+               <bibl>Lacomblet: Urkundenbuch für die Geschichte, Bd. I, S. 300, Nr. 431; Pflugk-Harttung: Acta, Bd. I, S. 294, Nr. 329;</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL 14495</bibl>
+               <bibl>Palumbo: Lo scisma, S. 661, Nr. 30.</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Jaffé, Lacomblet, Pflugk-Harttung und Bischoff datierten auf 1168, Februar 26, hier datiert nach Schieffer ( GP ) und Krafft.</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Weitere Referenzen als listBibl]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>Text (Transkription d. Verf.): Pascalis episcopus servus servorum dei. Venerabili fratri Philippo Coloniensi archiepiscopo eiusque successoribus canonice substituendis in perpetuum. Sedes apostolica, quę fidei et totius religionis est fundamentum, omnium sollicitudinem gerit ecclesiarum et, sicut eos, qui sibi devotionis atque debite reverentię iura conservant, promovet et honorat, ita contumacium proterviam aggravare et comprimere consuevit. lnde est, venerabilis in domino frater, quod episcopatum Cameracensem, qui hactenus metropolitano Remensi subiectus extitit, pro eo, quod eadem Remensis ecclesia cum suo pastore Rolando scismatico et eius parti adherendo lepra ipsius commaculari non timuit et propterea matri suę sacrosanctę Romanę ecclesię plurimum restitisse dinoscitur, ab ipsius obedientia atque subiectione emancipamus et tibi atque Coloniensi ecclesię, cuius fidei et devotionis sinceritatem atque constantiam erga nos sumus experti, eundem episcopatum Cameracensem subiciendo concedimus et confirmamus. Statuentes, ut episcopus Cameracensis a Coloniensi metropolitano consecrationem episcopalem recipiat et tam ipse quam clerus suus ei omnem obedientiam atque reverentiam, quam Remensi predecessores sui debuerunt, exhibeat. Decernimus ergo, ut nulli omnino hominum liceat hanc nostrę constitutionis paginam infringere vel ei ausu temerario in aliquo contraire salva sedis apostolicę auctoritate. Si qua igitur infuturum ecclesiastica secularisve persona, hanc nostram concessionem vel confirmationem sciens, contra eam temere venire temptaverit, secundo tertiove commonita, nisi presumptionem suam congrua satisfactione correxerit, potestatis honorisque sui dignitate careat reamque se divino iudicio existere de perpetrata iniquitate cognoscat, et a sacratissimo corpore ac sanguine dei et domini nostri Ihesu Christi aliena fiat atque in extremo examine districte ultioni subiaceat. Cunctis autem eam servantibus sit pax domini nostri Ihesu Christi, quatinus et hic fructum bone actionis percipiant et apud districtum iudicem premia eternę pacis inveniant. Amen, Amen, Amen.</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

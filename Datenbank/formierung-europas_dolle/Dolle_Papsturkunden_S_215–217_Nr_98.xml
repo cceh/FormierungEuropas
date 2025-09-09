@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="dolle"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt>
+              <resp when="2024">Encoding:</resp>
+              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+           </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>Dolle, Papsturkunden, S. 215–217, Nr. 98</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Dolle, Papsturkunden, S. 215–217, Nr. 98</bibl><bibl type="jaffe">10552</bibl>
+            <diploDesc>
+               <issued>
+                  <placeName>Lateran</placeName>
+                  <date type="issued" notBefore="1159-03-04" notAfter="1159-03-04">[1159] März 4</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Papst Hadrian IV . nimmt Kloster Mariental unter Abt Dudelin in den apostolischen Schutz, bestätigt ihm die Regel des heiligen Benedikt, die Einführung der Zisterzienser- ordnung, den Besitz des Klosters und befreit es vom Zehnten für Neubrüche bei Eigenbau und für Tierfutter.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+         <div type="other">
+            <head>Echtheitskriterien: </head>
+            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
+         </div>
+         <div>
+            <head>Incipit:</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones:</head>
+            <diploPart type="subscriptio">
+               <list>
+                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+               </list>
+            </diploPart>
+         </div>
+         <div>
+            <head>Datatio:</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+             <head>Frühester Überlieferungsträger</head>
+            <div>
+            <listBibl>   
+               <bibl type="original">Ausfertigung: NLA -Wolfenbüttel, 22 Urk 3 ( A ). Pergament, italienisch, 53,4-55,4 × 70-70,4 (3-3,9); leicht stockfleckig. Rota wie Nr. 93 . Bulle an roten und gelben Seidenfäden, wie Nr. 93. Rückver merke (14. Jh.): Adriani pape (andere Hand): Adriani pape IIII de confirmatione bonorum .</bibl>
+               <bibl type="msCopy">Abschriften: NLA -Wolfenbüttel, VII B Hs 340 p. 7-11 ( B ). – NLA -Wolfenbüttel, VII B Hs 341 fol. 16 v -17 v ( C ). – NLA -Wolfenbüttel, VII B Hs 342 fol. 51 v -52 v ( D ). – NLA -Wolfenbüttel, VII B Hs 346 p. 8-11 ( E ). – GWLB Hannover, Ms XXIII 586 fol. 11 r -11 v ( F ).</bibl>
+               <bibl type="print">Drucke: Origines Guelficae III S. 535-538 Nr. 80 (ohne Unterschriften, zu 1158). – PL 188 Sp. 1623 f. Nr. 247 (ohne Unterschriften, zu 1158). – Langerfeldt, Urkunden S. 90-92 Nr. 1 (zu 1158). – Hirsch- mann, Kanzlei S. 387 Nr. 11. Auszug: Erath, Codex S. 91 Nr. 17 (zu 1158).</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Dolle, Papsturkunden, S. 215–217, Nr. 98</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL 10552</bibl>
+               <bibl>Regesten: J Nr. 7112. – JL Nr. 10552. – GP V /2, VI S. 462 Nr. 3. – Hempel, Inventarium I Sp. 96 (zu 1158). – Raumer, Regesta I Nr. 1263 (zu 1158). – Regesta archiepiscopatus Magdeburgensis I Nr. 1358. – Lerche, Studien S. 67 Nr. 10. Abbildungen der Bleibulle: Diekamp, Urkundenwesen, zwischen S. 626 u. 627 Nr. 3 u. 17 – Serafini, Le monete I S. 26, Abb. H 9. – Fees / Roberg, Digitale Urkundenbilder IV Taf. 15 u. 16. Beschreibung der Bleibulle: Marnetté-Kühl, Siegel S. 62 f. Nr. G 2. Abbildung: Lichtbildarchiv Marburg, Zugangsnummer 8059.</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Datiert nach Indiktion und Pontifikatsangabe. a b c d e f g e o o o o a incursu ( A ). b dahinter ca. 3 Buchstaben radiert ( A ). c q korrigiert aus d ( A ). d hinter dem E ein Buchstabe radiert ( A ). e so ( A ). f ursprünglich S o e merstorp ; das hochgestellte e und der obere Teil des o radiert ( A ). g r über radiertem p ( A ).</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Weitere Referenzen als listBibl]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>x x x Adrianus episcopus servus servorum dei dilectis filiis Dudelino abbati monasterii Vallis sancte Marie eiusque fratribus tam presentibus quam futuris regularem vitam professis in perpetuum. x x x Religiosam vitam eligentibus apostolicum convenit adesse presidium, ne forte cuiuslibet temeritatis incursus aut eos a proposito revocet aut robur, quod absit, sacre religionis infringat. Eapropter, dilecti in domino filii, vestris iustis postulationibus clementer annuimus et prefatum monasterium, in quo divino mancipati estis obsequio, ad exemplar predecessoris nostri sancte recordationis x x x Eugenii x x x pape sub beati Petri et nostra protectione suscipimus et presentis scripti privilegio communimus in primis siquidem statuentes, ut ordo monasticus, qui secun dum dei timorem et beati Benedicti regulam et Cisterciensium fratrum institu- tionem ibidem perpetuis temporibus inviolabiliter conservetur. Preterea quascumque possessiones, quecumque bona idem monasterium impresentiarum iuste et canonice possidet aut in futurum concessione pontificum, largitione regum vel principum, oblatione fidelium seu aliis iustis modis prestante domino poterit adipisci, firma vobis vestrisque successoribus et illibata permaneant, in quibus hec propriis duximus exprimenda vocabulis: locum ipsum Vallem scilicet sancte Marie ab illustri viro Fri- derico palatino comite omnipotenti deo ad statuendam ibi religionem pia devotione oblatam cum viginti mansis, pratis, pascuis et nemoribus ad ipsos mansos pertinen- tibus, curtem, quę dicitur Steintorp, cum suis appendiciis, pascuis videlicet, pratis ac nemoribus, ex dono Lucardis comitisse curtem Ludestorp cum suis appenditiis et decimis, quartam partem silve, quę dicitur Lapwalt, ex dono Ermenchardis marcio- nisse quattuor mansos in Ludestorp cum appendiciis et utilitatibus suis et que- cumque in eadem villa commutata sunt cum fratribus ecclesie Wallebhec a fundatore predicte ecclesie, ex dono Hode comitisse quattuor mansos in Aventorp cum omni- bus utilitatibus suis, ex dono Bunihc et Willeri tres mansos et dimidium in Brandes- love, ex dono ducis unum mansum cum saltu in eadem villa, ex dono Hugoldi sep- tem iugera in eadem villa cum assensu heredis sui, videlicet Friderici de Amfrideslove, quattuor iugera et pratum, quę a Burchardo de Gerslove emistis, item ex dono iam dicti Friderici palatini comitis dimidium mansum in eadem villa, ex dono Wilhelmi de Amerslove tres mansos in eadem villa et quecumque in eadem villa commutate fuit cum sororibus Quideneburgensis ecclesie et Walebhec, molendinum et dimi- dium mansum cum area, quę in Brandeslove maiori emistis, quattuor mansos in Offenslove et quattuor mansos in Mammendorp, dimidium mansum Cowelle, in quo prefatus comes palatinus contulit ecclesie dimidium mansum, ex dono Lucardis comitisse duos mansos pretio comparatos in eadem villa, ex dono Alberti palatini comitis filii eiusdem comitisse duos mansos in Nortgermeslove, ex dono Friderici ministerialis prefati principis dimidium mansum in Hoctmerslove, ex dono Agnetis filie ducis de Linburhc tres mansos, unum in Brandeslove minori et duos in Waden- torp, ex dono Beatricis quattuor mansos in Ortorp, ex dono Volradi comitis duos mansos in eadem villa et decimam forverci vestri in Brandeslove, ex dono Erici unum mansum Winninche, ex dono predicte Lucardis comitisse unam aream in Santorp cum saltu quodam, qui spectabat ad ipsam, ex dono memorati palentini comitis duos mansos, unum in Somerstorp et alium in Ekenbardenlive et Octh- merslive, ex dono Heinrici ducis villam, que dicitur Bardenbike, cum suis appen- diciis, videlicet pratis, paschuis ac nemoribus, item ex dono Agnetis filie ducis de Linburhc quartam partem silve, quę dicitur Lapwalt, Haskenroht et Biscobroht cum omnibus appendiciis suis, videlicet pratis, paschuis, rivis et saltu, insuper et villam ipsi predio adiacentem cum decima eiusdem villule et silva, quę dicitur Lobecke, quę omnia Albestatensis episcopus ad petitionem Nodtingi de Gaderslove ministerialis sui, qui eadem bona beneficii iure ab ipso possederat, canonice vobis concessit. Sane novalium vestrorum, quę propriis manibus aut sumptibus colitis, sive de nutrimentis vestrorum animalium nullus a vobis decimas presumat exigere. Decernimus ergo, ut nulli omnino hominum liceat supradictum monasterium temere perturbare aut eius possessiones auferre vel ablatas retinere, minuere seu quibuslibet vexationibus fati- gare, sed illibata omnia et integra conserventur eorum, pro quorum gubernatione et sustentatione concessa sunt usibus omnimodis profutura, salva nimirum apostolice sedis auctoritate et dyocesani episcopi canonica iustitia. Siqua igitur in futurum eccle siastica secularisve persona hanc nostre constitutionis paginam sciens contra eam temere venire temptaverit, secundo tertiove commonita, nisi presumptionem suam congrua satisfactione correxerit, potestatis honorisque sui dignitate careat reamque se divino iudicio existere de perpetrata iniquitate cognoscat et a sacratissimo corpore ac sanguine dei et domini redemptoris nostri Iesu Christi aliena fiat atque in extremo examine districte ultioni subiaceat. Cunctis autem eidem loco sua iura servantibus sit pax domini nostri Iesu Christi, quatinus et hic fructum bone actionis percipiant et apud districtum iudicem premia eterne pacis inveniant. x x x Amen. Amen. Amen. x x x (R.) Ego Adrianus catholicę ęcclesię episcopus subscripsi. (M.) † Ego Hymarus Tusculanus episcopus subscripsi. † Ego Gregorius Sabinensis episcopus subscripsi. † Ego Hubaldus Hostiensis episcopus subscripsi. † Ego Iulius Prenestinus episcopus subscripsi. † Ego Bernardus Portuensis et sancte Rufine episcopus subscripsi. † Ego Galterius Albanensis episcopus subscripsi. † Ego Octavianus presbyter cardinalis tituli sancte Cecilie subscripsi. † Ego Iohannes presbyter cardinalis sanctorum Iohannis et Pauli tituli Pamachii subscripsi. † Ego Henricus presbyter cardinalis tituli sanctorum Nerei et Achillei subscripsi. † Ego Ildebrandus presbyter cardinalis basilice XII apostolorum subscripsi. † Ego Oddo diaconus cardinalis sancti Georgii ad velum aureum subscripsi. † Ego Iacintus diaconus sancte Marie in Cosmydyn subscripsi. † Ego Boso diaconus cardinalis sanctorum Cosme et Damiani subscripsi. Dat. Laterani per manum Rolandi sancte Romane ecclesie presbyteri cardinalis et can- cellarii, IIII non. martii, indictione VII , incarnationis dominice anno M . C . L . VIII ., pontificatus vero domni x x x Adriani pape x x x IIII anno quinto.</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

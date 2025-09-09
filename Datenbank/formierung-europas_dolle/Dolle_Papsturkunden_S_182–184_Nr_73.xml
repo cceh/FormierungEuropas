@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="dolle"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt>
+              <resp when="2024">Encoding:</resp>
+              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+           </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>Dolle, Papsturkunden, S. 182–184, Nr. 73</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Dolle, Papsturkunden, S. 182–184, Nr. 73</bibl><bibl type="jaffe">8787</bibl>
+            <diploDesc>
+               <issued>
+                  <placeName>Viterbo</placeName>
+                  <date type="issued" notBefore="1145-10-26" notAfter="1145-10-26">1145 Oktober 26</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Papst Eugen III . nimmt die Besitzungen der deutschen Regularkanoniker, die am Tag der Kreuzerhöhug zum Konvent zusammentreten, in den apostolischen Schutz, bestätigt ihnen die Augustinerregel und trifft bezüglich der inneren Ordnung besondere Bestimmungen.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+         <div type="other">
+            <head>Echtheitskriterien: </head>
+            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
+         </div>
+         <div>
+            <head>Incipit:</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones:</head>
+            <diploPart type="subscriptio">
+               <list>
+                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+               </list>
+            </diploPart>
+         </div>
+         <div>
+            <head>Datatio:</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+             <head>Frühester Überlieferungsträger</head>
+            <div>
+            <listBibl>   
+               <bibl type="original">Ausfertigung: NLA -Hannover, Hild. Or. 3 Grauhof Nr. 5 ( A ). Pergament, italienisch, 51,8-52,5 × 66-67,1 (3,1-3,8). Rota mit Devise: Fac mecum domine signum in bonum; im inneren Feld durch Kreuz geteilt S ( AN ) C ( TU ) S PETRUS / S ( AN ) C ( TU ) S / PAULUS / EUGE / NIUS / P ( A ) P ( A )/ III . Bulle an roten und gelben Seidenfäden, D .: 3,2 cm, auf der Aversseite die Inschrift EU / GENIUS / P ( A ) P ( A ) III , auf der Reversseite die Köpfe der Apostel Petrus und Paulus, getrennt durch ein Kreuz, da- rüber S ( ANCTUS ) PA ( ULUS ) S ( ANCTUS ) PE ( TRUS ).</bibl>
+               <bibl type="msCopy">Abschriften: LHA Sachsen-Anhalt, Rep. Cop. Nr. 746a fol. 27 v -329 r ( B ). – LHA Sachsen-Anhalt, Rep. Cop. Nr. 746b fol. 41 v -44 v ( C ). – UB Kassel, Ms 4 o Hist 49 fol. 21 v -23 r ( D ), zur Zeit nicht auffindbar. – NLA -Wolfenbüttel, VII C Hs 81 p. 60-64 ( E ).– DomB Hildesheim, Hs 588 II fol. 172 ( F ) u. fol. 413 v ( G ), verloren. – GWLB Hannover, Ms XIX 1096 p. 86-94 ( H ).</bibl>
+               <bibl type="print">Drucke: Pflugk-Harttung, Acta I S. 174-176 Nr. 196. – UB Goslar I Nr. 202. – UB HHildesheim I Nr. 238. – UB Hamersleben Nr. 9.</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Dolle, Papsturkunden, S. 182–184, Nr. 73</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL 8787</bibl>
+               <bibl>Regesten: JL Nr. 8787. – GP V /2, VI S. 394 Nr. 5. Äußere Beschreibung: Pflugk-Harttung, Päpstliche Original-Urkunden Nr. 456. Abbildungen der Bleibulle: Diekamp, Urkundenwesen, zwischen S. 626 u. 627 Nr. 2 u. 12. – Mar- netté-Kühl, Siegel S. 61 f. Nr. G 1. – Serafini, Le monete I S. 26, Abb. H 6. – Fees / Roberg, Digitale Urkundenbilder IV Taf. 12. Abbildung: Lichtbildarchiv Marburg, Zugangsnummer 10528.</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Brackmann, Papsturkunden des Nordens S. 111 Anm. 2 vermutete, dass Eugen III . mehrere Ausfer- tigungen in Auftrag gegeben hat. Vgl. auch Bogumil, Bistum Halberstadt S. 177-180. – GP V /2, VI S. 394 Nr. 5. a b c d e f f g h i k l m l n o o o o o a auf Rasur ( A ). b voluntantis ( A ). c tute auf Rasur ( A ). d davor eine kleine Rasur ( A ). e icio auf Rasur ( A ). f-f ursprünglich nur relinquere ; dann radiert und vestras relinquere eingefügt ( A ). g venire auf Rasur ( A ). h positis auf Rasur ( A ). i zwischen dem letzten e und dem r ein Buchsta- be mit Oberlänge radiert ( A ). k positorum auf Rasur ( A ). l über der Zeile nachgetragen ( A ). m auf Rasur ( A ). n von anderer Hand nachgetragen ( A ). o dahinter Rasur ( A ).</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Weitere Referenzen als listBibl]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>x x x Eugenius episcopus servus servorum dei dilectis filiis universis prepositis cano- nicorum regularium Theotonicorum conventum in Exaltatione sanctę crucis cele- brantibus tam presentibus quam futuris in perpetuum. x x x Pię postulatio voluntatis effectu debet prosequente compleri, quatinus et devotionis sinceritas laudabiliter enitescat et utilitas postulata vires indubitanter assumat. Ideoque, dilecti in domino filii, vestris iustis petitionibus gratum prebentes assensum ęcclesias, quibus preesse videmini, possessiones etiam et bona ad ipsas pertinentia sub apostolicę sedis tutela et protectione suscipimus et presentis scripti privilegio communimus statuentes, ut quascum que possessiones vel bona in ęcclesiis, terris cultis et incultis, vineis, pratis, bannis, molendinis, silvis, pascuis seu aliis rebus in presentiarum iuste et legitime possidetis aut in futurum concessione pontificum, liberalitate regum, largitione prin- cipum, oblatione fidelium seu aliis iustis modis auxiliante domino poteritis adipisci, firma vobis et per vos eisdem æcclesiis et illibata permaneant. Sanctimus etiam, ut ordo canonicus, qui sęcundum beati Augustini regulam in eisdem ęcclesiis noscitur institutus aut in aliis deo propicio instituetur, perpetuis futuris temporibus in eodem habitu, in quo institutus est, inviolabiliter conservetur, in quibus siquidem locis regu- laris vitę ordo seu disciplina eo districtionis moderamine seu discretione servetur, ut salva professione vitę canonicalis fratres non cadendi ad inferiora, sed semper ad perfectiora ascendendi habeant facultatem. Nulli etiam canonicorum licitum sit post factam professionem absque libera prepositi et capituli sui licentia ob levitatem aut districtioris vitę obtentum ęcclesias vestras relinquere et ad alia loca transire, disce- dentem vero nullus episcoporum, abbatum, prepositorum seu priorum audeat retinere. Si quid vero perturbationis sive discordię inter fratres vestrę professionis ortum fue- rit, prepositi fratrum vestrarum congregationum in unum conveniant, quorum stu- dio et diligentia controversia, que inter eos orta est, si fieri poterit, finiatur, alioquin ad episcopum recurratur. Quod si nec per ipsum pax reformari poterit, ad Romanum pontificem causa eadem quantotius perferatur. Preterea ad pacem et quietem vobis perpetuo conferendam statuimus, ut, si aliqua ęcclesiastica secularisve persona vos sive æcclesias vestras super his capitulis aut aliis rebus gravare voluerit, liceat vobis appellationis remedio perfrui. Volumus etiam prepositos vestrarum congregationum in Exaltatione sanctę crucis annis singulis convenire , ut, si quid inibi de ordine vestro corrigendum fuerit aut in meliorem formam redigendum, communi consilio ibidem auxiliante domino statuatur. Ille vero, qui convocandi conventum huiusmodi amministrationem habuerit, communiter eligatur. Quod autem ibi de emendatione sive melioratione vestri ordinis institutum fuerit, ab omnibus tam prelatis quam sub- ditis irrefragabiliter conservetur. Fratres quoque, qui de vestris claustris assumpti in aliis æcclesiis sunt constituti prepositi aut in posterum statuentur, si forte in se ipsis aut in religione sive ordine canonico deliquerint aut circa suos subditos negligentes extiterint, licitum sit prepositis huius conventus eos pro excessibus suis corrigendis monere et, si post eorum monitionem reprehensibilia sua mutare nullatenus voluer- int, severius corripere. Quod si fortuitu idem fratres ab ipsa prelatione iudicio deiec- ti fuerint aut cedere voluerint, ad claustrum suum, unde venerunt, redeant et in obedien tia pristina maneant. Porro prepositi et fratres vestrę professionis, qui non dissimilem, sed religiosum exoptant habere pastorem, electioni episcoporum interes- se absque contradictione aliqua habeant facultatem. Congregationes monialium, sive habeant abbatissas sive non, disciplinę et magisterio canonicorum probatę vitę vestrę professionis de vita et moribus suis in melius corrigendis de more obediant. Obeunte vero quolibet vestrorum prepositorum seu qualibet de causa a prelationis officio canonice amoto nullus ibi, nisi quem fratrum illius claustri concors societas vel pars sanioris consilii de eodem claustro vel de alio eiusdem religionis secundum dei timorem et beati Augustini regulam eligerit, substituatur. Si vero, quod absit, in electione fratres inter se discordaverint, auctoritate episcopali et prepositorum con- silio sanioris partis electio confirmetur et adversę partis presumptio conprimatur. De prepositis autem nullus vivens sive moriens alium sibi audeat subrogare. Et quoniam frequenter scandala et persecutiones emergunt, quibus servi dei multotiens affli- guntur et e suis locis exire coguntur, si quando contigerint talia, res seu bona vestra mobilia vobiscum liceat asportare. Decernimus ergo, ut nulli omnino hominum fas sit vos vel æcclesias vestras super his nostris constitutionibus temere perturbare, bona vel possessiones vestras auferre vel ablatas retinere, minuere seu temerariis vexa- tionibus fatigare, set omnia integra conserventur eorum, pro quorum gubernatione et sustentatione concessa sunt usibus omnimodis profutura, salva sedis apostolicę aucto ritate et dioce sanorum episcoporum canonica reverentia. Si qua igitur in poste- rum æccle siastica secularisve persona huius nostrę constitutionis paginam sciens con- tra eam temere venire temptaverit, sęcundo tertiove commonita, nisi reatum suum congrua satisfactione correxerit, potestatis honorisque sui dignitate careat reamque se divino iudicio existere de perpetrata iniquitate cognoscat et a sacratissimo corpore ac sanguine dei et domini redemptoris nostri Ihesu Christi aliena fiat atque in extremo examine districtę ultioni subiaceat. Cunctis autem vestris æcclesiis sua iura servanti- bus sit pax domini nostri Ihesu Christi, quatinus et hic fructum bonę actionis perci- piant et apud districtum iudicem premia ęternę pacis inveniant. x x x Amen. Amen. Amen. x x x (R.) Ego Eugenius catholicę ęcclesię episcopus subscripsi. (M.) † Ego Conradus Sabinensis episcopus subscripsi. † Ego Hubaldus presbyter cardinalis sanctorum Iohannis et Pauli subscripsi. † Ego Gilibertus presbyter cardinalis tituli sancti Marci subscripsi. † Ego Nicolaus presbyter cardinalis tituli sancti Ciriaci subscripsi. † Ego Manfredus presbyter cardinalis tituli sancte Savine subscripsi. † Ego Oddo diaconus cardinalis sancti Georgii ad velum aureum subscripsi. † Ego Guido diaconus cardinalis sanctorum Cosme et Damiani subscripsi. † Ego Octavianus diaconus cardinalis sancti Nicholai in carcere Tulliano subscripsi. † Ego Gregorius diaconus cardinalis sancti Angeli subscripsi. † Ego Petrus diaconus cardinalis sanctę Marie in via lata subscripsi. † Ego Cinthius diaconus cardinalis sanctorum Sergii et Bachi subscripsi. Dat. Viterbi per manum x x x Roberti x x x sancte Romane ecclesie presbyteri cardinalis et cancellarii, VII kl. novembris, indictione VIIII , incarnationis dominicę anno M . C . X LV ., pontificatus vero domni x x x Eugenii x x x III x x x pape x x x anno primo.</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

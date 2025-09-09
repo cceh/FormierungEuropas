@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="dolle"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt>
+              <resp when="2024">Encoding:</resp>
+              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+           </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>Dolle, Papsturkunden, S. 194–195, Nr. 83</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Dolle, Papsturkunden, S. 194–195, Nr. 83</bibl><bibl type="jaffe">9519</bibl>
+            <diploDesc>
+               <issued>
+                  <placeName>Segni</placeName>
+                  <date type="issued" notBefore="1152-01-09" notAfter="1152-01-09">[1152] Januar 9</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Papst Eugen III . fordert Erzbischof Hartwig von Bremen auf, die von seinen Eingepfarr- ten widerrechtlich zurückbehaltenen Güter des Klosters Kemnade restituieren zu lassen.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+         <div type="other">
+            <head>Echtheitskriterien: </head>
+            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
+         </div>
+         <div>
+            <head>Incipit:</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones:</head>
+            <diploPart type="subscriptio">
+               <list>
+                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+               </list>
+            </diploPart>
+         </div>
+         <div>
+            <head>Datatio:</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+             <head>Frühester Überlieferungsträger</head>
+            <div>
+            <listBibl>   
+               <bibl type="original">Ausfertigung fehlt.</bibl>
+               <bibl type="msCopy">Abschriften: StA Lüttich, Abbaye de Stavelot-Malmédy Ms 341 fol. 119 v ( B ) mit der Überschrift: Dominus papa Eugenius H(artwico) Bremensi archiepiscopo . – GWLB Hannover, Ms XXIII 1132 fol. 64 r ( C ). – Göttingen, Pius-Stiftung für Papsturkundenforschung, Nachlass Brackmann ( D ).</bibl>
+               <bibl type="print">Drucke: Martène-Durand, Collectio II Sp. 505 f. Nr. 330. – Hamburgisches UB I Nr. 200. – PL 180 Sp. 1491 Nr. 468. – Jaffé, Bibliotheca I Nr. 352. – Hartmann, Briefbuch II S. 689 f. Brief 326 ( J 352).</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Dolle, Papsturkunden, S. 194–195, Nr. 83</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL 9519</bibl>
+               <bibl>Regesten: J Nr. 6603. – JL Nr. 9519. – GP VI S. 77 f. Nr. 136. – Westfälisches UB V Nr. 86. – RegEb Bremen I Nr. 507. – Ortmanns, Bistum Minden S. 151 Nr. 23.</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Zu hokwar , der Weserfischerei Corveys, siehe Hartmann, Briefbuch II S. 690. Die Urkunde gehört zu den 14 Papstbriefen, die Wibald von Stablo bei seinem Aufenthalt an der Kurie im Januar 1152 erhielt und in sein Briefbuch eintragen ließ (Hartmann, Briefbuch I S. XVIII u. II S. 684, Vorbemerkung zu Brief 323 ( J 349)). Siehe auch Nr. 79 Vorbemerkung. a b c d d a fehlt; ergänzt nach dem Kanzleibrauch ( B ). b korrigiert aus posseones ( B ). c das i korrigiert ( B ). d-d p(re).s.t.m. ( B ).</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Weitere Referenzen als listBibl]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>[Eugenius episcopus servus servorum dei H(artwico) venerabili fratri Bremensi archi- episcopo salutem et apostolicam benedictionem.] Ex conquestione dilecti filii nostri W(ibaldi) Corbeiensis abbatis accepimus, quod quidam parrochiani tui, videlicet Odiko, Ricbertus, Thederus, Rainerus et Hermannus, quasdam possessiones Kami- natensis monasterii, quę in tuo episcopatu esse noscuntur, a Iudith quondam abba- tissa, postquam a regimine ęcclesię semota fuerat, illicite receperint et eas contra iustitiam detineant atque predictę ęcclesię ipsas restituere modis omnibus contradi- cant. Quia igitur ad nostrum specat officium errata corrigere et, quę male ac contra sanctorum patrum instituta fiunt, in irritum revocare et ad rectitudinis statum redu- cere, per presentia scripta tibi mandamus , quatinus predictos parrochianos tuos districte commoneas, ut suprafato monasterio possessiones ipsas restituant et ab eius- dem ęcclesię infestatione desistant. Quodsi forte tuis monitis obędire contempserint, canonicam de ipsis iusticiam facias. Preterea nichilominus tibi mandamus, ut fra- tribus Corbeiensis ęcclesię de piscatione de hokwar, quę a parrochianis tuis, sicut accepimus, illicite detinetur, quod iustum fuerit, facias exhiberi. Dat. Signie, V . idus ianuarii.</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

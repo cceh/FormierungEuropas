@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="dolle"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt>
+              <resp when="2024">Encoding:</resp>
+              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+           </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>Dolle, Papsturkunden, S. 234–236, Nr. 112</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Dolle, Papsturkunden, S. 234–236, Nr. 112</bibl><bibl type="jaffe">13426</bibl>
+            <diploDesc>
+               <issued>
+                  <placeName>Lateran</placeName>
+                  <date type="issued" notBefore="1179-05-29" notAfter="1179-05-29">1179 Mai 29</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Papst Alexander III . bestätigt die durch Erzbischof Adalbero vorgenommene Verlegung des Stifts St. Stephani und St. Wilhadi in Bremen, seine Rechte, Immunitäten und Besit- zungen, verleiht den apostolischen Schutz und gewährt das Begräbnisrecht sowie die Wahl des Propstes.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+         <div type="other">
+            <head>Echtheitskriterien: </head>
+            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
+         </div>
+         <div>
+            <head>Incipit:</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones:</head>
+            <diploPart type="subscriptio">
+               <list>
+                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+               </list>
+            </diploPart>
+         </div>
+         <div>
+            <head>Datatio:</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+             <head>Frühester Überlieferungsträger</head>
+            <div>
+            <listBibl>   
+               <bibl type="original">Ausfertigung: StA Bremen, 1-45-46 Nr. 1 ( A ). Pergament, italienisch, 56,1-56,8 × 72,6-73 (2,6-2,9); stockfleckig, Löcher im Pergament mit Textverlust. Rota wie Nr. 107 . Bulle an gelben Seidenfäden, wie Nr. 107. Rückvermerk (15. Jh.): Fundacio ecclesie .</bibl>
+               <bibl type="msCopy">Abschriften: SUB Bremen, Ms a44 p. 160-162 ( B ). – GWLB Hannover, Ms XXIII 1050 fol. 34 r -36 r ( C ). – StA Bremen, 1-45-46 Nr. 1a ( D ), mit falschem Datum, Transsumpt in der Urkunde des Bern- hard Steyn, Domvikar in Bremen und Offizial Erzbischof Christophs von Bremen, vom 30. Juli 1557 . – StA Bremen, 2- P . 1.-299 p. 243-253 ( E ), nach D . – GWLB Hannover, Ms XXIII 1052 fol. 63 v -64 v Nr. 130 ( F ).</bibl>
+               <bibl type="print">Drucke: Cassel, Historische Nachrichten S. 11-14 Nr. 3. – Kohlmann, Mitteilungen S. 100-105. – Ham- burgisches UB I Nr. 246. – PL 200 Sp. 1238-1240 Nr. 1425. – Bremisches UB I Nr. 54. Teildruck: Hoyer UB VIII Nr. 27.</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Dolle, Papsturkunden, S. 234–236, Nr. 112</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL 13426</bibl>
+               <bibl>Regesten: J Nr. 8728. – JL Nr. 13426. – GP VI S. 100 Nr. 2. – Hempel, Inventarium I Sp. 113. Abbildungen der Bleibulle: Diekamp, Urkundenwesen, zwischen S. 626 u. 627 Nr. 3 u. 20. – Aus 1200 Jahren S. 107 Abbildung 5 u. 6. – Serafini, Le monete I S. 27, Abb. H 10. – Schoknecht, Urkunde Papst Alexanders III . S. 380. – Fees / Roberg, Digitale Urkundenbilder IV Taf. 19. Beschreibung der Bleibulle: Marnetté-Kühl, Siegel S. 64 Nr. G 4. Abbildung: Hägermann / Weidinger, Bremische Kirchengeschichte S. 165.</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Zur Verlegung des Stifts siehe Röpcke, St. Willehadi-Stephani S. 15-18.</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Weitere Referenzen als listBibl]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>x x x Alexander episcopus servus servorum dei dilectis filiis Henrico preposito ecclesie sancti Stephani et sancti Willehadi Bremensis eiusque fratribus tam presentibus quam futuris canonice substituendis in perpetuum. x x x Cum in sacris dei ecclesiis ad robur et augmentum religionis et ad iugem divine maiestatis laudem ab earum pre- latis aliqua ordinantur, ea debemus apostolici culminis auctoritate munire, ne forte quorumlibet temerario violentur incursu aut suadente humani generis inimico perse- quentium pravitate tollantur. Eapropter, dilecti in domino filii, vestris iustis postula- tionibus clementer annuimus et translationem congregationis vestre a bone memorie Alberone quondam Bremensi archiepiscopo ad honorem dei factam cum libertatibus et immunitatibus ecclesie vestre ab eo collatis, sicut in eius scripto autentico contine- tur, ratam habentes ecclesiam ipsam, in qua divino estis obsequio mancipati, sub beati Petri et [Pauli] protectione suscipimus et presentis scripti privilegio communi- mus in primis siquidem statuentes, ut ordo canonicus, qui in eadem ecclesia secun- dum dei timorem et canonicas sanctiones institutus esse dinoscitur, perpetuis ibidem temporibus inviolabiliter observetur. Preterea quascumque possessiones, quecumque bona prefata ecclesia impresentiarum iuste et canonice possidet aut in futurum con- cessione pontificum, largitione regum vel principum, oblatione fidelium seu aliis iustis modis prestante domino poterit adipisci, firma vobis vestrisque successoribus et illibata permaneant, in quibus hec propriis duximus exprimend[a nominib]us: locum ipsum, in quo ecclesia vestra sita est, cum areis, claustralibus et aliis pertinentiis suis, parrochiam in Bremensi civitate a domo Alberici et Dedenn [u]xoris eius versus ecclesiam vestram usque ad finem civitatis et in Udbremen et in Walle, quam prefa- tus archiepiscopus communi assensu capituli sui ecclesie vestre contulit auctor[i]tate prepositi vestri modis omnibus ordinandam excepto eo, quod in sinodalibus archi- diacono suo parrochiani tantum obedire tenentur, curtem Hamedese cum decimis et a[l]iis pertinentiis suis, curtem Baldinge cum pertinentiis suis, curtem Boken cum pertinentiis suis, curtem Rammingestorp cum pertinentiis suis, curtem de Dendorp cum decimis et aliis pertinentiis suis, curtem Wechlede cum ecclesia parrochiali et decimis et aliis suis pertinentiis, ecclesiam parrochialem in Estorp cum decimis et aliis pertinentiis, curtem in Winberge cum pertinentiis suis, capellam in Hamedese cum pertinentiis suis, curtem in Merdvelde cum capella et pertinentiis suis, curtem in Hiddestorp cum pertinentiis suis, in loco, qui dicitur Silva, distinctos mansos cum decima, curtem in Sete cum pertinentiis suis, duas curtes in Habenhusen cum deci- mis et aliis pertinentiis suis, curtem in Walle cum decimis et aliis pertinentiis suis ex dono predicti Alberonis Bremensis archiepiscopi, duos mansos Hollandienses et dimidium cum tota decima de Hemme, curtem in Wittenstide cum decimis et aliis pertinentiis suis, curtem in [We]dene cum advocatia et decimis et omnibus pertinentiis suis et ex dono comitis Hermanni quadraginta mansos in Mirica cum omni districto seculari. Prohibemus ad hec, ne prepositus ecclesie vestre possessiones quaslibet vel redditus ad capitulum pertinentes sine communi fratrum vel maioris et sanioris partis assensu infeodare vel aliquo alio titulo alienare presumat. Statuimus etiam, ut secun- dum antiquam institutionem et utriusque ecclesie consuetudinem vobis loca vestra in maioris capituli consessu et in choro maioris ecclesie serventur et fidelium oblationes iuxta pristine consuetudinis observantiam canonicam tribuantur, dummodo debita eidem ecclesie obsequia loco et congruo tempore impendatis. Libertates quoque et immunitates vobis et ecclesie vestre rationabiliter indultas et hactenus observatas, ratas perpetuis temporibus et illibatas manere censemus. Sepulturam preterea ipsius loci liberam esse decernimus, ut eorum devotioni et extreme voluntati, qui se illic sepeliri deliberaverint, nisi forte excommunicati vel interdicti sint, nullus obsistat salva tamen iusticia illarum ecclesiarum, a quibus mortuorum corpora assumuntur. Obeunte vero te, nunc eiusdem loci preposito, vel tuorum quolibet successorum, nullus ibi qualibet subreptionis astutia seu violentia preponatur, nisi quem fratres communi consensu vel fratrum pars consilii sanioris secundum deum providerint eligendum. Decernimus ergo, ut nulli omnino hominum fas sit prefatam ecclesiam temere perturbare aut eius possessiones auferre vel ablatas retinere, minuere seu qui- buslibet vexationibus fatigare, sed omnia integra conserventur eorum, pro quorum gubernatione ac sustentatione concessa sunt usibus omnimodis profutura, salva sedis apostolice auctoritate et diocesani episcopi canonica iustitia. Siqua igitur in futurum ecclesiastica secularisve persona hanc nostre constitutionis paginam sciens contra eam temere venire temptaverit, secundo tertiove commonita, nisi reatum suum digna sa- tisfactione correxerit, potestatis honorisque sui dignitate careat reamque se divino iudicio existere de perpetrata iniquitate cognoscat et a sacratissimo corpore ac sangu- ine dei et domini redemptoris Iesu Christi aliena fiat atque in extremo examine divi- ne ultioni subiaceat. Cunctis autem eidem loco sua iura servantibus sit pax domini nostri Iesu Christi, quatinus et hic fructum bone actionis percipiant et apud distric- tum iudicem premia eterne pacis inveniant. x x x Amen. Amen. Amen. x x x (R.) Ego Alexand[er catholice ecclesie episcopus] subscripsi (M.) † Ego Hubaldu[s Hostiensis] episcopus subscripsi. † Ego Theod[inus] Portuensis [et sancte Rufine] episcopus subscripsi. † Ego Pet[rus Tu]sculanus episcopus subscripsi. † Ego Henricus Alb[anensis episcopus] subscripsi. † Ego Berneredus Prenest[inus] episcopus subscripsi. † Ego Iohannes presbyter cardinalis sanctorum Iohannis et Pauli tituli Pamachii subscripsi. † Ego Iohannes presbyter cardinalis tituli sancte Anastasie subscripsi. † Ego Iohannes presbyter cardinalis tituli sancti Marci subscripsi. † Ego Petrus presbyter cardinalis tituli sancte Susanne subscripsi. † Ego Vivianus presbyter cardinalis tituli sancti Stephani in Celio monte subscripsi. † Ego Cinthyus presbyter cardinalis tituli sancte Cecilie subscripsi. † Ego Hugo presbyter cardinalis tituli sancti Clementis subscripsi. † Ego Ard[ui]nus presbyter cardinis tituli sancte Crucis in Ierusalem subscripsi. † Ego Matheus presbyter cardinalis tituli sancti Marcelli subscripsi. † Ego Iac(intus) diaconus cardinalis sancte Marie in Cosmidyn subscripsi. † Ego Ardicio diaconus cardinalis sancti Theodori subscripsi. † Ego Laborans diaconus cardinalis sancte Marie in Porticu subscripsi. † Ego Rainerius diaconus cardinalis sancti Georgii ad velum aureum subscripsi. † Ego Gratianus diaconus cardinalis sanctorum Cosme et Damiani subscripsi. † Ego Iohannes diaconus cardinalis sancti Angeli subscripsi. † Ego Rainerus diaconus cardinalis sancti Adriani subscripsi. † Ego Matheus sancte Marie [No]ve diaconus cardinalis subscripsi. † Ego Bernardus sancti Nicholai in carcere Tulliano diaconus cardinalis subscripsi. Dat. Laterani per manum Alberti [sancte Romane] ecclesie presbyteri cardinalis [et can- cellarii], IIII kl. iunii, indictione XII , incarnationis dominice [anno] MCLXXVIIII , pontificatus do[mni] x x x Alexandri x x x pape [ III .] anno XX .</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

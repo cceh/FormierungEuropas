@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="dolle"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt>
+              <resp when="2024">Encoding:</resp>
+              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+           </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>Dolle, Papsturkunden, S. 242–245, Nr. 115</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Dolle, Papsturkunden, S. 242–245, Nr. 115</bibl><bibl type="jaffe">13672</bibl>
+            <diploDesc>
+               <issued>
+                  <placeName>Tusculum</placeName>
+                  <date type="issued" notBefore="1180-07-01" notAfter="1180-07-01">1180 Juli 1</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Papst Alexander III . nimmt Kloster Mariental unter dem Abt Arnold in den apostolischen Schutz, bestätigt ihm die Regel des heiligen Benedikt, die Einführung der Zisterzienser- ordnung und den Besitz des Klosters, befreit es vom Zehnten für Neubrüche bei Eigenbau und für Tierfutter, gewährt das Aufnahmerecht, verbietet, das Kloster nach abgelegter Pro- fess zu verlassen, und sichert dem Klosterbezirk und den Grangien besonderen Frieden zu.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+         <div type="other">
+            <head>Echtheitskriterien: </head>
+            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
+         </div>
+         <div>
+            <head>Incipit:</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones:</head>
+            <diploPart type="subscriptio">
+               <list>
+                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+               </list>
+            </diploPart>
+         </div>
+         <div>
+            <head>Datatio:</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+             <head>Frühester Überlieferungsträger</head>
+            <div>
+            <listBibl>   
+               <bibl type="original">Ausfertigung: NLA -Wolfenbüttel, 22 Urk 9 ( A ). Pergament, italienisch, 49,7-51,6 × 58-59,2 (1,8-2). Rota wie Nr. 107. Bulle an rot-gelber Seidenkordel, wie Nr. 107. Rückvermerke (14. Jh.): Alexandri pape (andere Hand) Alexandri pape III de confirmatione bonorum .</bibl>
+               <bibl type="msCopy">Abschriften: NLA -Wolfenbüttel, VII B Hs 340 p. 14-19 ( B ), mit Datum pontficatus anno XX o I o . – NLA -Wolfenbüttel, VII B Hs 341 fol. 15 v -16 v ( C ), ohne Eschatokoll. – NLA -Wolfenbüttel, VII B Hs 342 fol. 51 r -51 v ( D ), ohne Eschatokoll. – NLA -Wolfenbüttel, VII B Hs 344 p. 15-18 ( E ). – GWLB Hannover, Ms XXIII 586 fol. 12 r -12 v ( F ), ohne Eschatokoll. – Göttingen, Pius-Stiftung für Papst- urkundenforschung, Nachlass Brackmann ( G ), Teilabschrift.</bibl>
+               <bibl type="print">Druck: Pflugk-Harttung, Acta I Nr. 307, mit Beschreibung der Ausfertigung.</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Dolle, Papsturkunden, S. 242–245, Nr. 115</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL 13672</bibl>
+               <bibl>Regesten: JL Nr. 13672. – GP V /2, VI S. 463 Nr. 5. – Meibom, Rerum germanicarum scriptores III S. 257. – Raumer, Regesta I Nr. 1468. – Lerche, Studien S. 68 Nr. 12. Abbildungen der Bleibulle: Diekamp, Urkundenwesen, zwischen S. 626 u. 627 Nr. 3 u. 20. – Aus 1200 Jahren S. 107 Abbildung 5 u. 6. – Serafini, Le monete I S. 27, Abb. H 10. – Schoknecht, Urkunde Papst Alexanders III . S. 380. – Fees / Roberg, Digitale Urkundenbilder IV Taf. 19. Beschreibung der Bleibulle: Marnetté-Kühl, Siegel S. 64 Nr. G 4. Abbildung: Lichtbildarchiv Marburg, Zugangsnummer 8064.</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Die Pontifikatsangabe ist um einen Zähler zu niedrig. a o b c d e f g h i k o o o o a i korrigiert aus e ( A ). b nachgetragen ( A ). c so statt Hermengardis ( A ). d zwischen e und r ein n radiert ( A ). e es folgt Rasur, 0,8 cm ( A ). f davor Rasur, 0,6 cm ( A ). g es folgt Rasur, 0,8 cm ( A ). h licentiam ( A ). i so ( A ). k unleserlich ( A ).</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Weitere Referenzen als listBibl]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>x x x Alexander episcopus servus servorum dei dilectis filiis Arnoldo abbati monasterii Vallis sancte Marie eiusque fratribus tam presentibus quam futuris regularem vitam professis in perpetuum. x x x Religiosam vitam eligentibus apostolicum convenit adesse presidium, ne forte cuiuslibet temeritatis incursus aut eos a proposito revocet aut robur, quod absit, sacre religionis infringat. Eapropter, dilecti in domino filii, vestris iustis postulationibus clementer annuimus et prefatum monasterium, in quo divino mancipati estis obsequio, sub beati Petri et nostra protectione suscipimus et presentis scripti privilegio communimus in primis siquidem statuentes, ut ordo monasticus, qui secundum deum et beati Benedicti regulam atque institutionem Cisterciensium fratrum in eodem loco institutus esse dinoscitur, perpetuis ibidem temporibus invio- labiliter observetur. Preterea quascumque possessiones, quecumque bona idem mo- nasterium inpresentiarum iuste et canonice possidet aut in futurum concessione pontificum, largitione regum vel principum, oblatione fidelium seu aliis iustis modis prestante domino poterit adipisci, firma vobis vestrisque successoribus et illibata permaneant, in quibus hec propriis duximus exprimenda vocabulis: locum ipsum, Vallem scilicet sancte Marie, a bone memorie Friderico palatino comite filioque eius Alberto vobis pia liberalitate concessum cum curte, que dicitur Dechellekestorp, et viginti mansis, pratis, pascuis, nemoribus et decimis ad ipsos pertinentibus, agrum etiam, qui dicitur Rodevelt, cum appenditiis suis, pascuis videlicet, pratis ac nemo- ribus, ex dono Luchardis comitisse curtem Liudestorp cum suis appenditiis et deci- mis, quas obtulit nobilis vir Otto de Harthike, silvam, que dicitur Lapwalt, cuius primam partem Luchardis comitissa, Agnes comitissa secundam, comes Lu dewicus et uxor eius Oda tertiam, Adheleidis comitissa optulit quartam, tres mansos Manen- dorp, quos Liuthardus de Meinnersen pro anima Hermergardis comitisse contulit cum pascuis et nemoribus ad ipsos pertinentibus, ex dono Beatricis uxoris Frederici de Osterwalde quatuor mansos in Ordorp, ex dono Volradi comitis duos mansos, ex dono Hermanni de Gravenstide in Honstide tres mansos, ex dono Hillebrandi duos mansos in Umbergen, ex dono nobilis viri Henrici ducis Bawarie atque Saxonie cur- tem Bardenbike cum agris, pratis, pascuis et silvis ad ipsam pertinentibus, pro anima Hermanni de Holdestide unum mansum in Kerspensrode, ex dono Walberti in parvo Germerslove dimidium mansum, mansum unum in Druchtesberge pro anima Alradi de Sumerstorp, ex dono Herci de Gaterslove mansum unum in Wininge, in Mamen- dorp undecim mansos a bone memorie Frederico palatino partim venditione, partim dono collatos, cum quodam molendino, dimidium mansum in Homerslove ex dono Friderici palatini et dimidium ex dono Friderici castellani, octo mansos et dimidium in Ekenbardenlove pro anima Alberti palatini comitis, in Eileslove aream unam sol- ventem sex denarios, curtem Cowelle cum quindecim mansis et decimis et nemore, ex dono Luchardis comitisse curtem Brandeslove cum agris, pascuis et nemoribus et tertiam partem decime ad ipsam pertinentibus, item ibidem nemus ex dono nobilis viri Alberti comitis de Hosterberge, ex dono Theoderici Galli dimidium mansum in Svanesberge, qui commutabatur pro nemore, mansum unum nobilis viri Conradi in magno Brandeslove, item ex dono eiusdem dimidium mansum et duos mansos ac dimidium ex dono nobilis mulieris Gerthrudis de Amverdelove, ex dono Gardolfi Memeringe unum mansum, in Andeslove sex mansos emptos a domina Gerthrude et filiis eius , in parvo Offenlove mansum unum pro anima Friderici, ex dono venera- bilis fratris nostri Oldelrici Alverstadensis episcopi petente nobili viro Notungo de Gaterslove curtem Esekenrod cum villa Biscoperod cum omnibus appenditiis suis, pascuis videlicet, pratis et aquis et molendinis et advocatia et silva, que dicitur Lobike, et campo, qui vocatur Gelecapt, cum aliis pertinentiis suis. Sane laborum vestrorum, quos in terris cultis quam incultis propriis manibus vel sumptibus colitis, sive de nutrimentis animalium vestrorum nullus a vobis decimas presumat exigere. Preterea liceat vobis clericos vel laicos e seculo fugientes liberos et absolutos ad conversionem vestram recipere et eos sine contradictione aliqua retinere. Prohibemus insuper, ut nulli fratrum vestrorum post factam in eodem loco professionem sine abbatis sui licentia fas sit ab eodem loco discedere, discedentem vero absque communium lit- terarum cautione nullus audeat retinere. Paci quoque et tranquillitati vestre paterna sollicitudine providere volentes auctoritate apostolica prohibemus, ut infra clausuras loci seu grangiarum vestrarum nullus violentiam vel rapinam sive furtum aut ignem apponere seu hominem capere vel interficere audeat. Decernimus ergo, ut nulli omnino hominum liceat monasterium vestrum temere perturbare aut eius posses- siones aufferre vel ablatas retinere, minuere seu quibuslibet vexationibus fatigare, sed omnia integra conserventur eorum, pro quorum gubernatione ac sustentatione con- cessa sunt usibus omnimodis profutura, salva sedis apostolice auctoritate. Siqua igitur in futurum ecclesiastica secularisve persona hanc nostre constitutionis paginam sciens contra eam temere venire temptaverit, secundo tertiove commonita, nisi reatum suum digna satisfactione correxerit, potestatis honorisque sui dignitate careat reamque se divino iudicio existere de perpetrata iniquitate cognoscat et a sacratissimo corpore et sanguine dei et domini redemptoris nostri Iesu Christi aliena fiat atque in extremo examine divine ultioni subiaceat. Cunctis autem eidem loco sua iura servantibus sit pax domini nostri Iesu Christi, quatinus et hic fructum bone actionis percipiant et apud districtum iudicem premia eterne pacis inveniant. x x x Amen. Amen. Amen. x x x (R.) Ego Alexander catholice ecclesie episcopus subscripsi (M.). † Ego Hubaldus Hostiensis et Vellitrensis episcopus subscripsi. † Ego Theodinus Portuensis et sancte Rufine sedis episcopus subscripsi. † Ego Cynthius presbyter cardinalis tituli sancte Cecilie subscripsi. † Ego Hugo presbyter cardinalis tituli sancti Clementis subscripsi. † Ego Laborans presbyter cardinalis sancte Marie trans Tiberim tituli Calixti subscripsi. † Ego Iacintus diaconus cardinalis sancte Marie in Cosmidyn subscripsi. † Ego Gratianus diaconus cardinalis sanctorum Cosme et Damiani subscripsi. † Ego Iohannes diaconus cardinalis sancti Angeli subscripsi. † Ego Matheus sancte Marie Nove diaconus cardinalis subscripsi. Dat. Tusculani per manum Alberti sancte Romane ecclesie presbyteri cardinalis et cancellarii, kl. [iulii, indictione XIII , incarnationis dominice] anno M . C . LXXX ., pontificatus vero domni Alexandri pape III anno XX .</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

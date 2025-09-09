@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="schoenfeld"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt>
+              <resp when="2024">Encoding:</resp>
+              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+           </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>Schönfeld, Urkunden der Gegenpäpste, S. 247–248, Nr. A74</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 247–248, Nr. A74</bibl><bibl type="jaffe">8422</bibl>
+            <diploDesc>
+               <issued>
+                  <placeName>Priverno</placeName>
+                  <date type="issued" notBefore="1131-09-14" notAfter="1131-09-14">1131, September 14</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Anaklet II . erhebt die Kirche von Lipari zum Bistum und unterstellt dieses als Suffragan dem Erzbischof von Messina.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+         <div type="other">
+            <head>Echtheitskriterien: </head>
+            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
+         </div>
+         <div>
+            <head>Incipit:</head>
+            <diploPart type="incipit" xml:lang="lat">Sedis apostolicę moderatio</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones:</head>
+            <diploPart type="subscriptio">
+               <list><item>Rota-Inschrift: Rota-Inschrift: sanctus Petrus / sanctus Paulus / Ana papa / cletus II</item><item>Rota-Devise: Rota-Devise: dominus fortitudo plebis suę</item><item>Bene Valete: x</item><item>Komma: –</item><item>Subskriptionen: –</item></list><list>
+                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+               </list>
+            </diploPart>
+         </div>
+         <div>
+            <head>Datatio:</head>
+            <diploPart type="datatio">Datum Priverni per manus Saxonis sanctę Romanę ęcclesię presbiter cardinalis et cancellarii, XVIII kalendis octobris indictione VIIII , incarnationis dominice anno MCXXXI , pontificatus autem domni Anacleti secundi papę anno secundo.</diploPart>
+         </div>
+         <div type="msSources">
+             <head>Frühester Überlieferungsträger</head>
+            <div>
+            <listBibl>   
+               <bibl type="original">Original, Patti, Arch. cap., de fundationibus Vol. I, fol. 116 [vgl. IP ];</bibl>
+               <bibl type="msCopy">[handschriftliche Kopie]</bibl>
+               <bibl type="print">[Druck]</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 247–248, Nr. A74</bibl>
+               <bibl>Pirri: Sicilia sacra, Bd. I, S. 387 f.; Migne: PL 179, Sp. 722, Nr. 46; Amico: I diplomi, S. 5, Nr. 4;</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL 8422</bibl>
+               <bibl>JL 8422; IP X, S. 357, Nr. 4; Collura: Appendice, S. 575, Nr. 40; Palumbo: Lo scisma, S. 673, Nr. 57; Kamp: Urkunden, S. 15, Nr. 24; Krafft: Bene Valete, S. 243; Abb. dig.: PH Patti, Arch. cap.; dig. Pause Goe.</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>[Inhalt des Sachkommentars. Bibliographische Referenzen werden als Bibliographische Angabe getagged.]</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Weitere Referenzen als listBibl]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>T ext (Transkription d. Verf.): Anacletus episcopus servus servorum dei. Dilectis in domino filiis in Liparitano cenobio regulariter domino servientibus ac servituris in perpetuum. Sedis apostolicę moderatio, quam licet indigni deo disponente suscepimus, nos invitat, quatenus pro varietate temporum diversas quoque res metiri debeamus. Lipparitanum siquidem monasterium unum fuisse hactenus ex maioribus Sycilię monasteriis et ad Romanę ęcclesię ius pertinere dinoscitur. Crescente igitur gloriosi filii nostri regis Rogerii gloria, quam sibi suisque filiis sedis apostolicę liberalitas tradidit, dignum satis ac iustum est, ut eiusdem regni ęcclesię nostris quoque temporibus augmtentur (!) . Decernimus igitur et fratrum nostrorum episcoporum et cardinalium consilio hoc presenti decreto statuimus, ut iam dictum Lipparitanum cenobium episcopalem deinceps optineat dignitatem et proprium habere mereatur antistitem, qui per manus venerabilis fratris nostri Messanensis archiepiscopi misteria consecrationis accipiat et Messanensi ęcclesię tam ipse quam successores illius tamquam suę metropoli debeat perpetuo subiacere, salvis tamen in omnibus concessionibus ac privilegiis glorioso filio nostro regi Rogerio suisque heredibus a Romana ęcclesia traditis. Si qua igitur in futurum ęcclesiastica secularisve persona, hanc nostrę constitutionis paginam sciens, contra eam temere venire temptaverit, secundo tertiove commonita, si non satisfactione congrua emendaverit, potestatis honorisve sui dignitatę careat reamque se divino iudicio existere de perpetrata iniquitate cognoscat atque in extremo examine districtę ultioni subiaceat. Cunctis autem hec iusta servantibus sit pax domini nostri Ihesu Christi […] et hic fructum bonę actionis percipiant et apud districtum iudicem premia ęternę pacis inveniant. Amen, Amen, Amen.</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

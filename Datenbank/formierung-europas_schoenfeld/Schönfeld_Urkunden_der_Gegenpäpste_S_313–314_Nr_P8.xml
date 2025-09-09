@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="schoenfeld"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt>
+              <resp when="2024">Encoding:</resp>
+              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+           </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>Schönfeld, Urkunden der Gegenpäpste, S. 313–314, Nr. P8</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 313–314, Nr. P8</bibl><bibl type="jaffe">14488</bibl>
+            <diploDesc>
+               <issued>
+                  <placeName>Viterbo</placeName>
+                  <date type="issued" notBefore="1166-11-18" notAfter="1166-11-18">1166, November 18</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Paschalis III . bestätigt Abt Gregor des Klosters Hornbach die Entscheidung in der Streitsache mit Anselm von Ringelste bezüglich des Kirchenbodens in Walsheim.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+         <div type="other">
+            <head>Echtheitskriterien: </head>
+            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
+         </div>
+         <div>
+            <head>Incipit:</head>
+            <diploPart type="incipit" xml:lang="lat">Iustum ac rationabile</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones:</head>
+            <diploPart type="subscriptio">
+               <list><item>Rota-Inschrift: Rota-Inschrift: sanctus Petrus / sanctus Paulus / Pas papa / calis III</item><item>Rota-Devise: Rota-Devise: Adiutor meus esto domine, ne derelinquas me</item><item>Bene Valete: x</item><item>Komma: –</item><item>Subskriptionen: –</item></list><list>
+                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+               </list>
+            </diploPart>
+         </div>
+         <div>
+            <head>Datatio:</head>
+            <diploPart type="datatio">Datum Viterbii per manum Iohannis sanctę Romane ecclesię presbiteri cardinalis et cancellarii, XIIII kalendas decembris indictione XV incarnationis dominice anno MCLXVII , pontificatus vero dompni Pascalis pape III anno III .</diploPart>
+         </div>
+         <div type="msSources">
+             <head>Frühester Überlieferungsträger</head>
+            <div>
+            <listBibl>   
+               <bibl type="original">Original, München, Bayerisches HS tA;</bibl>
+               <bibl type="msCopy">[handschriftliche Kopie]</bibl>
+               <bibl type="print">[Druck]</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 313–314, Nr. P8</bibl>
+               <bibl>Pflugk-Harttung: Acta, Bd. II , S. 381, Nr. 433;</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL 14488</bibl>
+               <bibl>Palumbo: Lo scisma, S. 658, Nr. 23.</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>[Inhalt des Sachkommentars. Bibliographische Referenzen werden als Bibliographische Angabe getagged.]</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Weitere Referenzen als listBibl]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>Text (Transkription d. Verf.): Pascalis episcopus servus servorum dei. Dilecto in Christo filio Gregorio Horembacensi abbati eiusque successoribus canonice substituendis in perpetuum. Iustum ac rationabile est, ut ea, quę a venerabilibus fratribus nostris episcopis auctoritate sedis apostolicę terminantur, in sua stabilitate firma permaneant et, ne aliquorum temeritate in posterum violentur, robur perpetue firmitatis auctoritate eiusdem sedis convenit obtinere. Eapropter, dilecte in domino fili abbas, tuis iustis postulationibus, quas nobis per dilectum filium nostrum Sigifridum sacerdotem tuum porrexisti, grato concurrentes assensu sententiam super controversia fundi ecclesię de Wazehiheim inter te et Anselmum de Ringelste exorta a venerabili fratri nostro Illino Treverorum archiepiscopo rationabiliter prolatam, cuius controversię decisionem a sede apostolica absque remedio appellationis idem frater noster archiepiscopus et prefate sedis legatus suscepit terminandam, devotioni tue auctoritate apostolica confirmamus et fundum prenominate ecclesię, quem tibi et ecclesię tuę per eiusdem fratris nostri sententiam constat adiudicatum, tibi tuisque successoribus presentis scripti privilegio communimus. Statuentes, ut nulli omnino hominum de cetero liceat hanc nostrę confirmationis paginam infringere aut te et tuos successores super investitura fundi prefatę ecclesię de Wazehiheim inquietare, sed in tua tuorumque successorum potestate investitura fundi ipsius ecclesię libera consist[at] et, cui ipsum fundum, obeunte prenominato Sigifrido sacerdote, qui eum per te in presentiarum noscitur tenere, volueris concedere, canonice tu et [ tui ] successores concedatis. Si qua igitur in futurum ecclesiastica secularisve persona, hanc nostre constitutionis pa [ gi ] nam sciens, contra eam temere venire temptaverit, secundo tertiov [ e comm ] onita, nisi presumtionem suam congrua [ sat ] isfactione correxerit, potestatis honorisque sui dignitate careat reamque se divino [ iudi ] cio existere de perpetrata iniqu [ itate ] cognoscat et a sacratissimo corpore [ et san ] guine dei et domini redemptoris nostri Ihesu Christi ali [ ena ] fiat atque in extremo examine districte ultioni subiaceat. Cunctis autem eam servantibus sit pax domini nostri Ihesu Christi, quatinus et hic fructum bone actionis pe [ rci ] piant et apud districtum iudicem premia eternę pacis inveniant. Amen, Amen, Amen.</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

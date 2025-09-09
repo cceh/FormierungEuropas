@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="schoenfeld"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt>
+              <resp when="2024">Encoding:</resp>
+              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+           </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>Schönfeld, Urkunden der Gegenpäpste, S. 299–301, Nr. V85</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 299–301, Nr. V85</bibl><bibl type="jaffe">14476</bibl>
+            <diploDesc>
+               <issued>
+                  <placeName>Metz</placeName>
+                  <date type="issued" notBefore="1162-10-27" notAfter="1162-10-27">(1162), Oktober 27</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Viktor IV . stellt auf Bitten der Äbtissin Agnes von S. Glossinde in Metz S. Thiébaut in Metz unter seinen Schutz und bestätigt sowohl sämtliche Besitzungen als auch die Rechte der Nonnen von S. Glossinde über S. Thiébaut.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+         <div type="other">
+            <head>Echtheitskriterien: </head>
+            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
+         </div>
+         <div>
+            <head>Incipit:</head>
+            <diploPart type="incipit" xml:lang="lat">Ad hoc auctore</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones:</head>
+            <diploPart type="subscriptio">
+               <list><item>Rota-Inschrift: Rota-Inschrift: sanctus Petrus / sanctus Paulus / Vic papa / tor IIII</item><item>Rota-Devise: Rota-Devise: Tu es gloria mea tu es susceptor meus tu exaltas caput meum domine</item><item>Bene Valete: x</item><item>Komma: –</item><item>Subskriptionen: –</item></list><list>
+                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+               </list>
+            </diploPart>
+         </div>
+         <div>
+            <head>Datatio:</head>
+            <diploPart type="datatio">Datum Metis per manum Iohannis sanctę Romane ęcclesię presbiteri cardinalis et cancellarii, VI kalendas novembris indictione XI , incarnationis dominicę anno MCLXIII , pontificatus vero domini Victoris pape IIII anno IIII .</diploPart>
+         </div>
+         <div type="msSources">
+             <head>Frühester Überlieferungsträger</head>
+            <div>
+            <listBibl>   
+               <bibl type="original">Original, Metz, Arch. départ. de la Moselle, G 1791;</bibl>
+               <bibl type="msCopy">[handschriftliche Kopie]</bibl>
+               <bibl type="print">[Druck]</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 299–301, Nr. V85</bibl>
+               <bibl>François: Histoire générale de Metz, Bd. III , S. 128;</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL 14476</bibl>
+               <bibl>Palumbo: Lo scisma, S. 654, Nr. 11; vgl. RI IV ,1,1, Nr. 232 u. Nr. 234.</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Mayr, dem hier gefolgt wurde, datierte gegen Jaffé und François (beide 1163, Oktober 27) auf 1162.</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Weitere Referenzen als listBibl]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>Text (Transkription d. Verf.): Victor episcopus servus servorum dei. Dilectis in Christo filiabus Agneti abbatisse sancte Glodesindis suisque sororibus tam futuris quam presentibus regulariter viventibus in perpetuum. Ad hoc, auctore domino, cunctarum regimen et sollicitudinem gerimus ęcclesiarum, ut et prisca ipsarum iura seu constitutiones providentię nostrę studiis firmę serventur et ea, que a fundatoribus de novo constituuntur, apostolicę auctoritatis privilegio muniantur. Eapropter, dilecta in Christo filia sancte Glodesindis abbatissa, tuis iustis postulationibus clementer annuimus et preposituram sancti Teobaldi, que in fundo ęcclesię sanctę Glodesindis nostris temporibus noscitur ordinata, sub beati Petri et nostra protectione suscipimus et presentis scripti patrocinio communimus. Statuentes, ut, quascumque possessiones, quecumque bona in presentiarum iuste et canonice possidet aut in futurum largitate regum concessione pontificum, oblatione fidelium seu aliis iustis modis, prestante domino, poterit adipisci, firma ei et illibata permaneant, eorum, quorum collata sunt, usibus perpetuo profutura. Ad maiorem autem tuę iusticie stabilitatem aureum unum, quem ipsius prepositurę fratres tibi tuisque sororibus sub annuo censu perpetuis temporibus exsolvendum constituerunt, ęcclesię sanctę Glodesindis in perpetuum confirmamus. Adicientes, ut canonici illius prepositurę, adiuncto sibi tuo et post te succedentium abbatissarum consilio, liberam elegendi prepositum habeant facultatem, ita sane, ut electus hoc modo prepositus a te abbatissa vel a succedentibus tibi, si quidem dignus fuerit, recipiat semper investituram. Si vero tuo rationabili iudicio visus fuerit omnino indignus, facultatem habeas investiturę manum subtrahere et electionem factam cassare salva nimirum sedis apostolicę auctoritate et diocesani episcopi canonica iusticia. Decernimus ergo, ut nulli omnino hominum liceat prefatam ecclesiam sancti Teobaldi temere perturbare aut eius possessiones auferre seu ablatas retinere, minuere aut aliquibus vexationibus fatigare liceat, sed omnia prefatis canonicis eorumque successoribus integra conserventur. Si qua igitur in futurum ecclesiastica secularisve persona, hanc nostrę constitutionis paginam sciens, contra eam temere venire temptaverit, secundo terciove commonita, si non satisfactione congrua emendaverit, potestatis honorisque sui dignitate careat reamque se divino iudicio de perpetrata iniquitate cognoscat et a sacratissimo corpore et sanguine dei et domini redemptoris nostri Ihesu Christi aliena fiat. Cunctis autem iusta servantibus sit pax domini nostri Ihesu Christi, quatinus et hic fructum bone operationis percipiant et apud districtum iudicem premia eternę pacis inveniant. Amen.</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>
