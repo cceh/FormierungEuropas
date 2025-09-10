@@ -16,7 +16,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl type="jaffe">-</bibl>
-            <diploDesc><issued><placeName>-</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1177-03-31" precision="high" unit="cm" xml:space="default" notBefore="1177-03-01" type="issued">(1177 März)</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+            <diploDesc><issued><placeName>Canterbury</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1177-03-31" precision="high" unit="cm" xml:space="default" notBefore="1177-03-01" type="issued">(1177 März)</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Richard, Erzbischof von Canterbury</legalActor></p>
                <p> <legalActor cert="high" type="beneficiary" xml:space="default">Robert, Bischof von Hereford [Unterscheiden zwischen Empfänger allgemein und Begünstigter]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
