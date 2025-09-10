@@ -15,7 +15,7 @@
                <licence>Lizenz</licence>
             </availability>
          </publicationStmt>
-         <sourceDesc><bibl type="jaffe">-</bibl><diploDesc><issued><placeName>(Canterbury)</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" unit="cm" xml:space="default" notAfter="1177-03-19" notBefore="1177-03-01" type="issued">(1177, vermutlich März 1177)</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+         <sourceDesc><bibl type="jaffe">-</bibl><diploDesc><issued><placeName>(Canterbury)</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" unit="cm" xml:space="default" notAfter="1177-03-19" notBefore="1177-03-01" type="issued">(März 1177, vermutlich vor März 20)</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued><p><legalActor type="issuer">Richard, Erzbischof von Canterbury</legalActor></p><p><legalActor cert="high" type="beneficiary" xml:space="default">Robert, Bischof von Hereford</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType n="">Urkunde eines nichtpäpstlichen Ausstellers</objectType></p><!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! --><p><objectType n="">Urkunde eines delegierten Richters</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc></sourceDesc>
       </fileDesc>
