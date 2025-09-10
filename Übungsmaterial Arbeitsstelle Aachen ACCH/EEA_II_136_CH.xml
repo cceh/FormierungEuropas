@@ -20,7 +20,7 @@
                </issued>
                <p><legalActor type="issuer">Richard, Erzbischof von Canterbury</legalActor></p>
                <p> <legalActor cert="high" type="beneficiary" xml:space="default">Robert, Bischof von Hereford [Unterscheiden zwischen Empfänger allgemein und Begünstigter]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">Urkunde eines nicht-päpstlichen Ausstellers [in zusätzliches Feld: Bezug zu Alexander III.]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">Urkunde eines nicht-päpstlichen Ausstellers [in zusätzliches Feld/Subkategorie: Bezug zu Alexander III.]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
                <p><objectType n="">Urkunde eines delegierten Richters</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
