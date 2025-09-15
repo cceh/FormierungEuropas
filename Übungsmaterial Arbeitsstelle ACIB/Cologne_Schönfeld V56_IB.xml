@@ -28,8 +28,8 @@
    </teiHeader>
    <text>
       <body>
-         <div type="abstract"><head>Abstract:</head><p>xxx<list><item>xxx </item><item>Wiederherstellung der unter Anwesenheit des apostolischen Legaten und Erzbischofs von Wien zuvor dem Bistum Genf zugeschlagenen königlichen und sonstigen Güter.</item><item>Einhaltung des vom Erzbischof von Wien über ihn und seine Ländereien verhängten Interdikts.</item></list></p></div>
-         <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
+         <div type="abstract"><head>Abstract:</head><p>xxx<list><item>xxx</item></list></p></div>
+         <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="na"><p>[-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Quoniam sedis apostolice gubernacula divina]</diploPart></div>
          <div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>-</item></list></diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio"><diploPart>Datum Vercellis, kalendas aprilis.</diploPart></diploPart></div>
