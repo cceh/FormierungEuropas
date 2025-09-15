@@ -28,9 +28,7 @@
    </teiHeader>
    <text>
       <body>
-         <div type="abstract"><head>Abstract:</head>
-            <p>[Viktor IV. informiert Arduinius, Bischof von Genf, den Klerus und die Gläubigen der Stadt über seine Strafandrohungen gegenüber Amadeus, Graf von Genf, gegen den der Bischof Beschwerde geführt hatte. Darin fordere Viktor IV. den Grafen auf zur:Regestentext kann diploParts mit Sprachangabe enthalten.]<list><item> </item><item>Einstellung der Belästigungen des Genfer Bistums</item><item>Wiederherstellung der unter Anwesenheit des Erzbischofs von Wien, dem apostolischen Legaten zuvor dem Bistum Genf zugeschlagenen königlichen und sonstigen Güter</item></list></p>
-         </div>
+         <div type="abstract"><head>Abstract:</head><p>Viktor IV. informiert Arduinius, Bischof von Genf, den Klerus und die Gläubigen der Stadt über seine Strafandrohungen gegenüber Amadeus, Graf von Genf, gegen den der Bischof Beschwerde geführt hatte. Darin fordere Viktor IV. den Grafen auf zur:Regestentext kann diploParts mit Sprachangabe enthalten.]<list><item>Einstellung der Belästigungen des Genfer Bistums </item><item>Wiederherstellung der unter Anwesenheit des Erzbischofs von Wien, dem apostolischen Legaten zuvor dem Bistum Genf zugeschlagenen königlichen und sonstigen Güter</item></list></p></div>
          <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Quoniam sedis apostolice gubernacula divina]</diploPart></div>
          <div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item></list></diploPart></div>
