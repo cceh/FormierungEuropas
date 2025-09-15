@@ -30,7 +30,7 @@
       <body>
          <div type="abstract"><head>Abstract:</head><p>xxx<list><item>xxx</item></list></p></div>
          <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="na"><p>[-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Sicut ad vestre nobilitatis notitiam]</diploPart></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Sicut ad vestre nobilitatis notitiam</diploPart></div>
          <div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>-</item></list></diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio"><diploPart>Datum Cremone, XV kalendas decembris.</diploPart></diploPart></div>
          <div type="msSources"><head>Frühester Überlieferungsträger</head><div>
