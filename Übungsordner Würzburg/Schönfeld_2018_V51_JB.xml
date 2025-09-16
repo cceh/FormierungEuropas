@@ -15,7 +15,7 @@
                <licence>Lizenz</licence>
             </availability>
          </publicationStmt>
-         <sourceDesc><bibl type="jaffe">14452</bibl><diploDesc><issued><placeName>Lodi</placeName><date type="issued">(1161, Juni 26)</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+         <sourceDesc><bibl type="jaffe">14452</bibl><diploDesc><issued><placeName>Lodi</placeName><date type="issued">(1161), Juni 26</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Papst Viktor IV.</legalActor></p>
                <p> <legalActor type="recipient">Balduin, Abt des Klosters Liesborn</legalActor></p><p><legalActor>Gunther, Propst von Lippoldsberg</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
