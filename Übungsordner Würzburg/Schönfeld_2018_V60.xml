@@ -18,7 +18,7 @@
          <sourceDesc>
             <bibl type="jaffe">-</bibl>
             <diploDesc><issued><placeName>Cremona</placeName><date type="issued">(1162), März 21</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
-               </issued><p><legalActor type="issuer">Papst Viktor IV.</legalActor></p><p><legalActor type="recipient">Propst Hentzelin und Kapitel des Stifts Marbach</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType n="">[Typisierung 1]</objectType></p><!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! --><p><objectType n="">[Typisierung 2]</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+               </issued><p><legalActor type="issuer">Papst Viktor IV.</legalActor></p><p><legalActor type="recipient">Propst Hentzelin und Kapitel des Stifts Marbach</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType n="">Mandat</objectType></p><!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! --><p><objectType n="">direkte persönliche Einwirkung</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
@@ -32,7 +32,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Papst Viktor IV. ruft Hentzelin, Propst von Marbach, zum Schutz und zur Wache über die Kirche, die ihm anvertrauten Brüder und die Nonnen von Schönensteinbach auf.
+            <p>Papst Viktor IV. ruft Hentzelin, Propst des Regularvon Marbach, zum Schutz und zur Wache über die Kirche, die ihm anvertrauten Brüder und die Nonnen von Schönensteinbach auf.
             <list>
                <item>[Listeneintrag 1]</item>
             </list></p>
