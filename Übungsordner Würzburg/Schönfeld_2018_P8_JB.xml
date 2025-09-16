@@ -34,10 +34,10 @@
          <div type="abstract"><head>Abstract:</head>
             <p>Papst Paschalis III. bestätigt das Urteil im Streit zwischen Gregor, Abt des Benediktinerklosters Hornbach (D. Metz), und Anselm von Ringelste über ein Grundstück der Kirche von Walsheim, das Hillin, Erzbischof von Trier und päpstlicher Legat, ohne Berufung an den apostolischen Stuhl entschieden hat. Er setzt außerdem fest,
             <list>
-               <item>dass der Besitz des obengenannten Grundstücks zukünftig bei den Äbten von Hornbach verbleibt, und die Rechte daran auch nach dem Tod des Priesters Siegfried nicht in Frage gestellt .</item><item> Schlussformeln: Perturbationsformel, Sanctio negativa und positiva.</item>
+               <item>dass der Besitz des obengenannten Grundstücks zukünftig bei den Äbten von Hornbach verbleibt, und die Rechte daran auch nach dem Tod des Priesters Siegfried nicht in Frage gestellt werden dürfen.</item><item> Schlussformeln: Perturbationsformel, Sanctio negativa und positiva.</item>
             </list></p>
          </div>
-         <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
+         <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="na"><p>[-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
          <div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item></list></diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart></div>
