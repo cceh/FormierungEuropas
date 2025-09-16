@@ -75,7 +75,7 @@
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>[Regest 1]</bibl>
+               <bibl>[JL 1Regest 1]</bibl>
                <bibl>[Regest 2]</bibl>
             </listBibl>
          </div>
@@ -94,7 +94,7 @@
             <bibl>[Weitere Referenzen als listBibl]</bibl>
          </listBibl>
          </div>
-         <div type="note"><head>Notizen</head><p>Feld "Einwirkungsgrad" bzw. "Beziehung zum Schisma" fehlt</p></div>
+         <div type="note"><head>Notizen</head><p/><p>Feld "Einwirkungsgrad" bzw. "Beziehung zum Schisma" fehlt</p><p>Wo vermerken wir die jeweilige Diözese?</p></div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
    </text>
