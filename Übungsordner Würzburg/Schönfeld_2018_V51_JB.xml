@@ -54,23 +54,20 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
-               <bibl>[Quelle 2]</bibl>
+               <bibl>-</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="editions">
             <head>Editionen</head>
-            <listBibl>
-               <bibl>Colección Diplomática Medieval de la Orden de Alcántara (1157?–1494). 2 Bde., hrsg. von Bonifacio Palacios Martín, Madrid 2000, Nr. 13, S. 6-8.</bibl>
-               <bibl>[Edition 2]</bibl>
-            </listBibl>
+            <listBibl><bibl>Colección Diplomática Medieval de la Orden de Alcántara (1157?–1494). 2 Bde., hrsg. von Bonifacio Palacios Martín, Madrid 2000, Nr. 13, S. 6-8.</bibl><bibl>[Edition 2]</bibl></listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
