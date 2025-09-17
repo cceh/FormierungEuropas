@@ -73,7 +73,7 @@
             <head>Editionen</head>
             <listBibl>
                <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 303-304, V88.</bibl>
-               <bibl>Jaffé, Bibliotheca rerum Germanicarum V, S. 533, Nr. 36.</bibl>
+               <bibl>Jaffé, Bibliotheca rerum Germanicarum V, S. 533, Nr. 36.</bibl><bibl>Abb. dig.: PH LBA, Nr. 9699.</bibl>
             </listBibl>
          </div>
          <div type="regesta">
@@ -98,7 +98,7 @@
             <bibl>[Weitere Referenzen als listBibl]</bibl>
          </listBibl>
          </div>
-         <div type="note"><head>Notizen</head><p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p></div>
+         <div type="note"><head>Notizen</head><p>In welchem Feld geben wir das Digitalisat zur Urkunde an?</p><p>Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p></div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
    </text>
