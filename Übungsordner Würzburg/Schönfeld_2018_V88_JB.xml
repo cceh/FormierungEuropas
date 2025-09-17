@@ -37,12 +37,12 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>[Viktor IV. ruft alle Kirchendes Bistums Bamberg zu Sammlungen auf, um ihn zu unterstützenRegestentext kann diploParts mit Sprachangabe enthalten.]
+            <p>Papst Viktor IV. ruft alle Kirchen des Bistums Bamberg zu Sammlungen auf, um ihn zu unterstützenmit Sprachangabe enthalten.]
             <list>
                <item>[Listeneintrag 1]</item>
             </list></p>
          </div>
-         <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
+         <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="na"><p>[-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Mater et caput omnium ecclesiarum</diploPart></div>
          <div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item></list></diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart></div>
