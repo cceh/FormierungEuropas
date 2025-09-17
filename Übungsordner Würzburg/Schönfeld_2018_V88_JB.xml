@@ -7,7 +7,7 @@
          <titleStmt>
             <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
             <respStmt><resp>Datenquelle</resp><persName>Schönfeld, Urkunden der Gegenpäpste, S. 303-304, V88</persName></respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>[Julia Becker</persName></respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>Julia Becker</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -16,9 +16,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl type="jaffe">[Jaffe-Nummer]</bibl>
-            <diploDesc>
-               <issued><placeName>[Ausstellungsort]</placeName><date type="issued">[Ausstellungsdatum]</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+            <bibl type="jaffe">14477</bibl><diploDesc><issued><placeName>Trier</placeName><date type="issued">[Ausstellungsdatum]</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">[Issuer]</legalActor></p>
                <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
