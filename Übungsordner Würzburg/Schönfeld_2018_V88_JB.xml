@@ -19,8 +19,8 @@
             <bibl type="jaffe">14477</bibl><diploDesc><issued><placeName>Trier</placeName><date type="issued">(1162), November 4</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Papst Viktor IV.</legalActor></p>
-               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><legalActor type="recipient">alle Kirchen des Bistums Bamberg</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Papsturkunde</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
                <p><objectType n="">[Typisierung 2]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
