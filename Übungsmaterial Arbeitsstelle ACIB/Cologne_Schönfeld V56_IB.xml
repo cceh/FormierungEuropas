@@ -19,85 +19,7 @@
                </issued><p><legalActor type="issuer">Viktor IV.</legalActor></p><p><legalActor type="recipient">Raimund Berengar III., Graf von der Provence</legalActor></p><p><legalActor>Rica, Königin von Kastilien-Léon</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType n="">Brief</objectType></p><!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! --><p><objectType n="">[Typisierung 1]</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc></sourceDesc>
       </fileDesc>
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/01_Template_Regest.xml?organization_annotation_20250915162800753",
-	"type": "oa:Annotation",
-	"dcterms:created": "2025-09-15T14:28:00.753Z",
-	"dcterms:modified": "2025-09-15T14:28:00.753Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/isabelblumenroth",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Isabel Blumenroth"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/01_Template_Regest.xml?organization_annotation_20250915162800753#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/01_Template_Regest.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://stable.leafwriter.users.h-da.cloud",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.5.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/01_Template_Regest.xml?organization_annotation_20250915162800753#Selector",
-			"@type": "oa:XPathSelector"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "org:Organization",
-		"@id": "http://dbpedia.org/resource/Genesee_&amp;_Wyoming",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://stable.leafwriter.users.h-da.cloud",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.5.0"
-	}
-}]]>
-        </rdf:Description>
-      </rdf:RDF></xenoData><profileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
          <langUsage>
             <language ident="ger">German</language>
             <language ident="lat">Latin</language>
@@ -106,7 +28,7 @@
    </teiHeader>
    <text>
       <body>
-         <div type="abstract"><head>Abstract:</head><p><persName>Viktor IV.</persName> ruft den <persName>Raimund</persName>, den Grafen der Provence, und seine Gemahlin <persName>Rica</persName>, Königin von Kastilien-Léon, zu weiterer Unterstützung seiner selbst auf. Zu diesem Zweck berichtet er, dass sein Konkurrent <persName>Alexander III.</persName> nach Gräueltaten aus <placeName>Rom</placeName> geflohen sei. Die <orgName>Pisaner</orgName> und <orgName>Genuesen</orgName> hätten seine Aufnahme verweigert und er Schiffbruch erlitten. Ebenso bezichtigt Viktor IV. <persName>Alexander III.</persName> und <orgName>seine Anhänger</orgName> der Plünderung, der Simonie und des Mordes.<list><item/></list></p></div>
+         <div type="abstract"><head>Abstract:</head><p><persName>Viktor IV.</persName> ruft den <persName>Raimund</persName>, den Grafen der Provence, und seine Gemahlin <persName>Rica</persName>, Königin von Kastilien-Léon, auf ihn weiter zu unterstützen. Er berichtet, dass sein Konkurrent <persName>Alexander III.</persName> nach Gräueltaten aus <placeName>Rom</placeName> geflohen sei und, nachdem die <orgName>Pisaner</orgName> und <orgName>Genuesen</orgName> ihm die Aufnahme verweigert habenm und er Schiffbruch erlitten. Ebenso bezichtigt Viktor IV. <persName>Alexander III.</persName> und <orgName>seine Anhänger</orgName> der Plünderung, der Simonie und des Mordes.<list><item/></list></p></div>
          <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="na"><p>[-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Sicut ad vestre nobilitatis notitiam</diploPart></div>
          <div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>-</item></list></diploPart></div>
