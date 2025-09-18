@@ -28,14 +28,14 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p><persName>Viktor IV.</persName>.<list>
+            <p><persName>Viktor IV</persName>.<list>
                <item>[Listeneintrag 1]</item>
             </list></p>
          </div>
          <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="na"><p>-</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Sicut assumpti regiminis cura providere</diploPart></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Mater et caput omnium ecclesiarum</diploPart></div>
          <div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item></list></diploPart></div>
-         <div><head>Datatio:</head><diploPart type="datatio">Datum Cremo[ne], kalendas aprilis.</diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">Data Cremo[ne], kalendas aprilis.</diploPart></div>
          <div type="msSources">
              <head>Frühester Überlieferungsträger</head>
             <div>
