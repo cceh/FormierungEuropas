@@ -37,7 +37,7 @@
          <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
          <div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item></list></diploPart></div>
-         <div><head>Datatio:</head><diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">Datum Cremo[n], kalendas aprilis.]</diploPart></div>
          <div type="msSources">
              <head>Frühester Überlieferungsträger</head>
             <div>
