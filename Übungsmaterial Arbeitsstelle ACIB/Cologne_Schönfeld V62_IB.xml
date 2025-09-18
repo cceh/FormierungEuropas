@@ -74,7 +74,7 @@
          </div>
          <div>
             <head>Diplomatischer Kommentar</head>
-            <diploDesc><p>[Siegel f]</p>
+            <diploDesc><p>Siegel fehlt.</p>
             </diploDesc>
          </div>
          <div type="commentary">
@@ -87,7 +87,7 @@
             <bibl>[Weitere Referenzen als listBibl]</bibl>
          </listBibl>
          </div>
-         <div type="note"><head>Notizen</head><p>[PUF: Folge und Bandnummer unklar. Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p></div>
+         <div type="note"><head>Notizen</head><p>[PUF: Folge und Bandnummer unklar. Einbinden: Digitalisat siehe INTERLOR-Projekt. Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p></div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
    </text>
