@@ -12,7 +12,7 @@
                <licence>Lizenz</licence>
             </availability>
          </publicationStmt>
-         <sourceDesc><bibl type="jaffe">JL -</bibl><diploDesc><issued><placeName>Viterbo</placeName><date type="issued">(1162)-04-01</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+         <sourceDesc><bibl type="jaffe">JL 14488</bibl><diploDesc><issued><placeName>Viterbo</placeName><date type="issued">(1162)-04-01</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued><p><legalActor type="issuer">Papst Paschalis III.</legalActor></p><p> <legalActor type="recipient">Gerard, Abt von Heylissem </legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType n="">Papsturkunde</objectType></p><!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! --><p><objectType n="">Littera</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc></sourceDesc>
       </fileDesc>
@@ -26,7 +26,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p><legalActor>Viktor IV.</legalActor> bestätigt <legalActor>Gerard, Abt von Heylissem</legalActor> (Diözese Lüttich?), das Urteil, das Viktors delegierte Richter <legalActor>Wiric, Abt von S. Trudo (Truiden)</legalActor>, und <legalActor>Bruno, Archidiakon von Lüttich</legalActor>, über den Besitz der Kirche von Pellines und des Allods von Capenual, der zwischen Gerard und Wazelin, Abt von Floreffe, umstritten war, zugunsten Gerards gefällt hatten.</p></div><div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="na"><p>[-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
+            <p><legalActor>VPaschalis IIIV.</legalActor> bestätigt <legalActor>Gerard, Abt von Heylissem</legalActor> (Diözese Lüttich?), das Urteil, das Viktors delegierte Richter <legalActor>Wiric, Abt von S. Trudo (Truiden)</legalActor>, und <legalActor>Bruno, Archidiakon von Lüttich</legalActor>, über den Besitz der Kirche von Pellines und des Allods von Capenual, der zwischen Gerard und Wazelin, Abt von Floreffe, umstritten war, zugunsten Gerards gefällt hatten.</p></div><div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="na"><p>[-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Sicut assumpti regiminis cura providere</diploPart></div>
          <div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>-</item></list></diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">Datum Cremo[nȩ], kalendas aprilis.]</diploPart></div>
