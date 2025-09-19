@@ -27,7 +27,7 @@
       <body>
          <div type="abstract"><head>Abstract:</head>
             <p><legalActor>Paschalis III.</legalActor> bestätigt <legalActor>Gregor, Abt von Hornbach</legalActor> (Diözese ?), die Entscheidung in der Streitsache mit Anselm von Ringelste bezüglich des Kirchenbodens in Walsheim.</p></div><div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="na"><p>[-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Sicut assumpti regiminis cura providere</diploPart></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustum ac rationabile est, ut</diploPart></div>
          <div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>-</item></list></diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">Datum Cremo[nȩ], kalendas aprilis.]</diploPart></div>
          <div type="msSources">
@@ -60,7 +60,7 @@
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>Germ. Pont. 10, S. 133, Nr. 310</bibl>
+               <bibl>JL 14488</bibl><bibl>Germ. Pont. 10, S. 133, Nr. 310</bibl>
                </listBibl></div><div><head>Diplomatischer Kommentar</head>
             <diploDesc><p>[Text und Inhalte Diplomatischer Kommentar]</p>
             </diploDesc>
