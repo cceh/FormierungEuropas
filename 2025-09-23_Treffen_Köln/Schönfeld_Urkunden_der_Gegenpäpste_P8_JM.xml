@@ -35,8 +35,6 @@
             <div>
             <listBibl>   
                <bibl type="original">München, Bayerisches HStA</bibl>
-               <bibl type="msCopy">-</bibl>
-               <bibl type="print">-</bibl>
             </listBibl>
          </div>
          </div>
@@ -62,7 +60,7 @@
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>Mayr, Pontifikat, Nr. 47, S. 116</bibl>
+               <bibl>Germ. Pont. 10, S. 133, Nr. 310</bibl>
                </listBibl></div><div><head>Diplomatischer Kommentar</head>
             <diploDesc><p>[Text und Inhalte Diplomatischer Kommentar]</p>
             </diploDesc>
