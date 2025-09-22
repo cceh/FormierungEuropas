@@ -26,9 +26,9 @@
                   <date type="issued" notBefore="1161-06-26" notAfter="1161-06-26">(1161, Juni 26)</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV, Papst</legalActor></p>
-               <p><legalActor type="recipient">Balduin, Abt des Klosters Liesborn</legalActor></p><p><legalActor type="recipient">Gunther von Lippoldsberg, Probst]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">[Typisierung 2]</objectType></p>
+               <p><legalActor type="recipient">Balduin, Abt des Klosters Liesborn</legalActor></p><p><legalActor type="recipient">Gunther von Lippoldsberg, Propst</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Papsturkunde</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">Litterae cum filo canapis</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
@@ -45,7 +45,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Viktor IV . fordert den Abt des Klosters Liesborn, Balduin, und Propst Gunther von Lippoldsberg auf, den Kleriker Lambert, den Laien E. und einige andere unter Androhung des Bannes zu ermahnen, der auch ihm dargebrachten Klage des Pries- ters Egrich gerecht zu werden und diesem innerhalb von 40 Tagen Abbitte für das begangene Unrecht zu leisten.<list>
+            <p>Viktor IV . fordert Balduin, Abt des Klosters Liesborn, und Propst Gunther von Lippoldsberg auf, den Kleriker Lambert, den Laien E. und einige andere unter Androhung des Bannes zu ermahnen, der auch ihm dargebrachten Klage des Pries- ters Egrich gerecht zu werden und diesem innerhalb von 40 Tagen Abbitte für das begangene Unrecht zu leisten.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
