@@ -26,7 +26,7 @@
                   <date type="issued" notBefore="1160-04-01" notAfter="1161-04-01">(1160–1161), April 1</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV, Papst</legalActor></p>
-               <p><legalActor type="recipient">Arducius, Bischof von Genf</legalActor></p><p><legalActor type="recipient">Prälaten, Kleurs und Volk</legalActor><legalActor type="recipient"/></p><p/> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><legalActor type="recipient">Arducius, Bischof von Genf</legalActor></p><p><legalActor type="recipient">Prälaten, Kleurs und Volk von Genf</legalActor><legalActor type="recipient"/></p><p/> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
                <p><objectType n="">[Typisierung 2]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
