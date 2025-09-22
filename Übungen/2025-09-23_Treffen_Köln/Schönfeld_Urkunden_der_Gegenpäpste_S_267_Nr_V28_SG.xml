@@ -30,7 +30,7 @@
                <p><legalActor type="issuer">Viktor IV, Papst</legalActor></p>
                <p><legalActor type="recipient">Arducius, Bischof von Genf</legalActor></p><p><legalActor type="recipient">Prälaten, Kleurs und Volk von Genf</legalActor><legalActor type="recipient"/></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Papsturkunde]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">[Litterae cum filo canapis]</objectType></p>
+               <p><objectType n="">[Litterae cum serico]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
