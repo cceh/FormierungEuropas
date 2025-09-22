@@ -24,7 +24,7 @@
                <issued>
                   <placeName>Vercelli</placeName>
                   <date type="issued" when="1160-04-01">(1160–1161), April 1</date>
-                  <date type="issued" when="1161-04-01"/>
+                  <date type="issued" when="1161-04-01">.</date>
                    <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV, Papst</legalActor></p>
