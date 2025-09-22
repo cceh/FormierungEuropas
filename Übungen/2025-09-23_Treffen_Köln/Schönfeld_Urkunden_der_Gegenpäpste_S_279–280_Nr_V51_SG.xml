@@ -45,18 +45,15 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Viktor IV . fordert Balduin, Abt des Klosters Liesborn, und Propst Gunther von Lippoldsberg auf, den Kleriker Lambert, den Laien E. und einige andere unter Androhung des Bannes zu ermahnen, der auch ihm dargebrachten Klage des Pries- ters Egrich gerecht zu werden und diesem innerhalb von 40 Tagen Abbitte für das begangene Unrecht zu leisten.<list>
+            <p>Viktor IV . fordert Balduin, Abt des Klosters Liesborn, und Propst Gunther von Lippoldsberg auf, den Kleriker Lambert, den Laien E. und einige andere unter Androhung des Bannes zu ermahnen, der auch ihm dargebrachten Klage des Priesters Egrich gerecht zu werden und diesem innerhalb von 40 Tagen Abbitte für das begangene Unrecht zu leisten.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
          <div type="other">
             <head>Echtheitskriterien: </head>
-            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
+            <authen type="formula" n="na"><p>-</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
          </div>
-         <div>
-            <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">Lator presentium presbiter</diploPart>
-         </div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Lator presentium presbiter Egrich in</diploPart></div>
          <div>
             <head>Subscriptiones:</head>
             <diploPart type="subscriptio">
