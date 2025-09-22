@@ -24,7 +24,7 @@
                <issued><placeName>Cremona</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1162-03-21" precision="high" unit="cm" xml:space="default" notBefore="1162-03-21" type="issued">(1162), März 21</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
-               <p><legalActor type="recipient">Hentzelin, Propst von Marbach</legalActor></p><p><legalActor type="recipient">Marbach, Kapitel</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><legalActor type="recipient">Hentzelin, Propst von Marbach</legalActor></p><p><legalActor cert="high" type="recipient" xml:space="default">Marbach, Kapitel</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
                <p><objectType n="">[Typisierung 2]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
@@ -46,7 +46,7 @@
                <item>[Listeneintrag 1]</item>
             </list></p>
          </div>
-         <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
+         <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="na"><p>-</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Apostolatus offitii debito cogimur loca</diploPart></div>
          <div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item></list></diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">Datum Cremone, XII kalendas aprilis.</diploPart></div>
