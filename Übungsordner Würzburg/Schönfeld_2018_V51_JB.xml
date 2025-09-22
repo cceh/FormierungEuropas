@@ -6,7 +6,7 @@
       <fileDesc>
          <titleStmt>
             <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
-            <respStmt><resp>Datenquelle</resp><persName>JL, Schönfeld</persName></respStmt>
+            <respStmt><resp>Datenquelle</resp><persName>Schönfeld, Urkunden der Gegenpäpste, S. 279-280, Nr. V51</persName></respStmt>
            <respStmt><resp when="2024">Encoding:</resp><persName>Julia Becker</persName></respStmt>
          </titleStmt>
          <publicationStmt>
@@ -15,12 +15,12 @@
                <licence>Lizenz</licence>
             </availability>
          </publicationStmt>
-         <sourceDesc><bibl type="jaffe">14434</bibl><diploDesc><issued><placeName>Pavia</placeName><date type="issued">1160, Februar 19</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+         <sourceDesc><bibl type="jaffe">14452</bibl><diploDesc><issued><placeName>Lodi</placeName><date type="issued">(1161), Juni 26</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">Viktor IV.</legalActor></p>
-               <p> <legalActor type="recipient">Benediktinerkloster Ilsenburg</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">Privileg, feierlich</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">direkte persönliche Einwirkung</objectType></p>
+               <p><legalActor type="issuer">Papst Viktor IV.</legalActor></p>
+               <p> <legalActor type="recipient">Balduin, Abt des Klosters Liesborn</legalActor></p><p><legalActor>Gunther, Propst von Lippoldsberg</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Papsturkunde</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">Litterae cum filo canapis</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc></sourceDesc>
       </fileDesc>
@@ -34,22 +34,20 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Papst Viktor IV. bestätigt auf Bitten des Abtes Sigebod die dem Benediktinerkloster Ilsenburg (D. Halberstadt) bereits durch Papst Innocenz II. verliehenen Besitzungen und Rechte. Bestätigt wird
-            <list>
-               <item>ihr Besitz und die Schenkungen bestimmter genannter Personen,</item><item>die Befreiung vom Zehnten für Neubrüche bei Eigenbau und Tierfutter,</item><item>das Rechte der freien Sepultur und Abtswahl gemäß der Benediktsregel sowie die Immunität des Klosters. Der Elekt ist gemäß der Regel von Cluny, Fruttuaria oder Gorze zu weihen.</item><item>Untersagt wird die Entfremdung von Gütern und Besitzungen ohne Zustimmung des Kapitels.</item><item>Schlussformeln: Perturbationsverbot, Sanctio negativa und positiva.</item>
-            </list></p>
+            <p>Papst Viktor IV. fordert Balduin, Abt des Benediktinerklosters Liesborn (D. Münster), und Gunther, Propst des Benediktinerinnenklosters Lippoldsberg (D. Mainz), zur Ermahnung des Klerikers Lambert, des Laien E. und einiger anderer auf. Balduin und Gunther sollen nach Untersuchung des Falles dafür sorgen, dass die genannten Personen ihre ungerechten Handlungen gegenüber dem Priester Egrich, der sich bei einer apostolischen Audienz über einzeln aufgeführte Vergehen beschwert hatte, einstellen und innerhalb von 40 Tagen Abbitte für das begangene Unrecht leisten, notfalls unter Androhung kanonischer Strafgewalt. 
+            </p>
          </div>
          <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="deperditum"><p>[-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Ad hoc universalis ecclesie cura</diploPart></div>
-         <div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>Ego Victor catholice ecclesie episcopus subscripsi.</item><item>Ego Ymarus Tusculanus episcopus subscripsi.</item><item>Ego Hubaldus episcopus subscripsi.</item><item>Ego lohannes presbiter cardinalis tituli sanctorum Silvestri et Martini subscripsi.</item><item>Ego Guido presbiter cardinalis tituli Calixti subscripsi.</item><item>Ego Berardus diaconus cardinalis sancti Sergii subscripsi.</item><item>Ego Lando diaconus cardinalis sancte Marie in Aquiro subscripsi.</item></list></diploPart></div>
-         <div><head>Datatio:</head><diploPart type="datatio">Data Papie per manum Gerardi sancte Romane ecclesie subdiaconi, XI kalendas martii indictione VII, anno incarnationis domini MCLX, pontificatus domini Victoris anno eius primo.</diploPart></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Lator presentium presbiter Egrich in</diploPart></div>
+         <div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>-</item></list></diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">Datum <placeName>Laude</placeName>, VI kalendas iulii.</diploPart></div>
          <div type="msSources">
              <head>Frühester Überlieferungsträger</head>
             <div>
             <listBibl>   
-               <bibl type="original">Original, LHA Sachsen-Anhalt, Abt. Magdeburg, StO Wernigerode, LHASA , MD , H 9 – 2,3 Fach 7, Nr. 9</bibl>
-               <bibl type="msCopy">[handschriftliche Kopie]</bibl>
-               <bibl type="print">[Druck]</bibl>
+               <bibl type="original">Original, Marburg, Hessisches Staatsarchiv, Sign. ?? </bibl>
+               <bibl type="msCopy">handschriftliche Kopie, 17. Jh., Marburg, Hessisches Staatsarchiv, Urk. 100, 1337</bibl>
+               <bibl type="print"/>
             </listBibl>
          </div>
          </div>
@@ -57,38 +55,38 @@
             <head>Dekretalen</head>
             <listBibl>
                <bibl>-</bibl>
-               <bibl/>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie</head>
             <listBibl>
                <bibl>-</bibl>
-               <bibl/>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="editions">
-            <head>Editionen<bibl>Schönfeld, Urkunden der Gegenpäpste, S. 260–262, Nr. V22</bibl><bibl>Jacobs, Urkundenbuch, Bd. I, S. 27, Nr. 23</bibl>
-            </head>
+            <head>Editionen</head>
+            <listBibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 259-260, V51.</bibl><bibl>Stumpf-Brentano, Acta Maguntina, S. 76.</bibl><bibl>Abb. dig.: PH LBA, Nr. 14737</bibl></listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>JL 14434</bibl>
-               <bibl>Germ. Pont. 5,2, S. 359, Nr. 9</bibl>
+               <bibl>JL 14452</bibl>
+               <bibl>Germ. Pont. 4, S. 291, Nr. 4</bibl><bibl>Germ. Pont. 9, S. 86, Nr. 5</bibl>
             </listBibl>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Die Rota Viktors IV. enthält die Umschrift: tu es gloria mea, tu es susceptor meus, tu exaltas caput meum, domini. Die Inschrift der Rota lautet: sanctus Petrus/sanctus Paulus/VIC PAPA/tor IIII. Vgl. <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 262, Nr. V22.</bibl> </p>
+            <p>Die Datierung erschließt sich aus dem Itinerar Viktors IV.</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
          <listBibl>
-            <bibl>[Weitere Referenzen als listBibl]</bibl>
+            <bibl>Bischoff, Urkundenformate im Mittelalter, S. 140.</bibl>
          </listBibl>
          </div>
-         <div type="note"><head>Notizen</head><p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p></div>
+         <div type="note"><head>Notizen</head><p>In welchem Feld geben wir das Digitalisat zur Urkunde an?</p><p>Wo vermerken wir die jeweilige Diözese?</p><p>Feld "Einwirkungsgrad" bzw. "Beziehung zum Schisma" fehlt</p><p>Über die Archiv-Suchseite ist nur die Abschrift des 17. Jahrhunderts auffindbar, nicht aber die Signatur des bei Schönfeld verzeichneten Originals.</p></div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
    </text>

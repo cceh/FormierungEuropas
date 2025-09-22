@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt><resp>Datenquelle</resp><persName>Benjamin Schönfeld</persName></respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>Jakob Mandel</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc><bibl type="jaffe">JL 14488</bibl><diploDesc><issued><placeName>Viterbo</placeName><date type="issued">1167-11-18</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued><p><legalActor type="issuer">Papst Paschalis III.</legalActor></p><p> <legalActor type="recipient">Gregor, Abt von Hornbach </legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType n="">Papsturkunde</objectType></p><!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! --><p><objectType n="">Privileg, feierlich</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc></sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage></profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p><legalActor>Paschalis III.</legalActor> bestätigt <legalActor>Gregor, Abt von Hornbach</legalActor> (Diözese Speyer?), auf dessen Bitten hin die Entscheidung, die <legalActor>Hillin, Erzbischof von Trier und apostolischer Legat</legalActor>, in der Streitsache zwischen Gregor und <legalActor>Anselm von Ringelste</legalActor> bezüglich des Kirchenbodens in Walsheim zugunsten Gregors getroffen hatte.</p></div><div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="na"><p>-</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustum ac rationabile est, ut</diploPart></div>
+         <div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>Ego <legalActor>Pascalis catholice ecclesię episcopus</legalActor> subscripsi.</item><item>Ego <legalActor>Iohannes Albanensis episcopus</legalActor> subscripsi. </item><item>Ego <legalActor>Iohannes presbiter cardinalis tituli Pastoris</legalActor> subscripsi.</item><item>Ego <legalActor>Umfredus presbiter cardinalis tituli [sancte] Susannę</legalActor> subscripsi.</item><item>Ego <legalActor>Albertus presbiter cardinalis tituli sancti Grisogoni</legalActor> subscripsi.</item><item>Ego <legalActor>Landus sancti Angeli diaconus cardinalis</legalActor> subscripsi.</item><item>Ego <legalActor>Gerardus diaconus cardinalis sancte Marie in Aquiro</legalActor> subscripsi.</item><item>Ego <legalActor>Lanfredus sancte Marie nove diaconus cardinalis</legalActor> subscripsi.</item></list></diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">Datum Viterbii per manum Iohannis sanctę Romane ecclesię presbiteri cardinalis et cancellarii, XIIII kalendas decembris indictione XV incarnationis dominice anno MCLXVII, pontificatus vero dompni Pascalis pape III anno III.</diploPart></div>
+         <div type="msSources">
+             <head>Frühester Überlieferungsträger</head>
+            <div>
+            <listBibl>   
+               <bibl type="original">München, Bayerisches HStA, Rheinpf. Urk. Nr. 1146 https://urkundenrepositorium.uni-marburg.de/handle/lba/8365</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Pflugk-Harttung, Acta inedita 2, Nr. 433, S. 381</bibl>
+               <bibl>Schönfeld, Urkunden der Gegenpäpste, P8, S. 314f.</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL 14488</bibl><bibl>Germ. Pont. 10, S. 133, Nr. 310</bibl>
+               </listBibl></div><div><head>Diplomatischer Kommentar</head>
+            <diploDesc><p>Auffällig am Text ist die ausführliche, auf den Einzelfall hin ausgebaute Sanctio. Paschalis' Rota trägt die Umschrift <diploPart>Adiutor meus esto domine, ne derelinquas me</diploPart>. Benevalete. Auch das mit einer Schnur angebrachte Siegel ist erhalten.</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>.</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+         <listBibl>
+            <bibl>[Weitere Referenzen als listBibl]</bibl>
+         </listBibl>
+         </div>
+         <div type="note"><head>Notizen</head><p>Im Urkundentext wird der Hornbacher Priester Siegfried als Überbringer der Nachricht von Gregor an Paschalis genannt, ist diese Person bzw. ihre Funktion relevant genug für eine Aufnahme ins Regest?</p><p>Ich kann im Digitalisat die Materialität der Siegelschnur nicht bestimmen.</p></div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

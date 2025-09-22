@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt><resp>Datenquelle</resp><persName>Benjamin Schönfeld</persName></respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>Jakob Mandel</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="jaffe">JL -</bibl>
+            <diploDesc><issued><placeName>Cremona</placeName><date type="issued">(1162)-04-01</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued><p><legalActor type="issuer">Papst Viktor IV.</legalActor></p><p> <legalActor type="recipient">Gerard, Abt von Heylissem </legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType n="">Papsturkunde</objectType></p><!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! --><p><objectType n="">Littera</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage></profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p><legalActor>Viktor IV.</legalActor> bestätigt <legalActor>Gerard, Abt von Heylissem</legalActor> (Diözese Lüttich?), das Urteil, das Viktors delegierte Richter <legalActor>Wiric, Abt von S. Trudo (Truiden)</legalActor>, und <legalActor>Bruno, Archidiakon von Lüttich</legalActor>, über den Besitz der Kirche von Pellines und des Allods von Capenual, der zwischen Gerard und <legalActor>Wazelin, Abt von Floreffe</legalActor>, umstritten war, zugunsten Gerards gefällt hatten.</p></div><div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="na"><p>-</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Sicut assumpti regiminis cura providere</diploPart></div>
+         <div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>-</item></list></diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">Datum Cremo[nȩ], kalendas aprilis.]</diploPart></div>
+         <div type="msSources">
+             <head>Frühester Überlieferungsträger</head>
+            <div>
+            <listBibl>   
+               <bibl type="original">Louvain-La-Neuve, AdE, Arch. eccl. 82.91, Nr. 9</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>PUU Niederlande, Nr. 98, S. 230</bibl>
+               <bibl>Schönfeld, Urkunden der Gegenpäpste, V62, S. 287</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>Mayr, Pontifikat, Nr. 47, S. 116</bibl>
+               </listBibl></div><div><head>Diplomatischer Kommentar</head>
+            <diploDesc><p>Das Orignal ist beschädigt, weil offenbar jemand ein Stück aus dem Pergament herausgeschnitten hat. In den letzten vier Zeilen sind deshalb einige Buchstaben verloren gegangen (unter anderem beim Namen des umstrittenen Allods) und ein Riss zieht sich noch weitere vier Zeilen nach oben. Ein durch die Plica verdoppeltes Loch zur Anbringung eines Siegels ist am unteren Rand der Urkunde noch zu sehen, allerdings fehlen sowohl Siegel als auch Faden.</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Schönfeld gibt fehlerhaft "Ramackers, Papsturkunden in Frankreich, S. 230, Nr. 98" als Druck dieses Stücks an, dabei findet sich das Stück in den Papsturkunden in den Niederlanden. Außerdem schreibt er den Schiedsrichtern in der Streitsache den Status von Legaten zu, dabei waren sie delegierte Richter.</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+         <listBibl>
+            <bibl>[Weitere Referenzen als listBibl]</bibl>
+         </listBibl>
+         </div>
+         <div type="note"><head>Notizen</head><p>Übernehmen wir Sonderbuchstaben aus lateinischen Texten (e mit Cedille, ae in Ligatur etc.) je nach Vorlage oder vereinfachen wir nach moderner Gewohnheit?</p></div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>
