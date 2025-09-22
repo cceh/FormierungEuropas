@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="dolle"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt>
+              <resp when="2024">Encoding:</resp>
+              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+           </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>Dolle, Papsturkunden, S. 218–219, Nr. 99</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Dolle, Papsturkunden, S. 218–219, Nr. 99</bibl><bibl type="jaffe">14433</bibl>
+            <diploDesc>
+               <issued>
+                  <placeName>Pavia</placeName>
+                  <date type="issued" notBefore="1160-02-01" notAfter="1160-02-28">1160 [Februar]</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Papst Viktor IV . bestätigt Erzbischof Hartwig von Bremen die Oberhoheit über die Bistü- mer der Slawen in Oldenburg, Mecklenburg und Ratzeburg sowie die von seinen Amts- vorgängern, den Päpsten Gregor IV ., Sergius II ., Nikolaus I ., Benedikt VIII ., Hadrian II ., Viktor II ., Stephan V . und Innozenz II ., der Hamburger und Bremer Kirche verliehenen Privilegien, ferner die Übertragung der Abtei Harsefeld und die Wiederübertragung der Abtei Rastede.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+         <div type="other">
+            <head>Echtheitskriterien: </head>
+            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
+         </div>
+         <div>
+            <head>Incipit:</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones:</head>
+            <diploPart type="subscriptio">
+               <list>
+                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+               </list>
+            </diploPart>
+         </div>
+         <div>
+            <head>Datatio:</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+             <head>Frühester Überlieferungsträger</head>
+            <div>
+            <listBibl>   
+               <bibl type="original">Ausfertigung fehlt, im 17. Jh. in der Stader Registratur noch vorhanden unter der Signatur RegA Stade, Cal. 118 Nr. 3.</bibl>
+               <bibl type="msCopy">Abschriften: NLA -Hannover, Cop. II 41 fol. 53 v ( B ), 1943 verbrannt. – NLA -Oldenburg, Best. 23-1 Ab Nr. 1 p. 87 f. ( C ). – NLA -Hannover, Cop. II 42a fol. 237 ( D ), 1943 verbrannt. – NLA -Hannover, Cop. II 43 fol. 62 ( E ), 1943 verbrannt. – StA Hamburg, Urkundensammlung des Erpold Lindenbrog ( F ), 1842 verbrannt. – Abschrift: StBibl Hamburg, Codex Johannei Hamburgensis ( G ), 1842 ver- brannt. – Abschrift: NLA -Wolfenbüttel, VII C Hs 96 fol. 203 3 -203 v ( H ). – NLA -Oldenburg, Slg. 80 Best. 296 Nr. 8-1 p. 96-98( I ) aus C . – GWLB Hannover, Ms XXIII 1050 fol. 49 r (K). – ÖNB Wien, Cod. 8904 Han fol. 143 r -144 v ( L ).</bibl>
+               <bibl type="print">Drucke: Lindenbrog, Scriptores S. 188; 2. Aufl. S. 164 Nr. 56. – Leibniz, Scriptores II S. 259 f. – Lünig, Reichsarchiv XVI Anhang S. 104 Nr. 71. – Staphorst, Hamburgische Kirchen-Geschichte I , 1 S. 569 f. – Westphalen, Monumenta inedita II Sp. 2036 f. Nr. 7. – Schröder, Mecklenburgische Kirchenhistorie I S. 398 f. – Hamburgisches UB I Nr. 221. – Lappenberg, Rasteder Jahrbücher S. 303-306 Nr. 8. – Ca- pelle, Johannis Rode … registrum S. 204 f. Nr. 89. Teildrucke: Meklenburgisches UB I Nr. 69. – Oldenburgisches UB IV Nr. 7.</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Dolle, Papsturkunden, S. 218–219, Nr. 99</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL 14433</bibl>
+               <bibl>Regesten: J Nr. 9380. – JL Nr. 14433. – GP VI S. 80 f. Nr. 148. – Nettelbladt, Meklenburgisches Ur- kunden-Inventarium S. 20. – Hempel, Inventarium I Sp. 98. – SHLRU I Nr. 106. – RegEbBremen I Nr. 545. Der Druck folgt C , kollationiert mit B u. F (nach dem Druck im Hamburgischen UB ).</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Datiert nach dem Itinerar des (Gegen-)Papstes. Die Indiktion ist um einen Zähler zu niedrig. Vgl. Jordan, Bistumsgründungen S. 81-91. – Seegrün, Erzbistum Hamburg S. 76 f. a b c d d e f f g h i k l m m i n o o p q r r n s s t u a Initiale fehlt ( C ). b Hartwico ( B , F ). c sollerter ( B , F ). d-d Sclavorum, videlicet Altenburc, Michelenburc et Raceburc ( B , F ). e confirmanda ( B ); confirmandam ( F ). f-f Sergii, Nicolai ( F ). g Hammaburgensi ( B , F ). h et ( B ). i de ( B , F ). k nach ( B , F ); Vercevelle ( C ). l per ( B , F ). m-m annos singulos ( B ). n fehlt ( C ). o-o […….] novimus esse ( B , F ). p legatione ( C ). q consueta ( C ). r-r perpetuo et futuro ( C ). s-s fehlt ( B , F ). t sacratissimo ( B , F ). u Godefridi ( B , F ).</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Weitere Referenzen als listBibl]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>Victor episcopus servus servorum dei venerabili fratri Hardwico Bremensi archi- episcopo eiusque successoribus canonice substituendis in perpetuum. Quociens illud a nobis petitur, quod religioni et iustitie convenire monstratur, animo nos decet libenti concedere et petentium desideriis celerem prebere consensum. Eapropter, karissime in Christo frater, tuis rationibus diligenter auditis et ecclesie tue privilegiis diligenter inspectis honorem seu dignitatem, quam tui predecessores super tribus episcopatibus Slavorum , scilicet Altenburch, Michilenburch et Raseburch , habuisse noscuntur, persone et ecclesie tue duximus confirmandum . Igitur secundum formam privile- giorum beatorum patrum et antecessorum nostrorum Gregorii, Serii , Nycholai , Benedicti, Adriani, Victoris, Stephani et Innocentii tibi tuisque successoribus cano- nice intrantibus et sancte Hamburgensi seu Bremensi ecclesie predictos episcopatus et omnia, que a predictis patribus per memorata privilegia concessa sunt, presenti pagina confirmamus. Abbatiam quoque in Hersevelde tibi tuisque successoribus concedimus et donamus censu pro eadem ecclesia quatuor bisant(inos) sedi aposto- lice per te et per tuos successores pro annis singulis persolvendo. Preterea abbatiam in Radestad, quam ecclesie tue tempore felicis memorie Adriani predecessoris nostri novimus esse iniuste subtractam, tibi et ecclesie tue restituimus et presenti privilegio confirmamus statuentes, ut nulla ecclesiastica secularisve persona hoc nostrum privi- legium infringere vel violare presumat, sed hec et omnia, quecunque largitione re- gum, concessione pontificum seu aliis iustis modis Bremensis ecclesia consecuta est et que in postrum favente domino poterit adipisci, habeat, teneat et possideat perpe- tuo profutura . Si quis autem huic nostre institutioni temere contraire presumpserit seu temptaverit, nisi presumptionem suam secundo tertiove commonitus congrua satisfactione correxerit, reum se existere divino iudicio de perpetrata iniquitate cog- noscat et a sanctissimo corpore et sanguine domini nostri Ihesu Christi alienus fiat atque in extremo examine districte ultioni subiaceat. Cunctis autem ecclesie Bremen- sis iura servantibus sit pax domini nostri Iesu Christi, quatinus et hic fructum bone actionis recipiant et in futurum eterne pacis premia sortiantur. Amen. Datum Papie per manum Godfridi sancte Romane ecclesie notarii, anno dominice incarnationis millesimo centesimo sexagesimo, indictione septima.</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

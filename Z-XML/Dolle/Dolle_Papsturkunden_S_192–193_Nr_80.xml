@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="dolle"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt>
+              <resp when="2024">Encoding:</resp>
+              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+           </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>Dolle, Papsturkunden, S. 192–193, Nr. 80</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Dolle, Papsturkunden, S. 192–193, Nr. 80</bibl><bibl type="jaffe">9717</bibl>
+            <diploDesc>
+               <issued>
+                  <placeName>Rom, St. Peter</placeName>
+                  <date type="issued" notBefore="1150-05-03" notAfter="1150-05-03">[1150] Mai 3</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Papst Eugen III . bestätigt die Einführung der Augustinerregel im Stift Hilwartshausen und legt die freie Propstwahl fest.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+         <div type="other">
+            <head>Echtheitskriterien: </head>
+            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
+         </div>
+         <div>
+            <head>Incipit:</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones:</head>
+            <diploPart type="subscriptio">
+               <list>
+                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+               </list>
+            </diploPart>
+         </div>
+         <div>
+            <head>Datatio:</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+             <head>Frühester Überlieferungsträger</head>
+            <div>
+            <listBibl>   
+               <bibl type="original">Ausfertigung fehlt.</bibl>
+               <bibl type="msCopy">Abschriften: NLA -Hannover, Cop. III 109 ( B ), 1943 verbrannt. Die Abschrift hatte die gleichzeitige Überschrift: Inhaldt disses breves ist, dat Eugenius pawest de dridde heft togelaten und confir- mert, dat de sorores disses stifftes mogen und sullen eyndrechtliken keysen oren provest eder oversten, ere clausure holden und leven na der regulen sancti Augustini to ewighen tyden . – NLA - Wolfenbüttel, VII C Hs 38 p. 58-59 Nr. 14 ( C ). – NLA -Wolfenbüttel, VII C Hs 39 p. 1 ( D ). – GWLB Hannover, Ms XXIII 737 fol. 23 r -23 v ( E ). – GWLB Hannover, Ms XXIII 738 fol. 30 v -31 r ( F ). – SUB Göttingen, Hist I XVI fol. 14 r ( G ). – Göttingen, Pius-Stiftung für Papsturkundenforschung, Nachlass Brackmann ( H ), nach B .</bibl>
+               <bibl type="print">Drucke: Stumpf, Acta Nr. 53 (zu 1153). – UB Hilwartshausen Nr. 19. Teildruck: Mainzer UB II , 1 Nr. 182 (zu 1153).</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Dolle, Papsturkunden, S. 192–193, Nr. 80</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL 9717</bibl>
+               <bibl>Regesten: JL Nr. 9717 (zu 1153). – GP IV / IV S. 343 Nr. 3. – Westfälisches UB V Nr. 99 (zu 1153). Der Text folgt G .</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Da der in der Urkunde genannte Propst Bertram von Fredelsloh im Februar zum Propst von Hil- wartshausen ernannt wurde ( UB Hilwartshausen Nr. 17 f.), ist die Pontifikatsangabe falsch, denn sie verweist auf das Jahr 1146. Aufgrund des Papstitinerars kommen nur die Jahre 1150 u. 1153 in Frage. Der Konflikt zwischen dem Erzbischof Heinrich I . von Mainz einerseits sowie Friedrich Barbarossa und Papst Eugen III . andererseits führte 1153 zur Absetzung des Erzbischofs. »Im Jahre 1153 stellt der Papst sicherlich keine Urkunde mehr mit Bezug auf Erzbischof Heinrich von Mainz aus, sodaß JL 9717 sicher ins Jahr 1150 gehörte« (Büttner, Erzbischof Heinrich von Mainz S. 259 Anm. 54. – An- ders: UB Mainz a. a. O., Vorbemerkung). Heinemeyer machte zudem darauf aufmerksam, dass es zwischen dem päpstlichen Mandat und der Ernennung des Fredelsloher Propstes Bertram zum Propst in Hilwartshausen durch Erzbischof Heinrich I . von Mainz (Mainzer UB II , 1 Nr. 131. – UB Hil- wartshausen Nr. 18) wörtliche Übereinstimmungen gibt, die auf die zeitliche Nähe beider Stücke schließen lassen (Heinemeyer, Gründung S. 215 Anm. 408). a b c c a informanda ( H ). b previderint ( H ). c-c fehlt ( G ); nach ( C ).</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Weitere Referenzen als listBibl]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>Eugenius episcopus servus servorum dei dilectis in Christo sororibus de Hildvardes- husen salutem et apostolicam benedictionem. Officii nostri nos hortatur aucto ritas ecclesiarum paci et utilitati paterna sollicitudine providere et beneplacentem domino religionem modis omnibus propagare, ut, sicut patres vocamur in nomine, ita nichi- lominus comprobemur in opere. Huius itaque rei debito provocati, quod a venerabili fratre nostro He(nrico) Maguntino archiepiscopo ex mandato nostro super reforman- da religione in ecclesia beate dei genitricis semperque virginis Marie factum est et de custodia commissa Bertrammo preposito in Frethessele, qui eisdem sororibus, donec vixerit, preesse debeat, pariter et prodesse ratum habemus et apostolice sedis muni- mine confirmamus statuentes, ut ordo beati Augustini perpetuis ibi temporibus invi- olabiliter sub eadem clausura, in qua nunc estis, servetur. Obeunte vero predicto Bertramo preposito nullus ibi qualibet subrepcionis astucia seu violencia preponatur, nisi quem sorores eiusdem loci communi consensu vel sororum pars consilii sanioris secundum dei timorem et beati Augustini regulam providerint eligendum, qui soro- res eiusdem loci exactissima sollicitudine debeant custodire. Dat. Rome apud sanctum Petrum, V non. maii, pontificatus nostri anno secundo .</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

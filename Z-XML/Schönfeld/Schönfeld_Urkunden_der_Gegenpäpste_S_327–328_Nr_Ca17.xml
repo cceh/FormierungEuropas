@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="schoenfeld"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>Schönfeld, Urkunden der Gegenpäpste, S. 327–328, Nr. Ca17</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 327–328, Nr. Ca17</bibl><bibl type="jaffe">14506</bibl>
+            <diploDesc>
+               <issued><placeName>bei S. Flaviano</placeName><date type="issued" notBefore="1172-09-20" notAfter="1175-09-20">(1172–1175), September 20</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage></profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Calixt III . bestätigt der Äbtissin Irmentrud die Bestimmungen der Erzbischöfe Reinold und Philipp von Köln bezüglich der vita communis und der Klausur im Kloster Dietkirchen.<list>
+               <item>[Listeneintrag 1]</item>
+            </list></p>
+         </div>
+         <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Ratio pietatis exigit</diploPart></div>
+         <div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item></list></diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">Datum apud sanctum Flavianum, XII kalendas octobris.</diploPart></div>
+         <div type="msSources">
+             <head>Frühester Überlieferungsträger</head>
+            <div>
+            <listBibl>   
+               <bibl type="original">Original, LA Nordrhein-Westfalen, Dietkirchen, Urkunden sive Akten, N. 10;</bibl>
+               <bibl type="msCopy">[handschriftliche Kopie]</bibl>
+               <bibl type="print">[Druck]</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 327–328, Nr. Ca17</bibl>
+               <bibl>Günther: Codex diplomaticus, Bd. I, S. 447, Nr. 197;</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL 14506</bibl>
+               <bibl>GP VII, S. 256, Nr. 7; Bischoff: Urkundenformate im Mittelalter, S. 141; Abb. ana.: Bischoff: Urkundenformate im Mittelalter, S. 205, Taf. 14.</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc><p>[Text und Inhalte Diplomatischer Kommentar]</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Jaffé datierte auf 1169 – 1175, Günther auf 1171 – 1177, Schieffer ( GP ) auf „(1172? 1174/75?), Sept. 20“; hier datiert nach Bischoff.</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+         <listBibl>
+            <bibl>[Weitere Referenzen als listBibl]</bibl>
+         </listBibl>
+         </div>
+         <div type="note"><head>Notizen</head><p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>Text (Transkription d. Verf.): Calixtus episcopus servus servorum dei. Dilecte in Christo filie Irmentrudi abbatisse de Dedethkirchin salutem et apostolicam benedictionem. Ratio pietatis exigit, ut pro sollicitudine universalis ecclesie, cuius a provisore bonorum omnium deo nobis commissa est cura, bene placentem deo religionem modis omnibus studeamus promovere, presertim illis personis propensius succurrentes, quas et sexus fragilitas et ipsius naturę mollities a bono posset proposito revocare. Ne itaque huiusmodi aut alicuius necessitatis occasio desides faciat aut, quod absit robur, conversationis infringat, apostolica eis convenit provisione consulere. Hoc nimirum intuitu, dilecta in Christo filia Irmentrudis abbatissa, tuis iustis postulationibus grato concurrentes assensu, quicquid venerabiles fratres nostri tam Rainaldus quam Phylippus Colonienses archiepiscopi iuste et rationabiliter ordinaverunt ad augmentum religionis de inclusione sanctimonialium et observatione communis vite sub regula beati Benedicti et de molendinis aut ceteris ecclesie pensionibus in agris, silvis, vineis, pratis omnibusque rebus tam mobilibus quam inmobilibus, decimis etiam de villa, que dicitur Sethema, quas supradicti fratres nostri ad communes usus sanctimonialium per privilegia sua confirmaverunt, firmum et ratum habemus et auctoritate apostolica confirmamus ac presentis scripti patrocinio communimus. Statuentes, ut nulli omnino hominum fas sit hanc nostre confirmationis paginam aliqua occasione infringere aut temere aliquid ex hiis inmutare. Si qua igitur ecclesiastica secularisve persona contra hoc ire temptaverit, indignationem dei omnipotentis et beatorum Petri et Pauli apostolorum eius et nostram se noverit incurrisse.</p></div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

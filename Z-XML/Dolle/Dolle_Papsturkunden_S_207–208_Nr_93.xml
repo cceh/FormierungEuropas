@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="dolle"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt>
+              <resp when="2024">Encoding:</resp>
+              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+           </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>Dolle, Papsturkunden, S. 207–208, Nr. 93</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Dolle, Papsturkunden, S. 207–208, Nr. 93</bibl><bibl type="jaffe">10062</bibl>
+            <diploDesc>
+               <issued>
+                  <placeName>Sutri</placeName>
+                  <date type="issued" notBefore="1155-05-17" notAfter="1155-05-17">1155 Mai 17</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Papst Hadrian IV . nimmt das Stift in Goslar in den apostolischen Schutz und bestätigt demselben seine Besitzungen, namentlich diejenigen in Schlanstedt und Wirschleben.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+         <div type="other">
+            <head>Echtheitskriterien: </head>
+            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
+         </div>
+         <div>
+            <head>Incipit:</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones:</head>
+            <diploPart type="subscriptio">
+               <list>
+                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+               </list>
+            </diploPart>
+         </div>
+         <div>
+            <head>Datatio:</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+             <head>Frühester Überlieferungsträger</head>
+            <div>
+            <listBibl>   
+               <bibl type="original">Ausfertigung: StadtA Goslar, Domstift Urkunde Nr. 19 ( A ). Pergament, italienisch, 51,6-51,8. × 56,3-56,6 (3,2-3,5). Die Rota mit Devise: Oculi mei semper ad dominum , im inneren Feld, geteilt durch Kreuz: SANCTUS PETRUS / SANCTUS PAULUS / ADRI / ANUS / P ( A ) P ( A )/ IIII . Blei- bulle an roten und gelben Seidenfäden, D .: 3,3 cm, auf der Aversseite die Inschrift ADRI / ANUS / P ( A ) P ( A )/ IIII , auf der Reversseite die Köpfe der Apostel Petrus und Paulus, getrennt durch ein Kreuz, darüber S ( ANCTUS ) PA ( ULUS ) S ( ANCTUS ) PE ( TRUS ) . Rückvermerk (12. Jh.): Privilegium Goslariensis ecclesię (14. Jh.) domini Adriani (andere Hand, 14. Jh.) in registro II .</bibl>
+               <bibl type="msCopy">Abschriften: DomB Hildesheim, Hs 535 fol. 4 v -5 r Nr. 2 ( B ). – NLA -Hannover, Cop. VI 11 Nr. 555, 1943 verbrannt ( C ). – StadtA Goslar, Domstift Kopialbuch B p. 14 f. Nr. 2 ( D ). – StadtA Goslar, Domstift Urkunde Nr. 427 ( E ), Transsumpt in der Urkunde des Notars Bertold byme Se von 1380 September 30. – LHA Sachsen Anhalt, Rep. Cop. Nr. 5 fol. 33 r -34 r Nr. 18 ( F ).</bibl>
+               <bibl type="print">Drucke: Heineccius, Antiquitates Goslarienses S. 152 f. – Leuckfeld, Antiquitates Walckenredenses S. 200 f. Anm. ll. – CDA I , 1 Nr. 410. – PL 188 Sp. 1420 f. Nr. 48. – UB Goslar I Nr. 233.</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Dolle, Papsturkunden, S. 207–208, Nr. 93</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL 10062</bibl>
+               <bibl>Regesten: J Nr. 6874. – JL Nr. 10062. – GP V /2, VI S. 156 Nr. 18. – Hempel, Inventarium I Sp. 92. Regest von E : UB Goslar V Nr 405. Abbildungen der Bleibulle: Diekamp, Urkundenwesen, zwischen S. 626 u. 627 Nr. 2 u. 17. – Serafini, Le monete I S. 27, Abb. H 9. – Fees / Roberg, Digitale Urkundenbilder IV Taf. 15 u. 16. Beschreibung der Bleibulle: Marnetté-Kühl, Siegel S. 62 f. Nr. G 2. Abbildung: Lichtbildarchiv Marburg, Zugangsnummer 8000.</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>a o o o o a auf Rasur, vermutlich über iulii ( A ).</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Weitere Referenzen als listBibl]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>x x x Adrianus episcopus servus servorum dei dilectis filiis canonicis Goslariensis ecclesie tam presentibus quam futuris canonice substituendis in perpetuum. x x x Effectum iusta postulantibus indulgere vigor ęquitatis et ordo exigit rationis, presertim quando petentium voluntatem et pietas adiuvat et veritas non relinquit. Eapropter, dilecti in domino filii, vestris iustis postulationibus clementer annuimus et prefatam ęcclesiam, in qua divino mancipati estis obsequio, sub beati Petri et nostra protectione suscipi- mus et presentis scripti privilegio communimus statuentes, ut quascumque possessio- nes, quęcumque bona eadem ęcclesia inpresentiarum iuste et canonice possidet aut in futurum concessione pontificum, largitione regum vel principum, oblatione fide- lium seu aliis iustis modis prestante domino poterit adipisci, firma vobis vestrisque successoribus et illibata permaneant, in quibus hęc propriis nominibus duximus ex- primenda. Possessionem videlicet, quam habetis in Slansteten, quam felicis memorię predecessor noster papa x x x Victor x x x secundus inter alias ęcclesię vestrę possessiones vobis suo privilegio et vestris antecessoribus confirmavit, possessionem quoque in Wischeribe, quam inclitę recordationis Conradus secundus Romanorum rex ad usus fratrum domino inibi famulantium pro remedio animę suę concessit, vobis et succes- soribus vestris auctoritate sedis apostolicę confirmamus. Decernimus ergo, ut nulli omnino hominum liceat prefatum monasterium temere perturbare aut eius posses- siones auferre vel ablatas retinere, minuere seu quibuslibet vexationibus fatigare, sed illibata omnia et integra conserventur eorum, pro quorum gubernatione et susten- tatione concessa sunt usibus omnimodis profutura, salva sedis apostolicę auctoritate et diocesani episcopi canonica iustitia. Siqua igitur in futurum ęcclesiatica secularisve persona hanc nostrę constitutionis paginam sciens contra eam temere venire tempta- verit, secundo tertiove commonita, nisi presumptionem suam digna satisfactione correxerit, potestatis honorisque sui dignitate careat reamque se divino iudicio existere de perpetrata iniquitate cognoscat et a sacratissimo corpore ac sanguine dei et domini redemptoris nostri Iesu Christi aliena fiat atque in extremo examine districte ultioni subiaceat. Cunctis autem eidem loco sua iura servantibus sit pax domini nostri Iesu Christi, quatinus et hic fructum bonę actionis percipiant et apud distric- tum iudicem premia ęternę pacis inveniant. x x x Amen. Amen. Amen. x x x (R.) Ego Adrianus catholicę ęcclesię episcopus subscripsi. (M.) † Ego Hubaldus presbyter cardinalis tituli sanctę Praxedis subscripsi. † Ego Manfredus presbyter cardinalis tituli sanctę Savinę subscripsi. † Ego Iulius presbyter cardinalis tituli sancti Marcelli subscripsi. † Ego Octavianus presbyter cardinalis tituli sanctę Cecilię subscripsi. † Ego Henricus presbyter cardinalis tituli sanctorum Nerei et Achillei subscripsi. † Ego Guido diaconus cardinalis sanctę Marię in Porticu subscripsi. † Ego Iohannes diaconus cardinalis sanctorum Sergii et Bachi subscripsi. † Ego Gerardus diaconus cardinalis sanctę Marię in Via lata subscripsi. † Ego Odo diaconus cardinalis sancti Nicholai in carcere Tulliano subscripsi. Dat. Sutrii per manum Rolandi sancte Romane ecclesię presbiteri cardinalis et can- cellarii, XVI kalendas iunii , indictione III , incarnationis dominicę anno M C L V , pontificatus vero domni Adriani pape IIII anno primo.</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

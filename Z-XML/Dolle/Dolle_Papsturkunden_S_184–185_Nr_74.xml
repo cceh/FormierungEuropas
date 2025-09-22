@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="dolle"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt>
+              <resp when="2024">Encoding:</resp>
+              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+           </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>Dolle, Papsturkunden, S. 184–185, Nr. 74</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Dolle, Papsturkunden, S. 184–185, Nr. 74</bibl><bibl type="jaffe">8927</bibl>
+            <diploDesc>
+               <issued>
+                  <placeName>Viterbo</placeName>
+                  <date type="issued" notBefore="1146-05-25" notAfter="1146-05-25">[1146] Mai 25</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Papst Eugen III . nimmt das Stift Fredelsloh auf Bitten des Propstes Bertram sowie der Brüder und Schwestern in den apostolischen Schutz, bestätigt dessen Besitz einschließlich der Kirchen in Oldendorf und Stöckheim und gewährt ihm freie Propstwahl.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+         <div type="other">
+            <head>Echtheitskriterien: </head>
+            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
+         </div>
+         <div>
+            <head>Incipit:</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones:</head>
+            <diploPart type="subscriptio">
+               <list>
+                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+               </list>
+            </diploPart>
+         </div>
+         <div>
+            <head>Datatio:</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+             <head>Frühester Überlieferungsträger</head>
+            <div>
+            <listBibl>   
+               <bibl type="original">Ausfertigung: NLA -Hannover, Cal. Or. 100 Fredelsloh Nr. 7 ( A ). Pergament, italienisch, 24,4-25 × 26-26,3 (2,5-2,6); Löcher im Pergament mit Textverlust. Bleibulle an gelben Seidenfäden, wie Nr. 73. Kanzleivermerk auf der Rückseite links unten: con . Rückvermerk (14. Jh.): Undecima in registro; (15. Jh.): Incorperacio a e[cclesie] Oldendorp; (andere Hand 15. Jh.): Eugenii pape.</bibl>
+               <bibl type="msCopy">Abschrift: Göttingen, Pius-Stiftung für Papsturkundenforschung, Nachlass Brackmann ( B ).</bibl>
+               <bibl type="print">Drucke: Stumpf, Acta Maguntina Nr. 32. – UB Fredelsloh Nr. 9. Auszug: Mainzer UB II , 1 Nr. 86.</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Dolle, Papsturkunden, S. 184–185, Nr. 74</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL 8927</bibl>
+               <bibl>Regesten: J Nr. 6246. – JL Nr. 8927. – GP IV / IV S. 341 Nr. 2. – Westfälisches UB V Nr. 25. – Gra- matzki, Fredelsloh S. 21 Nr. 11. Äußere Beschreibung: Pflugk-Harttung, Päpstliche Original-Urkunden Nr. 676. Abbildungen der Bleibulle: Diekamp, Urkundenwesen, zwischen S. 626 u. 627 Nr. 2 u. 13. – Mar- netté-Kühl, Siegel S. 61 f. Nr. G 1. – Serafini, Le monete I S. 26, Abb. H 6. – Fees / Roberg, Digitale Urkundenbilder IV Taf. 12. Abbildung: Lichtbildarchiv Marburg, Zugangsnummer 10041.</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Datiert nach dem Pontifikat. a so ( A ).</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Weitere Referenzen als listBibl]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>x x x Eugenius x x x episcopus servus servorum dei dilectis in Christo filiis Bertr[a]mmo p[re]posito ceterisque religiosis fratribus et sanctimonialibus ęcclesie beatę Marię sanctique Blasii in Fridesele salutem et apostolicam benedictionem. Quotiens illud a nobis petitur, quod religioni et honestati convenire dinoscitur, animo nos decet libenti concedere et petentium desideriis congruum impertiri suffragium. Eapropter, dilecti in domino filii, vestris iustis postulationibus debita benignitate gratum i[m]- pertientes assensum locum vestrum, in quo divino vacatis obsequio, [c]um o[mn]ibus pertinentiis suis sub beati Petri et nostra protect[ione] suscipim[us atque] duas ęccle- sias, u[na]m videlicet in Aldendorp et alteram in Stocheim, a Marcolfo archiepiscopo canonice vobis concessas, quascumque et[ia]m possessiones quecumque bona in presentiarum iuste et canonice possidetis aut in futurum rationabilibus modis pres- tante domino poteritis adipisci, vobis vestrisque successoribus per presentis scripti paginam confirmamus. Obeunte vero te nunc eiusdem loci preposito vel tuorum quolibet successorum nullus ibi qualibet subreptionis astutia seu violentia prepone- tur, nisi quem fratres eiusdem loci suę professionis communi assensu vel fratrum pars consilii sanioris secundum deum et beati Augustini regulam providerint eligen- dum. Si qua igitur in futurum ęcclesiastica secularisve persona huius nostrę confir- mationis paginam sciens contra eam temere venire temptaverit, secundo tertiove commonita, nisi reatum suum congrua satisfactione correxerit, ordinis et officii sui periculo subiaceat atque omnipotentis dei et beatorum Petri et Pauli apostolorum eius i[n]dignationem incurrat. Dat. Viterbi, VIII kl. iunii, pontificatus nostri anno secundo.</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

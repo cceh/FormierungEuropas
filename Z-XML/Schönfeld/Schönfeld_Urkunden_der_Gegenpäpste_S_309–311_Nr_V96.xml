@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="schoenfeld"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>Schönfeld, Urkunden der Gegenpäpste, S. 309–311, Nr. V96</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 309–311, Nr. V96</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
+            <diploDesc>
+               <issued><placeName>Lucca</placeName><date type="issued" notBefore="1164-04-18" notAfter="1164-04-18">1164, April 18</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage></profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Viktor IV . stellt das Stift S. Michiels in Antwerpen unter Abt Tebald unter päpst- lichen Schutz und bestätigt sämtliche Besitzungen, Rechte und die Gewohnheiten der Prämonstratenser.<list>
+               <item>[Listeneintrag 1]</item>
+            </list></p>
+         </div>
+         <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Religiosis votis dignum</diploPart></div>
+         <div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>Rota-Inschrift: Rota-Inschrift: sanctus Petrus / sanctus Paulus / Vic papa / tor IIII</item><item>Rota-Devise: Rota-Devise: Tu es gloria mea, tu es susceptor meus, tu exaltas [ caput meum domine ]</item><item>Bene Valete: x</item><item>Komma: –</item><item>Subskriptionen: –</item></list><list><item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item></list></diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">[ Datum Luce per manum Iohannis sancte Romane ecclesie presbiteri cardinalis et cancellarii, XIIII kalendas maii indictione XII incarnationis dominice anno MCLXV , pontificatus vero dompni Victoris pape IIII anno V . ] [Die Datierung wurde dem Druck Ramackers᾽ entnommen. Auf der digitalen Abbildung liegt ein Lineal auf der einschlägigen Stelle, offenbar, um die Plica beiseitezuhalten.]</diploPart></div>
+         <div type="msSources">
+             <head>Frühester Überlieferungsträger</head>
+            <div>
+            <listBibl>   
+               <bibl type="original">Original, Averbode, Abteiarchiv, 3. Abt. Urk. Nr. 8 [A];</bibl>
+               <bibl type="msCopy">[handschriftliche Kopie]</bibl>
+               <bibl type="print">[Druck]</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 309–311, Nr. V96</bibl>
+               <bibl>Goetschalckx: Oorkondenboeck, S. 37, Nr. 19; Ramackers: Papsturkunden in den Niederlanden, S. 243, Nr. 109;</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>[Regest 1]</bibl>
+               <bibl>Mayr: Der Pontifikat, S. 135, Nr. 88; Abb. dig.: PH Averbode, Abteiarchiv.</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc><p>[Text und Inhalte Diplomatischer Kommentar]</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>[Inhalt des Sachkommentars. Bibliographische Referenzen werden als Bibliographische Angabe getagged.]</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+         <listBibl>
+            <bibl>[Weitere Referenzen als listBibl]</bibl>
+         </listBibl>
+         </div>
+         <div type="note"><head>Notizen</head><p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>Text (Transkription d. Verf.): Victor episcopus servus servorum dei. Dilectis filiis Tebaldo abbati ecclesie sancti Michaelis de Antwerpia eiusque fratribus tam presentibus quam futuris regularem vitam professis in perpetuum. Religiosis votis dignum est facilem prebere consensum et devota petitio, quę a rationis tramite non discordat, celerem sortiri debet effectum. Eapropter, dilecti in [ domino ] filii, vestris iustis postulationibus benignum prebentes assensum clementer annuimus et predecessoris nostri felicis memorię papę Eugenii vestigiis inherentes prefatum locum, in quo divino mancipati estis obsequio, sub beati Petri et nostra protectione suscipimus et presentis scripti privilegio communimus. In primis statuentes, ut ordo canonicus, qui secundum deum et beati Augusti regulam et Premonstratensium fratrum ordinem in eodem loco noscitur institutus, perpetuis ibidem temporibus inviolabiliter observetur. Confirmamus vobis etiam hoc, quod canonici sanctę Marię per manum atque privilegium venerabilis fratris nostri Nic [ olai ] [ Cameracensis ] episcopi vobis concesserunt, videlicet ut in pascha atque pentecosten baptisterium celebrandi licentiam habeatis, infirmos quoque omni tempore intra parrochiam ipsorum visitandi oleoque sacro perungendi ac mortuos sepeliendi. Oblationes quoque, quę in ecclesia vestra vel in cappellis vestris omni tempore offeruntur, predicti canonici vobis habendas concesserunt, exceptis his, quę pro parrochianis eorum offeruntur, qui in vita sua religionis habitum minime receperunt. Preterea quascumque possessiones, quecumque bona eadem ecclesia in presentiarum iuste et canonice possidet aut in futurum concessione pontificum, largitione regum vel principum, oblatione fidelium seu aliis iustis modis deo propitio poterit adipisci, firma vobis vestrisque successoribus et illibata permaneant. In quibus hęc propriis duximus exprimenda vocabulis: curtem Potflit cum duobus molendinis, Novam curtem, curtem Harincrode, curtem Ossele, curtem Parcum, curtem Halterle, curtem Marcblas, terram Wortele cum tertia parte decimarum eiusdem villę, curtem Haga, curtem Hockesele, terram Santflit cum quinto manipulo segetum et duabus partibus decimarum eiusdem villę, terram in Berendrecht, terram in Linlo, terram in Orderen, terram in Wilmardunc, terram in Abendunc, terram super Mur, terram in Akerne, terram in Steburgenwert, terram in Burcherwar, curtem, in qua sorores vestrę habitant cum libertate ecclesię earumdem sororum, piscationem [ Hu ] ntemuden, piscationem anchorarum, quotquot habere potueritis, sicut Iordanus de Beverna pietatis intuitu vobis noscitur concessisse, cum mancipiis et pascuis et nemoribus et mansuris. Obeunte v [ ero t ] e nunc eiusdem loci abbate vel tuorum quolibet successorum, nullus ibi qualibet subreptionis astutia seu violentia preponatur, nisi quem fratres communi consensu vel fratrum pars [ consilii ] sanioris secundum dei timorem et beati Augustini regulam providerint eligendum. Nulli etiam fratrum vestrorum post factam in eodem loco profess [ ionem absque abbatis licentia ] fas sit aliqua levitate de claustro discedere, discedentem vero sine communium litterarum cautione nullus audeat [ re ] tin [ ere ] . Liceat vobis insuper, si quando generale supervenerit [ interdictu ] m, clausis ianuis, exclusis excommunicatis et interdictis divina officia celebrare. Sancimus etiam, ut ecclesia vestra ab omni episcoporum nova et indebita exaction [ ne libe ] ra semper et quieta permaneat. Sane decimas novalium vestrorum et earum terrarum vestri iuris, quas cotidiani maris fluctus opprimunt, si [ eas ] quolibet labore vel sumptu ab eisdem fluctibus defendere forte potueritis, sive de nutrimentis vestrorum animalium nullus a vobis presumat exigere. Decernimus ergo, ut nulli omnino hominum liceat prefatam ecclesiam temere perturbare aut eius possessiones auferre vel ablatas retinere, minuere seu quibuslibet vexationibus fatigare, sed illibata omnia et integra conserventur eorum, pro quorum gubernatione et sustentatione concessa sunt, usibus omnimodis profutura. Salva sedis apostolicę auctoritate et diocesani episcopi canonica iustitia. Vestimenta quoque sacerdotalia seu levitica, pallas altaris et corporalia benedicendi tibi, fili abba, licentiam attribuimus. Si qua igitur in futurum ecclesiastica secularisve persona, hanc nostrę constitutionis paginam sciens, contra eam temere venire temptaverit, secundo tertiove commonita, nisi presumptionem suam congrua satisfactione correxerit, potestatis honorisque sui dignitate careat reamque se divino iudicio existere de perpetrata iniquitate cognoscat et a sacratissimo corpore ac sanguine dei et domini redemptoris nostri Ihesu Christi aliena fiat atque in extremo examine districte ultioni subiaceat. Cunctis autem eidem loco sua iura servantibus sit pax domini nostri Ihesu Christi, quatinus et hic fructum bone actionis percipiant et apud districtum iudicem premia eternę pacis inveniant. Amen, Amen, Amen.</p></div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

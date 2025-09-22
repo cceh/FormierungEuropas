@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="dolle"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt>
+              <resp when="2024">Encoding:</resp>
+              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+           </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>Dolle, Papsturkunden, S. 196, Nr. 85</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Dolle, Papsturkunden, S. 196, Nr. 85</bibl><bibl type="jaffe">9526</bibl>
+            <diploDesc>
+               <issued>
+                  <placeName>Segni</placeName>
+                  <date type="issued" notBefore="1152-01-09" notAfter="1152-01-09">[1152] Januar 9</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Papst Eugen III . fordert Bischof H (ermann) von Verden auf, dafür zu sorgen, dass dem Kloster Kemnade die Güter, die durch Hugold, dem Bruder des Bischofs, entfremdet wur- den, restituiert werden.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+         <div type="other">
+            <head>Echtheitskriterien: </head>
+            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
+         </div>
+         <div>
+            <head>Incipit:</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones:</head>
+            <diploPart type="subscriptio">
+               <list>
+                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+               </list>
+            </diploPart>
+         </div>
+         <div>
+            <head>Datatio:</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+             <head>Frühester Überlieferungsträger</head>
+            <div>
+            <listBibl>   
+               <bibl type="original">Ausfertigung fehlt.</bibl>
+               <bibl type="msCopy">Abschriften: StA Lüttich, Abbaye de Stavelot-Malmédy Ms 341 fol. 120 v Nr. 336 ( B ) mit Überschrift: Idem papa 1 Ferdensi episcopo . – GWLB Hannover, Ms XXIII 1132 fol. 64 r ( C ). – Göttingen, Pius- Stiftung für Papsturkundenforschung, Nachlass Brackmann ( D ).</bibl>
+               <bibl type="print">Drucke: Martène-Durand, Collectio II Sp. 508 f. Nr. 336. – PL 180 Sp. 1493 f. Nr. 474. – Jaffé, Bib- liotheca I Nr. 359. – Behr-Negendank, Urkunden V Nr. 603. – UB Verden I Nr. 120. – Hartmann, Briefbuch II S. 697 f. Brief 333 ( J 359).</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Dolle, Papsturkunden, S. 196, Nr. 85</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL 9526</bibl>
+               <bibl>Regesten: J Nr. 6610. – JL Nr. 9526. – GP V /1, V S. 124 Nr. 128 u. S. 213 Nr. 29. – Wauters, Table chronologique II S. 348. – Westfälisches UB II Nr. 1769. – Westfälisches UB V Nr. 92. – Ortmanns, Bistum Minden S. 151 Nr. 24. – Wurst, Bischof Hermann S. 184 Nr. 11.</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Zur Datierung siehe Nr. 83 Vorbemerkung. Zu den genannten Personen und dem Hintergrund vgl. UB Verden I Nr. 120 Anm. 1-3. a b c d e f g g a fehlt; ergänzt nach dem Kanzleibrauch ( B ). b korrigiert aus maxime ( B ). c das erste e auf Rasur ( B ). d u auf Rasur ( B ). e das zweite d korrigiert ( B ). f hinter dem e ein Buchstabe ra- diert ( B ). f-f Dat. ut supra ( B ); bezieht sich auf Nr. 84. 1 Gemeint ist Eugen III .</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Weitere Referenzen als listBibl]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>[Eugenius episcopus servus servorum dei venerabili fratri H(ermanno) Ferdensi epis- copo salutem et apostolicam benedictionem.] Si universalis ęcclesię curam, quam gerendam deo auctore suscepimus, diligenti consideratione pensemus, providendum nobis est, ut omnibus fidelibus, illis maxime, qui specialiter ad tutelam nostram spectare noscuntur, taliter suam iusticiam conservemus, ut sub optentu subtractę iusticię in sui rigore officii non debeant negligentes existere. Dilecti filii nostri W(ibaldi) Corbeiensis abbatis nuper suggestione didicimus , quod Hungoldus frater tuus, unde valde miramur, W(altardus) et Ge(rhardus) et quidam alii parrochiani tui bona Kaminatensis ecclesię, quę ad ius ipsius spectare dinoscitur, violenter auferant et iniuste detineant. Quia igitur ecclesiastica bona et pręcipue Corbeiensis ęcclesię et quę ad ipsam spectant sub defensione et tutela nostra consistunt, pręsentium tibi auctoritate mandamus, quatinus germanum tuum et alios pręfatos invasores districte commoneas, ut pręfatę ęcclesię ablata restituant et ab eius infestatione desistant. Quod si tuis monitis obtemperare noluerint, debitam de ipsis iusticiam facias. Dat. Signię, V . idus ianuarii.</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

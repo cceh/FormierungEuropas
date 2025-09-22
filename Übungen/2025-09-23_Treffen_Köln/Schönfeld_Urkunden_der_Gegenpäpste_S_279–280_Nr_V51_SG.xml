@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI source="schoenfeld" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>SG</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>Schönfeld, Urkunden der Gegenpäpste, S. 279–280, Nr. V51</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 279–280, Nr. V51</bibl><bibl type="jaffe">14452</bibl>
+            <diploDesc>
+               <issued>
+                  <placeName>Lodi</placeName>
+                  <date type="issued" notBefore="1161-06-26" notAfter="1161-06-26">(1161, Juni 26)</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">Viktor IV.</legalActor></p>
+               <p><legalActor type="recipient">Balduin, Abt des Klosters Liesborn</legalActor></p><p><legalActor type="recipient">Gunther, Propst von Lippoldsberg</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Papsturkunde</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">Litterae cum filo canapis</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Viktor IV . befiehlt Balduin, Abt des Klosters Liesborn, und Gunther, Propst von Lippoldsberg, die durch den Priester Egerich gegen verschiedene Kleriker, Laien und Ritter vorgebrachten Klagen zu untersuchen. Sie sollen die Beklagten dazu anzuhalten, die zugefügten Schäden innerhalb von 40 Tagen nach Erhalt des Schreibens wieder gut zu machen und bei Zuwiederhandlung kanonische Strafen über sie verhängen.</p><p><list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+         <div type="other">
+            <head>Echtheitskriterien: </head>
+            <authen type="formula" n="na"><p>-</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
+         </div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Lator presentium presbiter Egrich in</diploPart></div>
+         <div>
+            <head>Subscriptiones:</head>
+            <diploPart type="subscriptio">
+               <list>
+                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+               </list>
+            </diploPart>
+         </div>
+         <div>
+            <head>Datatio:</head>
+            <diploPart type="datatio">Datum Laude, VI kalendas iulii.</diploPart>
+         </div>
+         <div type="msSources">
+             <head>Frühester Überlieferungsträger</head>
+            <div>
+            <listBibl>   
+               <bibl type="original">Original, Marburg, Hessisches StA, Kl. Lippoldsberg (1161) Juni 26</bibl>
+               <bibl type="msCopy">[handschriftliche Kopie]</bibl>
+               <bibl type="print">[Druck]</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 279–280, Nr. V51</bibl>
+               <bibl>Stumpf-Brentano: Acta Maguntina, S. 76</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL 14452</bibl>
+               <bibl>GP IV, S. 291, Nr. 4</bibl><bibl>GP IX, S. 86, Nr. 5</bibl><bibl>Weiers: Studien, S. 146, Nr. 5</bibl><bibl>Mayr: Der Pontifikat, S. 111, Nr. 37</bibl><bibl>Bischoff: Urkundenformate im Mittelalter, S. 140</bibl><bibl>Abb. dig.: PH LBA, Nr. 14737 https://urkundenrepositorium.uni-marburg.de/handle/lba/14737</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>[Inhalt des Sachkommentars. Bibliographische Referenzen werden als Bibliographische Angabe getagged.]</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[bibl]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>Text (Transkription d. Verf.): Victor episcopus servus servorum dei. Dilectis filiis Balduino abbati Lesbernensi et Guntero preposito montis Lupoldi salutem et apostolicam benedictionem. Lator presentium presbiter Egrich in apostolice sedis audientia conquestus est, quod quidam clericus nomine Lambertus cum quodam laico E. domum suam violenter intravit et ecclesie sua plurima bona iniuste diripuit. Asseruit etiam, quod predictus E. mansum unum et tres agros ad ecclesiam pertinentes contra iustitiam occupavit et quod H. duos agros eiusdem ecclesie iniuste detinetur et quod tres milites C., H., E. predicto E. sibi de LX . solidis fide iusserunt et ei nullam solutionem exhiberi fecerunt. Insuper etiam sua nobis questione monstravit, quod quidam nomine B. XVI solidos ab antedicto Egrich ei mutuatos contempnat exsolvere. Quia igitur pastoralis officii cura constringimur expoliatis et oppressis consulere ac salubriter providere, discretioni vestre causam predicti Egrich et eius adversariorum audiendam et debito fine terminandam committimus per apostolica vobis scripta mandantes, ut infra XL dies post harum acceptionem predictos viros, de quibus querelam accepimus, predicto E. iustitiam exhibere districte commoneatis, quod, si vestro mandato ausu temerario stare contempserint, canonica censura illorum pertinaciam nostra auctoritate cohercere non pretermittatis.</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

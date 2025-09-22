@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="dolle"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt>
+              <resp when="2024">Encoding:</resp>
+              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+           </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>Dolle, Papsturkunden, S. 208–210, Nr. 94</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Dolle, Papsturkunden, S. 208–210, Nr. 94</bibl><bibl type="jaffe">10545</bibl>
+            <diploDesc>
+               <issued>
+                  <placeName>Lateran</placeName>
+                  <date type="issued" notBefore="1157-02-17" notAfter="1159-02-17">[1157-1159] Februar 17</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Papst Hadrian IV . nimmt Kloster Rastede in den apostolischen Schutz, bestätigt seine namentlich genannten Besitzungen und die freie Abtswahl und bestimmt, dass die Mön- che vom Bremer Erzbischof die Weihen empfangen sollen, wenn diese unentgeltlich erteilt werden.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+         <div type="other">
+            <head>Echtheitskriterien: </head>
+            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
+         </div>
+         <div>
+            <head>Incipit:</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones:</head>
+            <diploPart type="subscriptio">
+               <list>
+                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+               </list>
+            </diploPart>
+         </div>
+         <div>
+            <head>Datatio:</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+             <head>Frühester Überlieferungsträger</head>
+            <div>
+            <listBibl>   
+               <bibl type="original">Ausfertigung fehlt.</bibl>
+               <bibl type="msCopy">Abschriften: NLA -Oldenburg, Best. 23-1 Ab Nr. 1 p. 85-87 ( B ). – NLA -Oldenburg, Slg. 80 Best. 296 Nr. 8-1 p. 91-95 ( C ) aus B .</bibl>
+               <bibl type="print">Druck: Oldenburgisches UB IV Nr. 5 (zu 1158).</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Dolle, Papsturkunden, S. 208–210, Nr. 94</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL 10545</bibl>
+               <bibl>Regesten: JL Nr. 10545 (zu 1159). – GP VI S. 125 f. Nr. 4. – Hamburgisches UB I Nr. 216. – Westfälisches UB V Nr. 118 (zu 1159).</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Die Indiktion verweist auf 1155, das Pontifikatsjahr auf 1157, die Historia monasterii Rastedensis hingegen auf 1159 (Waitz, Historia, S. 508). Hadrian IV . kann nur in den Jahren 1157-1159 für den 17. Februar im Lateran belegt werden. a b c d d e f g a o o o o a Initiale A fehlt ( B ). b secum ( B ). c davor a ( B ). d-d Nachtrag am Rand ( B ). e elegerit ( B ). f so statt fultus ( B ). g Nachtrag ( B ).</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Weitere Referenzen als listBibl]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>Adrianus episcopus servus servorum dei dilecto filio Donato abbati monasterii sancte Marie, quod in partibus Ambrie in villa, que dicitur Radestade, situm est, eiusque successoribus regulariter substituendis in perpetuum. Convenit apostolico moderamini pia semper religione pollentibus benivola semper compassione succur- rere et poscencium animis alacri devotione inpertiri assensum, ut ea, que pro quiete religiose conversationis sunt ordinata atque apostolica sede firmata, perpetuis tempo- ribus maneant inconcussa. Quocirca, dilecte in domino fili Donate abbas, tuis iustis postulacionibus gratum inpertientes assensum monasterium tibi commissum, quod ab Hunone comite et uxore eius Willa comitissa atque Friderico comite in honore sancte dei genetricis et virginis Marie, ut congregatio monachorum fieret, et communi patri omnium christianorum, scilicet beato Petro, oblatum est, ad exemplar beate memorie predecessoris nostri Calixti pape in ius Romane ecclesie et nostram defensio- nem suscipimus eique omnes, quas legitime obtinet, confirmamus possessiones, id est in Ambria duas partes ville Radestad cum tota decima, partem ville Henninchusen cum decima, Borbeke cum decima, decimam ville Lynsvidon, Berchorn, Loge, Mer- husen, Lynebrok, Ghelinde cum decima, a Goltwerf usque ad confinium Omestede in aquilonari parte, Wadenbike, Radehornan, in Frisia curias Varle, Ecwardi, Bonwardi, Tvislon, Nertin cum pratis et paludibus et appendiciis earum, in villa Enelinghe quinquaginta marcas cononum, Eveswerden, Witlike, Fronohusen, Wellen, Haroldes- hem, Barle, Godinge, duas virgas Scrothinh, Gevere, in Steringe curias Reninchusen, Brunen, Engelin, Inscinnen, Magilsin, Habbenhusen, in Westphalia villam Bet- tinchusen, Lefrinchusen, Geddinctorp, Smirlachen, Mardinge, Yslo, Haperne, Winstrin, Widinchusen, Brochusen, Harinctorp, Berder, Asscheberghen, Benethin- chusen, Holt hof cum ecclesiis et appendiciis earum, iuxta Wemnam Willenstede et Bocholt curias, Brocle cum pascuis , silvis et appendiciis earum, Quelenchorne, Wi- dagheshude, in Bardinge Totimesborch, Reynestorp curias cum ecclesiis et appen- diciis earum, villam Melichuden cum appendiciis suis, in Bardenwich XXX areas , censum de ponte et pascuis, ecclesiam Roden cum appendiciis suis, Remdale, Dal- sche, Hogerstorp, in Luneburch sex panstalia, preterea quascumque possessiones quecumque bona idem monasterium in presenciarum iuste et canonice possidet aut in futurum concessione pontificum, largitione imperatorum, oblatione fidelium seu aliis iustis modis deo propicio poterit adipisci, firma tibi tuisque successoribus et illi- bata permaneant. Obeunte vero te Donato nunc eiusdem loci abbate vel quolibet successorum tuorum nullus ibi qualibet subreptionis versucia vel violencia preficia- tur, nisi quem fratres communi consilio et consensu vel pars consilii sanioris iuxta dei timorem et beati Benedicti regulam elegerint . Sed si in suo collegio satis ydoneum ad hoc regimen invenire nequiverint, liceat eis a quocumque maluerint loco sui ordinis sueque professionis virum assumere. Ordinaciones quoque monachorum vestrorum, qui ad sacros ordines promovendi sunt, a Bremensi accipietis archiepiscopo, si tamen gratis et sine exactione vobis voluerit exhibere, alioquin liceat vobis catholicum, quem malueritis, adire antistitem, qui nimirum nostra functus autoritate, quod postulatur, indulgeat. Ad indicium autem iuris et defensionis Romane ecclesie duas uncias auri nobis nostrisque successoribus annis singulis persolvetis. Decernimus igitur, ut nulli omnino hominum liceat prefatum monasterium temere perturbare aut eius posses- siones auferre vel ablatas retinere, minuere aut aliquibus vexacionibus fatigare, sed omnia integra conserventur eorum, pro quorum gubernacione vel sustentacione concessa sunt usibus omnimodis pro futura, salva sedis apostolice auctoritate. Si qua igitur in futurum ecclesiastica secularisve persona hanc nostre constitucionis paginam sciens contra eam temere venire temptaverit, secundo tertiove ammonita, si non satisfactione congrua emendaverit, honoris potestatisque sue dignitate careat ream- que divino iudicio existere de perpetrata iniquitate cognoscat et a sanctissimo corpore et sanguine dei et domini redemptoris nostri Iesu Christi aliena fiat atque in extremo examine districte ulcioni subiaceat. Cunctis autem eidem loco iusta servantibus sit pax domini nostri Iesu Christi, quatinus et hic fructum bone actionis percipiant et apud districtum iudicem premia eterne pacis inveniant. Amen. Datum Laterani per manum Rolandi ecclesie sancte Romane presbiteri cardinalis et cancellarii, XIII . kl. marcii, indictione III , incarnationis dominice anno M C LVIII , pontificatus vero domini Adriani pape IIII . anno III .</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>
