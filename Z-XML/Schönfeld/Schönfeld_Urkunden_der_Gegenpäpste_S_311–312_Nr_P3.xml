@@ -8,10 +8,7 @@
                <resp>Datenquelle</resp>
                <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
             </respStmt>
-           <respStmt>
-              <resp when="2024">Encoding:</resp>
-              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
-           </respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -22,54 +19,35 @@
          <sourceDesc>
             <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 311–312, Nr. P3</bibl><bibl type="jaffe">14485</bibl>
             <diploDesc>
-               <issued>
-                  <placeName>Lucca</placeName>
-                  <date type="issued" notBefore="1164-05-03" notAfter="1164-05-03">1164, Mai 3</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               <issued><placeName>Lucca</placeName><date type="issued" notBefore="1164-05-03" notAfter="1164-05-03">1164, Mai 3</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">[Issuer]</legalActor></p>
                <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
                <p><objectType n="">[Typisierung 2]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
-            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
          </sourceDesc>
       </fileDesc>
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
-      <profileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
          <langUsage>
             <language ident="ger">German</language>
             <language ident="lat">Latin</language>
             <language ident="en-GB">English</language>
-         </langUsage>
-      </profileDesc>
+         </langUsage></profileDesc>
    </teiHeader>
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
             <p>Paschalis III . wiederholt in einem Rundschreiben eine einstige Aufforderung Innozenz᾽ II . an Erzbischöfe, Bischöfe, Äbte, Pröpste und weitere kirchliche Würdenträger, die Brüder des Hospitals zu unterstützen.<list>
-                  <item>[Listeneintrag 1]</item>
-               </list></p>
+               <item>[Listeneintrag 1]</item>
+            </list></p>
          </div>
-         <div type="other">
-            <head>Echtheitskriterien: </head>
-            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
-         </div>
-         <div>
-            <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">Quam amabilis [deo] et</diploPart>
-         </div>
-         <div>
-            <head>Subscriptiones:</head>
-            <diploPart type="subscriptio">
-               <list>
-                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
-               </list>
-            </diploPart>
-         </div>
-         <div>
-            <head>Datatio:</head>
-            <diploPart type="datatio">Datum Luce, […] nonas maii.</diploPart>
-         </div>
+         <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Quam amabilis [deo] et</diploPart></div>
+         <div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item></list></diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">Datum Luce, […] nonas maii.</diploPart></div>
          <div type="msSources">
              <head>Frühester Überlieferungsträger</head>
             <div>
@@ -105,8 +83,13 @@
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14485</bibl>
-               <bibl>Palumbo: Lo scisma, S. 657, Nr. 20; Schwarz: Herrscher- und Reichstitel, S. 320, Nr. 20; RI IV ,1,1, Nr. 232.</bibl>
+               <bibl>Delaville Le Roulx: Cartulaire, Bd. I, S. 234, Nr. 332 [vgl. Hiestand: Papsturkunden für Templer und Johanniter, Bd. II, S. 257, Nr. 57, S. 261, Nr. 62].</bibl>
             </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc><p>[Text und Inhalte Diplomatischer Kommentar]</p>
+            </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
@@ -114,14 +97,11 @@
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
-            <listBibl>
-               <bibl>[Weitere Referenzen als listBibl]</bibl>
-            </listBibl>
+         <listBibl>
+            <bibl>[Weitere Referenzen als listBibl]</bibl>
+         </listBibl>
          </div>
-         <div type="note">
-            <head>Notizen</head>
-            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>Text (Transkription d. Verf.): Paschalis episcopus servus servorum dei. Venerabilis fratribus archiepiscopis episcopis et dilectis filiis abbatibus, prepositis et universis ecclesiarum prelatis, ad quos littere iste pervenerint, salutem et apostolicam benedictionem. Quam amabilis [ deo ] et quam venerandus hominibus locus existat, quam etiam iocundum et utile receptaculum peregrinis et pauperibus prebeat Iherosolimitanum xenodochium, hii, qui per diversa maris et terre pericula, pie devotionis intuitu, civitatem sanctam Iherusalem et sepulchrum domini visitant, assidue recognoscunt. Ibi enim egentes et pauperes reficiuntur, infirmis multimoda humanitatis obsequia exhibentur et diversis laboribus atque periculis fatigati, resumptis viribus, recreantur, atque, ut ipsi ad sacrosancta loca domini nostri Ihesu Christi corporali presentia dedicata securius valeant proficisci, servientes, quos fratres eiusdem domus ad hoc officium specialiter deputatos propriis sumptibus retinent, cum oportunitas exigit, devote ac diligenter efficiunt. Quia ergo eisdem fratribus ad tantorum sumptuum inmensitatem facultates proprie non sufficiunt, caritatem vestram per apostolica scripta hortamur in domino, quatenus de vestra habundacia eorum inopiam suppleatis et populum vobis commissum ipsorum fraternitatem assumere et ad peregrinorum sustentationem collectas facere in peccatorum suorum remissionem frequentibus exhortationibus moneatis; hoc scientes, quoniam eandem hospitalem domum cum omnibus ad ipsam pertinentibus sub beati Petri et nostra protectione suscepimus et scripti nostri pagina communivimus. Et quicumque de facultatibus sibi a deo collatis ei subvenerit et in tam sancta fraternitate se collegam statuerit eique beneficia annuatim persolverit, septimam ei partem iniuncte penitentie, confisi de beatorum Petri et Pauli apostolorum meritis, indulgemus. Ob reverenciam quoque ipsius venerabilis domus auctoritate apostolica constituimus, ut hii, qui eorum fraternitatem assumpserint, si forte ecclesie, ad quas pertinent, fuerint interdicte eosque mori contigerit, eisdem ecclesiastica sepultura non negetur, nisi nominatim excommunicationis vinculo fuerint innodati. Adicientes insuper, ut, si qui eorundem fratrum, qui ad recipiendas easdem fraternitates vel collectas missi fuerint, in quamlibet civitatem, castellum vel vicum advenerint, si forte locus ipse a divinis officiis fuerit interdictus, in eorum adventu semel in anno aperiantur ecclesie et excommunicatis eiectis divina ibi celebrentur officia. Ad maiorem quoque vestre mercedis cumulum nichilominus vobis mandando precipimus, quatenus hanc nostram constitucionem per vestras parrochias propriis litteris nunciari faciatis. Preterea, si qui de clericis ecclesiarum vestrarum prefatis fratribus sponte vel gratis per annum vel biennium servire dec [ reveri ] nt, interim nos impediantur neque ecclesiasticos redditus amittant.</p>
-         </div>
+         <div type="note"><head>Notizen</head><p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>Text (Transkription d. Verf.): Paschalis episcopus servus servorum dei. Venerabilis fratribus archiepiscopis episcopis et dilectis filiis abbatibus, prepositis et universis ecclesiarum prelatis, ad quos littere iste pervenerint, salutem et apostolicam benedictionem. Quam amabilis [ deo ] et quam venerandus hominibus locus existat, quam etiam iocundum et utile receptaculum peregrinis et pauperibus prebeat Iherosolimitanum xenodochium, hii, qui per diversa maris et terre pericula, pie devotionis intuitu, civitatem sanctam Iherusalem et sepulchrum domini visitant, assidue recognoscunt. Ibi enim egentes et pauperes reficiuntur, infirmis multimoda humanitatis obsequia exhibentur et diversis laboribus atque periculis fatigati, resumptis viribus, recreantur, atque, ut ipsi ad sacrosancta loca domini nostri Ihesu Christi corporali presentia dedicata securius valeant proficisci, servientes, quos fratres eiusdem domus ad hoc officium specialiter deputatos propriis sumptibus retinent, cum oportunitas exigit, devote ac diligenter efficiunt. Quia ergo eisdem fratribus ad tantorum sumptuum inmensitatem facultates proprie non sufficiunt, caritatem vestram per apostolica scripta hortamur in domino, quatenus de vestra habundacia eorum inopiam suppleatis et populum vobis commissum ipsorum fraternitatem assumere et ad peregrinorum sustentationem collectas facere in peccatorum suorum remissionem frequentibus exhortationibus moneatis; hoc scientes, quoniam eandem hospitalem domum cum omnibus ad ipsam pertinentibus sub beati Petri et nostra protectione suscepimus et scripti nostri pagina communivimus. Et quicumque de facultatibus sibi a deo collatis ei subvenerit et in tam sancta fraternitate se collegam statuerit eique beneficia annuatim persolverit, septimam ei partem iniuncte penitentie, confisi de beatorum Petri et Pauli apostolorum meritis, indulgemus. Ob reverenciam quoque ipsius venerabilis domus auctoritate apostolica constituimus, ut hii, qui eorum fraternitatem assumpserint, si forte ecclesie, ad quas pertinent, fuerint interdicte eosque mori contigerit, eisdem ecclesiastica sepultura non negetur, nisi nominatim excommunicationis vinculo fuerint innodati. Adicientes insuper, ut, si qui eorundem fratrum, qui ad recipiendas easdem fraternitates vel collectas missi fuerint, in quamlibet civitatem, castellum vel vicum advenerint, si forte locus ipse a divinis officiis fuerit interdictus, in eorum adventu semel in anno aperiantur ecclesie et excommunicatis eiectis divina ibi celebrentur officia. Ad maiorem quoque vestre mercedis cumulum nichilominus vobis mandando precipimus, quatenus hanc nostram constitucionem per vestras parrochias propriis litteris nunciari faciatis. Preterea, si qui de clericis ecclesiarum vestrarum prefatis fratribus sponte vel gratis per annum vel biennium servire dec [ reveri ] nt, interim nos impediantur neque ecclesiasticos redditus amittant.</p></div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
    </text>

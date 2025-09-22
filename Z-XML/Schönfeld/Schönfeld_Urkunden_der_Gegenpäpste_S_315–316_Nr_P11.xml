@@ -8,10 +8,7 @@
                <resp>Datenquelle</resp>
                <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
             </respStmt>
-           <respStmt>
-              <resp when="2024">Encoding:</resp>
-              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
-           </respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -22,54 +19,35 @@
          <sourceDesc>
             <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 315–316, Nr. P11</bibl><bibl type="jaffe">14489</bibl>
             <diploDesc>
-               <issued>
-                  <placeName>Rom, S. Peter</placeName>
-                  <date type="issued" notBefore="1167-07-31" notAfter="1167-07-31">1167, Juli 31</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               <issued><placeName>Rom, S. Peter</placeName><date type="issued" notBefore="1167-07-31" notAfter="1167-07-31">1167, Juli 31</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">[Issuer]</legalActor></p>
                <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
                <p><objectType n="">[Typisierung 2]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
-            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
          </sourceDesc>
       </fileDesc>
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
-      <profileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
          <langUsage>
             <language ident="ger">German</language>
             <language ident="lat">Latin</language>
             <language ident="en-GB">English</language>
-         </langUsage>
-      </profileDesc>
+         </langUsage></profileDesc>
    </teiHeader>
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
             <p>Paschalis III . bestätigt dem Domstift zu Straßburg ein Edikt Kaiser Friedrichs I. (D F I *1146), das Regelungen zur Zinseintreibung enthält.<list>
-                  <item>[Listeneintrag 1]</item>
-               </list></p>
+               <item>[Listeneintrag 1]</item>
+            </list></p>
          </div>
-         <div type="other">
-            <head>Echtheitskriterien: </head>
-            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
-         </div>
-         <div>
-            <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">Immobili debet esse</diploPart>
-         </div>
-         <div>
-            <head>Subscriptiones:</head>
-            <diploPart type="subscriptio">
-               <list>
-                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
-               </list>
-            </diploPart>
-         </div>
-         <div>
-            <head>Datatio:</head>
-            <diploPart type="datatio">Datum Romę, apud sanctum Petrum, II kalendas augusti.</diploPart>
-         </div>
+         <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Immobili debet esse</diploPart></div>
+         <div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item></list></diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">Datum Romę, apud sanctum Petrum, II kalendas augusti.</diploPart></div>
          <div type="msSources">
              <head>Frühester Überlieferungsträger</head>
             <div>
@@ -105,8 +83,13 @@
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14489</bibl>
-               <bibl>Palumbo: Lo scisma, S. 659, Nr. 24.</bibl>
+               <bibl>GP III, S. 19, Nr. 6; Wentzcke: Regesten der Bischöfe von Strassburg, Bd. I/2, S. 343, Nr. 583; Schwarz: Herrscher- und Reichstitel, S. 331, Nr. 103; Abb. dig.: PH Arch. départ. du Bas-Rhin, Strassbourg.</bibl>
             </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc><p>[Text und Inhalte Diplomatischer Kommentar]</p>
+            </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
@@ -114,14 +97,11 @@
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
-            <listBibl>
-               <bibl>[Weitere Referenzen als listBibl]</bibl>
-            </listBibl>
+         <listBibl>
+            <bibl>[Weitere Referenzen als listBibl]</bibl>
+         </listBibl>
          </div>
-         <div type="note">
-            <head>Notizen</head>
-            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>Text (Transkription d. Verf.): Pascalis episcopus servus servorum dei. Dilectis filiis C [ onrado ] preposito, H. decano et ceteris canonicis maioris ecclesię Argentinensis salutem et apostolicam benedictionem. Immobili debet esse firmitate subnixum, quod imperialis statuit maiestas et apostolica confirmat auctoritas. Eapropter, dilecti in domino filii, vestris iustis postulationibus, quas nobis per dilectum filium nostrum Henr [ icum ] archidiaconum vestrum porrexistis, grato concurrentes assensu edictum imperiale, quod serenissimus imperator Fredericus semper augustus in episcopatu Argentinensi promulgavit et episcopus vester cum clero sub discrimine officii et beneficii affirmavit et populus iureiurando firmavit, devotioni vestrę apostolica auctoritate confirmamus et presenti scripti patrocinio communimus. Statuentes, ut secundum statuta eiusdem filii de cetero tributarii ecclesię vestrę statutis temporibus iura vobis absque contradictione persolvant, et, si contumaciter ea usque ad festum sancti Andręę retinere presumpserint et satisfacere neglexerint, a iure proprio cadant et, si proterve adhuc retinuerint, anathematis gladio feriantur. Et ad hęc adicimus, ut nemo ecclesiam aut atrium vestrę ecclesię violare presumat et, qui fecerit, excommunicatus et infamis, prout in statutis iam dicti filii nostri decretum est, usque ad condignam satisfactionem habeatur. Nulli ergo omnino hominum fas sit hanc nostrę confirmationis paginam temere infringere aut ei aliquatinus contraire. Si quis autem tributariorum et censualium sacerdos confirmationem nostram et edictum imperiale pronuntiare et summa diligentia servare neglexerit, post tertiam ammonitionem fratrum suspensum eum esse decernimus, donec episcopo et vobis satisfecerit.</p>
-         </div>
+         <div type="note"><head>Notizen</head><p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>Text (Transkription d. Verf.): Pascalis episcopus servus servorum dei. Dilectis filiis C [ onrado ] preposito, H. decano et ceteris canonicis maioris ecclesię Argentinensis salutem et apostolicam benedictionem. Immobili debet esse firmitate subnixum, quod imperialis statuit maiestas et apostolica confirmat auctoritas. Eapropter, dilecti in domino filii, vestris iustis postulationibus, quas nobis per dilectum filium nostrum Henr [ icum ] archidiaconum vestrum porrexistis, grato concurrentes assensu edictum imperiale, quod serenissimus imperator Fredericus semper augustus in episcopatu Argentinensi promulgavit et episcopus vester cum clero sub discrimine officii et beneficii affirmavit et populus iureiurando firmavit, devotioni vestrę apostolica auctoritate confirmamus et presenti scripti patrocinio communimus. Statuentes, ut secundum statuta eiusdem filii de cetero tributarii ecclesię vestrę statutis temporibus iura vobis absque contradictione persolvant, et, si contumaciter ea usque ad festum sancti Andręę retinere presumpserint et satisfacere neglexerint, a iure proprio cadant et, si proterve adhuc retinuerint, anathematis gladio feriantur. Et ad hęc adicimus, ut nemo ecclesiam aut atrium vestrę ecclesię violare presumat et, qui fecerit, excommunicatus et infamis, prout in statutis iam dicti filii nostri decretum est, usque ad condignam satisfactionem habeatur. Nulli ergo omnino hominum fas sit hanc nostrę confirmationis paginam temere infringere aut ei aliquatinus contraire. Si quis autem tributariorum et censualium sacerdos confirmationem nostram et edictum imperiale pronuntiare et summa diligentia servare neglexerit, post tertiam ammonitionem fratrum suspensum eum esse decernimus, donec episcopo et vobis satisfecerit.</p></div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
    </text>

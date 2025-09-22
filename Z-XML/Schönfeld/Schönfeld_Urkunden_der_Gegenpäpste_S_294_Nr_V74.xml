@@ -8,10 +8,7 @@
                <resp>Datenquelle</resp>
                <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
             </respStmt>
-           <respStmt>
-              <resp when="2024">Encoding:</resp>
-              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
-           </respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -22,54 +19,35 @@
          <sourceDesc>
             <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 294, Nr. V74</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
             <diploDesc>
-               <issued>
-                  <placeName>S. Jean de Losne</placeName>
-                  <date type="issued" notBefore="1162-09-04" notAfter="1162-09-04">(1162), September 4</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               <issued><placeName>S. Jean de Losne</placeName><date type="issued" notBefore="1162-09-04" notAfter="1162-09-04">(1162), September 4</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">[Issuer]</legalActor></p>
                <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
                <p><objectType n="">[Typisierung 2]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
-            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
          </sourceDesc>
       </fileDesc>
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
-      <profileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
          <langUsage>
             <language ident="ger">German</language>
             <language ident="lat">Latin</language>
             <language ident="en-GB">English</language>
-         </langUsage>
-      </profileDesc>
+         </langUsage></profileDesc>
    </teiHeader>
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
             <p>Viktor IV . bestätigt Abt G(irard) und den Kanonikern von Flône das Urteil in der Kontroverse zwischen den Abteien Flône und Heylissem, das Bischof Heinrich von Lüttich im Auftrag Viktors IV . gefällt hatte.<list>
-                  <item>[Listeneintrag 1]</item>
-               </list></p>
+               <item>[Listeneintrag 1]</item>
+            </list></p>
          </div>
-         <div type="other">
-            <head>Echtheitskriterien: </head>
-            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
-         </div>
-         <div>
-            <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">Quę a fratribus</diploPart>
-         </div>
-         <div>
-            <head>Subscriptiones:</head>
-            <diploPart type="subscriptio">
-               <list>
-                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
-               </list>
-            </diploPart>
-         </div>
-         <div>
-            <head>Datatio:</head>
-            <diploPart type="datatio">Datum Laone, II nonas septembris.</diploPart>
-         </div>
+         <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Quę a fratribus</diploPart></div>
+         <div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item></list></diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">Datum Laone, II nonas septembris.</diploPart></div>
          <div type="msSources">
              <head>Frühester Überlieferungsträger</head>
             <div>
@@ -108,20 +86,22 @@
                <bibl>Evrard: Docu- ments relatifs, S. 58; Reusens: Analectes, Bd. XXIII , S. 330, Nr. 28; W auters: Table chronologique des chartes, Bd. XI , S. 210; Mayr: Der Pontifikat, S. 122, Nr. 62; Abb. dig.: PH Liège, AdE, Flône.</bibl>
             </listBibl>
          </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc><p>[Text und Inhalte Diplomatischer Kommentar]</p>
+            </diploDesc>
+         </div>
          <div type="commentary">
             <head>Sachkommentar</head>
             <p>[Inhalt des Sachkommentars. Bibliographische Referenzen werden als Bibliographische Angabe getagged.]</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
-            <listBibl>
-               <bibl>[Weitere Referenzen als listBibl]</bibl>
-            </listBibl>
+         <listBibl>
+            <bibl>[Weitere Referenzen als listBibl]</bibl>
+         </listBibl>
          </div>
-         <div type="note">
-            <head>Notizen</head>
-            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>T ext (Transkription d. Verf.): Victor episcopus servus servorum dei. Dilectis filiis G. abbati totique capitulo Flonensis ęcclesię salutem et apostolicam benedictionem. Quę a fratribus nostris venerabilibus episcopis ęcclesiis conferuntur, apostolicis competit patrociniis confoveri et, ne pravorum inquietudine molestentur, confirmationis apostolice munimine roborari. Eapropter, dilecti in Christo filii, ęcclesiam beati Martini in Elencines a Renerio et Wigero vobis datam et concordiam inter vos et Girardum abbatem Elenicensem per venerabilem fratrem nostrum Hen. Leodiensem episcopum mandato nostro presentibus personis Leodiensibus super eadem ęcclesia postea factam cum omnibus bonis sive possessionibus a venerabilibus Leodiensis ęcclesię episcopis per privilegia vobis collata auctoritate apostolica confirmamus et presentis scripti patrocinio communimus. Conventionis autem seu concordię ordinem ad maiorem evidentiam presenti duximus pagina subnotandum: Flonensis ęcclesia predictam sancti Martini ęcclesiam superioris Elencienes in omni pace et iuris sui integritate retinebit, Helencienensis vero abbas, quamcumque agriculturam infra terminum decimationis Flonensium exercebit, de omni proventu decimas predicte Flonensi ęcclesię annuatim dabit, de decimatione tantum nutrimentorum dominicalis curia eorum immunis erit. Statuimus igitur, ut nulla ęcclesiastica secularisve persona prefatam donationem et concordiam seu aliorum bonorum collationem temere infringere vel violare presumat. Quicumque autem huic nostre confirmationi temere contraire temptaverit, indignationem beatorum apostolorum Petri et Pauli et nostram se noverit incursurum.</p>
-         </div>
+         <div type="note"><head>Notizen</head><p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>T ext (Transkription d. Verf.): Victor episcopus servus servorum dei. Dilectis filiis G. abbati totique capitulo Flonensis ęcclesię salutem et apostolicam benedictionem. Quę a fratribus nostris venerabilibus episcopis ęcclesiis conferuntur, apostolicis competit patrociniis confoveri et, ne pravorum inquietudine molestentur, confirmationis apostolice munimine roborari. Eapropter, dilecti in Christo filii, ęcclesiam beati Martini in Elencines a Renerio et Wigero vobis datam et concordiam inter vos et Girardum abbatem Elenicensem per venerabilem fratrem nostrum Hen. Leodiensem episcopum mandato nostro presentibus personis Leodiensibus super eadem ęcclesia postea factam cum omnibus bonis sive possessionibus a venerabilibus Leodiensis ęcclesię episcopis per privilegia vobis collata auctoritate apostolica confirmamus et presentis scripti patrocinio communimus. Conventionis autem seu concordię ordinem ad maiorem evidentiam presenti duximus pagina subnotandum: Flonensis ęcclesia predictam sancti Martini ęcclesiam superioris Elencienes in omni pace et iuris sui integritate retinebit, Helencienensis vero abbas, quamcumque agriculturam infra terminum decimationis Flonensium exercebit, de omni proventu decimas predicte Flonensi ęcclesię annuatim dabit, de decimatione tantum nutrimentorum dominicalis curia eorum immunis erit. Statuimus igitur, ut nulla ęcclesiastica secularisve persona prefatam donationem et concordiam seu aliorum bonorum collationem temere infringere vel violare presumat. Quicumque autem huic nostre confirmationi temere contraire temptaverit, indignationem beatorum apostolorum Petri et Pauli et nostram se noverit incursurum.</p></div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
    </text>

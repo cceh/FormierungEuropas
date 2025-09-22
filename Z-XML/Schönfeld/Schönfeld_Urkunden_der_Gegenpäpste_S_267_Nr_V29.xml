@@ -8,10 +8,7 @@
                <resp>Datenquelle</resp>
                <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
             </respStmt>
-           <respStmt>
-              <resp when="2024">Encoding:</resp>
-              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
-           </respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -22,54 +19,35 @@
          <sourceDesc>
             <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 267, Nr. V29</bibl><bibl type="jaffe">14439</bibl>
             <diploDesc>
-               <issued>
-                  <placeName>Parma</placeName>
-                  <date type="issued" notBefore="1160-06-24" notAfter="1160-06-24">(1160), Juni 24</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               <issued><placeName>Parma</placeName><date type="issued" notBefore="1160-06-24" notAfter="1160-06-24">(1160), Juni 24</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">[Issuer]</legalActor></p>
                <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
                <p><objectType n="">[Typisierung 2]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
-            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
          </sourceDesc>
       </fileDesc>
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
-      <profileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
          <langUsage>
             <language ident="ger">German</language>
             <language ident="lat">Latin</language>
             <language ident="en-GB">English</language>
-         </langUsage>
-      </profileDesc>
+         </langUsage></profileDesc>
    </teiHeader>
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
             <p>Viktor IV . bittet König Ludwig VII . von Frankreich um gütige Aufnahme seiner Legaten Kaplan T. und Stephanus sowie um seine Antwort.<list>
-                  <item>[Listeneintrag 1]</item>
-               </list></p>
+               <item>[Listeneintrag 1]</item>
+            </list></p>
          </div>
-         <div type="other">
-            <head>Echtheitskriterien: </head>
-            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
-         </div>
-         <div>
-            <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">De nobilitatis ac</diploPart>
-         </div>
-         <div>
-            <head>Subscriptiones:</head>
-            <diploPart type="subscriptio">
-               <list>
-                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
-               </list>
-            </diploPart>
-         </div>
-         <div>
-            <head>Datatio:</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
-         </div>
+         <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">De nobilitatis ac</diploPart></div>
+         <div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item></list></diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart></div>
          <div type="msSources">
              <head>Frühester Überlieferungsträger</head>
             <div>
@@ -105,8 +83,13 @@
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14439</bibl>
-               <bibl>GP V/2, S. 34, Nr. 49; ibid., S. 93, Nr. 1; Doebner: Urkundenbuch der Stadt Hildesheim, Bd. I, S. 4, Nr. 11; Santifaller: Saggio, Bd. I, S. 384; Krafft: Bene Valete, S. 217; Dahlhaus: Rota oder Unterschrift, S. 292; Abb. dig.: PH Goe; Abb. ana.: Pflugk-Harttung: Specimina, Bd. I, Taf. 28; Dahlhaus: Aufkommen und Bedeutung der Rota, S. 419, Abb. 14; DIGUB II /2, Taf. 3; Lit.: Pflugk-Harttung: Acta, Bd. I, S. 26, Nr. 30; ders.: Die Bullen der Päpste, S. 180 f.; Kehr: Scrinium und palatium, S. 82, S. 89; Santifaller: Liber Diurnus, S. 129; Amanieu: Antipape, Sp. 598 – 622; Dehio: Hand- buch der deutschen Kunstdenkmäler, S. 486; Dahlhaus: Aufkommen und Bedeutung der Rota, S. 419; Hirschmann: Die päpstliche Kanzlei, S. 244; Hägermann: Das Papsttum am Vorabend, S. 63, Anm. 23 f.; Krafft: Bene Valete, S. 25, S. 217, S. 253; Dahlhaus: Rota oder Unterschrift, S. 292; Johrendt: Rusticano stilo, S. 171 f.; Laudage: Kampf um den Stuhl Petri, S. 82 f.</bibl>
+               <bibl>Mayr: Der Pontifikat, S. 95, Nr. 18.</bibl>
             </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc><p>[Text und Inhalte Diplomatischer Kommentar]</p>
+            </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
@@ -114,14 +97,11 @@
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
-            <listBibl>
-               <bibl>[Weitere Referenzen als listBibl]</bibl>
-            </listBibl>
+         <listBibl>
+            <bibl>[Weitere Referenzen als listBibl]</bibl>
+         </listBibl>
          </div>
-         <div type="note">
-            <head>Notizen</head>
-            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p>
-         </div>
+         <div type="note"><head>Notizen</head><p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p></div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
    </text>

@@ -8,10 +8,7 @@
                <resp>Datenquelle</resp>
                <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
             </respStmt>
-           <respStmt>
-              <resp when="2024">Encoding:</resp>
-              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
-           </respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -22,54 +19,35 @@
          <sourceDesc>
             <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 305–306, Nr. V92</bibl><bibl type="jaffe">14480</bibl>
             <diploDesc>
-               <issued>
-                  <placeName>Cremona</placeName>
-                  <date type="issued" notBefore="1163-09-07" notAfter="1163-09-07">1163, vor September 7</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               <issued><placeName>Cremona</placeName><date type="issued" notBefore="1163-09-07" notAfter="1163-09-07">1163, vor September 7</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">[Issuer]</legalActor></p>
                <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
                <p><objectType n="">[Typisierung 2]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
-            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
          </sourceDesc>
       </fileDesc>
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
-      <profileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
          <langUsage>
             <language ident="ger">German</language>
             <language ident="lat">Latin</language>
             <language ident="en-GB">English</language>
-         </langUsage>
-      </profileDesc>
+         </langUsage></profileDesc>
    </teiHeader>
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
             <p>Viktor IV . stellt das Kloster S. Martin de Glandières unter Abt Folmar unter seinen Schutz und bestätigt sämtliche Besitzungen.<list>
-                  <item>[Listeneintrag 1]</item>
-               </list></p>
+               <item>[Listeneintrag 1]</item>
+            </list></p>
          </div>
-         <div type="other">
-            <head>Echtheitskriterien: </head>
-            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
-         </div>
-         <div>
-            <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">Apostolice sedis consuetudo</diploPart>
-         </div>
-         <div>
-            <head>Subscriptiones:</head>
-            <diploPart type="subscriptio">
-               <list><item>Rota-Inschrift: Rota-Inschrift: sanctus Petrus / sanctus Paulus / Vic papa / tor IIII</item><item>Rota-Devise: Rota-Devise: Tu es gloria mea, tu es susceptor meus, tu exaltas caput meum domine</item><item>Bene Valete: x</item><item>Komma: –</item><item>Subskriptionen: –</item></list><list>
-                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
-               </list>
-            </diploPart>
-         </div>
-         <div>
-            <head>Datatio:</head>
-            <diploPart type="datatio">Datum Cremonę per manum lohannis sanctę Romanę ecclesię presbiteri cardinalis et cancellarii, indictione XI incarnationis dominicę anno MCLXIII , pontificatus vero dompni Victoris pape IIII anno IIII .</diploPart>
-         </div>
+         <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Apostolice sedis consuetudo</diploPart></div>
+         <div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>Rota-Inschrift: Rota-Inschrift: sanctus Petrus / sanctus Paulus / Vic papa / tor IIII</item><item>Rota-Devise: Rota-Devise: Tu es gloria mea, tu es susceptor meus, tu exaltas caput meum domine</item><item>Bene Valete: x</item><item>Komma: –</item><item>Subskriptionen: –</item></list><list><item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item></list></diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">Datum Cremonę per manum lohannis sanctę Romanę ecclesię presbiteri cardinalis et cancellarii, indictione XI incarnationis dominicę anno MCLXIII , pontificatus vero dompni Victoris pape IIII anno IIII .</diploPart></div>
          <div type="msSources">
              <head>Frühester Überlieferungsträger</head>
             <div>
@@ -105,8 +83,13 @@
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14480</bibl>
-               <bibl>Palumbo: Lo scisma, S. 655, Nr. 15.</bibl>
+               <bibl>Meinert: Papsturkunden in Frankreich, Bd. I, S. 346, Nr. 195; Parisse: Bullaire, S. 53, Nr. 251; Mayr: Der Pontifikat, S. 131, Nr. 80; Abb. dig.: PH Goe.</bibl>
             </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc><p>[Text und Inhalte Diplomatischer Kommentar]</p>
+            </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
@@ -114,14 +97,11 @@
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
-            <listBibl>
-               <bibl>[Weitere Referenzen als listBibl]</bibl>
-            </listBibl>
+         <listBibl>
+            <bibl>[Weitere Referenzen als listBibl]</bibl>
+         </listBibl>
          </div>
-         <div type="note">
-            <head>Notizen</head>
-            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>Text (Transkription d. Verf.): Victor episcopus servus servorum dei. Dilectis filiis Folmaro abbati monasterii sancti Martini Glandariensis eiusque successoribus regulariter substituendis in perpetuum. Apostolice sedis consuetudo deposcit et ipse rationis ordo persuadet, ut religiosorum vota facilem sortiantur effectum et pie postulatio voluntatis effectu debeat prosequente compleri. Eapropter, dilecte in domino fili abbas, tuis iustis postulationibus benignum prebentes assensum monasterium Glandariense, in quo preesse dinosceris, sub beati Petri et nostra protectione suscipimus et presentis scripti patrocinio communimus. Statuentes, ut, quascumque possessiones, quecumque bona idem monasterium in presentiarum iuste et canonice possidet aut in futurum concessione pontificum, largitione regu [ m ] vel principum, oblatione fidelium seu aliis iustis modis prestante domino [ pot ] erit adipisci, firma tibi tuisque successoribus et illibata permaneant. In quibus hec propriis duximus exprimenda vocabulis: ecclesiam de Mernichacum conductu (!) suo et omni decimatione ipsius villę, in qua e [ a ] dem ecclesia fundata est, decimam villę, quę dicitur Bubinga, decimam villę, quę vocatur Mecera, decimam alterius villę, quę dicitur Opemh, decimam quoque villę, quę nominatur Nedreheim, preterea decimam villę, quę vocatur Argenta. Decernimus ergo, ut nulli omnino liceat prefatum monasterium temere perturbare aut eius possessiones auferre vel ablatas retinere, minuere seu aliquibus vexationibus fatigare, sed omnia illibata et integra conserventur eorum, pro quorum gubernatione et sustentatione concessa sunt, usibus omnimodis profutura. Salva in omnibus apostolicę sedis reverentia et diocesani episcopi canonica iustitia. Si qua igitur in futurum ecclesiastica secularisve persona, hanc nostrę constitutionis paginam sciens, contra eam temere venire temptaverit, secundo tertiove commonita, nisi presumtionem suam digna satisfactione correxerit, potestatis honorisque sui dignitate careat reamque se divino iudicio existere de perpetrata iniquitate cognoscat et a sacratissimo corpore ac sanguine dei et domini redemptoris nostri Ihesu Christi aliena fiat atque in extremo examine [ di ] vine ultioni subiaceat. Cunctis autem eidem loco sua iura servantibus sit pax domini nostri Ihesu Christi, quatinus et hic fructum bonę actionis percipiant et apud districtum iudicem premia eterne pacis inveniant. Amen, Amen, Amen.</p>
-         </div>
+         <div type="note"><head>Notizen</head><p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>Text (Transkription d. Verf.): Victor episcopus servus servorum dei. Dilectis filiis Folmaro abbati monasterii sancti Martini Glandariensis eiusque successoribus regulariter substituendis in perpetuum. Apostolice sedis consuetudo deposcit et ipse rationis ordo persuadet, ut religiosorum vota facilem sortiantur effectum et pie postulatio voluntatis effectu debeat prosequente compleri. Eapropter, dilecte in domino fili abbas, tuis iustis postulationibus benignum prebentes assensum monasterium Glandariense, in quo preesse dinosceris, sub beati Petri et nostra protectione suscipimus et presentis scripti patrocinio communimus. Statuentes, ut, quascumque possessiones, quecumque bona idem monasterium in presentiarum iuste et canonice possidet aut in futurum concessione pontificum, largitione regu [ m ] vel principum, oblatione fidelium seu aliis iustis modis prestante domino [ pot ] erit adipisci, firma tibi tuisque successoribus et illibata permaneant. In quibus hec propriis duximus exprimenda vocabulis: ecclesiam de Mernichacum conductu (!) suo et omni decimatione ipsius villę, in qua e [ a ] dem ecclesia fundata est, decimam villę, quę dicitur Bubinga, decimam villę, quę vocatur Mecera, decimam alterius villę, quę dicitur Opemh, decimam quoque villę, quę nominatur Nedreheim, preterea decimam villę, quę vocatur Argenta. Decernimus ergo, ut nulli omnino liceat prefatum monasterium temere perturbare aut eius possessiones auferre vel ablatas retinere, minuere seu aliquibus vexationibus fatigare, sed omnia illibata et integra conserventur eorum, pro quorum gubernatione et sustentatione concessa sunt, usibus omnimodis profutura. Salva in omnibus apostolicę sedis reverentia et diocesani episcopi canonica iustitia. Si qua igitur in futurum ecclesiastica secularisve persona, hanc nostrę constitutionis paginam sciens, contra eam temere venire temptaverit, secundo tertiove commonita, nisi presumtionem suam digna satisfactione correxerit, potestatis honorisque sui dignitate careat reamque se divino iudicio existere de perpetrata iniquitate cognoscat et a sacratissimo corpore ac sanguine dei et domini redemptoris nostri Ihesu Christi aliena fiat atque in extremo examine [ di ] vine ultioni subiaceat. Cunctis autem eidem loco sua iura servantibus sit pax domini nostri Ihesu Christi, quatinus et hic fructum bonę actionis percipiant et apud districtum iudicem premia eterne pacis inveniant. Amen, Amen, Amen.</p></div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
    </text>

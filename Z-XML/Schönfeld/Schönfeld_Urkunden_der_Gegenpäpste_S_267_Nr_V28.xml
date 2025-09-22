@@ -8,10 +8,7 @@
                <resp>Datenquelle</resp>
                <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
             </respStmt>
-           <respStmt>
-              <resp when="2024">Encoding:</resp>
-              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
-           </respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -22,54 +19,35 @@
          <sourceDesc>
             <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 267, Nr. V28</bibl><bibl type="jaffe">14478</bibl>
             <diploDesc>
-               <issued>
-                  <placeName>Vercelli</placeName>
-                  <date type="issued" notBefore="1160-04-01" notAfter="1161-04-01">(1160–1161), April 1</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               <issued><placeName>Vercelli</placeName><date type="issued" notBefore="1160-04-01" notAfter="1161-04-01">(1160–1161), April 1</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">[Issuer]</legalActor></p>
                <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
                <p><objectType n="">[Typisierung 2]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
-            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
          </sourceDesc>
       </fileDesc>
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
-      <profileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
          <langUsage>
             <language ident="ger">German</language>
             <language ident="lat">Latin</language>
             <language ident="en-GB">English</language>
-         </langUsage>
-      </profileDesc>
+         </langUsage></profileDesc>
    </teiHeader>
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
             <p>Viktor IV . informiert den Bischof Arducius von Genf, den dortigen Klerus und die Gläubigen über seine Strafandrohung gegenüber dem Grafen Amadeus von Genf.<list>
-                  <item>[Listeneintrag 1]</item>
-               </list></p>
+               <item>[Listeneintrag 1]</item>
+            </list></p>
          </div>
-         <div type="other">
-            <head>Echtheitskriterien: </head>
-            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
-         </div>
-         <div>
-            <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">Quoniam sedis apostolice</diploPart>
-         </div>
-         <div>
-            <head>Subscriptiones:</head>
-            <diploPart type="subscriptio">
-               <list>
-                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
-               </list>
-            </diploPart>
-         </div>
-         <div>
-            <head>Datatio:</head>
-            <diploPart type="datatio">Datum Vercellis, kalendas aprilis.</diploPart>
-         </div>
+         <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Quoniam sedis apostolice</diploPart></div>
+         <div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item></list></diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">Datum Vercellis, kalendas aprilis.</diploPart></div>
          <div type="msSources">
              <head>Frühester Überlieferungsträger</head>
             <div>
@@ -105,8 +83,13 @@
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14478</bibl>
-               <bibl>Palumbo: Lo scisma, S. 655, Nr. 13.</bibl>
+               <bibl>GP II/2, S. 154, Nr. 13; Mayr: Der Pontifikat, S. 105, Nr. 27; Abb. dig.: PH Goe.</bibl>
             </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc><p>[Text und Inhalte Diplomatischer Kommentar]</p>
+            </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
@@ -114,14 +97,11 @@
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
-            <listBibl>
-               <bibl>[Weitere Referenzen als listBibl]</bibl>
-            </listBibl>
+         <listBibl>
+            <bibl>[Weitere Referenzen als listBibl]</bibl>
+         </listBibl>
          </div>
-         <div type="note">
-            <head>Notizen</head>
-            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>Text (Transkription d. Verf.): Victor episcopus servus servorum Dei. Venerabili fratri Ardutio Gebennensi episcopo, abbatibus, clero et populo eiusdem ęcclesie salutem et apostolicam benedictionem. Quoniam sedis apostolice gubernacula divina preordinante clementia suscepimus, omnium ęcclesiarum vigilantem nos convenit curam atque sollicitudinem gerere, ut nec tempore prosperitatis hostis antiquus quasi nobis dormientibus dominicum possit gregem subvertere neque fluctibus tribulationum crescentibus naviculę beati Petri regimina suo possit furore atque tergiversatione dampnabiliter impedire. Inde est, dilecti in domino filii, quod nobili ęcclesie Gebennensi suis in persecutionibus plurimum condolentes, quia deus non vult mortem peccatoris, set ut convertatur et vivat, a Gebennesi comiti adversus quem graves querelas deposuistis, apostolice castigationis atque comminationis scripta dureximus, ei sub obtemptu gratię beati Petri precipientes, ut abl [ ata re ] stituat et deinceps Gebennensem ęcclesiam vexare aut pertubare desistat. Et omnia regalia sive alia bona ęcclesie vestrę pertinentia, quę contra concordem compositionem apud Aquis inter vos et ipsum comitem in presentia venerabilis fratris nostri sancti Viennensis archiepiscopi et aliorum religiosum virorum factam et in scriptis, ut accepimus, redactam idem comes occupasse dicitur, vobis et ęcclesie vestrę resignare festinet. Quod si contempserit, sententiam interdicti, quam prefatus frater noster Viennensis archiepiscopus et apostolice sedis legatus in eum et totam terram suam propter tantum excessum iam protulit vel in futurum promulgabit, nos donec resipuerit eam firmam ratamque teneri auctoritate apotolica precipimus.</p>
-         </div>
+         <div type="note"><head>Notizen</head><p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>Text (Transkription d. Verf.): Victor episcopus servus servorum Dei. Venerabili fratri Ardutio Gebennensi episcopo, abbatibus, clero et populo eiusdem ęcclesie salutem et apostolicam benedictionem. Quoniam sedis apostolice gubernacula divina preordinante clementia suscepimus, omnium ęcclesiarum vigilantem nos convenit curam atque sollicitudinem gerere, ut nec tempore prosperitatis hostis antiquus quasi nobis dormientibus dominicum possit gregem subvertere neque fluctibus tribulationum crescentibus naviculę beati Petri regimina suo possit furore atque tergiversatione dampnabiliter impedire. Inde est, dilecti in domino filii, quod nobili ęcclesie Gebennensi suis in persecutionibus plurimum condolentes, quia deus non vult mortem peccatoris, set ut convertatur et vivat, a Gebennesi comiti adversus quem graves querelas deposuistis, apostolice castigationis atque comminationis scripta dureximus, ei sub obtemptu gratię beati Petri precipientes, ut abl [ ata re ] stituat et deinceps Gebennensem ęcclesiam vexare aut pertubare desistat. Et omnia regalia sive alia bona ęcclesie vestrę pertinentia, quę contra concordem compositionem apud Aquis inter vos et ipsum comitem in presentia venerabilis fratris nostri sancti Viennensis archiepiscopi et aliorum religiosum virorum factam et in scriptis, ut accepimus, redactam idem comes occupasse dicitur, vobis et ęcclesie vestrę resignare festinet. Quod si contempserit, sententiam interdicti, quam prefatus frater noster Viennensis archiepiscopus et apostolice sedis legatus in eum et totam terram suam propter tantum excessum iam protulit vel in futurum promulgabit, nos donec resipuerit eam firmam ratamque teneri auctoritate apotolica precipimus.</p></div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
    </text>

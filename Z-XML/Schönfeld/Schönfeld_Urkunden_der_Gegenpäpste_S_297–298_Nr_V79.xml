@@ -8,10 +8,7 @@
                <resp>Datenquelle</resp>
                <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
             </respStmt>
-           <respStmt>
-              <resp when="2024">Encoding:</resp>
-              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
-           </respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -22,54 +19,35 @@
          <sourceDesc>
             <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 297–298, Nr. V79</bibl><bibl type="jaffe">10755e</bibl>
             <diploDesc>
-               <issued>
-                  <placeName>Besançon</placeName>
-                  <date type="issued" notBefore="1162-09-11" notAfter="1162-09-11">1162, September 11</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               <issued><placeName>Besançon</placeName><date type="issued" notBefore="1162-09-11" notAfter="1162-09-11">1162, September 11</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">[Issuer]</legalActor></p>
                <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
                <p><objectType n="">[Typisierung 2]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
-            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
          </sourceDesc>
       </fileDesc>
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
-      <profileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
          <langUsage>
             <language ident="ger">German</language>
             <language ident="lat">Latin</language>
             <language ident="en-GB">English</language>
-         </langUsage>
-      </profileDesc>
+         </langUsage></profileDesc>
    </teiHeader>
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
             <p>Viktor IV . stellt das Nonnenkloster S. Ursula in Köln unter Äbtissin Gepa unter apos- tolischen Schutz und bestätigt sämtliche Besitzungen.<list>
-                  <item>[Listeneintrag 1]</item>
-               </list></p>
+               <item>[Listeneintrag 1]</item>
+            </list></p>
          </div>
-         <div type="other">
-            <head>Echtheitskriterien: </head>
-            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
-         </div>
-         <div>
-            <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">Dicatis deo virginibus</diploPart>
-         </div>
-         <div>
-            <head>Subscriptiones:</head>
-            <diploPart type="subscriptio">
-               <list><item>Rota-Inschrift: Rota-Inschrift: –</item><item>Rota-Devise: Rota-Devise: Tu es gloria mea, tu es susceptor meus, tu exaltas caput meum domine</item><item>Bene Valete: x</item><item>Komma: –</item><item>Subskriptionen: –</item></list><list>
-                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
-               </list>
-            </diploPart>
-         </div>
-         <div>
-            <head>Datatio:</head>
-            <diploPart type="datatio">Datum Bisuntii per manum lohannis sancte Romane ecclesie presbiteri cardinalis et cancellarii, III idus septembris indictione X, incarnationis dominice anno MCLXII , pontificatus vero domini Victoris pape IIII anno III .</diploPart>
-         </div>
+         <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Dicatis deo virginibus</diploPart></div>
+         <div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>Rota-Inschrift: Rota-Inschrift: –</item><item>Rota-Devise: Rota-Devise: Tu es gloria mea, tu es susceptor meus, tu exaltas caput meum domine</item><item>Bene Valete: x</item><item>Komma: –</item><item>Subskriptionen: –</item></list><list><item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item></list></diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">Datum Bisuntii per manum lohannis sancte Romane ecclesie presbiteri cardinalis et cancellarii, III idus septembris indictione X, incarnationis dominice anno MCLXII , pontificatus vero domini Victoris pape IIII anno III .</diploPart></div>
          <div type="msSources">
              <head>Frühester Überlieferungsträger</head>
             <div>
@@ -105,8 +83,13 @@
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 10755e</bibl>
-               <bibl>GP II /2, S. 226, Nr. 23; Ochs: Geschichte, Bd. I, S. 263, Anm. 2; Bader: Regesta, S. 216; Winistörfer: Die Grafen von Froburg, S. 63; Boos: Geschichte, S. 35; Hidber: Schweizerisches Urkundenregister, Bd. II , S. 213, Nr. 2231; Vautrey: Histoire, Bd. I, S. 174; Kocher: Solothurner Urkundenbuch, Bd. I, S. 101, Nr. 197.</bibl>
+               <bibl>GP VII, S. 162, Nr. 3; Meinert: Papsturkunden in Frankreich, Bd. I, S. 12, S. 342, Nr. 193; Gallia Pontificia, Bd. I, S. 68, Nr. 91; Mayr: Der Pontifikat, S. 124, Nr. 66; Krafft: Bene Valete, S. 245; Abb. dig.: PH Goe.</bibl>
             </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc><p>[Text und Inhalte Diplomatischer Kommentar]</p>
+            </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
@@ -114,14 +97,11 @@
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
-            <listBibl>
-               <bibl>[Weitere Referenzen als listBibl]</bibl>
-            </listBibl>
+         <listBibl>
+            <bibl>[Weitere Referenzen als listBibl]</bibl>
+         </listBibl>
          </div>
-         <div type="note">
-            <head>Notizen</head>
-            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>Text (Transkription d. Verf.): Victor episcopus servus servorum dei. Dilectis in Christo filiabus Gepe abbatisse ecclesie Sanctuarum Virginum eiusque sororibus tam presentibus quam canonice substituendis in perpetuum. Dicatis deo virginibus, quę spretis conubiis maritalibus et relicto mundo ac pompis ipsius se totas contulerunt in obsequium conditoris et sub religionis habitu et proposito voluntatis mortificata carne accensis lampadibus cum Christo domino ad celeste satagunt convivium introire, nostrum convenit adesse presidium et contra mundanorum fluctuum tempestates apostolicum munimen impendi, ut apostolica tuitione vallate ab omnibus reddantur secure molestiis et in Christo se recuperasse letentur opem, quam in seculo perdiderunt. Eapropter, dilecte in Christo filię, vestris iustis postulationibus clementer annuimus et prefatam ecclesiam, in qua divino mancipate estis obsequio, sub beati Petri et nostra protectione suscipimus et presentis scripti patrocinio communimus. Statuentes, ut, quascumque possessiones, quęcumque bona eadem ecclesia in presentiarum iuste et canonice possidet aut in futurum concessione pontificum, largitione regum vel principum, oblatione fidelium seu aliis iustis modis prestante domino poterit adipisci, firma vobis et his, quę post vos successerint, et illibata permaneant. In quibus hec propriis duximus exprimenda vocabulis: in ecclesia de Iuliaco, quicumque investituram fundi et altaris susceperit, solvere debet de sua parte decimationis episcopalem censum et archidiaconi et decani, sicut ab antiquo statutum est et hactenus factum est, quia omnis reliqua decimatio ad pr [ ebendas ] dominarum pertinet, insuper maldrum tritici et porcum duodecim denariorum Coloniensium. Preterea ipsius parrochianę ecclesię solita luminaria, in Kirberge similiter, in Kelese similiter, in Bozestorph similiter, in Wilere similiter, in Kentenig similiter, in Lunricho similiter, in Thusseldorp quinque solidos Dusburgensis monete, in cena domini in Venheim quinque solidos et VI denarios Coloniensis monete, ad vincula beati Petri in Hagene decem solidos Tremoniensis monete. Decernimus ergo, ut nulli omnino hominum liceat prefatam ecclesiam temere perturbare aut eius possessiones auferre aut ablatas retinere, minuere seu quibuslibet fatigationibus fatigare, sed illibata omnia et integra conserventur earum, pro quarum gubernatione et sustentatione concessa sunt, usibus omnimodis profutura. Salva sedis apostolice auctoritate et diocesani episcopi canonica iustitia. Si qua igitur in futurum ecclesiastica secularisve persona, hanc nostrę constitutionis paginam sciens, contra eam venire temptaverit, secundo tertiove commonita, nisi presumptionem suam digna satisfactione correxerit, potestatis honorisque sui dignitate careat reamque se divino iudicio existere de perpetrata iniquitate cognoscat et a sacratissimo corpore et sanguine dei et domini redemptoris nostri Ihesu Christi aliena fiat atque in extremo examine districte ultioni subiaceat. Cunctis autem eidem loco sua iura servantibus sit pax domini nostri Ihesu Christi, quatinus et hic fructum bone actionis percipiant et apud districtum iudicem premia eterne pacis inveniant. Amen, Amen, Amen.</p>
-         </div>
+         <div type="note"><head>Notizen</head><p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>Text (Transkription d. Verf.): Victor episcopus servus servorum dei. Dilectis in Christo filiabus Gepe abbatisse ecclesie Sanctuarum Virginum eiusque sororibus tam presentibus quam canonice substituendis in perpetuum. Dicatis deo virginibus, quę spretis conubiis maritalibus et relicto mundo ac pompis ipsius se totas contulerunt in obsequium conditoris et sub religionis habitu et proposito voluntatis mortificata carne accensis lampadibus cum Christo domino ad celeste satagunt convivium introire, nostrum convenit adesse presidium et contra mundanorum fluctuum tempestates apostolicum munimen impendi, ut apostolica tuitione vallate ab omnibus reddantur secure molestiis et in Christo se recuperasse letentur opem, quam in seculo perdiderunt. Eapropter, dilecte in Christo filię, vestris iustis postulationibus clementer annuimus et prefatam ecclesiam, in qua divino mancipate estis obsequio, sub beati Petri et nostra protectione suscipimus et presentis scripti patrocinio communimus. Statuentes, ut, quascumque possessiones, quęcumque bona eadem ecclesia in presentiarum iuste et canonice possidet aut in futurum concessione pontificum, largitione regum vel principum, oblatione fidelium seu aliis iustis modis prestante domino poterit adipisci, firma vobis et his, quę post vos successerint, et illibata permaneant. In quibus hec propriis duximus exprimenda vocabulis: in ecclesia de Iuliaco, quicumque investituram fundi et altaris susceperit, solvere debet de sua parte decimationis episcopalem censum et archidiaconi et decani, sicut ab antiquo statutum est et hactenus factum est, quia omnis reliqua decimatio ad pr [ ebendas ] dominarum pertinet, insuper maldrum tritici et porcum duodecim denariorum Coloniensium. Preterea ipsius parrochianę ecclesię solita luminaria, in Kirberge similiter, in Kelese similiter, in Bozestorph similiter, in Wilere similiter, in Kentenig similiter, in Lunricho similiter, in Thusseldorp quinque solidos Dusburgensis monete, in cena domini in Venheim quinque solidos et VI denarios Coloniensis monete, ad vincula beati Petri in Hagene decem solidos Tremoniensis monete. Decernimus ergo, ut nulli omnino hominum liceat prefatam ecclesiam temere perturbare aut eius possessiones auferre aut ablatas retinere, minuere seu quibuslibet fatigationibus fatigare, sed illibata omnia et integra conserventur earum, pro quarum gubernatione et sustentatione concessa sunt, usibus omnimodis profutura. Salva sedis apostolice auctoritate et diocesani episcopi canonica iustitia. Si qua igitur in futurum ecclesiastica secularisve persona, hanc nostrę constitutionis paginam sciens, contra eam venire temptaverit, secundo tertiove commonita, nisi presumptionem suam digna satisfactione correxerit, potestatis honorisque sui dignitate careat reamque se divino iudicio existere de perpetrata iniquitate cognoscat et a sacratissimo corpore et sanguine dei et domini redemptoris nostri Ihesu Christi aliena fiat atque in extremo examine districte ultioni subiaceat. Cunctis autem eidem loco sua iura servantibus sit pax domini nostri Ihesu Christi, quatinus et hic fructum bone actionis percipiant et apud districtum iudicem premia eterne pacis inveniant. Amen, Amen, Amen.</p></div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
    </text>

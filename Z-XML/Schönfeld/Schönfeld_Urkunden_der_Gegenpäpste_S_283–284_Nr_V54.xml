@@ -8,10 +8,7 @@
                <resp>Datenquelle</resp>
                <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
             </respStmt>
-           <respStmt>
-              <resp when="2024">Encoding:</resp>
-              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
-           </respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -22,54 +19,35 @@
          <sourceDesc>
             <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 283–284, Nr. V54</bibl><bibl type="jaffe">14455</bibl>
             <diploDesc>
-               <issued>
-                  <placeName>Lodi</placeName>
-                  <date type="issued" notBefore="1161-07-25" notAfter="1161-07-25">(1161), Juli 25</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               <issued><placeName>Lodi</placeName><date type="issued" notBefore="1161-07-25" notAfter="1161-07-25">(1161), Juli 25</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">[Issuer]</legalActor></p>
                <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
                <p><objectType n="">[Typisierung 2]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
-            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
          </sourceDesc>
       </fileDesc>
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
-      <profileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
          <langUsage>
             <language ident="ger">German</language>
             <language ident="lat">Latin</language>
             <language ident="en-GB">English</language>
-         </langUsage>
-      </profileDesc>
+         </langUsage></profileDesc>
    </teiHeader>
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
             <p>Viktor IV . bestätigt dem Legaten und Erzbischof Hillin von Trier den Tausch von 19 Hufen seines Hofes Partenheim für die von Worms eingetauschte Burg Nassau.<list>
-                  <item>[Listeneintrag 1]</item>
-               </list></p>
+               <item>[Listeneintrag 1]</item>
+            </list></p>
          </div>
-         <div type="other">
-            <head>Echtheitskriterien: </head>
-            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
-         </div>
-         <div>
-            <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">Que a personis</diploPart>
-         </div>
-         <div>
-            <head>Subscriptiones:</head>
-            <diploPart type="subscriptio">
-               <list>
-                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
-               </list>
-            </diploPart>
-         </div>
-         <div>
-            <head>Datatio:</head>
-            <diploPart type="datatio">Datum Laude, VIII kalendas augusti.</diploPart>
-         </div>
+         <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Que a personis</diploPart></div>
+         <div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item></list></diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">Datum Laude, VIII kalendas augusti.</diploPart></div>
          <div type="msSources">
              <head>Frühester Überlieferungsträger</head>
             <div>
@@ -105,8 +83,13 @@
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14455</bibl>
-               <bibl>IP VII /1, S. 186, Nr. 1; ibid., S. 183, Nr. 1; Fischer: Wibert von Ravenna, S. 181, Nr. 16; Orsato: Historia di Padova, S. 266; Stoller: Schism, S. 103, Nr. 40; Lit.: Köhncke: Wibert von Ravenna, S. 85; Meyer von Knonau: Jahrbücher des Deutschen Reiches, Bd. IV , S. 283, S. 236 f.; Schwartz: Die Besetzung der Bistümer Reichsitaliens, S. 171; Hüls: Kardinäle, S. 185, Nr. 3 [zu Robert von Faenza]; Stoller: Schism, S. 103 – 105; Ziese: Wibert von Ravenna, S. 190 f.; Heidrich: Ravenna, S. 161.</bibl>
+               <bibl>GP X, S. 132, Nr. 304; GP III, S. 153, Nr. 4 (Anm.); Beyer: Urkundenbuch zur Geschichte, Bd. II, S. 716, Nr. 682; Goerz: Mittelrheinische Regesten, Bd. II, S. 43, Nr. 195; Wauters: Table chronologique des chartes, Bd. II, S. 430; Mötsch: Die Balduinen, Nr. 146; Mayr: Der Pontifikat, S. 112, Nr. 40; Bischoff: Urkundenformate im Mittelalter, S. 141; Abb. dig.: PH LHA Koblenz; dig. Pause Goe.</bibl>
             </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc><p>[Text und Inhalte Diplomatischer Kommentar]</p>
+            </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
@@ -114,14 +97,11 @@
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
-            <listBibl>
-               <bibl>[Weitere Referenzen als listBibl]</bibl>
-            </listBibl>
+         <listBibl>
+            <bibl>[Weitere Referenzen als listBibl]</bibl>
+         </listBibl>
          </div>
-         <div type="note">
-            <head>Notizen</head>
-            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>Text (Transkription d. Verf.): Victor episcopus servus servorum dei. Venerabili fratri H [ illino ] Treverensi archiepiscopo et apostolice sedis legato salutem et apostolicam benedictionem. Que a personis ecclesiasticis rationabili providentia et sapienti dispensatione facta esse noscuntur, nos convenit confirmare et, ne in posterum, quod utiliter et provide factum est, dissolvatur, apostolice sedis auctoritate munire. Eapropter, venerabilis in domino frater, concanbium et commutationem, quam cum preposito, decano et maioris W armaciensis ecclesie capitulo pro utilitate commisse tibi ecclesie rationabiliter fecisse dinosceris, auctoritate apostolica confirmamus. In quo quidem concambio, sicut in tuis et predicti capituli scriptis continetur, decem et VIIII mansos in villa tua Parthenheim et duas areas, que duodecim libras tunc temporis annuatim solvebant, excepta decima et advocatia per manum Folmari comitis de castele eiusdem curie advocati prefatis filiis nostris, preposito decano et ceteris canonicis maioris W armaciensis ecclesie et per eos suis successoribus legitime tradidisti et pro his castrum de Nassov et curiam adiacentem ab ipsis per manum Symonis, comitis de Salabrug (!) , iamdicte W armaciensi ecclesie liberi advocati eorum episcopo presente et consentiente legitima traditione recepisti. Predictum ergo castrum et curiam cum omni integritate sua a sepedicto capitulo tibi et per te Treverensi ecclesie tradita presenti pagina confirmantes, statuimus, ut nulli de cetero liceat te seu commissam tibi ecclesiam in predictis bonis gravare aut aliquibus molestiis temere perturbare. Si qua igitur ecclesiastica secularisve persona, hanc nostram confirmationem sciens, contra eam venire presumpserit, nisi, secundo tertiove commonita, presumptionem suam digne correxerit, dei omnipotentis et beatorum Petri et Pauli apostolorum eius et nostram indignationem incurrat et in extremo examine districte ultioni subiaceat.</p>
-         </div>
+         <div type="note"><head>Notizen</head><p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>Text (Transkription d. Verf.): Victor episcopus servus servorum dei. Venerabili fratri H [ illino ] Treverensi archiepiscopo et apostolice sedis legato salutem et apostolicam benedictionem. Que a personis ecclesiasticis rationabili providentia et sapienti dispensatione facta esse noscuntur, nos convenit confirmare et, ne in posterum, quod utiliter et provide factum est, dissolvatur, apostolice sedis auctoritate munire. Eapropter, venerabilis in domino frater, concanbium et commutationem, quam cum preposito, decano et maioris W armaciensis ecclesie capitulo pro utilitate commisse tibi ecclesie rationabiliter fecisse dinosceris, auctoritate apostolica confirmamus. In quo quidem concambio, sicut in tuis et predicti capituli scriptis continetur, decem et VIIII mansos in villa tua Parthenheim et duas areas, que duodecim libras tunc temporis annuatim solvebant, excepta decima et advocatia per manum Folmari comitis de castele eiusdem curie advocati prefatis filiis nostris, preposito decano et ceteris canonicis maioris W armaciensis ecclesie et per eos suis successoribus legitime tradidisti et pro his castrum de Nassov et curiam adiacentem ab ipsis per manum Symonis, comitis de Salabrug (!) , iamdicte W armaciensi ecclesie liberi advocati eorum episcopo presente et consentiente legitima traditione recepisti. Predictum ergo castrum et curiam cum omni integritate sua a sepedicto capitulo tibi et per te Treverensi ecclesie tradita presenti pagina confirmantes, statuimus, ut nulli de cetero liceat te seu commissam tibi ecclesiam in predictis bonis gravare aut aliquibus molestiis temere perturbare. Si qua igitur ecclesiastica secularisve persona, hanc nostram confirmationem sciens, contra eam venire presumpserit, nisi, secundo tertiove commonita, presumptionem suam digne correxerit, dei omnipotentis et beatorum Petri et Pauli apostolorum eius et nostram indignationem incurrat et in extremo examine districte ultioni subiaceat.</p></div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
    </text>

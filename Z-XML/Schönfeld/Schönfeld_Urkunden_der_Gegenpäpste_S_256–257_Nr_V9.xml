@@ -8,10 +8,7 @@
                <resp>Datenquelle</resp>
                <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
             </respStmt>
-           <respStmt>
-              <resp when="2024">Encoding:</resp>
-              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
-           </respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -22,54 +19,35 @@
          <sourceDesc>
             <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 256–257, Nr. V9</bibl><bibl type="jaffe">14427</bibl>
             <diploDesc>
-               <issued>
-                  <placeName>Segni</placeName>
-                  <date type="issued" notBefore="1159-10-01" notAfter="1159-11-30">1159, (Oktober–November)</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               <issued><placeName>Segni</placeName><date type="issued" notBefore="1159-10-01" notAfter="1159-11-30">1159, (Oktober–November)</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">[Issuer]</legalActor></p>
                <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
                <p><objectType n="">[Typisierung 2]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
-            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
          </sourceDesc>
       </fileDesc>
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
-      <profileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
          <langUsage>
             <language ident="ger">German</language>
             <language ident="lat">Latin</language>
             <language ident="en-GB">English</language>
-         </langUsage>
-      </profileDesc>
+         </langUsage></profileDesc>
    </teiHeader>
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
             <p>Viktor IV . stellt das Kloster Oberaltaich unter Abt Theoderich unter apostolischen Schutz, bestätigt seine Besitzungen und Rechte und bestimmt die jährliche Zahlung eines bereits durch den Grafen Albert und den Vogt Friedrich festgelegten Schutzzinses.<list>
-                  <item>[Listeneintrag 1]</item>
-               </list></p>
+               <item>[Listeneintrag 1]</item>
+            </list></p>
          </div>
-         <div type="other">
-            <head>Echtheitskriterien: </head>
-            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
-         </div>
-         <div>
-            <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">Pie postulatio voluntatis</diploPart>
-         </div>
-         <div>
-            <head>Subscriptiones:</head>
-            <diploPart type="subscriptio">
-               <list><item>Rota-Inschrift: Rota-Inschrift: sanctus Petrus / sanctus Paulus / Victor / papa IIII</item><item>Rota-Devise: Rota-Devise: Tu es gloria mea, tu es susceptor meus, domine, tu exaltas caput meum</item><item>Bene Valete: x</item><item>Komma: –</item><item>Subskriptionen: –</item></list><list>
-                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
-               </list>
-            </diploPart>
-         </div>
-         <div>
-            <head>Datatio:</head>
-            <diploPart type="datatio">Datum Sign [ i ] per manus Iohannis sancte Romane ecclesie subdiaconi et scriptoris, anno dominicę incarnationis MCLVIII indictione VIIII (!), pontificatus vero domni Victoris IIII pape anno primo.</diploPart>
-         </div>
+         <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Pie postulatio voluntatis</diploPart></div>
+         <div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>Rota-Inschrift: Rota-Inschrift: sanctus Petrus / sanctus Paulus / Victor / papa IIII</item><item>Rota-Devise: Rota-Devise: Tu es gloria mea, tu es susceptor meus, domine, tu exaltas caput meum</item><item>Bene Valete: x</item><item>Komma: –</item><item>Subskriptionen: –</item></list><list><item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item></list></diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">Datum Sign [ i ] per manus Iohannis sancte Romane ecclesie subdiaconi et scriptoris, anno dominicę incarnationis MCLVIII indictione VIIII (!), pontificatus vero domni Victoris IIII pape anno primo.</diploPart></div>
          <div type="msSources">
              <head>Frühester Überlieferungsträger</head>
             <div>
@@ -105,8 +83,13 @@
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14427</bibl>
-               <bibl>GP II /1, S. 182, Nr. 2; ibid., S. 139, Nr. 63; Pflugk-Harttung: Papsturkunden in Karlsruhe, S. 244; Reg. episc. Const., Bd. I, S. 114, Nr. 1017.</bibl>
+               <bibl>GP I, S. 323, Nr. 2; Lang: Regesta, Bd. I, S. 236; Pflugk-Harttung: Päpstliche Original-Urkunden, S. 575, Nr. 958 („Scheinoriginal“); Mayr: Der Pontifikat, S. 86, Nr. 4; Bischoff: Urkundenformate im Mittelalter, S. 140; Krafft: Bene Valete, S. 233; Abb. dig.: PH LBA, Nr. 9116.</bibl>
             </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc><p>[Text und Inhalte Diplomatischer Kommentar]</p>
+            </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
@@ -114,14 +97,11 @@
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
-            <listBibl>
-               <bibl>[Weitere Referenzen als listBibl]</bibl>
-            </listBibl>
+         <listBibl>
+            <bibl>[Weitere Referenzen als listBibl]</bibl>
+         </listBibl>
          </div>
-         <div type="note">
-            <head>Notizen</head>
-            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>Text (Transkription d. Verf.): Victor episcopus servus servorum dei. Dilecto filio Theodorico abbati monasterii sancti Petri, quod in Ratisponensi episcopatu apud superius Altaha situm est, eiusque successoribus regulariter substituendis in perpetuum. Pie postulatio voluntatis effectu debet prosequente compleri. Eapropter, dilecte in Christo fili Theodorice abbas, predecessoris nostri felicis memorię pape Honorii vestigiis inherentes, postulationi tuę annuendum censuimus et monasterium beati Petri, cui deo auctore presides, quod a nobilibus viris Friderico Ratisponensi advocato et Adalberto comite eorumque parentibus fundatum et beato Petro eiusque sanctę Romanę ęcclesie oblatum est, sub beati Petri et nostra protectione suscipimus et sedis apostolicę privilegio communimus. Per presentis igitur decreti paginam apostolica auctoritate statuimus, ut possessiones et bona omnia, quę idem monasterium in presenti legitime possidet sive in futurum concessione pontificum, liberalitate principum, oblatione fidelium aut aliis iustis modis largiente domino poterit adipisci, firma tibi tuisque successoribus integra conserventur. Statuimus etiam, ut de novalibus et incultis terris, quas idem monasterium propriis laboribus et sumptibus ad culturam redegerit, et de nutrimentibus animalium nullus a te vel quolibet successorum tuorum decimas exigere presumat. Decernimus ergo, ut nulli omnino hominum liceat predictum monasterium temere perturbare aut eius possessiones auferre vel ablatas retinere, minuere vel temerariis vexationibus fatigare, sed omnia, ut dictum est, integra conserventur eorum, pro quorum sustentatione et gubernatione concessa sunt, usibus omnimodis profutura. Obeunte te nunc eius loci abbate vel tuorum quolibet successorum, nullus ibi qualibet subreptionis astutia seu violentia preponatur, nisi quem fratres communi consensu vel fratrum pars consilii sanioris secundum dei timorem beati Benedicti regulam elegerint. Hoc ipsum et de advocati constitutione precipimus, qui tamen advocatus, si fratribus gravis et monasterio inutilis fuerit, amoto eo alius substituatur. Sane abbatis benedictionem, altarium consecrationem, monachorum ordinationes ab episcopo, in cuius estis diocese, accipietis, si quidem gratiam et communionem apostolicę sedis habuerit et si ea gratis ac sine pravitate voluerit exhibere alioquin, liceat vobis catholicum, quem malueritis, adire antistitem et eadem ab eo sacramenta suscipere. Sepulturam quoque ipsius loci omnino liberam esse censemus, ut eorum, qui illic sepeliri deliberaverint, de [ votion ] i et extreme voluntati, nisi forte excommunicati s [ in ] t, nullus obsistat, salvo in omnibus diocesani episcopi iure ac reverentia. Ad indicium autem percepte huius a Romana ęcclesia libertatis aureum unum quot annis Lateranensi palatio persolvetis, quemadmodum et a predictis nobilibus Adelberto comite et Frederico advocato constitutum est. Si qua igitur in futurum ęcclesiastica secularisve persona, hanc nostrę constitutionis paginam sciens, contra eam temere venire temptaverit, secundo tertiove commonita, si non satisfactione congrua emendaverit, potestatis honorisque sui dignitate careat reumque se divino iudicio existere de perpetrata iniquitate cognoscat et a sacratissimo corpore ac sanguine dei et domini redemptoris nostri Ihesu Christi aliena fiat atque in extremo examine districte subiaceat. Cunctis autem eidem loco iura servantibus sit pax domini nostri Ihesu Christi, quatinus et hic fructum bone actionis percipiant et apud districtum iudicem premia ęterne pacis inveniant. Amen.</p>
-         </div>
+         <div type="note"><head>Notizen</head><p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>Text (Transkription d. Verf.): Victor episcopus servus servorum dei. Dilecto filio Theodorico abbati monasterii sancti Petri, quod in Ratisponensi episcopatu apud superius Altaha situm est, eiusque successoribus regulariter substituendis in perpetuum. Pie postulatio voluntatis effectu debet prosequente compleri. Eapropter, dilecte in Christo fili Theodorice abbas, predecessoris nostri felicis memorię pape Honorii vestigiis inherentes, postulationi tuę annuendum censuimus et monasterium beati Petri, cui deo auctore presides, quod a nobilibus viris Friderico Ratisponensi advocato et Adalberto comite eorumque parentibus fundatum et beato Petro eiusque sanctę Romanę ęcclesie oblatum est, sub beati Petri et nostra protectione suscipimus et sedis apostolicę privilegio communimus. Per presentis igitur decreti paginam apostolica auctoritate statuimus, ut possessiones et bona omnia, quę idem monasterium in presenti legitime possidet sive in futurum concessione pontificum, liberalitate principum, oblatione fidelium aut aliis iustis modis largiente domino poterit adipisci, firma tibi tuisque successoribus integra conserventur. Statuimus etiam, ut de novalibus et incultis terris, quas idem monasterium propriis laboribus et sumptibus ad culturam redegerit, et de nutrimentibus animalium nullus a te vel quolibet successorum tuorum decimas exigere presumat. Decernimus ergo, ut nulli omnino hominum liceat predictum monasterium temere perturbare aut eius possessiones auferre vel ablatas retinere, minuere vel temerariis vexationibus fatigare, sed omnia, ut dictum est, integra conserventur eorum, pro quorum sustentatione et gubernatione concessa sunt, usibus omnimodis profutura. Obeunte te nunc eius loci abbate vel tuorum quolibet successorum, nullus ibi qualibet subreptionis astutia seu violentia preponatur, nisi quem fratres communi consensu vel fratrum pars consilii sanioris secundum dei timorem beati Benedicti regulam elegerint. Hoc ipsum et de advocati constitutione precipimus, qui tamen advocatus, si fratribus gravis et monasterio inutilis fuerit, amoto eo alius substituatur. Sane abbatis benedictionem, altarium consecrationem, monachorum ordinationes ab episcopo, in cuius estis diocese, accipietis, si quidem gratiam et communionem apostolicę sedis habuerit et si ea gratis ac sine pravitate voluerit exhibere alioquin, liceat vobis catholicum, quem malueritis, adire antistitem et eadem ab eo sacramenta suscipere. Sepulturam quoque ipsius loci omnino liberam esse censemus, ut eorum, qui illic sepeliri deliberaverint, de [ votion ] i et extreme voluntati, nisi forte excommunicati s [ in ] t, nullus obsistat, salvo in omnibus diocesani episcopi iure ac reverentia. Ad indicium autem percepte huius a Romana ęcclesia libertatis aureum unum quot annis Lateranensi palatio persolvetis, quemadmodum et a predictis nobilibus Adelberto comite et Frederico advocato constitutum est. Si qua igitur in futurum ęcclesiastica secularisve persona, hanc nostrę constitutionis paginam sciens, contra eam temere venire temptaverit, secundo tertiove commonita, si non satisfactione congrua emendaverit, potestatis honorisque sui dignitate careat reumque se divino iudicio existere de perpetrata iniquitate cognoscat et a sacratissimo corpore ac sanguine dei et domini redemptoris nostri Ihesu Christi aliena fiat atque in extremo examine districte subiaceat. Cunctis autem eidem loco iura servantibus sit pax domini nostri Ihesu Christi, quatinus et hic fructum bone actionis percipiant et apud districtum iudicem premia ęterne pacis inveniant. Amen.</p></div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
    </text>

@@ -8,10 +8,7 @@
                <resp>Datenquelle</resp>
                <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
             </respStmt>
-           <respStmt>
-              <resp when="2024">Encoding:</resp>
-              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
-           </respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -22,54 +19,35 @@
          <sourceDesc>
             <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 262–264, Nr. V23</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
             <diploDesc>
-               <issued>
-                  <placeName>Pavia</placeName>
-                  <date type="issued" notBefore="1160-02-19" notAfter="1160-02-19">1160, Februar 19</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               <issued><placeName>Pavia</placeName><date type="issued" notBefore="1160-02-19" notAfter="1160-02-19">1160, Februar 19</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">[Issuer]</legalActor></p>
                <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
                <p><objectType n="">[Typisierung 2]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
-            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
          </sourceDesc>
       </fileDesc>
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
-      <profileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
          <langUsage>
             <language ident="ger">German</language>
             <language ident="lat">Latin</language>
             <language ident="en-GB">English</language>
-         </langUsage>
-      </profileDesc>
+         </langUsage></profileDesc>
    </teiHeader>
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
             <p>Viktor IV . bestätigt dem Abt des Klosters S. Georg in Naumburg, Theoderich, Besit- zungen und Rechte wie die Immunität, die freie Abtswahl, die Exemtion sowie das Verbot der Veräußerung und der Lehensusurpation.<list>
-                  <item>[Listeneintrag 1]</item>
-               </list></p>
+               <item>[Listeneintrag 1]</item>
+            </list></p>
          </div>
-         <div type="other">
-            <head>Echtheitskriterien: </head>
-            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
-         </div>
-         <div>
-            <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">Ad hoc universalis</diploPart>
-         </div>
-         <div>
-            <head>Subscriptiones:</head>
-            <diploPart type="subscriptio">
-               <list><item>Rota-Inschrift: Rota-Inschrift: [] [Die Ausgestaltung der Rota, das Vorhandensein eines Bene-Valete-Monogramms sowie der Wortlaut von Unterschriften und Datierung wurden dem Druck nach Rosenfeld ent- nommen, da die fragmentarische Abbildung nicht das gesamte Eschatokoll abbildete.]</item><item>Rota-Devise: Rota-Devise: [ Tu es gloria mea, tu es susceptor meus, tu exaltas caput meum, domine ]</item><item>Bene Valete: [x]</item><item>Komma: [–]</item><item>Subskriptionen: [–]</item></list><list>
-                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
-               </list>
-            </diploPart>
-         </div>
-         <div>
-            <head>Datatio:</head>
-            <diploPart type="datatio">[ Data Papie per manum Gerardi sancte Romane ecclesie subdiaconi, XI kalendas martii indictione VII , anno incarnationis domini MCLX , pontificatus domini Victoris anno eius primo. ]</diploPart>
-         </div>
+         <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Ad hoc universalis</diploPart></div>
+         <div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>Rota-Inschrift: Rota-Inschrift: [] [Die Ausgestaltung der Rota, das Vorhandensein eines Bene-Valete-Monogramms sowie der Wortlaut von Unterschriften und Datierung wurden dem Druck nach Rosenfeld ent- nommen, da die fragmentarische Abbildung nicht das gesamte Eschatokoll abbildete.]</item><item>Rota-Devise: Rota-Devise: [ Tu es gloria mea, tu es susceptor meus, tu exaltas caput meum, domine ]</item><item>Bene Valete: [x]</item><item>Komma: [–]</item><item>Subskriptionen: [–]</item></list><list><item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item></list></diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">[ Data Papie per manum Gerardi sancte Romane ecclesie subdiaconi, XI kalendas martii indictione VII , anno incarnationis domini MCLX , pontificatus domini Victoris anno eius primo. ]</diploPart></div>
          <div type="msSources">
              <head>Frühester Überlieferungsträger</head>
             <div>
@@ -108,20 +86,22 @@
                <bibl>GN 1904 [vgl. Krafft]; Mayr: Der Pontifikat, S. 93, Nr. 13; Krafft: Bene Valete, S. 233; Abb. dig.: PH LBA , Nr. 1578.</bibl>
             </listBibl>
          </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc><p>[Text und Inhalte Diplomatischer Kommentar]</p>
+            </diploDesc>
+         </div>
          <div type="commentary">
             <head>Sachkommentar</head>
             <p>[Inhalt des Sachkommentars. Bibliographische Referenzen werden als Bibliographische Angabe getagged.]</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
-            <listBibl>
-               <bibl>[Weitere Referenzen als listBibl]</bibl>
-            </listBibl>
+         <listBibl>
+            <bibl>[Weitere Referenzen als listBibl]</bibl>
+         </listBibl>
          </div>
-         <div type="note">
-            <head>Notizen</head>
-            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>Text (Transkription d. Verf.): Victor episcopus servus servorum dei. Dilecto filio Teodorico abbati eiusque successoribus regulariter substituendis in perpetuum. Ad hoc universalis ecclesie cura nobis a provisore omnium bonorum deo comissa est, ut religiosas diligamus personas et bene placentes deo religionem studeamus modis omnibus propagare. Nec enim, deo gratus, aliquando famulatus inpenditur, nisi ex caritatis radice procedens, a puritate religionis fuerit conservatus. Eapropter, dilecte in domino fili Theoderice abbas, postulationes tuas clementer admittimus et Nuenbergense monasterium, cui deo auctore preese dinosceris, apostostolice sedis privilegio communimus. Statuentes, ut, quecumque bona, quascumque possessiones in presentiarum idem monasterium iuste et canonice possidet aut in futurum concessione pontificum, largitione regum vel principum, oblatione fidelium seu aliis iustis modis, prestante domino, poterit adipisci, firma tibi tuisque successoribus et illibata permaneant. In quibus hec propriis nominibus exprimenda sub iunximus: ex dono videlicet Ekigardi bone recordati [ o ] nis [ mar ] chionis, vestri monasterii fundatoris, in Sclavico Gene mansos triginta quatuor et semen, Schezice viginti quinque, Otemarice viginti novem, Doberene quatuor, Witigenroht novem, Nizuvazil viginti octo, in Teutonico Gene mansos novem, Kothemeroth sex, Mellere vonem Wikerestede sex et semen, Kozzouve sex, Roderesdorph unum, Ritebach unum, Koculouve septem, Gostice duos, Nuemburch septem et semen, Zorbouve cum omnibus appenditiis suis, Copizan cum cum (!) agris suis, Kisin cum agris suis, Guzarouva cum omni utilitate, Zemesim cum decem et octo mansis, Grizlauvæ decem et septem et semen, Vulense duodecim et semem, molendinum etiam in Sala, molendinum Nuemburch cum aqueductu, sicut venerabilis frater noster Gualdramus eiusdem civitatis episcopus vobis contulit. Et ut nullus in aqueductu molendinum audeat edificare vel constituere aut ipsum aqueductum alio derivare, auctoritate apostolica omnimodis prohibemus. Et ut homines etiam Nuemburgensis ecclesie nulla vehicula vel inpensas vehiculorum ex private iure ad obsequium clippeature in expeditionem ministrent, sed consuetudine communi aliorum homnium episcopi absque gravamine Nuemburgensis ecclesie servitium suum episcopo exhibeant, eadem auctoritate perpetua stabilitate firmamus. Constituimus etiam, ut in concessione beneficiorum consuetudo aliarum ecclesiarum vestro cenobio servetur, scilicet ut, si homo inbeneficiatus a vestro monasterio defunctus fuerit et herede caruerit, beneficium libere ad vestrum cenobium redeat nec ab aliquo cognatorum eius aliqua usurpatione capiatur. Prohibemus autem et omnimodis interdicimus, ut neque tibi neque tuis successoribus fas sit bona seu possessiones predicti monasterii distrahendi aut quolibet modo alienandi vel inficiandi b […] e. Ut autem vos, fratres nostri, divinis famulatibus liberius valeatis insistere, inmunitatem vobis confirmamus, videlicet ut neque ab Nuembergensibus episcopis neque a quibuslibet clericis vel viris secularibus aliqua preiudicia sive gravamina seu exactiones aliquando perferatis, nisi forte quantum vobis spontanea voluntate ipsis largiri placuerit, hospitalitatis gratia exigente. Obeunte vero te nunc eiusdem loci abate vel tuorum quorumlibet successorum, nullus ibi qualibet subreptionis astutia seu violentia preponatur, nisi quem fratres communi assensu vel fratrum pars consilii sanioris secundum deum et beati regulam providerint eligendum. Electus autem iuxta Cluniacensium vel Irsaugientium ordinem sine pravtitate et exactione aliqua consecretur. Interim autem in describendis, providendis seu disponendis rebus monasterii episcopus nullatenus se inmisceat, sed tantummodo electam personam congrua benedictionis reverentia regiminis cura investiat. Nullus ergo hominum idem cenobium audeat temere perturbare vel eius possessiones auferre aut ablatas retinere, minuere seu quiuslibet molestiis fatigare, set omnia integra conserventur eorum, pro quorum sustentatione et gubernatione concessa sunt, usibus profutura. Si qua igitur in posterum ecclesiastica secularisve persona, hanc nostre constituionis paginam sciens, contra eam temere venire temptaverit, secundo tertiove commonita, si non reatum suum congrua satisfactione correxerit, postestatis honorisque sui dignitate careat reamque se divino iudicio existere de perpetrata iniquitate cognosccat et a sacratissimo corpore et sanguine dei ac redemtoris nostri Ihesu Christi alien [ a ] fiat atque in extremo examine districte ultioni subiaceat. Cunctis autem eidem loco, que sua sunt, servantibus sit pax domini nostri Ihesu Christi, quatinus et hic fructum bone actionis percipiant et apud districtum iudicem premia eterne pacis inveniant. Amen.</p>
-         </div>
+         <div type="note"><head>Notizen</head><p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>Text (Transkription d. Verf.): Victor episcopus servus servorum dei. Dilecto filio Teodorico abbati eiusque successoribus regulariter substituendis in perpetuum. Ad hoc universalis ecclesie cura nobis a provisore omnium bonorum deo comissa est, ut religiosas diligamus personas et bene placentes deo religionem studeamus modis omnibus propagare. Nec enim, deo gratus, aliquando famulatus inpenditur, nisi ex caritatis radice procedens, a puritate religionis fuerit conservatus. Eapropter, dilecte in domino fili Theoderice abbas, postulationes tuas clementer admittimus et Nuenbergense monasterium, cui deo auctore preese dinosceris, apostostolice sedis privilegio communimus. Statuentes, ut, quecumque bona, quascumque possessiones in presentiarum idem monasterium iuste et canonice possidet aut in futurum concessione pontificum, largitione regum vel principum, oblatione fidelium seu aliis iustis modis, prestante domino, poterit adipisci, firma tibi tuisque successoribus et illibata permaneant. In quibus hec propriis nominibus exprimenda sub iunximus: ex dono videlicet Ekigardi bone recordati [ o ] nis [ mar ] chionis, vestri monasterii fundatoris, in Sclavico Gene mansos triginta quatuor et semen, Schezice viginti quinque, Otemarice viginti novem, Doberene quatuor, Witigenroht novem, Nizuvazil viginti octo, in Teutonico Gene mansos novem, Kothemeroth sex, Mellere vonem Wikerestede sex et semen, Kozzouve sex, Roderesdorph unum, Ritebach unum, Koculouve septem, Gostice duos, Nuemburch septem et semen, Zorbouve cum omnibus appenditiis suis, Copizan cum cum (!) agris suis, Kisin cum agris suis, Guzarouva cum omni utilitate, Zemesim cum decem et octo mansis, Grizlauvæ decem et septem et semen, Vulense duodecim et semem, molendinum etiam in Sala, molendinum Nuemburch cum aqueductu, sicut venerabilis frater noster Gualdramus eiusdem civitatis episcopus vobis contulit. Et ut nullus in aqueductu molendinum audeat edificare vel constituere aut ipsum aqueductum alio derivare, auctoritate apostolica omnimodis prohibemus. Et ut homines etiam Nuemburgensis ecclesie nulla vehicula vel inpensas vehiculorum ex private iure ad obsequium clippeature in expeditionem ministrent, sed consuetudine communi aliorum homnium episcopi absque gravamine Nuemburgensis ecclesie servitium suum episcopo exhibeant, eadem auctoritate perpetua stabilitate firmamus. Constituimus etiam, ut in concessione beneficiorum consuetudo aliarum ecclesiarum vestro cenobio servetur, scilicet ut, si homo inbeneficiatus a vestro monasterio defunctus fuerit et herede caruerit, beneficium libere ad vestrum cenobium redeat nec ab aliquo cognatorum eius aliqua usurpatione capiatur. Prohibemus autem et omnimodis interdicimus, ut neque tibi neque tuis successoribus fas sit bona seu possessiones predicti monasterii distrahendi aut quolibet modo alienandi vel inficiandi b […] e. Ut autem vos, fratres nostri, divinis famulatibus liberius valeatis insistere, inmunitatem vobis confirmamus, videlicet ut neque ab Nuembergensibus episcopis neque a quibuslibet clericis vel viris secularibus aliqua preiudicia sive gravamina seu exactiones aliquando perferatis, nisi forte quantum vobis spontanea voluntate ipsis largiri placuerit, hospitalitatis gratia exigente. Obeunte vero te nunc eiusdem loci abate vel tuorum quorumlibet successorum, nullus ibi qualibet subreptionis astutia seu violentia preponatur, nisi quem fratres communi assensu vel fratrum pars consilii sanioris secundum deum et beati regulam providerint eligendum. Electus autem iuxta Cluniacensium vel Irsaugientium ordinem sine pravtitate et exactione aliqua consecretur. Interim autem in describendis, providendis seu disponendis rebus monasterii episcopus nullatenus se inmisceat, sed tantummodo electam personam congrua benedictionis reverentia regiminis cura investiat. Nullus ergo hominum idem cenobium audeat temere perturbare vel eius possessiones auferre aut ablatas retinere, minuere seu quiuslibet molestiis fatigare, set omnia integra conserventur eorum, pro quorum sustentatione et gubernatione concessa sunt, usibus profutura. Si qua igitur in posterum ecclesiastica secularisve persona, hanc nostre constituionis paginam sciens, contra eam temere venire temptaverit, secundo tertiove commonita, si non reatum suum congrua satisfactione correxerit, postestatis honorisque sui dignitate careat reamque se divino iudicio existere de perpetrata iniquitate cognosccat et a sacratissimo corpore et sanguine dei ac redemtoris nostri Ihesu Christi alien [ a ] fiat atque in extremo examine districte ultioni subiaceat. Cunctis autem eidem loco, que sua sunt, servantibus sit pax domini nostri Ihesu Christi, quatinus et hic fructum bone actionis percipiant et apud districtum iudicem premia eterne pacis inveniant. Amen.</p></div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
    </text>
