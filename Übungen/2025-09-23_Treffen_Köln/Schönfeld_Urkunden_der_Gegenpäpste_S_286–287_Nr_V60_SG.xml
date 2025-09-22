@@ -24,7 +24,7 @@
                <issued><placeName>Cremona</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1162-03-21" precision="high" unit="cm" xml:space="default" notBefore="1162-03-21" type="issued">(1162), März 21</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
-               <p><legalActor type="recipient">Hentzelin, Propst von Marbach</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><legalActor type="recipient">Hentzelin, Propst von Marbach</legalActor></p><p><legalActor type="recipient">Marbach, Kapitel</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
                <p><objectType n="">[Typisierung 2]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
@@ -42,7 +42,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Viktor IV . ruft Propst Hentzelin von Marbach zum Schutz und zur Wache über die Kirche, die ihm anvertrauten Brüder und die Nonnen von Schönensteinbach auf.<list>
+            <p>Viktor IV. ruft Propst Hentzelin von Marbach zum Schutz und zur Wache über die Kirche, die ihm anvertrauten Brüder und die Nonnen von Schönensteinbach auf.<list>
                <item>[Listeneintrag 1]</item>
             </list></p>
          </div>
