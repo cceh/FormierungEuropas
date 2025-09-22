@@ -47,14 +47,14 @@
             </list></p>
          </div>
          <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Apostolatus offitii debito</diploPart></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Apostolatus offitii debito cogimur loca</diploPart></div>
          <div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item></list></diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">Datum Cremone, XII kalendas aprilis.</diploPart></div>
          <div type="msSources">
              <head>Frühester Überlieferungsträger</head>
             <div>
             <listBibl>   
-               <bibl type="original">Original, Colmar, Arch. de Haut-Rhin, H Schoenensteinbach I/1;</bibl>
+               <bibl type="original">Original, Colmar, Arch. de Haut-Rhin, H Schoenensteinbach I/1</bibl>
                <bibl type="msCopy">[handschriftliche Kopie]</bibl>
                <bibl type="print">[Druck]</bibl>
             </listBibl>
@@ -85,7 +85,7 @@
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>[Regest 1]</bibl>
-               <bibl>GP II /2, S. 288, Nr. 5; Mayr: Der Pontifikat, S. 115, Nr. 46; Abb. dig.: PH Arch. de Haut-Rhin, Colmar.</bibl>
+               <bibl>GP II /2, S. 288, Nr. 5</bibl><bibl>Mayr: Der Pontifikat, S. 115, Nr. 46</bibl><bibl>Abb. dig.: PH Arch. de Haut-Rhin, Colmar</bibl>
             </listBibl>
          </div>
          <div>
