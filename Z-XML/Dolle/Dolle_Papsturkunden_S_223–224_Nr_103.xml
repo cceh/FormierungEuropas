@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="dolle"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt>
+              <resp when="2024">Encoding:</resp>
+              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+           </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>Dolle, Papsturkunden, S. 223–224, Nr. 103</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Dolle, Papsturkunden, S. 223–224, Nr. 103</bibl><bibl type="jaffe">14442</bibl>
+            <diploDesc>
+               <issued>
+                  <placeName>Pavia</placeName>
+                  <date type="issued" notBefore="1160-11-19" notAfter="1160-11-19">1160 November 19</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Papst Viktor IV . nimmt die Kirche von Hildesheim in den apostolischen Schutz und ver- bietet den Vögten und Laien, sich der Hinterlassenschaft der Geistlichen zu bemächtigen.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+         <div type="other">
+            <head>Echtheitskriterien: </head>
+            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
+         </div>
+         <div>
+            <head>Incipit:</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones:</head>
+            <diploPart type="subscriptio">
+               <list>
+                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+               </list>
+            </diploPart>
+         </div>
+         <div>
+            <head>Datatio:</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+             <head>Frühester Überlieferungsträger</head>
+            <div>
+            <listBibl>   
+               <bibl type="original">Ausfertigung: NLA -Hannover, Hild. Or. 1, Hildesheim Domstift Nr. 54 ( A ), 1943 verbrannt. Perga- ment, italienisch, 43 × 54 (1,9). Rota wie Nr. 102. Die Bulle hing an Hanfschnur.</bibl>
+               <bibl type="msCopy">Abschriften: NLA -Hannover, Cop. VI , 11 Nr. 117 ( B ), 1943 verbrannt. – DomB Hildesheim, Hs 10 p. 226 f. Nr. 115 ( C ). – UB Gießen, Ms 492 fol. 100 r -102 v ( D ). – NLA -Wolfenbüttel, IV Hs 53 Bd. 1 p. 653 ( E ). – SUB Göttingen, Ms Hist 1, XI fol. 101 r -101 v ( F ), aus unbekannter Vorlage.</bibl>
+               <bibl type="print">Drucke: Origines Guelficae III S. 450 f. Nr. 24 (nach B ). – UB HHildesheim I Nr. 319.</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Dolle, Papsturkunden, S. 223–224, Nr. 103</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL 14442</bibl>
+               <bibl>Regesten: J Nr. 9384. – JL Nr. 14442. – GP V /2, VI S. 51 Nr. 100. – Pflugk-Harttung, Beiträge zu Jaffé’s Regestensammlung S. 107 Nr. 190. Äußere Beschreibung: Pflugk-Harttung, Päpstliche Original-Urkunden Nr. 566. Der Druck folgt UB HHildesheim ( UBHH ). Vgl. Heinemann, Bistum Hildesheim S. 249 f. – Goetting, Bischöfe S. 393. a a so ( UBHH ).</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>[Inhalt des Sachkommentars. Bibliographische Referenzen werden als Bibliographische Angabe getagged.]</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Weitere Referenzen als listBibl]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>x x x Victor episcopus servus servorum dei universe ęcclesie Hildenensemensi in per- petuum. x x x Iustis petentium desideriis facilem nos convenit impertiri consensum et vota, quę a rationis tramite non discordant, effectu sunt prosequente complenda, quatinus devotionis sinceritas laudabiliter enitescat et utilitas postulata vires indubi- tanter assumat. Eapropter, dilecti in domino filii, rationabilibus vestris petitionibus clementer annuentes ęcclesiam Hildensemensem cum omnibus suis bonis sub beati Petri et nostra protectione suscipimus et presentis scripti patrocinio communimus statuentes, ut quascumque possessiones, quecumque bona eadem ęcclesia in presen- tiarum iuste et canonice possidet aut in futurum concessione pontificum, largitione regum vel principum, oblatione fidelium seu aliis iustis modis prestante domino poterit adipisci, firma vobis vestrisque successoribus et illibata permaneant. Preterea inhibemus et auctoritate apostolica omnino interdicimus, ut nullus advocatorum aut alius quilibet laicus presumat de cetero morientium clericorum bona invadere vel aliquo modo distrahere aut iustitiam episcopalem seu clericorum usurpare vel dimi- nuere. Decernimus ergo, ut nulli omnino hominum liceat prefatam ęcclesiam temere perturbare aut eius possessiones auferre vel ablatas retinere, minuere seu aliquibus vexationibus fatigare, sed illibata omnia et integra conserventur eorum, pro quorum gubernatione et sustentatione concessa sunt usibus omnimodis profutura, salva nimirum in omnibus sedis apostolicę auctoritate et diocesani episcopi canonica iusti- tia. Si qua igitur in futurum ecclesiastica secularisve persona hanc nostrę constitutio- nis paginam sciens contra eam temere venire temptaverit, secundo tertiove commo- nita, nisi presumptionem suam congrua satisfactione correxerit, potestatis honorisque sui dignitate careat reamque se divino iudicio existere de perpetrata iniquitate cognos cat et a sacratissimo corpore ac sanguine dei et domini nostri Ihesu Christi aliena fiat atque in extremo examine districte ultioni subiaceat. Cunctis autem eidem ęcclesie sua iura servantibus sit pax domini nostri Ihesu Christi, quatinus et hic fruc- tum bone actionis percipiant et apud districtum iudicem premia eternę pacis inve- niant. Amen. (R.) Ego Victor catholicę ecclesię episcopus subscripsi. (M.) † Ego Iohannes presbyter cardinalis tituli sanctorum Silvestri et Martini subscripsi. † Ego Iohannes presbyter cardinalis tituli Pastoris subscripsi. † Ego Hubaldus Ferentinensis episcopus subscripsi. † Ego Gerardus sanctę Romane ecclesię diaconus cardinalis subscripsi. † Ego Landus sancti Angeli diaconus cardinalis subscripsi. Datum Papię per manum magistri Gerardi sanctę Romanę ęcclesie subdiaconi, XIII . kal. decembris, indictione VIIII , incarnationis dominice anno MCLX , pontificatus vero dompni Victoris pape IIII anno II .</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="dolle"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt>
+              <resp when="2024">Encoding:</resp>
+              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+           </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>Dolle, Papsturkunden, S. 214–215, Nr. 97</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Dolle, Papsturkunden, S. 214–215, Nr. 97</bibl><bibl type="jaffe">10547</bibl>
+            <diploDesc>
+               <issued>
+                  <placeName>Lateran</placeName>
+                  <date type="issued" notBefore="1159-02-21" notAfter="1159-02-21">[1159] Februar 21</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Papst Hadrian IV . bestätigt Erzbischof Hartwig von Bremen und dessen Nachfolgern die Rechte und den Besitz ihrer Kirche sowie deren Grenze von der Elbe stromabwärts bis zum Ozean, aufwärts durch das Land der Slawen bis zur Peene und durch deren Unter- lauf bis zur Ostsee, ferner den Besitz der bebauten und unbebauten Brüche an der Elbe.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+         <div type="other">
+            <head>Echtheitskriterien: </head>
+            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
+         </div>
+         <div>
+            <head>Incipit:</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones:</head>
+            <diploPart type="subscriptio">
+               <list>
+                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+               </list>
+            </diploPart>
+         </div>
+         <div>
+            <head>Datatio:</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+             <head>Frühester Überlieferungsträger</head>
+            <div>
+            <listBibl>   
+               <bibl type="original">Ausfertigung fehlt, im 17. Jh. in der Stader Registratur noch vorhanden unter der Signatur: RegA Stade, Caps. I Nr. 20. Rota wie in Nr. 93, docht fehlte nach ( D ) die Devise. Die Bleibulle hing an gelber Seidenschnur und entsprach Nr. 93 (so die Beschreibung in D ).</bibl>
+               <bibl type="msCopy">Abschriften: NLA -Hannover, Cop. II 41 fol. 43 v ( B ), 1943 verbrannt. – StBibl Hamburg, Codex Jo- hannei Hamburgensis p. 254 ( C ), 1842 verbrannt. – StA Hamburg, 211-2, Nachtrag III Nr. 38 fol. 191 r - 194 v ( D ), mit Zeichnung von Rota und Monogramm sowie Beschreibung der Bleibulle. – GWLB Hannover, Ms XXIII 1052, fol. 40 v -41 v Nr. 85 ( E ).</bibl>
+               <bibl type="print">Drucke: Staphorst, Hamburgische Kirchen-Geschichte I , 1 S. 558 (zu 1158). – Hamburgisches UB I Nr. 217 ( UB H ), nach B . – PL 188 Sp. 1617 f. Nr. 242. Teildrucke: Meklenburgisches UB I Nr. 69. – SHLRU I Nr. 104. – Diplomatarium Danicum I , 2 Nr. 133. – Pommersches UB I , 2. Aufl. Nr. 47.</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Dolle, Papsturkunden, S. 214–215, Nr. 97</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL 10547</bibl>
+               <bibl>Regesten: J 7107. – JL Nr. 10547. – GP VI S. 79 f. Nr. 145. – Hempel, Inventarium Sp. 96. – Pommer- sches UB I Nr. 47. – RegEbBremen I Nr. 542. – Reincke, Domarchiv S. 76 Nr. 6. Der Druck folgt D .</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Datiert nach Indiktion und Pontifikatsangabe auf der Grundlage des calculus Florentinus. Vgl. Jordan, Bistumsgründungen S. 81-91. a b c d e f g h o o o o a permittentes ( D ). b nere ( D ). c potuerunt ( UB H ). d archiepiscopus ( D ). e Nachtrag auf Rasur ( D ). f fehlt ( D ). g Nachtrag über der Zeile ( D ). h so ( D ).</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Weitere Referenzen als listBibl]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>x x x Adrianus episcopus x x x servus servorum x x x dei x x x dilecto filio Ardwico Bremensi archi- episcopo eiusque successoribus in perpetuum. Cum ex iniuncto nobis a deo apostola- tus officio, quo cunctis Christi fidelibus ex superni dispositione arbitrii preminemus, singulorum paci et quieti debeamus intendere, præsertim pro illorum tranquillitate nos oportet esse sollicitos, qui pastorali dignitate sunt præditi et ad officium pontifi- cale promoti. Nisi enim nos eorum utilitatibus intendentes ipsorum dignitates et iura, in quantum deo permittente possumus, integra conservemus et auctoritate apostolica eos ab iniquorum hominum incursibus defendamus, de illorum salute non vere poterunt esse solliciti, qui sibi ad regendum sunt domino disponente commissi. Huius itaque rei consideratione, frater archiepiscope , provocati tuis iustis postula- tionibus clementer annuimus et præfatam, cui deo auctore preęsse dinosceris, eccle- siam sub beati Petri et nostra protectione suscipimus et præsentis scripti privilegio communimus statuentes, ut quascunque possessiones, quæcunque bona eadem eccle- sia in præsentiarum iuste et canonice possidet aut in futurum concessione ponti- ficum, largitione regum vel principum, oblatione fidelium seu aliis iustis modis prestante domino poterit adipisci, firma tibi tuisque successoribus et illibata perma- neant. Immunitates præterea et terminos, videlicet ab Albia flumine deorsum usque ad mare oceanum et sursum per Sclavorum provinciam usque ad fluvium Pene et per eius decursum usque ad mare orientale, paludes quoque cultas et incultas infra sive iuxta Albiam positas, sicut bonæ memoriæ Lodovicus quondam imperator Hama- burgensi ecclesiæ rationabiliter dedit et ipsa ecclesia possidet, auctoritate apostolica nihilominus confirmamus. Decernimus ergo , ut nulli omnino hominum liceat pre- fatam ecclesiam temere perturbare aut eius possessiones auferre vel ablatas retinere, minuere aut aliquibus vexationibus fatigare, sed omnia integra conserventur eorum, pro quorum gubernatione et sustentatione concessa sunt usibus omnimodis pro- futura, salva in omnibus apostolicæ sedis auctoritate. Si qua igitur in futurum eccle- siastica secularisve persona hanc nostræ constitutionis paginam sciens contra eam temere venire temptaverit, secundo tertiove commonita, si non satisfactione congrua emendaverit, potestatis honorisque sui dignitate careat reamque se divino iuditio existere de perpetrata iniquitate cognoscat et a sacratissimo corpore et sanguine dei et domini redemptoris nostri Ihesu Christi aliena fiat atque in extremo examine di- vinæ ultioni subiaceat. Cunctis autem eidem loco sua iura servantibus sit pax domini nostri Ihesu Christi, quatinus et hic fructum bonæ actionis percipiant et apud distric- tum iudicem proemia æternæ pacis inveniant. Amen. Amen. Amen. (R.) Ego Adrianus catholicæ ecclesiæ episcopus subscripsi. (M.) Dat. Lat(erani) per manum Rolandi presbyteri cardinalis et cancellarii, VIIII . kl. martii, indictione VII , incarnationis dominicæ anno M C LVIII , pontificatus vero domini Adriani papæ IIII anno V .</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

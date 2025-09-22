@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="dolle"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt>
+              <resp when="2024">Encoding:</resp>
+              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+           </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>Dolle, Papsturkunden, S. 210–211, Nr. 95</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Dolle, Papsturkunden, S. 210–211, Nr. 95</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
+            <diploDesc>
+               <issued>
+                  <placeName>Lateran</placeName>
+                  <date type="issued" notBefore="1157-03-05" notAfter="1159-03-05">[1157-1159] März 5</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Papst Hadrian IV . verleiht auf Bitten Herzog Heinrichs des Löwen von Sachsen und Bayern und dessen Notars Heinrich dem Abt von Königslutter das Recht, Mitra, Ring und Sandalen zu tragen.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+         <div type="other">
+            <head>Echtheitskriterien: </head>
+            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
+         </div>
+         <div>
+            <head>Incipit:</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones:</head>
+            <diploPart type="subscriptio">
+               <list>
+                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+               </list>
+            </diploPart>
+         </div>
+         <div>
+            <head>Datatio:</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+             <head>Frühester Überlieferungsträger</head>
+            <div>
+            <listBibl>   
+               <bibl type="original">Ausfertigung: NLA -Wolfenbüttel, 13 Urk 1 ( A ). Pergament, italienisch, 7,2-8,4 × 6,3-6,7 (2,2); stark stockfleckig u. zum Teil unleserlich. Bulle an roten und gelben Seidenfäden, wie Nr. 93. Rückvermerk (15. Jh.): Privilegium de insigniis abbatis, scilicet mitre.</bibl>
+               <bibl type="msCopy">Abschriften: NLA -Wolfenbüttel, 13 Urk 1, beiliegend ( B ). – NLA -Wolfenbüttel, Landschaftliche Bi- bliothek Nr. 1721 fol. 36 v -37 r ( C ). – NLA -Wolfenbüttel, VII B Hs 337 p. 78 f. ( D ).</bibl>
+               <bibl type="print">Drucke: Prutz, Heinrich der Löwe S. 475 Nr. 6. – Naß, Chroniken S. 99 Nr. 4 (nach C , mit Da- tum 1155).</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Dolle, Papsturkunden, S. 210–211, Nr. 95</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>[Regest 1]</bibl>
+               <bibl>Regesten: GP V /2, VI S. 434 Nr. 3. – Lerche, Studien S. 69 Nr. 14 (zu 1155). Abbildungen der Bleibulle: Diekamp, Urkundenwesen, zwischen S. 626 u. 627 Nr. 3 u. 17 – Serafini, Le monete I S. 26, Abb. H 9. – Fees / Roberg, Digitale Urkundenbilder IV Taf. 15 u. 16. Beschreibung der Bleibulle: Marnetté-Kühl, Siegel S. 62 f. Nr. G 2. Abbildung: Lichtbildarchiv Marburg, Zugangsnummer 7939. Der Druck folgt A , ergänzt nach B .</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Nach dem Itinerar ist die Anwesenheit des Papstes Anfang März im Lateran nur für die Jahre 1157-1159 bezeugt. Jordan hält das Jahr 1158 für möglich, da sich im Winter 1157/58 eine herzogliche Gesandt- schaft in Rom aufhielt ( MGH DD HL S. XXV ). a a danach Lücke von 2,2 cm für Namen ( A ).</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Weitere Referenzen als listBibl]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>Adrianus episcopus servus servorum dei dilecto filio abbati de L[utte]ra salutem [et] apostolicam benedictionem. Sacrosancta Romana ecclesia quibusdam personis, quas speciali amoris prerogativa diligit, consuevit quandoque talia indulgere, qualia passim non omnibus conceduntur. Inde est, dilecte in domino fili, quod [intuit]tu devotio- nis, quam erga sacrosanctam Romanam ecclesiam et nos ipsos hab[ere dino]sceris, [et] p[recibus dilecti filii nostri Henrici] Saxonie et B[avari]e [ducis et] instantia [Henrici eiusdem d]ucis no[tarii] usum mitre, [annuli], sandalium et caligarum pers[one] tue duximus concedendum statuentes, [ut i]n sollempniis missarum, sino- dis [et] conciliis et processionibus [ut]en[di] eis liberam de cetero habeas facultatem. Dat. [Laterani, III .] non. martii.</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

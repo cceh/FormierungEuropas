@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="dolle"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt>
+              <resp when="2024">Encoding:</resp>
+              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+           </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>Dolle, Papsturkunden, S. 180–181, Nr. 72</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Dolle, Papsturkunden, S. 180–181, Nr. 72</bibl><bibl type="jaffe">8817</bibl>
+            <diploDesc>
+               <issued>
+                  <placeName>Viterbo</placeName>
+                  <date type="issued" notBefore="1145-05-27" notAfter="1146-05-27">[1145 oder 1146] Mai 27</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Papst Eugen III . verbietet Bischof Bernhard von Hildesheim, die Winzenburg der Hildes- heimer Kirche zu entfremden, und beauftragt ihn, die Bürger von Goslar, welche gewalt- sam in die Propstei eingedrungen sind, zu bestrafen. Ferner vertraut er ihm den Dom- propst Konrad und den Domkanoniker R . an.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+         <div type="other">
+            <head>Echtheitskriterien: </head>
+            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
+         </div>
+         <div>
+            <head>Incipit:</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones:</head>
+            <diploPart type="subscriptio">
+               <list>
+                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+               </list>
+            </diploPart>
+         </div>
+         <div>
+            <head>Datatio:</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+             <head>Frühester Überlieferungsträger</head>
+            <div>
+            <listBibl>   
+               <bibl type="original">1 Ausfertigung: NLA -Hannover, Hild. Or. 1, Hildesheim Domstift Nr. 47a ( A ), 1943 verbrannt. Per- gament, 19,5-20,2 × 22,5 (2,2). Bleibulle an roten und gelben Seidenfäden, wie Nr. 73. Rückvermerk (13. Jh.): De Wincenb(ur)hc Eugenii III .</bibl>
+               <bibl type="msCopy">Abschriften: NLA -Hannover, Cop. VI 11 Nr. 741 ( B ), 1943 verbrannt. – SUB Göttingen, Ms Hist 1, XI fol. 88 r -88 v ( D ), aus unbekannter Vorlage ( D ). – Göttingen, Pius-Stiftung für Papsturkundenfor- schung, Nachlass Brackmann ( E ), mit Hinweisen zu den Maßen und dem Rückvermerk sowie Zeich- nung der Bleibulle.</bibl>
+               <bibl type="print">Drucke: Origines Guelficae III S. 449 Nr. 22 (nach B ). – PL 180 Sp. 1082 Nr. 59. – UB Goslar I Nr. 205 ( UB G ). – UB HHildesheim I Nr. 235 ( UB HH ).</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Dolle, Papsturkunden, S. 180–181, Nr. 72</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL 8817</bibl>
+               <bibl>Regesten: J Nr. 6188. – JL Nr. 8817. – GP V /2, VI S. 46 f. Nr. 85. – Hempel, Inventarium I Sp. 86. – UB Hildesheim I Nr. 22. – Kruppa, Grafen von Dassel S. 357 Nr. 13. Abbildungen der Bleibulle: Diekamp, Urkundenwesen, zwischen S. 626 u. 627 Nr. 13. – Marnetté- Kühl, Siegel S. 61 f. Nr. G 1. – Serafini, Le monete I S. 26, Abb. H 6. – Fees / Roberg, Digitale Urkun- denbilder IV Taf. 12. Der Druck folgt Brackmann ( E ) mit Hinweisen zu UB G u. UB HH .</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Datiert nach dem Itinerar des Papstes. Vgl. Heinemann, Bistum Hildesheim S. 194 f. – Goetting, Bischöfe S. 358, 362. – Petke, Stiftung und Reform S. 91 f. a b 1 c a Guincenburg ( UB HH ) ; Winzenburg ( UB G ). b beneficium ( UB HH ); ( UB G ). c tue ( UB HH ). 1 Vermutlich Rainald von Dassel. Nachweisbar sind zu dieser Zeit auch die Domkanoniker Rudolf und Richbert.</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Weitere Referenzen als listBibl]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>x x x Eugenius x x x episcopus servus servorum dei venerabili fratri B(ernhardo) episcopo et dilectis filiis clero et populo Hildensemenis ęcclesię salutem et apostolicam benedic- tionem. Quemadmodum predecessores nostri Romani pontifices Hildensemensem ęcclesiam et civitatem tamquam regni Teutonici famosam et nobilem dilexisse noscun- tur, ita et nos eorum vestigia sequentes eandem ampliori caritatis affectu diligere vo- lumus et fovere et ad ipsius honorem diligenter intendere. Hoc siquidem intuitu predecessor noster felicis memorie x x x papa Inn x x x ocentius tibi, frater episcope, precipi- endo mandavit, ut castrum Guinzenburg , quod ad ius Hildensemensis ęcclesię per- tinere cognoscitur, nulli umquam in benefitium traderes nec aliquo modo alienares, sed ad ipsius ęcclesię utilitatem futuris semper temporibus permaneret. Nos itaque, quorum precipue interest benegesta firmare, auctoritate apostolica prohibemus, ut neque tu nec aliquis successorum tuorum prefatum castrum inbenefitiandi aut aliquo modo alienandi facultatem habeatis, sed ad ipsius utilitatem ęcclesię liberum et absque alicuius pervasione perpetuis temporibus manere decernimus. Si quis autem aliquo umquam in tempore ausu temerario idem castrum inbenefitiare seu alienare aut in benefitium recipere vel occupare presumpserit, noverit se cum fautoribus suis pro tanto excessu excommunicationis vinculo innodandum. Nichilominus tibi, frater episcope, precipiendo mandamus, quatenus de Goslariensibus, qui, sicut accepimus, preposituram dilecti filii nostri C(onradi), dum in nostro esset servitio, violenter in- vaserunt, infra XL dies canonicam ei iustitiam facias. Eundem etiam prepositum et dilectum filium nostrum R. ęcclesię tuę canonicum caritati tuę attentius commen- damus. Datum Viterbi, VI . kal. iunii.</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

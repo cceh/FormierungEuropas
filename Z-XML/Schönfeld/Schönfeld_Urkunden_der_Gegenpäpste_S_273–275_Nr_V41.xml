@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="schoenfeld"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt>
+              <resp when="2024">Encoding:</resp>
+              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+           </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>Schönfeld, Urkunden der Gegenpäpste, S. 273–275, Nr. V41</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 273–275, Nr. V41</bibl><bibl type="jaffe">14448</bibl>
+            <diploDesc>
+               <issued>
+                  <placeName>Cremona</placeName>
+                  <date type="issued" notBefore="1161-05-11" notAfter="1161-05-11">1161, Mai 11</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Viktor IV . stellt das Kloster Deutz bei Köln unter Abt Halbernus unter apostolischen Schutz, bestätigt seine Besitzungen, das Recht der freien Wahl des Abtes und das freie Begräbnisrecht.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+         <div type="other">
+            <head>Echtheitskriterien: </head>
+            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
+         </div>
+         <div>
+            <head>Incipit:</head>
+            <diploPart type="incipit" xml:lang="lat">Quotiens ea que</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones:</head>
+            <diploPart type="subscriptio">
+               <list><item>Rota-Inschrift: Rota-Inschrift: sanctus Petrus / sanctus Paulus / Vic papa / tor IIII</item><item>Rota-Devise: Rota-Devise: Tu es gloria mea, tu es susceptor meus, tu exaltas caput meum domine</item><item>Bene Valete: x</item><item>Komma: –</item><item>Subskriptionen: –</item></list><list>
+                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+               </list>
+            </diploPart>
+         </div>
+         <div>
+            <head>Datatio:</head>
+            <diploPart type="datatio">Datum Cremone per manum Gerardi sancte Romane ecclesie subdiaconi et notarii, V idus maii indictione VIIII , incarnationis dominice anno MCLXI , pontificatus vero domini Victoris pape IIII anno secundo.</diploPart>
+         </div>
+         <div type="msSources">
+             <head>Frühester Überlieferungsträger</head>
+            <div>
+            <listBibl>   
+               <bibl type="original">Original, Köln, Stadtarchiv, Urkunden der Abtei Deutz 3/8b;</bibl>
+               <bibl type="msCopy">[handschriftliche Kopie]</bibl>
+               <bibl type="print">[Druck]</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 273–275, Nr. V41</bibl>
+               <bibl>Pflugk-Harttung: Acta, Bd. I, S. 287, Nr. 323; Lacomblet: Urkundenbuch für die Geschichte, Bd. IV , S. 778, Nr. 628;</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL 14448</bibl>
+               <bibl>IP I, S. 76, Nr. 16; IP II , S. 229, Nr. 8; Santifaller: Saggio, Bd. I, S. 433 („ JL 5320 A“); Fischer: Wibert von Ravenna, S. 174, Nr. 1; Stoller: Schism, S. 47, Nr. 16; Krafft: Bene Valete, S. 239; Dahlhaus: Rota oder Unterschrift, S. 299; Abb. dig.: PH Goe; Abb. ana.: Dahlhaus: Rota oder Unterschrift, S. 277, Abb. 7; Lit.: Kehr: Zur Geschichte Wiberts von Ravenna, Teil II , S. 975 f.; Hüls: Kardinäle, S. 51, Nr. 35, S. 111, S. 158 – 160; Stoller: Schism, S. 47 – 51; Heidrich: Ravenna, S. 13, S. 56; Dahlhaus: Rota oder Unterschrift, S. 299; Krafft: Bene Valete, S. 129 f.</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>[Inhalt des Sachkommentars. Bibliographische Referenzen werden als Bibliographische Angabe getagged.]</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Weitere Referenzen als listBibl]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>Text (Transkription d. Verf.): Victor episcopus servus servorum dei. Dilectis filiis Hartberno abbati et universo Tuiciensi conventui tam presentibus quam futuris regularem vitam professis in perpetuum. Quotiens ea, que a rationis tramite non discordant, humiliter postulantur, moram ad concedendum facere non debemus, ne differre bona desideria, que magis fovendi sunt videamur. Eapropter, dilecti in domino filii, devotionem vestram erga beatum Petrum et nos ipsos propensius attendentes, iustis vestris postulationibus gratiori assensu concurrimus et Tuiciensem ecclesiam cum omnibus suis bonis sub beati Petri nostra protectione suscipimus et presentis scripti privilegio communimus. Statuentes, ut, quascumque possessiones, quecumque bona eadem ecclesia in presentiarum iuste ac canonice possidet aut in futurum concessione pontificum, largitione regum vel principum, oblatione fidelium seu aliis iustis modis, prestante domino, poterit adipisci, firma vobis vestrisque successoribus et illibata permaneant. Preterea specialiter statuimus de decimis ecclesiarum ad vestrum monasterium pertinentium, ut eas modo subscripto ad usum et utilitatem vestram libere possideatis. Presbiteri vero partes decimarum vobis non asscriptas cum dotalibus mansis et oblationibus seu aliis quibuslibet utilitatibus ad suum usum et ad episcopi atque decani servitium optineant. In quibus hec propriis duximus exprimenda vocabulis: de ecclesia Thesternich decimam totam, de ecclesia Anrode decimam totam, de ecclesia Unna decimam totam cum XII solidis annuatim vobis solvendis, de ecclesia Tuicii totam decimam, excepta illa, quę provenit ex terra episcopi Coloniensis, decimam de Ense, decimam de Westhoven, decimam de Ruleshoven, decimam de Polla, decimam de Kalca, decimam de Vinze, de ecclesia Windense duas partes decime, de ecclesia Afelterburch duas partes decime, de ecclesia Vene medietatem decime, de ecclesia Eschvilre medietatem decime, de ecclesia Burgele medietatem decime, de ecclesia Burge medietatem decime, de ecclesia W alde medietatem decime, de ecclesia Leichlinge medietatem decime, de ecclesia Zuodendorp medietatem decime, de ecclesia Hillen medietatem decime, de ecclesia W alttorp medietatem decime, de ecclesia Derne medietatem decime, de ecclesia Hattukke medietatem decime, de ecclesia Heringe medietatem decime, de ecclesia Dattile medietatem decime, de ecclesia Gladebach medietatem decime, de ecclesia Boymon medietatem decime, de ecclesia Birtene medietatem decime. De istis itaque prefatis decimis statuimus, ut nec tibi, dilecte fili abbas, nec tuis successoribus aut alicui alii persone liceat eas minuere, distrahere vel aliquo modo [ a Tuiciensi ecclesia alienare, sed ad usum et sustentationem fratrum in eadem ecclesia deo servientium perpetuis temporibus conserventur. Obeunte vero te nunc eiusdem loci abbate vel tuorum quolibet succedentium, ] nullus ibi qualibet surreptionis astutia seu alicuius laici vel alterius persone violentia preponatu, nisi quem fratres communi consensu vel conventus pars consilii sanioris secundum dei timorem et beati Benedicti regulam providerint eligendum. Sepulturam quoque eiusdem loci omnino liberam esse sancimus, ut omnium, qui illic sepeliri voluerint, devotioni et extreme voluntati, nisi forte excommunicati sint, nullus obsistat. Decernimus ergo, ut nullus omnino hominum presumat Tuiciense monasterium temere perturbare aut eius possessiones auferre vel ablatas retinere, minuere seu aliquibus vexationibus fatigare, sed illibata omnia et integra conserventur, usibus eorum, pro quorum gubernatione et sustentatione concessa sunt, omnimodis profutura. Salva sedis apostolice auctoritate et diocesani episcopi canonica iustitia. Si qua igitur in futurum ecclesiastica secularisve persona, hanc nostre constitutionis paginam sciens, contra eam temere venire temptaverit, secundo tertiove commonita, nisi presumptionem suam congrua satisfactione correxerit, potestatis honorisque sui dignitate careat reamque se divino iudicio existere de perpetrata iniquitate cognoscat et a sacratissimo corpore et sanguine dei et domini nostri Ihesu Christi aliena fiat atque in extremo examine districte ultioni subiaceat. Cunctis autem eidem loco sua iura servantibus sit pax domini nostri Ihesu Christi, quatinus et hic fructum bone actionis percipiant et apud districtum iudicem premia eterne pacis inveniant. Amen, Amen, Amen.</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

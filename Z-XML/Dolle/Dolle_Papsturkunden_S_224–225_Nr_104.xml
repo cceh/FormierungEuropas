@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="dolle"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt>
+              <resp when="2024">Encoding:</resp>
+              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+           </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>Dolle, Papsturkunden, S. 224–225, Nr. 104</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Dolle, Papsturkunden, S. 224–225, Nr. 104</bibl><bibl type="jaffe">10760</bibl>
+            <diploDesc>
+               <issued>
+                  <placeName>Dôle</placeName>
+                  <date type="issued" notBefore="1162-09-20" notAfter="1162-09-20">1162 September 20</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Papst Alexander III . nimmt die Kanonissen in Nikolausberg in den apostolischen Schutz, bestätigt die Augustinerregel sowie ihren Besitz, gewährt ihnen die freie Wahl des Propstes und den Schutz der Pilger, die das Stift aufsuchen.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+         <div type="other">
+            <head>Echtheitskriterien: </head>
+            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
+         </div>
+         <div>
+            <head>Incipit:</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones:</head>
+            <diploPart type="subscriptio">
+               <list>
+                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+               </list>
+            </diploPart>
+         </div>
+         <div>
+            <head>Datatio:</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+             <head>Frühester Überlieferungsträger</head>
+            <div>
+            <listBibl>   
+               <bibl type="original">Ausfertigung fehlt.</bibl>
+               <bibl type="msCopy">Abschriften: NLA -Hannover, Cal. Or. 100 Weende Nr. 133/1 ( B ) als Transsumpt in der Urkunde des Notars Bertold byme Se von 1380 September 30 mit Nachzeichnung von Rota, Bene Valete und den Unterschriften. Rota wie Nr. 102. – SUB Göttingen, Hist 1 XXX fol. 78 r -79 v ( C ).</bibl>
+               <bibl type="print">Drucke: Grotefend, Beiträge. – UB Weende Nr. 1.</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Dolle, Papsturkunden, S. 224–225, Nr. 104</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL 10760</bibl>
+               <bibl>Regesten: J Nr. 7225. – JL Nr. 10760. – GP IV / IV S. 336 Nr. 1.</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>a b o a so statt Tulliano ( B ). b so statt Boso ( B ).</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Weitere Referenzen als listBibl]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>Alexander episcopus servus servorum dei dilectis in Christo filiabus priorisse ecclesie sancti Nycolai in monte, qui dicitur Wlrideshusen, eiusque sororibus tam presen- tibus quam futuris regularem vitam professis in perpetuum. Religiosam vitam eligen- tibus apostolicum convenit adesse presidium, ne forte cuiuslibet temeritatis incursus aut eos a proposito revocet aut robur, quod absit, sacre religionis infringat. Eapropter, dilecte in domino filie, vestris iustis postulationibus clementer annuimus et prefatam ecclesiam, in qua divino mancipate estis obsequio, sub beati Petri et nostra protec- tione suscipimus et presentis scripti privilegio communimus inprimis siquidem sta- tuentes, ut ordo canonicus, qui secundum deum et beati Augustini regulam in eodem loco noscitur institutus, perpetuis ibidem temporibus inviolabiliter observetur. Pre- terea quascumque possessiones, quecumque bona eadem ecclesia inpresentiarum iuste et canonice possidet aut in futurum concessione pontificum, largicione regum vel principum, oblacione fidelium seu aliis iustis modis prestante domino poterit adipisci, firma vobis et hiis, que post vos successerint, illibata permaneant, in quibus hec propriis duximus exprimenda vocabulis: in Ulradeshusen et Werteshusen quatu- ordecim mansos, in Amburne quinque mansos, in Roringe quatuor mansos, in Wen- den duos mansos et septem iugera, in Mengershusen tres mansos et quinque iugera, in Rostorpe duos mansos et molendinum et in Badenhusen tres mansos. Statuimus preterea, ut liceat vobis aliquem de canonicis regularibus in prepositum eligere, qui tam in spiritualibus quam temporalibus solicite ministrandis vobis debeat studiosius providere. Eo autem obeunte vel suorum quolibet successorum nullus ibi qualibet surreptionis astutia seu violencia preponatur, nisi quem sorores communi consensu vel sanioris partis capituli secundum deum et beati Augustini regulam providerint eligendum. Presenti quoque capitulo duximus annectendum, ut quicumque pere- grini ad locum vestrum causa oracionis accesserint, ab omni pravorum impetu im- munes sint et secure. Et quicumque eos vel bona ipsorum ledere vel molestare in eundo vel redeundo presumpserint, ecclesiastico iudicio se noverint subiacere. Decer- nimus ergo, ut nulli omnino hominum liceat supradictam ecclesiam temere pertur- bare aut eius possessiones auferre vel ablatas retinere, minuere seu quibuslibet vexa- tionibus fatigare, sed illibata omnia et integra conserventur earum, pro quarum gubernacione et sustentacione concessa sunt usibus omnimodis profutura, salva sedis apostolice auctoritate et dyocesani episcopi canonica iusticia. Si qua igitur in futu- rum ecclesiastica secularisve persona hanc nostre constitucionis paginam sciens con- tra eam temere venire temptaverit, secundo tertiove communita, nisi presumptionem suam congrua satisfactione correxerit, potestatis honorisque sui dignitate careat re- amque se divino iudicio exsistere de perpetrata iniquitate cognoscat et a sacratissimo corpore et sangwine dei et domini redemptoris nostri Iesu Christi aliena fiat atque in extremo examine districte ultioni subiaceat. Cunctis autem eidem loco sua iura ser- vantibus sit pax domini nostri Iesu Cristi, quatinus et hic fructum bone actio[n]is percipiant et apud districtum iudicem premia eterna pa[cis i]nveniant. Amen. (R.) Ego Alexander catholice ecclesie episcopus subscripsi. (M.) † Ego Gregorius Sabinensis episcopus subscripsi. † Ego Hubaldus Ostiensis episcopus subscripsi. † Ego Bernhardus Portuensis et sancte Rufine episcopus subscripsi. † Ego Gualterius Albaniensis episcopus subscripsi. † Ego Hubaldus presbyter cardinalis tituli sancte Crucis in Ierusalem subscripsi. † Ego Iohannes presbyter cardinalis tituli sancte Anastasie subscripsi. † Ego Albertus presbyter cardinalis tituli sancti Laurencii in Lucina subscripsi. † Ego Guil(lelmus) presbyter cardinalis tituli sancti Petri ad vincula subscripsi. † Ego Iacinctus dyaconus cardinalis sancte Marie in Cosmydin subscripsi. † Ego Oddo dyaconus cardinalis sancti Nycolai in carcere Tuliano subscripsi. † Ego Ardicio dyaconus cardinalis sancti Theodori subscripsi. † Ego Bodo dyaconus cardinalis sanctorum Cosme et Damyani subscripsi. Datum apud Dol(um) per manum Hermanni sancte Romane ecclesie subdyaconi et notarii, XII kl. octobris, indictione XI , incarnacionis dominice anno M CLXII , ponti- ficatus vero domini Alexandri pape III anno quarto.</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

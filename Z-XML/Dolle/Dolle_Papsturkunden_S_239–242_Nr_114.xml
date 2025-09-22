@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="dolle"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt>
+              <resp when="2024">Encoding:</resp>
+              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+           </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>Dolle, Papsturkunden, S. 239–242, Nr. 114</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Dolle, Papsturkunden, S. 239–242, Nr. 114</bibl><bibl type="jaffe">13620</bibl>
+            <diploDesc>
+               <issued>
+                  <placeName>Velletri</placeName>
+                  <date type="issued" notBefore="1180-02-22" notAfter="1180-02-22">[1180] Februar 22</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Papst Alexander III . bekundet, wie schon sein Vorgänger Innozenz II ., dass der verstorbe- ne Bischof Reinhard von Halberstadt ein Kanonissenstift in Schöningen aufgelöst und den Besitz dem neugegründeten Augustiner-Chorherrenstift übertragen hat. Er bestätigt den Besitz, befreit es vom Zehnten für Neubrüche bei Eigenbau und für Tierfutter, gewährt das Recht, Kleriker und Laien in das Stift aufzunehmen, verbietet diesen, nach Ablegung der Profess ohne Erlaubnis des Priors das Stift zu verlassen, erlaubt die Messe während eines allgemeinen Interdikts und gewährt die freie Propstwahl und das Begräbnisrecht.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+         <div type="other">
+            <head>Echtheitskriterien: </head>
+            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
+         </div>
+         <div>
+            <head>Incipit:</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones:</head>
+            <diploPart type="subscriptio">
+               <list>
+                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+               </list>
+            </diploPart>
+         </div>
+         <div>
+            <head>Datatio:</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+             <head>Frühester Überlieferungsträger</head>
+            <div>
+            <listBibl>   
+               <bibl type="original">Ausfertigung: NLA -Wolfenbüttel, 17 Urk 10 ( A ). Pergament, italienisch, 60,8-61,5 × 64-64,9 (1,6-1,9); stark stockfleckig u. kleine Löcher, insbesondere in den Falten, mit Textverlust. Rota wie Nr. 107 . Bulle an gelben und roten Seidenfäden, wie Nr. 107.</bibl>
+               <bibl type="msCopy">Abschrift: NLA -Wolfenbüttel, VII B Hs 360 p. 48-57 ( B ). Rückvermerk (14. Jh.): Allexandri III con- firmacio anno domini M o C o LXXXIX .</bibl>
+               <bibl type="print">Druck: Falke, Codex S. 769-771 Nr. 38 (mit falschem Datum).</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Dolle, Papsturkunden, S. 239–242, Nr. 114</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL 13620</bibl>
+               <bibl>Regesten: J Nr. 8784. – JL Nr. 13620. – GP V /2, VI S. 411 Nr. 3. – Hempel, Inventarium I Sp. 112. – Raumer, Regesta I Nr. 1449. – Lerche, Studien S. 64 Nr. 4. Abbildungen der Bleibulle: Diekamp, Urkundenwesen, zwischen S. 626 u. 627 Nr. 3 u. 20. – Aus 1200 Jahren S. 107 Abbildung 5 u. 6. – Serafini, Le monete I S. 27, Abb. H 10. – Schoknecht, Urkunde Papst Alexanders III . S. 380. – Fees / Roberg, Digitale Urkundenbilder IV Taf. 19. Beschreibung der Bleibulle: Marnetté-Kühl, Siegel S. 64 Nr. G 4. Abbildungen: Lichtbildarchiv Marburg, Zugangsnummer 8050. – Falke, Codex, Tafel 8 Nr. 5.</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Die Tagesdatierung lässt aufgrund des päpstlichen Itinerars nur das Jahr 1180 zu. Die Pontifikats- angabe ist um einen Zähler zu hoch. Vgl. Bogumil, Bistum Halberstadt S. 123-128. – Märtl, Schöningen 414-417. a U o b c o o o o a das e korrigiert aus p ( A ). b generalem ( A ). c so statt suppressa ( A ).</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Weitere Referenzen als listBibl]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>x x x Alexander episcopus servus servorum dei dilectis filiis Bodoni preposito ecclesie sancti Laurentii in Schenige eiusque fratribus tam presentibus quam futuris regularem vitam professis [nostram pacem in] perpetuum. x x x Officii nostri nos hortatur auctori- tas r[eligioso]s viros paterna karitate diligere et que a fratribus nostris rationabiliter invenerimus constituta apostolice sedis munimine roborare. Significastis siquidem nobis, quod bone memorie [Rein]hardus Halverstad[en]sis episcopus Schenigensem locum, in quo prius quedam sanctimoniales erant nequiter conversantes, cum neque in spiritualibus neque in temporalibus aliquem fructum inibi facerent, [utpot]e abs- que regula et ratione viventes per diversas terras huc illucque discurrerent, propter inutilitatem personarum et [ea]rum malam conversationem communicato consilio fratrum suorum [m]utavit et eis amotis ibidem regulares canonicos esse decrevit ea tamen consideratione habita, ut fratres ecclesiam antiquam in fundo, qui Calvo dici- tur, sitam cum omnibus ad eam pertinentibus perpetuo possiderent. Insu[per] bona matricis ecclesie sub eorum potestate consisterent. Nos igitur, dilecti in domno filii, vestris rationabilibus desideriis annuentes, quod a predicto episcopo super eadem re et in eadem mutatione factum [esse dignoscit]ur, ad exemplar felicis memorie Inno- centii pape predecessoris nostri auctoritate apostolica confirmamus et futuris tempo- ribus ratum manere sanctimus inprimis siquidem statue[ntes, ut ord]o canonicus, qui secundum domini et beati Augustini regulam in ecclesia vestra institutus esse dinosci- tur, perpet[uis ibi]dem temporibus inviolabiliter observetur. P[reterea quascunque possessiones, quecunque bona eadem ecclesia in presentiarum iuste et canonice possi- det et in futurum] concessione pontificum, [largitione regum vel principum, obla- tione fidelium] seu aliis iustis [modis prestante] domino [poterit] adipisci, firma vobis vestrisque successoribus et illibata permaneant, in quibus hec propriis [duximus] ex- primenda vocabulis: locum ipsum, in quo prefata ecclesia sita [e]st, [cum] omnibus pertinentiis suis in villa, que dicitur Hergrimistorp, decem et octo areas cum decem et novem mansis, [in] Helmirichrestorp quindecim areas cum duodecim mansis, Schirinbike ex integro cum omni utilitate sua, in S[ua]mmere duodecim mansos et dimidium et quindecim areas, in Luckestorp undecim areas et octo mansos, in Rode- nesleve duodecim mansos et sedecim areas, in Geroldestorp septem areas cum quin- que mansis, in Iggersleve duas areas et totidem mansos, in Hellesse tres mansos et septem areas cum adiacente silva, in B[ad]enstedi unum mansum et unam aream, in Dalwersleve unum mansum et aream, in Edendorp mansum et aream, in Ballinge sex mansos et decem areas, in Swardelese septem areas cum tot mansis, in Bulsteringe duas areas et duos mansos, in Bindorp tres areas et duos mansos et dimidium, in Buoga mansum et aream, Eslestede et Akendorp iuxta Gardeleve cum omni utilitate et in silva, que Hemeisse dicitur, et his contigua est eis participatio, Oroplage cum omni- bus pertinentiis suis, Odendorp duos mansos, Luidune dimidiam cum omni utilitate sua, in Thoetmerothe mansum et aream, in Allende tres mansos et dimidium et duas areas, in Banesleve mansum et aream, in denehim novem mansos et decimam cum tot areis, iuxta Bardawic in Mechtenhusen unum panstale et dimidium, qui so[lvunt] viginti quattuor solidos, in villa Schenigge viginti duas areas cum utilita tibus suis et decem mansos et dimidium octo solidos solventes cum pratis et reliquis u[ti]litatibus, [duo molen]dina [cum] piscinis, unum in villa, unum in agro, in valle, quę dicitur Mersidal, lucum unum, in oriente quatuor panstalia et duas areas, in occi dente de- cem panstalea et tres [a]reas, in Asbike sex areas cum sex mansis singulis octo solidos solventibus cum pratis et usibus silvarum, [in] Suligge octo areas et novem mansos et dimidium cum pratis et usibus [silvarum, in] De[bbe]nehim sex areas et sex mansos et septem iugeros et unum molendinum cum usibus pratorum et silvarum, decimas novalium, que per omnem Scheniggensem parrochiam facta sunt et in futurum fi- unt, in Wobike duas [areas, dua]s iugeros cum usibus silvarum, Watenstede octo mansos cum omnibus utilitatibus suis, silvis, pratis et decimis, terris cultis et incultis et capellam, Barduwick quedam pre[dia IIII solidos solvent]es, Mulbike qua tuor mansos cum areis, Gathelere unum mansum et aream, Well[em un]um mansum [et aream, Wodenstorp] d[uas] areas [cum] duobus mansis, Timbere unum mansum, H[r]a[tenst]ede [mansum et aream], Gethune unum mansum et aream, Gevensleve unum mansum et aream, Beierstede duos mansos et duas areas, Eile[sl]eve tres mansos et dimidium, Stuterligge unum mansum et dimidium, Lukkenheim dimi- dium mansum et molendinum, Geldesse unum mansum et aream. Sane nova[liu]m vestrorum, que propriis manibus aut sumptibus colitis, sive [nutri]mentis vestrorum animalium nullus a vobis decimas presumat exigere. Preterea liceat [vobis] clericos et laicos e seculo fugientes liberos et absolutos absque alicuius contradictione ad com- missionem recipere et in ecclesia vestra retinere. Prohibemus insuper, ut nulli fratrum vestrorum post factam in eodem loco professionem absque prioris sui licentia de eodem loco liceat nisi obtentu artioris religionis discedere, discedentem vero absque communium litterarum cautione nullus audeat retinere. Cum autem generale inter- dictum terre fuerit, liceat vobis ianuis clausis, non pulsatis campanis, exclusis excom- municatis et interdictis, summissa voce divina officia celebrare. Obeunte vero te nunc eiusdem loci preposito vel tuorum quolibet [successorum] nullus ibi qualibet subreptionis astutia seu violentia preponatur, nisi quem fratres communi consensu vel fratrum pars consilii sanioris secundum dei timorem et beati Augustini regulam providerint eligendum. [Et] sepulturam quoque ipsius loci liberam esse decernimus, ut eorum devotioni et extreme voluntati, qui se illic sepeliri deliberaverint, nisi forte excommunicati vel interdicti sint, nullus obsistat salva tamen iustitia illarum ecclesi- arum, a quibus mortuorum corpora assumuntur. Decernimus ergo, ut nulli omnino hominum liceat ecclesiam vestram temere perturbare aut eius possessiones auferre vel ablatas retinere, minuere seu quibuslibet vexa[tionibus fatig]are, sed omnia integra conserventur eorum, pro quorum sustentatione ac gubernatione concessa sunt usibus omnimodis profu[tura], salva sedis apostolice auctoritate et diocesani episcopi cano- nica iustitia. Siqua igitur in futurum ecclesiastica secularisve persona hanc nostre constitutionis paginam sciens contra eam temere venire temptaverit, secundo tertiove commonita, nisi presumtionem suam digna satisfactione correxerit, potestatis [hono- ris]que sui dignitate careat reamque se divino iudicio existere de perpetrata iniquitate cognoscat et a sacratissimo corpore et sanguine dei et domini redemptoris nostri Iesu Christi aliena fiat atque in extremo examine d[istrict]ę ultioni subiaceat. Cunctis autem eidem loco sua iura servantibus sit pax domini nostri Iesu Christi, quatinus et hic fructum bone actionis percipiant et apud districtum iudicium premia [eterne pacis] inveniant. x x x Amen. Amen. Amen. x x x (R.) Ego Alexander catholice ecclesie episcopus subscripsi. ( M .) † Ego Hubaldus Hostiensis episcopus subscripsi. † Ego Theodinus Portuensis et sancte Rufine sedis episcopus subscripsi. † Ego Iohannes sanctorum Iohannis et Pauli presbyter cardinalis tituli Pamachii subscripsi. † Ego Vivianus presbyter cardinalis tituli sancti Stephani in Celio monte subscripsi. † Ego Mathias presbyter cardinalis tituli sancti Marcelli subscripsi. † Ego Gratianus diaconus cardinalis sanctorum Cosme et Damiani subscripsi. † Ego M[athias] sancte Marie Nove diaconus cardinalis subscripsi. † Ego Paulus diaconus cardinalis sanctorum Sergii et Bacchii subscripsi. Dat. Velletr. per manum Alberti [sancte Romane ecclesie presbyteri] cardinalis et can- cellarii, VIII kl. martii, indictione XIII ., incarnationis dominice anno M . C . LXX . nono, pontificatus vero dom[ni] Alexandri pape III anno XXII .</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

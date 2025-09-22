@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="schoenfeld"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt>
+              <resp when="2024">Encoding:</resp>
+              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+           </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <idno>Schönfeld, Urkunden der Gegenpäpste, S. 329–331, Nr. Ca20</idno><availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 329–331, Nr. Ca20</bibl><bibl type="jaffe">14504</bibl>
+            <diploDesc>
+               <issued>
+                  <placeName>Foligno</placeName>
+                  <date type="issued" notBefore="1173-04-26" notAfter="1173-04-26">1173, April 26</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract"><head>Abstract:</head>
+            <p>Calixt III . stellt das Kloster S. Blasien unter Abt Werner mit den in der Urkunde genannten Besitzungen unter seinen Schutz und bestätigt zugleich die dem Kloster schon früher verliehenen Rechte hinsichtlich der Bestellung seiner Vögte.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+         <div type="other">
+            <head>Echtheitskriterien: </head>
+            <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
+         </div>
+         <div>
+            <head>Incipit:</head>
+            <diploPart type="incipit" xml:lang="lat">Quia sedis apostolice</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones:</head>
+            <diploPart type="subscriptio">
+               <list><item>Rota-Inschrift: Rota-Inschrift: sanctus Petrus / sanctus Paulus / Calix papa / tus III</item><item>Rota-Devise: Rota-Devise: Conserva me domine, quoniam speravi in te</item><item>Bene Valete: x</item><item>Komma: –</item><item>Subskriptionen: –</item></list><list>
+                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+               </list>
+            </diploPart>
+         </div>
+         <div>
+            <head>Datatio:</head>
+            <diploPart type="datatio">Datum Fulginei per manum Sixti domini Martini Tusculani episcopi et sanctę Romanę ęcclesię cancellarii vicem gerentis, VI kalendas maii indictione V incarnationis dominicę anno MCLXXIII , pontificatus vero domni Calixti III . pape anno V .</diploPart>
+         </div>
+         <div type="msSources">
+             <head>Frühester Überlieferungsträger</head>
+            <div>
+            <listBibl>   
+               <bibl type="original">Original, Karlsruhe, GLA , B 36, 60/74;</bibl>
+               <bibl type="msCopy">[handschriftliche Kopie]</bibl>
+               <bibl type="print">[Druck]</bibl>
+            </listBibl>
+         </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 329–331, Nr. Ca20</bibl>
+               <bibl>Neugart: Codex diplomaticus, Bd. II , S. 103, Nr. 877; Wirtembergisches Urkundenbuch, Bd. II , S. 172, Nr. 401;</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL 14504</bibl>
+               <bibl>Palumbo: Lo scisma, S. 663, Nr. 38.</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>[Inhalt des Sachkommentars. Bibliographische Referenzen werden als Bibliographische Angabe getagged.]</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Weitere Referenzen als listBibl]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>Text (Transkription d. Verf.): Calixtus episcopus servus servorum Dei. Dilecto filio Wernero abbati monasterii sancti Blasii, quod in Constantiensi episcopatu, in loco videlicet, qui Nigra Silva dicitur, situm est, eiusque successoribus regulariter substituendis in perpetuum. Quia sedis apostolice divina disponente gratia licet inmeriti gubernacula tenemus, eius pro posse nostro sequi debemus vestigia, qui non tantum iustitia, sed etiam vera ac summa est misericordia. Ad hoc enim divini et humani iuris ratio nos compellit ac suscepti nos offitii cura sollicitat, ut universis toto orbe subiectis debeamus existere salutares et precipue mediante iustitia religiosas diligamus personas omnipotentique deo bene placentem religionem studeamus modis omnibus promovere. Huius rei gratia, dilecte in domino fili Werneri abbas, nos exempla predecessoris nostri beate memorie pape Innocentii sequentes tuis desideriis paterna benignitate annuimus et monasterium beati Blasii, cui auctore deo preesse dinosceris, presentis scripti pagina communimus. Statuentes, ut, quascumque possessiones, quecumque dona idem venerabilis locus in presentiarum iuste et canonice possidet aut in futurum concessione pontificum, largitione regum vel principum, oblatione fidelium seu aliis iustis modis prestante domino poterit adipisci, firma tibi tuisque successoribus et illibata permaneant. [ ln ] quibus hec nominibus propriis duximus exprimenda, videlicet cellas Ochsinhusin, Berowa, Witinowa, Burgelun, Sizzenchilcha, Wizzelinchouin cum omnibus earum pertinentiis, ecclesias Reinstetin, Tanheim, Buochen, Bercheim, Arla, Orsinhusin, Wolpach, Lovba, Wrimos, Wintriedin, Altrichisrieth, Burron, W armundisrieth, Loppinhusin, Brunnon, Utinwilare, Huovidorf, Teigingin, Griezchein, Suverzin, Bathmaringin cum subdita sibi ecclesia, Mucheim, Wilare, Nallingin, Blochingin, Rutte, Haginilo, Nuchilcha, Omingin, Imindingin, Bacheim, Gundilwanc, Bernowa, Shonnuova, Gerispach, V arnowa, Wisilath, Tenniberch, Chaltinbach, Steina, Brambach, Rieheim, Tullinchouin, Euiringin, Blansingin, Egginheim, Hugilheim, Wilare, Rothwila, Wisintowa, Entilibuoch, Chernis, Nuheim, Steinhusin, Rebistal, Stallinchouin, Birbuomistorf, Sneisanc, Luvingin, Stadiln, Chilchtorf, Hachinswanda, Berowa ceterasque ecclesias cum omnibus earum pertinentus (!) . Confirmamus quoque dispositionem illam, quam bone recordationis quartus imperator Henricus de monasterii vestri libertate et advocatia constituit et predecessor noster felicis memorie papa Callixtus auctoritatis sue privilegio roboravit atque dilectus filius noster Lotharius rex precepti sui firmitate munivit et sancte recordationis papa Honorius episcoporum et cardinalium deliberatione firmavit et supra memoratus predecessor noster beate memorie papa Innocentius in Lateranensi concilio approbavit. Decernimus ergo, ut nulli omnino hominum liceat vestrum prefatum monasterium temere perturbare aut eius possessiones auferre vel ablatas retinere, minuere vel quibuslibet vexationibus infestare, sed omnia integra conserventur eorum, pro quorum gubernatione et sustentatione concessa sunt, usibus omnimodis profutura. Si qua igitur ecclesiastica secularisve persona, hanc nostre constitutionis paginam sciens, contra eam temere venire temptaverit, secundo tertiove commonita, si non reatum suum congua satisfactione correxerit, potestatis honorisque sui dignitate careat reamque se divino iudicio existere de perpetrata iniquitate cognoscat et a sacratissimo corpore et sanguine dei et domini nostri Iesu Christi aliena fiat atque in extremo examine districte subiaceat ultioni. Cunctis vero eidem loco sua iura servantibus sit pax domini nostri Iesu Christi, quatenus et hic fructum bone actionis percipiant et apud districtum iudicem premia eterne pacis inveniant. Amen, Amen, Amen.</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>
