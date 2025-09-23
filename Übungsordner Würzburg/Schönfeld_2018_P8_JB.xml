@@ -17,8 +17,8 @@
          </publicationStmt>
          <sourceDesc>
             <bibl type="jaffe">14488</bibl>
-            <diploDesc><issued><placeName>Viterbo</placeName><date type="issued">1167, November 18</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
-               </issued><p><legalActor type="issuer">Paschalis III.</legalActor></p><p><legalActor type="recipient">Gregor, Abt des Klosters Hornbach</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType n="">Papsturkunde</objectType></p><!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! --><p><objectType n="">Privileg, feierlich</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <diploDesc><issued><placeName>Viterbo</placeName><date type="issued">1166, November 18</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued><p><legalActor type="issuer">Papst Paschalis III.</legalActor></p><p><legalActor type="recipient">Gregor, Abt des Klosters Hornbach</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType n="">Papsturkunde</objectType></p><!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! --><p><objectType n="">Privileg, feierlich</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
@@ -32,20 +32,20 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p><legalActor><persName>Paschalis III.</persName></legalActor> bestätigt das Urteil im Streit zwischen <persName>Gregor, Abt des Benediktinerklosters Hornbach</persName> (D. Metz), und <persName>Anselm von Ringelste</persName> über ein Grundstück der Kirche von Walsheim, das durch Hillin, Erzbischof von Trier und päpstlicher Legat, in päpstlichem Auftrag gefällt wurde. Er setzt außerdem fest,
+            <p><legalActor><persName>Papst Paschalis III.</persName></legalActor> bestätigt das Urteil im Streit zwischen Gregor, Abt des Benediktinerklosters Hornbach (D. Metz), und <persName>Anselm von Ringelste</persName> über ein Grundstück der Kirche von Walsheim, das durch Hillin, Erzbischof von Trier und päpstlicher Legat, getroffen wurde. Er setzt außerdem fest,
             <list>
                <item>dass der Besitz des obengenannten Grundstücks zukünftig bei den Äbten von Hornbach verbleibt, und die Rechte daran auch nach dem Tod des Priesters Siegfried nicht in Frage gestellt werden dürfen.</item><item> Schlussformeln: Perturbationsformel, Sanctio negativa und positiva.</item>
             </list></p>
          </div>
          <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="na"><p>[-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustum ac rationabile est ut</diploPart></div>
-         <div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>Ego <persName>Pascalis catholice ecclesię episcopus</persName> subscripsi. (BV)</item><item>Ego <persName>Iohannes Albanensis episcopus</persName> subscripsi.</item><item>Ego <persName>Iohannes presbiter cardinalis tituli Pastoris</persName> subscripsi.</item><item>Ego <persName>Umfredus presbiter cardinalis tituli [sancte] Susannę</persName> subscripsi.</item><item>Ego <persName>Albertus presbiter cardinalis tituli sancti Grisogoni</persName> subscripsi.</item><item>Ego <persName>Landus sancti Angeli diaconus cardinalis</persName> subscripsi.</item><item>Ego <persName>Gerardus diaconus cardinalis sancte Marie in Aquiro</persName> subscripsi.</item><item>Ego <persName>Lanfredus sancte Marie nove diaconus cardinalis</persName> subscripsi.</item></list></diploPart></div>
-         <div><head>Datatio:</head><diploPart type="datatio">Datum <placeName>Viterbii</placeName> per manum <persName>Iohannis sanctę Romane ecclesię presbiteri cardinalis et cancellarii</persName> XIIII kalendas decembris, indictione XV, incarnationis dominice anno MCLXVII, pontificatus vero dompni <persName>Pascalis pape III</persName> anno III.</diploPart></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustum ac rationabile est, ut</diploPart></div>
+         <div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>Ego <persName>Pascalis catholice ecclesię episcopus</persName> subscripsi.</item><item>Ego <persName>Iohannes Albanensis episcopus</persName> subscripsi.</item><item>Ego <persName>Iohannes presbiter cardinalis tituli Pastoris</persName> subscripsi.</item><item>Ego <persName>Umfredus presbiter cardinalis tituli [sancte] Susannę</persName> subscripsi.</item><item>Ego <persName>Albertus presbiter cardinalis tituli sancti Grisogoni</persName> subscripsi.</item><item>Ego <persName>Landus sancti Angeli diaconus cardinalis</persName> subscripsi.</item><item>Ego <persName>Gerardus diaconus cardinalis sancte Marie in Aquiro</persName> subscripsi.</item><item>Ego <persName>Lanfredus sancte Marie nove diaconus cardinalis</persName> subscripsi.</item></list></diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">Datum <placeName>Viterbii</placeName> per manum <persName>Iohannis sanctę Romane ecclesię presbiteri cardinalis et cancellarii</persName>, XIIII kalendas decembris indictione XV incarnationis dominice anno MCLXVII, pontificatus vero dompni <persName>Pascalis pape III</persName> anno III.</diploPart></div>
          <div type="msSources">
              <head>Frühester Überlieferungsträger</head>
             <div>
             <listBibl>   
-               <bibl type="original">Original, München, Bayerisches Hauptstaatsarchiv, Rheinpf. Urk., Nr. 1146. Digitalisat: https://urkundenrepositorium.uni-marburg.de/entities/urkunde/7aacf9c0-aa2a-4db2-9ec5-d4537a7947fa</bibl>
+               <bibl type="original">Original, München, Bayerisches Hauptstaatsarchiv, Rheinpf. Urk., Nr. 1146</bibl>
                <bibl type="msCopy">[handschriftliche Kopie]</bibl>
                <bibl type="print">[Druck]</bibl>
             </listBibl>
@@ -69,7 +69,7 @@
             <head>Editionen</head>
             <listBibl>
                <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 313-314, P8.</bibl>
-               <bibl>Pflugk-Harttung, Acta inedita II, S. 381-382, Nr. 433.</bibl><bibl/>
+               <bibl>Pflugk-Harttung, Acta inedita II, S. 381-382, Nr. 433.</bibl><bibl>Abb. dig.: PH LBA, Nr. 8365</bibl>
             </listBibl>
          </div>
          <div type="regesta">
@@ -81,7 +81,7 @@
          </div>
          <div>
             <head>Diplomatischer Kommentar</head>
-            <diploDesc><p>Die Rota Paschalis' III. mit der Inschrift: sanctus Petrus/sanctus Paulus/Pas papa/calis III enthält die Devise: Adiutor meus esto domine, ne derelinquas me. Benevalete. Bulle an Seidenfäden.</p>
+            <diploDesc><p>Die Rota Paschalis' III. mit der Inschrift: <diploPart cert="high" type="rota" xml:space="default">sanctus Petrus/sanctus Paulus/Pas papa/calis III</diploPart> enthält die Devise: <diploPart cert="high" type="rota" xml:space="default">Adiutor meus esto domine, ne derelinquas me</diploPart>. Benevalete.</p>
             </diploDesc>
          </div>
          <div type="commentary">
