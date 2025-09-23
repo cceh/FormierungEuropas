@@ -18,7 +18,7 @@
          <sourceDesc>
             <bibl type="jaffe">-</bibl>
             <diploDesc><issued><placeName>Cremona</placeName><date type="issued">(1162), März 21</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
-               </issued><p><legalActor type="issuer">Papst Viktor IV.</legalActor></p><p><legalActor type="recipient">Propst Hentzelin und Kapitel des Stifts Marbach</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType n="">Papsturkunde</objectType></p><!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! --><p><objectType n="">Mandat</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+               </issued><p><legalActor type="issuer">Viktor IV.</legalActor></p><p><legalActor type="recipient">Propst Hentzelin und Kapitel des Stifts Marbach</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType n="">Papsturkunde</objectType></p><!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! --><p><objectType n="">Mandat</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
@@ -32,7 +32,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p><legalActor><persName>Papst Viktor IV.</persName> </legalActor>ermahnt <persName>Hentzelin, Propst des Regularkanonikerstifts Marbach</persName> (D. Basel), und das gesamte Kapitel, über die Kirche und die ihm anvertrauten Brüder zu wachen. Außerdem befiehlt er dem Propst die Schwestern des <orgName>Stifts Schönensteinbach</orgName> (<diploPart>sororibus de Steimbach</diploPart>), die ihm von <persName>Ortlieb, Bischof von Basel</persName>, anvertraut wurden, sorgfältig zu überwachen und zu fördern.
+            <p><legalActor><persName>Viktor IV.</persName> </legalActor>ermahnt <persName>Hentzelin, Propst des Regularkanonikerstifts Marbach</persName> (D. Basel), und das gesamte Kapitel, über die Kirche und die ihm anvertrauten Brüder zu wachen. Außerdem befiehlt er dem Propst die Schwestern des <orgName>Stifts Schönensteinbach</orgName> (<diploPart>sororibus de Steimbach</diploPart>), die ihm von <persName>Ortlieb, Bischof von Basel</persName>, anvertraut wurden, sorgfältig zu überwachen und zu fördern.
             </p><p/>
          </div>
          <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="na"><p>[-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
