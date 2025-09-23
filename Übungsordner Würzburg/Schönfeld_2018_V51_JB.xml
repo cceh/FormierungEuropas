@@ -17,7 +17,7 @@
          </publicationStmt>
          <sourceDesc><bibl type="jaffe">14452</bibl><diploDesc><issued><placeName>Lodi</placeName><date type="issued">(1161), Juni 26</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">Papst Viktor IV.</legalActor></p>
+               <p><legalActor type="issuer">Viktor IV.</legalActor></p>
                <p> <legalActor type="recipient">Balduin, Abt des Klosters Liesborn</legalActor></p><p><legalActor>Gunther, Propst von Lippoldsberg</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
                <p><objectType n="">Litterae cum filo canapis</objectType></p>
@@ -33,7 +33,7 @@
    </teiHeader>
    <text>
       <body><div type="abstract"><head>Abstract:</head>
-            <p><legalActor><persName>Papst Viktor IV.</persName></legalActor> fordert <persName>Balduin, Abt des Benediktinerklosters Liesborn</persName> (D. Münster), und <persName>Gunther, Propst des Benediktinerinnenklosters Lippoldsberg</persName> (D. Mainz), zur Ermahnung des <persName>Klerikers Lambert</persName>, des Laien E. und einiger anderer auf. Balduin und Gunther sollen nach Untersuchung des Falles veranlassen, dass die genannten Personen ihre ungerechten Handlungen gegenüber dem <persName>Priester Egrich</persName>, der sich über einzeln aufgeführte Vergehen bei einem päpstlichen Gericht Klage erhoben hat, einstellen, die Gerechtigkeit wiederherstellen. Sollten sie sich dieser Anweisung innerhalb von 40 Tagen widersetzen, ist ihnen mit päpstlicher Autorität erlaubt, kanonische Strafen zu verhängen.</p>
+            <p><legalActor><persName>Viktor IV.</persName></legalActor> fordert <persName>Balduin, Abt des Benediktinerklosters Liesborn</persName> (D. Münster), und <persName>Gunther, Propst des Benediktinerinnenklosters Lippoldsberg</persName> (D. Mainz), zur Ermahnung des <persName>Klerikers Lambert</persName>, des Laien E. und einiger anderer auf. Balduin und Gunther sollen nach Untersuchung des Falles veranlassen, dass die genannten Personen ihre ungerechten Handlungen gegenüber dem <persName>Priester Egrich</persName>, der sich über einzeln aufgeführte Vergehen bei einem päpstlichen Gericht Klage erhoben hat, einstellen, die Gerechtigkeit wiederherstellen. Sollten sie sich dieser Anweisung innerhalb von 40 Tagen widersetzen, ist ihnen mit päpstlicher Autorität erlaubt, kanonische Strafen zu verhängen.</p>
          </div><div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="deperditum"><p>[-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div><div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Lator presentium presbiter Egrich in</diploPart></div><div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>-</item></list></diploPart></div><div><head>Datatio:</head><diploPart type="datatio">Datum <placeName>Laude</placeName>, VI kalendas iulii.</diploPart></div><div type="msSources">
              <head>Frühester Überlieferungsträger</head>
             <div>
