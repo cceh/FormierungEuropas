@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
-<TEI source="formierung-europas" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
-   <teiHeader>
+<TEI source="formierung-europas" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><!-- Ordnername hier ergänzen für einzelne Sammlungen --><teiHeader>
       <fileDesc>
          <titleStmt>
             <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
@@ -30,10 +29,9 @@
             <language ident="lat">Latin</language>
             <language ident="en-GB">English</language>
          </langUsage></profileDesc>
-   </teiHeader>
-   <text>
+   </teiHeader><text>
       <body><div type="abstract"><head>Abstract:</head>
-            <p><legalActor><persName>Papst Viktor IV.</persName></legalActor> fordert <persName>Balduin, Abt des Benediktinerklosters Liesborn</persName> (D. Münster), und <persName>Gunther, Propst des Benediktinerinnenklosters Lippoldsberg</persName> (D. Mainz), zur Ermahnung des <persName>Klerikers Lambert</persName>, des Laien E. und einiger anderer auf. Balduin und Gunther sollen nach Untersuchung des Falles veranlassen, dass die genannten Personen ihre ungerechten Handlungen gegenüber dem <persName>Priester Egrich</persName>, der sich über einzeln aufgeführte Vergehen bei einem päpstlichen Gericht Klage erhoben hat, einstellen und innerhalb von 40 Tagen Abbitte für das begangene Unrecht leisten, notfalls unter Androhung kanonischer Strafen. 
+            <p><legalActor><persName>Papst Viktor IV.</persName></legalActor> fordert <persName>Balduin, Abt des Benediktinerklosters Liesborn</persName> (D. Münster), und <persName>Gunther, Propst des Benediktinerinnenklosters Lippoldsberg</persName> (D. Mainz), zur Ermahnung des <persName>Klerikers Lambert</persName>, des Laien E. und einiger anderer auf. Balduin und Gunther sollen nach Untersuchung des Falles dafür sorgen, dass die genannten Personen ihre ungerechten Handlungen gegenüber dem <persName>Priester Egrich</persName>, der sich bei einer apostolischen Audienz über einzeln aufgeführte Vergehen beschwert hatte, einstellen und innerhalb von 40 Tagen Abbitte für das begangene Unrecht leisten, notfalls unter Androhung kanonischer Strafgewalt. 
             </p>
          </div><div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="deperditum"><p>[-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div><div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Lator presentium presbiter Egrich in</diploPart></div><div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>-</item></list></diploPart></div><div><head>Datatio:</head><diploPart type="datatio">Datum <placeName>Laude</placeName>, VI kalendas iulii.</diploPart></div><div type="msSources">
              <head>Frühester Überlieferungsträger</head>
@@ -71,5 +69,4 @@
             <bibl>Bischoff, Urkundenformate im Mittelalter, S. 140.</bibl>
          </listBibl>
          </div><div type="note"><head>Notizen</head><p>In welchem Feld geben wir das Digitalisat zur Urkunde an?</p><p>Wo vermerken wir die jeweilige Diözese?</p><p>Feld "Einwirkungsgrad" bzw. "Beziehung zum Schisma" fehlt</p><p>Über die Archiv-Suchseite ist nur die Abschrift des 17. Jahrhunderts auffindbar, nicht aber die Signatur des bei Schönfeld verzeichneten Originals.</p></div><!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.--></body>
-   </text>
-</TEI>
+   </text></TEI>
