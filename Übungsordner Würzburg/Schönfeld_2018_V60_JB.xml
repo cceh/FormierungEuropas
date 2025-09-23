@@ -18,7 +18,7 @@
          <sourceDesc>
             <bibl type="jaffe">-</bibl>
             <diploDesc><issued><placeName>Cremona</placeName><date type="issued">(1162), März 21</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
-               </issued><p><legalActor type="issuer">Viktor IV.</legalActor></p><p><legalActor type="recipient">Propst Hentzelin und Kapitel des Stifts Marbach</legalActor></p><p><legalActor type="recipient">Kapitelmitglieder des Stifts Marbach</legalActor></p><p>Kapitel des Stifts Marbach</p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType n="">Papsturkunde</objectType></p><!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! --><p><objectType n="">Mandat</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+               </issued><p><legalActor type="issuer">Viktor IV.</legalActor></p><p><legalActor type="recipient">Hentzelin, Propst des Stifts Marbach</legalActor></p><p><legalActor type="recipient">Kapitel des Stifts Marbach</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType n="">Papsturkunde</objectType></p><!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! --><p><objectType n="">Litterae cum filo canapis</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
@@ -92,7 +92,7 @@
             <bibl>[Weitere Referenzen als listBibl]</bibl>
          </listBibl>
          </div>
-         <div type="note"><head>Notizen</head><p>In welchem Feld geben wir das Digitalisat zur Urkunde an?</p><p>Wo vermerken wir die jeweilige Diözese?</p><p>Feld "Einwirkungsgrad" bzw. "Beziehung zum Schisma" fehlt</p></div>
+         <div type="note"><head>Notizen</head><p>Wirklich Littera cum filo canapis? Am Original überprüfen!</p><p>Wo vermerken wir die jeweilige Diözese?</p><p>Feld "Einwirkungsgrad" bzw. "Beziehung zum Schisma" fehlt</p></div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
    </text>
