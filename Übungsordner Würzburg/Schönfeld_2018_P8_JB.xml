@@ -81,7 +81,7 @@
          </div>
          <div>
             <head>Diplomatischer Kommentar</head>
-            <diploDesc><p>Die Rota Paschalis' III. mit der Inschrift: sanctus Petrus/sanctus Paulus/Pas papa/calis III enthält die Devise: Adiutor meus esto domine, ne derelinquas me. Benevalete. Bulle an Seidenfäden.</p>
+            <diploDesc><p>Die Rota Paschalis' III. mit der Inschrift: <diploPart cert="high" type="rota" xml:space="default">sanctus Petrus/sanctus Paulus/Pas papa/calis III</diploPart> enthält die Devise: <diploPart cert="high" type="rota" xml:space="default">Adiutor meus esto domine, ne derelinquas me</diploPart>. Benevalete. Bulle an Seidenfäden.</p>
             </diploDesc>
          </div>
          <div type="commentary">
