@@ -63,13 +63,13 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>[Edition 1]</bibl>
-               <bibl>[Edition 2]</bibl>
+               <bibl>PUU Niederlande, Nr. 98, S. 230.</bibl>
+               <bibl>Schönfeld, Urkunden der Gegenpäpste, V62, S. 287.</bibl>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
-            <listBibl><bibl>PUU Niederlande, Nr. 98, S. 230PUF, S. 230, Nr. 98.</bibl><bibl>Wauters: La Belgique, Bd. 1, S. 169.</bibl><bibl>Schaus: Zu den Papstregesten, S. 201, Nr. 9.</bibl><bibl>Wauters: Table chronologique des chartes, Bd. XI, S. 209.</bibl><bibl>Mayr: Der Pontifikat, S. 116, Nr. 47.</bibl></listBibl>
+            <listBibl><bibl>Wauters: La Belgique, Bd. 1, S. 169.</bibl><bibl>Schaus: Zu den Papstregesten, S. 201, Nr. 9.</bibl><bibl>Wauters: Table chronologique des chartes, Bd. XI, S. 209.</bibl><bibl>Mayr: Der Pontifikat, S. 116, Nr. 47.</bibl></listBibl>
          </div>
          <div>
             <head>Diplomatischer Kommentar</head>
