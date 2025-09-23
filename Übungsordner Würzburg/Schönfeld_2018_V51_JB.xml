@@ -32,16 +32,10 @@
          </langUsage></profileDesc>
    </teiHeader>
    <text>
-      <body>
-         <div type="abstract"><head>Abstract:</head>
+      <body><div type="abstract"><head>Abstract:</head>
             <p><legalActor><persName>Papst Viktor IV.</persName></legalActor> fordert <persName>Balduin, Abt des Benediktinerklosters Liesborn</persName> (D. Münster), und <persName>Gunther, Propst des Benediktinerinnenklosters Lippoldsberg</persName> (D. Mainz), zur Ermahnung des <persName>Klerikers Lambert</persName>, des Laien E. und einiger anderer auf. Balduin und Gunther sollen nach Untersuchung des Falles dafür sorgen, dass die genannten Personen ihre ungerechten Handlungen gegenüber dem <persName>Priester Egrich</persName>, der sich bei einer apostolischen Audienz über einzeln aufgeführte Vergehen beschwert hatte, einstellen und innerhalb von 40 Tagen Abbitte für das begangene Unrecht leisten, notfalls unter Androhung kanonischer Strafgewalt. 
             </p>
-         </div>
-         <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="deperditum"><p>[-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Lator presentium presbiter Egrich in</diploPart></div>
-         <div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>-</item></list></diploPart></div>
-         <div><head>Datatio:</head><diploPart type="datatio">Datum <placeName>Laude</placeName>, VI kalendas iulii.</diploPart></div>
-         <div type="msSources">
+         </div><div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="deperditum"><p>[-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div><div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Lator presentium presbiter Egrich in</diploPart></div><div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>-</item></list></diploPart></div><div><head>Datatio:</head><diploPart type="datatio">Datum <placeName>Laude</placeName>, VI kalendas iulii.</diploPart></div><div type="msSources">
              <head>Frühester Überlieferungsträger</head>
             <div>
             <listBibl>   
@@ -50,41 +44,32 @@
                <bibl type="print"/>
             </listBibl>
          </div>
-         </div>
-         <div type="decretals">
+         </div><div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
                <bibl>-</bibl>
                <bibl>-</bibl>
             </listBibl>
-         </div>
-         <div type="historiography">
+         </div><div type="historiography">
             <head>Erwähnungen in der Historiographie</head>
             <listBibl>
                <bibl>-</bibl>
                <bibl>-</bibl>
             </listBibl>
-         </div>
-         <div type="editions">
+         </div><div type="editions">
             <head>Editionen</head>
             <listBibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 259-260, V51.</bibl><bibl>Stumpf-Brentano, Acta Maguntina, S. 76.</bibl><bibl>Abb. dig.: PH LBA, Nr. 14737; https://urkundenrepositorium.uni-marburg.de/entities/urkunde/41f260b3-6b05-4282-8e66-ae66e82dc956</bibl></listBibl>
-         </div>
-         <div type="regesta">
+         </div><div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14452</bibl>
                <bibl>Germ. Pont. 4, S. 291, Nr. 4</bibl><bibl>Germ. Pont. 9, S. 86, Nr. 5</bibl>
             </listBibl>
-         </div>
-         <div type="commentary"><head>Diplomatischer Kommentar</head><p>Die Datierung erschließt sich aus dem Itinerar Viktors IV. Die Bleibulle ist erhalten und trägt die Inschrift: VIC/TOR/PPIIII. Sie ist mit einer Hanfschnur an der Plica befestigt.</p><diploDesc/><head>Sachkommentar</head><p>Die Datierung erschließt sich aus dem Itinerar Viktors IV.<diploDesc/></p></div>
-         <div type="bibliography">
+         </div><div type="commentary"><head>Diplomatischer Kommentar</head><p>Die Datierung erschließt sich aus dem Itinerar Viktors IV. Die Bleibulle ist erhalten und trägt die Inschrift: VIC/TOR/PPIIII. Sie ist mit einer Hanfschnur an der Plica befestigt.</p><diploDesc/><head>Sachkommentar</head><p><diploDesc/></p></div><div type="bibliography">
             <head>Bibliographie</head>
          <listBibl>
             <bibl>Bischoff, Urkundenformate im Mittelalter, S. 140.</bibl>
          </listBibl>
-         </div>
-         <div type="note"><head>Notizen</head><p>In welchem Feld geben wir das Digitalisat zur Urkunde an?</p><p>Wo vermerken wir die jeweilige Diözese?</p><p>Feld "Einwirkungsgrad" bzw. "Beziehung zum Schisma" fehlt</p><p>Über die Archiv-Suchseite ist nur die Abschrift des 17. Jahrhunderts auffindbar, nicht aber die Signatur des bei Schönfeld verzeichneten Originals.</p></div>
-         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
-      </body>
+         </div><div type="note"><head>Notizen</head><p>In welchem Feld geben wir das Digitalisat zur Urkunde an?</p><p>Wo vermerken wir die jeweilige Diözese?</p><p>Feld "Einwirkungsgrad" bzw. "Beziehung zum Schisma" fehlt</p><p>Über die Archiv-Suchseite ist nur die Abschrift des 17. Jahrhunderts auffindbar, nicht aber die Signatur des bei Schönfeld verzeichneten Originals.</p></div><!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.--></body>
    </text>
 </TEI>
