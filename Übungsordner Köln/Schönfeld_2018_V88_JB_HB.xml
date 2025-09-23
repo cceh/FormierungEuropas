@@ -16,7 +16,11 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl type="jaffe">14477</bibl><diploDesc><issued><placeName>Trier</placeName><date type="issued">(1162), November 4</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+            <bibl type="jaffe">14477</bibl>
+            <diploDesc>
+               <issued>
+                  <placeName>Trier</placeName>
+                  <date type="issued">(1162), November 4</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Papst Viktor IV.</legalActor></p>
                <p><legalActor type="recipient">alle Kirchen des Bistums Bamberg</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->

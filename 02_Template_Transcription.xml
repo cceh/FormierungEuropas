@@ -39,6 +39,15 @@
             <language ident="en-GB">English</language>
          </langUsage></profileDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <media url="image1.png" mimeType="image"></media>
+      </surface>
+
+   </facsimile>
+   <sourceDoc>
+      <pb facs="image1.png"></pb>
+   </sourceDoc>
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>

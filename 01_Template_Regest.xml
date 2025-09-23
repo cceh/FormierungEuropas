@@ -21,6 +21,7 @@
          <sourceDesc>
             <bibl type="jaffe">[Jaffe-Nummer]</bibl>
             <diploDesc>
+               <p>Echtheitskriterium: <authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></p>
                <issued><placeName>[Ausstellungsort]</placeName><date type="issued">[Ausstellungsdatum]</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">[Issuer]</legalActor></p>
@@ -47,9 +48,9 @@
                <item>[Listeneintrag 1]</item>
             </list></p>
          </div>
-         <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="na"><p>[*+?-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
-         <div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item></list></diploPart></div>
+         
+       <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
+         <div><head>Subscriptiones:</head><diploPart type="subscriptio" xml:lang="lat"><list><item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item></list></diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart></div>
          <div type="msSources">
              <head>Frühester Überlieferungsträger</head>
@@ -69,7 +70,7 @@
             </listBibl>
          </div>
          <div type="historiography">
-            <head>Erwähnungen in der Historiographie</head>
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
                <bibl>[Quelle 1]</bibl>
                <bibl>[Quelle 2]</bibl>
@@ -91,7 +92,8 @@
          </div>
          <div>
             <head>Diplomatischer Kommentar</head>
-            <diploDesc><p>[Text und Inhalte Diplomatischer Kommentar]</p>
+            <diploDesc>
+               <p>[Text und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer Kommentar]</p>
             </diploDesc>
          </div>
          <div type="commentary">
