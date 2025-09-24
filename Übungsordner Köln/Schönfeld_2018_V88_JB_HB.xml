@@ -18,6 +18,7 @@
          <sourceDesc>
             <bibl type="jaffe">14477</bibl>
             <diploDesc>
+<p>Echheitskriterien:<authen type="formula" n="na"><p>[-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></p>
                <issued>
                   <placeName>Trier</placeName>
                   <date type="issued">(1162), November 4</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
@@ -45,7 +46,6 @@
                <item>Er ordnet an, dass jede Kirche durch Beiträge ihrer Pfarrei und durch die Unterstützung einzelner zu dieser Kollekte beitragen soll.</item><item>Sowohl Säkular- als auch Regularkanoniker, Mönche und Gemeindemitglieder sollen bei dieser Kollekte berücksichtigt werden. </item><item>Die Verfügungsgewalt über die eingesammelte Kollekte weist Viktor IV. dem <persName>Bischof von Bamberg</persName> zu.</item>
             </list></p>
          </div>
-         <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="na"><p>[-]</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Mater et caput omnium ecclesiarum</diploPart></div>
          <div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>-</item></list></diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">Data <placeName>Treveris</placeName>, II nonas novembris.</diploPart></div>

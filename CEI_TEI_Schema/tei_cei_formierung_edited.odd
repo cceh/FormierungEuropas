@@ -470,31 +470,31 @@
            <ref target="http://www.cei.lmu.de/VID/VID.php?561">VID 561</ref>. The dating clause
            gives the date of the issuance of the charter, by any dating system. </desc>
          </valItem>
-        <!--   <valItem ident="dispositio">
+        <valItem ident="dispositio">
           <desc>
            <ref target="http://www.cei.lmu.de/VID/VID.php?198">VID 198</ref>. Also known as the
            conveyance clause, the dispositive clause is the essential or effective clause of the
            charter, which describes the property or honor to be conveyed, its burndens, conditions,
            and limitations, and conveys the same. </desc>
-         </valItem>-->
+         </valItem>
          <valItem ident="inscriptio">
           <desc>
            <ref target="http://www.cei.lmu.de/VID/VID.php?192">VID 192</ref>. Also known as the
            address, the part of the document that gives the name, titles, and addresses the
            qualities of the addressee or recipient of the act. </desc>
          </valItem>
-        <!--   <valItem ident="intercessio">
+        <valItem ident="intercessio">
           <desc>
            <ref target="http://www.cei.lmu.de/VID/VID.php?328">VID 328</ref>. An intercession clause
            describes the intervention of a third to support a petition. </desc>
-         </valItem>-->
+         </valItem>
          <valItem ident="intitulatio">
           <desc>
            <ref target="http://www.cei.lmu.de/VID/VID.php?187">VID 187</ref>. Also known as the
            superscriptio or the persona salutans, the part of the document which gives the namme of
            the issuer and his/her titles. </desc>
          </valItem>
-        <!-- <valItem ident="invocatio">
+        <valItem ident="invocatio">
           <desc>
            <ref target="http://www.cei.lmu.de/VID/VID.php?185">VID 185.</ref>. A clause calling upon
            God or a saint, for divine protection or witness. </desc>
@@ -531,7 +531,7 @@
           <desc>
            <ref target="http://www.cei.lmu.de/VID/VID.php?237">VID 237</ref>. Also known as a penal
            clause. Defines penalties for breach of act. </desc>
-         </valItem>-->
+         </valItem>
          <valItem ident="subscriptio">
           <desc>
            <ref target="http://www.cei.lmu.de/VID/VID.php?254">VID 254</ref>. Part of the act
