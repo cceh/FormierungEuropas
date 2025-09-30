@@ -17,7 +17,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl type="jaffe">14427</bibl><diploDesc><issued><placeName>Segni</placeName>1159, (Oktober-November) <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+            <bibl type="jaffe">14427</bibl><diploDesc><issued><placeName>Segni</placeName></issued></diploDesc></sourceDesc><sourceDesc><diploDesc><issued>1159, (Oktober-November) <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">[Issuer]</legalActor></p>
                <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
