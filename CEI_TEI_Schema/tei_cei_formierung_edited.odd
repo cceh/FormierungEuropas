@@ -370,7 +370,7 @@
            same person as, but separate conceptually from the scribe, who does not bear a legal role
            in the act.</desc>
          </valItem>
-        <!--   <valItem ident="promisor">
+         <valItem ident="promisor">
           <desc> The party of a contract who makes a promise. All kinds of promisors are meant,
            which may include lessors/lessees, contractors, debtors, etc. </desc>
          </valItem>
@@ -385,11 +385,11 @@
            accusers (where said are not recipients or beneficiaries), petitioners/sponsors who are
            not recipients or beneficiaries of the resulting act, judges (where they are not acting
            as issuers or witnesses), guarantors, etc. </desc>
-         </valItem>-->
+         </valItem>
          <valItem ident="other">
           <desc> Any legal actor that cannot fit into the other categories here. Please consider submitting an issue on GitHub explaining this use.</desc>
          </valItem>
-        <!--   <valItem ident="sigillant">
+        <valItem ident="sigillant">
           <desc>
            <ref target="http://www.cei.lmu.de/VID/VID.php?503">VID 503</ref>. The owner of a
            seal.</desc>
@@ -397,7 +397,7 @@
          <valItem ident="third">
           <desc> A third-party is anyone who is not a party to a contract or act but might be
            affected or involved. </desc>
-         </valItem>-->
+         </valItem>
         </valList>
        </attDef>
       </attList>
@@ -423,7 +423,7 @@
       <attList>
        <attDef ident="type" mode="replace">
         <valList type="closed">
-         <!--  <valItem ident="protocol">
+         <valItem ident="protocol">
           <desc> The opening protocol contains formulaic information invoking divine aid, naming the
            issuer and addressee, conveying greetings. Generally a superset of the invocatio,
            intitulatio, inscriptio, and salutatio. </desc>
@@ -464,7 +464,7 @@
            <ref target="http://www.cei.lmu.de/VID/VID.php?246">VID 246</ref>. Also known as the
            ratification clause, the clause of corroboration connects the words of the charter to the
            effective elements of its validity, whether signature, seal, or promulgation. </desc>
-         </valItem>-->
+         </valItem>
          <valItem ident="datatio">
           <desc>
            <ref target="http://www.cei.lmu.de/VID/VID.php?561">VID 561</ref>. The dating clause
