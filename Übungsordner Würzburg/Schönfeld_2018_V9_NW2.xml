@@ -26,10 +26,9 @@
             <bibl type="jaffe">14427</bibl>
             <diploDesc>
                <p>Echtheitskriterium: <authen type="formula" n="na">
-                     <p>-]</p>
+                     <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-                  </authen></p>
-               <issued><placeName>[Ausstellungsort]</placeName><date type="issued">[Ausstellungsdatum]</date>
+                  </authen></p><issued><placeName>Segni</placeName><date type="issued">1159, (Oktober-November)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">[Issuer]</legalActor></p>
