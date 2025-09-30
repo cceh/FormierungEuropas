@@ -70,12 +70,12 @@
                </list></diploPart>
          </div>
          <div>
-            <head>Datatio:</head><diploPart type="datatio">Datum Sign[i] per manus <persName>Iohannis sancte Romane ecclesie subdiaconi et scriptoris</persName>, anno dominicę incarnationis MCLVIII, indictione VIIII, pontificatus vero domni <persName>Victoris IIII pape</persName> anno primo.</diploPart></div>
+            <head>Datatio:</head><diploPart type="datatio">Datum <placeName>Sign[i]</placeName> per manus <persName>Iohannis sancte Romane ecclesie subdiaconi et scriptoris</persName>, anno dominicę incarnationis MCLVIII, indictione VIIII, pontificatus vero domni <persName>Victoris IIII pape</persName> anno primo.</diploPart></div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
+                  <bibl type="original">Original, München, Bayerisches Hauptstaatsarchiv</bibl>
                   <bibl type="msCopy">[handschriftliche Kopie]</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
