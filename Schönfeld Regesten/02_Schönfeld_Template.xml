@@ -9,11 +9,11 @@
             <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel
                FO für Formierung Europas]</title>
             <respStmt>
-               <resp>Datenquelle</resp>
-               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+               <resp>Die Formierung Europas</resp>
+               <persName>[Name der Bearbeiter*in]</persName>
             </respStmt>
             <respStmt>
-               <resp when="2024">Encoding:</resp>
+               <resp when="2025">Encoding:</resp>
                <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
             </respStmt>
          </titleStmt>
@@ -25,6 +25,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+            <bibl type="Schoenfeld">[Kurztitel Schönfeld-Regest]</bibl>
             <diploDesc>
                <p>Echtheitskriterium: <authen type="formula" n="na">
                      <p>[*+?-]</p>
@@ -37,7 +38,7 @@
                <p>
                   <legalActor type="recipient">[Recipient 1]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <p><objectType n="1-2">Papsturkunde, Privileg feierlich</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
                <p><objectType n="">[Typisierung 2]</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
