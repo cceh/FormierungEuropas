@@ -15,7 +15,7 @@
                <licence>Lizenz</licence>
             </availability>
          </publicationStmt>
-         <sourceDesc><bibl type="jaffe">-</bibl><diploDesc><issued><placeName>-</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1177-03-19" precision="high" unit="cm" xml:space="default" notBefore="1177-03-01">(1177, vermutlich vor März 20) </date><!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+         <sourceDesc><bibl type="jaffe">-</bibl><diploDesc><issued><placeName>-</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" unit="cm" xml:space="default" notAfter="1177-03-19">(1177, vermutlich vor März 20) </date><!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Richard, Erzbischof von Canterbury</legalActor></p>
                <p> <legalActor cert="high" type="beneficiary" xml:space="default">Robert, Bischof von Hereford</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
