@@ -145,14 +145,14 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>EEA II, Nr. 136.</bibl>
-               <bibl>[Edition 2]</bibl>
+               <bibl>EEA II, S. 111-113, Nr. 136.</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>[Regest 1]</bibl>
+               <bibl>JL -[Regest 1]</bibl>
                <bibl>[Regest 2]</bibl>
             </listBibl>
          </div>
