@@ -56,10 +56,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Übungsordner Würzburg/01_Template_Regest.xml?place_annotation_20250910121747232",
+	"id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Übungsordner Würzburg/EEA%20II%2C%20Nr.%20136_JB.xml?place_annotation_20250910121747232",
 	"type": "oa:Annotation",
 	"dcterms:created": "2025-09-10T10:17:47.232Z",
-	"dcterms:modified": "2025-09-10T10:17:47.232Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/juliankebecker",
 		"@type": [
@@ -70,10 +69,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Übungsordner Würzburg/01_Template_Regest.xml?place_annotation_20250910121747232#Target",
+		"@id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Übungsordner Würzburg/EEA%20II%2C%20Nr.%20136_JB.xml?place_annotation_20250910121747232#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Übungsordner Würzburg/01_Template_Regest.xml",
+			"@id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Übungsordner Würzburg/EEA%20II%2C%20Nr.%20136_JB.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -84,7 +83,7 @@
 			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Übungsordner Würzburg/01_Template_Regest.xml?place_annotation_20250910121747232#Selector",
+			"@id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Übungsordner Würzburg/EEA%20II%2C%20Nr.%20136_JB.xml?place_annotation_20250910121747232#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p/placeName"
 		}
@@ -124,23 +123,23 @@
             <div>
             <listBibl>   
                <bibl type="original">Original, Hereford D. &amp; C. Mun. no. 2770.</bibl>
-               <bibl type="msCopy">[handschriftliche Kopie]</bibl>
-               <bibl type="print">[Druck]</bibl>
+               <bibl type="msCopy"/>
+               <bibl type="print"/>
             </listBibl>
          </div>
          </div>
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
-               <bibl>[Quelle 2]</bibl>
+               <bibl>-</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="editions">
