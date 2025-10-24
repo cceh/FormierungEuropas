@@ -152,8 +152,8 @@
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>JL -[Regest 1]</bibl>
-               <bibl>[Regest 2]</bibl>
+               <bibl>JL -</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="commentary">
