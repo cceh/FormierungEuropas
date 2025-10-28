@@ -1,5 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="fe_schoenfeld">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI source="fe_schoenfeld" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc>
@@ -28,16 +30,15 @@
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Rom, S. Peter</placeName><date type="issued" notBefore="1167-07-31" notAfter="1167-07-31">1167, Juli 31</date>
+               <issued><placeName>Rom, S. Peter</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1167-07-31" precision="high" unit="cm" xml:space="default" notBefore="1167-07-31" type="issued">1167, Juli 31</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Issuer]</legalActor></p>
-               <p>
-                  <legalActor type="recipient">[Recipient 1]</legalActor></p>
+               <p><legalActor type="issuer">Paschalis III.</legalActor></p>
+               <p><legalActor type="recipient">Straßburg, Domkapitel</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &gt; Litterae cum serico]</objectType></p>
+               <p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &amp;gt; Litterae cum serico]</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
-               <p><objectType ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &gt; Beauftragung durch…]</objectType></p>
+               <p><objectType ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &amp;gt; Beauftragung durch…]</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
