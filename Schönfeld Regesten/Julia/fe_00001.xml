@@ -25,9 +25,9 @@
             <bibl type="Schoenfeld">Schönfeld, Urkunden der Gegenpäpste, S. 254, Nr. V1</bibl><diploDesc><p>Echtheitskriterium: <authen type="formula" n="deperditum">
                      <p>*</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-                  </authen></p><issued><placeName>-</placeName><date type="issued" notBefore="1159-09-07" notAfter="1164-04-20">(1159, nach September 7–1164, vor April 20)</date>
+                  </authen></p><issued><placeName>-</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1164-04-20" precision="high" unit="cm" xml:space="default" notBefore="1159-09-07" type="issued">(1159, nach September 7–1164, vor April 20)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
-               </issued><p><legalActor type="issuer">[Issuer]</legalActor></p><p>
+               </issued><p><legalActor type="issuer">Viktor IV.</legalActor></p><p>
                   <legalActor type="recipient">[Recipient 1]</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &amp;gt; Litterae cum serico]</objectType></p><!-- Referenz aus Liste entnehmen --><p><objectType ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &amp;gt; Beauftragung durch…]</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
