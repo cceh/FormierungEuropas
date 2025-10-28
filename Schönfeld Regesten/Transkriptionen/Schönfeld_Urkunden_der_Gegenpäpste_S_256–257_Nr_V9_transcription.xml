@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="fe_schoenfeld_transkription"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Schönfeld, Urkunden der Gegenpäpste, S. 256–257, Nr. V9</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt><resp when="2025">Encoding:</resp><persName>SG</persName><persName>[Name der Überarbeiter*in/Auszeichnung, in der Regel identisch wie Name der Bearbeiter*in]</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="jaffe">14427</bibl>
+            <bibl type="Schoenfeld">Schönfeld, Urkunden der Gegenpäpste, S. 256–257, Nr. V9</bibl><diploDesc>
+               <issued><placeName>Segni</placeName><date type="issued" notBefore="1159-10-01" notAfter="1159-11-30">1159, (Oktober–November)</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="" ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &gt; Litterae cum serico]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="" ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &gt; Beauftragung durch…]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage></profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <media url="image1.png" mimeType="image"/>
+      </surface>
+
+   </facsimile>
+   <sourceDoc>
+      <pb facs="image1.png"/>
+   </sourceDoc>
+   <text>
+      <body> <ab>Text (Transkription d. Verf.): Victor episcopus servus servorum dei. Dilecto filio Theodorico abbati monasterii sancti Petri, quod in Ratisponensi episcopatu apud superius Altaha situm est, eiusque successoribus regulariter substituendis in perpetuum. Pie postulatio voluntatis effectu debet prosequente compleri. Eapropter, dilecte in Christo fili Theodorice abbas, predecessoris nostri felicis memorię pape Honorii vestigiis inherentes, postulationi tuę annuendum censuimus et monasterium beati Petri, cui deo auctore presides, quod a nobilibus viris Friderico Ratisponensi advocato et Adalberto comite eorumque parentibus fundatum et beato Petro eiusque sanctę Romanę ęcclesie oblatum est, sub beati Petri et nostra protectione suscipimus et sedis apostolicę privilegio communimus. Per presentis igitur decreti paginam apostolica auctoritate statuimus, ut possessiones et bona omnia, quę idem monasterium in presenti legitime possidet sive in futurum concessione pontificum, liberalitate principum, oblatione fidelium aut aliis iustis modis largiente domino poterit adipisci, firma tibi tuisque successoribus integra conserventur. Statuimus etiam, ut de novalibus et incultis terris, quas idem monasterium propriis laboribus et sumptibus ad culturam redegerit, et de nutrimentibus animalium nullus a te vel quolibet successorum tuorum decimas exigere presumat. Decernimus ergo, ut nulli omnino hominum liceat predictum monasterium temere perturbare aut eius possessiones auferre vel ablatas retinere, minuere vel temerariis vexationibus fatigare, sed omnia, ut dictum est, integra conserventur eorum, pro quorum sustentatione et gubernatione concessa sunt, usibus omnimodis profutura. Obeunte te nunc eius loci abbate vel tuorum quolibet successorum, nullus ibi qualibet subreptionis astutia seu violentia preponatur, nisi quem fratres communi consensu vel fratrum pars consilii sanioris secundum dei timorem beati Benedicti regulam elegerint. Hoc ipsum et de advocati constitutione precipimus, qui tamen advocatus, si fratribus gravis et monasterio inutilis fuerit, amoto eo alius substituatur. Sane abbatis benedictionem, altarium consecrationem, monachorum ordinationes ab episcopo, in cuius estis diocese, accipietis, si quidem gratiam et communionem apostolicę sedis habuerit et si ea gratis ac sine pravitate voluerit exhibere alioquin, liceat vobis catholicum, quem malueritis, adire antistitem et eadem ab eo sacramenta suscipere. Sepulturam quoque ipsius loci omnino liberam esse censemus, ut eorum, qui illic sepeliri deliberaverint, de [ votion ] i et extreme voluntati, nisi forte excommunicati s [ in ] t, nullus obsistat, salvo in omnibus diocesani episcopi iure ac reverentia. Ad indicium autem percepte huius a Romana ęcclesia libertatis aureum unum quot annis Lateranensi palatio persolvetis, quemadmodum et a predictis nobilibus Adelberto comite et Frederico advocato constitutum est. Si qua igitur in futurum ęcclesiastica secularisve persona, hanc nostrę constitutionis paginam sciens, contra eam temere venire temptaverit, secundo tertiove commonita, si non satisfactione congrua emendaverit, potestatis honorisque sui dignitate careat reumque se divino iudicio existere de perpetrata iniquitate cognoscat et a sacratissimo corpore ac sanguine dei et domini redemptoris nostri Ihesu Christi aliena fiat atque in extremo examine districte subiaceat. Cunctis autem eidem loco iura servantibus sit pax domini nostri Ihesu Christi, quatinus et hic fructum bone actionis percipiant et apud districtum iudicem premia ęterne pacis inveniant. Amen.</ab>
+
+      <ab>Ego Victor catholice ecclesie episcopus subscripsi. Ego Iobannes presbiter cardinalis tituli sanctorum Silvestri et Martini subscripsi. Ego Iohannes Botomiensis episcopus subscripsi. Ego Guido presbiter cardinalis tituli Calixti subscripsi. Ego Riccardus Melfictensis episcopus subscripsi.</ab><ab>Rota-Inschrift: sanctus Petrus / sanctus Paulus / Victor / papa IIII</ab><ab>Rota-Devise: Tu es gloria mea, tu es susceptor meus, domine, tu exaltas caput meum</ab><ab>Bene Valete: x</ab><ab>Komma: –</ab><ab>Datum Sign [ i ] per manus Iohannis sancte Romane ecclesie subdiaconi et scriptoris, anno dominicę incarnationis MCLVIII indictione VIIII (!), pontificatus vero domni Victoris IIII pape anno primo.</ab></body>
+   </text>
+</TEI>

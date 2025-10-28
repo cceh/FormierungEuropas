@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="fe_schoenfeld_transkription"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Schönfeld, Urkunden der Gegenpäpste, S. 326–327, Nr. Ca16</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt><resp when="2025">Encoding:</resp><persName>SG</persName><persName>[Name der Überarbeiter*in/Auszeichnung, in der Regel identisch wie Name der Bearbeiter*in]</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="jaffe">14505</bibl>
+            <bibl type="Schoenfeld">Schönfeld, Urkunden der Gegenpäpste, S. 326–327, Nr. Ca16</bibl><diploDesc>
+               <issued><placeName>bei S. Flaviano</placeName><date type="issued" notBefore="1172-04-15" notAfter="1172-04-15">(1172 nach April 15)</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="" ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &gt; Litterae cum serico]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="" ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &gt; Beauftragung durch…]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage></profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <media url="image1.png" mimeType="image"/>
+      </surface>
+
+   </facsimile>
+   <sourceDoc>
+      <pb facs="image1.png"/>
+   </sourceDoc>
+   <text>
+      <body> <ab>Text (Transkription d. Verf.): Calixtus episcopus servus servorum dei. Venerabili fratri R. Leodiensi episcopo, H. preposito archidiaconibus totique capitulo maioris ecclesię et universo clero eiusdem episcopii salutem et apostolicam benedictionem. Quod tanquam viri prudentes et discreti vobis et ecclesię vestrę sollerti cura providetis et presertim in his, que ad fidei catholicę firmitatem spectant, vos zelo domus dei ferventes exhibetis, gratum nobis admodum esse acceptumque noveritis. Verum quia, sicut accepimus, quemdam sacerdotem, Lambertum nomine, de heresi infamatum et se expurgare volentem, neque convictum neque confessum, ad sedis quoque apostolicę audientiam appellantem, contempta auctoritate sedis apostolicę, captivastis et vinculis addidistis, si ita est, non modicum admiramur et plurimum admirando turbamur. Inter cętera namque, quę sedis apostolicę benignitas aliis indulsit, appellationis remedium sibi misericorditer reservavit, ut per eam oppressis et expoliatis posset subveniri, invasoribus vero iuste et canonice obviari. Cum itaque divinę virtutis et institutionis sanctio sit, ut omnium ęcclesiarum negocia presertim de fide catholica ad nostre tendant reparationis effectum, eo quod Roma (!) ęcclesię supra petram fundata firmitas a Christo, mater est et caput constituta dignitatis et ecclesiastice magistra rationis, ut, quod ligaret super terram, ligatum esset et in cęlis et quod solveret super terram, solutum esset et in cęlis, miramur quare iam dictum Lambertum sacerdotem post appellationem ad nos factam captivare et vinculis alligare non formidastis et appellationi ac dignitati sedis apostolicę reverentiam, ut debuistis, non detulistis. Quocirca universitati vestrę per apostolica scripta mandando precipimus et firmiter iniungimus, quatinus, statim visis his litteris nostris, sepedictum Lambertum a vinculis absolvatis et ad nos super his, que ei obiciuntur, plenarie responsurum (!) venire permittatis. Si quis autem aliquid ei obicere voluerit, per se vel per nuntium suum cum litteris tamen vestris nostro se conspectui representet, et tunc, si quid in eo reprehensibile cognoverimus, qua debemus districtione, corrigemus. Preterea de Petro, Servatio, Wederico, W arnero, Cesario presbiteris, quos, ut audivimus, officio et beneficio privastis eosque extra episcopatum vestrum expulistis, eo quod sepe fato Lamberto familiaritate quadam iuncti erant, nec eum tanquam hereticum abiurare volebant, quoniam super obiectis sibi eum ad nos appellasse cognoscebant, universitati vestrę mandando precipimus, quatinus eos sine dilatione officio suo et beneficio in pace uti permittatis, donec de his, que sepe memorato Lamberto obiciuntur, plene cognoscere valeamus.</ab>
+
+      <ab>Data apud Sanctum Flavianum, IV nonas septembris.</ab></body>
+   </text>
+</TEI>

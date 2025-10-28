@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="fe_schoenfeld_transkription"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Schönfeld, Urkunden der Gegenpäpste, S. 265–266, Nr. V26</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt><resp when="2025">Encoding:</resp><persName>SG</persName><persName>[Name der Überarbeiter*in/Auszeichnung, in der Regel identisch wie Name der Bearbeiter*in]</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="jaffe">14438</bibl>
+            <bibl type="Schoenfeld">Schönfeld, Urkunden der Gegenpäpste, S. 265–266, Nr. V26</bibl><diploDesc>
+               <issued><placeName>Pavia</placeName><date type="issued" notBefore="1160-03-02" notAfter="1160-03-02">1160, März 2</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="" ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &gt; Litterae cum serico]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="" ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &gt; Beauftragung durch…]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage></profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <media url="image1.png" mimeType="image"/>
+      </surface>
+
+   </facsimile>
+   <sourceDoc>
+      <pb facs="image1.png"/>
+   </sourceDoc>
+   <text>
+      <body> <ab>Text (Transkription d. Verf.): Victor episcopus servus servorum dei. Dilecto filio Duotelino abbati V allis sanctę Marię et fratribus eius in perpetuum. Quotiens illud a nobis petitur, quod honestati et religioni attinere dinoscitur, animo nos decet libenti concedere et loca venerabilia divino obsequio mancipata congrua in domino protectione fovere. Eapropter, karissimi in domino filii, iustis vestris postulationibus annuentes, personas et cenobium vestrum omnesque possessiones mobiles et immobiles, quas in presentiarum iuste possidetis et in posterum, favente domino, rationabiliter poteritis adipisci, in beati Petri et nostrum protectionem suscipimus et presentis privilegii patrocinio communimus. Ex quibus hęc propriis duximus exprimenda vocabulis: viginti mansos illustris comitis palatini Friderici, ęcclesie vestrę fundatoris, vobis collatos confirmamus cum pratis, pascuis, silvis et omnibus appenditiis et curtem, quę dicitur Steindorf, ex dono Lucardis comitisse curtem Ludestorp cum suis appendentiis et decimis, quartam partem silvę, quę dicitur Lapwalt, ex dono Exmechhardis marcionisse quatuor mansos in Ludestorp cum appenditiis et utilitatibus suis, et quecumque in eadem villa commutata sunt cum fratribus ęcclesie W allebhec a fundatore predicte ęcclesie, ex dono Hode comitisse quatuor mansos in Aventorp cum omnibus utilitatibus suis, ex dono Bunihe et Willeri tres mansos et dimidium in Brandeslove, ex dono ducis unum mansum cum saltu in eadem villa, ex dono Hugoldi septem iugera in eadem villa cum assensu heredis sue, videlicet Frideri de Amfridoleve, quatuor iugera et pratum, quę a Burchardo de GesIove emistis. Item ex dono iam dicti Friderici palatini comitis dimidium mansum in eadem villa, ex dono Wilhelmi de Amerslove tres mansos in eadem villa et quecumque in eadem villa commutata sunt cum sororibus Quideneburgensis ęcclesię et W alebech molentinum et dimidium mansum cum area, quę in Grandeslove maiori emistis, quatuor mansos in Offenslove et quatuor mansos in Mamendorp, dimidium mansum Cowelle, in quo prefatus comes palatinus contulit ęcclesie dimidium mansum, ex dono Lucardis comitisse duos mansos pretio comparatos in eadem villa, ex dono Alberti palatini comitis, filii eiusdem comitisse, duos mansos in Norgermeslove, ex dono Friderici, ministerialis prefati principis, dimidium mansum in Hoctmerslove, ex dono Agnetis, filię ducis de Linburhe, mansum unum in Brandeslove minore, ex dono Beatricis quatuor mansos in Ortorp, ex dono Volradi comitis duos mansos in eadem villa et decimam curti vestri in Grandeslove, ex dono Einrici unum mansum Winninche, ex dono predicte Lucardis comitisse unam aream in Santorp cum saltu quodam, qui spectabat ad ipsam, ex dono memorati palatini comitis duos mansos, unum in Somerstorp et alium in Ekenbardenlive et Octhmerhlive, ex dono Einrici ducis villam, quę dicitur Bardebike, cum suis appenditiis, videlicet pratis, pascuis ac nemoribus. Item ex dono Agnetis, filię ducis de Linburch, quartam partem silvę, quę dicitur Lapwalt, Hashenroht et Biscob [ ro ] ht cum omnibus appendentiis suis, videlicet pratis, pascuis, rivis et saltu, insuper et villam ipsi presidio adiacentem cum decima eiusdem villulę et silva, quę dicitur Lobeske, quę omnia Albestatensis episcopus ad petitionem Nodungi de Gaderslove, ministerialis sui, qui eadem bona beneficii iure ab ipso possederat, canonice vobis concessit. Sane novalium vestrorum, quę propriis manibus aut sumptibus colitis, sive de nutrimentis vestrorum animalium nullus a vobis decimas presumat exigere, salva in omnibus auctoritate apostolica et diocesani episcopi canonica iustitia. Si qua igitur in futurum ęcclesiastica secularisve persona, hanc nostrę constitutionis paginam sciens, contra eam temere venire temptaverit, secundo tertiove commonita, nisi presumptionem suam congrua satisfactione correxerit, potestatis honorisque sui dignitate careat reamque se divino iudicio existere de perpetrata iniquitate cognoscat et a sacratissimo corpore ac sanguine dei et domini nostri Ihesu Christi aliena fiat atque in extreme examinę districte ultioni subiaceat. Cunctis autem eidem loco sua iura servantibus sit pax domini nostri Ihesu Christi, quatinus et hic fructum bone actionis percipiant et apud districtum iudicem premia ęterne pacis inveniant. Amen. </ab>
+
+      <ab>Ego Victor catholice ęcclesie episcopus subscripsi. Ego Ubaldus episcopus Ferentinus subscripsi. Ego Ricardus Melfictensis episcopus subscripsi. Ego Iohannes presbiter cardinalis tituli sanctorum Silvestri et Martini subscripsi. Ego Guido presbiter cardinalis tituli Calixti subscripsi. Ego [ Be ] rardus diaconus cardinalis sanctorum Sergii et Bachi subscripsi. Ego Landus diaconus cardinalis sancti Angeli subscripsi. Ego Iohannes diaconus cardinalis sancte Marie in Aquiro subscripsi.</ab><ab>Rota-Inschrift: sanctus Petrus / sanctus Paulus / Vic papa / tor IIII</ab><ab>Rota-Devise: Tu es gloria mea, tu es susceptor meus, tu exaltas caput meum, domine</ab><ab>Bene Valete: x</ab><ab>Komma: –</ab><ab>Datum Papię per manum magistri Gerardi sanctę Romane ęcclesie subdiaconi, VI nonas marcii indictione VII , incarnationis dominice anno MCLX , pontificatus vero domni Victoris pape IIII anno primo.</ab></body>
+   </text>
+</TEI>

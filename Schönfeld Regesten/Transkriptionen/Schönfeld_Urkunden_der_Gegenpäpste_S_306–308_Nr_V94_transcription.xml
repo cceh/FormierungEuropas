@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="fe_schoenfeld_transkription"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Schönfeld, Urkunden der Gegenpäpste, S. 306–308, Nr. V94</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt><resp when="2025">Encoding:</resp><persName>SG</persName><persName>[Name der Überarbeiter*in/Auszeichnung, in der Regel identisch wie Name der Bearbeiter*in]</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="jaffe">14484</bibl>
+            <bibl type="Schoenfeld">Schönfeld, Urkunden der Gegenpäpste, S. 306–308, Nr. V94</bibl><diploDesc>
+               <issued><placeName>Lucca</placeName><date type="issued" notBefore="1164-04-14" notAfter="1164-04-14">1164, April 14</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="" ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &gt; Litterae cum serico]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="" ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &gt; Beauftragung durch…]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage></profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <media url="image1.png" mimeType="image"/>
+      </surface>
+
+   </facsimile>
+   <sourceDoc>
+      <pb facs="image1.png"/>
+   </sourceDoc>
+   <text>
+      <body> <ab>Text (Transkription d. Verf.): Victor episcopus servus servorum dei. Dilectis filiis Huberto abbati ecclesię beatę Marię de Tungerla eiusque fratribus tam presentibus quam futuris regularem vitam professis in perpetuum. Desiderium, quod ad religionis propositum et animarum salutem pertinere monstratur, animo nos decet libenti concedere et petentium desideriis congruum [ impertiri ] suffragium. Eapropter, dilecti in domino filii, vestris iustis petitionibus clementer annuentes benignum prebemus assensum et Tungerlensem ecclesiam, in qua divino mancipati estis obsequio, predecessoris nostri felicis memorię pape Eugenii vestigiis inherentes sub beati Petri et nostra protectione suscipimus et presentis scripti privilegio communimus. Statuentes eandem vestram ecclesiam ab omni exactione episcopali omnimodis fore liberam et, quascumque possessiones, quecumque bona in presentiarum iuste et canonice possidetis aut in futurum concessione pontificum, liberalitate regum vel principum, oblatione fidelium seu aliis iustis modis deo propitio poteritis adipisci, firma vobis vestrisque successoribus et illibata permaneant. In quibus hęc propriis duximus exprimenda vocabulis: totam decimam eiusdem villę cum terra et nemoribus et pascuis et molendino, cum ceteris eiusdem villę debitis, insuper allodium Hille, pro quo XXXVI solidi Antwerpensis monete persolvuntur, cum nemoribus et pascuis, ecclesiam Bruchen cum suis appenditiis a venerabili fratre nostro Nicholao Cameracen [ si ] episcopo, salvo iure episcopali, ecclesie Tungerlensi legitime contraditam, cuius ecclesię duos manipulos decimę ple [ narie ] possidetis, tertio ad suos possessores transeunte, in eiusdem quoque ecclesię parrochia grangiam quandam Awen cum terris et nemoribus et pascuis sibi adiacentibus necnon et molendino, ecclesiam Nispe et ecclesiam Sunderde cum integritate universe decimę, duas grangias, quas in parrochia eiusdem ecclesię possidetis, videlicet Calmetholt et Esscenden cum molendino, ecclesię Endeschit quartam partem, quam legitime et integre possidetis, curtile Nile, totum allodium Sconebuc cum pratis et nemoribus, in parrochia de Olegem allodium XX bonariorum, ecclesiam quoque de Dist cum universa decima et tribus mansis terrę et quinque curtibus et ceteris, quę in eadem villa ad ecclesiam Tungerlen [ sem ] pertinent. Obeunte vero te nunc eiusdem loci abbate vel tuorum quolibet successorum, nullus ibi qualibet subreptionis astutia seu violentia preponatur, nisi quem fratres communi consensu vel fratrum pars consilii sanioris secundum dei timorem et beati Augustini regulam providerint eligendum et libere absque omni exactione consecretur. Nulli etiam fratrum vestrorum post factam in eodem loco professionem absque abbatis licentia fas sit aliqua levitate de claustro decedere, discedentem vero sine communium litterarum cautione nullus audeat retinere. Sepulturam quoque eiusdem loci liberam esse decernimus, ut eorum, qui se inibi sepeliri deliberaverint, nisi excommunicati fuerint, devotioni et extreme voluntati nullus obsistat, salvo iure parrochialium sacerdotum. Vestes quoque sacerdotales sive leviticas vel altaris luneamina seu pallas aut corporalia benedicendi tibi, fili abbas, potestatem attribuimus. Liceat vobis insuper, si quando generale supervenerit interdictum, clausis ianuis, exclusis excommunicatis et interdictis divina celebrare officia. Sanccimus etiam, ut ecclesia vestra ab omni episcoporum nova et indebita exactione libera et quieta permaneat. Sane decimas novalium vestrorum necnon et de nutrimentis vestrorum animalium predecessorum nostrorum largitione Honorii, Innocentii et Eugenii ceterorumque predecessorum nostrorum vestrę religioni indultas vobis concedimus et auctoritate apostolica confirmamus. Concedimus etiam vobis, ut aliquem ex fratribus vestris, quem abbas pastorali cura dignum cognoverit, in quibuslibet ecclesiis vestris constituendi et divina sacramenta dispensandi plenariam potestatem habeatis. Prohibemus autem, ut ipsius loci advocatiam nullus usurpet, sed dux Lotharingię, qui pro tempore fuerit, sicut a bonę memorię Conrado Romanorum quondam rege rationabiliter statutum est, absque aliqua exactione vobis et rebus vestris patrocinium prebeat. Decernimus ergo, ut nulli omnino hominum liceat eandem ecclesiam temere perturbare aut eius possessiones auferre vel ablatas retinere, minuere seu quibuslibet iniustis vexationibus fatigare, sed omnia integra conserventur eorum, pro quorum gubernatione et sustentatione concessa sunt, usibus omnimodis profutura. Salva sedis apostolicę auctoritate et diocesani episcopi canonica iustitia. Si qua igitur in futurum ecclesiastica secularisve persona, hanc nostrę constitutionis paginam sciens, contra eam temere venire temptaverit, secundo tertiove commonita, nisi reatum suum congrua satisfactione correxerit, potestatis honorisque sui dignitate careat reamque se divino iudicio existere de perpetrata iniquitate cognoscat et a sacratissimo corpore ac sanguine dei et domini redemptoris nostri Ihesu Christi aliena fiat atque in extremo examine divine ultioni subiaceat. Cunctis autem eidem loco iusta servantibus sit pax domini nostri Ihesu Christi, quatinus et hic fructum bone actionis percipiant et apud districtum iudicem premia eternę pacis inveniant. Amen, Amen, Amen.</ab>
+
+      <ab>Ego Victor catholicę ecclesię episcopus subscripsi. Ego Liudo Sabinensis episcopus subscripsi. Ego lohannes Albanensis episcopus subscripsi. Ego Guido presbiter cardinalis tituli Calixti subscripsi. Ego lohannes presbiter cardinalis tituli Pastoris subscripsi. Ego Unfredus presbiter cardinalis tituli sanctę Susannę subscripsi. Ego Albertus presbiter cardinalis tituli sancti Grisogoni subscripsi. Ego Berardus diaconus cardinalis sanctorum Sergii et Bachi subscripsi. Ego Gerardus diaconus cardinalis sancti Georgii ad velum aureum subscripsi. Ego Lanfredus diaconus cardinalis sancte Marię novę subscripsi.</ab><ab>Rota-Inschrift: sanctus Petrus / sanctus Paulus / Vic papa / tor IIII</ab><ab>Rota-Devise: Tu es gloria mea, tu es susceptor meus, tu exaltas caput meum domine</ab><ab>Bene Valete: x</ab><ab>Komma: –</ab><ab>Datum Luce per manum Iohannis sanctę Romanę ecclesię presbiteri cardinalis et cancellarii, XVIII kalendas maii indictione XII incarnationis dominice anno MCLXIIII , pontificatus vero dompni Victoris pape IIII anno V .</ab></body>
+   </text>
+</TEI>

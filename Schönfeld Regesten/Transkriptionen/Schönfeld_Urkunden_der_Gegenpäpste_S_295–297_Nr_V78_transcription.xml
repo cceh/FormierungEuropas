@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="fe_schoenfeld_transkription"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Schönfeld, Urkunden der Gegenpäpste, S. 295–297, Nr. V78</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt><resp when="2025">Encoding:</resp><persName>SG</persName><persName>[Name der Überarbeiter*in/Auszeichnung, in der Regel identisch wie Name der Bearbeiter*in]</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="jaffe">14471</bibl>
+            <bibl type="Schoenfeld">Schönfeld, Urkunden der Gegenpäpste, S. 295–297, Nr. V78</bibl><diploDesc>
+               <issued><placeName>Besançon</placeName><date type="issued" notBefore="1162-09-11" notAfter="1162-09-11">1162, September 11</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="" ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &gt; Litterae cum serico]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="" ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &gt; Beauftragung durch…]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage></profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <media url="image1.png" mimeType="image"/>
+      </surface>
+
+   </facsimile>
+   <sourceDoc>
+      <pb facs="image1.png"/>
+   </sourceDoc>
+   <text>
+      <body> <ab>Text (Transkription d. Verf.): Victor episcopus servus servorum dei. Dilecto in Christo filio Gerardo Bunnensi preposito suisque successoribus canonice substituendis in perpetuum. Ut devotis et humilibus filiis defensionis apostolicę solatia inpendamus et vita ecclesiastica inviolata serventur, quod a nostris predecessoribus Romanis pontificibus aut ab eorum subditis noscitur rationabiliter institutum, confirmatum sive concessum, auctoritatis nostrę duximus patrocinio roborandum, quatinus in sede iustitie, auctore domino, constituti et commisso nobis utiliter fungamur, officio et ecclesiarum necessitatibus debita suffragia largiamur. Eapropter, dilecte in Christo fili Gerarde preposite, liberum introitum in universum tuum archidiaconatum tibi concedimus, quemadmodum in presentia predecessoris nostri sancte recordationis pape Eugenii meminimus tibi tuisque successoribus fuisse adiudicatum, adicientes, ut omnes decani et omnes presbiteri tui archidiaconatus obedientie tue subiaceant iuxta rigorem canonum et antiqua Bunnensis ecclesię instituta seu rationabilem consuetudinem. Ecclesie, quarum donationes ad Bunnensem tantum ecclesiam pertinere noscuntur, libere sint ab omni pensione episcopi et decanorum et tu solus tuique successores in eis iustitiam exerceas sinodalem. In ipso autem burgo Bunnense celebrandi sinodum consuetis temporibus habeas facultatem. Decimas quoque novalium et terre salice predictarum ecclesiarum, quę Bunnensis ecclesie sunt, presenti pagina tibi ipsique ecclesię confirmamus. Prebendas fratrum, quę prius fuerant inequales, sicut nunc ad equalitatem et ordinem ex consensus fratrum tuis rebus tuisque laboribus redacte videntur, ita firmiter et immutabiliter volumus inposterum permanere. Predia etiam tuis rebus tuisque laboribus comparata, quę Bunnensi ecclesię pro remedio animę tuę divino intuitu contulisti, eidem ecclesie confirmamus et, quicquid de eisdem prediis aut de aliis tam circa fratrum necessitates, quam circa alias ecclesias et hospitalia pauperum fieri ordinasti, ratum habemus et firmum volumus permanere. Statuentes, ut in ipsis bonis a te comparatis nullus sit advocatus, nisi quem tu tuive successores, si forte indigueritis, cupitis advocare, preterea castrum in Monte Draconis situm, quod labore et pecunia tua ad securitatem et munimen bonorum Bunnensis ecclesie conquisisti et per manum bone memorię Arnoldi Coloniensis archiepiscopi tibi contraditum, ita suscepisti, ut Bunnensi prepositure debeat perpetuo inseparabiliter coherere, tibi tuisque successoribus confirmamus. Ad hec in choro Coloniensis ecclesie et in conventibus et in processionibus preposito sancti Gerionis loco superiorem te esse censemus, quemadmodum tibi ordinario iudicio constat fuisse adiudicatum. Decernimus ergo, ut nulli omnino hominum liceat Bunnensem ecclesiam vel personam tuam temere perturbare aut eius possessiones auferre vel ablatas retinere, minuere aut aliquibus vexationibus fatigare seu presentis privilegii tenorem infringere, sed omnia integra conserventur eorum, pro quorum gubernatione ac sustentatione concessa sunt, usibus omnimodis profutura. Salva sedis apostolice auctoritate et diocesani episcopi canonica iustitia. Si qua igitur in futurum ecclesiastica secularisve persona, hanc nostre constitutionis paginam sciens, contra eam temere venire temptaverit, secundo tertiove commonita, si non satisfactione congrua emendaverit, potestatis honorisque sui dignitate careat reamque se divino iudicio existere de perpetrata iniquitate cognoscat et a sacratissimo corpore ac sanguine dei et domini redemptoris nostri Ihesu Christi aliena fiat atque in extremo examine districte ultioni subiaceat. Cunctis autem eidem loco iusta servantibus sit pax domini nostri Ihesu Christi, quatinus et hic fructum bone actionis percipiant et apud districtum iudicem premia eterne pacis inveniant. Amen, Amen, Amen.</ab>
+
+      <ab>Ego Victor catholicę ecclesię episcopus subscripsi. Ego Ubaldus Ferentinus episcopus subscripsi. Ego Iohannes presbiter cardinalis tituli Pastoris subscripsi. Ego Landus diaconus cardinalis sancti Angeli subscripsi.</ab><ab>Rota-Inschrift: sanctus Petrus / sanctus Paulus / Vic papa / tor IIII</ab><ab>Rota-Devise: Tu es gloria mea, tu es susceptor meus, tu exaltas caput meum domine</ab><ab>Bene Valete: x</ab><ab>Komma: –</ab><ab>Datum Bisuntii per manum Iohannis sancte Romane ecclesie presbiteri cardinalis et cancellarii, III idus septembris indictione X, incarnationis dominice anno MCLXII , pontificatus vero dompni Victoris pape IIII anno III .</ab></body>
+   </text>
+</TEI>

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="fe_schoenfeld_transkription"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Schönfeld, Urkunden der Gegenpäpste, S. 297–298, Nr. V79</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt><resp when="2025">Encoding:</resp><persName>SG</persName><persName>[Name der Überarbeiter*in/Auszeichnung, in der Regel identisch wie Name der Bearbeiter*in]</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="jaffe">10755e</bibl>
+            <bibl type="Schoenfeld">Schönfeld, Urkunden der Gegenpäpste, S. 297–298, Nr. V79</bibl><diploDesc>
+               <issued><placeName>Besançon</placeName><date type="issued" notBefore="1162-09-11" notAfter="1162-09-11">1162, September 11</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="" ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &gt; Litterae cum serico]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="" ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &gt; Beauftragung durch…]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage></profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <media url="image1.png" mimeType="image"/>
+      </surface>
+
+   </facsimile>
+   <sourceDoc>
+      <pb facs="image1.png"/>
+   </sourceDoc>
+   <text>
+      <body> <ab>Text (Transkription d. Verf.): Victor episcopus servus servorum dei. Dilectis in Christo filiabus Gepe abbatisse ecclesie Sanctuarum Virginum eiusque sororibus tam presentibus quam canonice substituendis in perpetuum. Dicatis deo virginibus, quę spretis conubiis maritalibus et relicto mundo ac pompis ipsius se totas contulerunt in obsequium conditoris et sub religionis habitu et proposito voluntatis mortificata carne accensis lampadibus cum Christo domino ad celeste satagunt convivium introire, nostrum convenit adesse presidium et contra mundanorum fluctuum tempestates apostolicum munimen impendi, ut apostolica tuitione vallate ab omnibus reddantur secure molestiis et in Christo se recuperasse letentur opem, quam in seculo perdiderunt. Eapropter, dilecte in Christo filię, vestris iustis postulationibus clementer annuimus et prefatam ecclesiam, in qua divino mancipate estis obsequio, sub beati Petri et nostra protectione suscipimus et presentis scripti patrocinio communimus. Statuentes, ut, quascumque possessiones, quęcumque bona eadem ecclesia in presentiarum iuste et canonice possidet aut in futurum concessione pontificum, largitione regum vel principum, oblatione fidelium seu aliis iustis modis prestante domino poterit adipisci, firma vobis et his, quę post vos successerint, et illibata permaneant. In quibus hec propriis duximus exprimenda vocabulis: in ecclesia de Iuliaco, quicumque investituram fundi et altaris susceperit, solvere debet de sua parte decimationis episcopalem censum et archidiaconi et decani, sicut ab antiquo statutum est et hactenus factum est, quia omnis reliqua decimatio ad pr [ ebendas ] dominarum pertinet, insuper maldrum tritici et porcum duodecim denariorum Coloniensium. Preterea ipsius parrochianę ecclesię solita luminaria, in Kirberge similiter, in Kelese similiter, in Bozestorph similiter, in Wilere similiter, in Kentenig similiter, in Lunricho similiter, in Thusseldorp quinque solidos Dusburgensis monete, in cena domini in Venheim quinque solidos et VI denarios Coloniensis monete, ad vincula beati Petri in Hagene decem solidos Tremoniensis monete. Decernimus ergo, ut nulli omnino hominum liceat prefatam ecclesiam temere perturbare aut eius possessiones auferre aut ablatas retinere, minuere seu quibuslibet fatigationibus fatigare, sed illibata omnia et integra conserventur earum, pro quarum gubernatione et sustentatione concessa sunt, usibus omnimodis profutura. Salva sedis apostolice auctoritate et diocesani episcopi canonica iustitia. Si qua igitur in futurum ecclesiastica secularisve persona, hanc nostrę constitutionis paginam sciens, contra eam venire temptaverit, secundo tertiove commonita, nisi presumptionem suam digna satisfactione correxerit, potestatis honorisque sui dignitate careat reamque se divino iudicio existere de perpetrata iniquitate cognoscat et a sacratissimo corpore et sanguine dei et domini redemptoris nostri Ihesu Christi aliena fiat atque in extremo examine districte ultioni subiaceat. Cunctis autem eidem loco sua iura servantibus sit pax domini nostri Ihesu Christi, quatinus et hic fructum bone actionis percipiant et apud districtum iudicem premia eterne pacis inveniant. Amen, Amen, Amen.</ab>
+
+      <ab>Ego Victor catholicę ęcclesię episcopus subscripsi. Ego Hubaldus Ferentinus episcopus subscripsi. Ego Guido presbiter cardinalis tituli Calixti subscripsi. Ego Iohannes presbiter cardinalis tituli Pastoris subscripsi. Ego Landus diaconus cardinalis sancti Angeli subscripsi. Ego Gerardus diaconus cardinalis sancte Marie in Aquiro subscripsi.</ab><ab>Rota-Inschrift: –</ab><ab>Rota-Devise: Tu es gloria mea, tu es susceptor meus, tu exaltas caput meum domine</ab><ab>Bene Valete: x</ab><ab>Komma: –</ab><ab>Datum Bisuntii per manum lohannis sancte Romane ecclesie presbiteri cardinalis et cancellarii, III idus septembris indictione X, incarnationis dominice anno MCLXII , pontificatus vero domini Victoris pape IIII anno III .</ab></body>
+   </text>
+</TEI>

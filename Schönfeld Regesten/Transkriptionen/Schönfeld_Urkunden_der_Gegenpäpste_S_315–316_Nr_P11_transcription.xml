@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="fe_schoenfeld_transkription"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Schönfeld, Urkunden der Gegenpäpste, S. 315–316, Nr. P11</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt><resp when="2025">Encoding:</resp><persName>SG</persName><persName>[Name der Überarbeiter*in/Auszeichnung, in der Regel identisch wie Name der Bearbeiter*in]</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="jaffe">14489</bibl>
+            <bibl type="Schoenfeld">Schönfeld, Urkunden der Gegenpäpste, S. 315–316, Nr. P11</bibl><diploDesc>
+               <issued><placeName>Rom, S. Peter</placeName><date type="issued" notBefore="1167-07-31" notAfter="1167-07-31">1167, Juli 31</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="" ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &gt; Litterae cum serico]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="" ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &gt; Beauftragung durch…]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage></profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <media url="image1.png" mimeType="image"/>
+      </surface>
+
+   </facsimile>
+   <sourceDoc>
+      <pb facs="image1.png"/>
+   </sourceDoc>
+   <text>
+      <body> <ab>Text (Transkription d. Verf.): Pascalis episcopus servus servorum dei. Dilectis filiis C [ onrado ] preposito, H. decano et ceteris canonicis maioris ecclesię Argentinensis salutem et apostolicam benedictionem. Immobili debet esse firmitate subnixum, quod imperialis statuit maiestas et apostolica confirmat auctoritas. Eapropter, dilecti in domino filii, vestris iustis postulationibus, quas nobis per dilectum filium nostrum Henr [ icum ] archidiaconum vestrum porrexistis, grato concurrentes assensu edictum imperiale, quod serenissimus imperator Fredericus semper augustus in episcopatu Argentinensi promulgavit et episcopus vester cum clero sub discrimine officii et beneficii affirmavit et populus iureiurando firmavit, devotioni vestrę apostolica auctoritate confirmamus et presenti scripti patrocinio communimus. Statuentes, ut secundum statuta eiusdem filii de cetero tributarii ecclesię vestrę statutis temporibus iura vobis absque contradictione persolvant, et, si contumaciter ea usque ad festum sancti Andręę retinere presumpserint et satisfacere neglexerint, a iure proprio cadant et, si proterve adhuc retinuerint, anathematis gladio feriantur. Et ad hęc adicimus, ut nemo ecclesiam aut atrium vestrę ecclesię violare presumat et, qui fecerit, excommunicatus et infamis, prout in statutis iam dicti filii nostri decretum est, usque ad condignam satisfactionem habeatur. Nulli ergo omnino hominum fas sit hanc nostrę confirmationis paginam temere infringere aut ei aliquatinus contraire. Si quis autem tributariorum et censualium sacerdos confirmationem nostram et edictum imperiale pronuntiare et summa diligentia servare neglexerit, post tertiam ammonitionem fratrum suspensum eum esse decernimus, donec episcopo et vobis satisfecerit.</ab>
+
+      <ab>Datum Romę, apud sanctum Petrum, II kalendas augusti.</ab></body>
+   </text>
+</TEI>

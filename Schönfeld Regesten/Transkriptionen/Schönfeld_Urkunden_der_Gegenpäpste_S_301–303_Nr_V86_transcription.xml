@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="fe_schoenfeld_transkription"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Schönfeld, Urkunden der Gegenpäpste, S. 301–303, Nr. V86</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+           <respStmt><resp when="2025">Encoding:</resp><persName>SG</persName><persName>[Name der Überarbeiter*in/Auszeichnung, in der Regel identisch wie Name der Bearbeiter*in]</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="jaffe">10770e</bibl>
+            <bibl type="Schoenfeld">Schönfeld, Urkunden der Gegenpäpste, S. 301–303, Nr. V86</bibl><diploDesc>
+               <issued><placeName>Metz</placeName><date type="issued" notBefore="1162-10-27" notAfter="1162-10-27">1162, Oktober 27</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="" ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &gt; Litterae cum serico]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="" ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &gt; Beauftragung durch…]</objectType></p>
+<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage></profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <media url="image1.png" mimeType="image"/>
+      </surface>
+
+   </facsimile>
+   <sourceDoc>
+      <pb facs="image1.png"/>
+   </sourceDoc>
+   <text>
+      <body> <ab>Text (Transkription d. Verf.): Victor episcopus servus servorum dei. Dilecto in Christo filio Litaldo Metensium civi et infirmorum apud Meti simul commanentium provisori ipsisque infirmis communitum viventibus in perpetuum. Apostolatus nostri monet officium, ut, sicut omnium christianorum curam sollicitudinemque suscepimus, ita omnium necessitatibus in domino pię provideamus, illis nimirum propensioribus studiis succurrentes, quorum vita et dispositio ampliori noscitur auxilio indigere. Eapropter, dilecti in domino filii, vestris iustis postulationibus clementer annuimus et domum seu congregationem vestram sub beati Petri et nostra protectione suscipimus et presentis scripti patrocinio communimus. Statuentes, ut, quecumque bona, quascumque possessiones in presentiarum iuste [ et ] legitime possidetis et quę in posterum auctore domino largitione regum, concessione pontificum, oblatione fidelium aut aliis iustis modis auctore domino poteritis adipisci, firma vobis vestrisque successoribus et illibata permaneant. Ex quibus hec propriis duximus exprimenda vocabulis: in primis siquidem vobis Christi servis, licet ab hominibus temporaliter abiectis, deo tamen eternaliter acceptis, confirmamus quartam partem allodii de Florei, quam tu Letalde pro remedio animę tuę et tuorum ipsis contulisti, quam etiam a domino Ulrico prius legitime acquisieras. Confirmamus etiam vobis census et cappones, quos idem vobis contulit, qui ad eum pertinebant in vico, qui dicitur Ayest, sex quoque virnales terre ad reparanda tecta cappellę et officinarum et alios viginti, ut de fructu eorum presbiter vester accipiat prebendam suam, vineas etiam, quas prenominatus Litaldus vobis contulit apud Papoli villam, unde predictus presbiter vinum sibi necessarium habeat, sex quoque denarios in villa Magnei, aliorum quoque fidelium elemosinas, que vobis collate sunt, nichilominus adnotantes. Allodium, quod Euerwinus de W alemania dedit in Marnei, et terram de Ham et quandam partem allodii in villa de Florey vobis confirmamus, allodium etiam, quod Ungo miles possidebat ad Florey, cum familia et vineas in Siey Enlamarce, ortum vero unum, quem vobis dedit retro sanctum Petrum Rolandus, et vineam unam in Laciaco et sex solidos cum tribus denariis censales. Similiter vobis confirmamus, quod Gerardus presbiter vobis dedit, quicquid ad eum videlicet iure hereditario pertinebat, maxime vineas apud Lancey, pratum unum ad Cuverey, quod Teodericus d […] es, XVII denarios censales, quos Anfoldus, XXX denarios censales, quos Iohannes clericus, campum super curtem et campum Apirum, quos Henricus, vineam unam, quam Balduinus presbiter, vineam ad Iandrini fontem et campum iuxta sanctum privatum, quem Ancisus vobis dedit, vineas quoque in Siey villa, quas Osilia uxor Henricibellum, et ius custodum illarum, quę pro prebenda filii sui Rodulfi dedit. Medium mansi terre, quod Garsilius in omni usu apud Montenei, terram de Noaci villa et partem quandam allodii de Florey, quam Ulricus Livalez, iurnalem vinee ultra Saliam, quem Ida de larnei, duas vineas, unam in Pivinella et alteram in la Perose, quas Namericus de Spinal et uxor eius Sibilia, iurnalem vineę ultra Salliam, quem in grannus X denarios censales, quos Balduinus de Vico Iudeorum vobis dedit, nichilominus confirmamus. Statutum quoque, quod predictus frater et venerabilis coepiscopus noster consilio cleri sui et laicorum decrevit, ut quicumque videlicet civium Metensium pro anima sua in morte fecerit testamentum, tantum de residio, quantum fuerit decima pars sui testamenti, exceptis terris et vineis vobis pro anima sua dimittat, redditus etiam de statalibus, quę in via publica solent poni et ad ius episcopale pertinere noscuntur, quam sepedictus episcopus vobis contulit, firmiter vobis et inviolabiliter confirmamus. Prefatus quoque Letaldus testamenti sui descriptionem faciens furnum ad portam Moselle et operatorium in Estasuns, quę pro anniversario suo ecclesię sancti Pauli assignavit, XII nummos in Franconis vico, quos ecclesię sanctę Marię, quę est maiori ecclesię iuncta, duos solidos in eodem vico, quos sancto Martino de ultra Mosellam, duos solidos in eodem vico, quos sancto Petro ad moniales, XIII cappones et IIII nummos et ovulum iuxta sanctum David, quos sancto Vincentio, duos solidos, XIIII ante curiam ducis denarios, apud Papuli villam sex, IIII in Novo Vico, quos sancto Salvatori, duos solidos, quos sancto Martino de Glanderiaco, XXX denarios in Papuli villa, quos sancto Simphoriano, duos solidos in sancti Martini vico, XII videlicet nummos et ultra Saliam XII , quos sanctę Marie ad moniales, XXIII denarios ante sanctum Martinum, quos sanctę Glodesindi, XXV denarios in vico Amolberti, quos sancto Arnulfo, IIII solidos in sancti Martini vico, quos sancto Clementi, dimidium modium vini, quod sancte Marię de campis legitime contulit, eisdem ecclesiis et reliqua omnia, quę, ut superius describuntur, sicut ipse decrevit, auctoritate apostolica confirmamus. Decernimus ergo, ut nulli omnino hominum liceat prefatam domum seu congregationem temere perturbare aut eius possessiones auferre aut ablata retinere, minuere seu quibuslibet vexationibus fatigare, sed illibata omnia et integra conserventur eorum, pro quorum gubernatione et sustentatione concessa sunt, usibus omnimodis profutura. Salva sedis apostolice auctoritate et diocesani episcopi canonica iustitia. Si qua igitur in futurum ecclesiastica secularisve persona, hanc nostre constitutionis paginam sciens, contra eam temere venire temptaverit, secundo tertiove commonita, nisi presumptionem suam digna satisfactione correxerit, potestatis honorisque sui dignitate careat reamque se divino iudicio existere de perpetrata iniquitate cognoscat et a sacratissimo corpore et sanguine dei et domini redemptoris nostri Ihesu Christi aliena fiat atque in extremo examine districte ultioni subiaceat. Cunctis autem eidem loco sua iura servantibus sit pax domini nostri Ihesu Christi, quatinus et hic fructum bone actionis percipiant et apud districtum iudicem premia eternę pacis inveniant. Amen, Amen, Amen.</ab>
+
+      <ab>Ego Victor catholicę ecclesię episcopus subscripsi. Ego Ubaldus Tusculanus episcopus subscripsi. Ego Guido presbiter cardinalis tituli Calixti subscripsi.</ab><ab>Rota-Inschrift: sanctus Petrus / sanctus Paulus / Vic papa / tor IIII</ab><ab>Rota-Devise: Tu es gloria mea, tu es susceptor meus, tu exaltas caput meum domine</ab><ab>Bene Valete: x</ab><ab>Komma: –</ab><ab>Datum Metis per manum [ I ] ohannis sancte Romane ecclesie presbiteri cardina- lis et cancellarii, VI kalendas novembris indictione XI , incarnationis dominice anno MCLXII , pontificatus vero domni Victoris pape IIII anno IIII .</ab></body>
+   </text>
+</TEI>
