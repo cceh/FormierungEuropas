@@ -34,9 +34,9 @@
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
                <p><legalActor type="recipient">Rainald von Dassel, Elekt von Köln</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType ref="na">Papsturkunde</objectType></p>
+               <p><objectType ref="na">Papsturkunde</objectType></p><p><objectType>Litterae (unbestimmt)</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
-               <p><objectType ref="na">[Viktor IV.uftragung durch…]</objectType></p>
+               <p><objectType ref="na">Viktor IV.uftragung durch…]</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
