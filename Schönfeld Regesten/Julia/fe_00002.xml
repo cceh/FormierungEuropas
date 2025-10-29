@@ -36,7 +36,7 @@
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">Papsturkunde</objectType></p><p><objectType>Litterae (unbestimmt)</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
-               <p><objectType ref="na">Viktor IV.uftragung durch…]</objectType></p>
+               <p><objectType ref="na">Viktor IV.</objectType></p><p><objectType ref="na">direkte päpstliche Anweisung</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
@@ -55,7 +55,7 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Viktor IV . teilt dem Elekten von Köln, Rainald von Dassel, seine Wahl zum Papst mit, sichert ihm seine Gunst zu und fordert ihn auf, sich bei Friedrich I. für dessen Unterstützung bei der Überwindung der Feinde und „Schismatiker“ einzusetzen.<list>
+            <p>Papst Viktor IV . teilt dem Elekten von Köln, Rainald von Dassel, seine Wahl zum Papst mit, sichert ihm seine Gunst zu und fordert ihn auf, sich bei Friedrich I. für dessen Unterstützung bei der Überwindung der Feinde und „Schismatiker“ einzusetzen.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
