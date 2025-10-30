@@ -37,7 +37,7 @@
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">Papsturkunde</objectType></p><p><objectType ref="na">Rundschreiben</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
-               <p><objectType ref="na">[Viktor IV.</objectType></p><p><objectType ref="na">Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &amp;gt; Beauftragung durch…]</objectType></p>
+               <p><objectType ref="na">Viktor IV.</objectType></p><p><objectType ref="na">direkte päpstliche Anweisung</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
@@ -56,7 +56,7 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Viktor IV . trägt Patriarchen, Erzbischöfen, Bischöfen, Äbten, Herzögen, Markgrafen, Grafen, weiteren Fürsten und der egregia familia imperialis , die an Friedrichs I. Hof weilt, auf, für dessen Einsatz für das Wohl der Kirche einzutreten. Zudem berichtet er von seiner kanonischen Wahl und Konsekration und warnt vor Briefen seines Gegners, Alexander III .<list>
+            <p>Papst Viktor IV . trägt Patriarchen, Erzbischöfen, Bischöfen, Äbten, Herzögen, Markgrafen, Grafen, weiteren Fürsten und der egregia familia imperialis , die an Friedrichs I. Hof weilt, auf, für dessen Einsatz für das Wohl der Kirche einzutreten. Zudem berichtet er von seiner kanonischen Wahl und Konsekration und warnt vor Briefen seines Gegners, Alexander III .<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
