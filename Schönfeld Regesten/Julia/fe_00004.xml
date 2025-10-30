@@ -72,13 +72,13 @@
          </div>
          <div>
             <head>Datatio:</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+            <diploPart type="datatio">Data Segniae, V. Kalend. Novembris.</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
+                  <bibl type="original">-</bibl>
                   <bibl type="msCopy">Kopial [vgl. GP I, S. 6, C und Hödl: Die Admonter Briefsammlung, S. 386, S. 426 – 433, v. a. S. 433, Anm. 269 f.];</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
