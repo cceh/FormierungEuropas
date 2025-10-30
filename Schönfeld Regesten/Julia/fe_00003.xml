@@ -77,8 +77,8 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">Kopial;</bibl>
+                  <bibl type="original">-</bibl>
+                  <bibl type="msCopy">Kopialüberlieferung in historiographischer Quelle</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
             </div>
@@ -86,7 +86,7 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
+               <bibl>-</bibl>
                <bibl>[Dekretale 2]</bibl>
             </listBibl>
          </div>
