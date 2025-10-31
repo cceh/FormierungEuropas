@@ -84,7 +84,7 @@
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
+               <bibl>[-Quelle 1]</bibl>
                <bibl>[Quelle 2]</bibl>
             </listBibl>
          </div>
@@ -100,7 +100,7 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL -</bibl>
-               <bibl>Germ. Pont. 3 , S. 28, Nr. *3 (Abt Bertold von Altdorf ); Mayr: Der Pontifikat, S. 117, Nr. 49.</bibl>
+               <bibl>Germ. Pont. 3 , S. 28, Nr. *3</bibl><bibl>Mayr, Pontifikat, S. 117, Nr. 49</bibl>
             </listBibl>
          </div>
          <div>
