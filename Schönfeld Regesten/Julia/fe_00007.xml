@@ -29,7 +29,7 @@
                   </authen></p><issued><placeName>-</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1162-04-05" precision="high" unit="cm" xml:space="default" notBefore="1159-10-05" type="issued">(1159, Oktober–1162, vor April 5)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued><p><legalActor type="issuer">Viktor IV.</legalActor></p><p>
-                  <legalActor type="recipient">[Recipient 1]</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType ref="na">[Papsturkund</objectType></p><p><objectType ref="na">nicht mehr nachvollziehbar, da Deperditum</objectType></p><p><objectType ref="na">Viktor IV.</objectType></p><p><objectType ref="na">direkte päpstliche Anweisung</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+                  <legalActor type="recipient">[Gerland von Floreffe</legalActor></p><p><legalActor type="recipient">BerRecipient 1]</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType ref="na">[Papsturkund</objectType></p><p><objectType ref="na">nicht mehr nachvollziehbar, da Deperditum</objectType></p><p><objectType ref="na">Viktor IV.</objectType></p><p><objectType ref="na">direkte päpstliche Anweisung</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
@@ -46,7 +46,7 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Papst Viktor IV. beauftragt Gerland, die Äbte Gerland von Floreffe (D. Straßburg) und Bertold von Altdorf (D. Straßburg), im Streit zwischen Erphon, dem Abt von St. Peter in Neuweiler, gemeinsam mit den Mönchen seines Klosters und Philipp, dem Verwalter der Kollegiatskirche St. Adelf, gemeinsam mit seinen Kanonikern zu vermitteln und eine Einigung im Streit herbeizuführen.<list>
+            <p>Papst Viktor IV. beauftragt Gerland, Propst des Prämonstratenserklosters von Floreffe (D. Straßburg) und Bertold von Altdorf (D. Straßburg), im Streit zwischen Erphon, dem Abt von St. Peter in Neuweiler, gemeinsam mit den Mönchen seines Klosters und Philipp, dem Verwalter der Kollegiatskirche St. Adelf, gemeinsam mit seinen Kanonikern zu vermitteln und eine Einigung im Streit herbeizuführen.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
