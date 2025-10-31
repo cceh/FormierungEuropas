@@ -34,7 +34,7 @@
                <p>
                   <legalActor type="recipient">[Recipient 1]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &amp;gt; Litterae cum serico]</objectType></p>
+               <p><objectType ref="na">[Papsturkund</objectType></p><p><objectType ref="na">e</objectType></p><p/>
                <!-- Referenz aus Liste entnehmen -->
                <p><objectType ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &amp;gt; Beauftragung durch…]</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
