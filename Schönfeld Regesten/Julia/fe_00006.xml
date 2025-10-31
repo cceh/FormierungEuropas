@@ -55,7 +55,7 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p><legalActor><persName>Papst Viktor IV.</persName> </legalActor>bekräftigt auf Bitten <legalActor><persName>Heinrichs II., Bischof von Lüttich</persName></legalActor>, den bereits von Heinrich I., Bischof von Lüttich, verkündeten Landfrieden. <list>
+            <p><legalActor><persName>Papst Viktor IV.</persName> </legalActor>bekräftigt auf Bitten <legalActor><persName>Heinrichs II., Bischof von Lüttich</persName></legalActor>, den bereits von <persName>Heinrich I., Bischof von Lüttich</persName>, verkündeten Landfrieden. <list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
@@ -71,8 +71,7 @@
                </list></diploPart>
          </div>
          <div>
-            <head>Datatio:</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+            <head>Datatio:</head><diploPart type="datatio">-</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
