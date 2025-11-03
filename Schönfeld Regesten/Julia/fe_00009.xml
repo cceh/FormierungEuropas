@@ -29,7 +29,7 @@
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Segni</placeName><date type="issued" notBefore="1159-10-01" notAfter="1159-11-30">1159, (Oktober–November)</date>
+               <issued><placeName>Segni</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1159-11-30" precision="high" unit="cm" xml:space="default" notBefore="1159-10-01" type="issued">1159, (Oktober–November)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">[Issuer]</legalActor></p>
