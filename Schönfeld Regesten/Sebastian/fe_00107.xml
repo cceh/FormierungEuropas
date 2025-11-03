@@ -26,7 +26,7 @@
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Rom, S. Peter</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1167-07-31" precision="high" unit="cm" xml:space="default" notBefore="1167-07-31" type="issued">1167, Juli 31</date>
+               <issued><placeName>Rom, S. Peter</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" unit="cm" xml:space="default" notAfter="1167-07-31" notBefore="1167-07-31" type="issued">1167, Juli 31</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Paschalis III.</legalActor></p>
