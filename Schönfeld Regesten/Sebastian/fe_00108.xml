@@ -114,7 +114,7 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>[Arrenga und Bestimmungen undDie Urkunde In]</p>
+               <p>Arenga und Bestimmungen und noch mehr? sind der Urkunde Innozenz' II. entnommen.</p>
             </diploDesc>
          </div>
          <div type="commentary">
@@ -130,9 +130,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Ist das wirklich ein Privileg?! Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter"
-               lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt
-               werden]</p>
+            <p>[Ist das wirklich ein Privileg?!</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
