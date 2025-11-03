@@ -7,14 +7,10 @@
       <fileDesc>
          <titleStmt>
             <title>fe_00107</title>
-            <respStmt>
-               <resp>Die Formierung Europas</resp>
-               <persName>[Name der Bearbeiter*in]</persName>
-            </respStmt>
+            <respStmt><resp>Die Formierung Europas</resp><persName>[Name der Bearbeiter*in]</persName></respStmt>
             <respStmt>
                <resp when="2025">Encoding:</resp>
-               <persName>SG</persName><persName>[Name der Überarbeiter*in/Auszeichnung, in der Regel identisch wie Name der Bearbeiter*in]</persName>
-            </respStmt>
+               <persName>SG</persName><persName>SG</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
