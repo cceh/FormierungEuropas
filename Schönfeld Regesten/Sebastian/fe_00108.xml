@@ -36,7 +36,7 @@
                <p><legalActor type="issuer">Paschalis III.</legalActor></p>
                <p><legalActor type="recipient">Ludwig, Bischof v. Basel</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType ref="na">Papsturkunde &amp;gt; Privileg, feierliches</objectType></p>
+               <p><objectType ref="na">Papsturkunde &amp;gt; ???</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
                <p><objectType ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &amp;gt; Beauftragung durch…]</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
@@ -57,7 +57,7 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Paschalis III . verbietet Bischof Ludwig von Basel und seinen Nachfolgern den vier-jährlichen Einzug der Zehnten sowie deren Veräußerung und befiehlt den jährlichen Bezug desselben.<list>
+            <p>Paschalis III . verbietet Bischof Ludwig von Basel und seinen Nachfolgern </p><p>den vier-jährlichen Einzug der Zehnten sowie deren Veräußerung und befiehlt den jährlichen Bezug desselben.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
