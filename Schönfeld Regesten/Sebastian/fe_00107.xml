@@ -64,7 +64,7 @@
          <div>
             <head>Subscriptiones:</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>-</item>
+                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
                </list></diploPart>
          </div>
          <div>
@@ -75,7 +75,7 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">Original, Strassburg, Arch. départ. du Bas-Rhin, G 2733/6;</bibl>
+                  <bibl type="original">Strassburg, AD du Bas-Rhin, G 2733/6</bibl>
                   <bibl type="msCopy">[handschriftliche Kopie]</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
