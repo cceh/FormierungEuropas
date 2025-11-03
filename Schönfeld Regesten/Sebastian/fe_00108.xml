@@ -99,7 +99,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 316, Nr. P12</bibl>
+               <bibl/>
                <bibl>Trouillat: Monuments, Bd. I, S. 344, Nr. 226 https://archive.org/details/bub_gb__SgVAAAAQAAJ/page/343/mode/2up</bibl>
             </listBibl>
          </div>
@@ -108,7 +108,7 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14490</bibl>
-               <bibl>GP II/2, S. 226, Nr. 23; Ochs: Geschichte, Bd. I, S. 263, Anm. 2; Bader: Regesta, S. 216; Winistörfer: Die Grafen von Froburg, S. 63; Boos: Geschichte, S. 35; Hidber: Schweizerisches Urkundenregister, Bd. II, S. 213, Nr. 2231; Vautrey: Histoire, Bd. I, S. 174; Kocher: Solothurner Urkundenbuch, Bd. I, S. 101, Nr. 197.</bibl>
+               <bibl>GP II/2, S. 226, Nr. 23;</bibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 316, Nr. P12</bibl><bibl>Ochs: Geschichte, Bd. I, S. 263, Anm. 2;</bibl><bibl>Bader: Regesta, S. 216;</bibl><bibl>Winistörfer: Die Grafen von Froburg, S. 63;</bibl><bibl>Boos: Geschichte, S. 35;Hidber: Schweizerisches Urkundenregister, Bd. II, S. 213, Nr. 2231; Vautrey: Histoire, Bd. I, S. 174; Kocher: Solothurner Urkundenbuch, Bd. I, S. 101, Nr. 197.</bibl>
             </listBibl>
          </div>
          <div>
@@ -130,7 +130,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Ist das wirklich ein Privileg?!</p>
+            <p>Ist das wirklich ein Privileg?!</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
