@@ -68,12 +68,12 @@
                   <item><diploPart type="subscriptio" xml:lang="lat">(R.) Ego <persName>Victor catholice ecclesie episcopus</persName> subscripsi. (BV).</diploPart></item><item><diploPart type="subscriptio" xml:lang="lat">Ego <persName>Iohannes presbiter cardinalis tituli sanctorum Silvestri et Martini</persName> subscripsi.</diploPart></item><item><diploPart type="subscriptio" xml:lang="lat">Ego <persName>Iohannes Botomiensis episcopus</persName> subscripsi.</diploPart></item><item><diploPart type="subscriptio" xml:lang="lat">Ego <persName>Guido presbiter cardinalis tituli Calixti</persName> subscripsi.</diploPart></item><item><diploPart type="subscriptio" xml:lang="lat">Ego <persName>Riccardus Melfictensis episcopus</persName> subscripsi.</diploPart></item>
                </list></diploPart>
          </div>
-         <div><head>Datatio:</head><diploPart type="datatio">Datum <placeName>Sign[i]</placeName> per manus <persName>Iohannis sancte Romane ecclesie subdiaconi et scriptoris</persName>, anno dominicę incarnationis MCLVIIII, indictione VIII, pontificatus vero domni <persName>Victoris IIII pape</persName> anno primo.</diploPart><diploPart type="datatio">atus vero domni Victoris IIII pape anno primo.</diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">Datum <placeName>Sign[i]</placeName> per manus <persName>Iohannis sancte Romane ecclesie subdiaconi et scriptoris</persName>, anno dominicę incarnationis MCLVIIII, indictione VIII, pontificatus vero domni <persName>Victoris IIII pape</persName> anno primo.</diploPart><diploPart type="datatio"/></div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">Original, München, Bayerisches HS tA;</bibl>
+                  <bibl type="original">Original, München, Bayerisches Hauptstaatsarchiv, Kloster Oberaltaich, Urkunden Nr. 4; Digitalisat: https://urkundenrepositorium.uni-marburg.de/entities/urkunde/c207ebbe-6c71-4dd9-8041-82f816afe3ad; https://www.deutsche-digitale-bibliothek.de/item/EEUMZNDADIYF3JD4GITOWUVDLHMBWILUOriginal, München, Bayerisches HS tA;</bibl>
                   <bibl type="msCopy">[handschriftliche Kopie]</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
