@@ -65,7 +65,7 @@
          <div>
             <head>Subscriptiones:</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>Ego Victor catholice ecclesie episcopus subscripsi. Ego Iobannes presbiter cardinalis tituli sanctorum Silvestri et Martini subscripsi. Ego Iohannes Botomiensis episcopus subscripsi. Ego Guido presbiter cardinalis tituli Calixti subscripsi. Ego Riccardus Melfictensis episcopus subscripsi.</item>
+                  <item><diploPart type="subscriptio" xml:lang="lat">(R.) Ego <persName>Victor catholice ecclesie episcopus</persName> subscripsi. (BV).</diploPart></item><item><diploPart type="subscriptio" xml:lang="lat">Ego <persName>Iohannes presbiter cardinalis tituli sanctorum Silvestri et Martini</persName> subscripsi.</diploPart></item><item>ilvestri et Martini subscripsi. Ego Iohannes Botomiensis episcopus subscripsi. Ego Guido presbiter cardinalis tituli Calixti subscripsi. Ego Riccardus Melfictensis episcopus subscripsi.</item>
                </list></diploPart>
          </div>
          <div>
