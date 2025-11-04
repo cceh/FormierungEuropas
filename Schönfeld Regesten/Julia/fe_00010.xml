@@ -29,7 +29,7 @@
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p><issued><placeName>-</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1163-11-18" precision="high" unit="cm" xml:space="default" notBefore="1159-11-18" type="issued">(1159–1163), November 18</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
-               </issued><p><legalActor type="issuer">Viktor IV.</legalActor></p><p><legalActor type="recipient">Gerland, Probst des Klosters Floreffe</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType ref="na">Papsturkunde, Litterae (unbestimmt)</objectType></p><p/><!-- Referenz aus Liste entnehmen --><p><objectType ref="na">Viktor IV., päpstliche Bestätigung</objectType></p><p/><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+               </issued><p><legalActor type="issuer">Viktor IV.</legalActor></p><p><legalActor type="recipient">Gerland, Probst des Klosters Floreffe</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType ref="na">Papsturkunde, Litterae (unbestimmt)</objectType></p><!-- Referenz aus Liste entnehmen --><p><objectType ref="na">Viktor IV., päpstliche Bestätigung</objectType></p><p/><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
