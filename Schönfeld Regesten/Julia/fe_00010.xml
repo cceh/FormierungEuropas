@@ -34,9 +34,9 @@
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
                <p><legalActor type="recipient">Gerland, Probst des Klosters Floreffe</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType ref="na">[Papsturkunde</objectType></p><p><objectType ref="na">Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &amp;gt; Litterae cum serico]</objectType></p>
+               <p><objectType ref="na">Papsturkunde</objectType></p><p><objectType ref="na">Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &amp;gt; Litterae cum serico]</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
-               <p><objectType ref="na">Viktor IV.</objectType></p><p><objectType ref="na">päpstliche Bestätigung</objectType></p>
+               <p><objectType ref="na">Viktor IV., päpstliche Bestätigung</objectType></p><p/>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
