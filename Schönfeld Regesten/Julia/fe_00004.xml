@@ -1,17 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="fe_schoenfeld">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI source="fe_schoenfeld" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>fe_00004</title>
             <respStmt>
-               <resp>Die Formierung Europas</resp>
-               <persName>[Name der Bearbeiter*in]</persName>
+               <resp>Die Formierung Europas</resp><persName>Schönfeld, Urkunden der Gegenpäpste, S. 255, Nr. V4</persName>
             </respStmt>
             <respStmt>
                <resp when="2025">Encoding:</resp>
-               <persName>SG</persName><persName>[Name der Überarbeiter*in/Auszeichnung, in der Regel identisch wie Name der Bearbeiter*in]</persName>
+               <persName>SG,</persName><persName>JB</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -21,7 +22,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+            <bibl type="jaffe">-</bibl>
             <bibl type="Schoenfeld">Schönfeld, Urkunden der Gegenpäpste, S. 255, Nr. V4</bibl>
             <diploDesc>
                <p>Echtheitskriterium: <authen type="formula" n="na">
@@ -31,13 +32,12 @@
                <issued><placeName>Segni</placeName><date type="issued" notBefore="1159-10-28" notAfter="1159-10-28">(1159, Oktober 28)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Issuer]</legalActor></p>
-               <p>
-                  <legalActor type="recipient">[Recipient 1]</legalActor></p>
+               <p><legalActor type="issuer">Viktor IV.</legalActor></p>
+               <p><legalActor type="recipient">Patriarch Pilgrim von Aquileia</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &gt; Litterae cum serico]</objectType></p>
+               <p><objectType ref="na">Papsturkunde</objectType></p><p><objectType ref="na">Rundschreiben</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
-               <p><objectType ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &gt; Beauftragung durch…]</objectType></p>
+               <p><objectType ref="na">Viktor IV.</objectType></p><p><objectType ref="na">direkte päpstliche Anweisung</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
@@ -56,15 +56,14 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Viktor IV . sendet das in V 3 dokumentierte Schreiben an den Patriarchen Pilgrim von Aquileia.<list>
-                  <item>[Listeneintrag 1]</item>
+            <p><legalActor><persName>Papst Viktor IV.</persName></legalActor> bittet in einem Rundschreiben den Pilgrim, den Patriarch von Aquileia, die Erzbischöfe, Bischöfe, Äbte, Herzöge, Markgrafen, Grafen, weitere Fürsten und die <diploPart>egregia familia imperialis</diploPart>, die am Hof des Kaisers weilt, sich bei <persName>Friedrichs I.</persName>, als Vogt und Verteidiger der Kirche Gottes, sich für dessen Unterstützung für das Wohl der Kirche einzusetzen.<list>
+                  <item>Zudem berichtet er von seiner kanonischen Wahl und Konsekration zum Papst nach dem Tod <persName>Hadrians IV.</persName></item><item>Er warnt vor Schreiben des Schismatikers und Häretikers <persName>Roland</persName>, der sich durch Konspiration und Verschwörung gegen die Kirche und das Reich mit Hilfe <persName>Wilhelms von Sizilien</persName> zwölf Tage nach seiner Wahl zum Papst erheben ließ.</item>
                </list></p>
          </div>
 
          <div>
             <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">Quantum honorem imperii</diploPart>
-         </div>
+            <diploPart type="incipit" xml:lang="lat">Quantum honorem imperii et nobilitatem</diploPart></div>
          <div>
             <head>Subscriptiones:</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
@@ -73,14 +72,14 @@
          </div>
          <div>
             <head>Datatio:</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+            <diploPart type="datatio">Data Segniae, V. Kalend. Novembris.</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">Kopial [vgl. GP I, S. 6, C und Hödl: Die Admonter Briefsammlung, S. 386, S. 426 – 433, v. a. S. 433, Anm. 269 f.];</bibl>
+                  <bibl type="original">-</bibl>
+                  <bibl type="msCopy">Kopialüberlieferung in Admonter Briefsammlung (zu den weiteren Drucken vgl. ebd.)</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
             </div>
@@ -88,36 +87,36 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
-               <bibl>[Quelle 2]</bibl>
+               <bibl>Die Admonter Briefsammlung nebst ergänzenden Briefen, ed. Hödl/Classen (MGH Briefe d. dt. Kaiserzeit 6), S. 89-90, Nr. 44</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 255, Nr. V4</bibl>
-               <bibl>Baronius: Annales, Bd. XII , Sp. 539, Nr. 42; Die Admonter Briefsammlung, S. 89 f., Nr. 44 [mit Angabe weiterer Drucke];</bibl>
+               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 255, Nr. V4.</bibl>
+               <bibl>Die Admonter Briefsammlung nebst ergänzenden Briefen, ed. Hödl/Classen (MGH Briefe d. dt. Kaiserzeit 6), S. 89-90, Nr. 44.</bibl><bibl/>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head>
             <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>[Regest 1]</bibl>
-               <bibl>Arndt: Die Briefsammlung, S. 35, Nr. 44; Mayr: Der Pontifikat, S. 85, Nr. 3; RI IV ,2,2, Nr. 771.</bibl>
+               <bibl>JL -</bibl>
+               <bibl>RI IV ,2,2, Nr. 771</bibl><bibl>Arndt, Die Briefsammlung, S. 35, Nr. 44</bibl><bibl>Mayr, Pontifikat, S. 85, Nr. 3</bibl>
             </listBibl>
          </div>
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>[Text und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
+               <p>Das vorliegende Schreiben ist im Rahmen der Admonter Briefsammlung überliefert. Es handelt sich um dasselbe Rundschreiben wie JL 14426, allerdings mit einem abweichenden Incipit (vgl. ##FORMIERUNG Europas Nr. ##). Weitere Textzeugen dieses Rundschreibens sind nicht bekannt. Die kopiale Überlieferung erschwert die genaue diplomatische Beurteilung des Stücks. Die Jahresdatierung erfolgt nach dem Itinerar Viktors IV. <diploPart type="rota">Rota</diploPart>Diplomatischer
  Kommentar]</p>
             </diploDesc>
          </div>

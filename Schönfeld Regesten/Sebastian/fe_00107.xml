@@ -1,18 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="fe_schoenfeld">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI source="fe_schoenfeld" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>fe_00107</title>
-            <respStmt>
-               <resp>Die Formierung Europas</resp>
-               <persName>[Name der Bearbeiter*in]</persName>
-            </respStmt>
+            <respStmt><resp>Die Formierung Europas</resp><persName>[Name der Bearbeiter*in]</persName></respStmt>
             <respStmt>
                <resp when="2025">Encoding:</resp>
-               <persName>SG</persName><persName>[Name der Überarbeiter*in/Auszeichnung, in der Regel identisch wie Name der Bearbeiter*in]</persName>
-            </respStmt>
+               <persName>SG</persName><persName>SG</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -28,16 +26,15 @@
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Rom, S. Peter</placeName><date type="issued" notBefore="1167-07-31" notAfter="1167-07-31">1167, Juli 31</date>
+               <issued><placeName>Rom, S. Peter</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" unit="cm" xml:space="default" notAfter="1167-07-31" notBefore="1167-07-31" type="issued">1167, Juli 31</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Issuer]</legalActor></p>
-               <p>
-                  <legalActor type="recipient">[Recipient 1]</legalActor></p>
+               <p><legalActor type="issuer">Paschalis III.</legalActor></p>
+               <p><legalActor type="recipient">Straßburg, Domkapitel</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &gt; Litterae cum serico]</objectType></p>
+               <p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &amp;gt; Litterae cum serico]</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
-               <p><objectType ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &gt; Beauftragung durch…]</objectType></p>
+               <p><objectType ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &amp;gt; Beauftragung durch…]</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
@@ -56,15 +53,14 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Paschalis III . bestätigt dem Domstift zu Straßburg ein Edikt Kaiser Friedrichs I. (D F I *1146), das Regelungen zur Zinseintreibung enthält.<list>
+            <p>Paschalis III . bestätigt dem Domstift zu Straßburg auf Bitten des Archidiakons Heinrich ein Edikt Kaiser Friedrichs I. (D F I *1146), das Regelungen zur Zinseintreibung enthält.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
 
          <div>
             <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">Immobili debet esse</diploPart>
-         </div>
+            <diploPart type="incipit" xml:lang="lat">Immobili debet esse firmitate subnixum</diploPart></div>
          <div>
             <head>Subscriptiones:</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
@@ -79,7 +75,7 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">Original, Strassburg, Arch. départ. du Bas-Rhin, G 2733/6;</bibl>
+                  <bibl type="original">Strassburg, AD du Bas-Rhin, G 2733/6</bibl>
                   <bibl type="msCopy">[handschriftliche Kopie]</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
@@ -103,7 +99,7 @@
             <head>Editionen</head>
             <listBibl>
                <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 315–316, Nr. P11</bibl>
-               <bibl>Würdtwein: Nova subsidia diplomatica, Bd. X, S. 25, Nr. 9; Wiegand: Urkundenbuch der Stadt Straßburg, Bd. I, S. 95, Nr. 114;</bibl>
+               <bibl>Würdtwein: Nova subsidia diplomatica, Bd. X, S. 25, Nr. 9</bibl><bibl>Wiegand: Urkundenbuch der Stadt Straßburg, Bd. I, S. 95, Nr. 114</bibl>
             </listBibl>
          </div>
          <div type="regesta">
@@ -111,7 +107,7 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14489</bibl>
-               <bibl>GP III, S. 19, Nr. 6; Wentzcke: Regesten der Bischöfe von Strassburg, Bd. I/2, S. 343, Nr. 583; Schwarz: Herrscher- und Reichstitel, S. 331, Nr. 103; Abb. dig.: PH Arch. départ. du Bas-Rhin, Strassbourg.</bibl>
+               <bibl>GP III, S. 19, Nr. 6</bibl><bibl>RI IV,2,2 n. D1689</bibl><bibl>MGH D F I. *1146</bibl><bibl>Wentzcke: Regesten der Bischöfe von Strassburg, Bd. I/2, S. 343, Nr. 583</bibl><bibl>Schwarz: Herrscher- und Reichstitel, S. 331, Nr. 103</bibl><bibl>Abb. dig.: PH Arch. départ. du Bas-Rhin, Strassbourg.</bibl>
             </listBibl>
          </div>
          <div>
@@ -134,9 +130,12 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter"
-               lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt
-               werden]</p>
+            <p>[Fragen SG:
+               <list>
+                  <item>Was ist mit dem Hinweis auf eine Abb. im Archiv? Siehe https://archives.bas-rhin.fr/detail-document/SPACH_G2746#texte </item><item>Das ist fe_00063: https://archives.bas-rhin.fr/detail-document/LIGEO-1650094 (Bilder herunterladen?)</item><item>Dafür die Datenbank schon durchsuchbar machen?!</item>
+                  <item>Wo und wie zitieren wir das Deperditum?</item>
+                  <item>Können wir in der Datei von GP III 19 n. 6 die Nummer des aktuellen Regests hinterlegen?</item><item>Die Leeren Blocks irgendwie als solche kenntlich machen? (Z.B. Subskriptionsliste kann man wirklich streichen!) Welche Quellen streichen, welche verlinken?</item></list>
+                     ]</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>

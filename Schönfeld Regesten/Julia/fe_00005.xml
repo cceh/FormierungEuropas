@@ -1,17 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="fe_schoenfeld">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI source="fe_schoenfeld" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>fe_00005</title>
             <respStmt>
-               <resp>Die Formierung Europas</resp>
-               <persName>[Name der Bearbeiter*in]</persName>
+               <resp>Die Formierung Europas</resp><persName>Schönfeld, Urkunden der Gegenpäpste, S. 255, Nr. V5</persName>
             </respStmt>
             <respStmt>
                <resp when="2025">Encoding:</resp>
-               <persName>SG</persName><persName>[Name der Überarbeiter*in/Auszeichnung, in der Regel identisch wie Name der Bearbeiter*in]</persName>
+               <persName>SG,</persName><persName>JB</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -27,17 +28,15 @@
                <p>Echtheitskriterium: <authen type="formula" n="na">
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-                  </authen></p>
-               <issued><placeName>[Ausstellungsort]</placeName><date type="issued" notBefore="1159-10-01" notAfter="1164-10-31">(1159, Oktober–1164)</date>
+                  </authen></p><issued><placeName>-</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1164-10-31" precision="high" unit="cm" xml:space="default" notBefore="1159-10-01" type="issued">(1159, Oktober–1164)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Issuer]</legalActor></p>
-               <p>
-                  <legalActor type="recipient">[Recipient 1]</legalActor></p>
+               <p><legalActor type="issuer">Viktor IV.</legalActor></p>
+               <p><legalActor type="recipient">alle geistlichen und weltlichen Große des Reichs</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &gt; Litterae cum serico]</objectType></p>
+               <p><objectType ref="na">Papsturkunde</objectType></p><p><objectType ref="na">Rundschreiben</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
-               <p><objectType ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &gt; Beauftragung durch…]</objectType></p>
+               <p><objectType ref="na">Viktor IV.</objectType></p><p><objectType ref="na">direkte päpstliche Anweisung</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
@@ -56,15 +55,14 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Viktor IV . wendet sich in einem Schreiben an alle Erzbischöfe, Bischöfe, Äbte, Pröpste und den gesamten Klerus sowie an Herzöge, Markgrafen, Grafen, die tatkräftige Ritterschaft und das Volk im regnum Teutonicum .<list>
+            <p><legalActor><persName>Papst Viktor IV.</persName></legalActor> wendet sich in einem Schreiben an alle Erzbischöfe, Bischöfe, Äbte, Pröpste und den gesamten Klerus sowie an Herzöge, Markgrafen, Grafen, die tatkräftige Ritterschaft und das Volk im <diploPart>regnum Teutonicum</diploPart>. Dabei betont er das harmonische Zusammenwirken der <diploPart>auctoritas Romani pontificis</diploPart> und der <diploPart>potestas imperialis</diploPart>.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
 
          <div>
             <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">Necessaria rerum dispositione</diploPart>
-         </div>
+            <diploPart type="incipit" xml:lang="lat">Necessaria rerum dispositione constringimur et</diploPart></div>
          <div>
             <head>Subscriptiones:</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
@@ -72,15 +70,14 @@
                </list></diploPart>
          </div>
          <div>
-            <head>Datatio:</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+            <head>Datatio:</head><diploPart type="datatio">-</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">Kopial;</bibl>
+                  <bibl type="original">-</bibl>
+                  <bibl type="msCopy">Kopialüberlieferung: Schaffhausen, Stadtbibliothek, Ministerialbibliothek, Min. 56, fol. 250r (fragmentarisch)</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
             </div>
@@ -88,22 +85,22 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
-               <bibl>[Quelle 2]</bibl>
+               <bibl>-</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
                <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 255, Nr. V5</bibl>
-               <bibl>Wattenbach: Aus Stuttgart und Schaffhausen, S. 449;</bibl>
+               <bibl>Wattenbach, Aus Stuttgart und Schaffhausen, S. 449.</bibl>
             </listBibl>
          </div>
          <div type="regesta">
@@ -111,14 +108,13 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14481</bibl>
-               <bibl>Mayr: Der Pontifikat, S. 133, Nr. 83; Schwarz: Herrscher- und Reichstitel, S. 331, Nr. 101.</bibl>
+               <bibl>Mayr, Pontifikat, S. 133, Nr. 83</bibl><bibl>Schwarz, Herrscher- und Reichstitel, S. 331, Nr. 101</bibl>
             </listBibl>
          </div>
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>[Text und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
- Kommentar]</p>
+               <p>Das vorliegende Schreiben ist kopial in einer Handschrift aus dem Allerheiligenkloster Schaffhausen überliefert. Der Text bricht kurz nach dem Protokoll und der Arenga ab. Dies erschwert die diplomatische Einordnung und Datierung des Stücks. <diploPart type="rota"/></p>
             </diploDesc>
          </div>
          <div type="commentary">

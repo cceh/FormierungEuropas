@@ -1,17 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="fe_schoenfeld">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI source="fe_schoenfeld" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>fe_00002</title>
             <respStmt>
-               <resp>Die Formierung Europas</resp>
-               <persName>[Name der Bearbeiter*in]</persName>
+               <resp>Die Formierung Europas</resp><persName>Schönfeld, Urkunden der Gegenpäpste, S. 254, Nr. V2</persName>
             </respStmt>
             <respStmt>
                <resp when="2025">Encoding:</resp>
-               <persName>SG</persName><persName>[Name der Überarbeiter*in/Auszeichnung, in der Regel identisch wie Name der Bearbeiter*in]</persName>
+               <persName>SG, JB</persName><persName/>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -27,17 +28,15 @@
                <p>Echtheitskriterium: <authen type="formula" n="na">
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-                  </authen></p>
-               <issued><placeName>[Ausstellungsort]</placeName><date type="issued" notBefore="1159-09-20" notAfter="1159-09-20">(1159, nach September 20)</date>
+                  </authen></p><issued><placeName>-</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1159-09-20" precision="high" unit="cm" xml:space="default" notBefore="1159-09-20" type="issued">(1159, nach September 20)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Issuer]</legalActor></p>
-               <p>
-                  <legalActor type="recipient">[Recipient 1]</legalActor></p>
+               <p><legalActor type="issuer">Viktor IV.</legalActor></p>
+               <p><legalActor type="recipient">Rainald von Dassel, Elekt von Köln</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &gt; Litterae cum serico]</objectType></p>
+               <p><objectType ref="na">Papsturkunde</objectType></p><p><objectType>Litterae (unbestimmt)</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
-               <p><objectType ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &gt; Beauftragung durch…]</objectType></p>
+               <p><objectType ref="na">Viktor IV.</objectType></p><p><objectType ref="na">direkte päpstliche Anweisung</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
@@ -56,15 +55,14 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Viktor IV . teilt dem Elekten von Köln, Rainald von Dassel, seine Wahl zum Papst mit, sichert ihm seine Gunst zu und fordert ihn auf, sich bei Friedrich I. für dessen Unterstützung bei der Überwindung der Feinde und „Schismatiker“ einzusetzen.<list>
+            <p><legalActor><persName>Papst Viktor IV.</persName></legalActor> berichtet <legalActor><persName>Rainald von Dassel</persName></legalActor>, dem Elekten zum Erzbischof von Köln, von seiner Wahl zum Papst und der entstandenen Spaltung zwischen <diploPart>regnum </diploPart>und <diploPart>sacerdotium</diploPart>. Er fordert Rainald auf, sich bei <persName>Kaiser Friedrich I.</persName> für dessen Unterstützung bei der Überwindung der Feinde Christi und der Schismatiker einzusetzen.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
 
          <div>
             <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">Credimus indubitanter frater</diploPart>
-         </div>
+            <diploPart type="incipit" xml:lang="lat">Credimus indubitanter frater carissime quod</diploPart></div>
          <div>
             <head>Subscriptiones:</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
@@ -72,15 +70,14 @@
                </list></diploPart>
          </div>
          <div>
-            <head>Datatio:</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+            <head>Datatio:</head><diploPart type="datatio">-</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">Kopial;</bibl>
+                  <bibl type="original">-</bibl>
+                  <bibl type="msCopy">Kopialüberlieferung in historiographischer Quelle</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
             </div>
@@ -88,22 +85,22 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
-               <bibl>[Quelle 2]</bibl>
+               <bibl>Chronica regia Coloniensis, ed. Waitz (MGH SS rer. Germ. 18), S. 106-107.</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 254, Nr. V2</bibl>
-               <bibl>Chronica regia Coloniensis, ed. Waitz, S. 106 f.;</bibl>
+               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 254, Nr. V2.</bibl>
+               <bibl>Chronica regia Coloniensis, ed. Waitz (MGH SS rer. Germ. 18), S. 106-107.</bibl>
             </listBibl>
          </div>
          <div type="regesta">
@@ -111,13 +108,13 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14425</bibl>
-               <bibl>GP VII, S. 107, Nr. 320; Knipping: Regesten der Erzbischöfe von Köln, Bd. II, Nr. 682; Mayr: Der Pontifikat, S. 85, Nr. 1; Schwarz: Herrscher- und Reichstitel, S. 330, Nr. 95.</bibl>
+               <bibl>Germ. Pont. 7, S. 107, Nr. 320</bibl><bibl>Mayr, Pontifikat, S. 85, Nr. 1</bibl><bibl>Schwarz, Herrscher- und Reichstitel, S. 330, Nr. 95</bibl>
             </listBibl>
          </div>
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>[Text und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
+               <p>Das vorliegende Schreiben ist ohne Protokoll und Eschatokoll in die Chronica regia Coloniensis inseriert. Die schlechte Überlieferung erschwert die genaue Typologisierung des päpstlichen Zeugnisses. <diploPart type="rota">Rota</diploPart>Diplomatischer
  Kommentar]</p>
             </diploDesc>
          </div>

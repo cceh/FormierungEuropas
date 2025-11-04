@@ -1,17 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="fe_schoenfeld">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI source="fe_schoenfeld" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>fe_00003</title>
             <respStmt>
-               <resp>Die Formierung Europas</resp>
-               <persName>[Name der Bearbeiter*in]</persName>
+               <resp>Die Formierung Europas</resp><persName>Schönfeld, Urkunden der Gegenpäpste, S. 254-255, Nr. V3</persName>
             </respStmt>
             <respStmt>
                <resp when="2025">Encoding:</resp>
-               <persName>SG</persName><persName>[Name der Überarbeiter*in/Auszeichnung, in der Regel identisch wie Name der Bearbeiter*in]</persName>
+               <persName>SG, </persName><persName>JB</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -28,16 +29,15 @@
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Segni</placeName><date type="issued" notBefore="1159-10-28" notAfter="1159-10-28">(1159, Oktober 28)</date>
+               <issued><placeName>Segni</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1159-10-28" precision="high" unit="cm" xml:space="default" notBefore="1159-10-28" type="issued">(1159, Oktober 28)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Issuer]</legalActor></p>
-               <p>
-                  <legalActor type="recipient">[Recipient 1]</legalActor></p>
+               <p><legalActor type="issuer">Viktor IV.</legalActor></p>
+               <p><legalActor type="recipient">alle geistliche und weltliche Große des Reichs</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &gt; Litterae cum serico]</objectType></p>
+               <p><objectType ref="na">Papsturkunde</objectType></p><p><objectType ref="na">Rundschreiben</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
-               <p><objectType ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &gt; Beauftragung durch…]</objectType></p>
+               <p><objectType ref="na">Viktor IV.</objectType></p><p><objectType ref="na">direkte päpstliche Anweisung</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
@@ -56,15 +56,14 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Viktor IV . trägt Patriarchen, Erzbischöfen, Bischöfen, Äbten, Herzögen, Markgrafen, Grafen, weiteren Fürsten und der egregia familia imperialis , die an Friedrichs I. Hof weilt, auf, für dessen Einsatz für das Wohl der Kirche einzutreten. Zudem berichtet er von seiner kanonischen Wahl und Konsekration und warnt vor Briefen seines Gegners, Alexander III .<list>
-                  <item>[Listeneintrag 1]</item>
+            <p><legalActor><persName>Papst Viktor IV.</persName></legalActor> bittet in einem Rundschreiben die Patriarche, Erzbischöfe, Bischöfe, Äbte, Herzöge, Markgrafen, Grafen, weitere Fürsten und die <diploPart>egregia familia imperialis</diploPart>, die am Hof des Kaisers weilt, sich bei <persName>Friedrichs I.</persName>, als Vogt und Verteidiger der Kirche Gottes, sich für dessen Unterstützung für das Wohl der Kirche einzusetzen.<list>
+                  <item>Zudem berichtet er von seiner kanonischen Wahl und Konsekration zum Papst nach dem Tod <persName>Hadrians IV.</persName></item><item>Er warnt vor Schreiben des Schismatikers und Häretikers <persName>Roland</persName>, der sich durch Konspiration und Verschwörung gegen die Kirche und das Reich mit Hilfe <persName>Wilhelms von Sizilien</persName> zwölf Tage nach seiner Wahl zum Papst erheben ließ.</item>
                </list></p>
          </div>
 
          <div>
             <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">Quam et in</diploPart>
-         </div>
+            <diploPart type="incipit" xml:lang="lat">Quam et in quantum et</diploPart></div>
          <div>
             <head>Subscriptiones:</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
@@ -72,15 +71,14 @@
                </list></diploPart>
          </div>
          <div>
-            <head>Datatio:</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+            <head>Datatio:</head><diploPart type="datatio">Data Segniae, V. Kalend. Novembris.</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">Kopial;</bibl>
+                  <bibl type="original">-</bibl>
+                  <bibl type="msCopy">Kopialüberlieferung in historiographischer Quelle</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
             </div>
@@ -88,43 +86,38 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
-               <bibl>[Quelle 2]</bibl>
+               <bibl>Ottonis et Rahewini Gesta Friderici I. imperatoris, ed. Waitz/Simson (MGH SS rer. Germ. 46), cap. 60, S. 297-299.</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="editions">
             <head>Editionen</head>
-            <listBibl>
-               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 254–255, Nr. V3</bibl>
-               <bibl>Ottonis et Rahewini gesta Friderici I. imperatoris, lib. IV , c. 60, ed. Schmale, S. 622 f.;</bibl>
-            </listBibl>
+            <listBibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 254–255, Nr. V3</bibl><bibl>Ottonis et Rahewini Gesta Friderici I. imperatoris, ed. Waitz/Simson (MGH SS rer. Germ. 46), cap. 60, S. 297-299.</bibl><bibl/></listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head>
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14426</bibl>
-               <bibl>IP VII, S. 37, Nr. 88; Mayr: Der Pontifikat, S. 85, Nr. 2; Schwarz: Herrscher- und Reichstitel, S. 330, Nr. 96.</bibl>
+               <bibl>It. Pont. 7, S. 37, Nr. 88</bibl><bibl>Mayr, Pontifikat, S. 85, Nr. 2</bibl><bibl>Schwarz, Herrscher- und Reichstitel, S. 330, Nr. 96</bibl>
             </listBibl>
          </div>
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>[Text und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
- Kommentar]</p>
+               <p><diploDesc/>Das vorliegende Schreiben ist in die Gesta Friderici Ottos von Freising und Rahewins inseriert. Die schlechte Überlieferung erschwert die genaue diplomatische Beurteilung des Stücks. Die Jahresdatierung erfolgt nach dem Itinerar Viktors IV.  <diploPart type="rota"/></p>
             </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>[Inhalt des Sachkommentars. Bibliographische Referenzen werden als Bibliographische
-               Angabe getagged.]</p>
+            <p>Schönfeld zitiert das Schreiben anhand der zweisprachigen Ausgabe von Franz-Josef Schmale, nicht nach der kritischen Edition, vgl. Bischof Otto von Freising und Rahewin. Die Taten Friedrichs oder richtiger Cronica (Ausgewählte Quellen zur deutschen Geschichte des Mittelalters. Freiherr-vom-Stein-Gedächtnisausgabe, 17), Darmstadt 1965, S. 622-624.</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
