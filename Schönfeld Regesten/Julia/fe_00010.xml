@@ -31,7 +31,7 @@
                   </authen></p><issued><placeName>-</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1163-11-18" precision="high" unit="cm" xml:space="default" notBefore="1159-11-18" type="issued">(1159–1163), November 18</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Viktor IV.Issuer]</legalActor></p>
+               <p><legalActor type="issuer">Viktor IV.</legalActor></p>
                <p>
                   <legalActor type="recipient">[Recipient 1]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
