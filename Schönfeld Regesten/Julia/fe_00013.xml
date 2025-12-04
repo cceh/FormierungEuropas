@@ -78,7 +78,7 @@
             <div>
                <listBibl>
                   <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">Deperditum, erwähnt in Annales Pegavienses et Bosovienses, ed. Pertz (MGH SS 16), S. 260r. *140];</bibl>
+                  <bibl type="msCopy">Deperditum, erwähnt in Annales Pegavienses et Bosovienses, ed. Pertz (MGH SS 16), S. 260.</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
             </div>
@@ -86,14 +86,14 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
+               <bibl>[Annales Pegavienses et Bosovienses, ed. Pertz (MGH SS 16), S. 260</bibl>
                <bibl>[Quelle 2]</bibl>
             </listBibl>
          </div>
