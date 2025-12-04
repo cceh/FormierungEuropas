@@ -71,15 +71,14 @@
                </list></diploPart>
          </div>
          <div>
-            <head>Datatio:</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+            <head>Datatio:</head><diploPart type="datatio">-</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
                   <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">Erwähnt in den Annales Pegavienses et Bosovienses, ed. Pertz, S. 260 [vgl. GP V/2, S. 253, Nr. *140];</bibl>
+                  <bibl type="msCopy">Deperditum, erwähnt in Annales Pegavienses et Bosovienses, ed. Pertz, S. 260 [vgl. GP V/2, S. 253, Nr. *140];</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
             </div>
