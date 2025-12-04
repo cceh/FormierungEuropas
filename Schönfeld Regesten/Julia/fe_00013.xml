@@ -36,7 +36,7 @@
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">Papsturkunde, Deperditum</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
-               <p><objectType ref="na">&amp;lt;refPoint1&amp;gt; Administration, Diözesen &amp;lt;refPoint1&amp;gt;</objectType></p><p><objectType ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &amp;gt; Beauftragung durch…]</objectType></p>
+               <p><objectType ref="na">&amp;lt;refPoint1&amp;gt; Administration, Diözesen &amp;lt;refPoint1&amp;gt;</objectType></p><p><objectType ref="na">[&amp;lt;refPBezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &amp;gt; Beauftragung durch…]</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
@@ -133,9 +133,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>unsicher bei &amp;lt;refPoint1&amp;gt; entweder Administration/Diözesen oder Juristisches/neues Recht??m Inhalt und zum Kontext. Mit "Enter"
-               lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt
-               werden]</p>
+            <p>unsicher bei &amp;lt;refPoint1&amp;gt; entweder Administration/Diözesen oder Juristisches/neues Recht??</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
