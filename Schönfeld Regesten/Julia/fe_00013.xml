@@ -28,10 +28,10 @@
                <p>Echtheitskriterium: <authen type="formula" n="deperditum">
                      <p>*</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-                  </authen></p><issued><placeName>-</placeName><date type="issued" notBefore="1160-03-01" notAfter="1160-07-31">1160 (vor März–Juli)</date>
+                  </authen></p><issued><placeName>-</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1160-07-31" precision="high" unit="cm" xml:space="default" notBefore="1160-03-01" type="issued">1160 (vor März–Juli)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p><legalActor type="issuer">Viktor IV.</legalActor></p>
                <p>
                   <legalActor type="recipient">[Recipient 1]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
