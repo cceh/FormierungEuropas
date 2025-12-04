@@ -12,7 +12,7 @@
             </respStmt>
             <respStmt>
                <resp when="2025">Encoding:</resp>
-               <persName>SG, JB</persName><persName>[</persName>
+               <persName>SG, JB</persName><persName/>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -32,7 +32,7 @@
                <issued><placeName>Vetralla</placeName><date type="issued" notBefore="1159-12-05" notAfter="1159-12-05">(1159), Dezember 5</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p><legalActor type="issuer">Viktor IV.</legalActor></p>
                <p>
                   <legalActor type="recipient">[Recipient 1]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
