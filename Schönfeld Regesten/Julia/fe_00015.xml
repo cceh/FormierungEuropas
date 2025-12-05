@@ -56,7 +56,7 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Viktor IV. ernennt Arnold, den Erzbischof von Mainz, zum Legaten über alle Bistümer seiner Kirchenprovinz.<list>
+            <p>Viktor IV. ernennt Arnold, den Erzbischof von Mainz, zum päpstlichen Legaten über alle Bistümer seiner Kirchenprovinz.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
@@ -72,8 +72,7 @@
                </list></diploPart>
          </div>
          <div>
-            <head>Datatio:</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+            <head>Datatio:</head><diploPart type="datatio">-</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
