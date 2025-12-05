@@ -31,7 +31,7 @@
                   </authen></p><issued><placeName>-</placeName><date type="issued" notBefore="1160-02-13" notAfter="1167-08-13">(1160, nach Februar 13–1167, August in.)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[ViIssuer]</legalActor></p>
+               <p><legalActor type="issuer">Viktor IV. (oder Paschalis III.)</legalActor></p>
                <p>
                   <legalActor type="recipient">[Recipient 1]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
