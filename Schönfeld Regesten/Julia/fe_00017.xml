@@ -80,7 +80,7 @@
             <div>
                <listBibl>
                   <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">Deperditum, erwähnt in Ottonis et Rahewini Gesta Friderici I. imperatoris, ed. Waitz/Simson (MGH SS rer. Germ. 46), cap. 82, S. ???02 – 704;</bibl>
+                  <bibl type="msCopy">Deperditum, erwähnt in Ottonis et Rahewini Gesta Friderici I. imperatoris, ed. Waitz/Simson (MGH SS rer. Germ. 46), cap. 82, S. ???</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
             </div>
@@ -88,14 +88,14 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
+               <bibl>Ottonis et Rahewini Gesta Friderici I. imperatoris, ed. Waitz/Simson (MGH SS rer. Germ. 46), cap. 82, S. 60Quelle 1]</bibl>
                <bibl>[Quelle 2]</bibl>
             </listBibl>
          </div>
