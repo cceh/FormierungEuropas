@@ -92,8 +92,8 @@
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
-               <bibl>[Quelle 2]</bibl>
+               <bibl>-</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="editions">
@@ -108,7 +108,7 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14429</bibl>
-               <bibl>GP V/2, S. 51, Nr. 99; ibid., S. 72, Nr. 17; ibid., S. 180, Nr. 11; Hempel: Inventarium diplomaticum, Bd. I, col. 98, Nr. 2; Mayr: Der Pontifikat, S. 89, Nr. 7.</bibl>
+               <bibl>Germ. Pont. 2,P V/2, S. 51, Nr. 99; ibid., S. 72, Nr. 17; ibid., S. 180, Nr. 11; Hempel: Inventarium diplomaticum, Bd. I, col. 98, Nr. 2; Mayr: Der Pontifikat, S. 89, Nr. 7.</bibl>
             </listBibl>
          </div>
          <div>
