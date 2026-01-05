@@ -1,18 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="fe_schoenfeld">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI source="fe_schoenfeld" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>fe_00017</title>
             <respStmt>
-               <resp>Die Formierung Europas</resp>
-               <persName>[Name der Bearbeiter*in]</persName>
+               <resp>Die Formierung Europas</resp><persName>Schönfeld, Urkunden der Gegenpäpste, S. 259, Nr. V17</persName>
             </respStmt>
             <respStmt>
                <resp when="2025">Encoding:</resp>
-               <persName>SG</persName><persName>[Name der Überarbeiter*in/Auszeichnung, in der Regel identisch wie Name der Bearbeiter*in]</persName>
-            </respStmt>
+               <persName>SG, JB</persName><persName/></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -21,7 +21,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+            <bibl type="jaffe">-</bibl>
             <bibl type="Schoenfeld">Schönfeld, Urkunden der Gegenpäpste, S. 259, Nr. V17</bibl>
             <diploDesc>
                <p>Echtheitskriterium: <authen type="formula" n="deperditum">
@@ -31,13 +31,13 @@
                <issued><placeName>Pavia</placeName><date type="issued" notBefore="1160-02-27" notAfter="1160-03-27">(1160, Februar ex.–vor März 27)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p><legalActor type="issuer">Viktor IV.</legalActor></p>
                <p>
-                  <legalActor type="recipient">[Recipient 1]</legalActor></p>
+                  <legalActor type="recipient">[??Recipient 1??]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &gt; Litterae cum serico]</objectType></p>
+               <p><objectType ref="na">Papsturkunde, Deperditum</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
-               <p><objectType ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &gt; Beauftragung durch…]</objectType></p>
+               <p><objectType ref="na">&amp;lt;refPoint1&amp;gt; Kernereignis, Konzil von Pavia (1160) &amp;lt;refPoint1&amp;gt;</objectType></p><p><objectType ref="na">&amp;lt;refPoint2&amp;gt; Viktor IV., Urheber &amp;lt;refPoint2&amp;gt;</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
@@ -56,7 +56,7 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Viktor IV . entsendet Legaten, um die auf dem Konzil von Pavia gefassten Beschlüsse publik zu machen, so zum Beispiel Bischof Hermann von Verden nach Spanien und Bischof Daniel von Prag nach Ungarn.<list>
+            <p>Viktor IV. entsendet Legaten - beispielsweise Rainald von Dassel, Erzbischof von Köln, nach Frankreich, Hermann, Bischof von Verden, nach Spanien und Daniel, Bischof von Prag, nach Ungarn -, um die auf dem Konzil von Pavia gefassten Beschlüsse bekannt zu machen.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
@@ -80,7 +80,7 @@
             <div>
                <listBibl>
                   <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">Erwähnt in Ottonis et Rahewini gesta Friderici I. imperatoris, lib. IV , c. 82, ed. Schmale, S. 702 – 704;</bibl>
+                  <bibl type="msCopy">Deperditum, erwähnt in Ottonis et Rahewini Gesta Friderici I. imperatoris, ed. Waitz/Simson (MGH SS rer. Germ. 46), lib. IV, cap. 82, S. 339 und cap. 84, S. 341.</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
             </div>
@@ -88,15 +88,15 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
-               <bibl>[Quelle 2]</bibl>
+               <bibl>Ottonis et Rahewini Gesta Friderici I. imperatoris, ed. Waitz/Simson (MGH SS rer. Germ. 46), lib. IV, cap. 82, S. 339 und cap. 84, S. 341.</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="editions">
@@ -110,15 +110,14 @@
             <head>Regesten</head>
             <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>[Regest 1]</bibl>
-               <bibl>GP V/1, S. 217, Nr.*41; GP V/3, S. 100, Nr. *91.</bibl>
+               <bibl>JL -</bibl>
+               <bibl>Germ. Pont. 5,1, S. 217, Nr.*41; Germ. Pont. 5,3, S. 100, Nr. *91.</bibl>
             </listBibl>
          </div>
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>[Text und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
- Kommentar]</p>
+               <p> <diploPart type="rota"/><diploDesc/>Beim vorliegenden Stück handelt es sich um ein Deperditum, das nur aus einem Vermerk in den Gesta Friderici I. imperatoris erschlossen werden kann.</p>
             </diploDesc>
          </div>
          <div type="commentary">
@@ -129,14 +128,12 @@
          <div type="bibliography">
             <head>Bibliographie</head>
             <listBibl>
-               <bibl>[Weitere Referenzen als listBibl]</bibl>
+               <bibl>Vgl. Ohnsorge, Päpstliche und gegenpäpstliche Legaten, S. 7-8.</bibl>
             </listBibl>
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter"
-               lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt
-               werden]</p>
+            <p>Wer muss hier als Empfänger angegeben werden?</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>

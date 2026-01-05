@@ -1,17 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="fe_schoenfeld">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI source="fe_schoenfeld" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>fe_00012</title>
             <respStmt>
-               <resp>Die Formierung Europas</resp>
-               <persName>[Name der Bearbeiter*in]</persName>
+               <resp>Die Formierung Europas</resp><persName>Schönfeld, Urkunden der Gegenpäpste, S. 258, Nr. V12</persName>
             </respStmt>
             <respStmt>
                <resp when="2025">Encoding:</resp>
-               <persName>SG</persName><persName>[Name der Überarbeiter*in/Auszeichnung, in der Regel identisch wie Name der Bearbeiter*in]</persName>
+               <persName>SG, JB</persName><persName/>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -31,13 +32,12 @@
                <issued><placeName>Vetralla</placeName><date type="issued" notBefore="1159-12-05" notAfter="1159-12-05">(1159), Dezember 5</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Issuer]</legalActor></p>
-               <p>
-                  <legalActor type="recipient">[Recipient 1]</legalActor></p>
+               <p><legalActor type="issuer">Viktor IV.</legalActor></p>
+               <p><legalActor type="recipient">Heinrich, Abt des Klosters Lorsch</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &gt; Litterae cum serico]</objectType></p>
+               <p><objectType ref="na">Papsturkunde, Litterae (unbestimmt)</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
-               <p><objectType ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &gt; Beauftragung durch…]</objectType></p>
+               <p><objectType ref="na">&amp;lt;refPoint1&amp;gt; Kernereignis, Konzil von Pavia (1160) &amp;lt;refPoint1&amp;gt;</objectType></p><p><objectType ref="na">&amp;lt;refPoint2&amp;gt; Viktor IV., Urheber &amp;lt;refPoint2&amp;gt;</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
@@ -56,15 +56,14 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Viktor IV . kündigt dem Abt des Klosters Lorsch, Heinrich, an, dass die Bischöfe Hermann von Verden und Daniel von Prag ihn über seine Pläne informieren werden, und lobt ihn für seine Bemühungen um die Einberufung des Konzils zu Pavia durch Friedrich I.<list>
-                  <item>[Listeneintrag 1]</item>
+            <p>Viktor IV. dankt dem Abt des Benediktinerklosters Lorsch (D. Mainz), Heinrich, für seine Hingabe und Standhaftigkeit sowie für seine Bemühungen um die Einberufung eines Konzils, das Kaiser Friedrich I. einberufen hat, um die Einheit der Kirche wiederherzustellen und die schismatische Häresie auszurotten (<diploPart>ad restaurandam ecclesie unitatem et heresim scismaticam resecandam</diploPart>). <list>
+                  <item>Als Gegenleistung verspricht Viktor IV., die Lorscher Kirche zu lieben und ehren, und die Unterstützung durch Heinrich mit Wohltaten zu belohnen, durch die auch andere zu einem ähnlichen Verhalten angeregt werden sollen.</item><item>Hermann, Bischof von Verden, und Daniel, Bischof von Prag werden Heinrich über die päpstlichen Pläne genauer unterrichten.</item>
                </list></p>
          </div>
 
          <div>
             <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">Super devotione et</diploPart>
-         </div>
+            <diploPart type="incipit" xml:lang="lat">Super devotione et constantia quam</diploPart></div>
          <div>
             <head>Subscriptiones:</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
@@ -72,15 +71,14 @@
                </list></diploPart>
          </div>
          <div>
-            <head>Datatio:</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+            <head>Datatio:</head><diploPart type="datatio">Data Vetrallae Nonis Decembris.</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">Kopial;</bibl>
+                  <bibl type="original">-</bibl>
+                  <bibl type="msCopy">Kopialüberlieferung: inseriert in Chronicon Laureshamense, ed. Pertz (MGH SS 21), S. 445</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
             </div>
@@ -88,22 +86,22 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
-               <bibl>[Quelle 2]</bibl>
+               <bibl>Chronicon Laureshamense, ed. Pertz (MGH SS 21), S. 445</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
                <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 258, Nr. V12</bibl>
-               <bibl>Freher: Germanicarum, S. 94; [ältere Drucke vgl. GP ]; Chronicon Laureshamense, ed. Pertz, S. 445; Glöckner: Codex, Bd. I, S. 439, Nr. 155;</bibl>
+               <bibl>Freher, Germanicarum, S. 94</bibl><bibl>Glöckner, Codex Laureshamensis I, S. 439, Nr. 155</bibl>
             </listBibl>
          </div>
          <div type="regesta">
@@ -111,14 +109,13 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14428</bibl>
-               <bibl>GP IV, S. 234, Nr. 21; GP V/1, S. 216, Nr. 38 [vgl. GP V/3, S. 99, Nr. *88]; Erben: Regesta, S. 133, Nr. 301; Friedrich: Codex diplomaticus, S. 192, Nr. 203; Mayr: Der Pontifikat, S. 89, Nr. 6; Schwarz: Herrscher- und Reichstitel, S. 330, Nr. 97.</bibl>
+               <bibl>Germ. Pont. 4, S. 234, Nr. 21; Germ. Pont. 5,1, S. 216, Nr. 38; Germ. Pont. 5,3, S. 99, Nr. *88</bibl><bibl>Erben, Regesta, S. 133, Nr. 301</bibl><bibl>Mayr, Pontifikat, S. 89, Nr. 6</bibl><bibl>Schwarz, Herrscher- und Reichstitel, S. 330, Nr. 97</bibl>
             </listBibl>
          </div>
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>[Text und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
- Kommentar]</p>
+               <p>Das vorliegende Stück ist in das Chronicon Laureshamensis inseriert. Datiert nach dem Itinerar Viktors IV. <diploPart type="rota">Rota nicht erhalten.</diploPart></p>
             </diploDesc>
          </div>
          <div type="commentary">

@@ -1,17 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="fe_schoenfeld">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI source="fe_schoenfeld" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>fe_00016</title>
             <respStmt>
-               <resp>Die Formierung Europas</resp>
-               <persName>[Name der Bearbeiter*in]</persName>
+               <resp>Die Formierung Europas</resp><persName>Schönfeld, Urkunden der Gegenpäpste, S. 259, Nr. V16</persName>
             </respStmt>
             <respStmt>
                <resp when="2025">Encoding:</resp>
-               <persName>SG</persName><persName>[Name der Überarbeiter*in/Auszeichnung, in der Regel identisch wie Name der Bearbeiter*in]</persName>
+               <persName>SG, JB</persName><persName/>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -31,13 +32,12 @@
                <issued><placeName>Pavia</placeName><date type="issued" notBefore="1160-02-13" notAfter="1160-02-17">1160 (Februar 13–17)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Issuer]</legalActor></p>
-               <p>
-                  <legalActor type="recipient">[Recipient 1]</legalActor></p>
+               <p><legalActor type="issuer">Viktor IV.</legalActor></p>
+               <p><legalActor type="recipient">Hartwig, Erzbischof von Hamburg-Bremen</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &gt; Litterae cum serico]</objectType></p>
+               <p><objectType ref="na">Papsturkunde, feierliches Privileg</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
-               <p><objectType ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &gt; Beauftragung durch…]</objectType></p>
+               <p><objectType ref="na">&amp;lt;refPoint1&amp;gt; Juristisches, Rechtsbestätigungen &amp;lt;refPoint1&amp;gt;</objectType></p><p><objectType ref="na">&amp;lt;refPoint2&amp;gt; Viktor IV., Urheber &amp;lt;refPoint2&amp;gt;</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
@@ -56,15 +56,14 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Viktor IV . bestätigt dem Erzbischof von Hamburg-Bremen, Hartwig, die Rechte des hamburgischen Erzstiftes über die Abteien zu Harsefeld und Rastede. Zudem bestätigt er die der Hamburger Kirche verliehenen Privilegien und die Oberhoheit über die Bistümer Oldenburg, Mecklenburg und Ratzeburg.<list>
+            <p>Viktor IV. bestätigt Hartwig, dem Erzbischof von Hamburg-Bremen, die Oberhoheit über die drei slavischen Bistümer Oldenburg, Mecklenburg und Ratzeburg sowie die der Kirche von Hamburg-Bremen verliehenen Privilegien seiner Vorgänger. Außerdem verfügt er die Übertragung der Benediktinerabtei Harsefeld (D. Hamburg-Bremen) gegen eine jährliche Zahlung von drei Golddenaren (<diploPart>III. bisantum</diploPart>) und die erneute Übertragung der unter Hadrian IV. ungerecht entzogenen Benediktinerabtei Rastede (D. Hamburg-Bremen).<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
 
          <div>
             <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">Quociens illud a</diploPart>
-         </div>
+            <diploPart type="incipit" xml:lang="lat">Quociens illud a nobis petitur</diploPart></div>
          <div>
             <head>Subscriptiones:</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
@@ -72,15 +71,14 @@
                </list></diploPart>
          </div>
          <div>
-            <head>Datatio:</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+            <head>Datatio:</head><diploPart type="datatio">Datum Papiae per manum Godfridi, sanctae Romanae ecclesiae notarii, anno dominicae incarnationis millesimo centesimo sexagesimo, indictione septima.</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
                   <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">Kopial [vgl. GP VI , S. 80, Nr. 148 und Mayr];</bibl>
+                  <bibl type="msCopy">Kopial: zur kopialen Überlieferung vgl. Mayr, Pontifikat, S. 92; Dolle, PU Niedersachsen und Bremen, S. 218.</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
             </div>
@@ -88,22 +86,22 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
-               <bibl>[Quelle 2]</bibl>
+               <bibl>-</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 259, Nr. V16</bibl>
-               <bibl>[ältere Drucke vgl. GP ]; Staphorst: Historia, Bd. I, S. 569; Lappenberg: Hamburgisches Urkundenbuch, Bd. I, S. 206, Nr. 221; Capelle: Johannis Rode, S. 204;</bibl>
+               <bibl/><bibl>Dolle, PU Niedersachsen und Bremen, S. 218-219, Nr. 99</bibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 259, Nr. V16</bibl>
+               <bibl>UB Hamburg I, S. 206, Nr. 221</bibl>
             </listBibl>
          </div>
          <div type="regesta">
@@ -111,14 +109,13 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14433</bibl>
-               <bibl>GP VI, S. 80, Nr. 148; ibid., S. 118, Nr. 5; ibid., S. 126, Nr. 5; ibid., S. 143, Nr. 8; ibid., S. 161, Nr. 4; ibid., S. 172, Nr. 3; May: Regesten der Erzbischöfe von Bremen, Bd. I, S. 142, Nr. 545; Mayr: Der Pontifikat, S. 91, Nr. 11.</bibl>
+               <bibl>Germ. Pont. 6, S. 80-81, Nr. 148; S. 118, Nr. 5; S. 126, Nr. 5; S. 143, Nr. 8; S. 161, Nr. 4; S. 172, Nr. 3</bibl><bibl>May, Regesten der Erzbischöfe von Bremen, Bd. I, S. 142, Nr. 545</bibl><bibl>Mayr, Pontifikat, S. 91, Nr. 11.</bibl>
             </listBibl>
          </div>
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>[Text und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
- Kommentar]</p>
+               <p> <diploPart type="rota"/>Die Eingrenzung der Datierung auf den 13. bis 17. Februar 1160 erfolgt über das Itinerar Viktors IV. Beim Jahr 1160 müsste die 8. Indiktion stehen (vgl. Mayr, Pontifikat, S. 92; Dolle, PU Niedersachsen und Bremen, S. 218).</p>
             </diploDesc>
          </div>
          <div type="commentary">
@@ -129,7 +126,7 @@
          <div type="bibliography">
             <head>Bibliographie</head>
             <listBibl>
-               <bibl>[Weitere Referenzen als listBibl]</bibl>
+               <bibl>Vgl. Seegrün, Erzbistum Hamburg, S. 76-77; Jordan, Bistumsgründungen, S. 81-91.</bibl>
             </listBibl>
          </div>
          <div type="note">
