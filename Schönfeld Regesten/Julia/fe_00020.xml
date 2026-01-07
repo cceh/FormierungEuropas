@@ -72,13 +72,13 @@
          </div>
          <div>
             <head>Datatio:</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+            <diploPart type="datatio">[Data Papie, XIV. kal . marciiDiplomatische Transkription der Datierungszeile]</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
+                  <bibl type="original">Original: -</bibl>
                   <bibl type="msCopy">Kopial: Meuse, Archives départementales, 4 H 5 abbaye de Saint-Mihiel, p . 99; Paris, BNF, lat. 12867, fol. 149 (vgl. Mayr, Pontifikat, S. 91, Nr. 9</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
