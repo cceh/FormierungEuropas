@@ -71,15 +71,14 @@
                </list></diploPart>
          </div>
          <div>
-            <head>Datatio:</head>
-            <diploPart type="datatio">[Datum Papie, 3. Kalendas Diplomatische Transkription der Datierungszeile]</diploPart>
+            <head>Datatio:</head><diploPart type="datatio">Datum Papie, 3. Kalendas Martii.</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">Kopial;</bibl>
+                  <bibl type="original">Original: -</bibl>
+                  <bibl type="msCopy">Kopial: ;</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
             </div>
