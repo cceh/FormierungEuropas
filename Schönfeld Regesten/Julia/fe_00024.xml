@@ -79,8 +79,8 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">Kopial: Codex diplomaticus ecclesie Basiliensis, fol. 7 (14. Jh.) (vgl. Mayr, Pontifikat, S. 94)GP und Brackmann: Papsturkunden der Schweiz, S. 430];</bibl>
+                  <bibl type="original">Original: -</bibl>
+                  <bibl type="msCopy">Kopial: Codex diplomaticus ecclesie Basiliensis, fol. 7 (14. Jh.) (vgl. Mayr, Pontifikat, S. 94)</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
             </div>
@@ -88,8 +88,8 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="historiography">
