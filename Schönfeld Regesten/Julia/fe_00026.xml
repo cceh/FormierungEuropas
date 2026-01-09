@@ -94,8 +94,8 @@
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
-               <bibl>[Quelle 2]</bibl>
+               <bibl>-</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="editions">
@@ -110,7 +110,7 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14438</bibl>
-               <bibl>GP V/2, S. 462, Nr. 4; Dobenecker: Regesta diplomatica, Bd. II, S. 37, Nr. 197; Lerche: Studien, S. 67, Nr. 11; Mayr: Der Pontifikat, S. 95, Nr. 17; Bischoff: Urkundenformate im Mittelalter, S. 140; Krafft: Bene Valete, S. 233; Abb. dig.: PH LBA, Nr. 8060; Abb. ana.: Lohrmann: Formen, Abb. 2.</bibl>
+               <bibl>Germ. Pont. 5,2, S. 462, Nr. 4</bibl><bibl>; Dobenecker: Regesta diplomatica, Bd. II, S. 37, Nr. 197; Lerche: Studien, S. 67, Nr. 11; Mayr: Der Pontifikat, S. 95, Nr. 17; Bischoff: Urkundenformate im Mittelalter, S. 140; Krafft: Bene Valete, S. 233; Abb. dig.: PH LBA, Nr. 8060; Abb. ana.: Lohrmann: Formen, Abb. 2.</bibl>
             </listBibl>
          </div>
          <div>
