@@ -35,7 +35,7 @@
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
                <p><legalActor type="recipient">Heinrich, Abt des Klosters Lorsch</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType ref="na">Papsturkunde, Litterae (unbestimmt)</objectType></p>
+               <p><objectType ref="na">Papsturkunde, Litterae (cum serico)</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
                <p><objectType ref="na">&amp;lt;refPoint1&amp;gt; Juristisches, neues Recht &amp;lt;refPoint1&amp;gt;</objectType></p><p><objectType ref="na">&amp;lt;refPoint2&amp;gt; Viktor IV., Urheber &amp;lt;refPoint2&amp;gt;</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
@@ -115,7 +115,7 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p><diploPart type="rota"/>Die Jahresangabe ist nach dem Itinerar Viktors IV. erschlossen. Im Codex Laureshamensis und bei Jaffé ist das vorliegende Stück fälschlicherweise auf den 27. Februar 1160 datiert (vgl. RI IV,2,2, Nr. 847).</p>
+               <p><diploPart type="rota"/>Die Jahresangabe ist nach dem Itinerar Viktors IV. erschlossen. Im Codex Laureshamensis und bei Jaffé ist das vorliegende Stück fälschlicherweise auf den 27. Februar 1160 datiert (vgl. RI IV,2,2, Nr. 847). Aufgrund der fehlenden Originalüberlieferung ist nur aus Inhalt und Wortlaut (</p>
             </diploDesc>
          </div>
          <div type="commentary">
