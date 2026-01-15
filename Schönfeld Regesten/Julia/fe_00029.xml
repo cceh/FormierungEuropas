@@ -32,9 +32,8 @@
                <issued><placeName>Parma</placeName><date type="issued" notBefore="1160-06-24" notAfter="1160-06-24">(1160), Juni 24</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Issuer]</legalActor></p>
-               <p>
-                  <legalActor type="recipient">[Recipient 1]</legalActor></p>
+               <p><legalActor type="issuer">Viktor IV.</legalActor></p>
+               <p><legalActor type="recipient">Ludwig VII., König von Frankreich</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &amp;gt; Litterae cum serico]</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
