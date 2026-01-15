@@ -85,21 +85,21 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
-               <bibl>[Quelle 2]</bibl>
+               <bibl>-</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 267, Nr. V29</bibl>
+               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 267, Nr. V29</bibl><bibl/>
                <bibl>Bouquet: Recueil, Bd. XVI , S. 24, Nr. 82; Mansi: Sacrorum conciliorum nova, Bd. XXI , S. 977; Duchesne: Historiae Francorum, Bd. IV , S. 582;</bibl>
             </listBibl>
          </div>
