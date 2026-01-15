@@ -117,7 +117,7 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>[Text und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
+               <p>Aufgrund der feh[Text und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
  Kommentar]</p>
             </diploDesc>
          </div>
@@ -134,9 +134,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>unsicher wie unter &amp;lt;refPoint1&amp;gt; zu führen: Kernereignis, Doppelwahl? oder Anhängergewinnung?[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter"
-               lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt
-               werden]</p>
+            <p>unsicher wie unter &amp;lt;refPoint1&amp;gt; zu führen: Kernereignis, Doppelwahl? oder Anhängergewinnung? Litterae cum serico oder eher Litterae cum filo canapis (eigentlich ziemlich klarer befehlender/mahnender Tonfall, aber keine Signalwörter)</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
