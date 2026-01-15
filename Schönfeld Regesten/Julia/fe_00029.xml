@@ -37,7 +37,7 @@
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">Papsturkunde, Litterae (cum serico)</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
-               <p><objectType ref="na">&amp;lt;refPoint1&amp;gt; Administration, ?? &amp;lt;refPoint1&amp;gt;</objectType></p><p><objectType ref="na">&amp;lt;refPoint2&amp;gt; Viktor IV., Urheber &amp;lt;refPoint2&amp;gt;</objectType></p>
+               <p><objectType ref="na">&amp;lt;refPoint1&amp;gt; Kernereignis, Doppelwahl (1159) &amp;lt;refPoint1&amp;gt;</objectType></p><p><objectType ref="na">&amp;lt;refPoint2&amp;gt; Viktor IV., Urheber &amp;lt;refPoint2&amp;gt;</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
@@ -134,7 +134,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>unsicher, welcher &amp;lt;refPoint1&amp;gt; zu wählen ist??</p>
+            <p>unsicher, welcher &amp;lt;refPoint1&amp;gt; zu wählen ist?? Kernereignis, Doppelwahl oder Anhä</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
