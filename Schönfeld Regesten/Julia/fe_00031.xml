@@ -37,7 +37,7 @@
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">Papsturkunde, Rundschreiben </objectType></p>
                <!-- Referenz aus Liste entnehmen -->
-               <p><objectType ref="na">&amp;lt;refPoint1&amp;gt; Kerneignis, Doppelwahl (115&amp;lt;refPoint1&amp;gt;</objectType></p><p><objectType ref="na">&amp;lt;refPoint2&amp;gt; Viktor IV., Urheber &amp;lt;refPoint2&amp;gt;</objectType></p>
+               <p><objectType ref="na">&amp;lt;refPoint1&amp;gt; Kerneignis, Doppelwahl (1159) &amp;lt;refPoint1&amp;gt;</objectType></p><p><objectType ref="na">&amp;lt;refPoint2&amp;gt; Viktor IV., Urheber &amp;lt;refPoint2&amp;gt;</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
@@ -63,8 +63,7 @@
 
          <div>
             <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">Scismaticorum sectas a</diploPart>
-         </div>
+            <diploPart type="incipit" xml:lang="lat">Scismaticorum sectas a tramite iustitie</diploPart></div>
          <div>
             <head>Subscriptiones:</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
