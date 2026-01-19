@@ -8,8 +8,7 @@
          <titleStmt>
             <title>fe_00032</title>
             <respStmt>
-               <resp>Die Formierung Europas</resp>
-               <persName>[Schönfeld, Urkunden der Gegenpäpste, S. 268, Nr. V32</persName>
+               <resp>Die Formierung Europas</resp><persName>Schönfeld, Urkunden der Gegenpäpste, S. 268, Nr. V32</persName>
             </respStmt>
             <respStmt>
                <resp when="2025">Encoding:</resp>
@@ -33,7 +32,7 @@
                <issued><placeName>Pavia</placeName><date type="issued" notBefore="1160-11-19" notAfter="1160-11-19">1160, November 19</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p><legalActor type="issuer">Viktor IV.</legalActor></p>
                <p>
                   <legalActor type="recipient">[Recipient 1]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
