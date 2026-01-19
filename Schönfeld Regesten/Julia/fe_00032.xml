@@ -71,8 +71,7 @@
                </list></diploPart>
          </div>
          <div>
-            <head>Datatio:</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+            <head>Datatio:</head><diploPart type="datatio">Datum <placeName>Papie</placeName> per manum <persName>magistri Gerardi sancte Romane ecclesie subdiaconi</persName>, XIII. kal. decembris, indictione VIIII, incarnationis dominice anno MCLX, pontificatus vero dompni <persName>Victoris pape IIII</persName> anno II.</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
