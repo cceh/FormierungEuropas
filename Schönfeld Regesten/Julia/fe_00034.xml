@@ -64,12 +64,11 @@
 
          <div>
             <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">Commisse nobis apostolice</diploPart>
-         </div>
+            <diploPart type="incipit" xml:lang="lat">Commisse nobis apostolice sedis auctoritas</diploPart></div>
          <div>
             <head>Subscriptiones:</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>Ego Victor catholicę ecclesię episcopus subscripsi. Ego Iohannes presbiter cardinalis tituli sanctorum Silvestri et Martini subscripsi. Ego Iohannes presbiter cardinalis tituli Pastoris subscripsi. Ego Landus sancti Angeli diaconus cardinalis subscripsi. Ego Gerardus sancte Romane ecclesie diaconus cardinalis subscripsi. Ego Aicardus sanctę Romanę ecclesię diaconus cardinalis subscripsi.</item>
+                  <item>Ego Victor catholicę ecclesię episcopus subscripsi. </item><item>Ego Iohannes presbiter cardinalis tituli sanctorum Silvestri et Martini subscripsi. </item><item>Ego Iohannes presbiter cardinalis tituli Pastoris subscripsi. </item><item>Ego Landus sancti Angeli diaconus cardinalis subscripsi. Ego Gerardus sancte Romane ecclesie diaconus cardinalis subscripsi. Ego Aicardus sanctę Romanę ecclesię diaconus cardinalis subscripsi.</item>
                </list></diploPart>
          </div>
          <div>
