@@ -32,7 +32,7 @@
                <issued><placeName>[Ausstellungsort]</placeName><date type="issued" notBefore="1161-01-01" notAfter="1161-12-31">(1161)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p><legalActor type="issuer">Viktor IV.</legalActor></p>
                <p>
                   <legalActor type="recipient">[Recipient 1]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
