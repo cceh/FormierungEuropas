@@ -37,7 +37,7 @@
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">Papsturkunde, Litterae cum filo canapis</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
-               <p><objectType ref="na">&amp;lt;refPoint1&amp;gt; &amp;lt;refPointBezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &amp;gt; Beauftragung durch…]</objectType></p>
+               <p><objectType ref="na">&amp;lt;refPoint1&amp;gt; &amp;lt;refPoint1&amp;gt;</objectType></p><p><objectType ref="na">&amp;lt;refPoint2&amp;gt; Viktor IV., Urheber &amp;lt;refPoint2&amp;gt;</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
@@ -56,7 +56,7 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Viktor IV . fordert den Erzbischof von Salzburg, Eberhard, und seine Suffragan- bischöfe, Äbte, Pröpste und Dekane zur Teilnahme am Konzil von Cremona auf und droht, dass er sie im Falle ihres Nichterscheinens nicht mehr als Glieder der Kirche ansehen könne.<list>
+            <p>Viktor IV. fordert den Erzbischof von Salzburg, Eberhard, und seine Suffragan- bischöfe, Äbte, Pröpste und Dekane zur Teilnahme am Konzil von Cremona auf und droht, dass er sie im Falle ihres Nichterscheinens nicht mehr als Glieder der Kirche ansehen könne.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
