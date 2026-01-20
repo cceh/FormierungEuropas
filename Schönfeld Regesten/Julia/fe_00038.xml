@@ -88,8 +88,8 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="historiography">
@@ -103,7 +103,7 @@
             <head>Editionen</head>
             <listBibl>
                <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 270–271, Nr. V38</bibl>
-               <bibl>Jaffé, Regesta pontificum Romanorum, S. 421 f.; </bibl><bibl>MGH Const. I, S. 579-580, Nr. 403</bibl>
+               <bibl>MGH Const. I, S. 579-580, Nr. 403</bibl><bibl>Jaffé, Regesta pontificum Romanorum, S. 421 f.; </bibl><bibl>MGH Const. I, S. 579-580, Nr. 403</bibl>
             </listBibl>
          </div>
          <div type="regesta">
