@@ -31,7 +31,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
-               <p><legalActor type="recipient">Kirche von Lathenan</legalActor></p>
+               <p><legalActor type="recipient">Kanonikerstift Lanthenans</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">Papsturkunde, Deperditum</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
@@ -54,7 +54,7 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Viktor IV. bestätigt dem Kanonikerstift S. Maria und S. r Kirche von Lanthenans sämtliche Rechte.<list>
+            <p>Viktor IV. bestätigt dem Kanonikerstift Lanthenans sämtliche Rechte.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
