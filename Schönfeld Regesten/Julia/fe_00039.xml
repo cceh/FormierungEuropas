@@ -33,7 +33,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV. </legalActor></p>
-               <p><legalActor type="recipient">Benediktinerkloster Einsiedeln</legalActor></p>
+               <p><legalActor type="recipient">Benediktinerkloster Einsiedeln</legalActor></p><p><legalActor type="recipient">Rudolf, Abt des Benediktinerklosters Einsiedeln</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">Papsturkunde, feierliches Privileg</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
