@@ -78,7 +78,7 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">Original: Köln, Stadtarchiv, Urkunden der Abtei Deutz 3/8a</bibl>
+                  <bibl type="original">Original: Köln, Stadtarchiv, Urkunden der Abtei Deutz 3/8a. Digitalisat: https://urkundenrepositorium.uni-marburg.de/entities/urkunde/27048a92-2269-4f38-8c5a-6e7aabd27d3b</bibl>
                   <bibl type="msCopy">[handschriftliche Kopie]</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
@@ -87,22 +87,22 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
-               <bibl>[Quelle 2]</bibl>
+               <bibl>-</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
                <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 272–273, Nr. V40</bibl>
-               <bibl>Pflugk-Harttung: Acta, Bd. I, S. 286, Nr. 322;</bibl>
+               <bibl>Pflugk-Harttung, : Acta, Bd. I, S. 286, Nr. 322;</bibl>
             </listBibl>
          </div>
          <div type="regesta">
