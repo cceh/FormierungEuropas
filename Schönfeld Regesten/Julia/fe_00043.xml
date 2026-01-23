@@ -32,7 +32,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
-               <p><legalActor type="recipient">Klerus von Cremona</legalActor></p>
+               <p><legalActor type="recipient">Kirche San Leonardo bei Cremona</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">Papsturkunde, Litterae (cum filo canapis)</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
@@ -55,7 +55,7 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Viktor IV. verleiht der Kirche San Leonardo bei Cremona, die durch die eine Adelige namens Scandolara und andere religiöse Frauen errichtet und mit einem Hospital zur Aufnahme der Armen ausgestattet wurde. Diese Kirche hatte Viktor IV. am 14. Mai geweiht.  Indulgenz.<list>
+            <p>Viktor IV. verleiht der Kirche San Leonardo bei Cremona, die durch die eine Adelige namens Scandolara und andere religiöse Frauen errichtet und mit einem Hospital zur Aufnahme der Armen ausgestattet wurde, Indulgenz. Diese Kirche hatte Viktor IV. am 14. Mai geweiht.  Indulgenz.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
