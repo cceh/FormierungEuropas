@@ -62,8 +62,7 @@
 
          <div>
             <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">Caritati vestrę notum</diploPart>
-         </div>
+            <diploPart type="incipit" xml:lang="lat">Caritati vestrę notum fieri volumus</diploPart></div>
          <div>
             <head>Subscriptiones:</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
@@ -72,7 +71,7 @@
          </div>
          <div>
             <head>Datatio:</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+            <diploPart type="datatio">[Das untere Ende ist verstümmelttische Transkription der Datierungszeile]</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
