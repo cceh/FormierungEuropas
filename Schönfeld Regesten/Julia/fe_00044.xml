@@ -77,7 +77,7 @@
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
-               <listBibl><bibl type="original">Original: -</bibl><bibl type="msCopy">Deperditum, erwähnt in den Gesta abbatum Trudonensium, ed. Koepke (MGH SS 10), S. 348;</bibl><bibl type="print">[Druck]</bibl></listBibl>
+               <listBibl><bibl type="original">Original: -</bibl><bibl type="msCopy">Deperditum, erwähnt in den Gesta abbatum Trudonensium, ed. Koepke (MGH SS 10), S. 348, cap. 8</bibl><bibl type="print">[Druck]</bibl></listBibl>
             </div>
          </div>
          <div type="decretals">
@@ -90,8 +90,8 @@
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
-               <bibl>[Quelle 2]</bibl>
+               <bibl>-</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="editions">
@@ -106,7 +106,7 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14449</bibl>
-               <bibl>Mayr: Der Pontifikat, S. 108, Nr. 31.</bibl>
+               <bibl>Mayr, Pontifikat, S. 108, Nr. 31</bibl>
             </listBibl>
          </div>
          <div><head>Diplomatischer Kommentar</head><diploDesc>
