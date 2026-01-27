@@ -33,10 +33,9 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
-               <p>
-                  <legalActor type="recipient">[Recipient 1]</legalActor></p>
+               <p><legalActor type="recipient">Wiric, Abt des Klosters St. Trudo</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &amp;gt; Litterae cum serico]</objectType></p>
+               <p><objectType ref="na">Papsturkunde, Deperditum (Litterae cum serico]</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
                <p><objectType ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &amp;gt; Beauftragung durch…]</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
@@ -79,11 +78,7 @@
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
-               <listBibl>
-                  <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">Deperditum, erwähnt in den Gesta abbatum Trudonensium, ed. Koepke, S. 348;</bibl>
-                  <bibl type="print">[Druck]</bibl>
-               </listBibl>
+               <listBibl><bibl type="original">[Original]</bibl><bibl type="msCopy">Deperditum, erwähnt in den Gesta abbatum Trudonensium, ed. Koepke, S. 348;</bibl><bibl type="print">[Druck]</bibl></listBibl>
             </div>
          </div>
          <div type="decretals">
@@ -115,13 +110,10 @@
                <bibl>Mayr: Der Pontifikat, S. 108, Nr. 31.</bibl>
             </listBibl>
          </div>
-         <div>
-            <head>Diplomatischer Kommentar</head>
-            <diploDesc>
+         <div><head>Diplomatischer Kommentar</head><diploDesc>
                <p>[Text und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
  Kommentar]</p>
-            </diploDesc>
-         </div>
+            </diploDesc></div>
          <div type="commentary">
             <head>Sachkommentar</head>
             <p>[Inhalt des Sachkommentars. Bibliographische Referenzen werden als Bibliographische
