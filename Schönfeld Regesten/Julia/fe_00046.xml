@@ -99,7 +99,7 @@
             <head>Editionen</head>
             <listBibl>
                <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 277, Nr. V46</bibl>
-               <bibl>Piot: Cartulaire, Bd. I, S. 97, Nr. 74;</bibl>
+               <bibl>Piot, Cartulaire, Bd. I, S. 97, Nr. 74</bibl>
             </listBibl>
          </div>
          <div type="regesta">
@@ -107,7 +107,7 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14450</bibl>
-               <bibl>Mayr: Der Pontifikat, S. 109, Nr. 33.</bibl>
+               <bibl>Mayr, Pontifikat, S. 109, Nr. 33</bibl>
             </listBibl>
          </div>
          <div>
@@ -130,8 +130,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>Archiv noch bezüglich der Archivsignatur anschreiben: Brüssel, Algemeen Rijksarchief (Archivsignatur noch recherchieren!!agt
-               werden]</p>
+            <p>Archiv noch bezüglich der Archivsignatur anschreiben: Brüssel, Algemeen Rijksarchief (Archivsignatur noch recherchieren!!</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
