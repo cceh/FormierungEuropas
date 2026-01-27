@@ -72,13 +72,12 @@
                </list></diploPart>
          </div>
          <div>
-            <head>Datatio:</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+            <head>Datatio:</head><diploPart type="datatio">-</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
-               <listBibl><bibl type="original">[Original]</bibl><bibl type="msCopy">Deperditum, erwähnt in den Gesta abbatum Trudonensium, ed. Koepke, S. 348;</bibl><bibl type="print">[Druck]</bibl></listBibl>
+               <listBibl><bibl type="original">Original: -</bibl><bibl type="msCopy">Deperditum, erwähnt in den Gesta abbatum Trudonensium, ed. Koepke (MGH SS 10), S. 348;</bibl><bibl type="print">[Druck]</bibl></listBibl>
             </div>
          </div>
          <div type="decretals">
