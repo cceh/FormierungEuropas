@@ -37,7 +37,7 @@
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">Papsturkunde, feierliches Privileg</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
-               <p><objectType ref="na">&amp;lt;refPoint1&amp;gt; Juristisches, Rechtsbestätigungen &amp;lt;refPoint1&amp;gt;</objectType></p><p><objectType ref="na">&amp;lt;refPoint2&amp;gt; Viktor IV., Urheber &amp;lt;refPoint2&amp;gt;</objectType></p>
+               <p><objectType ref="na">&amp;lt;refPoint1&amp;gt; Juristisches, Rechtsbestätigungen &amp;lt;refPoint1&amp;gt;</objectType></p><objectType ref="na">&amp;lt;refPoint2&amp;gt; Viktor IV., Urheber &amp;lt;refPoint2&amp;gt;</objectType>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
@@ -121,7 +121,7 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>[<diploDesc>Vic/papa/tor/IIII, Devise: Tu es gloria mea, tu es susceptor meus, tu exaltas caput meum, domine. Bene valete vorhanden. Bulle an rot-grün-weißen Seidenfäden. Aufschrift auf der Aversseite: Vic/tor papa IIII, auf der Reversseite sind die bekannten Köpfe der Apostelfürsten Petrus und Paulus abgebildet</diploDesc>Inhalt des Sachkommentars. Bibliographische Referenzen werden als Bibliographische
+            <p>[<diploDesc/>Inhalt des Sachkommentars. Bibliographische Referenzen werden als Bibliographische
                Angabe getagged.]</p>
          </div>
          <div type="bibliography">
