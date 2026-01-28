@@ -75,7 +75,7 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">Original: Brüssel, Algemeen Rijksarchief (Archivsignatur noch recherchieren);</bibl>
+                  <bibl type="original">Original: Brüssel, Algemeen Rijksarchief, Nr. 72</bibl>
                   <bibl type="msCopy">[handschriftliche Kopie]</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
@@ -129,7 +129,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>Archiv noch bezüglich der Archivsignatur anschreiben: Brüssel, Algemeen Rijksarchief (Archivsignatur noch recherchieren!!</p>
+            <p>Archivsignatur überprüft!</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
