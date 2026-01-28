@@ -72,15 +72,14 @@
                </list></diploPart>
          </div>
          <div>
-            <head>Datatio:</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+            <head>Datatio:</head><diploPart type="datatio">-</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">Deperditum, erwähnt in V 70;</bibl>
+                  <bibl type="original">Original: -</bibl>
+                  <bibl type="msCopy">Deperditum, erwähnt in Germ. Pont. 5,2, S. V 70;</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
             </div>
