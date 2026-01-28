@@ -33,8 +33,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
-               <p>
-                  <legalActor type="recipient">[Gero, Bischof vonRecipient 1]</legalActor></p>
+               <p><legalActor type="recipient">Gero, Bischof von Halberstadt</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">Papsturkunde, Deperditum</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
