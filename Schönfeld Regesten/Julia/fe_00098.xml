@@ -71,15 +71,14 @@
                </list></diploPart>
          </div>
          <div>
-            <head>Datatio:</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+            <head>Datatio:</head><diploPart type="datatio">-</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">Erwähnt in Pacto Anagnino, ed. MGH Const. I, S. 352, Nr. 249, c. 21 und in Pace Veneta, ed. ibid., S. 364, Nr. 260, c. 21 ; [vgl. GP und P *7];</bibl>
+                  <bibl type="original">Original: -</bibl>
+                  <bibl type="msCopy">Deperditum, erwähnt in Pacto Anagnino, ed. MGH Const. I, S. 352, Nr. 249, c. 21 und in Pace Veneta, ed. ibid., S. 364, Nr. 260, c. 21 ; [vgl. GP und P *7];</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
             </div>
