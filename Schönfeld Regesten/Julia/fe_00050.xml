@@ -72,15 +72,14 @@
                </list></diploPart>
          </div>
          <div>
-            <head>Datatio:</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+            <head>Datatio:</head><diploPart type="datatio">-</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">Erwähnt in Ottonis Morenae et continuatorum Historia Friderici, ed. Güterbock, S. 140;</bibl>
+                  <bibl type="original">Original: -</bibl>
+                  <bibl type="msCopy">Deperditum, erwähnt in Ottonis Morenae et continuatorum Historia Friderici, ed. Güterbock (MGH SS rer. Germ. N., S. 140;</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
             </div>
