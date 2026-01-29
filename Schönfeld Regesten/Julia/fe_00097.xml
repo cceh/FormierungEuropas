@@ -31,7 +31,7 @@
                   </authen></p><issued><placeName>-</placeName><date type="issued" notBefore="1166-11-18" notAfter="1166-11-18">(vor 1166, November 18)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">Viktor IV.</legalActor></p>
+               <p><legalActor type="issuer">Paschalis III.</legalActor></p>
                <p><legalActor type="recipient">Hillin, Erzbischof von Trier</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">Papsturkunde, Deperditum</objectType></p>
