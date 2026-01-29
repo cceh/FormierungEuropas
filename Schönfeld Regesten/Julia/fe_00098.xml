@@ -36,7 +36,7 @@
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">Papsturkunde, Deperditum</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
-               <p><objectType ref="na">[&amp;lt;refPoint1&amp;gt; Juristisches, neues Recht/Bischofs &amp;lt;refPoint1&amp;gt;</objectType></p><p><objectType ref="na">&amp;lt;&amp;lt;refPoint2&amp;gt; Paschalis III., Urheber &amp;lt;refPoint2&amp;gt;</objectType></p>
+               <p><objectType ref="na">&amp;lt;refPoint1&amp;gt; Juristisches, neues Recht/Bischofsweihe &amp;lt;refPoint1&amp;gt;</objectType></p><p><objectType ref="na">&amp;lt;&amp;lt;refPoint2&amp;gt; Paschalis III., Urheber &amp;lt;refPoint2&amp;gt;</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
@@ -55,7 +55,7 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Paschalis III . weiht Ludwig zum Bischof von Basel.<list>
+            <p>Paschalis III. weiht Ludwig zum Bischof von Basel.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
