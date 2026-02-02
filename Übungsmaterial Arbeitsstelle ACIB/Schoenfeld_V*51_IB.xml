@@ -9,13 +9,8 @@
             <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel
                FO für Formierung Europas]</title>
             <respStmt>
-               <resp>Datenquelle</resp>
-               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
-            </respStmt>
-            <respStmt>
-               <resp when="2024">Encoding:</resp>
-               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
-            </respStmt>
+               <resp>Datenquelle</resp><persName>Schönfeld, Urkunden der Gegenpäpste, S. 279-280, Nr. V51</persName></respStmt>
+            <respStmt><resp when="2024">Encoding:</resp><persName>Isabel Blumenroth</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -24,7 +19,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+            <bibl type="jaffe">14452</bibl>
             <diploDesc>
                <p>Echtheitskriterium: <authen type="formula" n="na">
                      <p>[*+?-]</p>
