@@ -28,7 +28,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
-               <p><legalActor type="recipient">Gesamtklerus der Kirchenprovinz Trier</legalActor></p>
+               <p><legalActor type="recipient">Klerus der Kirchenprovinz Trier</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
