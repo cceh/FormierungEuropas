@@ -56,14 +56,11 @@
                </list></p>
          </div>
 
-         <div>
-            <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">[Ad matrem et Lorem ipsum dolor sit amet]</diploPart>
-         </div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Ad matrem et caput omnium</diploPart></div>
          <div>
             <head>Subscriptiones:</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+                  <item>-</item>
                </list></diploPart>
          </div>
          <div>
