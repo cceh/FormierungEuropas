@@ -22,7 +22,7 @@
             <bibl type="jaffe">14452</bibl>
             <diploDesc>
                <p>Echtheitskriterium: <authen type="formula" n="na">
-                     <p>[*+?-]</p>
+                     <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
                <issued><placeName>[Ausstellungsort]</placeName><date type="issued">[Ausstellungsdatum]</date>
@@ -32,9 +32,9 @@
                <p>
                   <legalActor type="recipient">[Recipient 1]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">[Papsturkunde]</objectType></p>
+               <p><objectType n="">Papsturkunde</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">[Litterae cum filo canapis]</objectType></p>
+               <p><objectType n="">Litterae cum filo canapis</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
