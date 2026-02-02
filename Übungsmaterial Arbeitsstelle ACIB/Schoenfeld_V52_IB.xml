@@ -8,13 +8,10 @@
          <titleStmt>
             <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel
                FO für Formierung Europas]</title>
-            <respStmt>
-               <resp>Datenquelle</resp>
-               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
-            </respStmt>
+            <respStmt><resp>Datenquelle</resp><persName>Schönfeld, Urkunden der Gegenpäpste, S. 280-281, Nr. V52</persName></respStmt>
             <respStmt>
                <resp when="2024">Encoding:</resp>
-               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+               <persName>[Isabel BlumenrotVorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
