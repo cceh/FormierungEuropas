@@ -99,9 +99,7 @@
          </div>
          <div type="editions">
             <head>Editionen</head>
-            <listBibl>
-               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 318, Nr. P15</bibl>
-               <bibl> –;</bibl>
+            <listBibl><bibl>–;</bibl>
             </listBibl>
          </div>
          <div type="regesta">
@@ -109,7 +107,7 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14493</bibl>
-               <bibl>GP IV, S. 401, Nr. *127; Pflugk-Harttung: Diplomatisch-historische Forschungen, S. 508, Nr. 49; Wehlt: Reichsabtei, S. 309, Anm. 338.</bibl>
+               <bibl>GP IV, S. 401, Nr. *127</bibl><bibl>Pflugk-Harttung: Diplomatisch-historische Forschungen, S. 508, Nr. 49</bibl><bibl>Wehlt: Reichsabtei, S. 309, Anm. 338</bibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 318, Nr. P15</bibl>
             </listBibl>
          </div>
          <div>
