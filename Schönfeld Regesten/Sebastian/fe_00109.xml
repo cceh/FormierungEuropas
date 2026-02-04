@@ -34,7 +34,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Paschalis III.</legalActor></p>
-               <p><legalActor type="recipient">Stablo, Kloster</legalActor></p>
+               <p><legalActor type="recipient">Erlebaldo, Abt des Klosters Stablo</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">Papsturkunde, feierliches Privileg</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
@@ -57,7 +57,7 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Paschalis III. adressiert ein Privileg an Erlebaldo, Abt von Stablo und wiederholt die von seinen Vorgängern Cölestin II., Lucius II., Eugen III. und Hadrian IV. getroffenen Bestimmungen:<list>
+            <p>Paschalis III. adressiert ein Privileg an Erlebaldo, Abt des Klosters Stablo, und wiederholt die von seinen Vorgängern Cölestin II., Lucius II., Eugen III. und Hadrian IV. getroffenen Bestimmungen:<list>
                   <item>Stellt das Kloster Stablo unter apostolischen Schutz</item><item>Bestätigt sämtliche namentlich genannte Güter und Rechte</item>
                </list></p>
          </div>
