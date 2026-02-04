@@ -30,7 +30,7 @@
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p><issued><placeName>Rom, S. Peter</placeName><date type="issued" notBefore="1167-08-06" notAfter="1167-08-06">1167, August 6</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
-               </issued><p><legalActor type="issuer">Paschalis III.</legalActor></p><legalActor type="recipient">Erlebald, Abt des Klosters Stablo</legalActor><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType ref="na">Papsturkunde, feierliches Privileg</objectType></p><!-- Referenz aus Liste entnehmen --><p><objectType ref="na">Paschalis III., Urheber</objectType></p><p><objectType ref="na"> Juristisches, Rechtsbestätigungen Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &amp;gt; Beauftragung durch…]</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+               </issued><p><legalActor type="issuer">Paschalis III.</legalActor></p><legalActor type="recipient">Erlebald, Abt des Klosters Stablo</legalActor><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType ref="na">Papsturkunde, feierliches Privileg</objectType></p><!-- Referenz aus Liste entnehmen --><p><objectType ref="na">Paschalis III., Urheber</objectType></p><p><objectType ref="na"> Juristisches, neues Recht</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
