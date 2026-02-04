@@ -35,7 +35,7 @@
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">Papsturkunde, feierliches Privileg</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
-               <p><objectType ref="na">Paschalis III., Urheber</objectType></p><p><objectType ref="na">Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &amp;gt; Beauftragung durch…]</objectType></p>
+               <p><objectType ref="na">Paschalis III., Urheber</objectType></p><p><objectType ref="na">Juristisches, neues Recht</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
@@ -54,8 +54,8 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Paschalis III. verleiht Philipp, Erzbischof von Köln, und seinen Nachfolgern ein Privileg und trifft die folgenden Bestimmungen:<list>
-                  <item>die Enthebung des Bistums Cambrai aus dem Reimser Metropolitenverband und die Überweisung an den Kölner</item>
+            <p>Paschalis III. verleiht Philipp, Erzbischof von Köln, und seinen Nachfolgern ein Privileg und trifft die folgende Bestimmungen:<list>
+                  <item>Löst das Bistum Cambrai aus der Reimser KirchenprovMetropolitenverband und die Überweisung an den Kölner</item>
                </list></p>
          </div>
 
