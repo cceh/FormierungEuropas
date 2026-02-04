@@ -71,7 +71,7 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">Original, Köln, Stadtarchiv, Domstift Urkunden 3 / 859;</bibl>
+                  <bibl type="original">Original, Köln, Stadtarchiv, Domstift Urkunden 3 / 859</bibl>
                   <bibl type="msCopy">[handschriftliche Kopie]</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
@@ -95,7 +95,7 @@
             <head>Editionen</head>
             <listBibl>
                <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 318–319, Nr. P16</bibl>
-               <bibl>Lacomblet: Urkundenbuch für die Geschichte, Bd. I, S. 300, Nr. 431; Pflugk-Harttung: Acta, Bd. I, S. 294, Nr. 329;</bibl>
+               <bibl>Lacomblet: Urkundenbuch für die Geschichte, Bd. I, S. 300, Nr. 431</bibl><bibl>Pflugk-Harttung: Acta, Bd. I, S. 294, Nr. 329;</bibl>
             </listBibl>
          </div>
          <div type="regesta">
@@ -103,15 +103,11 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14495</bibl>
-               <bibl>GP VII, S. 115, Nr. 356; Korth: Liber, S. 122, Nr. 17; Knipping: Regesten der Erzbischöfe von Köln, Bd. II, Nr. 908; Bischoff: Urkundenformate im Mittelalter, S. 141; Krafft: Bene Valete, S. 233; Abb. dig.: PH LBA, Nr. 8407; PH Goe; Abb. ana.: DIGUB II/3, Taf. 20.</bibl>
+               <bibl>GP VII, S. 115, Nr. 356</bibl><bibl>Korth: Liber, S. 122, Nr. 17</bibl><bibl>Knipping: Regesten der Erzbischöfe von Köln, Bd. II, Nr. 908</bibl><bibl>Bischoff: Urkundenformate im Mittelalter, S. 141</bibl><bibl>Krafft: Bene Valete, S. 233</bibl><bibl>Abb. dig.: PH LBA, Nr. 8407</bibl><bibl>PH Goe; Abb. ana.: DIGUB II/3, Taf. 20</bibl>
             </listBibl>
          </div>
          <div>
-            <head>Diplomatischer Kommentar</head>
-            <diploDesc>
-               <p>[Text und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
- Kommentar]</p>
-            <p>Rota-Inschrift: Rota-Inschrift: sanctus Petrus / sanctus Paulus / Pas papa /ca lis III</p><p>Rota-Devise: Rota-Devise: Adiutor meus esto domine, ne derelinquas me</p><p>Bene Valete: x</p><p>Komma: –</p></diploDesc>
+            <head>Diplomatischer Kommentar</head><diploDesc><p>Rota-Inschrift: Rota-Inschrift: sanctus Petrus / sanctus Paulus / Pas papa /ca lis III</p><p>Rota-Devise: Rota-Devise: Adiutor meus esto domine, ne derelinquas me</p><p>Bene Valete: x</p><p>Komma: –</p></diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
