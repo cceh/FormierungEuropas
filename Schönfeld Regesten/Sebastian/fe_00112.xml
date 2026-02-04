@@ -63,13 +63,10 @@
          <div>
             <head>Subscriptiones:</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>(R) Ego Pascalis catholicę ecclesię episcopus subscripsi (BV)</item><item>Ego Iohannes Albanensis episcopus subscripsi</item><item>Ego Martinus Tusculanus episcopus subscripsi</item><item>Ego Vivianus Prenestinus episcopus sub- scripsi. Ego Iohannes presbiter cardinalis tituli Pastoris subscripsi. Ego Unfredus presbiter cardinalis tituli sancte Susanne subscripsi. Ego Albertus presbiter cardinalis tituli sancti Grisogoni subscripsi. Ego Landus diaconus cardinalis sancti Angeli subscripsi. Ego Iohannes de Sculcula sancte Romane ecclesie cardinalis subscripsi. Ego Otto diaconus cardinalis sancte Romane ecclesie subscripsi. Ego Wido sanctę Romane ecclesię diaconus cardinalis subscripsi. Ego Stefanus sancte Romane ecclesię diaconus cardinalis subscripsi.</item>
+                  <item>(R) Ego Pascalis catholicę ecclesię episcopus subscripsi (BV)</item><item>Ego Iohannes Albanensis episcopus subscripsi</item><item>Ego Martinus Tusculanus episcopus subscripsi</item><item>Ego Vivianus Prenestinus episcopus subscripsi</item><item>Ego Iohannes presbiter cardinalis tituli Pastoris subscripsi</item><item>Ego Unfredus presbiter cardinalis tituli sancte Susanne subscripsi</item><item>Ego Albertus presbiter cardinalis tituli sancti Grisogoni subscripsi</item><item>Ego Landus diaconus cardinalis sancti Angeli subscripsi</item><item>Ego Iohannes de Sculcula sancte Romane ecclesie cardinalis subscripsi</item><item>Ego Otto diaconus cardinalis sancte Romane ecclesie subscripsi</item><item>Ego Wido sanctę Romane ecclesię diaconus cardinalis subscripsi</item><item>Ego Stefanus sancte Romane ecclesię diaconus cardinalis subscripsi</item>
                </list></diploPart>
          </div>
-         <div>
-            <head>Datatio:</head>
-            <diploPart type="datatio">Datum Romę apud sanctum Petrum per manum Riccardi civitatis Castellanę episcopi, IIII kalendas martii indictione I incarnationis dominicę anno MCLXVIIII , pontificatus vero domini Pascalis pape III anno IIII .</diploPart>
-         </div>
+         <div><head>Datatio:</head><diploPart type="datatio">Datum Romę apud sanctum Petrum per manum Riccardi civitatis Castellanę episcopi, IIII kalendas martii indictione I incarnationis dominicę anno MCLXVIIII, pontificatus vero domini Pascalis pape III anno IIII.</diploPart></div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
