@@ -59,14 +59,11 @@
                </list></p>
          </div>
 
-         <div>
-            <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">Sedes apostolica quę</diploPart>
-         </div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Sedes apostolica quę fidei et</diploPart></div>
          <div>
             <head>Subscriptiones:</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>Ego Pascalis catholicę ecclesię episcopus subscripsi. Ego Iohannes Albanensis episcopus subscripsi. Ego Martinus Tusculanus episcopus subscripsi. Ego Vivianus Prenestinus episcopus sub- scripsi. Ego Iohannes presbiter cardinalis tituli Pastoris subscripsi. Ego Unfredus presbiter cardinalis tituli sancte Susanne subscripsi. Ego Albertus presbiter cardinalis tituli sancti Grisogoni subscripsi. Ego Landus diaconus cardinalis sancti Angeli subscripsi. Ego Iohannes de Sculcula sancte Romane ecclesie cardinalis subscripsi. Ego Otto diaconus cardinalis sancte Romane ecclesie subscripsi. Ego Wido sanctę Romane ecclesię diaconus cardinalis subscripsi. Ego Stefanus sancte Romane ecclesię diaconus cardinalis subscripsi.</item>
+                  <item>(R) Ego Pascalis catholicę ecclesię episcopus subscripsi (BV)</item><item>Ego Iohannes Albanensis episcopus subscripsi</item><item>Ego Martinus Tusculanus episcopus subscripsi</item><item>Ego Vivianus Prenestinus episcopus sub- scripsi. Ego Iohannes presbiter cardinalis tituli Pastoris subscripsi. Ego Unfredus presbiter cardinalis tituli sancte Susanne subscripsi. Ego Albertus presbiter cardinalis tituli sancti Grisogoni subscripsi. Ego Landus diaconus cardinalis sancti Angeli subscripsi. Ego Iohannes de Sculcula sancte Romane ecclesie cardinalis subscripsi. Ego Otto diaconus cardinalis sancte Romane ecclesie subscripsi. Ego Wido sanctę Romane ecclesię diaconus cardinalis subscripsi. Ego Stefanus sancte Romane ecclesię diaconus cardinalis subscripsi.</item>
                </list></diploPart>
          </div>
          <div>
