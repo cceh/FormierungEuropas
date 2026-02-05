@@ -67,7 +67,7 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">-</bibl>
+                  <bibl type="original">Original: -</bibl>
                   <bibl type="msCopy">Kopial, Namur, Staatsarchiv, Fonds Floreffe, 139 ?? (Archiv ist angefragt)</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
@@ -90,8 +90,8 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 257, Nr. V10.</bibl>
-               <bibl>Barbier, Histoire, Bd. II , S. 20, Nr. 33 (unter 1160).</bibl><bibl>Ramackers, Papsturkunden in den Niederlanden, S. 236, Nr. 104.</bibl>
+               <bibl>Ramackers, Papsturkunden in den Niederlanden, S. 236, Nr. 104</bibl>
+               <bibl>Barbier, Histoire, Bd. II , S. 20, Nr. 33 (unter 1160)</bibl><bibl/>
             </listBibl>
          </div>
          <div type="regesta">
@@ -99,7 +99,7 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL - </bibl>
-               <bibl>Mayr, Pontifikat, S. 132, Nr. 82</bibl>
+               <bibl>Mayr, Pontifikat, S. 132, Nr. 82</bibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 257, Nr. V10</bibl>
             </listBibl>
          </div>
          <div>
