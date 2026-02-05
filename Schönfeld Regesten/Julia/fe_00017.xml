@@ -79,7 +79,7 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
+                  <bibl type="original">Original: -</bibl>
                   <bibl type="msCopy">Deperditum, erwähnt in Ottonis et Rahewini Gesta Friderici I. imperatoris, ed. Waitz/Simson (MGH SS rer. Germ. 46), lib. IV, cap. 82, S. 339 und cap. 84, S. 341.</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
@@ -102,8 +102,8 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 259, Nr. V17</bibl>
                <bibl> –;</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="regesta">
@@ -111,7 +111,7 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL -</bibl>
-               <bibl>Germ. Pont. 5,1, S. 217, Nr.*41; Germ. Pont. 5,3, S. 100, Nr. *91.</bibl>
+               <bibl>Germ. Pont. 5,1, S. 217, Nr.*41; Germ. Pont. 5,3, S. 100, Nr. *91</bibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 259, Nr. V17</bibl>
             </listBibl>
          </div>
          <div>
