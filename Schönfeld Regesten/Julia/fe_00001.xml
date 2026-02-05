@@ -67,8 +67,8 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">Deperditum, erwähnt in der Urkunde Paschalis᾽ III . von 1167, August 6 ( JL 14491), vgl. P 13;</bibl>
+                  <bibl type="original">Original: -</bibl>
+                  <bibl type="msCopy">Deperditum, erwähnt in der Urkunde Paschalis᾽ III . vom 6. August 1167 ( JL 14491), vgl. P 13;</bibl>
                   <bibl type="print"/>
                </listBibl>
             </div>
@@ -90,7 +90,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 254, Nr. V1</bibl>
+               <bibl> –;</bibl>
                <bibl> –</bibl>
             </listBibl>
          </div>
@@ -99,7 +99,7 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL -</bibl>
-               <bibl>Germ. Pont. 7 , S. 110, Nr. *335.</bibl>
+               <bibl>Germ. Pont. 7 , S. 110, Nr. *335</bibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 254, Nr. V1</bibl>
             </listBibl>
          </div>
          <div>
