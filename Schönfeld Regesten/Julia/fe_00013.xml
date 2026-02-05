@@ -77,7 +77,7 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
+                  <bibl type="original">Original: -</bibl>
                   <bibl type="msCopy">Deperditum, erwähnt in Annales Pegavienses et Bosovienses, ed. Pertz (MGH SS 16), S. 260.</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
@@ -100,8 +100,8 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 258, Nr. V13</bibl>
-               <bibl> –;</bibl>
+               <bibl>–;</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="regesta">
@@ -109,7 +109,7 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL -</bibl>
-               <bibl>Germ. Pont. 5,2, S. 253, Nr. *139a; S. 507, Nr. *73a-*74</bibl>
+               <bibl>Germ. Pont. 5,2, S. 253, Nr. *139a; S. 507, Nr. *73a-*74</bibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 258, Nr. V13</bibl>
             </listBibl>
          </div>
          <div>
