@@ -77,7 +77,7 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">-</bibl>
+                  <bibl type="original">Original: -</bibl>
                   <bibl type="msCopy">Kopialüberlieferung: inseriert in Chronicon Laureshamense, ed. Pertz (MGH SS 21), S. 445</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
@@ -100,7 +100,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 258, Nr. V12</bibl>
+               <bibl/>
                <bibl>Freher, Germanicarum, S. 94</bibl><bibl>Glöckner, Codex Laureshamensis I, S. 439, Nr. 155</bibl>
             </listBibl>
          </div>
@@ -109,7 +109,7 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14428</bibl>
-               <bibl>Germ. Pont. 4, S. 234, Nr. 21; Germ. Pont. 5,1, S. 216, Nr. 38; Germ. Pont. 5,3, S. 99, Nr. *88</bibl><bibl>Erben, Regesta, S. 133, Nr. 301</bibl><bibl>Mayr, Pontifikat, S. 89, Nr. 6</bibl><bibl>Schwarz, Herrscher- und Reichstitel, S. 330, Nr. 97</bibl>
+               <bibl>Germ. Pont. 4, S. 234, Nr. 21; Germ. Pont. 5,1, S. 216, Nr. 38; Germ. Pont. 5,3, S. 99, Nr. *88</bibl><bibl>Erben, Regesta, S. 133, Nr. 301</bibl><bibl>Mayr, Pontifikat, S. 89, Nr. 6</bibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 258, Nr. V12</bibl><bibl>Schwarz, Herrscher- und Reichstitel, S. 330, Nr. 97</bibl>
             </listBibl>
          </div>
          <div>
