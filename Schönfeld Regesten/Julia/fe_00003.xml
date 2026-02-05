@@ -65,7 +65,7 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">-</bibl>
+                  <bibl type="original">Original: -</bibl>
                   <bibl type="msCopy">Kopialüberlieferung in historiographischer Quelle</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
@@ -87,14 +87,14 @@
          </div>
          <div type="editions">
             <head>Editionen</head>
-            <listBibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 254–255, Nr. V3</bibl><bibl>Ottonis et Rahewini Gesta Friderici I. imperatoris, ed. Waitz/Simson (MGH SS rer. Germ. 46), cap. 60, S. 297-299.</bibl><bibl/></listBibl>
+            <listBibl><bibl>Ottonis et Rahewini Gesta Friderici I. imperatoris, ed. Waitz/Simson (MGH SS rer. Germ. 46), cap. 60, S. 297-299</bibl><bibl/><bibl/></listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head>
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14426</bibl>
-               <bibl>It. Pont. 7, S. 37, Nr. 88</bibl><bibl>Mayr, Pontifikat, S. 85, Nr. 2</bibl><bibl>Schwarz, Herrscher- und Reichstitel, S. 330, Nr. 96</bibl>
+               <bibl>It. Pont. 7, S. 37, Nr. 88</bibl><bibl>Mayr, Pontifikat, S. 85, Nr. 2</bibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 254–255, Nr. V3</bibl><bibl>Schwarz, Herrscher- und Reichstitel, S. 330, Nr. 96</bibl>
             </listBibl>
          </div>
          <div>
