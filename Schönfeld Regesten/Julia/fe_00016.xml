@@ -77,7 +77,7 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
+                  <bibl type="original">Original: -</bibl>
                   <bibl type="msCopy">Kopial: zur kopialen Überlieferung vgl. Mayr, Pontifikat, S. 92; Dolle, PU Niedersachsen und Bremen, S. 218.</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
@@ -100,7 +100,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl/><bibl>Dolle, PU Niedersachsen und Bremen, S. 218-219, Nr. 99</bibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 259, Nr. V16</bibl>
+               <bibl/><bibl>Dolle, PU Niedersachsen und Bremen, S. 218-219, Nr. 99</bibl>
                <bibl>UB Hamburg I, S. 206, Nr. 221</bibl>
             </listBibl>
          </div>
@@ -109,7 +109,7 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14433</bibl>
-               <bibl>Germ. Pont. 6, S. 80-81, Nr. 148; S. 118, Nr. 5; S. 126, Nr. 5; S. 143, Nr. 8; S. 161, Nr. 4; S. 172, Nr. 3</bibl><bibl>May, Regesten der Erzbischöfe von Bremen, Bd. I, S. 142, Nr. 545</bibl><bibl>Mayr, Pontifikat, S. 91, Nr. 11.</bibl>
+               <bibl>Germ. Pont. 6, S. 80-81, Nr. 148; S. 118, Nr. 5; S. 126, Nr. 5; S. 143, Nr. 8; S. 161, Nr. 4; S. 172, Nr. 3</bibl><bibl>May, Regesten der Erzbischöfe von Bremen, Bd. I, S. 142, Nr. 545</bibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 259, Nr. V16</bibl><bibl>Mayr, Pontifikat, S. 91, Nr. 11</bibl>
             </listBibl>
          </div>
          <div>
