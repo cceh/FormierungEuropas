@@ -94,13 +94,7 @@
                <bibl>[Quelle 2]</bibl>
             </listBibl>
          </div>
-         <div type="editions">
-            <head>Editionen</head>
-            <listBibl>
-               <bibl/>
-               <bibl>Pflugk-Harttung: Acta, Bd. I, S. 290, Nr. 327</bibl><bibl>Halkin: Recueil des chartes de l᾽abbaye de Stavelot-Malmédy, Bd. I, S. 494 (nach dem Original)</bibl>
-            </listBibl>
-         </div>
+         <div type="editions"><head>Editionen</head><listBibl><bibl>Pflugk-Harttung: Acta, Bd. I, S. 290, Nr. 327</bibl><bibl>Halkin: Recueil des chartes de l᾽abbaye de Stavelot-Malmédy, Bd. I, S. 494 (nach dem Original)</bibl></listBibl></div>
          <div type="regesta">
             <head>Regesten</head>
             <!-- Konkordanzregesten -->
