@@ -66,7 +66,7 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
+                  <bibl type="original">Original: -</bibl>
                   <bibl type="msCopy">Deperditum, erwähnt in Aegidii Aureaevallensis gesta episcoporum Leodiensium, ed. Heller, S 105.</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
@@ -89,8 +89,8 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 255, Nr. V6.</bibl>
-               <bibl>Aegidii Aureaevallensis gesta episcoporum Leodiensium, ed. Heller (MGH SS 25), S 105.</bibl>
+               <bibl>Aegidii Aureaevallensis gesta episcoporum Leodiensium, ed. Heller (MGH SS 25), S 105</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="regesta">
@@ -98,7 +98,7 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14482</bibl>
-               <bibl>Mayr, Pontifikat, S. 133, Nr. 84.</bibl>
+               <bibl>Mayr, Pontifikat, S. 133, Nr. 84</bibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 255, Nr. V6</bibl>
             </listBibl>
          </div>
          <div>
