@@ -76,7 +76,7 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">Original, NLA Hannover, Domstift Hildesheim, Hild. Or. 1 (verbrannt)</bibl>
+                  <bibl type="original">Original: NLA Hannover, Domstift Hildesheim, Hild. Or. 1 (verbrannt)</bibl>
                   <bibl type="msCopy">Kopial: vgl. Dolle, PU Niedersachsen und Bremen, S. 219</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
@@ -99,8 +99,8 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 259, Nr. V18</bibl><bibl>Dolle, PU Niedersachsen und Bremen, S. 219-220, Nr. 100</bibl>
-               <bibl>Janicke, UB Hildesheim, Bd. I, S. 299, Nr. 315</bibl>
+               <bibl>Dolle, PU Niedersachsen und Bremen, S. 219-220, Nr. 100</bibl><bibl>Janicke, UB Hildesheim, Bd. I, S. 299, Nr. 315</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="regesta">
@@ -108,7 +108,7 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14429</bibl>
-               <bibl>Germ. Pont. 5,2, S. 51, Nr. 99; S. 72, Nr. 17; S. 180, Nr. 11</bibl><bibl>Mayr, Pontifikat, S. 89, Nr. 7</bibl>
+               <bibl>Germ. Pont. 5,2, S. 51, Nr. 99; S. 72, Nr. 17; S. 180, Nr. 11</bibl><bibl>Mayr, Pontifikat, S. 89, Nr. 7</bibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 259, Nr. V18</bibl>
             </listBibl>
          </div>
          <div>
