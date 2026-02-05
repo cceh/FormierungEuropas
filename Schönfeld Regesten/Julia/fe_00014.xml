@@ -77,8 +77,8 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">Deperditum (?), erwähnt in der Relatio a. 1485/94 (1487?) a sorore E. E. scripta (vgl. Germ. Pont. 5,1, S. 237, Nr. *1): ed. Borchling, Literarisches und geistiges Leben, S. 398 (zu weiteren Editionen vgl. Schönfeld, Urkunden der Gegenpäpste, S. 258–259, Nr. V14)</bibl>
+                  <bibl type="original">Original: -</bibl>
+                  <bibl type="msCopy">Deperditum, erwähnt in der Relatio a. 1485/94 (1487?) a sorore E. E. scripta (vgl. Germ. Pont. 5,1, S. 237, Nr. *1): ed. Borchling, Literarisches und geistiges Leben, S. 398 (zu weiteren Editionen vgl. Schönfeld, Urkunden der Gegenpäpste, S. 258–259, Nr. V14)</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
             </div>
@@ -100,7 +100,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 258–259, Nr. V14</bibl>
+               <bibl>–;</bibl>
                <bibl> –</bibl>
             </listBibl>
          </div>
@@ -109,7 +109,7 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL -</bibl>
-               <bibl>Germ. Pont. 5,1, S. 237, Nr. *1</bibl><bibl>Homeyer, Heinrich von Bodwede, S. 28</bibl>
+               <bibl>Germ. Pont. 5,1, S. 237, Nr. *1</bibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 258–259, Nr. V14</bibl><bibl>Homeyer, Heinrich von Bodwede, S. 28</bibl>
             </listBibl>
          </div>
          <div>
