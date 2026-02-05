@@ -101,8 +101,8 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 259, Nr. V15</bibl>
-               <bibl> –</bibl>
+               <bibl>–;</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="regesta">
@@ -110,7 +110,7 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14437</bibl>
-               <bibl>Germ. Pont. 4, S. 157, Nr. *353</bibl><bibl>Mayr, Pontifikat, S. 94, Nr. 16</bibl>
+               <bibl>Germ. Pont. 4, S. 157, Nr. *353</bibl><bibl>Mayr, Pontifikat, S. 94, Nr. 16</bibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 259, Nr. V15</bibl>
             </listBibl>
          </div>
          <div>
