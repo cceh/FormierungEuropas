@@ -65,7 +65,7 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
+                  <bibl type="original">Original: -</bibl>
                   <bibl type="msCopy">Deperditum, erwähnt in JL 14460</bibl>
                   <bibl type="print"/>
                </listBibl>
@@ -88,8 +88,8 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 255-256, Nr. V7 und 8</bibl>
-               <bibl> –;</bibl>
+               <bibl>–;</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="regesta">
@@ -97,7 +97,7 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL -</bibl>
-               <bibl>Germ. Pont. 3 , S. 28, Nr. *3 und S. 63, Nr. *1</bibl><bibl>Mayr, Pontifikat, S. 117, Nr. 49 und 50</bibl>
+               <bibl>Germ. Pont. 3 , S. 28, Nr. *3 und S. 63, Nr. *1</bibl><bibl>Mayr, Pontifikat, S. 117, Nr. 49 und 50</bibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 255-256, Nr. V7 und 8</bibl>
             </listBibl>
          </div>
          <div>
