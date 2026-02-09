@@ -76,7 +76,7 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
+                  <bibl type="original">Original: -</bibl>
                   <bibl type="msCopy">[Kopial]</bibl>
                   <bibl type="print">Druck: Duchesne, Historiae Francorum IV, S. 582-583, ep. 55 </bibl>
                </listBibl>
@@ -99,8 +99,8 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 267, Nr. V29</bibl><bibl>Duchesne, Historiae Francorum IV, S. 582-583, ep. 55</bibl>
-               <bibl>Bouquet, Recueil XVI, S. 24, Nr. 82</bibl>
+               <bibl>Bouquet, Recueil XVI, S. 24, Nr. 82</bibl><bibl>Duchesne, Historiae Francorum IV, S. 582-583, ep. 55</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="regesta">
@@ -108,7 +108,7 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14439</bibl>
-               <bibl>Mayr, Pontifikat, S. 95, Nr. 18.</bibl>
+               <bibl>Mayr, Pontifikat, S. 95, Nr. 18</bibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 267, Nr. V29</bibl>
             </listBibl>
          </div>
          <div>
