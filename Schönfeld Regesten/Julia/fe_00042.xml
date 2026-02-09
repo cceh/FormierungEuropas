@@ -100,8 +100,8 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 275, Nr. V42</bibl>
-               <bibl> –;</bibl>
+               <bibl>–;</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="regesta">
@@ -109,7 +109,7 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL -</bibl>
-               <bibl>Germ. Pont. 7, S. 246, Nr. *11</bibl>
+               <bibl>Germ. Pont. 7, S. 246, Nr. *11</bibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 275, Nr. V42</bibl>
             </listBibl>
          </div>
          <div>
