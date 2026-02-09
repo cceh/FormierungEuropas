@@ -90,8 +90,8 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 270, Nr. V35</bibl>
-               <bibl> –;</bibl>
+               <bibl>–;</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="regesta">
@@ -99,7 +99,7 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14457</bibl>
-               <bibl>Mayr, Pontifikat, S. 114, Nr. 43</bibl>
+               <bibl>Mayr, Pontifikat, S. 114, Nr. 43</bibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 270, Nr. V35</bibl>
             </listBibl>
          </div>
          <div>
