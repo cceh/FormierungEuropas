@@ -100,8 +100,8 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 270–271, Nr. V38</bibl>
                <bibl>MGH Const. I, S. 579-580, Nr. 403</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="regesta">
@@ -109,7 +109,7 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14445</bibl>
-               <bibl>Germ. Pont. 1, S. 27, Nr. 86</bibl><bibl>Mayr, Pontifikat, S. 104, Nr. 24</bibl>
+               <bibl>Germ. Pont. 1, S. 27, Nr. 86</bibl><bibl>Mayr, Pontifikat, S. 104, Nr. 24</bibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 270–271, Nr. V38</bibl>
             </listBibl>
          </div>
          <div>
