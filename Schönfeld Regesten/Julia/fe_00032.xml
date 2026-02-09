@@ -67,7 +67,7 @@
          <div>
             <head>Subscriptiones:</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>(R.) Ego <persName>Victor catholice ecclesie episcopus</persName>  subscripsi. (M.) </item><item>Ego <persName>Iohannes presbyter cardinalis tituli sanctorum Silvestri et Martini</persName> subscripsi. </item><item>Ego <persName>Iohannes presbyter cardinalis tituli Pastoris</persName> subscripsi. </item><item>Ego <persName>Hubaldus Ferentinensis episcopus</persName> subscripsi. </item><item>Ego <persName>Gerardus sancte Romane ecclesie diaconus cardinalis</persName> subscripsi. </item><item>Ego <persName>Landus sancti Angeli diaconus cardinalis</persName> subscripsi.</item>
+                  <item>(R.) Ego <persName>Victor catholice ecclesie episcopus</persName>  subscripsi. (BV.) </item><item>Ego <persName>Iohannes presbyter cardinalis tituli sanctorum Silvestri et Martini</persName> subscripsi. </item><item>Ego <persName>Iohannes presbyter cardinalis tituli Pastoris</persName> subscripsi. </item><item>Ego <persName>Hubaldus Ferentinensis episcopus</persName> subscripsi. </item><item>Ego <persName>Gerardus sancte Romane ecclesie diaconus cardinalis</persName> subscripsi. </item><item>Ego <persName>Landus sancti Angeli diaconus cardinalis</persName> subscripsi.</item>
                </list></diploPart>
          </div>
          <div>
@@ -77,7 +77,7 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">Original, NLA Hannover, Domstift Hildesheim, Hild. Or. 1, Nr. 54 (verbrannt)</bibl>
+                  <bibl type="original">Original: NLA Hannover, Domstift Hildesheim, Hild. Or. 1, Nr. 54 (verbrannt)</bibl>
                   <bibl type="msCopy">Kopial: vgl. Dolle, PU Niedersachsen und Bremen, S. 223</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
@@ -100,7 +100,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 268, Nr. V32</bibl><bibl>Dolle, PU Niedersachsen und Bremen, S. 223-224, Nr. 103</bibl>
+               <bibl>Dolle, PU Niedersachsen und Bremen, S. 223-224, Nr. 103</bibl><bibl>Dolle, PU Niedersachsen und Bremen, S. 223-224, Nr. 103</bibl>
                <bibl>Janicke, UB Hildesheim, Bd. I, S. 304, Nr. 319</bibl>
             </listBibl>
          </div>
@@ -109,7 +109,7 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14442</bibl>
-               <bibl>Germ. Pont. 5,2, S. 51, Nr. 100; S. 72, Nr. 18</bibl><bibl>Mayr, Pontifikat, S. 103, Nr. 21</bibl>
+               <bibl>Germ. Pont. 5,2, S. 51, Nr. 100; S. 72, Nr. 18</bibl><bibl>Mayr, Pontifikat, S. 103, Nr. 21</bibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 268, Nr. V32</bibl>
             </listBibl>
          </div>
          <div>
