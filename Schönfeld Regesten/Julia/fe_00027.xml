@@ -77,8 +77,8 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">Deperditum (?), erwähnt in ## FE Nr. 28 (Schönfeld, Urkunden der Gegenpäpste, S. 267, Nr. V28)</bibl>
+                  <bibl type="original">Original: -</bibl>
+                  <bibl type="msCopy">Deperditum, erwähnt in ## FE Nr. 28 ## (Schönfeld, Urkunden der Gegenpäpste, S. 267, Nr. V28)</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
             </div>
@@ -100,8 +100,8 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 266, Nr. V27</bibl>
-               <bibl> –;</bibl>
+               <bibl>–;</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="regesta">
@@ -109,7 +109,7 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL - </bibl>
-               <bibl>Germ. Pont. 2,2, S. 159, Nr.*3</bibl><bibl>Mayr, Pontifikat, S. 105, Nr. 26.</bibl>
+               <bibl>Germ. Pont. 2,2, S. 159, Nr.*3</bibl><bibl>Mayr, Pontifikat, S. 105, Nr. 26</bibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 266, Nr. V27</bibl>
             </listBibl>
          </div>
          <div>
