@@ -92,3 +92,10 @@ TEI {
 [_tag="p"] [_tag="bibl"] {
     display: inline;
 }
+
+[_tag="issued"] [_tag="placeName"]::before {
+    content: "Ausstellungsort: ";
+}
+[_tag="issued"] [_tag="date"]::before {
+    content: "Ausstellungsdatum: ";
+}
