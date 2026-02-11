@@ -104,12 +104,6 @@ TEI {
     content: "Ausstellungsdatum: ";
 }
 
-[_tag="diploDesc"] [_tag="p"] [_tag="legalActor"]::before {
-    content: "LegalActor: ";
-}
-[_tag="diploDesc"] [_tag="p"] [_tag="legalActor"][type="issuer"]::before {
-    content: "Aussteller: ";
-}
-[_tag="diploDesc"] [_tag="p"] [_tag="legalActor"][type="recipient"]::before {
-    content: "Empfänger: ";
+[_tag="diploDesc"] [_tag="p"] [_tag="legalActor"][type]::before {
+    content: attr(type) ": ";
 }
