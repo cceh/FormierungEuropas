@@ -26,7 +26,7 @@ TEI {
 }
 
 [_tag="sourceDesc"]::before {
-    content: "Metadaten"
+    content: "Metadaten";
     font-weight: 800;
     display: block;
     margin-top: 1.5em;
