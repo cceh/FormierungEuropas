@@ -26,7 +26,7 @@
             <bibl type="jaffe">[Jaffe-Nummer]</bibl>
             <bibl type="Schoenfeld">[Kurztitel Schönfeld-Regest]</bibl>
             <diploDesc>
-               <p>Echtheitskriterium: <authen type="formula" n="na">
+               <p><authen type="formula" n="na">
                      <p>[*+?-]</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>

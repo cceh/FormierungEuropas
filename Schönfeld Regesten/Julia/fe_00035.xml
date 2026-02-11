@@ -23,7 +23,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl type="jaffe">14457</bibl>
-            <bibl type="Schoenfeld">Schönfeld, Urkunden der Gegenpäpste, S. 270, Nr. V35</bibl><diploDesc><p>Echtheitskriterium: <authen type="formula" n="deperditum">
+            <bibl type="Schoenfeld">Schönfeld, Urkunden der Gegenpäpste, S. 270, Nr. V35</bibl><diploDesc><p><authen type="formula" n="deperditum">
                      <p>*</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p><issued><placeName>-</placeName><date type="issued" notBefore="1161-01-01" notAfter="1161-12-31">(1161)</date>
