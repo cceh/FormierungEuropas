@@ -4,106 +4,116 @@ TEI {
     line-height : 1.5;
 }
 
+/* HEADER */
 [_tag="teiHeader"] {
     display: block !important;
 }
+[_tag="title"] {
+    font-weight: 800;
+}
+[_tag="resp"] {
+    font-weight: 800;
+}
+[_tag="publicationStmt"] {
+    font-weight: 800;
+}
 
-[_tag="objectType"] {
-    color: red;
+[_tag="institution"] {
     font-weight: 400;
+}
+[_tag="repository"] {
+    font-weight: 400;
+}
+
+
+/* colors, italics, bold, etc. */
+[_tag="head"] {
+    font-weight: 800;
+    display: block;
+    margin-top: 1.5em;
+}
+[_tag="diploPart"] {
+    font-style: italic;
 }
 
 [_tag="placeName"] {
     color: blue;
     font-weight: 400;
 }
-
-[_tag="head"] {
-    font-weight: 800;
-    display: block;
-    margin-top: 1.5em;
+[_tag="orgName"] {
+    color: green;
+    font-weight: 400;
+}
+[_tag="persName"] {
+    color: green;
+    font-weight: 400;
 }
 
 [_tag="authen"] {
     color: orange;
     font-weight: 400;
 }
-
 [_tag="date"] {
     color: blue;
     font-weight: 400;
 }
 
-[_tag="persName"] {
-    color: green;
-    font-weight: 400;
-}
-
-[_tag="resp"] {
-    font-weight: 800;
-}
-
-[_tag="legalActor"] {
-    color: green;
-    font-weight: 400;
-}
-
-[_tag="orgName"] {
-    color: green;
-    font-weight: 400;
-}
-
-[_tag="institution"] {
-    font-weight: 400;
-}
-
-[_tag="repository"] {
-    font-weight: 400;
-}
 
 [_tag="msIdentifier"] {
     font-weight: 400;
 }
-
 [_tag="eventName"] {
     color: green;
     font-weight: 400;
 }
 
-[_tag="publicationStmt"] {
-    font-weight: 800;
-}
 
-[_tag="title"] {
-    font-weight: 800;
-}
 
 [_tag="item"] {
     display: list-item;
     list-style-type: "👉";
     padding-inline-start: 1ch;
-
 }
+
+
+/* Bibl */
 [_tag="bibl"] {
     color: magenta;
     font-weight: 400;
 }
-
 [_tag="p"] [_tag="bibl"] {
     display: inline;
 }
 
+/* Autenticity and issued  */
 [_tag="authen"] [_tag="p"]::before {
     content: "Echtheitskriterium: ";
 }
-
 [_tag="issued"] [_tag="placeName"]::before {
-    content: "Ausstellungsort: ";
+    content: "Ausstellungsort:   ";
 }
 [_tag="issued"] [_tag="date"]::before {
     content: "Ausstellungsdatum: ";
 }
 
-[_tag="diploDesc"] [_tag="p"] [_tag="legalActor"][type]::before {
-    content: attr(type) ": ";
+/* Legal actors and Refpoint */
+[_tag="legalActor"] {
+    color: green;
+    font-weight: 400;
+}
+[_tag="diploDesc"] [_tag="p"] [_tag="legalActor"]::before {
+    content: "LegalActor: ";
+}
+[_tag="diploDesc"] [_tag="p"] [_tag="legalActor"][type="issuer"]::before {
+    content: "Aussteller: ";
+}
+[_tag="diploDesc"] [_tag="p"] [_tag="legalActor"][type="recipient"]::before {
+    content: "Empfänger: ";
+}
+[_tag="objectType"] {
+    color: red;
+    font-weight: 400;
+}
+[_tag="objectType"]::before {
+    content: "Refpoint: ";
 }
