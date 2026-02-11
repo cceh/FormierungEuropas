@@ -126,3 +126,14 @@ TEI {
 [_tag="objectType"]::before {
     content: "Refpoint: ";
 }
+
+/* Transmission/Sources */
+[_tag="div"][type="msSources"] [_tag="listBibl"] [_tag="bibl"][type="original"]::before {
+    content: "Original: ";
+}
+[_tag="div"][type="msSources"] [_tag="listBibl"] [_tag="bibl"][type="msCopy"]::before {
+    content: "Kopie: ";
+}
+[_tag="div"][type="msSources"] [_tag="listBibl"] [_tag="bibl"][type="print"]::before {
+    content: "Druck: ";
+}
