@@ -14,6 +14,9 @@ TEI {
 [_tag="resp"] {
     font-weight: 800;
 }
+[_tag="respStmt"] [_tag="persName"] {
+    display: block;
+}
 [_tag="publicationStmt"] {
     font-weight: 800;
 }
@@ -33,6 +36,9 @@ TEI {
 }
 [_tag="sourceDesc"] [_tag="bibl"]::before {
     content: "Konkordanz: "
+}
+[_tag="sourceDesc"] [_tag="bibl"][type="jaffe"]::before {
+    content: "Konkordanz (JL): "
 }
 
 /* colors, italics, bold, etc. */
