@@ -93,9 +93,23 @@ TEI {
     display: inline;
 }
 
+[_tag="authen"] [_tag="p"]::before {
+    content: "Echtheitskriterium: ";
+}
+
 [_tag="issued"] [_tag="placeName"]::before {
     content: "Ausstellungsort: ";
 }
 [_tag="issued"] [_tag="date"]::before {
     content: "Ausstellungsdatum: ";
+}
+
+[_tag="diploDesc"] [_tag="p"] [_tag="legalActor"]::before {
+    content: "LegalActor: ";
+}
+[_tag="diploDesc"] [_tag="p"] [_tag="legalActor"][type="issuer"]::before {
+    content: "Aussteller: ";
+}
+[_tag="diploDesc"] [_tag="p"] [_tag="legalActor"][type="recipient"]::before {
+    content: "Empfänger: ";
 }
