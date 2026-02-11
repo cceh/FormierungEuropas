@@ -25,6 +25,15 @@ TEI {
     font-weight: 400;
 }
 
+[_tag="sourceDesc"]::before {
+    content: "Metadaten"
+    font-weight: 800;
+    display: block;
+    margin-top: 1.5em;
+}
+[_tag="sourceDesc"] [_tag="bibl"]::before {
+    content: "Konkordanz: "
+}
 
 /* colors, italics, bold, etc. */
 [_tag="head"] {
@@ -90,7 +99,7 @@ TEI {
     content: "Echtheitskriterium: ";
 }
 [_tag="issued"] [_tag="placeName"]::before {
-    content: "Ausstellungsort:   ";
+    content: "Ausstellungsort: ";
 }
 [_tag="issued"] [_tag="date"]::before {
     content: "Ausstellungsdatum: ";
