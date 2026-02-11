@@ -20,6 +20,8 @@ TEI {
 
 [_tag="head"] {
     font-weight: 800;
+    display: block;
+    margin-top: 0.5em;
 }
 
 [_tag="authen"] {
@@ -85,4 +87,8 @@ TEI {
 [_tag="bibl"] {
     color: magenta;
     font-weight: 400;
+}
+
+[_tag="p"] [_tag="bibl"] {
+    display: inline;
 }
