@@ -22,9 +22,9 @@
             <bibl>PUU Frankreich NF 2, S. 205-206, Nr. 112</bibl><bibl type="jaffe">10814</bibl>
             <diploDesc><p><issued><placeName>Tours </placeName><date type="issued" notBefore="1163-01-22" notAfter="1163-01-22">1163  Januar  22. </date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
-               <p><legalActor type="issuer">[Issuer]</legalActor></p>
-               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <p><legalActor type="issuer">Papst Alexander III.</legalActor></p>
+               <p><legalActor type="recipient">Nicolaus, Prior von Le Plessis-Grimoult</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Papstprivileg, feierlich</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
@@ -39,7 +39,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. nimmt  die Kirche von Le Plessis-Grimoult unter  dem  Prior Nicolaus nach  dem Vorgang  Anastasius'  IV. und Hadrians  IV. in Schutz  und bestätigt  die  Augustinerregel und Besitzungen.</p>
+            <p><persName>Alexander III.</persName> nimmt  die Kirche von Le Plessis-Grimoult unter  dem  Prior Nicolaus nach  dem Vorgang  Anastasius'  IV. und Hadrians  IV. in Schutz  und bestätigt  die  Augustinerregel und Besitzungen.</p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head>
             <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
