@@ -44,7 +44,8 @@
          <div type="other"><head>Echtheitskriterien:</head>
             <authen type="formula" n=""><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Quotiens a nobis</diploPart></div>
-         <div><head/><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
+         <div><head/><head/><head>Subscriptiones:</head><diploPart type="Subscriptiones">-</diploPart></div>
+         <div><head/><head/><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung</head>
             <div>
