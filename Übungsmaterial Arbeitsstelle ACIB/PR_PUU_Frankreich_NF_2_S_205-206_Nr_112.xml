@@ -20,8 +20,13 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>PUU Frankreich NF 2, S. 205-206, Nr. 112</bibl><bibl type="jaffe">10814</bibl>
-            <diploDesc><p><issued><placeName>Tours </placeName><date type="issued" notBefore="1163-01-22" notAfter="1163-01-22">1163  Januar  22. </date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
-               </issued></p>
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>-</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Tours </placeName><date type="issued" notBefore="1163-01-22" notAfter="1163-01-22">1163  Januar  22. </date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+               </issued>
                <p><legalActor type="issuer">Papst Alexander III.</legalActor></p>
                <p><legalActor type="recipient">Nicolaus, Prior von Le-Plessis-Grimoult</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papstprivileg, feierlich</objectType></p>
@@ -41,8 +46,6 @@
          <div type="abstract"><head>Abstract:</head>
             <p><persName>Alexander III.</persName> nimmt  die Kirche von <placeName>Le Plessis-Grimoult</placeName> unter  dem  <persName>Prior Nicolaus</persName> nach  dem Vorgang  <persName>Anastasius' IV.</persName> und <persName>Hadrians IV.</persName> in Schutz  und bestätigt  die  Augustinerregel und Besitzungen.</p>
          </div>
-         <div type="other"><head>Echtheitskriterien:</head>
-            <authen type="formula" n=""><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Quotiens a nobis</diploPart></div>
          <div><head>Subscriptiones:</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
@@ -50,12 +53,12 @@
                </list></diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">Dat. Turon. Per manum Hermanni sancts Romane ecclesie subdiaconi et notarii XI kal. Februarii, indicitione XI, incarnationibus dominice anno MMo. C. LXII, pontificatus uero domni Alexandri pape III anno IIII.</diploPart></div>
          <div type="msSources">
-             <head>Handschriftliche Überlieferung</head>
+             <head>Frühester Überlieferungsträger</head>
             <div>
             <listBibl>   
-               <bibl cert="high" default="true" generatedBy="human" type="original" xml:space="default">-</bibl>
-               <bibl cert="high" default="true" generatedBy="human" type="msCopy" xml:space="default">Chartular  von  1493 Bd.  I f.  5' Caen  Arch. dép. du  Calvados,  Le  Plessis-Grimoult</bibl>
-               <bibl cert="high" default="true" generatedBy="human" type="print" xml:space="default">-</bibl>
+               <bibl type="original">-</bibl>
+               <bibl type="msCopy">Chartular  von  1493 Bd.  I f.  5' Caen  Arch. dép. du  Calvados,  Le  Plessis-Grimoult</bibl>
+               <bibl type="print">-</bibl>
             </listBibl>
          </div>
          </div>
@@ -86,9 +89,16 @@
                <bibl>[PUU Frankreich NF 2, S. 205-206, Nr. 112]</bibl>
             </listBibl>
          </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>[Text und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
+ Kommentar]</p>
+            </diploDesc></div>
+       
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Eriveiterung  der Vorurkunde Hadrians  IV. (JL 10146) Nr.  84,  wo  die  Lesarten  des  ersten  Teils  vermerkt  sind. </p>
+            <p>Erweiterung der Vorurkunde Hadrians IV. (JL 10146) Nr. 84, wo die Lesarten des  ersten Teils vermerkt sind.</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
