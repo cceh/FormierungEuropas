@@ -29,7 +29,7 @@ TEI {
 }
 
 [_tag="sourceDesc"]::before {
-    content: "Metadaten";
+    content: "Metadata";
     font-weight: 800;
     display: block;
     margin-top: 1.5em;
@@ -38,7 +38,7 @@ TEI {
     content: "Konkordanz: "
 }
 [_tag="sourceDesc"] [_tag="bibl"][type="jaffe"]::before {
-    content: "Konkordanz (JL): "
+    content: "Konkordanz: JL "
 }
 
 /* colors, italics, bold, etc. */
