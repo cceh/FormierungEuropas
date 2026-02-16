@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
 <TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen -->
    <teiHeader>
       <fileDesc>
@@ -44,6 +44,10 @@
          <div type="other"><head>Echtheitskriterien:</head>
             <authen type="formula" n=""><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Quotiens a nobis</diploPart></div>
+         <div><head>Subscriptiones:</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+               </list></diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">Dat. Turon. Per manum Hermanni sancts Romane ecclesie subdiaconi et notarii XI kal. Februarii, indicitione XI, incarnationibus dominice anno MMo. C. LXII, pontificatus uero domni Alexandri pape III anno IIII.</diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung</head>
