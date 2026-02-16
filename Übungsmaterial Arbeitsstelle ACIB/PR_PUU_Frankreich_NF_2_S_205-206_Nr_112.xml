@@ -55,7 +55,7 @@
             <listBibl>   
                <bibl cert="high" default="true" generatedBy="human" type="original" xml:space="default">-</bibl>
                <bibl cert="high" default="true" generatedBy="human" type="msCopy" xml:space="default">Chartular  von  1493 Bd.  I f.  5' Caen  Arch. dép. du  Calvados,  Le  Plessis-Grimoult</bibl>
-               <bibl>[-]</bibl>
+               <bibl cert="high" default="true" generatedBy="human" type="print" xml:space="default">-</bibl>
             </listBibl>
          </div>
          </div>
