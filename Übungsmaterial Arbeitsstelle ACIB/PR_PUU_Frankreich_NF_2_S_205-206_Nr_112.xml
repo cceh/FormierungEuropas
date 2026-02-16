@@ -53,8 +53,8 @@
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl>[Original: -]</bibl>
-               <bibl>Abschrift: Chartular  von  1493 Bd.  I f.  5' Caen  Arch. dép. du  Calvados,  Le  Plessis-Grimoult</bibl>
+               <bibl cert="high" default="true" generatedBy="human" type="original" xml:space="default">-</bibl>
+               <bibl cert="high" default="true" generatedBy="human" type="msCopy" xml:space="default">Chartular  von  1493 Bd.  I f.  5' Caen  Arch. dép. du  Calvados,  Le  Plessis-Grimoult</bibl>
                <bibl>[-]</bibl>
             </listBibl>
          </div>
