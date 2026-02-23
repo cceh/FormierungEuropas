@@ -6,11 +6,10 @@
       <fileDesc>
          <titleStmt>
             <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <respStmt><resp>Die Formierung Europas</resp><persName>[Name der Bearbeiter*in]</persName></respStmt>
             <respStmt>
-               <resp>Datenquelle</resp>
-               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
-            </respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
+               <resp when="2025">Encoding:</resp>
+               <persName>CH</persName><persName>[...]</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -20,7 +19,10 @@
          </publicationStmt>
          <sourceDesc>
             <bibl type="jaffe">[Jaffe-Nummer]</bibl>
-            <diploDesc>
+            <diploDesc><p><authen type="formula" n="na">
+                     <p>-</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
                <issued><placeName>[Ausstellungsort]</placeName><date type="issued">[Ausstellungsdatum]</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">[Issuer]</legalActor></p>
@@ -46,7 +48,7 @@
                <item>[Listeneintrag 1]</item>
             </list></p>
          </div>
-         <div type="other"><head>Echtheitskriterien: </head><authen type="formula" n="na"><p>-</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></div>
+
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Lator presentium presbiter Egrich in</diploPart></div>
          <div><head>Subscriptiones:</head><diploPart type="subscriptio"><list><item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item></list></diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio"> Datum Laude, VI kalendas iulii.</diploPart></div>
