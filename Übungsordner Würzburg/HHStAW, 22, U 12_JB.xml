@@ -18,15 +18,15 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl type="jaffe">[JL Jaffe-Nummer]</bibl>
-            <bibl>[Weiteres Konkordanzregest]</bibl>
+            <bibl type="jaffe">JL 10815</bibl>
+            <bibl>Germ. Pont. 4, S. 261, Nr. 3</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
                <p><authen type="formula" n="na">
-                     <p>[*+?-]</p>
+                     <p>[-]</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>[Ausstellungsort]</placeName><date type="issued">[Ausstellungsdatum]</date>
+               <issued><placeName>[ParisAusstellungsort]</placeName><date type="issued">[Ausstellungsdatum]</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">[Aussteller]</legalActor></p>
