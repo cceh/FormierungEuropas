@@ -25,7 +25,7 @@
                <p><authen type="formula" n="na">
                      <p>[-]</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-                  </authen></p><issued><placeName>Paris</placeName><date type="issued">1162, Februar 6</date>
+                  </authen></p><issued><placeName>Paris</placeName><date type="issued">1163, Februar 6</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
