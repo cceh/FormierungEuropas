@@ -8,11 +8,8 @@
          <titleStmt>
             <title>[Die Nummer des Regests im Projekt. Dateiname beginnt mit "Ordner", zum Beispiel
                FO für Formierung Europas]</title>
-            <respStmt><resp>Datenquelle</resp><persName>[Rossel, UB Eberbach I, S. ggf. Name der ursprünglichen Bearbeiter*in]</persName></respStmt>
-            <respStmt>
-               <resp when="2026">Encoding</resp>
-               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
-            </respStmt>
+            <respStmt><resp>Datenquelle</resp><persName>Rossel, UB Eberbach I, S. 43-45, Nr. 21</persName></respStmt>
+            <respStmt><resp when="2026">Encoding</resp><persName>JB</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -21,7 +18,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+            <bibl type="jaffe">[JL Jaffe-Nummer]</bibl>
             <bibl>[Weiteres Konkordanzregest]</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
