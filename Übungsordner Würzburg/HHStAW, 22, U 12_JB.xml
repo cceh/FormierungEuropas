@@ -29,7 +29,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Zisterzienserkloster Eberbach</legalActor></p>
+               <p><legalActor type="recipient">Zisterzienserkloster Eberbach</legalActor></p><p><legalActor type="recipient">Eberhard, Abt des Klosters Eberbach</legalActor></p><p/>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
