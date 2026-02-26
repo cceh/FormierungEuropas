@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI source="formierung-europas" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Die Nummer des Regests im Projekt. Dateiname beginnt mit "Ordner", zum Beispiel
+               FO für Formierung Europas]</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>Rossel, UB Eberbach I, S. 61-65, Nr. 30</persName>
+            </respStmt>
+            <respStmt><resp when="2026">Encoding</resp><persName>JB</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="jaffe">13013 </bibl>
+            <bibl>Germ. Pont. 4, S. 261-262, Nr. 4</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>[-]</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p><issued><placeName>Anagni</placeName><date type="issued">1178, Januar 26</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p><legalActor type="recipient">Zisterzienserkloster Eberbach</legalActor></p><p><legalActor type="recipient">Arnold, Abt des Klosters Eberbach</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">&amp;lt;refPoint1&amp;gt; Juristisches, Rechtsbestätigungen &amp;lt;refPoint1&amp;gt;</objectType></p><p><objectType n="">&amp;lt;refPoint2&amp;gt; Alexander III., Urheber &amp;lt;refPoint2&amp;gt;</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p>Alexander III. nimmt das Zisterzienserkloster Eberbach (D. Mainz) unter Abt Arnold in den apostolischen Schutz und bestätigt seine Besitzungen sowie die Regel des heiligen Benedikt und die Einführung der Zisterzienserordnung.<list>
+                  <item>Eingeschlossen sind alle Besitzungen und Güter, die das Kloster in der Gegenwart rechtmäßig besitzt beziehungsweise in der Zukunft rechtmäßig erwerben wird, darunter einige namentlich genannte Besitzungen.</item><item>Er befreit es vom Zehnten für Eigenarbeit und für Tierfutter.</item><item>Er gewährt das Recht, Weltgeistliche und Laien aufzunehmen.</item><item>Er bekräftigt die Verbindlichkeit der geleisteten Profess und der stabilitas loci.</item><item>Er garantiert einen besonderen Frieden für die Klosterbezirke und die Grangien.</item><item>Schlussformeln: Perturbationsverbot, Sanctio negativa und positiva.</item>
+               </list></p>
+         </div>
+
+         <div>
+            <head>Incipit</head><diploPart type="incipit" xml:lang="lat">Religiosam vitam eligentibus apostolicum convenit</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>(R.) Ego Alexander catholice ecclesie episcopus subscripsi. (BV.)</item><item>Ego Hubaldus Hostiensis episcopus subscripsi.</item><item>Ego Iohannes presbyter cardinalis sanctorum Iohannis et Pauli tituli Pamachii subscripsi.</item><item>Ego Albertus presbyter cardinalis tituli sancti Laurentii in Lucina subscripsi.</item><item>Ego Boso presbyter cardinalis sancte Pudententie tituli Pastoris subscripsi.</item><item>Ego Iohannes presbyter cardinalis tituli sancti Marci subscripsi.</item><item>Ego Petrus presbyter cardinalis tituli sancte Susanne subscripsi.</item><item>Ego Iacobus diaconus cardinalis sancte Marie in Cosmiden subscripsi.</item><item>Ego Cinthyus diaconus cardinalis sancti Adriani subscripsi.</item><item>Ego Hugo diaconus cardinalis sancti Angeli subscripsi.</item><item>Ego Laborans diaconus cardinalis sancte Marie in Porticu subscripsi.</item><item>Ego Rainerius diaconus cardinalis sancti Georgii ad velum aureum subscripsi.</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head><diploPart type="datatio">Datum Anagnie per manum Gratiani sancte Romane ecclesie subdiaconi et notarii, VII. Kalendas Februarii, indictione XI., incarnationis dominice anno M°.C°.LXX°.VII, pontificatus vero domini Alexandri pape III, anno XVIIII.</diploPart>
+         </div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">Wiesbaden, Hessisches Hauptstaatsarchiv, 22, U16</bibl>
+                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
+                  <bibl type="print">[Druck]</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>-</bibl>
+               <bibl/>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>-</bibl>
+               <bibl/>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Rossel, UB Eberbach I, S. 61-65, Nr. 30</bibl>
+               <bibl>Migne PL 200, Sp. 1160-1161, Nr. 1335</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL 13013</bibl>
+               <bibl>Germ. Pont. 4, S. 261-262, Nr. 4</bibl><bibl>Goerz, Mittelrheinische Regesten 2, S. 112, Nr. 404</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>Rota vorhanden, Inschrift: sanctus Petrus/sanctus Paulus/Alex/ander/pape/III, Devise: demonstra mihi vias tuas, domine. Bene valete vorhanden. Bulle an rot-gelben Seidenfäden. Aufschrift auf der Aversseite: Alex/ander/pape III, auf der Reversseite sind die bekannten Köpfe der Apostelfürsten Petrus und Paulus abgebildet. Das Original gibt die Datierung mit dem Jahr 1177, 6. Indiktion, 26. Januar, 18. Pontifikatsjahr Alexanders III. an. Jaffé-Löwenfeld korrigiert die Jahreszahl ohne weitere Erklärung auf das Jahr 1178 (vgl. auch<bibl> Germ. Pont. 4, S. 261-262, Nr. 4</bibl>). Parallel zu ##FE Nr. ## (HHStAW, 22 U12) ist das vorliegende Stück aufgrund des in der päpstlichen Kanzlei verwendeten Annunziationsstils (25.3.) für den Jahresanfang auf das Jahr 1178 zu datieren, diese Datierung passt auch zur 11. Indiktion und zum 19. Pontifikatsjahr Alexanders III. (vgl. <bibl>Germ. Pont. 4, S. 262</bibl>). Bei Migne und Rossel ist die Indiktion und das Pontifikatsjahr jeweils mit einem Zähler zu niedrig angegeben (vgl. <bibl>Migne PL 200, Sp. 1161; Rossel, UB Eberbach I, S. 65</bibl>).</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Als Vorurkunde diente für das vorliegende Privileg ##FE Nr. ## (HHStAW, 22 U12). Beim Vergleich beider Privilegien sind die Besitzerweiterungen des Klosters im Jahr 1178 um Mappen, Steinheim und Neuhof, sowie die Stadthöfe in Bingen und Mainz erkennbar (vgl. Oberweis, Zisterzienser, S. 92). Neu zugestanden wurde auch das Recht, Weltgeistliche und Laien in den Konvent aufzunehmen sowie die besondere Friedensgarantie für Klosterbezirke und Grangien. Deutlich wird, dass Abt Arnold nach der Wiederherstellung der kirchlichen Einheit nach dem Frieden von Venedig im Jahr 1177 an einer Bestätigung der Rechte und Besitzungen des Klosters Eberbach gelegen war.</p><p/>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>Oberweis, Zisterzienser, S. 91-92</bibl>
+               <bibl>[Werk 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>
