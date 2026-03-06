@@ -100,6 +100,10 @@ TEI {
     display: inline;
 }
 
+[_tag="p"] [_tag="date"] {
+    display: inline;
+}
+
 /* Autenticity and issued  */
 [_tag="authen"] [_tag="p"]::before {
     content: "Authenticity: ";
