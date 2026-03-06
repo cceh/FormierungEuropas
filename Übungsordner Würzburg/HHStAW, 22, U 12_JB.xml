@@ -18,7 +18,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl type="jaffe">JL 10815</bibl>
+            <bibl type="jaffe">10815</bibl>
             <bibl>Germ. Pont. 4, S. 261, Nr. 3</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
@@ -51,7 +51,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>Alexander III. nimmt das Zisterzienserkloster Eberbach (D. Mainz) unter Abt Eberhard in den apostolischen Schutz und bestätigt seine Besitzungen sowie die Regel des heiligen Benedikt und die Einführung der Zisterzienserordnung.<list>
+            <p><legalActor><persName>Alexander III.</persName></legalActor> nimmt das <legalActor><orgName>Zisterzienserkloster Eberbach </orgName></legalActor>(D. Mainz) unter <persName>Abt Eberhard</persName> in den apostolischen Schutz und bestätigt seine Besitzungen sowie die Regel des heiligen Benedikt und die Einführung der Zisterzienserordnung.<list>
                   <item>Eingeschlossen sind alle Besitzungen und Güter, die das Kloster in der Gegenwart rechtmäßig besitzt beziehungsweise in der Zukunft rechtmäßig erwerben wird, darunter einige namentlich genannte Besitzungen.</item><item>Er befreit es vom Zehnten für Eigenarbeit und für Tierfutter.</item><item>Er bekräftigt die Verbindlichkeit der geleisteten Profess und der stabilitas loci.</item><item>Schlussformeln: Perturbationsverbot, Sanctio negativa und positiva.</item>
                </list></p>
          </div>
@@ -72,7 +72,7 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">Original: Wiesbaden, Hessisches Hauptstaatsarchiv, 22, U12</bibl>
+                  <bibl type="original">Wiesbaden, Hessisches Hauptstaatsarchiv, 22, U12</bibl>
                   <bibl type="msCopy">[handschriftliche Kopie]</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
