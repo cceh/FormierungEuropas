@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Oriens Pontificus II, S. 239-247, Nr. 28</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2026">Encoding</resp>
+               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Oriens Pontificus II, S. 239-247, Nr. 28</bibl><bibl type="jaffe">–</bibl>
+            <bibl>[Weiteres Konkordanzregest]</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>[*+?-]</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>[Ausstellungsort]</placeName><date type="issued" notBefore="1179-02-01" notAfter="1179-02-28">1179 Februar.</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p>Auf Ermahnung Alexanders III. schließen der Templermeister Odo von St-  Amand und der Meister des Hospitals Roger de Molinis einen Vertrag zur  Beilegung aller zwischen den beiden Orten bestehenden Streitigkeiten diesseits  und jenseits des Meeres und setzen gemäß dem päpstlichen Befehl ein Schlich­ tungsverfahren für die Zukunft fest.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+
+         <div>
+            <head>Incipit</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">Orig. La Valletta, Archives of the Order of St. John, vol.3 n.65 [AJ. —</bibl>
+                  <bibl type="msCopy">Kopie s.XII Barcelona, Archivo de la Corona de Aragon, S. Juan, Gardeny,  pergaminos no.2211 A [BJ. — Kopie s.XII Lisboa, Torre do Tombo, Gave- tas 7 M.12 n.20 [B2f - Original oder Kopie s.XIl Archiv der englischen  Templerprovinz, verloren [B3J. - Original oder Kopie s.XIl (?) Archiv der  französischen Templerprovinz, verloren [B4f - Transsumpt Archiv des Gross­ priorats Kastilien in Consuegra, verloren [BSJ. - Original oder Kopie Johan­ niterzentralarchiv, verloren [B6J. - Cartulario de los Templarios de Tortosa  s.XIII f.49' n.150 Barcelona, Archivo de la Corona de Aragon, S.Juan,  Secciön 2a Armari 4 vol.3 [E] aus einem Vidimus von Bt. — Libro dos Me-  strados s. XVI in. f. 86 Lisboa, Torre do Tombo, Leitura nova aus B2 [Ff -  Livro contendo copias de bullas, donagöes, privilegios s. XVI p. 58 aus B2  ebenda, Ordern de Cristo, B-51-7 (= C.25 E.76 P.3) [Gf - Pedro Alvarez  Secco, Liber compilationis s. XVI vol.I pt.2 f.9 aus B2 ebenda, Corpora^öes  religiosas, mss. 234 pt. II (= Abschrift s. XVIII vol. II f. 17' Lisboa, Bi­ blioteca nacional, mss. 736 [I]). - Sebastiano Pauli, Bullarium Melitense s.  XVIII vol. III p.39 (3. Zählung) Lucca, Biblioteca Statale, mss. 990 aus A  [Hf - Kopie s. XX in. (nur Auszug) Collection d’Albon vol. 59 f.319 Paris,  Bibliotheque nationale, Nouvelles acquisitions latines 59 aus B2 und F [Sf —  Regest s. XVI im Inventaire de Manosque a. 1531 f.703' Marseille, Archives  departementales (Bouches-du-Rhöne), Ordre de Malte 56H68 aus A. - Re­ gest s. XVII Resumen de los documentos del Cartulario de los Templarios de  Tortosa f. 87' Barcelona, Archivo de la Corona de Aragon, S. Juan de Jeru­ salem, Secciön 3 “ legajo 1 pliego 4 aus E. - Regest s. XVII Inventaire des  titres a. 1632 f. 1 Paris, Archives nationales, S 5544 aus B4 [Mf - Indice del  Archivo del Castillo de Consuegra a. 1690 f. 17' n. 206 Madrid, Archivo  Histörico Nacional, Secciön Ordenes militares, Indice n. 176 aus Bs [NJ. —</bibl>
+                  <bibl type="print">[Druck]</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Oriens Pontificus II, S. 239-247, Nr. 28</bibl>
+               <bibl>Edd. Ferreira, Memorias ... dos Templarios II (Lisboa 1735) p. 784 aus R.  Memorias da Academia Real das Sciencias de Lisboa 1854 IA p. 78 n. 7. -</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL –</bibl>
+               <bibl>Regg. As Gavetas da Torre do Tombo II (Gav.III—XIT), Gulbenkiana III  (Lisboa 1962) p.493 n.1172. Delaville, Cartulaire I 378 Anm. zu n.558.  Röhricht, Reg. regni Hieros. n. 573. JL. -.</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Der Vertrag ist auch überliefert als Insert in: a) Alexander III. „Quanto religio vestra“ von 1179 August 2, s. unten Nr. 30, wo die einzelnen Überlieferungen verzeichnet sind [CKLf b) Innozenz III. „Quanto religio vestra“ von 1199 Febr. 8: Orig. Marseille, Archives departementales (Bouches-du-Rhöne), ' Ordre de Malte 56 H 4011, Text des Inserts aus B6 [Df - Regest im Inventaire de Manos­que a. 1531 f. 340' ebenda, 56 H 68. — Abschrift s. XX in. (ohne das Insert) Collection d’Albon vol.2 f.7 Paris, Bibliotheque nationale, Nouvelles acquisitions latines 2. - Ed. Pitra, Analecta novissima 1 (Tusculanis 1885) 554 n.60 aus D. - Cit. Delaville, Cartulaire I 666 n.I068. - Regg. Röh­richt, Reg. regni Hieros. n. 751. Potth. -. Die breit gestreute Überlieferung birgt einige außerordentlich schwierige  Probleme für die Textgestaltung. Denn sowohl das Insert bei Innozenz III. als  auch die Kopie in Barcelona [Bt/ und die Kopie in Lissabon [B2] weichen so  stark vom Original [A] ab, daß sie nicht auf den in A vorliegenden Text zu­ rückgeführt werden können. Man müßte daher als ihre Vorlage ein verlorenes zweites Original jAJ annehmen. Es stellt sich aber die Frage, ob Bi und B2  wirklich Kopien sind oder nichteher zwei Exemplare von selbständigen Parallel­ urkunden sind, die nach dem Vertragsabschluß den einzelnen Ordensteilen  zugesandt wurden. Beide stammen aus ehemaligen Templerarchiven und  waren daher wohl an die Provinzen des Ordens auf der iberischen Halbinsel  gerichtet, wobei Bt sich durch die in roter Tinte mit großen Buchstaben in  zwei Zeilen geschriebene Invocatio auch formal auszeichnet. Bi und B2 sind  jedoch voneinander unabhängig. Auch das Insert in die päpstliche Bestätigung  [C] muß, wie die Überlieferung der daraus abgeleiteten Kopien K und L  zeigt, auf ein Stück in Templerbesitz zurückgehen, da die Bestätigung durch  diesen Orden eingeholt wurde und zwar zumindest für diese Ausfertigung  durch die englische Templerprovinz. C geht daher auf ein verlorenes B3 zu­ rück, das parallel zu Bt und B2 ausgestellt worden war. Ebenso ist M wohl  auf eine für die französische Templerprovinz hergestellte, heute verlorene  Kopie zurückzuführen [B4], das Regest im Archivinventar von Consuegra  [N] auf eine weitere, heute ebenfalls verlorene Ausfertigung für die Ordens­ provinz Kastilien [Bs], bei der es sich angesichts der unbestimmten Ausdrucks­ form ,transunto‘ freilich auch um eine Kopie von B{ oder B2 gehandelt haben  könnte. Ganz anders verhält es sich mit D, das keineswegs, wie Delaville a.a.O.  will, eine Wiederholung von C ist, sondern eine päpstliche Bestätigung des  Vertragstextes für die Johanniter darstellt. Ihre Vorlage würde man in A  vermuten, da beide Stücke aus dem Johanniterzentralarchiv stammen. Doch  D weicht seinerseits von A an mehreren Stellen, vor allem durch die auch in  Blt B2 und C enthaltenen Erweiterungen, andererseits durch eine konsequent  durchgeführte Umstellungbei der Nennung der beiden Orden so deutlich ab, daß  diese Änderungen nicht auf eine nachträgliche Eigenmächtigkeit der päpstli­ chen Kanzlei zurückgeführt werden können, sondern auf einer einen entspre­ chenden Text aufweisenden Vorlage einer verlorenen Kopie [B6] beruhen  müssen, die aus dem Besitz der Johanniter stammte und zwar vermutlich, wie  die Überlieferung von D zeigt, aus ihrem Zentralarchiv. Da D bzw. B6, das  1199 der päpstlichen Kanzlei vorgelegt und vermutlich aus diesem Anlaß  hergestellt wurde, aus den dargelegten Gründen nicht auf A zurückgehen  kann, muß es sich von einem weiteren Original A2 ableiten. Dieses war jedoch  schon zu Beginn des 16. Jahrhunderts verloren, da es im Inventaire von Ma­ nosque nicht mehr erscheint, wo nur ein Exemplar aufgeführt wird, das durch  die Dorsualnotiz eindeutig mit A identifiziert ist. Man kommt damit nicht um die Annahme herum, daß mindestens drei  verschiedene Grundtexte A, Ax und /12 vorliegen. Aus Platzgründen verzichte  ich darauf, alle drei Textformen vollständig zu geben, und beschränke mich  auf eine Gegenüberstellung von A auf der einen Seite, Blt B2, C als den Ab­ leitungen aus Ai und D als Ableitung aus /42 auf der anderen Seite, wobei die  Sonderlesungen jeweils gesperrt hervorgehoben werden; wo die stärksten und  eindeutigsten Abweichungen zwischen Bi, B2, C einerseits und D andererseits  sind, soll dies durch partiellen Paralleldruck kenntlich gemacht werden.</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Werk 1]</bibl>
+               <bibl>[Werk 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

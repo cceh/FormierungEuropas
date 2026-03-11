@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="holtzmann">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Holtzmann, Kanonistische Ergänzungen, S. 164-165, Nr. 224</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2026">Encoding</resp>
+               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Holtzmann, Kanonistische Ergänzungen, S. 164-165, Nr. 224</bibl><bibl type="jaffe">4269</bibl>
+            <bibl>[Weiteres Konkordanzregest]</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>[*+?-]</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>[Ausstellungsort]</placeName><date type="issued">[Ausstellungsdatum]</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p>Leo episcopus servus servorum Dei. Omnibus fidelibus in Christo  per totam Italiani.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+
+         <div>
+            <head>Incipit</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">[Original]</bibl>
+                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
+                  <bibl type="print">[Druck]</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Holtzmann, Kanonistische Ergänzungen, S. 164-165, Nr. 224</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL 4269</bibl>
+               <bibl>JL. 4269. - </bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Das Stück taucht schon in den Kanonessammlungen der  Zeit Gregors VII. auf und steht bei Anselm V 47 (ed. Thaner S. 249), Deus-  dedit III 65 (ed. Wolf von Glanveil S. 295), Bonizo VI 26 (ed. Pereis S. 217),  Ivo Decr. VII 150 (Migne 161, 581) und Pan. II 29 (ebda. S. 1088), nach  Wolf von Glanvell auch in den coll. Tripartita III 11, 10 und Caesaraug.  VII 48. Bei Anselm und Deusdedit lauten Inskription und Datum wie in  Harv., Darm, und Ambr. (s.o.); Bonizo hat das Datum weggelassen, Par. II  hat es erhalten (in allen übrigen Sammlungen fehlt es), dafür die Adresse verkürzt. Die Inskription Dardaniam ist natürlich eine Reminiszenz an die Korrespondenz Leos I., denn Leo IX. hatte mit Serbien nichts zu tun. Die Form des Datums ist für die Zeit Leos IX. nicht kanzleigemäß ; man muß es auf den 20. April 1052 deuten, einen Ostermontag, und auch die Ortsangabe Rom ist unsicher, da in den Urkunden Leos IX. der Ausstellungsort fast nie angegeben wird und das Itinerar des Papstes meist nur aus erzählenden Quellen festgestellt werden kann. Sie fehlen aber für einen Aufenthalt in Rom Ostern 1052, der nur wegen des hohen Festes eine gewisse Wahrscheinlichkeit besitzt. Die Verfügung richtet sich gegen Klöster, welche Laien zum Eintritt ins Kloster und zur Schenkung ihres Besitzes an dieses verführen sive in vita sive in morte, ohne eine Entschädigung an die zuständige Pfarrkirche, und setzt die Hälfte des Besitzes als Abgabe an den Pfarrer fest. Kur hei Bonizo liest man das unbestimmte partem anstelle des sonst überall überlieferten medietatem. Diese Abgabe ist von den Sammlern als Sepulturabgabe aufgefaßt worden. Nun geht in vielen systematischen Sammlungen (und auch in Decr. III 28,1) eine Dekretale Nos instituta voraus, die allgemein Leo III. zugeschrieben wird (JE. 2536). Ich erwähne sie hier, weil sie sich in den verwendeten Bibelzitaten und in manchen Phrasen wörtlich mit JL. 4269 berührt. Sie nennt aber als Sepulturabgabe nur ein Drittel des Besitzes, erwähnt aber die Klöster nicht. Diese Dekretale Nos instituta ist in Par. II52, 2 inscribiert : Leo III. pp. ad Theodorum Lelii forensem ep., ebenfalls eine Reminiszenz an Leo I. (ep. 108 an den Bischof Theodor von Fréjus), in Frcf. 26, 7 aber: ex concilio Meldensi (wozu die Rouener Hs. hinzufügt: vel Leo III.). Weder hei Leo III. noch im Konzil von Meaux 845 ist das Stück zu finden, und mir scheint der rechtliche Sachverhalt auch nicht in die Karolingerzeit zu passen. Ist Nos instituta ein echtes Stück, dann könnte es von Leo IX. wörtlich benutzt sein - ein interessanter Sachverhalt; es könnten aber auch beide von Leo IX. herrühren (wogegen allerdings neben der abweichenden Höhe der Abgabe auch stilistische Unterschiede sprechen). Jedenfalls hat man schon unter Celestin III. nicht mehr gewußt oder beachtet, daß beide Stücke von verschiedenen Päpsten sein sollen, denn er sagt (Decr. III 28, 9, JL. 16941 ; vgl. dazu Studia Gratiana 1, 335 n. 6): super hoc articulo (nämlich die Sepulturabgabe) diversa antecessorum nostrorum manaverint instituta, Leone iustitiam illam quandoque tertiam partem, quandoque vero medietatem et Urbano III. (Decr. III28, 8, hier Nr. 64) quartam fore censentibus. Gratian kannte nur JL. 4269 (dict. post c. 7, C. XIII q. 2). Beiden Stücken gegenüber ist Mißtrauen am Platze.</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Werk 1]</bibl>
+               <bibl>[Werk 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_PUU">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PUU Frankreich NF 9, S. 191-193, Nr. 61</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2026">Encoding</resp>
+               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>PUU Frankreich NF 9, S. 191-193, Nr. 61</bibl><bibl type="jaffe">10474</bibl>
+            <bibl>[Weiteres Konkordanzregest]</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>[*+?-]</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Lateran</placeName><date type="issued" notBefore="1157-02-05" notAfter="1159-02-05">(1157-59) Februar 5.</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p>Hadrian IV. bestätigt Abt 0(do II.) und den Mönchen von Saint-Denis die Urkunde König Roberts (II.) von Frankreich, in der er für sich und seine Nachfolger darauf verzichtet, an Weihnachten, Epiphanie, Ostern und Pfingsten seinen Hoftag in beati Dionisii castello abzuhalten, und das von König Dagobert (I.) gewährte Immunitätsprivileg konfirmiert, ferner den Besitz der Güter, die Matheus Bellus vom Kloster zu Lehen hält, die Kirche Sainte-Croix (in Saint-Denis, Diöz. Paris) und den Zehnten von Vaucresson.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+
+         <div>
+            <head>Incipit</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">Orig.: Arch. nat., L 229 II n. 16 [A], -</bibl>
+                  <bibl type="msCopy">Livre des privilèges s.XIII: ibid., LL 1156 f . 91' (96') [E]. - Cartulaire blanc II s.XIII ex.: ibid., LL 1158 p. 508 n.20 [FJ. - Kopie des Cartulaire blanc II s.XVII: Ver- sailles, Arch. dép. Yvelines, D 518 p. 879 n. 20. - Kopie des Cartulaire blanc VI s. XVII/XVIII: Saint-Denis, Arch. mun., GG 15p. 237 n. 20. - Inventar von 1520: Arch. nat., LL 1187 p. 19. - Inventar von Coignée von 1619: ibid., LL 1188 A f . 7' (zu 1154). - Inventar von Locquet II von 1681: ibid., LL 1188 C f . 233 (aus A). - Inventar von Thomas von 1688: ibid., LL 1189 p. 364 n. 325 (zu ca. 1155). -</bibl>
+                  <bibl type="print">[Druck]</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>PUU Frankreich NF 9, S. 191-193, Nr. 61</bibl>
+               <bibl>Ed.: Doublet p. 504 = Migne 188, 1594 n.216. -</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL 10474</bibl>
+               <bibl>Regesten: Lebel, Catalogue p. 2 n. 10</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Zu den beiden Diplomen Dagoberts und Roberts cf. Levillain, Etudes III, 88-95 sowie Bedos, Châtellenie p. 39s. Bei der Urkunde König Ro- berts handelt es sich um eine Fälschung, die wohl um 1100 entstanden ist. Odo legte auf ihre Bestätigung Wert, da er offensichtlich bestrebt war, sich der Königsgastung zu entziehen. Dafür spricht, daß er zur sel- ben Zeit (1158-59) ein Diplom Ludwigs VII. erwirkte, in dem der König auf sein Herbergsrecht in dem zu Saint-Denis gehörenden Cormeilles-en- Parisis verzichtete (Luchaire, Etudes Louis VIIp. 233 n. 414). - Zum cas- tellum von Saint-Denis siehe jetzt Atlas historique p. 189-192. Die Urkunde Dagoberts, das praeceptum de fugitiuis, ist ein Spurium des 10. Jh. ; cf. Levillain l. c. p. 88. Es bildet ein frühes Gegenstück zu dem 1061/65 verfälschten Privileg des Bischofs Landerich von Paris, das die Geistlichen, die das Kloster Saint-Denis und seine Kirchen in einem genau beschriebenen Gebiet betreuten, von der bischöflichen potestas be- freite; cf. die Urkunde Zacharias' Nr. 1.</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>Zit.: Loewenfeld, Originalurkunden p. 561 ; Schreiber, Kurie II, 259 adn. 2, 261 adn. 2. -</bibl>
+               <bibl>[Werk 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

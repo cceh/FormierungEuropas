@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Anglia Pont. Sub. 1, S. 167, Nr. 219</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2026">Encoding</resp>
+               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Anglia Pont. Sub. 1, S. 167, Nr. 219</bibl><bibl type="jaffe">–</bibl>
+            <bibl>[Weiteres Konkordanzregest]</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>[*+?-]</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Anagni</placeName><date type="issued" notBefore="1176-04-12" notAfter="1176-04-12">(1176) april. 12</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p>Alexander III Gileberto Lundoniensi et Rogero Wigornensi (Worcester) episcopis: iterum mandat, ut, si in causa inter Oseneiam et sanctam Frideswidam de Oxenefor- dia (Oxford) ecclesias super ecclesia sanctae Mariae Magdalenae Oxenefordiae olim in praesentia Eugenii III agitata (n. 51), deinde eisdem iudicibus a se commissa (n. 213) et nunc post appellationem prioris sanctae Mariae de Frideswida (n. *217) et aliam appellationem canonicorum de Oseneia (Oseney, Oxon) contra diem ab illo praefixam (n. *218) eis secundo delegata, olim anterior appellatio per Eugenium III ita fuisset decisa, ut nichil quaestionis tam de proprietate quam de possessione fuisset reservatum, priori et canonicis sancte Frideswidae perpetuum silentium imponatur. - Accepta querela abbatis. (Cum ex querela). Dat. Anagn.2 idusaprilis.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+
+         <div>
+            <head>Incipit</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">[Original]</bibl>
+                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
+                  <bibl type="print">[Druck]</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Anglia Pont. Sub. 1, S. 167, Nr. 219</bibl>
+               <bibl>Insertum in n. 221. - Edd. HoltzmannIII 364 n. 234. H. E. Salter Cartulary of Oseney abbey (Oxford 1929-1936) II 215 n. 782.</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL –</bibl>
+               <bibl>[Regest 2]</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>De re cf. n. ?*32. 51. 213sq. *217sgq. et 220sq.</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Werk 1]</bibl>
+               <bibl>[Werk 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

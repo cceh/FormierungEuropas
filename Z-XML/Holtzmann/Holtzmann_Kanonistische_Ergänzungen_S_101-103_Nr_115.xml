@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="holtzmann">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Holtzmann, Kanonistische Ergänzungen, S. 101-103, Nr. 115</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2026">Encoding</resp>
+               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Holtzmann, Kanonistische Ergänzungen, S. 101-103, Nr. 115</bibl><bibl type="jaffe">13970</bibl>
+            <bibl>[Weiteres Konkordanzregest]</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>[*+?-]</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>[Ausstellungsort]</placeName><date type="issued">[Ausstellungsdatum]</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p>Alexander III. Genuensi ( ?) episcopo.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+
+         <div>
+            <head>Incipit</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">[Original]</bibl>
+                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
+                  <bibl type="print">[Druck]</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Holtzmann, Kanonistische Ergänzungen, S. 101-103, Nr. 115</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL 13970 (a b c), 12411 (d)</bibl>
+               <bibl>It. pont. 6b, 271 n. 25 zu (1159-79). JL. 13970 (a b c), 12411 (d). -  </bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Zum Umfang der Dekretale vgl. Lohmann, Zeitschr. Sav. Stift, f. Rechts-  gesch. kan. Aht. 22, 73. Anfang und Textgestaltung ist sehr bunt: Cum inter  alios, Inter alios oder Ideo inter alios. Besonders problematisch ist jedoch der  Empfänger : in den systematischen Sammlungen liest man durchweg lanuensi oder Genuensi (meist mit Verweis auf die Stammdekretale : p.c. Nos inter  alios), womit die Schreiber sicherlich Genua meinen, aber stets episcopo,  niemals archiepiscopo, wie es heißen müßte, denn Genua war seit 1133 Erz­ bistum. Auch hatte der damals (1175) amtierende Erzbischof Hugo (1163-88)  schwerlich eine Belehrung über die Zweckmäßigkeit eines Rekurses an die  Kurie in Zweifelsfällen nötig, wie man sie hier in der Arenga liest ; stand doch  Alexander III. schon lange mit ihm in vertraulichem Briefwechsel (It. pont.  6'b, 329 n. 32; JL. 11311). Die Dekretale muß auch an einen einfachen Bischof  gegangen sein, denn an zwei Stellen ist von einer Appellation an einen höhe­ ren Richter die Rede: in Teil a: nisi forte super causa ipsa ad superiorem  iudicem duxerit appellandum, und in Teil d : . . . potest sui episcopi iudicium  evitare et ad iudicem superiorem recurrere. Betrachtet man daraufhin das  bunte Bild der Inskriptionen in den älteren primitiven Sammlungen, so  erhebt sich der Verdacht, daß das geläufigere Genua einen weniger bekannten  Namen ersetzt hat, wobei weiterhin zu berücksichtigen ist, daß Formen  mit anlautendem L auf ein Wort mit I am Anfang zurückzuführen sind.  Beobachtet man weiter, daß in den beiden ältesten Sammlungen Ambr. und  Par. II das .G. durch Punkte eingeschlossen ist, also einen Personennamen  bedeuten soll, so ergeben sich für den Versuch der Emendation zwei Möglich­ keiten : entweder an dem G. als Personennamensigle festzuhalten, oder den  Namen einer mit G. anlautenden Bischofsstadt zu suchen, die mit den  übrigen Namensbestandteilen einigermaßen in Einklang zu bringen sind.  Denn leider enttäuschen sowohl Ambr. wie Par. II in dem, was sie sonst noch  an Elementen bieten. Curicen. (Ambros.) kann weder auf Chur (Curien.)  noch Gurk (Gurcen.) gedeutet werden, weil dazu nach den Bischofslisten  die Initiale G. nicht paßt, und dasselbe gilt für das eurien. von Par. II, das  man allenfalls in euorien. — Evora oder aurien. = Orense emendieren  könnte. Eine Emendation andererseits in Gebennen. = Genf verbietet sich  schon deswegen, weil der Bischof Arducius von Genf (1135-85) ein Anhänger  Kaiser Friedrichs I. war. Ich wüßte z.Z. nur zwei Konjekturen vorzu­ schlagen, allerdings nur auf Grund der alten Bischofslisten von Gams:  G(edo) Cracovien. (Krakau, ausgehend von der korrupten Form der Ambr.)  oder G(ervasius) Jaurien. oder Geurien. = Györ. Hierzu würden Formen  wie Giriensi oder Geriensi passen, die sich in Hss. der Frcf. zu 39, 4 finden,  während einige Hss. von A zu Teil a die Lesart. G. eur. bewahrt haben.  Gams verzeichnet den Gervasius zu 1156. 1175; Herr Prof. Elemer Mälyusz  in Budapest macht mich freundlicherweise darauf aufmerksam, daß er nur  für die Jahre 1156-58 nachweisbar sei; der Nachfolger Miculinus wird zu  1176 electus genannt. Nim ist unser Stück nach dem Datumrest in Ambr.,  Par. II. und einigen Hss. von A zu Teil d ein Ferentino ausgestellt, wo Alexander III. vom 25. Oktober 1174 bis 10. Oktober 1175 residierte. Welche  der beiden vorgeschlagenen Konjekturen, Krakau oder Györ, vorzuziehen  ist, wird aus dem Text der prozessuale Fragen behandelnden Dekretale  schwer zu entscheiden sein; unter Genua ist sie jedenfalls zu streichen.</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Werk 1]</bibl>
+               <bibl>[Werk 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

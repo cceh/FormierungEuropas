@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Oriens Pontificus III, S. 227-231, Nr. 84</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2026">Encoding</resp>
+               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Oriens Pontificus III, S. 227-231, Nr. 84</bibl><bibl type="jaffe">–</bibl>
+            <bibl>[Weiteres Konkordanzregest]</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>[*+?-]</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Anagni</placeName><date type="issued" notBefore="1161-01-12" notAfter="1161-01-12">1161 Januar 12.</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p>Alexander III. gibt dem Kloster auf dem Berge Thabor unter dem Abt  Pontius ein feierliches Privileg, mit dem er alle Besitzungen und Rechte bestä-  tig1'<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+
+         <div>
+            <head>Incipit</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">[Original]</bibl>
+                  <bibl type="msCopy">Nur als Auszug und mehrfach als Regest erhalten. Vier Vorlagen sind noch  genauer zu bestimmen, von einer fünften dagegen ist nur die Existenz nachzu­ weisen. Orig. Malta, Papsturkunden, vol. „Alexander“ n. 25 dep. [A], - Insert  in Alexander IV. von 1256 Okt. 3 ebenda, n. 65 [Bx], n. 66 [B2] und Or­ denszentralarchiv, dann Arles [B3], alle verloren. - Sebastiano Paoli, Bul­ larium Melitense s. XVIII vol. I f. 280' aus AlexanderIV. von 1256 Oktober  3 (nur Auszug) „ex orig. n. 62“ Lucca, Biblioteca Statale, mss. 988 [Pj. -  Regest im Inventaire von Manosque a. 1531 f.558 [M^], 572' [M2], 621'  [M3], 623' [M4] und 658 [M5] Marseille, Archives departementales (Bouches-  du-Rhöne), Ordre de Malte 56 H 68. - Regest in Malta vol. 1132 s. XVII ex.  pt. I p. 4—5 n. 1 aus A „n. 25“ [Ma]; p. 22-23 n. 106 aus B} „n. 65“ [Maß];  p. 22—23 n. 107 ex B2 „n.66“ [Ma2]. — Regest in Inventaire Raybaud a. 1741  n. 72 ex B3: a) Aix-en-Provence, Bibliotheque Mejanes, mss. 339 p. 440  [Ra]; b) Arles, Bibliotheque de la Ville, mss. 164 p. 557 [RbJ; c) Marseille,  Archives departementales (Bouches-du-Rhöne), Ordre de Malte 56H77  [Rc]. —</bibl>
+                  <bibl type="print">[Druck]</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Oriens Pontificus III, S. 227-231, Nr. 84</bibl>
+               <bibl>Ed. Delaville, Revue de l’Orient latin 3 (1895) 55 n. 72 aus Rc. Dela­ ville, Cartulaire II825 n. 2830 aus P. — Cit. Delaville, Cartulaire II 904 n. XII  aus P. —</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL –</bibl>
+               <bibl>Regg. Röhricht, Reg. regni Hieros. n. 39 Add. JL. -.</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Die Vielzahl der Überlieferungen rührt einmal davon her, daß wie für alle  feierlichen Privilegien für den Berg Thabor und eine Anzahl der Königs- und  Privaturkunden auch hier das Original (bzw. eine Nachzeichnung) und die  Bestätigung Alexanders IV. vom Oktober 1256 mit dem vollen Insert vorhan­ den war, diese letztere anscheinend in nicht weniger als drei Exemplaren,  während ein Transsumpt aus dem Sommer 1255, das zur Vorbereitung der  Inkorporation des Mons Thabor in den Johanniterorden diente, nicht mit  Sicherheit nachgewiesen werden kann, aber durch M4 repräsentiert sein  dürfte. Da insgesamt fünf Stücke in M ausgewiesen werden, von denen keines  erhalten ist - von den je vier Überlieferungen für Paschalis II. und Eugen III.  sind wenigstens noch je zwei auf uns gekommen -, stellt sich die Frage, ob  etwa zwei verschiedene Urkunden am gleichen Tage ausgestellt worden wa­ ren. Doch hebt auch Ma den besonderen Schutz vor Übergriffen, den man  sonst nach M2 als Inhalt dieser weiteren Verfügung annehmen könnte, im  Anschluß an die Bestätigung des Besitzes hervor, und Ma2 gibt sogar größere  Auszüge dieser Bestimmungen, die offensichtlich die Erweiterungen gegen­ über der Vorurkunde Eugens III. deutlich machen. Ein anderes vorläufig  nicht lösbares Problem stellt der Verweis in Ms auf eine Vorurkunde eines  Papstes ,Gregoyre' für ein Privileg Alexanders III., was nicht möglich ist. Es  bleibt nur die Annahme einer falschen Lesung statt,Eugene' (IIL), wodurch jedoch nicht erklärt ist, weshalb nur er und nicht auch Paschalis II. als Vorur­ kunde angegeben wurde. Gregor IX. scheidet aus, weil das Datum ,1161'  gegeben wird. Ein besonderes Problem für die Überlieferungsgeschichte ergibt sich, weil —  soweit wir bisher feststellen konnten, zum einzigen Mal - die Angaben von  Vol. 1132 und von Paoli über die Signaturen ihrer Vorlagen einander wider­ sprechen. Vol. 1132 führt unter den Urkunden Alexanders IV. die von ihm  vidimierten Stücke für das Kloster wie folgt an: n. 62 Balduin 1. n. 63 Eugen III. n. 64 Paschalis II. n. 65 Alexander III. n. 66 Alexander III. Nach Paoli aber wären: n. 62 Alexander III. n. 63 Balduin I. n. 64 Paschalis II. n. 65 Eugen III. N. 66 erscheint hier überhaupt nicht. Übereinstimmend sind nur die Angaben  für Paschalis II., wenn auch feststehen dürfte, daß im vol. „Alexander“ der  Papsturkunden die n. 62-65 oder 62-66 den im Oktober 1256 zugunsten der  Johanniter ausgestellten Bestätigungen früherer Urkunden des Klosters auf  dem Berge Thabor entsprachen. Mit Hilfe der zum Teil recht ausführlichen Regesten läßt sich der Inhalt des  verlorenen Generalprivilegs wenigstens teilweise rekonstruieren. Leider gibt  Paoli nur den Anfang und verzichtet auf die Besitzliste, weil sie wohl weitge­ hend mit den Vorurkunden Paschalis’ II. (oben Nr. 4) und Eugens III. (oben  Nr. 61) übereinstimmte und zudem nicht die Johanniter selbst, sondern nur  die ihnen inkorporierte Abtei betraf. Das Incipit ist sowohl in Ma als auch in P überliefert. Würde man Delaville  folgen, so ergäbe sich sogleich ein schwieriges Problem, da er für P den Wort­ laut mit Cum ultramarinis per orbem angibt, während es in Ma Cum univer­ sis per orbem lautet. Doch die Angabe Delavilles ist falsch, und P stimmt mit  Ma überein. Jedenfalls scheint die Arenga, gegenüber den Vorurkunden neu  formuliert, in der einen oder anderen Weise nicht mehr die Heilstradition des  Thabors, sondern die weltumspannende Aufgabe oder Stellung der römischen  Kirche oder ihr Wirken für die Kreuzfahrerstaaten hervorgehoben zu haben,  zugleich als ein propagandistischer Beitrag zugunsten der alexandrinischen  Partei im Schisma. Ein weiteres Problem wird durch die widersprüchlichen Datumsangaben  aufgeworfen. Ohne einen weiteren Hinweis konnte Delaville aus dem ihm  allein bekannten P nur durch die Nennung des Abtes Pontius eine Einschrän­ kung auf die Jahre 1159-1163 vornehmen. Doch auch die genaueren Anga­ ben in Ma_s und Ma verwirren vorerst nur. M-. würde wegen der Indiktions-  angabe auf 1160 Januar 12 weisen; M4, Ms und Ma geben jedoch ausdrück­ lich das zweite Pontifikatsjahr, M2 sogar das dritte. Freilich gehört auch die Urkunde Alexanders IV. in das zweite Pontifikatsjahr, daß mit Kontaminatio­ nen zu rechnen ist. Andererseits erwähnen M^s übereinstimmend das Inkar­ nationsjahr 1160, Ma dagegen 1161. Nach den wenigen feierlichen Privile­ gien aus den ersten Jahren Alexanders III. zu schließen, folgte die Kanzlei  damals in der Regel für den Jahresanfang dem Osterstil, so daß das Inkarna­ tionsjahr 1160 der Vorlagen nach heutiger Rechnung 1161 bedeutet, also mit  dem zweiten Pontifikatsjahr übereinstimmt; indictione octava in Mt muß auf  einem Lesefehler, eventuell auf einem Fehler der Vorlage beruhen. Doch die  Datierungsangaben gestatten einen wichtigen Schluß auf die Form der Ur­ kunde. Da M die Inkarnationsjahre nur gibt, wenn sie in der Vorlage selber  stehen — also nicht etwa selbständig Berechnungen anstellt —, müssen alle fünf  Überlieferungen M,~s eine große Datierung aufgewiesen haben, für M} wird  das Vorhandensein von Kardinalsunterschriften fplusieurs signes escriptz,)  noch eigens hervorgehoben. Seine volle Bedeutung erhält das feierliche Privileg Alexanders III. für die  Abtei auf dem Thabor im Zusammenhang mit den äußeren Ereignissen dieser  Jahre. Es stellt den ersten sichtbaren Beweis für die Entscheidung des Ostens  für Alexander III. im Sommer 1160 dar. Gewiß ist es nicht die erste Urkunde,  die von Alexander III. für einen Empfänger im Hl. Land ausgestellt wurde,  denn schon am 15. Oktober 1159 erhielt der Prior Arnold des Hl. Grabes ein  feierliches Privileg (s. oben Nr. 82). Doch Arnald weilte im Augenblick der  folgenschweren Ereignisse nach dem Tode Hadrians IV. schon im Westen und  hatte Syrien verlassen, ehe der Tod Hadrians IV. bekanntgeworden war. Sein  Entscheid für Alexander III. war zwar von einer bemerkenswerten Klarsicht,  aber es war vorerst ein persönlicher Schritt, wenn er auch die Haltung des  Kapitels für die Zukunft präjudizierte. Anders verhielt es sich nun im Jahre  1160. Der Entscheid des Abtes Pontius, sich an Alexander III. zu wenden und  nicht an Viktor IV., war die unmittelbare Folge der ersten Legation des Kar­ dinallegaten Johannes von SS. Giovanni e Paolo und der Versammlung von  Nazareth, die sich im Sommer 1160 gegen die hinhaltende Taktik König  Balduins III. für Alexander III. aussprach. Möglicherweise begleitete Pontius - oder allenfalls sein Bote - den Legaten  nach Italien zurück, falls er nicht der eigentliche Überbringer der Entschei­ dung von Nazareth war. Denn das feierliche Privileg für den Berg Thabor  steht in auffälliger zeitlicher Nähe zu einem wichtigen Schreiben Alexan­ ders III. im Kampf um seine Anerkennung. Am 12. Januar 1161 erhielt Abt  Pontius sein Privileg, am 20. Januar schrieb Alexander III., stolz auf die  Anerkennung durch den Osten, Spanien, Frankreich und England hinwei­ send, an seinen treuen Anhänger in Deutschland, den Erzbischof Eberhard  von Salzburg (JL. 10645). Unter den Schreiben, die er als Beweis und als  Propagandahilfe in Kopie beilegte, befand sich, wie wir bereits gesehen ha­ ben, auch das Schreiben des Patriarchen Amalrich von Jerusalem (s. Nr. 83). Das feierliche Privileg Alexanders III. ist das letzte bekannte für die Abtei;  abgesehen von einer weiteren verlorenen Urkunde Alexanders III. (vgl. unten  Nr. 123); in den fast hundert Jahren ihrer weiteren Existenz als selbständige Körperschaft bis zur Inkorporation in den Johanniterorden im Jahre 1255 ist  es von Nr. 123 abgesehen die letzte Papsturkunde überhaupt. Es folgen sämtliche Auszüge und Regesten.</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Werk 1]</bibl>
+               <bibl>[Werk 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

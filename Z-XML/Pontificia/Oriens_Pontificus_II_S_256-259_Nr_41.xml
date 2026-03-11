@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Oriens Pontificus II, S. 256-259, Nr. 41</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2026">Encoding</resp>
+               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Oriens Pontificus II, S. 256-259, Nr. 41</bibl><bibl type="jaffe">–</bibl>
+            <bibl>[Weiteres Konkordanzregest]</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>[*+?-]</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Tuscolo</placeName><date type="issued" notBefore="1179-01-01" notAfter="1181-01-01">(1179-81) Januar 1.</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p>Alexander III. bestätigt dem Meister und den Brüdern des Hospitals die  Schenkung des Casale Betheras durch die Gräfin Konstanze von St.-Gilles,  die Tochter Ludwigs VI. von Frankreich, die sich gleichzeitig dem Hospital  affiliierte.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+
+         <div>
+            <head>Incipit</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">Orig. La Valletta, Archives of the Order of St. John, vol. „Alexander n.31 “,  verloren [AJ. — Orig, oder Kopie einst im Ordensarchiv von Manosque,  dann in Arles verloren [A2J. -</bibl>
+                  <bibl type="msCopy">Kopie s. XIII La Valletta, Archives of the  Order of St. John, vol. 46 n. 12 [B], — Abschrift s. XVIII Seb. Pauli, Bulla­ rium Melitense vol. I p. 61 Lucca, Biblioteca Statale, mss. 988 aus A-, [PJ. -  Regest im Inventaire von Manosque a. 1531 f. 171 aus A2, f. 568' aus B,  f.637' aus A2 Marseille, Archives departementales (Bouches-du-Rhöne),  Ordre de Malte 56 H 68. - Regest im Inventaire Raybaud a. 1741 n. 101 ohne  Jahresangabe aus A2: a) Aix-en-Provence, Bibliotheque Mejanes, mss. 339  (859) p. 454; b) Arles, Bibliotheque de la Ville, mss. 164 p. 569; c) Marseille, Archives departementales (Bouches-du-Rhöne) Ordre de Malte 56H77 [RJ.  —</bibl>
+                  <bibl type="print">[Druck]</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Oriens Pontificus II, S. 256-259, Nr. 41</bibl>
+               <bibl>Edd. Delaville, Revue de l’Orient latin 3 (1895) 59 n. 101 aus Rc. Delaville,  Cartulaire 1377 n. 557 (ohne das Insert) aus B und P. -</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL –</bibl>
+               <bibl>Regg. Röhricht, Reg.  regni Hieros. n. 570a. JL. —.</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Das Insert ist überliefert: Orig. La Valletta, Archives of the Order of  St.John, vol.3 n.7 verloren [A'f. - Orig, oder Kopie einst im Ordensarchiv  von Manosque, dann in Arles verloren [Af]. - Kopie s. XIII La Valletta,  Archives of the Order of St. John, vol. 46 n. 12 [B'f - Abschrift s. XVIII  Seb. Pauli, Bullarium Melitense vol. III p. 25 (dritte Zählung) Lucca, Biblio­ teca Statale, mss. 990 aus A' [P'J. - Regest im Inventaire von Manosque  a.1531 f.293 aus Af, f.371' aus A' Marseille, Archives departementales  (Bouches-du-Rhöne), Ordre de Malte 56H68. - Regest im Inventaire Ray-  baud a. 1741 n.100 zu 1173: a) Aix-en-Provence, Bibliotheque Mejanes,  mss. 339 (859) p.454; b) Arles, Bibliotheque de la Ville, mss. 164 p. 569;  c) Marseille, Archives departementales (Bouches-du-Rhöne), Ordre de Malte  56H77 [R'J. — Edd. Pauli, Codice diplomatico I (Lucca 1733) 52 n. 52 aus  A'. Vaissette, Histoire de Languedoc 2VIII (Toulouse 1879) 299 n. 17 aus  Af [V], Taaffe, The History of St.John of Jerusalem IV (London 1852) app.  no. XLIII aus Pauli. Delaville, Revue de l’Orient latin 3 (1895) 58 n. 100 zu  1178—79 aus R'. Delaville, Cartulaire I 373 n. 551 zu 1178—79 aus Pauli. -  Regg. Herquet, Chronologie der Grossmeister des Hospitalordens während  der Kreuzzüge (Berlin 1880) p.12. Röhricht, Reg. regni Hieros. n.503 zu  1173. Das Datum der inserierten Schenkung ist wegen der Nennung des Meisters  Roger de Molinis, der erst 1177 seinem Vorgänger Josbert folgte, sicher nicht  in Ordnung, obwohl alle Überlieferungen das Jahr 1173 geben. Am ehesten  ist in 1178 zu emendieren; ob die päpstliche Bestätigung dann in das Jahr 1179  oder 1181 fällt -1180 scheidet vom Itinerar her aus -, bleibt offen. Konstanze  schenkte in den gleichen Jahren, nämlich 1172, den Templern ihr Haus de  Campellis, ed. Tardif, Monuments historiques (Paris 1866) p.317 n.640. Das in La Valletta liegende Original vol. 3 n. 9 ist nicht mit A' identisch,  wie Delaville, Cartulaire a. a. O. behauptet, sondern stellt das von den Johan­ nitern zugunsten Konstanz.es ausgestellte Gegenstück dar, das vermutlich nach  ihrem Tode an das Hospital zuriickkam. Der bisher unbekannte Text wird  in anderem Zusammenhang herausgegeben werden. B und B' stehen auf einem Blatt, das zuerst den Text Alexanders III. mit  dem Insert, dann denjenigen Konstanzes allein enthält.</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Werk 1]</bibl>
+               <bibl>[Werk 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

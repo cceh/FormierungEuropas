@@ -1,41 +1,49 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="dolle"> <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="dolle">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+            <title>Dolle, Papsturkunden, S. 211–213, Nr. 96</title>
             <respStmt>
                <resp>Datenquelle</resp>
                <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
             </respStmt>
-           <respStmt>
-              <resp when="2024">Encoding:</resp>
-              <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
-           </respStmt>
+            <respStmt>
+               <resp when="2026">Encoding</resp>
+               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
-            <idno>Dolle, Papsturkunden, S. 211–213, Nr. 96</idno><availability>
+            <availability>
                <licence>Lizenz</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
             <bibl>Dolle, Papsturkunden, S. 211–213, Nr. 96</bibl><bibl type="jaffe">10407</bibl>
+            <bibl>[Weiteres Konkordanzregest]</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
-               <issued>
-                  <placeName>Lateran</placeName>
-                  <date type="issued" notBefore="1158-05-11" notAfter="1158-05-11">[1158] Mai 11</date> <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               <p><authen type="formula" n="na">
+                     <p>+</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Lateran</placeName><date type="issued" notBefore="1158-05-11" notAfter="1158-05-11">[1158] Mai 11</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Issuer]</legalActor></p>
-               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">[Typisierung 1]</objectType></p> <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
                <p><objectType n="">[Typisierung 2]</objectType></p>
-<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
-            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
          </sourceDesc>
       </fileDesc>
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
-      <profileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
          <langUsage>
             <language ident="ger">German</language>
             <language ident="lat">Latin</language>
@@ -45,40 +53,36 @@
    </teiHeader>
    <text>
       <body>
-         <div type="abstract"><head>Abstract:</head>
+         <div type="abstract">
+            <head>Abstract</head>
             <p>Papst Hadrian IV . nimmt das Stift Fischbeck in den apostolischen Schutz, bestätigt seinen Besitz, gewährt das Begräbnisrecht für Adlige beiderlei Geschlechts, verbietet, das Stift als Lehen zu vergeben, stellt es unter den Schutz der Päpste, Kaiser und Könige, bestimmt, dass nur Mitglieder des Stifts dort Wohnung nehmen dürfen, unterstellt es der päpstlichen Jurisdiktion und verbietet allen Bischöfen, ohne Zustimmung der Äbtissin dort Messen zu lesen.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
-         <div type="other">
-            <head>Echtheitskriterien: </head>
-            <authen type="formula" n="na"><p>+</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen>
-         </div>
+
          <div>
-            <head>Incipit:</head>
+            <head>Incipit</head>
             <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
          </div>
          <div>
-            <head>Subscriptiones:</head>
-            <diploPart type="subscriptio">
-               <list>
-                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
-               </list>
-            </diploPart>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+               </list></diploPart>
          </div>
          <div>
-            <head>Datatio:</head>
+            <head>Datatio</head>
             <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
          </div>
          <div type="msSources">
-             <head>Frühester Überlieferungsträger</head>
+            <head>Frühester Überlieferungsträger</head>
             <div>
-            <listBibl>   
-               <bibl type="original">Ausfertigung: StiftsA Fischbeck, Urkunde Nr. 4. ( A ). Pergament, italienisch, 30-30,5 × 42,1-42,5 (3,3-3,4). Rota wie Nr. 93 . Bulle ab; Reste von Fäden. Rückvermerk (weitgehend unleserlich): Privi- legium exeq[..... V]isbeke mon[aster…] .</bibl>
-               <bibl type="msCopy">Abschrift: LA NRW , Abteilung Westfalen, Msc. VII Nr. 6810 fol. 9 r -9 v ( B ).</bibl>
-               <bibl type="print">Drucke: Würdtwein, Subsidia diplomatica VI S. 334-337. – PL 188, Sp. 1565 f. Nr. 186. – Westfälisches UB V Nr. 117. – Krumwiede, Stift Fischbeck S. 132 f. Nr. 5. – UB Fischbeck Nr. 25. Teildruck: Hiestand, Privileg Hadrians IV . S. 102 f.</bibl>
-            </listBibl>
-         </div>
+               <listBibl>
+                  <bibl type="original">Ausfertigung: StiftsA Fischbeck, Urkunde Nr. 4. ( A ). Pergament, italienisch, 30-30,5 × 42,1-42,5 (3,3-3,4). Rota wie Nr. 93 . Bulle ab; Reste von Fäden. Rückvermerk (weitgehend unleserlich): Privi- legium exeq[..... V]isbeke mon[aster…] .</bibl>
+                  <bibl type="msCopy">Abschrift: LA NRW , Abteilung Westfalen, Msc. VII Nr. 6810 fol. 9 r -9 v ( B ).</bibl>
+                  <bibl type="print">Drucke: Würdtwein, Subsidia diplomatica VI S. 334-337. – PL 188, Sp. 1565 f. Nr. 186. – Westfälisches UB V Nr. 117. – Krumwiede, Stift Fischbeck S. 132 f. Nr. 5. – UB Fischbeck Nr. 25. Teildruck: Hiestand, Privileg Hadrians IV . S. 102 f.</bibl>
+               </listBibl>
+            </div>
          </div>
          <div type="decretals">
             <head>Dekretalen</head>
@@ -88,7 +92,7 @@
             </listBibl>
          </div>
          <div type="historiography">
-            <head>Erwähnungen in der Historiographie</head>
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
                <bibl>[Quelle 1]</bibl>
                <bibl>[Quelle 2]</bibl>
@@ -102,11 +106,17 @@
             </listBibl>
          </div>
          <div type="regesta">
-            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <head>Regesten</head>
             <listBibl>
                <bibl>JL 10407</bibl>
                <bibl>Regesten: J Nr. 7043. – JL Nr. 10407. – GP IX / III S. 185 f. Nr. † 14. – Ortmanns, Bistum Minden S. 146 Nr. 11. Abbildungen: Diplomatischer Apparat der Universität Göttingen, Schublade Papsturkunden. – Licht- bildarchiv Marburg, Zugangsnummer 15031. – Goetting, Privileg Hadrians IV . Tafel 1. Datiert nach der Indiktion.</bibl>
             </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
+            </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
@@ -115,12 +125,13 @@
          <div type="bibliography">
             <head>Bibliographie</head>
             <listBibl>
-               <bibl>[Weitere Referenzen als listBibl]</bibl>
+               <bibl>[Werk 1]</bibl>
+               <bibl>[Werk 2]</bibl>
             </listBibl>
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter" lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt werden]</p><p>x x x Adrianus episcopus servus servorum dei dilecte filie Demodi Visbikensi abbatisse et aliis cum ea canonicam vitam professis in perpetuum. x x x Pie postulatio voluntatis ef- fectu debet prosequente compleri, quatinus et devotionis sinceritas laudabiliter eni- tescat et utilitas postulata vires indubitanter assumat. Eapropter, dilecta in Christo filia, devotionem, quam erga sedem apostolicam geris, diligencius attendentes mona- sterium, in quo divino mancipate estis obsequio, sub beati Petri et nostra protectio- ne suscipimus et presentis scripti privilegio communimus statuentes, ut quascumque possessiones, quecumque bona idem monasterium in presenciarum iuste et canonice possidet aut in futurum concessione pontificum, largicione regum vel principum, oblacione fidelium seu aliis iustis modis deo propicio poterit adipisci, firma vobis et hiis, que post vos successerint , et illibata permaneant. Cui etiam indifferentem sepultu ram nobilium utriusque sexus et usui vestro et earum, que canonice vobis successerint, auctoritate nostra concedimus. Sanctimus quoque, ut ipsum monaste- rium nulli omnino persone in beneficium quibuslibet occasionibus aliquando conce- datur, set semper sub protectione Romanorum pontificum atque imperatorum vel regum defensione permaneat. Preterea constituimus, ut infra ambitum edificiorum vel sepium memorati monasterii nemo clericorum vel laicorum iure proprietatis vel beneficii mansionem aliquam ullo tempore habeat, set totus loci ipsius ambitus abbatisse, sororum et aliarum religiosarum personarum usibus et habitacionibus pateat. Prohibemus autem, ut in eodem monasterio nulli episcoporum preter Roma- num pontificem liceat quamlibet iurisdictionem habere, ita ut, nisi ab abbatissa ipsius monasterii fuerit invitatus, nec missarum sollepnia ibidem celebrare presu- mat. Ut igitur hec omnia, que supradiximus, plenum inposterum robur obtineant, tam vobis quam his, que post vos successerint, favoris nostri auctoritate firmamus. Decernimus ergo, ut nulli omnino hominum liceat prefatum monasterium temere perturbare aut eius possessiones auferre vel ablatas retinere, minuere aut aliquibus vexationibus fatigare, set omnia integra conserventur harum, pro quarum guberna- cione et sustentacione concessa sunt usibus omnimodis profutura, salva sedis aposto- lice auctoritate et diocesani episcopi canonica iustitia. Siqua igitur in futurum eccle- siastica secularisve persona hanc nostre constitucionis paginam sciens contra eam venire temptaverit, secundo terciove commonita, si non satisfactione congrua emen- daverit, potestatis honorisve sui dignitate careat reamque se divino iudicio existere de perpetrata iniquitate cognoscat et a sacratissimo corpore et sanguine dei et domini redemptoris nostri Iesu Christi aliena fiat atque in extremo examine districte ultioni subiaceat. Cunctis autem eidem loco iusta servantibus sit pax domini nostri Iesu Christi, quatinus et his fructum bone actionis percipiant et apud districtum iudicem premia eterne pacis inveniant. Amen. Amen. Ego Adrianus catholice ecclesie episcopus subscripsi. Ego Hupaldus presbyter cardinalis sancte Praxedis. † Ego Adelbertus presbyter cardinalis sancti Adriani. † Data Laterani per manum Rolandi cancellarii, V idus maii, indictione VI , anno ponti ficatus Adriani III .</p>
+            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p><p>x x x Adrianus episcopus servus servorum dei dilecte filie Demodi Visbikensi abbatisse et aliis cum ea canonicam vitam professis in perpetuum. x x x Pie postulatio voluntatis ef- fectu debet prosequente compleri, quatinus et devotionis sinceritas laudabiliter eni- tescat et utilitas postulata vires indubitanter assumat. Eapropter, dilecta in Christo filia, devotionem, quam erga sedem apostolicam geris, diligencius attendentes mona- sterium, in quo divino mancipate estis obsequio, sub beati Petri et nostra protectio- ne suscipimus et presentis scripti privilegio communimus statuentes, ut quascumque possessiones, quecumque bona idem monasterium in presenciarum iuste et canonice possidet aut in futurum concessione pontificum, largicione regum vel principum, oblacione fidelium seu aliis iustis modis deo propicio poterit adipisci, firma vobis et hiis, que post vos successerint , et illibata permaneant. Cui etiam indifferentem sepultu ram nobilium utriusque sexus et usui vestro et earum, que canonice vobis successerint, auctoritate nostra concedimus. Sanctimus quoque, ut ipsum monaste- rium nulli omnino persone in beneficium quibuslibet occasionibus aliquando conce- datur, set semper sub protectione Romanorum pontificum atque imperatorum vel regum defensione permaneat. Preterea constituimus, ut infra ambitum edificiorum vel sepium memorati monasterii nemo clericorum vel laicorum iure proprietatis vel beneficii mansionem aliquam ullo tempore habeat, set totus loci ipsius ambitus abbatisse, sororum et aliarum religiosarum personarum usibus et habitacionibus pateat. Prohibemus autem, ut in eodem monasterio nulli episcoporum preter Roma- num pontificem liceat quamlibet iurisdictionem habere, ita ut, nisi ab abbatissa ipsius monasterii fuerit invitatus, nec missarum sollepnia ibidem celebrare presu- mat. Ut igitur hec omnia, que supradiximus, plenum inposterum robur obtineant, tam vobis quam his, que post vos successerint, favoris nostri auctoritate firmamus. Decernimus ergo, ut nulli omnino hominum liceat prefatum monasterium temere perturbare aut eius possessiones auferre vel ablatas retinere, minuere aut aliquibus vexationibus fatigare, set omnia integra conserventur harum, pro quarum guberna- cione et sustentacione concessa sunt usibus omnimodis profutura, salva sedis aposto- lice auctoritate et diocesani episcopi canonica iustitia. Siqua igitur in futurum eccle- siastica secularisve persona hanc nostre constitucionis paginam sciens contra eam venire temptaverit, secundo terciove commonita, si non satisfactione congrua emen- daverit, potestatis honorisve sui dignitate careat reamque se divino iudicio existere de perpetrata iniquitate cognoscat et a sacratissimo corpore et sanguine dei et domini redemptoris nostri Iesu Christi aliena fiat atque in extremo examine districte ultioni subiaceat. Cunctis autem eidem loco iusta servantibus sit pax domini nostri Iesu Christi, quatinus et his fructum bone actionis percipiant et apud districtum iudicem premia eterne pacis inveniant. Amen. Amen. Ego Adrianus catholice ecclesie episcopus subscripsi. Ego Hupaldus presbyter cardinalis sancte Praxedis. † Ego Adelbertus presbyter cardinalis sancti Adriani. † Data Laterani per manum Rolandi cancellarii, V idus maii, indictione VI , anno ponti ficatus Adriani III .</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>

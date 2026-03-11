@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_PUU">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PUU Frankreich AF 6, S. 57-61, Nr. 24</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2026">Encoding</resp>
+               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>PUU Frankreich AF 6, S. 57-61, Nr. 24</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
+            <bibl>[Weiteres Konkordanzregest]</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>[*+?-]</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Rom, St. Peter</placeName><date type="issued" notBefore="1154-12-26" notAfter="1154-12-26">1154 Dezember 26.</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p>Hadrian IV. nimmt den Bischof Gerald von Limoges und seine  Nachfolger in den apostolischen Schutz und bestätigt ihnen die Be- sitzungen und einen von Bischof Petrus von Limoges mit dem Prior Petrus und den Kanonikern von Saint-Leonard mit Zustimmung der  beiden Kapitel geschlossenen Vertrag.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+
+         <div>
+            <head>Incipit</head>
+            <diploPart type="incipit" xml:lang="lat">redditibus eorundem canonicorum possidebantur, amodo proprie et  sine calunpnia aliqua sint canonicorum. Decreuit preterea ut omnes  oblaciones fidelium que ad altare beati Leonardi oblate fuerint,  siue ad cathenam siue ad preciosissimi confessoris fenestram se- pulcri proprie sunt episcopi, excepta medietate oblationum ad ma- num sacerdotis datarum, tantum dum missas celebrauerit, que me- dietas erit propria canonicorum, nisi forte unus aut duo aut tres  tantum nummi ad missam canonicorum offerentur, qui proprii erunt  canonicorum.  Cera autem in quocumque loco ecclesie sancti Leo- nardi et in quocumque tempore oblata fuerit, erit propria episcopi,  ita tarnen ut per sacristitem episcopi supradictis canonicis lumen  necessarium ad seruicium ecclesie et unaquaque nocte in eorum  dormitorio una candela tribuatur. Altare eciam ubi crucifìxus adest,  sit inter episcopum et canonicos et quicquid in eo et super illud  oblatum fuerit, inter episcopum et canonicos pariter diuidatur. Se- pulcrum autem quod est extra ecclesiam, in perpetuum erit pro- prium canonicorum, sed et de tabulis numulariorum tali modo  sanxitum est, ut retento dominio episcopali censualis redditus earum  tametsi augmentari possit, equa manu inter episcopum et cano- nicos diuidatur; insuper eciam medietas bestiarum siue omnium  que pro bestiis ad sanctum ßernardum aíferentur, canonicis sancti  Leonardi concessa sunt.  Decreuit ergo ut et illi qui sub canoni- corum nomine eiusdem ecclesie bona interius et exterius possident,  omnino ad communem usum dimittant. De prebendis eciam statuit  et tarn ipse quam canonici sancti Leonardi unanimiter concesserunt,  ut omnium illorum qui ad conuersionem ad canonicos eosdem col- lati fuerint res mobiles uniuerse, que per conuersos siue propter  eosdem canonicis supradictis acommodabuntur, equaliter inter epis- copum et canonicos diuidantur, immobiles autem tantum erunt ca- nonicorum. Ymmo eciam communi consensu statutum est, ut prior  tarn superstes quam sustituendi professionem et fìdelitatem faciant  episcopo Lemouicensi, ceteri uero canonici tam presentes quam fu- turi communem professionem faciant episcopo et priori, ita ut cum  priori libuerit, professionem de clericis suis accipiat nominato no- mine episcopi, si presens fuerit in ecclesia Lemouicensi siue absens.  De canonicis in ecclesia sancti Leonardi ponendis in arbitrio et  uoluntate sit prioris iuxta possibilitatem ecclesie tali quidem te- nore, ut quicquid de canonicis siue de conuersis in rebus immo- bilibus acquiri poterit, erit proprium canonicorum, rerum autem  mobilium omnium medietas erit canonicorum et altera medietas  integre erit episcopi.  Cum autem sedes Lemouica^ uacans fuerit,  b) sie.</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">[Original]</bibl>
+                  <bibl type="msCopy">Cartulaire „ Tuae hodie F" de l`evêché de Limoges von 1427 f. 65'  Limoges Arch. Dép. (Evêché de Limoges Gr. 11).</bibl>
+                  <bibl type="print">[Druck]</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>PUU Frankreich AF 6, S. 57-61, Nr. 24</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>[Regest 1]</bibl>
+               <bibl>[Regest 2]</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>[Kommentare zur Identifizierung von Personen, Institutionen und Orten, zu Vor- und Nachurkunden, Konfliktverläufen etc. Literaturnageben (bibl) sind zulässig]</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>Zitiert Oroux Histoire de la vie et du culte de Saint-Léonard du  Limosin (Paris 1760) p. 222.  Vgl. Ms. lat. 17118 p. 491 Paris Bibl.  Nat.</bibl>
+               <bibl>[Werk 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

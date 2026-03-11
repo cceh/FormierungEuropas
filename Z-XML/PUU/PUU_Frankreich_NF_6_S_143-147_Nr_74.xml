@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_PUU">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PUU Frankreich NF 6, S. 143-147, Nr. 74</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2026">Encoding</resp>
+               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>PUU Frankreich NF 6, S. 143-147, Nr. 74</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
+            <bibl>[Weiteres Konkordanzregest]</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>[*+?-]</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Benevent</placeName><date type="issued" notBefore="1156-04-04" notAfter="1156-04-04">1156 April 4. </date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p>V er fälscht. Hadrian  IV. nimmt das Kloster Ferneres unter dem Abt Rainard  nach dem Vorgang Eugens III. gegen einen in jedem dritten Jahr zu zahlen- den Zins von einer Goldunze in Schutz und bestätigt die Besitzungen, Rechte  und Freiheiten. <list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+
+         <div>
+            <head>Incipit</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">[Original]</bibl>
+                  <bibl type="msCopy">Vidimus von 1383 II 7 Sens Arch. mun., G 59 n. 1 [B].</bibl>
+                  <bibl type="print">[Druck]</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>PUU Frankreich NF 6, S. 143-147, Nr. 74</bibl>
+               <bibl>Ed. Annales de la Soc. hist. et archéol. du Gâtinais 18 (1900) 242 Nr. 10 - E.Jarossay, Ferrières-en-Gâtinais (Orleans 1901 ) S. 458 Nr. 10.</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>[Regest 1]</bibl>
+               <bibl>[Regest 2]</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Erweiterung der Vorurkunde Eugens III. J.-L. 9030. Das Original,  das nach Jarossay sich im Departementalarchiv zu Orleans befinden soll,  ist dort nicht vorhanden. Der höchst mangelhafte Druck aber zeigt ganz klar,  daß Jarossay nicht das Original vorgelegen haben kann, sondern daß B seine Quelle gewesen ist, genau so übrigens bei dem Diplom Philipps I.  vom 18. März 1070 ed. M. Prou, Recueil des actes de Philippe Ier roi de  France (Paris 1908) S. 137 Nr. 51 (vgl. ebenda S. 137 Anm. 3). Durch  dieses Privileg und Nr. 73 wird auch der Brief Hadrians IV. J.-L. 10164  dem 4. April 1156 zugewiesen, wo das überlieferte XVII non. aprilis. in II  non. aprilis zu emendieren ist. Das Privileg ist, wie die Klammern zeigen,  an mehreren Stellen interpoliert. Schon sprachlich stören die Einschübe so  empfindlich den gewohnten Rhythmus, daß der Interpolator sich deutlich  verrät. Mit den fälschenden Zusätzen beabsichtigte man in Ferneres zweierlei :  Erstens wollte man die Stellung des Abtes von Ferneres gegenüber dem  Erzbischof von Sens noch stärker herausstellen, indem man die Weihe des  Abtes durch den Papst und für die hl. Öle sowie die Erteilung der Weihen die  Wahl eines beliebigen Bischofs vorsah. Dem Papst sollte auch das Urteil  über den Abt zustehen, wenn er einmal eines Verbrechens angeklagt werden  sollte. Zweitens wollte man die besonderen Vorrechte von Ferneres durch ein  Papstprivileg sichern, die man z. T. bereits durch ein Diplom des Königs  Ludwigs VI. von Frankreich aus dem Jahre 1132 (Reg. A. Luchaire, Louis  VI le Gros [Paris 1890] S. 230 Nr. 500; auch ed. Annales de la Soc. hist.  et arch. du Gâtinais 18 [1900] 236 Nr. 7 = Jarossay, Hist. de Ferrières- en-Gâtinais S. 452 Nr. 7) erlangt hatte. Der Abschnitt Nec abbas -  exigere stammt nun fast wortwörtlich aus dem genannten Diplom Ludwigs  VI. Der Name des Königs wird aber in dem päpstlichen Privileg gar nicht  erwähnt. Das widerspricht aber so sehr den Bräuchen der päpstlichen  Kanzlei im 12. Jahrhundert, daß die Interpolation dieser Sätze ganz offen- kundig ist. Damit aber werden die anderen Sätze, die die Freiheit der Bürger  und Leute von Ferneres von anderen Gerichten, die Freiheit des Klosters  von Abgaben, den Markt zum Peter- und Paulsfest usw. betreffen, auch  nicht glaubwürdiger. Ich rechne sie deshalb ebenfalls zu den Einschüben  des Interpolators, dessen Arbeit wohl noch in die zweite Hälfte des 12. Jahr- hunderts fällt. Daß meine Beurteilung der vorliegenden Urkunde richtig ist,  ergibt sich auch aus zwei anderen päpstlichen Privilegien, deren voller Wort- laut leider nicht mehr erhalten ist. Soweit die knappen Randbemerkungen  im Ms. lat. 12778 f. 86 (s. oben S. 14) gestatten, war es je ein Privileg  Anastasius' IV (s. S. 145 Anm. 2) und Alexanders III. (s. S. 145 Anm.  2 und 3).  Beide bieten Erweiterungen der Besitzliste gegenüber Eugen  III. J.-L. 9030, die auch z.T. in unserem Privileg vorkommen. Außerdem  bringt das Privileg Alexanders III. eine Inhaltsangabe des Vorrechtes betr.  Chrisma usw., die das übliche Formular verrät. Das Privileg Anastasius' IV.  wiederholte also bis auf eine einzige Erweiterung die Vorurkunde Eugens III.  J.-L. 9030, während das Privileg Alexanders III.  bis auf eine kleine  Änderung und eine kurze Erweiterung in der Besitzliste die Urkunde  Hadrians IV. in der nichtinterpolierten Fassung bestätigte und die Freiheit  der Wahl der Konsekratoren hinzuverlieh. Die Zinsleistung entspricht -  von einer Umstellung und einigen kleinen Änderungen abgesehen - den  Angaben des Liber censuum ed. P. Fabre-L. Duchesne (Paris 1910) I  190 und II 119. </p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>Zit. W. Wiederhold, Papsturkunden in Frankreich V 17 Anm. 5 zu April 3.</bibl>
+               <bibl>[Werk 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

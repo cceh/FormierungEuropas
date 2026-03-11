@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="holtzmann">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Holtzmann, Kanonistische Ergänzungen, S. 94-95, Nr. 105</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2026">Encoding</resp>
+               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Holtzmann, Kanonistische Ergänzungen, S. 94-95, Nr. 105</bibl><bibl type="jaffe">13787</bibl>
+            <bibl>[Weiteres Konkordanzregest]</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>[*+?-]</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>[Ausstellungsort]</placeName><date type="issued">[Ausstellungsdatum]</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p>Alexander III. W. ( ?) Brixiensi episcopo.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+
+         <div>
+            <head>Incipit</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">[Original]</bibl>
+                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
+                  <bibl type="print">[Druck]</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Holtzmann, Kanonistische Ergänzungen, S. 94-95, Nr. 105</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL 13787</bibl>
+               <bibl>It. pont. 6a, 312 n. 13 (Brescia ep.), 7a, 227 n. 42 (Verona ep.) u. 290  n. 17 (Verona civ.) zu (1179-81). JL. 13787. - </bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Berol., Roff., Font. II 29 und  Reg. haben nur gekürzte Texte; in Cc. 93 Bc ist der letzte Satz von Sane  quod dominus in evangelio ab an Teile der Dekretale In litteris quas JL. 14219  (vgl. hierzu einstweilen Lohmann in Zeitschr. Sav. Stift. Rechtsgesch., kan.  Abt. 22, 76f.) angehängt. Gegen die Datierung Kehrs (1179-81) hat Heyer,  Ardi. kath. Kirchenrecht 95 (1915) 357 f. wegen des Vorkommens der Dekre­ tale in alten Sammlungen, von denen mindestens Cc. vor 1179 entstanden sei,  Einwendungen erhoben. Durchschlagender scheint es mir zu sein, daß schon  Simon von Bisignano den Brief zitiert, vgl. Zeitschr. Sav. Stift. Rechts­ gesch., kan. Abt. 16, 49. Aber sicher ist auch dieses Kriterium nicht. Kehr  hat It. pont. 7a, 290 n. 17 auf ein anderes Mandat an den Erzpriester Siche-  rius und den Prior von S. Giorgio in Braida hingewiesen (It. pont. 7a, 289 n.  13 = 262 n. 9), in dem wie in unserem die Ehesache eines A. und einer R.  behandelt wird, nach dem sie schon einmal - wie auch in unserem Text -  dem Bischof von Verona aufgetragen war. Dieses Ehepaar heißt nach den  älteren und besseren Hss. unseres Textes Agolantes (oder Agolans, es kommt  nur die Akkusativform vor) und Mathia, kann also schwerlich mit dem Paar  A. und R. in It. pont. 7a, 262 n. 9 von (1173-76) mai. 30 identifiziert werden,  womit ein terminus post quem wegfällt. Nun liest man aber in der Adresse  in Dert. I und Vict. I noch die Namenssigle W; sie hilft aber auch nicht  weiter, denn weder in der Bischofsliste von Brescia noch der von Brixen  - woran man wegen der oft korrupten Form des Stadtnamens auch denken  könnte - kommt ein Bischof mit diesem Anfangsbuchstaben in der fraglichen  Zeit vor, es sei denn, man schöbe ihn in Brescia ein. Dort starb nach F. Savio,  Gli antichi vescovi d’Italia, Lombardia II 1 (1929) 233 der Bischof Rai-  mundus am 12. August 1173; sein Nachfolger Iohannes kommt zuerst 1174  Juni 2 vor. Aber auf Grund einer so unsicheren Überlieferung einen neuen  Bischof von Brescia zu kreieren, wage ich doch nicht, so schön er dem Be­ dürfnis, die Dekretale früher anzusetzen, entsprechen würde. So bleibt nur  der Ansatz zu (1159-79), für den ich aber den Kanonisten die Verantwortung  überlassen muß.</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Werk 1]</bibl>
+               <bibl>[Werk 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

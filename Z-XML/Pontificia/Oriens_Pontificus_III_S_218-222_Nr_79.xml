@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Oriens Pontificus III, S. 218-222, Nr. 79</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2026">Encoding</resp>
+               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Oriens Pontificus III, S. 218-222, Nr. 79</bibl><bibl type="jaffe">–</bibl>
+            <bibl>[Weiteres Konkordanzregest]</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>[*+?-]</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Laterano</placeName><date type="issued" notBefore="1158-04-30" notAfter="1158-04-30">1158 April 30.</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p>Hadrian IV. nimmt das Kloster S. Maria Latina unter dem Abt Amelius unter  den apostolischen Schutz und bestätigt die Benediktinerregel, die namentlich  aufgeführten Besitzungen, Abgabenfreiheit, gewährt die Befreiung vom Neu­ land- und Futterzehnten, Sepultur, Eintritt von Brüdern, freie Wahl des Abtes,  den anstelle des Papstes der Patriarch von Jerusalem weihen darf, unter Vor­ behalt der päpstlichen Autorität und der kanonischen Rechte des Patriarchen  von Jerusalem.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+
+         <div>
+            <head>Incipit</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">Orig. Agira, Archivio di S. Filippo n. 3 [A], - Orig. (Fragment) ebenda n. 4  [A-J. —</bibl>
+                  <bibl type="msCopy">Kopie s. XVII von Antonino Amico Palermo, Biblioteca comunale,  mss. Qq. H. 10 f.22 [CJ. — Kopie s. XIX ex. im Nachlaß Charles Kohler  Paris, Bibliotheque Sainte-Genevieve, mss. 3663 f. 53 aus A und 3644 f.39 aus  C beide zu April 21 [D], —</bibl>
+                  <bibl type="print">[Druck]</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Oriens Pontificus III, S. 218-222, Nr. 79</bibl>
+               <bibl>Edd. Bonaventura Attardi, Storia dell’integra cittä  di S. Filippo di Aggira (Palermo 1742) p. 134 ,ex reggistro della nostra Reale  Abazia“. Röhricht, Neues Archiv 15 (1890) 203 ex C zu April 21. G. Pietro  Sinopoli di Giunta, La Badia regia di S. Maria Latina in Agira (Acireale  1911) p.107 angeblich aus ,pergamena in caratteri goti e neri‘, in Wirklichkeit  aus Attardi. Holtzmann, Quellen und Forschungen aus italienischen Archiven  und Bibliotheken 35 (1955) 56ff. gibt im kritischen Apparat zu Alexander III.  (vgl. unten Nr. 106) die Varianten der beiden Originale. -</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL –</bibl>
+               <bibl>Regg. R.Pirro,  Sicilia sacra (Panormi 31733) II 1244. Röhricht, Reg. regni Hieros. n. 331.  Kehr, Göttinger Nachrichten 1899 p.294. Pietro Sinopoli, Tabulario di  S. Maria Latina di Agira, Archivio storico per Sicilia orientale 22 (1926) 140  n. 3 und 4. JL. -.</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Über das Verhältnis der beiden Originale hat Holtzmann a. a. O. p. 53ff.  ausführlich gehandelt und gezeigt, daß A} ein fehlerhaft ingrossiertes Original  darstellt, an dessen Stelle man sofort ein zweites anfertigte (A). Der Empfän­ ger nahm aber beide Stücke mit. Das fehlerhafte Exemplar wurde später als  Minute für die Ausfertigung durch Alexander III. verwendet, und zwar in  einem doppelten Vorgang. Nachdem zuerst offenbar ein Schreiber des Emp­ fängers Ai mit Hilfe von A verbessert hatte, brachte dann eine zweite Hand —  eindeutig eine solche der päpstlichen Kanzlei - weitere Veränderungen an, die  sich sämtlich wieder in der Neuausfertigung Alexanders III. finden. Auch jetzt  wurde die Minute dem Empfänger wieder ausgehändigt. Für die Geschichte von S. Maria Latina ist wichtig, daß im Gegensatz zum ersten feierlichen Privileg Paschalis’ II. eine Besitzliste enthalten ist. Andererseits fehlt auffälligerweise die bei Paschalis II. und wieder bei Alexander III. erwähnte immediate Stellung von S. Maria Latina, so daß in der salva- Formel  der Patriarch von Jerusalem als Diözesan erscheint. Ebenso fehlt der 1112  erfolgte Hinweis auf besondere Rechte des Abtes in den Kirchen von Jerusa­ lem und Bethlehem wie auch die Vorgeschichte der klösterlichen Institution. Größere Lücken in A{ und einige kleinere in A durch Mäusefraß lassen  sich mit Hilfe der jeweils anderen Urkunde mühelos ergänzen. Wörtliche  Übereinstimmung mit der nicht erwähnten Vorurkunde Paschalis’ II. (s. oben  Nr. 12) werden in üblicher Weise ausgewiesen. Die Zeilentrennung in A wird  mit |, diejenige in At mit | gekennzeichnet. Der Kardinalpriester Wilhelm von S. Pietro in Vincoli war bisher erst seit  dem 7. Mai 1158 durch seine Unterschrift in feierlichen Privilegien nachge­ wiesen (vgl. B. Zenker, Die Mitglieder des Kardinalkollegiums von 1130 bis  1159, Diss. Würzburg 1964, p.118 nach Holtzmann, Papsturkunden in Eng­ land III p. 263 n.121).</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Werk 1]</bibl>
+               <bibl>[Werk 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

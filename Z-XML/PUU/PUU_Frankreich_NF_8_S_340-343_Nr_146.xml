@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_PUU">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PUU Frankreich NF 8, S. 340-343, Nr. 146</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2026">Encoding</resp>
+               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>PUU Frankreich NF 8, S. 340-343, Nr. 146</bibl><bibl type="jaffe">13081</bibl>
+            <bibl>[Weiteres Konkordanzregest]</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>[*+?-]</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Lateran</placeName><date type="issued" notBefore="1178-07-10" notAfter="1178-07-10">1178 Juli 10.</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p>Alexander III. bestätigt dem Abt Stephan und den Regularkanonikern des päpstlichen Eigenklosters Ste-Geneviève den päpstlichen Schutz sowie die im einzelnen genannten Besitzungen und Rechte.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+
+         <div>
+            <head>Incipit</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">[Original]</bibl>
+                  <bibl type="msCopy">Chartular s. XIII: Bibl. Ste-Geneviève, ms. 356 p.l7[C]. - Auszug s. XVII (A. Duchesne nach C): Bibl. Nat., Coll. Baluze 55 f . 161. - Inventar s. XVII: Arch. Nat., LL 1445p. 5 n. 6.-</bibl>
+                  <bibl type="print">[Druck]</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>PUU Frankreich NF 8, S. 340-343, Nr. 146</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL 13081</bibl>
+               <bibl>Regesten: Lasteyrie p.455 n.557</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Bestätigt werden im allgemeinen: 1. Die Augustinusregel; vgl. Eugen III. 1150 (Nr. 40). 2. Die Besitzungen nur allgemein; ausführliche Liste dagegen 1163 im Privileg Alexanders III. (Nr. 87). 3. Exemtion aus der Jurisdiktion von Erzbischöfen, Bischöfen und päpstli- chen Legaten, die nicht a latere entsandt sind; vgl. Eugen III. 1150 (Nr. 40). 4. Verbot von Interdikts- oder Exkommunikationssentenzen gegen Klo- ster, Burgus und Kanoniker außer durch den Papst oder dessen Son- derbeauftragte (gerichtet gegen ständige päpstliche Legaten). 5. Schutz der Pfarrkirchen vor neuen Abgaben und Prokurationsansprü- chen. 6. Rückkaufrecht für Zehnten aus Laienhand und Verbot unerlaubter Vergabe von Zehnten durch Laien. 7. Verbot unerlaubten Baues von Kirchen oder Kapellen innerhalb der Pfarreibezirke (päpstlicher Vorbehalt). 8. Befreiung von Noval- und Futterzehnten. 9. Verbot unerlaubten Austritts; vgl. Eugen III. 1148 (Nr. 31) und Alexan- der III. 1163 (Nr. 87). 10. Liberias der drei Pariser Kapellen von Ste-Geneviève und ihrer Ka- pläne wie zur Zeit der Säkularkanoniker; vgl. Eugen III. 1153 (Nr. 41). 11. Stille Messe in Prioraten bei Generalinterdikt. 12. Verbot für fremde Kirchen, ihnen übertragene Zinsgüter oder Teilbau- rechte von Ste-Geneviève zu behalten. 13 Alienationsverbot für den Abt bei fehlender Zustimmung des Kapitels. 14. Haftungsausschluß bei Bürgschaft von Kanonikern und Konversen ohne Erlaubnis von Abt und Kapitel. Die Abfolge der Einzelbestimmungen zeigt - unter Berücksichtigung des Datums 1178 - bemerkenswerten juristischen Sachverstand. Dieser dürfte unter anderem mit der Person des Bittstellers, Abt Stephan, zusammenhän- gen (vgl. Einleitung). Der Text wird 1184 von Lucius III. (Nr. 161), 1190 von Clemens III. (Nr. 173) und 1196 von Celestin III. (Nr. 189) fast wört- lich wiederholt und nur um wenige Bestimmungen erweitert. Die Rubrik in C trifft angesichts des weitgehend neuen Diktats nur sehr unvollkommen zu: Item priuilegium domini Alexandri pape III, qui con- firmat predecessorum suorum priuilegia ecclesie beate Genouefe in- dulta. Zwei Marginalnotizen s. XIII sind dagegen bemerkenswert. Die erste betrifft das verlorene Original: In scrinio papae XXXIIII. Die zweite ver- weist auf eine Bestätigung Clemens' IV.: Hoc priuilegium habemus re- nouatum a domino Clemente papa IIII'° (geschrieben nach 1264; von Cle- mens IV. ist ein Privileg im Chartular C nicht enthalten).</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>Zit.: Dubois, Hist. eccl. Paris. II, 156. -</bibl>
+               <bibl>[Werk 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_PUU">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PUU Frankreich AF 7, S. 106-109, Nr. 60</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2026">Encoding</resp>
+               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>PUU Frankreich AF 7, S. 106-109, Nr. 60</bibl><bibl type="jaffe">JL</bibl>
+            <bibl>[Weiteres Konkordanzregest]</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>[*+?-]</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Tours</placeName><date type="issued" notBefore="1162-10-25" notAfter="1162-10-25">1162 Oktober 25.</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p>Alexander III. nimmt das Kloster Saint-Guilhem-le-Désert unter  dem Abt Richard nach dem Vorgange Eugens III. und Hadrians IVm  in den apostolischen Schutz uncl bestätigt ihm die Besitzungen und  Rechte.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+
+         <div>
+            <head>Incipit</head>
+            <diploPart type="incipit" xml:lang="lat">de Gairigua; in episcopatu Biterrensi fiscum Miliaci cum ecclesia  sancti Guilielmi, ecclesiam sancti Peragorii, ecclesiam sancti Ge- nesii de Campaniano, ecclesiam sancti Iohannis de Murouetulo cum  capella eiusdem castri cum decimis et aliis pertinentiis suis, eccle- siam sancti Yincentii de Popiano cum pertinentiis suis; in episco- patu Nemausensi prioratum sancti Petri de Salue cum uniuersis  ecclesiis et pertinentiis suis, scilicet cum ecclesiis sancti Satumiri  de ualle Pompiniani, sancti Martini de Nomoglet cum capella sua,  ecclesiam sancti Iacobi de Yoiraz, ecclesiam sancti Sebastiani de  Malenca, ecclesiam sancti Petri de Ledano; in episcopatu Vheti- censi ecclesiam sancti Theodoriti, ecclesiam sancti Egidii de Porta  cum uilla sua; in episcopatu Mimatensi ecclesiam sancti Germani  de Valle Calberta cum capella sancti Petri, ecclesiam sancti Andree  de Ancisa, ecclesiam sancti Stephani de Valle Francisca, ecclesiam  sancti Petri de Mairois cum pertinentiis suis, ecclesiam sancti  Guilielmi de Sperone, ecclesiam sancti Martini de Bers cum per- tinentiis suis; in episcopatu Aguatensi ecclesiam sancti Martini de  Caues cum decimis primiciis et aliis pertinentiis suis, ecclesiam  sancti Petri de Fontemartis cum pertinentiis suis; in episcopatu  Magalonensi ecclesiam sancti Martini de Londris cum capella sancti  Gerardi de castro Lunclrensi et decimis ceterisque peitinentiis suis,  ecclesiam sancti Michaelis de Grimiano cum pertinentiis suis; in  episcopatu Viuariensi ecclesiam sancti Hylarii et sancti Martini  cum pertinentiis suis de Espedonia, in episcopatu Vapicensi eccle- siam sancti Desiderii de Mota et ecclesiam sancti Petri de Vlmobel  cum appendiciis suis; in episcopatu lìuthenensi ecclesiam sancte  Marie de Cornucio cum capella decimis et aliis pertinentiis suis,  ecclesiam sancti Stephani de Larzaco, ecclesiam sancte Eulalie,  ecclesiam sancte Marie de Cisterna, ecclesiam sancti Martini de  Mauriaco, ecclesiam sancti Amancii de Buxia, ecclesiam sancti Ca- prasii, ecclesiam sancti Saturnini et sancti Iuliani de Creissel cum  decimis et omnibus earum pertinentiis; in prouinciis Hyspanie in  episcopatu Legionensi uillam que uocatur V aliis Salicis cum omni- bus que beato Guillelmo ibidem pertinent, in episcopatu Asteri- censi ecclesiam sancti Vincentii cum omnibus pertinentiis suis, in  episcopatu Bracarensi ecclesiam sancte Marie de Ariano cum omni- bus suis pertinentiis et cum omnibus aliis possessionibus, que sunt  iuris beati Guilielmi in prouinciis Hyspanie.  Crisma uero, oleum  sanctum u. s. iv. Sepulturam quoque u. s. iv.  Obeunte uero te  u. s. w.  Quieti etiam et securitati uestre prouidere uolentes, libe- ram uobis tribuimus facultatem uallandi uillam sancti Iohannis et  uallos ibi factos reficiendi et muris eam aliisque ad tuitionem eius</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">[Original]</bibl>
+                  <bibl type="msCopy">Kopie s. XIII  Montpellier Arch. Bép. (Abbaye de Saint-Guil- hem-le-Bésert). — Kopie von 1591 Toidouse Arch. Bép. (Prieuré de  Notre-Bame de La Daurade mit YIII id. nov.^) — Ms. lat. 12778  f. 259' Paris Bibl, Nat. — Ms. lat. 11899 f. 160 uncl f. 175 ebenda.  — Auszug im Ms. lat. 12672 f. 190' ebenda,</bibl>
+                  <bibl type="print">[Druck]</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>PUU Frankreich AF 7, S. 106-109, Nr. 60</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL JL 10769</bibl>
+               <bibl>[Regest 2]</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Vgl. auch Leon Vinas Visite rétrospective à Saint- G  uilhem - du - Bésert  (Montpellier 1875) p. 121.  Die Vorurkunde  Eugens III. ist JL 8947, clie Hadrians IV. ist verloren.</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Werk 1]</bibl>
+               <bibl>[Werk 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

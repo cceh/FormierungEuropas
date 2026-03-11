@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Oriens Pontificus III, S. 280-287, Nr. 113 Verfälscht</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2026">Encoding</resp>
+               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Oriens Pontificus III, S. 280-287, Nr. 113 Verfälscht</bibl><bibl type="jaffe">13333</bibl>
+            <bibl>[Weiteres Konkordanzregest]</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>[*+?-]</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Laterano</placeName><date type="issued" notBefore="1179-03-19" notAfter="1179-03-19">1179 März 19.</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p>Alexander III. nimmt das von Gottfried von Bouillon errichtete und zu  Händen Urbans II. in das päpstliche Eigentum aufgelassene Stift S. Maria und  Heiliggeist auf dem Berge Sion in Jerusalem unter dem Abt Johannes (?)  nach dem Vorgänge Paschalis’ II., Innozenz’ II. und Eugens III. gegen einen  jährlichen Zins von einem Goldgulden unter den apostolischen Schutz und bestätigt die Augustinerregel, alle Besitzungen im Hl. Land und im Westen  und die einzeln aufgeführten Rechte und Freiheiten.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+
+         <div>
+            <head>Incipit</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">[Original]</bibl>
+                  <bibl type="msCopy">Vidimus von 1337 Juli 12 Orleans, Archives departementales (Loiret),  D357 n.5 [BJ. — Kopie s. XIV Agrigento, Archivio capitolare, Pergamene  n.15 aus B [C]. - Chartular s. XV f. 6 Orleans, Archives departementales  (Loiret), D371 aus B [DJ. — Kopie s. XVI des Chartulars s. XV p.ll  ebenda, D 372, verloren [E]. — Liber statutorum a. 1519 f. 103 ebenda, Suppl.  D 25 [F] — Kopie a. 1638 ebenda, D358 n.10, beide verloren. - Thesaurus  privilegiorum duodecim continens privilegia (S. Spirito di Caltanisetta) s.  XVIII f.25 Palermo, Biblioteca comunale, mss. Qq. D. 185 aus C [G] —</bibl>
+                  <bibl type="print">[Druck]</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Oriens Pontificus III, S. 280-287, Nr. 113 Verfälscht</bibl>
+               <bibl>Edd. Pirro, Sicilia sacra 1(Panormi 1644—47) II 1326; 3(Panormi 1733) I  584 „ex tabulis eccl. s. Mariae de Latina Messanen.“; 753 (Auszüge) aus  C. Rey, Chartes de l’abbaye du Mont-Sion, Memoires de la Societe nationale  des Antiquaires de France 48 (1887) 38 aus B. Soyer, Les actes des souve-  rains ante'rieurs au XIVe siecle conserves dans les archives departementales du  Loiret, Le Bibliographe moderne 19 (1918—19) 68 n. 12 aus B. Ramackers,  Papsturkunden in Frankreich VI 212 n.149. L.R. Menager, Le monastere  jerosolimite de Ste-Marie du Mont-Sion et ses obediences en Italie meridio­ nale et en Sicile, Studies presented to David Shank Moore (St. Louis/Miss.  1960) p.365 (weder eingesehen noch bibliographisch ermittelt, zitiert nach  Collura; das Buch, eine Privatausgabe, soll bis zum letzten Exemplar ver­ brannt sein). Collura, Le piü antiche carte dell’Archivio Capitolare di Agri­ gento (1092—1282), Documenti per la storia di Sicilia I 25 (Palermo 1961)  p. 80. —</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL 13333 u. 13333a</bibl>
+               <bibl>Regg. Migne, PL CC 1214 aus Pirro. Röhricht, Reg. regni Hieros.  n. 576. Bulletin de la Societe archeologique et historique de l’Orleanais 17  (1914—1916) 224 n. 5. JL. 13333. 13333a als Urkunde für S. Maria Latina.</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Es handelt sich um das einzige erhaltene Papstprivileg für die Abtei auf  dem Berge Sion, das über deren Geschichte einige wichtige Angaben macht.  Die erwähnten Vorurkunden Paschalis’ II., Innozenz’ II. und Eugens III. sind  verloren. In der vorliegenden Form kann der Text jedoch, was auffälligerweise den  neueren Editoren entging, unmöglich aus dem 12. Jahrhundert stammen.  Schon der Name des Abtes kann nicht stimmen. Denn nach Wilhelm von  Tyrus, Historia rerum in partibus transmarinis gestarum XXI 26 (ed. Recueil  des Historiens des Croisades, Historiens occidentaux I [Paris 1841] 1049) hat  zwar der damalige Vorsteher der Abtei am dritten Laterankonzil von 1179  teilgenommen, aber er hieß sowohl nach Wilhelm von Tyrus (vgl. auch XXII  7 p,1073f. für 1181) als auch nach den Urkunden vor und nach 1179 nicht  Johannes, sondern Rainald. Johannes war dagegen der Name des gleichzeiti­ gen Abtes des Klosters S. Maria im Tale Josaphat. Wie der falsche Name  zustande kam, der schon im 14. Jahrhundert in der ältesten erhaltenen Über­ lieferung auftaucht, ist nicht mehr festzustellen. Interpoliert ist vor allem die Aufzählung der Rechte und Freiheiten mit  Formeln, die erst dem 13. Jahrhundert angehören. Dabei ist nicht deutlich, ob diese aus einem späteren echten Privileg für das Sionsstift in die Zeit Alexan­ ders III. zurückprojiziert wurden oder ob sich die Abtei auf diese Weise Rechte  zu sichern suchte, die ihr eigentlich überhaupt nicht zustanden. Terminus  ante quem ist das Vidimus von 1337 [B], das in Caltanissetta angefertigt  wurde, was darauf schließen läßt, daß damals in den sizilischen Niederlassun­ gen mindestens eine echte Urkunde mit einer Besitzliste vorhanden war. Bei  der Verfälschung sind vielleicht die echten Papsturkunden, die ohne Zweifel  vorhanden waren, beiseite geschafft worden, da sie die Fälschung entlarvt  hätten. Offenkundig ist die Interpolation beim Zins. Ramackers hat zwar  (a.a. O. p. 275) darauf hingewiesen, daß das Sionsstift in der Liste der zins­ pflichtigen Kirchen und Klöster der römischen Kirche fehle (vgl. Liber cen­ suum de l’eglise Romaine I [Paris 191 ()j p.238), aber mit Hinweis auf die  Untersuchungen von Pfaff (Der Liber Censuum von 1192, Vierteljahrsschrift  für Sozial- und Wirtschaftsgeschichte 44 [1957] 345 Nr. 681 f. und p. 78f.)  mit Recht aus dieser Tatsache allein keine Bedenken gegen die Echtheit erho­ ben. Denn durch Pfaff wissen wir, daß die Listen bei Albinus und Cencius  alles andere als vollständig sind. Ganz anders verhält es sich mit der Zinsan­ gabe selbst: unum florenum auri. Im Jahre 1179 gab es noch keine Florenen,  die erst in der Mitte des 13. Jahrhunderts geprägt wurden. Im Hl. Land waren  sie nie üblich, und die Kirche hat sich bei der Festsetzung des Zinses stets an  die ortsgängigen Münzen gehalten, soweit der Zins in ausgeprägtem Geld  festgesetzt wurde. Auszuschließen sind für ein feierliches Privileg Alexanders III. auch die  Bestimmungen über das Predigtrecht, das zwar Templer und Johanniter besa­ ßen, nie aber Klöstern im 12. Jahrhundert verliehen wurde. Ebenso weist die  Exemtion von der procuratio mit der Aufzählung von ordinarii und nuntii in  eine spätere Zeit. Unüblich ist gleichfalls der Hinweis, daß das Kloster der  speziellen provisio des päpstlichen Stuhles unterstehe (vgl. zu diesem Problem  jetzt Klaus Ganzer, Papsttum und Bistumsbesetzungen in der Zeit von Gre­ gor IX. bis Bonifaz VIII. Ein Beitrag zur Geschichte der päpstlichen Reserva­ tionen, Forschungen zur kirchlichen Rechtsgeschichte und zum Kirchenrecht  9 [Köln-Graz 1968]). Einer besonderen Erörterung bedarf die Stelle über die ersten Jahre der  Abtei. Während die Gründung durch Gottfried von Bouillon nie unwiderleg­ bar in Zweifel gezogen wurde, hat die Aussage ,per manum felicis recordatio­ nis dompni Urbani predecessoris nostri pape secundi beato Petro et sancte  Romane ecclesie in ius proprium et tutelam traditum esse dignoscitur1,  Ramackers a. a. O. zur Bemerkung veranlaßt, aus zeitlichen Gründen könne  das Sionsstift keineswegs bereits von Urban II. als päpstliches Eigentum über­ nommen worden sein, und Mayer, Bistümer, Klöster und Stifte p. 233 folgt  ihm. Es handelt sich jedoch um ein Mißverständnis des Textes. Von einem  Privileg oder einem sonstigen Rechtsakt Urbans II. ist nirgends die Rede,  sondern die Liste der Vorurkunden beginnt mit Paschalis II. Die Worte per  manum ... traditum esse ... bedeuten die Auflassung an den apostolischen  Stuhl entsprechend einer Ausdrucksweise, die sich in Hunderten von Urkun­ den z. B. zugunsten der Templer und Johanniter findet, in denen Schenkungen an diese Orden per manum bzw. per manus des jeweiligen Meisters erfolgen,  ohne daß dieser am Orte des Rechtsaktes persönlich anwesend wäre, per  manum bedeutet dabei „zu Händen“ des Papstes als des Rechtsvertreters des  Apostelfürsten. Was unserem Privileg entnommen werden kann, heißt also  nur, daß Gottfried von Bouillon das Marienstift auf dem Berge Sion der rö­ mischen Kirche aufließ, und zwar zu einer Zeit, als der Tod Urbans II. am  29. Juli 1099 im Hl. Lande noch nicht bekannt war. Die Auflassung erfolgte  daher vermutlich noch im Jahre 1099. Sie läßt sich nicht gegen die Echtheit in  der Sache verwenden. Auch die Besitzliste ist entgegen dem Einwand von  Mayer p. 234 für 1179 zu halten, denn an der betreffenden Stelle ist nicht vom  Grafen Guido, sondern von Wi(llelmus) comes, nämlich Wilhelm von Mont-  ferrat, dem ersten Gemahl der Sibylle, die Rede. Daß das Stück verfälscht ist,  bleibt dennoch unstrittig. Aufgrund des Regests bei Pirro X1 584 ex tabulis s. Mariae de Latina  Messanensis, wonach (monasterium) S. Marie Bethleem, quod in agros  Enneo extruxerat, Satamuron de Castro Johanne ... B. Mariae de Jerusalem  subicit ex pontificio diplomate Alexandri III, 14 kal. april., ind. 12, ann.  salut. 1178, pont. an. 18, glaubte Loewenfeld ein zweites Privileg vom glei­ chen Tage für S. Maria Latina vor sich zu haben (JL. 13333 a), aber es han­ delt sich natürlich um das vorliegende Stück. JL. 13333 a ist deshalb zu strei­ chen. Die Unterschriften fehlen schon in B und daher in allen folgenden Überlie­ ferungen.</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Werk 1]</bibl>
+               <bibl>[Werk 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

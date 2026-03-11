@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Oriens Pontificus I, S. 319-321, Nr. 126</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2026">Encoding</resp>
+               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Oriens Pontificus I, S. 319-321, Nr. 126</bibl><bibl type="jaffe">–</bibl>
+            <bibl>[Weiteres Konkordanzregest]</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>[*+?-]</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Tuscolo</placeName><date type="issued" notBefore="1180-11-23" notAfter="1180-11-23">(1180) November 23.</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p>Alexander III. gestattet Rodrigo, dem Meister von Mons Gaudii, ent­ gegen den Bestimmungen des 3. Laterankonzils, als „Brabanzonen, Arago-  nesen und Basken“ bezeichnete Söldner, wenn sie unverheiratet und frei  sind, in den Orden aufzunehmenf nachdem ihnen der nächste Bischof die  Absolution erteilt hat.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+
+         <div>
+            <head>Incipit</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">Orig. Barcelona, Archivo de la Corona de Aragon, S. Juan n. 122. —</bibl>
+                  <bibl type="msCopy">Liber privilegiorum Templa,riorum s. XIV f. 7' n. 18 Barcelona, Archivo de la  Corona de Aragon, Reg. 309. — Liber indultorum s. XIV f. 9' n. 18 Barcelona,  Archivo de la Mensa episcopal ( = Llibre negre s. XVII f. 12' n. 18 Barce­ lona, Archivo de la Corona de Aragon, S. Juan). — Cartulari deis Tem­ ptaris (katalanisch) s. XIII p. 40 Madrid, Archivo Historico National,  Secciön Codices 597 B. — Kopie s. XX Collection d’Albon vol. LXXI  f. 33 Paris, Bibliotheque nationale, Nouv. acq. lat. 71. —</bibl>
+                  <bibl type="print">[Druck]</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Oriens Pontificus I, S. 319-321, Nr. 126</bibl>
+               <bibl>Edd. Prutz, Ent­ wicklung und Untergang des Tempelherrenordens (Berlin 1888) p.281  n.l. Delaville le Roulx, Revue de I’Orient latin I (1893) p.54 n.2 zu Nov.  24. —</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL –</bibl>
+               <bibl>Regg. Prutz, a.a.O. p. 281 n. 18 zu Nov. 24. Magallon, Boletin de la  R. Academia de Historia XXXIII (1898) p. 92 zu 1172. JL. —.</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Diese. Verfügung Alexanders III. gibt wertvolle Aufschlüsse sowohl für  die Geschichte des Ordens von Mons Gaudii1) als auch f ür das abendländische  Söldnerwesen. Hinter dem Ausdruck „Bi'abantiones, Arragonenses et  Basculi“ verbergen sich jene wilden Söldner-Rotten, ivelche in der zweiten  Hälfte des 12. Jahrhunderts, ständig auf der Suche, nach einem Brotherrn,  vor allem Südfrankreich heimsuchten. Um das Unwesen einzuschränken  und die Bevölkerung, in erster Linie jedoch die kirchlichen Güter und die  Klöster zu schützen, welche als besonders leicht greifbare Beute galten, erließ  das dritte Laterankonzil im März 1179 das Verbot, solche Söldner anzu­ werben, zu dulden oder zu unterstützen (can.27). Dementsprechend ver­ kündete der Erzbischof von Narbonne im November 1179 den Konzilskanon  in seiner Diözese, die besonders hart betroffen war. Doch durch ein Verbot  allein war das Problem nicht zu bewältigen, was auch die Kurie selbst ein­ sehen mußte. Daher scheint Alexander III. den kühnen Plan gefaßt zu  haben, die ganze Sache umzudrehen, die Rotten in den Dienst der Kirche zu  nehmen und sie in deren Auftrag zur Verteidigung der Christenheit einzu­ setzen. Jedenfalls erschien am 28. April 1181 ein Graf Hugo du Pulset bei  Heinrich II. von England und bat um Unterstützung und freien Durchzug  durch Aquitanien für einen Zug von 20000 Brabanzonen, die Alexander III.  für einen Feldzug gegen die Mauren in Spanien angeworben habe. Aus be­ rechtigten Befürchtungen um die Sicherheit seines Besitzes lehnte Heinrichll.  die Bitte ab, suchte aber seinerseits die Söldner für den seit langem geplanten  Kreuzzug einzuspannen. Dieser kam jedoch angesichts der Spannungen zwi­ schen England und Frankreich auch weiterhin nicht zustande, und auch  über das Schicksal des großen Söldnerhaufens ist weiter nichts bekannt. Mit dem spanischen Plan Alexanders III. paßt die Verfügung zugunsten  des Ordens von Mons Gaudii bestens zusammen. Dieser hatte ja als beson­ dere Aufgabe die Verteidigung der Südgrenze Aragons gegen Valencia über­ nommen und wäre somit in der bevorstehenden Aktion an führender Stelle  beteiligt gewesen. Es liegt also ein interessanter Versuch vor, einen Teil der  wilden Haufen in eine feste kirchliche Institution einzubauen und sie damit,  unter Kontrolle zu bekommen. Daß dabei einige Auflagen in bezug auf die  künftigen Mitglieder des Ordens gemacht wurden, die weder verheiratet noch  Kleriker sein sollten und sich erst von einem Diözesanbischof die Absolution  erteilen lassen mußten, versteht sich von selbst. Andererseits ist von der jungen Gründung des Grafen Rodrigo her ge­ sehen die Angelegenheit äußerst fragwürdig, denn durch die Brabanzonen  kamen neben die kleine Gruppe von Rittern, welche an den Anfängen des  Ordens gestanden hatten, Leute aus ganz anderen sozialen Schichten. Da  Alexander in seiner am gleichen Tag mit der Verleihung des zweiten großen  Privilegs, s. oben Nr. 125, erlassenen Verfügung ausdrücklich auf an ihn  herangetragene Bitten hinweist, liegt, der Gedanke nahe, daß es den Rittern von Mons Gaudii nicht gelungen war, in der V or Stellung s well der spanischen  Ritterschaft neben den in Aragon besonders stark vertretenen Johannitern  und Templern und selbst neben dem nur wenig älteren Orden von Santiago  richtig Fuß zu fassen, so daß sie nach einem kurzen Aufblühen und den  ersten Schenkungen nicht den erwarteten und zur Erfüllung ihrer Aufgabe  notwendigen Zustrom erhalten hatten. Falls eine größere Zahl von solchen  Söldnern in den Orden aufgenommen wurde — was sich zwar nicht be­ stimmt nachweisen läßt, aber durchaus im Bereich des Möglichen liegt —,  so würde dies den raschen Zerfall schon in den beiden folgenden Jahrzehnten  miterklären. Über das Söldnerwesen des 12. Jahrhunderts und die Brabanzonen vgl.  v.a. H. Grundmann, Rotten und Brabanzonen, Deutsches Archiv V (1942)  pp. 419—492 und A. Mens, De Brabanciones, Miscellanea historica Alb.  de Meyer I (Louvain 1946) pp. 558ff., die aber beide diese Verfügung nicht  berücksichtigten.</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Werk 1]</bibl>
+               <bibl>[Werk 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

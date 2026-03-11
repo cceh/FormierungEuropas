@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Oriens Pontificus I, S. 278-281, Nr. 89</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2026">Encoding</resp>
+               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Oriens Pontificus I, S. 278-281, Nr. 89</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
+            <bibl>[Weiteres Konkordanzregest]</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>[*+?-]</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Anagni</placeName><date type="issued" notBefore="1177-12-24" notAfter="1177-12-24">(1177) Dezember 24.</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p>Alexander III. bestätigt dem Grafen Rodrigo und seinen Gefährten die  von Kardinal Hyacinth von S. Maria in Cosmedin, früherem Legaten in  Spanien, erlangte schriftliche Erlaubnis, aus dem Orden von Santiago aus­zutreten und einen neuen Orden naeh der Zisterzienser-Regel zum Kampf  gegen die Heiden und zur Verteidigung des christlichen Glaubens zu gründen,  ■jedoch mit der Einschränkung, daß sie fortan keinen Ritter aus dem Orden  von Santiago aufnehmen und daß beide Orden keine Kastelle und Sied­ lungen annehmen dürfen, deren Besitz zu Streitigkeiten zwischen ihnen füh­ ren könnte. Der neue Ordern wird, unter den päpstlichen Schutz gestellt.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+
+         <div>
+            <head>Incipit</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">Orig. Madrid, Archivo Historico Nacional, Orden de Calatrava leg. 1  n. 3. —</bibl>
+                  <bibl type="msCopy">Bulario de la Orden de Calatrava s. XVI n. 25 Madrid, Archivo  Historico Nacional, Seccion Codices 834 B. — Bulario de Calatrava a. 1750  vol. II Appendix (n. 1) ebenda, Seccion Ordenes Militares, Manuscritos  412 C. — Kopie, s. XX Collection d’Albon vol. LXXI f. 11 und (nur Aus­ zug) f. 32 Paris, Bibliotheque nationale, Nouv. acq. lat. 71. —</bibl>
+                  <bibl type="print">[Druck]</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Oriens Pontificus I, S. 278-281, Nr. 89</bibl>
+               <bibl>Edd. Bulla­ rium ordinis militie de Alcantara (Madrid 1759) p. 605. Bullarium de  Calatrava (Madrid 1761) p. 497. Blazquez y Jimenez, Boletin de la R.  Academia de Historia LXXI (1917) p. 162 zu 1173. —</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>[Regest 1]</bibl>
+               <bibl>Reg. —. Nach Abschrift von P. Kehr.</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Diese älteste für den von Graf Rodrigo gegründeten Orden von Mons  Gaudii ausgestellte Papsturkunde gibt wertvolle Hinweise auf die Vor­ geschichte der sehr ephemeren Institution. Verwandt mit König Ferdinand  von Kastilien, hatte Rodrigo, eine äußerst unruhige und problematische Per­ sönlichkeit, mit Erlaubnis des Kardinallegaten Hyacinth, der vom Februar  1172 bis in den Sommer 1174 eine Legation nach Spanien ausführte (vgl. G.  Säbekoiv, Die päpstlichen Legationen nach Spanien und Portugal bis zum  Ausgang des XII. Jahrhunderts [Berlin 1931] p. 53 ff.) und hier am 12.  Mai 1172 die Regel für den Orden von Santiago bestätigte, diesen eben  erst entstandenen Orden verlassen, um nun einen eigenen Ritterorden unter  der Oberleitung der Zisterzienser zu gründen. Ursprünglich hatte er aller­ dings gelobt, den Templern beizutreten, was später zu heftigen Auseinander­ setzungen führen sollte (vgl. Innocenz III. von 1198 Okt. 23, ed. Delaville  le Roulx, Revue de l’Orient, latin 1 [1893] p. 55 n. 4). Am 15. Mai 1180 erhielt die neue Institution, die den Namen Militia  sanctae Mariae Montis Gaudii de lerusalem führte, unter ihrem, Ordens­ meister Rodrigo das erste feierliche päpstliche Privileg, in welchem auch  Schenkungen König Balduins IV. von Jerusalem (Röhricht, Regesta regni  Hierosolymitani n. 553a) und anderer Großer des hlg. Landes (ebenda  n. 553, 561) bestätigt wurden, s. unten Nr. 122. Da sämtliche Schenkungen  im Osten in das Jahr 1177 fallen (Röhricht n. 561 ist zu 1177 Sept. 8 zu  stellen), hatte sich Rodrigo offensichtlich nach seinem Austritt aus dem  Orden von Santiago zuerst ins hlg. Land begeben und dort auf dem Freuden­ berg bei Jerusalem,, wo sich auch eine Prämonstratenserabtei befand (vgl.  Hans E. Mayer, Quellen und Forschungen aus ital. Archiven und Biblio­ theken XLIV [1964] pp. 35—71), Besitz zugewiesen erhalten, der seiner  Gründung den Namen gab. Mit dem zweiten passagium des Jahres 1177 nach Italien zurückgekehrt, kam er um die Weihnachtszeit an die in Anagni  weilende Kurie, um seine Gründung vom Papste bestätigen zu lassen. Besondere Aufmerksamkeit verdient die lange Narratio, aus welcher deut­ lich das anfängliche Mißtrauen gegen Rodrigo hervorgeht, das schließlich  vor allem dank der Fürsprache Hyacinths überwunden iverden konnte. Der  eigentliche Sitz des Ordens lag in der Folge jedoch nicht in Palästina, son­ dern in Spanien in Alfambra bei Teruel. Von dort aus versuchten die Ritter  von Mons Gaudii ihrer speziellen Aufgabe, dem Schutze der Südgrenze des  Königreichs Aragon gegen Valencia, nachzukommen, welche nach dem  raschen Zerfall des neuen Ordens König Alfons II. durch die Gründung des  Hospitals San Redemptor in Teruel nochmals einer eigenen Institution zu  übertragen suchte. Anfangs des 13. Jahrhunderts kamen allerdings die arago­ nesischen Besitzungen des endgültig bankrotten Ordens an die Templer,  während in Kastilien eine kleine Gruppe von Ordensmitgliedern, die diesem  Schritt nicht zu folgen bereit waren, sich noch einmal um den dortigen Sitz  in Monfrac sammelte (daher die gelegentliche Bezeichnung als Orden von  Monfrac), bis sie im Jahre 1221 von König Ferdinand dem Orden von  Calatrava einverleibt wurden. Über den Orden von Mons Gaudii vgl. vor allem Delaville, Revue de  I’Orient latin I (1893) pp. 42—57 und A.Blazquez y Jimenez, Boletin de la  R. Academia de Historia LXXI (1917) pp. 138—172.</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Werk 1]</bibl>
+               <bibl>[Werk 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

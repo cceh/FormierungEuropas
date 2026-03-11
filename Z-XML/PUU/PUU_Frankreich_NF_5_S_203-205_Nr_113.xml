@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_PUU">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PUU Frankreich NF 5, S. 203-205, Nr. 113</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2026">Encoding</resp>
+               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>PUU Frankreich NF 5, S. 203-205, Nr. 113</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
+            <bibl>[Weiteres Konkordanzregest]</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>[*+?-]</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Sees</placeName><date type="issued" notBefore="1161-03-01" notAfter="1161-03-15">1161 (Anfang März). </date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p>Der päpstliche Legat Kardinalpriester Heinrich  (von SS. Nereus  und Achilleus)  beurkundet den Schiedsspruch, den auf seinen Rat die  Äbte Robert von Saint-V  incent in Le Mans und H(erard) von Perseigne  und Magister Johannes, Kaplan des Königs Heinrich (II. von England)  in dem Streit der Äbte (Johannes) von Saint-Martin (in Sdes) und (Robert)  von Falaise über die Kirche Saint-Pierre in Le Gast gefällt haben, sowie  den Verzicht des Bischofs (Froger) von Sees auf die Klage gegen die beiden  Äbte. <list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+
+         <div>
+            <head>Incipit</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">[Original]</bibl>
+                  <bibl type="msCopy">Histoire de l'abbaye de St. Martin de Sees s. XVII Paris Bibl. Nat.,  Ms. franq. 18953 p. 40 [G 1] und p. 226 [G 2]. </bibl>
+                  <bibl type="print">[Druck]</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>PUU Frankreich NF 5, S. 203-205, Nr. 113</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>[Regest 1]</bibl>
+               <bibl>[Regest 2]</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Der Kardinalpriester Heinrich von SS. Nereus und Achilleus hielt  sich in den ersten Jahren von Alexanders III. Pontifikat lange Zeit in der  Normandie auf (vgl. J. Ramackers, Papsturkunden in Frankreich, N. F. II  196 Nr. 107). Der hier als Schiedsrichter tätige Kaplan Heinrichs II. von  England ist wohl entgegen Delisle, der a.a.O. S. 397 zweifelnd an Johannes  von Oxford dachte, Johannes Cumin, der spätere Erzbischof von Dublin  (Delisle a.a.O. S. 395), der bereits in einer Urkunde Heinrichs II. aus  den Jahren 1155-58 vorkommt (ed. Delisle, Recueil 1146 Nr. 45). Nach  dem zweiten Pontifikatsjahr Alexanders III., das am 20. September 1160  begann, und dem Inkarnationsjahr 1160 wäre als zeitliche Begrenzung der Zeitraum zwischen dem 20. September 1160 und dem 24. März 1161  möglich. Wir können aber diese Zeitspanne noch stärker eingrenzen. Zu  Beginn der Fastenzeit 1161 - nicht Anfang Juni, wie W. Ohnsorge, Die  Legaten Alexanders  III. im ersten Jahrzehnt seines Pontifikats (1159-1169)  (Berlin 1928) S. 41, die Zeitangabe Roberts von Torigny, Chronica a. 1161  ed. MG. SS. VI 511, 46 = Chronique de Robert de Torigni II 332 (in capite  ieiunii) übersetzt, obwohl der Bericht richtig zwischen Weihnachten 1160  und Ostern 1161 steht! - war nämlich eine wichtige Versammlung in  Le Mans, auf der der erblindete Erzbischof Hugo von Dol in Anwesenheit  des Königs Heinrich II. von England und der beiden Kardinäle Heinrich  von Pisa und Wilhelm von Pavia auf sein Erzbistum verzichtete. In Le Mans  ist der Streitfall zwischen Saint-Martin in Sees und Falaise wohl auch schon  vorverhandelt worden. Das muß man aus der Wahl des Abtes von Saint- Vincent  in Le Mans sowie eines Kaplans Heinrichs II. von England zu Schieds- richtern schließen. Von Le Mans hat sich die Reisegesellschaft nach Norden  begeben, und in Sdes hat dann der Kardinallegat Heinrich die durch Schieds- spruch zustande gekommene Einigung der beiden Parteien beurkundet.  Gerade die Mitbeteiligung des königlichen Kaplans bei diesem Schieds- spruch ist sehr aufschlußreich. Zeigt sie uns doch, daß in dem Augenblick  Verhandlungen zwischen dem Legaten und dem englischen König schwebten.  Der Aschermittwoch des Jahres 1161 fiel auf den 1. März, so daß die  Ausstellung der Legatenurkunde einige Tage später in Sees erfolgt sein  wird. </p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>Zit. Ghronique de Robert de Torigni ed. L. Delisle II (Rouen 1872) 332 Anm. 6 und L. Delisle, Recueil des actes de Henri II roi d'Angleterre et duc de Normandie. Intro- duetion (Paris 1909) S. 397 zu Anfang 1161.</bibl>
+               <bibl>[Werk 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

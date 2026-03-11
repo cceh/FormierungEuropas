@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Oriens Pontificus II, S. 237-239, Nr. 27</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2026">Encoding</resp>
+               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Oriens Pontificus II, S. 237-239, Nr. 27</bibl><bibl type="jaffe">–</bibl>
+            <bibl>[Weiteres Konkordanzregest]</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>[*+?-]</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>[Ausstellungsort]</placeName><date type="issued" notBefore="1179-02-01" notAfter="1179-02-28">1179 Februar.</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p>Auf Ermahnung Alexanders III. schließen der Tempelmeister Odo von  St-Amand und der Meister des Hospitals Roger de Moulins einen Vertrag zur  Beilegung aller zwischen den beiden Orden bestehenden Streitigkeiten unter  namentlicher Aufführung der bereinigten Konflikte und setzen gemäß dem  päpstlichen Befehl ein Schlichtungsverfahren für die Zukunft fest.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+
+         <div>
+            <head>Incipit</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">Orig. La Valletta, Archives of the Order of St. John, vol. 3 n.60 [AJ. -</bibl>
+                  <bibl type="msCopy">Regest im Inventaire von Manosque a.1531 f.630' Marseille, Archives  departementales (Bouches-du-Rhone), Ordre de Malte 56H68 [Ma]. -</bibl>
+                  <bibl type="print">[Druck]</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Oriens Pontificus II, S. 237-239, Nr. 27</bibl>
+               <bibl>Edd. Pauli, Codice diplomatico I (Lucca 1733) 66 n. 66. Delaville, Cartulai­ re 1378 n.558. -</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL –</bibl>
+               <bibl>Regg. Delaville, Documents concernant les Templiers (Paris  1883) p.19. Röhricht, Reg. regni Hieros. n. 572. Bulst-Thiele, Sacrae domus  militiae Templi Hierosolimitani magistri (Göttingen 1974) p. 98. JL. -.</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Dieses und das folgende Stück (Nr. 28) sind im Gegensatz zur Ansicht  Delavilles sicher nicht als identisch zu bezeichnen, sondern bilden zwei  Urkunden aus einem umfassenden Vertragswerk, das im Februar 1179 die  Interessen der beiden Orden ausgleichen sollte. Die hier zuerst zu untersu­ chende Urkunde betrifft die Streitigkeiten im lateinischen Osten - nur bei der  domus Baroli könnte es sich um Besitz in Unteritalien (Barletta) handeln -  und ist durch die Aufzählung von umstrittenen Besitzungen außerordentlich  wichtig, auch wenn wir über die eigentlichen Streitfragen nichts wissen, weil  andere Quellen nicht zur Verfügung stehen. Daß dieses Stück nur einmal aus  dem Johanniter-Zentralarchiv überliefert ist, überrascht nicht, weil es nur hier  für die Auseinandersetzungen der Orden von Interesse war. Sicher darf es  aber nicht als die Ausfertigung der Kanzlei des Hospitals bezeichnet werden,  wie dies Delaville, Cartulaire I 666 tut, da überhaupt nicht feststeht, wo die  verschiedenen Stücke geschrieben wurden. Im Gegenteil handelt es sich bei A um das für die Johanniter bestimmte, evtl, durch die Templer ausgestellte  Stück, falls die beiden sich unterschieden haben sollten. Kennzeichnend ist auch die Tatsache, daß A, wie die Siegellöcher in der  Plica zeigen, mit fünf Siegeln versehen war und zwar vermutlich der drei  Herrscher der Kreuzfahrerstaaten, deren Siegel speziell angekündigt werden,  und der beiden Ordensmeister, wobei durch die Bemerkung in Ma: ensemble  quatre seaux pandanz freilich feststeht, daß zu Beginn des 16. Jahrhunderts  ein Siegel bereits fehlte. Die zweite Urkunde (Nr. 28), die vor allem auch in  den abendländischen Besitzungen bei der Regelung von künftigen Streitfällen  dienen sollte, war dagegen nur mit zwei Siegeln, wohl der beiden Ordensmei-  ster, versehen (Ma: ensemble deux seaux pendenz/ Heute fehlen alle Siegel. Eine Dorsualnotiz des 13. Jahrhunderts lautet: Ce est une composiciun  faite entre l’Ospital et le Temple. De plusors fais anno d(omi)ni  M.C.LXXIX.</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Werk 1]</bibl>
+               <bibl>[Werk 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

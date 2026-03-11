@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Oriens Pontificus III, S. 234-236, Nr. 87</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2026">Encoding</resp>
+               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Oriens Pontificus III, S. 234-236, Nr. 87</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
+            <bibl>[Weiteres Konkordanzregest]</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>[*+?-]</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Sens</placeName><date type="issued" notBefore="1163-10-06" notAfter="1163-10-06">1163 Oktober 6.</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p>Alexander III. nimmt die Kirche des Hl. Grabes unter dem Prior Nikolaus  nach dem Vorgänge Honorius’ II., Innozenz’ II., Celestins II., Lucius’ II. und  Eugens III. unter den päpstlichen Schutz, bestätigt den Besitz, die Oblationen,  die Zehnten in Jerusalem, die Kirche Sankt Peter in Joppe und den Besitz, in  Spanien unter Erweiterung durch das Recht auf eigene Priester und auf die  Neuland- und Futterzehnten und durch das Austrittsverbot.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+
+         <div>
+            <head>Incipit</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">[Original]</bibl>
+                  <bibl type="msCopy">Kopie s. XII Barcelona, Museo diocesano (Santa Ana) [Bj. — Kopie s.  XII—XIII Madrid, Archivo Historico Nacional, Ordenes Militares, S. Sepulcro  de Calatayud, Documentos ecclesiasticos leg. 2 [CJ. - Sammeltranssumpt  a. 1433 verloren [DJ. - Vidimus a. 1492 des Sammeltranssumpts von 1433  [= DJ verloren [EJ. — Lambert Jegher, Collection des Privileges des Papes s.  XVII aus E, verloren [FJ. - Miguel Monterde, Bulario de los canönigos del  Santo Sepulcro Jerosolimitano mss. a. 1762 p.27 Calatayud, Archivo de la  Colegiata del Santo Sepulcro. — Regest s. XVI Cabreo o registro de escrituras  de la hacienda de la Colegiata (de Calatayud) f. 7 n.30 Madrid, Archivo  Historico Nacional, Secciön Codices 827. —</bibl>
+                  <bibl type="print">[Druck]</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Oriens Pontificus III, S. 234-236, Nr. 87</bibl>
+               <bibl>Edd. Anciens Statuts de l’ordre  hospitalier et militaire du Saint-Sepulchre de Jerusalem (Paris 1776) p. 80 aus  F. Kehr, Papsturkunden in Spanien 1394 n.109 aus B. -</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>[Regest 1]</bibl>
+               <bibl>Reg. —.</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Die Urkunde ist, wie schon Kehr nachgewiesen hat, zum großen Teil eine  Wiederholung des Privilegs Eugens III. vom 7. Mai 1148 (Nr. 64), das Alexan­ der III. bereits am 15. Oktober 1159 (Nr.82) mit anderem Incipit bestätigt  hatte. Gegenüber der Vorurkunde fällt aber auf, daß hier die Besitzliste auf  den Besitz im Hl. Land und eine allgemeine Formel für den spanischen Besitz  verkürzt ist, für diesen jedoch einige zusätzliche Rechte verliehen werden.  Diese letzteren waren wahrscheinlich der Anlaß für die Neuausfertigung, die  gemäß der Überlieferung nicht für das Mutterhaus in Jerusalem, sondern für  die spanischen Niederlassungen bestimmt war. Die von Kehr nicht herangezogene Überlieferung F weicht an mehreren  Stellen von den beiden Kopien erheblich ab, was mit dem fehlenden Datum  zusammen vorerst die Vermutung rechtfertigen könnte, daß es sich nicht um  ein Stück Alexanders III., sondern Alexanders IV. handle. Da jedoch alle  Stücke im Sammeltranssumpt von 1433 ohne Datum sind, die anderen Stücke  heute auschließlich aus den spanischen Archiven bekannt sind und sich weder  dort noch anderswo ein Stück Alexanders IV. mit diesem Incipit oder Inhalt,  wohl aber sowohl in Madrid als auch in Barcelona ein solches Alexanders III.  befindet, muß eine Zuweisung an Alexander III. dennoch in Betracht gezogen  werden. Der Text wäre in jedem Fall stark überarbeitet. Die Indiktion ist in  allen Überlieferungen um eine Einheit zu niedrig. Die Übereinstimmungen mit Eugen III. (1) und Alexander III. von 1159  Oktober 15 (II) werden in üblicher Weise gekennzeichnet.</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Werk 1]</bibl>
+               <bibl>[Werk 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

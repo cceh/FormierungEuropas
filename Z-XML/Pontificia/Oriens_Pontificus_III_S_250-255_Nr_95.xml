@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Oriens Pontificus III, S. 250-255, Nr. 95</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2026">Encoding</resp>
+               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Oriens Pontificus III, S. 250-255, Nr. 95</bibl><bibl type="jaffe">11385</bibl>
+            <bibl>[Weiteres Konkordanzregest]</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>[*+?-]</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Benevento</placeName><date type="issued" notBefore="1168-03-02" notAfter="1168-03-02">1168 März 2.</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p>Alexander III. nimmt das Kapitel des Hl. Grabes unter dem Prior Petrus  nach dem Vorgänge Honorius’ II., Innozenz’ II., Celestins II., Lucius’ II. und  Eugens III. unter den apostolischen Schutz, bestätigt den namentlich aufge­ führten Besitz im Königreich Jerusalem, die Rechte in Vertretung des Patri­ archen in der Kirche von Jerusalem und die Wahl des Patriarchen.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+
+         <div>
+            <head>Incipit</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">[Original]</bibl>
+                  <bibl type="msCopy">Chartularium s. Sepulcri Hierusalemitani s. XIII f.l 09 Biblioteca Aposto­ lica Vaticana, Cod. Vat. lat. 4947 [CJ. - ebenda, f. 17 [CJ. - Privilegia  ecclesiae s. Sepulchri s. XIV f.130' ebenda, Cod. Vat. lat. 7241 [DJ. —</bibl>
+                  <bibl type="print">[Druck]</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Oriens Pontificus III, S. 250-255, Nr. 95</bibl>
+               <bibl>Edd.  Roziere, Cartulaire p. 278 n. 156. Migne, PL CC 474. -</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL 11385</bibl>
+               <bibl>Regg. Röhricht, Reg.  regni Hieros. n. 444. J. 7614. JL. 11385.</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Mit diesem Stück, dessen erster Teil dem Privileg von 1163 Oktober 6  (Nr. 87) (I) folgt, rückt die Bestätigung der Regel an den Anfang der allge­ meinen Bestimmungen, wie es seit langem dem Kanzleibrauch entsprach. Die  Besitzliste ist gegenüber den Vorurkunden völlig neu formuliert, wobei An­ klänge an diese nicht als wirkliche Übernahmen aufzufassen sind, sondern auf  den Besitz als solchen zurückgehen. In vielem ist dagegen eine Anlehnung an  das Diplom König Amalrichs von 1164 Juli 15, ed. Roziere, Cartulaire p. 262  n. 144, festzustellen, aber auch hier handelt es sich im Gegensatz zum Vorge­ hen der Kanzlei im Jahre 1170 (vgl. unten Nr. 102), als eine Urkunde des  Patriarchen Amalrich von 1169 zur Grundlage genommen wird, nicht um  eine eigentliche Textvorlage. Es wird daher für die einzelnen Schenkungen  soweit möglich jeweils auf die entsprechende Schenkungsurkunde verwiesen. Auf die Besitzliste folgt eine lange Reihe von Rechtsverleihungen, die zum  Teil mit den im Jahre 1168 an der Kurie geführten Prozessen (vgl. Nr. 92ff.)  Zusammenhängen. Dabei fällt auf, daß nicht nur der Patriarch, sondern auch  der Prior als ein möglicher Bedrücker bezeichnet wird, was auf erhebliche  Spannungen im Inneren des Kapitels schließen läßt. Am Schluß steht die  Bestimmung über Zehnten vom Neuland wieder aus dem Privileg von 1163  Oktober 6 und als letztes die freie Wahl des Patriarchen aus dem Privileg von  1164 Januar 3 (Nr. 88) (II). In C sind zwei Kopien, von denen C2 mit einem Schriftwechsel an das  feierliche Privileg von 1159 Oktober 15 (Nr. 82) anschließt. Später wurde  jedoch alles, was auf der ersten Seite stand, unvollkommen radiert und ist  daher nur noch schwer zu lesen.</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Werk 1]</bibl>
+               <bibl>[Werk 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

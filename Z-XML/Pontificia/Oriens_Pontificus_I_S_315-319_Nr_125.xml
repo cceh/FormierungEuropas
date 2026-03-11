@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Oriens Pontificus I, S. 315-319, Nr. 125</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2026">Encoding</resp>
+               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Oriens Pontificus I, S. 315-319, Nr. 125</bibl><bibl type="jaffe">–</bibl>
+            <bibl>[Weiteres Konkordanzregest]</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>[*+?-]</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Tuscolo</placeName><date type="issued" notBefore="1180-11-23" notAfter="1180-11-23">1180 November 23.</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p>Alexander III. bestätigt dem Meister Rodrigo und den Brüdern von St.  Maria auf dem Freudenberg bei Jerusalem die Regel ihres Ordens und alle  Besitzungen im hlg. Lande, in der Lombardei und in Spanien und nimmt sie  ■mit den üblichen Privilegien über die Zehnten, die Aufnahme neuer Mit­ glieder usw. unter den unmittelbaren Schutz der römischen Kirche.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+
+         <div>
+            <head>Incipit</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">[Original]</bibl>
+                  <bibl type="msCopy">Kopie s. XIV Lisboa, Torre do Tombo, Coleccäo especial, Caixa 1 n. 13  [C]. — Pedro Alvarez Secco, Liber compilationis s. XVI vol. I f. 24' aus  Transsumpt era 1371 Lisboa, Torre do Tombo, Corporagöes religiosas,  mss. 234 [Df (= Abschrift s. XVIII vol. I f.43 Lisboa, Biblioteca  national, mss. 735). — Budas y privilegios concedidos a las ordenes de  Calatrava y Santiago s. XVI f. 146 Simancas, Traslados de Felipe II  vol. XI. — Bulario de Calatrava s. XVI n. 24 Madrid, Archivo Histo­ rico National, Secciön Codices 834 B [Ef. — Bulario de Calatrava a. 1759  vol. I f. 50 ebenda, Secciön Ordenes Militares, Manuscritos 411 C. —  Bulario de Calatrava s. XIX f. 31 Madrid, Biblioteca National, mss.  2723. — Auszug s. XX Collection d’Albon vol. LXXI f. 28 Paris, Biblio­ theque nationale, Nouv. acq. lat. 71. —</bibl>
+                  <bibl type="print">[Druck]</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Oriens Pontificus I, S. 315-319, Nr. 125</bibl>
+               <bibl>Edd. Bullarium de Calatrava (Madrid 1761) p. 14. Blazquez y Jimenez, Boletin de la R. Academia  de Historia LXXI (1917 )p. 163. —</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL –</bibl>
+               <bibl>Regg. L.A. Rebello da Silva, Quadro  elementar IX (Lisboa 1864) p. 18. JL. —.</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Es handelt sich um eine, etwas erweiterte Wiederholung des großen Privi­ legs von 1180 Mai 15, s. oben Nr. 122. Am wichtigsten für die Stellung des  Ordens ist der Wegfall der Unterordnung unter die, Zisterzienser. Inter­ essante Aufschlüsse über die Hintergründe dieser Änderung gibt die lange  Narratio eines Mandats Innocenz' 111. vom 24. Oktober 1198, die beinahe  eine kleine Ordensgeschichte darstellt (ed. Delaville le Roulx, Revue de l’Orient  latin I [1893] p. 55 n. 4). Ihr kann man entnehmen, daß Rodrigo nach  seinem Austritt aus dem Orden von Santiago die Regel seiner Neugründung  von den Zisterziensern bestätigen lassen wollte, das Kapitel ihn jedoch abwies.  Wohl dank persönlicher Beziehung erhielt er aber vom Abt von Citeaux —  es handelt sich dabei um Wilhelm I. von Toulouse (1178—27. Nov. 1180;  vgl. Cistercienser-Chronik LV [1948] p.8). — ohne Wissen und Zu­ stimmung des Kapitels ein je. zur Hälfte weißes und rotes Kreuz als Abzeichen.  Darauf setzte das Kapitel in einem zweiten Entscheid eine endgültige Tren­ nung gegenüber der neuen Gründung durch. Auf eine Intervention der  Zisterzienser dürfte daher die Neufassung des Abschnittes über die Regel  im vorliegenden feierlichen Privileg für Pions Gaudii zurückzuführen sein. Als Insert findet sich das Privileg ohne das Eschatokoll in der Verfügung  Honorius’ III. von 1216 Jan. 30 (z.B. in Liber indultorum s. XIV f. 19'  n. 50 Barcelona, Archivo de la mensa episcopal), durch welche ein Streit  zwischen den Templern und dem Orden von Calatrava um die Rechtsnach­ folge der Ritter von Mons Gaudii entschieden wurde.</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Werk 1]</bibl>
+               <bibl>[Werk 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

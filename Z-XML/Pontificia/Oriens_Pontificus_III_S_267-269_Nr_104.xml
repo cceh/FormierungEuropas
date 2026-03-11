@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Oriens Pontificus III, S. 267-269, Nr. 104</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2026">Encoding</resp>
+               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Oriens Pontificus III, S. 267-269, Nr. 104</bibl><bibl type="jaffe">13516</bibl>
+            <bibl>[Weiteres Konkordanzregest]</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>[*+?-]</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Tuscolo</placeName><date type="issued" notBefore="1170-10-20" notAfter="1171-10-20">(1170—71) Oktober 20.</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p>Alexander III. befiehlt dem Erzbischof von Nazareth und den Bischöfen  von Bethlehem, Akkon und Lydda, das heruntergekommene Kloster Palma­ rea gemäß den Bitten des Priors Theobald von Crepy und mit dem Einver­ ständnis des Königs Amalrich von Jerusalem den Cluniazensern zu überge­ ben, wenn es romunmittelbar ist, andernfalls sich beim Bischof von Tiberias  zugunsten der Cluniazenser zu verwenden.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+
+         <div>
+            <head>Incipit</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">[Original]</bibl>
+                  <bibl type="msCopy">Kopie s. XII Paris, Bibliotheque nationale, Fonds latin 12665 (Monasticon  Benedictinum t. VIII, vgl. oben S.82) f.81 [BJ. - Kopie s. XVII ebenda,  f. 79 [CJ. -</bibl>
+                  <bibl type="print">[Druck]</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Oriens Pontificus III, S. 267-269, Nr. 104</bibl>
+               <bibl>Ed. Bruel, Recueil des chartes de l’abbaye de Cluny V (Paris  1894) 590 n. 4237. -</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL 13516</bibl>
+               <bibl>Regg. Röhricht, Reg. regni Hieros. n. 495. JL. 13516.</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Zur Sache vgl. auch unten Nr. 108. Das Stück ist interessant, weil es zeigt,  daß Cluny siebzig Jahre nach dem ersten Kreuzzug, für den man so sehr  seinen Einfluß in Anspruch nehmen wollte, noch kein affiliiertes Kloster im  Hl. Land besaß. Doch läßt sich nicht nachweisen, daß die Verleihung auch  praktische Folgen gehabt hätte. Zum anderen beweist das Mandat Alexan­ ders III. wieder einmal, wie wenig man an der Kurie eine zuverlässige Über­ sicht über die romunmittelbaren Klöster hatte, so daß die Empfänger erst  einmal prüfen sollten, ob Palmarea dem römischen Stuhl oder dem Bischof  unterstellt war. Im Zinsbuch der römischen Kirche ist Palmarea weder bei  Albinus noch bei Cencius aufgeführt. Theobald von Crepy ist eine interessante, aber noch kaum beachtete Figur in den diplomatischen Beziehungen um 1170. Er führte damals im Auftrage Ludwigs VII. und seines Ordens eine große Gesandtschaftsreise in den Osten durch, die ihn zuerst zu Wilhelm II. an den sizilischen Hof in Palermo, dann zu Manuel Komnenos nach Konstantinopel und schließlich ins Hl. Land  führte. Neben seinen Bemühungen um das Kloster Palmarea erhielt er vom  Bischof Wilhelm von Akkon im Jahre 1170 zu Händen des Abtes Stephan  von Cluny die Erlaubnis, für die Cluniazenser in der Diözese Akkon ein  Kloster und eine Kirche zu bauen (Röhricht, Reg. regni Hieros. n. 476, ed.  Bibliotheca Cluniacensis [Paris 1614] p. 1431), ohne daß daraus eine dauer­ hafte Niederlassung entstanden zu sein scheint. Vgl. auch Mayer, Bistümer,  Klöster und Stifte p. 403ff. und jetzt die beiden Aufsätze von B.Z. Kedar (s.  oben S. 73). Die Reihenfolge dieses Stückes und eines Schreibens von König Amalrich  an den Papst in der gleichen Angelegenheit (Nr. 108) bereitet erhebliche  Schwierigkeiten, obwohl König Amalrich sich ausdrücklich auf vorangehende  päpstliche Briefe beruft. Doch schreibt der Papst bereits, Palmarea sei desti­ tutum, während es bei König Amalrich so aussieht, als sei dieser Zustand erst  neuerdings eingetreten, es sei denn, Alexander III. bezöge sich auf die Situa­ tion vor der Einsetzung des zweiten Abtes, der jetzt nach der Aussage Amal­ richs die in ihn gesetzten Erwartungen auch nicht erfüllte. Da für die zeitliche Einordnung der Reise Theobalds nur feststeht, daß er  im Jahre 1170, indictione III (Röhricht, Reg. regni Hieros. n.476), also vor  Ende August, in Akkon eine Schenkung Bischof Wilhelms entgegennahm,  kann er noch im Jahre 1170 oder erst 1171 an der Kurie berichtet haben,  während das Jahr 1172 für das päpstliche Schreiben ausscheiden dürfte. Für  das Schreiben Amalrichs ergibt sich damit ein Zeitraum 1171—74. Eine Dorsualnotiz s. XII lautet: Transscriptum priuilegii domini pape de  dono abbati? de Palmaereia.</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Werk 1]</bibl>
+               <bibl>[Werk 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Oriens Pontificus III, S. 265-267, Nr. 103</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2026">Encoding</resp>
+               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Oriens Pontificus III, S. 265-267, Nr. 103</bibl><bibl type="jaffe">11868</bibl>
+            <bibl>[Weiteres Konkordanzregest]</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>[*+?-]</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Tusculo</placeName><date type="issued" notBefore="1170-10-17" notAfter="1171-09-19">(1170 Oktober 17-1171 September 19).</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p>Alexander III. verbietet dem Patriarchen von Jerusalem, bei Schenkungen  und Bestätigungen und allen anderen kirchlichen Angelegenheiten ohne den  Rat seines Kapitels zu handeln und insbesondere die Namen abwesender  Kanoniker in seinen Urkunden ohne deren Einwilligung als Zeugen aufzufüh­ ren.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+
+         <div>
+            <head>Incipit</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">[Original]</bibl>
+                  <bibl type="msCopy">Cartulaire I du chapitre de la cathedrale d’Amiens s. XIII ex. (Stein Nr. 91)  f. 96' Amiens, Archives departementales (Somme), G 2966 [CJ. - Cartulaire  II s. XIII-XIV (Stein Nr. 92) f. 128' ebenda, G 2967 [C2J. - Cartulaire III s.  XIII ex. (Stein Nr. 93) f. 96' ebenda, G 2968 [C3J. - Cartulaire IV s. XIV  (Stein Nr. 94) f. 58' ebenda, G2969 [C^J. — Appendix concilii Lateranensis  50,19. — Coll. Oriel I 57,19 [OrielJ. - Coll. Brugensis (nur mss. Bruges 378  und Vat. Ottobon. lat. 3027) 39,1 [Brugf - Coll. Rotomagensis 30,5 [Rot], - Coll. Sangermanensis VI 5,3 [Sangerm]. - Coll. Claudiana 192 [Claud/. —  Coll. Cottoniana V 65 [Cott]. — Coll. Cheltenham 19,33 (mit Lucius III  Eraclio Ierosolimitano patriarche) [Cheltj. - Compilatio prima 3,9,5. -  Decr. Greg. IX III, 10,5. -</bibl>
+                  <bibl type="print">[Druck]</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Oriens Pontificus III, S. 265-267, Nr. 103</bibl>
+               <bibl>Edd. Rose-Roux-Soyez, Cartulaire du chapitre  de la cathedrale d'Amiens, Memoires de la Societe des antiquaires de Picardie  14 (1897-1905) p. 86 n. 63. Friedberg, Canonessammltingen (Leipzig 1897)  p. 158 aus Br. Friedberg, Corpus iuris canonici II 503. — Cit. Holtzmann—  Cheney-Cheney, Studies in the collections of twelfth-century decretals (Cittä  del Vaticano 1979) p. 203. —</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL 11868</bibl>
+               <bibl>Reg. JL. 11868.</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Wie dieses Stück nach Amiens kam und weshalb es in die Chartulare auf­ genommen wurde (aber ohne Datum), ist nicht ersichtlich. Für die zeitliche  Einreihung sind die Angaben der Coll. Oriel Dat. Toscolan. und der Appen­ dix conc. Lateran, wichtig, wo in eodem libro registri steht, was sich an der  betreffenden Stelle auf das vorangehende Stück JL. 11384 (s. unten Nr. 105)  bezieht, das seinerseits ex registri libro XII stammt. Es gehört daher zu  1170-71, vermutlich in jenes Expeditionsbündel, zu dem auch JL. 11384,  13524 und 13525 (s. Nr.105, 118 und 119) gehören. Vgl. W. Holtzmann,  Quellen und Forschungen 30 (1941) 33f. n.19 und 39ff. und id., in Collecta­ nea Vaticana Albareda, Studi e Testi 219 (Cittä del Vaticano 1962) I 410 zu  1170 Okt. 17—1171 Sept. 19. Zur abweichenden Zuschreibung in der Coll.  Chelt. vgl. auch C. Duggan, Twelfth-Century Decretal Collections (London  1973) p. 102 Anm. 4.</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Werk 1]</bibl>
+               <bibl>[Werk 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

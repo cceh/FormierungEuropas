@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="holtzmann">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Holtzmann, Kanonistische Ergänzungen, S. 98-100, Nr. 112</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2026">Encoding</resp>
+               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Holtzmann, Kanonistische Ergänzungen, S. 98-100, Nr. 112</bibl><bibl type="jaffe">14236</bibl>
+            <bibl>[Weiteres Konkordanzregest]</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>[*+?-]</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>[Ausstellungsort]</placeName><date type="issued">[Ausstellungsdatum]</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p>Idem (Alexander III.) abbati et fratribus sancti Sillani de Ro-  magnano.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+
+         <div>
+            <head>Incipit</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">[Original]</bibl>
+                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
+                  <bibl type="print">[Druck]</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Holtzmann, Kanonistische Ergänzungen, S. 98-100, Nr. 112</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL 14236</bibl>
+               <bibl>It. pont. 6b, 77 n. 1 (Romagnano) u. 6b, 60 n. 8 (Novara episc.) zu  (1172-81). JL. 14236. - </bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Die Konjekturen, die G. Schreiber, Kurie u. Kloster  im 12. Jh. 1 (= Kirchenrechtl. Abh. 65/66, 1910) 55 Anm. 1 zu dem fehler­ haften Drucke Friedbergs gemacht hat, werden, wie der erneute Abdruck  zeigt, durch die Hs. glänzend bestätigt. Auch der Brief Nr. 111 zeigt am  Anfang und Schluß so starke und die historische Interpretation berührende  Abweichungen von den bekannten Drucken, daß seine vollständige Wieder­ gabe nach der ältesten Überlieferung gerechtfertigt ist. Beide Briefe er­ scheinen zuerst in Lips. 34, c. 3 u. 4, also unmittelbar nacheinander. Beide  sind, wie man jetzt sieht, von dem Bischof B(onifatius) von Novara ver­ anlaßt (nach F. Savio, Gli antichi vescovi d’Italia 1, 272 urkundlich bezeugt  von 1172 nov. 3 bis 1191 dee. 7); beide beschäftigen sich mit römischen  Zinsklöstern und -kirchen. In der Formulierung berühren sie sich im ent­ scheidenden Satz sogar wörtlich (Nr. 111 Zeile 6-9, Nr. 112 Z.8-11), so daß man wohl annehmen darf, daß sie zur seihen Zeit entstanden sind. Nr. 112  redet ausdrücklich von einer Reise des Bischofs ad presentiam nostram;  Nr. 111 berichtet, dem Papst sei ein Brief zu Gesicht gekommen, den der  Suhdiakon A. de Summa . . . contra B. Novarien. episcopum direxisti: die  Vermutung ist wohl nicht zu kühn, daß der Bischof diesen Brief dem Papst  vorgelegt hat. Denn der Subdiakon, offenbar mit der Einziehung des Zinses  beauftragt wie die späteren Kollektoren, hat anscheinend den Unwillen des  Bischofs erregt, da er für die nach Rom zinspflichtigen Anstalten Exemtion  - das Wort fällt in Nr. 112 - beansprucht oder wenigstens in Aussicht gestellt  hat. Die Entscheidung des Papstes in Nr. 111 hat in der rechtshistorischen  Literatur die gebührende Beachtung gefunden; vgl. zuletzt G. Schreiber  a.a.O. 1, 32ff. Aufschlußreich ist aber auch in Nr. 111 die Anweisung an den  Kollektor, in jedem einzelnen Eall die Privilegien auf die Rechtsnatur der  Zinspflicht hin zu prüfen ; es geht daraus hervor, daß die Kurie damals noch  „kein erschöpfendes Verzeichnis zinspflichtiger Anstalten besaß“ (Schreiber  a.a.O. 1, 37 mit einem weiteren Quellenhinweis). Das Kloster S. Silano di  Romagnano, dessen Zinspflicht durch Nr. 112 belegt wird, erscheint auch  nicht in den späteren Arbeiten des Albinus und Cencius. In Nr. 111 handelt  es sich um die Zinspflicht einer Kirche. In den Drucken las man bisher von  einem presbiter s. Petri, der bei seiner Weihe dem Bischof von Novara  Obödienz geleistet und dieses jetzt in einem Prozeß zugegeben habe ; deshalb  sei er trotz der Zinspflicht seiner Kirche nicht exemt. Kehr hat It. pont. 6b,  76 (Carpignano) u. 35 (Castelleto) diese Peterskirche auf Carpignano ge­ deutet, den 1.) wird in den Privilegien des Klosters S. Pietro di Castelleto  (in der Diöz. Vercelli) ausdrücklich eine Calpiniascensis ecclesia, que b. Petri  iuris est, erwähnt (It. pont. 6b, 35f. n. 1 u. 4) und 2.) steht bei Albinus und  Cencius unter Novara eine eccl. s. Petri II sol. (so Alb. ; III sol. Mediolanen.:  Cene.). Aber diese Deutung stößt auf Schwierigkeiten, denn die älteste  Überlieferung, die Lips., hat einwandfrei presbiterum sancti Zenonis (genonis).  Nach der Regel von der lectio difficilior ist diese Lesart vorzuziehen. Aber  es ist schwierig, eine S.-Zeno-Kirche in der Diözese Novara ausfindig zu  machen. Keine der Pfarrkirchen, die C. Bascapé, Novara sacra, ed. G. Ra-  vizza (Novara 1878) 58ff., aufzählt, hat dieses Patrozinium. Dagegen finde  ich bei L. Cassani, G. Meflerio u. M. Tosi, Consignationes beneficiorum  dioecesis Novariensis factae a. 1347, voi. 1-3, Bibi. stör. Subalpin. 165-167  (Torino 1937-39) ein S. Zeno in Borgo Ticino (1, 176; 2, 479f., 482f., 486f.)  und eine andere Zenokirche in Graveflona Lomellina (2, 333f.). Welche von  beiden als römische Zinskirche in Frage käme, steht dahin; daß sie nicht  in den späteren Zinsbüchern genannt wird, braucht nicht wunderzunehmen. -  Bleibt noch die Frage der Datierung. Kehr datierte Nr. 112 wegen der Nen-nung des Bischofs B(onifathis) auf (1172-81). Nr. 111 brachte er in Verbin­ dung mit den Verhandlungen zwischen Friedrich I. und den Lombarden  nach dem Frieden von Venedig, in denen der Subdiakon und Legat Albertus  de Summa in Parma 1177 oct. 22 nachweisbar ist (It. pont. 6a, 13 n. 56 u. 57).  Daß Albert damals auch in Piemont war in finanziellen Angelegenheiten,  ist nicht auszumachen, und deshalb möchte ich auch die Titulatur apost. sed.  leg. der späteren Überlieferung von Nr. 111 in Zweifel ziehen. Das Stück ist  doch wohl nur auf (1172-81) zu datieren.</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Werk 1]</bibl>
+               <bibl>[Werk 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

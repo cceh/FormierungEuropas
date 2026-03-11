@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_PUU">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PUU Frankreich AF 6, S. 52-54, Nr. 21</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2026">Encoding</resp>
+               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>PUU Frankreich AF 6, S. 52-54, Nr. 21</bibl><bibl type="jaffe">JL</bibl>
+            <bibl>[Weiteres Konkordanzregest]</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>[*+?-]</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>(Lateran)</placeName><date type="issued" notBefore="1154-03-10" notAfter="1154-03-10">1154 März 10.</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p>Anastasius IV. nimmt das Kloster Charroux unter dem Abt Jor- danus nach dem Vorgange Alexanders II., Urbans II., Cálixts II. und  Lucius' 11. in den apostolischen Schutz und bestätigt ihm die Besitzungen  und Rechte, namentlich die Freiheit von bischöflicher Einmischung und  die freie Äbtswahl.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+
+         <div>
+            <head>Incipit</head>
+            <diploPart type="incipit" xml:lang="lat">de Malopresbytero, de Castro Guarnerii, de Solmeria cum Brenaco,  de Suirim, de Banaias, de Loa, de Claromonte, de Belloloco, de  Camboira, de Adaco, ecclesiam sancti Fremerii, sancti Maxentii,  sancte Marie et sancte Sophie de Niorto cum parochia sua sancti  Leodegarii, sancti Cirici, sancte Marie de Corun cum ecclesiis et  parochia sua, sancti Nicholai de Montmorlun, sancti Martini Arsi,  item sancti Martini de Heremo, de Tursaco, de Baciano; in Le- mouicensi episcopatu monasterium castri Rochecorardi cum cimiterio,  monasterium sancti Angeli cum Castro et ecclesiis sibi pertinen- tibus, ecclesiam de Colongis, de Magnaco, de Mosterio, de Cella,  de Tellicio, de Oratorio, de Asnerias, ecclesiam sancte Eulalie, sancti  Germani, sancti Yincentii, Castrum de Nontrum et monasterium  cum ecclesiis; in Santonicensi pago ecclesiam de Agerniaco, de  Marnaco, de Claui, de Cadenaco, de Formes, de Solumnagnas, de  Cresciaco, de Colums, de Auia, ecclesiam sancte Columbe, sancte  Seuerine, sancti Florentii, sancti Bibiani; in Petrogoricensi mo- nasterium sancti Petri de Sorziaco cum appendiciis suis, ecclesiam  sancte Columbe, ecclesiam sancte Marie Capelle, ecclesiam nouam  de Fractoioco, de Laudas; in Caturicensi monasterium de Monte- pesato cum appendiciis suis, de Bonoloco, de Misericordia Dei; in  Agenensi ecclesiam de Vitiaco, de Artaudo, de Margarona; in  Engolismensi ecclesiam de Yoerta, de Fontanilias, de Canumeth,  de Sarguncoco, de Domnazaco, de Siuraco Mosterio, de Caleias;  in Burdegalensi  ecclesiam de Stella, de Ribaniaco;  in Ande- gauensi ecclesiam sancti Saturnini de Cella cum appenditiis suis;  in Beluacensi ecclesiam de Fraxineto  cum altari suo de Odo- niscurte; in Remensi ecclesiam de Villadominica cum altari suo;  in Morinensi abbatiam que dicitur Ham, statuentes, ut abbatum  qui in eodem loco successerint electio in Carrofensis abbatis pro- uisione consistat, quia ab ipso pene fundationis exordio Hamensis  ecclesia Carrofensi monasterio oblata, Carrofensium fratrum studio  et expensis excreuisse cognoscitur, abbatiam de Andria, ecclesiam  de Beureria, ecclesiam de Aloamnia; in Nicholensi episcopatu  Anglie monasterium de Bardonaco, ecclesiam de Stantunaco, de  Curfo, de Scanturbeio; in Bituricensi ecclesiam de Mosterolo; in  Aruernensi castellam sancti Ynonii, abbatiam Vciodorensem, eccle- siam de Cadilogio, de Molangia, de Nobiliaco, de Crosogilo, de  Perusia, de Gadiniaco, de Pleuia cum possessionibus et pertinentiis  earum, ecclesiam sancti Dyonisii de Lacudesas, ecclesiam sancti  Petri de Noalac, ecclesias de Ambernac unam beate Marie, alteram  beati Petri, ecclesiam sancti Martini de Ambagao super fluuium  Drone, ecclesiam de Macouilla, ecclesiam de Cella. Ad hec supra-</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">[Original]</bibl>
+                  <bibl type="msCopy">Fonteneau Mémoires s. XVII  vol. IV p. 171, 175 und 179 Poi- tiers Bibl. Comm. Ms. Fonteneau Nr. 4 = Ms. lat 18379 f. 32 Paris  Bibl Nat.</bibl>
+                  <bibl type="print">[Druck]</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>PUU Frankreich AF 6, S. 52-54, Nr. 21</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL JL 9846 nach Ms. lat. 18379.</bibl>
+               <bibl>[Regest 2]</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Die Vorur`kunden Alexanders II.  und Urbans II. sind JL 4714 und JL 5627, die Calixts II. und  Lucius' II. sind verloren.</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Werk 1]</bibl>
+               <bibl>[Werk 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

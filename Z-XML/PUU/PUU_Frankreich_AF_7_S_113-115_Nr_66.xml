@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_PUU">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PUU Frankreich AF 7, S. 113-115, Nr. 66</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2026">Encoding</resp>
+               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>PUU Frankreich AF 7, S. 113-115, Nr. 66</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
+            <bibl>[Weiteres Konkordanzregest]</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>[*+?-]</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Sens</placeName><date type="issued" notBefore="1164-06-11" notAfter="1164-06-11">1164 Juni 11.</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p>Alexander III.  nimmt das Kloster Notre-Bame de la Sauve- majeure unter dem Abt Petrus in den apostolischen Schutz und be- stätigt ihm die Besitzungen, die Zehnten, die Freiheit vom Interdikt,  die freie Äbtswahl, die Sepidtur und clas Präsentationsrecht.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+
+         <div>
+            <head>Incipit</head>
+            <diploPart type="incipit" xml:lang="lat">Faidegnet, ecclesiam de Amoseio, capellam de Monte Ermerio,  Corne . . m, Caprariam, ecclesiam sancti Iohannis de Breis, eccle- siam sancti Simphoriani de Combloso, ecclesiam de Neronisuilla  cum pertinenciis earum, ecclesiam sancte Marie de Sopis cum tota  decima et aliis pertinenciis suis, guartam partem ecclesie de Er- mauuilla et medietatem decime et terram quam habetis in parro- chia, ecclesiam Dunonis et Beline et filiorum suorum, terram de  Sez cum molendinis, totum usuarium in nemore de Lanci et man- suram cum pratis, Chametum ex dono Alberici Clementis et Amau- rici quicquid uobis oblatum fuerit de feodis eorum, ex dono Adam  de Chale et Grilonis filii eius decem solidos apud Seiam et terram  de Fontenas et uiuarium et quicquid intuitu Dei uobis datum  fuerit de feodis eorum, ex dono G`uidonis uicecomitis tres modios  annone in molendinis de Banals, ex dono Alberici Forestarii et  uxoris sue molendinum de Noiseto, ex dono Rainardi de Limaiz  totum usuarium in nemoribus suis preter forestam de Grrodeio, in  ecclesia Caneuarum duas partes decime et medietatem oblationum  et omnium ad ecclesiam pertinencium, ex dono Roberti Clementis  et uxoris sue quicquid uobis rationabiliter oblatum fuerit de feodis  eorum, ex dono Hulrici Mothet et filii eius molendinum de Penpeol,  molendina de Lonrei cum adiacenti aqua, ex dono Berengeriic) de  Gislereio et matris eius modium annone in molendino de Grislerio,  donum Heruei Torquarth, decimam de Curia Dispoliata, ex dono  domne Lucie modium annone et modium uini apud Castanetum et  Condretum, Darueiam cum adiacenti terra, terram de Damont,  quicquid habetis in decima de Fromunuilla, medietatem decime de  Neinos et ea que habetis in parrochia eadem. Sane noualium u. s. w.  bis presumat exigere. Rationabiles etiam libertates et consuetudines  a comitibus Pictauensibus, baronibus Vasconie et ab illustri rege  Anglorum et regina uxore eius uobis concessasd), sicut in auten- ticis scriptis eorum continetur, uobis auctoritate apostolica confir- mamus.  Cum autem generale u. s. w.</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">[Original]</bibl>
+                  <bibl type="msCopy">Chartidarium maius Silvae majoris s. XIII p. 312 Bordeaux Bibl.  Comm. Ms. 769 vol. II. — Chartidarium minus s. XIV p. 205 ebenda  Ms. 770.</bibl>
+                  <bibl type="print">[Druck]</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>PUU Frankreich AF 7, S. 113-115, Nr. 66</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>[Regest 1]</bibl>
+               <bibl>[Regest 2]</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>[Kommentare zur Identifizierung von Personen, Institutionen und Orten, zu Vor- und Nachurkunden, Konfliktverläufen etc. Literaturnageben (bibl) sind zulässig]</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Werk 1]</bibl>
+               <bibl>[Werk 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

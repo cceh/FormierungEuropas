@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_PUU">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>PUU Frankreich AF 5, S. 65-68, Nr. 34</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2026">Encoding</resp>
+               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>PUU Frankreich AF 5, S. 65-68, Nr. 34</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
+            <bibl>[Weiteres Konkordanzregest]</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>[*+?-]</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Benevent</placeName><date type="issued" notBefore="1156-04-24" notAfter="1156-04-24">1156 April 24.</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p>Hadrian IV. nimmt das Kloster La Charité-sur-Loire unter dem  Prior Rainald nach dem Vorgange Urbans II.,  Paschalis' II. und  Lucius' II. in den apostolischen Schutz und bestätigt ihm seine Besitzuvgen und Redde, namentlich die Bestimmung Innocenz' II., daß  durch keine Neugründung innerhalb seiner Pfarreien die Rechte und  Güter des Klosters irgendwie beeinträchtigt werden dürfen.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+
+         <div>
+            <head>Incipit</head>
+            <diploPart type="incipit" xml:lang="lat">suburbio sancti Laurentii cum omnibus pertinentiis suis, de Aurolio;  in Carnotensi episcopatu ecclesiam in suburbio beate Marie Belli- loci, apud Meruillam sancti Johannis; in episcopatu Turonensi ec- clesiam sancti Michaelis, sancti Medardi de Emira; in episcopatu  Senonensi ecclesias sancte Marie de Porta Leonis cum omnibus  pertinentiis suis, de Curtiniaco sancti Petri cum omnibus pertinen- tiis suis, de Disiaco, de castro Rainaldi, sancti Nicholai ecclesiam  de Monte Boio cum omnibus pertinentiis suis, de Castellione, de  Chauennis, de Ioyniaco cum omnibus pertinentiis suis, de Branchiis,  de Contentione, de Ladis, de castello Belliot, de Venisiaco, de  Cruce cum omnibus pertinentiis suis, de Meso, de Yonisuilla, de  Iuliaco, de capella Fagi; in Trecensi episcopatu ecclesiam sancti  Sepulchri cum omnibus pertinentiis suis, de sancto Iusto de Se- sanna cum omnibus pertinentiis suis; in episcopatu Suessionensi  ecclesiam de Brena cum omnibus pertinentiis suis, de Yilleriis cum  omnibus pertinentiis suis; in episcopatu Catalonensi ecclesias de  Monte Mauro; in episcopatu Meldensi ecclesias de Radolio cum  omnibus pertinentiis suis, de Firmitate Augulfi, de Challi, de Char- niui, de Boissi, de Bellouidere, sancti Christophori in suburbio; in  episcopatu Parisiensi ecclesiam sancti Yonii cum omnibus pertinen- tiis suis; in episcopatu Beluacensi ecclesiam sancti Christophori  cum omnibus pertinentiis suis; in episcopatu Rotomagensi ecclesiam  de Longuauilla cum omnibus pertinentiis suis; in Yenetia ecclesiam  sancte Crucis cum pertinentiis suis; in Hispania sancti Petri de  Ratis uel Aratis cum pertinentiis suis; in episcopatu Vinconiensi  in Anglia ecclesiam sancti Saluatoris de Yermondeste cum perti- nentiis suis; in episcopatu Lincolnensi ecclesias sancti Andree de  Noretona cum pertinentiis suis, ecclesiam de Dammceria cum per- tinentiis suis; in episcopatu Heresfordensi ecclesiam sancte Mil- burgis de Vanncloch cum tota uilla et aliis pertinentiis suis; in  episcopatu Choracensi ecclesiam de Pontefracto cum pertinentiis  suis, alias quoque ecclesias et decimas de Laurento et de Mena et  ceteras omnes quas canonice possidetis.</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">[Original]</bibl>
+                  <bibl type="msCopy">Dom Viole Gesta episcoporum Autisiodorensium s. XVII  vol. I  p. 999 Auxerre Bibl. Comm. Ms. 152.</bibl>
+                  <bibl type="print">[Druck]</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>PUU Frankreich AF 5, S. 65-68, Nr. 34</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>[Regest 1]</bibl>
+               <bibl>[Regest 2]</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>[Kommentare zur Identifizierung von Personen, Institutionen und Orten, zu Vor- und Nachurkunden, Konfliktverläufen etc. Literaturnageben (bibl) sind zulässig]</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>Citiert Monast. Bened. s. XVII  vol. IX f. 9 Paris Bibl. Nat. Ms.  lat. 12666.</bibl>
+               <bibl>[Werk 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="holtzmann">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Holtzmann, Kanonistische Ergänzungen, S. 134-136, Nr. 177</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2026">Encoding</resp>
+               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Holtzmann, Kanonistische Ergänzungen, S. 134-136, Nr. 177</bibl><bibl type="jaffe">14093</bibl>
+            <bibl>[Weiteres Konkordanzregest]</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>[*+?-]</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>[Ausstellungsort]</placeName><date type="issued">[Ausstellungsdatum]</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">[Typisierung 2]</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p>Alexander III. Salernitano archiepiscopo.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+
+         <div>
+            <head>Incipit</head>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+         </div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">[Original]</bibl>
+                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
+                  <bibl type="print">[Druck]</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Holtzmann, Kanonistische Ergänzungen, S. 134-136, Nr. 177</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL 14093 (a), 13587 (b c)</bibl>
+               <bibl>JL. 14093 (a), 13587 (b c). - </bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>In der Registrierung dieser Dekretale  haben die Mitarbeiter Kehrs am 8. Band der It. pont. Konfusion gemacht,  denn sie wollten sie in der Anmerkung zu 8, 360 n. 50 nach Salona-Spalato  verweisen, gestützt auf Lohmann, Zeitschr. Sav. Stift. Rechtsgesch. kan.  Abt. 22, 75. Aber dort sagt Lohmann nur, daß sich auf Grund der Wig. die  Zusammengehörigkeit von Teil a JL. 14093 und bc JL. 13587 ergebe. In  JL. 13587 ist nun an erster Stelle, vor den Dekretalensammlungen, ein  Druck bei Tarlati, Illyria sacra 3, 196 verzeichnet, wo die Teile b c mit der  Inskription Rainerio Salonitano archiep. abgedruckt sind. Farlatis Druck  stammt ex libro I extraordinariorum actuum a Petro Ferrario cancellano  praetoris Spalatensis a 1504 descriptum ; ob man darunter etwas anderes als  eine späte Juristenarbeit, welche altes kanonistisches Material verwertet hat,  sehen darf, ist mir sehr zweifelhaft. Eine einwandfrei nach Salona-Spalato  inskribierte Dekretale gibt es nicht, und die Lesart Salonitano episcopo in  Cass. 27, 5 ist ganz offensichtlich ein Fehler, denn im Text ist vom archi-  episcopatu tuo die Rede. Das Schreiben ging also ohne jeden Zweifel nach  Salerno und hätte It. pont. 8, 360 n. 50 zu (1159-81) registriert werden  müssen an Stelle dessen, was jetzt dort steht; darüber gleich nachher. Es ist  nämlich fraglich, ob das Stück vollständig ist. Die gesamte Bamb.gruppe  bis hin zur Comp. I bezeichnen schon den Teil a als p.c. Cum tu sicut =  unten Nr. 178. Aber dieses Stück handelt vom Wucher, unser Teil a von  Klerikerkonkubinen. App. und Bamb.gruppe haben nun am Anfang von a  noch die Copula autem erhalten, was auf einen vorher gestrichenen Text  hinweist. Liest man den Anfang im Zusammenhang: Clericos (autem) in  sacris ordinibus constitutos, qui in domibus propriis publice detinent concubinas,  ad eas abiurandas nolumus a tua fraternitate compelli, ne in eandem forni-  cationem . . . redeant, so ist das eandem ohne Beziehung; es setzt den Fall  von clericis fornicariis in minoribus ordinibus voraus. Davon steht aber  in der Wucherdekretale Nr. 178 nichts und man könnte, will man die beiden  Stücke miteinander verkoppeln, nur annehmen, daß zwischen Nr. 178 und  Nr. 177 a noch ein weiteres, heute verlorenes Kapitel gestanden hat. JL.  haben dem Verweis der App. usw. vertraut und daher Nr. 178 und 177a  unter einer Nummer vereinigt. Mir scheint es sicherer, diese Verbindung  wieder zu lösen, zumal sie durch die Überlieferung nicht bestätigt wird. -  Was Kehr It. pont. 8, 360 n. 50 verzeichnet, App. 30, 9 JL. 14092 ist das c. 3 spur, des Konzils von Tours 1163 (vgl. Singer S. 118); lediglich das erste  Wort Precipimus ist in Mandamus geändert. Hiermit hat es folgende Be­ wandtnis: Das Stück hat in der Überlieferung der App. folgende Inskrip­ tionen : ed. princ. : Id. Salerniensi archiep. p. c. Clericos supra De clericis  matrimonio copulatis (= tit. 18, 1, hier Nr. 177a); cod. Line: Salonitano . . .  p. c. Clericos; cod. Lips. Vind. : Salerni archiep. Illud est omnino etc. supra De  alienatione (= tit. 29, 6, hier Nr. 177h). Das Stück steht sonst noch mit der  Inskription Alexander III. in Dun. III 38, Reg. 124, mit Idem in Rot. 10, 8,  mit ex condì. Turon. (nach anderen c. dieses Konzils) in Chelt. 18,7, ferner  im Zusammenhang des Konzils von Tours in Tann. c. 2c, Sang. c. 4 (p. 118),  Abrinc. c. 4 (p. 355) und in Cott. u. Pet. c. 6. Nim ist das c. im Zusammen­ hang des Konzils von Tours ein Fremdkörper und sicher ein Fragment aus  einem Papstbrief; Seckel, Zeitschr. f. Kirchenrecht 9 (1899) 187 vermochte  seine Quelle nicht nachzuweisen. Die p.c. Angaben der App. würden das  Stück als Teil unserer Dekretale ausweisen, aber wiederum ist der Zusam­ menhang anderweitig nicht belegt. Da es den Klerikern ecclesiarum vestrarum  erlaubt, mit Genehmigung ihrer Vorgesetzten den Hospitalitern auf ein  oder zwei Jahre ohne Verlust ihrer Pfründe zu dienen, brachte Kehr a.a. O.  es mit einem Vertrag des Hospitaliterpriors Fulco von Capua mit Erzbischof  Romuald von Salerno, It. pont. 8, 359 n. 48, in Verbindung; aber das ist  doch eine sehr vage Kombination. Ich würde es vorziehen, als n. 50 die  besser beglaubigten drei Kapitel der Wig. III 32 zu verzeichnen und das  fragwürdige Fragment in die Anmerkung zu verbannen.</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Werk 1]</bibl>
+               <bibl>[Werk 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>
