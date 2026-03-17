@@ -74,7 +74,7 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">Original 1946 verschollen</bibl>
+                  <bibl type="original">Original 1946 verschollen. Ausschnitte sind wiedergegeben bei</bibl>
                   <bibl type="msCopy">[handschriftliche Kopie]</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
@@ -94,7 +94,7 @@
                <bibl>[Quelle 2]</bibl>
             </listBibl>
          </div>
-         <div type="editions"><head>Editionen</head><listBibl><bibl>Pflugk-Harttung: Acta, Bd. I, S. 290, Nr. 327</bibl><bibl>Halkin: Recueil des chartes de l᾽abbaye de Stavelot-Malmédy, Bd. I, S. 494 (nach dem Original)</bibl></listBibl></div>
+         <div type="editions"><head>Editionen</head><listBibl><bibl>Pflugk-Harttung: Acta, Bd. I, S. 290, Nr. 327</bibl><bibl>Halkin: Recueil des chartes de l᾽abbaye de Stavelot-Malmédy, Bd. I, S. 494 (nach dem Original) https://books.google.de/books?id=TdY4AQAAMAAJ&amp;hl=de&amp;pg=PA494#v=onepage&amp;q&amp;f=false</bibl></listBibl></div>
          <div type="regesta">
             <head>Regesten</head>
             <!-- Konkordanzregesten -->
