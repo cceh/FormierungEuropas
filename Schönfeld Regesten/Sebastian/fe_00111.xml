@@ -78,7 +78,7 @@
             <div>
                <listBibl>
                   <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">Deperditum, erwähnt in , Brower: Fuldensium antiquitatum, S. 300 und Schannat: Historia Fuldensis, Bd. III , S. 179;</bibl>
+                  <bibl type="msCopy">[Kopie]</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
             </div>
@@ -94,12 +94,12 @@
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
                <bibl>Bruschius: Monasteriorum Germaniae praecipuorum ac maxime illustrium centuria prima, S. 61 (1551): "a Paschali quodam Pontifice Romano confirmationem accepit, impetratoque Priuilegio minores ordines Episcopali authoritate conferendi" https://www.digitale-sammlungen.de/de/view/bsb11069526?page=144,145</bibl>
-               <bibl>Brower: Fuldensium antiquitatum libri IIII, S. 300 (1612): "Hic cum salutis anno MCLXVII. Romam, Alexandro fugato, Fridericus occupasset, &amp; diadema denuo a Paschali in Vaticano sumpsisset, Hermannus eadem opera probatus a Paschali, &amp; priuilegiis ornatus, postero mox anno, lenta tabe confectus VI. Kalend. Maij vitam cum Abbatia posuit." https://archive.org/details/fuldensiumantiqu00brou/page/300/mode/2up</bibl>
+               <bibl>Brower: Fuldensium antiquitatum libri IIII, S. 300 (1612): "Hic cum salutis anno MCLXVII. Romam, Alexandro fugato, Fridericus occupasset, &amp; diadema denuo a Paschali in Vaticano sumpsisset, Hermannus eadem opera probatus a Paschali, &amp; priuilegiis ornatus, postero mox anno, lenta tabe confectus VI. Kalend. Maij vitam cum Abbatia posuit." https://archive.org/details/fuldensiumantiqu00brou/page/300/mode/2up</bibl><bibl>Schannat: Historia Fuldensis, Bd. III , S. 179</bibl>
             </listBibl>
          </div>
          <div type="editions">
             <head>Editionen</head>
-            <listBibl><bibl>–;</bibl>
+            <listBibl><bibl>–</bibl>
             </listBibl>
          </div>
          <div type="regesta">
@@ -130,9 +130,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter"
-               lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt
-               werden]</p>
+            <p>[...]</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
