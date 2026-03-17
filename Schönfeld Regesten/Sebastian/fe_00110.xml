@@ -105,7 +105,7 @@
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
                
-            <p>Rota-Inschrift: sanctus Petrus / sanctus Paulus / Pasca papa / lis III</p><p>Rota-Devise: <diploPart>Adiutor meus esto domine, ne derelinquas me</diploPart></p></diploDesc>
+            <p>Rota-Inschrift: <diploPart>sanctus Petrus / sanctus Paulus / Pasca papa / lis III</diploPart></p><p>Rota-Devise: <diploPart>Adiutor meus esto domine, ne derelinquas me</diploPart></p></diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
@@ -120,9 +120,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter"
-               lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt
-               werden]</p>
+            <p>[...]</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
