@@ -106,12 +106,12 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Der Text des Privilegs ist nahezu vollständig den Vorurkunden übernommen. Die Übernahmen sind in der Edition von Halkin kenntlich gemacht.</p>
+               <p>.</p>
             </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>[...]</p>
+            <p><diploDesc>Der Text des Privilegs ist nahezu vollständig den Vorurkunden übernommen. Die Übernahmen sind in der Edition von Halkin kenntlich gemacht</diploDesc>.</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
@@ -121,9 +121,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter"
-               lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt
-               werden]</p>
+            <p>[...]</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
