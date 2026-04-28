@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI source="fe_schoenfeld" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>fe_00009</title>
+            <respStmt>
+               <resp>Die Formierung Europas</resp><persName>Schönfeld, Urkunden der Gegenpäpste, S. 256-257, Nr. V9</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2025">Encoding:</resp>
+               <persName>SG, JB</persName><persName/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="jaffe">14427</bibl>
+            <bibl type="Schoenfeld">Schönfeld, Urkunden der Gegenpäpste, S. 256–257, Nr. V9</bibl>
+            <diploDesc><p><authen type="formula" n="na">
+                     <p>-</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p><issued><placeName>Segni</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1159-11-30" precision="high" unit="cm" xml:space="default" notBefore="1159-10-01" type="issued">1159, (Oktober–November)</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued><p><legalActor type="issuer">Viktor IV.</legalActor></p><p><legalActor type="recipient">Kloster Oberaltaich</legalActor></p><p><legalActor type="recipient">Theoderich, Abt des Klosters Oberaltaich</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType ref="na">Papsturkunde, feierliches Privileg</objectType></p><p><objectType ref="na">&amp;lt;refPoint1&amp;gt; Juristisches, Rechtsbestätigungen &amp;lt;rePoint1&amp;gt;</objectType></p><p><objectType ref="na">&amp;lt;refPoint2&amp;gt; Viktor IV., Urheber &amp;lt;refPoint2&amp;gt;</objectType></p></diploDesc></sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract:</head>
+            <p><legalActor><persName>Papst Viktor IV.</persName></legalActor> stellt nach dem Vorbild seines Vorgängers <persName>Papst Honorius II.</persName> das <legalActor><orgName>Benediktinerkloster Oberaltaich</orgName></legalActor> (D. Regensburg) unter <legalActor><persName>Abt Theoderich</persName></legalActor> unter apostolischen Schutz und bestätigt seine Besitzungen und Rechte. <list>
+                  <item>Er bestätigt alle derzeitigen und künftigen Besitzungen und Güter jedweder Herkunft.</item><item>Er befreit es vom Zehnten für Neubrüche bei Eigenbau und für Tierfutter.</item><item>Er verfügt, dass es niemandem gestattet sei, Klosterbesitz zu entfremden oder Zölle zu erheben.</item><item>Er garantiert die freie Wahl des Abtes gemäß der Benediktsregel und gewährt das freie Begräbnisrecht sowie die freie Wahl eines Vogtes.</item><item>Er setzt den freien Empfang von Altarweihen und Ordinationen durch den Diozesanbischof fest.</item><item>Er bestimmt die jährliche Zahlung eines bereits durch die Klostergründer, den <persName>Grafen Albert</persName> und den <persName>Vogt Friedrich</persName>, festgelegten Schutzzinses.</item><item>Schlussformeln: Perturbationsverbot, sanctio negativa und positiva.</item>
+               </list></p>
+         </div>
+
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Pie postulatio voluntatis effectu debet</diploPart><diploPart type="incipit" xml:lang="lat"/></div>
+         <div>
+            <head>Subscriptiones:</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item><diploPart type="subscriptio" xml:lang="lat">(R.) Ego <persName>Victor catholice ecclesie episcopus</persName> subscripsi. (BV.)</diploPart></item><item><diploPart type="subscriptio" xml:lang="lat">Ego <persName>Iohannes presbiter cardinalis tituli sanctorum Silvestri et Martini</persName> subscripsi.</diploPart></item><item><diploPart type="subscriptio" xml:lang="lat">Ego <persName>Iohannes Botomiensis episcopus</persName> subscripsi.</diploPart></item><item><diploPart type="subscriptio" xml:lang="lat">Ego <persName>Guido presbiter cardinalis tituli Calixti</persName> subscripsi.</diploPart></item><item><diploPart type="subscriptio" xml:lang="lat">Ego <persName>Riccardus Melfictensis episcopus</persName> subscripsi.</diploPart></item>
+               </list></diploPart>
+         </div>
+         <div><head>Datatio:</head><diploPart type="datatio">Datum <placeName>Sign[i]</placeName> per manus <persName>Iohannis sancte Romane ecclesie subdiaconi et scriptoris</persName>, anno dominicę incarnationis MCLVIIII, indictione VIII, pontificatus vero domni <persName>Victoris IIII pape</persName> anno primo.</diploPart><diploPart type="datatio"/></div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">Original, München, Bayerisches Hauptstaatsarchiv, Kloster Oberaltaich, Urkunden Nr. 4; Digitalisat: https://urkundenrepositorium.uni-marburg.de/entities/urkunde/c207ebbe-6c71-4dd9-8041-82f816afe3ad; https://www.deutsche-digitale-bibliothek.de/item/EEUMZNDADIYF3JD4GITOWUVDLHMBWILU</bibl>
+                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
+                  <bibl type="print">[Druck]</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>-</bibl>
+               <bibl/>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>-</bibl>
+               <bibl/>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 256–257, Nr. V9</bibl>
+               <bibl>Monumenta Boica, Bd. XII , S. 108, Nr. 13</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL 14427</bibl>
+               <bibl>Germ. Pont. 1, S. 323, Nr. 2</bibl><bibl>Pflugk-Harttung, Päpstliche Original-Urkunden, S. 575, Nr. 958 („Scheinoriginal“)</bibl><bibl>Mayr, Pontifikat, S. 86, Nr. 4</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p><diploDesc><diploPart type="rota">Rota vorhanden, Inschrift: sanctus Petrus/sanctus Paulus/Victor/papa IIII, Devise: Tu es gloria mea, tu es susceptor meus, domine, tu exaltas caput meum. Bene valete vorhanden. Bulle fehlt, rote Seidenfäden noch erhalten. Im Original ist das Jahr auf 1159 datiert unter Angabe der 8. Indiktion. Schönfeld korrigiert in seiner Transkription die Indiktion auf VIIII (!) und reduziert die Jahresangabe auf 1158. Im Regest datiert er das vorliegende Privileg aber auf 1159 (Oktober - November) (vgl. Schönfeld, Urkunden der Gegenpäpste, S. 257). Lang datiert das Jahr auf 1160, Indiktion 8 (vgl. Lang, Regesta I, S. 236). Mayr hingegen auf 1159 und notiert, dass die Indiktionszahl nicht auf 7 verbessert werden soll, gibt aber keine Begründung dafür an (vgl. Mayr, Pontifikat, S. 86, Nr. 4).  </diploPart></diploDesc><diploDesc/></p></diploDesc></div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p/>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>Bischoff, Urkundenformate, S. 140</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter"
+               lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt
+               werden]</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI source="fe_schoenfeld" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>fe_00041</title>
+            <respStmt>
+               <resp>Die Formierung Europas</resp><persName>Schönfeld, Urkunden der Gegenpäpste, S. 273-275, Nr. V41</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2025">Encoding:</resp>
+               <persName>SG, JB</persName><persName/></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="jaffe">14448</bibl>
+            <bibl type="Schoenfeld">Schönfeld, Urkunden der Gegenpäpste, S. 273–275, Nr. V41</bibl>
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>-</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Cremona</placeName><date type="issued" notBefore="1161-05-11" notAfter="1161-05-11">1161, Mai 11</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">Viktor IV.</legalActor></p>
+               <p><legalActor type="recipient">Benediktinerkloster Deutz</legalActor></p><p><legalActor type="recipient">Hartbernus (!), Abt des Benediktinerklosters Deutz</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType ref="na">Papsturkunde, feierliches Privileg</objectType></p>
+               <!-- Referenz aus Liste entnehmen -->
+               <p><objectType ref="na">&amp;lt;refPoint1&amp;gt; Juristisches, Rechtsbestätigungen &amp;lt;refPoint1&amp;gt;</objectType></p><p><objectType ref="na">&amp;lt;refPoint2&amp;gt; Viktor IV., Urheber &amp;lt;refPoint2&amp;gt;</objectType></p>
+               <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract:</head>
+            <p>Viktor IV. nimmt das Benediktinerkloster Deutz (D. Köln) unter Abt Hartbernus (!) in den apostolischen Schutz und bestätigt seine Besitzungen. <list>
+                  <item>Eingeschlossen sind alle Besitzungen und Güter, die die Kirche in der Gegenwart rechtmäßig besitzt beziehungsweise in der Zukunft rechtmäßig erwerben wird, darunter einige namentlich genannte Besitzungen inklusive ihrer Zehnten. </item><item>Die Zehnten der zum Kloster gehörenden Kirchen dürfen frei genutzt und verwendet werden. Den Priestern steht hingegen der Teil der Zehnten zur freien Verwendung zu, der nicht dem Kloster Deutz zugewiesen wurde. </item><item>Die aufgeführten Einnahmen aus den Zehnten dürfen nicht gemindert oder entzogen werden und sollen dem Unterhalt der Brüder dienen.</item><item>Er gewährt die freie Wahl des Abtes gemäß der Regula Benedicti und das freie Begräbnisrecht.</item><item>Die kanonische Rechtssprechung unterliegt dem Erzbischof von Köln und der Autorität des apostolischen Stuhls. Außerdem verbietet er die Veräußerung, Entfremdung und den Entzug von Gütern des Klosters.</item><item>Schlussformeln: Perturbationsverbot, Sanctio negativa und positiva.</item>
+               </list></p>
+         </div>
+
+         <div>
+            <head>Incipit:</head>
+            <diploPart type="incipit" xml:lang="lat">Quotiens ea que a rationis</diploPart></div>
+         <div>
+            <head>Subscriptiones:</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>(R.) Ego Victor catholicę ecclesie episcopus subscripsi. (BV.)</item><item>Ego Ubaldus Ferentinus episcopus subscripsi. </item><item>Ego Iohannes presbiter cardinalis tituli sanctorum Silvestri et Martini subscripsi. </item><item>Ego Guido presbiter cardinalis tituli sancti Kalixti subscripsi. </item><item>Ego Iohannes presbiter cardinalis tituli Pastoris subscripsi. </item><item>Ego Heinricus presbiter cardinalis tituli sancti Clementis subscripsi. </item><item>Ego Berardus diaconus cardinalis sanctorum Sergii et Bachi subscripsi. </item><item>Ego Landus diaconus cardinalis sancti Angeli subscripsi. </item><item>Ego Gerardus sanctę Romanę ecclesię diaconus cardinalis subscripsi.</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio:</head>
+            <diploPart type="datatio">Datum Cremone per manum Gerardi sancte Romane ecclesie subdiaconi et notarii, V idus maii indictione VIIII , incarnationis dominice anno MCLXI , pontificatus vero domini Victoris pape IIII anno secundo.</diploPart>
+         </div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">Original: Köln, Stadtarchiv, Urkunden der Abtei Deutz 3/8b. Digitalisat: https://urkundenrepositorium.uni-marburg.de/entities/urkunde/ade34faa-f3d4-4c90-97fb-ee493825be86</bibl>
+                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
+                  <bibl type="print">[Druck]</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>-</bibl>
+               <bibl/>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>-</bibl>
+               <bibl/>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 273–275, Nr. V41</bibl>
+               <bibl>Pflugk-Harttung, Acta I, S. 287, Nr. 323</bibl><bibl/>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <!-- Konkordanzregesten -->
+            <listBibl>
+               <bibl>JL 14448</bibl>
+               <bibl>Germ. Pont. 7, S. 245, Nr. 10</bibl><bibl>Finke, PU Westfalens, Nr. 120</bibl><bibl>Mayr, Pontifikat, S. 107, Nr. 29</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>Rota vorhanden, Inschrift: sanctus Petrus/sanctus Paulus/Vic/papa/tor/IIII, Devise: Tu es gloria mea, tu es susceptor meus, tu exaltans caput meum, domine. Bene valete vorhanden. Bulle an rot-grün-weißen Seidenfäden. Aufschrift auf der Aversseite: Vic/tor/papa IIII, auf der Reversseite sind die bekannten Köpfe der Apostelfürsten Petrus und Paulus abgebildet. Hiermit liegt eine erweiterte Abschrift des Privilegs FE Nr. 40 (JL 14447) vor, das in einer sehr ähnlichen Handschrift und vermutlich in der Kanzlei Viktor IV. verfasst wurde (vgl. Germ. Pont. 7, S. 245-246). Da die Ausführung einer Zweitausfertigung durch aus den Gewohnheiten der Kanzlei entsprach, ist die Authentizität des vorliegenden Privilegs entgegen der Einwände von Pflugk-Harttung (Acta I, S. 287) nicht anzuzweifeln (vgl. Mayr, Pontifikat, S. 107). <diploPart type="rota"/></p>
+            <p/></diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Vgl. ##FE Nr. 40 ## (= JL 14447): Es handelt sich beim vorliegenden Privileg um eine Zweitausfertigung, die ebenfalls auf den 11. Mai 1161 datiert ist. Diese unterscheidet sich zur Erstausfertigung (FE Nr. 40) durch geringfügige Abweichungen in der Besitzliste - hinzugekommen sind die Zehnten von Ense und Birtene -, der Verleihung des freien Begräbnisrechts und einer detaillierten Aufschlüsselung zur Verwendung der Zehnten. Die Bestimmungen über die Verwendung der Zehnten und die den Priestern anteilig einbehaltenen Zehnten zur freien Verwendung scheinen zum Nachteil des Klosters verschlechtert worden zu sein. Möglicherweise wurde daher zum Ausgleich das freie Begräbnisrecht gewährt (vgl. Germ. Pont. 7, S. 245-246). Im Vergleich zu FE Nr. 40 befinden sich unter den Subscriptiones zusätzlich die Namen von Guido von Crema, Kardinalpriester von San Callisto, und von Heinrich, Kardinalpriester von San Clemente. Die Schreibweise des Abtnamens (Hartbernus) weicht von der Erstausfertigung ab.</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>Vgl. Bischoff: Urkundenformate im Mittelalter, S. 140</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter"
+               lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt
+               werden]</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>
