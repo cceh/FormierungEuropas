@@ -27,9 +27,9 @@
                <issued><placeName>Viterbo</placeName><date type="issued" notBefore="1166-04-13" notAfter="1166-04-13">(1166), April 13</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p><legalActor type="issuer">Paschalis III.</legalActor></p>
                <p>
-                  <legalActor type="recipient">[Recipient 1]</legalActor></p>
+                  <legalActor type="recipient">[Ludwig VII., KöRecipient 1]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &amp;gt; Litterae cum serico]</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
@@ -52,7 +52,7 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Paschalis III . fordert König Ludwig VII . von Frankreich auf, sich entgegen seiner bisherigen Positionierung im Schisma seiner Obödienz anzuschließen, um die kirchliche Einheit wiederherzustellen.<list>
+            <p>Paschalis III. fordert König Ludwig VII . von Frankreich auf, sich entgegen seiner bisherigen Positionierung im Schisma seiner Obödienz anzuschließen, um die kirchliche Einheit wiederherzustellen.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
