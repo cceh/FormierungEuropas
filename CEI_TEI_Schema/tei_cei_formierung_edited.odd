@@ -324,7 +324,8 @@
        </alternate>
       </content>
      </elementSpec>
-     <elementSpec ident="legalActor" mode="add">
+     <elementSpec module="msdescription" ident="refPoint" mode="add">
+      </elementSpec>     <elementSpec ident="legalActor" mode="add">
       <desc> Persons or organizations party to or otherwise mentioned in a an act or contract. </desc>
       <classes>
        <memberOf key="att.global"/>
