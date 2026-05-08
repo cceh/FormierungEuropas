@@ -30,7 +30,7 @@
                <p><legalActor type="issuer">Paschalis III.</legalActor></p>
                <p><legalActor type="recipient">Ludwig VII., König von Frankreich</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &amp;gt; Litterae cum serico]</objectType></p>
+               <p><objectType ref="na">&amp;lt;refPoint1Papsturkunde &amp;gt; Litterae cum cum filo canapis]</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
                <p><objectType ref="na">&amp;lt;refPoint2&amp;gt; Paschalis III., Urheber &amp;lt;refPoint2&amp;gt;</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
