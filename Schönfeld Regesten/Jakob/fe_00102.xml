@@ -28,7 +28,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Paschalis III.</legalActor></p>
-               <p><legalActor type="recipient">Bischof B. von Feltre</legalActor></p>
+               <p><legalActor type="recipient">B. von Feltre</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">Papsturkunde, Litterae cum cum filo canapis</objectType></p><p><objectType ref="na">&amp;lt;refPoint1&amp;gt; Kommentar zum Schisma, zeitgenössisch &amp;lt;refPoint1&amp;gt;</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
@@ -51,7 +51,7 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p><persName>Paschalis III.</persName> ermahnt <persName>Bischof B. von Feltre</persName>, sich dem schlechten Einfluss der Schismatiker zu widerstehen, und ruft ihn zum Wohl des inneren Friedens der Kirche zur Unterstützung auf.<list>
+            <p><persName>Paschalis III.</persName> ermahnt <persName>B. von Feltre</persName>, dem schlechten Einfluss der Schismatiker zu widerstehen, und ruft ihn zum Wohl des inneren Friedens der Kirche zur Unterstützung auf.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
@@ -113,7 +113,7 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Ebenso wie bei ##FE_00101## ist keine mittelalterliche Überlieferung bekannt; siehe auch den dortigen Sachkommentar. <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 313, Nr. P6</bibl> nimmt irrigerweise an, das Schreiben sei an den Bischof von </p>
+            <p>Ebenso wie bei ##FE_00101## ist keine mittelalterliche Überlieferung bekannt; siehe auch den dortigen Sachkommentar. <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 313, Nr. P6</bibl> nimmt irrigerweise an, das Schreiben sei an den Bischof von Feltre gerichtet gewesen, obwohl </p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
