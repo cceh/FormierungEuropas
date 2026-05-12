@@ -99,7 +99,7 @@
             <head>Editionen</head>
             <listBibl>
                <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 313, Nr. P6</bibl>
-               <bibl>Bouquet: Recueil, Bd. XVI , S. 119, Nr. 364; Duchesne: Historiae Francorum, Bd. IV , S. 728, Nr. 455;</bibl>
+               <bibl>Bouquet: Recueil, Bd. XVI , S. 119, Nr. 364; </bibl><bibl>Duchesne: Historiae Francorum, Bd. IV , S. 728, Nr. 455;</bibl>
             </listBibl>
          </div>
          <div type="regesta">
@@ -107,7 +107,7 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14487</bibl>
-               <bibl>[Regest 2]</bibl>
+               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 313, Nr. P6</bibl>
             </listBibl>
          </div>
          <div>
@@ -130,7 +130,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>Scan von Bouquet: https://archive.org/details/RecueilDesHistoriensDesGaulesEtDe16_201405/page/n264/mode/1up</p><p>Scan von Duchesne: https://archive.org/details/HistoriaeFrancorumScriptores4/page/n744/mode/1up </p>
+            <p>Scan von Bouquet: https://archive.org/details/RecueilDesHistoriensDesGaulesEtDe16_201405/page/n264/mode/1up</p><p>Scan von Duchesne: https://archive.org/details/HistoriaeFrancorumScriptores4/page/n743/mode/1up </p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
