@@ -59,7 +59,7 @@
 
          <div>
             <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">Nobilitatem tuam tanto</diploPart>
+            <diploPart type="incipit" xml:lang="lat">Nobilitatem tuam tanto sinceriori affectu</diploPart>
          </div>
          <div>
             <head>Subscriptiones:</head>
@@ -130,7 +130,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>Scan von Bouquet: https://archive.org/details/RecueilDesHistoriensDesGaulesEtDe16_201405/page/n263/mode/1up</p><p>Scan von Duchesne: https://archive.org/details/HistoriaeFrancorumScriptores4/page/n744/mode/1up </p>
+            <p>Scan von Bouquet: https://archive.org/details/RecueilDesHistoriensDesGaulesEtDe16_201405/page/n264/mode/1up</p><p>Scan von Duchesne: https://archive.org/details/HistoriaeFrancorumScriptores4/page/n744/mode/1up </p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
