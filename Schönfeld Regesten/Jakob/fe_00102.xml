@@ -30,7 +30,7 @@
                <p><legalActor type="issuer">Paschalis III.</legalActor></p>
                <p><legalActor type="recipient">Bischof B. von Feltre</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType ref="na">[Papsturkunde, Litterae cum cum filo canapis, siehe Guidelines. Z.B.: Papsturkunde &amp;gt; Litterae cum </objectType></p><p><objectType ref="na">&amp;lt;refPoint1&amp;gt; Kommentar zum Schisma, zeitgenössisch &amp;lt;refPoint1&amp;gt;</objectType></p>
+               <p><objectType ref="na">Papsturkunde, Litterae cum cum filo canapis</objectType></p><p><objectType ref="na">&amp;lt;refPoint1&amp;gt; Kommentar zum Schisma, zeitgenössisch &amp;lt;refPoint1&amp;gt;</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
                <p><objectType ref="na">&amp;lt;refPoint2&amp;gt; Paschalis III., Urheber &amp;lt;refPoint2&amp;gt;</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
@@ -51,7 +51,7 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p><persName>Paschalis III.</persName> mahnt den Bischof B. von Feltre (nobilem virum), sich vor der gegnerischen Seite im Schisma in Acht zu nehmen, und ruft ihn zum Wohl des inneren Friedens der Kirche zur Unterstützung auf.<list>
+            <p><persName>Paschalis III.</persName> mahnt den <persName>Bischof B. von Feltre</persName> (nobilem virum), sich vor der gegnerischen Seite im Schisma in Acht zu nehmen, und ruft ihn zum Wohl des inneren Friedens der Kirche zur Unterstützung auf.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
