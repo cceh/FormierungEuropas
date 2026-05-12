@@ -90,10 +90,7 @@
          </div>
          <div type="editions">
             <head>Editionen</head>
-            <listBibl>
-               <bibl/>
-               <bibl>Bouquet: Recueil, Bd. XVI , S. 118, Nr. 363</bibl><bibl> Duchesne: Historiae Francorum, Bd. IV, S. 729, Nr. 459</bibl>
-            </listBibl>
+            <listBibl><bibl/><bibl>Bouquet: Recueil, Bd. XVI , S. 118, Nr. 363</bibl><bibl> Duchesne: Historiae Francorum, Bd. IV, S. 729, Nr. 459</bibl></listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head>
@@ -110,7 +107,7 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p/><p>Eine mittelalterliche Kopialüberlieferung ist nicht bekannt, auch wenn <bibl>Sprenger: Ein Deperditum, S. 267, Anm. 24</bibl>, die Existenz einer solchen annimmt.</p>
+            <p/><p>Eine mittelalterliche Überlieferung ist nicht bekannt; <bibl>Sprenger: Ein Deperditum, S. 267, Anm. 24</bibl>, geht von die Existenz einer solchen annimmt.</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
