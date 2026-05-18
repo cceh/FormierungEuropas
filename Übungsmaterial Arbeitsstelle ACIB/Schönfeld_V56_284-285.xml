@@ -27,7 +27,7 @@
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Cremona</placeName><date type="issued">(1161), November 17</date>
+               <issued><placeName>Cremona</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1161-11-17" precision="high" unit="cm" xml:space="default" notBefore="1161-11-17" type="issued">(1161), November 17</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">[Issuer]</legalActor></p>
