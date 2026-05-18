@@ -32,7 +32,7 @@
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
                <p>
-                  <legalActor type="recipient">Humbert, Erzbischof von Besancon</legalActor></p>
+                  <legalActor type="recipient">Humbert, Erzbischof von Besancon</legalActor></p><p><legalActor type="recipient">Besancon, Kapitel St. Johann</legalActor></p><p><legalActor type="recipient"/></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="fe:vocab:objectType:0101">Papsturkunde, Privileg feierlich</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
