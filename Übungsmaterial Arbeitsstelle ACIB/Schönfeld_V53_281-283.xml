@@ -30,9 +30,9 @@
                <issued><placeName>Lodi</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1161-07-25" precision="high" unit="cm" xml:space="default" notBefore="1161-07-25" type="issued">25. Juli 1161</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p><legalActor type="issuer">Viktor IV.</legalActor></p>
                <p>
-                  <legalActor type="recipient">[Recipient 1]</legalActor></p>
+                  <legalActor type="recipient">Hillin, Erzbischof von Trier</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="fe:vocab:objectType:0101">Papsturkunde, Privileg feierlich</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
