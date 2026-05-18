@@ -34,7 +34,7 @@
                <p>
                   <legalActor type="recipient">Humbert, Erzbischof von Besancon</legalActor></p><p><legalActor type="recipient">Besancon, Kapitel St. Johann</legalActor></p><p><legalActor cert="high" type="beneficiary" xml:space="default">P., Abt von St. Vincent</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType ref="fe:vocab:objectType:0101">Papsturkunde, Privileg feierlich</objectType></p>
+               <p><objectType ref="fe:vocab:objectType:0101">Papsturkunde, Litterae (unbestimmt)</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
                <p><objectType ref="na">[Typisierung 2]</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
@@ -62,8 +62,7 @@
 
          <div>
             <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
-         </div>
+            <diploPart type="incipit" xml:lang="lat">[</diploPart> </div>
          <div>
             <head>Subscriptiones:</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
