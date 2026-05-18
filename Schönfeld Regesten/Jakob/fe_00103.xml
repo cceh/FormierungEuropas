@@ -113,13 +113,12 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>[Text und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
- Kommentar]</p>
+               <p>[<diploDesc>Beim vorliegenden Stück handelt es sich um ein Deperditum, das nur aus einem Vermerk in den oben genannten Constitutiones Kaiser Friedrichs I. erschließen lässt. </diploDesc><diploPart type="rota"/></p>
             </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Siehe auch ##FE_00098##]</p>
+            <p>Siehe auch ##FE_00098##.</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
