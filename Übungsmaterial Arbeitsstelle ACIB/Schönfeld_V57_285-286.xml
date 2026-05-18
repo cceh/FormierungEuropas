@@ -32,9 +32,9 @@
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
                <p>
-                  <legalActor type="recipient">Konrad, Abt von Co</legalActor></p>
+                  <legalActor type="recipient">Konrad, Abt von Corvey</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType ref="fe:vocab:objectType:0101">Papsturkunde, Privileg feierlich</objectType></p>
+               <p><objectType ref="fe:vocab:objectType:0101">Papsturkunde, Litterae cum serico?</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
                <p><objectType ref="na">[Typisierung 2]</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
@@ -66,13 +66,12 @@
          <div>
             <head>Subscriptiones:</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+                  <item>-</item>
                </list></diploPart>
          </div>
          <div>
             <head>Datatio:</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
-         </div>
+            <diploPart type="datatio">-</diploPart> </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
