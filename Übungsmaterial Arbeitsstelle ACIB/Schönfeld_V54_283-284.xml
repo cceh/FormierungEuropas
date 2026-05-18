@@ -60,10 +60,7 @@
                </list></p>
          </div>
 
-         <div>
-            <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
-         </div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Que a personis ecclesiasticis rationabili</diploPart></div>
          <div>
             <head>Subscriptiones:</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
