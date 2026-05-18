@@ -24,10 +24,10 @@
             <bibl type="Schoenfeld">[Kurztitel Schönfeld-Regest]</bibl>
             <diploDesc>
                <p><authen type="formula" n="na">
-                     <p>[*+?-]</p>
+                     <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>(Cremona)</placeName><date type="issued">(116</date>
+               <issued><placeName>(Cremona)</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1162-12-31" precision="high" unit="cm" xml:space="default" notBefore="1162-01-01" type="issued">(1162)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">[Issuer]</legalActor></p>
@@ -62,8 +62,7 @@
 
          <div>
             <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
-         </div>
+            <diploPart type="incipit" xml:lang="lat">Et iustitie ratio</diploPart> </div>
          <div>
             <head>Subscriptiones:</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
