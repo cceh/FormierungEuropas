@@ -32,7 +32,7 @@
                   </authen></p><issued><placeName>Lucca</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" type="issued" unit="cm" xml:space="default" when="1164-05-03">1164 Mai 3</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">Papst Paschalis III.</legalActor></p>
+               <p><legalActor type="issuer"><persName>Papst Paschalis III.</persName></legalActor></p>
                <p><legalActor type="recipient">Erzbischöfe, Bischöfe, Äbte, Pröpste und weitere kirchliche Würdenträger</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="fe:vocab:objectType:0101">Papsturkunde, Litterae cum serico</objectType></p>
