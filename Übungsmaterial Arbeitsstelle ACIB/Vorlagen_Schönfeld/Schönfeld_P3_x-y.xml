@@ -34,7 +34,7 @@
                </issued>
                <p><legalActor type="issuer">Bischof Johann I. von Kammin</legalActor></p>
                <p>
-                  <legalActor type="recipient">[Recipient 1]</legalActor></p>
+                  <legalActor type="recipient">[Erzbischöfe, Bischöfe, Äbte, Pröpste und weitere kirchliche Würdenträge]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="fe:vocab:objectType:0101">Papsturkunde, Privileg feierlich</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
@@ -64,7 +64,7 @@
 
          <div>
             <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">[Quam amabilis [deo] Lorem ipsum dolor sit amet]</diploPart>
+            <diploPart type="incipit" xml:lang="lat">[Quam amabilis [deo] etLorem ipsum dolor sit amet]</diploPart>
          </div>
          <div>
             <head>Subscriptiones:</head>
