@@ -120,7 +120,7 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>[Inhalt des Sachkommentars. Bibliographische Referenzen werden als Bibliographische
+            <p>[SchönfeldInseriert Inhalt des Sachkommentars. Bibliographische Referenzen werden als Bibliographische
                Angabe getagged.]</p>
          </div>
          <div type="bibliography">
@@ -131,8 +131,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[inzufügen. Literaturangaben können als bibl getagt
-               werdenSignatur des Vidimus muss weiter recherchiert werden.]</p>
+            <p>Signatur des Vidimus' muss weiter recherchiert werden.</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
