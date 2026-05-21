@@ -28,8 +28,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Paschalis III.</legalActor></p>
-               <p>
-                  <legalActor type="recipient">[Gregor, Abt von Hornbach</legalActor></p>
+               <p><legalActor type="recipient">Gregor, Abt von Hornbach</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &amp;gt; Litterae cum serico]</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
@@ -64,18 +63,18 @@
          <div>
             <head>Subscriptiones:</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>Ego Pascalis catholice ecclesię episcopus subscripsi. Ego Iohannes Albanensis episcopus subscripsi. Ego Iohannes presbiter cardinalis tituli Pastoris subscripsi. Ego Umfredus presbiter cardinalis tituli [ sancte ] Susannę subscripsi. Ego Albertus presbiter cardinalis tituli sancti Grisogoni subscripsi. Ego Landus sancti Angeli diaconus cardinalis subscripsi. Ego Gerardus diaconus cardinalis sancte Marie in Aquiro subscripsi. Ego Lanfredus sancte Marie nove dia- conus cardinalis subscripsi.</item>
+                  <item>Ego Pascalis catholice ecclesię episcopus subscripsi. Ego Iohannes Albanensis episcopus subscripsi. Ego Iohannes presbiter cardinalis tituli Pastoris subscripsi. Ego Umfredus presbiter cardinalis tituli [sancte] Susannę subscripsi. Ego Albertus presbiter cardinalis tituli sancti Grisogoni subscripsi. Ego Landus sancti Angeli diaconus cardinalis subscripsi. Ego Gerardus diaconus cardinalis sancte Marie in Aquiro subscripsi. Ego Lanfredus sancte Marie nove dia- conus cardinalis subscripsi.</item>
                </list></diploPart>
          </div>
          <div>
             <head>Datatio:</head>
-            <diploPart type="datatio">Datum Viterbii per manum Iohannis sanctę Romane ecclesię presbiteri cardinalis et cancellarii, XIIII kalendas decembris indictione XV incarnationis dominice anno MCLXVII , pontificatus vero dompni Pascalis pape III anno III .</diploPart>
+            <diploPart type="datatio">Datum Viterbii per manum Iohannis sanctę Romane ecclesię presbiteri cardinalis et cancellarii, XIIII kalendas decembris indictione XV incarnationis dominice anno MCLXVII, pontificatus vero dompni Pascalis pape III anno III .</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">Original, München, Bayerisches HS tA;</bibl>
+                  <bibl type="original">Original, München, Bayerisches HStA;</bibl>
                   <bibl type="msCopy">[handschriftliche Kopie]</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
