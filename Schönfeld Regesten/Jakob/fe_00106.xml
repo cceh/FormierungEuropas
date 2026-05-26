@@ -30,7 +30,7 @@
                <p><legalActor type="issuer">Paschalis III.</legalActor></p>
                <p><legalActor type="recipient">Christian, Erzbischof von Mainz</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType ref="na">Papsturkunde, Litterae cum serico</objectType></p><p/>
+               <p><objectType ref="na">Papsturkunde, Litterae cum serico</objectType></p><p><objectType ref="na">o</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
                <p><objectType ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &amp;gt; Beauftragung durch…]</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
