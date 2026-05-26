@@ -74,9 +74,9 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">Deperditum (?), erwähnt in der Chronica magistri Rogeri de Hoveden, ed. Stubbs, S. 140 und in Ex gestis Henrici II . et Ricardi I., ed. Liebermann, S. 97;</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="original">-</bibl>
+                  <bibl type="msCopy">-</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
@@ -90,7 +90,7 @@
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
+               <bibl>erwähnt in der Chronica magistri Rogeri de Hoveden, ed. Stubbs, S. 140 </bibl><bibl>in Ex gestis Henrici II . et Ricardi I., ed. Liebermann, S. 97;1]</bibl>
                <bibl>[Quelle 2]</bibl>
             </listBibl>
          </div>
