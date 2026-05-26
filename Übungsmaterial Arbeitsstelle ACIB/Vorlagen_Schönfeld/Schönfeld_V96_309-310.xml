@@ -32,7 +32,7 @@
                   </authen></p><issued><placeName>Lucca</placeName><date type="issued">1164 Apr. 18</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">Papst Viktor IV.</legalActor></p>
+               <p><legalActor type="issuer"><persName>Papst Viktor IV.</persName></legalActor></p>
                <p><legalActor type="recipient">Stift S. Michiels in Antwerpen</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="fe:vocab:objectType:0101">Papsturkunde, Privileg feierlich</objectType></p>
