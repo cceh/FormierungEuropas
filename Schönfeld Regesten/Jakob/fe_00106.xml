@@ -30,7 +30,7 @@
                <p><legalActor type="issuer">Paschalis III.</legalActor></p>
                <p><legalActor type="recipient">Christian, Erzbischof von Mainz</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType ref="na">Papsturkunde, Litterae cum serico</objectType></p><p><objectType ref="na">o</objectType></p>
+               <p><objectType ref="na">Papsturkunde, Litterae (unbestimmt)</objectType></p><p><objectType ref="na">o</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
                <p><objectType ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &amp;gt; Beauftragung durch…]</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
@@ -51,7 +51,7 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Paschalis III. entsendet Christian von Mainz als Legaten und stattet ihn mit Briefen mit dem Wortlaut Paschalis episcopus servus servorum dei. Christianissimo Christiano sedis apostolice legato imperialis aule cancellario et Romane ecclesie filio fidelissimo salu- tem et apostolicam benedictionem aus.<list>
+            <p>Paschalis III. entsendet Christian von Mainz als Legaten und stattet ihn mit Briefen mit dem Wortlaut Paschalis episcopus servus servorum dei. Christianissimo Christiano sedis apostolice legato imperialis aule cancellario et Romane ecclesie filio fidelissimo salutem et apostolicam benedictionem aus.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
