@@ -29,7 +29,7 @@
                </issued>
                <p><legalActor type="issuer">[Issuer]</legalActor></p>
                <p>
-                  <legalActor type="recipient">[Recipient 1]</legalActor></p>
+                  <legalActor type="recipient">[Erzbischof Christian von Mainz1]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &amp;gt; Litterae cum serico]</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
@@ -107,7 +107,7 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL -</bibl>
-               <bibl>GP IV , S. 165, Nr. *382; ibid., S. 180, Nr. 430; </bibl><bibl>Böhmer: Regesta archiepiscoporum Maguntinensium, Bd. II , S. 20, Nr. 29.</bibl>
+               <bibl>Germ. Pont. IV , S. 165, Nr. *382; ibid., S. 180, Nr. 430; </bibl><bibl>Böhmer: Regesta archiepiscoporum Maguntinensium, Bd. II , S. 20, Nr. 29.</bibl>
             </listBibl>
          </div>
          <div>
