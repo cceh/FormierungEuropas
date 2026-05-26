@@ -29,7 +29,10 @@
                <p><authen type="formula" n="na">
                      <p>*</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-                  </authen></p><issued><placeName>-</placeName></issued></diploDesc></sourceDesc><sourceDesc><diploDesc><p><legalActor type="issuer"><persName>Papst Paschalis III.</persName></legalActor></p>
+                  </authen></p><issued><placeName>-</placeName><date type="issued">vor 1165 Dez. 29</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer"><persName>Papst Paschalis III.</persName></legalActor></p>
                <p><legalActor type="recipient">-</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="fe:vocab:objectType:0101">Papsturkunde, Privileg feierlich</objectType></p>
@@ -67,7 +70,8 @@
                </list></diploPart>
          </div>
          <div>
-            <head>Datatio:</head><diploPart type="datatio">-</diploPart>
+            <head>Datatio:</head>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
