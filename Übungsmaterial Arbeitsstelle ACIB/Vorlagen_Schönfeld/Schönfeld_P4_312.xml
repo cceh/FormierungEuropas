@@ -29,7 +29,7 @@
                <p><authen type="formula" n="na">
                      <p>*</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-                  </authen></p><issued><placeName>-</placeName><date type="issued"><date from="1164-04-22" to="1165-12-29" notAfter="1165-12-29" notBefore="1164-04-22">vor 1165 Dez. 29</date></date>
+                  </authen></p><issued><placeName>-</placeName><date type="issued">vor 1165 Dez. 29</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer"><persName>Papst Paschalis III.</persName></legalActor></p>
