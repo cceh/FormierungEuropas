@@ -4,13 +4,10 @@
       <fileDesc>
          <titleStmt>
             <title>fe_00106</title>
-            <respStmt>
-               <resp>Die Formierung Europas</resp>
-               <persName>[Name der Bearbeiter*in]</persName>
-            </respStmt>
+            <respStmt><resp>Die Formierung Europas</resp><persName>Schönfeld, Urkunden der Gegenpäpste, S. 315, Nr. P10</persName></respStmt>
             <respStmt>
                <resp when="2025">Encoding:</resp>
-               <persName>SG</persName><persName>[Name der Überarbeiter*in/Auszeichnung, in der Regel identisch wie Name der Bearbeiter*in]</persName>
+               <persName>SG</persName><persName>JM</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -99,17 +96,14 @@
          </div>
          <div type="editions">
             <head>Editionen</head>
-            <listBibl>
-               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 315, Nr. P10</bibl>
-               <bibl> –;</bibl>
-            </listBibl>
+            <listBibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 315, Nr. P10</bibl><bibl/></listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head>
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14494</bibl>
-               <bibl>GP IV, S. 165, Nr. *383; Böhmer: Regesta archiepiscoporum Maguntinensium, Bd. II, S. 40, Nr. 129.</bibl>
+               <bibl>GP IV, S. 165, Nr. *383</bibl><bibl>Böhmer: Regesta archiepiscoporum Maguntinensium, Bd. II, S. 40, Nr. 129</bibl>
             </listBibl>
          </div>
          <div>
