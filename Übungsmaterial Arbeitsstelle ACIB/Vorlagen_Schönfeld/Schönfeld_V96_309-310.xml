@@ -63,8 +63,7 @@
          </div>
 
          <div>
-            <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">[Religiosis votis dignum est facilem]</diploPart>
+            <head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Religiosis votis dignum est facilem</diploPart>
          </div>
          <div>
             <head>Subscriptiones:</head>
