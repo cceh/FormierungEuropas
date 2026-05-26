@@ -4,10 +4,7 @@
       <fileDesc>
          <titleStmt>
             <title>fe_00106</title>
-            <respStmt>
-               <resp>Die Formierung Europas</resp>
-               <persName>[Schönfeld, Urkunden der Gegenpäpste, S. 315, Nr. P10</persName>
-            </respStmt>
+            <respStmt><resp>Die Formierung Europas</resp><persName>Schönfeld, Urkunden der Gegenpäpste, S. 315, Nr. P10</persName></respStmt>
             <respStmt>
                <resp when="2025">Encoding:</resp>
                <persName>SG</persName><persName>JM</persName>
@@ -33,7 +30,7 @@
                <p><legalActor type="issuer">Paschalis III.</legalActor></p>
                <p><legalActor type="recipient">Christian, Erzbischof von Mainz</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &amp;gt; Litterae cum serico]</objectType></p>
+               <p><objectType ref="na">Papsturkunde, Litterae cum serico</objectType></p><p/>
                <!-- Referenz aus Liste entnehmen -->
                <p><objectType ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &amp;gt; Beauftragung durch…]</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
