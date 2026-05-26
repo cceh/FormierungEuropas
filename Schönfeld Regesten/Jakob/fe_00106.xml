@@ -74,9 +74,9 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">Erwähnt in den Gesta archiepiscoporum Magdeburgensium (in margine adiecit), ed. Schum, S. 417; vgl. Annales Stadenses ad annum 1172, ed. Lappenberg, S. 347;</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="original">-</bibl>
+                  <bibl type="msCopy">-</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
@@ -90,8 +90,7 @@
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
-               <bibl>[Quelle 2]</bibl>
+               <bibl>Gesta archiepiscoporum Magdeburgensium (in margine adiecit), ed. Schum, S. 417</bibl><bibl>Annales Stadenses ad annum 1172, ed. Lappenberg, S. 347;</bibl>
             </listBibl>
          </div>
          <div type="editions">
@@ -106,7 +105,7 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14494</bibl>
-               <bibl>GP IV, S. 165, Nr. *383;</bibl><bibl>Böhmer: Regesta archiepiscoporum Maguntinensium, Bd. II, S. 40, Nr. 129.</bibl>
+               <bibl>GP IV, S. 165, Nr. *383</bibl><bibl>Böhmer: Regesta archiepiscoporum Maguntinensium, Bd. II, S. 40, Nr. 129.</bibl>
             </listBibl>
          </div>
          <div>
