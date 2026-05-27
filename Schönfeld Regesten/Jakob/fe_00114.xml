@@ -22,7 +22,7 @@
             <diploDesc><p><authen type="formula" n="deperditum">
                      <p>*</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-                  </authen></p><issued><placeName>-</placeName><date type="issued" notBefore="1169-01-01" notAfter="1170-12-31">(1169 ex.–1170 in.?)</date>
+                  </authen></p><issued><placeName>-</placeName><date type="issued" notBefore="1169-01-01" notAfter="1170-12-31">1169, Juni 8 –1170 in.?)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued><p><legalActor type="issuer">Calixt III.</legalActor></p><p><legalActor type="recipient">Balduin, Erzbischof von Bremen</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType ref="na">Papsturkunde, Litterae cum serico</objectType></p><p><objectType ref="na">Juristisches, neues Recht</objectType></p><!-- Referenz aus Liste entnehmen --><p><objectType ref="na">Calixt III., Urheber</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
@@ -100,7 +100,7 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>[Text und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
+               <p>[TextTerminus post quem ist der Hofund Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
  Kommentar]</p>
             </diploDesc>
          </div>
