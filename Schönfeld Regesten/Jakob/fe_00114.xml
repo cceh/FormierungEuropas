@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="fe_schoenfeld">
-   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="fe_schoenfeld"><!-- Ordnername hier ergänzen für einzelne Sammlungen --><teiHeader>
       <fileDesc>
          <titleStmt>
             <title>fe_00114</title>
@@ -36,8 +34,7 @@
             <language ident="en-GB">English</language>
          </langUsage>
       </profileDesc>
-   </teiHeader>
-   <text>
+   </teiHeader><text>
       <body>
          <div type="abstract">
             <head>Abstract:</head>
@@ -100,7 +97,7 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Terminus post quem ist der Hoftag Kaiser Friedrichs in Bamberg am 8. Juni 1169. <diploPart type="rota"/>]</p>
+               <p>Terminus post quem ist der Hoftag Kaiser Friedrichs in Bamberg am 8. Juni 1169. Terminus ante quem ist die erste urkundliche Erwähnung Balduins als Erzbischof ( MGH D HdL, Nr. 88, S. 130–132.).</p>
             </diploDesc>
          </div>
          <div type="commentary">
@@ -120,5 +117,4 @@
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
-   </text>
-</TEI>
+   </text></TEI>
