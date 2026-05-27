@@ -22,7 +22,7 @@
             <diploDesc><p><authen type="formula" n="deperditum">
                      <p>*</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-                  </authen></p><issued><placeName>-</placeName><date type="issued" notBefore="1167-03-05" notAfter="1168-09-20">1167, März 5–1167, September 4</date>
+                  </authen></p><issued><placeName>-</placeName><date type="issued" notBefore="1167-03-05" notAfter="1168-09-20">1167, März 5–1167, August 29</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued><p><legalActor type="issuer">Paschalis III.</legalActor></p><p><legalActor type="recipient">Christian, Erzbischof von Mainz</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType ref="na">Papsturkunde, Litterae (unbestimmt)</objectType></p><p><objectType ref="na">Juristisches, neues Recht</objectType></p><!-- Referenz aus Liste entnehmen --><p><objectType ref="na">Paschalis III., Urheber</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
