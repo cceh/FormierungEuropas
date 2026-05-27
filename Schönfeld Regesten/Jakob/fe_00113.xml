@@ -24,7 +24,7 @@
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p><issued><placeName>-</placeName><date type="issued" notBefore="1168-01-01" notAfter="1173-12-31">(1168–1173)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
-               </issued><p><legalActor type="issuer">Calixt III.</legalActor></p><p><legalActor type="recipient">Radulf, Abt von Alpirsbach</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType ref="na">[Q</objectType></p><p><objectType ref="na">Papsturkunde &amp;gt; Litterae cum serico]</objectType></p><!-- Referenz aus Liste entnehmen --><p><objectType ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &amp;gt; Beauftragung durch…]</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+               </issued><p><legalActor type="issuer">Calixt III.</legalActor></p><p><legalActor type="recipient">Radulf, Abt von Alpirsbach</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType ref="na"/>Papsturkunde, feierliches Privileg</p><p><objectType ref="na">Juristisches, neues Recht</objectType></p><!-- Referenz aus Liste entnehmen --><p><objectType ref="na">Calixt III., Urheber</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
@@ -41,7 +41,7 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Calixt III. stellt auf Bitten des Abtes Radulf das Kloster Alpirsbach unter apostolischen Schutz und bestätigt die Regel des Heiligen Benedikt sowie sämtliche Besit- zungen des Klosters. Er bescheinigt zahlreiche Rechte (freie Wahl des Abtes sowie des Vogtes, Bestattung etc.) und befreit das Kloster von den jährlichen Zinszahlungen an den Lateranpalast.<list>
+            <p>Calixt III. stellt auf Bitten des Abtes Radulf das Kloster Alpirsbach unter apostolischen Schutz und bestätigt die Regel des Heiligen Benedikt sowie sämtliche Besitzungen des Klosters. Er bescheinigt zahlreiche Rechte (freie Wahl des Abtes sowie des Vogtes, Bestattung etc.) und befreit das Kloster von den jährlichen Zinszahlungen.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
@@ -64,9 +64,9 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">Kopial, Stuttgart HStA (Auss.), A 470 U 2;</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="original">-</bibl>
+                  <bibl type="msCopy">Stuttgart HStA (Auss.), A 470 U 2; Abb. dig.: PH Stuttgart, HStA.</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
@@ -88,7 +88,6 @@
             <head>Editionen</head>
             <listBibl>
                <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 319–320, Nr. Ca1</bibl>
-               <bibl>[vgl. GP ];</bibl>
             </listBibl>
          </div>
          <div type="regesta">
@@ -96,19 +95,18 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>[Regest 1]</bibl>
-               <bibl>GP II /1, S. 208, Nr. 4; Abb. dig.: PH Stuttgart, HS tA.</bibl>
+               <bibl>GP II /1, S. 208, Nr. 4</bibl>
             </listBibl>
          </div>
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>[Text und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
- Kommentar]</p>
+               <p>Die wohl im 12.–14. Jahrhundert angefertigte Abschrift wurde auf der Rückseite einer Urkunde Papst Paschalis᾽ II . von 1101, April 12 notiert; für eine zeitnahe Abschrift spricht, dass der Kopist lediglich die Formelansätze festhielt, die Rezipienten also mit dem weiteren Wortlaut vertraut gewesen sein könnten; Schrift und Kopiermedium sprechen für eine Abschrift, die lediglich der Archivierung dienen sollte, nicht aber zu repräsentativen Zwecken angefertigt wurde. Die bislang ungedruckte Abschrift Brackmanns konnte aufgrund einer im Prozess befindlichen Neuedition nicht eingesehen werden.</p>
             </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Die wohl im 12.–14. Jahrhundert angefertigte Abschrift wurde auf der Rückseite einer Urkunde Papst Paschalis᾽ II . von 1101, April 12 notiert; für eine zeitnahe Abschrift spricht, dass der Kopist lediglich die Formelansätze festhielt, die Rezipienten also mit dem weiteren Wort- laut vertraut gewesen sein könnten; Schrift und Kopiermedium sprechen für eine Abschrift, die lediglich der Archivierung dienen sollte, nicht aber zu repräsentativen Zwecken ange- fertigt wurde. Die bislang ungedruckte Abschrift Brackmanns konnte aufgrund einer im Prozess befindlichen Neuedition nicht eingesehen werden.</p>
+            <p>ff</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
