@@ -26,7 +26,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Augustinerinnenstift St. Nikolaus</legalActor></p>
+               <p><legalActor type="recipient">Augustinerinnenstift Nikolausberg</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
@@ -48,7 +48,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor><persName>Alexander III.</persName></legalActor> stellt das Augustinerinnenstift St. Nikolaus (<diploPart>Wlrideshusen</diploPart>) (D. ) unter apostolischen Schutz und bestätigt seine Einrichtung nach der Regel des hl. Augustinus.<list>
+            <p><legalActor><persName>Alexander III.</persName></legalActor> stellt das Augustinerinnenstift Nikolausberg (<diploPart>Wlrideshusen</diploPart>) (D. Mainz) unter apostolischen Schutz und bestätigt seine Einrichtung nach der Regel des hl. Augustinus.<list>
                   <item>Eingeschlossen sind alle Besitzungen und Güter, die die Kirche in der Gegenwart rechtmäßig besitzt beziehungsweise in der Zukunft rechtmäßig erwerben wird, darunter einige namentlich genannte Besitzungen.</item><item>Er garantiert die freie Wahl des Propstes gemäß der Augustinusregel.</item><item>Er verfügt den Schutz der Pilger, die das Stift zum Beten aufsuchen.</item><item>Schlussformeln: Perturbationsverbot, Sanctio negativa und positiva.</item>
                </list></p>
          </div>
