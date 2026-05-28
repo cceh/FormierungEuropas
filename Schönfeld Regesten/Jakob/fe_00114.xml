@@ -1,17 +1,11 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="fe_schoenfeld">
-   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="fe_schoenfeld"><!-- Ordnername hier ergänzen für einzelne Sammlungen --><teiHeader>
       <fileDesc>
          <titleStmt>
             <title>fe_00114</title>
-            <respStmt>
-               <resp>Die Formierung Europas</resp>
-               <persName>[Name der Bearbeiter*in]</persName>
-            </respStmt>
+            <respStmt><resp>Die Formierung Europas</resp><persName>Schönfeld, Urkunden der Gegenpäpste, S. 320, Nr. Ca2</persName></respStmt>
             <respStmt>
                <resp when="2025">Encoding:</resp>
-               <persName>SG</persName><persName>[Name der Überarbeiter*in/Auszeichnung, in der Regel identisch wie Name der Bearbeiter*in]</persName>
+               <persName>SG</persName><persName>JM</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -21,26 +15,15 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+            <bibl type="jaffe">-</bibl>
             <bibl type="Schoenfeld">Schönfeld, Urkunden der Gegenpäpste, S. 320, Nr. Ca2</bibl>
-            <diploDesc>
-               <p><authen type="formula" n="deperditum">
+            <diploDesc><p><authen type="formula" n="deperditum">
                      <p>*</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-                  </authen></p>
-               <issued><placeName>[Ausstellungsort]</placeName><date type="issued" notBefore="1169-01-01" notAfter="1170-12-31">(1169 ex.–1170 in.?)</date>
+                  </authen></p><issued><placeName>-</placeName><date type="issued" notBefore="1169-01-01" notAfter="1170-12-31">1169, Juni 8 –1171, August 8</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
-               </issued>
-               <p><legalActor type="issuer">[Issuer]</legalActor></p>
-               <p>
-                  <legalActor type="recipient">[Recipient 1]</legalActor></p>
-               <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &gt; Litterae cum serico]</objectType></p>
-               <!-- Referenz aus Liste entnehmen -->
-               <p><objectType ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &gt; Beauftragung durch…]</objectType></p>
-               <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
-            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
-            </diploDesc>
+               </issued><p><legalActor type="issuer">Calixt III.</legalActor></p><p><legalActor type="recipient">Balduin, Erzbischof von Bremen</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType ref="na">Papsturkunde, Litterae cum serico</objectType></p><p><objectType ref="na">Juristisches, neues Recht</objectType></p><!-- Referenz aus Liste entnehmen --><p><objectType ref="na">Calixt III., Urheber</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
       
@@ -51,12 +34,11 @@
             <language ident="en-GB">English</language>
          </langUsage>
       </profileDesc>
-   </teiHeader>
-   <text>
+   </teiHeader><text>
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Calixt III . übersendet dem Erzbischof Baldwin von Bremen durch den Kardinalpres- byter Unfred und den Bischof Sigewin von Viterbo das Pallium.<list>
+            <p>Calixt III. übersendet dem Erzbischof Balduin von Bremen das Pallium.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
@@ -79,9 +61,9 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">Erwähnt in den Annales Stadenses ad annum 1168, ed. Lappenberg, S. 346; vgl. Annales Bremenses ad annum 1168, ed. Jaffé, S. 856;</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="original">-</bibl>
+                  <bibl type="msCopy">-</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
@@ -95,50 +77,43 @@
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
-               <bibl>[Quelle 2]</bibl>
+               <bibl>Annales Stadenses ad annum 1168, ed. Lappenberg, S. 346 https://www.dmgh.de/mgh_ss_16/index.htm#page/346/mode/1up</bibl><bibl>Annales Bremenses ad annum 1168, ed. Jaffé, S. 856 https://www.dmgh.de/mgh_ss_17/index.htm#page/856/mode/1up</bibl>
             </listBibl>
          </div>
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
                <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 320, Nr. Ca2</bibl>
-               <bibl> –;</bibl>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head>
             <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>[Regest 1]</bibl>
-               <bibl>GP VI , S. 82, Nr. *153; May: Regesten der Erzbischöfe von Bremen, Bd. I, S. 150, Nr. 576.</bibl>
+               <bibl>JL -</bibl>
+               <bibl>GP 6, S. 82, Nr. *153</bibl><bibl>May: Regesten der Erzbischöfe von Bremen, Bd. 1, S. 150, Nr. 576.</bibl>
             </listBibl>
          </div>
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>[Text und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
- Kommentar]</p>
+               <p>Terminus post quem ist der Hoftag Kaiser Friedrichs in Bamberg am 8. Juni 1169 (<bibl>RI IV,2,3 n. 1839, https://www.regesta-imperii.de/id/1169-06-08_3_0_4_2_3_64_1839</bibl>). Terminus ante quem ist die erste urkundliche Erwähnung Balduins als Erzbischof am 8. August 1171 (<bibl>MGH D HdL, Nr. 88, S. 130–132 https://www.dmgh.de/mgh_dd_hdl/index.htm#page/130/mode/1up</bibl>).</p>
             </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>[Inhalt des Sachkommentars. Bibliographische Referenzen werden als Bibliographische
-               Angabe getagged.]</p>
+            <p>Als Überbringer des Palliums lassen sich Kardinalpresbyter Unfred von Santa Susanna und Bischof Sigewin von Viterbo identifizieren (vgl. <bibl>Ohnsorge, Päpstliche und gegenpäpstliche Legaten, S. 26 mit Anm. 27, S. 28</bibl>).</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
             <listBibl>
-               <bibl>[Weitere Referenzen als listBibl]</bibl>
+               <bibl>Tischer, Roman, Erzbischof Balduin I. von Hamburg-Bremen (1169–1178) – Ein Pontifikat im Schatten des Löwen?, in: Mittelalter. Interdisziplinäre Forschung und Rezeptionsgeschichte 5 (2022), S. 61–77, https://doi.org/10.26012/mittelalter-28426.</bibl>
             </listBibl>
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter"
-               lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt
-               werden]</p>
+            <p>Text von Albert von Stade: <diploPart>Imperatore curiam habente in Bavenberg, duo electi Bremenses destituti sunt, et devoluntate ducis Baldewinus, Halverstadensis praepositus, est intrusus. Sifridus fit episcopus in Brandenburg, Baldewinus licet senex bona ecclesiae duci concessit et suis. Pallium a Paschali accepit, in scismate est consecratus vel potius execratus</diploPart>. Die zitierten Regestenwerke weisen auf die falsche Angabe des Papstnamens hin.</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
-   </text>
-</TEI>
+   </text></TEI>
