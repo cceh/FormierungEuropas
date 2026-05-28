@@ -4,10 +4,7 @@
 <TEI source="dolle" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
-      <fileDesc><titleStmt><title>fe_000134</title><respStmt>
-               <resp>Die Formierung Europas</resp>
-               <persName>[Dolle, Papsturkundenggf. Name der ursprünglichen Bearbeiter*in]</persName>
-            </respStmt>
+      <fileDesc><titleStmt><title>fe_000134</title><respStmt><resp>Die Formierung Europas</resp><persName>Dolle, PU Niedersachsen und Bremen, S. Papsturkundenggf. Name der ursprünglichen Bearbeiter*in]</persName></respStmt>
             <respStmt><resp when="2026">Encoding</resp><persName>JB</persName></respStmt>
          </titleStmt>
          <publicationStmt>
