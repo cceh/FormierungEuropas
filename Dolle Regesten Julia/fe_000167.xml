@@ -5,10 +5,7 @@
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc><titleStmt><title>fe_000135</title><respStmt><resp>Die Formierung Europas</resp><persName>Dolle, PU Niedersachsen und Bremen, S. 226, Nr. 105</persName></respStmt>
-            <respStmt>
-               <resp when="2026">Encoding</resp>
-               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
-            </respStmt>
+            <respStmt><resp when="2026">Encoding</resp><persName>JB</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
