@@ -26,7 +26,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Augustinerinnenstift Nikolausberg</legalActor></p>
+               <p><legalActor type="recipient">Kanonissenstift Nikolausberg</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
@@ -48,7 +48,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor><persName>Alexander III.</persName></legalActor> nimmt das <legalActor><orgName>Augustinerinnenstift Nikolausberg</orgName></legalActor> (<diploPart>Wlrideshusen</diploPart>) (D. Mainz) in den apostolischen Schutz und bestätigt seine Einrichtung nach der Regel des hl. Augustinus sowie seine Besitzungen.<list>
+            <p><legalActor><persName>Alexander III.</persName></legalActor> nimmt das <legalActor><orgName>Augustiner-Chorfrauenstift Nikolausberg</orgName></legalActor> (<diploPart>Wlrideshusen</diploPart>) (D. Mainz) in den apostolischen Schutz und bestätigt seine Einrichtung nach der Regel des hl. Augustinus sowie seine Besitzungen.<list>
                   <item>Eingeschlossen sind alle Besitzungen und Güter, die die Kirche in der Gegenwart rechtmäßig besitzt beziehungsweise in der Zukunft rechtmäßig erwerben wird, darunter einige namentlich genannte Besitzungen.</item><item>Er garantiert die freie Wahl des Propstes gemäß der Augustinusregel.</item><item>Er verfügt den Schutz der Pilger, die das Stift zum Beten aufsuchen.</item><item>Schlussformeln: Perturbationsverbot, Sanctio negativa und positiva.</item>
                </list></p>
          </div>
@@ -68,7 +68,7 @@
             <div>
                <listBibl>
                   <bibl type="original">-</bibl>
-                  <bibl type="msCopy">Abschriften: NLA -Hannover, Cal. Or. 100 Weende Nr. 133/1 ( B ) als Transsumpt in der Urkunde des Notars Bertold byme Se von 1380 September 30 mit Nachzeichnung von Rota, Bene Valete und den Unterschriften. Rota wie Nr. 102. – SUB Göttingen, Hist 1 XXX fol. 78 r -79 v ( C ).</bibl>
+                  <bibl type="msCopy">HannoveAbschriften: NLA -Hannover, Cal. Or. 100 Weende Nr. 133/1 ( B ) als Transsumpt in der Urkunde des Notars Bertold byme Se von 1380 September 30 mit Nachzeichnung von Rota, Bene Valete und den Unterschriften. Rota wie Nr. 102. – SUB Göttingen, Hist 1 XXX fol. 78 r -79 v ( C ).</bibl>
                   <bibl type="print">Drucke: Grotefend, Beiträge. – UB Weende Nr. 1.</bibl>
                </listBibl>
             </div>
