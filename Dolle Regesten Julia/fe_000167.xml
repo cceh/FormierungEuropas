@@ -22,10 +22,10 @@
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Tusculum</placeName><date type="issued" notBefore="1171-06-29" notAfter="1172-06-29">(1171-1172), Juni 29</date>
+               <issued><placeName>Tusculum</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1172-06-29" precision="high" unit="cm" xml:space="default" notBefore="1171-06-29" type="issued">(1171-1172), Juni 29</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">[Empfänger]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
