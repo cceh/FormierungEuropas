@@ -48,15 +48,12 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor><persName>Alexander III.</persName></legalActor> nimmt das <legalActor>Augustinerinnenstift Nikolausberg</legalActor> (<diploPart>Wlrideshusen</diploPart>) (D. Mainz) in den apostolischen Schutz und bestätigt seine Einrichtung nach der Regel des hl. Augustinus sowie seine Besitzungen.<list>
+            <p><legalActor><persName>Alexander III.</persName></legalActor> nimmt das <legalActor><orgName>Augustinerinnenstift Nikolausberg</orgName></legalActor> (<diploPart>Wlrideshusen</diploPart>) (D. Mainz) in den apostolischen Schutz und bestätigt seine Einrichtung nach der Regel des hl. Augustinus sowie seine Besitzungen.<list>
                   <item>Eingeschlossen sind alle Besitzungen und Güter, die die Kirche in der Gegenwart rechtmäßig besitzt beziehungsweise in der Zukunft rechtmäßig erwerben wird, darunter einige namentlich genannte Besitzungen.</item><item>Er garantiert die freie Wahl des Propstes gemäß der Augustinusregel.</item><item>Er verfügt den Schutz der Pilger, die das Stift zum Beten aufsuchen.</item><item>Schlussformeln: Perturbationsverbot, Sanctio negativa und positiva.</item>
                </list></p>
          </div>
 
-         <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
-         </div>
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
