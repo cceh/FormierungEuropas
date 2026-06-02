@@ -65,10 +65,7 @@
                   <item>-</item>
                </list></diploPart>
          </div>
-         <div>
-            <head>Datatio:</head>
-            <diploPart type="datatio">.</diploPart>
-         </div>
+         <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
