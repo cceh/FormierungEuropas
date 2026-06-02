@@ -76,7 +76,7 @@
             <div>
                <listBibl>
                   <bibl type="original">-</bibl>
-                  <bibl type="msCopy"/>
+                  <bibl type="msCopy">-</bibl>
                   <bibl type="print">-</bibl>
                </listBibl>
             </div>
@@ -106,7 +106,7 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>[Regest 1]</bibl>
-               <bibl>GP X, S. 134, Nr. *313; Heydenreich: Die Metropolitangewalt, S. 160, Nr. 157.</bibl>
+               <bibl>GP X, S. 134, Nr. *313; </bibl><bibl>Heydenreich: Die Metropolitangewalt, S. 160, Nr. 157.</bibl>
             </listBibl>
          </div>
          <div>
