@@ -33,7 +33,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer"><persName>Viktor IV.</persName></legalActor></p>
-               <p><legalActor type="recipient">Tebald, Abt des Stifts S. Michiels in Antwerpen</legalActor></p>
+               <p><legalActor type="recipient"><persName>Tebald, Abt</persName> des Stifts S. Michiels in Antwerpen</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="fe:vocab:objectType:0101">Papsturkunde, Privileg feierlich</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
