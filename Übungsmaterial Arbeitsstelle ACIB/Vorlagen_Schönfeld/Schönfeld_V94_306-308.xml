@@ -62,13 +62,12 @@
          </div>
 
          <div>
-            <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">[Desiderium, quod ad religionis ]</diploPart>
+            <head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Desiderium quod ad religionis propositum</diploPart>
          </div>
          <div>
             <head>Subscriptiones:</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+                  <item>[Kardinalsunterschriften. Diese können in Li]</item>
                </list></diploPart>
          </div>
          <div>
