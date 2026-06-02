@@ -32,7 +32,7 @@
                   </authen></p><issued><placeName>-</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1165-12-29" precision="high" unit="cm" xml:space="default" notBefore="1164-04-22" type="issued">vor 1165 Dez. 29</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer"><persName>Papst Paschalis III.</persName></legalActor></p>
+               <p><legalActor type="issuer"><persName>Paschalis III.</persName></legalActor></p>
                <p><legalActor type="recipient">-</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="fe:vocab:objectType:0101">Papsturkunde, Privileg feierlich</objectType></p>
