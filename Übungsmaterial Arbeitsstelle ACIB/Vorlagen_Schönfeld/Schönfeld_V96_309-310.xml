@@ -27,7 +27,7 @@
             <bibl type="Schoenfeld">V96</bibl>
             <diploDesc>
                <p><authen type="formula" n="na">
-                     <p>[*+?-]</p>
+                     <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p><issued><placeName>Lucca</placeName><date type="issued">1164 Apr. 18</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
