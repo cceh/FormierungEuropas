@@ -32,7 +32,7 @@
                   </authen></p><issued><placeName>Lucca</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" type="issued" unit="cm" xml:space="default" when="1164-04-18">1164 Apr. 18</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer"><persName>Papst Viktor IV.</persName></legalActor></p>
+               <p><legalActor type="issuer"><persName>Viktor IV.</persName></legalActor></p>
                <p><legalActor type="recipient">Antwerpen, Stift S. Michiels</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="fe:vocab:objectType:0101">Papsturkunde, Privileg feierlich</objectType></p>
@@ -115,7 +115,7 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>[Rota-Inschrift: <diploPart type="datatio"/><diploPart type="datatio">sanctus Petrus/sanctus Paulus/Vic papa/tor IIII</diploPart></p><p>Rota-Devise: <diploPart type="datatio">Tu es gloria mea, tu es susceptor meus, tu exaltas </diploPart><diploPart type="rota"/>]</p>
+               <p>Rota-Inschrift: <diploPart type="datatio"/><diploPart type="datatio">sanctus Petrus/sanctus Paulus/Vic papa/tor IIII</diploPart></p><p>Rota-Devise: <diploPart type="datatio">Tu es gloria mea, tu es susceptor meus, tu exaltas [</diploPart><diploPart type="rota"/><diploPart type="datatio">caput meum domine]</diploPart></p>
             </diploDesc>
          </div>
          <div type="commentary">
