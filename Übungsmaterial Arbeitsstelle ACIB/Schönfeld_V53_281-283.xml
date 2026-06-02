@@ -30,7 +30,7 @@
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Lodi</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1161-07-25" precision="high" unit="cm" xml:space="default" notBefore="1161-07-25" type="issued">1161, Juli 25</date>
+               <issued><placeName>Lodi</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1161-07-25" precision="high" unit="cm" xml:space="default" notBefore="1161-07-25" type="issued">1161 Jul. 25</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
@@ -121,7 +121,7 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>[Inhalte des sachkommentars. Bibliographische Referenzen werden als Bibliographische Angabe getaggt.]</p>
+            <p>[Inhalte des Sachkommentars. Bibliographische Referenzen werden als Bibliographische Angabe getaggt.]</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
