@@ -33,8 +33,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
-               <p>
-                  <legalActor type="recipient">[Hubert, Abt der Abtei Tonger]</legalActor></p>
+               <p><legalActor type="recipient">Hubert, Abt der Abtei Tongerloo</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="fe:vocab:objectType:0101">Papsturkunde, Privileg feierlich</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
