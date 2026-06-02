@@ -75,9 +75,9 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">Erwähnt in den Annales Stadenses ad annum 1168, ed. Lappenberg, S. 346;</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="original">-</bibl>
+                  <bibl type="msCopy"/>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
@@ -91,8 +91,7 @@
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
-               <bibl>[Quelle 2]</bibl>
+               <bibl>Erwähnt in den Annales Stadenses ad annum 1168, ed. Lappenberg, S. 346 https://www.dmgh.de/mgh_ss_16/index.htm#page/346/mode/1up</bibl>
             </listBibl>
          </div>
          <div type="editions">
@@ -130,7 +129,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>Text bei Albert von Stade: Arnoldus Treverensis episcopus accepit pallium ab utroque.</p>
+            <p>Text bei Albert von Stade: <diploPart>Arnoldus Treverensis episcopus accepit pallium ab utroque</diploPart>.</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
