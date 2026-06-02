@@ -56,14 +56,13 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>[Regestentext kann diploParts mit Sprachangabe enthalten.] <list>
+            <p>[Viktor IV. bestätigt dem Stift S. Maria in Parc unter Abt Philipp die Kirche von Pon] <list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
 
          <div>
-            <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">[Religiosorum votis facilem ]</diploPart>
+            <head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Religiosorum votis facilem prebere debemus</diploPart>
          </div>
          <div>
             <head>Subscriptiones:</head>
