@@ -27,13 +27,13 @@
             <bibl type="Schoenfeld">V96</bibl>
             <diploDesc>
                <p><authen type="formula" n="na">
-                     <p>[*+?-]</p>
+                     <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-                  </authen></p><issued><placeName>Lucca</placeName><date type="issued">1164 Apr. 18</date>
+                  </authen></p><issued><placeName>Lucca</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" type="issued" unit="cm" xml:space="default" when="1164-04-18">1164 Apr. 18</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer"><persName>Papst Viktor IV.</persName></legalActor></p>
-               <p><legalActor type="recipient">Stift S. Michiels in Antwerpen</legalActor></p>
+               <p><legalActor type="recipient">Antwerpen, Stift S. Michiels</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="fe:vocab:objectType:0101">Papsturkunde, Privileg feierlich</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
@@ -67,7 +67,7 @@
          <div>
             <head>Subscriptiones:</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+                  <item>Ego <persName>Victor catholice ecclesie episcopus</persName> subscripsi.</item><item>Ego <persName>Liudo Sabinensis episcopus</persName> subscripsi. Ego <persName>Iohannes Albanensis episcopus</persName> subscripsi. Ego <persName>Theodericus Signinus episcopus</persName> subscripsi. </item><item>Ego <persName>Guido presbiter cardinalis</persName> tituli Calixti subscripsi. Ego <persName>Iohannes presbiter cardinalis</persName> tituli Pastoris subscripsi. Ego <persName>Unfredus presbiter cardinalis</persName> titulis sancte Susanne subscripsi.</item><item>Ego <persName>Berardus diaconus cardinalis</persName> sanctorum Sergii et Bachi subscripsi. Ego <persName>Gerardus diaconus cardinalis</persName> sancti Georgii ad velum aureum subscripsi. Ego <persName>Lanfredus diaconus cardinalis</persName> sancte Marie nove subscripsi.</item>
                </list></diploPart>
          </div>
          <div>
@@ -121,8 +121,7 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>[Inhalt des Sachkommentars. Bibliographische Referenzen werden als Bibliographische
-               Angabe getagged.]</p>
+            <p>Schönfeld: Die Datierung wurde dem Druck Ramackers' entnommen. Auf der digitalen Abbildung liegt ein Lineal auf der einschlägigen Stelle, offenbar, um die Plica beiseitezuhalten.</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
