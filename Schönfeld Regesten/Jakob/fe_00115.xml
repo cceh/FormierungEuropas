@@ -27,9 +27,9 @@
                <issued><placeName>[Ausstellungsort]</placeName><date type="issued" notBefore="1169-01-01" notAfter="1177-12-31">(1169 ex.–1177 in.)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Cali]</legalActor></p>
+               <p><legalActor type="issuer">Calixt. III</legalActor></p>
                <p>
-                  <legalActor type="recipient">[Recipient 1]</legalActor></p>
+                  <legalActor type="recipient">Arnold, Erzbischof von Trier</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">Papsturkunde, Litterae cum serico</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
