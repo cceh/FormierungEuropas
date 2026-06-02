@@ -58,17 +58,16 @@
 
          <div>
             <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">Cum per pacientiam</diploPart>
-         </div>
+            <diploPart type="incipit" xml:lang="lat">Cum per pacientiam Dei uniuersa</diploPart></div>
          <div>
             <head>Subscriptiones:</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+                  <item>-</item>
                </list></diploPart>
          </div>
          <div>
             <head>Datatio:</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+            <diploPart type="datatio">.</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
