@@ -32,8 +32,8 @@
                   </authen></p><issued><placeName>Lucca</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" type="issued" unit="cm" xml:space="default" when="1164-04-15">1164 Apr. 15</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">Viktor IV.</legalActor></p>
-               <p><legalActor type="recipient">Philipp, Abt des Stifts S. Maria in Parc</legalActor></p>
+               <p><legalActor type="issuer"><persName>Viktor IV.</persName></legalActor></p>
+               <p><legalActor type="recipient"><persName>Philipp, Abt</persName> des Stifts S. Maria in Parc</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="fe:vocab:objectType:0101">Papsturkunde, Privileg einfach</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
