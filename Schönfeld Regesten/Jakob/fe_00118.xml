@@ -77,28 +77,26 @@
                <listBibl>
                   <bibl type="original">-</bibl>
                   <bibl type="msCopy">Deperditum, erwähnt in einer Urkunde des Legaten Unfred, ed. Dümgè: Regesta Badensia, S. 144, Nr. 97 (vgl. GP II /1, S. 185, Nr. 6);</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
-               <bibl>[Quelle 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 321, Nr. Ca6</bibl>
+               <bibl/>
                <bibl> –;</bibl>
             </listBibl>
          </div>
@@ -107,7 +105,7 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>[Regest 1]</bibl>
-               <bibl>GP II /1, S. 185, Nr. *5.</bibl>
+               <bibl>GP 2,1, S. 185, Nr. *5</bibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 321, Nr. Ca6</bibl>
             </listBibl>
          </div>
          <div>
