@@ -28,7 +28,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Calixt III.</legalActor></p>
-               <p><legalActor type="recipient">Bertold, Prior von Celle</legalActor></p>
+               <p><legalActor type="recipient">Bertold, Prior von Celle (Vilmarszell)</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">Papsturkunde, Litterae cum serico</objectType></p><p><objectType ref="na">Juristisches, Rechtsbestätigungen</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
@@ -51,7 +51,7 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Calixt III. bestätigt Prior Bertold von Celle die Pfarrrechte der Kirche zu Achkarren.<list>
+            <p>Calixt III. bestätigt Prior Bertold von Celle (Vilmarszell) die Pfarrrechte der Kirche zu Achkarren.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
