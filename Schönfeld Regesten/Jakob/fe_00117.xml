@@ -91,7 +91,6 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 321, Nr. Ca5</bibl>
                <bibl>Brackmann: Dictamina, S. 389, Nr. 1</bibl>
             </listBibl>
          </div>
@@ -99,7 +98,7 @@
             <head>Regesten</head>
             <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>[Regest 1]</bibl>
+               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 321, Nr. Ca5</bibl><bibl/>
                <bibl>Schwarz: Herrscher- und Reichstitel, S. 331, Nr. 104.</bibl>
             </listBibl>
          </div>
