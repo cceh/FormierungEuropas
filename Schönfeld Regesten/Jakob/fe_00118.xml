@@ -27,7 +27,7 @@
                <issued><placeName>[Ausstellungsort]</placeName><date type="issued" notBefore="1170-01-01" notAfter="1170-12-31">(1170)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p><legalActor type="issuer">Calixt III.</legalActor></p>
                <p>
                   <legalActor type="recipient">[Recipient 1]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
@@ -75,7 +75,7 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
+                  <bibl type="original">-</bibl>
                   <bibl type="msCopy">Deperditum, erwähnt in einer Urkunde des Legaten Unfred, ed. Dümgè: Regesta Badensia, S. 144, Nr. 97 (vgl. GP II /1, S. 185, Nr. 6);</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
