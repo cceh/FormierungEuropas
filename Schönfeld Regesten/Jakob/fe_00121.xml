@@ -29,7 +29,7 @@
                </issued>
                <p><legalActor type="issuer">Calixt III.</legalActor></p>
                <p>
-                  <legalActor type="recipient">[Recipient 1]</legalActor></p>
+                  <legalActor type="recipient">Nybelonus, Propst von St. Fides in Schlettstadt</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">Papsturkunde &amp;gt; Litterae cum serico</objectType></p><p><objectType ref="na">Administratives, Rechtsbestätigungen</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
