@@ -27,11 +27,10 @@
                <issued><placeName>Viterbo</placeName><date type="issued" notBefore="1170-03-06" notAfter="1170-03-06">(1170), März 6</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Calixt III.</legalActor></p>
-               <p>
-                  <legalActor type="recipient">[Recipient 1]</legalActor></p>
+               <p><legalActor type="issuer">Calixt III.</legalActor></p>
+               <p><legalActor type="recipient">Otto, Bischof von Konstanz</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &amp;gt; Litterae cum serico]</objectType></p>
+               <p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &amp;gt; Litterae cum serico</objectType></p><p><objectType ref="na">]</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
                <p><objectType ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &amp;gt; Beauftragung durch…]</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
