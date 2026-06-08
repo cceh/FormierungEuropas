@@ -75,8 +75,8 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">Kopial;</bibl>
+                  <bibl type="original">-</bibl>
+                  <bibl type="msCopy">-</bibl>
                   <bibl type="print">Würdtwein: Nova subsidia diplomatica, Bd. 10, S. 31, Nr. 12 https://www.digitale-sammlungen.de/de/view/bsb10547370?page=131</bibl>
                </listBibl>
             </div>
@@ -112,7 +112,7 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>[SChönfeld gibt hier auf Grundlage der Angabe "" bei Würdtwein eine halte <diploPart type="rota">Rota</diploPart>Diplomatischer
+               <p>Schönfeld gibt hier auf Grundlage der Angabe "Ex vidimus judicis Curiae Argentinenfis an. 1303.in tabulario Episcopali Palatij Argentin." bei Würdtwein eine halte <diploPart type="rota">Rota</diploPart>Diplomatischer
  Kommentar]</p>
             </diploDesc>
          </div>
