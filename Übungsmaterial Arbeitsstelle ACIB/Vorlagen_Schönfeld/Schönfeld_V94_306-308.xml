@@ -23,19 +23,19 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl type="jaffe">14485</bibl>
-            <bibl type="Schoenfeld">P3</bibl>
+            <bibl type="jaffe">-</bibl>
+            <bibl type="Schoenfeld">V94</bibl>
             <diploDesc>
                <p><authen type="formula" n="na">
-                     <p><diploDesc><authen type="formula" n="na"/></diploDesc>-</p>
+                     <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-                  </authen></p><issued><placeName>Lucca</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" type="issued" unit="cm" xml:space="default" when="1164-05-03">1164 Mai 3</date>
+                  </authen></p><issued><placeName>Lucca</placeName><date type="issued">1164 Apr. 14</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer"><persName>Paschalis III.</persName></legalActor></p>
-               <p><legalActor type="recipient"><persName>Erzbischöfe, Bischöfe, Äbte, Pröpste und weitere kirchliche Würdenträger</persName></legalActor></p>
+               <p><legalActor type="issuer">Viktor IV.</legalActor></p>
+               <p><legalActor type="recipient">Hubert, Abt der Abtei Tongerloo</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType ref="fe:vocab:objectType:0101">Papsturkunde, Litterae cum serico</objectType></p>
+               <p><objectType ref="fe:vocab:objectType:0101">Papsturkunde, Privileg feierlich</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
                <p><objectType ref="na">[Typisierung 2]</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
@@ -56,21 +56,22 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Paschalis III. wiederholt in einem Rundschreiben eine einstige Aufforderung Innozenz' II. an die Erzbischöfe, Bischöfe, Äbte, Pröpste und weitere kirchliche Würdenträger, die Brüder des Hospitals zu unterstützen.<list>
+            <p>Viktor IV. bestätigt auf Bitten des Abtes Hubert die Besitzungen der Abtei Tongerloo, stellt sie unter päpstlichen Schutz und gewährt ihr bestimmte Vorrechte.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
 
          <div>
-            <head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Quam amabilis [deo] et quam</diploPart></div>
+            <head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Desiderium quod ad religionis propositum</diploPart>
+         </div>
          <div>
             <head>Subscriptiones:</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+                  <item>[R] Ego Victor catholice ecclesie episcopus subscripsi. [BV]</item><item>Ego Liudo Sabinensis episcopus subscripsi. Ego Iohannes Albanensis episcopus subscripsi.</item><item>Ego Guido presbiter cardinalis tituli Calixti subscripsi. Ego Iohannes presbiter cardinalis tituli Pastoris subscripsi. Ego Unfredus presbiter cardinalis tituli sancte Susanne subscripsi. Ego Albertus presbiter cardinalis tituli sancti Grisogoni subscripsi. </item><item>Ego Berardus diaconus cardinalis sanctorum Sergii et Bachi subscripsi. Ego Gerardus diaconus cardinalis sancti Georgii ad velum aureum subscripsi. Ego Lanfredus diaconus cardinalis sancte Marie nove subscripsi.</item>
                </list></diploPart>
          </div>
          <div>
-            <head>Datatio:</head><diploPart type="datatio">Datum Luce, [...] nonas maii</diploPart>
+            <head>Datatio:</head><diploPart type="datatio">Datum Luce per manum Iohannis sancte Romane ecclesie presbiteri cardinalis et cancellarii, XVIII kalendas maii indictione XII incarnationis dominice anno MCLXIIII, pontificatus vero dompni Victoris pape IIII anno V.</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
@@ -114,13 +115,13 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>[Text und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
- Kommentar]</p>
+               <p>[Rota-Inschrift: <diploPart type="datatio">sancte I</diploPart> <diploPart type="rota"/>]</p>
             </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Schönfeld: Inseriert in ein undatiertes Vidimus der Urkunde Paschalis' III. ausgestellt durch Bischof Johann I. von Kammin, siehe Sachkommentar.</p>
+            <p>[Inhalt des Sachkommentars. Bibliographische Referenzen werden als Bibliographische
+               Angabe getagged.]</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
@@ -130,7 +131,9 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>Signatur des Vidimus' muss weiter recherchiert werden.</p>
+            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter"
+               lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt
+               werden]</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>

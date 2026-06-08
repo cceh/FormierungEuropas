@@ -23,7 +23,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+            <bibl type="jaffe">-</bibl>
             <bibl type="Schoenfeld">V96</bibl>
             <diploDesc>
                <p><authen type="formula" n="na">
@@ -32,8 +32,8 @@
                   </authen></p><issued><placeName>Lucca</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" type="issued" unit="cm" xml:space="default" when="1164-04-18">1164 Apr. 18</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer"><persName>Papst Viktor IV.</persName></legalActor></p>
-               <p><legalActor type="recipient">Antwerpen, Stift S. Michiels</legalActor></p>
+               <p><legalActor type="issuer"><persName>Viktor IV.</persName></legalActor></p>
+               <p><legalActor type="recipient"><persName>Tebald, Abt</persName> des Stifts S. Michiels in Antwerpen</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="fe:vocab:objectType:0101">Papsturkunde, Privileg feierlich</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
@@ -56,7 +56,7 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>[Regestentext kann diploParts mit Sprachangabe enthalten.] <list>
+            <p>Viktor IV. stellt das Stift S. Michiels in Antwerpen unter Abt Tebald unter päpstlichen Schutz und bestätigt sämtliche Besitzungen, Rechte und die Gewohnheiten der Prämonstratenser.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
@@ -67,7 +67,7 @@
          <div>
             <head>Subscriptiones:</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>Ego <persName>Victor catholice ecclesie episcopus</persName> subscripsi.</item><item>Ego <persName>Liudo Sabinensis episcopus</persName> subscripsi. Ego <persName>Iohannes Albanensis episcopus</persName> subscripsi. Ego <persName>Theodericus Signinus episcopus</persName> subscripsi. </item><item>Ego <persName>Guido presbiter cardinalis</persName> tituli Calixti subscripsi. Ego <persName>Iohannes presbiter cardinalis</persName> tituli Pastoris subscripsi. Ego <persName>Unfredus presbiter cardinalis</persName> titulis sancte Susanne subscripsi.</item><item>Ego <persName>Berardus diaconus cardinalis</persName> sanctorum Sergii et Bachi subscripsi. Ego <persName>Gerardus diaconus cardinalis</persName> sancti Georgii ad velum aureum subscripsi. Ego <persName>Lanfredus diaconus cardinalis</persName> sancte Marie nove subscripsi.</item>
+                  <item>[R] Ego <persName>Victor catholice ecclesie episcopus</persName> subscripsi. [BV]</item><item>Ego <persName>Liudo Sabinensis episcopus</persName> subscripsi. Ego <persName>Iohannes Albanensis episcopus</persName> subscripsi. Ego <persName>Theodericus Signinus episcopus</persName> subscripsi. </item><item>Ego <persName>Guido presbiter cardinalis</persName> tituli Calixti subscripsi. Ego <persName>Iohannes presbiter cardinalis</persName> tituli Pastoris subscripsi. Ego <persName>Unfredus presbiter cardinalis</persName> titulis sancte Susanne subscripsi.</item><item>Ego <persName>Berardus diaconus cardinalis</persName> sanctorum Sergii et Bachi subscripsi. Ego <persName>Gerardus diaconus cardinalis</persName> sancti Georgii ad velum aureum subscripsi. Ego <persName>Lanfredus diaconus cardinalis</persName> sancte Marie nove subscripsi.</item>
                </list></diploPart>
          </div>
          <div>
@@ -115,8 +115,7 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>[Text und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
- Kommentar]</p>
+               <p>Rota-Inschrift: <diploPart type="datatio"/><diploPart type="datatio">sanctus Petrus/sanctus Paulus/Vic papa/tor IIII</diploPart></p><p>Rota-Devise: <diploPart type="datatio">Tu es gloria mea, tu es susceptor meus, tu exaltas [</diploPart><diploPart type="rota"/><diploPart type="datatio">caput meum domine]</diploPart></p>
             </diploDesc>
          </div>
          <div type="commentary">
@@ -131,9 +130,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter"
-               lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt
-               werden]</p>
+            <p>Ggf. nochmal prüfen, ob JL-Nummer existiert.</p><p/>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>

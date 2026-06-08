@@ -27,13 +27,12 @@
                <issued><placeName>Faenza</placeName><date type="issued" notBefore="1169-03-16" notAfter="1169-03-16">(1169), März 16</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Issuer]</legalActor></p>
-               <p>
-                  <legalActor type="recipient">[Recipient 1]</legalActor></p>
+               <p><legalActor type="issuer">Calixt III.</legalActor></p>
+               <p><legalActor type="recipient">Bruno, Propst des Kölner Domstiftes</legalActor></p><p><legalActor type="recipient">Hugo, Dekan des Kölner Domstiftes </legalActor></p><p><legalActor type="recipient">Theoderich, Abt des Klosters Kamp</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &amp;gt; Litterae cum serico]</objectType></p>
+               <p><objectType ref="na">Papsturkunde, Litterae cum filo canapis</objectType></p><p><objectType ref="na">Administration, Organisation der Kurie</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
-               <p><objectType ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &amp;gt; Beauftragung durch…]</objectType></p>
+               <p><objectType ref="na">Calixt. III., Urheber</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
@@ -52,7 +51,7 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Calixt III. beauftragt den Propst und Dekan des Kölner Domstiftes sowie den Abt des Klosters Kamp mit der Untersuchung und Schlichtung einer Streitsache zwischen der Äbtissin von Dietkirchen und den Pfarrangehörigen von Sechtem bei Bonn.<list>
+            <p>Calixt III. beauftragt Propst Bruno und Dekan Hugo des Kölner Domstiftes sowie Abt Theoderich des Klosters Kamp damit, eine Streitsache über die Wahl der örtlichen Priester zwischen der Äbtissin von Dietkirchen und den Pfarrangehörigen von Sechtem bei Bonn innerhalb von 15 Tagen nach Erhalt des Schreibens anzuhören und zu entscheiden.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
@@ -75,31 +74,29 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">Original, LA Nordrhein-Westfalen, Dietkirchen, Urkunden sive Akten, N. 7;</bibl>
-                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="original">Bonn, LA Nordrhein-Westfalen, Dietkirchen, Urkunden AA 0150, N. 7 </bibl>
+                  <bibl type="msCopy">-</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
-               <bibl>[Quelle 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
                <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 320–321, Nr. Ca4</bibl>
-               <bibl>Pflugk-Harttung: Acta, Bd. I, S. 295, Nr. 330;</bibl>
+               <bibl>Pflugk-Harttung: Acta, Bd. I, S. 295, Nr. 330 https://archive.org/details/actapontificumr1v2cath/page/n310/mode/1up</bibl>
             </listBibl>
          </div>
          <div type="regesta">
@@ -107,7 +104,7 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14496</bibl>
-               <bibl>GP VII, S. 255, Nr. 3; ibid., S. 140, Nr. 23; ibid., S. 295, Nr. 6; Bischoff: Urkundenformate im Mittelalter, S. 141; Abb. dig.: PH LA Nordrhein-Westfalen, Abt. Rheinland.</bibl>
+               <bibl>Germ. Pont. 7, S. 255, Nr. 3; ibid., S. 140, Nr. 23; ibid., S. 295, Nr. 6</bibl><bibl>Bischoff: Urkundenformate im Mittelalter, S. 141</bibl>
             </listBibl>
          </div>
          <div>
@@ -119,19 +116,17 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Die im Originaltext befindliche Abkürzung für et cetera wurde in der Transkription mit eckigen Klammern aufgelöst. 893	Obwohl der Kontext eine Transkription mit anuimus wahrscheinlich macht, lässt sich diese Stelle aufgrund des für eine Rekonstruktion zu geringen Buchstabenbestandes und unleserlicher Stellen auf der Abbildung nicht sicher auflösen. 894	Nicht mit Sicherheit gesagt werden kann, ob divino hier als erstes Wort eines neuen Satzes zu sehen ist. 895	Das Wort ad wurde durchgestrichen. </p>
+            <p>Archivsignatur gegenüber Schönfeld verbessert (vgl. https://www.archive.nrw.de/ms/search?link=VERZEICHUNGSEINHEIT-Vz_3a110dd2-ed9c-4455-80c8-fa93ecea3241); das bei Schönfeld angegebene Digitalisat ist öffentlich zugänglich nicht zu finden</p>
          </div>
-         <div type="bibliography">
-            <head>Bibliographie</head>
+            <div>
+            </div><div type="bibliography"><head>Bibliographie</head>
             <listBibl>
                <bibl>[Weitere Referenzen als listBibl]</bibl>
             </listBibl>
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter"
-               lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt
-               werden]</p>
+            <p>Diözesen der Entitäten angeben? Nach heutigen oder damaligen Verhältnissen? Hier wären das alles Entitäten des Bistums Köln</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>

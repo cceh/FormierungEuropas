@@ -1,17 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="fe_schoenfeld">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="fe_schoenfeld">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>fe_00118</title>
-            <respStmt>
-               <resp>Die Formierung Europas</resp>
-               <persName>[Name der Bearbeiter*in]</persName>
-            </respStmt>
+            <respStmt><resp>Die Formierung Europas</resp><persName>Schönfeld, Urkunden der Gegenpäpste, S. 321, Nr. Ca6</persName></respStmt>
             <respStmt>
                <resp when="2025">Encoding:</resp>
-               <persName>SG</persName><persName>[Name der Überarbeiter*in/Auszeichnung, in der Regel identisch wie Name der Bearbeiter*in]</persName>
+               <persName>SG</persName><persName>JM</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -21,7 +17,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+            <bibl type="jaffe">-</bibl>
             <bibl type="Schoenfeld">Schönfeld, Urkunden der Gegenpäpste, S. 321, Nr. Ca6</bibl>
             <diploDesc>
                <p><authen type="formula" n="deperditum">
@@ -31,13 +27,12 @@
                <issued><placeName>[Ausstellungsort]</placeName><date type="issued" notBefore="1170-01-01" notAfter="1170-12-31">(1170)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Issuer]</legalActor></p>
-               <p>
-                  <legalActor type="recipient">[Recipient 1]</legalActor></p>
+               <p><legalActor type="issuer">Calixt III.</legalActor></p>
+               <p><legalActor type="recipient">Bertold, Prior von Celle (Vilmarszell)</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &gt; Litterae cum serico]</objectType></p>
+               <p><objectType ref="na">Papsturkunde, Litterae cum serico</objectType></p><p><objectType ref="na">Juristisches, Rechtsbestätigungen</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
-               <p><objectType ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &gt; Beauftragung durch…]</objectType></p>
+               <p><objectType ref="na">Calixt III., Urheber</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
@@ -56,7 +51,7 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Calixt III . bestätigt Propst Bertold die Pfarrrechte der Kirche zu Achkarren.<list>
+            <p>Calixt III. bestätigt Prior Bertold von Celle (Vilmarszell) die Pfarrrechte der Kirche zu Achkarren.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
@@ -79,52 +74,48 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">Deperditum, erwähnt in einer Urkunde des Legaten Unfred, ed. Dümgè: Regesta Badensia, S. 144, Nr. 97 (vgl. GP II /1, S. 185, Nr. 6);</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="original">-</bibl>
+                  <bibl type="msCopy">Deperditum, erwähnt in einer Urkunde des Legaten Unfred, ed. Dümgè: Regesta Badensia, S. 144, Nr. 97 https://archive.org/details/bub_gb_cEwVAAAAQAAJ/page/n157/mode/1up</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
-               <bibl>[Quelle 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 321, Nr. Ca6</bibl>
-               <bibl> –;</bibl>
+               <bibl/>
+               <bibl> –</bibl>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head>
             <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>[Regest 1]</bibl>
-               <bibl>GP II /1, S. 185, Nr. *5.</bibl>
+               <bibl>JL -</bibl>
+               <bibl>Germ. Pont. 2,1, S. 185, Nr. *5</bibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 321, Nr. Ca6</bibl>
             </listBibl>
          </div>
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>[Text und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
- Kommentar]</p>
+               <p>Aus der Formulierung in der Legatenurkunde (<diploPart>tum ex privilegiis summorum Pontificum Eugenii scilicet et Adriani tum </diploPart><diploPart>ex confirmatione patris nostri summi Episcopi Calixti</diploPart>) geht nicht eindeutig hervor, ob das Schreiben Calixts ein Privileg oder Litterae cum serico waren. Da Calixts Bestätigungsurkunde von den Privilegien Eugens III. und Hadrians IV. unterschieden wird, geht die Tendenz allerdings zur Typisierung als Litterae cum serico.</p>
             </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>[Inhalt des Sachkommentars. Bibliographische Referenzen werden als Bibliographische
-               Angabe getagged.]</p>
+            <p>Zur Legatenurkunde vgl. Germ. Pont. 2,1, S. 185, Nr. 6 = ##FE-Nummer einfügen##</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
@@ -134,9 +125,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter"
-               lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt
-               werden]</p>
+            <p>Text aus den Regesta Badensia: </p><p><diploPart>Unfredus sanctae apostolicae sedis Legatus B. Priori de Cella et omnibus successoribus ejus salutem. Usus ipse ratioque usu praestantior edocet. visa et audita litteris assignare. ut posteris nota fiant et inconvulsa conserventur. Inde. mi dilecte. negotium quod inter te et Ecclesiam basiliensem pro Ecclesia de Ahtekarle in praesentia nostra Endingen movebatur. tuam justitiam super ipsa Ecclesia Ahtekarle tum ex privilegiis summorum Pontificum Eugenii scilicet et Adriani tum ex confirmatione patris nostri summi Episcopi Calixti. tum ex sentencia coram C. maguntino archiepiscopo data. nec non ex vivo. si necessitas. poposcisset. testimonio adeo veritate fulcitam vidimus et cognovimus. ut ei nequaquam deesse possimus neque debeamus. Unde tibi et cenobitis Cellae Deo servientibus praedictam Ecclesiam Ahtekarle cum decimis et sepultura et baptismate. ejus auctoritate. cujus legatione fungimur. et nostri impressione sigilli stabilimus et confirmamus. ne quisquam te et posteros tuos super ipsa ecclesia deinceps inquietare presumat. Quicunque autem huic auctoritatis nostrae paginae contraierit. ipsum a communione sanctae Ecclesiae sequestramus. et vinculo anathematis beatorum apostolorum Petri et Pauli innodamus.</diploPart></p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
