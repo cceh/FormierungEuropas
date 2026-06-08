@@ -9,10 +9,7 @@
             <title>[Die Nummer des Regests im Projekt. Dateiname beginnt mit "Ordner", zum Beispiel
                FO für Formierung Europas]</title>
             <respStmt><resp>Datenquelle</resp><persName>Harper-Bill, English Episcopal Acta, Bd. 06, Nr. 335</persName></respStmt>
-            <respStmt>
-               <resp when="2026">Encoding</resp>
-               <persName>[Jakob Panne]</persName>
-            </respStmt>
+            <respStmt><resp when="2026">Encoding</resp><persName>Jakob Panne</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
