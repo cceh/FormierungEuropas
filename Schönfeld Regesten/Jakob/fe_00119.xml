@@ -1,17 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="fe_schoenfeld">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="fe_schoenfeld">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>fe_00119</title>
-            <respStmt>
-               <resp>Die Formierung Europas</resp>
-               <persName>[Name der Bearbeiter*in]</persName>
-            </respStmt>
+            <respStmt><resp>Die Formierung Europas</resp><persName>Schönfeld, Urkunden der Gegenpäpste, S. 321, Nr. Ca7</persName></respStmt>
             <respStmt>
                <resp when="2025">Encoding:</resp>
-               <persName>SG</persName><persName>[Name der Überarbeiter*in/Auszeichnung, in der Regel identisch wie Name der Bearbeiter*in]</persName>
+               <persName>SG</persName><persName>JM</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -31,13 +27,12 @@
                <issued><placeName>Viterbo</placeName><date type="issued" notBefore="1170-03-06" notAfter="1170-03-06">(1170), März 6</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Issuer]</legalActor></p>
-               <p>
-                  <legalActor type="recipient">[Recipient 1]</legalActor></p>
+               <p><legalActor type="issuer">Calixt III.</legalActor></p>
+               <p><legalActor type="recipient">Otto, Bischof von Konstanz</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &gt; Litterae cum serico]</objectType></p>
+               <p><objectType ref="na">Papsturkunde, Litterae cum serico</objectType></p><p><objectType ref="na">Juristisches, Rechtsbestätigungen </objectType></p>
                <!-- Referenz aus Liste entnehmen -->
-               <p><objectType ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &gt; Beauftragung durch…]</objectType></p>
+               <p><objectType ref="na">Calixt III., Urheber</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
@@ -56,14 +51,14 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Calixt III . bewilligt die von Bischof O(tto) von Konstanz erfolgte Bestätigung der Schenkung des Immo, Wolfin und Wolfrob an das Kloster S. Trudbert.<list>
+            <p>Calixt III. bewilligt die von Bischof Otto von Konstanz erfolgte Bestätigung der Schenkung des Immo, Wolfin und Wolfrob an das Kloster S. Trudbert.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
 
          <div>
             <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">Ex iniuncto nobis</diploPart>
+            <diploPart type="incipit" xml:lang="lat">Ex iniuncto nobis a deo</diploPart>
          </div>
          <div>
             <head>Subscriptiones:</head>
@@ -79,9 +74,9 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">Kopial;</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="original">-</bibl>
+                  <bibl type="msCopy">Generallandesarchiv Karlsruhe 67 Nr. 1300, fol. 12 http://www.landesarchiv-bw.de/plink/?f=4-3666412</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
@@ -102,8 +97,8 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 321, Nr. Ca7</bibl>
-               <bibl>Weech: Urkundenbuch, S. 82;</bibl>
+               <bibl/>
+               <bibl>Weech: Urkundenbuch, Nr. 6, S. 82 https://archive.org/details/zeitschriftfrdi04langoog/page/82/mode/2up</bibl>
             </listBibl>
          </div>
          <div type="regesta">
@@ -111,7 +106,7 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14497</bibl>
-               <bibl>GP II/1, S. 182, Nr. 2; ibid., S. 139, Nr. 63; Pflugk-Harttung: Papsturkunden in Karlsruhe, S. 244; Reg. episc. Const., Bd. I, S. 114, Nr. 1017.</bibl>
+               <bibl>GP II/1, S. 182, Nr. 2; ibid., S. 139, Nr. 63</bibl><bibl>Reg. episc. Const., Bd. I, S. 114, Nr. 1017</bibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 321, Nr. Ca7</bibl>
             </listBibl>
          </div>
          <div>
@@ -124,7 +119,7 @@
          <div type="commentary">
             <head>Sachkommentar</head>
             <p>[Inhalt des Sachkommentars. Bibliographische Referenzen werden als Bibliographische
-               Angabe getagged.]</p>
+               Angabe Archivsignatur gegenüber Schönfeld ergänzt.]</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
