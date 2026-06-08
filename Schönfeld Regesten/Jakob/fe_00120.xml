@@ -4,13 +4,10 @@
       <fileDesc>
          <titleStmt>
             <title>fe_00120</title>
-            <respStmt>
-               <resp>Die Formierung Europas</resp>
-               <persName>[Name der Bearbeiter*in]</persName>
-            </respStmt>
+            <respStmt><resp>Die Formierung Europas</resp><persName>Schönfeld, Urkunden der Gegenpäpste, S. 321–322, Nr. Ca8</persName></respStmt>
             <respStmt>
                <resp when="2025">Encoding:</resp>
-               <persName>SG</persName><persName>[Name der Überarbeiter*in/Auszeichnung, in der Regel identisch wie Name der Bearbeiter*in]</persName>
+               <persName>SG</persName><persName>[JM</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -77,8 +74,8 @@
             <div>
                <listBibl>
                   <bibl type="original">Generallandesarchiv Karlsruhe 12/477f.</bibl>
-                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="msCopy">-</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
