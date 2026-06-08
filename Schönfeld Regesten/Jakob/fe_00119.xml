@@ -95,17 +95,14 @@
          </div>
          <div type="editions">
             <head>Editionen</head>
-            <listBibl>
-               <bibl/>
-               <bibl>Weech: Urkundenbuch, Nr. 6, S. 82 https://archive.org/details/zeitschriftfrdi04langoog/page/82/mode/2up</bibl>
-            </listBibl>
+            <listBibl><bibl/><bibl>Weech: Urkundenbuch, Nr. 6, S. 82 https://archive.org/details/zeitschriftfrdi04langoog/page/82/mode/2up</bibl></listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head>
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14497</bibl>
-               <bibl>Germ. Pont. 2,1, S. 182, Nr. 2; ibid., S. 139, Nr. 63</bibl><bibl>Regesta episcoporum Constantiensium, Bd. 1, S. 114, Nr. 1017</bibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 321, Nr. Ca7</bibl>
+               <bibl>Germ. Pont. 2,1, S. 182, Nr. 2; ibid., S. 139, Nr. 63</bibl><bibl>Regesta episcoporum Constantiensium, Bd. 1, S. 114, Nr. 1017 https://archive.org/details/regesta-episcoporum-constantiensium-vol-1/page/n128/mode/1up</bibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 321, Nr. Ca7</bibl>
             </listBibl>
          </div>
          <div>
