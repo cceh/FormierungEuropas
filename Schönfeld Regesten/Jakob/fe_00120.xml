@@ -73,7 +73,7 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">Generallandesarchiv Karlsruhe 12/477f.</bibl>
+                  <bibl type="original">Generallandesarchiv Karlsruhe 12/477f. Abb. dig.: PH Goe (Auss.)</bibl>
                   <bibl type="msCopy">-</bibl>
                   <bibl type="print">-</bibl>
                </listBibl>
@@ -82,15 +82,13 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
-               <bibl>[Quelle 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="editions">
@@ -105,7 +103,7 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 11715e</bibl>
-               <bibl>Germ. Pont. 2,1, S. 203, Nr. 13; ibid., S. 139, Nr. 62; ibid., S. 142, Nr. 9; Abb. dig.: PH Goe (Auss.).</bibl>
+               <bibl>Germ. Pont. 2,1, S. 203, Nr. 13; ibid., S. 139, Nr. 62; ibid., S. 142, Nr. 9; </bibl>
             </listBibl>
          </div>
          <div>
