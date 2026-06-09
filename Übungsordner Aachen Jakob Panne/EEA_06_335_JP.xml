@@ -57,9 +57,7 @@
          </div>
 
          <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Universis Christi fidelibus]</diploPart>
-         </div>
+            <head>Incipit</head><diploPart type="incipit" xml:lang="lat">Universis Christi fidelibus ad quos</diploPart></div>
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
@@ -68,7 +66,7 @@
          </div>
          <div>
             <head>Datatio</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+            <diploPart type="datatio">[Diplom]</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
