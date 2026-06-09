@@ -34,7 +34,7 @@
                <p>
                   <legalActor type="recipient">[Recipient 1]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &amp;gt; Litterae cum serico]</objectType></p>
+               <p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &amp;gt; Litterae cum serico</objectType></p><p><objectType ref="na">]</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
                <p><objectType ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &amp;gt; Beauftragung durch…]</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
@@ -78,7 +78,7 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">Original, LA Nordrhein-Westfalen, Dietkirchen, Urkunden sive Akten, N. 8;</bibl>
+                  <bibl type="original">LA Nordrhein-Westfalen, Dietkirchen, Urkunden sive Akten, N. 8;</bibl>
                   <bibl type="msCopy">[handschriftliche Kopie]</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
@@ -110,7 +110,7 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14500</bibl>
-               <bibl>GP VII, S. 256, Nr. 5; ibid., S. 141, Nr. 25; Bischoff: Urkundenformate im Mittelalter, S. 141; Abb. dig.: PH LA Nordrhein-Westfalen, Abt. Rheinland.</bibl>
+               <bibl>GP VII, S. 256, Nr. 5; ibid., S. 141, Nr. 25; </bibl><bibl>Bischoff: Urkundenformate im Mittelalter, S. 141; Abb. dig.: PH LA Nordrhein-Westfalen, Abt. Rheinland.</bibl>
             </listBibl>
          </div>
          <div>
