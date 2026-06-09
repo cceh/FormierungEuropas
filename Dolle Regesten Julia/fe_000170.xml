@@ -1,18 +1,11 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="dolle">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI source="dolle" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Dolle, Papsturkunden, S. 229–230, Nr. 108</title>
-            <respStmt>
-               <resp>Datenquelle</resp>
-               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
-            </respStmt>
-            <respStmt>
-               <resp when="2026">Encoding</resp>
-               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
-            </respStmt>
+      <fileDesc><titleStmt><title>fe_000138</title><respStmt><resp>Datenquelle</resp><persName>Dolle, PU Niedersachsen und Bremen, S. 229-230, Nr. 108</persName></respStmt>
+            <respStmt><resp when="2026">Encoding</resp><persName>JB</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -21,23 +14,23 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>Dolle, Papsturkunden, S. 229–230, Nr. 108</bibl><bibl type="jaffe">13062</bibl>
+            <bibl>Dolle, PU Niedersachsen und Bremen, S. 229–230, Nr. 108</bibl><bibl type="jaffe">13062</bibl>
             <bibl>[Weiteres Konkordanzregest]</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
                <p><authen type="formula" n="na">
-                     <p>[*+?-]</p>
+                     <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Rom, St. Peter</placeName><date type="issued" notBefore="1178-05-01" notAfter="1178-05-01">[1178] Mai 1</date>
+               <issued><placeName>Rom, St. Peter</placeName><date type="issued" notBefore="1178-05-01" notAfter="1178-05-01">(1178), Mai 1</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
-               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p><legalActor type="recipient">Kanoniker der Kirche von Bremen</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <p><objectType n="">Papsturkunde, Litterae cum filo serico</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">[Typisierung 2]</objectType></p>
+               <p><objectType n="">Administration, Finanzen</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
@@ -55,7 +48,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>Papst Alexander III . bestätigt die herkömmliche Sitte der Bremer Kirche, nach welcher die Früchte der Präbenden nach dem Tod des Besitzers auf ein Jahr zu frommen Zwecken oder für das Seelenheil des Verstorbenen verwandt werden.<list>
+            <p><legalActor><persName>Alexander III.</persName></legalActor> bestätigt die herkömmliche Sitte der <legalActor><orgName>Bremer Kirche</orgName></legalActor>, die besagt, dass nach dem Tod eines Kanonikers die Einkünfte aus seinen Pfründen ein Jahr lang einzuziehen und für die Begleichung seiner Schulden oder für fromme Zwecke zu seinem Seelenheil zu verwenden sind. Das Bremer Domkapitel soll die Einhaltung dieser Gewohnheit, die durch den früheren Erzbischof Hartwig kraft apostolischer Autorität verliehen wurde, garantieren.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
@@ -101,15 +94,15 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Dolle, Papsturkunden, S. 229–230, Nr. 108</bibl>
-               <bibl>[Edition 2]</bibl>
+               <bibl>Dolle, PU Niedersachsen und Bremen, S. 229–230, Nr. 108</bibl>
+               <bibl>UB Hamburg I, S. 228, Nr. 250 (zu 1169-1181)</bibl><bibl>Migne PL 200, Sp. 1175, Nr. 1350</bibl>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head>
             <listBibl>
                <bibl>JL 13062</bibl>
-               <bibl>Regesten: J Nr. 8588. – JL Nr. 13062. – GP VI S. 95 Nr. 6. – Möhlmann I Nr. 52. – Bremisches UB I Nr. 164. – RegEbBremen I Nr. 580. Der Druck folgt dem Hamburgischen Urkundenbuch.</bibl>
+               <bibl>Germ. Pont. 6, S. 95, Nr. 6</bibl><bibl>UB Bremen I, Nr. 164</bibl><bibl>Regesten der Erzbischöfe von Bremen I, Nr. 580</bibl>
             </listBibl>
          </div>
          <div>
@@ -120,7 +113,7 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Datiert nach dem Itinerar.</p>
+            <p>Erzbischof Hartwig von Bremen (amt. 1148-1168). Datiert nach dem Itinerar.</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>

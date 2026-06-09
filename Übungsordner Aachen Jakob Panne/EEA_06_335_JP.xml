@@ -33,7 +33,7 @@
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Bischofsurkunde</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">Nachleben und -wirkung, urkundlich</objectType></p><p><objectType> Alex</objectType></p>
+               <p><objectType n="">Nachleben und -wirkung, urkundlich</objectType></p><p><objectType> Alexander III. </objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
@@ -51,25 +51,21 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>[Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
+            <p><persName>John de Gray, Bischof von Norwich</persName>, verleiht der <orgName>Mönchsgemeinschaft der <orgName>Abtei von Bury St. Edmunds</orgName></orgName> nach Inspektion eines entsprechenden Privilegs <persName>Alexander III.</persName> die Kirche von <placeName>Woolpit</placeName> zu eigenen Nutzung für den Erhalt der Gastfreundschaft. Ausgeschlossen einer Vikarie von zehn Mark.</p><p/><p/><p><list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
 
          <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
-         </div>
+            <head>Incipit</head><diploPart type="incipit" xml:lang="lat">Universis Christi fidelibus ad quos</diploPart></div>
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+                  <item>Waltero de Gray, ???königlicher Kanzler???</item><item>Henrico de Ver </item><item>Iohanne de Uffint</item><item>magistro Edmundo fisico</item><item>Rogero de Saresb</item><item>Germano de Bradefeld </item><item>Matheo de Wynterburne</item><item>Alano de sancto Edmundo</item><item>multis aliis </item>
                </list></diploPart>
          </div>
          <div>
-            <head>Datatio</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
-         </div>
+            <head>Datatio</head><diploPart type="datatio">Dat apud Geitendon per manum nostram vi kalendas Septembris pontificatus nostri anno undecimo</diploPart></div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
