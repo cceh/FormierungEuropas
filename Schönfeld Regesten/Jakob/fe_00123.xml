@@ -102,7 +102,7 @@
             <head>Editionen</head>
             <listBibl>
                <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 323, Nr. Ca11</bibl>
-               <bibl>Pflugk-Harttung: Acta, Bd. I, S. 296, Nr. 332;</bibl>
+               <bibl>Pflugk-Harttung: Acta, Bd. 1, S. 296, Nr. 332;</bibl>
             </listBibl>
          </div>
          <div type="regesta">
@@ -110,7 +110,7 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14501</bibl>
-               <bibl>GP VII, S. 256, Nr. 6; ibid., S. 141, Nr. 26; Bischoff: Urkundenformate im Mittelalter, S. 141; Abb. dig.: PH LA Nordrhein-Westfalen, Abt. Rheinland.</bibl>
+               <bibl>GP VII, S. 256, Nr. 6; ibid., S. 141, Nr. 26</bibl><bibl>Bischoff: Urkundenformate im Mittelalter, S. 141</bibl>
             </listBibl>
          </div>
          <div>
@@ -122,7 +122,7 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Für die erste Bestätigung dieser Entscheidung siehe ##FE_00122##</p>
+            <p>Archivsignatur gegenüber Schönfeld verbessert (vgl. https://www.archive.nrw.de/ms/search?link=VERZEICHUNGSEINHEIT-Vz_3a110dd2-ed9c-4455-80c8-fa93ecea3241); das von ihm angegebene Digitalisat der Urkunde ließ sich nicht finden. Für die erste Bestätigung dieser Entscheidung siehe ##FE_00122##</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
