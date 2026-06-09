@@ -4,13 +4,10 @@
       <fileDesc>
          <titleStmt>
             <title>fe_00122</title>
-            <respStmt>
-               <resp>Die Formierung Europas</resp>
-               <persName>[Name der Bearbeiter*in]</persName>
-            </respStmt>
+            <respStmt><resp>Die Formierung Europas</resp><persName>Schönfeld, Urkunden der Gegenpäpste, S. 322–323, Nr. Ca10</persName></respStmt>
             <respStmt>
                <resp when="2025">Encoding:</resp>
-               <persName>SG</persName><persName>[Name der Überarbeiter*in/Auszeichnung, in der Regel identisch wie Name der Bearbeiter*in]</persName>
+               <persName>SG</persName><persName>JM</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -30,9 +27,9 @@
                <issued><placeName>Viterbo</placeName><date type="issued" notBefore="1170-05-19" notAfter="1170-05-19">(1170), Mai 19</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p><legalActor type="issuer">Calixt III.</legalActor></p>
                <p>
-                  <legalActor type="recipient">[Recipient 1]</legalActor></p>
+                  <legalActor type="recipient">[ Äbtissin des Klosters Dietkirchen, Irmentrud1]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &amp;gt; Litterae cum serico</objectType></p><p><objectType ref="na">]</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
