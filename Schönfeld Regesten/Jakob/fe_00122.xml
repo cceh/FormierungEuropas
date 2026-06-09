@@ -30,9 +30,9 @@
                <p><legalActor type="issuer">Calixt III.</legalActor></p>
                <p><legalActor type="recipient">Irmentrud, Äbtissin des Klosters Dietkirchen</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType ref="na">Papsturkunde, Litterae cum serico</objectType></p><p><objectType ref="na">]Juristisches</objectType></p>
+               <p><objectType ref="na">Papsturkunde, Litterae cum serico</objectType></p><p><objectType ref="na">Juristisches, Rechtsbestätigungen</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
-               <p><objectType ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &amp;gt; Beauftragung durch…]</objectType></p>
+               <p><objectType ref="na">Calixt III., Urheber</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
@@ -98,7 +98,7 @@
             <head>Editionen</head>
             <listBibl>
                <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 322–323, Nr. Ca10</bibl>
-               <bibl>Pflugk-Harttung: Acta, Bd. I, S. 295, Nr. 331;</bibl>
+               <bibl>Pflugk-Harttung: Acta, Bd. 1, S. 295, Nr. 331</bibl>
             </listBibl>
          </div>
          <div type="regesta">
@@ -106,7 +106,7 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14500</bibl>
-               <bibl>GP VII, S. 256, Nr. 5; ibid., S. 141, Nr. 25; </bibl><bibl>Bischoff: Urkundenformate im Mittelalter, S. 141</bibl>
+               <bibl>GP 7, S. 256, Nr. 5; ibid., S. 141, Nr. 25; </bibl><bibl>Bischoff: Urkundenformate im Mittelalter, S. 141</bibl>
             </listBibl>
          </div>
          <div>
