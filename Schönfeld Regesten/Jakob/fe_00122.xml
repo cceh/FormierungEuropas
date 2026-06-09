@@ -28,8 +28,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Calixt III.</legalActor></p>
-               <p>
-                  <legalActor type="recipient">[ Äbtissin des Klosters Dietkirchen, Irmentrud1]</legalActor></p>
+               <p><legalActor type="recipient">Irmentrud, Äbtissin des Klosters Dietkirchen</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &amp;gt; Litterae cum serico</objectType></p><p><objectType ref="na">]</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
