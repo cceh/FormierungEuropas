@@ -44,8 +44,7 @@
          </div>
 
          <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+            <head>Incipit</head><diploPart type="incipit" xml:lang="lat">Votis et desideriis religiosorum que</diploPart>
          </div>
          <div>
             <head>Subscriptiones</head>
@@ -54,8 +53,7 @@
                </list></diploPart>
          </div>
          <div>
-            <head>Datatio</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+            <head>Datatio</head><diploPart type="datatio">Dat. Laterani, VIII kl. iunii.Diplomatische Transkription der Datierungszeile]</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
