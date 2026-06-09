@@ -29,10 +29,10 @@
                <p><authen type="formula" n="na">
                      <p>*</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-                  </authen></p><issued><placeName>Speyer</placeName><date type="issued">1163</date>
+                  </authen></p><issued><placeName>Speyer</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1163-12-31" precision="high" unit="cm" xml:space="default" notBefore="1163-01-01" type="issued">1163</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p><legalActor type="issuer">Viktor IV.</legalActor></p>
                <p>
                   <legalActor type="recipient">[Recipient 1]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
