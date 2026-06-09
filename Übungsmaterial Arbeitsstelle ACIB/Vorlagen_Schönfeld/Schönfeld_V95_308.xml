@@ -35,7 +35,7 @@
                <p><legalActor type="issuer"><persName>Viktor IV.</persName></legalActor></p>
                <p><legalActor type="recipient"><persName>Philipp, Abt</persName> des Stifts S. Maria in Parc</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType ref="fe:vocab:objectType:0101">Papsturkunde, Privileg einfach</objectType></p>
+               <p><objectType ref="fe:vocab:objectType:0101">Papsturkunde, Litterae cum serico</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
                <p><objectType ref="na">[Typisierung 2]</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
