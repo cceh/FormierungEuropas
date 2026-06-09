@@ -30,9 +30,9 @@
                <issued><placeName>Viterbo</placeName><date type="issued" notBefore="1170-07-09" notAfter="1170-07-09">(1170), Juli 9</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p><legalActor type="issuer">Calixt III.</legalActor></p>
                <p>
-                  <legalActor type="recipient">[Recipient 1]</legalActor></p>
+                  <legalActor type="recipient">[Irmentrud, Äbtissin des Klosters Dietkirchen</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &amp;gt; Litterae cum serico]</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
@@ -110,7 +110,7 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14501</bibl>
-               <bibl>GP VII, S. 256, Nr. 6; ibid., S. 141, Nr. 26</bibl><bibl>Bischoff: Urkundenformate im Mittelalter, S. 141</bibl>
+               <bibl>GP 7, S. 256, Nr. 6; ibid., S. 141, Nr. 26</bibl><bibl>Bischoff: Urkundenformate im Mittelalter, S. 141</bibl>
             </listBibl>
          </div>
          <div>
