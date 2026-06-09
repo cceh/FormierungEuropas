@@ -48,14 +48,13 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor><persName>Alexander III.</persName></legalActor> bestätigt die herkömmliche Sitte der <legalActor><orgName>Bremer Kirche</orgName></legalActor>, die besagt, dass nach dem Tod eines Kanonikers die Einkünfte aus seinen Pfründen ein Jahr lang einzuziehen und für die Begleichung seiner Schulden oder für fromme Zwecke zu seinem Seelenheil zu verwenden sind. Das Bremer Domkapitel soll die Einhaltung dieser Gewohnheit, die durch den früheren Erzbischof Hartwig kraft apostolischer Autorität verliehen wurde, garantieren.<list>
+            <p><legalActor><persName>Alexander III.</persName></legalActor> bestätigt die herkömmliche Sitte der <legalActor><orgName>Bremer Kirche</orgName></legalActor>, die besagt, dass nach dem Tod eines Kanonikers die Einkünfte aus seinen Pfründen ein Jahr lang einzuziehen und für die Begleichung seiner Schulden oder für fromme Zwecke zu seinem Seelenheil zu verwenden sind. Das Bremer Domkapitel soll die Einhaltung dieser Gewohnheit, die durch den früheren <persName>Erzbischof Hartwig</persName> kraft apostolischer Autorität verliehen wurde, garantieren.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
 
          <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+            <head>Incipit</head><diploPart type="incipit" xml:lang="lat">Pervenit ad nos in ecclesiaLorem ipsum dolor sit amet]</diploPart>
          </div>
          <div>
             <head>Subscriptiones</head>
