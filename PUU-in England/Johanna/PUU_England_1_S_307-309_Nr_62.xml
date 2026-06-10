@@ -20,7 +20,7 @@
             <diploDesc><p><issued><placeName>Laterano</placeName><date type="issued" notBefore="1156-11-08" notAfter="1156-11-08">1156 November 8 (?).</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Hadrian IV.</legalActor></p>
-               <p> <legalActor type="recipient">[Kloster St. Mary's in Ruffold]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient">[Zisterzienserkloster St. Mary's in Ruffold]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
@@ -92,7 +92,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[JoLe: Rufford St. Mary´s bisher Zisterzienserkloster, in Abstract aber Benediktinerregel </p><p>Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+            <p>[JoLe: Rufford St. Mary´s bisher Zisterzienserkloster, in Abstract aber Benediktinerregel</p><p>Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
          </div>
       </body>
    </text>
