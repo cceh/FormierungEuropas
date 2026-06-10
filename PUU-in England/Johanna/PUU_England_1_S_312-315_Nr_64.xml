@@ -20,7 +20,7 @@
             <diploDesc><p><issued><placeName>Laterano</placeName><date type="issued" notBefore="1157-01-19" notAfter="1157-01-19">1157 Januar 19.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Hadrian IV.</legalActor></p>
-               <p> <legalActor type="recipient">[Hospital von St. Peters (St. Leonard`s) in York</legalActor></p><p><legalActor type="recipient">Robert, Meister des Hospitals von St. Peters in Yorkt 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient">Hospital von St. Peters (St. Leonard`s) in York</legalActor></p><p><legalActor type="recipient">Robert, Meister des Hospitals von St. Peters in York</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
@@ -36,7 +36,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Hadrian I V. nimmt das Hospital von St. Peters (St. Leonard's) in York unter dem Meister Robert in den päpstlichen Schutz und be- stätigt seine namentlich aufgeführten Besitzungen und Rechte.</p>
+            <p>Hadrian I V. nimmt das Hospital von St. Peters (St. Leonard's) in York unter dem Meister Robert in den päpstlichen Schutz und bestätigt seine namentlich aufgeführten Besitzungen und Rechte.</p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head>
             <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
