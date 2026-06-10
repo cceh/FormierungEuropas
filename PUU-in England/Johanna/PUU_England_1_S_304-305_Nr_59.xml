@@ -20,7 +20,7 @@
             <diploDesc><p><issued><placeName>Roma, S. Pietro</placeName><date type="issued" notBefore="1155-02-25" notAfter="1155-02-25">(1155) Februar 25.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Hadrian IV.</legalActor></p>
-               <p> <legalActor type="recipient">[Benediktiloster St. Benet of Hidme</legalActor></p><p><legalActor type="recipient">Wilhelm, Abt des Kloster St. Benet of Hidme]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient">Benediktinerkloster St. Benet of Hidme</legalActor></p><p><legalActor type="recipient">Wilhelm, Abt des Kloster St. Benet of Hidme</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
