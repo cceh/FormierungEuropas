@@ -74,7 +74,7 @@
 	"id": "https://raw.githubusercontent.com/cceh/FormierungEuropas/main/Übungsordner Aachen Jakob Panne/EEA_06_335_JP.xml?date_annotation_20260610145104410",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-06-10T12:51:04.410Z",
-	"dcterms:modified": "2026-06-10T12:51:04.410Z",
+	"dcterms:modified": "2026-06-10T12:51:53.902Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/JakobPanne",
 		"@type": [
@@ -143,7 +143,7 @@
                </list></diploPart>
          </div>
          <div>
-            <head>Datatio</head><diploPart type="datatio"><date when="1211-08-27" type="datatio">Dat apud Geitendon per manum nostram vi kalendas Septembris pontificatus nostri anno undecimo.</date></diploPart></div>
+            <head>Datatio</head><diploPart type="datatio">Dat apud Geitendon per manum nostram vi kalendas Septembris pontificatus nostri anno undecimo.</diploPart></div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
