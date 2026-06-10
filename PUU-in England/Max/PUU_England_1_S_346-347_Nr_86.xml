@@ -19,7 +19,7 @@
             <bibl>PUU England 1, S. 346-347, Nr. 86</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
             <diploDesc><p><issued><placeName>Anagni</placeName><date type="issued" notBefore="1161-02-07" notAfter="1161-02-07">(1161) Februar 7.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
-               <p><legalActor type="issuer">[Alexander III.]</legalActor></p>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Wolter, Sakristan von Westminster Abbey</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
