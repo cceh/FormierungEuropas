@@ -54,8 +54,7 @@
          </div>
 
          <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+            <head>Incipit</head><diploPart type="incipit" xml:lang="lat">Effectum iusta postulantibus indulgere et</diploPart>
          </div>
          <div>
             <head>Subscriptiones</head>
