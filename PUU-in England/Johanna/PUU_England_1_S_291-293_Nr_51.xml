@@ -23,7 +23,7 @@
             <diploDesc><p><issued><placeName>Segni</placeName><date type="issued" notBefore="1152-02-13" notAfter="1152-02-13">1152 Februar 13.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Eugen III.</legalActor></p>
-               <p> <legalActor type="recipient">[Kloster Luffield</legalActor></p><p><legalActor type="recipient">Wilhelm, Prior des Klosters Luffield</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><legalActor type="recipient">Kloster Luffield</legalActor></p><p><legalActor type="recipient">Wilhelm, Prior des Klosters Luffield</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
@@ -39,7 +39,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Eugen III. nimmt das Kloster Luffield unter dem Prior Wil- helm in den päpstlichen Schutz und bestätigt seine Rechte.</p>
+            <p>Eugen III. nimmt das Kloster Luffield unter dem Prior Wilhelm in den päpstlichen Schutz und bestätigt seine Rechte.</p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head>
             <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
