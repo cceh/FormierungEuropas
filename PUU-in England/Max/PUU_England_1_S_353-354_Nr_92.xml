@@ -19,8 +19,8 @@
             <bibl>PUU England 1, S. 353-354, Nr. 92</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
             <diploDesc><p><issued><placeName>Tours</placeName><date type="issued" notBefore="1162-10-15" notAfter="1162-10-15">1162 Oktober 15.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
-               <p><legalActor type="issuer">[Alexander III.]</legalActor></p>
-               <p> <legalActor type="recipient">[Kloster St. Agatha (Easby)</legalActor></p><p><legalActor type="recipient">Radulf, Abt des Klosters St. Agatha (Easby)]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p> <legalActor type="recipient">Kloster St. Agatha (Easby)</legalActor></p><p><legalActor type="recipient">Radulf, Abt des Klosters St. Agatha (Easby)</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
@@ -92,7 +92,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[MG: vermutlich handelt es sich um ein PrämonstratAnmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+            <p>[MG: vermutlich handelt es sich um ein Prämonstratenserkloster Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
          </div>
       </body>
    </text>
