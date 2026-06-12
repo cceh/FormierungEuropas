@@ -28,7 +28,7 @@
                   </authen></p><issued><placeName>Geddington</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" type="issued" unit="cm" xml:space="default" when="1211-08-27">1211 Aug. 27</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">John de Gray, Bischof von Norwich</legalActor></p>
+               <p><legalActor type="issuer">Johannes de Gray, Bischof von Norwich</legalActor></p>
                <p><legalActor type="recipient">Abtei Bury St. Edmunds, Mönche </legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Bischofsurkunde</objectType></p>
@@ -111,7 +111,7 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Im Jahr 1183 hat Abt Samson vermerkt, dass diese Pension seit 60 Jahren nicht mehr gezahlt worden sei.</p><p>Die vom Bischof inspizierte Urkunde war an Abt Hugh addressiert und gibt den 12. Januar 1162 als Datum an</p>
+            <p>Im Jahr 1183 hat Abt Samson vermerkt, dass diese Pension seit 60 Jahren nicht mehr gezahlt worden sei.</p><p>Die vom Bischof inspizierte Urkunde war an Abt Hugo addressiert und gibt den 12. Januar 1162 als Datum an.</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
