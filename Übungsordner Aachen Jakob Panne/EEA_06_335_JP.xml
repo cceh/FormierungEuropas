@@ -49,7 +49,11 @@
    </teiHeader>
    <text>
       <body>
-         <div type="abstract"><head>Abstract</head><persName>John de Gray, Bischof von Norwich</persName><orgName><orgName>Abtei von Bury St. Edmunds (D. Norwich)</orgName></orgName><persName>Alexanders III.</persName><placeName>Woolpit</placeName>Ebenso bleibt dem Bischof und seinen Nachfolgern für immer das Bischofs- und Pfarrecht erhalten.<item/><item/></div>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p><persName>John de Gray, Bischof von Norwich</persName>, verleiht der <orgName><orgName>Abtei von Bury St. Edmunds (D. Norwich)</orgName></orgName> nach Inspektion eines entsprechenden Privilegs <persName>Alexanders III.</persName> die Kirche von <placeName>Woolpit</placeName> zu eigenen Nutzung für den Erhalt der Gastfreundschaft unter Vorbehalt einer Vikarie von zehn Mark, die auf Vorschlag des Abtes und des Konventes von Bury St. Edmunds durch den Bischof und seine Nachfolger bei Vakanz neu zu besetzen ist.<item>Ebenso bleibt dem Bischof und seinen Nachfolgern für immer das Bischofs- und Pfarrecht erhalten.</item><item/>
+               </p>
+         </div>
 
          <div>
             <head>Incipit</head><diploPart type="incipit" xml:lang="lat">Universis Christi fidelibus ad quos</diploPart></div>
@@ -107,7 +111,7 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Im Jahr 1183 hat Abt Samson vermerkt, dass diese Pension seit 60 Jahren nicht mehr gezahlt worden sei. </p><p>Die vom Bischof inspizierte Urkunde war an Abt Hugh addressiert und gibt den 12. Januar 1162 als Datum an. </p>
+            <p>Im Jahr 1183 hat Abt Samson vermerkt, dass diese Pension seit 60 Jahren nicht mehr gezahlt worden sei.</p><p>Die vom Bischof inspizierte Urkunde war an Abt Hugh addressiert und gibt den 12. Januar 1162 als Datum an. </p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
