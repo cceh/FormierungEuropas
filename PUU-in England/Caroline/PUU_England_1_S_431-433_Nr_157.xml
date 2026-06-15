@@ -24,7 +24,7 @@
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Roger, Erzbischof von York</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p> <legalActor cert="high" type="recipient" xml:space="default">Hugo, Erzbischof von Durham</legalActor></p><p><legalActor>Kloster Furness (OCist)</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor cert="high" type="recipient" xml:space="default">Hugo, Erzbischof von Durham</legalActor></p><p><legalActor>Abtei Furness (OCist)</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
