@@ -34,8 +34,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Calixt III.</legalActor></p>
-               <p>
-                  <legalActor type="recipient"/></p>
+               <p><legalActor type="recipient">Ulrich, Diakon der Kirche von Konstanz</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">Päpstliche Bestätigungsurkunde</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
