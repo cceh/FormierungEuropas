@@ -5,8 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
-            <respStmt>
+            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas] </title><respStmt>
                <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
                <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
             </respStmt>
@@ -24,7 +23,7 @@
                </issued></p>
                <p><legalActor type="issuer">Alexis, päpstlicher Legat</legalActor></p>
                <p> <legalActor type="recipient">Iocelinus</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p> <legalActor type="recipient">Prior und Kanoniker von St. Andrews</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p>Augustiner-Chorherrenstift<legalActor type="recipient">Prior und Kanoniker von St. Andrews</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
