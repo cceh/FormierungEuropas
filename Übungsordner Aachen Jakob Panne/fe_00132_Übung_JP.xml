@@ -30,7 +30,7 @@
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Foligno</placeName><date type="issued" notBefore="1173-04-26" notAfter="1173-04-26">1173, April 26</date>
+               <issued><placeName>Foligno</placeName><date type="issued" notBefore="1173-04-26" notAfter="1173-04-26">1173 Apr. 26</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Calixt III.</legalActor></p>
@@ -68,7 +68,7 @@
          <div>
             <head>Subscriptiones:</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>Ego <persName>Calixtus catholice ecclesie episcopus subscripsi.</persName> </item><item>Ego <persName>Vivianus Prenestinus episcopus subscripsi.</persName> </item><item>Ego <persName>lohannes Sabinensis episcopus subscripsi.</persName> </item><item>Ego <persName>Syrus Pipiensis episcopus subscripsi.</persName> </item><item>Ego <persName>Albertus presbiter cardinalis tituli sancti Grisogoni subscripsi.</persName></item><item> Ego <persName>Otto presbiter cardinalis tituli sanctorum Laurentii et Damasi subscripsi.</persName></item><item> Ego <persName>Stephanus presbiter cardinalis sanctorum Silvestri et Martini tituli Equicii subscripsi.</persName> </item><item>Ego <persName>Gerardus diaconus cardinalis sancte Marie in Aquiro subscripsi.</persName> </item><item>Ego <persName>Stephanus diaconus cardinalis sancti Eustatii subscripsi.</persName> </item><item>Ego <persName>Nicholaus sancte Marie in monasterio diaconus cardinalis subscripsi.</persName></item><item> Ego <persName>Wifredus diaconus cardinalis sancte Marie in porticu subscripsi.</persName> </item><item>Ego <persName>Ughicio sancte Marie nove diaconus cardinalis subscripsi.</persName></item><item> Ego Wilelmus diaconus cardinalis sanctorum Sergi et Bachi subscripsi.</item>
+                  <item>Ego <persName>Calixtus catholice ecclesie episcopus subscripsi.</persName> </item><item>Ego <persName>Vivianus Prenestinus episcopus subscripsi.</persName> </item><item>Ego <persName>lohannes Sabinensis episcopus subscripsi.</persName> </item><item>Ego <persName>Syrus Pipiensis episcopus subscripsi.</persName> </item><item>Ego <persName>Albertus presbiter cardinalis tituli sancti Grisogoni subscripsi.</persName></item><item> Ego <persName>Otto presbiter cardinalis tituli sanctorum Laurentii et Damasi subscripsi.</persName></item><item> Ego <persName>Stephanus presbiter cardinalis sanctorum Silvestri et Martini tituli Equicii subscripsi.</persName> </item><item>Ego <persName>Gerardus diaconus cardinalis sancte Marie in Aquiro subscripsi.</persName> </item><item>Ego <persName>Stephanus diaconus cardinalis sancti Eustatii subscripsi.</persName> </item><item>Ego <persName>Nicholaus sancte Marie in monasterio diaconus cardinalis subscripsi.</persName></item><item> Ego <persName>Wifredus diaconus cardinalis sancte Marie in porticu subscripsi.</persName> </item><item>Ego <persName>Ughicio sancte Marie nove diaconus cardinalis subscripsi.</persName></item><item> Ego <persName>Wilelmus diaconus cardinalis sanctorum Sergi et Bachi subscripsi.</persName></item>
                </list></diploPart>
          </div>
          <div>
