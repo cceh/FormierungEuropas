@@ -34,7 +34,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Calixt III.</legalActor></p>
-               <p><legalActor type="recipient">Werner, Abt des Klosters S. Blasien</legalActor></p>
+               <p><legalActor cert="high" type="recipient" xml:space="default">Werner, Abt des Klosters S. Blasien</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">Päpstliche Bestätigungsurkunde</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
