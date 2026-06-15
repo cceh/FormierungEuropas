@@ -33,13 +33,13 @@
                <issued><placeName>[Ausstellungsort]</placeName><date type="issued" notBefore="1175-01-01" notAfter="1175-12-31">(vor 1175)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p><legalActor type="issuer">Calixt III.</legalActor></p>
                <p>
-                  <legalActor type="recipient">[Recipient 1]</legalActor></p>
+                  <legalActor type="recipient"/></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">Päpstliche Bestätigungsurkunde</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
-               <p><objectType ref="na">Paschalis III., Urheber</objectType></p><p><objectType>Juristisches, Rechtsbestätigung</objectType></p>
+               <p><objectType ref="na">Calixt III., Urheber</objectType></p><p><objectType>Juristisches, Rechtsbestätigung</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
