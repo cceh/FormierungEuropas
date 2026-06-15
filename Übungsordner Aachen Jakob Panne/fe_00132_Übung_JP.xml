@@ -119,7 +119,7 @@
             <diploDesc>
                <p>[Text und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
  Kommentar]</p>
-            <p>Rota-Inschrift: sanctus Petrus / sanctus Paulus / Calix papa / tus III</p><p>Rota-Devise:  Conserva me domine, quoniam speravi in te</p><p>Bene Valete: x</p><p>Komma: –</p></diploDesc>
+            <p>Rota-Inschrift: <diploPart>sanctus Petrus / sanctus Paulus / Calix papa / tus III</diploPart></p><p>Rota-Devise:  <diploPart>Conserva me domine, quoniam speravi in te</diploPart></p><p>Bene Valete: x</p><p>Komma: –</p></diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
