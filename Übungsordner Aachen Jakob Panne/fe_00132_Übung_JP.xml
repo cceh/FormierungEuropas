@@ -34,7 +34,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Calixt III.</legalActor></p>
-               <p><legalActor type="recipient">Werner, Abt des K</legalActor></p>
+               <p><legalActor type="recipient">Werner, Abt des Klosters S. Blasien</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &amp;gt; Litterae cum serico]</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
@@ -57,7 +57,7 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Calixt III . stellt das Kloster S. Blasien unter Abt Werner mit den in der Urkunde genannten Besitzungen unter seinen Schutz und bestätigt zugleich die dem Kloster schon früher verliehenen Rechte hinsichtlich der Bestellung seiner Vögte.<list>
+            <p><persName>Calixt III .</persName> stellt das Kloster S. Blasien unter Abt Werner mit den in der Urkunde genannten Besitzungen unter seinen Schutz und bestätigt zugleich die dem Kloster schon früher verliehenen Rechte hinsichtlich der Bestellung seiner Vögte.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
