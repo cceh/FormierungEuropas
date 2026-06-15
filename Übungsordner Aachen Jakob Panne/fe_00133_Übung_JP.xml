@@ -110,9 +110,7 @@
          <div type="regesta">
             <head>Regesten</head>
             <!-- Konkordanzregesten -->
-            <listBibl>
-               <bibl>[Regest 1]</bibl>
-               <bibl>GP II /2, S. 140, Nr. *65; ibid., S. 142, Nr. *11; Hidber: Schweizerisches Urkundenregister, Bd. II , S. 254, Nr. 2339.</bibl>
+            <listBibl><bibl>GP II /2, S. 140, Nr. *65; ibid., S. 142, Nr. *11; </bibl><bibl>Hidber: Schweizerisches Urkundenregister, Bd. II , S. 254, Nr. 2339.</bibl>
             </listBibl>
          </div>
          <div>
