@@ -18,11 +18,7 @@
          <sourceDesc>
             <bibl>PUU England 1, S. 461-462, Nr. 191</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
             <diploDesc><p><issued><placeName>Tusculanum</placeName><date type="issued" notBefore="1171-02-20" notAfter="1181-02-20">(1171—81) Februar 20.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
-               </issued></p>
-               <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p> <legalActor type="recipient">Bischof Bartholomäus von Exeter</legalActor></p><p><legalActor type="recipient">Abt (Clemens) von St. Mary's in York</legalActor></p><p><legalActor type="recipient">Dekan (Bobert) von York</legalActor></p><p><legalActor type="recipient">Bobert von Stuteville und sein Sohn Wilhelm</legalActor></p><p><legalActor type="recipient">Boger von Mowbray </legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">[Typisierung 1]</objectType></p>
-<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+               </issued></p><p><legalActor type="issuer">Alexander III.</legalActor></p><p> <legalActor type="recipient">Bischof Bartholomäus von Exeter</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType n="">[Typisierung 1]</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
