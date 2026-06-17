@@ -65,7 +65,7 @@
             <div>
                <listBibl>
                   <bibl type="original">-</bibl>
-                  <bibl type="msCopy">Stuttgart HStA (Auss.), A 470 U 2; Abb. dig.: PH Stuttgart, HStA.</bibl>
+                  <bibl type="msCopy">Stuttgart HStA, A 470 U 2</bibl>
                   <bibl type="print">-</bibl>
                </listBibl>
             </div>
@@ -73,15 +73,13 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
-               <bibl>[Quelle 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="editions">
@@ -94,14 +92,14 @@
             <head>Regesten</head>
             <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>[Regest 1]</bibl>
+               <bibl>JL -</bibl>
                <bibl>GP II /1, S. 208, Nr. 4</bibl>
             </listBibl>
          </div>
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Schönfelds Angaben ("Die wohl im 12.–14. Jahrhundert angefertigte Abschrift wurde auf der Rückseite einer Urkunde Papst Paschalis᾽ II . von 1101, April 12 notiert; für eine zeitnahe Abschrift spricht, dass der Kopist lediglich die Formelansätze festhielt, die Rezipienten also mit dem weiteren Wortlaut vertraut gewesen sein könnten; Schrift und Kopiermedium sprechen für eine Abschrift, die lediglich der Archivierung dienen sollte, nicht aber zu repräsentativen Zwecken angefertigt wurde.") lassen sich durch eine Überprüfung des Digitalisats best</p>
+               <p>Schönfelds Angaben ("Die wohl im 12.–14. Jahrhundert angefertigte Abschrift wurde auf der Rückseite einer Urkunde Papst Paschalis᾽ II . von 1101, April 12 notiert; für eine zeitnahe Abschrift spricht, dass der Kopist lediglich die Formelansätze festhielt, die Rezipienten also mit dem weiteren Wortlaut vertraut gewesen sein könnten; Schrift und Kopiermedium sprechen für eine Abschrift, die lediglich der Archivierung dienen sollte, nicht aber zu repräsentativen Zwecken angefertigt wurde.") lassen sich durch eine Überprüfung des Digitalisats bestätigen.</p>
             </diploDesc>
          </div>
          <div type="commentary">
