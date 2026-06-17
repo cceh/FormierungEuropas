@@ -20,7 +20,7 @@
             <diploDesc><p><issued><placeName>Laterano</placeName><date type="issued" notBefore="1179-04-10" notAfter="1179-04-10">(1179) April 10. </date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p> <legalActor type="recipient">[Abt, Odo von Battie]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient">[Abt, Odo von Battie</legalActor></p><p><legalActor type="recipient">]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
@@ -36,7 +36,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander  III.  beauftragt die Abte (Odo) von Battie und  (Guerricus) von Faversham, den Priester Robert von Deopham (Norfolk) zur Zahlung des jährlichen Zinses an Prior und Mönche von  Holy Trinity (Christ Church) in Canterbury anzuhalten oder zur  Aufgabe seiner Pfründe zu zwingen. </p>
+            <p>Alexander  III.  beauftragt die Äbte (Odo) von Battle und  (Guerricus) von Faversham, den Priester Robert von Deopham (Norfolk) zur Zahlung des jährlichen Zinses an Prior und Mönche von  Holy Trinity (Christ Church) in Canterbury anzuhalten oder zur  Aufgabe seiner Pfründe zu zwingen. </p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head>
             <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
