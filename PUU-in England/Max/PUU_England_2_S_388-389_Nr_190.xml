@@ -19,8 +19,8 @@
             <bibl>PUU England 2, S. 388-389, Nr. 190</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
             <diploDesc><p><issued><placeName>Laterano</placeName><date type="issued" notBefore="1179-05-03" notAfter="1179-05-03">(1179) Mai 3. </date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
-               <p><legalActor type="issuer">[Alexander III.]</legalActor></p>
-               <p> <legalActor type="recipient">[Richard, Erzbischof von Christ Church in Canterbury</legalActor></p><p><legalActor type="recipient">Herlewin, Prior von Christ Church in Canterbury]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p> <legalActor type="recipient">Richard, Erzbischof von Christ Church in Canterbury</legalActor></p><p><legalActor type="recipient">Herlewin, Prior von Christ Church in Canterbury</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
@@ -36,7 +36,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander  III.  teilt dem Erzbischof (Richard) und dem Prior  (Herlewin) von (Christ Church in) Canterbury mit, daß er die Befreiung des Abtes R(oger)  von St. Augustinus von der Pflicht, dem Erzbischof die professio zu leisten, zurόcknehme, da sie durch gröίten- teils gefälschte Urkunden erschlichen sei. </p>
+            <p>Alexander  III.  teilt dem Erzbischof (Richard) und dem Prior  (Herlewin) von (Christ Church in) Canterbury mit, daß er die Befreiung des Abtes R(oger)  von St. Augustinus von der Pflicht, dem Erzbischof die professio zu leisten, zurücknehme, da sie durch größtenteils gefälschte Urkunden erschlichen sei. </p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head>
             <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
