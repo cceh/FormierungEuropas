@@ -19,8 +19,8 @@
             <bibl>PUU England 2, S. 390-393, Nr. 192</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
             <diploDesc><p><issued><placeName>Laterano</placeName><date type="issued" notBefore="1179-07-02" notAfter="1179-07-02">1179 Juli 2. </date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
-               <p><legalActor type="issuer">[Alexander III.]</legalActor></p>
-               <p> <legalActor type="recipient">[Robert, Prior der Kirche St. Mary in Merton]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p> <legalActor type="recipient">Augustinerkirche St. Mary in Merton</legalActor></p><p><legalActor type="recipient">Robert, Prior der Kirche St. Mary in Merton</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
@@ -36,7 +36,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander  III.  nimmt die Kirche St. Mary in Merton unter  dem Prior Robert in den päpstlichen Schutz, bestätigt die Augustinerregel und namentlich aufgefόhrte Besitzungen und Rechte. </p>
+            <p>Alexander  III.  nimmt die Kirche St. Mary in Merton unter  dem Prior Robert in den päpstlichen Schutz, bestätigt die Augustinerregel und namentlich aufgeführte Besitzungen und Rechte. </p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head>
             <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
