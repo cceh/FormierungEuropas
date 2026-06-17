@@ -51,7 +51,7 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Calixt III. bestätigt Äbtissin Irmentrud von Dietkirchen das Urteil, das Propst Bruno und Dekan Hugo des Kölner Domstiftes in der Streitsache zwischen ihr und den Pfarrangehörigen von Sechtem gefällt hat.<list>
+            <p><persName>Calixt III.</persName> bestätigt <persName>Äbtissin Irmentrud von Dietkirchen</persName> das Urteil, das <persName>Propst Bruno</persName> und <persName>Dekan Hugo</persName> des Kölner Domstiftes in der Streitsache zwischen ihr und den Pfarrangehörigen von Sechtem gefällt hat.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
@@ -75,23 +75,21 @@
             <div>
                <listBibl>
                   <bibl type="original">Landesarchiv Nordrhein-Westfalen, Bonn, Dietkirchen, Urkunden AA 0150, Nr. 8 </bibl>
-                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="msCopy">-</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
-               <bibl>[Quelle 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="editions">
@@ -118,7 +116,7 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Archivsignatur gegenüber Schönfeld verbessert (vgl. https://www.archive.nrw.de/ms/search?link=VERZEICHUNGSEINHEIT-Vz_3a110dd2-ed9c-4455-80c8-fa93ecea3241); das von ihm angegebene Digitalisat der Urkunde ließ sich nicht finden. Zur Vorgeschichte der Streitsache siehe auch ##FE_00116##</p>
+            <p>Archivsignatur gegenüber Schönfeld verbessert (vgl. https://www.archive.nrw.de/ms/search?link=VERZEICHUNGSEINHEIT-Vz_3a110dd2-ed9c-4455-80c8-fa93ecea3241); das von ihm angegebene Digitalisat der Urkunde ließ sich nicht finden. Zur Vorgeschichte der Streitsache siehe auch ##FE_00116##.</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
