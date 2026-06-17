@@ -19,8 +19,8 @@
             <bibl>PUU England 2, S. 384-388, Nr. 189</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
             <diploDesc><p><issued><placeName>Laterano</placeName><date type="issued" notBefore="1179-04-22" notAfter="1179-04-22">1179 April 22. </date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
-               <p><legalActor type="issuer">[Alexander III.]</legalActor></p>
-               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p> <legalActor type="recipient">[Reginald, ]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
@@ -36,7 +36,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander  III,  nimmt die Kirche von Bath unter dem Bischof  Reginald in den päpstlichen Schutz, bestätigt ihre Besitzungen und  trifft Bestimmungen über die Diözesangeivalt des Bischofs. </p>
+            <p>Alexander  III,  nimmt die Kirche von Bath unter dem Bischof  Reginald in den päpstlichen Schutz, bestätigt ihre Besitzungen und  trifft Bestimmungen über die Diözesangewalt des Bischofs. </p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head>
             <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
