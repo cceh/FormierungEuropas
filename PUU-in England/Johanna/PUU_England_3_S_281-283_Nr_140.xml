@@ -20,7 +20,7 @@
             <diploDesc><p><issued><placeName>Torre di Vada</placeName><date type="issued" notBefore="1162-01-12" notAfter="1162-01-12">1162 Januar 12. </date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p> <legalActor type="recipient">[Kloster St. Edmund's in Bury</legalActor></p><p><legalActor type="recipient">Hugo, Abt des Klosters St. Edmund's in Bury]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient">Kloster St. Edmund's in Bury</legalActor></p><p><legalActor type="recipient">Hugo, Abt des Klosters St. Edmund's in Bury</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
