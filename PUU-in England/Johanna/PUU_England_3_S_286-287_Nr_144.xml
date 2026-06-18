@@ -19,7 +19,7 @@
             <bibl>PUU England 3, S. 286-287, Nr. 144</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
             <diploDesc><p><issued><placeName>Tours</placeName><date type="issued" notBefore="1163-05-27" notAfter="1163-05-27">(1163) Mai 27.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
-               <p><legalActor type="issuer">[Alexander III.</legalActor></p>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Zisterzienserkloster Fountains</legalActor></p><p><legalActor type="recipient">Richard, Abt des Klosters Fountains</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
