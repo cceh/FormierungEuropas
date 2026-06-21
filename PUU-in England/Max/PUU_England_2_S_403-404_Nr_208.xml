@@ -19,8 +19,8 @@
             <bibl>PUU England 2, S. 403-404, Nr. 208</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
             <diploDesc><p><issued><placeName>Tusculanum</placeName><date type="issued" notBefore="1171-03-23" notAfter="1181-03-23">(1171-81) März 23.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
-               <p><legalActor type="issuer">[Alexander III.]</legalActor></p>
-               <p> <legalActor type="recipient">[Domkapitel von (St. Cuthbert in) Durham</legalActor></p><p><legalActor type="recipient">Germanus, Prior von (St. Cuthbert in) Durham]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p> <legalActor type="recipient">Domkapitel von (St. Cuthbert in) Durham</legalActor></p><p><legalActor type="recipient">Germanus, Prior von (St. Cuthbert in) Durham</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
@@ -92,7 +92,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[MG: Ich danke, dass im Abstract versehentlich nochmal der Ort und dieAnmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+            <p>[MG: Ich danke, dass im Abstract versehentlich nochmal der Ort und die Datierung mitkopiert wurde. Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
          </div>
       </body>
    </text>
