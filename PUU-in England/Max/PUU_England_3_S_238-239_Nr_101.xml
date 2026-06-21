@@ -19,8 +19,8 @@
             <bibl>PUU England 3, S. 238-239, Nr. 101</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
             <diploDesc><p><issued><placeName>Benevento</placeName><date type="issued" notBefore="1156-02-24" notAfter="1156-02-24">(1156) Februar 24. </date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
-               <p><legalActor type="issuer">[Hadrian IV.]</legalActor></p>
-               <p> <legalActor type="recipient">[Domkapitel von St. Albans</legalActor></p><p><legalActor type="recipient">Robert, Abt von St. Albans]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><legalActor type="issuer">Hadrian IV.</legalActor></p>
+               <p> <legalActor type="recipient">Domkapitel von St. Albans</legalActor></p><p><legalActor type="recipient">Robert, Abt von St. Albans</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
@@ -36,7 +36,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Hadrian  IV. bestätigt dem Abte Robert und dem Kapitel von St.  Albans die Erwerbungen des Kellners Adam, deren Erträge für die Küche  der Mönche bestimmt sind, verfügt, daß kein Klosterbeamter und kein Abt  einer der C  eilen ohne Zustimmung des Konvents eingesetzt werden darf, und  bestätigt die Gewohnheiten des Marktes von Watford. </p>
+            <p>Hadrian  IV. bestätigt dem Abte Robert und dem Kapitel von St.  Albans die Erwerbungen des Kellners Adam, deren Erträge für die Küche  der Mönche bestimmt sind, verfügt, daß kein Klosterbeamter und kein Abt  einer der Cellen ohne Zustimmung des Konvents eingesetzt werden darf, und  bestätigt die Gewohnheiten des Marktes von Watford. </p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head>
             <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
