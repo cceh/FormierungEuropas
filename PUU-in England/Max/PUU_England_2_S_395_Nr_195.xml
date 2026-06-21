@@ -19,8 +19,8 @@
             <bibl>PUU England 2, S. 395, Nr. 195</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
             <diploDesc><p><issued><placeName>Velletri</placeName><date type="issued" notBefore="1180-02-01" notAfter="1180-02-01">(1180) Februar 1. </date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
-               <p><legalActor type="issuer">[Alexander III.]</legalActor></p>
-               <p> <legalActor type="recipient">[Kirche von York</legalActor></p><p><legalActor type="recipient">Roger, Erzbischof der Kirche ]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p> <legalActor type="recipient">Domkapitel, Kirche von York</legalActor></p><p><legalActor type="recipient">Roger, Erzbischof der Kirche von York</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
