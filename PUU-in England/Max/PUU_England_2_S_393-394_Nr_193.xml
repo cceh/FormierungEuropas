@@ -20,7 +20,7 @@
             <diploDesc><p><issued><placeName>Tusculanum</placeName><date type="issued" notBefore="1171-07-28" notAfter="1180-07-28">(1171—80) Juli 28. </date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">[Alexander III.]</legalActor></p>
-               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient">[Hugo, Bischof von Durham</legalActor></p><p><legalActor type="recipient">Germanus, Prior vo]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
@@ -36,7 +36,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander  III.  bestätigt dem Bischof Hugo, dem Prior (Ger- manus) und den Mönchen von Durham die Abgabenfreiheit ihrer in  der Provinz York gelegenen Kirchen. </p>
+            <p>Alexander  III.  bestätigt dem Bischof Hugo, dem Prior (Germanus) und den Mönchen von Durham die Abgabenfreiheit ihrer in  der Provinz York gelegenen Kirchen. </p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head>
             <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
