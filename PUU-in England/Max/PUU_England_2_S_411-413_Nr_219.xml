@@ -19,8 +19,8 @@
             <bibl>PUU England 2, S. 411-413, Nr. 219</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
             <diploDesc><p><issued><placeName>Viterbo</placeName><date type="issued" notBefore="1181-08-12" notAfter="1181-08-12">1181 August 12. </date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
-               <p><legalActor type="issuer">[Alexander III.]</legalActor></p>
-               <p> <legalActor type="recipient">[Augistinerpriorat Laner</legalActor></p><p><legalActor type="recipient">Simon, Prior des Augustinerpriorates Lanercost (Cumberland)]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p> <legalActor type="recipient">Augistinerpriorat Lanercost (Cumberland)</legalActor></p><p><legalActor type="recipient">Simon, Prior des Augustinerpriorates Lanercost (Cumberland)</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
