@@ -20,7 +20,7 @@
             <diploDesc><p><issued><placeName>[Ausstellungsort]</placeName><date type="issued" notBefore="1159-01-01" notAfter="1181-12-31">(1159—81). </date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">[Alexander III.]</legalActor></p>
-               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient">[Bischof von Chichester]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
@@ -36,7 +36,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander  III.  befiehlt dem Bischof von Chichester, die Kanoniker, die Pfründen seiner Kirchen innehaben, zu persönlicher Dienstleistung anzuhalten oder, falls dies nicht möglich ist, nach der Gewohn-heit der gallikanischen Kirche ein Statut zu erlassen, das die jährlichen  Einkόnfte der auswärtigen Kanoniker festsetzt. </p>
+            <p>Alexander  III.  befiehlt dem Bischof von Chichester, die Kanoniker, die Pfründen seiner Kirchen innehaben, zu persönlicher Dienstleistung anzuhalten oder, falls dies nicht möglich ist, nach der Gewohnheit der gallikanischen Kirche ein Statut zu erlassen, das die jährlichen  Einkünfte der auswärtigen Kanoniker festsetzt. </p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head>
             <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
