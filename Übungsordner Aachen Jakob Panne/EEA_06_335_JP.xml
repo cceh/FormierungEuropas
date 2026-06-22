@@ -5,12 +5,12 @@
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc>
-         
+         <titleStmt>
             <title>[Die Nummer des Regests im Projekt. Dateiname beginnt mit "Ordner", zum Beispiel
                FO für Formierung Europas]</title>
             <respStmt><resp>Datenquelle</resp> <persName> Harper-Bill, EEA 06 Norwich, Nr. 335 </persName> </respStmt>
             <respStmt><resp when="2026">Encoding</resp><persName>JP</persName></respStmt>
-         
+         </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
             <availability>
@@ -18,7 +18,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl type="jaffe"> </bibl>
+            <bibl type="jaffe"> -</bibl>
             <bibl>Harper-Bill, EEA 06 Norwich, Nr. 335</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
