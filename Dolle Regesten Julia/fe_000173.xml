@@ -104,13 +104,13 @@
          <div type="bibliography">
             <head>Bibliographie</head>
             <listBibl>
-               <bibl>[Werk 1]</bibl>
-               <bibl>[Werk 2]</bibl>
+               <bibl>Bogumil, Bistum Halberstadt, S. 90-92.</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p><p>x x x Alexander x x x episcopus servus servorum dei dilectis filiis preposito et mon[achis de Wal]levessroth salutem et apostolicam benedictionem. [Viros religiosos et divino c]ultui arciu[s mancipatos] ex suscepte dispensacionis offi[cio oculo nos commove- runt clemenciori] respicere [et ne indebitis agitentur m]olestiis, apostolice tuiton[is clippeo confovere. Eapropter, dile]cti in domino [filii, vestris iustis] postulacionibus grato concurren[tes assensu ecclesiam vestra]m cum omnibus, que [inpresenciarum legittime] possidet [aut] iustis modis ad[ipisci poterit in futur]um, sub beati Petri [et nostra protectio]ne susci[pimus et presentis scripti patrocinio communimus statuen- tes, ne quis] vobis eiectis, quandiu ibidem [duo ad minu]s fueritis, alios clericos ausu temeritatis substituat [aut vos vel] eandem ecclesiam indebite molestare [presumat], dummodo capellanum proprium [habeatis], qui populo, si habetis, divina debeat of[ficia celebrare.] Nulli ergo omnino ho[minum liceat hanc pagi]nam nostre pro- tectionis [vel institucionis infringe]re vel ei ausu t[emerario contraire. Si qu]is autem hoc at[temptar]e presumps[erit, indignacionem] omnipotentis de[i et beatorum] Petri et Pauli apostolorum eius se noverit incursurum. Dat. Laterani, XII kl. marcii.</p>
+            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p><p>Alexander x x x episcopus servus servorum dei dilectis filiis preposito et mon[achis de Wal]levessroth salutem et apostolicam benedictionem. [Viros religiosos et divino c]ultui arciu[s mancipatos] ex suscepte dispensacionis offi[cio oculo nos commove- runt clemenciori] respicere [et ne indebitis agitentur m]olestiis, apostolice tuiton[is clippeo confovere. Eapropter, dile]cti in domino [filii, vestris iustis] postulacionibus grato concurren[tes assensu ecclesiam vestra]m cum omnibus, que [inpresenciarum legittime] possidet [aut] iustis modis ad[ipisci poterit in futur]um, sub beati Petri [et nostra protectio]ne susci[pimus et presentis scripti patrocinio communimus statuen- tes, ne quis] vobis eiectis, quandiu ibidem [duo ad minu]s fueritis, alios clericos ausu temeritatis substituat [aut vos vel] eandem ecclesiam indebite molestare [presumat], dummodo capellanum proprium [habeatis], qui populo, si habetis, divina debeat of[ficia celebrare.] Nulli ergo omnino ho[minum liceat hanc pagi]nam nostre pro- tectionis [vel institucionis infringe]re vel ei ausu t[emerario contraire. Si qu]is autem hoc at[temptar]e presumps[erit, indignacionem] omnipotentis de[i et beatorum] Petri et Pauli apostolorum eius se noverit incursurum. Dat. Laterani, XII kl. marcii.</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
