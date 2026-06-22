@@ -29,7 +29,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Johannes de Gray, Bischof von Norwich</legalActor></p>
-               <p><legalActor type="recipient">Abtei Bury St. Edmunds (OSB), Mönche </legalActor></p>
+               <p><legalActor type="recipient">Benediktinerabtei Bury St. Edmunds, Mönche </legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Bischofsurkunde</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
