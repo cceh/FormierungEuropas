@@ -23,7 +23,7 @@
             <diploDesc><p><issued><placeName>Benevento</placeName><date type="issued" notBefore="1167-11-08" notAfter="1169-11-08">(1167—69) November 8.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Abtei von Rievaulx (OCist)</legalActor></p><p><legalActor type="recipient">Silvanus, Abt von Rievaulx</legalActor></p><p><legalActor type="recipient">Mönche von Rievaulx</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><legalActor type="recipient">Zisterzienserabtei von Rievaulx</legalActor></p><p><legalActor type="recipient">Silvanus, Abt von Rievaulx</legalActor></p><p><legalActor type="recipient">Mönche von Rievaulx</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
