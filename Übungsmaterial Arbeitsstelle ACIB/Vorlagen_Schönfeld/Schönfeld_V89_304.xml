@@ -23,11 +23,11 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl type="jaffe">[Jaffe-Nummer]</bibl>
-            <bibl type="Schoenfeld">[Kurztitel Schönfeld-Regest]</bibl>
+            <bibl type="jaffe">-</bibl>
+            <bibl type="Schoenfeld">[V89]</bibl>
             <diploDesc>
                <p><authen type="formula" n="na">
-                     <p>[*+?-]</p>
+                     <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p><issued><placeName>Trier</placeName><date type="issued">(1162) Nov. 6</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
@@ -36,7 +36,7 @@
                <p>
                   <legalActor type="recipient">[Recipient 1]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType ref="fe:vocab:objectType:0101">Papsturkunde, Privileg feierlich</objectType></p>
+               <p><objectType ref="fe:vocab:objectType:0101">Papsturkunde, []</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
                <p><objectType ref="na">[Typisierung 2]</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
