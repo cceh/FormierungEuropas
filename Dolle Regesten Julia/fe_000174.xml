@@ -29,7 +29,7 @@
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">Juristisches, Rechtsbestätigung</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
+               <p><objectType n="">Juristisches, Rechtsbestätigungen</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
@@ -47,7 +47,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>Papst Alexander III . bestätigt die durch Erzbischof Adalbero vorgenommene Verlegung des Stifts St. Stephani und St. Wilhadi in Bremen, seine Rechte, Immunitäten und Besit- zungen, verleiht den apostolischen Schutz und gewährt das Begräbnisrecht sowie die Wahl des Propstes.<list>
+            <p> <legalActor type="issuer"><persName>Alexander III. </persName></legalActor>bestätigt dem <legalActor>Propst Heinrich</legalActor> die durch <persName>Erzbischof Adalbero</persName> vorgenommene Verlegung des <legalActor><orgName>Stifts St. Stephani und St. Wilhadi</orgName></legalActor>, bestätigt seine Freiheiten und Immunitäten und nimmt das Stift in den apostolischen SchutzAlexander III . bestätigt die durch Erzbischof Adalbero vorgenommene Verlegung des Stifts St. Stephani und St. Wilhadi in Bremen, seine Rechte, Immunitäten und Besit- zungen, verleiht den apostolischen Schutz und gewährt das Begräbnisrecht sowie die Wahl des Propstes.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
