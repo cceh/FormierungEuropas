@@ -25,7 +25,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Stift St. Stephani und Wilhadi in Bremen</legalActor></p><p><legalActor type="recipient">Propst Heinrich</legalActor></p>
+               <p><legalActor type="recipient">Stiftskirche St. Stephan und St. Wilhadi in Bremen</legalActor></p><p><legalActor type="recipient">Propst Heinrich</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
