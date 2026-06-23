@@ -23,7 +23,7 @@
             <diploDesc><p><issued><placeName>Anagni</placeName><date type="issued" notBefore="1160-05-16" notAfter="1176-05-16">(1160—76) Mai 16.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p> <legalActor type="recipient">[Abtei von Evesham (]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><legalActor type="recipient">Abtei von Evesham (OSB)</legalActor></p><p><legalActor type="recipient">Abt von Evesham</legalActor></p><p><legalActor type="recipient">Kapitel von Evesham</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
