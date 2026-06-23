@@ -25,7 +25,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Stifte St. Stephani und Wilhadi in Bremen</legalActor></p><p><legalActor type="recipient">Propst Heinrich</legalActor></p>
+               <p><legalActor type="recipient">Stift St. Stephani und Wilhadi in Bremen</legalActor></p><p><legalActor type="recipient">Propst Heinrich</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
@@ -77,21 +77,21 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
-               <bibl>[Quelle 2]</bibl>
+               <bibl>-</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Dolle, Papsturkunden, S. 234–236, Nr. 112</bibl>
+               <bibl>Dolle, PU Niedersachsen und Bremen, S. 234–236, Nr. 112</bibl>
                <bibl>[Edition 2]</bibl>
             </listBibl>
          </div>
