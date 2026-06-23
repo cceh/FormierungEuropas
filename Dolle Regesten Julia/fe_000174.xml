@@ -19,15 +19,15 @@
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
                <p><authen type="formula" n="na">
-                     <p>[*+?-]</p>
+                     <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p><issued><placeName>Rom, Lateran</placeName><date type="issued" notBefore="1179-05-29" notAfter="1179-05-29">1179, Mai 29</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <p><legalActor type="recipient">Stifte St. Stephani und Wilhadi in Bremen</legalActor></p><p><legalActor type="recipient">Propst Heinrich</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
                <p><objectType n="">[Typisierung 2]</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
