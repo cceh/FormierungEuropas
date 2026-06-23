@@ -25,7 +25,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Stiftskirche St. Stephan und St. Wilhadi in Bremen</legalActor></p><p><legalActor type="recipient">Propst Heinrich</legalActor></p>
+               <p><legalActor type="recipient">Stiftskirche St. Stephan und St. Willehad in Bremen</legalActor></p><p><legalActor type="recipient">Propst Heinrich</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
@@ -47,7 +47,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p> <legalActor type="issuer"><persName>Alexander III. </persName></legalActor>bestätigt dem <legalActor>Propst Heinrich</legalActor> die durch <persName>Adalbero, Erzbischof von Bremen,</persName> vorgenommene Verlegung des <legalActor><orgName>Stifts St. Stephani und St. Wilhadi</orgName></legalActor>, bestätigt seine Freiheiten und Immunitäten und nimmt das Stift in den apostolischen Schutz. Alexander III . bestätigt die durch Erzbischof Adalbero vorgenommene Verlegung des Stifts St. Stephani und St. Wilhadi in Bremen, seine Rechte, Immunitäten und Besit- zungen, verleiht den apostolischen Schutz und gewährt das Begräbnisrecht sowie die Wahl des Propstes.<list>
+            <p> <legalActor type="issuer"><persName>Alexander III. </persName></legalActor>bestätigt dem <legalActor>Propst Heinrich</legalActor> die durch <persName>Adalbero, Erzbischof von Bremen,</persName> vorgenommene Verlegung der <legalActor><orgName>Stiftskirche St. Stephan und St. Willehad</orgName></legalActor>, bestätigt seine Freiheiten und Immunitäten und nimmt das Stift in den apostolischen Schutz. Alexander III . bestätigt die durch Erzbischof Adalbero vorgenommene Verlegung des Stifts St. Stephani und St. Wilhadi in Bremen, seine Rechte, Immunitäten und Besit- zungen, verleiht den apostolischen Schutz und gewährt das Begräbnisrecht sowie die Wahl des Propstes.<list>
                   <item>Eingeschlossen sind alle Besitzungen und Güter, die die Kirche in der Gegenwart rechtmäßig besitzt beziehungsweise in der Zukunft rechtmäßig erwerben wird, darunter einige namentlich genannte Besitzungen.</item><item>Er garantiert das Begräbnisrecht und die freie Wahl des Propstes.</item><item>Schlussformeln: Perturbationsverbot, Sanctio negativa und positiva</item>
                </list></p>
          </div>
