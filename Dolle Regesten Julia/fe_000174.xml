@@ -5,10 +5,7 @@
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc><titleStmt><title>fe_00142</title><respStmt><resp>Datenquelle</resp><persName>Dolle, PU Niedersachsen und Bremen, S. 234-236, Nr. 112</persName></respStmt>
-            <respStmt>
-               <resp when="2026">Encoding</resp>
-               <persName>[JBg]</persName>
-            </respStmt>
+            <respStmt><resp when="2026">Encoding</resp><persName>JB</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -17,7 +14,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>Dolle, Papsturkunden, S. 234–236, Nr. 112</bibl><bibl type="jaffe">13426</bibl>
+            <bibl>Dolle, PU Niedersachsen und Bremen, S. 234–236, Nr. 112</bibl><bibl type="jaffe">13426</bibl>
             <bibl>[Weiteres Konkordanzregest]</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
