@@ -29,7 +29,7 @@
                <p><authen type="formula" n="na">
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-                  </authen></p><issued><placeName>(Trier – Speyer)</placeName><date type="issued">(1162 Nov. – 1163 Jan.)</date>
+                  </authen></p><issued><placeName>(Trier – Speyer)</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1163-01-31" precision="high" unit="cm" xml:space="default" notBefore="1162-11-01" type="issued">(1162 Nov. – 1163 Jan.)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
