@@ -32,9 +32,8 @@
                   </authen></p><issued><placeName>Trier</placeName><date type="issued">(1162) Nov. 6</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Viktor IV.]</legalActor></p>
-               <p>
-                  <legalActor type="recipient">[Recipient 1]</legalActor></p>
+               <p><legalActor type="issuer">Viktor IV.</legalActor></p>
+               <p><legalActor type="recipient">Kanoniker vom Heiligen Kreuz in Lüttich</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="fe:vocab:objectType:0101">Papsturkunde, []</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
