@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI source="dolle" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc><titleStmt><title>fe_00138</title><respStmt><resp>Datenquelle</resp><persName>Dolle, PU Niedersachsen und Bremen, S. 229-230, Nr. 108</persName></respStmt>
+            <respStmt><resp when="2026">Encoding</resp><persName>JB</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Dolle, PU Niedersachsen und Bremen, S. 229–230, Nr. 108</bibl><bibl type="jaffe">13062</bibl>
+            <bibl>[Weiteres Konkordanzregest]</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>-</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Rom, St. Peter</placeName><date type="issued" notBefore="1178-05-01" notAfter="1178-05-01">(1178), Mai 1</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p><legalActor type="recipient">Kanoniker der Kirche von Bremen</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Papsturkunde, Litterae cum filo serico</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">Administration, Finanzen</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p><legalActor><persName>Alexander III.</persName></legalActor> bestätigt die herkömmliche Sitte der <legalActor><orgName>Bremer Kirche</orgName></legalActor>, die besagt, dass nach dem Tod eines Kanonikers die Einkünfte aus seinen Pfründen ein Jahr lang einzuziehen und für die Begleichung seiner Schulden oder für fromme Zwecke zu seinem Seelenheil zu verwenden sind. Das Bremer Domkapitel soll die Einhaltung dieser Gewohnheit, die durch den früheren <persName>Erzbischof Hartwig</persName> kraft apostolischer Autorität verliehen wurde, garantieren.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+
+         <div>
+            <head>Incipit</head><diploPart type="incipit" xml:lang="lat">Pervenit ad nos in ecclesia</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head><diploPart type="datatio">Datum Romę apud sanctum Petrum, kalendis maii.</diploPart>
+         </div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">- (Hannover, Niedersächsisches Landesarchiv, Abteilung Stade, Rep. 1 Nr. 40 (A), 1943 verbrannt)</bibl>
+                  <bibl type="msCopy">(Hannover, Niedersächsisches Landesarchiv, Cop. II 41 fol. 60v (B), 1943 verbrannt. Zur Kopialüberlieferung vgl. Dolle, PU Niedersachsen und Bremen, S. 229.)</bibl>
+                  <bibl type="print"/>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>-</bibl>
+               <bibl/>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>-</bibl>
+               <bibl/>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Dolle, PU Niedersachsen und Bremen, S. 229–230, Nr. 108</bibl>
+               <bibl>UB Hamburg I, S. 228, Nr. 250 (zu 1169-1181)</bibl><bibl>Migne PL 200, Sp. 1175, Nr. 1350</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL 13062</bibl>
+               <bibl>Germ. Pont. 6, S. 95, Nr. 6</bibl><bibl>UB Bremen I, Nr. 164</bibl><bibl>Regesten der Erzbischöfe von Bremen I, Nr. 580</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p><diploDesc/>Beim vorliegenden Stück handelt es sich um eine Litterae cum filo serico. Der Urkundenbestand des Erzstifts Bremen wurde nach Machtübernahme der Schweden 1650 von Bremen nach Stade überführt. Von dort wurden die Urkunden im Jahr 1864 in das Staatsarchiv Hannover verlegt (heute: Niedersächsisches Landesarchiv, Abteilung Stade) und beim Bombenangriff und dem folgenden Brand 1943 zerstört. Eine Beschreibung der Urkunde und des Rückvermerks (12. Jh.): Alexandri pape confirmatio de prebenda (andere Hand): mortuo canonicorum befindet sich im Nachlass Brackmann (Pius-Stiftung für Papsturkundenforschung). Bulle fehlt. Datiert nach dem Itinerar Alexanders III. (vgl. Dolle, PU Niedersachsen und Bremen, S. 229).</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Erzbischof Hartwig von Bremen (amt. 1148-1168). <diploDesc/>.</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Werk 1]</bibl>
+               <bibl>[Werk 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p><p>Alexander episcopus servus servorum dei dilectis filiis canonicis Bremensis ecclesię salutem et apostolicam benedictionem. Pervenit ad nos in ecclesia vestra ab antiquo fuisse provida deliberatione statutum, ut canonico decedente stipendia prebendę ipsius colligantur per annum et pro debitis eius vel in pias causas pro salute illius expen dantur. Unde quia nostrum est pia et laudabilia statuta firmare prescriptam constitutionem et consuetudinem ratam habentes et auctoritate apostolica, sicut convenit, confirmantes universitati vestrę per apostolica scripta mandamus atque precipimus, quatenus, quod a preposito maiore vel ab aliquo obedientiario vestro de hac consuetudine ab illo die subtractum est, quo vobis consuetudinem illam Ardvicus quondam archiepiscopus vester auctoritate pontificali firmavit, occasione et appella tione cessante faciatis restitui in causas, quas diximus expendendum. Datum Romę apud sanctum Petrum, kalendis maii.</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI source="dolle" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc><titleStmt><title>fe_00135</title><respStmt><resp>Die Formierung Europas</resp><persName>Dolle, PU Niedersachsen und Bremen, S. 226, Nr. 105</persName></respStmt>
+            <respStmt><resp when="2026">Encoding</resp><persName>JB</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Dolle, PU Niedersachsen und Bremen, S. 226, Nr. 105</bibl><bibl type="jaffe">12089</bibl>
+            <bibl>[Weiteres Konkordanzregest]</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>-</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Tusculum</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1172-06-29" precision="high" unit="cm" xml:space="default" notBefore="1171-06-29" type="issued">(1171-1172), Juni 29</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p><legalActor type="recipient">Domkapitel von Bremen</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Papsturkunde, Litterae cum filo canapis</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">Administration, Diözesen</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p><legalActor><persName>Alexander III.</persName></legalActor> schreibt dem Domkapitel von Bremen die Art und Weise der Bischofswahl vor.<list>
+                  <item>Er befiehlt den Ausschluss der Laien von der Wahl. </item><item>Die Wahl ist durch die Kanoniker der Domkirche sowie durch die Geistlichen, die sich in der Stadt und der Diözese aufhalten, durchzuführen.</item><item>Dem Einspruch der Geistlichen darf gegenüber dem Votum der Domkanoniker nur im Fall eines offensichtlichen kirchenrechtlichen Hindernisses bezüglich der Wahl oder dem Gewählten der Vorrang gegeben werden.</item>
+               </list></p>
+         </div>
+
+         <div>
+            <head>Incipit</head><diploPart type="incipit" xml:lang="lat">Relatum est auribus nostris et</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head><diploPart type="datatio">Datum Tusculani, III. kalendas iuli.</diploPart>
+         </div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">- (Hannover, Niedersächsisches Landesarchiv, Abteilung Stade, Rep. 1 Nr. 39 (A), 1943 verbrannt)</bibl>
+                  <bibl type="msCopy">(Hannover, Niedersächsisches Landesarchiv, Cop. II 41 fol. 61 (B), 1943 verbrannt. Zur Kopialüberlieferung vgl. Dolle, PU Niedersachsen und Bremen, S. 226.)</bibl>
+                  <bibl type="print"/>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl><listWit><witness>Decreti prima pars dist. LXIII c. 12 (vgl. Friedberg, Corpus iuris canonici I, Sp. 238)</witness></listWit></bibl>
+               <bibl/>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>-</bibl>
+               <bibl/>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Dolle, PU Niedersachsen und Bremen, S. 226, Nr. 105</bibl>
+               <bibl>UB Hamburg I, S. 215, Nr. 237 (zu 1169)</bibl><bibl>Migne PL 200, Sp. 1270-1271, Nr. 1482 (zu 1180)</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL 12089 (zu 1171/1172)</bibl>
+               <bibl>Germ. Pont. 6, S. 94, Nr. 5</bibl><bibl>May, Regesten der Erzbischöfe von Bremen I, Nr. 577 (zu 1180)</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p><diploDesc/>Beim vorliegenden Stück handelt es sich um eine Litterae cum filo canapis. Der Urkundenbestand des Erzstifts Bremen wurde nach Machtübernahme der Schweden 1650 von Bremen nach Stade überführt. Von dort wurden sie im Jahr 1864 in das Staatsarchiv Hannover verlegt (heute: Niedersächsisches Landesarchiv, Abteilung Stade) und beim Bombenangriff und dem folgenden Brand 1943 zerstört. Ein handschriftliches Regest mit Beschreibung der Urkunde, dem Rückvermerk (12. Jh.): Alexander de modo eligendi sowie einer Zeichnung der Bulle findet sich im Nachlass Brackmann (Pius-Stiftung für Papsturkundenforschung). Datiert nach dem Itinerar Alexanders III.</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Der vorliegenden Litterae muss ein heute verlorenes Schreiben des Domkapitels von Bremen vorausgegangen sein (vgl. Germ. Pont. 6, S. 94, Nr. *4; ## FE Nr. ##). Der Papst bezieht sich vermutlich auf die zwiespältige Wahl nach dem Tod Erzbischof Hartwigs von Bremen (gest. 11. Oktober 1168). Auf Veranlassung Heinrichs des Löwen wurde schließlich die Wahl durch den Kaiser für ungültig erklärt und Heinrichs Kandidat Balduin gewählt. Laut Itinerar des Papstes kann Alexander III. aber erst 1171 oder 1172 in Tusculum geurkundet haben (vgl. Below, Entstehung, S. 49-50).</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>Below, Entstehung, S. 49-50</bibl><bibl>Abbildungen der Bulle: Diekamp, Urkundenwesen,  S. 626-627, Nr. 20; Pflugk-Harttung, Specimina, Taf. XIV, Nr. 1</bibl><bibl/>
+               <bibl/>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p><p>Alexander episcopus servus servorum dei dilectis filiis decano, preposito et capitulo Bremensis ecclesiae salutem et apostolicam benedictionem. Relatam est auribus nostris, quod, cum laici quidam et clerici electioni antistitis vestri se ipsos indiscrete aliquando interponant, potest eo modo, quo debet, ipsa interdum electio celebrari. Ideoque quorum sit electio, scripto vobis quesistis apostolico intimari. Presentibus ergo literis innotescat, quod licet in electione pontificis favor principis debeat assen- susque requiri, ad electionem tamen laici admitti non debent. Sed electio est per canonicos ecclesiae cathedralis et religiosos viros, qui in civitate sunt et diocesi, celebranda. Nec tamen ita hoc dicimus, quod religiosorum contradictio canonicorum votis debeat prevalere, nisi forte electioni aut electo inpedimentum manifestum et canonicum obviaret. Si ergo laici se voluerint talibus immiscere, illius canonis memores existentes, in quo dicitur docendus est populus, non sequendus, illis exclusis in electione concorditer et canonice procedatis. Datum Tusculani, III. kalendas iuli.</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

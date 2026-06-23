@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI source="dolle" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc><titleStmt><title>fe_00137</title><respStmt><resp>Datenquelle</resp><persName>Dolle, PU Niedersachsen und Bremen, S. 227-229, Nr. 107</persName></respStmt>
+            <respStmt><resp when="2026">Encoding</resp><persName>JB</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Dolle, PU Niedersachsen und Bremen, S. 227–229, Nr. 107</bibl><bibl type="jaffe">13073a</bibl>
+            <bibl>[Germ. Pont. 5,2, S. 142-143, Nr. 1</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc><p><authen type="formula" n="na">
+                     <p>-</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p><issued><placeName>Rom, Lateran</placeName><date type="issued" notBefore="1178-01-13" notAfter="1178-01-13">1178, Januar 13</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued><p><legalActor type="issuer">Alexander III.</legalActor></p><p><legalActor type="recipient">Augustiner-Chorfrauenstift Heiningen</legalActor></p><p><legalActor type="recipient">Heinrich, Propst des Stifts Heiningen</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p><!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! --><p><objectType n="">Juristisches, Rechtsbestätigungen</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p><!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p><legalActor><persName>Alexander III.</persName> </legalActor>nimmt das <legalActor><orgName>Augustiner-Chorfrauenstift Heiningen </orgName></legalActor>(D. Hildesheim) auf Bitten des <persName>Propstes Heinrich</persName> in den apostolischen Schutz und bestätigt seine Einrichtung nach der Regel des hl. Augustinus sowie seine Besitzungen.<list>
+                  <item>Eingeschlossen sind alle Besitzungen und Güter, die die Kirche in der Gegenwart rechtmäßig besitzt beziehungsweise in der Zukunft rechtmäßig erwerben wird, darunter einige namentlich genannte Besitzungen, in denen er die Bannrechte und Einkünfte aus den Zehnten regelt. </item><item>Er befreit es vom Zehnten für Neubrüche bei Eigenbau und für Tierfutter.</item><item>Er gewährt das Recht, Weltgeistliche und Laien aufzunehmen.</item><item>Er garantiert die freie Wahl des Propstes gemäß der Augustinusregel und erteilt das freie Begräbnisrecht.</item><item>Er befreit das Stift vom allgemeinen Interdikt.</item><item>Schlussformeln: Perturbationsverbot, Sanctio negativa und positiva.</item>
+               </list></p>
+         </div>
+
+         <div>
+            <head>Incipit</head><diploPart type="incipit" xml:lang="lat">Quotiens illud a nobis petitur</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>(R.) Ego Alexander catholice ecclesie episcopus subscripsi. (BV.)</item><item>Ego Hubaldus Hostiensis episcopus subscripsi.</item><item>Ego Iohannes presbyter cardinalis sanctorum Iohannis et Pauli tituli Pamachii subscripsi.</item><item>Ego Boso presbyter cardinalis sancte Pudentiane tituli Pastoris subscripsi.</item><item>Ego Petrus presbyter cardinalis tituli sancte Susanne subscripsi.</item><item>Ego Vivianus presbyter cardinalis tituli sancti Stephani in Celio monte subscripsi.</item><item>Ego Ardicio diaconus cardinalis sancti Theodori subscripsi.</item><item>Ego Cinthyus diaconus cardinalis sancti Adriani subscripsi.</item><item>Ego Hugo sancti Angeli diaconus cardinalis et cetera subscripsi.</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head><diploPart type="datatio">Dat. Laterani per manum Alberti sancte Romane ecclesie presbyteri cardinalis et cancellarii, idus ian(uarii), indictione XI., incarnationis dominice anno MCLXXVIII, pontificatus vero domini Alexandri pape III anno XVIIII.</diploPart>
+         </div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">Hildesheim, Bistumsarchiv, B VI 12 ( A ).</bibl>
+                  <bibl type="msCopy">Hildesheim, Dombibliothek, Hs 546, p. 13-15, Nr. 5 ( B ), 13. Juni 1178. Zur handschriftlichen Überlieferung vgl. Dolle, PU Niedersachsen und Bremen, S. 227.</bibl>
+                  <bibl type="print"/>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>-</bibl>
+               <bibl/>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>-</bibl>
+               <bibl/>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Dolle, PU Niedersachsen und Bremen, S. 227–229, Nr. 107</bibl>
+               <bibl>UB Hildesheim I, S. 363, Nr. 382</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL 13073a (13. Juni 1178)</bibl>
+               <bibl>Germ. Pont. 5,2, S. 142-143, Nr. 1 (13. Juni 1178)</bibl><bibl> </bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>Rota vorhanden, Inschrift: sanctus Petrus/sanctus Paulus/Alexa/nder/papa/III, Devise: Vias tuas, domine, demonstra michi. Bene valete vorhanden. Bulle an gelben und roten Seidenfäden (Durchmesser: 3,3 cm). Aufschrift auf der Aversseite: Alex/ander papa III, auf der Reversseite sind die bekannten Köpfe der Apostelfürsten Petrus und Paulus abgebildet. Bei Jaffé und in der Germania Pontificia ist das vorliegende Privileg fälschlicherweise auf den 13. Juni 1178 datiert. Abbildungen der Bulle finden sich in: Fees/Roberg, Digitale Urkundenbilder IV, Taf. 19; Serafini, Le monete I, S. 27, Abb. H 10. <diploDesc/></p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Das Stift Heiningen wurde um das Jahr 1000 durch Hildesvit und ihre Tochter Walburgis als Kanonissenstift gegründet. Im Jahr 1126 wurde das Stift durch Propst Gerhard von Riechenberg reformiert und unter die Regel des hl. Augustinus gestellt (vgl. Taddey, Heiningen, S. 13-29. Auffällig ist, dass die vorliegende Urkunde Alexanders III. den Augustiner-Chorfrauenkonvent vor Ort überhaupt nicht im Text erwähnt und nur an Propst Heinrich sowie seine fratres addressiert ist (vgl. Germ. Pont. 5,2, S. 141).</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>Heinemann, Bistum Hildesheim S. 279-280</bibl><bibl>Goetting, Bischöfe S. 425-426</bibl><bibl>Niedersächsisches Klosterbuch 2, S. 614-624</bibl>
+               <bibl/>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>Archivsignatur überprüft; Digitalisat vorhanden; Publikation kostenpflichtig</p><p>Alexander episcopus servus servorum dei dilecto filio Henrico preposito Heinninguensis ecclesię eiusque fratribus tam presentibus quam futuris regularem vitam professis in perpetuum. Quotiens illud a nobis petitur, quod religioni et honestati convenire dinoscitur, animo nos decet libenti concedere et petentium desideriis con- gruum impertiri consensum. Eapropter, dilecti in domino filii, vestris iustis postulationibus clementer annuimus et prefatam ecclesiam, in qua divino estis mancipati obsequio, sub beati Petri et nostra protectione suscipimus et presentis scripti privilegio communimus in primis siquidem statuentes, ut ordo canonicus, qui secundum dei timorem et beati Augustini regulam in ecclesia vestra statutus esse dinoscitur, perpetuis ibidem temporibus inviolabiliter observetur. Preterea quascumque posses siones, quecumque bona eadem ecclesia in presentiarum iuste et canonice possidet aut in futurum concessione pontificum, largitione regum vel principum, oblatione fidelium seu aliis iustis modis prestante domino poterit adipisci, firma vobis vestrisque successoribus et illibata permaneant, in quibus hec propriis duximus exprimenda vocabulis: bannum in Henigge et Burtorpe et Valthingrothe et ecclesiam in Gelethe cum capellis Leggethe et Bokethe et Werle, curiam in Lettere, curtem in Uppen cum hominibus attinentibus, curtem et molendinum in Dorstede, curtem in Puggenstede cum decima ville, curtem in Nentorpe, curtem in Elvethe. Sane novalium vestrorum, que propriis manibus aut sumptibus colitis, sive de nutrimentis vestrorum ani- malium nullus a vobis decimas presumat exigere. Liceat quoque vobis clericos vel laicos e seculo fugientes liberos et absolutos ad conversionem vestram recipere et eos sine contradictione aliqua retinere. Obeunte vero te, nunc eiusdem loci preposito, vel tuorum quolibet successorum nullus ibi qualibet surreptionis astutia seu violentia preponatur, nisi quem fratres communi consensu vel fratrum pars sanioris consilii secundum dei timorem et beati Augustini regulam previderint eligendum. Sepulturam quoque ipsius loci liberam esse decernimus, ut eorum devotioni et extreme voluntati, qui se illic sepeliri deliberaverint, nisi forte excommunicati vel interdicti sint, nullus obsistat salva tamen iust[itia illa]rum ecclesiarum, a quibus mortuorum corpora assumantur. Cum autem generale interdictum terre fuerit, liceat vobis clausis ianuis, [exc]lusis excommunicatis et interdictis, suppressa voce, non pulsatis campanis divina officia celebrare. Decernimus ergo, ut nullo omnino homini liceat prefatam ecclesiam temere perturbare aut eius possessiones auferre vel ablatas retinere, iminuere aut aliquibus advocationibus fatigare, sed omnia integra conserventur eorum, pro quorum gubernatione ac sustentatione concessa sunt usibus omnimodis profutura, salva in omnibus apostolice sedis auctoritate et dyocesani episcopi canonica iusticia. Si qua igitur in futurum ecclesiastica secularisve persona hanc nostre constitutionis paginam sciens contra eam temere venire temptaverit, secundo tertiove commonita, nisi satisfactione congrua id emendaverit, potestatis honorisque sui dignitate careat reamque se divino iudicio existere de perpetrata iniquitate cognoscat et a sacratissimo corpore ac sanguine dei et domini redemptoris nostri Iesu Christi aliena fiat atque in extremo examine divine ultioni subiaceat. Cunctis autem eidem loco iusta servantibus sit pax domini nostri Iesu Christi, quatinus ex hoc fructum bone actionis percipiant et apud districtum iudicem premia eterne pacis inveniant. Amen. Amen. Amen. (R.) Ego Alexander catholice ecclesie episcopus subscripsi. (BV.) † Ego Hubaldus Hostiensis episcopus subscripsi. † Ego Iohannes presbyter cardinalis sanctorum Iohannis et Pauli tituli Pamachii subscripsi. † Ego Boso presbyter cardinalis sancte Pudentiane tituli Pastoris subscripsi. † Ego Petrus presbyter cardinalis tituli sancte Susanne subscripsi. † Ego Vivianus presbyter cardinalis tituli sancti Stephani in Celio monte subscripsi. † Ego Ardicio diaconus cardinalis sancti Theodori subscripsi. † Ego Cinthyus diaconus cardinalis sancti Adriani subscripsi. † Ego Hugo sancti Angeli diaconus cardinalis et cetera subscripsi. Dat. Laterani per manum Alberti sancte Romane ecclesie presbyteri cardinalis et cancellarii, idus ian(uarii), indictione XI., incarnationis dominice anno MCLXXVIII, pontificatus vero domini Alexandri pape III, anno XVIIII.</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI source="dolle" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc><titleStmt><title>fe_00136</title><respStmt><resp>Datenquelle</resp><persName>Dolle, PU Niedersachsen und Bremen, S. 226-227, Nr. 106</persName></respStmt><respStmt><resp when="2026">Encoding</resp><persName>JB</persName></respStmt></titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Dolle, PU Niedersachsen und Bremen, S. 226–227, Nr. 106</bibl><bibl type="jaffe">12908</bibl>
+            <bibl>[Weiteres Konkordanzregest]</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>-</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Venedig am Rialto</placeName><date type="issued" notBefore="1177-08-03" notAfter="1177-08-03">(1177), August 3</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p><legalActor type="recipient">Kleriker der Kirche von Osnabrück</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Papsturkunde, Litterae cum filo serico</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">Juristisches, Rechtsbestätigungen</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p><legalActor><persName>Alexander III.</persName></legalActor> bestätigt den <legalActor><orgName>Klerikern der Kirche St. Peter von Osnabrück</orgName></legalActor> die Rechte und Grenzen ihrer Kirche, die im Privileg von <legalActor><persName>Philipp, einst Bischof von Osnabrück</persName></legalActor>, festgelegt wurden.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+
+         <div>
+            <head>Incipit</head><diploPart type="incipit" xml:lang="lat">Iustis petentium desideriis dignum est</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head><diploPart type="datatio">Datum Veneciis in Rivo alto, III. non. augusti.</diploPart>
+         </div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">Osnabrück, Diözesanarchiv, U1 (A). Online verfügbar unter: https://urkundenrepositorium.uni-marburg.de/entities/urkunde/4a98aa81-4280-4f93-90ba-91e95a49b997</bibl>
+                  <bibl type="msCopy">Osnabrück, Diözesanarchiv, Ma 20, fol. 9r-9v (B); zur Kopialüberlieferung vgl. Dolle, PU Niedersachsen und Bremen, S. 226-227.</bibl>
+                  <bibl type="print"/>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>-</bibl>
+               <bibl/>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>-</bibl>
+               <bibl/>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Dolle, PU Niedersachsen und Bremen, S. 226–227, Nr. 106</bibl>
+               <bibl>UB Westfalen V, S. 48, Nr. 126</bibl><bibl>UB Osnabrück I, S. 275, Nr. 344</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL 12908</bibl>
+               <bibl>Germ. Pont. 9, S. 132, Nr. 4</bibl><bibl>UB Westfalen II, S. 55-56, Nr. 2027</bibl><bibl/>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>Beim vorliegenden Privileg handelt es sich um eine Litterae cum filo serico. Der gelbe Seidenfaden ist noch vorhanden, die Bulle ist verloren. Rückvermerk (14. Jh.): De terminis et iuribus ecclesie Osnab(rugensis) confirmacio. Datiert nach dem Itinerar Alexanders III.</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Das päpstliche Privileg bezieht sich auf die Verfügung von Bischof Philipp aus dem Jahr 1147 (vgl. UB Osnabrück I, S. 222-223, Nr. 276).</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>Bischoff, Urkundenformate, S. 138</bibl>
+               <bibl/>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p><p>x x x Alexander x x x episcopus servus servorum dei dilectis filiis clericis ecclesie beati Petri in Osn(abruge) salutem et apostolicam benedictionem. Iustis petentium desideriis dignum est nos facilem prebere consensum et vota, que a rationis tramite non discordant, effectu sunt prosequente complenda. Eapropter, dilecti in domino filii, vestris iustis postulacionibus grato concurrentes assensu, iura et terminos ecclesie vestre, secun dum quod distincti sunt et in privilegio Philippi quondam Osnabrugensis episcopi continentur et vos iuste possedisse noscimini, vobis et ecclesie vestre auctoritate apostolica confirmamus et presentis scripti patrocinio communimus statuentes, ut nulli omnino hominum liceat hanc paginam nostre confirmationis infringere vel ei aliquatenus contraire. Si quis autem hoc attemptare presumpserit, indignationem omnipotentis dei et beatorum Petri et Pauli apostolorum eius se noverit incursurum. Dat. Veneciis in Rivo alto, III . non. augusti.</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>
