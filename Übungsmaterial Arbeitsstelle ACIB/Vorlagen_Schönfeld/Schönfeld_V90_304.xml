@@ -33,7 +33,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
-               <p><legalActor type="recipient">Augustinerchorherrenstift zu Flonheim</legalActor></p><p/>
+               <p><legalActor type="recipient">Augustinerchorherrenstift zu Flonheim</legalActor></p><p><legalActor type="recipient">Willerus, Probst des Augustinerchorherrenstifts zu Flonheim</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="fe:vocab:objectType:0101">Papsturkunde, []</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
