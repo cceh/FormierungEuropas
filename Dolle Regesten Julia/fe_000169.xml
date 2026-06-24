@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
-<TEI source="dolle" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="dolle">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc><titleStmt><title>fe_00137</title><respStmt><resp>Datenquelle</resp><persName>Dolle, PU Niedersachsen und Bremen, S. 227-229, Nr. 107</persName></respStmt>
@@ -14,7 +11,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>Dolle, PU Niedersachsen und Bremen, S. 227–229, Nr. 107</bibl><bibl type="jaffe">13073a</bibl>
+            <bibl>Dolle, PU Niedersachsen und Bremen, S. 227–229, Nr. 107</bibl><bibl type="jaffe">13073α</bibl>
             <bibl>[Germ. Pont. 5,2, S. 142-143, Nr. 1</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc><p><authen type="formula" n="na">
