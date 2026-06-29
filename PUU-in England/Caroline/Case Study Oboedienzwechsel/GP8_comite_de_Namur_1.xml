@@ -29,7 +29,7 @@
                      <p>[*+?-]</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>[Ausstellungsort]</placeName><date type="issued">vor 22. März 1163</date>
+               <issued><placeName>[Ausstellungsort]</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1163-03-22" precision="high" unit="cm" xml:space="default" notBefore="1159-09-07" type="issued">vor 22. März 1163</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Heinrich, Graf von Namur</legalActor></p>
