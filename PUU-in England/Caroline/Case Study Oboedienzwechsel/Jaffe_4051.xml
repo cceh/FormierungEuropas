@@ -33,8 +33,7 @@
             <legalActor type="issuer">VICTOR IV.</legalActor>
           </p>
           <p>
-            <legalActor type="recipient">[Recipient 1]</legalActor>
-          </p>
+<legalActor type="recipient"> Abt von Affligem</legalActor></p><p><legalActor cert="high" type="beneficiary" xml:space="default">Mönche von Vlierbeek</legalActor> </p>
           <p>
             <objectType>[Typisierung 1]</objectType>
           </p>
