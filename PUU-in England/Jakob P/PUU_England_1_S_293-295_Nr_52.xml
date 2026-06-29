@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
-<TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen -->
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_puu-in"> <!-- Ordnername hier ergänzen -->
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -14,16 +11,16 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
-            <idno>PUU England 1, S. 291-293, Nr. 51</idno><availability>
+            <idno>PUU England 1, S. 293-295, Nr. 52</idno><availability>
                <licence>Lizenz</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>PUU England 1, S. 291-293, Nr. 51</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
-            <diploDesc><p><issued><placeName>Segni</placeName><date type="issued" notBefore="1152-02-13" notAfter="1152-02-13">1152 Februar 13.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            <bibl>PUU England 1, S. 293-295, Nr. 52</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
+            <diploDesc><p><issued><placeName>Segni</placeName><date type="issued" notBefore="1152-04-14" notAfter="1152-04-14">1152 April 14.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Eugen III.</legalActor></p>
-               <p><legalActor type="recipient">Kloster Luffield</legalActor></p><p><legalActor type="recipient">Wilhelm, Prior des Klosters Luffield</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient">Kirche der hl. Trinität in Twinham </legalActor></p><p><legalActor type="recipient">Reginald, Prior der Kirche der hl. Trinität in Twinham</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
@@ -39,7 +36,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Eugen III. nimmt das Kloster Luffield unter dem Prior Wilhelm in den päpstlichen Schutz und bestätigt seine Rechte.</p>
+            <p>Eugen III. nimmt die Kirche der hl. Trinität in Twinham (Christ Church Priory) unter dem Prior Reginald in den päpstlichen Schutz und bestätigt ihre genannten Besitzungen, die Sepultur, die Gewohnheiten und das Wahlrecht.</p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head>
             <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
@@ -49,8 +46,8 @@
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl>Orig. Westminster Abbey, Muniment n. 3008; </bibl>
-               <bibl>Chartular von Luf- field Priory s. XV, Westminster Abbey, Muniment booTcs vol. 10 fol.  17' = Abschrift davon s. XVIII,  Oxford Bodl. Willis 7 (S. C. 16300)  fol. 20 unvollst. </bibl>
+               <bibl>[Original]</bibl>
+               <bibl>Cliartular von Twinham a. 1372, Brit. Mus. Cott. Tiberius I) VI  vol. I fol. 17. </bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>
@@ -84,7 +81,7 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Das Original ist tadellos erhalten. Die Unterschriften fehlen in dem Chartular.</p>
+            <p>[Kommentar]</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>

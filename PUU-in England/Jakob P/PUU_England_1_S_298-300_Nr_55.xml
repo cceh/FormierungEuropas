@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_puu-in"> <!-- Ordnername hier ergänzen -->
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_puu-in"> <!-- Ordnername hier ergänzen -->
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -11,16 +11,16 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
-            <idno>PUU England 1, S. 293-295, Nr. 52</idno><availability>
+            <idno>PUU England 1, S. 298-300, Nr. 55</idno><availability>
                <licence>Lizenz</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>PUU England 1, S. 293-295, Nr. 52</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
-            <diploDesc><p><issued><placeName>Segni</placeName><date type="issued" notBefore="1152-04-14" notAfter="1152-04-14">1152 April 14.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            <bibl>PUU England 1, S. 298-300, Nr. 55</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
+            <diploDesc><p><issued><placeName>[Ausstellungsort]</placeName><date type="issued" notBefore="1145-01-01" notAfter="1153-12-31">(1145—53).</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Eugen III.</legalActor></p>
-               <p> <legalActor type="recipient">Kirche der hl. Trinität in Twinham </legalActor></p><p><legalActor type="recipient">Reginald, Prior der Kirche der hl. Trinität in Twinham</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient">Kloster St. Andrew's in Northampton</legalActor></p><p><legalActor type="recipient">Samson, Prior des Klosters St. Andrew's in Northampton</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
@@ -36,7 +36,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Eugen III. nimmt die Kirche der hl. Trinität in Twinham (Christ Church Priory) unter dem Prior Reginald in den päpstlichen Schutz und bestätigt ihre genannten Besitzungen, die Sepultur, die Gewohnheiten und das Wahlrecht.</p>
+            <p>Eugen III. nimmt das Kloster St. Andrew's in Northampton unter dem Prior Samson in den päpstlichen Schutz und bestätigt seine namentlich angeführten Besitzungen.</p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head>
             <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
@@ -47,7 +47,7 @@
             <div>
             <listBibl>   
                <bibl>[Original]</bibl>
-               <bibl>Cliartular von Twinham a. 1372, Brit. Mus. Cott. Tiberius I) VI  vol. I fol. 17. </bibl>
+               <bibl>Chartidar von St. Andrew's Northampton s. XV, Brit. Mus. Cott.  Vespasian E XVII fol. 32'. </bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>
@@ -81,7 +81,7 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>[Kommentar]</p>
+            <p>Die Lesung der Ortsnamen ist nicht immer sicher; vgl. dazu die wenig spätere Urkunde Heinrichs II. in Cal. of Charter Bolls IV118 ff.</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
