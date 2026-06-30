@@ -20,8 +20,12 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>PUU England 1, S. 335-336, Nr. 76</bibl><bibl type="jaffe">10616</bibl>
-            <diploDesc><p><issued><placeName>Anagni</placeName><date type="issued" notBefore="1160-01-15" notAfter="1160-01-15">(1160) Januar 15.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
-               </issued></p>
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                  <p>-</p>
+               </authen></p>
+               <issued><placeName>Anagni</placeName><date type="issued" notBefore="1160-01-15" notAfter="1160-01-15">(1160) Januar 15.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+               </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Benediktinerkloster St. Oswald in Bardney</legalActor></p><p><legalActor type="recipient">Walter, Abt des Klosters St. Oswald in Bardney</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
