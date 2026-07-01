@@ -67,7 +67,7 @@
          <div>
             <head>Subscriptiones:</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>[R] Ego <persName>Victor catholice ecclesie episcopus</persName> subscripsi. [BV]</item><item>Ego <persName>Ubaldus Tusculanus episcopus</persName> subscripsi. </item><item>Ego Guido presbiter cardinalis tituli Calixti subscripsi.</item>
+                  <item>[R] Ego <persName>Victor catholice ecclesie episcopus</persName> subscripsi. [BV]</item><item>Ego <persName>Ubaldus Tusculanus episcopus</persName> subscripsi. </item><item>Ego <persName>Guido presbiter cardinalis</persName> tituli Calixti subscripsi.</item>
                </list></diploPart>
          </div>
          <div>
@@ -115,8 +115,7 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>[Text und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
- Kommentar]</p>
+               <p>[Text und Inhalte <diploPart type="rota"/>]</p>
             </diploDesc>
          </div>
          <div type="commentary">
