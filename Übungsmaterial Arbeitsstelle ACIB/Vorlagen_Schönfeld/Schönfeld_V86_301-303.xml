@@ -23,7 +23,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl type="jaffe">[]</bibl>
+            <bibl type="jaffe">10770e</bibl>
             <bibl type="Schoenfeld">V 86</bibl>
             <diploDesc>
                <p><authen type="formula" n="na">
@@ -63,7 +63,7 @@
 
          <div>
             <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit ame]</diploPart>
          </div>
          <div>
             <head>Subscriptiones:</head>
