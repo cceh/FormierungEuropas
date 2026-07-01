@@ -67,12 +67,11 @@
          <div>
             <head>Subscriptiones:</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
+                  <item>[Ego Victor catholice eccle]</item>
                </list></diploPart>
          </div>
          <div>
-            <head>Datatio:</head>
-            <diploPart type="datatio">[Datum Metis per manum [I]ohannis sancte Romane ecclesie presbiteri cardinalis et cancellarii, VI kalendas novembris indictione XI, incarnationis dominice anno MCLXII, pontificatus vero domni Victoris]</diploPart>
+            <head>Datatio:</head><diploPart type="datatio">Datum Metis per manum [I]ohannis sancte Romane ecclesie presbiteri cardinalis et cancellarii, VI kalendas novembris indictione XI, incarnationis dominice anno MCLXII, pontificatus vero domni Victoris pape IIII anno IIII.</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
