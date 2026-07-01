@@ -20,7 +20,7 @@
             <diploDesc><p><issued><placeName>Anagni</placeName><date type="issued" notBefore="1160-07-19" notAfter="1176-07-19">(1160—76) Juli 19. </date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p> <legalActor type="recipient">Prior von St. Cuthbert, Durham</legalActor></p> <p>Mönche von St. Cuthbert, Durham</p> <p> <legalActor type="recipient"> fjoeijife </legalActor> </p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient">Prior von St. Cuthbert, Durham</legalActor></p> <p>Mönche des Benedektinerklosters St. Cuthbert, Durham</p> <p> <legalActor type="recipient"> fjoeijife </legalActor> </p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
