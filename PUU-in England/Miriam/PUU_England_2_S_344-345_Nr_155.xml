@@ -20,7 +20,7 @@
             <diploDesc><p><issued><placeName>[Ausstellungsort]</placeName><date type="issued" notBefore="1175-01-01" notAfter="1176-12-31">(1175-76). </date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Hugo Pierleoni, Kardinaldiakon von S. Angelo, apostolischer Legat</legalActor></p>
-               <p> <legalActor type="recipient">Reginald, Bischof von Bath</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient">Reginald, Bischof von Bath</legalActor></p><p> <legalActor type="Recipient"> ijeof</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
