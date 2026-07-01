@@ -56,14 +56,13 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>[Viktor IV. hält gemeinsam mit <diploPart type="incipit" xml:lang="lat">episcopi Teutonici et Italici </diploPart>ein Konzil in Trier ab und belegt Alexander III. und dessen Anhänger mit dem Anathem.<list>
+            <p>Viktor IV. hält gemeinsam mit <diploPart type="incipit" xml:lang="lat">episcopi Teutonici et Italici </diploPart>ein Konzil in Trier ab und belegt Alexander III. und dessen Anhänger mit dem Anathem.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
 
          <div>
-            <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+            <head>Incipit:</head><diploPart type="incipit" xml:lang="lat">-</diploPart>
          </div>
          <div>
             <head>Subscriptiones:</head>
@@ -134,9 +133,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter"
-               lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt
-               werden]</p>
+            <p>[JL-Nr. hat]</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
