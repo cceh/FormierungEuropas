@@ -17,7 +17,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>PUU England 2, S. 357-358, Nr. 164</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
-            <diploDesc><p><issued><placeName>[Ausstellungsort]</placeName><date type="issued">[Ausstellungsdatum]</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            <diploDesc><p><issued><placeName>Anagni</placeName><date type="issued">(1160-78) Januar 21</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Richard, Magister</legalActor></p><p><legalActor type="recipient">Kirche von Middelham</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
