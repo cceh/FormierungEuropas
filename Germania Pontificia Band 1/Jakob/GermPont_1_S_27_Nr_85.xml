@@ -67,37 +67,31 @@
                <listBibl>
                   <bibl type="original">-</bibl>
                   <bibl type="msCopy">Wien, Österreichische Nationalbibliothek, Codex Vindobonensispalatinus (cvp.) 629, fol. 43r-44v</bibl><bibl type="msCopy">Hannover, Niedersächsische Landesbibliothek, Codex XI 671, fol. 446r-447v</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
-               <bibl>[Quelle 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Germ.Pont. 1, S. 27, Nr. 85</bibl>
-               <bibl>[Edition 2]</bibl>
+               <bibl>[EdMigne, PL 200, Sp. 90d, Nr. 20Admonter Briefsammlung, S. 103, Nr. 53</bibl>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head>
-            <listBibl>
-               <bibl>JL 10628</bibl>
-               <bibl>[Regest 2]</bibl>
-            </listBibl>
+            <listBibl><bibl>JL 10628</bibl><bibl><bibl>Germ.Pont. 1, S. 27, Nr. 85</bibl><bibl/></bibl></listBibl>
          </div>
          <div>
             <head>Diplomatischer Kommentar</head>
