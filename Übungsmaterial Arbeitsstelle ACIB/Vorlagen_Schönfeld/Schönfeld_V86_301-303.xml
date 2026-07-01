@@ -62,8 +62,7 @@
          </div>
 
          <div>
-            <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit ame]</diploPart>
+            <head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Apostolatus nostri monet officium ut</diploPart>
          </div>
          <div>
             <head>Subscriptiones:</head>
