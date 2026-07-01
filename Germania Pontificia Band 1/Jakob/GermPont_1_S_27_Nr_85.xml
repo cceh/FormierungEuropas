@@ -28,9 +28,9 @@
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">Eberhard, Erzbischof von Salzburg</legalActor></p><p><legalActor type="recipient">Salzburger Suffraganbischöfe</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <p><objectType n="">Papsturkunde, Litterae cum filo canapis</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">[Typisierung 2]</objectType></p>
+               <p><objectType n="">Kernereignis, Konzil von Pavia (1160)</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
