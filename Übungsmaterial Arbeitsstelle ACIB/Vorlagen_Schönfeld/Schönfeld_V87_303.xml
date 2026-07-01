@@ -23,7 +23,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+            <bibl type="jaffe">II</bibl>
             <bibl type="Schoenfeld">V 87</bibl>
             <diploDesc>
                <p><authen type="formula" n="na">
@@ -33,10 +33,9 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
-               <p>
-                  <legalActor type="recipient">[Alexander]</legalActor></p>
+               <p><legalActor type="recipient">Alexander III. und seine Anhänger</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType ref="fe:vocab:objectType:0101">Papsturkunde, Privileg feierlich</objectType></p>
+               <p><objectType ref="fe:vocab:objectType:0101">Papsturkunde, []</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
                <p><objectType ref="na">[Typisierung 2]</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
