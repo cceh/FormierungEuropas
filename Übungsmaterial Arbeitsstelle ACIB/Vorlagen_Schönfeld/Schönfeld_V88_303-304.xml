@@ -29,7 +29,7 @@
                <p><authen type="formula" n="na">
                      <p>[*+?-]</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-                  </authen></p><issued><placeName>Trier</placeName><date type="issued">(1162) Nov. 4</date>
+                  </authen></p><issued><placeName>Trier</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" type="issued" unit="cm" xml:space="default" when="1162-11-04">(1162) Nov. 4</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
@@ -57,7 +57,7 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>[Regestentext kann diploParts mit Sprachangabe enthalten.] <list>
+            <p>[Viktor IV. ruft alle Kirchen des Bistums Bamberg zu Sammlungen auf, um ihn zu unte] <list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
