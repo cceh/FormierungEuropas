@@ -23,18 +23,17 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+            <bibl type="jaffe">[]</bibl>
             <bibl type="Schoenfeld">V 86</bibl>
             <diploDesc>
                <p><authen type="formula" n="na">
-                     <p>[*+?-]</p>
+                     <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-                  </authen></p><issued><placeName>Metz</placeName><date type="issued">1162 Okt. 27</date>
+                  </authen></p><issued><placeName>Metz</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" type="issued" unit="cm" xml:space="default" when="1162-10-27">1162 Okt. 27</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
-               <p>
-                  <legalActor type="recipient">[Recipient 1]</legalActor></p>
+               <p><legalActor type="recipient">Hospital S. Ladre in Metz</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="fe:vocab:objectType:0101">Papsturkunde, Privileg feierlich</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
