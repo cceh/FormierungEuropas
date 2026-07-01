@@ -63,7 +63,7 @@
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+                  <item>-</item>
                </list></diploPart>
          </div>
          <div>
@@ -74,17 +74,16 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="original">-</bibl>
+                  <bibl type="msCopy">-</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="historiography">
