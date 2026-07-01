@@ -70,7 +70,7 @@
             <div>
                <listBibl>
                   <bibl type="original">Niedersächsisches Landesarchiv, Abteilung Wolfenbüttel, 17 Urk 10 (A). </bibl>
-                  <bibl type="msCopy">Niedersächsisches Landesarchiv, Abteilung Wolfenbüttel, VII B Hs 360 p. 48-57 (B). Rückvermerk (14. Jh.): Allexandri III con firmacio anno domini M o C o LXXXIX .</bibl>
+                  <bibl type="msCopy">Niedersächsisches Landesarchiv, Abteilung Wolfenbüttel, VII B Hs 360 p. 48-57 (B). Rückvermerk (14. Jh.): Allexandri III con firmacio anno domini M°C°LXXXIX .</bibl>
                   <bibl type="print">Druck: Falke, Codex S. 769-771 Nr. 38 (mit falschem Datum).</bibl>
                </listBibl>
             </div>
@@ -78,14 +78,14 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
+               <bibl>[-</bibl>
                <bibl>[Quelle 2]</bibl>
             </listBibl>
          </div>
