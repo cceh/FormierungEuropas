@@ -30,7 +30,7 @@
                      <p>[*+?-]</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>[Ausstellungsort]</placeName><date type="issued">[Ausstellungsdatum]</date>
+               <issued><placeName>[Metz</placeName><date type="issued">[Ausstellungsdatum]</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
@@ -58,7 +58,7 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>[Viktor IV. nimmt das Hospital S. Ladre in Metz unter apostolischen Schutz und bestätigt ] <list>
+            <p>Viktor IV. nimmt das Hospital S. Ladre in Metz unter apostolischen Schutz und bestätigt dessen sämtliche Besitzungen und Einkünfte.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
