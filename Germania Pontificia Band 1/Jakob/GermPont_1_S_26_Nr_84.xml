@@ -66,10 +66,7 @@
                   <item>-</item>
                </list></diploPart>
          </div>
-         <div>
-            <head>Datatio</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
-         </div>
+         <div><head>Datatio</head><diploPart type="datatio">-</diploPart></div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
@@ -119,7 +116,7 @@
          <div type="bibliography">
             <head>Bibliographie</head>
             <listBibl>
-               <bibl>Reuter, The papal schism, S. 24f.</bibl><bibl>Somerville, The Beginnings of Alexander III’s Pontificate, S. 357–366, bes. S. 363 mit den Problemen der Überlieferung dieses Stücks</bibl><bibl>Laudage, Alexander III. und Friedrich Barbarossa, S. 106–116</bibl><bibl>Egger, Päpstliche Wahldekrete, bes. S. 121f.</bibl><bibl>Maleczek, Schisma, S. 182f.</bibl>
+               <bibl>Reuter, The papal schism, S. 24f.</bibl><bibl>Somerville, The Beginnings of Alexander III’s Pontificate, S. 357–366</bibl><bibl>Laudage, Alexander III. und Friedrich Barbarossa, S. 106–116</bibl><bibl>Egger, Päpstliche Wahldekrete, bes. S. 121f.</bibl><bibl>Maleczek, Schisma, S. 182f.</bibl>
                <bibl/>
             </listBibl>
          </div>
