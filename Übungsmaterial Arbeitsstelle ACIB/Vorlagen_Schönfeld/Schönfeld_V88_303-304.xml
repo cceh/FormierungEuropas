@@ -35,7 +35,7 @@
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
                <p><legalActor type="recipient">Kirchen des Bistums Bamberg</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType ref="fe:vocab:objectType:0101">Papsturkunde, Privileg feierlich</objectType></p>
+               <p><objectType ref="fe:vocab:objectType:0101">Papsturkunde, littera cum []</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
                <p><objectType ref="na">[Typisierung 2]</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
