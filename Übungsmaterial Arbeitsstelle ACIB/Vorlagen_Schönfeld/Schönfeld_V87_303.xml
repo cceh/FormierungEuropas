@@ -29,7 +29,7 @@
                <p><authen type="formula" n="na">
                      <p>*</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-                  </authen></p><issued><placeName>Trier</placeName><date type="issued">1162 Nov. 1</date>
+                  </authen></p><issued><placeName>Trier</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" type="issued" unit="cm" xml:space="default" when="1162-11-01">1162 Nov. 1</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
@@ -133,7 +133,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[JL-Nr. wurde lediglich mit II angegeben.</p>
+            <p>JL-Nr. wurde lediglich mit II angegeben.</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
