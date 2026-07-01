@@ -52,12 +52,12 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>[Alexander ]<list>
+            <p>[Papst Alexander III. ]<list>
                   <item>[Er bestätigt die Benediktsregel.</item><item>Er bestätigt verschiedene namentlich genannte Besitzungen.</item><item>Er gesteht verschiedene Rechte zu.]</item>
                </list></p>
          </div>
 
-         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Quoties illud a nobis petitur</diploPart></div>
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Quotiens illud a nobis petitur</diploPart></div>
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
