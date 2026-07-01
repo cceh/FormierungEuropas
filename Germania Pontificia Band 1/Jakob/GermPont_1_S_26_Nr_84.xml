@@ -2,7 +2,7 @@
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc>
-         <titleStmt><title>FE 00198</title><respStmt><resp>Datenquelle</resp><persName>Germ.Pont. 1, S. 26, Nr. 84</persName></respStmt>
+         <titleStmt><title>fe_00198</title><respStmt><resp>Datenquelle</resp><persName>Germ.Pont. 1, S. 26, Nr. 84</persName></respStmt>
             <respStmt>
                <resp when="2026">Encoding</resp>
                <persName>JM</persName>
