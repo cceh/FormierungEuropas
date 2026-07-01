@@ -67,17 +67,16 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
+                  <bibl type="original">-</bibl>
                   <bibl type="msCopy">Wien, Österreichische Nationalbibliothek, Codex Vindobonensispalatinus (cvp.) 629, fol. 43r-44v</bibl><bibl type="msCopy">Hannover, Niedersächsische Landesbibliothek, Codex XI 671, fol. 446r-447v</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="historiography">
@@ -91,7 +90,7 @@
             <head>Editionen</head>
             <listBibl>
                <bibl/>
-               <bibl>Migne, PL 200, Sp. 90, Nr. 20</bibl><bibl>Admonter Briefsammlung, Nr. 53</bibl>
+               <bibl>Migne, PL 200, Sp. 90, Nr. 20</bibl><bibl>Admonter Briefsammlung, S. Nr. 53</bibl>
             </listBibl>
          </div>
          <div type="regesta">
