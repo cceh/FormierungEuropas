@@ -3,8 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Germ.Pont. 1, S. 27, Nr. 85</title>
-            <respStmt><resp>Datenquelle</resp><persName>Germ.Pont. 1, S. 27, Nr. 85</persName></respStmt>
+            <title>fe_00199</title><respStmt><resp>Datenquelle</resp><persName>Germ.Pont. 1, S. 27, Nr. 85</persName></respStmt>
             <respStmt><resp when="2026">Encoding</resp><persName>JM</persName></respStmt>
          </titleStmt>
          <publicationStmt>
@@ -19,7 +18,7 @@
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
                <p><authen type="formula" n="na">
-                     <p>[*+?-]</p>
+                     <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
                <issued><placeName>Anagni</placeName><date type="issued" notBefore="1160-04-04" notAfter="1160-04-04">04 April (1160)</date>
