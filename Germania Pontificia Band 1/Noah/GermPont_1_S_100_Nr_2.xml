@@ -62,10 +62,7 @@
                   <item>Datum Tusculani per manum Gratiani sancte Romane ecclesie subdiaconi et notarii, IIII. idus Februarii, indictione IIII., incarnationis dominice anno M.C.LXXX, pontificatus uero domini Alexandri pape iii. anno duodecimo.</item>
                </list></diploPart>
          </div>
-         <div>
-            <head>Datatio</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
-         </div>
+         <div><head>Datatio</head><diploPart type="subscriptio" xml:lang="lat">Datum Tusculani per manum Gratiani sancte Romane ecclesie subdiaconi et notarii, IIII. idus Februarii, indictione IIII., incarnationis dominice anno M.C.LXXX, pontificatus uero domini Alexandri pape iii. anno duodecimo</diploPart></div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
