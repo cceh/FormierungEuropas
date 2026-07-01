@@ -5,10 +5,7 @@
          <titleStmt>
             <title>Germ.Pont. 1, S. 27, Nr. 85</title>
             <respStmt><resp>Datenquelle</resp><persName>JM</persName></respStmt>
-            <respStmt>
-               <resp when="2026">Encoding</resp>
-               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
-            </respStmt>
+            <respStmt><resp when="2026">Encoding</resp><persName>JM</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
