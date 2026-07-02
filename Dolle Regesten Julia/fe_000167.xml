@@ -4,7 +4,7 @@
 <TEI source="dolle" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
-      <fileDesc><titleStmt><title>fe_00135</title><respStmt><resp>Die Formierung Europas</resp><persName>Dolle, PU Niedersachsen und Bremen, S. 226, Nr. 105</persName></respStmt>
+      <fileDesc><titleStmt><title>fe_00135</title><respStmt><resp>Die Formierung Europas</resp><persName>PUU Niedersachsen und Bremen, S. 226, Nr. 105</persName></respStmt>
             <respStmt><resp when="2026">Encoding</resp><persName>JB</persName></respStmt>
          </titleStmt>
          <publicationStmt>
@@ -14,7 +14,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>Dolle, PU Niedersachsen und Bremen, S. 226, Nr. 105</bibl><bibl type="jaffe">12089</bibl>
+            <bibl>PUU Niedersachsen und Bremen, S. 226, Nr. 105</bibl><bibl type="jaffe">12089</bibl>
             <bibl>[Weiteres Konkordanzregest]</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
@@ -92,7 +92,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Dolle, PU Niedersachsen und Bremen, S. 226, Nr. 105</bibl>
+               <bibl>PUU Niedersachsen und Bremen, S. 226, Nr. 105</bibl>
                <bibl>UB Hamburg I, S. 215, Nr. 237 (zu 1169)</bibl><bibl>Migne PL 200, Sp. 1270-1271, Nr. 1482 (zu 1180)</bibl>
             </listBibl>
          </div>
