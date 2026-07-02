@@ -6,10 +6,7 @@
       <fileDesc>
          <titleStmt>
             <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
-            <respStmt>
-               <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
-               <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
-            </respStmt>
+            <respStmt><resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp><persName>JP</persName></respStmt>
            <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
          </titleStmt>
          <publicationStmt>
@@ -20,8 +17,12 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>PUU England 1, S. 400-401, Nr. 131</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
-            <diploDesc><p><issued><placeName>Anagni</placeName><date type="issued" notBefore="1174-03-14" notAfter="1176-03-14">(1174—76) März 14.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
-               </issued></p>
+            <diploDesc>
+                 <p><authen type="formula" n="na">
+                  <p>-</p>
+               </authen></p>
+               <issued><placeName>Anagni</placeName><date type="issued" notBefore="1174-03-14" notAfter="1176-03-14">(1174—76) März 14.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+               </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Abtei von Rievaulx (OCist)</legalActor></p> <p> <legalActor type="recipient">Silvanus, Abt von Rievaulx</legalActor></p><p> <legalActor type="recipient">Mönche von Rievaulx</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
