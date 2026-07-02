@@ -4,7 +4,7 @@
 <TEI source="dolle" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
-      <fileDesc><titleStmt><title>fe_00144</title><respStmt><resp>Datenquelle</resp><persName>Dolle, PU Niedersachsen und Bremen, S. 239-242, Nr. 114</persName></respStmt>
+      <fileDesc><titleStmt><title>fe_00144</title><respStmt><resp>Datenquelle</resp><persName>PUU Niedersachsen und Bremen, S. 239-242, Nr. 114</persName></respStmt>
             <respStmt><resp when="2026">Encoding</resp><persName>JB</persName></respStmt>
          </titleStmt>
          <publicationStmt>
@@ -14,7 +14,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>Dolle, PU Niedersachsen und Bremen, S. 239–242, Nr. 114</bibl><bibl type="jaffe">13620</bibl>
+            <bibl>PUU Niedersachsen und Bremen, S. 239–242, Nr. 114</bibl><bibl type="jaffe">13620</bibl>
             <bibl>[Weiteres Konkordanzregest]</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
@@ -49,7 +49,7 @@
          <div type="abstract">
             <head>Abstract</head>
             <p><legalActor type="issuer"><persName>Alexander III.</persName></legalActor> gibt wie schon sein Vorgänger Papst <persName>Innozenz II.</persName> bekannt, dass der verstorbene <persName>Reinhard, Bischof von Halberstadt</persName> ein Kanonissenstift in <placeName>Schöningen</placeName> (D. Halberstadt) aufgelöst und den Besitz dem neugegründeten <legalActor><orgName>Augustiner-Chorherrenstift</orgName></legalActor> übertragen hat, und bestätigt seine Besitzungen sowie die Augustinusregel.<list>
-                  <item>Eingeschlossen sind alle Besitzungen und Güter, die die Kirche in der Gegenwart rechtmäßig besitzt beziehungsweise in der Zukunft rechtmäßig erwerben wird, darunter einige namentlich genannten Besitzungen.</item><item>Er befreit es vom Zehnten für Neubrüche bei Eigenbau und für Tierfutter.</item><item>Er gewährt das Recht, Weltgeistliche und Laien aufzunehmen.</item><item>Er verbietet, nach Ablegung der Profess ohne die Erlaubnis des Priors das Stift zu verlassen, außer bei Übertitt zur vita arctior, und untersagt außerdem, dass solche Abtrünnige ohne ein Beglaubigungsschreiben der Gemeinschaft bei sich aufgenommen werden dürfen.</item><item>Er befreit das Stift vom allgemeinen Interdikt.</item><item>Er garantiert die freie Wahl des Propstes gemäß der Augustinusregel und das freie Begräbnisrecht.</item><item>Schlussformeln: Perturbationsverbot, Sanctio negativa und positiva</item>
+                  <item>Eingeschlossen sind alle Besitzungen und Güter, die die Kirche in der Gegenwart rechtmäßig besitzt beziehungsweise in der Zukunft rechtmäßig erwerben wird, darunter einige namentlich genannten Besitzungen.</item><item>Er befreit es vom Zehnten für Neubrüche bei Eigenbau und für Tierfutter.</item><item>Er gewährt das Recht, Weltgeistliche und Laien aufzunehmen.</item><item>Er verbietet, nach Ablegung der Profess ohne die Erlaubnis des Priors das Stift zu verlassen, außer bei Übertritt zur strengeren Lebensweise (vita arctior, und untersagt außerdem, dass solche Abtrünnige ohne ein Beglaubigungsschreiben der Gemeinschaft bei sich aufgenommen werden dürfen.</item><item>Er befreit das Stift vom allgemeinen Interdikt.</item><item>Er garantiert die freie Wahl des Propstes gemäß der Augustinusregel und das freie Begräbnisrecht.</item><item>Schlussformeln: Perturbationsverbot, Sanctio negativa und positiva</item>
                </list></p>
          </div>
 
