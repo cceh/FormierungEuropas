@@ -4,7 +4,7 @@
 <TEI source="dolle" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
-      <fileDesc><titleStmt><title>fe_00138</title><respStmt><resp>Datenquelle</resp><persName>Dolle, PU Niedersachsen und Bremen, S. 229-230, Nr. 108</persName></respStmt>
+      <fileDesc><titleStmt><title>fe_00138</title><respStmt><resp>Datenquelle</resp><persName>PUU Niedersachsen und Bremen, S. 229-230, Nr. 108</persName></respStmt>
             <respStmt><resp when="2026">Encoding</resp><persName>JB</persName></respStmt>
          </titleStmt>
          <publicationStmt>
@@ -14,7 +14,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>Dolle, PU Niedersachsen und Bremen, S. 229–230, Nr. 108</bibl><bibl type="jaffe">13062</bibl>
+            <bibl>PUU Niedersachsen und Bremen, S. 229–230, Nr. 108</bibl><bibl type="jaffe">13062</bibl>
             <bibl>[Weiteres Konkordanzregest]</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
@@ -92,7 +92,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Dolle, PU Niedersachsen und Bremen, S. 229–230, Nr. 108</bibl>
+               <bibl>PUU Niedersachsen und Bremen, S. 229–230, Nr. 108</bibl>
                <bibl>UB Hamburg I, S. 228, Nr. 250 (zu 1169-1181)</bibl><bibl>Migne PL 200, Sp. 1175, Nr. 1350</bibl>
             </listBibl>
          </div>
