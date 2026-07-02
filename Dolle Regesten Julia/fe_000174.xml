@@ -4,7 +4,7 @@
 <TEI source="dolle" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
-      <fileDesc><titleStmt><title>fe_00142</title><respStmt><resp>Datenquelle</resp><persName>Dolle, PU Niedersachsen und Bremen, S. 234-236, Nr. 112</persName></respStmt>
+      <fileDesc><titleStmt><title>fe_00142</title><respStmt><resp>Datenquelle</resp><persName>PUU Niedersachsen und Bremen, S. 234-236, Nr. 112</persName></respStmt>
             <respStmt><resp when="2026">Encoding</resp><persName>JB</persName></respStmt>
          </titleStmt>
          <publicationStmt>
@@ -14,7 +14,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>Dolle, PU Niedersachsen und Bremen, S. 234–236, Nr. 112</bibl><bibl type="jaffe">13426</bibl>
+            <bibl>PUU Niedersachsen und Bremen, S. 234–236, Nr. 112</bibl><bibl type="jaffe">13426</bibl>
             <bibl>Germ. Pont. 6, S. 100, Nr. 2</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
@@ -69,7 +69,7 @@
             <div>
                <listBibl>
                   <bibl type="original">Staatsarchiv Bremen, 1-45-46 ( St. Willehadi-Stephani-Kapitel und St.-Stephani-Kirche), Nr. 1 (A).</bibl>
-                  <bibl type="msCopy">Staats- und Universitätsbibliothek Bremen, Ms a44 (Regula capituli s. Willehadi), p. 160-162, 14. Jh. (B). Zur kopialen Überlieferung vgl. Dolle, PU Niedersachsen und Bremen, S. 234.</bibl>
+                  <bibl type="msCopy">Staats- und Universitätsbibliothek Bremen, Ms a44 (Regula capituli s. Willehadi), p. 160-162, 14. Jh. (B). Zur kopialen Überlieferung vgl. PUU Niedersachsen und Bremen, S. 234.</bibl>
                   <bibl type="print"/>
                </listBibl>
             </div>
@@ -91,7 +91,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Dolle, PU Niedersachsen und Bremen, S. 234–236, Nr. 112</bibl>
+               <bibl>PUU Niedersachsen und Bremen, S. 234–236, Nr. 112</bibl>
                <bibl>UB Hamburg I, S. 222-224, Nr. 246</bibl><bibl>UB Bremen I, S. 59-62, Nr. 5</bibl><bibl>Migne PL 200, Sp. 1238-1240, Nr. 1425</bibl>
             </listBibl>
          </div>
