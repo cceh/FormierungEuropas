@@ -12,11 +12,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>Germ.Pont. 1, S. 26, Nr. 83</bibl><bibl type="jaffe">10445</bibl>
-            <bibl>[Weiteres Konkordanzregest]</bibl>
-            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
-            <diploDesc>
-               <p><authen type="formula" n="na">
-                     <p>[*+?-]</p>
+            <diploDesc><p><authen type="formula" n="na"><p>[-]</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
                <issued><placeName>–</placeName><date type="issued" notBefore="1159-01-01" notAfter="1164-12-31">(1159-1164)</date>
