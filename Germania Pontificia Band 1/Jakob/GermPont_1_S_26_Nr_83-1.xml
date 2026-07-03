@@ -58,9 +58,9 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">Paris, Bibliothèque national de France, ms. lat. 14664, f. 151r–v https://gallica.bnf.fr/ark:/12148/btv1b9067123g/f155.item</bibl><bibl type="msCopy">London, British Library, Royal MS 10 A II., fol. 10</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="original">-</bibl>
+                  <bibl type="msCopy">Paris, Bibliothèque national de France, ms. lat. 14664, f. 151r–v https://gallica.bnf.fr/ark:/12148/btv1b9067123g/f155.item</bibl><bibl type="msCopy">London, British Library, Royal MS 10 A II., fol. 10</bibl><bibl type="msCopy">Leipzig, Universitätsbibliothek, Ms 1242</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
