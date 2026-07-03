@@ -41,7 +41,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>Alexander III. antwortet dem Erzbischof von Salzburg, dass Ehen von Knechten, die gegen deren Willen und im Widerspruch zu den Wünschen ihrer Herren geschlossen werden, nach kirchlichem Recht unter keinen Umständen aufgelöst werden dürfen.<list>
+            <p>Alexander III. antwortet auf dieErzbischof von Salzburg, dass Ehen von Knechten, die gegen deren Willen und im Widerspruch zu den Wünschen ihrer Herren geschlossen werden, nach kirchlichem Recht unter keinen Umständen aufgelöst werden dürfen.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
@@ -50,13 +50,10 @@
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+                  <item>-</item>
                </list></diploPart>
          </div>
-         <div>
-            <head>Datatio</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
-         </div>
+         <div><head>Datatio</head><diploPart type="datatio">-</diploPart></div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
