@@ -48,14 +48,13 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor><persName>Alexander III.</persName> </legalActor>nimmt das <legalActor>Augustiner-Chorfrauenstift Obernkirchen</legalActor> (D. Minden) unter Propst Heinrich in den apostolischen Schutz und bestätigt seine gegenwärtigen sowie zukünftigen Besitzungen.<list>
+            <p><legalActor><persName>Alexander III.</persName> </legalActor>nimmt das <legalActor><orgName>Augustiner-Chorfrauenstift Obernkirchen</orgName></legalActor> (D. Minden) unter <persName>Propst Heinrich</persName> in den apostolischen Schutz und bestätigt seine gegenwärtigen sowie zukünftigen Besitzungen.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
 
          <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+            <head>Incipit</head><diploPart type="incipit" xml:lang="lat">Apostolice sedis auctoritas nos inducit</diploPart>
          </div>
          <div>
             <head>Subscriptiones</head>
