@@ -50,10 +50,7 @@
                </list></p>
          </div>
 
-         <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
-         </div>
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Dignum est</diploPart></div>
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
@@ -80,8 +77,7 @@
                <bibl>Decretalium D. Gregorii Papae compilatio, lib. 4, tit. 9, cap. 1 https://archive.org/details/CorpusIurisCanoniciIAemiliusFriedberg1959/Corpus%20Iuris%20Canonici%20II%20%5BAemilius%20Friedberg%201959%5D/page/691/mode/1up</bibl>
                </listBibl></div><div type="historiography"><head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
-               <bibl>[Quelle 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="editions">
