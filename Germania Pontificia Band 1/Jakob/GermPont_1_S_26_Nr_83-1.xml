@@ -62,7 +62,7 @@
             <div>
                <listBibl>
                   <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">Paris, Bibliothèque national de France, ms. lat. 14664, f. 151r–v https://gallica.bnf.fr/ark:/12148/btv1b9067123g/f155.item</bibl><bibl type="msCopy">London, British Library, Royal MS 10 A II.</bibl>
+                  <bibl type="msCopy">Paris, Bibliothèque national de France, ms. lat. 14664, f. 151r–v https://gallica.bnf.fr/ark:/12148/btv1b9067123g/f155.item</bibl><bibl type="msCopy">London, British Library, Royal MS 10 A II., </bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
             </div>
@@ -108,7 +108,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>Stand 3. Juli 2026 ist die Londoner Handschrift noch nicht digitalisiert zugänglich. Das digitale Archiv der British Library könnte das </p>
+            <p>Stand 3. Juli 2026 ist die Londoner Handschrift noch nicht digitalisiert zugänglich. Das digitale Archiv der British Library könnte das Digitalisat aber irgendwann in diesem Daten https://searcharchives.bl.uk/catalog/040-002106484 hochladen.</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
