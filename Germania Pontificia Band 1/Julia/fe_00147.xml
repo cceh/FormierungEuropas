@@ -30,7 +30,7 @@
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Urkunde eines nicht-päpstlichen Ausstellers, Deperditum</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">Administration, Diözesen</objectType></p><p><objectType n="">Beauftragung durch Alexander III.</objectType></p>
+               <p><objectType n="">Juristisches, neues Recht</objectType></p><p><objectType n="">Beauftragung durch Alexander III.</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
@@ -48,7 +48,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>Julius, Kardinalbischof von Palestina, und Petrus, Kardinaldiakon von Sant'Eustachio führen als päpstliche Legaten Beremund, Graf von Cornwall, ein, der mit seinem Gefolge die Gebäude in bezieht, bis die in Seitz errichtet sind.<list>
+            <p>Julius, Kardinalbischof von Palestina, und Petrus, Kardinaldiakon von Sant'Eustachio führen als päpstliche Legaten Beremund, Graf von Cornwall, ein, der mit seinen Mönchen zunächst m Gefolge die Gebäude in bezieht, bis die in Seitz errichtet sind.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
