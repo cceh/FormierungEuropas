@@ -4,7 +4,7 @@
 <TEI source="dolle" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
-      <fileDesc><titleStmt><title>fe_00139</title><respStmt><resp>Datenquelle</resp><persName>Dolle, PU Niedersachsen und Bremen, S. 230, Nr. 109</persName></respStmt>
+      <fileDesc><titleStmt><title>fe_00139</title><respStmt><resp>Datenquelle</resp><persName>PUU Niedersachsen und Bremen, S. 230, Nr. 109</persName></respStmt>
             <respStmt><resp when="2026">Encoding</resp><persName>JB</persName></respStmt>
          </titleStmt>
          <publicationStmt>
@@ -14,7 +14,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>Dolle, PU Niedersachsen und Bremen, S. 230, Nr. 109</bibl><bibl type="jaffe">13266</bibl>
+            <bibl>PUU Niedersachsen und Bremen, S. 230, Nr. 109</bibl><bibl type="jaffe">13266</bibl>
             <bibl>[Weiteres Konkordanzregest]</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc><p><authen type="formula" n="na">
@@ -60,7 +60,7 @@
             <div>
                <listBibl>
                   <bibl type="original">Niedersächsisches Landesarchiv, Standort Wolfenbüttel, 12 Urk 9 (A); Digitalisat verfügbar unter: https://urkundenrepositorium.uni-marburg.de/entities/urkunde/1cd2c3a2-5925-4fd2-b970-91d72122dcc1</bibl>
-                  <bibl type="msCopy">Landesarchiv Nordrhein-Westfalen, Abteilung Rheinland, Werden Rep. u. Hs 10 fol. 40r (B); Niedersächsisches Landesarchiv, Standort Wolfenbüttel, VII B Hs 91 fol. 249v-250r (C). Zur handschriftlichen Überlieferung vgl. Dolle, PU Niedersachsen und Bremen, S. 230.</bibl>
+                  <bibl type="msCopy">Landesarchiv Nordrhein-Westfalen, Abteilung Rheinland, Werden Rep. u. Hs 10 fol. 40r (B); Niedersächsisches Landesarchiv, Standort Wolfenbüttel, VII B Hs 91 fol. 249v-250r (C). Zur handschriftlichen Überlieferung vgl. PUU Niedersachsen und Bremen, S. 230.</bibl>
                   <bibl type="print"/>
                </listBibl>
             </div>
@@ -82,7 +82,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Dolle, PU Niedersachsen und Bremen, S. 230, Nr. 109</bibl><bibl>PUU Westfalens I, S. 48, Nr. 127</bibl>
+               <bibl>PUU Niedersachsen und Bremen, S. 230, Nr. 109</bibl><bibl>PUU Westfalens I, S. 48, Nr. 127</bibl>
                <bibl>Pflugk-Harttung, Acta I, S. 268, Nr. 299</bibl>
             </listBibl>
          </div>

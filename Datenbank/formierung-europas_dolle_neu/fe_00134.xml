@@ -4,7 +4,7 @@
 <TEI source="dolle" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
-      <fileDesc><titleStmt><title>fe_00134</title><respStmt><resp>Die Formierung Europas</resp><persName>Dolle, PU Niedersachsen und Bremen, S. 224-225, Nr. 104</persName></respStmt>
+      <fileDesc><titleStmt><title>fe_00134</title><respStmt><resp>Die Formierung Europas</resp><persName>PUU Niedersachsen und Bremen, S. 224-225, Nr. 104</persName></respStmt>
             <respStmt><resp when="2026">Encoding</resp><persName>JB</persName></respStmt>
          </titleStmt>
          <publicationStmt>
@@ -14,7 +14,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>Dolle, PU Niedersachsen und Bremen, S. 224–225, Nr. 104</bibl><bibl type="jaffe">10760</bibl>
+            <bibl>PUU Niedersachsen und Bremen, S. 224–225, Nr. 104</bibl><bibl type="jaffe">10760</bibl>
             <bibl>[Weiteres Konkordanzregest]</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
@@ -68,7 +68,7 @@
             <div>
                <listBibl>
                   <bibl type="original">-</bibl>
-                  <bibl type="msCopy">Hannover, Niedersächsisches Landesarchiv, Cal. Or. 100 Weende Nr. 133/1 ( B ) als Transsumpt in der Urkunde des Notars Bertold byme Se vom 30. September 1380 mit Nachzeichnung von Rota, Bene Valete und den Unterschriften (vgl. Dolle, PU Niedersachsen und Bremen, S. 224); SUB Göttingen, Hist 1 XXX fol. 78 r -79 v ( C ).</bibl>
+                  <bibl type="msCopy">Hannover, Niedersächsisches Landesarchiv, Cal. Or. 100 Weende Nr. 133/1 ( B ) als Transsumpt in der Urkunde des Notars Bertold byme Se vom 30. September 1380 mit Nachzeichnung von Rota, Bene Valete und den Unterschriften (vgl. PUU Niedersachsen und Bremen, S. 224); SUB Göttingen, Hist 1 XXX fol. 78 r -79 v ( C ).</bibl>
                   <bibl type="print"/>
                </listBibl>
             </div>
@@ -90,7 +90,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Dolle, PU Niedersachsen und Bremen, S. 224–225, Nr. 104</bibl>
+               <bibl>PUU Niedersachsen und Bremen, S. 224–225, Nr. 104</bibl>
                <bibl>UB Weende, S. 35-36, Nr. 1</bibl><bibl>Grotefend, Beiträge, S. 163, Nr. 2</bibl>
             </listBibl>
          </div>
@@ -104,7 +104,7 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Der Urkundenbestand des Augustiner-Chorfrauenstifts Nikolausberg, das zwischen 1180 und 1184 nach Weende bei Göttingen verlegt wurde, gelangte zunächst an die Universität Helmstedt und im 17. Jahrhundert ins Landesarchiv Hannover. Das vorliegende feierliche Privileg Alexanders III. hat sich im Urkundenbestand des Stifts Weende (Cal. Or. 100) nur als Transsumpt in einer Notarsurkunde vom 30. September 1380 mit Nachzeichnung von Rota, Bene Valete und den Kardinalsunterschriften erhalten (vgl. Dolle, PU Niedersachsen und Bremen, S. 224). </p>
+               <p>Der Urkundenbestand des Augustiner-Chorfrauenstifts Nikolausberg, das zwischen 1180 und 1184 nach Weende bei Göttingen verlegt wurde, gelangte zunächst an die Universität Helmstedt und im 17. Jahrhundert ins Landesarchiv Hannover. Das vorliegende feierliche Privileg Alexanders III. hat sich im Urkundenbestand des Stifts Weende (Cal. Or. 100) nur als Transsumpt in einer Notarsurkunde vom 30. September 1380 mit Nachzeichnung von Rota, Bene Valete und den Kardinalsunterschriften erhalten (vgl. PUU Niedersachsen und Bremen, S. 224). </p>
             </diploDesc>
          </div>
          <div type="commentary">

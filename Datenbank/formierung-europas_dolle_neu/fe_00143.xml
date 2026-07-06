@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI source="dolle" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc><titleStmt><title>fe_00143</title><respStmt><resp>Datenquelle</resp><persName>PUU Niedersachsen und Bremen, S. 237-239, Nr. 113</persName></respStmt>
+            <respStmt><resp when="2026">Encoding</resp><persName>JB</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>PUU Niedersachsen und Bremen, S. 237–239, Nr. 113</bibl><bibl type="jaffe">13451</bibl>
+            <bibl>[Weiteres Konkordanzregest]</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>-</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Tusculum</placeName><date type="issued" notBefore="1179-07-08" notAfter="1179-07-08">1179, Juli 8</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p><legalActor type="recipient">Benediktinerkloster St. Ägidien in Braunschweig</legalActor></p><p><legalActor type="recipient">Renger, Elekt des Benediktinerklosters St. Ägidien</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">Juristisches, Rechtsbestätigungen</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p><legalActor><persName>Alexander III.</persName></legalActor> nimmt das <legalActor><orgName>Benediktinerkloster St. Ägidien</orgName></legalActor> in Braunschweig (D. Halberstadt) unter dem <persName>Elekten Renger</persName> in den apostolischen Schutz und bestätigt seine Besitzungen. <list>
+                  <item>Eingeschlossen sind alle Besitzungen und Güter, die die Kirche in der Gegenwart rechtmäßig besitzt beziehungsweise in der Zukunft rechtmäßig erwerben wird, darunter einige namentlich genannte Besitzungen.</item><item>Er befreit es vom Zehnten für Neubrüche bei Eigenbau und für Tierfutter.</item><item>Er gewährt die freie und ungehinderte Aufnahme von Klerikern und Laien, die der Welt entfliehen wollen.</item><item>Er befreit das Stift vom allgemeinen Interdikt und garantiert das Begräbnisrecht.</item><item>Schlussformeln: Perturbationsverbot, Sanctio negativa und positiva</item><item/>
+               </list></p>
+         </div>
+
+         <div>
+            <head>Incipit</head><diploPart type="incipit" xml:lang="lat">Religiosam vitam eligentibus apostolicum convenit</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>(R.) Ego <persName>Alexander catholice ecclesie episcopus</persName> subscripsi. (BV.)</item><item>Ego <persName>Hubaldus Host[iensis e]piscopus</persName> subscripsi. </item><item>Ego <persName>Theodinus Portuensis et sanct[e] R[ufine] episcopus</persName> subscripsi. </item><item>Ego <persName>Henricus Albanensis episcopus</persName> subscripsi. </item><item>Ego <persName>Berneredus Prenestinus episcopus</persName> subscripsi. </item><item>Ego <persName>Iohannes presbyter cardinalis sanctorum Iohannis et Pauli tituli Pamachii</persName> subscripsi. </item><item>Ego <persName>Petrus presbyter cardinalis tituli sancte Susanne</persName> subscripsi. </item><item>Ego <persName>Vivianus presbyter cardinalis tituli sancti Stephani in Celio monte</persName> subscripsi.</item><item>Ego <persName>Hugo presbyter cardinalis tituli sancti Clementis</persName> subscripsi.</item><item>Ego <persName>Arduinus presbyter cardinalis tituli sancte Crucis in Ierusalem</persName> subscripsi. </item><item>Ego <persName>Matheus presbyter cardinalis tituli sancti Marcelli</persName> subscripsi. </item><item>Ego <persName>Iac(intus) diaconus cardinalis sancte Marie in Cosmidyn</persName> subscripsi. </item><item>Ego <persName>Ardicio diaconus cardinalis sancti Theodori</persName> subscripsi.</item><item>Ego <persName>Laborans diaconus cardinalis sancte Marie in Porticu</persName> subscripsi. </item><item>Ego <persName>Gratianus diaconus cardinalis sanctorum Cosme et Damiani</persName> subscripsi. </item><item>Ego <persName>Iohannes diaconus cardinalis sancti Angeli</persName> subscripsi. </item><item>Ego <persName>Matheus sancte Marie Nove diaconus cardinalis</persName> subscripsi.</item><item>Ego <persName>Bernardus diaconus cardinalis sancti Nycolai in carcere Tulliano</persName> subscripsi.</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head><diploPart type="datatio">Dat. Tusculani per manum <persName>Dauferi sancte Romane ecclesie subdiaconi</persName>, VIII idus iulii, indictione XII, incarnationis dominice anno MCLXXVIIII, pontificatus vero domini Alexandri pape III anno XX.</diploPart>
+         </div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">Niedersächsisches Landesarchiv, Abteilung Wolfenbüttel, 9 Urk 5 (A); digital verfügbar unter: https://urkundenrepositorium.uni-marburg.de/entities/urkunde/cb97978a-19fa-4f99-8088-d836fd9654ea </bibl>
+                  <bibl type="msCopy">Niedersächsisches Landesarchiv, Abteilung Wolfenbüttel, 9 Urk 5, beiliegend (B), im nicht besiegelten Vidimus der Dekane Engelbert von St. Blasius und Friedrich von St. Cyriacus in Braunschweig, undatiert, 1316-1332. Zur kopialen Überlieferung vgl. PUU Niedersachsen und Bremen, S. 237.</bibl>
+                  <bibl type="print"/>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>-</bibl>
+               <bibl/>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>-</bibl>
+               <bibl/>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>PUU Niedersachsen und Bremen, S. 237–239, Nr. 113</bibl>
+               <bibl>Schneidmüller, Beiträge, S. 55</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL 13451</bibl>
+               <bibl>Germ. Pont. 5,2, S. 428-429, Nr. 2</bibl><bibl>UB Braunschweig II, S. 9, Nr. 21 </bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>Rota vorhanden, Inschrift: sanctus Petrus/sanctus Paulus/Alexa/nder/papa/III, Devise: Vias tuas, domine, demontra michi. Bene valete vorhanden. Bulle an roten und gelben Seidenfäden. Aufschrift auf der Aversseite: Alex/ander papa III, auf der Reversseite sind die bekannten Köpfe der Apostelfürsten Petrus und Paulus abgebildet. Feuchtigkeitsschäden und Löcher im Pergament mit Textverlust. Rückvermerke (14. Jh.): De confirmatione bonorum (andere gleichzeitige Hand): Allexandri pape. Abbildungen der Bulle finden sich in: Serafini, Le monete, I S. 27, Abb. H 10; Schoknecht, Urkunde Papst Alexanders III., S. 380; Fees/Roberg, Digitale Urkundenbilder IV, Taf. 19. </p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Durch das vorliegende Privileg Alexanders III. werden die Besitzungen des Klosters seit Gründung bestätigt. Das hier zugrundeliegende Urkundenformular wie auch die Arenga <diploPart type="incipit" xml:lang="lat">Religiosam vitam eligentibus apostolicum convenit</diploPart> wird von der Kanzlei Alexanders III. sonst eher für Zisterzienserklöster und Regularkanonikerstifte verwendet. Vgl. <bibl>Schneidmüller, Beiträge, S. 41-58</bibl>.</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>Schneidmüller, Beiträge, S. 41-58</bibl>
+               <bibl>Bischoff, Urkundenformate, S. 139</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>x x x Alexander episcopus servus servorum dei dilectis filiis Rengero electo monasterii sancte Marie et beati Egidii in Bruneswich eiusque fratribus tam presentibus quam futuris regularem vitam professis in perpetuum. x x x Religiosam vitam eligentibus apostolicum convenit adesse presidium, ne forte cuiuslibet temeritatis incursus aut [e]os a proposito revocet aut robur, quod absit, sacre religionis enervet. Eapropter, dilecti in domino filii, vestris iustis postulationibus clementer annuimus et monaste- rium vestrum, in quo divino mancipati estis obsequio, sub beati Petri et nostra protec- tione suscipimus et presentis scripti privilegio communimus statuentes, ut [q]uascum- que possessiones, quecumque bona idem monasterium impresentiarum rationabiliter possidet aut in futurum concessione pontificum, largitione regum vel principum, oblatione fidelium seu aliis iustis modis prestante domino poterit adipisci, firma vobis vestrisque successoribus et illibata pemaneant, in quibus hec propriis duximus exprimenda vocabulis: locum ipsum, in quo monasterium vestrum consistit Brunes- wich, cum omnibus suis edificiis et mancipiis utriusque sexus, molendinis, areis, agris, ortis, silvis et pratis adiacentibus, ecclesiam sancti Magni, ecclesiam sancti Nicholai in eod[em vi]co cum earum parrochiis et dotibus omnibusque aliis pertinentiis, eccle siam in Rohtna cum omnibus suis pertinen[tiis], in eadem villa curtim fratrum usibus deputatam, M[ortorp curtim] cum agris, pratis et silvis, ecclesiam in Erikeroth cum suis pertinentiis et curtim ibidem cum mancipiis utriusque sexus, agris, quoque silvis, pratis et pascuis, molendinis aqua[rumque me]atibus, ecclesiam in Lellenen cum suis pertinentiis et curtim ibidem cum mancipiis utriusque sexus, agris, quoque silvis et pascuis, ecclesiam in Valleberch cum suis pertinentiis et curtim [ib]dem cum mancipiis utriusque sexus aliisque pluribus pertinentiis in silvis, pratis, pascuis et agris, e quibus quatuor mansi cum ipsa curte non solvunt decimam, in Algotesthorp curtim cum mancipiis utriusque sexus, agris, quoque pratis et silvis et molendinum ibidem, in Hesekestorp, in Wackerslove, in Sehaisen, in Sulinge, in Crelinge, in Tvif- linge, in Beiersteide, in Budenstide, in Ronstide, in Suntstide, in Scoderstide, in Hukelem, in Suthrem, in Adenheim, in Caltbechte, in Lechide, Themaringeroht, in Taruttethe, in Machtersheim, in Tinberlo, in Brotseim, in Elsethe, in Eiquarde, in Merem, in Edenhusen, in Widenhusen, in Wirite, in Volcmarstorp, in Selestorp, in Selesken, in Svalenthorp, in Tewileken quoslibet redditus stipendiorum vestrorum, in Linden curtim cum pertinentiis agrorum, pratorum et silvarum, in Berclinge cur- tim cum suis pertinentiis, in Stochem, in Limbeke, in Meinolveroht curtes cum suis attinentiis, villam Ededesheim, villam Edezardesbutle cum suis attinentiis tam in agris quam in pratis, pascuis et nemoribus, in Lochtenhusen curtim cum suis attinen- tiis tam in mancipiis quam in agris, pratis, pascuis et nemoribus, in Eilstringe curtim cum mancipiis, agris, pratis et silvis, in Burchwide domum unam cum agris et pascuis, in Dannebutle domum unam cum pertinentiis agrorum, pratorum et nemorum, in Honloge areas, agros, silvas et pascua. Agros quoque mancipia, molendina, areas, silvas, prata, salinas, piscationes et redditus seu possessiones alias, ubicumque ipsas iuste possidetis, vobis et eidem monasterio, sicut easdem possessiones et redditus ratio- nabiliter possidere dinoscimini, nichilominus confirmamus. Sane novalium vestro- rum, que propriis manibus vel sumptibus colitis, sive de nutrimentis animalium vestrorum nullus a vobis decimas presumat exigere. Liceat quoque vobis clericos et laicos e seculo fugientes liberos et a[bsol]utos ad conversionem recipere et eos absque ullius contradictione in vestro collegio retinere. Cum autem generale interdictum terre fuerit, liceat vobis clausis ianuis, expulsis excommunicatis et interdict[is], non pulsatis campanis, subpressa voce divina officia celebrare. Sepulturam preterea eius- dem loci liberam esse decernimus, ut eorum devotioni et extreme voluntati, qui se illic sepelire deliberaverint, nisi forte excommunica[ti vel in]terdicti sint, nullus obsistat salva tamen iusticia illarum ecclesiarum, a quibus mortuorum corpora assu- muntur . Decernimus ergo, ut nulli omnino hominum liceat prefatum monasterium temere perturbare a[ut] eius possessiones auferre vel ablatas retinere, minuere seu quibuslibet vexationibus fatigare, sed omnia integra conserventur eorum, pro quo- rum gubernatione ac substentacione concessa sunt usibus omnimodis profutura, salva sedis apostolice auctoritate et diocesani episcopi canonica iusticia. Si qua igitur in futurum ecclesiastica secularisve persona hanc nostre constitutionis paginam sciens contra eam temere venire temptaverit, secundo terciove commonita, nisi reatum suum digna satisfactione correxerit, potestatis honorisque sui dignitate careat ream que se divino iudicio existere de perpetrata iniquitate cognoscat et a sacratissimo corpore ac sanguine dei ac domini redemptoris nostri Iesu Christi aliena fiat atque in extremo examine districte ulcioni s[ubiac]eat. Cunctis autem eidem loco sua iura servantibus sit pax domini nostri Iesu Christi, quatinus et hic fructum bone actionis percipiant et apud districtum iudicem premia eterne pacis inveniant. x x x Amen. Amen. Amen. x x x (R.) Ego Alexander catholice ecclesie episcopus subscripsi. (M.) † Ego Hubaldus Host[iensis e]piscopus subscripsi. † Ego Theodinus Portuensis et sanct[e] R[ufine] episcopus subscripsi. † Ego Henricus Albanensis episcopus subscripsi. † Ego Berneredus Prenestinus episcopus subscripsi. † Ego Iohannes presbyter cardinalis sanctorum Iohannis et Pauli tituli Pamachii subscripsi. † Ego Petrus presbyter cardinalis tituli sancte Susanne subscripsi. † Ego Vivianus presbyter cardinalis tituli sancti Stephani in Celio monte subscripsi. † Ego Hugo presbyter cardinalis tituli sancti Clementis subscripsi. † Ego Arduinus presbyter cardinalis tituli sancte Crucis in Ierusalem subscripsi. † Ego Matheus presbyter cardinalis tituli sancti Marcelli subscripsi. † Ego Iac(intus) diaconus cardinalis sancte Marie in Cosmidyn subscripsi. † Ego Ardicio diaconus cardinalis sancti Theodori subscripsi. † Ego Laborans diaconus cardinalis sancte Marie in Porticu subscripsi. † Ego Gratianus diaconus cardinalis sanctorum Cosme et Damiani subscripsi. † Ego Iohannes diaconus cardinalis sancti Angeli subscripsi. † Ego Matheus sancte Marie Nove diaconus cardinalis subscripsi. † Ego Bernardus diaconus cardinalis sancti Nycolai in carcere Tulliano subscripsi. Dat. Tusculani per manum Dauferi sancte Romane ecclesie subdiaconi, VIII idus iulii, indictione XII , incarnationis dominice anno M CL XX VIIII , pontificatus vero domini Alexandri pape III anno XX .</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>

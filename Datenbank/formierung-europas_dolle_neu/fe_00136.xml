@@ -4,7 +4,7 @@
 <TEI source="dolle" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
-      <fileDesc><titleStmt><title>fe_00136</title><respStmt><resp>Datenquelle</resp><persName>Dolle, PU Niedersachsen und Bremen, S. 226-227, Nr. 106</persName></respStmt><respStmt><resp when="2026">Encoding</resp><persName>JB</persName></respStmt></titleStmt>
+      <fileDesc><titleStmt><title>fe_00136</title><respStmt><resp>Datenquelle</resp><persName>PUU Niedersachsen und Bremen, S. 226-227, Nr. 106</persName></respStmt><respStmt><resp when="2026">Encoding</resp><persName>JB</persName></respStmt></titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
             <availability>
@@ -12,7 +12,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>Dolle, PU Niedersachsen und Bremen, S. 226–227, Nr. 106</bibl><bibl type="jaffe">12908</bibl>
+            <bibl>PUU Niedersachsen und Bremen, S. 226–227, Nr. 106</bibl><bibl type="jaffe">12908</bibl>
             <bibl>[Weiteres Konkordanzregest]</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
@@ -68,7 +68,7 @@
             <div>
                <listBibl>
                   <bibl type="original">Osnabrück, Diözesanarchiv, U1 (A). Online verfügbar unter: https://urkundenrepositorium.uni-marburg.de/entities/urkunde/4a98aa81-4280-4f93-90ba-91e95a49b997</bibl>
-                  <bibl type="msCopy">Osnabrück, Diözesanarchiv, Ma 20, fol. 9r-9v (B); zur Kopialüberlieferung vgl. Dolle, PU Niedersachsen und Bremen, S. 226-227.</bibl>
+                  <bibl type="msCopy">Osnabrück, Diözesanarchiv, Ma 20, fol. 9r-9v (B); zur Kopialüberlieferung vgl. PUU Niedersachsen und Bremen, S. 226-227.</bibl>
                   <bibl type="print"/>
                </listBibl>
             </div>
@@ -90,7 +90,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Dolle, PU Niedersachsen und Bremen, S. 226–227, Nr. 106</bibl>
+               <bibl>PUU Niedersachsen und Bremen, S. 226–227, Nr. 106</bibl>
                <bibl>UB Westfalen V, S. 48, Nr. 126</bibl><bibl>UB Osnabrück I, S. 275, Nr. 344</bibl>
             </listBibl>
          </div>

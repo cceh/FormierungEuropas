@@ -4,7 +4,7 @@
 <TEI source="dolle" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
-      <fileDesc><titleStmt><title>fe_00137</title><respStmt><resp>Datenquelle</resp><persName>Dolle, PU Niedersachsen und Bremen, S. 227-229, Nr. 107</persName></respStmt>
+      <fileDesc><titleStmt><title>fe_00137</title><respStmt><resp>Datenquelle</resp><persName>PUU Niedersachsen und Bremen, S. 227-229, Nr. 107</persName></respStmt>
             <respStmt><resp when="2026">Encoding</resp><persName>JB</persName></respStmt>
          </titleStmt>
          <publicationStmt>
@@ -14,7 +14,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>Dolle, PU Niedersachsen und Bremen, S. 227–229, Nr. 107</bibl><bibl type="jaffe">13073a</bibl>
+            <bibl>PUU Niedersachsen und Bremen, S. 227–229, Nr. 107</bibl><bibl type="jaffe">13073α</bibl>
             <bibl>[Germ. Pont. 5,2, S. 142-143, Nr. 1</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc><p><authen type="formula" n="na">
@@ -39,7 +39,7 @@
          <div type="abstract">
             <head>Abstract</head>
             <p><legalActor><persName>Alexander III.</persName> </legalActor>nimmt das <legalActor><orgName>Augustiner-Chorfrauenstift Heiningen </orgName></legalActor>(D. Hildesheim) auf Bitten des <persName>Propstes Heinrich</persName> in den apostolischen Schutz und bestätigt seine Einrichtung nach der Regel des hl. Augustinus sowie seine Besitzungen.<list>
-                  <item>Eingeschlossen sind alle Besitzungen und Güter, die die Kirche in der Gegenwart rechtmäßig besitzt beziehungsweise in der Zukunft rechtmäßig erwerben wird, darunter einige namentlich genannte Besitzungen, in denen er die Bannrechte und Einkünfte aus den Zehnten regelt. </item><item>Er befreit es vom Zehnten für Neubrüche bei Eigenbau und für Tierfutter.</item><item>Er gewährt das Recht, Weltgeistliche und Laien aufzunehmen.</item><item>Er garantiert die freie Wahl des Propstes gemäß der Augustinusregel und erteilt das freie Begräbnisrecht.</item><item>Er befreit das Stift vom allgemeinen Interdikt.</item><item>Schlussformeln: Perturbationsverbot, Sanctio negativa und positiva.</item>
+                  <item>Eingeschlossen sind alle Besitzungen und Güter, die die Kirche in der Gegenwart rechtmäßig besitzt beziehungsweise in der Zukunft rechtmäßig erwerben wird, darunter einige namentlich genannte Besitzungen, in denen er die Bannrechte und Einkünfte aus den Zehnten regelt. </item><item>Er befreit es vom Zehnten für Neubrüche bei Eigenbau und für Tierfutter.</item><item>Er gewährt die freie und ungehinderte Aufnahme von Klerikern und Laien, die der Welt entfliehen wollen.</item><item>Er garantiert die freie Wahl des Propstes gemäß der Augustinusregel und erteilt das freie Begräbnisrecht.</item><item>Er befreit das Stift vom allgemeinen Interdikt.</item><item>Schlussformeln: Perturbationsverbot, Sanctio negativa und positiva.</item>
                </list></p>
          </div>
 
@@ -49,7 +49,7 @@
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>(R.) Ego Alexander catholice ecclesie episcopus subscripsi. (BV.)</item><item>Ego Hubaldus Hostiensis episcopus subscripsi.</item><item>Ego Iohannes presbyter cardinalis sanctorum Iohannis et Pauli tituli Pamachii subscripsi.</item><item>Ego Boso presbyter cardinalis sancte Pudentiane tituli Pastoris subscripsi.</item><item>Ego Petrus presbyter cardinalis tituli sancte Susanne subscripsi.</item><item>Ego Vivianus presbyter cardinalis tituli sancti Stephani in Celio monte subscripsi.</item><item>Ego Ardicio diaconus cardinalis sancti Theodori subscripsi.</item><item>Ego Cinthyus diaconus cardinalis sancti Adriani subscripsi.</item><item>Ego Hugo sancti Angeli diaconus cardinalis et cetera subscripsi.</item>
+                  <item>(R.) Ego <persName>Alexander catholice ecclesie episcopus</persName> subscripsi. (BV.)</item><item>Ego <persName>Hubaldus Hostiensis episcopus</persName> subscripsi.</item><item>Ego <persName>Iohannes presbyter cardinalis sanctorum Iohannis et Pauli tituli Pamachii</persName> subscripsi.</item><item>Ego <persName>Boso presbyter cardinalis sancte Pudentiane tituli Pastoris</persName> subscripsi.</item><item>Ego <persName>Petrus presbyter cardinalis tituli sancte Susanne</persName> subscripsi.</item><item>Ego <persName>Vivianus presbyter cardinalis tituli sancti Stephani in Celio monte</persName> subscripsi.</item><item>Ego <persName>Ardicio diaconus cardinalis sancti Theodori</persName> subscripsi.</item><item>Ego <persName>Cinthyus diaconus cardinalis sancti Adriani</persName> subscripsi.</item><item>Ego <persName>Hugo sancti Angeli diaconus cardinalis</persName> et cetera subscripsi.</item>
                </list></diploPart>
          </div>
          <div>
@@ -60,7 +60,7 @@
             <div>
                <listBibl>
                   <bibl type="original">Hildesheim, Bistumsarchiv, B VI 12 ( A ).</bibl>
-                  <bibl type="msCopy">Hildesheim, Dombibliothek, Hs 546, p. 13-15, Nr. 5 ( B ), 13. Juni 1178. Zur handschriftlichen Überlieferung vgl. Dolle, PU Niedersachsen und Bremen, S. 227.</bibl>
+                  <bibl type="msCopy">Hildesheim, Dombibliothek, Hs 546, p. 13-15, Nr. 5 ( B ), 13. Juni 1178. Zur handschriftlichen Überlieferung vgl. PUU Niedersachsen und Bremen, S. 227.</bibl>
                   <bibl type="print"/>
                </listBibl>
             </div>
@@ -82,21 +82,21 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Dolle, PU Niedersachsen und Bremen, S. 227–229, Nr. 107</bibl>
+               <bibl>PUU Niedersachsen und Bremen, S. 227–229, Nr. 107</bibl>
                <bibl>UB Hildesheim I, S. 363, Nr. 382</bibl>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head>
             <listBibl>
-               <bibl>JL 13073a (13. Juni 1178)</bibl>
+               <bibl>JL 13073α (13. Juni 1178)</bibl>
                <bibl>Germ. Pont. 5,2, S. 142-143, Nr. 1 (13. Juni 1178)</bibl><bibl> </bibl>
             </listBibl>
          </div>
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Rota vorhanden, Inschrift: sanctus Petrus/sanctus Paulus/Alexa/nder/papa/III, Devise: Vias tuas, domine, demonstra michi. Bene valete vorhanden. Bulle an gelben und roten Seidenfäden (Durchmesser: 3,3 cm). Aufschrift auf der Aversseite: Alex/ander papa III, auf der Reversseite sind die bekannten Köpfe der Apostelfürsten Petrus und Paulus abgebildet. Bei Jaffé und in der Germania Pontificia ist das vorliegende Privileg fälschlicherweise auf den 13. Juni 1178 datiert. Abbildungen der Bulle finden sich in: Fees/Roberg, Digitale Urkundenbilder IV, Taf. 19; Serafini, Le monete I, S. 27, Abb. H 10. <diploDesc/></p>
+               <p>Rota vorhanden, Inschrift: sanctus Petrus/sanctus Paulus/Alexa/nder/papa/III, Devise: Vias tuas, domine, demonstra michi. Bene valete vorhanden. Bulle an gelben und roten Seidenfäden (Durchmesser: 3,3 cm). Aufschrift auf der Aversseite: Alex/ander papa III, auf der Reversseite sind die bekannten Köpfe der Apostelfürsten Petrus und Paulus abgebildet. Bei Jaffé und in der Germania Pontificia ist das vorliegende Privileg fälschlicherweise auf den 13. Juni 1178 datiert. Abbildungen der Bulle finden sich in: Fees/Roberg, Digitale Urkundenbilder IV, Taf. 19; Serafini, Le monete I, S. 27, Abb. H 10.</p>
             </diploDesc>
          </div>
          <div type="commentary">

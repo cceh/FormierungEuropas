@@ -4,7 +4,7 @@
 <TEI source="dolle" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
-      <fileDesc><titleStmt><title>fe_00140</title><respStmt><resp>Datenquelle</resp><persName>Dolle, PU Niedersachsen und Bremen, S. 231-233, Nr. 110</persName></respStmt>
+      <fileDesc><titleStmt><title>fe_00140</title><respStmt><resp>Datenquelle</resp><persName>PUU Niedersachsen und Bremen, S. 231-233, Nr. 110</persName></respStmt>
             <respStmt><resp when="2026">Encoding</resp><persName>JB</persName></respStmt>
          </titleStmt>
          <publicationStmt>
@@ -14,7 +14,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>Dolle, PU Niedersachsen und Bremen, S. 231–233, Nr. 110</bibl><bibl type="jaffe">13278</bibl>
+            <bibl>PUU Niedersachsen und Bremen, S. 231–233, Nr. 110</bibl><bibl type="jaffe">13278</bibl>
             <bibl>[Weiteres Konkordanzregest]</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
@@ -49,7 +49,7 @@
          <div type="abstract">
             <head>Abstract</head>
             <p><legalActor><persName>Alexander III.</persName></legalActor> nimmt das <legalActor><orgName>Benediktinerkloster St. Godehard in Hildesheim</orgName></legalActor> (D. Hildesheim) unter <persName>Abt Arnold</persName> in den apostolischen Schutz, bestätigt die Ordnung, die ihm Bernhard, Bischof von Hildesheim, gegeben hat, und seine Besitzungen.<list>
-                  <item>Eingeschlossen sind alle Besitzungen und Güter, die die Kirche in der Gegenwart rechtmäßig besitzt beziehungsweise in der Zukunft rechtmäßig erwerben wird.</item><item>Er befreit es von den Zehnten für Neubrüche bei Eigenbau und für Tierfutter.</item><item>Er gewährt das Recht, Weltgeistliche und Laien aufzunehmen.</item><item>Er befreit das Stift vom allgemeinen Interdikt.</item><item>Er gewährt das Präsentationsrecht für die Eigenkirchen.</item><item>Er garantiert die freie Wahl des Abtes gemäß der Regula Benedicti und das Begräbnisrecht.</item><item>Er verbietet Eingriffe des Vogtes innerhalb des Klostergeländes.</item><item>Er bestätigt das Recht, den Vogt über die übrigen Besitzungen wählen zu dürfen.</item><item>Schlussformeln: Perturbationsverbot, Sanctio negativa und positiva.</item>
+                  <item>Eingeschlossen sind alle Besitzungen und Güter, die die Kirche in der Gegenwart rechtmäßig besitzt beziehungsweise in der Zukunft rechtmäßig erwerben wird.</item><item>Er befreit es von den Zehnten für Neubrüche bei Eigenbau und für Tierfutter.</item><item>Er gewährt die freie und ungehinderte Aufnahme von Klerikern und Laien, die der Welt entfliehen wollen.</item><item>Er befreit das Stift vom allgemeinen Interdikt.</item><item>Er gewährt das Präsentationsrecht für die Eigenkirchen.</item><item>Er garantiert die freie Wahl des Abtes gemäß der Regula Benedicti und das Begräbnisrecht.</item><item>Er verbietet Eingriffe des Vogtes innerhalb des Klostergeländes.</item><item>Er bestätigt das Recht, den Vogt über die übrigen Besitzungen wählen zu dürfen.</item><item>Schlussformeln: Perturbationsverbot, Sanctio negativa und positiva.</item>
                </list></p>
          </div>
 
@@ -70,7 +70,7 @@
             <div>
                <listBibl>
                   <bibl type="original">- (Niedersächsisches Landesarchiv, Standort, Hild. Or. 1 Hildesheim St. Godehardi Nr. 8 (A), 1943 verbrannt).</bibl>
-                  <bibl type="msCopy">Hildesheim, Bistumsarchiv, C II 17 [2] (B), im Vidimus Bischof Heinrichs von Hildesheim vom 21. Dezember 1313, mit Wiedergabe von Rota, Bene Valete und den Unterschriften. Zur handschriftlichen Überlieferung vgl. Dolle, PU Niedersachsen und Bremen, S. 231.</bibl>
+                  <bibl type="msCopy">Hildesheim, Bistumsarchiv, C II 17 [2] (B), im Vidimus Bischof Heinrichs von Hildesheim vom 21. Dezember 1313, mit Wiedergabe von Rota, Bene Valete und den Unterschriften. Zur handschriftlichen Überlieferung vgl. PUU Niedersachsen und Bremen, S. 231.</bibl>
                   <bibl type="print"/>
                </listBibl>
             </div>
@@ -92,21 +92,21 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Dolle, PU Niedersachsen und Bremen, S. 231–233, Nr. 110</bibl>
-               <bibl>UB Hildesheim I, S. 374-377, Nr. 388</bibl><bibl>Pflugk-Harttung, Acta II, S. 372-373, Nr. 425</bibl>
+               <bibl>PUU Niedersachsen und Bremen, S. 231–233, Nr. 110</bibl>
+               <bibl>UB Hochstift Hildesheim I, S. 374-377, Nr. 388</bibl><bibl>Pflugk-Harttung, Acta II, S. 372-373, Nr. 425</bibl>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head>
             <listBibl>
                <bibl>JL 13278</bibl>
-               <bibl>Germ. Pont. 5,2, S. 103-104, Nr. 4</bibl><bibl>UB Hildesheim III, S. 631-632, Nr. 2</bibl>
+               <bibl>Germ. Pont. 5,2, S. 103-104, Nr. 4</bibl><bibl>UB Hochstift Hildesheim III, S. 631-632, Nr. 2</bibl>
             </listBibl>
          </div>
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Rota vorhanden, Inschrift: sanctus Petrus/sanctus Paulus/Alexa/nder/papa/III, Devise: Vias tuas, domine, demonstra michi. Bene valete vorhanden. Bulle an gelben und roten Seidenfäden. Aufschrift auf der Aversseite: Alex/ander papa III, auf der Reversseite sind die bekannten Köpfe der Apostelfürsten Petrus und Paulus abgebildet. Die Indiktion ist falsch und hätte 11 lauten müssen. Dolle gibt die richtige Indiktion mit einem Zähler zu hoch an (vgl. Dolle, PU Niedersachsen und Bremen, S. 231).</p>
+               <p>Rota vorhanden, Inschrift: sanctus Petrus/sanctus Paulus/Alexa/nder/papa/III, Devise: Vias tuas, domine, demonstra michi. Bene valete vorhanden. Bulle an gelben und roten Seidenfäden. Aufschrift auf der Aversseite: Alex/ander papa III, auf der Reversseite sind die bekannten Köpfe der Apostelfürsten Petrus und Paulus abgebildet. Die Indiktion ist falsch, im Jahr 1179 müsste die 12. Indiktion stehen (vgl. PUU Niedersachsen und Bremen, S. 231).</p>
             </diploDesc>
          </div>
          <div type="commentary">

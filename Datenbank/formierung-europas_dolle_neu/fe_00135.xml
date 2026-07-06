@@ -4,7 +4,7 @@
 <TEI source="dolle" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
-      <fileDesc><titleStmt><title>fe_00135</title><respStmt><resp>Die Formierung Europas</resp><persName>Dolle, PU Niedersachsen und Bremen, S. 226, Nr. 105</persName></respStmt>
+      <fileDesc><titleStmt><title>fe_00135</title><respStmt><resp>Die Formierung Europas</resp><persName>PUU Niedersachsen und Bremen, S. 226, Nr. 105</persName></respStmt>
             <respStmt><resp when="2026">Encoding</resp><persName>JB</persName></respStmt>
          </titleStmt>
          <publicationStmt>
@@ -14,7 +14,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>Dolle, PU Niedersachsen und Bremen, S. 226, Nr. 105</bibl><bibl type="jaffe">12089</bibl>
+            <bibl>PUU Niedersachsen und Bremen, S. 226, Nr. 105</bibl><bibl type="jaffe">12089</bibl>
             <bibl>[Weiteres Konkordanzregest]</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
@@ -25,7 +25,7 @@
                <issued><placeName>Tusculum</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1172-06-29" precision="high" unit="cm" xml:space="default" notBefore="1171-06-29" type="issued">(1171-1172), Juni 29</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p><legalActor cert="high" type="issuer" xml:space="default">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">Domkapitel von Bremen</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, Litterae cum filo canapis</objectType></p>
@@ -70,7 +70,7 @@
             <div>
                <listBibl>
                   <bibl type="original">- (Hannover, Niedersächsisches Landesarchiv, Abteilung Stade, Rep. 1 Nr. 39 (A), 1943 verbrannt)</bibl>
-                  <bibl type="msCopy">(Hannover, Niedersächsisches Landesarchiv, Cop. II 41 fol. 61 (B), 1943 verbrannt. Zur Kopialüberlieferung vgl. Dolle, PU Niedersachsen und Bremen, S. 226.)</bibl>
+                  <bibl type="msCopy">(Hannover, Niedersächsisches Landesarchiv, Cop. II 41 fol. 61 (B), 1943 verbrannt). Zur Kopialüberlieferung vgl. PUU Niedersachsen und Bremen, S. 226.</bibl>
                   <bibl type="print"/>
                </listBibl>
             </div>
@@ -92,7 +92,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Dolle, PU Niedersachsen und Bremen, S. 226, Nr. 105</bibl>
+               <bibl>PUU Niedersachsen und Bremen, S. 226, Nr. 105</bibl>
                <bibl>UB Hamburg I, S. 215, Nr. 237 (zu 1169)</bibl><bibl>Migne PL 200, Sp. 1270-1271, Nr. 1482 (zu 1180)</bibl>
             </listBibl>
          </div>
@@ -106,7 +106,7 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p><diploDesc/>Beim vorliegenden Stück handelt es sich um eine Litterae cum filo canapis. Der Urkundenbestand des Erzstifts Bremen wurde nach Machtübernahme der Schweden 1650 von Bremen nach Stade überführt. Von dort wurden sie im Jahr 1864 in das Staatsarchiv Hannover verlegt (heute: Niedersächsisches Landesarchiv, Abteilung Stade) und beim Bombenangriff und dem folgenden Brand 1943 zerstört. Ein handschriftliches Regest mit Beschreibung der Urkunde, dem Rückvermerk (12. Jh.): Alexander de modo eligendi sowie einer Zeichnung der Bulle findet sich im Nachlass Brackmann (Pius-Stiftung für Papsturkundenforschung). Datiert nach dem Itinerar Alexanders III.</p>
+               <p><diploDesc/>Beim vorliegenden Stück handelt es sich um eine Litterae cum filo canapis. Der Urkundenbestand des Erzstifts Bremen wurde nach Machtübernahme der Schweden 1650 von Bremen nach Stade überführt. Von dort wurden sie im Jahr 1864 in das Staatsarchiv Hannover verlegt (heute: Niedersächsisches Landesarchiv, Abteilung Stade) und beim Bombenangriff und dem folgenden Brand 1943 zerstört. Ein handschriftliches Regest mit Beschreibung der Urkunde, dem Rückvermerk (12. Jh.): Alexander de modo eligendi sowie einer Zeichnung der Bulle findet sich im Nachlass Brackmann (Pius-Stiftung für Papsturkundenforschung). Datiert nach dem Itinerar Alexanders III. (vgl. PUU Niedersachsen und Bremen, S. 226).</p>
             </diploDesc>
          </div>
          <div type="commentary">
