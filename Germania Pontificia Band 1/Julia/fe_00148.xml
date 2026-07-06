@@ -48,14 +48,13 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor><persName>Alexander III.</persName> </legalActor>bittet <legalActor><persName>Ottokar IV., Markgraf der Steiermark</persName></legalActor>, um Schutz und Unterstützung bei der Errichtung ihrer Gebäude für die im Johannistal angesiedelten Mönche der Kartause Seiz (D. Gurk). <list>
+            <p><legalActor><persName>Alexander III.</persName> </legalActor>bittet <legalActor><persName>Ottokar IV., Markgraf der Steiermark</persName></legalActor>, um Schutz und Unterstützung bei der Errichtung ihrer Gebäude für die im Johannistal angesiedelten Mönche der <orgName>Kartause Seiz</orgName> (D. Gurk). <list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
 
          <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+            <head>Incipit</head><diploPart type="incipit" xml:lang="lat">-</diploPart>
          </div>
          <div>
             <head>Subscriptiones</head>
@@ -71,8 +70,8 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
+                  <bibl type="original">-</bibl>
+                  <bibl type="msCopy">Deperditum, erwähnt in [handschriftliche Kopie]</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
             </div>
