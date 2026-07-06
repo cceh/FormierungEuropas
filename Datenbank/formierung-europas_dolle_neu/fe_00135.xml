@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
-<TEI source="dolle" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<TEI source="formierung_europas_db" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
-      <fileDesc><titleStmt><title>fe_00135</title><respStmt><resp>Die Formierung Europas</resp><persName>PUU Niedersachsen und Bremen, S. 226, Nr. 105</persName></respStmt>
+      <fileDesc><titleStmt><title>fe_00135</title><respStmt><resp>Die Formierung Europas</resp><persName>JB</persName></respStmt>
             <respStmt><resp when="2026">Encoding</resp><persName>JB</persName></respStmt>
          </titleStmt>
          <publicationStmt>
