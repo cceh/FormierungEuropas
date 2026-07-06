@@ -21,7 +21,7 @@
                  <p><authen type="formula" n="na">
                   <p>-</p>
                </authen></p>
-               <issued><placeName>Anagni</placeName><date type="issued" notBefore="1174-03-14" notAfter="1176-03-14">(1174—76) März 14.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+               <issued><placeName>Anagni</placeName><date type="issued" notBefore="1174-03-14" notAfter="1176-03-14">(1174—76) Mär. 14</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Abtei von Rievaulx (OCist)</legalActor></p> <p> <legalActor type="recipient">Silvanus, Abt von Rievaulx</legalActor></p><p> <legalActor type="recipient">Mönche von Rievaulx</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
@@ -44,8 +44,7 @@
                <item>Hierzu gehören die von Bernhard von Balliol abgetretene Fischerei sowie weitere Besitzungen, die Bernhard von Balliol, Acharis von Tunstall, Heinrich von Willardeby und dessen Sohn dem Kloster übertrugen.</item><item/><item/><item> </item>
                </list>  </p>
          </div>
-         <div type="other"><head>Echtheitskriterien:</head>
-            <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
+         
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustis petentium desideriis dignum</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">Data Anagnie II idus martii.</diploPart></div>
          <div type="msSources">
