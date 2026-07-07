@@ -60,15 +60,12 @@
                   <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
                </list></diploPart>
          </div>
-         <div>
-            <head>Datatio</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
-         </div>
+         <div><head>Datatio</head><diploPart type="datatio">-</diploPart></div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">Deperditu, erwähnt in Germ. Pont. 1, S. 135, Nr. 3</bibl>
+                  <bibl type="original">Deperditum, erwähnt in Germ. Pont. 1, S. 135, Nr. 3</bibl>
                   <bibl type="msCopy">-</bibl>
                   <bibl type="print"/>
                </listBibl>
