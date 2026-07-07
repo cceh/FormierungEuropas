@@ -66,7 +66,7 @@
          <div>
             <head>Subscriptiones:</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>[R] Ego Victor catholice ecclesie episcopus subscripsi. [BV]</item><item>Ego Ubaldus episcopus Tusculanus subscripsi. </item><item>Ego Guido presbiter cardinalis tituli Calixti subscripsi. Ego Iohannes presbiter cardinalis tituli Pastoris subscripsi. Ego Umfredus presbiter cardinalis tituli sancte Susanne subscripsi.</item><item>Ego Landus diaconus sancti Angeli subscripis. Ego Gerardus diaconus cardinalis sancti Georgii ad coelum aureum subscripsi.</item>
+                  <item>[R] Ego Victor catholice ecclesie episcopus subscripsi. [BV]</item><item>Ego Ubaldus episcopus Tusculanus subscripsi. </item><item>Ego Guido presbiter cardinalis tituli Calixti subscripsi. Ego Iohannes presbiter cardinalis tituli Pastoris subscripsi. Ego Umfredus presbiter cardinalis tituli sancte Susanne subscripsi.</item><item>Ego <persName>Landus diaconus</persName> sancti Angeli subscripis. Ego <persName>Gerardus diaconus cardinalis</persName> sancti Georgii ad coelum aureum subscripsi.</item>
                </list></diploPart>
          </div>
          <div>
@@ -131,9 +131,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter"
-               lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt
-               werden]</p>
+            <p>[Bei den Subscriptiones: ]</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
