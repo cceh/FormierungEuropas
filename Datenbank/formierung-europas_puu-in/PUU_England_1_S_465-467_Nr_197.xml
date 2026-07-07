@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_puu-in"> <!-- Ordnername hier ergänzen -->
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_puu-in"> <!-- Ordnername hier ergänzen -->
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -20,24 +19,24 @@
             <bibl>PUU England 1, S. 465-467, Nr. 197</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
             <diploDesc><p><issued><placeName>[Ausstellungsort]</placeName><date type="issued" notBefore="1176-01-01" notAfter="1181-12-31">(1176—81).</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
-               <p><legalActor type="issuer">[Issuer]</legalActor></p>
-               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p> <legalActor type="recipient">Hospital St. Giles in the Fields</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
          <langUsage>
             <language ident="ger">German</language>
             <language ident="lat">Latin</language>
             <language ident="en-GB">English</language>
          </langUsage></profileDesc>
-   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+   </teiHeader>
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>AI ex ander III. nimmt das Hospital von St. Giles außerhalb Londons (St. Giles in the Fields) in den päpstlichen Schutz und be- stätigt seine Besitzungen und Bechte.</p>
+            <p>Alexander III. nimmt das Hospital von St. Giles außerhalb Londons (St. Giles in the Fields) in den päpstlichen Schutz und bestätigt seine Besitzungen und Bechte.</p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head>
             <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
@@ -82,7 +81,7 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Zur Verbesserung des herzlich schlechten Textes ist die Urkunde Heinrichs II. von (1176—88) heranzuziehen, die in demselben Char- tular fol. 5 steht; sie ist aus den Charter Rolls Edw. III a. 4 (1330) gedruckt in Cal. of Charter Rolls IV 192 f., aus dem Chartular von Burton St. Lazar&amp;apos;s in Mon. Angl. nov. ed. VII 635 n. 2. Bie Be- sitzliste lehnt sich z. T. wörtlich an die der Urkunde Heinrichs II. an, sodaß auch nahezu gleichzeitige Ausstellung angenommen werden darf; danach die Batierung.</p>
+            <p>Zur Verbesserung des herzlich schlechten Textes ist die Urkunde Heinrichs II. von (1176—88) heranzuziehen, die in demselben Char- tular fol. 5 steht; sie ist aus den Charter Rolls Edw. III a. 4 (1330) gedruckt in Cal. of Charter Rolls IV 192 f., aus dem Chartular von Burton St. Lazar's in Mon. Angl. nov. ed. VII 635 n. 2. Bie Be- sitzliste lehnt sich z. T. wörtlich an die der Urkunde Heinrichs II. an, sodaß auch nahezu gleichzeitige Ausstellung angenommen werden darf; danach die Batierung.</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
