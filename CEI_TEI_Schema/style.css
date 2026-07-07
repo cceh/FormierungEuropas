@@ -34,11 +34,14 @@ TEI {
     display: block;
     margin-top: 1.5em;
 }
-[_tag="sourceDesc"] [_tag="bibl"]::before {
+[_tag="sourceDesc"] [_tag="bibl"][type="main"]::before {
     content: "Hauptkonkordanz: "
 }
 [_tag="sourceDesc"] [_tag="bibl"][type="jaffe"]::before {
     content: "Konkordanz: JL "
+}
+[_tag="sourceDesc"] [_tag="bibl"][type="other"]::before {
+    content: "weitere Konkordanz: "
 }
 
 /* colors, italics, bold, etc. */
