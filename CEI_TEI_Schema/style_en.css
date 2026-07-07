@@ -35,7 +35,7 @@ TEI {
     margin-top: 1.5em;
 }
 [_tag="sourceDesc"] [_tag="bibl"]::before {
-    content: "Concordance: "
+    content: "Primary concordance: "
 }
 [_tag="sourceDesc"] [_tag="bibl"][type="jaffe"]::before {
     content: "Concordance: JL "
