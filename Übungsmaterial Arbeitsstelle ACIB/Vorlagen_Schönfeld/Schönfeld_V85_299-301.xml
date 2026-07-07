@@ -61,8 +61,7 @@
          </div>
 
          <div>
-            <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">[Ad hoc auctore domino cunctarum</diploPart>
+            <head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Ad hoc auctore domino cunctarum</diploPart>
          </div>
          <div>
             <head>Subscriptiones:</head>
@@ -72,7 +71,7 @@
          </div>
          <div>
             <head>Datatio:</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+            <diploPart type="datatio">[Datum Metis per manum Iohannis sancte Romane ecclesie presbiteri cardinalsi ]</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
