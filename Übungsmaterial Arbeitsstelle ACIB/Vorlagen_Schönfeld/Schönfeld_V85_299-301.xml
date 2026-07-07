@@ -33,7 +33,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
-               <p><legalActor type="recipient">S. Thiébaut in Metz</legalActor></p><p><legalActor type="recipient">Äbtissin Agn</legalActor></p>
+               <p><legalActor type="recipient">S. Thiébaut in Metz</legalActor></p><p><legalActor type="recipient">Agnes, Äbtissin von S. Glossinde in Metz</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="fe:vocab:objectType:0101">Papsturkunde, Privileg feierlich</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
