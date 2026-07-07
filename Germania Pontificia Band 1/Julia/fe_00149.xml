@@ -4,14 +4,8 @@
 <TEI source="formierung-europas_pontificia" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
-      <fileDesc><titleStmt><title>fe_00149</title><respStmt>
-               <resp>Datenquelle</resp>
-               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
-            </respStmt>
-            <respStmt>
-               <resp when="2026">Encoding</resp>
-               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
-            </respStmt>
+      <fileDesc><titleStmt><title>fe_00149</title><respStmt><resp>Datenquelle</resp><persName>JB</persName></respStmt>
+            <respStmt><resp when="2026">Encoding</resp><persName>JB</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -20,12 +14,12 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>Germ.Pont. 1, S. 135, Nr. 3</bibl><bibl type="jaffe">12794</bibl>
+            <bibl>Germ. Pont. 1, S. 135, Nr. 3</bibl><bibl type="jaffe">12794</bibl>
             <bibl>[Weiteres Konkordanzregest]</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
                <p><authen type="formula" n="na">
-                     <p>[*+?-]</p>
+                     <p>[-]</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
                <issued><placeName>Venezia</placeName><date type="issued" notBefore="1177-03-31" notAfter="1177-03-31">31 März 1177</date>
