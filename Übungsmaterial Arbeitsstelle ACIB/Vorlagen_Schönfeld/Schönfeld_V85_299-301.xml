@@ -66,7 +66,7 @@
          <div>
             <head>Subscriptiones:</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>[R] Ego <persName>Victor catholice ecclesie episcopus</persName> subscripsi. [BV]</item><item>Ego Ubaldus episcopus Tusculanus subscripsi. </item><item>Ego <persName>Guido presbiter cardinalis</persName> tituli Calixti subscripsi. Ego <persName>Iohannes presbiter cardinalis</persName> tituli Pastoris subscripsi. Ego <persName>Umfredus presbiter cardinalis</persName> tituli sancte Susanne subscripsi.</item><item>Ego <persName>Landus diaconus</persName> sancti Angeli subscripis. Ego <persName>Gerardus diaconus cardinalis</persName> sancti Georgii ad coelum aureum subscripsi.</item>
+                  <item>[R] Ego <persName>Victor catholice ecclesie episcopus</persName> subscripsi. [BV]</item><item>Ego <persName>Ubaldus episcopus</persName> Tusculanus subscripsi. </item><item>Ego <persName>Guido presbiter cardinalis</persName> tituli Calixti subscripsi. Ego <persName>Iohannes presbiter cardinalis</persName> tituli Pastoris subscripsi. Ego <persName>Umfredus presbiter cardinalis</persName> tituli sancte Susanne subscripsi.</item><item>Ego <persName>Landus diaconus</persName> sancti Angeli subscripis. Ego <persName>Gerardus diaconus cardinalis</persName> sancti Georgii ad coelum aureum subscripsi.</item>
                </list></diploPart>
          </div>
          <div>
@@ -114,7 +114,7 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>[Text und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
+               <p>[Rota-Inschrift: </p><p>Rotaund Inhalte <diploPart type="rota">Rot</diploPart></p><p><diploPart type="rota">Rotaa</diploPart>Diplomatischer
  Kommentar]</p>
             </diploDesc>
          </div>
