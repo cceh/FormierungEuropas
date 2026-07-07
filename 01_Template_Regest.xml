@@ -25,7 +25,8 @@
          </publicationStmt>
          <sourceDesc>
             <bibl type="jaffe">[]</bibl>
-            <bibl>[Weiteres Konkordanzregest]</bibl>
+            <bibl type="main">[Konkordanzregest]</bibl>
+            <bibl type="other">[Konkordanzregest]</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
                <p><authen type="formula" n="na">
