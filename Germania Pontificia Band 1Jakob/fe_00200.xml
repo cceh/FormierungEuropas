@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc><titleStmt><title>fe_00200</title><respStmt><resp>Datenquelle</resp><persName>JM</persName></respStmt>
+            <respStmt><resp when="2026">Encoding</resp><persName>JM</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Germ.Pont. 1, S. 26, Nr. 83</bibl><bibl type="jaffe">10445</bibl>
+            <diploDesc><p><authen type="formula" n="na"><p>[-]</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>–</placeName><date type="issued" notBefore="1159-01-01" notAfter="1164-12-31">(1159-1164)</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p><legalActor type="recipient">Eberhard, Erzbischof von Salzburg</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Papsturkunde, Dekretale</objectType></p><p><objectType n="">Juristisches, neues Recht</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">Alexander III., Urheber</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p>Alexander III. antwortet auf die Anfrage des Erzbischofs von Salzburg, dass Ehen von Knechten, die gegen den Willen ihrer Herren geschlossen werden, nach kirchlichem Recht unter keinen Umständen aufgelöst werden dürfen. Dennoch müssen die Knechte weiterhin ihren Herren die ihnen gebührenden und üblichen Dienste leisten.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Dignum est et a rationis</diploPart></div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>-</item>
+               </list></diploPart>
+         </div>
+         <div><head>Datatio</head><diploPart type="datatio">-</diploPart></div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">-</bibl>
+                  <bibl type="msCopy">Paris, Bibliothèque national de France, ms. lat. 14664, f. 151r–v https://gallica.bnf.fr/ark:/12148/btv1b9067123g/f155.item</bibl><bibl type="msCopy">London, British Library, Royal MS 10 A II., fol. 10</bibl><bibl type="msCopy">Leipzig, Universitätsbibliothek, Ms 1242</bibl>
+                  <bibl type="print">-</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>Decretalium D. Gregorii Papae compilatio, lib. 4, tit. 9, cap. 1, Sp. 691f https://archive.org/details/CorpusIurisCanoniciIAemiliusFriedberg1959/Corpus%20Iuris%20Canonici%20II%20%5BAemilius%20Friedberg%201959%5D/page/691/mode/1up</bibl>
+               </listBibl></div><div type="historiography"><head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Löwenfeld, Samuel: Papsturkunden in Paris: Ein Reisebericht nebst einem Anhang ungedruckter Papstbriefe. NA 7 (1882) S. 143–167, hier S. 167, Nr. 13 https://www.mgh-bibliothek.de/dokumente/BV/BV048129035.pdf</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL 10445</bibl>
+               <bibl>Germ.Pont. 1, S. 26, Nr. 83 mit Corrigendum S. 411</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>In der Germania Pontificia wird dieses Stück zuerst Hadrian IV. zugeschrieben. Die Zuschreibung dieser Dekretale an Alexander basiert auf der Überlieferung in "Coll. Mus. Brit. Reg. 10 A II mb. s. XII ex.", also der Londoner Handschrift, der Brackmann erst im Corrigendum von Germ.Pont. 1, S. 26, Nr. 83 auf S. 411 folgt. Löwenfeld hat das Stück bereits Alexander III. zugeschrieben, allerdings mit anderem Incipit (<diploPart>Tua fraternitas de servorum conjugiis</diploPart>), da in der Pariser Überlieferung, auf die sich Löwenfeld stützt, die Arenga weggelassen wurde. </p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Als Empfänger identifiziert Brackmann Erzbischof Eberhard von Salzburg, da der eine Teil der Überlieferung als Adressaten den Erzbischof von Salzburg angibt und der andere Teil (die Dekretalen, die als Appendix Concilii Lateranensis überliefert sind) einen "Eberardo Magdeburgen. archiep." als Empfänger angibt.</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>WH 344</p><p>Stand 3. Juli 2026 ist die Londoner Handschrift noch nicht digitalisiert zugänglich. Das digitale Archiv der British Library könnte das Digitalisat aber irgendwann in diesem Daten https://searcharchives.bl.uk/catalog/040-002106484 hochladen.</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>
