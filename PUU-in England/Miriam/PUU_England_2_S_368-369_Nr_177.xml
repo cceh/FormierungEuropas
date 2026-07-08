@@ -20,7 +20,7 @@
             <diploDesc><p><issued><placeName>[Ausstellungsort]</placeName><date type="issued" notBefore="1179-01-01" notAfter="1179-12-31">(1179). </date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Johann von Poitiers, päpstlicher Legat und Bischof</legalActor></p>
-               <p> <legalActor type="recipient">Dekan von Lincoln</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient">Dekan von Lincoln</legalActor></p> <p> <legalActor type="recipient">Kapitel von Lincoln</legalActor></p> <p> </p> <p> <legalActor type="recipient">Recipient</legalActor></p> <p> <legalActor type="recipient">Recipient</legalActor></p> <p> <legalActor type="recipient">Recipient</legalActor></p> <p> <legalActor type="recipient">Recipient</legalActor></p> <p> <legalActor type="recipient">Recipient</legalActor></p> <p> <legalActor type="recipient">Recipient</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
