@@ -48,10 +48,7 @@
          
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Ad hoc in beati Petri</diploPart></div>
          <div>
-            <head> Subscriptiones </head>
-            <diploPart type="subscriptio" xml:lang="lat"><list>
-               <item>-</item>
-               </list></diploPart>
+            <head> Subscriptiones </head><diploPart type="subscriptio" xml:lang="lat">-</diploPart>
          </div>
          <div><head>Datatio:</head><diploPart type="datatio">Dat. Anagn. XVIII kal. februarii.</diploPart></div>
          <div type="msSources">
