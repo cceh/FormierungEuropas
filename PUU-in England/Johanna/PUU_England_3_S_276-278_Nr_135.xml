@@ -20,7 +20,7 @@
             <diploDesc><p><issued><placeName>Anagni</placeName><date type="issued" notBefore="1161-01-07" notAfter="1161-12-07">1161 Febrar 7. </date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient">Kloster St. Albans</legalActor></p><p><legalActor type="recipient">Robert, Abt des Klosters St. Albans</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
@@ -36,7 +36,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander  III.  bestätigt dem Kloster St. Albans unter dem Abte  Robert die Erwerbungen des Kellners Adam, deren Erträge für die Küche  der Mönche bestimmt sind, verfügt, daß kein Klosterbeamter und kein Abt  einer der Gellen ohne Zustimmung des Konvents eingesetzt iverden darf,  und bestätigt die Gewohnheiten des Marktes von Watford. </p>
+            <p>Alexander  III.  bestätigt dem Kloster St. Albans unter dem Abte  Robert die Erwerbungen des Kellners Adam, deren Erträge für die Küche  der Mönche bestimmt sind, verfügt, daß kein Klosterbeamter und kein Abt  einer der Gellen ohne Zustimmung des Konvents eingesetzt werden darf,  und bestätigt die Gewohnheiten des Marktes von Watford. </p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head>
             <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
