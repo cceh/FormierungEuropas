@@ -20,7 +20,7 @@
             <diploDesc><p><issued><placeName>[Ausstellungsort]</placeName><date type="issued" notBefore="1154-01-01" notAfter="1158-12-31">(1154—58). </date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Hadrian IV.</legalActor></p>
-               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient">Kloster St. Marys und St. John in Reading</legalActor></p><p><legalActor type="recipient">Rainald, Abt des Kloster St. Marys und St. John in Reading</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
@@ -36,7 +36,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Hadrian  IV. bestätigt dem Abte Rainald von St. Mary's und St.  Johris in Reading die zwischen seinem Kloster und Cluny geschlossene  Brüderschaft. </p>
+            <p>Hadrian  IV. bestätigt dem Abte Rainald von St. Mary's und St.  Johns in Reading die zwischen seinem Kloster und Cluny geschlossene  Brüderschaft. </p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head>
             <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
