@@ -18,7 +18,7 @@
                <p><authen type="formula" n="na">
                   <p>-</p>
                </authen></p>
-               <issued><placeName>Anagni</placeName><date type="issued" notBefore="1160-01-15" notAfter="1160-01-15">(1160) Jan. 15</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+               <issued><placeName>Anagni</placeName><date type="issued" notBefore="1160-01-15" notAfter="1160-01-15">(1160) Jan. 15.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Benediktinerkloster St. Oswald in Bardney</legalActor></p><p><legalActor type="recipient">Walter, Abt des Klosters St. Oswald in Bardney</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
