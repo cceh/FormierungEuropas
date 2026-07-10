@@ -20,7 +20,7 @@
                <p><issued><placeName>Anagni</placeName><date type="issued" notBefore="1174-03-14" notAfter="1176-03-14">(1174—76) Mär. 14</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">(Roger), Erzbischof von York</legalActor></p> <p><legalActor type="recipient">(Hugo), Bischof von Durham</legalActor></p><p/> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><legalActor type="recipient">(Roger), Erzbischof von York</legalActor></p> <p><legalActor type="recipient">(Hugo), Bischof von Durham</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
@@ -36,7 +36,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. befiehlt dem Erzbischof (Roger) von York und dem Bischof (Hugo) von Burham, die Mönche von Rievaulx vor den Zehntforderungen der Kleriker von Weiburne zu schützen.</p>
+            <p>Alexander III. befiehlt dem Erzbischof (Roger) von York und dem Bischof (Hugo) von Burham, die Mönche von Rievaulx vor den Zehntforderungen der Kleriker von Weiburne zu schützen. ''#</p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head>
             <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
