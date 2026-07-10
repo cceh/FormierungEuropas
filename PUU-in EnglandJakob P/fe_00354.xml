@@ -3,11 +3,8 @@
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
 <TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen -->
    <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
-            <respStmt><resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp><persName>JP</persName></respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
+      <fileDesc><titleStmt><title>fe_00354</title><respStmt><resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp><persName>JP</persName></respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>JP</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -16,8 +13,8 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>PUU England 1, S. 401-402, Nr. 132</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
-            <diploDesc><p><issued><placeName>Anagni</placeName><date type="issued" notBefore="1174-03-14" notAfter="1176-03-14">(1174—76) Mär. 14</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            <bibl>PUU England 1, S. 401-402, Nr. 132</bibl><bibl type="jaffe">-</bibl>
+            <diploDesc><p><issued><placeName>Anagni</placeName><date type="issued" notBefore="1174-03-14" notAfter="1176-03-14">(1174—76) Mär. 14.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p><p><legalActor type="issuer">Alexander III.</legalActor></p><p> <legalActor type="recipient">Diözese Durham</legalActor></p><p> <legalActor type="recipient">Abtei St. Marys in York</legalActor></p><p> <legalActor type="recipient">Hugo, Bischof von Durham</legalActor></p><p> <legalActor type="recipient">Clemens, Abt von St. Mary</legalActor></p><p> <legalActor type="recipient">Kloster Rievaulx (OCist)</legalActor></p> <p> <legalActor type="recipient">Kanoniker von Old Malton</legalActor></p> <p> <legalActor type="recipient">Kanoniker von Sempringham</legalActor></p> <p> <legalActor type="recipient">Kanoniker von Kirkham</legalActor></p> <p/> <!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType n="">[Typisierung 1]</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
