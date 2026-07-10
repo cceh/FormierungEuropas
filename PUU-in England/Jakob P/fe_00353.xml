@@ -22,7 +22,7 @@
                <issued><placeName>Anagni</placeName><date type="issued" notBefore="1174-03-14" notAfter="1176-03-14">(1174—76) Mär. 14</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p> <legalActor type="recipient">Abtei von Rievaulx (OCist)</legalActor></p> <p> <legalActor type="recipient">Silvanus, Abt von Rievaulx</legalActor></p><p> <legalActor type="recipient">Mönche von Rievaulx</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><legalActor type="recipient">Zisterzienserabtei von Rievaulx </legalActor></p> <p> <legalActor type="recipient">Silvanus, Abt von Rievaulx</legalActor></p><p> <legalActor type="recipient">Mönche von Rievaulx</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae</objectType></p>
                <p><objectType n="">Juristisches, Rechtsbestätigung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
