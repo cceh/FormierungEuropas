@@ -75,13 +75,10 @@
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>[Regest 1]</bibl>
-               <bibl>[Regest 2]</bibl>
-            </listBibl>
-         </div>
-         <div type="commentary">
-            <head>Sachkommentar</head>
-            <p>Zur Datierung vgl. n. 131.</p>
+               <bibl>-</bibl>
+               <bibl/>
+            </listBibl><head>Sachkommentar</head>
+            <p>Holzmann bestimmte die Datierung durch das Itinerar des Papstes und die Chronologie des Abtes Silvanus, der, wie Atkinson feststellte, bereits seit 1170 im Amt war. Vgl. PUU England 1, S. 400 u. J. C. Atkinson, Cart. abb. de Rievalle, S. XCII.</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
