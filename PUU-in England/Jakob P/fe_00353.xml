@@ -50,7 +50,7 @@
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl>[Original]</bibl>
+               <bibl>Original: -</bibl>
                <bibl>Chartular von Bievaulx s. XII ex., Brit. Mus. Cott. Jidius D I  fol. 184' n. 230. </bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
@@ -59,8 +59,8 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="historiography">
@@ -72,15 +72,15 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl/><bibl/><bibl/><bibl>PUU England 1, S. 400-401, Nr. 131.</bibl><bibl>J. C. Athinson, Cart. abb. de Bievalle p. 378, n. 33.</bibl><bibl/><bibl>W. Farrer  Early Yorkshire Charters II (Edinburgh 1915)  502, n. 1231. </bibl>
+               <bibl/><bibl/><bibl/><bibl>PUU England 1, S. 400-401, Nr. 131.</bibl><bibl>J. C. Athinson, Cart. abb. de Bievalle p. 378, n. 33.</bibl><bibl/><bibl>W. Farrer, Early Yorkshire Charters II (Edinburgh 1915)  502, n. 1231. </bibl>
                <bibl/>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>[Regest 1]</bibl>
-               <bibl>[Regest 2]</bibl>
+               <bibl>-</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="commentary">
