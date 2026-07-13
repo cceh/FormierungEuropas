@@ -13,13 +13,13 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>PUU England 1, S. 403-404, Nr. 134</bibl><bibl type="jaffe">-</bibl>
-            <p><authen type="formula" n="na">
+              <diploDesc><p><authen type="formula" n="na">
                   <p>-</p>
                </authen></p>
-            <diploDesc><p><issued><placeName>Anagni</placeName><date type="issued" notBefore="1174-03-20" notAfter="1176-03-20">(1174—76) Mär. 20</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+          <p><issued><placeName>Anagni</placeName><date type="issued" notBefore="1174-03-20" notAfter="1176-03-20">(1174—76) Mär. 20</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p> <legalActor type="recipient">Roger, Erzbischof von York</legalActor></p> <p> <legalActor type="recipient">Erzbistum York</legalActor></p> <p> <legalActor type="recipient">Archidiakone und andere Prälaten von York</legalActor></p> <p> <legalActor type="recipient">Kloster Rievaulx (OCist)</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient">Roger, Erzbischof von York</legalActor></p> <p> <legalActor type="recipient">Erzbistum York</legalActor></p> <p> <legalActor type="recipient">Archidiakone und andere Prälaten von York</legalActor></p> <p><legalActor type="recipient"> ZRievaulx (OCist)</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
@@ -37,8 +37,7 @@
          <div type="abstract"><head>Abstract:</head>
             <p>Alexander III. verbietet dem, Erzbisehof B(oger) von York und den Arehidiakonen und anderen Prälaten seiner Diözese, Interdikt oder Exkommunikation über das Kloster Bievaulx zu verhängen. ##Nachher## Alexander III. verbietet R(oger), Erzbischof von York, sowie den Archidiakonen und Prälaten seiner Diözese, das Kloster Rievaulx (D. York) mit einem Interdikt oder einer Exkommunikation zu belegen.</p>
          </div>
-         <div type="other"><head>Echtheitskriterien:</head>
-            <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
+         
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
          <div type="msSources">
