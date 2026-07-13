@@ -27,9 +27,9 @@
                <p><legalActor type="issuer">Eberhard, Erzbischof von Salzburg</legalActor></p>
                <p><legalActor type="recipient">Hildebrand</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">Urkunde eines nichtpäpstlichen Ausstellers,</objectType></p>
+               <p><objectType n="">Urkunde eines nichtpäpstlichen Ausstellers, andere</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">Kommentar zum Schisma, zeitgenössisch </objectType></p><p><objectType n="">2]</objectType></p>
+               <p><objectType n="">Kommentar zum Schisma, zeitgenössisch </objectType></p><p><objectType n="">Unterstützer Alexanders III., ]</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
