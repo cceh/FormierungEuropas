@@ -4,14 +4,7 @@
 <TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen -->
    <teiHeader>
       <fileDesc>
-         <titleStmt>
-            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
-            <respStmt>
-               <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
-               <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
-            </respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
-         </titleStmt>
+         <titleStmt><title>fe_00356</title><respStmt><resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp><persName>JP</persName></respStmt><respStmt><resp when="2024">Encoding:</resp><persName>JP</persName></respStmt></titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
             <idno>PUU England 1, S. 403-404, Nr. 134</idno><availability>
@@ -19,8 +12,8 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>PUU England 1, S. 403-404, Nr. 134</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
-            <diploDesc><p><issued><placeName>Anagni</placeName><date type="issued" notBefore="1174-03-20" notAfter="1176-03-20">(1174—76) März 20.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            <bibl>PUU England 1, S. 403-404, Nr. 134</bibl><bibl type="jaffe">-</bibl>
+            <diploDesc><p><issued><placeName>Anagni</placeName><date type="issued" notBefore="1174-03-20" notAfter="1176-03-20">(1174—76) Mär. 20</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Roger, Erzbischof von York</legalActor></p> <p> <legalActor type="recipient">Erzbistum York</legalActor></p> <p> <legalActor type="recipient">Archidiakone und andere Prälaten von York</legalActor></p> <p> <legalActor type="recipient">Kloster Rievaulx (OCist)</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
@@ -39,7 +32,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. verbietet dem, Erzbisehof B(oger) von York und den Arehidiakonen und anderen Prälaten seiner Diözese, Interdikt oder Exkommunikation über das Kloster Bievaulx zu verhängen.</p>
+            <p>Alexander III. verbietet dem, Erzbisehof B(oger) von York und den Arehidiakonen und anderen Prälaten seiner Diözese, Interdikt oder Exkommunikation über das Kloster Bievaulx zu verhängen. ##Nachher## </p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head>
             <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
