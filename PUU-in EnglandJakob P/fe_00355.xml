@@ -68,8 +68,8 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Ed. J. C. Atkinson Cart. abb. de Rievalle p. 197  n. 265. </bibl>
-               <bibl>[Edition 2]</bibl>
+               <bibl>PUU England 1, S. 402-403, Nr. 133.</bibl><bibl>Ed. J. C. Atkinson Cart. abb. de Rievalle p. 197  n. 265. </bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="regesta">
@@ -77,7 +77,10 @@
             <listBibl>
                <bibl>-</bibl>
                <bibl/>
-            </listBibl><head>Sachkommentar</head>
+            </listBibl>
+            </div>
+            <div type="commentary">
+            <head>Sachkommentar</head>
             <p>Holzmann bestimmte die Datierung durch das Itinerar des Papstes und die Chronologie des Abtes Silvanus, der, wie Atkinson feststellte, bereits seit 1170 im Amt war. Vgl. PUU England 1, S. 400 u. J. C. Atkinson, Cart. abb. de Rievalle, S. XCII.</p>
          </div>
          <div type="bibliography">
