@@ -20,7 +20,7 @@
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Roger, Erzbischof von York</legalActor></p> <p> <legalActor type="recipient">Erzbistum York</legalActor></p> <p> <legalActor type="recipient">Archidiakone und andere Prälaten von York</legalActor></p> <p><legalActor type="recipient"> Zisterzienserabtei Rievaulx </legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <p><objectType n="">Papsturkunde, litterae</objectType></p><p/>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
@@ -35,7 +35,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. verbietet dem, Erzbisehof B(oger) von York und den Arehidiakonen und anderen Prälaten seiner Diözese, Interdikt oder Exkommunikation über das Kloster Bievaulx zu verhängen. ##Nachher## <legalActor><persName>Alexander III.</persName></legalActor> verbietet<legalActor> R(oger), Erzbischof von York</legalActor>, sowie den Archidiakonen und Prälaten seiner Diözese, das <orgName>Kloster Rievaulx</orgName> (D. York) mit einem Interdikt oder einer Exkommunikation zu belegen.</p>
+            <p>Alexander III. verbietet dem, Erzbisehof B(oger) von York und den Arehidiakonen und anderen Prälaten seiner Diözese, Interdikt oder Exkommunikation über das Kloster Bievaulx zu verhängen. ##Nachher## <legalActor><persName>Alexander III.</persName></legalActor> verbietet<legalActor> <persName>R(oger), Erzbischof von York</persName></legalActor>, sowie den Archidiakonen und Prälaten seiner Diözese, das <orgName>Kloster Rievaulx</orgName> (D. York) mit einem Interdikt oder einer Exkommunikation zu belegen.</p>
          </div>
          
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
