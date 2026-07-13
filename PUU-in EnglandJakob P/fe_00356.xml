@@ -54,28 +54,26 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie</head>
             <listBibl>
-               <bibl>[Quelle mit Edition 1]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Ed. J. C. Atkinson Cart. abb. de Bievalle p. 196  n. 264. </bibl>
-               <bibl>[Edition 2]</bibl>
+               <bibl/><bibl/><bibl>PUU England 1, S. 403-404, Nr. 134</bibl><bibl>J. C. Atkinson Cart. abb. de Bievalle p. 196  n. 264. </bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>[Regest 1]</bibl>
-               <bibl>[Regest 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="commentary">
