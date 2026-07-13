@@ -15,17 +15,13 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>Germ.Pont. 1, S. 28, Nr. 88</bibl><bibl type="jaffe">–</bibl>
-            <bibl>[Weiteres Konkordanzregest]</bibl>
-            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
-            <diploDesc>
-               <p><authen type="formula" n="na">
-                     <p>[-]</p>
+            <diploDesc><p><authen type="formula" n="na"><p>[-]</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
                <issued><placeName>–</placeName><date type="issued" notBefore="1161-01-01" notAfter="1161-12-31">[1161]</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="issuer">Hubald, Kardinalbischof von Ostia</legalActor></p>
                <p><legalActor type="recipient">[Empfänger]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
