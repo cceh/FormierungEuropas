@@ -40,7 +40,7 @@
          </div>
          <div type="other"><head>Echtheitskriterien:</head>
             <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Auctoritate Roman</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung</head>
