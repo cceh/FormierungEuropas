@@ -44,15 +44,12 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>[Regestentext. (Kardinal)bischof Hubald von Ostia an Erzbischof E(berhard I.) vonSalzburg: bestärkt ihn in der Ablehnung des Schismatikers Oktavian.(diploPart) sind zulässig.]<list>
+            <p>(Kardinal)bischof Hubald von Ostia an Erzbischof E(berhard I.) vonSalzburg: bestärkt ihn in der Ablehnung des Schismatikers Oktavian.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
 
-         <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
-         </div>
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Pater omnium Christianorum, Christi vicarius</diploPart></div>
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
