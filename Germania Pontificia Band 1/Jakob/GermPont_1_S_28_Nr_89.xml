@@ -24,7 +24,7 @@
                <issued><placeName>–</placeName><date type="issued" notBefore="1161-01-01" notAfter="1161-12-31">(1161)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="issuer">Eberhard, Erzbischof von Salzburg</legalActor></p>
                <p><legalActor type="recipient">[Empfänger]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
@@ -93,7 +93,6 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Germ.Pont. 1, S. 28, Nr. 89</bibl>
                <bibl>[Edition 2]</bibl>
             </listBibl>
          </div>
@@ -101,7 +100,7 @@
             <head>Regesten</head>
             <listBibl>
                <bibl>JL –</bibl>
-               <bibl>[Regest 2]</bibl>
+               <bibl>[<bibl>Germ.Pont. 1, S. 28, Nr. 89</bibl><bibl/>2]</bibl>
             </listBibl>
          </div>
          <div>
