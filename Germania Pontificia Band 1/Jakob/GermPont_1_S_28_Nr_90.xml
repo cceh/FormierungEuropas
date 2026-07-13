@@ -52,10 +52,7 @@
                </list></p>
          </div>
 
-         <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
-         </div>
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Credimus et certi sumus, quod</diploPart></div>
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
@@ -120,7 +117,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>Text nach Admonter Briefsammlung: Ildebrando basilice XII apostolorum presbitero cardinali et apostolicę sedis legato E. Iuvavensis ecclesie minister indignus cum oratione servitium.Credimus et certi sumus, quod seges nostra tempore oportuno fructus dabit uberes; nunc enim ab herba proficit in culmum proventum habitura inspicam et maturitatem, si compluta fuerit rore benedictionis. Nec interim putetis otiosam, quippe que declinavit á scismatico et modis omnibus cor-detenus adheret catholico, habet etiam cooperatorem fidelissimum Con-cordiensem episcopum3. Hec hactenus. Ventus validus flavit nobis ab aqui-lone inducens super nos grandines et tonitrua, qui nos vel a statu nostromovere vel radicitus temptat evellere4. Sed firmum stat propositum nostrumin fide et dilectione Dei habens fundamentum in firma petra.</p>
+            <p>Text nach Admonter Briefsammlung: Ildebrando basilice XII apostolorum presbitero cardinali et apostolicę sedis legato E. Iuvavensis ecclesie minister indignus cum oratione servitium. Credimus et certi sumus, quod seges nostra tempore oportuno fructus dabit uberes; nunc enim ab herba proficit in culmum proventum habitura in spicam et maturitatem, si compluta fuerit rore benedictionis. Nec interim putetis otiosam, quippe que declinavit á scismatico et modis omnibus cordetenus adheret catholico, habet etiam cooperatorem fidelissimum Concordiensem episcopum. Hec hactenus. Ventus validus flavit nobis ab aquilone inducens super nos grandines et tonitrua, qui nos vel a statu nostro movere vel radicitus temptat evellere. Sed firmum stat propositum nostrum in fide et dilectione Dei habens fundamentum in firma petra.</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
