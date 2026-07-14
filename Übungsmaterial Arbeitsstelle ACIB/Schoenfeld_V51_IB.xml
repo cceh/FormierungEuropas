@@ -10,7 +10,7 @@
                FO für Formierung Europas]</title>
             <respStmt>
                <resp>Datenquelle</resp><persName>Schönfeld, Urkunden der Gegenpäpste, S. 279-280, Nr. V51</persName></respStmt>
-            <respStmt><resp when="2024">Encoding:</resp><persName>Isabel Blumenroth</persName></respStmt>
+            <respStmt><resp when="2024">Encoding:</resp><persName>IB</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -19,7 +19,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl type="jaffe">14452</bibl>
+            <bibl type="jaffe">14452</bibl><bibl type="jaffe"/>
             <diploDesc><p>Echtheitskriterium: <authen type="formula" n="na">
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
