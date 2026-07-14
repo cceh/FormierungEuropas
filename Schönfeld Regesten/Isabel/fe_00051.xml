@@ -38,7 +38,7 @@
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">Papsturkunde, Litterae cum filo canapis</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
-               <p><objectType ref="na">Viktor IV., Beauftragung durch…]</objectType></p>
+               <p><objectType ref="na">Viktor IV., Beauftragung durch</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
