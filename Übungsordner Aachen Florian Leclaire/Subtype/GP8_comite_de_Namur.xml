@@ -35,7 +35,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
-               <p/><p/><p><legalActor type="recipient" subtype="archbishop">Hillin, Erzbischof von Trier</legalActor></p><p><legalActor type="recipient" subtype="archbishop">Albero, Erzbischof</legalActor></p><p><legalActor cert="high" type="beneficiary" xml:space="default">Albero, Erzbischof von Namur</legalActor></p><p><legalActor cert="high" type="beneficiary" xml:space="default">Heinrich, Graf von Namur</legalActor></p>
+               <p/><p/><p><legalActor type="recipient" subtype="archbishop">Hillin, Erzbischof von Trier</legalActor></p><p><legalActor type="recipient" subtype="archbishop">Albero, Erzbischof von Namur</legalActor></p><p><legalActor type="recipient" subtype="archbishop">Heinrich, Graf von Namur</legalActor></p><p/><p/>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
