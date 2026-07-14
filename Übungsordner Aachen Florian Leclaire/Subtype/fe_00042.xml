@@ -32,7 +32,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
-               <p><legalActor type="recipient">Thitpold, Priester der Kirche von St. Urban</legalActor></p>
+               <p><legalActor type="recipient" subtype="priest">Thitpold, Priester der Kirche von St. Urban</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">Papsturkunde, Deperditum (Litterae cum filo canapis)</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
