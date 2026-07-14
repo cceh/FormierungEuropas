@@ -22,7 +22,7 @@
             <diploDesc><p><issued><placeName>Cremona</placeName><date type="issued" notBefore="1162-04-13" notAfter="1162-04-13">(1162) April 13.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
-               <p> <legalActor type="recipient" subtype="abbot">Wazelin, Abt von Florennes</legalActor></p><p><legalActor cert="high" type="beneficiary" xml:space="default" subtype="abbot"> Abt von Heylissem</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient" subtype="abbot">Wazelin, Abt von Florennes</legalActor></p><p><legalActor type="recipient" subtype="abbot">sAbt von</legalActor></p><p><legalActor cert="high" type="beneficiary" xml:space="default" subtype="abbot">Abt von Heylissem</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
