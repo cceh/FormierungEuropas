@@ -28,8 +28,8 @@
             <diploDesc>
                <copyStatus/>
                <legalActor type="issuer">Hadrianus IV</legalActor>
-               <legalActor type="recipient">Stephano</legalActor>
-               <legalActor type="recipient">canonicis</legalActor>
+               <legalActor type="recipient" subtype="archbishop">Stephano</legalActor>
+               <legalActor type="recipient" subtype="canon">canonicis</legalActor>
                <issued>
                   <placeName>Roma, Laterano</placeName>
                   <date when="1157-05-23">1157 mai. 23</date>

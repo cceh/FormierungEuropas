@@ -28,8 +28,8 @@
             <diploDesc>
                <copyStatus/>
                <legalActor type="issuer">Anastasius IV</legalActor>
-               <legalActor type="recipient">(Durando) abbati</legalActor>
-               <legalActor type="recipient">ejusque fratribus</legalActor>
+               <legalActor type="recipient" subtype="abbot">(Durando) abbati</legalActor>
+               <legalActor type="recipient" subtype="friar">ejusque fratribus</legalActor>
                <issued>
                   <placeName>Roma, Laterano</placeName>
                   <date when="1154-04-24">1154 april. 24</date>
