@@ -74,15 +74,14 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>[Edition 1]</bibl>
-               <bibl>[Edition 2]</bibl>
+               <bibl>PUU England 1, S. 404-405, Nr. 136</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>[Regest 1]</bibl>
-               <bibl>Reg. G. Wrottesley The Stone Chartulary in: Collections  for a History of Staffordsliire VI part I (1885) 15. </bibl>
+               <bibl>G. Wrottesley The Stone Chartulary in: Collections  for a History of Staffordsliire VI part I (1885) 15. </bibl>
             </listBibl>
          </div>
          <div type="commentary">
