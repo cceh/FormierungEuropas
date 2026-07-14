@@ -15,10 +15,14 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>PUU England 1, S. 404-405, Nr. 136</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
-            <diploDesc><p><issued><placeName>Anagni</placeName><date type="issued" notBefore="1174-05-31" notAfter="1176-05-31">(1174—76) Mai 31.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            <diploDesc><p><authen type="formula" n="na">
+                     <p>-</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <p><issued><placeName>Anagni</placeName><date type="issued" notBefore="1174-05-31" notAfter="1176-05-31">(1174—76) Mai 31</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p> <legalActor type="recipient">Kanoniker von Stone</legalActor></p> <p> <legalActor type="recipient">Roger, Prior des Augustinerpriorats von Stone</legalActor></p> <p/> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient">Kanoniker von Stone</legalActor></p> <p> <legalActor type="recipient">R(oger), Prior des Augustinerpriorats von Stone</legalActor></p> <p/> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
@@ -36,8 +40,6 @@
          <div type="abstract"><head>Abstract:</head>
             <p>Alexander III. nimmt die Kanoniker von Stone unter dem Prior R(oger) mit ihren geistlichen und weltlichen Besitzungen in den päpstlichen Schutz, bestimmt, daß sie niemand ohne ordentliches Ge- richtsverfahren exkommunizieren oder suspendieren oder ihre Besitzungen besteuern dürfe, und verleiht ihnen das Recht der Appellation an die Kurie. ##Nachher##Alexander III</p>
          </div>
-         <div type="other"><head>Echtheitskriterien:</head>
-            <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
          <div type="msSources">
