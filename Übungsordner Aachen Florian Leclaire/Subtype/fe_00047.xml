@@ -33,7 +33,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
-               <p><legalActor type="recipient">Kloster Echternach</legalActor></p><p><legalActor type="recipient">Gerard, Abt des Klosters Echternach</legalActor></p>
+               <p><legalActor type="recipient" subtype="monastery">Kloster Echternach</legalActor></p><p><legalActor type="recipient" subtype="abbot">Gerard, Abt des Klosters Echternach</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">Papsturkunde, feierliches Privileg</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
