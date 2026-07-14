@@ -3,28 +3,25 @@
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
 <TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen -->
    <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
-            <respStmt><resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp><persName>JP</persName></respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
+      <fileDesc><titleStmt><title>fe_00351</title><respStmt><resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp><persName>JP</persName></respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>JP</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
-            <idno>PUU England 1, S. 400-401, Nr. 131</idno><availability>
+            <idno>PUU England 1, S. 335-336, Nr. 76</idno><availability>
                <licence>Lizenz</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>PUU England 1, S. 400-401, Nr. 131</bibl><bibl type="jaffe">-</bibl>
+            <bibl>PUU England 1, S. 335-336, Nr. 76</bibl><bibl type="jaffe">10616</bibl>
             <diploDesc>
-                 <p><authen type="formula" n="na">
+               <p><authen type="formula" n="na">
                   <p>-</p>
                </authen></p>
-               <issued><placeName>Anagni</placeName><date type="issued" notBefore="1174-03-14" notAfter="1176-03-14">(1174—76) Mär. 14</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+               <issued><placeName>Anagni</placeName><date type="issued" notBefore="1160-01-15" notAfter="1160-01-15">(1160) Jan. 15</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p> <legalActor type="recipient">Abtei von Rievaulx (OCist)</legalActor></p> <p> <legalActor type="recipient">Silvanus, Abt von Rievaulx</legalActor></p><p> <legalActor type="recipient">Mönche von Rievaulx</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient">Benediktinerkloster St. Oswald in Bardney</legalActor></p><p><legalActor type="recipient">Walter, Abt des Klosters St. Oswald in Bardney</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae</objectType></p>
                <p><objectType n="">Juristisches, Rechtsbestätigung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
@@ -41,19 +38,23 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. bestätigt dem Abt Silvanus und den Mönchen von Rievaulx genannte Besitzungen. ###Nachher### Alexander III. bestätigt Silvanus, Abt von Rievaulx (D. York), und den Mönchen des Klosters genannte Besitzungen..<list>
-               <item>Hierzu gehören die von Bernhard von Balliol abgetretene Fischerei sowie weitere Besitzungen, die Bernhard von Balliol, Acharis von Tunstall, Heinrich von Willardeby und dessen Sohn dem Kloster auf ewig übertrugen.</item><item/><item/><item> </item>
-               </list>  </p>
+            <p><legalActor><persName>Alexander III.</persName> </legalActor>bestätigt dem Abt Walter und den Mönchen des Klosters St. Oswald in Bardney die Unabhängigkeit vom Kloster Charroux.#####Nachher#### <legalActor><persName>Alexander III.</persName></legalActor> bestätigt auf Bitten <legalActor><persName>Walters, Abt von St. Oswald</persName></legalActor> (D. Lincoln), und der Gemeinschaft der Mönche die folgenden Privilegien:<list>
+               <item>Das <orgName>Kloster St. Oswald</orgName> soll in der Weise von der Gerichtsbarkeit und Gehorsamspflicht befreit sein, wie sie von <persName>Jordan, Abt von Charroux</persName> (D. Poitiers), mit der Zustimmung seines Kapitels gewährt wurde.</item><item>Schlussformel: Perturbationsverbot, Sanctio negativa</item>
+               </list> </p>
          </div>
          
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustis petentium desideriis dignum</diploPart></div>
-         <div><head>Datatio:</head><diploPart type="datatio">Data Anagnie II idus martii.</diploPart></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Ad hoc in beati Petri</diploPart></div>
+         <div>
+            <head> Subscriptiones </head>
+            <diploPart type="subscriptio" xml:lang="lat"><list><item>-</item></list></diploPart>
+         </div>
+         <div><head>Datatio:</head><diploPart type="datatio">Dat. Anagn. XVIII kal. februarii.</diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl>[Original]</bibl>
-               <bibl>Chartular von Bievaulx s. XII ex., Brit. Mus. Cott. Jidius D I  fol. 184' n. 230. </bibl>
+               <bibl>Original: -</bibl>
+               <bibl>Chartular von Bardney s. XIII,  Brit. Mus. Cott. Vespasian E  XX fol. 23. </bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>
@@ -61,33 +62,33 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
+               
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie</head>
             <listBibl>
-               <bibl>[Quelle mit Edition 1]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>J. C. Athinson, Cart. abb. de Bievalle p. 378  n. 33.</bibl><bibl>  W. Farrer  Early Yorkshire Charters II (Edinburgh 1915)  502 n. 1231. </bibl>
+               <bibl>PUU England 1, S. 335-336, Nr. 76</bibl>
                <bibl/>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>[Regest 1]</bibl>
+               <bibl>JL: 10616 nach Mitteilung von K. Perts. </bibl>
                <bibl>[Regest 2]</bibl>
             </listBibl>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Die Datierung ist bestimmt durch das Itinerar des Papstes und die Chronologie des Abtes Silvanus (seit 1170, vgl. Athinson a. a. 0. p. XCII).</p>
+            <p>Holtzmann datiert diese Urkunde und PUU England I, S. 336-338, Nr. 78  nach PUU England I, S. 336-338, Nr. 77 auf das Jahr 1160, da er davon ausgeht, dass sie gleichzeitig ausgestellt wurden.</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
@@ -98,7 +99,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+            <p/>
          </div>
       </body>
    </text>
