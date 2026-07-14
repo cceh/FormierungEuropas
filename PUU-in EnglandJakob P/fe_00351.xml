@@ -46,9 +46,7 @@
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Ad hoc in beati Petri</diploPart></div>
          <div>
             <head> Subscriptiones </head>
-            <diploPart type="subscriptio" xml:lang="lat"><list>
-               <item>-</item>
-               </list></diploPart>
+            <diploPart type="subscriptio" xml:lang="lat"><list><item>-</item></list></diploPart>
          </div>
          <div><head>Datatio:</head><diploPart type="datatio">Dat. Anagn. XVIII kal. februarii.</diploPart></div>
          <div type="msSources">
@@ -64,14 +62,14 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
+               
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie</head>
             <listBibl>
-               <bibl/>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="editions">
