@@ -32,7 +32,7 @@
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">Werner, Stiftspropst des Augustiner-Chorherrenstifts Seckau</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p><p><objectType n="">Juristisches, Rechtsbestätigungen</objectType></p>
+               <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p><p><objectType n="">Juristisches, Rechtsbestätigungen</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p><p/>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
