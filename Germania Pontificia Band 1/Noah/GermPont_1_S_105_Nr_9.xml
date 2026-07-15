@@ -19,7 +19,7 @@
                      <p>[*+?-]</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Laterano</placeName><date type="issued" notBefore="1178-03-28" notAfter="1178-03-28">28 März 1178</date>
+               <issued><placeName>Rom, Lateran</placeName><date type="issued" notBefore="1178-03-28" notAfter="1178-03-28">1178 März 28. </date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">[Aussteller]</legalActor></p>
