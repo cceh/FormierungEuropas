@@ -57,7 +57,7 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p><persName>Viktor IV.</persName> weist <persName>Balduin, Abt des Benediktinerklosters Liesborn</persName> (D. Münster), und <persName>Gunther, Propst des Benediktinerinnenkonvents Lippoldsberg</persName> (D. Mainz) an, in dem von <persName>Priester Egrich</persName>, den <persName>Kleriker Lambert</persName>, den Laien <persName>E.</persName> und weitere Widersacher wegen mehrerer vor ihn gebrachter Vergehen zu ermahnen. Er ermächtigt Balduin und Gunter, die Delinquenten kanonisch zu bestrafen, sollten diese Egrich nicht 40 Tage nach Ermahnung Gerechtigkeit widerfahren lassen.<list>
+            <p><persName>Viktor IV.</persName> weist <persName>Balduin, Abt des Benediktinerklosters Liesborn</persName> (D. Münster), und <persName>Gunther, Propst des Benediktinerinnenkonvents Lippoldsberg</persName> (D. Mainz) an, den <persName>Kleriker Lambert</persName>, den Laien <persName>E.</persName> und weitere Widersacher wegen mehrerer durch den <persName>Priester Egrich</persName> vor Viktor gebrachter Vergehen zu ermahnen. Er ermächtigt Balduin und Gunter, die Delinquenten kanonisch zu strafen, sollten diese Egrich nicht 40 Tage nach Ermahnung Abbitte leisten.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
@@ -102,7 +102,7 @@
             <head>Editionen</head>
             <listBibl>
                <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 279–280, Nr. V51</bibl>
-               <bibl>Acta Maguntina, ed. Stumpf-Brentano, S. 76</bibl>
+               <bibl>Acta Maguntina, ed. Stumpf-Brentano, S. 76, Nr. 73</bibl>
             </listBibl>
          </div>
          <div type="regesta">
@@ -110,13 +110,9 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14452</bibl>
-               <bibl>Germ. Pont. 4.4, S. 291, Nr. 4; Germ. Pont. 9, S. 86, Nr. 5; Weiers, Studien, S. 146, Nr. 5; Mayr, Pontifikat, S. 111, Nr. 37; Bischoff, Urkundenformate, S. 140.</bibl>
-            </listBibl>
-         </div>
-         <div>
-            <head>Diplomatischer Kommentar</head>
+               <bibl>Germ. Pont. 4.4, S. 291, Nr. 4</bibl><bibl>Germ. Pont. 9, S. 86, Nr. 5</bibl><bibl>Weiers, Studien, S. 146, Nr. 5</bibl><bibl>Mayr, Pontifikat, S. 111, Nr. 37</bibl><bibl>Bischoff, Urkundenformate, S. 140</bibl></listBibl><head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Bleibulle erhalten. [Text und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
+               <p>Bleibulle erhalten, Inschrift: VIC/TOR/IIII. [Text und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
  Kommentar]</p>
             </diploDesc>
          </div>
