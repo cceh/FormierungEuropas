@@ -33,8 +33,9 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
-               <p><legalActor type="recipient">Erzbischof und Konsuln von Mailand, Bischöfe und Konsuln von Piacenza und Brescia</legalActor></p>
-               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><legalActor type="recipient" subtype="archbishop">Erzbischof und Konsuln von Mailand</legalActor></p>
+               <p><legalActor type="recipient" subtype="bishop">Bischöfe und Konsuln von Piacenza und Brescia</legalActor></p>
+               <p><legalActor type="recipient" subtype="consul"/></p><!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">Papsturkunde, Deperditum</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
                <p><objectType ref="na">&amp;lt;refPoint1&amp;gt; Administration, Diözesen &amp;lt;refPoint1&amp;gt;</objectType></p><p><objectType ref="na">&amp;lt;refPoint2&amp;gt; Viktor IV., Urheber &amp;lt;refPoint2&amp;gt;</objectType></p>
