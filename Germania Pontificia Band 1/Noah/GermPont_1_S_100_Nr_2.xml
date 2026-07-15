@@ -2,15 +2,13 @@
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc>
-         <titleStmt> <title>fe_00249</title><respStmt>
+         <titleStmt><title>fe_00249</title><respStmt>
                <resp>Datenquelle</resp>
                <persName>NW</persName>
-            </respStmt>
-            <respStmt>
+            </respStmt><respStmt>
                <resp when="2026">Encoding</resp>
                <persName>NW</persName>
-            </respStmt>
-         </titleStmt>
+            </respStmt></titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
             <availability>
