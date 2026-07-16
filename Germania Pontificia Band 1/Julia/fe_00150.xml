@@ -26,7 +26,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Kartäuserkloster Geirach</legalActor></p>
+               <p><legalActor type="recipient">Kartäuserkloster Gairach</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, Litterae cum serico</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
@@ -48,7 +48,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor><persName>Alexander III.</persName></legalActor> teilt mit, aus einem Schreiben <persName>Heinrichs, des Bischofs von Gurk</persName>, erfahren zu haben, dass dieser mit Zustimmung seines Domkapitels und seiner Ministerialen auf dem Kirchengut Geirach ein Kartäuserkloster errichtet hat. Auf Bitten Heinrichs nimmt Alexander III. das <legalActor><persName>Kartäuserkloster Geirach</persName></legalActor> und seine Besitzungen in den apostolischen Schutz und verfügt, dass alle bisher getroffenen Maßnahmen des Bischoffs nicht angetastet werden dürfen.</p>
+            <p><legalActor><persName>Alexander III.</persName></legalActor> teilt mit, aus einem Schreiben <persName>Heinrichs, des Bischofs von Gurk</persName>, erfahren zu haben, dass dieser mit Zustimmung seines Domkapitels und seiner Ministerialen auf dem Kirchengut Gairach ein Kartäuserkloster errichtet hat. Auf Bitten Heinrichs nimmt Alexander III. das <legalActor><persName>Kartäuserkloster Gairach</persName></legalActor> und seine Besitzungen in den apostolischen Schutz und verfügt, dass alle bisher getroffenen Maßnahmen des Bischoffs nicht angetastet werden dürfen.</p>
          </div>
 
          <div>
