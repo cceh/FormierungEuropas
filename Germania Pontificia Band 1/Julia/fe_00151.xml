@@ -69,7 +69,7 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">Wien, Österreichisches Staatsarchiv, Abteilung Haus-, Hof-, Staatsarchiv, Rep. XI</bibl>
+                  <bibl type="original">Wien, Österreichisches Staatsarchiv, Abteilung Haus-, Hof-, Staatsarchiv, Rep. 11</bibl>
                   <bibl type="msCopy">[handschriftliche Kopie]</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
@@ -91,9 +91,7 @@
          </div>
          <div type="editions">
             <head>Editionen</head>
-            <listBibl>
-               <bibl>Germ.Pont. 1, S. 143, Nr. 14</bibl>
-               <bibl>Pflugk-Harttung, Acta II, S. 368, Nr. 417</bibl>
+            <listBibl><bibl>Pflugk-Harttung, Acta II, S. 368, Nr. 417</bibl>
             </listBibl>
          </div>
          <div type="regesta">
