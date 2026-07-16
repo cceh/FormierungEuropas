@@ -19,13 +19,13 @@
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
                <p><authen type="formula" n="na">
-                     <p>[*+?-]</p>
+                     <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Anagni</placeName><date type="issued" notBefore="1173-06-02" notAfter="1174-06-02">02 Juni (1173-1174)</date>
+               <issued><placeName>Anagni</placeName><date type="issued" notBefore="1173-06-02" notAfter="1174-06-02">(1173-1174), Juni 02</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="issuer">[Alexander III.steller]</legalActor></p>
                <p><legalActor type="recipient">[Empfänger]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
