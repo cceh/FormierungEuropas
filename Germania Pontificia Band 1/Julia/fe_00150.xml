@@ -5,10 +5,7 @@
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc><titleStmt><title>fe_00150</title><respStmt><resp>Datenquelle</resp><persName>JB</persName></respStmt>
-            <respStmt>
-               <resp when="2026">Encoding</resp>
-               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
-            </respStmt>
+            <respStmt><resp when="2026">Encoding</resp><persName>JB</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -17,7 +14,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>Germ.Pont. 1, S. 137, Nr. 1</bibl><bibl type="jaffe">–</bibl>
+            <bibl>Germ. Pont. 1, S. 137-138, Nr. 1</bibl><bibl type="jaffe">–</bibl>
             <bibl>[Weiteres Konkordanzregest]</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
