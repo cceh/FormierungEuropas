@@ -24,7 +24,7 @@
                <issued><placeName>–</placeName><date type="issued" notBefore="1161-01-01" notAfter="1161-12-31">(1161)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="issuer">Eberhard, Erzbischof von Salzburg</legalActor></p>
                <p><legalActor type="recipient">[Empfänger]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
@@ -47,7 +47,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>Erzbischof E(berhard I.) von Salzburg an Papst Alexander (III.): emp-fiehlt ihm in der gegenwärtigen Bedrängnis der Kirche den Elekten vonAquileja (Ulrich II. von Treffen) und versichert seinen unbeirrten Ge-horsam.<list>
+            <p>Erzbischof E(berhard I.) von Salzburg an Papst Alexander (III.): empfiehlt ihm in der gegenwärtigen Bedrängnis der Kirche den Elekten von Aquileja (Ulrich II. von Treffen) und versichert seinen unbeirrten Gehorsam.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
