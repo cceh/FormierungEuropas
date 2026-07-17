@@ -54,13 +54,10 @@
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+                  <item>-</item>
                </list></diploPart>
          </div>
-         <div>
-            <head>Datatio</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
-         </div>
+         <div><head>Datatio</head><diploPart type="datatio">Datum Januae, XVII Kalend. Aprilis. </diploPart></div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
@@ -86,7 +83,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Migne, PL 200, Sp. 133a-134b, Nr. 62 </bibl>
+               <bibl>Migne, PL 200, Sp. 133a-134c, Nr. 62 </bibl>
             </listBibl>
          </div>
          <div type="regesta">
@@ -108,8 +105,7 @@
          <div type="bibliography">
             <head>Bibliographie</head>
             <listBibl>
-               <bibl>[Werk 1]</bibl>
-               <bibl>[Werk 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="note">
