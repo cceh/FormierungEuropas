@@ -70,30 +70,28 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
+                  <bibl type="original">-</bibl>
                   <bibl type="msCopy"> Wien, Österreichische Nationalbibliothek, Codex Vindobonensispalatinus (cvp.) 629, fol. 54v-55r</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
-               <bibl>[Quelle 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>[EAdmonter Briefsammlung, Nr. 76, S</bibl>
+               <bibl>Admonter Briefsammlung, Nr. 76, S. 133-134</bibl>
             </listBibl>
          </div>
          <div type="regesta">
