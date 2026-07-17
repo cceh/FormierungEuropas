@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>fe_00205</title><respStmt><resp>Datenquelle</resp><persName>JM</persName></respStmt>
+            <respStmt><resp when="2026">Encoding</resp><persName>JM</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Germ.Pont. 1, S. 29, Nr. 91</bibl><bibl type="jaffe">–</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>[-]</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>–</placeName><date type="issued" notBefore="1161-01-01" notAfter="1161-12-31">(1161)</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">Eberhard, Erzbischof von Salzburg</legalActor></p>
+               <p><legalActor type="recipient">Alexander III.</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Urkunde eines nichtpäpstlichen Ausstellers, andere</objectType></p><p><objectType n="">Kommentar zum Schisma, zeitgenössisch</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">Unterstützer Alexanders III., Urheber</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p>Erzbischof Eberhard von Salzburg empfiehlt Papst Alexander III. in der gegenwärtigen Bedrängnis der Kirche den Elekten von Aquileja, Ulrich II. von Treffen, und bittet um dessen Approbation. Die Haltung Ulrichs solle allerdings nicht öffentlich bekannt werden. Zuletzt versichert Eberhard, dass er selbst unbeirrt den Gehorsam zu Alexander aufrechterhält.</p><p><list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Moveri solent quidam simplices et</diploPart></div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>-</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head>
+            <diploPart type="datatio">-</diploPart>
+         </div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">-</bibl>
+                  <bibl type="msCopy">Wien, Österreichische Nationalbibliothek, Codex Vindobonensispalatinus (cvp.) 629, fol. 54v-55r</bibl>
+                  <bibl type="print">-</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Admonter Briefsammlung, Nr. 76, S. 133-134</bibl><bibl>Migne PL 200, Sp. 1374b-1375b</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl><bibl>JL –</bibl><bibl>Germ.Pont. 1, S. 29, Nr. 91</bibl><bibl/></listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>Die Datierung ergibt sich aus der Überlieferung.</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>-</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>Text nach Admonter Briefsammlung: Alexandro sanctissimo et reverentissimo domino et patri summo pontifici E. Iuvavensis ecclesie indignus minister cum obedientia et oratione devotissimum obsequium. Moveri solent quidam simplices et minus eruditi, quod ecclesia catholica tanto tempore tot et tantis vexatur perturbationibus, minus adtendentes, quia sicut vasa figuli probat fornax sic homines iustos temptatio tribulationis. Non sic moventur filii ecclesię, de quibus dicitur, quia frustra iacitur rete ante oculos pennatorum. Ipsi denique noverunt, quia flagellat Deus omnem filium, quem recipit, et qui extra disciplinam sunt, alieni sunta sorte filiorum Dei. Unde etiam perfunduntur gaudio magno, quia digniinveniuntur pro nomine Iesu contumeliam pati. Solet tamen miseratio divina etiam inter flagella consolari pusillanimes, unde merito proclamentcum propheta: Secundum multitudinem dolorum meorum et cetera. Quevero maior erit consolatio ecclesię quam gloriari in numero et merito filiorum, ut voce congratulationis dicatur ei: Venient ad te, qui detrahunt tibi et cetera. Hoc siquidem per singulos dies in presenti negotio videmus actitari, ut, quamvis adhuc archa veri Noe quatiatur fluctibus huius maris magni, tamen columba revertatur ad arcam. Non enim invenit extra, ubi secure figat pedem suum, qui eiusmodi est. Inde est, quod dilectum fratrem nostrum Aquilegensem electum vestre sanctitati, quantum audemus, pro parvitate nostra commendamus attentius, humiliter et obnixe flagitantes, ut vestra auctoritate roboretur eius electio, quia vere credimus illum nutu divino inopus ministerii huius assumptum. Qui licet adhuc pro teneritudine plantationis sue maturos fructus ferre non valeat, spem tamen bonam profert in flore fideliter et fortiter vestris inherens vestigiis, adhuc tamen cum Nichodemo in nocte timoris audiens Iesum propter metum Iudeorum. Conquievit omnino strepitus malignantium sub eo, ut pro nobis videantur esse, quicontra nos dudum fuerunt. Sed quia omnia principia timida sunt, rogamus sanctitatem vestram, ut eius obeditio manifesta non fiat, donec in robur virile gratia benedictionis pontificalis illum adducat. Huius etiam rei et obeditionis Concordiensis episcopus cooperator est strenuus. De nobis autem, pater sanctissime, sic accipite, quia fundamentum nostrum posuimusin firmam petram, ut neque venti neque flumina, que sine intermissione nospulsare non desinunt, adiuvante Domino valeant subruere.</p><p>KI-Übersetzung: An den heiligsten und ehrwürdigsten Herrn und Vater Alexander, den höchsten Papst, sendet E., unwürdiger Diener der Salzburger Kirche, in Gehorsam und Gebet seinen ergebensten Dienst.Manche einfache und weniger gebildete Menschen pflegen sich darüber zu wundern, dass die katholische Kirche schon so lange von so vielen und so schweren Erschütterungen heimgesucht wird. Sie bedenken dabei zu wenig, dass – wie der Schmelzofen die Gefäße des Töpfers prüft – so die Anfechtung der Bedrängnis die Gerechten erprobt.Nicht so werden die Söhne der Kirche erschüttert; von ihnen heißt es ja: „Vergeblich wird das Netz vor den Augen der Vögel ausgeworfen.“ Denn sie wissen, dass Gott jeden Sohn züchtigt, den er annimmt, und dass diejenigen, die ohne Zucht bleiben, keinen Anteil am Los der Kinder Gottes haben.Darum werden sie sogar von großer Freude erfüllt, weil sie würdig befunden werden, um des Namens Jesu willen Schmähungen zu erleiden.Doch pflegt das göttliche Erbarmen selbst mitten unter den Schlägen den Kleinmütigen Trost zu schenken. Deshalb dürfen sie mit dem Propheten ausrufen: „Nach der Menge meiner Schmerzen in meinem Herzen erfreuen deine Tröstungen meine Seele.“Welcher größere Trost könnte der Kirche zuteilwerden, als sich der Zahl und der Verdienste ihrer Söhne zu rühmen, sodass ihr mit freudigem Zuruf gesagt werden kann: „Zu dir werden diejenigen kommen, die dich verleumdet haben …“Gerade dies sehen wir in der gegenwärtigen Angelegenheit Tag für Tag geschehen: Zwar wird die Arche des wahren Noah noch immer von den Wellen dieses großen Meeres hin- und hergeworfen, doch kehrt die Taube zur Arche zurück. Denn wer so gesinnt ist, findet außerhalb keinen Ort, an dem er seinen Fuß sicher setzen könnte.Darum empfehlen wir Eurer Heiligkeit unseren geliebten Bruder, den erwählten Patriarchen von Aquileia, so eindringlich, wie wir es in unserer Niedrigkeit nur vermögen. Demütig und inständig bitten wir, dass seine Wahl durch Eure Autorität bestätigt werde; denn wir glauben wahrhaft, dass er durch göttlichen Willen zum Dienst dieses Amtes berufen worden ist.Auch wenn er wegen der Jugend seiner Pflanzung noch keine reifen Früchte hervorbringen kann, so gibt doch schon seine Blüte berechtigte Hoffnung. Treu und standhaft folgt er Euren Spuren. Noch hört er zwar – wie Nikodemus – Jesus in der Nacht, aus Furcht vor den Juden.Unter seiner Leitung ist jedoch der Lärm der Böswilligen völlig verstummt, sodass diejenigen, die früher gegen uns waren, nun auf unserer Seite zu stehen scheinen.Weil aber alle Anfänge von Unsicherheit begleitet sind, bitten wir Eure Heiligkeit, seinen Gehorsam gegenüber Euch noch nicht öffentlich bekannt werden zu lassen, bis ihn die Gnade des päpstlichen Segens zu voller Festigkeit und männlicher Stärke geführt hat.Auch der Bischof von Concordia unterstützt diese Sache und diesen Gehorsam tatkräftig.Was aber uns betrifft, heiligster Vater, so sollt Ihr wissen: Wir haben unser Fundament auf festen Felsen gelegt. Weder Winde noch Wasserfluten, die ohne Unterlass gegen uns anstürmen, werden – mit der Hilfe des Herrn – imstande sein, uns zum Einsturz zu bringen.</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>
