@@ -27,7 +27,7 @@
          <sourceDesc>
             <diploDesc>
                <copyStatus>Erwähnung</copyStatus>
-               <legalActor type="issuer">Daniel Pragensis episcopi</legalActor>
+               <legalActor type="issuer" subtype="bishop">Daniel Pragensis episcopi</legalActor>
                <legalActor type="recipient">Victorem IV</legalActor>
                <issued>
                   <placeName>Pavia</placeName>

@@ -28,7 +28,7 @@
             <diploDesc>
                <copyStatus/>
                <legalActor type="issuer">(Iohannes</legalActor>
-               <legalActor type="recipient">Alexandri III</legalActor>
+               <legalActor type="recipient" subtype="pope">Alexandri III</legalActor>
                <issued>
                   <placeName/>
                   <date notBefore="1177-08-01">(1177 iul. ex. – aug. in.)</date>

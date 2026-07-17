@@ -28,7 +28,7 @@
             <diploDesc>
                <copyStatus>Erwähnung</copyStatus>
                <legalActor type="issuer">Iacintus</legalActor>
-               <legalActor type="recipient">Alexandro III</legalActor>
+               <legalActor type="recipient" subtype="pope">Alexandro III</legalActor>
                <issued>
                   <placeName/>
                   <date notAfter="1168-08-30 1169-08-30">(1168-1169 aug. 30 aut ante) </date>

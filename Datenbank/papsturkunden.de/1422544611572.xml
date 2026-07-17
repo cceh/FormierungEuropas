@@ -30,7 +30,7 @@
                <legalActor type="issuer">Iohannes</legalActor>
                <legalActor type="issuer">Stephanus</legalActor>
                <legalActor type="issuer">Petrus (II</legalActor>
-               <legalActor type="recipient">Iohannem</legalActor>
+               <legalActor type="recipient" subtype="bishop">Iohannem</legalActor>
                <issued>
                   <placeName/>
                   <date notBefore="1163-12-01" notAfter="1164-05-31">(1163 dec.-1164 mai.)</date>

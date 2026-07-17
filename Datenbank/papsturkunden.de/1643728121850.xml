@@ -28,7 +28,7 @@
             <diploDesc>
                <copyStatus/>
                <legalActor type="issuer">Odone</legalActor>
-               <legalActor type="recipient">Raimundo abbati</legalActor>
+               <legalActor type="recipient" subtype="abbot">Raimundo abbati</legalActor>
                <legalActor type="recipient">ejusque canonicis</legalActor>
                <issued>
                   <placeName>Valentina, in capitulo</placeName>

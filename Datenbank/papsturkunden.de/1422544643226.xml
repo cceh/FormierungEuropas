@@ -28,7 +28,7 @@
             <diploDesc>
                <copyStatus>Erwähnung</copyStatus>
                <legalActor type="issuer">Cerebrunus</legalActor>
-               <legalActor type="recipient">Garsiam</legalActor>
+               <legalActor type="recipient" subtype="abbot">Garsiam</legalActor>
                <issued>
                   <placeName>Oña</placeName>
                   <date notBefore="1170-06-30">(1170 iun. ex.)</date>

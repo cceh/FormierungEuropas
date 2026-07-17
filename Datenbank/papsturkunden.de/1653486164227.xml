@@ -29,7 +29,7 @@
                <copyStatus/>
                <legalActor type="issuer">Robertus prior</legalActor>
                <legalActor type="issuer">fratres</legalActor>
-               <legalActor type="recipient">Alexandro III papae</legalActor>
+               <legalActor type="recipient" subtype="pope">Alexandro III papae</legalActor>
                <issued>
                   <placeName>Roma, Laterano</placeName>
                   <date notAfter="1179-02-15 1179-07-04">Ante 1179 febr. 15/iul. 4 </date>

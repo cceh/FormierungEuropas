@@ -26,7 +26,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor cert="high" type="issuer" xml:space="default">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Domkapitel von Bremen</legalActor></p>
+               <p><legalActor type="recipient" subtype="cathedral_chapter">Domkapitel von Bremen</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, Litterae cum filo canapis</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
@@ -78,7 +78,7 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl><listWit><witness>Decreti prima pars dist. LXIII c. 12 (vgl. Friedberg, Corpus iuris canonici I, Sp. 238)</witness></listWit></bibl>
+               <bibl>Decreti prima pars dist. LXIII c. 12 (vgl. Friedberg, Corpus iuris canonici I, Sp. 238)</bibl>
                <bibl/>
             </listBibl>
          </div>
@@ -106,7 +106,7 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p><diploDesc/>Beim vorliegenden Stück handelt es sich um eine Litterae cum filo canapis. Der Urkundenbestand des Erzstifts Bremen wurde nach Machtübernahme der Schweden 1650 von Bremen nach Stade überführt. Von dort wurden sie im Jahr 1864 in das Staatsarchiv Hannover verlegt (heute: Niedersächsisches Landesarchiv, Abteilung Stade) und beim Bombenangriff und dem folgenden Brand 1943 zerstört. Ein handschriftliches Regest mit Beschreibung der Urkunde, dem Rückvermerk (12. Jh.): Alexander de modo eligendi sowie einer Zeichnung der Bulle findet sich im Nachlass Brackmann (Pius-Stiftung für Papsturkundenforschung). Datiert nach dem Itinerar Alexanders III. (vgl. PUU Niedersachsen und Bremen, S. 226).</p>
+               <p>Beim vorliegenden Stück handelt es sich um eine Litterae cum filo canapis. Der Urkundenbestand des Erzstifts Bremen wurde nach Machtübernahme der Schweden 1650 von Bremen nach Stade überführt. Von dort wurden sie im Jahr 1864 in das Staatsarchiv Hannover verlegt (heute: Niedersächsisches Landesarchiv, Abteilung Stade) und beim Bombenangriff und dem folgenden Brand 1943 zerstört. Ein handschriftliches Regest mit Beschreibung der Urkunde, dem Rückvermerk (12. Jh.): Alexander de modo eligendi sowie einer Zeichnung der Bulle findet sich im Nachlass Brackmann (Pius-Stiftung für Papsturkundenforschung). Datiert nach dem Itinerar Alexanders III. (vgl. PUU Niedersachsen und Bremen, S. 226).</p>
             </diploDesc>
          </div>
          <div type="commentary">

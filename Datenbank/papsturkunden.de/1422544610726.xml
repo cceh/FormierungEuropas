@@ -28,7 +28,7 @@
             <diploDesc>
                <copyStatus>Original und Kopial</copyStatus>
                <legalActor type="issuer">Alexander III</legalActor>
-               <legalActor type="recipient">Petro (II)</legalActor>
+               <legalActor type="recipient" subtype="bishop">Petro (II)</legalActor>
                <issued>
                   <placeName>Déols</placeName>
                   <date when="1163-07-19">1163 iul. 19</date>

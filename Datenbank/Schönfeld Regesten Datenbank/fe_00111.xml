@@ -31,7 +31,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Paschalis III.</legalActor></p>
-               <p><legalActor type="recipient">Herman, Abt des Klosters Fulda</legalActor></p>
+               <p><legalActor type="recipient" subtype="abbot">Herman, Abt des Klosters Fulda</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &amp;gt; Litterae cum serico]</objectType></p>
                <!-- Referenz aus Liste entnehmen -->

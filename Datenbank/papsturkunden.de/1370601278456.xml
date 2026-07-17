@@ -28,7 +28,7 @@
             <diploDesc>
                <copyStatus>Kopial</copyStatus>
                <legalActor type="issuer">Victor IV</legalActor>
-               <legalActor type="recipient">Rolandum cancellarium</legalActor>
+               <legalActor type="recipient" subtype="cancellarius_curiae">Rolandum cancellarium</legalActor>
                <issued>
                   <placeName>Pavia</placeName>
                   <date when="1160-02-13">(1160 febr. 13)</date>

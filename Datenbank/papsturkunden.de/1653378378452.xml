@@ -28,7 +28,7 @@
             <diploDesc>
                <copyStatus/>
                <legalActor type="issuer">Alexander III</legalActor>
-               <legalActor type="recipient">Robertum</legalActor>
+               <legalActor type="recipient" subtype="bishop">Robertum</legalActor>
                <issued>
                   <placeName/>
                   <date notBefore="1172-01-01" notAfter="1173-12-31">(1172–1173)</date>

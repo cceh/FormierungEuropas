@@ -30,7 +30,7 @@
                <legalActor type="issuer">Ferdinandus</legalActor>
                <legalActor type="issuer">Alphonsus (VIII</legalActor>
                <legalActor type="issuer">Alphonsus (I</legalActor>
-               <legalActor type="recipient">Iacinto</legalActor>
+               <legalActor type="recipient" subtype="cardinal_deacon">Iacinto</legalActor>
                <issued>
                   <placeName/>
                   <date notBefore="1172-12-01" notAfter="1172-12-31">(1172 ex.)</date>

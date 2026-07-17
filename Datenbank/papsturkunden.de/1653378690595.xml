@@ -28,7 +28,7 @@
             <diploDesc>
                <copyStatus/>
                <legalActor type="issuer">Bernardus</legalActor>
-               <legalActor type="recipient">Petrum</legalActor>
+               <legalActor type="recipient" subtype="bishop">Petrum</legalActor>
                <legalActor type="recipient">Armannum vicecomitem</legalActor>
                <legalActor type="recipient">Pontium</legalActor>
                <legalActor type="recipient">Eraclium</legalActor>

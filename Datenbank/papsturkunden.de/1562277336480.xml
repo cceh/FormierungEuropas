@@ -28,7 +28,7 @@
             <diploDesc>
                <copyStatus>Original</copyStatus>
                <legalActor type="issuer">Alexander III</legalActor>
-               <legalActor type="recipient">Martino abbati</legalActor>
+               <legalActor type="recipient" subtype="abbot">Martino abbati</legalActor>
                <issued>
                   <placeName>Anagni</placeName>
                   <date when="1176-05-09">1176 mai. 9</date>

@@ -19,7 +19,7 @@
             <diploDesc><p><issued><placeName>Ferentimo</placeName><date type="issued" when="1174-10-10">(1174) Oktober 10</date><date type="issued" when="1175-10-10">(1175) Oktober 10</date>
                </issued></p>
                <p><legalActor type="issuer">Papst Alexander III.</legalActor></p>
-               <p> <legalActor type="recipient">Templerorden</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient" subtype="military_order">Templerorden</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType>Mandat</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>

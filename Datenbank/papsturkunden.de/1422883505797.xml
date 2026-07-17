@@ -30,8 +30,8 @@
                <legalActor type="issuer">Petrus (II)</legalActor>
                <legalActor type="issuer">Rodericus</legalActor>
                <legalActor type="issuer">P.</legalActor>
-               <legalActor type="recipient">Iohannem</legalActor>
-               <legalActor type="recipient">Garsiam</legalActor>
+               <legalActor type="recipient" subtype="archbishop">Iohannem</legalActor>
+               <legalActor type="recipient" subtype="abbot">Garsiam</legalActor>
                <issued>
                   <placeName>Segovia</placeName>
                   <date notBefore="1166-03-01" notAfter="1166-03-31">1166 (mart.)</date>

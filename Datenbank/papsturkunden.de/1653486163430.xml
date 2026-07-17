@@ -28,8 +28,8 @@
             <diploDesc>
                <copyStatus>Kopial</copyStatus>
                <legalActor type="issuer">Alexander III</legalActor>
-               <legalActor type="recipient">Roberto priori</legalActor>
-               <legalActor type="recipient">ejusque fratribus</legalActor>
+               <legalActor type="recipient" subtype="prior">Roberto priori</legalActor>
+               <legalActor type="recipient" subtype="friar">ejusque fratribus</legalActor>
                <issued>
                   <placeName>Anagnia</placeName>
                   <date when="1176-11-09"> 1176 nov. 9</date>

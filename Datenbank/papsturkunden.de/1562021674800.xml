@@ -28,7 +28,7 @@
             <diploDesc>
                <copyStatus>Erwähnung</copyStatus>
                <legalActor type="issuer">M(anricus) episcopus</legalActor>
-               <legalActor type="recipient">Alexandro III</legalActor>
+               <legalActor type="recipient" subtype="pope">Alexandro III</legalActor>
                <issued>
                   <placeName/>
                   <date notAfter="1181-06-12">(ante 1181 iun. 12)</date>

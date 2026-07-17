@@ -28,8 +28,8 @@
             <diploDesc>
                <copyStatus>Original</copyStatus>
                <legalActor type="issuer">Hadrianus IV</legalActor>
-               <legalActor type="recipient">Stephano</legalActor>
-               <legalActor type="recipient">Petro II</legalActor>
+               <legalActor type="recipient" subtype="archbishop">Stephano</legalActor>
+               <legalActor type="recipient" subtype="bishop">Petro II</legalActor>
                <issued>
                   <placeName>Laterano</placeName>
                   <date when="1157-06-08">(1157) iun. 8</date>

@@ -28,7 +28,7 @@
             <diploDesc>
                <copyStatus>Erwähnung</copyStatus>
                <legalActor type="issuer">Gaucelmus archidiaconus</legalActor>
-               <legalActor type="recipient">Hadriano IV</legalActor>
+               <legalActor type="recipient" subtype="pope">Hadriano IV</legalActor>
                <issued>
                   <placeName/>
                   <date notAfter="1154-06-07">(ante 1157 iun. 8)</date>

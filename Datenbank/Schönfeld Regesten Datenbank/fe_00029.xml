@@ -33,7 +33,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
-               <p><legalActor type="recipient">Ludwig VII., König von Frankreich</legalActor></p>
+               <p><legalActor type="recipient" subtype="king">Ludwig VII., König von Frankreich</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">Papsturkunde, Litterae (cum serico)</objectType></p>
                <!-- Referenz aus Liste entnehmen -->

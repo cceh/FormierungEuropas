@@ -28,11 +28,12 @@
             <diploDesc>
                <copyStatus>Kopial</copyStatus>
                <legalActor type="issuer">Alexander III</legalActor>
-               <legalActor type="recipient">Petro</legalActor>
-               <legalActor type="recipient">Nicolao</legalActor>
+               <legalActor type="recipient" subtype="bishop">Petro</legalActor>
+               <legalActor type="recipient" subtype="bishop">Nicolao</legalActor>
                <issued>
                   <placeName>Roma, Laterano</placeName>
-                  <date when="1179-02-15 1179-07-04">(1179 febr. 15/iul. 4) </date>
+                  <date when="1179-02-15">(1179 febr. 15/iul. 4) </date>
+                  <date when="1179-07-04"/>
                </issued>
             </diploDesc>
          </sourceDesc>

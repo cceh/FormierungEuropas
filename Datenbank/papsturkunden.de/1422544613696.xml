@@ -28,7 +28,7 @@
             <diploDesc>
                <copyStatus>Erwähnung</copyStatus>
                <legalActor type="issuer">Iacincto</legalActor>
-               <legalActor type="recipient">Petro (II)</legalActor>
+               <legalActor type="recipient" subtype="bishop">Petro (II)</legalActor>
                <issued>
                   <placeName/>
                   <date notBefore="1172-01-01" notAfter="1173-12-31">(1172-1173)</date>

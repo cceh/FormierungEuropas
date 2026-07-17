@@ -33,7 +33,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV. </legalActor></p>
-               <p><legalActor type="recipient">Ortlieb, Bischof von Basel</legalActor></p>
+               <p><legalActor type="recipient" subtype="archbishop">Ortlieb, Bischof von Basel</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">Papsturkunde, feierliches Privileg</objectType></p>
                <!-- Referenz aus Liste entnehmen -->

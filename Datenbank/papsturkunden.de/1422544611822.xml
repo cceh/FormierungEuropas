@@ -29,10 +29,10 @@
                <copyStatus>Kopial</copyStatus>
                <legalActor type="issuer">Alexander III</legalActor>
                <legalActor type="issuer">Alexander III</legalActor>
+               <legalActor type="recipient" subtype="bishop">I(ohanni)</legalActor>
                <legalActor type="recipient">I(ohanni)</legalActor>
-               <legalActor type="recipient">I(ohanni)</legalActor>
-               <legalActor type="recipient">S(tephano)</legalActor>
-               <legalActor type="recipient">P(etro II)</legalActor>
+               <legalActor type="recipient" subtype="archbishop">S(tephano)</legalActor>
+               <legalActor type="recipient" subtype="bishop">P(etro II)</legalActor>
                <issued>
                   <placeName>Sens</placeName>
                   <date when="1164-06-22">(1164) iun. 22</date>

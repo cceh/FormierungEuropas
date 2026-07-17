@@ -28,8 +28,8 @@
             <diploDesc>
                <copyStatus/>
                <legalActor type="issuer">Adrianus IV</legalActor>
-               <legalActor type="recipient">Jordano abbati</legalActor>
-               <legalActor type="recipient">universo capitulo</legalActor>
+               <legalActor type="recipient" subtype="abbot">Jordano abbati</legalActor>
+               <legalActor type="recipient" subtype="abbot">universo capitulo</legalActor>
                <issued>
                   <placeName>Roma, Laterano</placeName>
                   <date when="1157-12-13">(1157) dec. 13</date>

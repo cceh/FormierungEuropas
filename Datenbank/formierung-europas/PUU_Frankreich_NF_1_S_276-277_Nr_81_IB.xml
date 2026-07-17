@@ -22,7 +22,7 @@
             <diploDesc><p><issued><placeName>Palestrina</placeName><date when="1161-06-28">1161 Juni 28</date>
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p> <legalActor type="recipient">Châlons-en-Champagne, Kloster St.q Memmie </legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient" subtype="monastery">Châlons-en-Champagne, Kloster St.q Memmie </legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType>Privileg, feierlich</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>

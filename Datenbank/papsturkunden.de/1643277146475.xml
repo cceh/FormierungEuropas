@@ -28,8 +28,8 @@
             <diploDesc>
                <copyStatus/>
                <legalActor type="issuer">Adrianus IV</legalActor>
-               <legalActor type="recipient">Petro priori</legalActor>
-               <legalActor type="recipient">ejusque fratribus</legalActor>
+               <legalActor type="recipient" subtype="prior">Petro priori</legalActor>
+               <legalActor type="recipient" subtype="friar">ejusque fratribus</legalActor>
                <issued>
                   <placeName/>
                   <date notBefore="1154-01-01" notAfter="1159-12-31">(1154–1159)</date>

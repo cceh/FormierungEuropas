@@ -32,7 +32,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
-               <p><legalActor type="recipient">alle kirchlichen Würdenträger</legalActor></p>
+               <p><legalActor type="recipient" subtype="church_dignitaries">alle kirchlichen Würdenträger</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">Papsturkunde, Litterae (unbestimmt)</objectType></p>
                <!-- Referenz aus Liste entnehmen -->

@@ -31,7 +31,9 @@
                <legalActor type="recipient">fratribus</legalActor>
                <issued>
                   <placeName/>
-                  <date notAfter="1170-12-15 1171-12-15 1172-12-15">(ante [1170–1172?] dec. 16) </date>
+                  <date notAfter="1170-12-15">(ante [1170–1172?] dec. 16) </date>
+                  <date notAfter="1171-12-15"/>
+                     <date notAfter="1172-12-15"/>
                </issued>
             </diploDesc>
          </sourceDesc>

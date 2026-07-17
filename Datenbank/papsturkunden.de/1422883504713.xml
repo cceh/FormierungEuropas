@@ -29,7 +29,7 @@
                <copyStatus>Erwähnung</copyStatus>
                <legalActor type="issuer">Petrus (II)</legalActor>
                <legalActor type="issuer">Michael I?</legalActor>
-               <legalActor type="recipient">Alexandri III</legalActor>
+               <legalActor type="recipient" subtype="pope">Alexandri III</legalActor>
                <issued>
                   <placeName/>
                   <date notAfter="1162-07-16">(ante 1162 iul. 16)</date>

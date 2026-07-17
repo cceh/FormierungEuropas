@@ -28,11 +28,14 @@
             <diploDesc>
                <copyStatus/>
                <legalActor type="issuer">Alexander III</legalActor>
-               <legalActor type="recipient">Guerico</legalActor>
-               <legalActor type="recipient">Petro</legalActor>
+               <legalActor type="recipient" subtype="bishop">Guerico</legalActor>
+               <legalActor type="recipient" subtype="bishop">Petro</legalActor>
                <issued>
                   <placeName>Tusculum</placeName>
-                  <date when="1171-02-24 1171-02-25 1172-02-24 1172-02-25">(1171–1172) febr. 24 (25) </date>
+                  <date when="1171-02-24">(1171–1172) febr. 24 (25) </date>
+                  <date when="1171-02-25"/>
+                  <date when="1172-02-24"/>
+                  <date when="1172-02-25"/>
                </issued>
             </diploDesc>
          </sourceDesc>

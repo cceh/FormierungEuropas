@@ -28,7 +28,7 @@
             <diploDesc>
                <copyStatus>Original</copyStatus>
                <legalActor type="issuer">Hadrianus IV</legalActor>
-               <legalActor type="recipient">(Iohanni) episcopo</legalActor>
+               <legalActor type="recipient" subtype="bishop">(Iohanni) episcopo</legalActor>
                <issued>
                   <placeName>Laterano</placeName>
                   <date when="1157-06-08">(1157) iun. 8</date>

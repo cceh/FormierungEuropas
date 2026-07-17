@@ -29,7 +29,7 @@
                <copyStatus>Erwähnung</copyStatus>
                <legalActor type="issuer">Victore IV</legalActor>
                <legalActor type="issuer">Friderico I imperatore</legalActor>
-               <legalActor type="recipient">(Dipoldus)</legalActor>
+               <legalActor type="recipient" subtype="duke">(Dipoldus)</legalActor>
                <issued>
                   <placeName>Lodi</placeName>
                   <date notBefore="1161-06-19" notAfter="1161-06-22">1161 iun. 19 - 22</date>

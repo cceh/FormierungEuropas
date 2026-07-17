@@ -29,7 +29,7 @@
                <copyStatus/>
                <legalActor type="issuer">Ferdinandus (II) rex</legalActor>
                <legalActor type="issuer">Iohannes</legalActor>
-               <legalActor type="recipient">Iacinto diacono cardinali</legalActor>
+               <legalActor type="recipient" subtype="cardinal_deacon">Iacinto diacono cardinali</legalActor>
                <issued>
                   <placeName>León</placeName>
                   <date when="1173-04-22">(1173 april. 22)</date>

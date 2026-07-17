@@ -28,7 +28,7 @@
             <diploDesc>
                <copyStatus>Original</copyStatus>
                <legalActor type="issuer">Iacinctus</legalActor>
-               <legalActor type="recipient">Victori</legalActor>
+               <legalActor type="recipient" subtype="bishop">Victori</legalActor>
                <issued>
                   <placeName>Nájera</placeName>
                   <date when="1155-03-03">1155 mart. 3</date>

@@ -29,7 +29,7 @@
                <copyStatus>Erwähnung</copyStatus>
                <legalActor type="issuer">Daniel Pragensis</legalActor>
                <legalActor type="issuer">Hermannus Verdensis</legalActor>
-               <legalActor type="recipient">Octaviani (Victoris IV)</legalActor>
+               <legalActor type="recipient" subtype="pope">Octaviani (Victoris IV)</legalActor>
                <issued>
                   <placeName>Segni</placeName>
                   <date notBefore="1159-11-30" notAfter="1159-12-31">(1159 nov. ex.)</date>

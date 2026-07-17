@@ -28,8 +28,8 @@
             <diploDesc>
                <copyStatus/>
                <legalActor type="issuer">Alexander III</legalActor>
-               <legalActor type="recipient">Aldeberto</legalActor>
-               <legalActor type="recipient">Raimundo</legalActor>
+               <legalActor type="recipient" subtype="bishop">Aldeberto</legalActor>
+               <legalActor type="recipient" subtype="subtype">Raimundo</legalActor>
                <issued>
                   <placeName>Verulana</placeName>
                   <date when="1170-05-20">(1170) mai. 20</date>

@@ -30,7 +30,7 @@
                <legalActor type="issuer">H(einricus) Gurcensis ecclesiae humilis minister</legalActor>
                <legalActor type="issuer">S(iboto) maioris ecclesiae (Salisburgensis) praepositus</legalActor>
                <legalActor type="issuer">A. (=Meingotus) decanus</legalActor>
-               <legalActor type="recipient">A(lexandro) III</legalActor>
+               <legalActor type="recipient" subtype="pope">A(lexandro) III</legalActor>
                <issued>
                   <placeName/>
                   <date notBefore="1172-02-21">(1172 post febr. 21)</date>

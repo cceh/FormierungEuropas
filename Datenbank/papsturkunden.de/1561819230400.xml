@@ -28,7 +28,7 @@
             <diploDesc>
                <copyStatus>Original</copyStatus>
                <legalActor type="issuer">Hadrianus IV</legalActor>
-               <legalActor type="recipient">Iohanni</legalActor>
+               <legalActor type="recipient" subtype="bishop">Iohanni</legalActor>
                <issued>
                   <placeName>Civita Castellana</placeName>
                   <date when="1155-07-26">(1155) iul. 26</date>

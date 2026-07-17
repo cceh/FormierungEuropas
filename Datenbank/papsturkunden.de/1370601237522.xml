@@ -28,7 +28,7 @@
             <diploDesc>
                <copyStatus>Erwähnung</copyStatus>
                <legalActor type="issuer">Alexander III</legalActor>
-               <legalActor type="recipient">Wilhalmo comiti</legalActor>
+               <legalActor type="recipient" subtype="count">Wilhalmo comiti</legalActor>
                <issued>
                   <placeName>Roma</placeName>
                   <date notBefore="1178-03-01 1179-02-01" notAfter="1178-08-31 1179-07-31">(1178 mart. - aug. aut 1179 febr. - iul.) </date>

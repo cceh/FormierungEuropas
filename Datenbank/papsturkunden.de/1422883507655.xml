@@ -28,7 +28,7 @@
             <diploDesc>
                <copyStatus>Original und Kopial</copyStatus>
                <legalActor type="issuer">Iacinctus</legalActor>
-               <legalActor type="recipient">Andreae</legalActor>
+               <legalActor type="recipient" subtype="abbot">Andreae</legalActor>
                <issued>
                   <placeName/>
                   <date notBefore="1173-10-01" notAfter="1173-10-31">(1173 oct.?)</date>

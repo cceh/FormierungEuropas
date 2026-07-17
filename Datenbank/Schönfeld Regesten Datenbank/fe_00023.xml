@@ -33,7 +33,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
-               <p><legalActor type="recipient">Kloster St. Georg in Naumburg</legalActor></p><p><legalActor type="recipient">Theoderich, Abt des Klosters St. Georg in Naumburg</legalActor></p>
+               <p><legalActor type="recipient" subtype="monastery">Kloster St. Georg in Naumburg</legalActor></p><p><legalActor type="recipient" subtype="abbot">Theoderich, Abt des Klosters St. Georg in Naumburg</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">Papsturkunde, feierliches Privileg</objectType></p>
                <!-- Referenz aus Liste entnehmen -->

@@ -28,8 +28,8 @@
             <diploDesc>
                <copyStatus>Original und Kopial</copyStatus>
                <legalActor type="issuer">Alexander III</legalActor>
-               <legalActor type="recipient">M(artino) Bragensi praeposito</legalActor>
-               <legalActor type="recipient">G(ervasio) quondam ibidem dicto praeposito (scil. Wissegradensi)</legalActor>
+               <legalActor type="recipient" subtype="prefect">M(artino) Bragensi praeposito</legalActor>
+               <legalActor type="recipient" subtype="prefect">G(ervasio) quondam ibidem dicto praeposito (scil. Wissegradensi)</legalActor>
                <issued>
                   <placeName>Tuscolo</placeName>
                   <date when="1178-10-21">(1178) oct. 21</date>

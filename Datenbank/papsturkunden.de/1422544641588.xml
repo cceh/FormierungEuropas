@@ -28,7 +28,7 @@
             <diploDesc>
                <copyStatus>Original und Kopial</copyStatus>
                <legalActor type="issuer">Alexander III</legalActor>
-               <legalActor type="recipient">Gundisalvo</legalActor>
+               <legalActor type="recipient" subtype="abbot">Gundisalvo</legalActor>
                <issued>
                   <placeName>Tours</placeName>
                   <date when="1163-06-06">1163 iun. 6</date>

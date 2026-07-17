@@ -28,7 +28,7 @@
             <diploDesc>
                <copyStatus>Erwähnung</copyStatus>
                <legalActor type="issuer">Alexander III</legalActor>
-               <legalActor type="recipient">Iohanni</legalActor>
+               <legalActor type="recipient" subtype="bishop">Iohanni</legalActor>
                <issued>
                   <placeName/>
                   <date notAfter="1164-06-02">(1164 ante iun. 3)</date>

@@ -28,7 +28,7 @@
             <diploDesc>
                <copyStatus>Erwähnung</copyStatus>
                <legalActor type="issuer">Fridericus I Romanorum imperator</legalActor>
-               <legalActor type="recipient">Rolando cancellario</legalActor>
+               <legalActor type="recipient" subtype="cancellarius_curiae">Rolando cancellario</legalActor>
                <issued>
                   <placeName>Crema</placeName>
                   <date when="1159-10-23">(1159 cr. oct. 23)</date>

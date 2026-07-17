@@ -28,7 +28,7 @@
             <diploDesc>
                <copyStatus>Erwähnung</copyStatus>
                <legalActor type="issuer">Victor IV</legalActor>
-               <legalActor type="recipient">Daniel Pragensis episcopus</legalActor>
+               <legalActor type="recipient" subtype="bishop">Daniel Pragensis episcopus</legalActor>
                <issued>
                   <placeName>St. Jean-de-Losne</placeName>
                   <date notBefore="1162-09-07" notAfter="1162-09-08">1162 sept. 7 - 8</date>

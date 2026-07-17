@@ -28,7 +28,7 @@
             <diploDesc>
                <copyStatus>Kopial</copyStatus>
                <legalActor type="issuer">Iacintus</legalActor>
-               <legalActor type="recipient">Iohanni</legalActor>
+               <legalActor type="recipient" subtype="bishop">Iohanni</legalActor>
                <issued>
                   <placeName>Silos</placeName>
                   <date when="1173-12-07">1173 dec. 7</date>

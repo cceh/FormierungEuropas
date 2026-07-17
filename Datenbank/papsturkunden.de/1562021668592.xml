@@ -28,7 +28,7 @@
             <diploDesc>
                <copyStatus/>
                <legalActor type="issuer">Iacintus</legalActor>
-               <legalActor type="recipient">Iohanni</legalActor>
+               <legalActor type="recipient" subtype="archbishop">Iohanni</legalActor>
                <issued>
                   <placeName/>
                   <date>(1172 ex.)</date>

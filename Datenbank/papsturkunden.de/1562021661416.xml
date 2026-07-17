@@ -28,7 +28,7 @@
             <diploDesc>
                <copyStatus>Erwähnung</copyStatus>
                <legalActor type="issuer">Hadrianus IV</legalActor>
-               <legalActor type="recipient">Iohanni</legalActor>
+               <legalActor type="recipient" subtype="bishop">Iohanni</legalActor>
                <issued>
                   <placeName/>
                   <date notBefore="1154-01-01" notAfter="1159-12-31">(1154–1159)</date>

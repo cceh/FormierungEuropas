@@ -28,7 +28,7 @@
             <diploDesc>
                <copyStatus>Erwähnung</copyStatus>
                <legalActor type="issuer">Victore IV</legalActor>
-               <legalActor type="recipient">Daniel Pragensis episcopus</legalActor>
+               <legalActor type="recipient" subtype="bishop" >Daniel Pragensis episcopus</legalActor>
                <issued>
                   <placeName/>
                   <date notAfter="1160-03-27">(1160 ante mart. 27)</date>

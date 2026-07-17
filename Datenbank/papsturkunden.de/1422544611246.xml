@@ -28,9 +28,9 @@
             <diploDesc>
                <copyStatus/>
                <legalActor type="issuer">Alexander III</legalActor>
-               <legalActor type="recipient">Iohanni</legalActor>
-               <legalActor type="recipient">Stephano</legalActor>
-               <legalActor type="recipient">P(etro II)</legalActor>
+               <legalActor type="recipient" subtype="bishop">Iohanni</legalActor>
+               <legalActor type="recipient" subtype="archbishop">Stephano</legalActor>
+               <legalActor type="recipient" subtype="bishop">P(etro II)</legalActor>
                <issued>
                   <placeName>Sens</placeName>
                   <date when="1163-11-13">(1163) nov. 13</date>

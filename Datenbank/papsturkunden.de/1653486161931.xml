@@ -28,8 +28,8 @@
             <diploDesc>
                <copyStatus/>
                <legalActor type="issuer">Alexander III</legalActor>
-               <legalActor type="recipient">Petro episcopo</legalActor>
-               <legalActor type="recipient">canonicis</legalActor>
+               <legalActor type="recipient" subtype="bishop">Petro episcopo</legalActor>
+               <legalActor type="recipient" subtype="cleric">canonicis</legalActor>
                <issued>
                   <placeName>Monspessulanus</placeName>
                   <date when="1165-07-20">1165 iul. 20</date>

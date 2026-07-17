@@ -28,8 +28,8 @@
             <diploDesc>
                <copyStatus>Kopial</copyStatus>
                <legalActor type="issuer">Alexander III</legalActor>
-               <legalActor type="recipient">(Sibotoni) Salzpurgensi</legalActor>
-               <legalActor type="recipient">(Romano) Gurcensi praepositis</legalActor>
+               <legalActor type="recipient" subtype="provost">(Sibotoni) Salzpurgensi</legalActor>
+               <legalActor type="recipient" subtype="prefect">(Romano) Gurcensi praepositis</legalActor>
                <issued>
                   <placeName>Tuscolo</placeName>
                   <date when="1172-06-12">(1172) iun. 12</date>
