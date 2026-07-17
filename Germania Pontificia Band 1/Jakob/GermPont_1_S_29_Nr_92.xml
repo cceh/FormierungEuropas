@@ -56,26 +56,23 @@
                </list></p>
          </div>
 
-         <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
-         </div>
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Gloriosus Deus, qui sicut semper</diploPart></div>
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+                  <item>-</item>
                </list></diploPart>
          </div>
          <div>
             <head>Datatio</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+            <diploPart type="datatio">-</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
+                  <bibl type="original">-</bibl>
+                  <bibl type="msCopy">-</bibl>
                   <bibl type="print">Thesaurus novus anecdotorum. Tomus primus, complectens regum ac principum, aliorumque virorum illustrium epistolas et diplomata benè multa. Prodit nunc primùm studio et opera Domni Edmundi Martene et Domni Ursini Durand, Sp. 452-453 https://archive.org/details/ThesaurusNovusAnecdotorum1/page/n302/mode/1up</bibl>
                </listBibl>
             </div>
@@ -83,21 +80,18 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
-               <bibl>[Quelle 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Germ.Pont. 1, S. 29, Nr. 92</bibl>
                <bibl>[Edition 2]</bibl>
             </listBibl>
          </div>
