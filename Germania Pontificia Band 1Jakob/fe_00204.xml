@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc><titleStmt><title>fe_00204</title><respStmt>
+               <resp>Datenquelle</resp>
+               <persName>JM</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2026">Encoding</resp>
+               <persName>JM</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Germ.Pont. 1, S. 28, Nr. 90</bibl><bibl type="jaffe">–</bibl>
+            <diploDesc><p><authen type="formula" n="na"><p>[-]</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>–</placeName><date type="issued" notBefore="1161-01-01" notAfter="1161-12-31">(1161)</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">Eberhard, Erzbischof von Salzburg</legalActor></p>
+               <p><legalActor type="recipient">Hildebrand, Kardinalpriester von Santi XII Apostoli</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Urkunde eines nichtpäpstlichen Ausstellers, andere</objectType></p><p><objectType n="">Kommentar zum Schisma, zeitgenössisch</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">Unterstützer Alexanders III., Urheber</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p>Erzbischof Eberhard von Salzburg bringt gegenüber Hildebrand, Kardinalpriester von Santi XII Apostoli und apostolischer Legat, seine Zuversicht zum Ausdruck, dass er seine Position im Schisma, auch dank der Unterstützung des Bischofs von Concordia, wird halten können.<list>
+                  <item>-</item>
+               </list></p>
+         </div>
+
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Credimus et certi sumus, quod</diploPart></div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>-</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head>
+            <diploPart type="datatio">-</diploPart>
+         </div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">-</bibl>
+                  <bibl type="msCopy">Wien, Österreichische Nationalbibliothek, Codex Vindobonensispalatinus (cvp.) 629, fol. 54v</bibl>
+                  <bibl type="print">-</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Admonter Briefsammlung, Nr. 75, S. 132</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL –</bibl>
+               <bibl>Germ.Pont. 1, S. 28, Nr. 90</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>Die Datierung ergibt sich aus der Überlieferung.</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Der erwähnte Bischof von Concordia war Conone (1158-1177?), vgl. <bibl>It.Pont. 7,1, S. 73</bibl>.</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>Text nach Admonter Briefsammlung: Ildebrando basilice XII apostolorum presbitero cardinali et apostolicę sedis legato E. Iuvavensis ecclesie minister indignus cum oratione servitium. Credimus et certi sumus, quod seges nostra tempore oportuno fructus dabit uberes; nunc enim ab herba proficit in culmum proventum habitura in spicam et maturitatem, si compluta fuerit rore benedictionis. Nec interim putetis otiosam, quippe que declinavit á scismatico et modis omnibus cordetenus adheret catholico, habet etiam cooperatorem fidelissimum Concordiensem episcopum. Hec hactenus. Ventus validus flavit nobis ab aquilone inducens super nos grandines et tonitrua, qui nos vel a statu nostro movere vel radicitus temptat evellere. Sed firmum stat propositum nostrum in fide et dilectione Dei habens fundamentum in firma petra.</p><p>KI-Übersetzung: Dem Hildebrand, Kardinalpriester der Basilika Santi XII Apostoli und Legaten des Apostolischen Stuhls, entbietet E., unwürdiger Diener der Kirche von Salzburg, mit seinem Gebet seinen ergebenen Dienst.Wir glauben und sind fest überzeugt, dass unsere Saat zur rechten Zeit reiche Frucht bringen wird. Denn jetzt wächst sie vom Halm zum Schoss, um schließlich Ähre und volle Reife hervorzubringen, wenn sie nur mit dem Tau des göttlichen Segens benetzt wird.Haltet sie inzwischen nicht für unfruchtbar oder untätig; denn sie hat sich vom Schismatiker abgewandt und hängt mit ganzem Herzen auf jede Weise dem rechtgläubigen Papst an. Sie hat außerdem im Bischof von Concordia einen äußerst treuen Mitstreiter.So viel hierzu.Ein heftiger Wind ist von Norden über uns hereingebrochen und hat Hagel und Donner über uns gebracht. Er versucht, uns entweder aus unserer festen Stellung zu verdrängen oder sogar mit den Wurzeln auszureißen.Doch unser Vorsatz steht fest, gegründet auf Glauben und Liebe zu Gott; sein Fundament ruht auf dem festen Felsen.</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>
