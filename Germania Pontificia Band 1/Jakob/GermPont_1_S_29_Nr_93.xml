@@ -4,14 +4,8 @@
       <fileDesc>
          <titleStmt>
             <title>Germ.Pont. 1, S. 29, Nr. 93</title>
-            <respStmt>
-               <resp>Datenquelle</resp>
-               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
-            </respStmt>
-            <respStmt>
-               <resp when="2026">Encoding</resp>
-               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
-            </respStmt>
+            <respStmt><resp>Datenquelle</resp><persName>JM</persName></respStmt>
+            <respStmt><resp when="2026">Encoding</resp><persName>JM</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -21,14 +15,13 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>Germ.Pont. 1, S. 29, Nr. 93</bibl><bibl type="jaffe">10702</bibl>
-            <bibl>[Weiteres Konkordanzregest]</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
                <p><authen type="formula" n="na">
-                     <p>[*+?-]</p>
+                     <p>[-]</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Genua</placeName><date type="issued" notBefore="1162-03-16" notAfter="1162-03-16">16 März (1162)</date>
+               <issued><placeName>Genua</placeName><date type="issued" notBefore="1162-03-16" notAfter="1162-03-16">(1162), März 16 </date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">[Aussteller]</legalActor></p>
