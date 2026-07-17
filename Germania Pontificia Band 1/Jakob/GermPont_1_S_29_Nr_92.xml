@@ -1,17 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Germ.Pont. 1, S. 29, Nr. 92</title>
-            <respStmt>
+      <fileDesc><titleStmt><title>fe_00206</title><respStmt>
                <resp>Datenquelle</resp>
-               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+               <persName>JM</persName>
             </respStmt>
             <respStmt>
                <resp when="2026">Encoding</resp>
-               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+               <persName>JM</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -80,7 +76,7 @@
                <listBibl>
                   <bibl type="original">[Original]</bibl>
                   <bibl type="msCopy">[handschriftliche Kopie]</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="print">Thesaurus novus anecdotorum. Tomus primus, complectens regum ac principum, aliorumque virorum illustrium epistolas et diplomata benè multa. Prodit nunc primùm studio et opera Domni Edmundi Martene et Domni Ursini Durand, Sp. 452-453 https://archive.org/details/ThesaurusNovusAnecdotorum1/page/n302/mode/1up</bibl>
                </listBibl>
             </div>
          </div>
@@ -131,7 +127,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+            <p>Text nach Martene-Durand: A. summo pontifici E. Salisburgensis obedientiae, orationis &amp; obsequii devotissimum affectum. Gloriosus Deus, qui sicut semper mirabilis, ita &amp; potentissimus in operibus semper apparet; deponit enim potentes de fede, &amp; exaltat humiles, &amp; vocat ea quae non sunt, tamquam ea quae sunt, &amp; cui nemo audet dicere: Cur ita facis? quamvis multi tentent resultare his quae ipse facit. Inde est quod mirabiles elationes maris quae putabant elidere naviculam Petri, sanctam videlicet catholicam Ecclesiam, nutu suae potentiae fecit detumescere, &amp; portum tranquillitatis ibi constituit, unde gravior tempestas timebatur. Videmus enim statuam illam Babylonicam à filiis captivitatis non solum non adorari, sed etiam derideri, &amp; minarum incendia rore divinae consolationis tribus pueris temperari. Haec, Pater sanctissime, scripsimus pro tempore, paternitatem vestram scire cupientes, quia nos &amp; alii plures, quibus sanior mens est, ab unitate Ecclesiae, cui vos Deus Caput constituit, praeveniente nos &amp; subsequente gratia Dei, non discedemus. Dominus sanctitatem vestram diu confervet incolumem.KI-Übersetzung: </p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
