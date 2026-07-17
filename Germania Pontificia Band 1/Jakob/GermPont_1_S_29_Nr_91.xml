@@ -27,7 +27,7 @@
                <p><legalActor type="issuer">Eberhard, Erzbischof von Salzburg</legalActor></p>
                <p><legalActor type="recipient">Alexander III.</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <p><p><objectType n="">Urkunde eines nichtpäpstlichen Ausstellers, andere</objectType></p><p><objectType n="">Kommentar zum Schisma, zeitgenössisch</objectType></p><diploDesc><diploDesc><!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! --></diploDesc></diploDesc><p><objectType n="">Unterstützer Alexanders III., Urheber</objectType></p><diploDesc/></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
                <p><objectType n="">[Typisierung 2]</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
@@ -93,10 +93,7 @@
          </div>
          <div type="regesta">
             <head>Regesten</head>
-            <listBibl>
-               <bibl>JL –</bibl>
-               <bibl>G<bibl>erm.Pont. 1, S. 29, Nr. 91</bibl><bibl/></bibl>
-            </listBibl>
+            <listBibl><bibl>JL –</bibl><bibl>Germ.Pont. 1, S. 29, Nr. 91</bibl><bibl/></listBibl>
          </div>
          <div>
             <head>Diplomatischer Kommentar</head>
