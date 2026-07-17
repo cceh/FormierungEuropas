@@ -61,14 +61,14 @@
          </div>
          <div>
             <head>Datatio</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+            <diploPart type="datatio">-</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
                   <bibl type="original">-</bibl>
-                  <bibl type="msCopy"> Wien, Österreichische Nationalbibliothek, Codex Vindobonensispalatinus (cvp.) 629, fol. 54v-55r</bibl>
+                  <bibl type="msCopy">Wien, Österreichische Nationalbibliothek, Codex Vindobonensispalatinus (cvp.) 629, fol. 54v-55r</bibl>
                   <bibl type="print">-</bibl>
                </listBibl>
             </div>
@@ -88,7 +88,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Admonter Briefsammlung, Nr. 76, S. 133-134</bibl>
+               <bibl>Admonter Briefsammlung, Nr. 76, S. 133-134</bibl><bibl>Migne PL 200, Sp. 1374</bibl>
             </listBibl>
          </div>
          <div type="regesta">
