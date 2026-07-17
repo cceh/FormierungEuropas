@@ -33,7 +33,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
-               <p><legalActor type="recipient">Eberhard, Erzbischof von Salzburg</legalActor></p>
+               <p><legalActor type="recipient" subtype="archbishop">Eberhard, Erzbischof von Salzburg</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">Papsturkunde, Litterae cum filo canapis</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
