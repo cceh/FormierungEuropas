@@ -18,10 +18,10 @@
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
                <p><authen type="formula" n="na">
-                     <p>[*+?-]</p>
+                     <p>[-]</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>–</placeName><date type="issued" notBefore="1161-01-01" notAfter="1161-12-31">(1161 ex.)</date>
+               <issued><placeName>–</placeName><date type="issued" notBefore="1161-01-01" notAfter="1161-12-31">(1161)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">[Aussteller]</legalActor></p>
@@ -47,7 +47,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>[Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
+            <p>Erzbischof E(berhard I.) von Salzburg an Papst Alexander (III.): emp-fiehlt ihm in der gegenwärtigen Bedrängnis der Kirche den Elekten vonAquileja (Ulrich II. von Treffen) und versichert seinen unbeirrten Ge-horsam.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
