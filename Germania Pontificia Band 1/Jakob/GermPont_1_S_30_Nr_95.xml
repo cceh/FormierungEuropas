@@ -25,9 +25,9 @@
                <p><legalActor type="issuer">[Aussteller]</legalActor></p>
                <p><legalActor type="recipient">[Empfänger]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">[Papsturkunde, Litterae cum filo canapis</objectType></p><p><objectType n="">Kommentar zum Schisma, zeitgenössisch</objectType></p>
+               <p><objectType n="">Papsturkunde, Litterae cum filo canapis</objectType></p><p><objectType n="">Kommentar zum Schisma, zeitgenössisch</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">[Typisierung 2]</objectType></p>
+               <p><objectType n="">Alexander III., Urheber</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
@@ -45,7 +45,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>Papst Alexander (III.) an die Bischöfe, Äbte, Pröpste und die übrigenPrälaten sowie an den Klerus und das Volk des deutschen Reiches: gibtdie Ernennung des Erzbischofs E(berhard I.) von Salzburg zum Legatenfür das deutsche Reich bekannt und befiehlt, ihm Gehorsam zu leisten.<list>
+            <p>Papst Alexander (III.) an die Bischöfe, Äbte, Pröpste und die übrigen Prälaten sowie an den Klerus und das Volk des deutschen Reiches: gibt die Ernennung des Erzbischofs E(berhard I.) von Salzburg zum Legaten für das deutsche Reich bekannt und befiehlt, ihm Gehorsam zu leisten.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
