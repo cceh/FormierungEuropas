@@ -12,11 +12,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>Germ.Pont. 1, S. 30, Nr. 95</bibl><bibl type="jaffe">10758</bibl>
-            <bibl>[Weiteres Konkordanzregest]</bibl>
-            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
-            <diploDesc>
-               <p><authen type="formula" n="na">
-                     <p>[*+?-]</p>
+            <diploDesc><p><authen type="formula" n="na"><p>[-]</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
                <issued><placeName>Paris</placeName><date type="issued" notBefore="1163-02-28" notAfter="1163-02-28">(1163), Februar 28</date>
@@ -50,10 +46,7 @@
                </list></p>
          </div>
 
-         <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
-         </div>
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">In apostolice sedis specula disponente</diploPart></div>
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
