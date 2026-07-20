@@ -40,9 +40,13 @@
                <item>Er verfügt, dass ihren Äbten nicht erlaubt sei, die genannten Zehnten einzubehalten und einem anderen Nutzen zu zuführen, sondern zwei rechtschaffene Männer sollten diese Zehnte für die Instandsetzung des Klosters verwalten. </item><item>Schlussformeln: Perturbationsformel, Sanctio negativa</item>
                </list>  </p>
          </div>
-         <div type="other"><head>Echtheitskriterien:</head>
-            <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustis pententizu</diploPart></div>
+          <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>-</item>
+               </list></diploPart>
+         </div>
          <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung</head>
