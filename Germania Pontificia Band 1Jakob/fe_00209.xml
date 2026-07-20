@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc><titleStmt><title>fe_00209</title><respStmt><resp>Datenquelle</resp><persName>JM</persName></respStmt>
+            <respStmt><resp when="2026">Encoding</resp><persName>JM</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Germ.Pont. 1, S. 30, Nr. 95</bibl><bibl type="jaffe">10758</bibl>
+            <diploDesc><p><authen type="formula" n="na"><p>[-]</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Paris</placeName><date type="issued" notBefore="1163-02-28" notAfter="1163-02-28">(1163), Februar 28</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p><legalActor type="recipient">Bischöfe, Äbte, Pröpste und die übrigen Prälaten sowie an den Klerus und das Volk des deutschen Reiches</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Papsturkunde, Litterae cum filo canapis</objectType></p><p><objectType n="">Administration, Organisation der Kurie</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">Alexander III., Urheber</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p>Alexander III. verkündet der Geistlichkeit und dem Volk des deutschen Reichs (<diploPart>in regno Teutonico constitutis</diploPart>), dass er <persName>Erzbischof Eberhard I. von Salzburg</persName> als Legaten für das deutsche Reich (<diploPart>legatum in regno Teutonico</diploPart>) mit der Macht zur Rückführung von Schismatikern in die Einheit der Kirche eingesetzt hat, und befiehlt, ihm Gehorsam zu leisten.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">In apostolice sedis specula disponente</diploPart></div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>-</item>
+               </list></diploPart>
+         </div>
+         <div><head>Datatio</head><diploPart type="datatio">Dat. Paris(iis), II cal. mart.</diploPart></div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">Wien, Österreichisches Staatsarchiv, HHStA UR AUR Nr. 208 https://www.archivinformationssystem.at/detail.aspx?ID=29103 http://monasterium.net/mom/AT-HHStA/SbgDK/AUR_1163_II_28/charter</bibl>
+                  <bibl type="msCopy">-</bibl>
+                  <bibl type="print">-</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Admonter Briefsammlung, Anhang: Briefe Papst Alexanders III., Nr. 1, S. 201-202</bibl><bibl>Salzburger Urkundenbuch, II. Band, Urkunden von 790 bis 1199. Willibald Hauthaler und Franz Martin. S. 514-515.</bibl><bibl>Migne, PL 200, Sp. 197c-198b, Nr. 131</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL 10758</bibl>
+               <bibl>Germ.Pont. 1, S. 30, Nr. 95</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>Papstbulle an Hanffäden erhalten.</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>[Kommentare zur Identifizierung von Personen, Institutionen und Orten, zu Vor- und Nachurkunden, Konfliktverläufen etc. Literaturnageben (bibl) sind zulässig]</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>Signatur gegenüber Admonter Briefsammlung ergänzt</p><p>Würde dieses Stück schon als Enzyklika zählen?</p><p>Text nach Monasterium: Alexander episcopus servus servorum dei venerabilibus fratribus episcopis et dilectis filiis abbatibus prepositis aliisque ecclesiarum prelatis et universo clero ac populo in regno Teutonico constitutis in unitate ecclesie permanentibus salutem et apostolicam benedictionem. In apostolice sedis specula disponente domino constituti ad universum corpus ecclesie ita debemus aciem nostre considerationis extendere, ut de his quos nos ipsi non possumus corporaliter visitare, per alios de quibus plenam fiduciam habeamus, curam et sollicitudinem gerere comprobemur. Inde est, quod de vobis tanquam de devotis filiis et specialibus membris ecclesie et de salute vestra paterne affectionis debito solliciti exsistentes, venerabilem fratrem nostrum E(berhardum) Salzburgensem archiepiscopum, virum utique religione scientia et honestate preclarum, legatum in regno Teutonico statuentes, cum ad presens per nos vel per aliquos a nostro latere destinatos vobis intendere non possimus, vices nostras inpresentiarum ei duximus committendas, ita quidem quod ibidem auctoritate nostra utens legationis officio, illos qui scismatis sunt pravitate polluti, revocandi ad unitatem ecclesie et devotionem nostram plenam habeat potestatem. Liceat quoque ei tanquam apostolice sedis legato vos ad suam presentiam convocare et emergentes causas discutere easque fine debito terminare. Per apostolica itaque scripta universitati vestre mandamus, quatinus ei sicut apostolice sedis legato debitam reverentiam et obedientiam inpendatis atque ab eo vocati ipsius presentiam adeatis et ea que ipse ad honorem dei et sancte Romane ecclesie duxerit statuenda, suscipiatis firmiter et servetis. Dat. Paris(iis), II cal. mart.</p><p>KI-Übersetzung: Alexander, Bischof, Knecht der Knechte Gottes, den ehrwürdigen Brüdern, den Bischöfen, und den geliebten Söhnen, den Äbten, Pröpsten und den übrigen Prälaten der Kirchen sowie dem gesamten Klerus und Volk, die sich im deutschen Reich befinden und in der Einheit der Kirche verharren, Heil und den apostolischen Segen. Da wir durch Gottes Fügung auf den erhabenen Sitz des Apostolischen Stuhles gestellt sind, müssen wir den Blick unserer Fürsorge auf den gesamten Leib der Kirche richten, sodass wir auch für diejenigen, die wir nicht persönlich besuchen können, durch andere, zu denen wir volles Vertrauen haben, Sorge und Fürsorge tragen. Deshalb haben wir, da wir euch als ergebenen Söhnen und als besonders zugehörigen Gliedern der Kirche ansehen und aufgrund unserer väterlichen Liebe um euer Heil besorgt sind, unseren ehrwürdigen Bruder Eberhard, Erzbischof von Salzburg, einen Mann, der sich durch Frömmigkeit, Gelehrsamkeit und sittliche Lauterkeit auszeichnet, zum Legaten für das deutsche Reich bestellt. Da wir uns gegenwärtig weder selbst noch durch andere von unserer Seite entsandte Gesandte euch widmen können, haben wir beschlossen, ihm für jetzt unsere Stellvertretung zu übertragen. So soll er dort kraft unserer Autorität das Amt eines Legaten ausüben und die volle Vollmacht besitzen, diejenigen, die durch die Verirrung des Schismas befleckt sind, zur Einheit der Kirche und zum vollen Gehorsam gegenüber uns zurückzuführen.Ferner soll es ihm als Legaten des Apostolischen Stuhls gestattet sein, euch vor sich zu laden, aufkommende Streitfälle zu untersuchen und sie in gebührender Weise zu entscheiden. Durch dieses apostolische Schreiben gebieten wir daher euch allen, dass ihr ihm als dem Legaten des Apostolischen Stuhls die gebührende Ehrfurcht und den schuldigen Gehorsam erweist, auf seine Vorladung hin vor ihm erscheint und alles, was er zur Ehre Gottes und der heiligen Römischen Kirche anordnet, bereitwillig annehmt und gewissenhaft befolgt. Gegeben zu Paris am zweiten Tag vor den Kalenden des März, das heißt am 28. Februar 1163.</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>
