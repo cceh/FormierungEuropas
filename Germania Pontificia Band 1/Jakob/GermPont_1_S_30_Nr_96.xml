@@ -2,10 +2,7 @@
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc><titleStmt><title>fe_00210</title><respStmt><resp>Datenquelle</resp><persName>JM</persName></respStmt>
-            <respStmt>
-               <resp when="2026">Encoding</resp>
-               <persName>[JM</persName>
-            </respStmt>
+            <respStmt><resp when="2026">Encoding</resp><persName>JM</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -15,7 +12,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>Germ.Pont. 1, S. 30, Nr. 96</bibl><bibl type="jaffe">10869</bibl>
-            <diploDesc><p><authen type="formula" n="na"><p>[*+?-]</p>
+            <diploDesc><p><authen type="formula" n="na"><p>[-]</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
                <issued><placeName>Tours</placeName><date type="issued" notBefore="1163-05-29" notAfter="1163-05-29">29 Mai (1163)</date>
