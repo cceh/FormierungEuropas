@@ -14,18 +14,9 @@
             <bibl>Germ.Pont. 1, S. 30, Nr. 96</bibl><bibl type="jaffe">10869</bibl>
             <diploDesc><p><authen type="formula" n="na"><p>[-]</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-                  </authen></p>
-               <issued><placeName>Tours</placeName><date type="issued" notBefore="1163-05-29" notAfter="1163-05-29">(1163), Mai 29</date>
+                  </authen></p><issued><placeName>Tours</placeName><date type="issued" notBefore="1163-05-29" notAfter="1163-05-29">(1163), Mai 29</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
-               </issued>
-               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
-               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
-               <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">Papsturkunde, Litterae cum filo canapis</objectType></p><p><objectType n="">Kommentar zum Schisma, zeitgenössisch</objectType></p>
-               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n=""/></p><p>Alexander III., Urheber</p>
-               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
-            </diploDesc>
+               </issued><p><legalActor type="issuer">[Aussteller]</legalActor></p><p><legalActor type="recipient">[Bischof Hartmann I. von Brixen</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType n="">Papsturkunde, Litterae cum filo canapis</objectType></p><p><objectType n="">Kommentar zum Schisma, zeitgenössisch</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p><!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! --><p/><!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
       
