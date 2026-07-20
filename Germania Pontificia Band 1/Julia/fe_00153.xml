@@ -38,13 +38,13 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>Alexander III. ermahnt den Bischof von Brixen, damit seine Pfarreimitglieder, die Güter des Klosters St. Quirin entfremdet und besetzt hatten, diese dem Kloster wieder zurückerstatten. Die Güter hatten die edlen Grafen H. und D. dem Kloster St. Quirin gestiftet.<list>
+            <p><legalActor><persName>Alexander III.</persName></legalActor> ermahnt den Bischof von Brixen, damit seine Pfarreimitglieder, die Güter des Klosters St. Quirin entfremdet und besetzt hatten, diese dem Kloster wieder zurückerstatten. Die Güter hatten die edlen Grafen H. und D. dem Kloster St. Quirin gestiftet.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
 
          <div>
-            <head>Incipit</head><diploPart type="incipit" xml:lang="lat">Significaverunt nobis dilecti filii nostriit amet]</diploPart>
+            <head>Incipit</head><diploPart type="incipit" xml:lang="lat">Significaverunt nobis dilecti filii nostri</diploPart>
          </div>
          <div>
             <head>Subscriptiones</head>
