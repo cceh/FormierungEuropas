@@ -15,7 +15,7 @@
             <diploDesc><p><authen type="formula" n="na"><p>[-]</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Tours</placeName><date type="issued" notBefore="1163-05-29" notAfter="1163-05-29">29 Mai (1163)</date>
+               <issued><placeName>Tours</placeName><date type="issued" notBefore="1163-05-29" notAfter="1163-05-29">(1163), Mai 29</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">[Aussteller]</legalActor></p>
@@ -88,7 +88,7 @@
             <head>Editionen</head>
             <listBibl>
                <bibl>Germ.Pont. 1, S. 30, Nr. 96</bibl>
-               <bibl>[Edition 2]</bibl>
+               <bibl>[PfhußH. Acta II 368 n. 4172]</bibl>
             </listBibl>
          </div>
          <div type="regesta">
