@@ -21,7 +21,7 @@
                <p><legalActor type="issuer">[Aussteller]</legalActor></p>
                <p><legalActor type="recipient">[Empfänger]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <p><objectType n="">[Fervorem et constantiam vestre sincerissime</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
                <p><objectType n="">[Typisierung 2]</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
@@ -41,14 +41,12 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>Alexander (III.) an Erzbischof E(berhard I.) von Salzburg, Bischof Ha(rtmann I.) von Brixen und die übrigen Salzburger Suffra-gane: berichtet über die Exkommunikation Oktavians und seiner An-hänger auf dem Konzil von Tours (1163 Mai 19) und fordert zur Einheitder Kirche auf; befiehlt dem Erzbischof von Salzburg, ErzbischofL(ukas) von Gran zum Widerstand gegen den Zug des Kaisers nachUngarn zu mahnen.<list>
+            <p>Alexander (III.) an Erzbischof E(berhard I.) von Salzburg, Bischof Ha(rtmann I.) von Brixen und die übrigen Salzburger Suffragane: berichtet über die Exkommunikation Oktavians und seiner Anhänger auf dem Konzil von Tours (1163 Mai 19) und fordert zur Einheit der Kirche auf; befiehlt dem Erzbischof von Salzburg, Erzbischof L(ukas) von Gran zum Widerstand gegen den Zug des Kaisers nach Ungarn zu mahnen.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
 
-         <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Fervorem et constantiam vestre sincerissime</diploPart></div>
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Fervorem et constantiam vestre sincerissime</diploPart></div>
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
