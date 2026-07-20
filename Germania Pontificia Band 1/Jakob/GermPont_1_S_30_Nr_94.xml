@@ -26,9 +26,9 @@
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">Eberhard, Erzbischof von Salzburg</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">Papsturkunde, Litterae cum filo canapisKommentar zum Schisma, zeitgenössischAlexander III., Urheber</objectType></p>
+               <p><objectType n="">Papsturkunde, Litterae cum filo canapis</objectType></p><p><objectType n="">Kommentar zum Schisma, zeitgenössisch</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">[Typisierung 2]</objectType></p>
+               <p><objectType n=""/>Alexander III., Urheber</p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
@@ -46,7 +46,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>Papst Alexander (III.) an Erzbischof (Eberhard I.) von Salzburg: lobt seine Treue zur Kirche, lädt ihn oder einen Vertreter zu sich ein, fordert ihn auf, wenn möglich den Kaiser aufzusuchen, um ihn zur Rückkehr zur Kircheneinheit zu bewegen.<list>
+            <p>Alexander III. an Erzbischof (Eberhard I.) von Salzburg: lobt seine Treue zur Kirche, lädt ihn oder einen Vertreter zu sich ein, fordert ihn auf, wenn möglich den Kaiser aufzusuchen, um ihn zur Rückkehr zur Kircheneinheit zu bewegen.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
