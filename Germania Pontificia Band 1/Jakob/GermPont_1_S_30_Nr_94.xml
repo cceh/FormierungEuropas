@@ -23,7 +23,7 @@
                <issued><placeName>Dole</placeName><date type="issued" notBefore="1162-09-18" notAfter="1162-09-18">(1162), September 18 </date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">[Empfänger]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
@@ -46,7 +46,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>[Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
+            <p>Papst Alexander (III.) an Erzbischof (Eberhard I.) von Salzburg: lobt seine Treue zur Kirche, lädt ihn oder einen Vertreter zu sich ein, fordert ihn auf, wenn möglich den Kaiser aufzusuchen, um ihn zur Rückkehr zur Kircheneinheit zu bewegen.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
