@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc><titleStmt><title>fe_00210</title><respStmt><resp>Datenquelle</resp><persName>JM</persName></respStmt>
+            <respStmt><resp when="2026">Encoding</resp><persName>JM</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Germ.Pont. 1, S. 30, Nr. 96</bibl><bibl type="jaffe">10869</bibl>
+            <diploDesc><p><authen type="formula" n="na"><p>[-]</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p><issued><placeName>Tours</placeName><date type="issued" notBefore="1163-05-29" notAfter="1163-05-29">(1163), Mai 29</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued><p><legalActor type="issuer">Alexander III.</legalActor></p><p><legalActor type="recipient">Eberhard, Erzbischof von Salzburg</legalActor></p><p><legalActor type="recipient">Hartmann I., Bischof von Brixen</legalActor></p><p><legalActor type="recipient">Salzburger Suffraganbischöfe </legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType n="">Papsturkunde, Litterae cum filo canapis</objectType></p><p><objectType n="">Kernereignis, Konzil von Tours (1163)</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p><!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! --><p/><!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>--></diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p>Alexander III. schreibt Erzbischof Eberhard I. von Salzburg, Bischof Hartmann I. von Brixen und den übrigen Salzburger Suffraganen: <list>
+                  <item>Er hat in Tours mit den Prälaten "der gallischen und der [übrigen] westlichen Kirche" (<diploPart>Gallicane et occidentalis ecclesie</diploPart>) ein reich besuchtes Konzil abgehalten, das die Exkommunikation gegen den "Erzhäretiker Oktavian" (<diploPart>heresiarcham Octavianum</diploPart>) und seine Anhänger ausgesprochen hat.</item><item>Er fordert sie auf, die Einheit der Kirche zu verbreiten und zu schützen.</item><item>Er befiehlt Erzbischof Eberhard, dass dieser <persName>Erzbischof Lukas von Gran</persName> zum Widerstand gegen den geplanten Zug des Kaisers nach Ungarn ermahnen und darüber hinaus die Pläne des Kaisers selbst verhindern soll.</item>
+               </list></p>
+         </div>
+
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Fervorem et constantiam vestre sincerissime</diploPart></div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>-</item>
+               </list></diploPart>
+         </div>
+         <div><head>Datatio</head><diploPart type="datatio">Dat. Turoni IIII. K. Iun.</diploPart></div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">Wien, Österreichisches Staatsarchiv, OeStA/HHStA UR AUR, Nr. 210 https://archivinformationssystem.at/detail.aspx?ID=29105 http://monasterium.net/mom/AT-HHStA/SbgE/AUR_1163_V_29/charter</bibl>
+                  <bibl type="msCopy">-</bibl>
+                  <bibl type="print">-</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Pflugk-Harttung, Acta 2, S. 368, Nr. 417</bibl><bibl>Admonter Briefsammlung, Anhang: Briefe Papst Alexanders III., Nr. 2, S. 202-203</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL 10869</bibl>
+               <bibl>Germ.Pont. 1, S. 30, Nr. 96</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>Papstbulle an Hanffäden erhalten. </p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Bei den weiteren, hier ungenannten Salzburger Suffraganbischöfen handelte es sich um <persName>Konrad I. von Passau</persName> (amt. 1148-1164), <persName>Hartwig II. von Regensburg</persName> (amt. 1155-1164), <persName>Albert I. von Freising</persName> (amt. 1158-1184) und <persName>Roman I. von Gurk</persName> (amt. 1132-1167).</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>Archivsignatur gegenüber Admonter Briefsammlung ergänzt</p><p>Text nach Admonter Briefsammlung: Alexander episcopus servus servorum Dei venerabilibus fratribus E. Salzburgensi archiepiscopo et A. Brixinensi episcopo et aliis Salzburgensis ecclesie suffraganeis episcopis salutem et apostolicam benedictionem. Fervorem et constantiam vestre sincerissime puritatis, quam circa sacrosanctam Romanam ecclesiam et nos ipsos geritis, attendentes, fructum etiam, qui de fide ac devotione vestra nobis et universali ecclesie in huius perturbationis tempore provenisse dinoscitur, cogitantes tanto libentius profectum et exaltationem ipsius ecclesie Dei ac nostram vestre fraternitati describimus, quanto vos exinde affectuosius exultare et nobis in Domino congaudere sentimus. Nosse itaque vestram volumus caritatem, quod nos et fratres nostri Turoni per Dei gratiam sani et incolumes commorantes illic ad vocationem nostram Gallicane et occidentalis ecclesie archiepiscopis, episcopis et abbatibus cum celeberrima ecclesiasticarum personarum multitudine congregatis ita magnificum et sollempne concilium auxiliante Domino celebravimus, ut nullus unquam predecessorum nostrorum a XL retro annis maius vel sollempnius, sicut antiquiores, qui consueverunt in ultramontanis partibus interesse conciliis, protestantur, celebrasse noscatur. In ipso autem concilio promulgatis de more, que Deo novimus placitura, decretis et ad totius christianitatis pacem pariter et augmentum pluribus constitutis in illum heresiarcham Octavianum et alios iniquitatis sue complices de assensu et voluntate illius sacri concilii sententiam sollempnis excommunicationis pertulimus universos penitus ab eius exsecrabilibus manibus execratos perpetue dampnationis animadversione plectentes. Unde fraternitatem vestram per apostolica scripta rogamus, monemus et exhortamur in Domino, quatinus viriliter in Domino confortemini et ad ampliandam ac protegendam catholicam unitatem prompta semper sollicitudine laboretis firmam in Deo spem fiduciamque tenentes, quod, qui ecclesiam suam sanctam in id glorie et exaltationis adduxit, optatam sibi pacem inproximo tribuet sibique post laboris angustias in salutaris quietis gaudium suavius respirare concedet. Ad hec, frater archiepiscope, quoniam, sicut accepimus, imperator in Ungariam pro discordia illa, que ibidem emersit, transire disposuit, fraternitatem tuam rogamus atque mandamus, quatinus venerabilem fratrem nostrum L. Strigonensem archiepiscopum tuis super hoc litteris sollicitare non differas et super angustiis et pressuris suis consolationem ei facias monens eum attentius et confortans, ut ad ipsius imperatoris transitum disturbandum studeat omnimodo et intendat. Tu quoque ipse ad disturbationem eius super hoc facto, quibuscumque modis poteris, elabores. Dat. Turoni IIII. K. Iun.</p><p>KI-Übersetzung: Alexander, Bischof, Knecht der Knechte Gottes, entbietet dem ehrwürdigen Bruder E. (Eberhard), Erzbischof von Salzburg, und A. (Hartmann), Bischof von Brixen, sowie den übrigen Suffraganbischöfen der Salzburger Kirche Gruß und den apostolischen Segen. Indem wir den Eifer und die Standhaftigkeit eurer aufrichtigsten Gesinnung betrachten, die ihr gegenüber der heiligen Römischen Kirche und unserer Person an den Tag legt, und zugleich bedenken, welchen Nutzen euer Glaube und eure Hingabe in dieser Zeit der Wirren uns und der ganzen Kirche erwiesen haben, teilen wir eurer Brüderlichkeit umso lieber den Fortschritt und die Erhöhung eben dieser Kirche Gottes und unseres eigenen Anliegens mit, als wir wissen, dass ihr euch darüber mit umso größerer Liebe freut und euch mit uns im Herrn mitfreut. Ihr sollt daher wissen, dass wir und unsere Brüder uns durch Gottes Gnade gesund und wohlbehalten in Tours aufhalten. Dort haben wir auf unsere Einladung hin die Erzbischöfe, Bischöfe und Äbte der gallischen und der übrigen westlichen Kirche zusammen mit einer außerordentlich großen Zahl kirchlicher Personen versammelt und mit der Hilfe des Herrn ein so großartiges und feierliches Konzil abgehalten, dass – wie die Älteren bezeugen, die gewöhnlich an Konzilien jenseits der Alpen teilnahmen – keiner unserer Vorgänger in den vergangenen vierzig Jahren jemals ein größeres oder feierlicheres Konzil gefeiert hat. Auf diesem Konzil haben wir, nachdem wir wie üblich jene Beschlüsse verkündet hatten, von denen wir wissen, dass sie Gott wohlgefällig sind, und nachdem wir mehrere Satzungen zum Frieden und zur Förderung der gesamten Christenheit erlassen hatten, über jenen Erzketzer Oktavian und die übrigen Mithelfer seiner Bosheit mit Zustimmung und Willen des heiligen Konzils das feierliche Urteil der Exkommunikation ausgesprochen. Wir haben sie alle vollständig aus der Gemeinschaft der Kirche ausgeschlossen und den verfluchten Händen jenes Mannes entrissen, indem wir sie dem Strafgericht ewiger Verdammnis überantworteten. Darum bitten, mahnen und ermahnen wir eure Brüderlichkeit durch dieses apostolische Schreiben im Herrn, dass ihr euch mutig im Herrn stärkt und mit stets bereiter Sorge daran arbeitet, die katholische Einheit auszubreiten und zu schützen. Haltet dabei fest an der Hoffnung und dem Vertrauen auf Gott, dass er, der seine heilige Kirche zu solcher Herrlichkeit und Erhöhung geführt hat, ihr bald den ersehnten Frieden schenken und ihr nach den Mühen und Bedrängnissen gestatten wird, in der Freude heilsamer Ruhe wieder frei aufzuatmen. Ferner, Bruder Erzbischof, da wir erfahren haben, dass der Kaiser wegen jenes Zwistes, der dort entstanden ist, beabsichtigt, nach Ungarn zu ziehen, bitten und befehlen wir deiner Brüderlichkeit, dass du nicht zögerst, unseren ehrwürdigen Bruder L., den Erzbischof von Gran, diesbezüglich durch deine Briefe zu ermahnen und ihm in seinen Nöten und Bedrängnissen Trost zukommen zu lassen; indem du ihn aufmerksam ermahnst und stärkst, sollst du ihn dazu bewegen, dass er sich mit allen Mitteln darum bemüht und darauf hinarbeitet, den Zug eben dieses Kaisers zu verhindern. Auch du selbst sollst mit allen Mitteln, die dir möglich sind, darauf hinarbeiten, diesen Plan des Kaisers zu vereiteln. Gegeben zu Tours, am 29. Mai 1163.</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>
