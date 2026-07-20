@@ -21,9 +21,9 @@
                <p><legalActor type="issuer">[Aussteller]</legalActor></p>
                <p><legalActor type="recipient">[Empfänger]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">[Fervorem et constantiam vestre sincerissime</objectType></p>
+               <p><objectType n="">Papsturkunde, Litterae cum filo canapis</objectType></p><p><objectType n="">Kommentar zum Schisma, zeitgenössisch</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">[Typisierung 2]</objectType></p>
+               <p><objectType n=""/></p><p>Alexander III., Urheber</p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
