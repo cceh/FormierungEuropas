@@ -15,7 +15,9 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>PUU England 1, S. 408-409, Nr. 138</bibl><bibl type="jaffe">-</bibl>
-            <diploDesc><p><issued><placeName>Anagni</placeName><date type="issued" notBefore="1176-02-27" notAfter="1176-02-27">(1176) Feb. 27</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            <diploDesc> <p><authen type="formula" n="na">
+                  <p>-</p>
+               </authen></p><p><issued><placeName>Anagni</placeName><date type="issued" notBefore="1176-02-27" notAfter="1176-02-27">(1176) Feb. 27</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p> <p> <legalActor type="recipient"> Abtei von Chertsey</legalActor></p>
                <p> <legalActor type="recipient">Prior von Chertsey</legalActor></p> <p> <legalActor type="recipient">Mönche von Chertsey</legalActor></p>  <!-- kann enthalten: persName/orgName, ggf roleName -->
