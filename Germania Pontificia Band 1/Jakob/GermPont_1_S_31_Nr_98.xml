@@ -59,10 +59,7 @@
                   <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
                </list></diploPart>
          </div>
-         <div>
-            <head>Datatio</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
-         </div>
+         <div><head>Datatio</head><diploPart type="datatio">Dat. Senon. 11 kal. april. </diploPart></div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
@@ -118,7 +115,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>Folioangaben zur Überlieferung stammen aus der Germania Pontificia und lassen sich mangels eines Digitalisats der Wiener Handschrift nicht präzisieren.</p><p>Aktualisierung nach der Lektüre von Classen, Gerhoch von Reichersberg steht noch aus!</p>
+            <p>Folioangaben zur Überlieferung stammen aus der Germania Pontificia und lassen sich mangels eines Digitalisats der Wiener Handschrift nicht präzisieren.</p><p>Aktualisierung nach der Lektüre von Classen, Gerhoch von Reichersberg steht noch aus!</p><p>Text</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
