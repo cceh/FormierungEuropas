@@ -67,7 +67,7 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
+                  <bibl type="original">-</bibl>
                   <bibl type="msCopy">Wien, Österreichische Nationalbibliothek, Codex Vindobonensispalatinus (cvp.) 629, fol. 180</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
@@ -120,7 +120,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>Folioangaben zur Überlieferung stammen aus der Germania Pontificia und lassen sich mangels eines Digitalisats der Wiener Handschrift nicht präzisieren.</p><p>Aktualisierung Classen, Ge</p>
+            <p>Folioangaben zur Überlieferung stammen aus der Germania Pontificia und lassen sich mangels eines Digitalisats der Wiener Handschrift nicht präzisieren.</p><p>Aktualisierung nach der Lektüre von Classen, Gerhoch von Reichersberg steht noch aus!</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
