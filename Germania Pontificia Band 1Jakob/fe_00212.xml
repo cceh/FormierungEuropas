@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc><titleStmt><title>fe_00212</title><respStmt><resp>Datenquelle</resp><persName>JM</persName></respStmt>
+            <respStmt><resp when="2026">Encoding</resp><persName>JM</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc><bibl>Germ.Pont. 1, S. 31, Nr. 98 = Germ.Pont. 1, S. 201, Nr. 36</bibl><bibl type="jaffe">11011</bibl><!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind --><diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>[-]</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Sens</placeName><date type="issued" notBefore="1164-03-22" notAfter="1164-03-22">(1164), März 22</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p><legalActor type="recipient">Eberhard, Erzbischof von Salzburg</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Papsturkunde, Litterae cum filo canapis</objectType></p><p><objectType n="">Administration, Organisation der Kurie</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               </diploDesc></sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p>Alexander III. schreibt Erzbischof Eberhard von Salzburg, dass er vom theologischen Streit zwischen <persName>Propst Gerhoch von Reichersberg</persName> und anderen zwar gehört habe, aber mangels einer Verhandlung an seiner Kurie keiner Seite rechtgeben könne. Um geistliche Verirrungen bei den einfachen Gläubigen über diese Kontroversen zu vermeiden, weist er Eberhard an, Gerhoch zu ermahnen und von weiteren öffentlichen theologischen Diskussionen abzuhalten.</p><p><list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Cum dilectus filius noster magister</diploPart></div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>-</item>
+               </list></diploPart>
+         </div>
+         <div><head>Datatio</head><diploPart type="datatio">Data Senonibus, undecimo Kalendas Aprilis.</diploPart></div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">-</bibl>
+                  <bibl type="msCopy">Wien, Österreichische Nationalbibliothek, Codex Vindobonensispalatinus (cvp.) 629, fol. 180</bibl>
+                  <bibl type="print">-</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl><bibl/><bibl>Migne, PL 200, Sp. 288c-289b, Nr. 242</bibl></listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL 11011</bibl>
+               <bibl>Germ.Pont. 1, S. 31, Nr. 98</bibl><bibl>Germ.Pont. 1, S. 201, Nr. 36</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>-</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>-</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>Folioangaben zur Überlieferung stammen aus der Germania Pontificia und lassen sich mangels eines Digitalisats der Wiener Handschrift nicht präzisieren.</p><p>##Aktualisierung nach der Lektüre von <bibl>Classen, Gerhoch von Reichersberg</bibl> steht noch aus!## @JB?</p><p>Text nach Migne: ALEXANDER episcopus, servus servorum Dei, venerabili fratri E. Salzburgensi archiepiscopo, salutem etapostolicam benedictionem  Cum dilectus filius noster magister G., praepositus de Richersperge, suas nobis litteras destinasset, in quibuscapitula quaedam continebantur quae, eo et  [Col. 0288D] aliis decertantibus, in quaestionis scrupulum devenerunt, nil certi super eisdem capitulis duximusrespondendum, quia nisi eum et alios coram positos audiremus, non fuit visum nobis super eis tam facile proferresententiam, et cujusvis partis tantum rationibus allegatis aliam inauditam et indefensam praecipiti judiciocondemnare. Verum quoniam nullas utilitates cognoscimus ex hujusmodi disceptationibus provenire, et potiuspossent inducere simplices in errorem, quam aliquid emolumenti conferre, qui utique pascendi sunt velut asinaejuxta boves, [Col. 0289A] praeposito praedicto consuluimus, et modis omnibus persuasimus, ut super hujusmodi disputationibusquae de fide sunt, tam ipse quam altera pars de caetero nulla ratione procedant, sed profanas novitates verborummodis omnibus evitantes secundum simplicem veritatem, a beato Athanasio ab Ecclesia generali receptam, et juxtaaliorum assertiones Patrum in doctrina catholicae fidei ambulent, et his contenti terminis, quos posuerunt patresnostri, nihil ultra citraque progredi praesumant. Quocirca fraternitati tuae per apostolica scripta mandamus, quatenuspraedictum praepositum et caeteros ab hujusmodi ulterius disputationibus, praesertim in publicis conventibus,abstinere instanter ex tua et nostra parte moneas, et omni cum districtione compellas. [Col. 0289B] Data Senonibus, undecimo Kalendas Aprilis. </p><p>KI-Übersetzung: Alexander, Bischof, Diener der Diener Gottes, entbietet dem ehrwürdigen Bruder E., Erzbischof von Salzburg, Gruß und den apostolischen Segen. Da unser geliebter Sohn, Magister G., Propst von Reichersberg, uns ein Schreiben übersandt hatte, in dem gewisse Lehrsätze enthalten waren, über die zwischen ihm und anderen ein Streit entstanden war und die dadurch Gegenstand eines zweifelhaften theologischen Problems geworden waren, hielten wir es nicht für angemessen, über diese Punkte eine verbindliche Entscheidung zu treffen. Denn solange wir ihn und die anderen Beteiligten nicht persönlich angehört hätten, erschien es uns nicht richtig, so leichtfertig ein Urteil darüber zu fällen und, nachdem nur die Argumente der einen Seite vorgebracht worden waren, die andere Seite, die weder angehört noch in der Lage war, sich zu verteidigen, durch ein vorschnelles Urteil zu verurteilen. Da wir jedoch erkennen, dass aus derartigen Streitgesprächen keinerlei Nutzen erwächst, sondern sie vielmehr die einfachen Gläubigen in die Irre führen könnten, als ihnen irgendeinen Gewinn zu bringen – Menschen, die doch ebenso wie Esel neben den Ochsen geweidet werden sollen –, haben wir dem genannten Propst geraten und ihn mit allem Nachdruck dazu bewegt, dass sowohl er als auch die Gegenseite künftig in keiner Weise mehr über derartige Fragen des Glaubens streiten. Vielmehr sollen sie die unheiligen Neuerungen der Worte auf jede Weise vermeiden und sich nach der schlichten Wahrheit richten, wie sie vom heiligen Athanasius gelehrt und von der Gesamtkirche angenommen worden ist. Ebenso sollen sie entsprechend der Lehre der übrigen Kirchenväter in der Unterweisung des katholischen Glaubens wandeln und sich mit den Grenzen begnügen, die unsere Väter gesetzt haben, ohne sich darüber hinaus oder dahinter zurückzuwagen. Deshalb tragen wir deiner Brüderlichkeit durch dieses apostolische Schreiben auf, den genannten Propst und die übrigen eindringlich sowohl in deinem als auch in unserem Namen zu ermahnen und nötigenfalls mit aller Strenge dazu anzuhalten, sich künftig solcher Streitgespräche zu enthalten, insbesondere bei öffentlichen Versammlungen. Gegeben zu Sens am elften Tag vor den Kalenden des April.</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>
