@@ -75,10 +75,7 @@
          </div>
          <div type="editions">
             <head>Editionen</head>
-            <listBibl>
-               <bibl/>
-               <bibl>Migne, PL 200, Sp. 288c-289b, Nr. 242</bibl>
-            </listBibl>
+            <listBibl><bibl/><bibl>Migne, PL 200, Sp. 288c-289b, Nr. 242</bibl></listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head>
