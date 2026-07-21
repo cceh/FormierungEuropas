@@ -10,10 +10,7 @@
                <licence>Lizenz</licence>
             </availability>
          </publicationStmt>
-         <sourceDesc>
-            <bibl>Germ.Pont. 1, S. 31, Nr. 98 = Germ.Pont. 1, S. 201, Nr. 36</bibl><bibl type="jaffe">11011</bibl>
-            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
-            <diploDesc>
+         <sourceDesc><bibl>Germ.Pont. 1, S. 31, Nr. 98 = Germ.Pont. 1, S. 201, Nr. 36</bibl><bibl type="jaffe">11011</bibl><!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind --><diploDesc>
                <p><authen type="formula" n="na">
                      <p>[-]</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
@@ -24,12 +21,9 @@
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">Eberhard, Erzbischof von Salzburg</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">Papsturkunde, Litterae cum filo canapis</objectType></p><p><objectType n="">Administration, Organisation der Kurie </objectType></p>
+               <p><objectType n="">Papsturkunde, Litterae cum filo canapis</objectType></p><p><objectType n="">Administration, Organisation der Kurie</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n=""/>Alexander III., Urheber</p>
-               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
-            </diploDesc>
-         </sourceDesc>
+               </diploDesc></sourceDesc>
       </fileDesc>
       
       <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
