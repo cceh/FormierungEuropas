@@ -14,15 +14,15 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>Germ.Pont. 1, S. 31, Nr. 98</bibl><bibl type="jaffe">11011</bibl>
+            <bibl>Germ.Pont. 1, S. 31, Nr. 98 = Germ.Pont. 1, S.</bibl><bibl type="jaffe">11011</bibl>
             <bibl>[Weiteres Konkordanzregest]</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
                <p><authen type="formula" n="na">
-                     <p>[*+?-]</p>
+                     <p>[-]</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Sens</placeName><date type="issued" notBefore="1164-03-22" notAfter="1164-03-22">22 März (1164)</date>
+               <issued><placeName>Sens</placeName><date type="issued" notBefore="1164-03-22" notAfter="1164-03-22">(1164), März 22</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">[Aussteller]</legalActor></p>
