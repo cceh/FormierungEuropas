@@ -49,10 +49,7 @@
                </list></p>
          </div>
 
-         <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
-         </div>
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Cum dilectus filius noster magister</diploPart></div>
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
@@ -109,13 +106,12 @@
          <div type="bibliography">
             <head>Bibliographie</head>
             <listBibl>
-               <bibl>[Werk 1]</bibl>
-               <bibl>[Werk 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>Folioangaben zur Überlieferung stammen aus der Germania Pontificia und lassen sich mangels eines Digitalisats der Wiener Handschrift nicht präzisieren.</p><p>Aktualisierung nach der Lektüre von Classen, Gerhoch von Reichersberg steht noch aus!</p><p>Text nach Migne: ALEXANDER episcopus, servus servorum Dei, venerabili fratri E. Salzburgensi archiepiscopo, salutem etapostolicam benedictionem  Cum dilectus filius noster magister G., praepositus de Richersperge, suas nobis litteras destinasset, in quibuscapitula quaedam continebantur quae, eo et  [Col. 0288D] aliis decertantibus, in quaestionis scrupulum devenerunt, nil certi super eisdem capitulis duximusrespondendum, quia nisi eum et alios coram positos audiremus, non fuit visum nobis super eis tam facile proferresententiam, et cujusvis partis tantum rationibus allegatis aliam inauditam et indefensam praecipiti judiciocondemnare. Verum quoniam nullas utilitates cognoscimus ex hujusmodi disceptationibus provenire, et potiuspossent inducere simplices in errorem, quam aliquid emolumenti conferre, qui utique pascendi sunt velut asinaejuxta boves, [Col. 0289A] praeposito praedicto consuluimus, et modis omnibus persuasimus, ut super hujusmodi disputationibusquae de fide sunt, tam ipse quam altera pars de caetero nulla ratione procedant, sed profanas novitates verborummodis omnibus evitantes secundum simplicem veritatem, a beato Athanasio ab Ecclesia generali receptam, et juxtaaliorum assertiones Patrum in doctrina catholicae fidei ambulent, et his contenti terminis, quos posuerunt patresnostri, nihil ultra citraque progredi praesumant. Quocirca fraternitati tuae per apostolica scripta mandamus, quatenuspraedictum praepositum et caeteros ab hujusmodi ulterius disputationibus, praesertim in publicis conventibus,abstinere instanter ex tua et nostra parte moneas, et omni cum districtione compellas. [Col. 0289B] Data Senonibus, undecimo Kalendas Aprilis. </p><p>KI-Überse</p>
+            <p>Folioangaben zur Überlieferung stammen aus der Germania Pontificia und lassen sich mangels eines Digitalisats der Wiener Handschrift nicht präzisieren.</p><p>Aktualisierung nach der Lektüre von Classen, Gerhoch von Reichersberg steht noch aus!</p><p>Text nach Migne: ALEXANDER episcopus, servus servorum Dei, venerabili fratri E. Salzburgensi archiepiscopo, salutem etapostolicam benedictionem  Cum dilectus filius noster magister G., praepositus de Richersperge, suas nobis litteras destinasset, in quibuscapitula quaedam continebantur quae, eo et  [Col. 0288D] aliis decertantibus, in quaestionis scrupulum devenerunt, nil certi super eisdem capitulis duximusrespondendum, quia nisi eum et alios coram positos audiremus, non fuit visum nobis super eis tam facile proferresententiam, et cujusvis partis tantum rationibus allegatis aliam inauditam et indefensam praecipiti judiciocondemnare. Verum quoniam nullas utilitates cognoscimus ex hujusmodi disceptationibus provenire, et potiuspossent inducere simplices in errorem, quam aliquid emolumenti conferre, qui utique pascendi sunt velut asinaejuxta boves, [Col. 0289A] praeposito praedicto consuluimus, et modis omnibus persuasimus, ut super hujusmodi disputationibusquae de fide sunt, tam ipse quam altera pars de caetero nulla ratione procedant, sed profanas novitates verborummodis omnibus evitantes secundum simplicem veritatem, a beato Athanasio ab Ecclesia generali receptam, et juxtaaliorum assertiones Patrum in doctrina catholicae fidei ambulent, et his contenti terminis, quos posuerunt patresnostri, nihil ultra citraque progredi praesumant. Quocirca fraternitati tuae per apostolica scripta mandamus, quatenuspraedictum praepositum et caeteros ab hujusmodi ulterius disputationibus, praesertim in publicis conventibus,abstinere instanter ex tua et nostra parte moneas, et omni cum districtione compellas. [Col. 0289B] Data Senonibus, undecimo Kalendas Aprilis. </p><p>KI-Übersetzung: </p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
