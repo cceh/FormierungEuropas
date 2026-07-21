@@ -68,7 +68,7 @@
             <div>
                <listBibl>
                   <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
+                  <bibl type="msCopy">Wien, Österreichische Nationalbibliothek, Codex Vindobonensispalatinus (cvp.) 629, fol. 180</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
             </div>
@@ -120,7 +120,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+            <p>[Eine genauere Überprüfung der </p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
