@@ -25,7 +25,7 @@
                <issued><placeName>Venezia</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1177-05-20" precision="high" unit="cm" xml:space="default" notBefore="1177-05-20" type="issued">1177, Mai 20</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Alexander III.</legalActor></p>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">[Empfänger]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
