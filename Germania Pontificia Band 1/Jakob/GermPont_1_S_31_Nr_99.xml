@@ -21,7 +21,7 @@
                      <p>*</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>–</placeName><date type="issued" notBefore="1165-03-01" notAfter="1165-03-31">(März 1165)</date>
+               <issued><placeName>–</placeName><date type="issued" notBefore="1165-03-01" notAfter="1165-03-31">(1165, März)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">[Aussteller]</legalActor></p>
@@ -47,7 +47,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>[Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
+            <p>[Alexander III. übersendet den er<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
