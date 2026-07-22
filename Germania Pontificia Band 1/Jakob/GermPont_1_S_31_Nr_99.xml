@@ -24,8 +24,8 @@
                <issued><placeName>–</placeName><date type="issued" notBefore="1165-03-01" notAfter="1165-03-31">(1165, März)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
-               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <p><legalActor type="issuer">[Alexande</legalActor></p>
+               <p><legalActor type="recipient">Konrad, Erzbischof von Salzburg</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
@@ -47,19 +47,19 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>[Alexander III. übersendet den erwählten Erzbischof von Salzburg, Konrad II. von Babenberg, das Pallium.<list>
+            <p>Alexander III. übersendet den erwählten Erzbischof von Salzburg, Konrad II. von Babenberg, das Pallium.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
 
          <div>
             <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+            <diploPart type="incipit" xml:lang="lat">-</diploPart>
          </div>
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+                  <item>-</item>
                </list></diploPart>
          </div>
          <div>
