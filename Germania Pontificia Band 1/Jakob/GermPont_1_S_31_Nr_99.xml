@@ -24,7 +24,7 @@
                <issued><placeName>–</placeName><date type="issued" notBefore="1165-03-01" notAfter="1165-03-31">(1165, März)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Alexande</legalActor></p>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">Konrad, Erzbischof von Salzburg</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
