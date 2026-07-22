@@ -27,11 +27,9 @@
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">[Empfänger]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">Papsturkunde, Litterae cum serico</objectType></p><p><objectType n="">Administration, Organisation der Kurie </objectType></p>
+               <p><objectType n="">Papsturkunde, Litterae cum serico</objectType></p><p><objectType n="">Administration, Organisation der Kurie</objectType></p><p><objectType n="">Alexander III., Urheber </objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n=""/>Alexander III., Urheber</p>
-               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
-            </diploDesc>
+               </diploDesc>
          </sourceDesc>
       </fileDesc>
       
