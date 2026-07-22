@@ -21,7 +21,7 @@
                      <p>*</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>–</placeName><date type="issued" notBefore="1169-02-01" notAfter="1169-03-31">1169, (Februar – März)</date>
+               <issued><placeName>–</placeName><date type="issued" notBefore="1169-02-01" notAfter="1169-03-31">1169, (Februar–März)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
