@@ -51,9 +51,7 @@
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl>Orgianl: -</bibl><bibl>Chart. London, Brit. Mus. Cott. Augustus A II 125. </bibl>
-               <bibl>Reg. H. I.  Bell Engl. Hist. Rev. XXXVI  397 n. 21.</bibl>
-               <bibl>[ggf. Druck]</bibl>
+               <bibl>Orginal: -</bibl><bibl>Chart. London, Brit. Mus. Cott. Augustus A II 125.</bibl><bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>
          </div>
@@ -73,14 +71,14 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>PUU England 1, S. 409-411, Nr. 139</bibl>
-               <bibl>[Edition 2]</bibl>
+               <bibl>PUU England 1, S. 409-411, Nr. 139.</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>H. I. Bell, Engl. Hist. Rev. XXXVI 397 n. 21.</bibl>
+               <bibl>H. I. Bell, Engl. Hist. Rev. XXXVI S. 397 Nr. 21.</bibl>
                <bibl/>
             </listBibl>
          </div>
