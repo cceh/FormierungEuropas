@@ -30,7 +30,7 @@
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Notiz, Historiographie</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">Administration, Diözesen</objectType></p><p><objectType n="">Alexander III. Urheber</objectType></p>
+               <p><objectType n="">Administration, Diözesen</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
@@ -48,9 +48,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor><persName>Alexander III.</persName></legalActor> erlaubt <legalActor><persName>Adalbert, Bischof von Freising</persName></legalActor>, und <legalActor><persName>Kuno, Bischof von Regensburg,</persName></legalActor> Dietpold feierlich zum Bischof von Passau zu weihen. Die Weihe fand in Passau gemeinsam mit dem Bischof von Brixen und mit der Zustimmung des Erzbischofs von Salzburg.<list>
-                  <item>[Listeneintrag 1]</item>
-               </list></p>
+            <p><legalActor><persName>Alexander III.</persName></legalActor> erlaubt <legalActor><persName>Adalbert, Bischof von Freising</persName></legalActor>, und <legalActor><persName>Kuno, Bischof von Regensburg,</persName></legalActor> Dietpold feierlich zum Bischof von Passau zu weihen. Die Weihe fand in Passau gemeinsam mit dem Bischof von Brixen und mit der Zustimmung des Erzbischofs von Salzburg statt.</p>
          </div>
 
          <div>
