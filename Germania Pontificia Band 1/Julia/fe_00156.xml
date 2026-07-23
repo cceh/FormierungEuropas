@@ -26,7 +26,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Dekan und Kanoniker des Stifts Innichen</legalActor></p>
+               <p><legalActor type="recipient">Dekan und Kanoniker der Stiftskirche S. Candius Stifts Innichen</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, Typisierung 1]</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
@@ -48,7 +48,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>[Alexander III. gestattet auf Bitten von Richer, Bischof von Brixen, dem Dekan Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
+            <p>Alexander III. gestattet auf Bitten von Richer, Bischof von Brixen, dem Dekan Regulus und den Kanonikern der Stiftskirche S. Candidus in Innichen Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
