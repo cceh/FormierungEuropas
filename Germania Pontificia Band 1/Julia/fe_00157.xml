@@ -67,7 +67,7 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">Deperditum, erwähnt in Chronicon magni presbyteri, MGH SS 17, S. 497</bibl>
+                  <bibl type="original">Deperditum, erwähnt in Chronicon magni presbyteri, ed. Wattenbach, MGH SS 17, S. 497</bibl>
                   <bibl type="msCopy">-</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
@@ -76,14 +76,14 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
+               <bibl>[Chronicon magni presbyteri, ed. WQuelle 1]</bibl>
                <bibl>[Quelle 2]</bibl>
             </listBibl>
          </div>
