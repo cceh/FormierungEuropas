@@ -28,7 +28,7 @@
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">Diepold, Bischof von Passau</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">Papsturkunde, Litterae cum filo canapis</objectType></p>
+               <p><objectType n="">Papsturkunde, Litterae cum filo canapis (Littera clausa)</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
                <p><objectType n="">Administration, Diözesen</objectType></p><p><objectType n="">Alexander, Urheber</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
@@ -48,7 +48,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor><persName>Alexander III.</persName></legalActor> befiehlt <legalActor><persName>Diepold, Bischof von Passau,</persName></legalActor> Otto von Rehberg unter Androhung der Exkommunikation zu ermahnen, damit er keine Vogteirechte über die Kirche St. Andrä (D. Passau) beanspruche. Die Gerichtshoheit über diese Kirche war dem Propst und Konvent des Augustiner-Chorherrenstift St. Georgen-Herzogenburg (D. Passau) von Konrad, Bischof von Passau, gewährt und von Papst Eugen III. schriftlich bestätigt worden.<list>
+            <p><legalActor><persName>Alexander III.</persName></legalActor> befiehlt <legalActor><persName>Diepold, Bischof von Passau,</persName></legalActor> Otto von Rehberg unter Androhung der Exkommunikation zu ermahnen, damit er keine Vogteirechte über die Kirche St. Andrä (D. Passau) beanspruche. Die Gerichtshoheit über diese Kirche war dem Propst und Konvent des Augustiner-Chorherrenstifts St. Georgen-Herzogenburg (D. Passau) von Konrad, Bischof von Passau, gewährt und von Papst Eugen III. schriftlich bestätigt worden.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
@@ -69,7 +69,7 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original: Archiv ist angeschrieben]</bibl>
+                  <bibl type="original">Original: Archiv ist angeschrieben]</bibl>
                   <bibl type="msCopy">[handschriftliche Kopie]</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
