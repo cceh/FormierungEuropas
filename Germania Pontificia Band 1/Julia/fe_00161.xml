@@ -22,10 +22,10 @@
                      <p>*</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Venezia</placeName><date type="issued" notBefore="1177-08-09" notAfter="1177-08-09">1177, (vor Augusdem 09 August )1177</date>
+               <issued><placeName>Venezia</placeName><date type="issued" notBefore="1177-08-09" notAfter="1177-08-09">1177, (vor August 09)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">[Empfänger]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
