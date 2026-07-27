@@ -21,7 +21,7 @@
             <diploDesc><p><authen type="formula" n=""><p>[-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen> </p><issued><placeName>Viesti</placeName><date type="issued" notBefore="1177-03-01" notAfter="1177-03-01">(1177) Mär. 1</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Priorat von Lanthony</legalActor></p> <p> <legalActor type="recipient">Roger, Prior von Lanthony</legalActor></p><p><legalActor type="recipient">Augustinerkanoniker von Lanthony</legalActor></p>  <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><legalActor type="recipient">Priorat von Llanthony</legalActor></p> <p> <legalActor type="recipient">Roger, Prior von Llanthony</legalActor></p><p><legalActor type="recipient">Augustinerkanoniker von Llanthony</legalActor></p>  <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum serico </objectType></p>
                <p><objectType n="">Juristisches, Rechtsbestätigung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
@@ -38,7 +38,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. bestätigt dem Prior Boger und den Kanonikern von Lanthony genannte Kirchen.## Roger bestätigt dem Prior Roger und den Kanonikern von Lanthony die namentlich genannten Kirchen, die ihnen von namentlich genannten Diözesanbischöfen übertragen zum Nutzen der Armen und der Gastfreundschaft bestimmt wurden. </p> <list> <item>Durch die Schenkung von Simon und Johannes, den Bischöfen von Worcester, die Kirche St. Audeon mit ihren Kapellen.</item><item>Durch die Schenkung von Roger, Bischof von Worcester, die Kirchen <diploPart>de Hersefeld(e)</diploPart> und <diploPart>de Tydrinton(a).</diploPart></item><item>Durch die Schenkung von Gilbert und Robert, den Bischöfen von Hereford, die Kirchen <diploPart>de Statun(a)</diploPart>, <diploPart>de Wibeleia</diploPart> und <diploPart>de Burchulla.</diploPart></item><item>Durch die Schenkung von Jocelin, Bischof von Salisbury, die Kirche <diploPart>de Chyrintona</diploPart>.</item><item>Schlussformeln: Perturbationsverbot, Sanctio negativa.</item></list><p/>
+            <p>Alexander III. bestätigt dem Prior Boger und den Kanonikern von Lanthony genannte Kirchen.## Roger bestätigt dem Prior Roger und den Kanonikern von Llanthony die namentlich genannten Kirchen, die ihnen von namentlich genannten Diözesanbischöfen übertragen zum Nutzen der Armen und der Gastfreundschaft bestimmt wurden. </p> <list> <item>Durch die Schenkung von Simon und Johannes, den Bischöfen von Worcester, die Kirche St. Audeon mit ihren Kapellen.</item><item>Durch die Schenkung von Roger, Bischof von Worcester, die Kirchen <diploPart>de Hersefeld(e)</diploPart> und <diploPart>de Tydrinton(a).</diploPart></item><item>Durch die Schenkung von Gilbert und Robert, den Bischöfen von Hereford, die Kirchen <diploPart>de Statun(a)</diploPart>, <diploPart>de Wibeleia</diploPart> und <diploPart>de Burchulla.</diploPart></item><item>Durch die Schenkung von Jocelin, Bischof von Salisbury, die Kirche <diploPart>de Chyrintona</diploPart>.</item><item>Schlussformeln: Perturbationsverbot, Sanctio negativa.</item></list><p/>
          </div>
         
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustis petentium desideriis dignum est</diploPart></div>
@@ -82,7 +82,7 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>[Kommentar]</p>
+            <p>Es gab zwei H</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
