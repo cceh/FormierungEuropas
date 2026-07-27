@@ -15,11 +15,11 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>PUU England 1, S. 415-417, Nr. 144</bibl><bibl type="jaffe">-</bibl>
-            <diploDesc><p><issued><placeName>Ferrara</placeName><date type="issued" notBefore="1177-04-18" notAfter="1177-04-18">1177 Apr. 18</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
-               </issued></p>
+            <diploDesc><p><authen type="formula" n=""><p>[-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen> </p><issued><placeName>Ferrara</placeName><date type="issued" notBefore="1177-04-18" notAfter="1177-04-18">1177 Apr. 18</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+               </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Kloster Westminster</legalActor></p> <p> <legalActor type="recipient">Walter, Abt des Benediktinerklosters Westminster</legalActor></p>  <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">Papsturkunde, einfaches Privileg</objectType></p>
+               <p><objectType n="">Papsturkunde, einfaches Privileg</objectType></p> <p><objectType n="">Juristisches, Rechtsbestätigung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
@@ -34,11 +34,15 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. nimmt das Kloster Westminster unter dem Abt Walter in den päpstlichen Schutz, bestätigt die Benediktinerregel und Besitzungen, befreit das Kloster von der Jurisdiktion des Bischofs von London und bestätigt die zur Nutznießung durch Kammer, Sakristei und Armenhaus bestimmten Besitzungen.</p>
+            <p>Alexander III. nimmt das Kloster Westminster unter dem Abt Walter in den päpstlichen Schutz, bestätigt die Benediktinerregel und Besitzungen, befreit das Kloster von der Jurisdiktion des Bischofs von London und bestätigt die zur Nutznießung durch Kammer, Sakristei und Armenhaus bestimmten Besitzungen. ## Alexander II</p>
          </div>
-         <div type="other"><head>Echtheitskriterien:</head>
-            <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
+         
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div><div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>-</item>
+               </list></diploPart>
+         </div>
          <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung</head>
