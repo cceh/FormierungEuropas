@@ -19,8 +19,8 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>PUU England 1, S. 414-415, Nr. 143</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
-            <diploDesc><p><issued><placeName>Venezia, Rialto</placeName><date type="issued" notBefore="1177-04-02" notAfter="1177-04-02">(1177) April 2.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            <bibl>PUU England 1, S. 414-415, Nr. 143</bibl><bibl type="jaffe">-</bibl>
+            <diploDesc><p><issued><placeName>Venezia, Rialto</placeName><date type="issued" notBefore="1177-04-02" notAfter="1177-04-02">(1177) Apr. 2</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Walter, Abt von Westminster</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
