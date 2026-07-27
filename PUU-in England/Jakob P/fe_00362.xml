@@ -16,11 +16,11 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>PUU England 1, S. 413-414, Nr. 141</bibl><bibl type="jaffe">-</bibl>
-            <diploDesc><p><issued><placeName>Viesti</placeName><date type="issued" notBefore="1177-02-28" notAfter="1177-02-28">(1177) Feb. 28</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            <diploDesc> <authen type="formula" n=""><p>[-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen><p><issued><placeName>Viesti</placeName><date type="issued" notBefore="1177-02-28" notAfter="1177-02-28">(1177) Feb. 28</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">Priorat von Lanthony</legalActor></p> <p> <legalActor type="recipient">Roger, Prior von Lanthony</legalActor></p> <p><legalActor type="recipient">Augustinerkanoniker von Lanthony</legalActor></p> <p> </p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <p><objectType n="">Papst</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
