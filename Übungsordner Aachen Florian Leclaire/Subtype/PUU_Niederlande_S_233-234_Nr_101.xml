@@ -22,8 +22,8 @@
             <bibl>PUU Niederlande, S. 233-234, Nr. 101</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
             <diploDesc><p><issued><placeName>Saint-Jean de Losne</placeName><date type="issued" notBefore="1162-09-04" notAfter="1162-09-04">(1162) September 4.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
-               <p><legalActor type="issuer">[Issuer]</legalActor></p>
-               <p> <legalActor type="recipient">[Recipient 1]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><legalActor type="issuer">Victor IV.</legalActor></p>
+               <p> <legalActor type="recipient">[G(irardus), Abt von Flône]</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
@@ -39,7 +39,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Victor IV. bestätigt dem Abt O(irwdus) und den Kanonikern von Flone den durch "BiscJiof Hein(ricJi) von Lüttich in seinem^ Auftrag zwischen den Abteien Flöne und Heylissem gefällten Spruch.</p>
+            <p>Victor IV. bestätigt dem Abt G(irardus) und den Kanonikern von Flone den durch "BiscJiof Hein(ricJi) von Lüttich in seinem^ Auftrag zwischen den Abteien Flöne und Heylissem gefällten Spruch.</p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head>
             <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
