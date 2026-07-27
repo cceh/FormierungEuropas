@@ -20,8 +20,8 @@
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">Priorat von Lanthony</legalActor></p> <p> <legalActor type="recipient">Roger, Prior von Lanthony</legalActor></p> <p><legalActor type="recipient">Augustinerkanoniker von Lanthony</legalActor></p> <p> </p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">Papsturkunde, litterae</objectType></p>
-               <p><objectType n="">Papsturkunde, litterae</objectType></p>
+               <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p>
+               <p><objectType n="">Juristisches, Rechtsbestätigung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
