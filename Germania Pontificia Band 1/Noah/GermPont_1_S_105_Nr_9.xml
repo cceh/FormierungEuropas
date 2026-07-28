@@ -23,7 +23,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Werner, Abt der Benediktinerabtei St. Lambrecht</legalActor></p>
+               <p><legalActor type="recipient">Werner, Abt der Benediktinerabtei St. Lambrech</legalActor></p><p><legalActor type="recipient">Benediktinerkloster St. Lambrechtt</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
@@ -46,7 +46,7 @@
          <div type="abstract">
             <head>Abstract</head>
             <p>Alexander III. bestätigt Werner, dem Abt der Benediktinerklosters St. Lambrecht, <list>
-                  <item>Er nimmt die </item><item>Schlussformeln: Sanctio negativa und Sanctio positiva.</item>
+                  <item>Er nimmt </item><item>Schlussformeln: Sanctio negativa und Sanctio positiva.</item>
                </list></p>
          </div>
 
