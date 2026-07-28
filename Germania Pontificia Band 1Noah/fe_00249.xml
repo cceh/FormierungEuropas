@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title>fe_00249</title><respStmt>
+               <resp>Datenquelle</resp>
+               <persName>NW</persName>
+            </respStmt><respStmt>
+               <resp when="2026">Encoding</resp>
+               <persName>NW</persName>
+            </respStmt></titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Germ. Pont. 1, S. 100-101, Nr. 2</bibl><bibl type="jaffe">11877</bibl>
+            
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>-</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Tusculum</placeName><date type="issued" notBefore="1171-02-10" notAfter="1171-02-10">1171 Feb. 10</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p><legalActor type="recipient">Werner, Stiftspropst des Augustiner-Chorherrenstifts Seckau</legalActor></p><p><legalActor type="recipient">Augustiner-Chorherrenstift Seckau</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p><p><objectType n="">Juristisches, Rechtsbestätigungen</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p><p/>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p><persName>Alexander III.</persName> bestätigt dem <orgName>Augustiner-Chorherrenstift Seckau</orgName> (D. Graz-Seckau) unter <persName>Werner, dem Stiftspropst des Augustiner-Chorherrenstifts Seckau,</persName> seine Rechte und Freiheiten.<list>
+                  <item>Er nimmt es, wie schon <persName>Papst Innozenz II.</persName>, unter apostolischen Schutz.</item><item>Er bestätigt die Einrichtung der religiosen Gemeinschaft nach der Regel des hl. Augustinus.</item><item>Er bestätigt verschiedene derzeitige wie zukünftige, namentlich genannte Besitzungen und Güter des Stifts.</item><item>Er befreit das Stift vom Zehnten für Neubrüche bei Eigenbau und für Tierfutter.</item><item>Er gewährt das Recht, Weltgeistliche und Laien aufzunehmen und, sofern niemand Widerspruch einlegt, zu halten.</item><item>Er verbietet, nach Ablegung der Profess ohne die Erlaubnis des Priors das Stift zu verlassen, außer bei Übertitt zur vita arctior. In diesem Fall darf sich niemand in den Weg stellen.</item><item>Er bestimmt außerdem, dass Altar- und Kirchweihen, Ordinationen der Geistlichen und das heilige Öl vom Diözesanbischof zu empfangen sind, sofern dieser in der Gnade des apostolischen Stuhls steht. Andernfalls steht es den Chorherren frei, einen ihnen genehmen Bischof um die Spende der Sakramente zu ersuchen.</item><item>Er garantiert das Begräbnisrecht, sofern die zu Begrabenden nicht exkommuniziert sind oder das Interdikt über sie verhängt worden ist.</item><item>Er garantiert die freie Wahl des Stiftspropsts gemäß der Regel des hl. Augustinus.</item><item>Schlussformeln: Perturbationsverbot, Sanctio negativa und Sanctio positiva.</item>
+               </list></p>
+         </div>
+
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Quotiens illud a nobis petitur</diploPart></div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>Ego Alexander catholice ecclesie episcopus subscripsi.</item><item>Ego Bernardus Portuensis et sancte Ruphine episcopus subscripsi.</item><item>Ego Chunradus Moguntine sedis archiepiscopus et Sabinensis episcopus subscripsi.</item><item>Ego Oddo Tusculanus episcopus subscripsi.</item><item>Ego Johannes presbyter cardinalis sanctorum Johannis  et Pauli tituli Pamachii subscripsi.</item><item>Ego Ildebrandus basilicę xii apostolorum presbyter cardinalis subscripsi.</item><item>Ego Albertus presbyter cardinalis tituli sancti Laurentii in Lucina subscripsi.</item><item>Ego Guilelmus presbyter cardinalis tituli sancti Petri ad Uincula subscripsi.</item><item>Ego Boso presbyter cardinalis sancte Pudentiane tituli Pastoris subscripsi.</item><item>Ego Petrus presbyter cardinalis tituli sancti Laurentii in Damaso subscripsi.</item><item>Ego Jacobus diaconus cardinalis sancte Marie in Cosmydyn subscripsi.</item><item>Ego Cinthius diaconus cardinalis sancti Adriani subscripsi.</item><item>Ego Manfredus diaconus cardinalis sancti Georgii ad Velum aureum subscripsi.</item><item>Ego Hugo diaconus cardinalis sancti Eustachii iuxta templum Agrippe subscripsi.</item>
+               </list></diploPart>
+         </div>
+         <div><head>Datatio</head><diploPart type="subscriptio" xml:lang="lat">Datum Tusculani per manum Gratiani sancte Romane ecclesie subdiaconi et notarii, IIII. idus Februarii, indictione IIII., incarnationis dominice anno M.C.LXXX, pontificatus uero domini Alexandri pape iii. anno duodecimo.</diploPart></div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">Steiermärkisches Landesarchiv, AUR-182, 1171-02-10, Tusculum (Frascati); digital verfügbar unter: https://egov.stmk.gv.at/archivinformationssystem/objekt.jsp?id=1066069</bibl>
+                  <bibl type="msCopy">-</bibl>
+                  <bibl type="print">-</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>-</bibl>
+               
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>UB Steiermark I, S. 501-505, Nr. 540</bibl><bibl>Diplomataria Styriae I, ed. Pusch/Fröhlich, S. 157-158, Nr. 18 (gekürzt)</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL 11877</bibl>
+               <bibl>Germ. Pont. 1, S. 100-101, Nr. 2</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>Die Datierung ist nicht stimmig. Das Inkarnationsjahr 1170 und das 12. Pontifikatsjahr Alexanders III. differieren um ein Jahr. Die Indiktion legt das Jahr 1171 nahe.</p><p>Rota ist vorhanden. Die Devise lautet: <diploPart cert="high" type="rota" xml:space="default">Vias tuas domine demonstra michi</diploPart>.</p><p>Benevalete ist vorhanden.</p><p>Die ehemals angehängte Bleibulle ist abgerissen.</p><p>Die roten und gelben Seidenfäden sind zum Teil erhalten.</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Bei der vorliegenden Urkunde handelt es sich um eine Nachurkunde des Privilegs Innozenz II. von 1143 (<bibl>Germ. Pont. 1, S. 100, Nr. 1</bibl>). Aus dem Urkundentext geht eindeutig hervor, dass es sich bei dem Empfänger des feierlichen Priviliegs um ein Augustiner-Chorherrenstift handeln muss, auch wenn in der bisherigen Forschung, etwa auch in der maßgeblichen Edition der Urkunde (<bibl>UB Steiermark I, S. 501-505, Nr. 540</bibl>), häufig vom Kloster Seckau die Rede gewesen ist. Rainer Murauer, der sich im Rahmen seines Beitrags zum Papsttum und der Erzdiözese Salzburg im Hochmittelalter mit der päpstlichen Urkundentätigkeit ebendort auseinandergesetzt hat, hat die vorliegende Privilegierung in den Kontext weiterer Privilegierungen verschiedener Augustiner-Chorherrenstifte eingeordnet (vgl. <bibl>Murauer, Erzbistum Salzburg, S. 407-410</bibl>).</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>Murauer, Erzbistum Salzburg, S. 371-424, bes. S. 407-410</bibl>
+               
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>
