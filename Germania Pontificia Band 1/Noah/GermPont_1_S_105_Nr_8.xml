@@ -47,9 +47,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>Alexander III.<list>
-                  
-               </list></p>
+            <p>Alexander III</p>
          </div>
 
          <div>
@@ -58,9 +56,7 @@
          </div>
          <div>
             <head>Subscriptiones</head>
-            <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>-</item>
-               </list></diploPart>
+            <diploPart type="subscriptio" xml:lang="lat"><list><item>-</item></list></diploPart>
          </div>
          <div>
             <head>Datatio</head>
