@@ -57,7 +57,7 @@
                   <item>Ego Alexander catholice ecclesie episcopus subscripsi.</item><item>Ego Hvbaldus Hostienstis episcopus subscripsi.</item><item>Ego Johannes presbiter cardinalis sanctorum Johannis et Pauli tituli Pimachii subscripsi.</item><item>Ego Theodinus presbiter cardinalis sancti Vitalis tituli Vestine subscripsi.</item><item>Ego Petrus presbiter cardinalis tituli sancte Susanne subscripsi.</item><item>Ego Uuaarus presbiter cardinalis tituli sancti Stephani in Celiomonte subscripsi.</item><item>Ego Jacobus diaconus cardinalis sancte Marie in Cosmidyn subscripsi.</item><item>Ego Gratianus diaconus cardinalis sanctorum Cosme et Damiani subscripsi.</item><item>Ego Mathias diaconus cardinalis sancte Marie Noue subscripsi.</item>
                </list></diploPart>
          </div>
-         <div><head>Datatio</head><diploPart type="datatio">Datum Laterani per manum Alberti sancte Romane ecclesie presbiteri cardinalis et cancellarii V. kal. Apriles, indictione XII., incarnationis dominice anno M.C.LXXX.VIII., pontificatus uero domini Alexandri pape iii. anno XX.</diploPart></div>
+         <div><head>Datatio</head><diploPart type="datatio">Datum Laterani per manum <persName>Alberti sancte Romane ecclesie presbiteri cardinalis et cancellarii</persName> V. kal. Apriles, indictione XII., incarnationis dominice anno M.C.LXXX.VIII., pontificatus uero domini Alexandri pape iii. anno XX.</diploPart></div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
@@ -71,8 +71,8 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
+               
             </listBibl>
          </div>
          <div type="historiography">
@@ -85,7 +85,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Germ.Pont. 1, S. 105, Nr. 9</bibl>
+               <bibl>Germ.</bibl>
                <bibl>[Edition 2]</bibl>
             </listBibl>
          </div>
@@ -93,7 +93,7 @@
             <head>Regesten</head>
             <listBibl>
                <bibl>JL 13036</bibl>
-               <bibl>[Regest 2]</bibl>
+               <bibl>Germ.Pont. 1, S. 105, Nr. 9</bibl>
             </listBibl>
          </div>
          <div>
