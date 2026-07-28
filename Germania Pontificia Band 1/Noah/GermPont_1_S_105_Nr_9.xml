@@ -11,8 +11,8 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>Germ.Pont. 1, S. 105, Nr. 9</bibl><bibl type="jaffe">13036</bibl>
-            <bibl>[Weiteres Konkordanzregest]</bibl>
+            <bibl>Germ. Pont. 1, S. 105, Nr. 9</bibl><bibl type="jaffe">13036</bibl>
+            
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
                <p><authen type="formula" n="na">
@@ -23,7 +23,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Wernher, Abt des Klosters St. Lambrecht</legalActor></p>
+               <p><legalActor type="recipient">Werner, Abt der Benediktinerabtei St. Lambrecht</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
@@ -93,7 +93,7 @@
             <head>Regesten</head>
             <listBibl>
                <bibl>JL 13036</bibl>
-               <bibl>Germ.Pont. 1, S. 105, Nr. 9</bibl>
+               <bibl>Germ. Pont. 1, S. 105, Nr. 9</bibl>
             </listBibl>
          </div>
          <div>
