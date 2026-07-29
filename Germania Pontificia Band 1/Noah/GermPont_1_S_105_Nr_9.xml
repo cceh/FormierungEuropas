@@ -62,7 +62,7 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
+                  <bibl type="original">[Signatur ist]</bibl>
                   <bibl type="msCopy">-</bibl>
                   <bibl type="print">-</bibl>
                </listBibl>
@@ -115,7 +115,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[benedictio nach der Wahl hier im Sinne von Segen / Weihe (eig. ja kein Weihegrad) oder eher allg. Bestätigung? / meliores fratres = Zustimmung der leitenden? Brüder, s. Übers. der Formeln]</p>
+            <p>[benedictio nach der Wahl hier im Sinne von Segen / Weihe (eig. ja kein Weihegrad) oder eher allg. Bestätigung? / meliores fratres = Zustimmung der leitenden? Brüder, s. Übers. der Formeln / Archivsignatur Original ist angefragt!]</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
