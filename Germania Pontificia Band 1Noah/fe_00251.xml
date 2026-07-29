@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc><titleStmt><title>fe_00251</title><respStmt><resp>Datenquelle</resp><persName>NW</persName></respStmt>
+            <respStmt><resp when="2026">Encoding</resp><persName>NW</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Germ. Pont. 1, S. 105, Nr. 9</bibl><bibl type="jaffe">13036</bibl>
+            
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>-</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Rom, Lateran</placeName><date type="issued" notBefore="1178-03-28" notAfter="1178-03-28">1178 Mär. 28</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p><legalActor type="recipient">Werner, Abt des Benediktinerklosters St. Lambrecht</legalActor></p><p><legalActor type="recipient">Benediktinerkloster St. Lambrecht</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">Juristisches, Rechtsbestätigungen</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p><persName>Alexander III.</persName> bestätigt dem <orgName>Benediktinerkloster St. Lambrecht</orgName> (D. Graz-Seckau) unter <persName>Werner, dem Abt des Benediktinerklosters St. Lambrecht,</persName> seine Rechte und Freiheiten.<list>
+                  <item>Er nimmt das Kloster unter apostolischen Schutz.</item><item>Er bestätigt verschiedene namentlich genannte Besitzungen und Güter des Klosters.</item><item>Er bestimmt außerdem, dass Altar- und Kirchweihen und das heilige Öl vom Bischof von Salzburg zu empfangen sind, sofern dieser in der Gnade des apostolischen Stuhls steht. Andernfalls steht es den Mönchen frei, einen ihnen genehmen Bischof um die Spende der Sakramente zu ersuchen.</item><item>Er garantiert das Begräbnisrecht, sofern die zu Begrabenden nicht exkommuniziert sind oder das Interdikt über sie verhängt worden ist.</item><item>Er garantiert die freie Wahl des Abtes gemäß der Regel des hl. Benedikt. Es obliegt dem Papst, den Elekten zu bestätigen.</item><item>Er verfügt, dass weder der Bischof von Salzburg noch der Abt des Klosters die Güter des Klosters ohne die Zustimmung der leitenden Brüder anderen als Lehen auftragen oder sie anderweitig entfremden dürfen.</item><item>Schlussformeln: Perturbationsverbot, Sanctio negativa und Sanctio positiva.</item>
+               </list></p>
+         </div>
+
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Pie postulatio uoluntatis effectu debet</diploPart></div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>Ego Alexander catholice ecclesie episcopus subscripsi.</item><item>Ego Hvbaldus Hostienstis episcopus subscripsi.</item><item>Ego Johannes presbiter cardinalis sanctorum Johannis et Pauli tituli Pimachii subscripsi.</item><item>Ego Theodinus presbiter cardinalis sancti Vitalis tituli Vestine subscripsi.</item><item>Ego Petrus presbiter cardinalis tituli sancte Susanne subscripsi.</item><item>Ego Uuaarus presbiter cardinalis tituli sancti Stephani in Celiomonte subscripsi.</item><item>Ego Jacobus diaconus cardinalis sancte Marie in Cosmidyn subscripsi.</item><item>Ego Gratianus diaconus cardinalis sanctorum Cosme et Damiani subscripsi.</item><item>Ego Mathias diaconus cardinalis sancte Marie Noue subscripsi.</item>
+               </list></diploPart>
+         </div>
+         <div><head>Datatio</head><diploPart type="datatio">Datum Laterani per manum Alberti sancte Romane ecclesie presbiteri cardinalis et cancellarii V. kal. Apriles, indictione XII., incarnationis dominice anno M.C.LXXX.VIII., pontificatus uero domini Alexandri pape iii. anno XX.</diploPart></div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">Stiftsarchiv St. Lambrecht, I/33 -1178 III 24; digital verfügbar unter: https://www.monasterium.net/mom/AT-StiASL/Repertoria/I%7C33/charter</bibl>
+                  <bibl type="msCopy">-</bibl>
+                  <bibl type="print">-</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>-</bibl>
+               
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>-</bibl>
+               
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>UB Steiermark I, S. 559-561, Nr. 594</bibl>
+               
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL 13036</bibl>
+               <bibl>Germ. Pont. 1, S. 105, Nr. 9</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>Rota ist vorhanden; Devise: /.</p><p>Benevalete ist vorhanden.</p><p>Bleibulle ist erhalten und an gelben und roten Seidenfäden abgehängt.</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Das vorliegende feierliche Privileg baut auf die Vorurkunden für das Benediktinerkloster St. Lambrecht von Paschalis II. (<bibl>Germ. Pont. 1, S. 103, Nr. 1</bibl>), von Honorius II. (<bibl>Germ. Pont. 1, S. 103, Nr. 2</bibl>) und von Eugen III. (<bibl>Germ. Pont. 1, S. 103-104, Nr. 3</bibl>) auf.</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Werk 1]</bibl>
+               
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[benedictio nach der Wahl hier im Sinne von Segen / Weihe (eig. ja kein Weihegrad) oder eher allg. Bestätigung? / meliores fratres = Zustimmung der leitenden? Brüder, s. Übers. der Formeln / Archivsignatur Original ist angefragt -&amp;gt; wurde bestätigt!]</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>
