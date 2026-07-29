@@ -23,7 +23,7 @@
                <issued><placeName>–</placeName><date type="issued" notBefore="1167-01-01" notAfter="1167-12-31">[1167]</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="issuer">Konrad, Erzbischof von Salzburg</legalActor></p>
                <p><legalActor type="recipient">[Empfänger]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
@@ -46,7 +46,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>Konrad, Erzbischof von Salzburg, schreibt an Papst Alexander III. über Heinrich von Biburg, der auf sein Betreiben und das der Mönche von St. Peter zum Abt des Klosters St. Peter in Salzburg gewählt worden war, nachdem man ihn darum ersucht hatte.<list>
+            <p>Erzbischof Konrad von Salzburg schreibt an Papst Alexander III. über Heinrich von Biburg, der auf sein Betreiben und das der Mönche von St. Peter zum Abt des Klosters St. Peter in Salzburg gewählt worden war, nachdem man ihn darum ersucht hatte.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
