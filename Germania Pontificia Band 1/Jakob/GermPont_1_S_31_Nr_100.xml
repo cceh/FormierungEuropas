@@ -71,9 +71,9 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="original">-</bibl>
+                  <bibl type="msCopy">-</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
@@ -87,14 +87,12 @@
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
-               <bibl>[Quelle 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Germ.Pont. 1, S. 31, Nr. 100</bibl>
                <bibl>[Edition 2]</bibl>
             </listBibl>
          </div>
@@ -102,7 +100,7 @@
             <head>Regesten</head>
             <listBibl>
                <bibl>JL –</bibl>
-               <bibl>[Regest 2]</bibl>
+               <bibl>Germ.Pont. 1, S. 31, Nr. 100</bibl>
             </listBibl>
          </div>
          <div>
