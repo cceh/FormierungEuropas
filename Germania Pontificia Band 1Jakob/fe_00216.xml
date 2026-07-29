@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc><titleStmt><title>fe_00216</title>
+            <respStmt><resp>Datenquelle</resp><persName>JM</persName></respStmt>
+            <respStmt><resp when="2026">Encoding</resp><persName>JM</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Germ.Pont. 1, S. 32, Nr. 102</bibl><bibl type="jaffe">–</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>[-]</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>–</placeName><date type="issued" notBefore="1170-02-22" notAfter="1170-02-22">1170, Februar nach 22</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">Heinrich I., Bischof von Gurk </legalActor></p><p><legalActor type="issuer">Sigbot, Dompropst von Salzburg</legalActor></p><p><legalActor type="issuer">Roman von Leibnitz, Dompropst von Gurk</legalActor></p><p><legalActor type="issuer">Heinrich, Propst von Berchtesgaden</legalActor></p><p><legalActor type="issuer">Alard I., Propst von St. Zeno bei Reichenhall</legalActor></p><p><legalActor type="issuer">Heinrich II., Abt von St. Peter in Salzburg</legalActor></p><p><legalActor type="issuer">Luitold, Abt von Admont</legalActor></p><p><legalActor type="issuer">Pilgrim, Abt von St. Paul im Lavanttal (Kärnten)</legalActor></p><p><legalActor type="issuer">Werner, Abt von St. Lambrecht in der Steiermark</legalActor></p><p><legalActor type="issuer">Meingoz, Domdekan von Salzburg</legalActor></p><p><legalActor type="issuer">Adalbert, Propst von Bischofshofen</legalActor></p>
+               <p><legalActor type="recipient">Alexander III.</legalActor></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">Urkunde eines nichtpäpstlichen Ausstellers, andere</objectType></p><p><objectType n="">Kommentar zum Schisma, zeitgenössisch</objectType></p><p><objectType n="">Alexander III., Kommunikation mit</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p>Bischof Heinrich von Gurk, viele namentliche genannte Pröpste und Äbte der Salzburger Kirche sowie das Domkapital von Salzburg schreiben an Alexander III.:<list>
+                  <item>Sie klagen über die Bedrängnis der Salzburger Kirche durch das Schisma.</item><item>Sie berichten, dass der neue <persName>Erzbischof Adalbert III.</persName> auf den Rat seines Vaters, <persName>König Vladislav II. von Böhmen</persName>, die Bitte an <persName>Kaiser Friedrich I. </persName>um die Regalien verweigert habe.</item><item>Als der Kaiser deswegen eine Belagerung von Salzburg vorbereitete, habe sich entgegen des Rats von <persName>Pfalzgraf Otto von Wittelsbach</persName> Erzbischof Adalbert selbst ausgeliefert.</item><item>Kaiser Friedrich konnte somit also alle Burgen und Siedlungen in der Erzdiözese in Besitz nehmen und viele Geiseln in seine Gewalt bringen.</item><item>Friedrich habe die Absender des Schreibens außerdem zweimal zur Wahl eines anderen Erzbischofs zwingen wollen, wogegen sie sich aber alle wegen ihrer Treue zu Alexander verweigert hätten.</item><item>Auf einem dritten Hoftag am Fest des Heiligen Martin (November 11) wolle Friedrich im Konsens mit den Fürsten einen anderen Erzbischof einsetzen, sofern Adalbert dort nicht erscheine.</item><item>Die Absender erbitten von Alexander Rat, wie sie mit dieser Situation umgehen sollen.</item><item>Ferner soll Adalbert dem Kaiser hohe Geldsummen versprochen haben, für deren Zahlung er viele Güter der Salzburger Kirche veräußern müsste.</item><item>Zuletzt warnen die Absender Alexander davor, dass einige Fälschungen unter ihrem Namen an die Kurie gesandt worden seien, die allerdings nicht besiegelt seien.</item>
+               </list></p>
+         </div>
+
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Multis et magnis laboribus a</diploPart></div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>-</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head>
+            <diploPart type="datatio">-</diploPart>
+         </div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">-</bibl>
+                  <bibl type="msCopy">Hannover, Niedersächsische Landesbibliothek, Codex XI 671, fol. 506r-507v</bibl>
+                  <bibl type="print">-</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Admonter Briefsammlung: Die Salzburger Briefsammlung, Nr. 8, S. 161-163</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL –</bibl>
+               <bibl>Germ.Pont. 1, S. 32, Nr. 102 </bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>-</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>-</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>Text nach Admonter Briefsammlung: Reverendo patri ac domino A. summo pontifici N. Dei gratia Gurcensis episcopus, S. Saltzburgensis, R. Gurcensis, H. Perchthesgadensis, A. Hallensis praepositi, H. S. Petri Saltzburgensis, L. Admuntensis, P. Lavendensis, W. S. Lamberti abbates, N. maioris ecclesiae decanus cum universo Saltzburgensis ecclesiae capitulo, A. Hovensis praepositus orationis, obedientiae et servitii filialem et sinceram devotionem. Multis et magnis laboribus a tempore schismatis huius indesinenter afflicti et ut camino quodam tribulationis decocti tandem aliquando ad vestrae pietatis asylum, reverende pater, confugimus, auxilium pariter et consilium remedio in extremo necessitatis articulo sublevari cupientes. Quis enim vel sensus comprehendere vel sermo valeat explicare, quae et quanta rerum et religionis dispendia sustinuerit ecclesia nostra quondam florentissima, nunc autem paupercula et multis calamitatibus et pressuris pene annullata, maxime pro eo, quod dominus noster post introitum suum consilio patris sui regalia secundum consuetudinem principum Teuthonicorum ab imperatore requirere neglexit, unde ipse ecclesiam nostram funditus destruere volens iuxta civitatem ad unum miliare castra posuit, ubi dominus noster ad ipsum accessit et principibus imperii animum suum exposuit, quia se ipsum et castrum cum ministerialibus vellet tradere. Cui verbo palatinus senior coram omnibus respondit: Quicquid honoris, inquiens, domino nostro imperatori impenditis, non nobis convenit vobis dissuadere, sed sciatis indubitanter, si per manus vestras ecclesiam vestram, sicut dixistis, acceperit, quia tempore schismatis nunquam eam recipietis. Ille vero verbo palatini neglecto ad imperatorem accessit ac, sicut ante conceperat, coram principibus complevit, praecipiens castellanis, ut castrum imperatori traderent et ei fidelitatem iurarent. Nos vero ista audientes, uberiores in lacrimas profusi, plures nobiscum flere compulimus. Unde scire debet sanctitas vestra, quod huius inauditae traditionis — falso quidem de nobis opinati sunt — nunquam consilium dedimus. Universa tamen castra et ministeriales cum ipsa civitate, villis et oppidis et decimis in manu imperatoris sunt, ita ut ne mansus unus episcopo nostro relictus sit. Omnesque castellani sacramentis imperatori praestitis obsides dederunt et nullus domino nostro in episcopatu securus patet introitus. De spiritualium vero virorum et totius cleri tribulatione vobis, domine et pater sanctissime, significamus, quod bis ad praesentiam domini imperatoris convocati de alio episcopo eligendo multis et artificiosis consiliis tum per ipsum tum per alios attentati sumus; qui nobis constanter et unanimiter renuentibus coram ipso imperatore vestram obedientiam profitentes ad vestram praesentiam differri negotium rogavimus et, sicut petivimus, causae dilationem, non finem, facere potuimus. Tertia siquidem curia in festo beati Martini nobis data est et episcopo nostro ad illam veniendi promissa securitas, constanter imperatore affirmante, quia ibi in eum nihil de proprio arbitrio, sed de regni iure et principum iudicio sit acturus. Quod si venire et iudicio astare noluerit, noverit sanctitas vestra, quod ex sententia alium ponet, cui castra et ministeriales et obsides eorum dabit. Hic, pater sanctissime, hic labor est, hic opus consilio et auxilio: si alienus intraverit de grege, quid erit? Haec et alia nonnulla vestra beatitudo sublimius consideret et nobis, devotissimis vestris filiis, qui usque ad sanguinem pro vobis stetimus, sicut de misericordia vestra confidimus, consilium et auxilium paternum impendere non differatis. Quod ni feceritis, nostram et ecclesiae illius, quae semper et in omnibus Romanae ecclesiae antemurale fuit, iacturam vestro tempore fieri non dubium est. Cum enim dominus imperator eum nullo modo ecclesiam nostram regere pati velit, quomodo stabit? Aut si stabit, quomodo nos procurabit, qui metu principis nobiscum non habitabit? Praeterea notum vestrae sanctitati facimus, quod magnam pecuniam et valde ecclesiae nostrae importabilem imperatori promisit, videlicet enim milia marcarum, et, sicut accepimus, V milia, si aliter non potest, imperatori vero XX libras auri, curiae quingentas argenti; quas si imperator recipere voluerit, nunquam persolvere poterit, nisi cum multiplici dilapidatione dominicalium et decimarum episcopatus et perpetua destructione monasteriorum. Post mortem enim domini Conradi multas novas infeudationes possessionum et decimarum ecclesiae nostrae factas esse sciatis, quas sanctitatem vestram cassare et novas prohibere humiliter rogamus. Alioquin omnis status et honor ecclesiae nostrae peribit. In calce litterarum igitur excusationem nostram adnectendam duximus necessariam, quia litterae illae, quae ad vos ex nomine nostro delatae sunt, nec a nobis nullatenus missae nec sigillo ecclesiae nostrae impressae fuerunt.</p><p>KI-Übersetzung: Dem zu verehrenden Vater und Herrn Alexander, dem heiligen Papst, Heinrich, von Gottes Gnaden Bischof von Gurk, die Pröbste Sigbot von Salzburg, Roman von Gurk, Heinrich Berchtesgaden, Alard von Reichenhall, die Äbte Heinrich von St. Peter in Salzburg, Luitold von Admont, Pilgrim St. Paul im Lavanttal (Kärnten), Werner von St. Lambrecht in der Steiermark, Domdekan Meingoz von Salzburg mit dem gesamten Kapitel der Salzburger Kirche, Propst Adalbert von Bischofshofen ihre kindliche und aufrichtige Ergebenheit in Gebet, Gehorsam und Dienst. Durch viele und schwere Mühen werden wir seit der Zeit dieses Schismas unaufhörlich bedrängt und gleichsam in einem Feuerofen der Bedrängnis geläutert. Nun fliehen wir endlich zu deiner väterlichen Güte, ehrwürdiger Vater, als zu einer Zuflucht, und bitten darum, durch deine Hilfe und deinen Rat in dieser äußersten Notlage gestärkt und gerettet zu werden. Denn wer vermag mit seinem Verstand zu erfassen oder mit Worten zu erklären, welche und wie große Verluste an Besitz und an geistlichem Ansehen unsere einst so blühende Kirche erlitten hat, die jetzt arm geworden und durch viele Unglücke und Bedrückungen beinahe völlig zugrunde gerichtet ist? Besonders geschieht dies deshalb, weil unser Herr nach seinem Amtsantritt auf den Rat seines Vaters hin versäumt hat, die Regalien – wie es nach der Gewohnheit der deutschen Fürsten üblich ist – vom Kaiser zu erbitten. Daraufhin hat dieser, weil er unsere Kirche völlig zerstören wollte, ein Lager eine Meile von der Stadt entfernt errichtet. Dorthin begab sich unser Herr und erklärte vor den Fürsten des Reiches seine Absicht: Er wolle sich selbst, die Burg und die Ministerialen dem Kaiser übergeben. Darauf antwortete ihm der ältere Pfalzgraf vor allen Anwesenden: „Was immer ihr unserem Herrn, dem Kaiser, an Ehre erweist, steht uns nicht zu, euch davon abzuraten. Aber ihr sollt ohne jeden Zweifel wissen: Wenn er durch eure Hände eure Kirche so empfängt, wie ihr gesagt habt, werdet ihr sie zur Zeit des Schismas niemals zurückerhalten.“ Unser Herr jedoch missachtete die Worte des Pfalzgrafen, ging zum Kaiser und vollendete vor den Fürsten das, was er zuvor beschlossen hatte. Er befahl den Burghauptleuten, die Burg dem Kaiser zu übergeben und ihm die Treue zu schwören. Als wir davon hörten, brachen wir in noch größere Tränen aus und brachten viele andere dazu, mit uns zu weinen. Deshalb soll eure Heiligkeit wissen, dass wir zu dieser unerhörten Übergabe – wie manche fälschlicherweise von uns behauptet haben – niemals einen Rat gegeben haben. Dennoch befinden sich nun alle Burgen und Ministerialen zusammen mit der Stadt selbst, den Dörfern, Märkten und Zehnten in der Hand des Kaisers, sodass unserem Bischof nicht einmal ein einziger Hof verblieben ist. Alle Burgherren haben nach ihrem Eid gegenüber dem Kaiser Geiseln gestellt, und niemand kann unserem Herrn im Bistum noch sicheren Zugang gewähren.Was aber die Bedrängnis der geistlichen Männer und des gesamten Klerus betrifft, so teilen wir euch, Herr und heiligster Vater, mit, dass wir zweimal vor den Kaiser geladen wurden und dort durch ihn selbst und andere mit vielen kunstvollen Ratschlägen dazu gedrängt wurden, einen anderen Bischof zu wählen. Da wir dies jedoch standhaft und einmütig ablehnten, erklärten wir vor dem Kaiser unseren Gehorsam gegenüber euch und baten darum, die Angelegenheit vor eure Gegenwart zu bringen. Wie wir erbeten hatten, konnten wir eine Verzögerung der Sache erreichen – nicht aber ihre Beendigung. Denn eine dritte Gerichtssitzung wurde uns auf das Fest des heiligen Martin angesetzt. Unserem Bischof wurde wiederholt Sicherheit für sein Erscheinen zugesagt, wobei der Kaiser beständig versicherte, dass er dort nicht nach eigenem Willen, sondern nach dem Recht des Reiches und dem Urteil der Fürsten gegen ihn vorgehen werde. Sollte er aber nicht kommen und sich dem Urteil nicht stellen wollen, so soll eure Heiligkeit wissen, dass er nach dem Urteilsspruch einen anderen einsetzen wird, dem er die Burgen, die Ministerialen und deren Geiseln übergeben wird. Hier, heiligster Vater, hier liegt die Mühe, hier liegt die Aufgabe für Rat und Hilfe: Wenn ein Fremder in die Herde eindringt – was wird dann geschehen? Diese und viele andere Dinge möge eure Heiligkeit mit größerer Weisheit bedenken. Uns, euren ergebensten Söhnen, die wir bis zum Blut für euch gestanden haben, möget ihr, wie wir auf eure Barmherzigkeit vertrauen, väterlichen Rat und Hilfe nicht länger verweigern. Wenn ihr dies nicht tut, ist es zweifellos, dass zu eurer Zeit unser Schaden und der Schaden jener Kirche eintreten wird, die immer und in allem ein Schutzwall der römischen Kirche gewesen ist. Denn wenn der Kaiser unseren Herrn auf keine Weise unsere Kirche regieren lassen will – wie kann er dann bestehen? Und wenn er besteht, wie soll er für uns sorgen, wenn er aus Furcht vor dem Fürsten nicht mit uns wohnen wird? Außerdem machen wir eurer Heiligkeit bekannt, dass er dem Kaiser eine große Geldsumme versprochen hat, die für unsere Kirche völlig unerträglich ist: nämlich tausend Mark, und, wie wir erfahren haben, sogar fünftausend, falls es anders nicht möglich ist; dem Kaiser selbst außerdem zwanzig Pfund Gold und dem Hof fünfhundert Pfund Silber. Wenn der Kaiser diese Zahlungen verlangen will, wird er sie niemals leisten können, außer durch eine vielfache Verschleuderung der Güter und Zehnten des Bistums und durch die dauerhafte Zerstörung der Klöster. Denn nach dem Tod des Herrn Konrad wurden, wie ihr wissen sollt, viele neue Belehnungen mit Besitzungen und Zehnten unserer Kirche vorgenommen. Wir bitten demütig darum, dass eure Heiligkeit diese aufhebt und neue Belehnungen verbietet. Andernfalls wird der gesamte Rang und die Würde unserer Kirche zugrunde gehen. Am Ende dieses Briefes hielten wir es daher für notwendig, unsere Entschuldigung anzufügen: Denn jene Briefe, die unter unserem Namen zu euch gebracht wurden, sind keineswegs von uns abgeschickt worden und auch nicht mit dem Siegel unserer Kirche versehen gewesen.</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>
