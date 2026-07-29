@@ -22,7 +22,7 @@
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Benediktinerkloster St. Oswald in Bardney</legalActor></p><p><legalActor type="recipient">Walter, Abt des Klosters St. Oswald in Bardney</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">Papsturkunde, litterae</objectType></p>
+               <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p>
                <p><objectType n="">Juristisches, Rechtsbestätigung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
@@ -99,7 +99,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p/>
+            <p>Alexander episcopus seruus seruorum Dei. Dilectis filiis Wal-tero abbati et uniuersis monachis monasterii sancti Oswaldisalutem et apostolicam benedictionem. Ad hoc in beati Petriapostolorum principis cathedra licet immeriti domino auctore resi-demus, ut de uniuersarum ecclesiarum quiete debeamus propensiuscogitare et religiosarum personarum iustis petitionibus facilem im-pertiri consensum. Eapropter, dilecti in domino filii, uestris iustispostulationibus benigno concurrentes assensu monasterium, in quodiuino mancipati estis obsequio, sicut Iordanus abbas Carofensiscum consilio et assensu capituli sui a dominio et dispositione suarationabiliter exemisse dinoscitur, ita ab illorum iurisdictione atqueobedientia liberum esse censemus et libertatem ipsam uobis et")monasterio uestro in posterum robur firmitatis inuiolabiliter optineredecernimus atque deuotioni uestre ipsam auctoritate apostolica con-firmamus et presentis scripti patrocinio communimus. Statuentes,ut nulli omnino etc. Si quis autem etc. Dat. Anagn. X V I I I kal.februarii.</p>
          </div>
       </body>
    </text>
