@@ -25,7 +25,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <p><legalActor type="recipient">[Benediktinerkloster Admont</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, unklassifizierbar</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
@@ -113,7 +113,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Refpoints und Empfänger????]</p>
+            <p>[Refpoints und Empfänger???? / FE-Nr. eintragen]</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
