@@ -27,7 +27,7 @@
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Urkunde eines nichtpäpstlichen Ausstellers, andere</objectType></p><p><objectType n="">Administration, Organisation der Kurie</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n=""/>Alexander III., Urheber</p>
+               <p><objectType n=""/>Alexander III., Kommunikation mit</p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
@@ -45,7 +45,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>Erzbischof Konrad von Salzburg schreibt an Alexander III., dass Abt Heinrich von Biburg einmütig zum Abt des Klosters St. Peter in Salzburg gewählt wurde.<list>
+            <p>Erzbischof Konrad von Salzburg schreibt an Alexander III., dass <persName>Abt Heinrich von Biburg</persName> einmütig zum Abt des Klosters St. Peter in Salzburg gewählt wurde.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
