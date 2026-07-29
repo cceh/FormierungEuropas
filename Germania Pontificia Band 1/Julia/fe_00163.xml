@@ -28,9 +28,9 @@
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">Benediktinerkloster Vornbach</legalActor></p><p><legalActor type="recipient">Heinrich, Abt des Benediktinerklosters Vornbach</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">[Papsturkunde, feierliches Privilegsierung 1]</objectType></p>
+               <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">[Typisierung 2]</objectType></p>
+               <p><objectType n="">Juristisches, Rechtsbestätigungen</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
@@ -48,7 +48,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>[Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
+            <p>[Alexander III. nimmt das BenedikRegestentext. Quellenzitate (diploPart) sind zulässig.]<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
