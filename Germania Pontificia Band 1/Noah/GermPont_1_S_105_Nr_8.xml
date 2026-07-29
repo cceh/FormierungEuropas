@@ -25,7 +25,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">[Benediktinerkloster Admont</legalActor></p>
+               <p><legalActor type="recipient">Benediktinerkloster Admont</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, unklassifizierbar</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
@@ -47,7 +47,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><persName>Alexander III.</persName> erklärt die Wahl <persName>Werners</persName> zum Abt der <orgName>Benediktinerabtei Admont</orgName> für ungültig, der zuvor Abt der <orgName>Benediktinerabtei St. Lambrecht</orgName> (D. Graz-Seckau) gewesen ist und nun auf das Betreiben <persName>Romans II., Bischof von Gurk</persName>, zum Abt von Admont gewählt worden ist.</p>
+            <p><persName>Alexander III.</persName> erklärt die Wahl <persName>Werners</persName> zum Abt der <orgName>Benediktinerabtei Admont</orgName> (D. Graz-Seckau) für ungültig, der zuvor Abt der <orgName>Benediktinerabtei St. Lambrecht</orgName> (D. Graz-Seckau) gewesen ist und nun auf das Betreiben <persName>Romans II., Bischof von Gurk</persName>, zum Abt von Admont gewählt worden ist.</p>
          </div>
 
          <div>
