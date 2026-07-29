@@ -106,7 +106,7 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Rota ist vorhanden; Devise: vias tuas domine demonstra michi.</p><p>Benevalete ist vorhanden.</p><p><div><p>Bleibulle ist erhalten und an gelben und roten Seidenfäden abgehängt.</p></div></p>
+               <p>Rota ist vorhanden; Devise: <diploPart cert="high" type="rota" xml:space="default">vias tuas domine demonstra michi</diploPart>.</p><p>Benevalete ist vorhanden.</p><p><div><p>Bleibulle ist erhalten und an gelben und roten Seidenfäden abgehängt.</p></div></p>
             </diploDesc>
          </div>
          <div type="commentary">
