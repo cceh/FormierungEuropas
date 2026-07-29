@@ -19,7 +19,7 @@
           <p><issued><placeName>Anagni</placeName><date type="issued" notBefore="1174-03-20" notAfter="1176-03-20">(1174—76) Mär. 20</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p> <legalActor type="recipient">Roger, Erzbischof von York</legalActor></p> <p> <legalActor type="recipient">Erzbistum York</legalActor></p> <p> <legalActor type="recipient">Archidiakone und andere Prälaten von York</legalActor></p> <p><legalActor type="recipient"> Zisterzienserabtei Rievaulx </legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient">Roger, Erzbischof von York</legalActor></p> <p> <legalActor type="recipient">Erzbistum York</legalActor></p> <p> <legalActor type="recipient">Archidiakone und andere Prälaten von York</legalActor></p> <p><legalActor type="recipient">Zisterzienserabtei Rievaulx </legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae</objectType></p>
                <p><objectType n=""/></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
@@ -94,7 +94,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>Unter welchem zweiten Refpoint????</p>
+            <p>Unter welchem zweiten Refpoint????</p><p>Alexander episcopus seruus seruorum Dei. Venerabiii fratriR. Eboracensi archiepiscopo, apostolice sedis legato, et dilectisfiliis archidiaconis et aliis (jcclesiarum prelatis in eius episcopatuconstitutis salutem et apostolicam benedictionem. Auctoritatißomane ecclesie manifestius derogat, qui eius priuilegiis et statutiscontraire presumit, cum non debeant a quolibet presumptione te-meraria uiolari, que sunt apostolice sedis prouidentia constituta.Inde est, quod cum religiosi uiri fratres Cisterciensis ordinis apo-stolica priuilegia noscantur habere, que obtinere uolumus inuio-labilem firmitatem, discretioni uestre auetoritate apostolica prohi-bemus, quatinus nullus uestrum in monasterium Rieuallense aut inabbatem uel fratres eiusdem monasterii contra tenorem priuilegio-rum suorum interdicti aut excommunicationis sententiam proferrepresumat nec uerba eorundem priuilegiorum peruertere audeat, quianostrum est tantum, dubia, si qua in eisdem priuilegiis comparue-runt, enodare. Dat. Anagnie XIII kal. aprilis</p>
          </div>
       </body>
    </text>
