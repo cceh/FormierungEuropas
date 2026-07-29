@@ -22,8 +22,8 @@
                <issued><placeName>–</placeName><date type="issued" notBefore="1170-02-22" notAfter="1170-02-22">(nach dem 22 Februar 1170)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">Bischof Heinrich I. von Gurk (1167-1174)</legalActor></p><p><legalActor type="issuer">Sigbot, Dompropst von Salzburg (1167-1183)</legalActor></p><p><legalActor type="issuer">Roman von Leibnitz, Dompropst von Gurk (ca. 1149-1174), Bischof von Gurk (1174 nach Oktober 3-1179). 4) Heinrich, Propst von Berchtesgaden.</legalActor></p>
-               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <p><legalActor type="issuer">Bischof Heinrich I. von Gurk (1167-1174)</legalActor></p><p><legalActor type="issuer">Sigbot, Dompropst von Salzburg (1167-1183)</legalActor></p><p><legalActor type="issuer">Roman von Leibnitz, Dompropst von Gurk (ca. 1149-1174), Bischof von Gurk (1174 nach Oktober 3-1179)</legalActor></p><p><legalActor type="issuer">Heinrich, Propst von Berchtesgaden (ca. 1151-1174)</legalActor></p>
+               <p><legalActor type="recipient">Alexander III.</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
