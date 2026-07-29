@@ -112,13 +112,12 @@
          <div type="bibliography">
             <head>Bibliographie</head>
             <listBibl>
-               <bibl>[Werk 1]</bibl>
-               <bibl>[Werk 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>Text aus Germ.Pont. 1, S. 56, Nr. 100 nach Pez Thes. VIa 394 n. 10: Ad Monachos Biburgenses. Mandat, ut Abbatem suum Heinricum, a Petrensibus electum, eisdem concedant. Alexander Episcopus servus servorum Dei, dilectis filijs, Biburgensis Monasterij fratribus, salutem &amp; Apostolicam benedictionem. Dilecti filij nostri, fratres Monasterij S. Petri Salzp. transmissa nobis supplicatione rogarunt, ut sibi dile</p><p>ctum filium nostrum H. abbatem vestrum, quoniam de consortio illorum assumptus, &amp; inter eos nutritus fuit, in Abbatem concedere deberemus. Vnde, quoniam, sicut ex litteris venerabilis fratris nostri C. Archiepiscopi Salzp. accepimus, in ipsum omnium vota concordant, &amp; sicuti ipsi faciles in illo vobis concedendo fuerunt, sic &amp; vos eis in hoc assentire debetis, universitati vestra per Apostolica scripta praecipiendo mandamus, quatenus praefati Monafterij fratribus jamdictum abbatem, cum [ab] Archiepiscopo &amp; ab eis requisitus fuerit, concedatis, &amp; in aliam personam idoneam &amp; honestam pariter conveniatis, qua vobis praeesse possit &amp; prodesse, &amp; Monasterium, auctore Domino, provide gubernare. Data Beneventi * 1167. VIII Kal. Decembr.</p>
+            <p>Text aus Germ.Pont. 1, S. 56, Nr. 100 nach Pez Thes. VIa 394 n. 10: Ad Monachos Biburgenses. Mandat, ut Abbatem suum Heinricum, a Petrensibus electum, eisdem concedant. Alexander Episcopus servus servorum Dei, dilectis filijs, Biburgensis Monasterij fratribus, salutem &amp; Apostolicam benedictionem. Dilecti filij nostri, fratres Monasterij S. Petri Salzp. transmissa nobis supplicatione rogarunt, ut sibi dilectum filium nostrum H. abbatem vestrum, quoniam de consortio illorum assumptus, &amp; inter eos nutritus fuit, in Abbatem concedere deberemus. Vnde, quoniam, sicut ex litteris venerabilis fratris nostri C. Archiepiscopi Salzp. accepimus, in ipsum omnium vota concordant, &amp; sicuti ipsi faciles in illo vobis concedendo fuerunt, sic &amp; vos eis in hoc assentire debetis, universitati vestra per Apostolica scripta praecipiendo mandamus, quatenus praefati Monafterij fratribus jamdictum abbatem, cum [ab] Archiepiscopo &amp; ab eis requisitus fuerit, concedatis, &amp; in aliam personam idoneam &amp; honestam pariter conveniatis, qua vobis praeesse possit &amp; prodesse, &amp; Monasterium, auctore Domino, provide gubernare. Data Beneventi * 1167. VIII Kal. Decembr.</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
