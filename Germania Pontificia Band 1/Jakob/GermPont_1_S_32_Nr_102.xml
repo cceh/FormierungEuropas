@@ -24,10 +24,8 @@
                </issued>
                <p><legalActor type="issuer">Heinrich I., Bischof von Gurk </legalActor></p><p><legalActor type="issuer">Sigbot, Dompropst von Salzburg</legalActor></p><p><legalActor type="issuer">Roman von Leibnitz, Dompropst von Gurk</legalActor></p><p><legalActor type="issuer">Heinrich, Propst von Berchtesgaden</legalActor></p><p><legalActor type="issuer">Alard I., Propst von St. Zeno bei Reichenhall</legalActor></p><p><legalActor type="issuer">Heinrich II., Abt von St. Peter in Salzburg</legalActor></p><p><legalActor type="issuer">Luitold, Abt von Admont</legalActor></p><p><legalActor type="issuer">Pilgrim, Abt von St. Paul im Lavanttal (Kärnten)</legalActor></p><p><legalActor type="issuer">Werner, Abt von St. Lambrecht in der Steiermark</legalActor></p><p><legalActor type="issuer">Meingoz, Domdekan von Salzburg</legalActor></p><p><legalActor type="issuer">Adalbert, Propst von Bischofshofen</legalActor></p>
                <p><legalActor type="recipient">Alexander III.</legalActor></p>
-               <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n=""/></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">Urkunde eines nichtpäpstlichen Ausstellers, andereKommentar zum Schisma, zeitgenössisch</objectType></p><p><objectType n="">Alexander III., Kommunikation mit</objectType></p>
+               <p><objectType n="">Urkunde eines nichtpäpstlichen Ausstellers, andere</objectType></p><p><objectType n="">Kommentar zum Schisma, zeitgenössisch</objectType></p><p><objectType n="">Alexander III., Kommunikation mit</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
