@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>fe_00252</title><respStmt><resp>Datenquelle</resp><persName>NW</persName></respStmt>
+            <respStmt><resp when="2026">Encoding</resp><persName>NW</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Germ. Pont. 1, S. 107, Nr. 4</bibl><bibl type="jaffe">12798</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>-</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Venedig</placeName><date type="issued" notBefore="1177-04-06" notAfter="1177-04-06">1177 Apr. 6</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p><legalActor type="recipient">Benediktinerkloster Millstatt</legalActor></p><p><legalActor type="recipient">Werner, Abt des Benediktinerklosters Millstatt</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">Juristisches, Rechtsbestätigungen</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p><persName>Alexander III.</persName> bestätigt dem <orgName>Benediktinerkloster Millstatt</orgName> (D. Gurk) unter <persName>Heinrich, dem Abt des Benediktinerklosters Millstatt,</persName> seine Freiheiten und Rechte.<list>
+                  <item>Er nimmt das Kloster eingedenk der vorangegangenen Privilegierungen durch <persName>Calixt II.</persName>, <persName>Innozenz II.</persName> und <persName>Eugen III.</persName> unter apostolischen Schutz.</item><item>Er bestätigt alle derzeitigen wie zukünftigen rechtmäßigen Besitzungen und Güter des Klosters, von denen einige namentlich aufgeführt werden.</item><item>Er garantiert die freie Wahl des Abtes gemäß der Regel des hl. Benedikt.</item><item>Er garantiert das Begräbnisrecht, sofern die zu Begrabenden nicht exkommuniziert sind oder das Interdikt über sie verhängt worden ist.</item><item>Er bestätigt die freie Wahl des Kloster-Vogtes und verbietet zugleich, dass diesem oder anderen die Besitzungen des Klosters ohne die Zustimmung der Brüder als Lehen aufgetragen werden dürfen. Es steht dem Kloster frei, einen neuen Vogt zu erwählen, sollten Besitzungen des Kloster abhanden kommen und der Vogt sich damit als unnütz erweisen.</item><item>Er verbietet, dass der Bischof oder andere die Kapellen des Klosters ohne explizite Aufforderung durch die Brüder mit Priestern besetzen.</item><item>Er setzt fest, dass das Kloster für den erfahrenen Schutz künftig jährlich eine Goldmünze an den Papst entrichten muss.</item><item>Schlussformeln: Perturbationsverbot, Sanctio negativa und Sanctio positiva</item>
+               </list></p>
+         </div>
+
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Religiosam vitam eligentibus apostolicum convenit</diploPart></div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>Ego Alexander catholice ecclesie episcopus subscripsi.</item><item>Ego Manfredus Prenestinus episcopus subscripsi.</item><item>Ego Iohannes Neapolitanus presbiter cardinalis tituli sancte Anastasie subscripsi.</item><item>Ego Boso presbiter cardinalis sancte Pudent(iane) tituli Pastoris subscripsi.</item><item>Ego Cinthyus diaconus cardinalis sancti Adriani subscripsi.</item><item>Ego Ugo diaconus cardinalis sancti Eustachii iuxta templum Agrippe subscripsi.</item><item>Ego Hvgo sancti Angeli diaconus cardinalis subscripsi.</item><item>Ego Raynerius diaconus cardinalis sancti Georgii ad velum aureum subscripsi.</item>
+               </list></diploPart>
+         </div>
+         <div><head>Datatio</head><diploPart type="datatio">Dat. Venetie in Rivo Alto per manum Gerardi sancte Romane ecclesie subdiaconi et notarii, VIII id. april., indictione X, incarnationis dominice anno MCLXXVIII, pontificatus vero domni Alexandri pape III anno XVIII.</diploPart></div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">Wien, Haus-, Hof- und Staatsarchiv, UR AUR 239; digital verfügbar unter: https://www.monasterium.net/mom/AT-HHStA/MillstattOSB/1177_IV_06/charter</bibl>
+                  <bibl type="msCopy">-</bibl>
+                  <bibl type="print">-</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>-</bibl>
+               
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Monumenta historica ducatus Carinthiae 3, Nr. 1216, S. 456-458</bibl>
+               
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL 12798</bibl>
+               <bibl>Germ. Pont. 1, S. 107, Nr. 4</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>Rota ist vorhanden; Devise: <diploPart cert="high" type="rota" xml:space="default">vias tuas domine demonstra michi</diploPart>.</p><p>Benevalete ist vorhanden.</p><p>Bleibulle ist erhalten und an gelben und roten Seidenfäden abgehängt.</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Das vorliegende feierliche Privileg baut auf die Vorurkunden für das Benediktinerkloster Millstatt von Calixt II. (<bibl>Germ. Pont. 1, S. 107, Nr. 1</bibl>), von Innozenz II. (<bibl>Germ. Pont. 1, S. 107, Nr. *2</bibl>) und von Eugen III. (<bibl>Germ. Pont. 1, S. 107, Nr. *3</bibl>) auf. Die Privilegierung durch Alexander III. wird wiederum durch Urban III. aufgegriffen (<bibl>Germ. Pont. 1, S. 108, Nr. 6</bibl>).</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Werk 1]</bibl>
+               
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Perturbationsverbot oder Verbot Gewalt gg. geistl. Einrichtung? / Wie Edition angeben? -&amp;gt; in Systematik nicht richtig gefunden: MhdC ist eig. die übergeordnete Reihe, aber so auf Zotero, eig. Kärntner Geschichtsquellen]</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>
