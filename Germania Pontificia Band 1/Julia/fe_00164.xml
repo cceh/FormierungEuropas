@@ -48,17 +48,16 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor><persName>Alexander III.</persName></legalActor> verspricht Gerhoch, dem Propst des Regularkanonikerstifts Reichersberg, und seinen Brüdern, dass er ihnen genauso seine Gunst gewähren würde, wie es seine Vorgänger r getan haben. </p>
+            <p><legalActor><persName>Alexander III.</persName></legalActor> verspricht Gerhoch, dem Propst des Regularkanonikerstifts Reichersberg, und seinen Brüdern, dass er ihnen genauso seine Gunst gewähren würde, wie es seine Vorgänger getan haben. </p>
          </div>
 
          <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+            <head>Incipit</head><diploPart type="incipit" xml:lang="lat">-</diploPart>
          </div>
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+                  <item>-</item>
                </list></diploPart>
          </div>
          <div>
