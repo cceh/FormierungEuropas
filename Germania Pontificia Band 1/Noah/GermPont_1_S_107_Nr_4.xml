@@ -85,7 +85,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Monumenta historica ducatus Carinthiae.3, Nr. 1216, S. 456-458</bibl>
+               <bibl>Monumenta historica ducatus Carinthiae 3, Nr. 1216, S. 456-458</bibl>
                
             </listBibl>
          </div>
@@ -115,7 +115,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Perturbationsverbot oder Verbot Gewalt gg. geistl. Einrichtung?]</p>
+            <p>[Perturbationsverbot oder Verbot Gewalt gg. geistl. Einrichtung? / Wie Edition angeben?]</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
