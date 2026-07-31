@@ -48,14 +48,13 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>[Gerhoch von Reichersberg Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
+            <p>Gerhoch bittet Hyazinth, Kardinaldiakon von Santa Maria in Cosmedvon Reichersberg Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
 
          <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Ea que scripsi domino pape sic</diploPart>
+            <head>Incipit</head><diploPart type="incipit" xml:lang="lat">Ea que scripsi domino pape sic</diploPart>
          </div>
          <div>
             <head>Subscriptiones</head>
