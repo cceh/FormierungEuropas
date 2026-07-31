@@ -30,7 +30,7 @@
                <issued><placeName>Tusculanum</placeName><date type="issued" notBefore="1171-03-14" notAfter="1171-02-12">(1171), März 14 (Februar 12?)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="issuer">[Ales</legalActor></p>
                <p><legalActor type="recipient">[Empfänger]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
@@ -126,7 +126,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>Text nach Fischer: Alexander episcopus Servus fervorum dei. Dilecto filio nobili viro H, duci Auftie falutem et apoftolicam bepedichionem. Cum ecclesia falzpur. genfis venerabilem fratrem noftrum A. falzpurgenfem archiepiscopum nepotem tuum intuitn religionis et honeftatis fue, et etiam, ea. Ipe. quod per potentiam magnitudinis tue a perfequentium op» preflionibus defenderetur iu paftorem et. gubernato, rem Juum.elegiflet, miramur.nos. mirantur et multi quod hactenus .eandem ecclesiam aliter-a perfecutionum moleftiis non curafti defendere et in: fuis pref. furis et adverfitatibus brachio tue fortitudinis adiuvare, Ceterum guum predicte ecclesie, propter deum et intuitu fanguinis debitor Et coadjutor esse.teneris, rogamus induftriam taam. monemus et exhortamur in domino, quatenus divivi amoris intuitu, et pro re» medio anime tue. nec non, etiam obtentu prefati ar&amp;lt;hiepiscopi, prefate ecelesie in anguftiis et tribulationibus fuis, prefidii et. magnitudinis.tue folatium elementer impendas, et eam ‚contra malignantium perfecutiohes manuteneas, foueas magnanimiter et defendas, ut ab, eo qui ef. regum. et döminus do. minantium, premium propter hoc, poffis perhenne _ pereipere. gratiam apoftolice fedis omni tempore pleniotem habere. Datum tusculani I. Idus</p>
+            <p>Text nach Fischer: Alexander episcopus, servus servorum Dei, dilecto filio nobili viro H., duci Austriae, salutem et apostolicam benedictionem.Cum ecclesia Salisburgensis venerabilem fratrem nostrum A., Salisburgensem archiepiscopum, nepotem tuum, intuitu religionis et honestatis suae, et etiam eo ipso quod per potentiam magnitudinis tuae a persequentium oppressionibus defenderetur, in pastorem et gubernatorem suum elegisset, miramur nos, mirantur et multi, quod hactenus eandem ecclesiam aliter a persecutionum molestiis non curasti defendere et in suis pressuris et adversitatibus brachio tuae fortitudinis adiuvare.Ceterum, cum praedictae ecclesiae propter Deum et intuitu sanguinis debitor et coadiutor esse teneris, rogamus industriam tuam, monemus et exhortamur in Domino, quatenus divini amoris intuitu et pro remedio animae tuae, nec non etiam obtentu praefati archiepiscopi, praefatae ecclesiae in angustiis et tribulationibus suis praesidii et magnitudinis tuae solatium clementer impendas, et eam contra malignantium persecutiones manuteneas, foveas magnanimiter et defendas, ut ab eo qui est Rex regum et Dominus dominantium praemium propter hoc possis perenne percipere, gratiam apostolicae sedis omni tempore pleniorem habere.Datum Tusculani, I. IdusKI-Übersetzung: </p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
