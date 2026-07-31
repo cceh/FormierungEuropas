@@ -71,9 +71,9 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="original">-</bibl>
+                  <bibl type="msCopy">[handschriftliche Kopie], fol 492r</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
@@ -94,7 +94,6 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Germ.Pont. 1, S. 32, Nr. 103</bibl>
                <bibl>Admonter Briefsammlung: Die Salzburger Briefsammlung, Nr. 2, S. 153</bibl>
             </listBibl>
          </div>
@@ -102,7 +101,7 @@
             <head>Regesten</head>
             <listBibl>
                <bibl>JL 11875</bibl>
-               <bibl>[Regest 2]</bibl>
+               <bibl>Germ.Pont. 1, S. 32, Nr. 103 </bibl>
             </listBibl>
          </div>
          <div>
