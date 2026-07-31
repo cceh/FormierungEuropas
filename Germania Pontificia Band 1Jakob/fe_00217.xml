@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc><titleStmt><title>fe_00217</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>JM</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2026">Encoding</resp>
+               <persName>JM</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Germ.Pont. 1, S. 32, Nr. 103</bibl><bibl type="jaffe">11875</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>[-]</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Tusculanum</placeName><date type="issued" notBefore="1171-01-28" notAfter="1171-01-28">(1171), Januar 28</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p><legalActor type="recipient">Vladislav, König von Böhmen</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Papsturkunde, Litterae cum filo canapis</objectType></p><p><objectType n="">Kommentar zum Schisma, zeitgenössisch</objectType></p><p><objectType n="">Alexander III., Urheber </objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               </diploDesc></sourceDesc></fileDesc><xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc><langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p>Alexander III. fordert König Vladislav I. von Böhmen auf, den nunmehrigen Erzbischof von Salzburg, seinen eigenen Sohn Adalbert III., nachdrücklicher als bisher zu unterstützen.</p><p><list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Cum ecclesia Saltzburgensis venerabilem fratrem</diploPart></div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>-</item>
+               </list></diploPart>
+         </div>
+         <div><head>Datatio</head><diploPart type="datatio">Datum Tusculan. V. Kal. Febr.</diploPart></div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">-</bibl>
+                  <bibl type="msCopy">Hannover, Niedersächsische Landesbibliothek, Codex XI 671, fol 492r</bibl>
+                  <bibl type="print">-</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Admonter Briefsammlung: Die Salzburger Briefsammlung, Nr. 2, S. 153</bibl><bibl>Codex diplomaticus regni Bohemiae, Bd. 1, S. 228, Nr. 258</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL 11875</bibl>
+               <bibl>Germ.Pont. 1, S. 32, Nr. 103 </bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>-</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>-</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>Text nach Admonter Briefsammlung: Alexander episcopus servus servorum Dei carissimo in Christo filio W. illustri regi Bohemiae salutem et apostolicam benedictionem. Cum ecclesia Saltzburgensis venerabilem fratrem nostrum A. Saltzburgensem archiepiscopum filium tuum intuitu religionis et honestatis suae et etiam ea spe, quod per potentiam magnitudinis tuae a persequentium oppressionibus defenderetur, in pastorem et gubernatorem suum elegerit, miramur nos, mirantur et multi, quod hactenus eandem ecclesiam aliter a persecutionum molestiis non curasti defendere et in suis pressuris et adversitatibus brachio tuae fortitudinis adiuvare. Caeterum quoniam praedictae ecclesiae propter Dominum et intuitu sanguinis debitor et coadiutor esse teneris, rogamus magnificentiam tuam, monemus et exhortamur in Domino, quatenus divini amoris intuitu et pro remedio animae tuae necnon et obtentu praefati archiepiscopi praelibatae ecclesiae in angustiis et tribulationibus suis praesidii et magnitudinis tuae solatium clementer impendas et eam contra malignantium persecutiones manuteneas, foveas magnanimiter et defendas, ut ab eo, qui est rex regum et dominus dominantium, premium possis propter hoc perenne percipere et gratiam apostolicae sedis omni tempore pleniorem habere. Datum Tusculan. V. Kal. Febr.</p><p>KI-Übersetzung: Alexander, Bischof, Knecht der Knechte Gottes, entbietet seinem innigst geliebten Sohn in Christus, W., dem ruhmreichen König von Böhmen, Gruß und den apostolischen Segen. Da die Salzburger Kirche unseren ehrwürdigen Bruder A., den Erzbischof von Salzburg, deinen Sohn, wegen seiner Frömmigkeit und Rechtschaffenheit, aber auch in der Hoffnung, dass er durch die Macht deiner Hoheit gegen die Bedrückungen seiner Verfolger geschützt werde, zu ihrem Hirten und Leiter erwählt hat, wundern wir uns – und viele andere wundern sich ebenfalls –, dass du dich bisher nicht darum bemüht hast, ebendiese Kirche gegen die Belästigungen der Verfolgungen zu schützen und ihr in ihren Bedrängnissen und Widerwärtigkeiten mit dem Arm deiner Stärke beizustehen. Da du außerdem gegenüber der genannten Kirche um des Herrn willen und kraft der Blutsverwandtschaft zu Hilfe und Unterstützung verpflichtet bist, bitten wir deine Hoheit, mahnen und ermahnen dich im Herrn, dass du aus Liebe zu Gott und zum Heil deiner Seele sowie um des genannten Erzbischofs willen der erwähnten Kirche in ihren Nöten und Drangsalen den Beistand und Schutz deiner Macht gütig gewährst und sie gegen die Verfolgungen der Übelgesinnten aufrechterhältst, großmütig förderst und verteidigst. So wirst du von dem, der König der Könige und Herr der Herren ist, dafür ewigen Lohn empfangen können und dir die Gunst des Apostolischen Stuhls jederzeit in reicherem Maße bewahren. Gegeben zu Tusculum am fünften Tag vor den Kalenden des Februar.</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>
