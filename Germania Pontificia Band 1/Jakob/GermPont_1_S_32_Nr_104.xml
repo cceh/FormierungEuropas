@@ -30,7 +30,7 @@
                <issued><placeName>Tusculanum</placeName><date type="issued" notBefore="1171-03-14" notAfter="1171-02-12">(1171), März 14 (Februar 12?)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Ales</legalActor></p>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">[Empfänger]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
@@ -70,8 +70,7 @@
          </div>
          <div>
             <head>Datatio</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
-         </div>
+            <diploPart type="datatio">[Datum Tusculani, I. Idus </diploPart></div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
