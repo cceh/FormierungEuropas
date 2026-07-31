@@ -112,13 +112,12 @@
          <div type="bibliography">
             <head>Bibliographie</head>
             <listBibl>
-               <bibl>[Werk 1]</bibl>
-               <bibl>[Werk 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>Text nach Admonter Briefsammlung: Alexander episcopus servus servorum Dei carissimo in Christo filio W. illustri regi Bohemiae salutem et apostolicam benedictionem. Cum ecclesia Saltzburgensis venerabilem fratrem nostrum A. Saltzburgensem archiepiscopum filium tuum intuitu religionis et honestatis suae et etiam ea spe, quod per potentiam magnitudinis tuae a persequentium oppressionibus defenderetur, in pastorem et gubernatorem suum elegerit, miramur nos, mirantur et multi, quod hactenus eandem ecclesiam aliter a persecutionum molestiis non curasti defendere et in suis pressuris et adversitatibus brachio tuae fortitudinis adiuvare. Caeterum quoniam praedictae ecclesiae propter Dominum et intuitu sanguinis debitor et coadiutor esseteneris, rogamus magnificentiam tuam, monemus et exhortamur in Domino, quatenus divini amoris intuitu et pro remedio animae tuae necnon et obtentu praefati archiepiscopi praelibatae ecclesiae in angustiis et tribulationibus suis praesidii et magnitudinis tuae solatium clementer impendas et eam contra malignantium persecutiones manuteneas, foveas magnanimiter et defendas, ut ab eo, qui est rex regum et dominus dominantium, premium possis propter hoc perenne percipere et gratiam apostolicae sedis omni tempore pleniorem habere. Datum Tusculan. V. Kal. Febr.</p>
+            <p>Text nach Admonter Briefsammlung: Alexander episcopus servus servorum Dei carissimo in Christo filio W. illustri regi Bohemiae salutem et apostolicam benedictionem. Cum ecclesia Saltzburgensis venerabilem fratrem nostrum A. Saltzburgensem archiepiscopum filium tuum intuitu religionis et honestatis suae et etiam ea spe, quod per potentiam magnitudinis tuae a persequentium oppressionibus defenderetur, in pastorem et gubernatorem suum elegerit, miramur nos, mirantur et multi, quod hactenus eandem ecclesiam aliter a persecutionum molestiis non curasti defendere et in suis pressuris et adversitatibus brachio tuae fortitudinis adiuvare. Caeterum quoniam praedictae ecclesiae propter Dominum et intuitu sanguinis debitor et coadiutor esseteneris, rogamus magnificentiam tuam, monemus et exhortamur in Domino, quatenus divini amoris intuitu et pro remedio animae tuae necnon et obtentu praefati archiepiscopi praelibatae ecclesiae in angustiis et tribulationibus suis praesidii et magnitudinis tuae solatium clementer impendas et eam contra malignantium persecutiones manuteneas, foveas magnanimiter et defendas, ut ab eo, qui est rex regum et dominus dominantium, premium possis propter hoc perenne percipere et gratiam apostolicae sedis omni tempore pleniorem habere. Datum Tusculan. V. Kal. Febr.</p><p>KI-Übersetzung: </p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
