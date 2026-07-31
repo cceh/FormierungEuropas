@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc><titleStmt><title>fe_00218</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>JM</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2026">Encoding</resp>
+               <persName>JM</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Germ.Pont. 1, S. 32, Nr. 104</bibl><bibl type="jaffe">11886</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>[-]</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Tusculanum</placeName><date type="issued" notBefore="1171-03-14" notAfter="1171-02-12">(1171), März 14 (Februar 12?)</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p><legalActor type="recipient">Heinrich II. Jasomirgott, Herzog von Österreich</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Papsturkunde, Litterae cum filo canapis</objectType></p><p><objectType n="">Kommentar zum Schisma, zeitgenössisch</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               </diploDesc></sourceDesc></fileDesc><xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc><langUsage><language ident="ger">German</language><language ident="lat">Latin</language><language ident="en-GB">English</language></langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p>Alexander III. fordert Herzog Heinrich II. Jasomirgott von Österreich auf, den nunmehrigen Erzbischof von Salzburg, seinen eigenen Neffen <persName>Adalbert III.</persName>, nachdrücklicher als bisher zu unterstützen.</p><p><list>
+                  <item>-</item>
+               </list></p>
+         </div>
+
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Cum ecclesia Salisburgensis venerabilem fratrem</diploPart></div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>-</item>
+               </list></diploPart>
+         </div>
+         <div><head>Datatio</head><diploPart type="datatio">Datum Tusculani, I. Idus [sic!]</diploPart></div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">-</bibl>
+                  <bibl type="msCopy">Klosterneuburg, Augustiner-Chorherrenstift, Archiv, Chartularium 2, fol. 27v</bibl><bibl type="msCopy">Città del Vaticano, Biblioteca Apostolica Vaticana, Vat. lat. 9500, fol. 97r https://digi.vatlib.it/view/MSS_Vat.lat.9500</bibl>
+                  <bibl type="print">-</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Fischer, Merkwürdigere Schicksale des Stiftes Klosterneuburg, Bd. 2, S. 150-151 n. 16 https://archive.org/details/10136365bsb/page/150/mode/1up</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL 11886<bibl>Germ.Pont. 1, S. 32, Nr. 104</bibl></bibl>
+               <bibl>Codex diplomaticus regni Bohemiae, Bd. 1, S. 228, Nr. 259</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>In der vatikanischen Überlieferung ist das Stück mit <diploPart type="datatio">Datum Tusculani secundo Idus Martii</diploPart> datiert, was auch schon <bibl>Pflugk-Harttung, Iter Italicum, Bd. 1, S. 137 https://archive.org/details/iteritalicum00pflu/page/136/mode/1up</bibl> bekannt gemacht hat. Brackmann hat in der Germania Pontificia aber zurecht darauf hingewiesen, dass Odoardus Melly bei der Abfassung des Codex Vat. lat. 9500 (gewidmet Gregor XVI., amt. 1831-1846) keine Angaben über die Herkunft seiner Informationen gemacht hat. Der enge inhaltliche Zusammenhang mit <bibl>Germ.Pont. 1, S. 32, Nr. 103</bibl> (##= fe_00217##) von (1171), Januar 28 legt jedenfalls nahe, dass die beiden Stücke mit nur geringem zeitlichen Abstand ausgestellt wurden. Brackmann hat wohl deshalb (es gibt keine explizite Äußerung dazu) die frühere Datierung mit (1171), Februar 12 als möglich angesehen und im betreffenden Regest eigens, allerdings mit einem Fragezeichen versehen, ergänzt.</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>-</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>##Verifizierung der Angaben Brackmanns über die handschriftliche Überlieferung (Klosterneuburg Stiftsarchiv, Chartul. eccl. Claustroneoburgensis, mb. s. XIII (Alte Rapulatur n. 2), f. 27') mangels Digitalisat (und weiterführender Informationen auf https://manuscripta.at/?ID=9381) nicht möglich!##</p><p>Text nach Fischer: Alexander episcopus, servus servorum Dei, dilecto filio nobili viro H., duci Austriae, salutem et apostolicam benedictionem. Cum ecclesia Salisburgensis venerabilem fratrem nostrum A., Salisburgensem archiepiscopum, nepotem tuum, intuitu religionis et honestatis suae, et etiam eo ipso quod per potentiam magnitudinis tuae a persequentium oppressionibus defenderetur, in pastorem et gubernatorem suum elegisset, miramur nos, mirantur et multi, quod hactenus eandem ecclesiam aliter a persecutionum molestiis non curasti defendere et in suis pressuris et adversitatibus brachio tuae fortitudinis adiuvare. Ceterum, cum praedictae ecclesiae propter Deum et intuitu sanguinis debitor et coadiutor esse teneris, rogamus industriam tuam, monemus et exhortamur in Domino, quatenus divini amoris intuitu et pro remedio animae tuae, nec non etiam obtentu praefati archiepiscopi, praefatae ecclesiae in angustiis et tribulationibus suis praesidii et magnitudinis tuae solatium clementer impendas, et eam contra malignantium persecutiones manuteneas, foveas magnanimiter et defendas, ut ab eo qui est Rex regum et Dominus dominantium praemium propter hoc possis perenne percipere, gratiam apostolicae sedis omni tempore pleniorem habere. Datum Tusculani, I. Idus</p><p>KI-Übersetzung: Alexander, Bischof, Diener der Diener Gottes, dem geliebten Sohn, dem edlen Mann H., Herzog von Österreich, Heil und apostolischen Segen. Da die Kirche von Salzburg unseren ehrwürdigen Bruder A., den Erzbischof von Salzburg, deinen Neffen, wegen seiner Frömmigkeit und Rechtschaffenheit und auch deshalb, weil sie hoffte, durch die Macht deiner Größe gegen die Bedrückungen ihrer Verfolger geschützt zu werden, zu ihrem Hirten und Leiter erwählt hat, wundern wir uns – und viele andere wundern sich ebenfalls –, dass du dich bisher nicht darum bemüht hast, eben diese Kirche vor den Nachstellungen der Verfolgungen zu schützen und ihr in ihren Bedrängnissen und Schwierigkeiten mit dem Arm deiner Stärke beizustehen. Da du aber der genannten Kirche um Gottes willen und aufgrund der Bande des Blutes verpflichtet bist und ihr Helfer sein sollst, bitten wir dich, mahnen und ermahnen dich im Herrn, dass du aus Liebe zu Gott und zum Heil deiner Seele sowie auch um des genannten Erzbischofs willen der genannten Kirche in ihren Nöten und Bedrängnissen den Schutz und Beistand deiner Macht gütig gewährst. Halte sie gegen die Verfolgungen der Übelgesinnten aufrecht, unterstütze sie mit hochherzigem Sinn und verteidige sie, damit du von dem, der König der Könige und Herr der Herren ist, dafür ewigen Lohn empfangen und dir jederzeit die Gunst des Apostolischen Stuhles in reicherem Maße erhalten mögest. Gegeben zu Tusculum, am ersten Tag vor den Iden des …</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>
