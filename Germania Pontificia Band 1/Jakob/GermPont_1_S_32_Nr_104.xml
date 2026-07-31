@@ -68,9 +68,7 @@
                   <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
                </list></diploPart>
          </div>
-         <div>
-            <head>Datatio</head>
-            <diploPart type="datatio">[Datum Tusculani, I. Idus </diploPart></div>
+         <div><head>Datatio</head><diploPart type="datatio">Datum Tusculani, I. Idus [sic!]</diploPart></div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
@@ -96,7 +94,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Fischer, Merkwürdigere Schicksale des Stiftes Klosterneuburg, Bd. 2, S. 150-151 n. 16</bibl>
+               <bibl>Fischer, Merkwürdigere Schicksale des Stiftes Klosterneuburg, Bd. 2, S. 150-151 n. 16 https://archive.org/details/10136365bsb/page/150/mode/1up</bibl>
             </listBibl>
          </div>
          <div type="regesta">
