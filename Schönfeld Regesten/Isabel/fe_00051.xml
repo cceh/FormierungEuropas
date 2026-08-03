@@ -30,7 +30,7 @@
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Lodi</placeName><date notAfter="1161-06-26" notBefore="1161-06-26" type="issued">(1161 Jun. 26)</date>
+               <issued><placeName>Lodi</placeName><date notAfter="1161-06-26" notBefore="1161-06-26" type="issued">(1161) Jun. 26</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
@@ -111,7 +111,7 @@
             <listBibl>
                <bibl>JL 14452</bibl>
                <bibl>Germ. Pont. 4.4, S. 291, Nr. 4</bibl><bibl>Germ. Pont. 9, S. 86, Nr. 5</bibl><bibl>Weiers, Studien, S. 146, Nr. 5</bibl><bibl>Mayr, Pontifikat, S. 111, Nr. 37</bibl><bibl>Bischoff, Urkundenformate, S. 140</bibl></listBibl><head>Diplomatischer Kommentar</head>
-            <diploDesc><p>Die erschlossenen Teile d</p><p/><p/><p>Bleibulle erhalten, Inschrift: VIC/TOR/IIII. [Text und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
+            <diploDesc><p>Schönfeld markiert das gesamte Datum als erschlossen. D</p><p/><p/><p>Bleibulle erhalten, Inschrift: VIC/TOR/IIII. [Text und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
  Kommentar] </p></diploDesc>
          </div>
          <div type="commentary">
