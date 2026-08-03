@@ -33,7 +33,7 @@
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
                <p><legalActor type="recipient">Klerus der Kirchenprovinz Trier</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType ref="na">Litterae cum serico (????)</objectType></p>
+               <p><objectType ref="na">Litterae cum serico (????##????)</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
                <p><objectType ref="na">Viktor IV., Urheber </objectType></p><p><objectType>Administration, Legaten</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
