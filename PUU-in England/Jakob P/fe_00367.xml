@@ -21,6 +21,7 @@
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">(Richard), Erzbischof von Canterbury</legalActor></p><p><objectType n="">Papsturkunde, litterae cum filo canapis</objectType></p>
+               <p><objectType n="">Juristisches, Rechtsstreit</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
@@ -44,7 +45,7 @@
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl>[Original]</bibl>
+               <bibl>[Original:</bibl>
                <bibl>Inseriert in ein Mandat Bichards von Canterbury, Orig. (un- datiert) Brit. Mus. Harley charter 43 G 24. </bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
