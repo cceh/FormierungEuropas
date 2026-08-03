@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_puu-in"> <!-- Ordnername hier ergänzen -->
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen -->
    <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
+      <fileDesc><titleStmt><title>fe_00366</title>
             <respStmt>
                <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
-               <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+               <persName>JP</persName>
             </respStmt>
            <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
          </titleStmt>
@@ -17,7 +18,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>PUU England 1, S. 417, Nr. 145</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
-            <diploDesc><p><issued><placeName>Ferrara</placeName><date type="issued" notBefore="1177-05-06" notAfter="1177-05-06">(1177) Mai 6.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            <diploDesc><p> <authen type="formula" n=""><p>[-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen><issued><placeName>Ferrara</placeName><date type="issued" notBefore="1177-05-06" notAfter="1177-05-06">(1177) Mai 6.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Templerorden</legalActor></p> <p> <legalActor type="recipient">Meister des Templerordens</legalActor></p> <p> <legalActor type="recipient">Brüder des Templerordens</legalActor></p> <p> <legalActor type="recipient">Gotfried, Bischof von Ely</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
