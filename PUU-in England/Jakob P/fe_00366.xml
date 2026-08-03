@@ -42,13 +42,13 @@
          <div type="other"><head>Echtheitskriterien:</head>
             <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Cum inter vos et monachos</diploPart></div>
-         <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">Dat. Ferrarie II non. maii. </diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl>[Original]</bibl>
-               <bibl>Templerchartular s. XV in., Brit. Mus. Nero Gott. G IX fol. 23. </bibl>
+               <bibl>Original: -</bibl>
+               <bibl>Kopie: Templerchartular s. XV in., Brit. Mus. Nero Gott. G IX fol. 23. </bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>
