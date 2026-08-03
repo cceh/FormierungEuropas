@@ -30,7 +30,7 @@
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Lodi</placeName><date type="issued" notBefore="1161-07-25" notAfter="1161-07-25">1161, Juli 25</date>
+               <issued><placeName>Lodi</placeName><date notAfter="1161-07-25" notBefore="1161-07-25" type="issued">1161 Jul. 25</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
