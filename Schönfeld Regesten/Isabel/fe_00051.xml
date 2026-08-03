@@ -30,7 +30,7 @@
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Lodi</placeName><date type="issued" notBefore="1161-06-26" notAfter="1161-06-26">(1161 Jun. 26)</date>
+               <issued><placeName>Lodi</placeName><date notAfter="1161-06-26" notBefore="1161-06-26" type="issued">(1161 Jun. 26)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
@@ -57,7 +57,7 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p><persName>Viktor IV.</persName> weist <persName>Balduin, Abt des Benediktinerklosters Liesborn</persName> (D. Münster), und <persName>Gunther, Propst des Benediktinerinnenkonvents Lippoldsberg</persName> (D. Mainz) an, den <persName>Kleriker Lambert</persName>, den Laien <persName>E.</persName> und weitere Widersacher wegen mehrerer durch den <persName>Priester Egrich</persName> vor Viktor gebrachter Vergehen zu ermahnen. Er ermächtigt Balduin und Gunter, die Delinquenten kanonisch zu strafen, sollten diese Egrich nicht 40 Tage nach Ermahnung Abbitte leisten.<list>
+            <p><persName>Viktor IV.</persName> weist <persName>Balduin, Abt des Benediktinerklosters Liesborn</persName> (D. Münster), und <persName>Gunther, Propst des Benediktinerinnenkonvents Lippoldsberg</persName> (D. Mainz) an, den <persName>Kleriker Lambert</persName>, den Laien <persName>E.</persName> und weitere Widersacher wegen der durch den <persName>Priester Egrich</persName> vor Viktor gebrachter Vergehen zu ermahnen. Er ermächtigt Balduin und Gunter, die Delinquenten kanonisch zu strafen, sollten diese Egrich nicht binnen 40 Tage nach Ermahnung Abbitte leisten.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
