@@ -11,16 +11,19 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
-            <idno>PUU England 1, S. 437-438, Nr. 165</idno><availability>
+            <idno>PUU England 1, S. 438-439, Nr. 166</idno><availability>
                <licence>Lizenz</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>PUU England 1, S. 437-438, Nr. 165</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
-            <diploDesc><p><issued><placeName>Anagni</placeName><date type="issued" notBefore="1160-10-25" notAfter="1179-10-25">(1160—79) Oktober 25.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            <bibl>PUU England 1, S. 438-439, Nr. 166</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
+            <diploDesc><p><authen type="formula" n="na">
+               <p>[*+?-]</p>
+               <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+            </authen></p><p><issued><placeName>Laterano</placeName><date type="issued" notBefore="1178-05-29" notAfter="1179-05-29">(1178—79) Mai 29.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p> <legalActor type="recipient">Prior und Brüder von St. Nicholas, Exeter</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient">Prior und Kanoniker von Stone</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
@@ -36,10 +39,8 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. bestätigt dem Prior und den Brüdern von St. Nicholas in Exeter die Kirche in Leigh (Borsetshire).</p>
+            <p>Alexander III. bestätigt dem Prior und den Kanonikern von Stone die Kirchen von Bradeley und Bilhorne und die ihnen von den Diösesanbischöfen (von Coventry-Lichfield') verliehenen Freiheiten und Immunitäten.</p>
          </div>
-         <div type="other"><head>Echtheitskriterien:</head>
-            <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
          <div type="msSources">
@@ -47,7 +48,7 @@
             <div>
             <listBibl>   
                <bibl>[Original]</bibl>
-               <bibl>Chartular von St. Nicholas, Exeter s. XIII,  Brit. Mus. Cott. Vi- tellius B IX fol. 29'. </bibl>
+               <bibl>Chartular von Stone s. XIII,  Brit. Mus. Cott. Vespasian E  XXIV  fol. 17; Abschrift Bavid Casley's a. 1734 davon, ebenda Stowe 943  fol. 36. </bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>
@@ -76,12 +77,12 @@
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>[Regest 1]</bibl>
-               <bibl>[Regest 2]</bibl>
+               <bibl>Reg. G. Wrottesley The Stone Chartulary in: Collections  für a History of Staffordshire VI part I (1885) 15. </bibl>
             </listBibl>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>[Kommentar]</p>
+            <p>Über Bradeley vgl. die Urkunde des Kardinalpriesters Manfred n. 130; Bilhorne erhielten die Kanoniker durch Bobert von Stafford, vgl. die Urkunden im Chartular fol. 23 (ed. Wrottesley p. 20). Ba- nach gehört diese päpstliche Bestätigung wohl in die späteren Jahre Alexanders III.</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>

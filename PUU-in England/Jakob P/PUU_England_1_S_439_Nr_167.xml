@@ -11,16 +11,19 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
-            <idno>PUU England 1, S. 435-436, Nr. 162</idno><availability>
+            <idno>PUU England 1, S. 439, Nr. 167</idno><availability>
                <licence>Lizenz</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>PUU England 1, S. 435-436, Nr. 162</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
-            <diploDesc><p><issued><placeName>Laterano</placeName><date type="issued" notBefore="1166-05-09" notAfter="1179-05-09">(1166—79) Mai 9.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            <bibl>PUU England 1, S. 439, Nr. 167</bibl><bibl type="jaffe">13172</bibl>
+            <diploDesc><p><authen type="formula" n="na">
+               <p>[*+?-]</p>
+               <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+            </authen></p><p><issued><placeName>Laterano</placeName><date type="issued" notBefore="1179-02-27" notAfter="1179-02-27">(1179) Februar 27.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p> <legalActor type="recipient">Prokurator und Brüder des Hospitals von St. Peter's (St. Leonard's), York</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient">Abt und Konvent des Klosters Evesham</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
@@ -36,10 +39,8 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. bestätigt dem Prokurator und den Brüdern des Hospitals von St. Peter's (St. Leonard's) in York genannte Be- sitzungen.</p>
+            <p>Alexander III. bestätigt dem Abt und Konvent des Klosters Evesham das von weiland König Erich von Dänemark unter Zu- stimmung des Diözesanbischofs .Hubald geschenkte Priorat Odense in Dänemark.</p>
          </div>
-         <div type="other"><head>Echtheitskriterien:</head>
-            <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
          <div type="msSources">
@@ -47,7 +48,7 @@
             <div>
             <listBibl>   
                <bibl>[Original]</bibl>
-               <bibl>Chartular von St. Leonard's York s. XVin.,  Brit. Mus. Cott. Nero  D III fol. 68'. </bibl>
+               <bibl>Chartular von Evesham s. XIV  ex., Brit. Mus. Harley 3763  fol. 97. </bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>
@@ -68,20 +69,20 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Ed. W. Farrer Early Yorkshire Charters I (Edin- burgh 1914) 166 n. 198. </bibl>
+               <bibl>Ed. W. Holtzmann in Schriften des Vereins für Schleswig- Holsteinische Kirchengeschichte IX (1929) 64 n. 5. </bibl>
                <bibl>[Edition 2]</bibl>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>[Regest 1]</bibl>
+               <bibl>JL: 13172  zu (1166—79) nach Mitteilung von K. Pertz. </bibl>
                <bibl>[Regest 2]</bibl>
             </listBibl>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Abhandlungen d. Oes. d. Wiss. zu Döttingen. Phil.-Hist. Kl. N. F. Bd. XXV, s. 29</p>
+            <p>Wegen der Datierung auf 1179 vgl. meine Bemerkungen a. a. 0. S. 61.</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>

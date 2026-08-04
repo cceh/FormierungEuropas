@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
-<TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen -->
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_puu-in"> <!-- Ordnername hier ergänzen -->
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -14,16 +11,19 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
-            <idno>PUU England 1, S. 384-386, Nr. 115</idno><availability>
+            <idno>PUU England 2, S. 403, Nr. 207</idno><availability>
                <licence>Lizenz</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>PUU England 1, S. 384-386, Nr. 115</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
-            <diploDesc><p><issued><placeName>Tusculanum</placeName><date type="issued" notBefore="1172-12-18" notAfter="1172-12-18">1172 Dezember 18.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            <bibl>PUU England 2, S. 403, Nr. 207</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
+            <diploDesc><p><authen type="formula" n="na">
+               <p>[*+?-]</p>
+               <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+            </authen></p><p><issued><placeName>Tusculanum</placeName><date type="issued" notBefore="1171-03-19" notAfter="1181-03-19">(1171—81) März 19. </date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Zisterzienserabtei Meaux</legalActor></p><p><legalActor type="recipient">Philipp, Abt von Meaux</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient">Domkapitel von Salisbury</legalActor></p><p><legalActor type="recipient">Dekan von Salisbury</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
@@ -39,18 +39,15 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. nimmt das Kloster Meaux unter dem Abt Philipp in den päpstlichen Schutz und bestätigt die Cistercienserregel, die Besitzungen und Bechte.</p>
+            <p>Alexander  III.  bestätigt dem Dekan und Kapitel von Salisbury die ihnen vom Bischof Jocelin übertragene Kirche von Chardstoke (Dorsetshire). </p>
          </div>
-         <div type="other"><head>Echtheitskriterien:</head>
-            <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
                <bibl>[Original]</bibl>
-               <bibl>Chartular von Meaux s. XIV, Brit. Mus. Lansdowne 424 fol. 6'  — gekürzte Abschrift davon s. XVII, ebenda Add. 26736 fol. 4. </bibl>
+               <bibl>Kopie s. XV ex. im Begistrum Bubrum fol. 116, Salisbury Bi- shop's Registry. </bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>
@@ -71,7 +68,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Ed.  W. Farrer Early Yorkshire Charters III 101 n. 1391 aus Lansd. —  Heg. J-L* 11919 nach der Erwähnung in der Chronica monasterii de  Melsa auetore Tlioma de Burton ed. E. A. Bond 1178. </bibl>
+               <bibl>[Edition 1]</bibl>
                <bibl>[Edition 2]</bibl>
             </listBibl>
          </div>
@@ -84,7 +81,7 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Als Vorurkunden benutet sind die Privilegien Anastasius1 IV. n. 57 (= Vü. 1) und Hadrians IV n. 63 (= Vü. II).</p>
+            <p>[Kommentar]</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>

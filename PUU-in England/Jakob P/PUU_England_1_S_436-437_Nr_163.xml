@@ -17,7 +17,10 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>PUU England 1, S. 436-437, Nr. 163</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
-            <diploDesc><p><issued><placeName>Laterano</placeName><date type="issued" notBefore="1166-05-12" notAfter="1179-05-12">(1166—79) Mai 12.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            <diploDesc><p><authen type="formula" n="na">
+               <p>[*+?-]</p>
+               <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+            </authen></p><p><issued><placeName>Laterano</placeName><date type="issued" notBefore="1166-05-12" notAfter="1179-05-12">(1166—79) Mai 12.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="beneficiary">Meister und Brüder des Templerordens</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
@@ -38,8 +41,6 @@
          <div type="abstract"><head>Abstract:</head>
             <p>Alexander III. befreit Meister und Brüder des Templerordens vom Interdikt und Bann der Erzbischöfe und Bischöfe und ihrer Be- amten.</p>
          </div>
-         <div type="other"><head>Echtheitskriterien:</head>
-            <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
          <div type="msSources">

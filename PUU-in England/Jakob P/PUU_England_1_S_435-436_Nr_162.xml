@@ -11,16 +11,19 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
-            <idno>PUU England 1, S. 437, Nr. 164</idno><availability>
+            <idno>PUU England 1, S. 435-436, Nr. 162</idno><availability>
                <licence>Lizenz</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>PUU England 1, S. 437, Nr. 164</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
-            <diploDesc><p><issued><placeName>Anagni</placeName><date type="issued" notBefore="1160-10-15" notAfter="1179-10-15">(1160—79) Oktober 15.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            <bibl>PUU England 1, S. 435-436, Nr. 162</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
+            <diploDesc><p><authen type="formula" n="na">
+               <p>[*+?-]</p>
+               <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+            </authen></p><p><issued><placeName>Laterano</placeName><date type="issued" notBefore="1166-05-09" notAfter="1179-05-09">(1166—79) Mai 9.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p> <legalActor type="recipient">Meister und Brüder des Templerordens</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient">Prokurator und Brüder des Hospitals von St. Peter's (St. Leonard's), York</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
@@ -36,10 +39,8 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. bestätigt dem Meister und den Brüdern des Templerordens ihre Besitzungen in West Thurrok (Essex).</p>
+            <p>Alexander III. bestätigt dem Prokurator und den Brüdern des Hospitals von St. Peter's (St. Leonard's) in York genannte Be- sitzungen.</p>
          </div>
-         <div type="other"><head>Echtheitskriterien:</head>
-            <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
          <div type="msSources">
@@ -47,7 +48,7 @@
             <div>
             <listBibl>   
                <bibl>[Original]</bibl>
-               <bibl>Johanniter  chartular a. 1442, Brit. Mus. Cott. Nero E VI fol. 201. </bibl>
+               <bibl>Chartular von St. Leonard's York s. XVin.,  Brit. Mus. Cott. Nero  D III fol. 68'. </bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>
@@ -68,7 +69,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>[Edition 1]</bibl>
+               <bibl>Ed. W. Farrer Early Yorkshire Charters I (Edin- burgh 1914) 166 n. 198. </bibl>
                <bibl>[Edition 2]</bibl>
             </listBibl>
          </div>
@@ -81,7 +82,7 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>[Kommentar]</p>
+            <p>Abhandlungen d. Oes. d. Wiss. zu Döttingen. Phil.-Hist. Kl. N. F. Bd. XXV, s. 29</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
