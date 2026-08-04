@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
-<TEI source="fe_schoenfeld" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<TEI source="fe_schoenfeld" xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc>
@@ -13,7 +14,8 @@
             </respStmt>
             <respStmt>
                <resp when="2025">Encoding:</resp>
-               <persName>SG</persName><persName>IB</persName>
+               <persName>SG</persName>
+               <persName>IB</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -30,7 +32,8 @@
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Lodi</placeName><date notAfter="1161-07-25" notBefore="1161-07-25" type="issued">1161 Jul. 25</date>
+               <issued><placeName>Lodi</placeName><date notAfter="1161-07-25" notBefore="1161-07-25"
+                     type="issued">1161 Jul. 25</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
@@ -38,14 +41,26 @@
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">Papsturkunde, feierliches Privileg</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
-               <p><objectType ref="na">Viktor IV., Urheber</objectType></p><p><objectType>Juristisches, Rechtsbestätigungen</objectType></p>
+               <p><objectType ref="na">Viktor IV., Urheber</objectType></p>
+               <p><objectType>Juristisches, Rechtsbestätigungen</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
       </fileDesc>
-      
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+            xmlns:as="http://www.w3.org/ns/activitystreams#"
+            xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+            xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
+            xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
+            xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+            xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+            xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
          <langUsage>
             <language ident="ger">German</language>
             <language ident="lat">Latin</language>
@@ -57,29 +72,70 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <persName>Viktor IV.</persName> bestätigt <persName>Hillin, Erzbischof von Trier</persName>, die Besitzungen und Rechte seiner Kirche wie seine Vorgänger <persName>Johannes XIII.</persName>, <persName>Benedikt VII.</persName>, <persName>Leo IX.</persName>, <persName>Viktor II.</persName> und <persName>Innozenz II.</persName>, <persName>Eugen III.</persName> und <persName>Hadrian IV.</persName> und die Kaiser und Könige. Dies sind im Einzelnen
-                  <item>die Burg Treis (Tris), eine Schenkung <persName>Ottos [I. von Salm], Graf von Rheineck und Pfalzgraf bei Rhein,</persName> und seiner Gattin <persName>Gertrud [von Northeim], Pfalzgräfin bei Rhein</persName></item><item>Freiheit vom Spolienrecht gemäß dem Konzil von <placeName>Chalcedon</placeName></item><item>Gebrauch des <rs>Prachtrosses</rs> und des voranzutragenden Kreuzes</item><item>Eigentum an der <orgName>Abtei St. Maximin</orgName> (D. Trier) wie von <persName>König Konrad [III.]</persName> gegenüber Hillins Vorgänger <persName>Albero, Erzbischof von Trier</persName>, bestätigt</item><item>weiterhin den von König Konrad [III.] auf Raten <persName>Bernhards, Abt von Clairvaux</persName>, und der <orgName>deutschen Fürsten</orgName> ausgehandelte Vergleich zwischen Albero, Erzbischof von Trier, und <persName>Heinrich, Graf von Namur</persName></item><p>Viktor IV. verdeutlicht, dass dies gemäß einer schriftlichen Bestätigung der Privilegien, Eigentums- und Nutzungsrechte für alle Ewigkeit durch <persName>Friedrich [I.], Kaiser des Heiligen Römischen Reiches</persName>, geschehe und bekräftigt diese Rechte durch apostolische Autorität auf ewig.</p><p>Sanctio negativa.</p><p>Sanctio positiva.</p>
-               
+<p><persName>Viktor IV.</persName> bestätigt Hillin, Erzbischof von
+               Trier die Besitzungen und Rechte seiner Kirche wie seine Vorgänger
+               <persName>Johannes XIII.</persName>, <persName>Benedikt VII.</persName>,
+               <persName>Leo IX.</persName>, <persName>Viktor II.</persName> und<persName>Innozenz
+               II.</persName>, <persName>Eugen III.</persName>und<persName>Hadrian IV.</persName>
+            und die Kaiser und Könige. Dies sind im Einzelnen
+   <list>
+      <item>die Burg Treis (Tris), eine
+               Schenkung <persName>Ottos [I. von Salm], Graf von Rheineck und Pfalzgraf bei
+                  Rhein,</persName> und seiner Gattin <persName>Gertrud [von Northeim], Pfalzgräfin
+                  bei Rhein</persName></item>
+      <item>Freiheit vom Spolienrecht gemäß dem Konzil von
+                  <placeName>Chalcedon</placeName></item>
+      <item>Gebrauch des <rs>Prachtrosses</rs>
+               und des voranzutragenden Kreuzes</item>
+      <item>Eigentum an der <orgName>Abtei St.
+                  Maximin</orgName> (D. Trier) wie von <persName>König Konrad [III.]</persName>
+               gegenüber Hillins Vorgänger <persName>Albero, Erzbischof von Trier</persName>,
+               bestätigt</item>
+   <item>weiterhin den von König Konrad [III.] auf Raten
+                  <persName>Bernhards, Abt von Clairvaux</persName>, und der <orgName>deutschen
+                  Fürsten</orgName> ausgehandelte Vergleich zwischen Albero, Erzbischof von Trier,
+               und <persName>Heinrich, Graf von Namur</persName></item>
+  <item>Viktor IV. verdeutlicht,
+               dass dies gemäß einer schriftlichen Bestätigung der Privilegien, Eigentums- und
+               Nutzungsrechte für alle Ewigkeit durch <persName>Friedrich [I.], Kaiser des Heiligen
+                  Römischen Reiches</persName>, geschehe und bekräftigt diese Rechte durch
+               apostolische Autorität auf ewig.</item></list></p>
+            <p>Sanctio negativa.</p><p>Sanctio positiva.</p>
          </div>
 
          <div>
             <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">In eminenti sedis apostolice specula</diploPart></div>
+            <diploPart type="incipit" xml:lang="lat">In eminenti sedis apostolice
+               specula</diploPart>
+         </div>
          <div>
             <head>Subscriptiones:</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>[R] Ego <persName>Victor catholicę ecclesię episcopus</persName> SS [B]</item><item>Ego <persName>Guido presbiter cardinalis tituli Calixti</persName> SS</item><item>Ego <persName>Henricus presbiter cardinalis tituli sancti Clementis</persName> SS</item><item>Ego <persName>Hunfredus cardinalis presbiter tituli sanctę Susannę</persName> SS</item><item>Ego <persName>Berardus diaconus cardinalis sanctorum Sergii et Bachi</persName> SS</item><item>Ego <persName>Landus diaconus cardinalis sancti Angeli</persName> SS</item>
+                  <item>[R] Ego <persName>Victor catholicę ecclesię episcopus</persName> SS
+                     [B]</item>
+                  <item>Ego <persName>Guido presbiter cardinalis tituli Calixti</persName> SS</item>
+                  <item>Ego <persName>Henricus presbiter cardinalis tituli sancti
+                        Clementis</persName> SS</item>
+                  <item>Ego <persName>Hunfredus cardinalis presbiter tituli sanctę
+                        Susannę</persName> SS</item>
+                  <item>Ego <persName>Berardus diaconus cardinalis sanctorum Sergii et
+                        Bachi</persName> SS</item>
+                  <item>Ego <persName>Landus diaconus cardinalis sancti Angeli</persName> SS</item>
                </list></diploPart>
          </div>
          <div>
             <head>Datatio:</head>
-            <diploPart type="datatio">Dat[um] Laude p[er] manu[m] <persName>Gerardi sanctę Romanę ecclesię diaconus cardinalis</persName>, VIII kal[endas] aug.[usti] indictione VIIII. Incarnationis d[omi]nice anno. M.C.L.X.I. Pontificatus uero do[m]p[i]ni Victoris. pp. IIII. anno s[e]c[un]do.</diploPart>
+            <diploPart type="datatio">Dat[um] Laude p[er] manu[m] <persName>Gerardi sanctę Romanę
+                  ecclesię diaconus cardinalis</persName>, VIII kal[endas] aug.[usti] indictione
+               VIIII. Incarnationis d[omi]nice anno. M.C.L.X.I. Pontificatus uero do[m]p[i]ni
+               Victoris. pp. IIII. anno s[e]c[un]do.</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">Original, Koblenz, LHA , Best. 1 A, Nr. 73; Digitalisat: https://apertus.rlp.de/index.php?PLINK=1&amp;ID=c1b94ec7-822e-4265-98f4-111105a19c5e</bibl>
+                  <bibl type="original">Original, Koblenz, LHA , Best. 1 A, Nr. 73; Digitalisat:
+                     https://apertus.rlp.de/index.php?PLINK=1&amp;ID=c1b94ec7-822e-4265-98f4-111105a19c5e</bibl>
                   <bibl type="msCopy">[handschriftliche Kopie]</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
@@ -103,7 +159,9 @@
             <head>Editionen</head>
             <listBibl>
                <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 281–283, Nr. V53</bibl>
-               <bibl>Wampach: Urkunden- und Quellenbuch, Bd. I, S. 648, Nr. 471; Würdtwein: Nova subsidia diplomatica, Bd. IX , S. 204, Nr. 127; Beyer: Urkundenbuch zur Geschichte, Bd. I, S. 685, Nr. 624 (Ausz.) bzw. Nr. 625 (Ausz.);</bibl>
+               <bibl>Wampach: Urkunden- und Quellenbuch, Bd. I, S. 648, Nr. 471; Würdtwein: Nova
+                  subsidia diplomatica, Bd. IX , S. 204, Nr. 127; Beyer: Urkundenbuch zur
+                  Geschichte, Bd. I, S. 685, Nr. 624 (Ausz.) bzw. Nr. 625 (Ausz.);</bibl>
             </listBibl>
          </div>
          <div type="regesta">
@@ -111,16 +169,41 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14454</bibl>
-               <bibl>Germ. Pont. X, S. 131, Nr. 302</bibl><bibl>Germ. Pont. ????, S. 214, Nr. 46</bibl><bibl>Beyer:, UB Mittelrhein 2, S. 716, Nr. 680</bibl><bibl>Wauters, Table chronologique 2, S. 430</bibl><bibl>Goerz, Mittelrheinische Rgg 2, S. 43, Nr. 193</bibl><bibl>Mayr, Pontifikat, S. 112, Nr. 39 bzw. Nr. 41</bibl><bibl>Bischoff, Urkundenformate im Mittelalter, S. 141</bibl>
+               <bibl>Germ. Pont. X, S. 131, Nr. 302</bibl>
+               <bibl>Germ. Pont. ????, S. 214, Nr. 46</bibl>
+               <bibl>Beyer:, UB Mittelrhein 2, S. 716, Nr. 680</bibl>
+               <bibl>Wauters, Table chronologique 2, S. 430</bibl>
+               <bibl>Goerz, Mittelrheinische Rgg 2, S. 43, Nr. 193</bibl>
+               <bibl>Mayr, Pontifikat, S. 112, Nr. 39 bzw. Nr. 41</bibl>
+               <bibl>Bischoff, Urkundenformate im Mittelalter, S. 141</bibl>
             </listBibl>
          </div>
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
                <p/>
-            <p>Rota-Inschrift: sanctus Petrus / sanctus Paulus / Vic papa / tor IIII</p><p>Rota-Devise: Tu es gloria mea, tu es susceptor meus, tu exaltas caput meum domine.</p></diploDesc></div><div type="commentary"><head>Sachkommentar</head>
-            <p>Die Abtei St. Maximin bei Trier war auch Teil des Konflikts zwischen Heinrich von Namur und Albero von Trier. Nachdem Graf Heinrich schließlich nach der Einigung die Absolution empfangen und einen Treueeid abgelegt hatte, erhielt er mit Ausnahme der Burg Manderscheid (Mandresheit) alle seine Lehen zurück. Er gelobte, den Ort Rudolfsberg (Rudolfvisberk) nicht wieder zu befestigen.</p><p>Die Originalurkunden Friedrichs I. sind: Koblenz, Landeshauptarchiv, Bestand 1A, Nr. 67 (6. Januar 1157). Vgl. auch RI IV,2,1 n. 431. Bestätigungen früherer Privilegierungen Hillins von Trier durch die zwei direkten Vorgänger Alexanders III. sind: Koblenz, Landeshauptarchiv, Bestand 1A, Nr. 62 (Eugen III, 27. Mai 1152; JL 9582) und ebd., Bestand 1A, Nr. 64 bzw. 66 (Hadrian IV., 15. Juni 1155 bzw. 21. Mai 1157; JL 10078 bzw. 10279). Digitalisate aller Urkunden unter: https://apertus.rlp.de/</p></div><div type="bibliography"><listBibl>
-            </listBibl>
+               <p>Rota-Inschrift: sanctus Petrus / sanctus Paulus / Vic papa / tor IIII</p>
+               <p>Rota-Devise: Tu es gloria mea, tu es susceptor meus, tu exaltas caput meum
+                  domine.</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Die Abtei St. Maximin bei Trier war auch Teil des Konflikts zwischen Heinrich von
+               Namur und Albero von Trier. Nachdem Graf Heinrich schließlich nach der Einigung die
+               Absolution empfangen und einen Treueeid abgelegt hatte, erhielt er mit Ausnahme der
+               Burg Manderscheid (Mandresheit) alle seine Lehen zurück. Er gelobte, den Ort
+               Rudolfsberg (Rudolfvisberk) nicht wieder zu befestigen.</p>
+            <p>Die Originalurkunden Friedrichs I. sind: Koblenz, Landeshauptarchiv, Bestand 1A, Nr.
+               67 (6. Januar 1157). Vgl. auch RI IV,2,1 n. 431. Bestätigungen früherer
+               Privilegierungen Hillins von Trier durch die zwei direkten Vorgänger Alexanders III.
+               sind: Koblenz, Landeshauptarchiv, Bestand 1A, Nr. 62 (Eugen III, 27. Mai 1152; JL
+               9582) und ebd., Bestand 1A, Nr. 64 bzw. 66 (Hadrian IV., 15. Juni 1155 bzw. 21. Mai
+               1157; JL 10078 bzw. 10279). Digitalisate aller Urkunden unter:
+               https://apertus.rlp.de/</p>
+         </div>
+         <div type="bibliography">
+            <listBibl> <bibl></bibl></listBibl>
          </div>
          <div type="note">
             <head>Notizen</head>
