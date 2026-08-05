@@ -28,7 +28,7 @@
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">Benediktinerpriorat Walden</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p>
-               <p><objectType n="">Juristisches, Rechtsbest</objectType></p>
+               <p><objectType n="">Juristisches, Rechtsbestätigung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
@@ -43,7 +43,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. nimmt das Kloster Walden in den päpstlichen Schutz, bestätigt seine Besitzungen und verleiht ihm Freiheit vom Novalzehnt.</p>
+            <p>Alexander III. nimmt das Kloster Walden in den päpstlichen Schutz, bestätigt seine Besitzungen und verleiht ihm Freiheit vom Novalzehnt. ### Alexander III. nimmt das Benediktinerpriorat Walden (</p>
          </div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
