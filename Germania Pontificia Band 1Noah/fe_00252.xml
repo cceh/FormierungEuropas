@@ -99,7 +99,7 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Rota vorhanden; Inschrift: ; Devise: <diploPart cert="high" type="rota" xml:space="default">vias tuas domine demonstra michi</diploPart>.</p><p>Benevalete vorhanden.</p><p>Bleibulle an gelben und roten Seidenfäden; Avers-Seite: ; Revers-Seite: S(an)c(tu)s .</p>
+               <p>Rota vorhanden; Inschrift: ; Devise: <diploPart cert="high" type="rota" xml:space="default">vias tuas domine demonstra michi</diploPart>.</p><p>Benevalete vorhanden.</p><p>Bleibulle an gelben und roten Seidenfäden; Avers-Seite: ; Revers-Seite: <diploPart>S(an)c(tu)s PA(ULUS) S(an)c(tus) PE(TRUS)</diploPart>.</p>
             </diploDesc>
          </div>
          <div type="commentary">
