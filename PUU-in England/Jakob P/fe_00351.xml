@@ -4,7 +4,7 @@
 <TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen -->
    <teiHeader>
       <fileDesc><titleStmt><title>fe_00351</title><respStmt><resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp><persName>JP</persName></respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>JP</persName></respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>JP, IB</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -38,7 +38,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p><legalActor><persName>Alexander III.</persName> </legalActor>bestätigt dem Abt Walter und den Mönchen des Klosters St. Oswald in Bardney die Unabhängigkeit vom Kloster Charroux.#####Nachher#### <legalActor><persName>Alexander III.</persName></legalActor> bestätigt <legalActor><persName>Walter, Abt des Benediktinerklosters von St. Oswald</persName></legalActor>, und <orgName>den Mönchen des Kloster St. Oswald</orgName> (D. Lincoln) die von <persName>Jordan, Abt von Charroux</persName>, mit der Zustimmung seines Kapitels gewährte Befreiung von der Gerichtsbarkeit und Gehorsamspflicht gegenüber dem <orgName>Benediktinerkloster Kloster Charroux</orgName> (D. Poitiers).<list><item>Schlussformel: Perturbationsverbot, Sanctio negativa</item>
+            <p><legalActor><persName>Alexander III.</persName></legalActor> bestätigt <legalActor><persName>Walter, Abt des Benediktinerklosters von St. Oswald</persName></legalActor>, und <orgName>den Mönchen des Kloster St. Oswald</orgName> (D. Lincoln) die von <persName>Jordan, Abt von Charroux</persName>, mit der Zustimmung seines Kapitels gewährte Befreiung von der Gerichtsbarkeit und Gehorsamspflicht gegenüber dem <orgName>Benediktinerkloster Kloster Charroux</orgName> (D. Poitiers).<list><item>Schlussformel: Perturbationsverbot, Sanctio negativa</item>
                </list> </p>
          </div>
          
@@ -98,7 +98,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>Alexander episcopus seruus seruorum Dei. Dilectis filiis Wal-tero abbati et uniuersis monachis monasterii sancti Oswaldisalutem et apostolicam benedictionem. Ad hoc in beati Petriapostolorum principis cathedra licet immeriti domino auctore resi-demus, ut de uniuersarum ecclesiarum quiete debeamus propensiuscogitare et religiosarum personarum iustis petitionibus facilem im-pertiri consensum. Eapropter, dilecti in domino filii, uestris iustispostulationibus benigno concurrentes assensu monasterium, in quodiuino mancipati estis obsequio, sicut Iordanus abbas Carofensiscum consilio et assensu capituli sui a dominio et dispositione suarationabiliter exemisse dinoscitur, ita ab illorum iurisdictione atqueobedientia liberum esse censemus et libertatem ipsam uobis et")monasterio uestro in posterum robur firmitatis inuiolabiliter optineredecernimus atque deuotioni uestre ipsam auctoritate apostolica con-firmamus et presentis scripti patrocinio communimus. Statuentes,ut nulli omnino etc. Si quis autem etc. Dat. Anagn. X V I I I kal.februarii.</p>
+            <p>Alexander episcopus seruus seruorum Dei. Dilectis filiis Wal-tero abbati et uniuersis monachis monasterii sancti Oswaldisalutem et apostolicam benedictionem. Ad hoc in beati Petriapostolorum principis cathedra licet immeriti domino auctore resi-demus, ut de uniuersarum ecclesiarum quiete debeamus propensiuscogitare et religiosarum personarum iustis petitionibus facilem im-pertiri consensum. Eapropter, dilecti in domino filii, uestris iustispostulationibus benigno concurrentes assensu monasterium, in quodiuino mancipati estis obsequio, sicut Iordanus abbas Carofensiscum consilio et assensu capituli sui a dominio et dispositione suarationabiliter exemisse dinoscitur, ita ab illorum iurisdictione atqueobedientia liberum esse censemus et libertatem ipsam uobis et") monasterio uestro in posterum robur firmitatis inuiolabiliter optineredecernimus atque deuotioni uestre ipsam auctoritate apostolica con-firmamus et presentis scripti patrocinio communimus. Statuentes,ut nulli omnino etc. Si quis autem etc. Dat. Anagn. X V I I I kal.februarii.</p>
          </div>
       </body>
    </text>
