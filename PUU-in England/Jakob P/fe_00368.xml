@@ -14,19 +14,19 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
-            <idno>PUU England 1, S. 375-376, Nr. 110</idno><availability>
+            <idno>PUU England 1, S. 379-381, Nr. 113</idno><availability>
                <licence>Lizenz</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>PUU England 1, S. 375-376, Nr. 110</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
-            <diploDesc> <p><authen type="formula" n="na">
+            <bibl>PUU England 1, S. 379-381, Nr. 113</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
+            <diploDesc><p><authen type="formula" n="na">
                <p>[*+?-]</p>
                <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-            </authen></p><p><issued><placeName>Benevento</placeName><date type="issued" notBefore="1167-12-30" notAfter="1169-12-30">(1167—69) Dezember 30.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            </authen></p><p><issued><placeName>Tusculanum</placeName><date type="issued" notBefore="1171-12-03" notAfter="1171-12-03">1171 Dezember 3.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Benediktinerpriorat Walden</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><legalActor type="recipient">Benediktinerabtei von Westminster (OSB)</legalActor></p><p><legalActor type="recipient">Laurentius, Abt von Westminster</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
