@@ -74,15 +74,15 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>[Edition 1]</bibl>
-               <bibl>[Edition 2]</bibl>
+               <bibl>PUU England 1, S. 379-381, Nr. 113</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>Hg. von Emma Mason, Westminster Abbey Charters 1066–c. 1214. London 1988.</bibl>
-               <bibl>[Regest 2]</bibl>
+               <bibl>Hg. von Emma Mason, Westminster Abbey Charters 1066–c. 1214. London 1988, Nr. 171, S. 85.</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div>
