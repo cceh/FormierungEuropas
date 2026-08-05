@@ -19,9 +19,9 @@
          <sourceDesc>
             <bibl>PUU England 1, S. 381, Nr. 114</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
             <diploDesc><p><authen type="formula" n="na">
-               <p>[*+?-]</p>
+               <p>[-]</p>
                <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-            </authen></p><p><issued><placeName>Ttisculanum</placeName><date type="issued" notBefore="1172-05-14" notAfter="1172-05-14">1172 Mai 14.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            </authen></p><p><issued><placeName>Tusculanum</placeName><date type="issued" notBefore="1172-05-14" notAfter="1172-05-14">1172 Mai 14</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">Abtei Haughmond (OSA)</legalActor></p><p><legalActor type="recipient">Alfred, Abt von Haughmond</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
@@ -70,7 +70,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>[Edition 1]</bibl>
+               <bibl>PUU England 1, S. 381, Nr. 114.</bibl>
                <bibl>[Edition 2]</bibl>
             </listBibl>
          </div>
