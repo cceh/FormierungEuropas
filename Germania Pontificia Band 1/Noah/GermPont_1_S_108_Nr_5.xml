@@ -26,7 +26,7 @@
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">Benediktinerkloster Millstatt</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">Papsturkunde, unkategorisiert</objectType></p>
+               <p><objectType n="">Papsturkunde, </objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
                <p><objectType n="">Juristisches, Rechtsbestätigungen</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
@@ -83,12 +83,12 @@
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="editions">
             <head>Editionen</head><listBibl>
-               <bibl>[Edition 2]</bibl>
+               <bibl>- </bibl>
             </listBibl>
          </div>
          <div type="regesta">
@@ -100,7 +100,7 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Das vorliegende Deperditum geht auf einen Eintrag in der Millstätter Registratur  Ende des 16. Jahrhunderts zurück, der : Babpst Allexander des dritten bull u. confirmation über s. Focatencapell mit irer zugehörung u. anderer des closters Müllstatt zugehörigen capellen. Datum Venedig zu Riuolto, 8 (id.) iuny, 1178.</p>
+               <p>Das vorliegende Deperditum geht auf einen Eintrag in der Millstätter Registratur  Ende des 16. Jahrhunderts zurück, der : Babpst Allexander des dritten bull u. confirmation über s. Focatencapell mit irer zugehörung u. anderer des closters Müllstatt zugehörigen capellen. Datum Venedig zu Riuolto, 8 (id.) iuny, 1178. </p>
             </diploDesc>
          </div>
          <div type="commentary">
