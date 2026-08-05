@@ -84,7 +84,6 @@
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
                <bibl>[Quelle 1]</bibl>
-               <bibl>[Quelle 2]</bibl>
             </listBibl>
          </div>
          <div type="editions">
@@ -101,7 +100,7 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Das vorliegende Deperditum geht auf den Eintrag in. </p>
+               <p>Das vorliegende Deperditum geht auf den Eintrag in . </p>
             </diploDesc>
          </div>
          <div type="commentary">
