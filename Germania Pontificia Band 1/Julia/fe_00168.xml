@@ -19,10 +19,10 @@
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
                <p><authen type="formula" n="na">
-                     <p>-]</p>
+                     <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>–</placeName><date type="issued" notBefore="1163-01-01" notAfter="1163-12-31">[1163]</date>
+               <issued><placeName>–</placeName><date type="issued" notBefore="1163-01-01" notAfter="1163-12-31">(1163-1164)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">[Aussteller]</legalActor></p>
