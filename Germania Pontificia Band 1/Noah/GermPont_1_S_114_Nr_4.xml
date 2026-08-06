@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>fe_0025XXX</title><respStmt>
+            <title>fe_00256</title><respStmt>
                <resp>Datenquelle</resp>
                <persName>NW</persName>
             </respStmt>
@@ -19,7 +19,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>Germ. Pont. 1, S. 114, Nr. 4</bibl><bibl type="jaffe">12371</bibl>
+            <bibl>Germ. Pont. 1, S. 114-115, Nr. 4</bibl><bibl type="jaffe">12371</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
                <p><authen type="formula" n="na">
@@ -105,7 +105,7 @@
             <head>Regesten</head>
             <listBibl>
                <bibl>JL 12371</bibl>
-               <bibl>Germ. Pont. 1, S. 114, Nr. 4</bibl>
+               <bibl>Germ. Pont. 1, S. 114-115, Nr. 4</bibl>
             </listBibl>
          </div>
          <div>
