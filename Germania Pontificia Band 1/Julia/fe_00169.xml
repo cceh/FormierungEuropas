@@ -54,8 +54,7 @@
          </div>
 
          <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Cogor in senectude mea reminisci</diploPart>
+            <head>Incipit</head><diploPart type="incipit" xml:lang="lat">Cogor in senectude mea reminisci</diploPart>
          </div>
          <div>
             <head>Subscriptiones</head>
@@ -71,7 +70,7 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
+                  <bibl type="original">Admont, Stiftsbibliothek, Cod. 434, fol. 172r-182r; digital verfügbar unter[Original]</bibl>
                   <bibl type="msCopy">[handschriftliche Kopie]</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
