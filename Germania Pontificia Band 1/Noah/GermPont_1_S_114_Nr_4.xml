@@ -29,7 +29,7 @@
                <issued><placeName>Anagni</placeName><date type="issued" notBefore="1174-04-22" notAfter="1174-04-22">1174 Apr. 22 </date><date type="issued" notBefore="1174-04-22" notAfter="1174-04-22"/>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">[Empfänger]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
