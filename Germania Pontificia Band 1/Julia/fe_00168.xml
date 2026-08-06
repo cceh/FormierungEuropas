@@ -26,7 +26,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Gerhoch, Propst des Regularkanonikerstifts Reichersberg</legalActor></p>
-               <p><legalActor type="recipient">Heinrich, Kardinalpresbiter von SS. Nerei e Achillei</legalActor></p>
+               <p><legalActor type="recipient">Heinrich, Kardinalpriester von SS. Nerei e Achillei</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Brief</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
@@ -48,7 +48,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>Gerhoch von Reichersberg [Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
+            <p>Gerhoch von Reichersberg erinnert Heinrich, Kardinalpriester von SS. Nerei e Achillei, an sein Versprechen, das er ihm gemeins [Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
