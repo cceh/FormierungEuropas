@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>fe_00256</title><respStmt>
+               <resp>Datenquelle</resp>
+               <persName>NW</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2026">Encoding</resp>
+               <persName>NW</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Germ. Pont. 1, S. 114-115, Nr. 4</bibl><bibl type="jaffe">12371</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>-</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Anagni</placeName><date type="issued" notBefore="1174-04-22" notAfter="1174-04-22">1174 Apr. 22</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p><legalActor type="recipient">Berta, Äbtissin des Benediktinerinnenkloster St. Georgen am Längsee</legalActor></p><p><legalActor type="recipient">Benediktinerinnenkloster St. Georgen am Längsee</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">Iuristisches, Rechtsbestätigungen</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p><persName>Alexander III.</persName> bestätigt dem <orgName>Benediktinerinnenkloster St. Georgen am Längsee</orgName> (D. Gurk) unter <persName>Berta, der Äbtissin des Benediktinerinnenkloster St. Georgen am Längsee,</persName> die Rechte und Freiheiten des Klosters.<list>
+                  <item>Er nimmt das Kloster unter apostolischen Schutz.</item><item>Er bestätigt alle derzeitigen und zukünftigen Besitzungen und Güter, die das Kloster gegenwärtig rechtmäßig besitzt oder die dem Kloster zukünftig durch Päpste, Könige, Fürsten oder Getreue auf jedwede Art und Weise zukommen werden. Einige der gegenwärtigen Besitzungen und Güter werden namentlich genannt.</item><item>Er garantiert das Begräbnisrecht, sofern die zu Begrabenden nicht exkommuniziert sind oder das Interdikt über sie verhängt worden ist.</item><item>Er befreit das Kloster vom allgemeinen Interdikt.</item><item>Er bestätigt alle Freiheiten und die monastischen Ordnungen (<diploPart>consuetudines</diploPart>) des Klosters, die diesem von seinen Gründern zugestanden und dann wiederum von <persName>Konrad I., dem Erzbischof von Salzburg,</persName> bestätigt worden sind.</item><item>Er stellt fest, dass das Tauschgeschäft, das <persName>Konrad I., Erzbischof von Salzburg,</persName> damals mit der Äbtissin und den Schwestern getätigt hat, dem Kloster nicht zum Schaden gereichen soll. Das Kloster soll weiterhin sein Freiheitsrecht (<diploPart>libertas debita</diploPart>) genießen.</item><item>Er verbietet, dass irgendjemand jemals die Exkommunikation oder das Interdikt über das Kloster verhängt, es sei denn, er handelt im päpstlichen Auftrag.</item><item>Er garantiert die freie Wahl der Äbtissin gemäß der Regel des hl. Benedikt.</item><item>Schlussformeln: Perturbationsverbot, Sanctio negativa und Sanctio positiva.</item>
+               </list></p>
+         </div>
+
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Officii nostri debitum exigit et</diploPart></div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>Ego Alexander catholice ecclesie episcopus subscripsi.</item><item>Ego Hvbaldus Hostiensis episcopus subscripsi.</item><item>Ego Bernardus Port(uensis) et sancte Rufine episcopus subscripsi.</item><item>Ego Gualterius Albanensis episcopus subscripsi.</item><item>Ego Iohannes presbiter cardinalis sanctorum Iohannis et Pauli tituli Pamachii subscripsi.</item><item>Ego Iohannes presbiter cardinalis tituli sancte Anastasie subscripsi.</item><item>Ego Albertus presbiter cardinalis tituli sancti Lauren(tii) in Lucina subscripsi.</item><item>Ego Guillelmus presbiter cardinalis tituli sancti Petri ad vincula subscripsi.</item><item>Ego Boso presbiter cardinalis sancte Pudentiane tituli Pastoris subscripsi.</item><item>Ego Iohannes presbiter cardinalis tituli sancti Marci subscripsi.</item><item>Ego Petrus presbiter cardinalis tituli sancte Susanne subscripsi.</item><item>Ego Petrus presbiter cardinalis tituli sancti Grisogoni subscripsi.</item><item>Ego Ardicio diaconus cardinalis sancti Theodori subscripsi.</item><item>Ego Hugo diaconus cardinalis sancti Eustachii iuxta templum Agrippe subscripsi.</item><item>Ego Vitellus diaconus cardinalis sanctorum Sergii et Bachi subscripsi.</item><item>Ego Laborans diaconus cardinalis sancte Marie in porticu subscripsi.</item>
+               </list></diploPart>
+         </div>
+         <div><head>Datatio</head><diploPart type="datatio">Dat. Anagnie per manum Gratiani sancte Romane ecclesie subdiaconi et notarii, X kalend. maii, indictione VII, incarnationis dominice anno MCLXXIIII, pontificatus vero domini Alexandri pape III anno XV.</diploPart></div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">Klagenfurt, Kärntner Landesarchiv, AT-KLA 418-B-A 15 St; digital verfügbar unter: https://www.monasterium.net/mom/AT-KLA/AUR/AT-KLA_418-B-A_15_St/charter</bibl>
+                  <bibl type="msCopy">-</bibl>
+                  <bibl type="print">-</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Monumenta historica ducatus Carinthiae 3, S. 442-444, Nr. 1182</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL 12371</bibl>
+               <bibl>Germ. Pont. 1, S. 114-115, Nr. 4</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>Rota vorhanden; Inschrift: <diploPart>s(an)c(tu)s PETRUS / s(an)c(tu)s PAULUS / ALEXANDER p(a)p(a) III.</diploPart>; Devise: <diploPart>vias tuas domine demonstra michi</diploPart>.</p><p>Benevalete vorhanden.</p><p>Bulle an gelben Seidenfäden; Avers-Seite: <diploPart>ALEXANDER P(A)P(A) III.</diploPart>; Revers-Seite: <diploPart>S(anctus) PA(ULUS) S(anctus) PE(TRUS)</diploPart>, samt Porträts der Apostelfürsten.</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p/><p/><p>Bei den vorangegangen Privilegierungen, auf die sich <persName>Alexander III.</persName> hier bezieht, handelt es sich einerseits um die Teilung des Erbguts durch <persName>Otwin, den Grafen im Lurngau und im Pustertal</persName> (vgl. <bibl>Monumenta historica ducatus Carinthiae 3, S. 80-86, Nr. 204</bibl>), und die folgende Privilegierung des Klosters durch <persName>Wichpruch, die Witwe Graf Otwins</persName> Anfang des 11. Jahrhunderts (vgl. <bibl>Monumenta historica ducatus Carinthiae 3, S. 86-88, Nr. 205</bibl>), sowie das Privileg <persName>Konrads I., Erzbischof von Salzburg</persName> aus dem Jahr 1134 (vgl. <bibl>Monumenta historica ducatus Carinthiae 3, S. 258-263, Nr. 647</bibl>).</p><p>Die Bestätigung der freien Wahl der Äbtissin gemäß der Regel des hl. Benedikt steht im Widerspruch zu einer Verfügung <persName>Alexanders III.</persName>, mit der er 1171 <persName>Liutold, dem Abt des Benediktinerklosters Admont,</persName> das Sonderrecht eingeräumt hat, dass die Wahlen der Äbtissinnen in den dem <orgName>Benediktinerkloster Admont</orgName> unterstehenden Frauenklöstern nur mit Wissen und Willen des Abtes und der Brüder erfolgen dürfen (vgl. <bibl>Germ. Pont. 1, S. 92-93, Nr. 12</bibl>).</p><p>Im selben Jahr sind <persName>Liutold, dem Abt des Benediktinerklosters Admont,</persName> weitere Vorrechte eingeräumt worden, die die hier aufgeführten Rechte und Freiheiten des <orgName>Benediktinerinnenklosters St. Georgen am Längsee</orgName> eigentlich beschneiden (vgl. <bibl>Germ. Pont. 1, S. 93, Nr. 13</bibl>).</p><p>Die hier zugestandenen Freiheiten und Rechte des <orgName>Benediktinerinnenklosters St. Georgen am Längsee</orgName> sind ebenfalls nicht mit der Privilegierung durch <persName>Eberhard I., den Erzbischof von Salzburg,</persName> aus dem Jahr 1162 in Einklang zu bringen (vgl. <bibl>Monumenta historica ducatus Carinthiae 3, S. 393-395, Nr. 1046</bibl>).</p><p>Es ist vermutet worden, dass <persName>Konrad I., der Erzbischof von Salzburg,</persName> in seinem Privileg von 1134 besagte Sonderrechte ursprünglich verankerte, damit sich das <orgName>Benediktinerinnenklosters St. Georgen am Längsee</orgName> bedingt gegen Übergriffe des <orgName>Benediktinerklosters Admont</orgName> oder des Salzburger Erzbischofs erwehren konnte (vgl. <bibl>Monumenta historica ducatus Carinthiae 3, S. 258-263, Nr. 647</bibl>). Diese Sonderrechte greift <persName>Alexander III.</persName> hier wieder auf.</p><p>Viele der zugestendenden Rechte und Freiheiten sind bereits im Privileg <persName>Clemens III.</persName> nicht mehr enthalten (vgl. <bibl>Germ. Pont. 1, S. 116, Nr. 11</bibl>).</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Was genau ist mit libertas debita gemeint? Zu meisten Germ. Pont. Regesten aus Sachkommentar wird es FE-Nummern geben!]</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>
