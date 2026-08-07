@@ -60,16 +60,15 @@
             <div>
                <listBibl>
                   <bibl type="original">-</bibl>
-                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="msCopy">-</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="historiography">
@@ -82,7 +81,6 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Germ.Pont. 1, S. 33, Nr. 105</bibl>
                <bibl>[Edition 2]</bibl>
             </listBibl>
          </div>
@@ -90,7 +88,7 @@
             <head>Regesten</head>
             <listBibl>
                <bibl>JL –</bibl>
-               <bibl>[Regest 2]</bibl>
+               <bibl>Germ.Pont. 1, S. 33, Nr. 105 </bibl>
             </listBibl>
          </div>
          <div>
@@ -106,8 +104,7 @@
          <div type="bibliography">
             <head>Bibliographie</head>
             <listBibl>
-               <bibl>[Werk 1]</bibl>
-               <bibl>[Werk 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="note">
