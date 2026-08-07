@@ -24,8 +24,8 @@
                <issued><placeName>–</placeName><date type="issued" notBefore="1171-01-01" notAfter="1171-03-31">(1171, Januar - März )</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
-               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p><legalActor type="recipient">Adalbert, </legalActor>Erzbischof von Salzburg</p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, Litterae cum serico</objectType></p><p><objectType n="">Juristisches neues Recht</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
@@ -36,7 +36,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>Alexander III. gewährt dem Salzburger Erzbischof Adalbert die Vollmacht, Brandstifter und Schismatiker nach angemessener Buße von ihrer Schuld loszusprechen.<list>
+            <p>Alexander III. gewährt Erzbischof Adalbert von Salzburg die Vollmacht, Brandstifter und Schismatiker nach angemessener Buße von ihrer Schuld loszusprechen.</p><p><list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
