@@ -59,8 +59,7 @@
 
          <div>
             <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">Religiosam vitam eligentibus apostolicum convenit]</diploPart>
-         </div>
+            <diploPart type="incipit" xml:lang="lat">Religiosam vitam eligentibus apostolicum convenit</diploPart></div>
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
@@ -69,7 +68,7 @@
          </div>
          <div>
             <head>Datatio</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+            <diploPart type="datatio">Dat. Venetie in Rivo Alto per manum Gerardi sancte Romanie ecclesie subdiaconi et notarii, VIII id. ]</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
