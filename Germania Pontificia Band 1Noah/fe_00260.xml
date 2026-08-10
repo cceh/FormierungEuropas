@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc><titleStmt><title>fe_00260</title><respStmt>
+               <resp>Datenquelle</resp>
+               <persName>NW</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2026">Encoding</resp>
+               <persName>NW</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Germ. Pont. 1, S. 120, Nr. 4</bibl><bibl type="jaffe">12862</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>-</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Venedig</placeName><date type="issued" notBefore="1177-06-04" notAfter="1177-06-04">(1177) Jun. 4</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p><legalActor type="recipient">Peregrin, Abt des Benediktinerklosters St. Paul im Lavanttal</legalActor></p><p><legalActor type="recipient">Benediktinerklosters St. Paul im Lavanttal</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Papsturkunde, Litterae cum serico</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">Juristisches, Rechtsbestätigungen</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p><persName>Alexander III.</persName> gestattet <persName>Peregrin, dem Abt des Benediktinerklosters St. Paul im Lavanttal,</persName> sowie seinen Nachfolgern das Tragen der Mitra und verleiht dem <orgName>Benediktinerkloster St. Paul im Lavanttal</orgName> (D. Gurk) weitere Freiheiten und Rechte.<list>
+                  <item>Er gewährt das Präsentationsrecht für die Eigenkirchen. Wenn aber ein durch das Kloster vorgeschlagener Priester nicht die Zustimmung des Diözesanbischofs und des Papstes findet, soll es dem Kloster freistehen, dem Diözesanbischof einen Priester für mehrere Kirchen zu präsentieren.</item><item>Er befreit das Kloster von Zehnten für Neubrüche bei Eigenbau.</item><item>Er bestimmt, dass Landbesitzungen (<diploPart>terrae</diploPart>) des Klosters, die seit 40 Jahren von Zehnten befreit waren, überhaupt zehntfrei sein sollen.</item><item>Schlussformel: Sanctio negativa</item>
+               </list></p>
+         </div>
+
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Quanto puriorem devotionem circa nos</diploPart></div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>-</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head>
+            <diploPart type="datatio">Dat. Venetie in Rivo alto, II non. iunii</diploPart></div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">St. Paul im Lavanttal, Stiftsarchiv St. Paul, AT-StiAStP UK 1007; digital verfügbar unter: https://www.monasterium.net/mom/AT-StiAStP/UK/1007/charter?q=1177%20Juni%204</bibl>
+                  <bibl type="msCopy">-</bibl>
+                  <bibl type="print">-</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               
+               <bibl>Monumenta historica ducatus Carinthiae 3, S. 460-461, Nr. 1220</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL 12862</bibl>
+               <bibl>Germ. Pont. 1, S. 120, Nr. 4</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p/><p>Bulle fehlt; In den 1870er-Jahren müssen rote und gelbe Seidenfäden noch erhalten gewesen sein (vgl. <bibl>UB St. Paul, S. 90, Nr. 16</bibl>).</p><p>Die Datierung der Urkunde basiert auf dem Itinerar <persName>Alexanders III.</persName>, der sich nur 1177 in Venedig aufhielt (vgl. <bibl>JL 12836-12956</bibl>).</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Die Privilegierung des Klosters durch <persName>Alexander III.</persName> wird später von <persName>Coelestin III.</persName> wieder aufgegriffen (vgl. <bibl>Germ. Pont. 1, S. 121, Nr. 9</bibl>).</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Archivsignatur auf monasterium unklar?? -&amp;gt; Anfrage wäre kostenpflichtig / mehrere Originale auf monasterium eingetragen]</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>
