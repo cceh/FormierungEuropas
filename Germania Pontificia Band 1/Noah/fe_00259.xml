@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>fe_00259</title><respStmt>
+               <resp>Datenquelle</resp>
+               <persName>NW</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2026">Encoding</resp>
+               <persName>NW</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Germ. Pont. 1, S. 120, Nr. 3</bibl><bibl type="jaffe">12799</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>-</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Venedig</placeName><date type="issued" notBefore="1177-04-06" notAfter="1177-04-06">1177 Apr. 6</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p><legalActor type="recipient">Pilgrim, Abt des Benediktinerklosters St. Paul im Lavanttal</legalActor></p><p><legalActor type="recipient">Benediktinerkloster St. Paul im Lavanttal</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">Juristisches, Rechtsbestätigungen</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p><persName>Alexander III.</persName> bestätigt dem <orgName>Benediktinerkloster St. Paul im Lavanttal</orgName> (D.Gurk) unter <persName>Pilgrim, dem Abt des Benediktinerklosters St. Paul im Lavanttal,</persName> seine Freiheiten und Rechte.<list>
+                  <item>Er nimmt das Kloster eingedenk der vorangegangenen Privilegierungen durch <persName>Urban II.</persName> und <persName>Innozenz II.</persName> unter apostolischen Schutz.</item><item>Er bestätigt alle derzeitigen und zukünftigen Besitzungen und Güter, die das Kloster gegenwärtig rechtmäßig besitzt oder die dem Kloster zukünftig durch Päpste, Könige, Fürsten oder Getreue auf jedwede Art und Weise zukommen werden. Einige der gegenwärtigen Besitzungen und Güter werden namentlich genannt.</item><item>Er garantiert die freie Wahl des Abtes gemäß der Regel des hl. Benedikt. Der Elekt ist daraufhin durch den Papst zu bestätigen.</item><item>Er bestätigt, dass die Mönche Altar- und Kirchenweihen, Ordinationen der Mönche und das heilige Öl vom Diözesanbischof empfangen sollen, sofern dieser in der Gnade des apostolischen Stuhles steht. Andernfalls soll es ihnen freistehen, einen ihnen genehmen Bischof um die Spendung der Sakramente zu ersuchen.</item><item>Er verbietet, dass die Brüder des Klosters von irgendeinem Bischof zur Teilnahme an einer Synode gezwungen werden können, außer es liegen trifftige Gründe vor (<diploPart>nisi pro ecclesiastica et rationabili causa</diploPart>).</item><item>Er bestätigt das Präsentationsrecht für die eigenen Kirchen und Kapellen des Klosters. Die Investitur erfolgt anschließend durch den Bischof.</item><item>Er garantiert das Begräbnisrecht, sofern die zu Begrabenden nicht exkommuniziert sind oder das Interdikt über sie verhängt worden ist.</item><item>Er stellt unverbrüchlich fest, dass die Vogtei über das Kloster weder durch Gewalt noch durch List erlangt werden kann, sondern der Vogt durch den Abt und die Brüder selbst nach ihrem eigenen Nutzen gewählt werden soll.</item><item>Er befreit das Kloster von Zehnten für Neubrüche bei Eigenbau und für Tierfutter.</item><item>Er verbietet, dass irgendein Bischof dem Abt des Klosters die Ausübung seines Dienstes untersagt oder aber das gesamte Kloster von seinen göttlichen Pflichten abhält.</item><item>Er setzt fest, dass das Kloster für den erfahrenen Schutz künftig jährlich eine Goldmünze an den Papst entrichten muss.</item><item>Schlussformeln: Perturbationsverbot, Sanctio negativa und Sanctio positiva.</item>
+               </list></p>
+         </div>
+
+         <div>
+            <head>Incipit</head>
+            <diploPart type="incipit" xml:lang="lat">Religiosam vitam eligentibus apostolicum convenit</diploPart></div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>Ego Alexander catholice ecclesie episcopus subscripsi.</item><item>Ego Manfredus Prenestinus episcopus subscripsi.</item><item>Ego Iohannes presbiter cardinalis tituli sancte Anastasie subscripsi.</item><item>Ego Boso presbiter cardinalis sancte Pudentiane tituli Pastori subscripsi.</item><item>Ego Cinthyus diaconus cardinalis sancti Adriani subscripsi.</item><item>Ego Hugo diaconus cardinalis sancti Eustachii iuxta templum Agrippe subscripsi.</item><item>Ego Hvgo diaconus cardinalis sancti Angeli subscripsi.</item><item>Ego Raynerius diaconus cardinalis sancti Georgii ad velum aureum subscripsi.</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head>
+            <diploPart type="datatio">Dat. Venetie in Rivo Alto per manum Gerardi sancte Romanie ecclesie subdiaconi et notarii, VIII id. april., indictione X, incarnationis dominice anno MCLXXVIII, pontificatus vero domni Alexandri pape III anno XVIII.</diploPart></div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">Sankt Paul im Lavanttal, Stiftsarchiv St. Paul, AT-StiAStP UK 1006; digital verfügbar unter: https://www.monasterium.net/mom/AT-StiAStP/UK/1006/charter?q=1177%20April%206</bibl>
+                  <bibl type="msCopy">-</bibl>
+                  <bibl type="print">-</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               
+               <bibl>Monumenta historica ducatus Carinthiae 3, S. 458-460, Nr. 1217</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL 12799</bibl>
+               <bibl>Germ. Pont. 1, S. 120, Nr. 3</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>Rota vorhanden; Inschrift: <diploPart>S(AN)C(TU)S PETRUS / S(AN)C(TU)S PAULUS / ALEXANDER P(A)P(A) III.</diploPart>; Devise: <diploPart>vias tuas d(omi)ne demonstra m(ihi)</diploPart>.</p><p>Benevalete vorhanden.</p><p>Bulle fehlt; rote Seidenfäden erhalten.</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Bei den vorangegangen Privilegierungen des Klosters handelt es sich um die Urkunde <persName>Urbans II.</persName> von 1099 (vgl. <bibl>Germ. Pont. 1, S. 118-119, Nr. 1</bibl>) sowie die Urkunde <persName>Innozenz II.</persName> von 1140 (vgl. <bibl>Germ. Pont. 1, S. 119-120, Nr. 2</bibl>).</p><p>Auf das vorliegende Privileg </p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[evtl. Abtsbenediktion übernehmen statt Bestätigung durch Papst / Archivsignatur auf monasterium unklar?? -&amp;gt; Anfrage wäre kostenpflichtig / mehrere Originale auf monasterium eingetragen]</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>
