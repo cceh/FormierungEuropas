@@ -18,17 +18,16 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>Germ. Pont. 1, S. 120, Nr. 4</bibl><bibl type="jaffe">12862</bibl>
-            <bibl>[Weiteres Konkordanzregest]</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
                <p><authen type="formula" n="na">
-                     <p>[*+?-]</p>
+                     <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Venezia</placeName><date type="issued" notBefore="1177-06-04" notAfter="1177-06-04">04 Juni (1177)</date>
+               <issued><placeName>Venedig</placeName><date type="issued" notBefore="1177-06-04" notAfter="1177-06-04">(1177) Jun. 4</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="issuer">Alexander III.]</legalActor></p>
                <p><legalActor type="recipient">[Empfänger]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
