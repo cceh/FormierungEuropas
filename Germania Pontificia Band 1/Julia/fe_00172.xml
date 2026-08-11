@@ -13,11 +13,7 @@
                <licence>Lizenz</licence>
             </availability>
          </publicationStmt>
-         <sourceDesc>
-            <bibl>Germ. Pont. 1, S. 202, Nr. 39</bibl><bibl type="jaffe">–</bibl>
-            <bibl>[Weiteres Konkordanzregest]</bibl>
-            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
-            <diploDesc>
+         <sourceDesc><bibl>Germ. Pont. 1, S. 202, Nr. 39</bibl><bibl type="jaffe">–</bibl><bibl>[Weiteres Konkordanzregest]</bibl><!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind --><diploDesc>
                <p><authen type="formula" n="na">
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
@@ -31,8 +27,7 @@
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
                <p><objectType n="">Administration, Streitschlichtung</objectType></p><p><objectType n="">Beauftragung durch Alexander III.</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
-            </diploDesc>
-         </sourceDesc>
+            </diploDesc></sourceDesc>
       </fileDesc>
       
       <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
@@ -47,7 +42,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>Kardinaldiakon Cencius informiert Gerhoch, Propst des Regularkanonikerstifts Reichersberg, darüber, dass die römische Kirche seine  er seine WissensRegestentext. Quellenzitate (diploPart) sind zulässig.]<list>
+            <p>Kardinaldiakon Cencius informiert Gerhoch, Propst des Regularkanonikerstifts Reichersberg, darüber, dass die römische Kirche sein Wissen und seine rechte Lehree  er seine WissensRegestentext. Quellenzitate (diploPart) sind zulässig.]<list>
                   <item>Er zeigt sich erstaunt über die Gerüchte, die an der römischen Kurie über Gerhoch verbreitet wurden.</item><item>Er hält die Anschuldigungen von Gerhochs Gegnern nach Durchsicht seiner Schriften für haltlos.[</item><item>Er rät Gerhoch dringend davon ab, weitere Disputationen auf öffentlichen Versammlungen zu führen. Listeneintrag 1]</item>
                </list></p>
          </div>
