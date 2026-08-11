@@ -64,8 +64,8 @@
             <div>
                <listBibl>
                   <bibl type="original">Wien, HHStA, Allgemeine Urkundenreihe, Nr. 229 (Abb. dig.: https://www.monasterium.net/mom/AT-HHStA/SbgE/AUR_1172_I_25/charter)</bibl>
-                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="msCopy">-</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
@@ -107,8 +107,7 @@
          <div type="bibliography">
             <head>Bibliographie</head>
             <listBibl>
-               <bibl>[Werk 1]</bibl>
-               <bibl>[Werk 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="note">
