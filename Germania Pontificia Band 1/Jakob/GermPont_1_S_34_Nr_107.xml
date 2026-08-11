@@ -102,12 +102,12 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>In GeP_1, S. 34, Nr. 109 ##= fe_00223## werden zwei päpstliche Schreiben erwähnt, die öffentlich v</p>
+               <p>In Germ.Pont. 11, S. 34, Nr. 109 ##= fe_00223## werden zwei päpstliche Schreiben erwähnt, die öffentlich verlesen wurden. Eines davon ist GeP_1, S. 33, Nr. 106 ##= fe_00220##, das andere dieses Derperditum.</p>
             </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>[Kommentare zur Identifizierung von Personen, Institutionen und Orten, zu Vor- und Nachurkunden, Konfliktverläufen etc. Literaturnageben (bibl) sind zulässig]</p>
+            <p>-</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
@@ -117,7 +117,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+            <p>-</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
