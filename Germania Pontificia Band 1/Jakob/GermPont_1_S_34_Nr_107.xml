@@ -14,22 +14,12 @@
          <sourceDesc>
             <bibl>Germ.Pont. 1, S. 34, Nr. 107</bibl><bibl type="jaffe">–</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
-            <diploDesc>
-               <p><authen type="formula" n="na">
+            <diploDesc><p><authen type="formula" n="na">
                      <p>*</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-                  </authen></p>
-               <issued><placeName>–</placeName><date type="issued" notBefore="1172-01-25" notAfter="1172-01-25">(ca. 25 Januar 1172)</date>
+                  </authen></p><issued><placeName>–</placeName><date type="issued" notBefore="1172-01-25" notAfter="1172-01-25">(ca. 25 Januar 1172)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
-               </issued>
-               <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Salzburger Geistlichkeit</legalActor></p>
-               <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">[Typisierung 1]</objectType></p>
-               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">[Typisierung 2]</objectType></p>
-               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
-            </diploDesc>
+               </issued><p><legalActor type="issuer">Alexander III.</legalActor></p><p><legalActor type="recipient">Salzburger Geistlichkeit</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType n="">Papsturkunde, Litterae cum filo canapis</objectType></p><p><objectType n="">Administration, Streitschlichtung</objectType></p><p><objectType n="">Alexander III., Urheber</objectType><objectType n=""/></p><!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
       
