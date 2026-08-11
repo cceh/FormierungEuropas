@@ -13,18 +13,17 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>Germ.Pont. 1, S. 33, Nr. 106</bibl><bibl type="jaffe">12132</bibl>
-            <bibl>[Weiteres Konkordanzregest]</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
                <p><authen type="formula" n="na">
-                     <p>[*+?-]</p>
+                     <p>[-]</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
                <issued><placeName>Tusculanum</placeName><date type="issued" notBefore="1172-01-25" notAfter="1172-01-25">(1172), Januar 25</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
-               <p><legalActor type="recipient">Heinrich I., </legalActor>Bischof von Gurk</p><p><legalActor type="recipient">Dompropst Sigbot von Salzburg</legalActor></p><p><legalActor type="recipient">Dompropst Roman von Gurkie Salzburger Domherren</legalActor></p>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p><legalActor type="recipient">Heinrich I., </legalActor>Bischof von Gurk</p><p><legalActor type="recipient">Sigbot, Dompropst von Salzburg</legalActor></p><p><legalActor type="recipient">Roman, Dompropst von Gurk</legalActor></p><p><legalActor type="recipient">Salzburger Domherren</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, Litterae cum filo canapis</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
