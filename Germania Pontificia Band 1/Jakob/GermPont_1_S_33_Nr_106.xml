@@ -24,7 +24,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">[Aussteller]</legalActor></p>
-               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <p><legalActor type="recipient">Heinrich I., </legalActor>Bischof von Gurk</p><p><legalActor type="recipient">Dompropst Sigbot von Salzburg</legalActor></p><p><legalActor type="recipient">Dompropst Roman von Gurkie Salzburger Domherren</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, Litterae cum filo canapis</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
