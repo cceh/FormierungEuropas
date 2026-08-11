@@ -28,7 +28,7 @@
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">Gerhoch, Propst des Regularkanonikerstifts Reichersberg</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">Papsturkunde, Litterae cum filo canapis</objectType></p>
+               <p><objectType n="">Papsturkunde, Litterae (unbestimmt)</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
                <p><objectType n="">Administration, Streitschlichtung</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
@@ -106,7 +106,7 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Aufgrund des Wortlauts und des Inhalts kann nicht mehr genau bestimmt werden, ob es sich um eine Litterae cum filo canapis oder um eine Litterae cum Datiert nach dem Itinerar Alexanders III.</p>
+               <p>Aufgrund des Wortlauts und des Inhalts kann nicht mehr genau bestimmt werden, ob es sich um eine Litterae cum filo canapis oder um eine Litterae cum serico gehandelt hat. Datiert nach dem Itinerar Alexanders III.</p>
             </diploDesc>
          </div>
          <div type="commentary">
