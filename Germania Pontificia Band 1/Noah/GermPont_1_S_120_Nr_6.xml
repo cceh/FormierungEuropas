@@ -60,18 +60,17 @@
 
          <div>
             <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+            <diploPart type="incipit" xml:lang="lat">Iustis petentiu]</diploPart>
          </div>
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+                  <item>-</item>
                </list></diploPart>
          </div>
          <div>
             <head>Datatio</head>
-            <diploPart type="datatio">Dat.]</diploPart>
-         </div>
+            <diploPart type="datatio">Dat. Tvsculani, XVII kalend. iulii</diploPart></div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
