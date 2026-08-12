@@ -45,7 +45,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>[Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
+            <p> Alexander III. an die Dompröpste (Sigbot) von Salzburg und(Roman) von Gurk: seinem Legaten H(ildebrand) sei entgegen ihrerZusage freies Geleit nicht gewährt worden; tadelt sie wegen der vonihnen betriebenen falschen Propaganda, er wolle Erzbischof A(dalbertIII.) von Salzburg absetzen; weist alle Anschuldigungen gegen den Erz-bischof zurück und mahnt sie zum Gehorsam.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
@@ -116,10 +116,7 @@
                <bibl>-</bibl>
             </listBibl>
          </div>
-         <div type="note">
-            <head>Notizen</head>
-            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
-         </div>
+         <div type="note"><head>Notizen</head><p>[Text nach Admonter Briefsammlung: A.1 episcopus servus servorum Dei dilectis filiis Salzpurgensi et Gur-censi prepositis2 salutem et apostolicam benedictionem.Cum toties replicetis oppressiones et anxietates, quibus ecclesia vestraaffligitur, vobis super his mentis affectu compatimur et condolemus et, sinona verbo vestro ac consilio fratrum vestrorum seu conscientia vosbinvenissemus, quod vobis super tantis laboribus et pressuris consilium etauxilium possemus impendere, toto desiderio impendissemus. Nam in eosumus desiderio et proposito constituti, ut eidem ecclesie, quam in devo-tione s. Petri et nostra ita solidatam atque firmatam (videmus)c, ut nequeventorum turbine nec tempestatum procellis a sue poterit constantie virtu-te divelli, pro nostri officii debito gratanti animo velimus intendere et his,que ad incrementum et conversationem eius pertineant, promptam dili-gentiam adhibere. Totius namque humanitatis et rationis videremur obliti,si tante devotionis essemus immemores et oblivione aliqua pretermittere-mus molestias et persecutiones, quas pro amore iustitie immobili firmitatenoscitur pertulisse.De cetero licet nobis significaveritis, quod dilecto filio nostro H.3 basi-lice XII apostolorum presbytero cardinali apostolice sedis legato plenam se-curitatem invenissetis, quo tute poterat et secure ad predictam ecclesiam4</p></div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
    </text>
