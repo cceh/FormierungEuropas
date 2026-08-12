@@ -25,7 +25,7 @@
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">Adalbert III., Erzbischof von Salzburg</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">Papsturkunde, Litterae cum filo canapis</objectType></p><p><objectType n="">Administration, Streitschlichtung</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
+               <p><objectType n="">Papsturkunde, Litterae cum filo canapis</objectType></p><p><objectType n="">Administration, Legaten</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
@@ -116,7 +116,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>KI-Übersetzung des Nachweises: </p>
+            <p>KI-Übersetzung des Nachweises: Darüber hinaus haben die Gesandten unseres ehrwürdigen Bruders A., des Erzbischofs von Salzburg, vor uns und unseren Brüdern mit Nachdruck vorgetragen, dass ihr ihm unsere Briefe, in denen wir ihm befohlen hatten, der Aufforderung des Kardinals Folge zu leisten, überhaupt nicht ausgehändigt hättet.</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
