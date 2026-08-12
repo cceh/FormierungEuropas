@@ -53,8 +53,7 @@
          </div>
 
          <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Vestre caritatis litteras Lorem ipsum dolor sit amet]</diploPart>
+            <head>Incipit</head><diploPart type="incipit" xml:lang="lat">Vestre caritatis litteras cum omni</diploPart>
          </div>
          <div>
             <head>Subscriptiones</head>
