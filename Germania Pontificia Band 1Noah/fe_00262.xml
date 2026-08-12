@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>fe_00262</title><respStmt>
+               <resp>Datenquelle</resp>
+               <persName>NW</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2026">Encoding</resp>
+               <persName>NW</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Germ. Pont. 1, S. 120-121, Nr. 6</bibl><bibl type="jaffe">13541</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>-</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Tusculum</placeName><date type="issued" notBefore="1171-06-15" notAfter="1180-06-15">(1171-1180) Jun. 15 </date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p><legalActor type="recipient">Piligrim, Abt des Benediktinerkloster St. Paul im Lavanttal</legalActor></p><p><legalActor type="recipient">Benediktinerkloster St. Paul im Lavanttal</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Papsturkunde, Litterae cum serico</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">Juristisches, Rechtsbestätigungen</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p><persName>Alexander III.</persName> bestätigt dem <orgName>Benediktinerkloster St. Paul im Lavanttal</orgName> (D. Gurk) unter <persName>Piligrim, dem Abt des Benediktinerkloster St. Paul im Lavanttal,</persName> den Besitz der Kirche St. Martin, sofern das Kloster diese rechtmäßig besitzt.</p><list>
+                  <item>Schlussformel: Sanctio negativa</item>
+               </list>
+         </div>
+
+         <div>
+            <head>Incipit</head>
+            <diploPart type="incipit" xml:lang="lat">Iustis petentium desideriis dignum est</diploPart></div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>-</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head>
+            <diploPart type="datatio">Dat. Tvsculani, XVII kalend. iulii</diploPart></div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">Wien, Haus-, Hof- und Staatsarchiv, AT-OeStA/HHStA UR AUR 228</bibl>
+                  <bibl type="msCopy">-</bibl>
+                  <bibl type="print">-</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               
+               <bibl>Monumenta historica ducatus Carinthiae 3, S. 434-435, Nr. 1158</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL 13541</bibl>
+               <bibl>Germ. Pont. 1, S. 120-121, Nr. 6</bibl><bibl>Archiv für vaterländische und Geschichte und Topographie 2, ed. Ankershofen, S. 131, Nr. 400 (1171?)</bibl><bibl>UB St. Paul in Kärnten, S. 89, Nr. 14 (1171/1172)</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>Bulle an gelben Seidenfäden; Avers-Seite vermutl.: <diploPart>ALEXANDER P(A)P(A) III.</diploPart>; Revers-Seite vermutl.: Apostelstempel (vgl. <bibl>Diekamp, Urkundenwesen, S. 617-618</bibl>).</p><p>Die Datierung der Urkunde lässt sich - obwohl vielfach vorgeschlagen (vgl. z. B. <bibl>UB St. Paul in Kärnten, S. 89, Nr. 14</bibl>, auf das Jahr 1171 oder 1172) - nicht weiter eingrenzen.</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Der Kirche St. Martin ist zuvor Teil einer Schenkung an das Kloster durch <persName>Konrad I., den Erzbischof von Salzburg,</persName> im Jahr 1145 gewesen (vgl. <bibl>Monumenta historica ducatus Carinthiae 3, S. 311-312, Nr. 799</bibl>). Der Besitz der Kirche wird vermutlich im Jahr 1184 wiederum von <persName>Lucius III.</persName> bestätigt, in dessen Urkunde nun jedoch von einer Kapelle St. Martin die Rede ist (vgl. <bibl>Germ. Pont. 1, S. 121, Nr. 7</bibl>).</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>Diekamp, Urkundenwesen, S. 565-627</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Digitalisat nicht frei verfügbar]</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>
