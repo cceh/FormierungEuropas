@@ -47,14 +47,14 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>Hyazinth Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
+            <p>Kardinaldiakon Hyazinth Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
 
          <div>
             <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+            <diploPart type="incipit" xml:lang="lat">[Vestre caritatis litteras Lorem ipsum dolor sit amet]</diploPart>
          </div>
          <div>
             <head>Subscriptiones</head>
