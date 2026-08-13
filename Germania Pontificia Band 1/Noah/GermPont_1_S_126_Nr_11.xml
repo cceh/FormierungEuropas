@@ -77,29 +77,27 @@
             <div>
                <listBibl>
                   <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="msCopy">-</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
-               <bibl>[Quelle 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Germ.Pont. 1, S. 126, Nr. 11</bibl>
+               
                <bibl>[Edition 2]</bibl>
             </listBibl>
          </div>
@@ -107,7 +105,7 @@
             <head>Regesten</head>
             <listBibl>
                <bibl>JL 12154</bibl>
-               <bibl>[Regest 2]</bibl>
+               <bibl>Germ.Pont. 1, S. 126, Nr. 11</bibl>
             </listBibl>
          </div>
          <div>
