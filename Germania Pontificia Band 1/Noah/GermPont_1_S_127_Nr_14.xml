@@ -21,7 +21,6 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>Germ. Pont. 1, S. 127, Nr. *14</bibl><bibl type="jaffe">–</bibl>
-            <bibl>[Weiteres Konkordanzregest]</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
                <p><authen type="formula" n="na">
@@ -77,7 +76,7 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
+                  <bibl type="original">-</bibl>
                   <bibl type="msCopy">-</bibl>
                   <bibl type="print">-</bibl>
                </listBibl>
@@ -86,8 +85,7 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="historiography">
@@ -100,15 +98,14 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Germ. Pont. 1, S. 127, Nr. *14</bibl>
-               <bibl>[Edition 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head>
             <listBibl>
                <bibl>JL –</bibl>
-               <bibl>[Regest 2]</bibl>
+               <bibl>Germ. Pont. 1, S. 127, Nr. *14</bibl>
             </listBibl>
          </div>
          <div>
