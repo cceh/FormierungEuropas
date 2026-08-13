@@ -42,6 +42,11 @@
             <p>Alexander III. verleiht der Zisterzienserabtei Meaux unter Philipp, Abt von Meaux, ein Privileg und gewährt folgende Rechte:<list> <item>Er nimmt die Abtei unter apostolischen Schutz,</item><item>Er bestätigt die Einrichtung der religiosen Gemeinschaft nach der Regel des heiligen Benedikts und die Einführung der Zisterzienserordnung. </item><item>Er bestätigt alle derzeitigen und zukünftigen Besitzungen und Güter, darunter einige namentlich genannte Besitzungen die der Abtei von Wilhelm, Graf von Aumale, und Wihelm Fossard geschenkt wurden.</item><item>Er garantiert das Recht Weltgeistliche und Laien aufzunehmen.</item><item>Er bekräftigt die Verbindlichkeit des geleisteten Profess. </item><item>Er befreit die Abtei vom Zehnten.</item><item>Er garantiert einen besonderen Frieden für die Klosterbezirke und die Grangien.</item><item>Schlussformeln: Perturbationsverbot unter Vorbehalt der apostolischen Autorität, Sanctio negativa und positiva</item> </list></p>
          </div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Religiosam uitam eligentibus apostolicum conuenit</diploPart></div>
+          <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>-</item></list></diploPart>
+         </div>
          <div><head>Datatio:</head><diploPart type="datatio">Dat. Tusculan. per manum Graciani sancte Romane ecclesie subdiaconi et notarii, XV kal. ianuarii, indictione VI, incarnationis dominice anno M. CLXX II, pontificatus uero domni Alexandri pape III anno XIIII.</diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung</head>
@@ -83,7 +88,7 @@
           <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Einfaches Amen</p>
+               <p>Dreifaches Amen</p>
             </diploDesc>
          </div>
          <div type="commentary">
