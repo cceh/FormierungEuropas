@@ -28,7 +28,7 @@
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">Arno, Propst des Regularkanonikerstifts Reichersberg</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">Papsturkunde, Litterae cum filo canapis?</objectType></p>
+               <p><objectType n="">Papsturkunde, Litterae (uncum filo canapis?</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
                <p><objectType n="">Administration, Streitschlichtung</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
@@ -67,8 +67,8 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
+                  <bibl type="original">-</bibl>
+                  <bibl type="msCopy">[Graz, Steirisches Landesarchiv, Cod. 894, fol handschriftliche Kopie]</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
             </div>
@@ -90,7 +90,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Migne PL 200, Sp. 738-739, Nr. 803</bibl>
+               <bibl>Migne PL 200, Sp. 738-739, Nr. 803Gra</bibl>
                <bibl>[Edition 2]</bibl>
             </listBibl>
          </div>
