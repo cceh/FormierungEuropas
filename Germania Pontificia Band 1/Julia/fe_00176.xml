@@ -28,7 +28,7 @@
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">Arno, Propst des Regularkanonikerstifts Reichersberg</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">Papsturkunde, Litterae cum filo canapis?</objectType></p>
+               <p><objectType n="">Papsturkunde, Litterae (unbestimmt)</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
                <p><objectType n="">Administration, Streitschlichtung</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
@@ -67,8 +67,8 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
+                  <bibl type="original">-</bibl>
+                  <bibl type="msCopy">[Graz, Steirisches Landesarchiv, Cod. 894, fol handschriftliche Kopie]</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
             </div>
@@ -90,7 +90,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Germ.Pont. 1, S. 202, Nr. 40</bibl>
+               <bibl>Migne PL 200, Sp. 738-739, Nr. 803Gra</bibl>
                <bibl>[Edition 2]</bibl>
             </listBibl>
          </div>
@@ -104,12 +104,12 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
+               <p>[Aufgrund der fehlenden Originalüberlieferung kann nicht mehr mngaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
             </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>[Bei Jaffé-Löwenfeld ist O. in Octavianus aufgelöstKommentare zur Identifizierung von Personen, Institutionen und Orten, zu Vor- und Nachurkunden, Konfliktverläufen etc. Literaturnageben (bibl) sind zulässig]</p>
+            <p>Bei Jaffé-Löwenfeld ist O. in Octavianus aufgelöst, dieser ist jedoch bereit 1164 gestorben. Vgl. Wattenbach, MGH SS 17, S. 497; Classen, Gerhoch, S. 406). Diese päpstliche Litterae bezieht sich vermutlich auf das verlorene Schreiben Arnos (##FE Nr. 00175).</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
