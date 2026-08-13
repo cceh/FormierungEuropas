@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>fe_00263</title><respStmt>
+               <resp>Datenquelle</resp>
+               <persName>NW</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2026">Encoding</resp>
+               <persName>NW</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Germ. Pont. 1, S. 126, Nr. 11</bibl><bibl type="jaffe">12154</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>-</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Tusculum</placeName><date type="issued" notBefore="1172-06-16" notAfter="1172-06-16">(1171/1172) Jun. 16 </date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p><legalActor type="recipient">Heinrich, Bischof von Gurk</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Papsturkunde, Litterae cum serico</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">Juristisches, Rechtsbestätigungen</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p><persName>Alexander III.</persName> bestätigt <persName>Heinrich, dem Bischof von Gurk,</persName> und seinen Amtsnachfolgern die Grenzen des <orgName>Bistums Gurk</orgName> und das Vikariat (<diploPart>vicaria</diploPart>) der Salzburger Kirche.<list>
+                  <item>Schlussformel: Sanctio negativa</item>
+               </list></p>
+         </div>
+
+         <div>
+            <head>Incipit</head>
+            <diploPart type="incipit" xml:lang="lat">Fratres nostros coepiscopos et eos</diploPart></div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>-</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head>
+            <diploPart type="datatio">Dat. Tusculan(i), XVI. kalend. iulii</diploPart></div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">Klagenfurt, Kärntner Landesarchiv, AT-KLA 418-B-C 1311 St; digital verfügbar unter: https://www.monasterium.net/mom/AT-KLA/AUR/AT-KLA_418-B-C_1311_St/charter</bibl>
+                  <bibl type="msCopy">-</bibl>
+                  <bibl type="print">-</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               
+               <bibl>Monumenta historica ducatus Carinthiae 1, S. 209, Nr. 276</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL 12154</bibl>
+               <bibl>Germ. Pont. 1, S. 126, Nr. 11</bibl><bibl>Archiv für vaterländische und Geschichte und Topographie 2, ed. Ankershofen, S. 131, Nr. 401 (1171)</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>Bulle an gelben und roten Seidenfäden; Avers-Seite: <diploPart>ALEXANDER P(A)P(A) III.</diploPart>; Revers-Seite: <diploPart>S(anctus) PE(TRUS) S(anctus) PA(ULUS)</diploPart>, samt den Porträts der Apostelfürsten.</p><p>Die Datierung der Urkunde fußt auf einem Brief <persName>Adalberts, des Erzbischofs von Salzburg,</persName> aus der zweiten Hälfte des Jahres 1173 als <diploPart>terminus ante quem</diploPart>, in dem er sich darüber beschwert, dass <persName>Heinrich, der Bischof von Gurk,</persName> die Emanzipationsbestrebungen des <orgName>Bistums Gurk</orgName> durch Boten und schriftliche Ersuchen an den Apostolischen Stuhl vorantreibe (vgl. <bibl>Monumenta historica ducatus Carinthiae 1, S. 214-216, Nr. 281, hier S. 215</bibl>: <diploPart>Ad hoc nihilominus ipsum [= dominum Gurcensis episcopum] vigilantem operam dare quorundam relatione certissima didicimus, per internuncios et literas suas apud dominum apostolicum ad emancipandam videlicet ecclesiam Gurcensem ab ecclesia Saltzburgensi.</diploPart>).</p><p>Zum Teil ist eine Datierung auf das Jahr 1171 vorgeschlagen worden (vgl. <bibl>Archiv für vaterländische und Geschichte und Topographie 2, ed. Ankershofen, S. 131, Nr. 401</bibl>).</p><p><persName>Alexander III.</persName> stellte sowohl im Juni 1171 (vgl.<bibl> JL 11894-11897</bibl>) als auch im Juni 1172 (vgl. <bibl>JL 12153-12157</bibl>) gesichert Urkunden in <placeName>Tusculum</placeName> aus. Die Datierungsfrage lässt sich nicht letzendlich klären.</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Die Rechstbestätigung wird vermutlich 1176 durch <persName>Alexander III.</persName> wiederholt (vgl. <bibl>Germ. Pont. 1, S. 127, Nr. 15</bibl>).</p><p>Die vorliegende Urkunde ist inhaltlich im Kontext der zeitgenössischen Emanzipationsbestrebungen des <orgName>Bistums Gurk</orgName> als Eigenbistum des <orgName>Erzbistums Salzburg</orgName> zu verorten (vgl. <bibl>Monumenta historica ducatus Carinthiae 1, S. 13-15</bibl>).</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>Monumenta historica ducatus Carinthiae 1, S. 13-15</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[FE-Nr. Sachkommentar ergänzen!]</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>
