@@ -31,7 +31,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Roman I., Bischof von Gurk</legalActor></p>
+               <p><legalActor type="recipient">Roman II., Bischof von Gurk</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, unklassifizierbar</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
@@ -53,7 +53,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><persName>Alexander III.</persName> bestätigt die Wahl <persName>Romans I.</persName>, eines Verwandten <persName>Romans, des Dompropstes zu Gurk,</persName> zum Bischof von Gurk durch Klerus und Volk.</p>
+            <p><persName>Alexander III.</persName> bestätigt die Wahl <persName>Romans II.</persName>, eines Verwandten <persName>Romans, des Dompropstes zu Gurk,</persName> zum Bischof von Gurk durch Klerus und Volk.</p>
          </div>
 
          <div>
