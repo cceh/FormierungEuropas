@@ -61,28 +61,27 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie</head>
             <listBibl>
-               <bibl>[Quelle mit Edition 1]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>PUU England 1, S. 384-386, Nr. 11</bibl><bibl> W. Farrer ,Early Yorkshire Charters Bd. III, S. 101 Nr 1391.  Heg. J-L* 11919 nach der Erwähnung in der Chronica monasterii de  Melsa auetore Tlioma de Burton ed. E. A. Bond 1178. </bibl>
-               <bibl>[Edition 2]</bibl>
+               <bibl>PUU England 1, S. 384-386, Nr. 11</bibl><bibl>W. Farrer ,Early Yorkshire Charters Bd. III, S. 101 Nr 1391.  . J-L* 11919 n</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>[Regest 1]</bibl>
-               <bibl>[Regest 2]</bibl>
+               <bibl>J-L* 11919 </bibl>
+               <bibl/>
             </listBibl>
          </div>
           <div>
