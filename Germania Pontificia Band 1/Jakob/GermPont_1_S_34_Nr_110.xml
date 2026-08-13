@@ -23,7 +23,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">[Aussteller]</legalActor></p>
-               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <p><legalActor type="recipient">Sigbot, Domprobst von Salzburg</legalActor></p><p><legalActor type="recipient">Roman, Domprobst von Gurk</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
@@ -45,7 +45,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p> Alexander III. an die Dompröpste (Sigbot) von Salzburg und(Roman) von Gurk: seinem Legaten H(ildebrand) sei entgegen ihrerZusage freies Geleit nicht gewährt worden; tadelt sie wegen der vonihnen betriebenen falschen Propaganda, er wolle Erzbischof A(dalbertIII.) von Salzburg absetzen; weist alle Anschuldigungen gegen den Erz-bischof zurück und mahnt sie zum Gehorsam.<list>
+            <p>Alexander III. an die Dompröpste Sigbot von Salzburg und Roman von Gurk: seinem Legaten H(ildebrand) sei entgegen ihrerZusage freies Geleit nicht gewährt worden; tadelt sie wegen der vonihnen betriebenen falschen Propaganda, er wolle Erzbischof A(dalbertIII.) von Salzburg absetzen; weist alle Anschuldigungen gegen den Erz-bischof zurück und mahnt sie zum Gehorsam.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
