@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc><titleStmt><title>fe_00371</title><respStmt>
                <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
-               <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+               <persName>JP</persName>
             </respStmt>
            <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
          </titleStmt>
@@ -16,11 +16,11 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>PUU England 1, S. 384-386, Nr. 115</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
+            <bibl>PUU England 1, S. 384-386, Nr. 115</bibl><bibl type="jaffe">* 11919</bibl>
             <diploDesc><p><authen type="formula" n="na">
-               <p>[*+?-]</p>
+               <p>[-]</p>
                <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-            </authen></p><p><issued><placeName>Tusculanum</placeName><date type="issued" notBefore="1172-12-18" notAfter="1172-12-18">1172 Dezember 18.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            </authen></p><p><issued><placeName>Tusculanum</placeName><date type="issued" notBefore="1172-12-18" notAfter="1172-12-18">1172 Dez. 18</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">Zisterzienserabtei Meaux</legalActor></p><p><legalActor type="recipient">Philipp, Abt von Meaux</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
