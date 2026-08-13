@@ -90,7 +90,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Germ.Pont. 1, S. 202, Nr. 40</bibl>
+               <bibl/>
                <bibl>[Edition 2]</bibl>
             </listBibl>
          </div>
@@ -98,13 +98,13 @@
             <head>Regesten</head>
             <listBibl>
                <bibl>JL –</bibl>
-               <bibl>[Classen, Gerhoch, S. Regest 2]</bibl>
+               <bibl>Classen, Gerhoch, S. 406, R *165</bibl>
             </listBibl>
          </div>
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
+               <p>[Beim vorliegenden Stück handelt es sich Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
             </diploDesc>
          </div>
          <div type="commentary">
