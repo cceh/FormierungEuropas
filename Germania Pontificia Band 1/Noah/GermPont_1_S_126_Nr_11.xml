@@ -34,7 +34,7 @@
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, Litterae cum serico</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">[Typisierung 2</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
+               <p><objectType n="">Juristisches, Rechtsbestätigungen</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
@@ -102,7 +102,7 @@
             <head>Regesten</head>
             <listBibl>
                <bibl>JL 12154</bibl>
-               <bibl>Germ. Pont. 1, S. 126, Nr. 11</bibl>
+               <bibl>Germ. Pont. 1, S. 126, Nr. 11</bibl><bibl>Archiv für vaterländische und Geschichte und Topographie 2, ed. Ankershofen,</bibl>
             </listBibl>
          </div>
          <div>
