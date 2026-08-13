@@ -59,17 +59,16 @@
 
          <div>
             <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">Fratres nos]</diploPart>
-         </div>
+            <diploPart type="incipit" xml:lang="lat">Fratres nostros coepiscopos et eos</diploPart></div>
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+                  <item>-</item>
                </list></diploPart>
          </div>
          <div>
             <head>Datatio</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+            <diploPart type="datatio">Dat. Tusculan(i), XVI.]</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
