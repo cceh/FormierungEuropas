@@ -28,7 +28,7 @@
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">Arno, Propst des Regularkanonikerstifts Reichersberg</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">Papsturkunde, Litterae (uncum filo canapis?</objectType></p>
+               <p><objectType n="">Papsturkunde, Litterae (unbestimmt)</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
                <p><objectType n="">Administration, Streitschlichtung</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
@@ -104,7 +104,7 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
+               <p>[Aufgrund der fehlenden Originalüberlieferung kann nicht mehr mngaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
             </diploDesc>
          </div>
          <div type="commentary">
