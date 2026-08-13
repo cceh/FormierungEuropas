@@ -25,6 +25,7 @@
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">Philipp, Abt von Maeux</legalActor></p><p><legalActor type="recipient">Zisterzienserabtei Meaux</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p>
+                <p><objectType n="">Juristisches, neues Recht</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
@@ -43,7 +44,7 @@
          </div>
          
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Religiosorum votis et desideriis clementer</diploPart></div>
-         <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">Dat. Tusculan. </diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung</head>
             <div>
