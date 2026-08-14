@@ -27,7 +27,7 @@
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum filo canapis</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">Administration, Diözesen</objectType></p><p><objectType n="">Alexander III., </objectType></p>
+               <p><objectType n="">Administration, Diözesen</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
@@ -62,9 +62,9 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">Wien, HHStA, Allgemeine Urkundenreihe, Nr. 231</bibl>
-                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="original">Wien, HHStA, Allgemeine Urkundenreihe, Nr. 231 (Abb. digital:</bibl>
+                  <bibl type="msCopy">-</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
