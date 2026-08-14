@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
-<TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen -->
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_puu-in"> <!-- Ordnername hier ergänzen -->
    <teiHeader>
       <fileDesc><titleStmt><title>fe_00373</title><respStmt>
                <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
@@ -39,7 +36,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. nimmt nach dem Vorgang Hadrians IV. das Kapitel von St. Peter's (St. Leonard's) in York unter dem Meister Swan in den päpstlichen Schutz, bestätigt seine namentlich aufgeführten Besitzungen und- verleiht ihm die Sepultür und die Zehntfreiheit.</p><p>Alexander III. verleiht dem Kapitel von St. Peter's(D. York) unter Philipp, Abt von Meaux, ein Privileg und gewährt folgende Rechte:</p>
+            <p>Alexander III. nimmt nach dem Vorgang Hadrians IV. das Kapitel von St. Peter's (St. Leonard's) in York unter dem Meister Swan in den päpstlichen Schutz, bestätigt seine namentlich aufgeführten Besitzungen und- verleiht ihm die Sepultür und die Zehntfreiheit.</p><p>Alexander III. verleiht dem Kapitel von St. Peter's(D. York) unter Philipp, Abt von Meaux, ein Privileg und gewährt folgende Rechte:<list> <item>Er nimmt die Abtei nach dem Vorbild Hadrians IV. unter apostolischen Schutz.</item><item/></list></p>
          </div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
