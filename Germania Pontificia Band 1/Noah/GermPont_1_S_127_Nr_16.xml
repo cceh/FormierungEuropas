@@ -30,7 +30,7 @@
                <issued><placeName>–</placeName><date type="issued" notBefore="1176-01-01" notAfter="1176-12-31">(1176)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="issuer">Gualterius, Bischof von Albano</legalActor></p>
                <p><legalActor type="recipient">Alexander III.</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
