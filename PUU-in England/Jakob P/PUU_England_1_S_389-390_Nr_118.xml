@@ -1,37 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
-<TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen -->
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_puu-in"> <!-- Ordnername hier ergänzen -->
    <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
-            <respStmt>
-               <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
-               <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
-            </respStmt>
+      <fileDesc><titleStmt>
+            <title>fe_00374</title><respStmt><persName>JP</persName></respStmt>
            <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
-         </titleStmt>
-         <publicationStmt>
+         </titleStmt><publicationStmt>
             <publisher>Die Formierung Europas</publisher>
             <idno>PUU England 1, S. 389-390, Nr. 118</idno><availability>
                <licence>Lizenz</licence>
             </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>PUU England 1, S. 389-390, Nr. 118</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
+         </publicationStmt><sourceDesc>
+            <bibl>PUU England 1, S. 389-390, Nr. 118</bibl><bibl type="jaffe">-</bibl>
             <diploDesc><p><authen type="formula" n="na">
-               <p>[*+?-]</p>
+               <p>[-]</p>
                <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-            </authen></p><p><issued><placeName>Anagni</placeName><date type="issued" notBefore="1160-04-18" notAfter="1174-04-18">(1160—74) April 18.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            </authen></p><p><issued><placeName>Anagni</placeName><date type="issued" notBefore="1160-04-18" notAfter="1174-04-18">(1160—74) Apr. 18.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">Laurentius, Abt von Westminster</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
-         </sourceDesc>
-      </fileDesc>
+         </sourceDesc></fileDesc>
       <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
          <langUsage>
             <language ident="ger">German</language>
@@ -72,7 +61,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>[Edition 1]</bibl>
+               <bibl>PUU England 1, S. 389-390, Nr. 118</bibl>
                <bibl>[Edition 2]</bibl>
             </listBibl>
          </div>
