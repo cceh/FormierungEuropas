@@ -53,8 +53,7 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="historiography">
@@ -66,8 +65,8 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl/><bibl>PUU England 1, S. 386-389, Nr. 117.</bibl><bibl>Ed. W. Farrer Early Yorkshire Charters 1 163  n. 197. </bibl>
-               <bibl>[Edition 2]</bibl>
+               <bibl>PUU England 1, S. 386-389, Nr. 117.</bibl><bibl>W. Farrer Early Yorkshire Charters Bd. 1, S. 163, Nr 197. </bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="regesta">
