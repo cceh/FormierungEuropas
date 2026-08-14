@@ -50,20 +50,14 @@
                </list></p>
          </div>
 
-         <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
-         </div>
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">In viris ecclesiasticis nichil potest</diploPart></div>
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+                  <item>-</item>
                </list></diploPart>
          </div>
-         <div>
-            <head>Datatio</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
-         </div>
+         <div><head>Datatio</head><diploPart type="datatio">Dat. Anagnie II. Id. April.</diploPart></div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
@@ -118,7 +112,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>Archiveintrag: https://archivinformationssystem.at/detail.aspx?ID=29126</p><p>Text nach Admonter Briefsammlung: Alexander episcopus servus servorum Dei dilectis filiis universis prelatis ecclesiarum per Salzburgensem archiepiscopatum constitutis salutem et apostolicam benedictionem. In viris ecclesiasticis nichil potest amplius commendari, quam si prelatis suis obedientes extiterint et eis prompta curaverint voluntate deferre. Inde est, quod, cum vos velimus ad virtutem obediencie pro nostri officii debito sollicitis exhortationibus commonere, universitatem vestram monemus attentius et mandamus, quatenus venerabili fratri nostro Salzburgensi archiepiscopo, prout debetis, obedientes et subiecti existatis et ad vocationem eius, nisi vos rationabilis causa detineat, omni occasione et contradictione cessante incunctanter accedatis sibique in sacramentis ecclesiasticis assistatis et nuncios F. dicti imperatoris, si quos excommunicavit vel excommunicaverit, precipue in cibo, potu, salutatione et oratione prorsus evitetis et ita obedienciam et devotionem vestram circa eundem archiepiscopum studeatis declarare, quod exinde humilitas et affectio vestra apud Deum et homines possit commendabilis apparere. Dat. Anagnie II. Id. April.</p>
+            <p>Archiveintrag: https://archivinformationssystem.at/detail.aspx?ID=29126</p><p>Text nach Admonter Briefsammlung: Alexander episcopus servus servorum Dei dilectis filiis universis prelatis ecclesiarum per Salzburgensem archiepiscopatum constitutis salutem et apostolicam benedictionem. In viris ecclesiasticis nichil potest amplius commendari, quam si prelatis suis obedientes extiterint et eis prompta curaverint voluntate deferre. Inde est, quod, cum vos velimus ad virtutem obediencie pro nostri officii debito sollicitis exhortationibus commonere, universitatem vestram monemus attentius et mandamus, quatenus venerabili fratri nostro Salzburgensi archiepiscopo, prout debetis, obedientes et subiecti existatis et ad vocationem eius, nisi vos rationabilis causa detineat, omni occasione et contradictione cessante incunctanter accedatis sibique in sacramentis ecclesiasticis assistatis et nuncios F. dicti imperatoris, si quos excommunicavit vel excommunicaverit, precipue in cibo, potu, salutatione et oratione prorsus evitetis et ita obedienciam et devotionem vestram circa eundem archiepiscopum studeatis declarare, quod exinde humilitas et affectio vestra apud Deum et homines possit commendabilis apparere. Dat. Anagnie II. Id. April.</p><p/><p>KI-Übersetzung: Alexander, Bischof, Knecht der Knechte Gottes, entbietet den geliebten Söhnen, allen Prälaten der Kirchen, die im Erzstift Salzburg eingesetzt sind, Gruß und apostolischen Segen. Bei Männern des geistlichen Standes kann nichts mehr Anerkennung verdienen, als wenn sie ihren Prälaten gehorsam sind und ihnen mit bereitwilligem Willen Ehrerbietung erweisen. Daher kommt es, dass wir euch zur Tugend des Gehorsams gemäß der Pflicht unseres Amtes mit eindringlichen Ermahnungen anhalten wollen. Wir ermahnen und befehlen daher eurer Gesamtheit mit besonderem Nachdruck, dass ihr unserem ehrwürdigen Bruder, dem Erzbischof von Salzburg, so, wie es eure Pflicht ist, gehorsam und untertan seid und euch auf seinen Ruf hin, sofern euch kein vernünftiger Grund daran hindert, ohne jeden Vorwand und ohne Widerspruch unverzüglich zu ihm begebt; dass ihr ihm bei den kirchlichen Sakramenten Beistand leistet und die Boten des genannten Kaisers F. — sofern er solche exkommuniziert hat oder exkommunizieren wird — insbesondere bei Tisch, beim Trinken, bei der Begrüßung und beim Gebet vollständig meidet. Bemüht euch auf diese Weise, euren Gehorsam und eure Ergebenheit gegenüber eben diesem Erzbischof so deutlich zu zeigen, dass daraus eure Demut und eure wohlwollende Gesinnung vor Gott und den Menschen als anerkennenswert erscheinen kann. Gegeben zu Anagni, am 12. April.</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
