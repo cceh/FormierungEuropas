@@ -24,6 +24,7 @@
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">Wilhelm, Prior der Kirche St. Mary's in Ulvescroft</legalActor></p><p><legalActor type="recipient">Augustinerpriorat St. Mary's in Ulvescroft</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
+               <p><objectType n=""> </objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
@@ -38,7 +39,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. nimmt die Kirche St. Mary's in Ulvescroft unter dem Prior Wilhelm in den päpstlichen Schutz, bestätigt ihre namentlich aufgeführten Besitzungen, Freiheiten und den Novalzehnt, verleiht die Sepultur, das Aufnahme- und das Präsentationsrecht, die freie Wahl des Priors und trifft Bestimmungen über die Wahl des Bischofs für die bischöflichen Funktionen.</p><p>Alexander III. verleiht dem Augustinerpriorat St. Mary's in Ulvescraft (D. Lincoln) unter Wilhelm, Prior der Kirche St. Mary's, ein Privileg und gewährt folgende Rechte:</p>
+            <p>Alexander III. nimmt die Kirche St. Mary's in Ulvescroft unter dem Prior Wilhelm in den päpstlichen Schutz, bestätigt ihre namentlich aufgeführten Besitzungen, Freiheiten und den Novalzehnt, verleiht die Sepultur, das Aufnahme- und das Präsentationsrecht, die freie Wahl des Priors und trifft Bestimmungen über die Wahl des Bischofs für die bischöflichen Funktionen.</p><p>Alexander III. verleiht dem Augustinerpriorat St. Mary's in Ulvescraft (D. Lincoln) unter Wilhelm, Prior der Kirche St. Mary's, ein Privileg und gewährt folgende Rechte:<list><item/></list></p><p/>
          </div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
