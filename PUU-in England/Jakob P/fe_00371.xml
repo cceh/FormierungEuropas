@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
-<TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen -->
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_puu-in"> <!-- Ordnername hier ergänzen -->
    <teiHeader>
       <fileDesc><titleStmt><title>fe_00371</title><respStmt>
                <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
@@ -39,7 +36,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. verleiht der Zisterzienserabtei Meaux (D. York) unter Philipp, Abt von Meaux, ein Privileg und gewährt folgende Rechte:<list> <item>Er nimmt die Abtei unter apostolischen Schutz,</item><item>Er bestätigt die Einrichtung der religiosen Gemeinschaft nach der Regel des heiligen Benedikts und die Einführung der Zisterzienserordnung. </item><item>Er bestätigt alle derzeitigen und zukünftigen Besitzungen und Güter, darunter einige namentlich genannte Besitzungen die der Abtei von Wilhelm, Graf von Aumale, und Wihelm Fossard geschenkt wurden.</item><item>Er garantiert das Recht Weltgeistliche und Laien aufzunehmen.</item><item>Er bekräftigt die Verbindlichkeit des geleisteten Profess. </item><item>Er befreit die Abtei vom Zehnten.</item><item>Er garantiert einen besonderen Frieden für die Klosterbezirke und die Grangien.</item><item>Schlussformeln: Perturbationsverbot unter Vorbehalt der apostolischen Autorität, Sanctio negativa und positiva</item> </list></p>
+            <p>Alexander III. verleiht der Zisterzienserabtei Meaux (D. York) unter Philipp, Abt von Meaux, ein Privileg und gewährt folgende Rechte:<list> <item>Er nimmt die Abtei unter apostolischen Schutz.</item><item>Er bestätigt die Einrichtung der religiosen Gemeinschaft nach der Regel des heiligen Benedikts und die Einführung der Zisterzienserordnung. </item><item>Er bestätigt alle derzeitigen und zukünftigen Besitzungen und Güter, darunter einige namentlich genannte Besitzungen die der Abtei von Wilhelm, Graf von Aumale, und Wihelm Fossard geschenkt wurden.</item><item>Er garantiert das Recht Weltgeistliche und Laien aufzunehmen.</item><item>Er bekräftigt die Verbindlichkeit des geleisteten Profess. </item><item>Er befreit die Abtei vom Zehnten.</item><item>Er garantiert einen besonderen Frieden für die Klosterbezirke und die Grangien.</item><item>Schlussformeln: Perturbationsverbot unter Vorbehalt der apostolischen Autorität, Sanctio negativa und positiva</item> </list></p>
          </div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Religiosam uitam eligentibus apostolicum conuenit</diploPart></div>
           <div>
