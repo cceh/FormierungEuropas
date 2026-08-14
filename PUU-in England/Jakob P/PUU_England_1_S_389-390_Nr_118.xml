@@ -18,7 +18,8 @@
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">Laurentius, Abt von Westminster</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p>
+               <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p> 
+               <p><objectType n="">Juristisches, neues Recht</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc></fileDesc>
@@ -32,7 +33,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. gestattet dem Abt Laurentius von Westminster den Gebrauch von Mitra und Bing.</p>
+            <p>Alexander III. gestattet dem Abt Laurentius von Westminster den Gebrauch von Mitra und Bing.</p><p>Alexander III. </p>
          </div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
