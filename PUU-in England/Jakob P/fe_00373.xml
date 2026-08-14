@@ -21,7 +21,7 @@
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">Kapitel von St. Peter's (St. Leonard's) in York</legalActor></p><p><legalActor type="recipient">Swan, Meister des Kapitels von St. Peter's (St. Leonard's) in York</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n=""/></p>
+               <p><objectType n="">Papsturkunde, einfaches Privileg</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
@@ -84,7 +84,7 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Es existiert eine Vorurkunde von Hadrian IV. (PUU England 1, S. 312-314, Nr 64). Das Hospital wurde 1280 von St. Peter's zu St. Leonard's umbenannt. Vgl. Ed. David X. Carpenter, The Cartulary of St. Leonard's, YS. xlii.</p>
+            <p>Es existiert eine Vorurkunde von Hadrian IV. (PUU England 1, S. 312-314, Nr 64). Das Hospital wurde 1280 von St. Peter's zu St. Leonard's umbenannt. Vgl. Ed. David X. Carpenter, The Cartulary of St. Leonard's, York, Vol. 1, S. xlii.</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
