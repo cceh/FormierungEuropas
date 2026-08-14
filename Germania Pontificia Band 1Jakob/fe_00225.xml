@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc><titleStmt><title>fe_00225</title>
+            <respStmt><resp>Datenquelle</resp><persName>JM</persName></respStmt>
+            <respStmt><resp when="2026">Encoding</resp><persName>JM</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Germ.Pont. 1, S. 35, Nr. 111</bibl><bibl type="jaffe">12222</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>[-]</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Anagni</placeName><date type="issued" notBefore="1173-04-12" notAfter="1173-04-12">(1173), April 12</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p><legalActor type="recipient">Prälaten des Erzbistums Salzburg</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Papsturkunde, litterae cum filo canapis</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">Administration, Diözesen</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p>Alexander III. befiehlt den Prälaten des Erzbistums Salzburg, <persName>Erzbischof Adalbert III. von Salzburg</persName> Gehorsam zu leisten und die von Adalbert exkommunizierten Boten <persName>Kaiser Friedrichs I.</persName> zu meiden.</p><p><list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">In viris ecclesiasticis nichil potest</diploPart></div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>-</item>
+               </list></diploPart>
+         </div>
+         <div><head>Datatio</head><diploPart type="datatio">Dat. Anagnie II. Id. April.</diploPart></div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">Wien, HHStA, Allgemeine Urkundenreihe, Nr. 231 (Abb. digital: https://www.monasterium.net/mom/AT-HHStA/SbgE/AUR_1173_IV_12/charter)</bibl>
+                  <bibl type="msCopy">-</bibl>
+                  <bibl type="print">-</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Admonter Briefsammlung, Anhang: Briefe Papst Alexanders III., Nr. 5, S. 207</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL 12222</bibl>
+               <bibl>Germ.Pont. 1, S. 35, Nr. 111 </bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>Siegel an Hanfschnüren erhalten.</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>-</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>Archiveintrag: https://archivinformationssystem.at/detail.aspx?ID=29126</p><p>Text nach Admonter Briefsammlung: Alexander episcopus servus servorum Dei dilectis filiis universis prelatis ecclesiarum per Salzburgensem archiepiscopatum constitutis salutem et apostolicam benedictionem. In viris ecclesiasticis nichil potest amplius commendari, quam si prelatis suis obedientes extiterint et eis prompta curaverint voluntate deferre. Inde est, quod, cum vos velimus ad virtutem obediencie pro nostri officii debito sollicitis exhortationibus commonere, universitatem vestram monemus attentius et mandamus, quatenus venerabili fratri nostro Salzburgensi archiepiscopo, prout debetis, obedientes et subiecti existatis et ad vocationem eius, nisi vos rationabilis causa detineat, omni occasione et contradictione cessante incunctanter accedatis sibique in sacramentis ecclesiasticis assistatis et nuncios F. dicti imperatoris, si quos excommunicavit vel excommunicaverit, precipue in cibo, potu, salutatione et oratione prorsus evitetis et ita obedienciam et devotionem vestram circa eundem archiepiscopum studeatis declarare, quod exinde humilitas et affectio vestra apud Deum et homines possit commendabilis apparere. Dat. Anagnie II. Id. April.</p><p>KI-Übersetzung: Alexander, Bischof, Knecht der Knechte Gottes, entbietet den geliebten Söhnen, allen Prälaten der Kirchen, die im Erzstift Salzburg eingesetzt sind, Gruß und apostolischen Segen. Bei Männern des geistlichen Standes kann nichts mehr Anerkennung verdienen, als wenn sie ihren Prälaten gehorsam sind und ihnen mit bereitwilligem Willen Ehrerbietung erweisen. Daher kommt es, dass wir euch zur Tugend des Gehorsams gemäß der Pflicht unseres Amtes mit eindringlichen Ermahnungen anhalten wollen. Wir ermahnen und befehlen daher eurer Gesamtheit mit besonderem Nachdruck, dass ihr unserem ehrwürdigen Bruder, dem Erzbischof von Salzburg, so, wie es eure Pflicht ist, gehorsam und untertan seid und euch auf seinen Ruf hin, sofern euch kein vernünftiger Grund daran hindert, ohne jeden Vorwand und ohne Widerspruch unverzüglich zu ihm begebt; dass ihr ihm bei den kirchlichen Sakramenten Beistand leistet und die Boten des genannten Kaisers F. — sofern er solche exkommuniziert hat oder exkommunizieren wird — insbesondere bei Tisch, beim Trinken, bei der Begrüßung und beim Gebet vollständig meidet. Bemüht euch auf diese Weise, euren Gehorsam und eure Ergebenheit gegenüber eben diesem Erzbischof so deutlich zu zeigen, dass daraus eure Demut und eure wohlwollende Gesinnung vor Gott und den Menschen als anerkennenswert erscheinen kann. Gegeben zu Anagni, am 12. April.</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>
