@@ -108,7 +108,7 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>[Kommentare zur Identifizierung von Personen, Institutionen und Orten, zu Vor- und Nachurkunden, Konfliktverläufen etc. Literaturnageben (bibl) sind zulässig]</p>
+            <p>-</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
@@ -118,7 +118,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>Übersetzung der Quelle[: „Wir haben darum gebeten, dass du das Schreiben des Herrn Papstes über die Exkommunikation des Kuno von Megelingen, das heute in der Messe verlesen wurde, in Kraft setzen und denselben Kuno als exkommuniziert verkünden mögest.“</p>
+            <p>Übersetzung der Quellenstelle: „Wir haben darum gebeten, dass du das Schreiben des Herrn Papstes über die Exkommunikation des Kuno von Megelingen, das heute in der Messe verlesen wurde, in Kraft setzen und denselben Kuno als exkommuniziert verkünden mögest.“</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
