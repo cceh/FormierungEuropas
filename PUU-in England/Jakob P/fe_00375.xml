@@ -65,28 +65,26 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie</head>
             <listBibl>
-               <bibl>[Quelle mit Edition 1]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>PUU England 1, S. 390-392, Nr. 119</bibl><bibl>Ed.  J. Nichols The Hist. and Antiquities of the County of Leicester III  part 2 (London 1804) 1085 hieraus. </bibl>
-               <bibl>[Edition 2]</bibl>
+               <bibl>PUU England 1, S. 390-392, Nr. 119</bibl><bibl>J. Nichols The Hist. and Antiquities of the County of Leicester III  part 2, London 1804, S. 1085.</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>[Regest 1]</bibl>
-               <bibl>[Regest 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="commentary">
