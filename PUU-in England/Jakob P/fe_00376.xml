@@ -71,15 +71,15 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>[Edition 1]</bibl>
-               <bibl>[Edition 2]</bibl>
+               <bibl>PUU England 1, S. 392-393, Nr. 121.</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>[Regest 1]</bibl>
-               <bibl>[Regest 2]</bibl>
+               <bibl>JL 12505</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="commentary">
@@ -95,7 +95,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+            <p>Welche art von litte</p>
          </div>
       </body>
    </text>
