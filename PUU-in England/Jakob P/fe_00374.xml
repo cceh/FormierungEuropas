@@ -52,8 +52,7 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="historiography">
@@ -66,14 +65,14 @@
             <head>Editionen</head>
             <listBibl>
                <bibl>PUU England 1, S. 389-390, Nr. 118</bibl>
-               <bibl>Emma Mason, Westminster  Abbey Charters, 1066-c.1214, London 1988, Nr. 173.</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>[Regest 1]</bibl>
-               <bibl>[Regest 2]</bibl>
+               <bibl>Emma Mason, Westminster  Abbey Charters, 1066-c.1214, London 1988, Nr. 173.</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="commentary">
