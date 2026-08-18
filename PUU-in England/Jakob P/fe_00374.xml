@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_puu-in"> <!-- Ordnername hier ergänzen -->
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen -->
    <teiHeader>
       <fileDesc><titleStmt>
             <title>fe_00374</title>
@@ -14,7 +17,7 @@
             <diploDesc><p><authen type="formula" n="na">
                <p>[-]</p>
                <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-            </authen></p><p><issued><placeName>Anagni</placeName><date type="issued" notBefore="1160-04-18" notAfter="1174-04-18">(1160—74) Apr. 18</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            </authen></p><p><issued><placeName>Anagni</placeName><date type="issued" notBefore="1160-04-18" notAfter="1174-04-18">(1160—73) Apr. 18</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">Laurentius, Abt des Benediktinerkloster Westminster</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
@@ -41,7 +44,7 @@
             <div>
             <listBibl>   
                <bibl>Original: -</bibl>
-               <bibl>Kopie:  Westminster Abbey Muniment  books, vol. 11 fol. 7v.</bibl><bibl>Kopie: Chartular von Westminster 14. Jh, in:  British Library Cotton MS Faustina A III fol. 200.</bibl>
+               <bibl>Kopie:  Westminster Abbey Muniment  books, vol. 11 fol. 7v.</bibl><bibl>Kopie: Chartular von Westminster 14. Jh, in: British Library Cotton MS Faustina A III fol. 200.</bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>
@@ -49,8 +52,7 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="historiography">
@@ -63,19 +65,19 @@
             <head>Editionen</head>
             <listBibl>
                <bibl>PUU England 1, S. 389-390, Nr. 118</bibl>
-               <bibl>Emma Mason, Westminstor  Abbey Charters, 1066-c.1214, London 1988, Nr. 173.</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>[Regest 1]</bibl>
-               <bibl>[Regest 2]</bibl>
+               <bibl>Emma Mason, Westminster  Abbey Charters, 1066-c.1214, London 1988, Nr. 173.</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Die Datierung Holtzmanns wird bestimmt durch den Todestag des Abtes Laurentius (11. April 1176). Vgl. PUU England 1, S.389. </p>
+            <p>Die Datierung wird bestimmt durch den Tod des Abtes Laurentius im April 1173, Holtzmanns datiert diesen fälschlicherweise auf das Jahr  1176. Vgl. PUU England 1, S.389; Emma Mason, Westminster Abbey Charters, 1066-c.1214, London 1988, S. 86.</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
