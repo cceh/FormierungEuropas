@@ -20,7 +20,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>Germ.Pont. 1, S. 35, Nr. 113</bibl><bibl type="jaffe">12382</bibl>
+            <bibl>Germ.Pont. 1, S. 35, Nr. 113</bibl><bibl>Germ.Pont. 1, S. 35, Nr. 113</bibl><bibl type="jaffe">12382</bibl>
             <bibl>[Weiteres Konkordanzregest]</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
@@ -34,7 +34,7 @@
                <p><legalActor type="issuer">[Aussteller]</legalActor></p>
                <p><legalActor type="recipient">[Empfänger]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <p><objectType n="">[Typisierung 1]Litterae clausae</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
                <p><objectType n="">[Typisierung 2]</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
