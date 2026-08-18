@@ -16,7 +16,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>PUU England 1, S. 392-393, Nr. 121</bibl><bibl type="jaffe">-</bibl>
+            <bibl>PUU England 1, S. 392-393, Nr. 121</bibl><bibl type="jaffe">12505</bibl>
             <diploDesc><p><authen type="formula" n="na">
                <p>[-]</p>
                <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
@@ -44,12 +44,12 @@
             <p>Alexander III. bestätigt Adam, Abt von Evasham, und den Mönchen von Evesham den Besitz der Kirche St. Edward's, die für die Instandhaltung (<diploPart>ad fabricam monasterii</diploPart>) des Kloster bestimmt worden ist.<list><item>Er verbietet, dass ein künftiger Abt die Kirche einem anderen Zweck zuführt. </item></list></p>
          </div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustis petentium desideriis dignum</diploPart></div>
-         <div><head>Datatio:</head><diploPart type="datatio">Dat. Ferentin.</diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">Dat. Ferentin. III non. iulii.</diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl>[Original]</bibl>
+               <bibl>Original: -</bibl>
                <bibl>Chartular von Evesham s. XIVex.,  Brit. Mus. Harley 3763 fol.  96'. — Heg. J-L. 12505 nach Mitteilung von K. Pertz. </bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
