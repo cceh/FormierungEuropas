@@ -17,7 +17,7 @@
             <diploDesc><p><authen type="formula" n="na">
                <p>[-]</p>
                <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-            </authen></p><p><issued><placeName>Anagni</placeName><date type="issued" notBefore="1160-04-18" notAfter="1174-04-18">(1160—7) Apr. 18</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            </authen></p><p><issued><placeName>Anagni</placeName><date type="issued" notBefore="1160-04-18" notAfter="1174-04-18">(1160—73) Apr. 18</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">Laurentius, Abt des Benediktinerkloster Westminster</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
@@ -78,7 +78,7 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Die Datierung Holtzmanns wird bestimmt durch den Todestag des Abtes Laurentius (11. April 1176). Vgl. PUU England 1, S.389. </p>
+            <p>Die Datierung wird bestimmt durch den Tod des Abtes LaHoltzmanns wird bestimmt durch den Todestag des Abtes Laurentius (11. April 1176). Vgl. PUU England 1, S.389. </p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
