@@ -25,7 +25,7 @@
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">Adam, Abt von Evesham </legalActor></p><p><legalActor type="recipient">Benediktinerabtei von Evasham</legalActor></p>
                 <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <p><objectType n="">Papsturkunde, litterae c</objectType></p>
                 <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
@@ -43,7 +43,7 @@
          <div type="abstract"><head>Abstract:</head>
             <p>Alexander III. bestätigt Adam, Abt von Evasham, und den Mönchen von Evesham den Besitz der Kirche St. Edward's, die für die Instandhaltung (<diploPart>ad fabricam monasterii</diploPart>) des Kloster bestimmt worden ist.<list><item>Er verbietet, dass ein künftiger Abt die Kirche einem anderen Zweck zuführt. </item></list></p>
          </div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustis </diploPart></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustis petentium desideriis dignum</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung</head>
