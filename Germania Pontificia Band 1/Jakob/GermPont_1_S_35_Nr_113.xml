@@ -1,17 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Germ.Pont. 1, S. 35, Nr. 113</title>
+      <fileDesc><titleStmt><title>fe_00227</title>
             <respStmt>
                <resp>Datenquelle</resp>
-               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+               <persName>JM</persName>
             </respStmt>
             <respStmt>
                <resp when="2026">Encoding</resp>
-               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+               <persName>JM</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -21,23 +18,22 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>Germ.Pont. 1, S. 35, Nr. 113</bibl><bibl type="jaffe">12382</bibl>
-            <bibl>[Weiteres Konkordanzregest]</bibl>
+            <bibl>Germ.Pont. 1, S. 35, Nr. 113</bibl><bibl>Germ.Pont. 1, S. 115, Nr. 5</bibl><bibl type="jaffe">12382</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
                <p><authen type="formula" n="na">
-                     <p>[*+?-]</p>
+                     <p>[-]</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Anagni</placeName><date type="issued" notBefore="1174-06-02" notAfter="1174-06-02">02 Juni (1174)</date>
+               <issued><placeName>Anagni</placeName><date type="issued" notBefore="1174-06-02" notAfter="1174-06-02">(1174), Juni 2</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
-               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p><legalActor type="recipient">Adalbert III., Erzbischof von Salzburg</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <p><objectType n="">Papsturkunde, Litterae clausae</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">[Typisierung 2]</objectType></p>
+               <p><objectType n="">Juristisches, Exkommunikation</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
@@ -55,25 +51,19 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>[Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
+            <p>Alexander III. (Adalbert), Erzbischof von Salzburg. Er möge sich darüber wundern, dass, wie Konrad, Erzbischof von Mainz und apostolischer Legat, mitgeteilt habe, jene Übeltäter, die die Güter/Grundbesitzungen des Erzbischofs durch Brand verwüstet hätten, gemäß dem Inhalt seines Mandats (Nr. *3) noch nicht als exkommuniziert bezeichnet worden seien. Deshalb befiehlt er erneut schriftlich, dass die Übeltäter als exkommuniziert bezeichnet und wie Exkommunizierte gemieden werden sollen, bis sie das Weggenommene zurückerstatten und dem Erzbischof eine angemessene Genugtuung leisten.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
 
-         <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
-         </div>
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Cum tenearis ex debito pontificalis</diploPart></div>
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+                  <item>-</item>
                </list></diploPart>
          </div>
-         <div>
-            <head>Datatio</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
-         </div>
+         <div><head>Datatio</head><diploPart type="datatio">Dat. Anagn. 4 non. iun. </diploPart></div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
@@ -101,15 +91,14 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Germ.Pont. 1, S. 35, Nr. 113</bibl>
-               <bibl>[Edition 2]</bibl>
+               <bibl>[Edition 2]https://archive.org/details/archivfrkundest04kommgoog/page/n321/mode/1up</bibl>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head>
             <listBibl>
                <bibl>JL 12382</bibl>
-               <bibl>[Regest 2]</bibl>
+               <bibl>Germ.Pont. 1, S. 35, Nr. 113</bibl>
             </listBibl>
          </div>
          <div>
@@ -131,7 +120,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+            <p>[ProjektinterText nach : Alexander episcopus seruus seruorum dei venerabili fratri Salzburgensi archiepiscopo salutem et apostolicam benedictionem. Cum tenearis ex debito pontificalis officii parochianorum tuorumexcessus digna seueritate punire, mirabile gerimus omnino et indignum, quod ad mandatum nostrum non es, sicut accepimus, exsecutus que per te ipsum teneris exsecutioni mandare. Significauit siquidem nobis ven. frater noster Ch. maguntinus archiepiscopus apostolice sedis legatus, quod malefactores illos qui casalia sua incendio uastaverunt, iuxta tenorem mandati nostri nondum excommunicatos denunciasti, minus solicite cogitans quam deuote mandatis nostris ,tenearis et humiliter obedire. Quum igitur non decet te in cobercendis excessibus parochianorumtuorum aut in exsequendis mandatis nostris remissum vel negli-gentem existere, qui nobis in auditu auris obedire teneris, fraternitati tue iterata scripta precipiendo mandamus et man-dando precipimus, quatinus malefactores illos, quos tibi consti-terit casalia memorati archiepiscopi incendio deuastasse, omnidilatione contradictione et appellatione cessante publice accensiscandelis excommunicatos denuncies et facias sicut excommuni-catos uitare, donec ablata cum integritate restituant, illata dampnaresarciant, et de iniuriis irrogatis predicto archiepiscopo satisfac-tionem exhibeant competentem datum Anagni IV. Non. Janii.</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>

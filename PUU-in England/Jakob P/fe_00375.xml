@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_puu-in"> <!-- Ordnername hier ergänzen -->
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen -->
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -39,16 +42,22 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. nimmt die Kirche St. Mary's in Ulvescroft unter dem Prior Wilhelm in den päpstlichen Schutz, bestätigt ihre namentlich aufgeführten Besitzungen, Freiheiten und den Novalzehnt, verleiht die Sepultur, das Aufnahme- und das Präsentationsrecht, die freie Wahl des Priors und trifft Bestimmungen über die Wahl des Bischofs für die bischöflichen Funktionen.</p><p>Alexander III. verleiht dem Augustinerpriorat St. Mary's in Ulvescraft (D. Lincoln) unter Wilhelm, Prior der Kirche St. Mary's, ein Privileg und gewährt folgende Rechte:<list><item>Er nimmt das Priorat unter apostolischen Schutz.</item><item>Er bestätigt alle derzeitigen und zukünftigen Besitzungen und Güter, darunter einige namentlich genannte Besitzungen unter Angabe der jeweiligen Schenker.</item><item>Er bestätigt die Rechte, Würden und Freiheiten, welche das Priorat und die Kirche seit 40 Jahren besitzen. </item></list></p><p/>
+            <p>Alexander III. nimmt die Kirche St. Mary's in Ulvescroft unter dem Prior Wilhelm in den päpstlichen Schutz, bestätigt ihre namentlich aufgeführten Besitzungen, Freiheiten und den Novalzehnt, verleiht die Sepultur, das Aufnahme- und das Präsentationsrecht, die freie Wahl des Priors und trifft Bestimmungen über die Wahl des Bischofs für die bischöflichen Funktionen.</p><p>Alexander III. verleiht dem Augustinerpriorat St. Mary's in Ulvescraft (D. Lincoln) unter Wilhelm, Prior der Kirche St. Mary's, ein Privileg und gewährt folgende Rechte:<list><item>Er nimmt das Priorat unter apostolischen Schutz.</item><item>Er bestätigt alle derzeitigen und zukünftigen Besitzungen und Güter jedweder Herkunft, darunter einige namentlich genannte Besitzungen unter Angabe der jeweiligen Schenker.</item><item>Er bestätigt die Rechte, Würden und Freiheiten, welche das Priorat und die Kirche seit 40 Jahren besitzen. </item><item>Er erteilt das freie Begräbnisrecht.</item><item>Er befreit es vom Zehnten für Neubrüche bei Eigenbau und für Tierfutter.</item><item>Er gewährt die freie und ungehinderte Aufnahme von Klerikern und Laien, die der Welt entfliehen wollen.</item><item>Er gewährt das Präsentationsrecht für die Eigenkirchen.</item><item>Altar- und Kirchweihen, Ordinationen der Kleriker und das heilige Öl sollen sie vom Diözesanbischof empfangen, wenn dieser in der Gnade des apostolischen Stuhles stehe; anderfalls sei es ihnen erlaubt, einen ihnen genehmen Bischof um die Spendung der Sakramente zu ersuchen.</item><item>Er garantiert die freie Wahl des Priors.</item><item>Schlussformeln: Perturbationsverbort, Sanctio negativa und positiva.</item></list></p><p/>
          </div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
-         <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Quociens illud a nobis expetitur</diploPart></div>
+          <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>R. Ego Alexander catholice ecclesie episcopus ss. BV.</item><item><diploPart type="subscriptio" xml:lang="lat"><diploPart type="subscriptio" xml:lang="lat"><diploPart type="subscriptio" xml:lang="lat">✝</diploPart></diploPart></diploPart> Ego Hvbaldus Hostiensis episcopus ss.</item><item><diploPart type="subscriptio" xml:lang="lat"><diploPart type="subscriptio" xml:lang="lat"><diploPart type="subscriptio" xml:lang="lat">✝</diploPart></diploPart></diploPart> Ego Bernardus Portuensis et sancte Rufine episcopus ss.</item><item><diploPart type="subscriptio" xml:lang="lat"><diploPart type="subscriptio" xml:lang="lat"><diploPart type="subscriptio" xml:lang="lat">✝</diploPart></diploPart></diploPart> Ego Gvalterius Albanensis episcopus ss.</item><item><diploPart type="subscriptio" xml:lang="lat"><diploPart type="subscriptio" xml:lang="lat"><diploPart type="subscriptio" xml:lang="lat">✝</diploPart></diploPart></diploPart> Ego Iohannes sanctorum Iohannis et Pauli presb. card. tit. Pamachii ss.</item><item><diploPart type="subscriptio" xml:lang="lat"><diploPart type="subscriptio" xml:lang="lat"><diploPart type="subscriptio" xml:lang="lat">✝</diploPart></diploPart></diploPart> Ego Gvillelmus presb. card. tit. sancti Petri ad uincula ss.</item><item><diploPart type="subscriptio" xml:lang="lat"><diploPart type="subscriptio" xml:lang="lat"><diploPart type="subscriptio" xml:lang="lat">✝</diploPart></diploPart></diploPart> Ego Arditio diac. card. sancti Theodori ss.</item><item><diploPart type="subscriptio" xml:lang="lat"><diploPart type="subscriptio" xml:lang="lat"><diploPart type="subscriptio" xml:lang="lat">✝</diploPart></diploPart></diploPart> Ego Cinthyus diac. card. sancti Adriani ss</item><item><diploPart type="subscriptio" xml:lang="lat"><diploPart type="subscriptio" xml:lang="lat"><diploPart type="subscriptio" xml:lang="lat">✝</diploPart></diploPart></diploPart> Ego Laborans diac. card. sancte Marie in porticu ss.</item><item><diploPart type="subscriptio" xml:lang="lat"><diploPart type="subscriptio" xml:lang="lat"><diploPart type="subscriptio" xml:lang="lat">✝</diploPart></diploPart></diploPart></item>
+               </list></diploPart>
+         </div>
+         <div><head>Datatio:</head><diploPart type="datatio">Dat. Ferentin. per manum Gratiani sancte Romane ecclesie subdiaconi et notarii, X V kal. decembris, indictione VIII, incarna-tionis dominice anno millesimo C. LXX IIII, pontificatus uero domini Alexandri pape tercii anno sextodecimo.</diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl>[Original]</bibl>
-               <bibl>Kopie s. XIII med., Brit. Mus. Harley charter 111 A 6. </bibl>
+               <bibl>Original: -</bibl>
+               <bibl>Kopie:  13. Jh., British Library Harley Ch 111 A 6. </bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>
@@ -56,33 +65,37 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie</head>
             <listBibl>
-               <bibl>[Quelle mit Edition 1]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>PUU England 1, S. 390-392, Nr. 119</bibl><bibl>Ed.  J. Nichols The Hist. and Antiquities of the County of Leicester III  part 2 (London 1804) 1085 hieraus. </bibl>
-               <bibl>[Edition 2]</bibl>
+               <bibl>PUU England 1, S. 390-392, Nr. 119</bibl><bibl>J. Nichols The Hist. and Antiquities of the County of Leicester III  part 2, London 1804, S. 1085.</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>[Regest 1]</bibl>
-               <bibl>[Regest 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
+         </div>
+          <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>Dreifaches Amen; Rota und Bene valete vorhanden.</p><p/>
+            </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Bie Kopie verzichtet auf Nachahmung der Schrift, gibt aber Bota, Benevalete und einige Besonderheiten in den Unterschriften getreu wieder.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
@@ -93,7 +106,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+            <p>Signatur Prüfen und wenn möglich original mit Unterschrften asnehen</p>
          </div>
       </body>
    </text>
