@@ -68,30 +68,29 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
+                  <bibl type="original">-</bibl>
                   <bibl type="msCopy">Graz, Steiermärkisches Landesarchiv, Hs. 894, f. [60r-94v]</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl> Chronicon Magni presbiteri, ed. Wattenbach (MGH SS 17), ad a. 1174, S. </bibl>
+               <bibl>Chronicon Magni presbiteri, ed. Wattenbach (MGH SS 17), ad a. 1174, S. </bibl>
             </listBibl>
          </div>
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
                
-               <bibl>[Edition 2]</bibl>
+               <bibl>Migne, PL 200, Sp. </bibl>
             </listBibl>
          </div>
          <div type="regesta">
@@ -114,13 +113,12 @@
          <div type="bibliography">
             <head>Bibliographie</head>
             <listBibl>
-               <bibl>[Werk 1]</bibl>
-               <bibl>[Werk 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[PFolio-Angaben lassen sich mangels Digitalisat nicht überprüfenText nach MGH SS 17:</p>
+            <p>Folio-Angaben lassen sich mangels Digitalisat nicht überprüfen</p><p>Text nach MGH SS 17:</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
