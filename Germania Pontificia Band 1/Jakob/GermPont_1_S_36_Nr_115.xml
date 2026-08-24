@@ -54,7 +54,7 @@
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+                  <item>-</item>
                </list></diploPart>
          </div>
          <div><head>Datatio</head><diploPart type="datatio">Dat. Anagn. 6 id. sept.</diploPart></div>
@@ -84,7 +84,7 @@
             <head>Editionen</head>
             <listBibl>
                
-               <bibl>Migne, PL 200, Sp. 996a-997b, Nr. </bibl>
+               <bibl>Migne, PL 200, Sp. 996a-997b, Nr. 1144</bibl>
             </listBibl>
          </div>
          <div type="regesta">
@@ -112,7 +112,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>Folio-Angaben lassen sich mangels Digitalisat nicht überprüfen</p><p>Text nach MGH SS 17:</p>
+            <p>Folio-Angaben lassen sich mangels Digitalisat nicht überprüfen</p><p>Text nach Migne: </p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
