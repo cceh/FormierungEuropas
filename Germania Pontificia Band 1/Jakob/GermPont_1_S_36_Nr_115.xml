@@ -69,7 +69,7 @@
             <div>
                <listBibl>
                   <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
+                  <bibl type="msCopy">Graz, Steiermärkisches Landesarchiv, Hs. 894, f. [60r-94v]</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
             </div>
@@ -84,8 +84,7 @@
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
-               <bibl>[Quelle 2]</bibl>
+               <bibl> Chronicon Magni presbiteri, ed. Wattenbach (MGH SS 17), ad a. 1174, S. </bibl>
             </listBibl>
          </div>
          <div type="editions">
@@ -121,7 +120,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+            <p>[PFolio-Angaben lassen sich mangels Digitalisat nicht überprüfenText nach MGH SS 17:</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
