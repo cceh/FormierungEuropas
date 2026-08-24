@@ -50,20 +50,14 @@
                </list></p>
          </div>
 
-         <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
-         </div>
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Audivimus non sine</diploPart></div>
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
                   <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
                </list></diploPart>
          </div>
-         <div>
-            <head>Datatio</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
-         </div>
+         <div><head>Datatio</head><diploPart type="datatio">Dat. Anagn. 6 id. sept.</diploPart></div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
