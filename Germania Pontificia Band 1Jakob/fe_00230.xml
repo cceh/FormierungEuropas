@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc><titleStmt><title>fe_00230</title>
+            <respStmt><resp>Datenquelle</resp><persName>JM</persName></respStmt>
+            <respStmt><resp when="2026">Encoding</resp><persName>JM</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Germ.Pont. 1, S. 36, Nr. 116</bibl><bibl type="jaffe">12392</bibl>
+            <diploDesc><p><authen type="formula" n="na"><p>[-]</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Anagni</placeName><date type="issued" notBefore="1174-09-08" notAfter="1174-09-08">(1174), September 8</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p><legalActor type="recipient">Adalbert III., Erzbischof von Salzburg</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Papsturkunde, Litterae cum filo canapis</objectType></p><p><objectType n="">Administration, Diözesen</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">Alexander III., Urheber</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p>Alexander III. versichert Adalbert III., Erzbischof von Salzburg, seine Unterstützung im Konflikt um das Erzbistum, kündigt auch die Unterstützung <persName>Konrads, Erzbischof Mainz und apostolischer Legat</persName>, an und ruft ihn dazu auf, die Güter seiner Kirche zu verteidigen und in der Einheit der Kirche zu verbleiben.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Audito et intellecto illo enormi</diploPart></div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>-</item>
+               </list></diploPart>
+         </div>
+         <div><head>Datatio</head><diploPart type="datatio">Data Anagniae, 6. Idus Septembris.</diploPart></div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">-</bibl>
+                  <bibl type="msCopy">Graz, Steiermärkisches Landesarchiv, Hs. 894, f. [60r-94v] </bibl>
+                  <bibl type="print">-</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>Chronicon Magni presbiteri, ed. Wattenbach (MGH SS 17), ad a. 1174, S. 499 </bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Migne, PL 200, Sp. 997b-998a, Nr. 1145</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL 12392</bibl><bibl>Germ.Pont. 1, S. 36, Nr. 116</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>-</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Zur Anweisung Alexanders an Konrad von Mainz über die Spaltung der Salzburger Kirche siehe <bibl>Germ.Pont. 1, S. 35, Nr. 114</bibl> = ##fe_002228##.</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>Folio-Angaben lassen sich mangels Digitalisat nicht überprüfen</p><p>Text nach Migne: ALEXANDER episcopus, servus servorum Dei, dilecto filio ADALBERTO Salzburgensi archiepiscopo, salutem etapostolicam benedictionem.  Audito et intellecto illo enormi facto, quod est adversum te non sine offensa Dei et derogatione nostra nequiter attentatum, mirati sumus admodum et commoti, utpote qui personam tuam pro fervoredevotionis tuae sincera in Domino charitate diligimus, et pacem et quietem tuam desideramus, sicut nostramspecialem et propriam turbationem, quae tibi et Ecclesiae tuae imminet, non reputamus aliquatenus alienam. Indeitaque fuit, quod nos factum ipsum, utpote divinae et humanae legi contrarium, apostolica auctoritate cassantes, virisillis, qui tantae fuerunt praesumptionis auctores scripta, nostra direximus, eosque a tam iniquo proposito pastoralisollicitudine revocantes, super hoc venerabili fratri nostro Chunrado Moguntino archiepiscopo apostolicae sedislegato scripsimus, sicut ex rescriptis litterarum nostrarum tibi plenius innotescet. Tu itaque in Domino conforteris, et viriliter agas, in eo ponens spem,qui te poterit a pressuris et angustiis liberare, et post tantam turbationem, pacem tibi dabit per suam gratiam etquietem. Ut autem omnipotentem Dominum magis propitium habere valeas et placatum, ei tota devotione studeassubesse, et his ferventer intendere, quae tibi placita sunt et accepta, et ad recuperandum patrimonium Ecclesiae, et ad conservandam Ecclesiam ipsam in fide et unitate catholica, ut vir prudens, providus et discretus, toto studioattendas. Nos igitur firmum propositum et promptam tibi gerimus voluntatem, personam tuam sicut charissimi fratris abundantiore charitate diligere, et in persecutionibus et in angustiis tuis, omne quod cum Deo possumus, consilium et auxilium exhibere. Data Anagniae, VI Id. Sept.</p><p>KI-Übersetzung: Alexander, Bischof, Diener der Diener Gottes, entbietet seinem geliebten Sohn Adalbert, Erzbischof von Salzburg, Gruß und apostolischen Segen. Nachdem wir von jener ungeheuerlichen Tat gehört und sie verstanden hatten, die gegen dich – nicht ohne Beleidigung Gottes und Missachtung unserer eigenen Person – auf frevelhafte Weise unternommen worden ist, waren wir äußerst erstaunt und empört. Denn wir lieben deine Person wegen des Eifers deiner aufrichtigen Hingabe in Christus und wünschen dir Frieden und Ruhe. Die Bedrängnis, die dir und deiner Kirche droht, betrachten wir daher keineswegs als etwas, das uns nicht selbst beträfe. Aus diesem Grund haben wir jene Tat, da sie sowohl dem göttlichen als auch dem menschlichen Recht widerspricht, kraft unserer apostolischen Autorität für ungültig erklärt. Den Männern, die sich zu Urhebern eines solchen vermessenen Vorgehens gemacht haben, haben wir unsere Schreiben zukommen lassen und sie in väterlicher Sorge von diesem so ungerechten Vorhaben abzubringen versucht. In dieser Angelegenheit haben wir auch unserem ehrwürdigen Bruder Chunrad, Erzbischof von Mainz und Legaten des Apostolischen Stuhls, geschrieben, wie du aus dem Wortlaut unserer Schreiben noch ausführlicher erfahren wirst. Du aber sollst im Herrn gestärkt sein und mannhaft handeln. Setze deine Hoffnung auf ihn, der dich aus Bedrängnis und Not zu befreien vermag und der dir nach einer solchen Erschütterung durch seine Gnade Frieden und Ruhe schenken wird. Damit du aber den allmächtigen Herrn noch mehr auf deiner Seite und dir gnädig haben kannst, bemühe dich, ihm mit ganzer Hingabe zu dienen und dich eifrig um das zu kümmern, was ihm wohlgefällig und angenehm ist. Vor allem sollst du dich mit aller Kraft darum bemühen, das Vermögen der Kirche zurückzugewinnen und die Kirche selbst im katholischen Glauben und in der Einheit zu bewahren, und dabei als ein kluger, vorausschauender und besonnener Mann handeln. Wir jedenfalls hegen den festen Vorsatz und sind willens, deine Person als unseren geliebtesten Bruder mit noch größerer Liebe zu schätzen und dir in deinen Verfolgungen und Bedrängnissen jeden Rat und jede Hilfe zu gewähren, die wir mit Gottes Hilfe leisten können. Gegeben zu Anagni, am 8. September.</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>
