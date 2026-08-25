@@ -47,19 +47,14 @@
                </list></p>
          </div>
 
-         <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Audito et intellecto illo enormi</diploPart></div>
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Audito et intellecto illo enormi</diploPart></div>
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
                   <item>-</item>
                </list></diploPart>
          </div>
-         <div>
-            <head>Datatio</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
-         </div>
+         <div><head>Datatio</head><diploPart type="datatio">Data Anagniae, VI Id. Sept.</diploPart></div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
@@ -79,7 +74,7 @@
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>Chronicon Magni presbiteri, ed. Wattenbach (MGH SS 17), ad a. 1174, S. 500-501 </bibl>
+               <bibl>Chronicon Magni presbiteri, ed. Wattenbach (MGH SS 17), ad a. 1174, S. 499 </bibl>
             </listBibl>
          </div>
          <div type="editions">
@@ -112,7 +107,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Pr</p><p>Text nach Migne: ALEXANDER episcopus, servus servorum Dei, dilecto filio ADALBERTO Salzburgensi archiepiscopo, salutem etapostolicam benedictionem.  Audito et intellecto illo enormi facto, quod est adversum te non sine offensa Dei et derogatione nostra nequiter attentatum, mirati sumus admodum et commoti, utpote qui personam tuam pro fervoredevotionis tuae sincera in Domino charitate diligimus, et pacem et quietem tuam desideramus, sicut nostramspecialem et propriam turbationem, quae tibi et Ecclesiae tuae imminet, non reputamus aliquatenus alienam. Indeitaque fuit, quod nos factum ipsum, utpote divinae et humanae legi contrarium, apostolica auctoritate cassantes, virisillis, qui tantae fuerunt praesumptionis auctores scripta, nostra direximus, eosque a tam iniquo proposito pastoralisollicitudine revocantes, super hoc venerabili fratri nostro Chunrado Moguntino archiepiscopo apostolicae sedislegato scripsimus, sicut ex rescriptis litterarum nostrarum tibi plenius innotescet. Tu itaque in Domino conforteris, et viriliter agas, in eo ponens spem,qui te poterit a pressuris et angustiis liberare, et post tantam turbationem, pacem tibi dabit per suam gratiam etquietem. Ut autem omnipotentem Dominum magis propitium habere valeas et placatum, ei tota devotione studeassubesse, et his ferventer intendere, quae tibi placita sunt et accepta, et ad recuperandum patrimonium Ecclesiae, et ad conservandam Ecclesiam ipsam in fide et unitate catholica, ut vir prudens, providus et discretus, toto studioattendas. Nos igitur firmum propositum et promptam tibi gerimus voluntatem, personam tuam sicut charissimi fratrisabundantiore charitate diligere, et in persecutionibus et in angustiis tuis, omne quod cum Deo possumus, consilium et auxilium exhibere.</p><p>KI-Übersetzung: </p>
+            <p>[Pr</p><p>Text nach Migne: ALEXANDER episcopus, servus servorum Dei, dilecto filio ADALBERTO Salzburgensi archiepiscopo, salutem etapostolicam benedictionem.  Audito et intellecto illo enormi facto, quod est adversum te non sine offensa Dei et derogatione nostra nequiter attentatum, mirati sumus admodum et commoti, utpote qui personam tuam pro fervoredevotionis tuae sincera in Domino charitate diligimus, et pacem et quietem tuam desideramus, sicut nostramspecialem et propriam turbationem, quae tibi et Ecclesiae tuae imminet, non reputamus aliquatenus alienam. Indeitaque fuit, quod nos factum ipsum, utpote divinae et humanae legi contrarium, apostolica auctoritate cassantes, virisillis, qui tantae fuerunt praesumptionis auctores scripta, nostra direximus, eosque a tam iniquo proposito pastoralisollicitudine revocantes, super hoc venerabili fratri nostro Chunrado Moguntino archiepiscopo apostolicae sedislegato scripsimus, sicut ex rescriptis litterarum nostrarum tibi plenius innotescet. Tu itaque in Domino conforteris, et viriliter agas, in eo ponens spem,qui te poterit a pressuris et angustiis liberare, et post tantam turbationem, pacem tibi dabit per suam gratiam etquietem. Ut autem omnipotentem Dominum magis propitium habere valeas et placatum, ei tota devotione studeassubesse, et his ferventer intendere, quae tibi placita sunt et accepta, et ad recuperandum patrimonium Ecclesiae, et ad conservandam Ecclesiam ipsam in fide et unitate catholica, ut vir prudens, providus et discretus, toto studioattendas. Nos igitur firmum propositum et promptam tibi gerimus voluntatem, personam tuam sicut charissimi fratrisabundantiore charitate diligere, et in persecutionibus et in angustiis tuis, omne quod cum Deo possumus, consilium et auxilium exhibere. Data Anagniae, VI Id. Sept.</p><p>KI-Übersetzung: </p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
