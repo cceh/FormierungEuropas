@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc><titleStmt><title>fe_00229</title>
+            <respStmt><resp>Datenquelle</resp><persName>JM</persName></respStmt>
+            <respStmt><resp when="2026">Encoding</resp><persName>JM</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Germ.Pont. 1, S. 36, Nr. 115</bibl><bibl type="jaffe">12391</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>[-]</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Anagni</placeName><date type="issued" notBefore="1174-09-08" notAfter="1174-09-08">(1174), September 8</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p><legalActor type="recipient">Siboto, Propst der Salzburger Kirche</legalActor></p><p><legalActor type="recipient">Klerus der Salzburger Kirche</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Papsturkunde, Litterae cum filo canapis</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">Administration, Diözesen</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p>Alexander III. weist Siboto, Probst der Salzburger Kirche, für die Erhebung <persName>Heinrichs von Berchtesgaden</persName> als Erzbischof von Salzburg gegen den rechtmäßig amtierenden <persName>Adalbert III.</persName> zurecht, erklärt diese Tat für nichtig und befiehlt Siboto, Adalbert wieder den geschuldeten Gehorsam zu erweisen.<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
+         </div>
+
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Audivimus non sine multo cordis</diploPart></div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>-</item>
+               </list></diploPart>
+         </div>
+         <div><head>Datatio</head><diploPart type="datatio">Dat. Anagn. 6 id. sept.</diploPart></div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">-</bibl>
+                  <bibl type="msCopy">Graz, Steiermärkisches Landesarchiv, Hs. 894, f. [60r-94v]</bibl>
+                  <bibl type="print">-</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>Chronicon Magni presbiteri, ed. Wattenbach (MGH SS 17), ad a. 1174, S. 500-501</bibl>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               
+               <bibl>Migne, PL 200, Sp. 996a-997b, Nr. 1144</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL 12391</bibl>
+               <bibl>Germ.Pont. 1, S. 36, Nr. 115</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>-</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>-</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>Folio-Angaben lassen sich mangels Digitalisat nicht überprüfen</p><p>Text nach Migne: ALEXANDER episcopus, servus servorum Dei, Sibotoni praeposito et clero Salzburgensis Ecclesiae. salutem et apostolicam benedictionem. Audivimus non sine multo cordis dolore et amaritudine quomodo a te, praeposite, enorme factum in venerabilem fratrem nostrum archiepiscopum vestrum fuerit attentatum, cui sicut magistro et praelato vestro tenemini obedientiam et reverentiam exhibere. Illa siquidem praeclara fama laudis et nominis, qua eadem Ecclesia de conservatione catholicae unitatis ubique sibi ad Deum et homines comparavit, vos a tam inhonesto proposito debuit potissimum revocare. Sane decuit vos sollicite ac diligenter attendere, et meditatione sedula cogitare in quo statu vir sanctae recordationis Eberhardus quondam archiepiscopus vester et bonae memoriae Chunradus successor ejus, nec non praedecessores eorum eamdem rexerunt Ecclesiam, ut ab eorum via non possetis quomodolibet declinare, sed ipsorum vestigiis studeatis omnimodis inhaerere.Non videmus utique, nec potest videri ab aliquo, quod electio, confirmatio vel palliatio praedicti archiepicopi, praesertim sine auctoritate Romani pontificis, cassari debuerit, et alius superponi, cum idem archiepiscopus, sicut nostis, a nobis fuerit confirmatus et pallium, id est plenitudinem officii pontificalis receperit, et de exhibenda sibi obedientia ad vos et ad alios suae jurisdictionis nostrum emanaverit saepe mandatum. Super quo siquidem tanto miramur amplius et movemur quanto nos Ecclesiam vestram pro fenore devotionis vestrae ampliori charitate diligimus, et majori moestitia afficimur et dolore, si quid fiat aliquando, quod ad diminutionem vestrae laudis et nominis, vel ad derogationis honestatem videatur quomodolibet redundare. Licet autem in facto ipso devotionem nostram sicut audivimus, et obedientiam praetendatis, non videmus tamen, nec videri potest ab aliquo, quomodo salva obedientia nostra et honestate hoc potuerit fieri. Quoniam igitur factum ipsum, cum omnino sit divinae et humanae legi contrarium, non debemus, nec possumus sustinere; nos id sicut cassandum, est et ipso jure cassatum, apostolica auctoritate cassantes, universitati vestrae mandamus et in virtute obedientiae praecipimus, quatenus ad vos ipsos quantocius redeuntes, quid famae vestrae expediat et saluti sollicite cogitetis, et ab hujusmodi inhonesto proposito sine dilatione qualibet redeuntes, ad obedientiam et devotionem memorati archiepiscopi revertamini, eique sicut magistro et praelato vestro devoti sitis atque subjecti; et tales in hoc et in aliis vos exhibere curetis, quod opera vestra aliis praebeant exempla virtutum. Si vero secus, quod nos non arbitramur, feceritis, quanto ferventius vos et Ecclesiam vestram diligimus, tanto acrius a tam illicito facto curabimus, auctore Domino, revocare. Quia non videremur vos sincere diligere, si famae et honestati vestrae paterno non consuleremus affectu. Data Anagniae, VI Id. Septemb. </p><p>KI-Übersetzung: Alexander, Bischof, Diener der Diener Gottes, an Siboto, den Propst, und den Klerus der Salzburger Kirche: Gruß und apostolischen Segen. Wir haben nicht ohne großen Schmerz und große Betrübnis des Herzens gehört, wie von dir, Propst, eine ungeheuerliche Tat gegen unseren ehrwürdigen Bruder, euren Erzbischof, unternommen worden ist, dem ihr als eurem Lehrer und Prälaten Gehorsam und Ehrerbietung zu erweisen verpflichtet seid. Jener so hervorragende Ruhm des Lobes und des Namens, den sich eben diese Kirche durch die Bewahrung der katholischen Einheit überall bei Gott und den Menschen erworben hat, hätte euch von einem so ehrlosen Vorhaben vor allem zurückhalten müssen. Es hätte euch wahrlich obgelegen, aufmerksam und sorgfältig zu bedenken und in eifriger Überlegung darüber nachzudenken, unter welchen Verhältnissen Eberhard seligen Angedenkens, einst euer Erzbischof, und Chunrad seligen Andenkens, sein Nachfolger, ebenso wie ihre Vorgänger, diese Kirche geleitet haben, damit ihr in keiner Weise von ihrem Weg abweichen könntet, sondern euch in jeder Hinsicht bemühtet, ihren Spuren zu folgen. Wir sehen jedenfalls nicht – und es kann von niemandem so gesehen werden –, dass die Wahl, die Bestätigung oder die Verleihung des Palliums des genannten Erzbischofs, insbesondere ohne die Autorität des römischen Papstes, hätte aufgehoben und ein anderer an seine Stelle gesetzt werden dürfen. Denn derselbe Erzbischof ist, wie ihr wisst, von uns bestätigt worden und hat das Pallium, das heißt die Fülle des bischöflichen Amtes, empfangen; und hinsichtlich des ihm zu erweisenden Gehorsams ist von uns wiederholt ein Schreiben an euch und an die anderen seiner Gerichtsbarkeit ergangen. Darüber wundern und empören wir uns umso mehr, je größer die Liebe ist, mit der wir eure Kirche aufgrund des größeren Eifers eurer Frömmigkeit lieben; und mit umso größerer Trauer und größerem Schmerz werden wir erfüllt, wenn jemals etwas geschieht, das irgendwie zur Minderung eures Ruhmes und eures guten Namens oder zur Beeinträchtigung eurer Ehrenhaftigkeit gereichen könnte. Obwohl ihr bei dieser Angelegenheit, wie wir gehört haben, unsere Frömmigkeit und euren Gehorsam als Grund anführt, sehen wir dennoch nicht – und es kann von niemandem gesehen werden –, wie dies unter Wahrung unseres Gehorsams und eurer Ehre hätte geschehen können. Da nun diese Tat in jeder Hinsicht dem göttlichen und menschlichen Gesetz widerspricht, dürfen und können wir sie nicht dulden. Daher erklären wir sie, da sie aufgehoben werden muss und bereits kraft des Rechts aufgehoben ist, kraft apostolischer Autorität für nichtig und befehlen eurer Gesamtheit und gebieten euch kraft des Gehorsams, dass ihr so schnell wie möglich zu euch selbst zurückkehrt, sorgfältig bedenkt, was eurem guten Ruf und eurem Heil zuträglich ist, und ohne jede Verzögerung von einem solchen ehrlosen Vorhaben ablasst und zum Gehorsam und zur Ergebenheit gegenüber dem genannten Erzbischof zurückkehrt. Ihm sollt ihr als eurem Lehrer und Prälaten ergeben und unterworfen sein. Und bemüht euch, euch in dieser wie auch in anderen Angelegenheiten so zu verhalten, dass eure Taten anderen Beispiele für Tugend geben. Wenn ihr aber – was wir nicht annehmen – anders handeln solltet, dann werden wir, je leidenschaftlicher wir euch und eure Kirche lieben, umso entschiedener dafür Sorge tragen, euch mit Gottes Hilfe von einer solchen unerlaubten Tat zurückzurufen.Denn wir würden euch offenbar nicht aufrichtig lieben, wenn wir nicht in väterlicher Zuneigung für euren guten Ruf und eure Ehrenhaftigkeit Sorge tragen würden. Gegeben zu Anagni, am sechsten vor den Iden des September.</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>
