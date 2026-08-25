@@ -13,13 +13,13 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>Germ.Pont. 1, S. 36, Nr. 116</bibl><bibl type="jaffe">12392</bibl>
-            <diploDesc><p><authen type="formula" n="na"><p>[*+?-]</p>
+            <diploDesc><p><authen type="formula" n="na"><p>[-]</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Anagni</placeName><date type="issued" notBefore="1174-09-08" notAfter="1174-09-08">08 September (1174)</date>
+               <issued><placeName>Anagni</placeName><date type="issued" notBefore="1174-09-08" notAfter="1174-09-08">(1174), September 8</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="issuer">[Aussteller]Alexander III.</legalActor></p>
                <p><legalActor type="recipient">[Empfänger]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
