@@ -65,17 +65,16 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
+                  <bibl type="original">-</bibl>
                   <bibl type="msCopy">Graz, Steiermärkisches Landesarchiv, Hs. 894, f. [60r-94v] </bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="historiography">
@@ -87,7 +86,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Migne, PL 200, Sp. </bibl>
+               <bibl>Migne, PL 200, Sp. 997b-998a</bibl>
             </listBibl>
          </div>
          <div type="regesta">
