@@ -45,25 +45,19 @@
       </profileDesc>
    </teiHeader>
    <text>
-      <body>
-         <div type="abstract">
+      <body><div type="abstract">
             <head>Abstract</head>
             <p><legalActor><persName>Alexander III.</persName> </legalActor>nimmt das <legalActor><orgName>Benediktinerkloster Kremsmünster</orgName> </legalActor>(D. Passau) unter dem <legalActor><persName>Abt Udalrich</persName></legalActor> in den apostolischen Schutz und bestätigt seine Einrichtung nach der Regel des hl. Benedikt sowie seine Besitzungen und Rechte.<list>
                   <item>Eingeschlossen sind alle Besitzungen und Güter, die das Kloster in der Gegenwart rechtmäßig besitzt beziehungsweise in der Zukunft rechtmäßig erwerben wird, darunter einige namentlich genannten Besitzungen. </item><item>Er verfügt das freie Investitur- und Petitionsrecht sowie das freie Begräbnisrecht in den aufgeführten Pfarrkirchen.</item><item>Altar- und Kirchenweihen, Ordinationen der Mönche und das heilige Öl sollen die Mönche vom Diözesanbischof empfangen, solange dieser rechtgläubig sei und in der Gunst des apostolischen Stuhls stehe.</item><item>Er befreit das Kloster vom allgemeinen Interdikt.</item><item>Beim Tod des Abtes sollen die Brüder nach den Vorgaben der Benediktregel ohne jeden Druck von außen gemeinschaftlich oder nach dem Votum der <diploPart>sanior pars</diploPart> einen Nachfolger wählen.</item><item>Schlussformeln: Perturbationsverbot, Sanctio negativa und positiva.</item>
                </list></p>
-         </div>
-
-         <div>
+         </div><div>
             <head>Incipit</head><diploPart type="incipit" xml:lang="lat">Pie postulatio voluntatis effectu prosequente </diploPart>
-         </div>
-         <div>
+         </div><div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list><item>Ego <persName>Alexander catholice ecclesie episcopus</persName> subscripsi. </item><item>Ego Hubaldus Hostiensis episcopus subscripsi.</item><item>Ego Iohannes presbyter cardinalis sanctorum Iohannis et Pauli titulo Pamachii subscripsi.</item><item>Ego Iohannes presbyter cardinalis sancti Marci subscripsi.</item><item>Ego Petrus presbyter cardinalis titulo sancte Susanne subscripsi.</item><item>Ego Cynthius presbyter cardinalis sancte Cecilie subscripsi.</item><item>Ego Iacobus diaconus cardinalis S. Marie in Cosmidyn subscripsi.</item><item>Ego Ardicio sancti Theodori diaconus cardinalis subscripsi.</item><item>Ego Rainerius diaconus cardinalis sancti Gregorii ad velum aureum subscripsi.</item><item>Ego Rainerius diaconus cardinalis sancti Adriani subscripsi.</item><item>Ego Chunradus subscripsi.</item></list></diploPart>
-         </div>
-         <div>
+         </div><div>
             <head>Datatio</head><diploPart type="datatio">Datum Lateranis per manum Alberti sancte Romane ecclesie presbyteri cardinalis et cancellarii, mense Aprili, indictione XII., incarnationis Dominice anno MCLXXVIII, pontificatus vero domini Alexandri pape tertii, anno XX.</diploPart>
-         </div>
-         <div type="msSources">
+         </div><div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
@@ -72,57 +66,47 @@
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
             </div>
-         </div>
-         <div type="decretals">
+         </div><div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
                <bibl>-</bibl>
                <bibl/>
             </listBibl>
-         </div>
-         <div type="historiography">
+         </div><div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
                <bibl>Historia Cremifanensis, MGH SS 25, S. 633.</bibl>
                <bibl/>
             </listBibl>
-         </div>
-         <div type="editions">
+         </div><div type="editions">
             <head>Editionen</head>
             <listBibl>
                <bibl>UB Enns 2, S. 364-367, Nr. 250</bibl>
                <bibl>UB Kremsmünster, S. 48-50, Nr. 38</bibl>
             </listBibl>
-         </div>
-         <div type="regesta">
+         </div><div type="regesta">
             <head>Regesten</head>
             <listBibl>
                <bibl>JL 13407</bibl>
                <bibl>Germ. Pont. 1, S. 212-213, Nr. 1</bibl>
             </listBibl>
-         </div>
-         <div>
+         </div><div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
                <p>Original nicht mehr überliefert?? Datierung nur nach Monat und Jahr, Tagesangabe fehlt.</p>
             </diploDesc>
-         </div>
-         <div type="commentary">
+         </div><div type="commentary">
             <head>Sachkommentar</head>
-            <p>Das Kloster Kremsmünster wurde durch Herzog Tassilo III. von Bayern im Jahr 777 zur Slawenmission gegründet und unter Karl dem Großen zur Reichsabtei erhoben sowie mit den Reliquien des hl. Agapitus ausgestattet. Im 12. Jahrhundert wurde das Kloster durch Niederaltaich von  Zur Geschichte vgl. Pitschmann, Kremsmünster, mit Kommentare zur Identifizierung von Personen, Institutionen und Orten, zu Vor- und Nachurkunden, Konfliktverläufen etc. Literaturnageben (bibl) sind zulässig]</p>
-         </div>
-         <div type="bibliography">
+            <p>Das Kloster Kremsmünster wurde durch Herzog Tassilo III. von Bayern im Jahr 777 zur Slawenmission gegründet und unter Karl dem Großen zur Reichsabtei erhoben sowie mit den Reliquien des hl. Agapitus ausgestattet. Im 12. Jahrhundert wurde das Kloster ausgehend von Niederaltaich reformiert. Zur Geschichte vgl. Pitschmann, Kremsmünster, mit Kommentare zur Identifizierung von Personen, Institutionen und Orten, zu Vor- und Nachurkunden, Konfliktverläufen etc. Literaturnageben (bibl) sind zulässig]</p>
+         </div><div type="bibliography">
             <head>Bibliographie</head>
             <listBibl>
                <bibl>Pitschmann, Kremsmünster, in: Germania Benedictina Band III/2, S. 163-252</bibl>
                <bibl>[Werk 2]</bibl>
             </listBibl>
-         </div>
-         <div type="note">
+         </div><div type="note">
             <head>Notizen</head>
             <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
-         </div>
-         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
-      </body>
+         </div><!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.--></body>
    </text>
 </TEI>
