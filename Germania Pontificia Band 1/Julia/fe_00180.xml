@@ -22,7 +22,7 @@
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>–</placeName><date type="issued" notBefore="1177-08-09" notAfter="1177-08-09">(vor dem 09 August 1177)</date>
+               <issued><placeName>–</placeName><date type="issued" notBefore="1177-08-09" notAfter="1177-08-09">(1170, zweite Hälfte)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Adalbert, Erzbischof von Salzburg</legalActor></p>
@@ -45,19 +45,25 @@
       </profileDesc>
    </teiHeader>
    <text>
-      <body><div type="abstract">
+      <body>
+         <div type="abstract">
             <head>Abstract</head>
             <p><legalActor><persName>Adalbert, Erzbischof von Salzburg</persName></legalActor>, bittet <legalActor><persName>Alexander III.</persName></legalActor>, die Privilegien des <orgName>Benediktinerklosters Garsten</orgName> (D. Passau) nach verschiedenen Tauschgeschäften zu ratifizieren und zu bestätigen. Um die Erneuerung und Bestätigung der Privilegien hatte auch bereits Konrad, Abt des Benediktinerklosters Garsten, in einem Schreiben ersucht.</p>
-         </div><div>
+         </div>
+
+         <div>
             <head>Incipit</head><diploPart type="incipit" xml:lang="lat">Privilegia venerabilium episcoporum Pataviensis ecclesie</diploPart>
-         </div><div>
+         </div>
+         <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
                   <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
                </list></diploPart>
-         </div><div>
+         </div>
+         <div>
             <head>Datatio</head><diploPart type="datatio">-</diploPart>
-         </div><div type="msSources">
+         </div>
+         <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
@@ -66,47 +72,57 @@
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
             </div>
-         </div><div type="decretals">
+         </div>
+         <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
                <bibl>-</bibl>
                <bibl/>
             </listBibl>
-         </div><div type="historiography">
+         </div>
+         <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
                <bibl>-</bibl>
                <bibl/>
             </listBibl>
-         </div><div type="editions">
+         </div>
+         <div type="editions">
             <head>Editionen</head>
             <listBibl>
                <bibl>UB Enns 1, S. 115, Nr. 1</bibl>
-               <bibl>UB Herzogtum Steiermark, GA 16; https://gams.uni-graz.at/o:stub.14/sdef:TEI/get?context=context:stub-empfaenger-ga.</bibl>
+               <bibl>[Edition 2]</bibl>
             </listBibl>
-         </div><div type="regesta">
+         </div>
+         <div type="regesta">
             <head>Regesten</head>
             <listBibl>
                <bibl>JL –</bibl>
                <bibl>Germ. Pont. 1, S. 39, Nr. 128</bibl>
             </listBibl>
-         </div><div>
+         </div>
+         <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Original nicht überliefert. Eine handschriftliche Abschrift befindet sich im Codex Tradtionum des Klosters Garsten. Zur genaueren zeitlichen Einordnung vgl. UB Herzogtum Steiermark 1, GA 16; digital verfügbar unter: https://gams.uni-graz.at/o:stub.14/sdef:TEI/get?context=context:stub-empfaenger-ga.</p>
+               <p>Original nicht überliefert. Eine handschriftliche Abschrift befindet sich im Codex Tradtionum des Klosters Garsten.</p>
             </diploDesc>
-         </div><div type="commentary">
+         </div>
+         <div type="commentary">
             <head>Sachkommentar</head>
-            <p><diploDesc/>Die vorliegende Bitte Adalberts geht dem Bestätigungsprivileg Alexanders III. voraus (##FE Nr. 00179##; Germ. Pont. 1, S. 220-221, Nr. 1) und muss vor der Absetzung Adalberts als Erzbischof von Salzburg am 9. Juli 1177 an Alexander III. gerichtet worden sein. Das Kloster Garsten wurde im Jahr 1082 durch den Markgraf Ottokar II. von der Steiermark zunächst als Säkularkanonikerstift gegründet und erst im Jahr 1107 in eine Benediktinerabtei umgewandelt, zunächst als Tochtergründung Göttweigs, ab 1110/11 als selbständiges Kloster im Bistum Passau.</p>
-         </div><div type="bibliography">
+            <p>Die vorliegende Bitte Adalberts geht dem Bestätigungsprivileg Alexanders III. voraus (##FE Nr. 00179##; Germ. Pont. 1, S. 220-221, Nr. 1) und muss vor der Absetzung Adalberts als Erzbischof von Salzburg am 9. Juli 1177 an Alexander III. gerichtet worden sein. Das Kloster Garsten wurde im Jahr 1082 durch den Markgraf Ottokar II. von der Steiermark zunächst als Säkularkanonikerstift gegründet und erst im Jahr 1107 in eine Benediktinerabtei umgewandelt, zunächst als Tochtergründung Göttweigs, ab 1110/11 als selbständiges Kloster im Bistum Passau.</p>
+         </div>
+         <div type="bibliography">
             <head>Bibliographie</head>
             <listBibl>
                <bibl>Huber, Garsten, in: Germania Benedictina III/1, S. 501-560</bibl>
                <bibl>[Werk 2]</bibl>
             </listBibl>
-         </div><div type="note">
+         </div>
+         <div type="note">
             <head>Notizen</head>
             <p>Typisierung 1: Urkunde eines nichtpäpstlichen Ausstellers? Brief? genauere Typisierung? refPoint1: Administration? oder Juristisches?</p>
-         </div><!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.--></body>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
    </text>
 </TEI>
