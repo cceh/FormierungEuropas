@@ -49,14 +49,11 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>Ottokar IV., Markgraf der Steiermark, bittet Alexander III. um die Bestätigung der Rechte und Privilegien des Benediktinerklosters Garsten (D. Passau) und legt die Abschriften der Urkunden der Passauer Bischöfe Ulrich und Konrad als Beleg bei.<list>
-                  <item>[Listeneintrag 1]</item>
-               </list></p>
+            <p>Ottokar IV., Markgraf der Steiermark, bittet Alexander III. um die Bestätigung der Rechte und Privilegien des Benediktinerklosters Garsten (D. Passau) und legt die Abschriften der Urkunden der Passauer Bischöfe Ulrich und Konrad als Beleg bei.</p>
          </div>
 
          <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+            <head>Incipit</head><diploPart type="incipit" xml:lang="lat">Quoniam sanctitatis vestre excellentiam et </diploPart>
          </div>
          <div>
             <head>Subscriptiones</head>
