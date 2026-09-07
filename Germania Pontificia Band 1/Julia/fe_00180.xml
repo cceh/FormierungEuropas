@@ -30,7 +30,7 @@
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Urkunde eines nichtpäpstlichen Ausstellers</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">[Administration, Diözesen</objectType></p><p><objectType n="">Typisierung 2]</objectType></p>
+               <p><objectType n="">Administration, Diözesen</objectType></p><p><objectType n="">Unterstützer Alexanders III., Urheber</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
@@ -124,7 +124,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>Typisierung 1: Urkunde eines nichtpäpstlichen Ausstellers? Brief? genauere Typisierung?</p>
+            <p>Typisierung 1: Urkunde eines nichtpäpstlichen Ausstellers? Brief? genauere Typisierung? refPoint1</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
