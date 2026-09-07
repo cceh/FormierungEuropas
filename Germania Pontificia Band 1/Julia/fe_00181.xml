@@ -55,8 +55,7 @@
          </div>
 
          <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Dignum et necessarium est etm ipsum dolor sit amet]</diploPart>
+            <head>Incipit</head><diploPart type="incipit" xml:lang="lat">Dignum et necessarium est et</diploPart>
          </div>
          <div>
             <head>Subscriptiones</head>
