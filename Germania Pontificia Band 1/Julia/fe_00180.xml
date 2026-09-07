@@ -52,8 +52,7 @@
          </div>
 
          <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Privilegia venerabilium episcoporum Pataviensis ecclesieit amet]</diploPart>
+            <head>Incipit</head><diploPart type="incipit" xml:lang="lat">Privilegia venerabilium episcoporum Pataviensis ecclesie</diploPart>
          </div>
          <div>
             <head>Subscriptiones</head>
@@ -62,14 +61,13 @@
                </list></diploPart>
          </div>
          <div>
-            <head>Datatio</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+            <head>Datatio</head><diploPart type="datatio">-</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
+                  <bibl type="original">-</bibl>
                   <bibl type="msCopy">[handschriftliche Kopie]</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
