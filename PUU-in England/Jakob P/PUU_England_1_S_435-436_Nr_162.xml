@@ -25,6 +25,7 @@
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Prokurator und Brüder des Hospitals von St. Peter's (St. Leonard's), York</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
+                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
@@ -39,7 +40,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. bestätigt dem Prokurator und den Brüdern des Hospitals von St. Peter's (St. Leonard's) in York genannte Be- sitzungen.</p>
+            <p>Alexander III. Alexander III. verleiht der Zisterzienserabtei Meaux (D. York) unter Philipp, Abt von Meaux, ein Privileg und gewährt folgende Rechte:</p><p/><p>bestätigt dem Prokurator und den Brüdern des Hospitals von St. Peter's (St. Leonard's) in York genannte Be- sitzungen.</p>
          </div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
