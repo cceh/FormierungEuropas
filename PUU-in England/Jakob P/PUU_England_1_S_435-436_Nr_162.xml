@@ -25,7 +25,7 @@
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Prokurator und Brüder des Hospitals von St. Peter's (St. Leonard's), York</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum filo serico</objectType></p>
-                <p><objectType n=""/></p>
+                <p><objectType n="">Juristisches, Neues Recht</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
@@ -42,7 +42,7 @@
          <div type="abstract"><head>Abstract:</head>
             <p>Alexander III. Alexander III. verleiht dem Prokurator und den Brüdern des Hospitals von St. Peter's (St. Leonard's) in York ein Privileg und gewährt folgende Rechte:</p><p><list> <item>Er bestätigt den Besitz wie er durch die Urkunden der namentlich genannten Schenker bezeugt wird.</item></list></p><p/><p/>
          </div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
+         <div><head>Incipit:</head></div>
          <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung</head>
