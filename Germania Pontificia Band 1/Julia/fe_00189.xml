@@ -25,10 +25,10 @@
                <issued><placeName>–</placeName><date type="issued" notBefore="1160-01-01" notAfter="1160-12-31">(um 1160)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">Markgraf Ottokar III.</legalActor></p>
+               <p><legalActor type="issuer">Ottokar III., Markgraf der Steiermark</legalActor></p>
                <p><legalActor type="recipient">Alexander III.</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">Brief</objectType></p>
+               <p><objectType n="">Brief, Deperditum</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
                <p><objectType n="">Juristisches, neues Recht</objectType></p><p><objectType n="">Unterstützer Alexanders III., Urheber</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
@@ -48,7 +48,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>[Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
+            <p>Ottokar III., Markgraf der Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
