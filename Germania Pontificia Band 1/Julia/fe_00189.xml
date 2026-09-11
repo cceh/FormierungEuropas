@@ -48,13 +48,10 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor><persName>Ottokar III., Markgraf der Steiermark</persName></legalActor>, entsendet Gesandtschaften an <legalActor>Alexander III.</legalActor> und appelliert an dessen apostolische Milde. Alexander III. solle die Väter des Kartäuserordens ermahnen, der Bitte Ottokars zur Gründung der Kartause Seiz stattzugeben.</p>
+            <p><legalActor><persName>Ottokar III., Markgraf der Steiermark</persName></legalActor>, entsendet Gesandtschaften an <legalActor><persName>Alexander III.</persName></legalActor> und appelliert an dessen apostolische Milde. Alexander III. solle die Väter des Kartäuserordens ermahnen, der Bitte Ottokars zur Gründung der Kartause Seiz stattzugeben.</p>
          </div>
 
-         <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
-         </div>
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">-</diploPart></div>
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
@@ -62,8 +59,7 @@
                </list></diploPart>
          </div>
          <div>
-            <head>Datatio</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+            <head>Datatio</head><diploPart type="datatio">-</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
