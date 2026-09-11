@@ -48,14 +48,12 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor><persName>Alexander III.</persName></legalActor> nimmt auf Bitten von <persName>Leopold, Herzog von Österreich</persName>, das <legalActor><orgName>Wiener Schottenkloster</orgName></legalActor> (D. Passau) mit all seinen Besitzungen in den apostolischen Schutz und ordnet die Zahlung eines jährlichen Zinses von einer Goldmünze an den apostolischen Stuhl an. <list>
-                  <item>[Listeneintrag 1]</item>
-               </list></p>
+            <p><legalActor><persName>Alexander III.</persName></legalActor> nimmt auf Bitten von <persName>Leopold, Herzog von Österreich</persName>, das <legalActor><orgName>Wiener Schottenkloster</orgName></legalActor> (D. Passau) mit all seinen Besitzungen in den apostolischen Schutz und ordnet die Zahlung eines jährlichen Zinses von einer Goldmünze an den apostolischen Stuhl an. </p>
          </div>
 
          <div>
             <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+            <diploPart type="incipit" xml:lang="lat">[ReligiLorem ipsum dolor sit amet]</diploPart>
          </div>
          <div>
             <head>Subscriptiones</head>
