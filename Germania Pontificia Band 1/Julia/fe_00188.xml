@@ -71,7 +71,7 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">Wien, Stiftsarchiv Schottenabtei, Urk. 1177-IV-01; digital verfügbar unter: Original]</bibl>
+                  <bibl type="original">Wien, Stiftsarchiv Schottenabtei, Urk. 1177-IV-01; digital verfügbar unter: https://www.monasterium.net/mom/AT-StiAScho/SchottenOSB/1177_IV_01/charter?q=Schottenkloster</bibl>
                   <bibl type="msCopy">[handschriftliche Kopie]</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
@@ -80,14 +80,14 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
+               <bibl>-</bibl>
                <bibl>[Quelle 2]</bibl>
             </listBibl>
          </div>
