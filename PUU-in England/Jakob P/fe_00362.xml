@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_puu-in"> <!-- Ordnername hier ergänzen -->
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen -->
    <teiHeader>
       <fileDesc>
          <titleStmt><title>fe_00362</title><respStmt>
@@ -33,7 +36,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. bestätigt dem Prior Roger und den Kanonikern von Lanthony die Kapelle von Little Barrington, die ihnen von Bischof B(artholomaeus) von Exeter und dem Prior (Laurentius) von Coventry in einem Prozeß zugesprochen worden ist. ## Alexander III. bestätigt Roger, Prior von Llanthony, und den Kanonikern von Llanthony den Besitz der Kapelle von Little Barrington mit ihren Pertinenzen, wie sie ihnen von Bischof B(artholomaeus) von Exeter und dem Prior (Laurentius) von Coventry gerichtlich zusgesprochen worden ist.
+            <p>Alexander III. bestätigt Roger, Prior von Llanthony, und den Kanonikern von Llanthony den Besitz der Kapelle von Little Barrington mit ihren Pertinenzen, wie sie ihnen von Bischof B(artholomaeus) von Exeter und dem Prior (Laurentius) von Coventry gerichtlich zusgesprochen worden ist.
                <list><item>Schlussformeln: Perturbationsformel, Sanctio negativa</item></list>
                </p><p/>
          </div>
