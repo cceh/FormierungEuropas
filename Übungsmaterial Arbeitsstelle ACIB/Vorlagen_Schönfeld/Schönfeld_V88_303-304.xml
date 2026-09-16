@@ -27,7 +27,7 @@
             <bibl type="Schoenfeld">V 88</bibl>
             <diploDesc>
                <p><authen type="formula" n="na">
-                     <p>[*-]</p>
+                     <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p><issued><placeName>Trier</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" type="issued" unit="cm" xml:space="default" when="1162-11-04">(1162) Nov. 4</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
