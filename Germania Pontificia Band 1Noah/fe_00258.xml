@@ -37,7 +37,7 @@
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, Litterae clausae</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">Administration, Streitschlichtung</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
+               <p><objectType n="">Anweisung,Wiederherstellung von Recht</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
@@ -55,7 +55,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><persName>Alexander III.</persName> beauftragt <persName>Adalbert, den Erzbischof von Salzburg,</persName> sich der Klage der Äbtissin und der Schwestern des <orgName>Benediktinerinnenklosters St. Georgen am Längsee</orgName> (D. Gurk) anzunehmen, die die folgenden Streitpunkte vor ihn getragen haben.<list>
+            <p><persName>Alexander III.</persName> weist <persName>Adalbert, den Erzbischof von Salzburg,</persName> sich der Klage der Äbtissin und der Schwestern des <orgName>Benediktinerinnenklosters St. Georgen am Längsee</orgName> (D. Gurk) anzunehmen, die die folgenden Streitpunkte vor ihn getragen haben.<list>
                   <item><persName>Reinold, ein Kleriker, </persName>habe Zehnte des Klosters in Besitz genommen und sie <persName>B., einem gewissen Laien,</persName> zu Lehen aufgetragen.</item><item>Derselbe Kleriker halte auch die Kirche St. Donat in seinem Besitz.</item><item>Außerdem hätten <persName>H. und R., Männer des Markgrafen von Steiermark,</persName> das Kloster neben anderen Dingen auch um ein Gut in <placeName>Stainz</placeName> gebracht, das <persName>Gunter, der Markgraf,</persName> diesem geschenkt haben soll.</item><item>Sowohl die Kleriker als auch die Laien, die rechtmäßgen Besitz des Klosters enteignet haben, sollen diesen entweder umgehend zurückgeben oder aber das Kloster vollumfänglich in der Gegenwart <persName>Adalberts, des Erzbischofs von Salzburg,</persName> hierfür entschädigen. </item><item>Sollten sie sich jedoch für keine der beiden Optionen entscheiden, soll über sie die Exkommunikation verhängt werden und sie sollen als solche gemieden werden, bis sie eine angemessene Abbitte geleistet haben.</item>
                </list></p>
          </div>
