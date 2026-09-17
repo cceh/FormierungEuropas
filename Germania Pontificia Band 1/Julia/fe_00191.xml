@@ -22,7 +22,7 @@
                      <p>*</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>–</placeName><date type="issued" notBefore="1159-01-01" notAfter="1181-12-31">(1159-1181)</date>
+               <issued><placeName>–</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1181-12-31" precision="high" unit="cm" xml:space="default" notBefore="1159-01-01" type="issued">(1159-1181)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
@@ -48,7 +48,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>Alexander III. nimmt die Stiftskirche Unserer Lieben Frau zur Alten Kapelle in Regensburg in den apostolischen Schutz.<list/></p>
+            <p>Alexander III. nimmt die Stiftskirche Unserer Lieben Frau zur Alten Kapelle in Regensburg in den apostolischen Schutz.</p>
          </div>
 
          <div>
