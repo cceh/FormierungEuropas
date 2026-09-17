@@ -48,12 +48,11 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor><persName>Alexander III.</persName></legalActor> nimmt die Stiftskirche Unserer Lieben Frau zur Alten Kapelle in Regensburg in den apostolischen Schutz.</p>
+            <p><legalActor><persName>Alexander III.</persName></legalActor> nimmt die <legalActor><orgName>Stiftskirche Unserer Lieben Frau zur Alten Kapelle</orgName> </legalActor>in Regensburg in den apostolischen Schutz.</p>
          </div>
 
          <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+            <head>Incipit</head><diploPart type="incipit" xml:lang="lat">-</diploPart>
          </div>
          <div>
             <head>Subscriptiones</head>
@@ -62,14 +61,13 @@
                </list></diploPart>
          </div>
          <div>
-            <head>Datatio</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+            <head>Datatio</head><diploPart type="datatio">-</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
+                  <bibl type="original">Deperdi[Original]</bibl>
                   <bibl type="msCopy">[handschriftliche Kopie]</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
