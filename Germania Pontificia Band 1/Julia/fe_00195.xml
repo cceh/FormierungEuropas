@@ -26,7 +26,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Benediktinerkloster Biburg</legalActor></p><p><legalActor type="recipient">Isinricus, Abt des Benediktinerklosters Biburg</legalActor></p>
+               <p><legalActor type="recipient">Benediktinerkloster Biburg</legalActor></p><p><legalActor type="recipient">Heinrich, Abt des Benediktinerklosters Biburg</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
@@ -48,14 +48,13 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>[Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
-                  <item>[Listeneintrag 1]</item>
+            <p><legalActor><persName>Alexander III.</persName> </legalActor>gewährt auf Bitten des <legalActor><persName>Abtes Heinrich</persName> </legalActor>dem <legalActor><orgName>Benediktinerkloster Biburg</orgName></legalActor> (D. Regensburg) folgende Rechte: <list>
+                  <item>die Aufnahme in den apostolischen Schutz.</item><item>Bestätigung aller Besitzungen und Güter, die das Kloster in der Gegenwart rechtmäßig besitzt beziehungsweise in der Zukunft rechtmäßig erwerben wird, darunter einige namentlich genannten Besitzungen.</item><item/><item>Befreiung vom Novalzehnten für Eigenbau und für Tierfutter.</item><item>das freie Begräbnisrecht.</item><item>Schlussformeln: Perturbationsverbot, Sanctio negativa und sanctio positiva.</item>
                </list></p>
          </div>
 
          <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+            <head>Incipit</head><diploPart type="incipit" xml:lang="lat">Religiosam vitam eligentibus apostolicum convenit</diploPart>
          </div>
          <div>
             <head>Subscriptiones</head>

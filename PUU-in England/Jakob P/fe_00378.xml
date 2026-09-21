@@ -3,10 +3,7 @@
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
 <TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen -->
    <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
-            <respStmt>
+      <fileDesc><titleStmt><title>fe_00378</title><respStmt>
                <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
                <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
             </respStmt>
@@ -19,18 +16,19 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>PUU England 1, S. 435, Nr. 161</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
+            <bibl>PUU England 1, S. 435, Nr. 161</bibl><bibl type="jaffe">-</bibl>
             <diploDesc><p><authen type="formula" n="na">
-               <p>[*+?-]</p>
+               <p>[-]</p>
                <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-            </authen></p><p><issued><placeName>Laterano</placeName><date type="issued" notBefore="1166-05-01" notAfter="1179-05-01">(1166—79) Mai 1.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            </authen></p><p><issued><placeName>Laterano</placeName><date type="issued" notBefore="1166-05-01" notAfter="1179-05-01">(1166—79) Mai 1</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Roger, Erzbischof von York</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p> <legalActor type="recipient">Hugo, Bischof von Durham</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p> <legalActor type="recipient">Kleriker der Diözese</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p> <legalActor type="beneficiary">Abtei Rievaulx (OCist)</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <p><legalActor type="beneficiary">Zisterzienserabtei Rievaulx</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p>
+               <p><objectType n="">Anweisung, Beachtung von Recht</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
@@ -45,16 +43,16 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. befiehlt dem Erzbischof (Roger) von York und dem Bischof (Hugo) von Durham und den Klerikern ihrer Diözesen, ihre Untergebenen zur Beachtung der Zehntfreiheit des Klosters Rievaulx wie aller Zisterzienserklöster anzuhalten.</p>
+            <p> Alexander III. weist den Erzbischof (Roger) von York und die Bischöfe (Hugo) von Durham und die Kleriker ihrer Diözesen an, ihre Untergebenen zur Beachtung der Zehntfreiheit des Klosters Rievaulx (D. York) wie aller Zisterzienserklöster anzuhalten.<list><item>Falls ein Laie es wagen sollte, unrechtmäßigerweise den Zehnten vom Kloster zu fordern, dann soll er exkommuniziert werden.</item><item>Falls ein Mönch, Kleriker oder Kanoniker es wagen sollte, unrechtmäßigerweise den Zehnten vom Kloster zu fordern, dann soll er  von seinem Amt suspendiert werden. </item><item>Die Bischöfe sollen bis zu einer Wiedergutmachung für die Aufrechterhaltung der Exkommunikation und Suspension sorgen. </item><item>Wer gewaltsam Hand an die Brüder des Klosters legt, soll exkommuniziert werden.</item></list></p>
          </div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
-         <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat"><diploPart type="incipit" xml:lang="lat">Audiuimus et audientes mirati sumus</diploPart></diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">Dat. Lat. kal. madii</diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl>[Original]</bibl>
-               <bibl>Chartular von Bievaulx s. XII ex., Brit. Mus. Cott. Julius D 1  fol. 187 n. 233; Chartular von Meaux s. XIV med., ebenda Lansdowne  424 fol. 7'. </bibl>
+               <bibl>Original: -</bibl>
+               <bibl>Kopie: Chartular von Rievaulx, 12. Jh, British Library Cotton Julius MS D I  fol. 187 n. 233</bibl><bibl>Kopie: Chartular von Meaux, 14. Jh., British Library Lansdowne MS 424 fol. 7v. </bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>
@@ -75,7 +73,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Ed. J. C. Atkinson Cart. abb. de Bievalle p. 378 n. 35. </bibl>
+               <bibl>PUU England 1, S. 435, Nr. 161</bibl><bibl>Ed. J. C. Atkinson Cart. abb. de Rievalle, S. 378, Nr. 35. </bibl>
                <bibl>[Edition 2]</bibl>
             </listBibl>
          </div>
@@ -88,7 +86,7 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Der Text der Verfügung ist aus zahlreichen Parallelausfertigungen für andere Cisterzienserklöster bekannt.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>

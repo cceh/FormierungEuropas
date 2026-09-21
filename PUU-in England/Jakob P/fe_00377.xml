@@ -3,10 +3,7 @@
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
 <TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen -->
    <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
-            <respStmt>
+      <fileDesc><titleStmt><title>fe_00377</title><respStmt>
                <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
                <persName>JP</persName>
             </respStmt>
@@ -23,7 +20,7 @@
             <diploDesc><p><authen type="formula" n="na">
                <p>[-]</p>
                <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-            </authen></p><p><issued><placeName>Laterano</placeName><date type="issued" notBefore="1166-05-01" notAfter="1179-05-01">(1166—79) Mai 1.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            </authen></p><p><issued><placeName>Laterano</placeName><date type="issued" notBefore="1166-05-01" notAfter="1179-05-01">(1166—79) Mai 1</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Roger, Erzbischof von York</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
@@ -46,7 +43,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. weist den Erzbischof (Roger) von York und die Bischöfe (Robert) von Lincoln sowie (Gerhard) von Chester an, ihre Untergebenen zur Beachtung der Zehntfreiheit des Klosters Rufford (D. York) wie aller Zisterzienserklöster anzuhalten.<list><item>Falls ein Laie es wagen sollte, unrechtmäßigerweise den Zehnten vom Kloster zu fordern, dann soll er exkommuniziert werden.</item><item>Falls ein Mönch, Kleriker oder Kanoniker es wagen sollte, unrechtmäßigerweise den Zehnten vom Kloster zu fordern, dann soll er unter Ausschluss der Appellation von seinem Amt suspendiert werden. </item><item>Die Bischöfe sollen bis zu einer Wiedergutmachung für die Aufrechterhaltung der Exkommunikation und Suspension sorgen. </item></list></p>
+            <p>Alexander III. weist den Erzbischof (Roger) von York und die Bischöfe (Robert) von Lincoln sowie (Gerhard) von Chester an, ihre Untergebenen zur Beachtung der Zehntfreiheit des Klosters Rufford (D. York) wie aller Zisterzienserklöster anzuhalten.<list><item>Falls ein Laie es wagen sollte, unrechtmäßigerweise den Zehnten vom Kloster zu fordern, dann soll er exkommuniziert werden.</item><item>Falls ein Mönch, Kleriker oder Kanoniker es wagen sollte, unrechtmäßigerweise den Zehnten vom Kloster zu fordern, dann soll er  von seinem Amt suspendiert werden. </item><item>Die Bischöfe sollen bis zu einer Wiedergutmachung für die Aufrechterhaltung der Exkommunikation und Suspension sorgen. </item><item>Wer gewaltsam Hand an die Brüder des Klosters legt, soll exkommuniziert werden.</item></list></p>
          </div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Audiuimus et audientes mirati sumus</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">Dat. Lateran. kal. madii. </diploPart></div>
@@ -54,8 +51,8 @@
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl>Orig.: British Library Harley charter MS 111 A3.  </bibl>
-               <bibl>Kop.: 13. Jh.  in der Collectio Cheltenhamensis, British Library Egerton MS 2819 fol. 61. </bibl>
+               <bibl>Original.: British Library Harley charter MS 111 A3.  </bibl>
+               <bibl>Kopie: 13. Jh.  in der Collectio Cheltenhamensis, British Library Egerton MS 2819 fol. 61. </bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>
