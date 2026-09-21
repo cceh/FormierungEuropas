@@ -48,14 +48,13 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor><persName>Alexander III.</persName> </legalActor>gewährt auf Bitten des <legalActor><persName>Abtes Heinrich</persName> </legalActor>dem <legalActor>Benediktinerkloster Biburg</legalActor> (D. Regensburg) folgende Rechte: <list>
+            <p><legalActor><persName>Alexander III.</persName> </legalActor>gewährt auf Bitten des <legalActor><persName>Abtes Heinrich</persName> </legalActor>dem <legalActor><orgName>Benediktinerkloster Biburg</orgName></legalActor> (D. Regensburg) folgende Rechte: <list>
                   <item>die Aufnahme in den apostolischen Schutz.</item><item>[Listeneintrag 1]</item>
                </list></p>
          </div>
 
          <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+            <head>Incipit</head><diploPart type="incipit" xml:lang="lat">Religiosam vitam eligentibus apostolicum convenit</diploPart>
          </div>
          <div>
             <head>Subscriptiones</head>
