@@ -26,7 +26,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Benediktinerkloster Biburg</legalActor></p><p><legalActor type="recipient">Isinricus, Abt des Benediktinerklosters Biburg</legalActor></p>
+               <p><legalActor type="recipient">Benediktinerkloster Biburg</legalActor></p><p><legalActor type="recipient">Heinrich, Abt des Benediktinerklosters Biburg</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
@@ -48,7 +48,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>[Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
+            <p>Alexander III. gewährt auf Bitten des Abtes Heinrich dem Benediktinerkloster Biburg (D. [Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
