@@ -66,17 +66,13 @@
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
-               <listBibl>
-                  <bibl type="original">-</bibl>
-                  <bibl type="msCopy">[Copiale monasterii (16. Jh.handschriftliche Kopie]</bibl>
-                  <bibl type="print">[Druck]</bibl>
-               </listBibl>
+               <listBibl><bibl type="original">-</bibl><bibl type="msCopy">Copiale monasterii (16. Jh.), fol. 5 - Archivsignatur kontrollieren</bibl><bibl type="print">[Druck]</bibl></listBibl>
             </div>
          </div>
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
+               <bibl>[-</bibl>
                <bibl>[Dekretale 2]</bibl>
             </listBibl>
          </div>
