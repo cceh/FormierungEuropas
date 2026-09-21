@@ -100,7 +100,7 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Dem Inhalt nach zu urteilen, muss es sich um eine Litterae cum filo canapis gehandelt habe.</p>
+               <p>Original nicht erhalten. Dem Inhalt nach zu urteilen, muss es sich um eine Litterae cum filo canapis gehandelt habe.</p>
             </diploDesc>
          </div>
          <div type="commentary">
@@ -116,7 +116,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+            <p>Kop[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
