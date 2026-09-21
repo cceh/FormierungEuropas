@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI source="formierung-europas_pontificia" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc><titleStmt><title>fe_00166</title><respStmt><resp>Datenquelle</resp><persName>JB</persName></respStmt>
+            <respStmt><resp when="2026">Encoding</resp><persName>JB</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Germ. Pont. 1, S. 199, Nr. 30</bibl><bibl type="jaffe">–</bibl>
+            <bibl>[Weiteres Konkordanzregest]</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>-</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>–</placeName><date type="issued" notBefore="1161-01-01" notAfter="1161-12-31">(1163-1164)</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">Gerhoch, Propst des Regularkanonikerstifts Reichersberg</legalActor></p>
+               <p><legalActor type="recipient">Hyazinth, Kardinaldiakon von S. Maria in Cosmedin</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Brief</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">Nachrichtenverbreitung, Kurie</objectType></p><p><objectType n=""/></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p><legalActor><persName>Gerhoch, Propst des Regularkanonikerstifts Reichersberg</persName></legalActor>, bittet <legalActor><persName>Hyazinth, Kardinaldiakon von Santa Maria in Cosmedin</persName></legalActor>, sein an Papst Alexander III. gerichtetes Schreiben zur Kenntnis zur nehmen und auch die anderen Kardinäle zum Lesen zu bewegen. <list>
+                  <item>Er warnt davor, die Irrlehren der Häretiker Photinus, Paulus von Samosata, Nestorius und Bonosus wiederaufleben zu lassen, die die Allmacht des erhöhten <diploPart>homo assumptus</diploPart> leugnen. </item><item>Er verweist auf die Pflicht der römischen Kirche, mit Gottes Gnade sich gegen Verleumdungen zu erheben, und fordert Hyazinth aufgrund seiner einflussreichen Position zum Widerstand gegen die Feinde auf.</item>
+               </list></p>
+         </div>
+
+         <div>
+            <head>Incipit</head><diploPart type="incipit" xml:lang="lat">Ea que scripsi domino pape sic</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head><diploPart type="datatio">-</diploPart>
+         </div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">-</bibl>
+                  <bibl type="msCopy">Admont, Stiftsbibliothek, Cod. 434, fol. 169v-170v; digital verfügbar unter: https://manuscripta.at/diglit/AT1000-434/0338?sid=18f3715f7f43b75e142c4c86e405b2d3</bibl>
+                  <bibl type="print">[Druck]</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>-</bibl>
+               <bibl/>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>-</bibl>
+               <bibl/>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Migne PL 193, Sp. 573-574, Nr. 19</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL –</bibl>
+               <bibl>Germ. Pont. 1, S. 199, Nr. 30 (datiert um 1161)</bibl><bibl>Classen, Gerhoch, S. 392, R 136</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>Das vorliegende Schreiben muss zwischen dem Brief Folmars von Triefenstein an Eberhard von Salzburg im Herbst 1163 (Classen, Gerhoch, S. 386, R 124) und dem Antwortschreiben Alexanders III. vom 22. März 1164 (Classen, Gerhoch, S. 393, R 139; ##FE Nr. 00170##) verfasst worden sein (vgl. Classen, Gerhoch, S. 391, R 133). Vgl. auch ##FE Nr. 00165##.</p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Gerhoch nimmt hier auf sein Schreiben an Papst Alexander III. Bezug: ##FE Nr. 00165## (Germ. Pont. 1, S. 199, Nr. 29). Vermutlich wurde dieser Brief Gerhochs gemeinsam mit den beiden Schreiben an Alexander III. und dem Brief an Kardinal Heinrich an die Kurie überbracht (##FE Nr. 00165-00168??##). Vgl. Classen, Gerhoch, S. 391, R 133.</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Werk 1]</bibl>
+               <bibl>[Werk 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>
