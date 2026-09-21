@@ -19,18 +19,18 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>PUU England 1, S. 435, Nr. 161</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
+            <bibl>PUU England 1, S. 435, Nr. 161</bibl><bibl type="jaffe">-</bibl>
             <diploDesc><p><authen type="formula" n="na">
-               <p>[*+?-]</p>
+               <p>[-]</p>
                <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-            </authen></p><p><issued><placeName>Laterano</placeName><date type="issued" notBefore="1166-05-01" notAfter="1179-05-01">(1166—79) Mai 1.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            </authen></p><p><issued><placeName>Laterano</placeName><date type="issued" notBefore="1166-05-01" notAfter="1179-05-01">(1166—79) Mai 1</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Roger, Erzbischof von York</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p> <legalActor type="recipient">Hugo, Bischof von Durham</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p> <legalActor type="recipient">Kleriker der Diözese</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p> <legalActor type="beneficiary">Abtei Rievaulx (OCist)</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <p><legalActor type="beneficiary">Zisterzienserabtei Rievaulx</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">P</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
