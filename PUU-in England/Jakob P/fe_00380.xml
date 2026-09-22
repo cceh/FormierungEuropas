@@ -51,7 +51,7 @@
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl>Orig.: London, Lambeth Palace Library cod. 643 n. 18. </bibl>
+               <bibl>Orig.: London, Lambeth Palace Library cod. 643 Nr. 18. </bibl>
                <bibl>Kopie: - </bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
@@ -80,7 +80,7 @@
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>[Regest 1]</bibl>
+               <bibl><diploDesc>Montague Rhodes James, A Descriptive Catalogue of the Manuscripts in the Library of Lambeth Palace. The Mediaeval Manuscripts. Cambridge 1932, S. 784.</diploDesc></bibl>
                <bibl>[Regest 2]</bibl>
             </listBibl>
          </div>
