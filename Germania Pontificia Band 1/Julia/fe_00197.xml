@@ -30,7 +30,7 @@
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, Litterae, nicht kategorisierbar</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">[Anweisung</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
+               <p><objectType n="">Nachrichtenverbreitung, religiöse Gemeinschaft</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
@@ -48,7 +48,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>[Alexander III. an den Abt und das Kapitel der Kirche von Altaich: Er unterrichtet sie über die Weisungen, die er an den Bischof von Regensburg (Nr. 3) sowie an die Edle Liutgard, Gräfin von Bogen, und deren Sohn Albert (Nr. 4) gerichtet hat.Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
+            <p>Alexander III. unterrichtet den Abt und das Kapitel der Kirche von Altaich: Er unterrichtet sie über die Weisungen, die er an den Bischof von Regensburg (Nr. 3) sowie an die Edle Liutgard, Gräfin von Bogen, und deren Sohn Albert (Nr. 4) gerichtet hat.Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
