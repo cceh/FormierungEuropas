@@ -30,7 +30,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <p><legalActor type="recipient">Roman II., Bischof vo]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, Litterae (cum filo canapis)</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
@@ -52,7 +52,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>Alexander III. weist den Bischof von Gurk und den Bischof von sowie die Prälaten der jeweiligen Kirchenprovinzen an, die Wahl Konrads zum Erzbischof von Salzburg zu feiern.<list>
+            <p><persName>Alexander III.</persName> weist <persName>Roman II., den Bischof von Gurk,</persName> und den Bischof von sowie die Prälaten der jeweiligen Kirchenprovinzen an, die Wahl Konrads zum Erzbischof von Salzburg zu feiern.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
