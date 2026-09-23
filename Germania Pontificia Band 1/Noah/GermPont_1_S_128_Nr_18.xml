@@ -30,7 +30,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Roman II., Bischof vo]</legalActor></p>
+               <p><legalActor type="recipient">Roman II., Bischof von Gurk</legalActor></p><p><legalActor type="recipient">, Bischof von</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, Litterae (cum filo canapis)</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
