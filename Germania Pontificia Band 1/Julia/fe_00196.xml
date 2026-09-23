@@ -48,14 +48,12 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor><persName>Alexander III.</persName> </legalActor>weist <legalActor><persName>Liutgard, Gräfin von Bogen</persName></legalActor>, und ihren <persName>Sohn Albert</persName> an, dem Benediktinerkloster Oberaltaich (D. Regensburg) Wohlwollen zu erweisen und dessen Rechte zu wahren. Außerdem sollen sie für die Rückgabe und friedliche Herausgabe jener Güter sorgen, die ihre Ministerialen zu Unrecht als Lehen durch das Kloster Oberaltaich innehaben. <list>
-                  <item>[Listeneintrag 1]</item>
-               </list></p>
+            <p><legalActor><persName>Alexander III.</persName> </legalActor>weist <legalActor><persName>Liutgard, Gräfin von Bogen</persName></legalActor>, und ihren <persName>Sohn Albert</persName> an, dem Benediktinerkloster Oberaltaich (D. Regensburg) Wohlwollen zu erweisen und dessen Rechte zu wahren. Außerdem sollen sie für die Rückgabe und friedliche Herausgabe jener Güter sorgen, die ihre Ministerialen zu Unrecht als Lehen durch das Kloster Oberaltaich innehaben. </p>
          </div>
 
          <div>
             <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+            <diploPart type="incipit" xml:lang="lat">[-m dolor sit amet]</diploPart>
          </div>
          <div>
             <head>Subscriptiones</head>
