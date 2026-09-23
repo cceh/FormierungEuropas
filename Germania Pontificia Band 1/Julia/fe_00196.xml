@@ -26,7 +26,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <p><legalActor type="recipient">[Liutgard, Gräfin von Bogen</legalActor></p><p><legalActor type="recipient">AlbertEmpfänger]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
@@ -48,7 +48,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>[Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
+            <p>[Alexander III. weist Liutgard, Gräfin von Bogen, und ihren Sohn Albert an, dem Kloster Altaich Wohlwollen zu erweisen und dessen Rechte zu wahren sowie für die Rückgabe und friedliche Herausgabe jener Güter zu sorgen, die ihre Ministerialen angeblich zu Unrecht als Lehen von eben jenem Kloster innehaben.Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
