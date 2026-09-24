@@ -30,7 +30,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Gurk, Domkapitel</legalActor></p><p><legalActor type="recipient">Roman,</legalActor></p>
+               <p><legalActor type="recipient">Gurk, Domkapitel</legalActor></p><p><legalActor type="recipient">Roman, Dompropst zu Gurk</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
@@ -52,8 +52,8 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><persName>Alexander III.</persName> gewährt und bestätigt dem Gurker Domkapitel unter Roman, dem Dompropst, folgende Rechte und Besitzungen:<list>
-                  <item>Er nimmt das Domkapitel in apostolischen Schutz.</item><item>Er bestätigt die Regel des hl. Augustinus, die einst <persName>Hiltebold, der Bischof von Gurk,</persName> dort eingeführt hat.</item><item>Er bestätigt alle derzeitigen und zukünftigen Besitzungen und Güter, die das Domkapitel gegenwärtig rechtmäßig besitzt oder die dem Domkapitel zukünftig durch Päpste, Könige, Fürsten oder Getreue auf jedwede Art und Weise zukommen werden. Einige der gegenwärtigen Besitzungen und Güter werden nebst ihren Stiftern namentlich genannt.</item><item>Er garantiert das Begräbnisrecht, sofern die zu Begrabenden nicht exkommuniziert sind oder das Interdikt über sie verhängt worden ist.</item><item>Schlussformeln: Perturbationsverbot, Sanctio negativa und positiva.</item>
+            <p><persName>Alexander III.</persName> gewährt und bestätigt dem <orgName>Gurker Domkapitel</orgName> unter <persName>Roman, dem Dompropst zu Gurk,</persName> folgende Rechte und Besitzungen:<list>
+                  <item>Er nimmt das Domkapitel in apostolischen Schutz.</item><item>Er bestätigt die Regel des hl. Augustinus, die einst <persName>Hiltebold, der Bischof von Gurk,</persName> dort eingeführt hat.</item><item>Er bestätigt alle derzeitigen und zukünftigen Besitzungen und Güter, die das Domkapitel gegenwärtig rechtmäßig besitzt oder die dem Domkapitel zukünftig durch Päpste, Könige, Fürsten oder Getreue auf jedwede Art und Weise zukommen werden. Einige der gegenwärtigen Besitzungen und Güter werden nebst ihren Stiftern namentlich genannt.</item><item>Er garantiert das Begräbnisrecht, sofern die zu Begrabenden nicht exkommuniziert sind oder das Interdikt über sie verhängt worden ist.</item><item>Er bestätigt die freie Wahl des Dompropstes gemäß der Regel des hl. Augustinus.</item><item>Schlussformeln: Perturbationsverbot, Sanctio negativa und positiva.</item>
                </list></p>
          </div>
 
