@@ -19,22 +19,22 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>Germ.Pont. 1, S. 130, Nr. 2</bibl><bibl type="jaffe">11599</bibl>
+            <bibl>Germ. Pont. 1, S. 130-131, Nr. 2</bibl><bibl type="jaffe">11599</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
                <p><authen type="formula" n="na">
-                     <p>[*+?-]</p>
+                     <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Benevento</placeName><date type="issued" notBefore="1169-03-05" notAfter="1169-03-05">05 März 1169</date>
+               <issued><placeName>Benevent</placeName><date type="issued" notBefore="1169-03-05" notAfter="1169-03-05">1169 Mär. 5</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
-               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p><legalActor type="recipient">Gurk, Domkapitel</legalActor></p><p><legalActor type="recipient">Roman, Dompropst zu Gurk</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">[Typisierung 2]</objectType></p>
+               <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
@@ -52,83 +52,73 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>[Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
-                  <item>[Listeneintrag 1]</item>
+            <p><persName>Alexander III.</persName> gewährt und bestätigt dem <orgName>Gurker Domkapitel</orgName> unter <persName>Roman, dem Dompropst zu Gurk,</persName> folgende Rechte und Besitzungen:<list>
+                  <item>Er nimmt das Domkapitel in apostolischen Schutz.</item><item>Er bestätigt die Regel des hl. Augustinus, die einst <persName>Hiltebold, der Bischof von Gurk,</persName> dort eingeführt hat.</item><item>Er bestätigt alle derzeitigen und zukünftigen Besitzungen und Güter, die das Domkapitel gegenwärtig rechtmäßig besitzt oder die dem Domkapitel zukünftig durch Päpste, Könige, Fürsten oder Getreue auf jedwede Art und Weise zukommen werden. Einige der gegenwärtigen Besitzungen und Güter werden nebst ihren Stiftern namentlich genannt.</item><item>Er garantiert das Begräbnisrecht, sofern die zu Begrabenden nicht exkommuniziert sind oder das Interdikt über sie verhängt worden ist.</item><item>Er setzt fest, dass die Pfarrkirchen die Almosen für ihre verstorbenen Pfarrer von allen Seiten unbehelligt vom Domkapitel erhalten und behalten dürfen sollen.</item><item>Er bestätigt die freie Wahl des Dompropstes gemäß der Regel des hl. Augustinus.</item><item>Schlussformeln: Perturbationsverbot, Sanctio negativa und positiva.</item>
                </list></p>
          </div>
 
-         <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
-         </div>
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Quotiens illud a nobis petitur</diploPart></div>
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+                  <item>(R) Ego Alexander catholice ecclesie episcopus subscripsi. (BV)</item><item>Ego Hvbaldus Hostiensis episcopus subscripsi.</item><item>Ego Bernardus Portuensis et sancte Rufine episcopus subscripsi.</item><item>Ego Conradus Moguntinus archiepiscopus et Sauinensis episcopus subscripsi.</item><item>Ego Hvbaldus presbiter cardinalis tituli sancte Crucis in Ierusalem subscripsi.</item><item>Ego Iohannes presbiter cardinalis sanctorum Iohannis et Pauli tituli Pamachii subscripsi.</item><item>Ego Iohannes presbiter cardinalis tituli sancte Anastasie subscripsi.</item><item>Ego Albertus presbiter cardinalis tituli sancti Laurentii in Lucina subscripsi.</item><item>Ego Boso presbiter cardinalis sancte Pudentiane tituli Pastoris subscripsi.</item><item>Ego Petrus presbiter cardinalis tituli sancti Laurentii in Damaso subscripsi.</item><item>Ego Iohannes presbiter cardinalis tituli sancti Marci subscripsi.</item><item>Ego Theodinus presbiter cardinalis sancti Vitalis tituli Vestine subscripsi.</item><item>Ego Arditio diaconus cardinalis sancti Theodori subscripsi.</item><item>Ego Hugo diaconus cardinalis sancti Heustachii iuxta templum Agrippe subscripsi.</item><item>Ego Vitellus diaconus cardinalis sanctorum Sergii et Bachi subscripsi.</item>
                </list></diploPart>
          </div>
-         <div>
-            <head>Datatio</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
-         </div>
+         <div><head>Datatio</head><diploPart type="datatio">Dat. Beneuent. per manum Gratiani sancte Romane ecclesie subdiaconi et notarii, III non. martii, indictione II, incarnationis dominice anno MCLXVIII, pontificatus vero domni Alexandri  pape III anno X.</diploPart></div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="original">Klagenfurt, Kärntner Landesarchiv, AT-KLA 418-B-C 1269 F St; digital verfügbar unter: https://www.monasterium.net/mom/AT-KLA/AUR/AT-KLA_418-B-C_1269_F_St/charter</bibl>
+                  <bibl type="msCopy">-</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
-               <bibl>[Quelle 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Germ.Pont. 1, S. 130, Nr. 2</bibl>
-               <bibl>[Edition 2]</bibl>
+               
+               <bibl>Monumenta historica ducatus Carinthiae 1, S. 195-197, Nr. 256</bibl><bibl>UB Steiermark 1, S. 471-472, Nr. 506 (ad a. 1168; Auszüge)</bibl>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head>
-            <listBibl>
-               <bibl>JL 11599</bibl>
-               <bibl>[Regest 2]</bibl>
+            <listBibl><bibl>Germ. Pont. 1, S. 130-131, Nr. 2</bibl><bibl>JL 11599</bibl>
+               <bibl>Urkunden-Regesten zur Geschichte Kärntens (Nachträge), ed. Ankershofen, S. 155-157, Nr. 32</bibl>
             </listBibl>
          </div>
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
+               <p>Rota vorhanden; Inschrift: <diploPart>s(an)c(tu)s PETRUS / s(an)c(tu)s PAULUS / ALEXA|NDER p(a)p(a) III.</diploPart>; Devise: <diploPart cert="high" type="rota" xml:space="default">vias tuas domine demonstra michi</diploPart>. </p><p>Bulle an gelben und roten Seidenfäden; Avers-Seite: <diploPart>ALEX|ANDER P(A)P(A) III</diploPart>; Revers-Seite: <diploPart>S(anctus) PA(ULUS) S(anctus) PE(TRUS)</diploPart>, samt Porträts der Apostelfürsten.</p>
             </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>[Kommentare zur Identifizierung von Personen, Institutionen und Orten, zu Vor- und Nachurkunden, Konfliktverläufen etc. Literaturnageben (bibl) sind zulässig]</p>
+            <p>Das vorliegende feierliche Privileg ist später vielfach wieder aufgegriffen worden: 1184 nahm <persName>Lucius III.</persName> hierauf Bezug (vgl. <bibl>Germ. Pont. 1, S. 132, Nr. 9</bibl>); 1208 bezog sich <persName>Innozenz III.</persName> auf die vorangegangenen Privilegierungen (vgl. <bibl>Monumenta historica ducatus Carinthiae 1, S. 319-322, Nr. 421</bibl>) ; 1222 folgte <persName>Honorius III.</persName> hierin dem Beispiel seiner Amtsvorgänger (vgl. <bibl>Monumenta historica ducatus Carinthiae 1, S. 376-378, Nr. 493</bibl>) .</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
             <listBibl>
-               <bibl>[Werk 1]</bibl>
-               <bibl>[Werk 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+            <p>[Almosenformel für die Pfarrer (?) ist unklar]</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
