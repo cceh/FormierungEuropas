@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_puu-in"> <!-- Ordnername hier ergänzen -->
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen -->
    <teiHeader>
       <fileDesc><titleStmt><title>fe_00352</title>
             <respStmt><resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp><persName>JP</persName></respStmt>
@@ -36,7 +39,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p><persName>Alexander III.</persName> verleiht den <orgName>Kanonikern des Augustinerpriorats von Stone</orgName> (D. Lichfield) unter <persName>R(oger), Prior von Stone,</persName> ein Privileg und gewährt die folgenden Rechte:</p><p><list><item>apostolischen Schutz all ihrer derzeitigen und zukünftigen geistlichen und weltlichen Güter</item><item>allgemeines Verbot, die Kanoniker, ihre 
+            <p><persName>Alexander III.</persName> gewährt den <orgName>Kanonikern des Augustinerpriorats von Stone</orgName> (D. Lichfield) unter <persName>R(oger), Prior von Stone,</persName> ein Privileg und gewährt die folgenden Rechte:</p><p><list><item>apostolischen Schutz all ihrer derzeitigen und zukünftigen geistlichen und weltlichen Güter</item><item>allgemeines Verbot, die Kanoniker, ihre 
 Besitzungen oder deren Aufseher und Verwalter zu suspendieren, mit einem
  Interdikt oder einer Exkommunikation zu belegen oder von ihnen oder 
 ihren Besitzungen ohne ordnungsgemäßes Gerichtsverfahren etwas zu 
