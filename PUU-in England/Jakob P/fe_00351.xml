@@ -21,7 +21,7 @@
                <issued><placeName>Anagni</placeName><date type="issued" notBefore="1160-01-15" notAfter="1160-01-15">(1160) Jan. 15</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p> <legalActor type="recipient">Benediktinerkloster St. Oswald in Bardney</legalActor></p><p><legalActor type="recipient">Walter, Abt des Klosters St. Oswald in Bardney</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient">Benediktinerkloster St. Oswald in Bardney</legalActor></p><p><legalActor type="recipient">Walter, Abt des Benediktinerklosters St. Oswald in Bardney</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p>
                <p><objectType n="">Juristisches, Rechtsbestätigung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
@@ -38,7 +38,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p><legalActor><persName>Alexander III.</persName></legalActor> bestätigt <legalActor><persName>Walter, Abt des Benediktinerklosters von St. Oswald</persName></legalActor>, und <orgName>den Mönchen des Kloster St. Oswald</orgName> (D. Lincoln) die von <persName>Jordan, Abt von Charroux</persName>, mit der Zustimmung seines Kapitels gewährte Befreiung von der Gerichtsbarkeit und Gehorsamspflicht gegenüber dem <orgName>Benediktinerkloster Kloster Charroux</orgName> (D. Poitiers).<list><item>Schlussformel: Perturbationsverbot, Sanctio negativa</item>
+            <p><legalActor><persName>Alexander III.</persName></legalActor> bestätigt <legalActor><persName>Walter, Abt des Benediktinerklosters von St. Oswald</persName></legalActor>, und <orgName>den Mönchen des Kloster St. Oswald</orgName> (D. Lincoln) die von <persName>Jordan, Abt von Charroux</persName>, mit der Zustimmung seines Kapitels gewährte Befreiung von der Gerichtsbarkeit und Gehorsamspflicht gegenüber dem <orgName>Benediktinerkloster Charroux</orgName> (D. Poitiers).<list><item>Schlussformel: Perturbationsverbot, Sanctio negativa</item>
                </list> </p>
          </div>
          
