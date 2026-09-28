@@ -29,7 +29,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued><p><legalActor type="issuer">Viktor IV.</legalActor></p><p><legalActor type="recipient">Balduin, Abt der Benediktinerabtei
                      Liesborn</legalActor></p><p><legalActor type="recipient">Gunther, Propst des Benediktinerinnenklosters
-                  Lippoldsberg</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType ref="na">Papsturkunde, Litterae cum filo canapis</objectType></p><!-- Referenz aus Liste entnehmen --><p><objectType ref="na">Anweisung, Beauftragung durch</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+                  Lippoldsberg</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType ref="na">Papsturkunde, Litterae cum filo canapis</objectType></p><!-- Referenz aus Liste entnehmen --><p><objectType ref="na">Anweisung, Wiederherstellung von Recht</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
