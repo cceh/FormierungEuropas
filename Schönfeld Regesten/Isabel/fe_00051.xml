@@ -11,7 +11,11 @@
                <resp>Die Formierung Europas</resp>
                <persName>IB</persName>
             </respStmt>
-            <respStmt><resp when="2025">Encoding:</resp><persName>SG, IB, FL</persName><persName/></respStmt>
+            <respStmt>
+               <resp when="2025">Encoding:</resp>
+               <persName>SG</persName>
+               <persName>IB, FL</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -49,7 +53,7 @@
             <head>Abstract:</head>
             <p><persName>Viktor IV.</persName> überträgt <persName>Balduin, Abt des Benediktinerklosters
                Liesborn</persName> (D. Münster), und <persName>Gunther, Propst des
-               Benediktinerinnenkonvents Lippoldsberg</persName> (D. Mainz) den vor den Apostolischen Stuhl gebrachten Fall des <persName>Priesters Egrich</persName> zur Anhörung und Entscheidung. Dieser beklagt Einbruch und Raub von Kirchengut durch den <persName>Kleriker Lambert</persName> und dem Laien <persName>E.</persName>, dem auch widerrechtliche Inbesitznahme von Kirchenbesitzungen. Zudem sollen die Ritter <persName>C.,</persName>
+               Benediktinerinnenkonvents Lippoldsberg</persName> (D. Mainz) den vor den Apostolischen Stuhl gebrachten Fall des <persName>Priesters Egrich</persName> zur Anhörung und Entscheidung. Dieser beklagt Einbruch und Raub von Kirchengut durch den <persName>Kleriker Lambert</persName> und dem Laien <persName>E.</persName>, dem auch widerrechtliche Inbesitznahme von Kirchenbesitzungen vorgeworfen wird. Zudem sollen die Ritter <persName>C.,</persName>
             <persName>H.</persName> und <persName>E.</persName> die Zahlung, mit der sie für den Laien E. gebürgt hatten, nicht geleistet haben. Ein gewisser <persName>B.</persName> weigere sich zudem, ein bei Egrich aufgenommenes Darlehen zurückzuzahlen. Viktor IV. trägt Abt Balduin und Propst Gunther auf, die Delinquenten zu ermahnen und
             kanonisch zu strafen, sollten diese nicht binnen 40 Tage Egrich Recht widerfahren zu lassen.<list>
                <item>[Listeneintrag 1]</item>
@@ -75,7 +79,7 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">Original: Marburg, Hessisches Staatsarchiv, Kloster
+                  <bibl type="original">Marburg, Hessisches Staatsarchiv, Kloster
                      Lippoldsberg (1161) Juni 26; Digitalisat:
                      https://urkundenrepositorium.uni-marburg.de/entities/urkunde/41f260b3-6b05-4282-8e66-ae66e82dc956</bibl>
                   <bibl type="msCopy">Marburg, Hessisches Staatsarchiv, Urk. 100, 1337 (17.
@@ -100,8 +104,8 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 279–280, Nr. V51</bibl>
-               <bibl>Acta Maguntina, ed. Stumpf-Brentano, S. 76, Nr. 73</bibl>
+               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 279–280, Nr. V51.</bibl>
+               <bibl>Acta Maguntina, ed. Stumpf-Brentano, S. 76, Nr. 73.</bibl>
             </listBibl>
          </div>
          <div type="regesta">
@@ -109,8 +113,8 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14452</bibl>
-               <bibl>Germ. Pont. 4, S. 291, Nr. 4.</bibl>
-               <bibl>Germ. Pont. 9, S. 86, Nr. 5.</bibl>
+               <bibl>Germ. Pont. 4, S. 291, S. 291, Nr. 4.</bibl>
+               <bibl>Germ. Pont. 9, S. 86, S. 86, Nr. 5.</bibl>
                <bibl>Weiers, Münster, S. 146, Nr. 5.</bibl>
                <bibl>Mayr, Pontifikat, S. 111, Nr. 37.</bibl>
                <bibl>Bischoff, Urkundenformate, S. 140.</bibl>
@@ -119,7 +123,7 @@
            <div> <head>Diplomatischer Kommentar</head>
             <diploDesc><p>Schönfeld markiert das gesamte Datum als erschlossen, obgleich die Datatio
                   deutlich zu erkennen ist. Jaffé-Löwenfeld und Mayr erschließen korrekt nur das
-                  Ausstellungsjahr.</p><p/><p>Inschrift der Bleibulle: <diploPart>VIC/TOR/PP IIII</diploPart>. </p></diploDesc>
+                  Ausstellungsjahr.</p><p/><p>Bleibulle erhalten, Inschrift: VIC/TOR/PP IIII. [Text und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer Kommentar] </p></diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
