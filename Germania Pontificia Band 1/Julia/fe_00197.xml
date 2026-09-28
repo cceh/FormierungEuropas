@@ -1,16 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI source="formierung-europas_pontificia" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>fe_00269</title><respStmt>
-               <resp>Datenquelle</resp>
-               <persName>NW</persName>
-            </respStmt>
-            <respStmt>
-               <resp when="2026">Encoding</resp>
-               <persName>NW</persName>
-            </respStmt>
+      <fileDesc><titleStmt><title>fe_00197</title><respStmt><resp>Datenquelle</resp><persName>JB</persName></respStmt>
+            <respStmt><resp when="2026">Encoding</resp><persName>JB</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -19,22 +14,23 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>Germ.Pont. 1, S. 130, Nr. 2</bibl><bibl type="jaffe">11599</bibl>
+            <bibl>Germ. Pont. 1, S. 324, Nr. 5</bibl><bibl type="jaffe">–</bibl>
+            <bibl>[Weiteres Konkordanzregest]</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
                <p><authen type="formula" n="na">
-                     <p>[*+?-]</p>
+                     <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Benevento</placeName><date type="issued" notBefore="1169-03-05" notAfter="1169-03-05">05 März 1169</date>
+               <issued><placeName>Anagni</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1175-12-06" precision="high" unit="cm" xml:space="default" notBefore="1173-12-06" type="issued">(1173-1175), Dezember 06</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
-               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p><legalActor type="recipient">Abt des Benediktinerklosters Oberaltaich</legalActor></p><p><legalActor type="recipient">Kapitel des Benediktinerklosters Oberaltaich</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <p><objectType n="">Papsturkunde, Litterae, nicht kategorisierbar</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">[Typisierung 2]</objectType></p>
+               <p><objectType n="">Nachrichtenverbreitung, religiöse Gemeinschaft</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
@@ -52,15 +48,11 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>[Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
-                  <item>[Listeneintrag 1]</item>
-               </list></p>
+            <p><legalActor><persName>Alexander III.</persName></legalActor> unterrichtet den Abt und das Kapitel des Benediktinerklosters Oberaltaich (D. Regensburg) über die Anweisungen, die er den Bischof von Regensburg und an Liutgard, Gräfin von Bogen, sowie deren Sohn Albert bezüglich der Wiederherstellung und Wahrung der Rechte des Klosters gerichtet hat.</p>
          </div>
 
          <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
-         </div>
+            <head>Incipit</head><diploPart type="incipit" xml:lang="lat">Cum monasterium vestrum nobis nullo</diploPart></div>
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
@@ -68,15 +60,14 @@
                </list></diploPart>
          </div>
          <div>
-            <head>Datatio</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+            <head>Datatio</head><diploPart type="datatio">Datum Anagnie, VIII. ydus Decembris. </diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
+                  <bibl type="original">-</bibl>
+                  <bibl type="msCopy">München, Bayerisches Hauptstaatsarchiv, Liber copiarum mon. Oberaltacensis, fol. 6 (14. Jh.)</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
             </div>
@@ -84,40 +75,40 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
-               <bibl>[Quelle 2]</bibl>
+               <bibl>-</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Germ.Pont. 1, S. 130, Nr. 2</bibl>
+               <bibl>Monumenta Boica, Bd. XII, S. 112, Nr. 14</bibl>
                <bibl>[Edition 2]</bibl>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head>
             <listBibl>
-               <bibl>JL 11599</bibl>
-               <bibl>[Regest 2]</bibl>
+               <bibl>JL –</bibl>
+               <bibl>Germ. Pont. 1, S. 324, Nr. 5</bibl>
             </listBibl>
          </div>
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
+               <p>Aufgrund der fehlenden Originalüberlieferung ist die vorliegende Litterae nicht mehr genauer zu kategorisieren. Die Datierung dieser Litterae ist unsicher. In der Monumenta Boica ist dieses Stück auf das Jahr 1161 datiert und nach der Datierung steht der Zusatz: <diploPart>pontificatus nostri anno secundo</diploPart>. Dieser Zusatz fehlt im Kopialbuch jedoch. Da das Kloster Oberaltaich im Jahr 1159 zunächst ein Privileg Viktors IV. (##FE Nr. 00009##) erhält, schließt Brackmann die Jahre 1159-1161 aus. Danach ist Alexander III. seinem Itinerar zufolge erst wieder zwischen 1173-1175 in Anagni nachzuweisen. Vgl. Germ. Pont. 1, S. 324.  </p>
             </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>[Kommentare zur Identifizierung von Personen, Institutionen und Orten, zu Vor- und Nachurkunden, Konfliktverläufen etc. Literaturnageben (bibl) sind zulässig]</p>
+            <p>Der Konflikt zwischen dem Bischof von Regensburg und dem Kloster Oberaltaich ist wohl auf die Doppelrolle der Stifter von Oberaltaich als Grafen von Bogen und Domvögte von Regensburg zurückzuführen. Denn Graf Friedrich von Bogen stiftete das Kloster um das Jahr 1100 in seiner Funktion als Regensburger Domvogt. Bis zum Jahr 1148 übten die Regensburger Domvögte die Vogtei über das Kloster aus. Dies führte zu ständig wiederkehrenden Reibungen zwischen dem Bischof von Regensburg und den Vögten, die versuchten, das Klostergut als ihr Eigengut zu behandeln oder dem direkten Einfluss des Hochstifts Regensburg zu entziehen. Vgl. hierzu<bibl>Stieldorf, Klöster und ihre Vögte, S. 53-61</bibl>. Vgl. die hier erwähnten Schreiben Alexanders III. an den Bischof von Regensburg (##FE Nr. 00190##) und an die Gräfiin Liutgard von Bogen (##FE Nr. 00196##).  </p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>

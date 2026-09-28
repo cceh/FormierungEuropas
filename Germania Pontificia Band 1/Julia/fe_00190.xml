@@ -22,7 +22,7 @@
                      <p>*</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>(Anagni)</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1175-12-06" precision="high" unit="cm" xml:space="default" notBefore="1173-12-06" type="issued">(1175, Dezember 06)</date>
+               <issued><placeName>(Anagni)</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1175-12-06" precision="high" unit="cm" xml:space="default" notBefore="1173-12-06" type="issued">(1173-1175, Dezember 06)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
@@ -67,7 +67,7 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">Deperditum, erwähnt in Privileg Alexanders III. vom 6. Dezember (1173-1175) (Germ. Pont. 1, S. 325, Nr. 5; ##FE Nr. ##)</bibl>
+                  <bibl type="original">Deperditum, erwähnt in Privileg Alexanders III. vom 6. Dezember (1173-1175) (Germ. Pont. 1, S. 325, Nr. 5; ##FE Nr. 00197##)</bibl>
                   <bibl type="msCopy">[handschriftliche Kopie]</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
@@ -104,7 +104,7 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Beim vorliegenden Stück handelt es sich um ein Deperditum, das aus der Litterae Alexanders III. an den Abt und das Kapitel des Benediktinerklosters Oberaltaich vom 6. Dezember (1173-1175) erschlossen werden kann. Dem Inhalt nach zu urteilien, handelte es sich vermutlich um eine Litterae cum filo canapis.</p>
+               <p>Beim vorliegenden Stück handelt es sich um ein Deperditum, das aus der Litterae Alexanders III. an den Abt und das Kapitel des Benediktinerklosters Oberaltaich vom 6. Dezember (1173-1175) erschlossen werden kann. Dem Inhalt nach zu urteilen, handelte es sich vermutlich um eine Litterae cum filo canapis. Vgl. auch ##FE Nr. 00197##.</p>
             </diploDesc>
          </div>
          <div type="commentary">

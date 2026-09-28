@@ -18,10 +18,10 @@
                <p><authen type="formula" n="na">
                   <p>-</p>
                </authen></p>
-               <issued><placeName>Anagni</placeName><date type="issued" notBefore="1160-01-15" notAfter="1160-01-15">(1160) Jan. 15</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+               <issued><placeName>Anagni</placeName><date type="issued" when="1160-01-15">(1160) Jan. 15</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p> <legalActor type="recipient">Benediktinerkloster St. Oswald in Bardney</legalActor></p><p><legalActor type="recipient">Walter, Abt des Klosters St. Oswald in Bardney</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient">Benediktinerkloster St. Oswald in Bardney</legalActor></p><p><legalActor type="recipient">Walter, Abt des Benediktinerklosters St. Oswald in Bardney</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p>
                <p><objectType n="">Juristisches, Rechtsbestätigung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
@@ -38,7 +38,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p><legalActor><persName>Alexander III.</persName></legalActor> bestätigt <legalActor><persName>Walter, Abt des Benediktinerklosters von St. Oswald</persName></legalActor>, und <orgName>den Mönchen des Kloster St. Oswald</orgName> (D. Lincoln) die von <persName>Jordan, Abt von Charroux</persName>, mit der Zustimmung seines Kapitels gewährte Befreiung von der Gerichtsbarkeit und Gehorsamspflicht gegenüber dem <orgName>Benediktinerkloster Kloster Charroux</orgName> (D. Poitiers).<list><item>Schlussformel: Perturbationsverbot, Sanctio negativa</item>
+            <p><legalActor><persName>Alexander III.</persName></legalActor> bestätigt <legalActor><persName>Walter, Abt des Benediktinerklosters von St. Oswald</persName></legalActor> (D.Lincoln), und <orgName>den Mönchen des Klosters </orgName>die von <persName>Jordan, Abt des Benediktinerklosters Charroux</persName> (D. Poitiers), mit der Zustimmung seines Kapitels gewährte Befreiung von der Gerichtsbarkeit von und der Gehorsamspflicht gegenüber diesem Kloster.<list><item>Schlussformel: Perturbationsverbot, Sanctio negativa</item>
                </list> </p>
          </div>
          
@@ -53,9 +53,7 @@
             <div>
             <listBibl>   
                <bibl>Original: -</bibl>
-               <bibl>Kopie: Chartular von Bardney s. XIII,  British Library Cotton MS Vespasian E  XX, fol. 23. </bibl>
-               <bibl>[ggf. Druck]</bibl>
-            </listBibl>
+               <bibl>Kopie: Chartular von Bardney s. XIII,  British Library Cotton MS Vespasian E  XX, fol. 23.</bibl></listBibl>
          </div>
          </div>
          <div type="decretals">
@@ -74,18 +72,18 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>PUU England 1, S. 335-336, Nr. 76</bibl>
+               <bibl>PUU England 1, S. 335-336, Nr. 76.</bibl>
                <bibl/>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>JL: 10616</bibl></listBibl>
+               <bibl>JL 10616</bibl></listBibl>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Holtzmann datiert diese Urkunde und PUU England I, S. 336-338, Nr. 78 nach PUU England I, S. 336-338, Nr. 77 auf das Jahr 1160, da er davon ausgeht, dass sie gleichzeitig ausgestellt wurden.</p>
+            <p>Holtzmann datiert diese Urkunde und PUU England 1, S. 336-338, Nr. 78 nach PUU England 1, S. 336-338, Nr. 77 auf das Jahr 1160, da er davon ausgeht, dass alle drei Urkunden gleichzeitig ausgestellt wurden.</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
@@ -96,7 +94,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p/><p/><p/><p/><p/><p/><p/><p>Im Sachkommentar PUU-Angaben durch ##FE-Nummer##-Verweise ersetzen</p><p/><p/><p/><p/><p>Nach Verwendung löschen: Alexander episcopus seruus seruorum Dei. Dilectis filiis Wal-tero abbati et uniuersis monachis monasterii sancti Oswaldisalutem et apostolicam benedictionem. Ad hoc in beati Petriapostolorum principis cathedra licet immeriti domino auctore resi-demus, ut de uniuersarum ecclesiarum quiete debeamus propensiuscogitare et religiosarum personarum iustis petitionibus facilem im-pertiri consensum. Eapropter, dilecti in domino filii, uestris iustispostulationibus benigno concurrentes assensu monasterium, in quodiuino mancipati estis obsequio, sicut Iordanus abbas Carofensiscum consilio et assensu capituli sui a dominio et dispositione suarationabiliter exemisse dinoscitur, ita ab illorum iurisdictione atqueobedientia liberum esse censemus et libertatem ipsam uobis et") monasterio uestro in posterum robur firmitatis inuiolabiliter optineredecernimus atque deuotioni uestre ipsam auctoritate apostolica con-firmamus et presentis scripti patrocinio communimus. Statuentes,ut nulli omnino etc. Si quis autem etc. Dat. Anagn. X V I I I kal.februarii.</p>
+            <p/><p/><p/><p/><p/><p/><p/><p>Im Sachkommentar PUU-Angaben durch ##FE-Nummer##-Verweise ersetzen</p><p/><p/><p/><p/><p>Nach Verwendung löschen: Alexander episcopus seruus seruorum Dei. Dilectis filiis Waltero abbati et uniuersis monachis monasterii sancti Oswaldisalutem et apostolicam benedictionem. Ad hoc in beati Petriapostolorum principis cathedra licet immeriti domino auctore resi-demus, ut de uniuersarum ecclesiarum quiete debeamus propensius cogitare et religiosarum personarum iustis petitionibus facilem im-pertiri consensum. Eapropter, dilecti in domino filii, uestris iustis postulationibus benigno concurrentes assensu monasterium, in quodiuino mancipati estis obsequio, sicut Iordanus abbas Carofensiscum consilio et assensu capituli sui a dominio et dispositione sua rationabiliter exemisse dinoscitur, ita ab illorum iurisdictione atque obedientia liberum esse censemus et libertatem ipsam uobis et") monasterio uestro in posterum robur firmitatis inuiolabiliter optineredecernimus atque deuotioni uestre ipsam auctoritate apostolica con-firmamus et presentis scripti patrocinio communimus. Statuentes,ut nulli omnino etc. Si quis autem etc. Dat. Anagn. X V I I I kal.februarii.</p>
          </div>
       </body>
    </text>

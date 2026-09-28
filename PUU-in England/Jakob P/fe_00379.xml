@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_puu-in"> <!-- Ordnername hier ergänzen -->
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen -->
    <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
-            <respStmt>
+      <fileDesc><titleStmt><title>fe_00379</title><respStmt>
                <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
                <persName>JP</persName>
             </respStmt>
@@ -11,20 +11,21 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
-            <idno>PUU England 1, S. 436-437, Nr. 163</idno><availability>
+            <idno>PUU England 1, S. 435-436, Nr. 162</idno><availability>
                <licence>Lizenz</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>PUU England 1, S. 436-437, Nr. 163</bibl><bibl type="jaffe">-</bibl>
+            <bibl>PUU England 1, S. 435-436, Nr. 162</bibl><bibl type="jaffe">-</bibl>
             <diploDesc><p><authen type="formula" n="na">
                <p>[-]</p>
                <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-            </authen></p><p><issued><placeName>Laterano</placeName><date type="issued" notBefore="1166-05-12" notAfter="1179-05-12">(1166—79) Mai 12.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            </authen></p><p><issued><placeName>Laterano</placeName><date type="issued" notBefore="1166-05-09" notAfter="1179-05-09">(1166—79) Mai 9</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p> <legalActor type="beneficiary">Meister und Brüder des Templerordens</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <p> <legalActor type="recipient">Prokurator und Brüder des Hospitals von St. Peter's (St. Leonard's), York</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p>
+                <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
@@ -39,16 +40,16 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. verleiht dem Meister und den Brüdern des Templerordens ein Privileg und gewährt folgende Rechte: <list> <item>Er verbietet den Erzbischöfe, Bischöfen und ihren Amtsträgern den Kirchen des Ordens unrechtmäßige Abgaben aufzuerlegen, sie ohne einen offensichtlichen und vernünftigen Grund mit einem Interdikt zu belegen oder gegen ein Mitglied des Ordens eine Exkommunikation auszusprechen. </item><item>Er verbietet den Erzbischöfe, Bischöfen und ihren Amtsträgern ihre Pfarrangehörigen daran zu hindern, dem Orden Almosen zukommen zu lassen.</item><item>Schlussformeln: Perturbationsverbot, Sanctio negativa</item></list></p>
+            <p>Alexander III. verleiht dem Prokurator und den Brüdern des Hospitals von St. Peter's  (D. York) ein Privileg und gewährt folgende Rechte:</p><p><list> <item>Er bestätigt den Besitz, wie er durch die Urkunden der namentlich genannten Schenker bezeugt ist.</item><item>Schlussformeln: Perturbationsverbot, Sanctio negativa</item></list></p><p/><p/>
          </div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustis postulationibus religiosorum uirorum facilem</diploPart></div>
-         <div><head>Datatio:</head><diploPart type="datatio">Dat. Lat. IIII id. [m]ad[ii].</diploPart></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustis petentium desideriis dignum est</diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">Dat. Lat. VII idus maii.</diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl>Orig.: London, Lambeth Balace Library cod. 643 n. 18. </bibl>
-               <bibl>Kopie: - </bibl>
+               <bibl>Original: -</bibl>
+               <bibl>Kopie: Chartular von St. Leonard's York, 15. Jh., in.,  British Library Cotton MS Nero  D III fol. 68v. </bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>
@@ -69,7 +70,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>[Edition 1]</bibl>
+               <bibl>PUU England 1, S. 435-436, Nr. 162</bibl><bibl>W. Farrer Early Yorkshire Charters I, Edinburgh 1914, S. 166, Nr. 198. </bibl>
                <bibl>[Edition 2]</bibl>
             </listBibl>
          </div>
@@ -82,7 +83,7 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>[Kommentar]</p>
+            <p>Das Hospital wurde 1280 von St. Peter's zu St. Leonard's umbenannt. Vgl. Ed. David X. Carpenter, The Cartulary of St. Leonard's, York, Vol. 1, S. xlii.</p><p/>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
@@ -93,7 +94,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+            <p>Farrer Datiert zwischen 1173-1181</p>
          </div>
       </body>
    </text>

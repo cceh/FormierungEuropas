@@ -3,7 +3,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>fe_00268</title><respStmt>
+            <title>fe_00266</title>
+            <respStmt>
                <resp>Datenquelle</resp>
                <persName>NW</persName>
             </respStmt>
@@ -19,22 +20,22 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>Germ. Pont. 1, S. 128, Nr. *18</bibl><bibl type="jaffe">–</bibl>
+            <bibl>Germ. Pont. 1, S. 127, Nr. *16</bibl><bibl type="jaffe">–</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
-               <p><authen type="formula" n="deperditum">
+               <p><authen type="formula" n="na">
                      <p>*</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Venedig</placeName><date type="issued" notBefore="1177-08-09" notAfter="1177-08-09">1177 (vor Aug. 9)</date>
+               <issued><placeName>–</placeName><date type="issued" notBefore="1176-01-01" notAfter="1176-12-31">(1176)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Roman II., Bischof von Gurk</legalActor></p><p><legalActor type="recipient">Diepold, Bischof von Passau</legalActor></p>
+               <p><legalActor type="issuer">Gualterius, Bischof von Albano</legalActor></p>
+               <p><legalActor type="recipient">Alexander III.</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">Papsturkunde, Litterae (cum filo canapis)</objectType></p>
+               <p><objectType n="">[Typisierung 1]</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">Anweisung, XXX</objectType></p>
+               <p><objectType n="">[Typisierung 2]</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
@@ -52,7 +53,9 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><persName>Alexander III.</persName> weist <persName>Roman II., den Bischof von Gurk,</persName> und <persName>Diepold, den Bischof von Passau,</persName> sowie die ebenfalls anwesenden Prälaten der jeweiligen Kirchenprovinzen an, die Wahl <persName>Konrads III., des Erzbischofs von Salzburg,</persName> zu feiern.</p>
+            <p>Gualterius, der Bischof von Albano,  .<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
          </div>
 
          <div>
@@ -88,7 +91,7 @@
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>Chronicon Magni Presbiteri, ed. Wattenbach (MGH SS 17), S. 476-523, hier S. 505 Z. 9-11</bibl>
+               <bibl>[Quelle 1]</bibl>
             </listBibl>
          </div>
          <div type="editions">
@@ -102,28 +105,29 @@
             <head>Regesten</head>
             <listBibl>
                <bibl>JL –</bibl>
-               <bibl>Germ. Pont. 1, S. 128, Nr. *18</bibl>
+               <bibl>Germ. Pont. 1, S. 127, Nr. *16</bibl>
             </listBibl>
          </div>
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Das Deperditum geht auf eine in das <diploPart>Chronicon Magni Presbiteri </diploPart>inserierte Urkunde <persName>Alexanders III.</persName> zurück, die auf den 9. August (1177) datiert (vgl. <bibl>Germ. Pont. 1, S. 39-40, Nr. 130</bibl>). </p><p>In dieser wird auf die hier rekonstruierte Anweisung Bezug genommen (vgl. <bibl>Chronicon Magni Presbiteri, ed. Wattenbach (MGH SS 17), S. 476-523, hier S. 505 Z. 9-11</bibl>: <diploPart>venerabiles fratres nostri, Gurcensis et Pataviensis episcopi, et prelati ecclesiae vestrae qui apud nos presentes erant, de celebranda electione mandato nostro recepto</diploPart>).</p><p>Aus der Datierung der inserierten Urkunde als <diploPart>terminus ante quem</diploPart> ergibt sich die Datierung des Deperditums.</p><p>Sowohl die Bezeichnung als <diploPart>mandatum </diploPart>als auch der rekonstruierte Inhalt legen nahe, dass es sich bei dem Deperditum um eine Littera cum filo canapis gehandelt haben dürfte.</p>
+               <p>[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
             </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>-</p>
+            <p>[Kommentare zur Identifizierung von Personen, Institutionen und Orten, zu Vor- und Nachurkunden, Konfliktverläufen etc. Literaturnageben (bibl) sind zulässig]</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
             <listBibl>
-               <bibl>-</bibl>
+               <bibl>[Werk 1]</bibl>
+               <bibl>[Werk 2]</bibl>
             </listBibl>
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Ref.-Point muss ergänzt werden!]</p>
+            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>

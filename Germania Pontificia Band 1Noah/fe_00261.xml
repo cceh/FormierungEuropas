@@ -23,18 +23,18 @@
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
                <p><authen type="formula" n="na">
-                     <p>[*+?-]</p>
+                     <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
                <issued><placeName>Venedig</placeName><date type="issued" notBefore="1177-08-09" notAfter="1177-08-09">(1177) Aug. 9</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <p><legalActor type="recipient">Konrad III., Erzbischof von Salzburg</legalActor></p><p><legalActor type="recipient">Roman II., Bischof von Gurk</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <p><objectType n="">Papsturkunde, Litterae (cum filo canapis)</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">[Typisierung 2</objectType></p><p><objectType n="">Alexander III., Urheber]</objectType></p>
+               <p><objectType n="">Anweisung, Wiederherstellung von Recht</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
@@ -52,31 +52,25 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>[Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
-                  <item>[Listeneintrag 1]</item>
+            <p><persName>Alexander III.</persName> weist <persName>Konrad III., den Erzbischof von Salzburg und zugleich päpstlichen Legaten,</persName> und <persName>Roman II., den Bischof von Gurk,</persName> an, sich der Klage <persName>Pilgrims, des Abtes des Benediktinerklosters St. Paul im Lavanttal,</persName> anzunehmen, der folgende Punkte vor ihn getragen hat:<list>
+                  <item><persName>Cholo (von Trixen)</persName> hat auf dem Land des <orgName>Benediktinerklosters St. Paul im Lavanttal</orgName> (D. Gurk) widerrechtlich die Burg Unterdrauburg (<diploPart>castrum Trahburk</diploPart>) errichtet, den umliegenden Wald gerodet, das Land um die Burg herum beansprucht und ebendort eine Kirche errichtet.</item><item><persName>Pilgrim, der Abt des Benediktinerklosters St. Paul im Lavanttal,</persName> hat daher an den apostolischen Stuhl appelliert, um die Weihe der widerrechtlich errichteten Kirche zu verhindern.</item><item><persName>Hugo von Wolfsberg</persName> (<diploPart>Hugo de Wolfsperg</diploPart>) hat dem Kloster ferner durch Brand und andere Übel Schaden bereitet.</item><item><persName>Konrad III., der Erzbischof von Salzburg,</persName> und <persName>Roman II., der Bischof von Gurk,</persName> sollen gegen besagten <persName>Cholo</persName> und dessen Bruder <persName>Heinrich (von Trixen)</persName>, der die Burg Unterdrauburg und das umliegende Land des Klosters unrechtmäßig besetzt hält, einschreiten, sollten die vor <persName>Alexander III.</persName> getragenen Klagepunkte der Wahrheit entsprechen.</item><item>Die Brüder sollen mit allen Mitteln dazu bewegt werden, die Burg Unterdrauburg abzureißen und das Land zu restituieren. Sollten die Brüder sich widersetzen, soll über sie die Exkommunikation verhängt werden. </item><item>Die widerrechtlich errichtete Kirche darf unter Androhnung des Anathems nur im Namen des Klosters geweiht werden, sodass diejenigen, die die Burg Unterdrauburg bewohnen und das Land bewirtschaften, einzig Taufen feiern und die Sterbenden das Bußsakrament empfangen können.</item><item><persName>Hugo von Wolfsberg</persName> soll so lange exkommuniziert bleiben, bis er dem Recht des Klosters genüge getan hat.</item>
                </list></p>
          </div>
 
-         <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
-         </div>
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Dilectus filius noster Pilgrimus abbas</diploPart></div>
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+                  <item>-</item>
                </list></diploPart>
          </div>
-         <div>
-            <head>Datatio</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
-         </div>
+         <div><head>Datatio</head><diploPart type="datatio">Dat. Venetiis in Rivo alto, quinto idus augusti</diploPart></div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
                   <bibl type="original">-</bibl>
-                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
+                  <bibl type="msCopy">Wien, Österreichische Nationalbibliothek, Cod. 8574* HAN MAG, fol. 13r-v</bibl>
                   <bibl type="print">-</bibl>
                </listBibl>
             </div>
@@ -97,36 +91,35 @@
             <head>Editionen</head>
             <listBibl>
                
-               <bibl>[Edition 2]</bibl>
+               <bibl>Monumenta historica ducatus Carinthiae. Ergänzungsheft zu Band 1-4, S. 11, Nr. 1228a = 3056</bibl>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head>
             <listBibl>
                <bibl>JL –</bibl>
-               <bibl>Germ. Pont. 1, S. 120, Nr. 5</bibl><bibl>[Regest 2]</bibl>
+               <bibl>Germ. Pont. 1, S. 120, Nr. 5</bibl>
             </listBibl>
          </div>
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
+               <p>Die erschloßene Datierung der Littera auf das Jahr 1177 basiert auf dem Itinerar <persName>Alexanders III.</persName>, der sich nur 1177 in Venedig aufhielt (vgl. <bibl>JL 12836-12956</bibl>).</p><p>Der Inhalt der Littera als Mandat legt nahe, dass es sich hier um eine Littera cum filo canapis gehandelt haben dürfte.</p>
             </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>[Kommentare zur Identifizierung von Personen, Institutionen und Orten, zu Vor- und Nachurkunden, Konfliktverläufen etc. Literaturnageben (bibl) sind zulässig]</p>
+            <p>Im weiteren Verlauf des Rechtsstreits kam es zwischen dem <orgName>Benediktinerkloster St. Paul im Lavanttal</orgName> und den Brüdern <persName>Cholo</persName> und <persName>Heinrich von Trixen</persName> (<diploPart>de Truhse</diploPart>) zu einem Vergleich (vgl. <bibl>Monumenta historica ducatus Carinthiae 3, S. 475, Nr. 1257</bibl>).</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
             <listBibl>
-               <bibl>[Werk 1]</bibl>
-               <bibl>[Werk 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+            <p>[-]</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>

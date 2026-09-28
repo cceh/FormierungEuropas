@@ -1,15 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI source="formierung-europas_pontificia" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>fe_00268</title><respStmt>
+            <title>Germ.Pont. 1, S. 324, Nr. 5</title>
+            <respStmt>
                <resp>Datenquelle</resp>
-               <persName>NW</persName>
+               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
             </respStmt>
             <respStmt>
                <resp when="2026">Encoding</resp>
-               <persName>NW</persName>
+               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -19,22 +23,23 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>Germ. Pont. 1, S. 128, Nr. *18</bibl><bibl type="jaffe">–</bibl>
+            <bibl>Germ.Pont. 1, S. 324, Nr. 5</bibl><bibl type="jaffe">–</bibl>
+            <bibl>[Weiteres Konkordanzregest]</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
-               <p><authen type="formula" n="deperditum">
-                     <p>*</p>
+               <p><authen type="formula" n="na">
+                     <p>[*+?-]</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Venedig</placeName><date type="issued" notBefore="1177-08-09" notAfter="1177-08-09">1177 (vor Aug. 9)</date>
+               <issued><placeName>Anagni</placeName><date type="issued" notBefore="1173-12-06" notAfter="1175-12-06">6 Dezember  (1173-1175)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Roman II., Bischof von Gurk</legalActor></p><p><legalActor type="recipient">Diepold, Bischof von Passau</legalActor></p>
+               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">Papsturkunde, Litterae (cum filo canapis)</objectType></p>
+               <p><objectType n="">[Typisierung 1]</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">Anweisung, XXX</objectType></p>
+               <p><objectType n="">[Typisierung 2]</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
@@ -52,78 +57,83 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><persName>Alexander III.</persName> weist <persName>Roman II., den Bischof von Gurk,</persName> und <persName>Diepold, den Bischof von Passau,</persName> sowie die ebenfalls anwesenden Prälaten der jeweiligen Kirchenprovinzen an, die Wahl <persName>Konrads III., des Erzbischofs von Salzburg,</persName> zu feiern.</p>
+            <p>[Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
+                  <item>[Listeneintrag 1]</item>
+               </list></p>
          </div>
 
          <div>
             <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">-</diploPart>
+            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
          </div>
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>-</item>
+                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
                </list></diploPart>
          </div>
          <div>
             <head>Datatio</head>
-            <diploPart type="datatio">-</diploPart>
+            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">-</bibl>
-                  <bibl type="msCopy">-</bibl>
-                  <bibl type="print">-</bibl>
+                  <bibl type="original">[Original]</bibl>
+                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
+                  <bibl type="print">[Druck]</bibl>
                </listBibl>
             </div>
          </div>
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>-</bibl>
+               <bibl>[Dekretale 1]</bibl>
+               <bibl>[Dekretale 2]</bibl>
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>Chronicon Magni Presbiteri, ed. Wattenbach (MGH SS 17), S. 476-523, hier S. 505 Z. 9-11</bibl>
+               <bibl>[Quelle 1]</bibl>
+               <bibl>[Quelle 2]</bibl>
             </listBibl>
          </div>
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               
-               <bibl>-</bibl>
+               <bibl>Germ.Pont. 1, S. 324, Nr. 5</bibl>
+               <bibl>[Edition 2]</bibl>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head>
             <listBibl>
                <bibl>JL –</bibl>
-               <bibl>Germ. Pont. 1, S. 128, Nr. *18</bibl>
+               <bibl>[Regest 2]</bibl>
             </listBibl>
          </div>
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Das Deperditum geht auf eine in das <diploPart>Chronicon Magni Presbiteri </diploPart>inserierte Urkunde <persName>Alexanders III.</persName> zurück, die auf den 9. August (1177) datiert (vgl. <bibl>Germ. Pont. 1, S. 39-40, Nr. 130</bibl>). </p><p>In dieser wird auf die hier rekonstruierte Anweisung Bezug genommen (vgl. <bibl>Chronicon Magni Presbiteri, ed. Wattenbach (MGH SS 17), S. 476-523, hier S. 505 Z. 9-11</bibl>: <diploPart>venerabiles fratres nostri, Gurcensis et Pataviensis episcopi, et prelati ecclesiae vestrae qui apud nos presentes erant, de celebranda electione mandato nostro recepto</diploPart>).</p><p>Aus der Datierung der inserierten Urkunde als <diploPart>terminus ante quem</diploPart> ergibt sich die Datierung des Deperditums.</p><p>Sowohl die Bezeichnung als <diploPart>mandatum </diploPart>als auch der rekonstruierte Inhalt legen nahe, dass es sich bei dem Deperditum um eine Littera cum filo canapis gehandelt haben dürfte.</p>
+               <p>[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
             </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>-</p>
+            <p>[Kommentare zur Identifizierung von Personen, Institutionen und Orten, zu Vor- und Nachurkunden, Konfliktverläufen etc. Literaturnageben (bibl) sind zulässig]</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
             <listBibl>
-               <bibl>-</bibl>
+               <bibl>[Werk 1]</bibl>
+               <bibl>[Werk 2]</bibl>
             </listBibl>
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Ref.-Point muss ergänzt werden!]</p>
+            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>

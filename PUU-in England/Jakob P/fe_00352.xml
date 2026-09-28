@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_puu-in"> <!-- Ordnername hier ergänzen -->
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen -->
    <teiHeader>
       <fileDesc><titleStmt><title>fe_00352</title>
             <respStmt><resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp><persName>JP</persName></respStmt>
@@ -21,7 +24,7 @@
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Kanoniker des Augustinerpriorats von Stone</legalActor></p> <p> <legalActor type="recipient">R(oger), Prior des Augustinerpriorats von Stone</legalActor></p>  <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p>
-               <p><objectType n="">Juristisches, Besitz- und Rechtsbestätigung</objectType></p>
+               <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
@@ -36,11 +39,11 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p><persName>Alexander III.</persName> verleiht den <orgName>Kanonikern des Augustinerpriorats von Stone</orgName> (D. Lichfield) unter <persName>R(oger), Prior von Stone,</persName> ein Privileg und gewährt die folgenden Rechte:</p><p><list><item>apostolischen Schutz all ihrer derzeitigen und zukünftigen geistlichen und weltlichen Güter</item><item>allgemeines Verbot, die Kanoniker, ihre 
+            <p><persName>Alexander III.</persName> gewährt den <orgName>Kanonikern des Augustinerpriorats von Stone</orgName> (D. Lichfield) unter <persName>R(oger), Prior von Stone,</persName> folgende Privilegien und Rechte:</p><p><list><item>Aufnahme in den apostolischen Schutz all ihrer derzeitigen und zukünftigen geistlichen und weltlichen Güter</item><item>allgemeines Verbot, die Kanoniker, ihre 
 Besitzungen oder deren Aufseher und Verwalter zu suspendieren, mit einem
  Interdikt oder einer Exkommunikation zu belegen oder von ihnen oder 
 ihren Besitzungen ohne ordnungsgemäßes Gerichtsverfahren etwas zu 
-fordern</item><item>Gewährung des Appellationsrechts an die Kurie</item><item>Schlussformel: Perturbationsverbot, Sanctio negativa</item></list></p>
+fordern</item><item>Appellationsrecht an die Kurie</item><item>Schlussformel: Prohibitivformel/Perturbationsverbot, Sanctio negativa</item></list></p>
          </div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Sacrosancta Romana ecclesia deuotos et</diploPart></div>
          <div>
@@ -54,7 +57,7 @@ fordern</item><item>Gewährung des Appellationsrechts an die Kurie</item><item>S
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl>Original: Chartular von Stone 13. Jh., British Library Cotton MS Vespasian E XXIV, fol. 17.</bibl><bibl>Kopien: Transkription von David Casley (1734), British Library Stowe MS 943, fol. 35v.</bibl>
+               <bibl>Original: -</bibl><bibl>Kopien: Chartular von Stone, 13. Jh., British Library Cotton MS Vespasian E XXIV, fol. 17. Transkription von David Casley (1734). in British Library Stowe MS 943, fol. 35v.</bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>
@@ -82,7 +85,7 @@ fordern</item><item>Gewährung des Appellationsrechts an die Kurie</item><item>S
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>George Wrottesley, The Stone Chartulary, S. 15. </bibl>
+               <bibl>George Wrottesley, The Stone Chartulary, in: Collections for a History of Staffordshire, Bd. 6, Teil 1, S. 15. </bibl>
             </listBibl>
          </div>
          <div type="commentary">
