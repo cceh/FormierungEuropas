@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI source="formierung-europas_pontificia" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
+   <teiHeader>
+      <fileDesc><titleStmt><title>fe_00195</title><respStmt><resp>Datenquelle</resp><persName>JB</persName></respStmt>
+            <respStmt><resp when="2026">Encoding</resp><persName>JB</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Die Formierung Europas</publisher>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Germ. Pont. 1, S. 317, Nr. 7</bibl><bibl type="jaffe">12815</bibl>
+            <bibl>[Weiteres Konkordanzregest]</bibl>
+            <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>-</p>
+                     <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
+                  </authen></p>
+               <issued><placeName>Ferrara</placeName><date type="issued" notBefore="1177-04-28" notAfter="1177-04-28">1177, April 28</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p><legalActor type="recipient">Benediktinerkloster Biburg</legalActor></p><p><legalActor type="recipient">Isinricus, Abt des Benediktinerklosters Biburg</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p>
+               <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
+               <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
+               <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+         <langUsage>
+            <language ident="ger">German</language>
+            <language ident="lat">Latin</language>
+            <language ident="en-GB">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p><legalActor><persName>Alexander III.</persName> </legalActor>gewährt auf Bitten des <legalActor><persName>Abtes Isinricus</persName> </legalActor>dem <legalActor><orgName>Benediktinerkloster Biburg</orgName></legalActor> (D. Regensburg) folgende Rechte: <list>
+                  <item>die Aufnahme in den apostolischen Schutz.</item><item>Bestätigung aller Besitzungen und Güter, die das Kloster in der Gegenwart rechtmäßig besitzt beziehungsweise in der Zukunft rechtmäßig erwerben wird, darunter einige namentlich genannte Besitzungen und unter Nennung der jeweiligen Stifter.</item><item>das Präsentationsrecht für die Eigenkirchen.</item><item>Er ordnet an, dass niemand dem Kloster Frondienste oder neue Abgaben auferlegen darf.</item><item>dem Abt – ​​unter Beratung und mit Beistand des Bischofs von Bamberg – die Ernennung eines geeigneten Vogtes für das Kloster. Dieses Amt dürfe nicht kraft Erbrecht auf irgendeinen Sterblichen übergehen. Sollte sich der ernannte Vogt als ungeeignet erweisen, so ist er – durch das Wirken des Bischofs von Bamberg (kraft der Stiftung) und des Bischofs von Regensburg (kraft der Diözesanzugehörigkeit) – kraft der Autorität des Apostolischen Stuhls abzusetzen und eine andere geeignete Person an seine Stelle zu berufen.</item><item/><item>Altar- und Kirchenweihen, Ordinationen der Mönche und das heilige Öl sollen die Mönche vom Diözesanbischof empfangen, solange diser rechtgläubig sei und in der Gunst des apostolischen Stuhls stehe. Andernfalls sei es ihnen erlaubt, einen ihnen genehmen Bischof um die Spendung der Sakramente zu ersuchen.</item><item>Er verbietet, nach Ablegung der Profess ohne die Erlaubnis des Abtes das Stift zu verlassen, außer bei Übertritt zur strengeren Lebensweise (<diploPart>maior religio</diploPart>), und untersagt außerdem die Aufnahme des Ausscheidenden durch Dritte.  </item><item>Befreiung vom Novalzehnten für Eigenbau und für Tierfutter.</item><item>Beim Tod des Abtes sollen die Brüder nach den Vorgaben der Benediktsregel ohne jeden Druck von außen gemeinschaftlich oder nach dem Votum der <diploPart>sanior pars</diploPart> einen Nachfolger wählen.</item><item>das freie Begräbnisrecht.</item><item>Schlussformeln: Perturbationsverbot, Sanctio negativa und sanctio positiva.</item>
+               </list></p>
+         </div>
+
+         <div>
+            <head>Incipit</head><diploPart type="incipit" xml:lang="lat">Religiosam vitam eligentibus apostolicum convenit</diploPart>
+         </div>
+         <div>
+            <head>Subscriptiones</head>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>(R.) Ego Alexander catholice episcopus subscripsi. (BV.).</item><item>Ego Hubaldus Hostiensis episcopus subscripsi.</item><item>Ego Gualterius Albanensis episcopus subscripsi.</item><item>Ego Chunradus Mogontinus archiepiscopus et Sabinensis subscripsi.</item><item>Ego Guillelmus episcopus Portuensis et sancte Rufine subscripsi.</item><item>Ego Manfredus Prenestinus episcopus subscripsi.</item><item>Ego Ildebrandus basilice XII apostolorum presbyter cardinalis subscripsi.</item><item>Ego Iohannes presbyter cardinalis tituli sancte Anastasie subscripsi.</item><item>Ego Boso presbyter cardnalis sancte Pudentiane tituli Pastoris subscripsi.</item><item>Ego Theodinus presbyter cardinalis sancti Vitalis titule Vestine subscripsi.</item><item>Ego Petrus presbyter cardinalis tituli Susanne sancte subscripsi.</item><item>Ego Iacinthus sancte Marie in Cosmidyn diaconus cardinalis subscripsi.</item><item>Ego Ardicio diaconus cardinalis sancti Theodori subscripsi.</item><item>Ego Rainerius (?) diaconus cardinalis sancti Adriani subscripsi.</item><item>Ego Hugo diaconus cardinalis sancti Angeli subscripsi.</item><item>Ego Laborans diaconus cardinalis sancte Marie in Porticu subscripsi.</item>
+               </list></diploPart>
+         </div>
+         <div>
+            <head>Datatio</head><diploPart type="datatio">Datum Ferrarie per manum Gratiani sancte Romane ecclesie subdiaconi et notarii, IIII. Kalendas Maii, indictione X, incarnationis Dominice anno MCLXXVII, pontificatus vero domni Alexandri pape III, anno XVIII.</diploPart>
+         </div>
+         <div type="msSources">
+            <head>Frühester Überlieferungsträger</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">München, Bayerisches Hauptstaatsarchiv, Kloster Biburg, Urk. Nr. 2; digital verfügbar unter: https://urkundenrepositorium.uni-marburg.de/entities/urkunde/bb327493-76ab-48ae-8cbb-324c34f57af0</bibl>
+                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
+                  <bibl type="print">[Druck]</bibl>
+               </listBibl>
+            </div>
+         </div>
+         <div type="decretals">
+            <head>Dekretalen</head>
+            <listBibl>
+               <bibl>-</bibl>
+               <bibl/>
+            </listBibl>
+         </div>
+         <div type="historiography">
+            <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
+            <listBibl>
+               <bibl>-</bibl>
+               <bibl/>
+            </listBibl>
+         </div>
+         <div type="editions">
+            <head>Editionen</head>
+            <listBibl>
+               <bibl>Hund/Gewold, Metropolis Salisburgensis II, S. 206-207.</bibl>
+               <bibl>[Edition 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="regesta">
+            <head>Regesten</head>
+            <listBibl>
+               <bibl>JL 12815</bibl>
+               <bibl>Germ. Pont. 1, S. 317, Nr. 7</bibl>
+            </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>Rota, Inschrift: <diploPart>sanctus Petrus | sanctus Paulus | Alex | ander | pape |III</diploPart>, Devise: <diploPart>Vias tuas, domine, demonstra michi</diploPart>.  fehlt. Bulle an roten und selben Seidenfäden. Aufschrift auf der Aversseite: <diploPart>Alex | ander papa III</diploPart>, auf der Reversseite sind die Köpfe der Apostelfürsten Petrus und Paulus abgebildet. </p>
+            </diploDesc>
+         </div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Zur Gründung des Klosters Biburg stifteten Konrad und Arbeo von Sittling im Jahr 1125 der Domkirche Bamberg ihre Stammburg Biburg. Die Errichtung des Benediktinerklosters Biburg, das zunächst als Doppelkloster für Mönche und Nonnen eingerichtet wurde, unterstützte vor allem Bischof Otto I. von Bamberg. Im Jahr 1140 wurde die Klosterkirche zu Ehren Unserer Lieben Frau durch die Bischöfe Heinrich von Regensburg und Egilberg von Bamberg geweiht. </p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliographie</head>
+            <listBibl>
+               <bibl>[Werk 1]</bibl>
+               <bibl>[Werk 2]</bibl>
+            </listBibl>
+         </div>
+         <div type="note">
+            <head>Notizen</head>
+            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+         </div>
+         <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
+      </body>
+   </text>
+</TEI>
