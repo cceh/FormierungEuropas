@@ -67,7 +67,7 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">München, Bayerisches Hauptstaatsarchiv, Freising St. Johann; digital verfü[Original]</bibl>
+                  <bibl type="original">München, Bayerisches Hauptstaatsarchiv, Freising St. Johann; digital verfügbar unter: https://urkundenrepositorium.uni-marburg.de/entities/urkunde/2089a5d3-1838-4c54-8a04-051e21561533</bibl>
                   <bibl type="msCopy">[handschriftliche Kopie]</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
@@ -76,14 +76,14 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
+               <bibl>[-</bibl>
                <bibl>[Quelle 2]</bibl>
             </listBibl>
          </div>
