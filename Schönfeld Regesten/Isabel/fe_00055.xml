@@ -24,7 +24,7 @@
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Cremona</placeName><date type="issued" notBefore="1161-10-01" notAfter="1161-10-01">(1161) Okt. 1</date>
+               <issued><placeName>Cremona</placeName><date type="issued">(1161) Okt. 1</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
