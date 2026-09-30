@@ -74,8 +74,8 @@
             <div>
                <listBibl>
                   <bibl type="original">-</bibl>
-                  <bibl type="msCopy">Chartular des Erzbistums Besançon, 13. Jh, Besançon, Bibliothèques et archives métropolitaines Besançon, Bibliothèque d'étude et de conservation, Fonds général Ms 716.</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="msCopy">Chartular des Erzbistums Besançon, 13. Jh, Besançon, Bibliothèques et archives métropolitaines Besançon, Bibliothèque d'étude et de conservation, Fonds général Ms 716</bibl>
+                  <bibl type="print">Gallia Christiana 15, Sp. 40, Nr. 41</bibl>
                </listBibl>
             </div>
          </div>
@@ -95,7 +95,7 @@
          </div>
          <div type="editions">
             <head>Editionen</head>
-            <listBibl><bibl>Gallia Christiana 15, Sp. 40, Nr. 41</bibl>
+            <listBibl><bibl/>
             </listBibl>
          </div>
          <div type="regesta">
