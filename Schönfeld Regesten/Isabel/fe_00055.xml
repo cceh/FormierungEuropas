@@ -28,7 +28,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
-               <p><legalActor type="recipient">Humbert, Erzbischof von Besançon</legalActor></p><p><legalActor type="recipient">Kat</legalActor></p>
+               <p><legalActor type="recipient">Humbert, Erzbischof von Besançon</legalActor></p><p><legalActor type="recipient">Besançon, Domkapitel</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">Papsturkunde &amp;gt; Litterae cum serico</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
@@ -51,15 +51,14 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p><persName>Viktor IV.</persName> informiert <persName>H(umbert), Erzbischof von Besançon</persName>, und das dortige <orgName>Kathedralkapitel von S. Johann</orgName> (D. Besançon), dass er <persName>P., Abt der Benediktinerabtei S. Vincent</persName> (D. Besançon), auf dessen Bitten den Gebrauch von Mitra und Ring gestattet habe.<list>
+            <p><persName>Viktor IV.</persName> informiert <persName>H(umbert), Erzbischof von Besançon</persName>, und das dortige <orgName>Domkapitel von S. Johann</orgName> (D. Besançon), dass er <persName>P., Abt der Benediktinerabtei S. Vincent</persName> (D. Besançon), auf dessen Bitten den Gebrauch von Mitra und Ring gestattet habe.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
 
          <div>
             <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">Consuevit apostolice sedis</diploPart>
-         </div>
+            <diploPart type="incipit" xml:lang="lat">Consuevit apostolice sedis </diploPart></div>
          <div>
             <head>Subscriptiones:</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
