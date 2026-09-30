@@ -24,7 +24,7 @@
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Cremona</placeName><date type="issued">(1161) Jun. 1</date>
+               <issued><placeName>Cremona</placeName><date type="issued">(1161) Jun. (5)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
@@ -109,7 +109,7 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Schönfeld datiert fälschlicherweise auf den 1. Oktober 1161. Datierung korrigiert nach Hägi (Chart. Besançon  [Text und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
+               <p>Schönfeld datiert fälschlicherweise auf den 1. Oktober 1161. Datierung korrigiert nach Hägi (Chart. Besançon, S. 214-215).  [Text und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
  Kommentar]</p>
             </diploDesc>
          </div>
