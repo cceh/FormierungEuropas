@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
-<TEI source="formierung-europas_pontificia" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<TEI source="formierung-europas_pontificia" xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
-      <fileDesc><titleStmt><title>fe_00194</title><respStmt><resp>Datenquelle</resp><persName>JB</persName></respStmt>
-            <respStmt><resp when="2026">Encoding</resp><persName>JB</persName></respStmt>
+      <fileDesc>
+         <titleStmt>
+            <title>fe_00194</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>JB</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2026">Encoding</resp>
+               <persName>JB</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -14,7 +24,8 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>Germ. Pont. 1, S. 306, Nr. 1</bibl><bibl type="jaffe">14383</bibl>
+            <bibl>Germ. Pont. 1, S. 306, Nr. 1</bibl>
+            <bibl type="jaffe">14383</bibl>
             <bibl>[Weiteres Konkordanzregest]</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
@@ -22,21 +33,38 @@
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Tusculanum</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" unit="cm" xml:space="default" notAfter="1181-03-27" notBefore="1181-03-27" type="issued">1181, März 27</date>
+               <issued><placeName>Tusculanum</placeName><date cert="high" evidence="internal"
+                     generatedBy="human" instant="unknown" precision="high" unit="cm"
+                     xml:space="default" notAfter="1181-03-27" notBefore="1181-03-27" type="issued"
+                     >1181, März 27</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Prämonstratenserstift Speinshart</legalActor></p><p><legalActor type="recipient">Radulf, Propst der Prämonstratenserstiftes Speinshart</legalActor></p>
+               <p><legalActor type="recipient">Prämonstratenserstift Speinshart</legalActor></p>
+               <p><legalActor type="recipient">Radulf, Propst der Prämonstratenserstiftes
+                     Speinshart</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
+               <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
+               <p><objectType n="">Alexander III., Urheber</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
       </fileDesc>
-      
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+            xmlns:as="http://www.w3.org/ns/activitystreams#"
+            xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+            xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
+            xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
+            xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+            xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+            xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
          <langUsage>
             <language ident="ger">German</language>
             <language ident="lat">Latin</language>
@@ -48,28 +76,85 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor><persName>Alexander III.</persName></legalActor> gewährt auf Bitten des <legalActor><persName>Propstes Radulf</persName></legalActor> dem <legalActor><orgName>Prämonstratenserstift Speinshart</orgName></legalActor> (D. Regensburg) folgende Rechte: <list>
-                  <item>die Aufnahme in den apostolischen Schutz.</item><item>Bestätigung der Regel des heiligen Augustinus nach der Gewohnheit der Prämonstratenser.</item><item>Bestätigung aller Besitzungen und Güter, die das Stift in der Gegenwart rechtmäßig besitzt beziehungsweise in der Zukunft rechtmäßig erwerben wird, darunter einige namentlich genannte Besitzungen.</item><item>Befreiung vom Novalzehnten für Eigenbau und für Tierfutter.</item><item>die ungehinderte Aufnahme von Klerikern und Laien, die der Welt entfliehen wollen.</item><item>Befreiung des Klosters vom allgemeinen Interdikt.</item><item>das freie Begräbnisrecht.</item><item>Ferner legt er fest:</item><item>das Verbot, nach Ablegung der Profess ohne die Erlaubnis des Propstes das Stift zu verlassen, und untersagt die Aufnahme des Ausscheidenden durch Dritte.</item><item>dass Altar- und Kirchenweihen, Ordinationen der Mönche und das heilige Öl vom Diözesanbischof zu empfangen sind, solange dieser rechtgläubig sei und in der Gunst des apostolischen Stuhls stehe. Andernfalls sei es den Mönchen erlaubt, einen ihnen genehmen Bischof um die Spendung der Sakramente zu ersuchen.</item><item>dass die Brüder beim Tod des Propstes nach den Vorgaben der Regel des heiligen Augustinus ohne jeden Druck von außen gemeinschaftlich oder nach dem Votum der <diploPart>sanior pars</diploPart> einen Nachfolger wählen sollen.</item><item>die Zahlung eines jährlichen Zinses in Höhe einer Goldmünze im Wert von 12 Denaren Regensburger Währung an den apostolischen Stuhl.</item><item>Schlussformeln: Perturbationsverbot, Sanctio negativa und sanctio positiva.</item>
+            <p><legalActor><persName>Alexander III.</persName></legalActor> gewährt auf Bitten des
+                     <legalActor><persName>Propstes Radulf</persName></legalActor> dem
+                     <legalActor><orgName>Prämonstratenserstift Speinshart</orgName></legalActor>
+               (D. Regensburg) folgende Rechte: <list>
+                  <item>die Aufnahme in den apostolischen Schutz.</item>
+                  <item>Bestätigung der Regel des heiligen Augustinus nach der Gewohnheit der
+                     Prämonstratenser.</item>
+                  <item>Bestätigung aller Besitzungen und Güter, die das Stift in der Gegenwart
+                     rechtmäßig besitzt beziehungsweise in der Zukunft rechtmäßig erwerben wird,
+                     darunter einige namentlich genannte Besitzungen.</item>
+                  <item>Befreiung vom Novalzehnten für Eigenbau und für Tierfutter.</item>
+                  <item>die ungehinderte Aufnahme von Klerikern und Laien, die der Welt entfliehen
+                     wollen.</item>
+                  <item>Befreiung des Klosters vom allgemeinen Interdikt.</item>
+                  <item>das freie Begräbnisrecht.</item></list></p>
+            <p>
+               <list>
+                  <item>Ferner legt er fest:</item>
+                  <item>das Verbot, nach Ablegung der Profess ohne die Erlaubnis des Propstes das
+                     Stift zu verlassen, und untersagt die Aufnahme des Ausscheidenden durch
+                     Dritte.</item>
+                  <item>dass Altar- und Kirchenweihen, Ordinationen der Mönche und das heilige Öl
+                     vom Diözesanbischof zu empfangen sind, solange dieser rechtgläubig sei und in
+                     der Gunst des apostolischen Stuhls stehe. Andernfalls sei es den Mönchen
+                     erlaubt, einen ihnen genehmen Bischof um die Spendung der Sakramente zu
+                     ersuchen.</item>
+                  <item>dass die Brüder beim Tod des Propstes nach den Vorgaben der Regel des
+                     heiligen Augustinus ohne jeden Druck von außen gemeinschaftlich oder nach dem
+                     Votum der <diploPart>sanior pars</diploPart> einen Nachfolger wählen
+                     sollen.</item>
+                  <item>die Zahlung eines jährlichen Zinses in Höhe einer Goldmünze im Wert von 12
+                     Denaren Regensburger Währung an den apostolischen Stuhl.</item>
+                  <item>Schlussformeln: Perturbationsverbot, Sanctio negativa und sanctio
+                     positiva.</item>
                </list></p>
          </div>
 
          <div>
-            <head>Incipit</head><diploPart type="incipit" xml:lang="lat">Religiosam vitam eligentibus apostolicum convenit </diploPart>
+            <head>Incipit</head>
+            <diploPart type="incipit" xml:lang="lat">Religiosam vitam eligentibus apostolicum
+               convenit </diploPart>
          </div>
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>(R.) Ego Alexander catholice ecclesie episcopus subscripsi. (BV.).</item><item>Ego Hubaldus Hostiensis et Vellitrensis episcopus subscripsi.</item><item>Ego Theodinus Portuensis et sancte Rufine sedis episcopus subscripsi.</item><item>Ego Vivianus tituli sancti Stephani in Celiomonte presbyter cardinalis subscripsi.</item><item>Ego Cynthius presbyter cardinalis tituli sancte Cecilie subscripsi.</item><item>Ego Hugo presbyter cardinalis tituli sancti Clementis subscripsi.</item><item>Ego Arduinus presbyter cardinalis tituli sancte Crucis in Ierusalem subscripsi.</item><item>Ego Matheus presbyter cardinalis tituli sancti Marcelli subscripsi.</item><item>Ego Laborans presbyter cardinalis sancte Marie trans Tiberim tituli Calixti subscripsi.</item><item>Ego Iac(inthus) sancte Marie in Cosmidyn diaconus cardinalis subscripsi.</item><item>Ego Gratianus sanctorum Cosme et Damiani diaconus cardinalis subscripsi.</item><item>Ego Iohannes diaconus cardinalis sancti Angeli subscripsi.</item><item>Ego Matheus sancte Marie Nove diaconus cardinalis subscripsi.</item>
+                  <item>(R.) Ego Alexander catholice ecclesie episcopus subscripsi. (BV.).</item>
+                  <item>Ego Hubaldus Hostiensis et Vellitrensis episcopus subscripsi.</item>
+                  <item>Ego Theodinus Portuensis et sancte Rufine sedis episcopus subscripsi.</item>
+                  <item>Ego Vivianus tituli sancti Stephani in Celiomonte presbyter cardinalis
+                     subscripsi.</item>
+                  <item>Ego Cynthius presbyter cardinalis tituli sancte Cecilie subscripsi.</item>
+                  <item>Ego Hugo presbyter cardinalis tituli sancti Clementis subscripsi.</item>
+                  <item>Ego Arduinus presbyter cardinalis tituli sancte Crucis in Ierusalem
+                     subscripsi.</item>
+                  <item>Ego Matheus presbyter cardinalis tituli sancti Marcelli subscripsi.</item>
+                  <item>Ego Laborans presbyter cardinalis sancte Marie trans Tiberim tituli Calixti
+                     subscripsi.</item>
+                  <item>Ego Iac(inthus) sancte Marie in Cosmidyn diaconus cardinalis
+                     subscripsi.</item>
+                  <item>Ego Gratianus sanctorum Cosme et Damiani diaconus cardinalis
+                     subscripsi.</item>
+                  <item>Ego Iohannes diaconus cardinalis sancti Angeli subscripsi.</item>
+                  <item>Ego Matheus sancte Marie Nove diaconus cardinalis subscripsi.</item>
                </list></diploPart>
          </div>
          <div>
-            <head>Datatio</head><diploPart type="datatio">Datum Tusculani per manum Alberti sancte Romane ecclesie presbyteri cardinalis et cancellarii, VI. Kalendas Aprilis, indictione XIIII, incarnatione dominice anno MCLXXXI, pontificatus vero domni Alexandri pape III, anno XXII.</diploPart>
+            <head>Datatio</head>
+            <diploPart type="datatio">Datum Tusculani per manum Alberti sancte Romane ecclesie
+               presbyteri cardinalis et cancellarii, VI. Kalendas Aprilis, indictione XIIII,
+               incarnatione dominice anno MCLXXXI, pontificatus vero domni Alexandri pape III, anno
+               XXII.</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">Amberg, Staatsarchiv, Urkunden Kloster Speinshart, Urk. Nr. 3; digital verfügbar unter: https://urkundenrepositorium.uni-marburg.de/entities/urkunde/62c416a2-0c84-46c5-ac1d-adbc96ec51d4</bibl>
+                  <bibl type="original">Amberg, Staatsarchiv, Urkunden Kloster Speinshart, Urk. Nr.
+                     3; digital verfügbar unter:
+                     https://urkundenrepositorium.uni-marburg.de/entities/urkunde/62c416a2-0c84-46c5-ac1d-adbc96ec51d4</bibl>
                   <bibl type="msCopy">[handschriftliche Kopie]</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
@@ -100,18 +185,30 @@
             <head>Regesten</head>
             <listBibl>
                <bibl>JL 14383</bibl>
-               <bibl>Germ. Pont. 1, S. 306, Nr. 1</bibl><bibl>Lickleder, Urkundenregesten, S. 3-4, Nr. 3</bibl>
+               <bibl>Germ. Pont. 1, S. 306, Nr. 1</bibl>
+               <bibl>Lickleder, Urkundenregesten, S. 3-4, Nr. 3</bibl>
             </listBibl>
          </div>
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Rota, Inschrift: <diploPart>sanctus Petrus | sanctus Paulus | Alex | ander | pape |III</diploPart>, Devise: <diploPart>Vias tuas, domine, demonstra michi</diploPart>. Bulle an grünen Seidenfäden. Aufschrift auf der Aversseite: <diploPart>Alex | ander papa III</diploPart>, auf der Reversseite sind die Köpfe der Apostelfürsten Petrus und Paulus abgebildet. Bei <bibl>Lickleder, Urkundenregesten</bibl> ist die Indiktion einen Zähler zu niedrig angegeben und der Kardinalpriester Vivianus fälschlicherweise als Vuanus transkribiert.</p>
+               <p>Rota, Inschrift: <diploPart>sanctus Petrus | sanctus Paulus | Alex | ander | pape
+                     |III</diploPart>, Devise: <diploPart>Vias tuas, domine, demonstra
+                     michi</diploPart>. Bulle an grünen Seidenfäden. Aufschrift auf der Aversseite:
+                     <diploPart>Alex | ander papa III</diploPart>, auf der Reversseite sind die
+                  Köpfe der Apostelfürsten Petrus und Paulus abgebildet. Bei <bibl>Lickleder,
+                     Urkundenregesten</bibl> ist die Indiktion einen Zähler zu niedrig angegeben und
+                  der Kardinalpriester Vivianus fälschlicherweise als Vuanus transkribiert.</p>
             </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Gestiftet wurde das Kloster Speinshart durch das Ehepaar Adelvolk und Richenza von Reifenberg wohl um das Jahr 1145. Friedrich Barbarossa bestätigte die Klostergründung am 13. Februar 1163 und stellte das Kloster in seinen Schutz (vgl. RI IV,2,2, Nr. 1182). Das vorliegende Privileg Alexanders III. bestätigt die Exemtion des Prämonstratenserstifts Speinshart und seine direkte Unterstellung unter den apostolischen Stuhl. Vgl. <bibl>Lickleder, Urkundenregesten, S. XIII-XIV</bibl>.</p>
+            <p>Gestiftet wurde das Kloster Speinshart durch das Ehepaar Adelvolk und Richenza von
+               Reifenberg wohl um das Jahr 1145. Friedrich Barbarossa bestätigte die Klostergründung
+               am 13. Februar 1163 und stellte das Kloster in seinen Schutz (vgl. RI IV,2,2, Nr.
+               1182). Das vorliegende Privileg Alexanders III. bestätigt die Exemtion des
+               Prämonstratenserstifts Speinshart und seine direkte Unterstellung unter den
+               apostolischen Stuhl. Vgl. <bibl>Lickleder, Urkundenregesten, S. XIII-XIV</bibl>.</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
