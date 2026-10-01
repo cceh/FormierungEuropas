@@ -48,14 +48,14 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor><persName>Alexander III.</persName></legalActor> gewährt auf Bitten des <legalActor><persName>Abtes Isengrim</persName></legalActor> dem <legalActor><orgName>Benediktinerkloster Ebersberg</orgName></legalActor> (D. Regensburg) folgende Rechte:Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
+            <p><legalActor><persName>Alexander III.</persName></legalActor> gewährt auf Bitten des <legalActor><persName>Abtes Isengrim</persName></legalActor> dem <legalActor><orgName>Benediktinerkloster Ebersberg</orgName></legalActor> (D. Freising) folgende Rechte:<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
 
          <div>
             <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+            <diploPart type="incipit" xml:lang="lat">[QuoiLorem ipsum dolor sit amet]</diploPart>
          </div>
          <div>
             <head>Subscriptiones</head>
