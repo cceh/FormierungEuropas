@@ -54,8 +54,7 @@
          </div>
 
          <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+            <head>Incipit</head><diploPart type="incipit" xml:lang="lat">Que in sacris dei ecclesiis</diploPart>
          </div>
          <div>
             <head>Subscriptiones</head>
@@ -94,7 +93,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Pflugk-Harttung, Acta II, S. 371-372, Nr. 423</bibl>
+               <bibl>Pflugk-Harttung, Acta II, S. 371-372, Nr. 424</bibl>
                <bibl>[Edition 2]</bibl>
             </listBibl>
          </div>
