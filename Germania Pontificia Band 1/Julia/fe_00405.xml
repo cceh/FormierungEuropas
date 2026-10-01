@@ -5,10 +5,7 @@
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc><titleStmt><title>fe_00405</title><respStmt><resp>Datenquelle</resp><persName>JB</persName></respStmt>
-            <respStmt>
-               <resp when="2026">Encoding</resp>
-               <persName>[JBe der Überarbeiter*in/Auszeichnung]</persName>
-            </respStmt>
+            <respStmt><resp when="2026">Encoding</resp><persName>JB</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -17,15 +14,15 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>Germ.Pont. 1, S. 335, Nr. 21</bibl><bibl type="jaffe">13197</bibl>
+            <bibl>Germ. Pont. 1, S. 335, Nr. 21</bibl><bibl type="jaffe">13197</bibl>
             <bibl>[Weiteres Konkordanzregest]</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
                <p><authen type="formula" n="na">
-                     <p>[*+?-]</p>
+                     <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Laterano</placeName><date type="issued" notBefore="1179-04-01" notAfter="1179-04-01">01 April (1179)</date>
+               <issued><placeName>Laterano</placeName><date type="issued" notBefore="1179-04-01" notAfter="1179-04-01">1179 April 01</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">[Aussteller]</legalActor></p>
