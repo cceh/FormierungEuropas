@@ -48,12 +48,12 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor><persName>Roland, Kardinalpriester von S. Marco</persName></legalActor>, bittet Konrad, Abt des Benediktinerklosters Tegernsee (D. Freising), dem Überbringer dieses Schreibens, E., oder dessen Begleiter, einem Scholaster, die Pfründe von Thalhausen fester und dauerhafter zuzusichern. Diese Pfründe war ihm zuvor vom Abt selbst verliehen worden. </p>
+            <p><legalActor><persName>Roland, Kardinalpriester von S. Marco</persName></legalActor>, bittet <legalActor><persName>Konrad, Abt des Benediktinerklosters Tegernsee</persName></legalActor> (D. Freising), dem Überbringer dieses Schreibens, E., oder dessen Begleiter, einem Scholaster, die Pfründe von Thalhausen fester und dauerhafter zuzusichern. Diese Pfründe war ihm zuvor vom Abt selbst verliehen worden. </p>
          </div>
 
          <div>
             <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+            <diploPart type="incipit" xml:lang="lat">[Presentium latoris E. etLorem ipsum dolor sit amet]</diploPart>
          </div>
          <div>
             <head>Subscriptiones</head>
