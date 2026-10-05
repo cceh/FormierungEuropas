@@ -21,7 +21,7 @@
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Roger, Erzbischof von York</legalActor></p> <p> <legalActor type="recipient">Erzbistum York</legalActor></p> <p> <legalActor type="recipient">Archidiakone und andere Prälaten von York</legalActor></p> <p><legalActor type="recipient">Zisterzienserabtei Rievaulx </legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum filo canapis</objectType></p>
-               <p><objectType n=""/></p>
+               <p><objectType n="">Anweisung, Einhaltung von Recht</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
@@ -52,7 +52,7 @@
             <div>
             <listBibl>   
                <bibl>Original: -</bibl>
-               <bibl>Kopie: Chartular von Rievaulx s. XII ex., Brit. Mus. Cott. Julius D 1  fol. 183' n. 228. </bibl>
+               <bibl>Kopie: Chartular von Rievaulx, Brit. Mus. Cott. Julius D 1  fol. 183v, Nr. 228 (12. Jh.).</bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>
@@ -72,7 +72,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>PUU England 1, S. 403-404, Nr. 134.</bibl><bibl>J. C. Atkinson Cart. abb. de Rievalle p. 196  n. 264. </bibl>
+               <bibl>PUU England 1, S. 403-404, Nr. 134.</bibl><bibl>Chart. Rievaulx, S. 196  Nr. 264. </bibl>
                <bibl/>
             </listBibl>
          </div>
