@@ -53,8 +53,7 @@
          </div>
 
          <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+            <head>Incipit</head><diploPart type="incipit" xml:lang="lat">Conquestus est ante presentiam nostram</diploPart>
          </div>
          <div>
             <head>Subscriptiones</head>
