@@ -14,15 +14,15 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>Germ.Pont. 1, S. 365, Nr. 7</bibl><bibl type="jaffe">–</bibl>
+            <bibl>Germ. Pont. 1, S. 365, Nr. 7</bibl><bibl type="jaffe">–</bibl>
             <bibl>[Weiteres Konkordanzregest]</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
                <p><authen type="formula" n="na">
-                     <p>[*+?-]</p>
+                     <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>–</placeName><date type="issued" notBefore="1151-01-01" notAfter="1155-12-31">(1151-1155)</date>
+               <issued><placeName>–</placeName><date type="issued" notBefore="1151-01-01" notAfter="1155-12-31">(1151 Mär 02 - 1155 Mai )</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">[Aussteller]</legalActor></p>
