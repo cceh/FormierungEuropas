@@ -19,7 +19,7 @@
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <p><issued><placeName>Anagni</placeName><date notAfter="1176-05-31" notBefore="1174-05-31" type="issued">(1174—76) Mai 31</date><date type="issued">1174 Mai 31</date><date type="issued">1175 Mai 31</date><date type="issued"/> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+               <p><issued><placeName>Anagni</placeName><date notAfter="1176-05-31" notBefore="1174-05-31" type="issued">(1174—76) Mai 31</date><date type="issued">1174 Mai 31</date><date type="issued">1175 Mai 31</date><date type="issued">1176 Mai 31</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Kanoniker des Augustinerpriorats von Stone</legalActor></p> <p> <legalActor type="recipient">R(oger), Prior des Augustinerpriorats von Stone</legalActor></p>  <!-- kann enthalten: persName/orgName, ggf roleName -->
