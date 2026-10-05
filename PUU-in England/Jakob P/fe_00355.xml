@@ -22,7 +22,7 @@
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">(Roger), Erzbischof von York</legalActor></p> <p><legalActor type="recipient">(Hugo), Bischof von Durham</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum filo canapis</objectType></p>
-                <p><objectType n="">Administration, Streitschlichtung</objectType></p>
+                <p><objectType n="">Anweisung, Einhaltung von Recht</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
@@ -53,7 +53,7 @@
             <div>
             <listBibl>   
                <bibl>Original: -</bibl>
-               <bibl>Kopie: Chartular von Rievaulx, 12. Jh., British Library Cotton MS Julius B I  fol. 184, Nr. 229. </bibl>
+               <bibl>Kopie: Chartular von Rievaulx, , British Library Cotton MS Julius B I  fol. 184, Nr. 229 (12. Jh.</bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>
