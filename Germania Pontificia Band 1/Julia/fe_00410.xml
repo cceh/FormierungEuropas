@@ -24,7 +24,7 @@
                   </authen></p><issued><placeName>(Augsburg)</placeName><date type="issued" notBefore="1151-01-01" notAfter="1155-12-31">(1158 Jun 08 - Juli)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">Heinrich, Kardinallegat</legalActor></p><p><legalActor type="issuer">Hyazinth, Kardinallegat</legalActor></p>
+               <p><legalActor type="issuer">Heinrich, Kardinalpriester von Santi Achillei legat</legalActor></p><p><legalActor type="issuer">Hyazinth, Kardinallegat</legalActor></p>
                <p><legalActor type="recipient">[Empfänger]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
