@@ -98,7 +98,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl/><bibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 284–285, Nr. V56</bibl></bibl><bibl>PUU Spanien 1, S. 371, Nr. 87</bibl><bibl>Kehr, Geschichte Viktors IV ., S. 84f</bibl>
+               <bibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 284–285, Nr. V56</bibl></bibl><bibl>PUU Spanien 1, S. 371, Nr. 87</bibl><bibl>Kehr, Geschichte Viktors IV ., S. 84f</bibl>
             </listBibl>
          </div>
          <div type="regesta">
@@ -127,9 +127,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p/><p>Quellentyp unklar; Signaturcheck nötig</p><p>Namensvarianten: Richilde (-&amp;gt; Schönfeld, Kehr), Richildis (RI), Richa, Richeza, Richilda.</p><p>Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter"
-               lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt
-               werden]</p>
+            <p/><p>Quellentyp unklar; Signaturcheck nötig</p><p>Namensvarianten: Richilde (-&amp;gt; Schönfeld, Kehr), Richildis (RI), Richa, Richeza, Richilda.</p><p/><p/>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
