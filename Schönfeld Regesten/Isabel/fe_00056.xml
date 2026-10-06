@@ -34,7 +34,7 @@
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">Papsturkunde, Litterae cum filo canapis, Littera clausa</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
-               <p><objectType ref="na">Bitte, um Unterstützung</objectType></p><p><objectType ref="na">Nachrichtenverbreitung, Adel</objectType><objectType ref="na"/></p>
+               <p><objectType ref="na">Bitte, um Unterstützung</objectType></p><p><objectType ref="na">Nachrichtenverbreitung, Adel</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
@@ -98,7 +98,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl/><bibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 284–285, Nr. V56</bibl><bibl/><bibl/></bibl><bibl>PUU Spanien 1, S. 371, Nr. 87</bibl><bibl>Kehr, Geschichte Viktors IV ., S. 84f</bibl>
+               <bibl/><bibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 284–285, Nr. V56</bibl></bibl><bibl>PUU Spanien 1, S. 371, Nr. 87</bibl><bibl>Kehr, Geschichte Viktors IV ., S. 84f</bibl>
             </listBibl>
          </div>
          <div type="regesta">
