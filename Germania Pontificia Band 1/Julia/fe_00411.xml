@@ -48,12 +48,11 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor>Walter, päpstlicher Legat</legalActor>, erteilt Rupert, Abt des Benediktinerklosters Tegernsee (D. Freising) die Erlaubnis, die Reise nach Rom anzutreten, und sichert ihm zu, ihn für entschuldigt zu erklären.</p>
+            <p><legalActor><persName>Walter, päpstlicher Legat</persName></legalActor>, erteilt <legalActor><persName>Rupert, Abt des Benediktinerklosters Tegernsee</persName> </legalActor>(D. Freising) die Erlaubnis, die Reise nach Rom anzutreten, und sichert ihm zu, ihn für entschuldigt zu erklären.</p>
          </div>
 
          <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+            <head>Incipit</head><diploPart type="incipit" xml:lang="lat">-</diploPart>
          </div>
          <div>
             <head>Subscriptiones</head>
