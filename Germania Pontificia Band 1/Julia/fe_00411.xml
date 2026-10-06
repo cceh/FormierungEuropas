@@ -22,7 +22,7 @@
                      <p>*</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>(Tegernsee)</placeName><date type="issued" notBefore="1176-01-01" notAfter="1176-12-31">(1176)</date>
+               <issued><placeName>(Tegernsee)</placeName><date type="issued" notBefore="1176-01-01" notAfter="1176-12-31">(1178)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Walter, Kardinalbischof von Albano</legalActor></p>
@@ -48,9 +48,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>Walter, päpstlicher Legat, erteilt Rupert, Abt des Benediktinerklosters Tegernsee (D. Freising) die Erlaubnis, die Reise nach Rom anzutreten, und sichert ihm zu, ihn für entschuldigt zu erklären.<list>
-                  <item>[Listeneintrag 1]</item>
-               </list></p>
+            <p><legalActor>Walter, päpstlicher Legat</legalActor>, erteilt Rupert, Abt des Benediktinerklosters Tegernsee (D. Freising) die Erlaubnis, die Reise nach Rom anzutreten, und sichert ihm zu, ihn für entschuldigt zu erklären.</p>
          </div>
 
          <div>
