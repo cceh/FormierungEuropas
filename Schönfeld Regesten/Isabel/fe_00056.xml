@@ -106,8 +106,7 @@
          <div type="regesta">
             <head>Regesten</head>
             <!-- Konkordanzregesten -->
-            <listBibl>
-               <bibl><div type="editions"><listBibl><bibl>PUU Spanien 1, S. 371, Nr. 87</bibl></listBibl></div></bibl><bibl>Kehr, Zur Geschichte Viktors IV ., S. 84 f.</bibl><bibl>Mayr, Pontifikat, S. 113, Nr. 42</bibl><bibl>Abb. dig.: PH Arx. cap. Barcelona.</bibl>
+            <listBibl><bibl>Kehr, Zur Geschichte Viktors IV ., S. 84 f.</bibl><bibl>Mayr, Pontifikat, S. 113, Nr. 42</bibl><bibl>Abb. dig.: PH Arx. cap. Barcelona.</bibl>
             </listBibl>
          </div>
          <div>
@@ -130,7 +129,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p/><p>Quellentyp unklar; Signaturcheck nötig</p><p>ignaturcheck nötig</p><p>- Quellentyp unklar</p><p>- Namensvarianten: Richilde (-&amp;gt; Schönfeld, Kehr), Richildis (RI), Richa, Richeza, Richilda.</p><p>Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter"
+            <p/><p>Quellentyp unklar; Signaturcheck nötig</p><p>Namensvarianten: Richilde (-&amp;gt; Schönfeld, Kehr), Richildis (RI), Richa, Richeza, Richilda.</p><p>Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter"
                lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt
                werden]</p>
          </div>
