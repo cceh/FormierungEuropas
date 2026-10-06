@@ -30,7 +30,7 @@
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Urkunde eines nichtpäpstlichen Ausstellers, Legatenurkunde</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">[Typisi</objectType></p><p><objectType n="">Beauftragung durch Alexander III.</objectType></p>
+               <p><objectType n="">Administration, Diözesen</objectType></p><p><objectType n="">Beauftragung durch Alexander III.</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
@@ -48,7 +48,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>Walter, päpstlicher Legat, erteilt Rupert, Abt des Benediktinerklosters Tegernsee (D. Freising) von St. Quirinus die Erlaubnis, die Reise nach Rom anzutreten, und sichert ihm zu, ihn für entschuldigt zu erklären.Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
+            <p>Walter, päpstlicher Legat, erteilt Rupert, Abt des Benediktinerklosters Tegernsee (D. Freising) die Erlaubnis, die Reise nach Rom anzutreten, und sichert ihm zu, ihn für entschuldigt zu erklären.Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
