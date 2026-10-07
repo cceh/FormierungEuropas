@@ -25,8 +25,7 @@
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p><issued><placeName>(Cremona)</placeName><date type="issued">(1162)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
-               </issued><p><legalActor type="issuer">Viktor IV.</legalActor></p><p>
-                  <legalActor type="recipient">[Konrad, Abt des Corvey]</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &amp;gt; Litterae cum serico]</objectType></p><!-- Referenz aus Liste entnehmen --><p><objectType ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &amp;gt; Beauftragung durch…]</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+               </issued><p><legalActor type="issuer">Viktor IV.</legalActor></p><p><legalActor type="recipient">Konrad, Abt des Benediktinerklosters Corvey</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &amp;gt; Litterae cum serico]</objectType></p><!-- Referenz aus Liste entnehmen --><p><objectType ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &amp;gt; Beauftragung durch…]</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
@@ -43,7 +42,7 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Viktor IV . gestattet dem Abt des Klosters Corvey, Konrad, den Gebrauch von Dalma - tika, Mitra und Ring, bestätigt den Klosterbesitz und exkommuniziert die Corveyer Äbte, welche die von Konrad erbaute Wildburg als Lehen ausgegeben haben.<list>
+            <p>Viktor IV . gestattet Konrad, dem Abt des Klosters Corvey, den Gebrauch von Dalmatika, Mitra und Ring, bestätigt den Klosterbesitz und exkommuniziert die Corveyer Äbte, welche die von Konrad erbaute Wildburg als Lehen ausgegeben haben.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
