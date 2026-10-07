@@ -25,7 +25,7 @@
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p><issued><placeName>(Cremona)</placeName><date type="issued">(1162)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
-               </issued><p><legalActor type="issuer">Viktor IV.</legalActor></p><p><legalActor type="recipient">Konrad, Abt des Benediktinerklosters Corvey</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &amp;gt; Litterae cum serico]</objectType></p><!-- Referenz aus Liste entnehmen --><p><objectType ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &amp;gt; Beauftragung durch…]</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+               </issued><p><legalActor type="issuer">Viktor IV.</legalActor></p><p><legalActor type="recipient">Konrad, Abt des Benediktinerklosters Corvey</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType ref="na">[Papsturkunde, Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &amp;gt; Litterae cum serico]</objectType></p><!-- Referenz aus Liste entnehmen --><p><objectType ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &amp;gt; Beauftragung durch…]</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
@@ -42,7 +42,7 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Viktor IV . gestattet Konrad, dem Abt des Klosters Corvey, den Gebrauch von Dalmatika, Mitra und Ring, bestätigt den Klosterbesitz und exkommuniziert die Corveyer Äbte, welche die von Konrad erbaute Wildburg als Lehen ausgegeben haben.<list>
+            <p>Viktor IV . gestattet Konrad, dem Abt des Benediktinerklosters Corvey (D. Paderborn), den Gebrauch von Dalmatika, Mitra und Ring, bestätigt den Klosterbesitz und exkommuniziert die Corveyer Äbte, welche die von Konrad erbaute Wildburg als Lehen ausgegeben haben.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
@@ -89,7 +89,7 @@
             <head>Editionen</head>
             <listBibl>
                <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 285–286, Nr. V57</bibl>
-               <bibl>Wilmans: Westfälisches Urkunden- buch. Additamenta, S. 47, Nr. 52 (Ausz.); Finke: Westfälisches Urkundenbuch, Nr. 123 [wei- tere Drucke vgl. GP ];</bibl>
+               <bibl>Wilmans: Westfälisches Urkundenbuch. Additamenta, S. 47, Nr. 52 (Ausz.)</bibl><bibl>Finke: Westfälisches Urkundenbuch, Nr. 123 [weitere Drucke vgl. GP ];</bibl>
             </listBibl>
          </div>
          <div type="regesta">
@@ -97,7 +97,7 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14466</bibl>
-               <bibl>GP V/1, S. 135, Nr. 163; GP IX, S. 198, Nr. 33; Wilmans: Ergänzungen zu den Regesta pontificum, S. 40, Nr. 19; Dobenecker: Regesta diplomatica, Bd. II, S. 46, Nr. 254; Mayr: Der Pontifikat, S. 119, Nr. 57.</bibl>
+               <bibl>Germ. Pont. 5,1, S. 135, Nr. 163</bibl><bibl>Germ. Pont. 9, S. 198, Nr. 33</bibl><bibl> Wilmans: Ergänzungen, S. 40, Nr. 19</bibl><bibl>Dobenecker, Regesta diplomatica 2, S. 46, Nr. 254</bibl><bibl>Mayr, Pontifikat, S. 119, Nr. 57</bibl>
             </listBibl>
          </div>
          <div>
@@ -120,7 +120,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter"
+            <p>[Incipit unvollständig</p><p/><p/><p/><p>Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter"
                lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt
                werden]</p>
          </div>
