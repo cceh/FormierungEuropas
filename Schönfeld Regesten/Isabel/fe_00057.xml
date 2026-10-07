@@ -20,13 +20,12 @@
          </publicationStmt>
          <sourceDesc>
             <bibl type="jaffe">14466</bibl>
-            <bibl type="Schoenfeld">Schönfeld, Urkunden der Gegenpäpste, S. 285–286, Nr. V57</bibl>
-            <diploDesc>
+            <bibl type="Schoenfeld">Schönfeld, Urkunden der Gegenpäpste, S. 285–286, Nr. V57</bibl><diploDesc>
                <p><authen type="formula" n="na">
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>(Cremona)</placeName>(1162)
+                <issued><placeName>[Ausstellungsort]</placeName></issued></diploDesc><diploDesc><issued><date type="issued">[Ausstellungsdatum]</date></issued></diploDesc><diploDesc><issued>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">[Issuer]</legalActor></p>
