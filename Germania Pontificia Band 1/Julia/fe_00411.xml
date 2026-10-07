@@ -25,7 +25,7 @@
                <issued><placeName>(Tegernsee)</placeName><date type="issued" notBefore="1176-01-01" notAfter="1176-12-31">(1178)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">Gregor, Kardinalbischof von Albano</legalActor></p>
+               <p><legalActor type="issuer">Gregor, päpstlicher Legat</legalActor></p>
                <p><legalActor type="recipient">Rupert, Abt des Benediktinerklosters Tegernsee</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Urkunde eines nichtpäpstlichen Ausstellers, Legatenurkunde</objectType></p>
@@ -48,7 +48,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor><persName>Walter, päpstlicher Legat</persName></legalActor>, erteilt <legalActor><persName>Rupert, Abt des Benediktinerklosters Tegernsee</persName> </legalActor>(D. Freising) den Dispens für eine Reise nach Rom und sichert ihm zu, ihn für entschuldigt zu erklären.</p>
+            <p><legalActor><persName>Gregor, päpstlicher Legat</persName></legalActor>, erteilt <legalActor><persName>Rupert, Abt des Benediktinerklosters Tegernsee</persName> </legalActor>(D. Freising) den Dispens für eine Reise nach Rom und sichert ihm zu, ihn für entschuldigt zu erklären.</p>
          </div>
 
          <div>
