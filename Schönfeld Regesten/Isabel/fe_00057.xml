@@ -25,7 +25,7 @@
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p><issued><placeName>(Cremona)</placeName><date notAfter="1162-12-31" notBefore="1162-01-01" type="issued">(1162)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
-               </issued><p><legalActor type="issuer">Viktor IV.</legalActor></p><p><legalActor type="recipient">Konrad, Abt des Benediktinerklosters Corvey</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType ref="na">Papsturkunde, Pri</objectType></p><!-- Referenz aus Liste entnehmen --><p><objectType ref="na">Juristisches, Rechts- und Besitzbestätigung</objectType></p><p><objectType ref="na">Juristisches, neues Recht</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+               </issued><p><legalActor type="issuer">Viktor IV.</legalActor></p><p><legalActor type="recipient">Konrad, Abt des Benediktinerklosters Corvey</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType ref="na">Papsturkunde, Privileg</objectType></p><!-- Referenz aus Liste entnehmen --><p><objectType ref="na">Juristisches, Rechts- und Besitzbestätigung</objectType></p><p><objectType ref="na">Juristisches, neues Recht</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
@@ -96,7 +96,7 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Mayr und Schönfeld geben als Ausstellungsort Cremona an. Die in Germ. Pont. 5,1 transkribierte Datatio, die höchstwahrscheinlich der ältesten Überlieferung, dem Corveyer Kopialbuch aus der Erzbischöflichen Akademischen Bibliothek Paderborn folgt, da die weitere Tradition das Eschatokoll nicht überliefert. (,  aber Text und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
+               <p>Mayr und Schönfeld geben als Ausstellungsort Cremona an. Germ. Pont. 5,1 transkribieren die Datatio. Da die späterehöchstwahrscheinlich die Datatio, die höchstwahrscheinlich der ältesten Überlieferung, dem Corveyer Kopialbuch aus der Erzbischöflichen Akademischen Bibliothek Paderborn folgt, da die weitere Tradition das Eschatokoll nicht überliefert. (,  aber Text und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
  Kommentar]</p>
             </diploDesc>
          </div>
