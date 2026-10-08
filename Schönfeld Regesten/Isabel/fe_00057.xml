@@ -83,23 +83,20 @@
          </div>
          <div type="editions">
             <head>Editionen</head>
-            <listBibl>
-               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 285–286, Nr. V57</bibl>
-               <bibl/><bibl>UB Westfalen 5,1, S. 45-47, Nr. 123</bibl><bibl>Wilmans, UB Westfalen Additamenta, S. 47, Nr. 52 (Auszug)</bibl>
-            </listBibl>
+            <listBibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 285–286, Nr. V57</bibl><bibl/><bibl>UB Westfalen 5,1, S. 45-47, Nr. 123</bibl><bibl>Wilmans, UB Westfalen Additamenta, S. 47, Nr. 52 (Auszug)</bibl></listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head>
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>JL 14466</bibl>
-               <bibl>Germ. Pont. 5,1, S. 135, Nr. 163</bibl><bibl>Germ. Pont. 9, S. 198, Nr. 33</bibl><bibl> Wilmans, Ergänzungen, S. 40, Nr. 19</bibl><bibl>Dobenecker, Rgg. diplomatica 2, S. 46, Nr. 254</bibl><bibl>Mayr, Pontifikat, S. 119, Nr. 57</bibl>
+               <bibl>Germ. Pont. 5,1, S. 135, Nr. 163</bibl><bibl>Germ. Pont. 9, S. 198, Nr. 33</bibl><bibl>Wilmans, Ergänzungen, S. 40, Nr. 19</bibl><bibl>Dobenecker, Rgg. diplomatica 2, S. 46, Nr. 254</bibl><bibl>Mayr, Pontifikat, S. 119, Nr. 57</bibl>
             </listBibl>
          </div>
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>[Text und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
+               <p>[ScgText und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
  Kommentar]</p>
             </diploDesc>
          </div>
