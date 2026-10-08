@@ -30,7 +30,7 @@
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, nicht kategorisierbar</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">[Typisierung 2]</objectType></p>
+               <p><objectType n="">Anweisung, Nachforschung</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
@@ -48,7 +48,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor><persName>Alexander III.</persName> </legalActor>teilt <legalActor><persName>Rupert, Abt des Benediktinerklosters Tegernsee</persName></legalActor> (D. Freising), und <legalActor><persName>A., Abt des Benediktinerklosters Benediktbeuren</persName></legalActor> (D. Augsburg), mit, dass der Mönch C. von Benediktbeuren um die Gewährung eines kirchlichen Begräbnisses für seine beiden Brüder A. und O. gebeten habe.  tate (diploPart) sind zulässig.]<list><item>Diesen hatte der Eindringling O. der Augsburger Kirche zuvor ihre Lehen entzogen und an Verwandte von ihnen ausgegeben, da beide an der Einheit der Kirche festgehalten und ihn nicht unterstützt hätten.</item><item>Daraufhin ergriffen die beiden Geschädigten die Waffen, brandschatzten und starben im Kampf.</item><item>Alexander III. beauftragt Rupert und Albert, in Erfahrung zu bringen, ob die beiden Brüder A. und O. vor ihrem Tod Buße geleistet hätten, da er nur unter dieser Bedingung ein kirchliches Begräbnis gewähren könne.</item></list></p>
+            <p><legalActor><persName>Alexander III.</persName> </legalActor>teilt <legalActor><persName>Rupert, Abt des Benediktinerklosters Tegernsee</persName></legalActor> (D. Freising), und <legalActor><persName>A., Abt des Benediktinerklosters Benediktbeuren</persName></legalActor> (D. Augsburg), mit, dass der Mönch C. von Benediktbeuren um die Gewährung eines kirchlichen Begräbnisses für seine beiden Brüder A. und O. gebeten habe. <list><item>Diesen hatte der Eindringling O. der Augsburger Kirche zuvor ihre Lehen entzogen und an Verwandte von ihnen ausgegeben, da beide an der Einheit der Kirche festgehalten und ihn nicht unterstützt hätten.</item><item>Daraufhin ergriffen die beiden Geschädigten die Waffen, brandschatzten und starben im Kampf.</item><item>Alexander III. beauftragt Rupert und Albert, in Erfahrung zu bringen, ob die beiden Brüder A. und O. vor ihrem Tod Buße geleistet hätten, da er nur unter dieser Bedingung ein kirchliches Begräbnis gewähren könne.</item></list></p>
          </div>
 
          <div>
