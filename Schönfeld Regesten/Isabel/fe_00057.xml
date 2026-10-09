@@ -23,7 +23,7 @@
             <bibl type="Schoenfeld">Schönfeld, Urkunden der Gegenpäpste, S. 285–286, Nr. V57</bibl><diploDesc><p><authen type="formula" n="na">
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-                  </authen></p><issued><placeName>(Cremona)</placeName><date type="issued" when="1162-09-11">(1162) Sep 11 </date>
+                  </authen></p><issued><placeName/><date type="issued" when="1162-09-11">(1162) Sep 11 </date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued><p><legalActor type="issuer">Viktor IV.</legalActor></p><p><legalActor type="recipient">Konrad, Abt des Benediktinerklosters Corvey</legalActor></p><p><legalActor type="recipient">Benediktinerkloster Corvey</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType ref="na">Papsturkunde, feierliches Privileg</objectType></p><!-- Referenz aus Liste entnehmen --><p><objectType ref="na">Juristisches, Rechts- und Besitzbestätigung</objectType></p><p><objectType ref="na">Juristisches, neues Recht</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
@@ -96,7 +96,7 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Germ. Pont. 5,1 transkribieren die große Datierung nach dem ältesten Zeugen, dem Kopialbuch der Erzbischöflichen Akademischen Bibliothek Paderborn, der einzigen Kopialüberlieferung, die als einzige Überlieferung das Eschatokoll tradiert. Diese Transkription wurde nach Sichtung eines Digitalisats von <diploPart type="datatio">M°C°LX(X)</diploPart> zu <diploPart type="datatio">M°C°LXII</diploPart> korrigiert werden. Besançon als Ausstellungsort wurde ebenfalls der Transkription übernommen und somit die fehlerhafte Verortung in Cremona (Mayr, Schönfeld) korrigiert. </p><p>Ausstellungort Besançon wurden aus dieser großen Datierung übernommen.</p><p>Dorsualvermerk (17.Jh.): <diploPart>aut si Victor IV fuerit, antipapa fuit . . . Ergo privilegium nullius valoris.</diploPart> </p><p><diploPart type="rota">Rota</diploPart>Diplomatischer
+               <p>Germ. Pont. 5,1 transkribieren die große Datierung nach dem ältesten Zeugen, dem Kopialbuch der Erzbischöflichen Akademischen Bibliothek Paderborn, der einzigen Kopialüberlieferung, die als einzige Überlieferung das Eschatokoll tradiert. Diese Transkription wurde nach Sichtung eines Digitalisats von <diploPart type="datatio">M°C°LX(X)</diploPart> zu <diploPart type="datatio">M°C°LXII</diploPart> korrigiert werden. Besançon als Ausstellungsort wurde ebenfalls der Transkription übernommen und somit die fehlerhaft erschlossene Verortung in Cremona (Mayr, Schönfeld) korrigiert. </p><p>Ausstellungort Besançon wurden aus dieser großen Datierung übernommen.</p><p>Dorsualvermerk (17.Jh.): <diploPart>aut si Victor IV fuerit, antipapa fuit . . . Ergo privilegium nullius valoris.</diploPart> </p><p><diploPart type="rota">Rota</diploPart>Diplomatischer
  Kommentar]</p>
             </diploDesc>
          </div>
