@@ -48,14 +48,11 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor><persName>Alexander III.</persName> </legalActor>weist <legalActor>Adalbert, Erzbischof von Salzburg</legalActor>, an, H., C. und deren Söhne zu ermahnen, das den Brüdern des Benediktinerklosters Tegernsee (D. Freising) gehörende Allodialgut in den Salinen zurückzugeben, gegebenenfalls unter Androhung der Exkommunikation. <list>
-                  <item>[Listeneintrag 1]</item>
-               </list></p>
+            <p><legalActor><persName>Alexander III.</persName> </legalActor>weist <legalActor><persName>Adalbert, Erzbischof von Salzburg</persName></legalActor>, an, H., C. und deren Söhne zu ermahnen, das den Brüdern des Benediktinerklosters Tegernsee (D. Freising) gehörende Allodialgut in den Salinen zurückzugeben, gegebenenfalls unter Androhung der Exkommunikation. </p>
          </div>
 
          <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+            <head>Incipit</head><diploPart type="incipit" xml:lang="lat">Ex conquestione abbatis Lorem ipsum dolor sit amet]</diploPart>
          </div>
          <div>
             <head>Subscriptiones</head>
