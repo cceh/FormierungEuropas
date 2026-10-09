@@ -23,7 +23,7 @@
             <bibl type="Schoenfeld">Schönfeld, Urkunden der Gegenpäpste, S. 285–286, Nr. V57</bibl><diploDesc><p><authen type="formula" n="na">
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-                  </authen></p><issued><diploDesc>esanço</diploDesc><date type="issued" when="1162-09-11">(1162) Sep 11 </date>
+                  </authen></p><issued><placeName>Besançon</placeName><date type="issued" when="1162-09-11">(1162) Sep 11</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued><p><legalActor type="issuer">Viktor IV.</legalActor></p><p><legalActor type="recipient">Konrad, Abt des Benediktinerklosters Corvey</legalActor></p><p><legalActor type="recipient">Benediktinerkloster Corvey</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType ref="na">Papsturkunde, feierliches Privileg</objectType></p><!-- Referenz aus Liste entnehmen --><p><objectType ref="na">Juristisches, Rechts- und Besitzbestätigung</objectType></p><p><objectType ref="na">Juristisches, neues Recht</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
