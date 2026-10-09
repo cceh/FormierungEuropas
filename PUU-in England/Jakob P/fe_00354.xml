@@ -21,7 +21,7 @@
                </authen></p>
                <p><issued><placeName>Anagni</placeName><date type="issued" when="1176-03-14">(1174—76) Mär. 14</date><date type="issued" when="1175-03-14"/><date type="issued" when="1176-03-14"/> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                
-             </issued></p><p><legalActor type="issuer">Alexander III.</legalActor></p><p><legalActor type="recipient">(Hugo), Bischof von Durham</legalActor></p><p><legalActor type="recipient">(Clemens), Abt von St. Mary</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType n="">Papsturkunde, litterae cum filo canapis</objectType></p>
+             </issued></p><p><legalActor type="issuer">Alexander III.</legalActor></p><p><legalActor type="recipient">Hugo, Bischof von Durham</legalActor></p><p><legalActor type="recipient">Clemens, Abt der Abtei St. Mary's Abbey</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType n="">Papsturkunde, litterae cum filo canapis</objectType></p>
              <p><objectType n="">Juristisches, Rechtsstreit</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
