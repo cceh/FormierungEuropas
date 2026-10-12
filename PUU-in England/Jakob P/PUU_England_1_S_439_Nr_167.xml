@@ -70,15 +70,13 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Holtzmann, Geschichte, S. 64, Nr 5. </bibl>
-               <bibl>[Edition 2]</bibl>
-            </listBibl>
+               <bibl>PUU England 1, S. 439, Nr. 167</bibl><bibl>Holtzmann, Geschichte, S. 64, Nr. 5.</bibl></listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>JL: 13172  zu (1166—79) nach Mitteilung von K. Pertz. </bibl>
-               <bibl>[Regest 2]</bibl>
+               <bibl>JL: 13172 </bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="commentary">
