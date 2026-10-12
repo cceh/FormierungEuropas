@@ -25,7 +25,7 @@
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Benediktinerkloster Bardney</legalActor></p><p><legalActor type="recipient">Walter, Abt des Klosters Bardney</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p>
-               <p><objectType n="">Juristisches, Rechtsbestätigung</objectType></p>
+               <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
@@ -96,7 +96,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+            <p>Alexander episcopus seruus seruorum Dei. Dilectis filiis Wal-tero abbati et uniuersis fratribus de Bard(eneia) monasterii sa-lutem et apostolicam benedictionem. Ad hoc uniuersarum ecclesiarumgubernatio est nobis domino disponente commissa, ut pro statuillarum debeamus satagere et religiosorum uirorum quieti salubriterprouidere. Eapropter, dilecti in domino filii, uestris iustis postu-lationibus benignum impertientes assensum libertates quoque anti-quas ac rationabiles consuetudines predicti monasterii cum omnibus</p>
          </div>
       </body>
    </text>
