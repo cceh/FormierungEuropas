@@ -28,7 +28,7 @@
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Prior und Brüder von St. Nicholas, Exeter</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p>
-                <p><objectType n="">Juristisches </objectType></p>
+                <p><objectType n="">Juristisches, Besitzbestätigung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
@@ -51,8 +51,8 @@
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl>[Original]</bibl>
-               <bibl>Chartular von St. Nicholas, Exeter s. XIII,  Brit. Mus. Cott. Vi- tellius B IX fol. 29'. </bibl>
+               <bibl>Original: -</bibl>
+               <bibl>Kopie: Chartular von St. Nicholas, Exeter s. XIII,  Brit. Mus. Cott. Vi- tellius B IX fol. 29'. </bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>
