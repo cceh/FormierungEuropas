@@ -3,12 +3,9 @@
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
 <TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen -->
    <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
-            <respStmt>
+      <fileDesc><titleStmt><title>fe_00385</title><respStmt>
                <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
-               <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+               <persName>JP</persName>
             </respStmt>
            <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
          </titleStmt>
@@ -85,7 +82,7 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p/><p>Holtzmann datiert diese Urkrunde aufgrund einer Vorurkunde bezüglich der Kirche von Bradeley (PUU England 1, S. 399-400, Nr. 130) auf die späten 1170er Jahre. </p>
+            <p/><p>Holtzmann datiert diese Urkunde aufgrund einer Vorurkunde bezüglich der Kirche von Bradeley (PUU England 1, S. 399-400, Nr. 130) auf die späten 1170er Jahre. </p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
