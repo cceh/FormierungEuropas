@@ -48,7 +48,7 @@
          </div>
 
          <div>
-            <head>Incipit:</head><diploPart>Et justitie ratio exigit et</diploPart> </div>
+            <head>Incipit:</head><diploPart><diploPart>Et justitie ratio exigit et</diploPart></diploPart> </div>
          <div>
             <head>Subscriptiones:</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
