@@ -18,7 +18,7 @@
             <bibl>[Weiteres Konkordanzregest]</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
-               <p><authen type="formula" n="na">
+               <p><authen type="formula" n="deperditum">
                      <p>*</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
@@ -48,15 +48,10 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor><persName>Petrus de Bono, Kardinalpriester der Titelkirche Santa Susanna und apostolischer Legat</persName></legalActor>, weist <legalActor><persName>Rupert, Abt des Benediktinerklosters Tegernsee (D. Freising)</persName></legalActor>, an, vor ihm zu erscheinen.<list>
-                  <item>[Listeneintrag 1]</item>
-               </list></p>
+            <p><legalActor><persName>Petrus de Bono, Kardinalpriester der Titelkirche Santa Susanna und apostolischer Legat</persName></legalActor>, weist <legalActor><persName>Rupert, Abt des Benediktinerklosters Tegernsee (D. Freising)</persName></legalActor>, an, vor ihm zu erscheinen.</p>
          </div>
 
-         <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
-         </div>
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">-</diploPart></div>
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
@@ -65,7 +60,7 @@
          </div>
          <div>
             <head>Datatio</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+            <diploPart type="datatio">[-tierungszeile]</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
