@@ -17,7 +17,7 @@
                         <p><authen type="formula" n="na">
                             <p>-</p>
                             </authen></p>
-                            <p><issued><placeName>Anagni</placeName><date type="issued" notBefore="1174-04-20" notAfter="1176-04-20">(1174—76) Apr. 20</date><!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar --> </issued></p>
+                            <p><issued><placeName>Anagni</placeName><date type="issued" when="1174-04-20">(1174—76) Apr. 20</date><date type="issued" notBefore="1174-04-20" notAfter="1176-04-20"/><date type="issued" notBefore="1174-04-20" notAfter="1176-04-20"/><!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar --> </issued></p>
                             <p><legalActor type="issuer">Alexander III.</legalActor></p>
                             <p><legalActor type="recipient">(Roger), Erzbischof von York</legalActor></p>
                             <p><legalActor type="recipient">Archidiakone Yorks </legalActor></p>
