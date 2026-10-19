@@ -23,8 +23,8 @@
                             <p><legalActor type="recipient">Archidiakone der Diözese York</legalActor></p>
                             <p><legalActor type="recipient">Prälaten der Diözese Yorks</legalActor></p>
                             <p><legalActor type="recipient">Zisterzienserabtei Rievaulx </legalActor></p>
-                            <p><legalActor type="recipient">(Silvanus), Abt von Rievaulx</legalActor></p>
-                            <p><legalActor type="recipient">Mönche von Rievaulx</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName -->
+                            <p><legalActor type="recipient">(Silvanus), Abt der Zisterzienserabtei Rievaulx</legalActor></p>
+                            <p><legalActor type="recipient">Mönche der Zisterzienserabtei Rievaulx</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName -->
                             <p><objectType n="">Papsturkunde, litterae cum filo canapis</objectType></p>
                             <p><objectType n="">Anweisung, Einhaltung von Recht</objectType></p>
                             </diploDesc>
