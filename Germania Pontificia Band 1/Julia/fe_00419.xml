@@ -30,7 +30,7 @@
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Urkunde eines nichtpäpstlichen Ausstellers, Legatenurkunde</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">Anweisung, Wiederherstellung von Recht</objectType></p><p><objectType n="">Beauftragung durch Alexander III.</objectType></p>
+               <p><objectType n="">Anweisung, persönliches Erscheinen</objectType></p><p><objectType n="">Beauftragung durch Alexander III.</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
@@ -48,7 +48,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor><persName>Petrus de Bono, Kardinalpriester der Titelkirche Santa Susanna und apostolischer Legat</persName></legalActor>, weist <legalActor><persName>Rupert, Abt des Benediktinerklosters Tegernsee (D. Freising)</persName></legalActor>, an, vor ihm zu erscheinen.</p>
+            <p><legalActor><persName>Petrus de Bono, Kardinalpriester der Titelkirche Santa Susanna und apostolischer Legat</persName></legalActor>, weist <legalActor><persName>Rupert, Abt des Benediktinerklosters Tegernsee (D. Freising)</persName></legalActor>, an, vor ihm persönlich zu erscheinen.</p>
          </div>
 
          <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">-</diploPart></div>
@@ -102,7 +102,7 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
+               <p>Bei dies[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
             </diploDesc>
          </div>
          <div type="commentary">
