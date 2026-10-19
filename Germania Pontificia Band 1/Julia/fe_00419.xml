@@ -59,14 +59,13 @@
                </list></diploPart>
          </div>
          <div>
-            <head>Datatio</head>
-            <diploPart type="datatio">[-tierungszeile]</diploPart>
+            <head>Datatio</head><diploPart type="datatio">-</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
+                  <bibl type="original">[Deperditum, erwähnt in Germ. Pont. 1, S. 368-369, Nr. 18; ##FE Nr. 00420##Original]</bibl>
                   <bibl type="msCopy">[handschriftliche Kopie]</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
