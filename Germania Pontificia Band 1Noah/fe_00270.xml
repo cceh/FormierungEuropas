@@ -30,7 +30,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Salzburg, Domkapitel</legalActor></p><p><legalActor type="recipient"/></p>
+               <p><legalActor type="recipient">Salzburg, Domkapitel</legalActor></p><p><legalActor type="recipient">Siboto, Propst des Domkapitels von Salzburg</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
@@ -52,7 +52,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>Alexander III. bestätigt dem Domkapitel von Salzburg unter Siboto, dem Propst des Domkapitels von Salzburg, den Besitz der Kirche St. Martin (im Lungau).]</p><p><list>
+            <p>[Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
