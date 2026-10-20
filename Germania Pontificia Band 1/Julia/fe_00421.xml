@@ -47,9 +47,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor><persName>Alexander III.</persName> </legalActor>nimmt den <legalActor><persName>Priester Rainard</persName></legalActor> und all seine Besitztümer in den apostolischen Schutz und erlaubt ihm, an den apostolischen Stuhl zu appellieren, falls er sich in irgendeiner Angelegenheit benachteiligt fühlen sollte.<list>
-                  <item>[Listeneintrag 1]</item>
-               </list></p>
+            <p><legalActor><persName>Alexander III.</persName> </legalActor>nimmt den <legalActor><persName>Priester Rainard</persName></legalActor> und all seine Besitztümer in den apostolischen Schutz und erlaubt ihm, an den apostolischen Stuhl zu appellieren, falls er sich in irgendeiner Angelegenheit benachteiligt fühlen sollte.</p>
          </div>
 
          <div>
@@ -68,7 +66,7 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
+                  <bibl type="original">München, Bayerisches Hauptstaatsarchiv, Urk. ?? Archiv anschreiben!</bibl>
                   <bibl type="msCopy">[handschriftliche Kopie]</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
