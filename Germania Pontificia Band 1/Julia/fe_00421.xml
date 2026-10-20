@@ -53,8 +53,7 @@
          </div>
 
          <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+            <head>Incipit</head><diploPart type="incipit" xml:lang="lat">Apostolice sedis clementia devotos et</diploPart>
          </div>
          <div>
             <head>Subscriptiones</head>
