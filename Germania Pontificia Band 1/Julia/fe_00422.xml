@@ -54,8 +54,7 @@
          </div>
 
          <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[A felicis memorie predecessorisLorem ipsum dolor sit amet]</diploPart>
+            <head>Incipit</head><diploPart type="incipit" xml:lang="lat">A felicis memorie predecessore nostro</diploPart>
          </div>
          <div>
             <head>Subscriptiones</head>
