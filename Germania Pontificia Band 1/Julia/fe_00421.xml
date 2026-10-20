@@ -66,7 +66,7 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">München, Bayerisches Hauptstaatsarchiv, Kloster Dietramszell, Urk. 2; digital verfügbar unter: https://urkundenrepositorium.uni-marburg.de/entities/urkunde/d8e57491-9153-40d2-8ed9-65dd439e0147!</bibl>
+                  <bibl type="original">München, Bayerisches Hauptstaatsarchiv, Kloster Dietramszell, Urk. 2; digital verfügbar unter: https://urkundenrepositorium.uni-marburg.de/entities/urkunde/d8e57491-9153-40d2-8ed9-65dd439e0147</bibl>
                   <bibl type="msCopy">[handschriftliche Kopie]</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
@@ -75,15 +75,15 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
-               <bibl>[Quelle 2]</bibl>
+               <bibl>-</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="editions">
@@ -97,7 +97,7 @@
             <head>Regesten</head>
             <listBibl>
                <bibl>JL 13178</bibl>
-               <bibl>[Regest 2]</bibl>
+               <bibl>[Germ. Pont. Regest 2]</bibl>
             </listBibl>
          </div>
          <div>
