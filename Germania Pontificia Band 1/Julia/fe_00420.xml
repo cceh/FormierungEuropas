@@ -25,7 +25,7 @@
                <issued><placeName>–</placeName><date type="issued" notBefore="1179-01-01" notAfter="1180-12-31">(1180 Sep.-Okt.)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Petrus de Bono, Aussteller]</legalActor></p>
+               <p><legalActor type="issuer">Petrus de Bono, Kardinalpriester von Santa Susanna</legalActor></p>
                <p><legalActor type="recipient">[Empfänger]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
