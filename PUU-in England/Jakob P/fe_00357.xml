@@ -20,8 +20,8 @@
                             <p><issued><placeName>Anagni</placeName><date type="issued" when="1174-04-20">(1174—76) Apr 20</date><date type="issued" when="1175-04-20"/><date type="issued" when="1176-04-20"/><!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar --> </issued></p>
                             <p><legalActor type="issuer">Alexander III.</legalActor></p>
                             <p><legalActor type="recipient">(Roger), Erzbischof von York</legalActor></p>
-                            <p><legalActor type="recipient">Archidiakone der Diözese York</legalActor></p>
-                            <p><legalActor type="recipient">Prälaten der Diözese Yorks</legalActor></p>
+                            <p><legalActor type="recipient">Archidiakone der Erzdiözese York</legalActor></p>
+                            <p><legalActor type="recipient">Prälaten der Erzdiözese York</legalActor></p>
                             <p><legalActor type="recipient">Zisterzienserabtei Rievaulx </legalActor></p>
                             <p><legalActor type="recipient">(Silvanus), Abt der Zisterzienserabtei Rievaulx</legalActor></p>
                             <p><legalActor type="recipient">Mönche der Zisterzienserabtei Rievaulx</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName -->
