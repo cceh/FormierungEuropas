@@ -4,7 +4,7 @@
 <TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen -->
    <teiHeader>
       <fileDesc><titleStmt><title>fe_00358</title><respStmt><resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp><persName>JP</persName></respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>JP</persName></respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>JP, IB</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -16,10 +16,10 @@
             <bibl>PUU England 1, S. 405-408, Nr. 137</bibl><bibl type="jaffe">-</bibl>
             <diploDesc><p><authen type="formula" n="na">
                   <p>-</p>
-               </authen></p><issued><placeName>Anagni</placeName><date type="issued" notBefore="1176-02-18" notAfter="1176-02-18">1176 Feb. 18</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+               </authen></p><issued><placeName>Anagni</placeName><date type="issued" notBefore="1176-02-18" notAfter="1176-02-18">1176 Feb 18</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p> <p><legalActor type="recipient">Benediktinerkloster Chertsey</legalActor></p> 
-               <p> <legalActor type="recipient">Aimar, Abt des Klosters Chertsey</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient">Aimar, Abt des Benediktinerklosters Chertsey</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p>
                <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
