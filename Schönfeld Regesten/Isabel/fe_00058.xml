@@ -96,17 +96,15 @@
          </div>
          <div type="editions">
             <head>Editionen</head>
-            <listBibl>
-               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 286, Nr. V58</bibl>
-               <bibl>Calmet: Histoire ecclésiastique, Bd. I, Preuves col. 483 bzw. Bd. III , Preuves col. 12;</bibl>
+            <listBibl><bibl>Calmet: Histoire ecclésiastique, Bd. I, Preuves col. 483 bzw. Bd. III , Preuves col. 12;</bibl>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head>
             <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>JL 14458</bibl>
-               <bibl>Parisse: Bullaire, S. 53, Nr. 250; Mayr: Der Pontifikat, S. 114, Nr. 44.</bibl>
+               <bibl>JL 14458</bibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 286, Nr. V58</bibl><bibl>Mayr, Pontifikat, S. 114, Nr. 44</bibl>
+               <bibl>Parisse, Bullaire, S. 53, Nr. 250</bibl>
             </listBibl>
          </div>
          <div>
