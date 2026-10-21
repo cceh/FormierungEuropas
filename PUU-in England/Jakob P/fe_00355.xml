@@ -18,7 +18,7 @@
                <p><authen type="formula" n="na">
                   <p>-</p> </authen></p>
                <p><issued><placeName>Anagni</placeName><date type="issued" when="1174-03-14">(1174—76) Mär. 14</date><date type="issued" when="1176-03-14"/> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
-               </issued></p><p><legalActor type="recipient">(Roger), Erzbischof von York</legalActor></p> <p><legalActor type="recipient">(Hugo), Bischof von Durham</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               </issued></p><p><legalActor type="recipient">(Roger), Erzbischof von York</legalActor></p> und <p><legalActor type="recipient">(Hugo), Bischof von Durham</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum filo canapis</objectType></p>
                 <p><objectType n="">Anweisung, Einhaltung von Recht</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
@@ -35,7 +35,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p><legalActor>Alexander III.</legalActor> weist <legalActor><persName>(Roger), Erzbischof von York</persName></legalActor>, und <legalActor><persName>(Hugo), Bischof von Durham,</persName></legalActor> auf Beschwerde des <orgName>Klosters Rievaulx</orgName> (D. York) an:<list><item>den Klerikern von Welburne unter Androhung des Anathems zu untersagen, von den Mönchen von Rievaulx den Zehnten zu fordern</item><item>sie bei einem Verstoß unter Ausschluss der Appellation zu exkommunizieren</item></list></p>
+            <p><legalActor>Alexander III.</legalActor> weist <legalActor><persName>(Roger), Erzbischof von York</persName></legalActor> und apostelischer Legat, <legalActor><persName>(Hugo), Bischof von Durham,</persName></legalActor> auf Beschwerde des <orgName>Klosters Rievaulx</orgName> (D. York) an:<list><item>den Klerikern von Welburne unter Androhung des Anathems zu untersagen, von den Mönchen von Rievaulx den Zehnten zu fordern</item><item>sie bei einem Verstoß unter Ausschluss der Appellation zu exkommunizieren</item></list></p>
          </div>
          
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Ex parte dilectorum filiorum nostrorum</diploPart></div>
