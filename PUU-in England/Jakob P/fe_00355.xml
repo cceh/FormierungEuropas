@@ -14,16 +14,11 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>PUU England 1, S. 402-403, Nr. 133</bibl><bibl type="jaffe">-</bibl>
-            <diploDesc>
-               <p><authen type="formula" n="na">
-                  <p>-</p> </authen></p>
-               <p><issued><placeName>Anagni</placeName><date type="issued" when="1174-03-14">(1174—76) Mär. 14</date><date type="issued" when="1176-03-14"/> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
-               </issued></p><p><legalActor type="recipient">(Roger), Erzbischof von York</legalActor></p> und <p><legalActor type="recipient">(Hugo), Bischof von Durham</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">Papsturkunde, litterae cum filo canapis</objectType></p>
-                <p><objectType n="">Anweisung, Einhaltung von Recht</objectType></p>
-<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <diploDesc><p><authen type="formula" n="na">
+                  <p>-</p> </authen></p><p><issued><placeName>Anagni</placeName><date type="issued" when="1174-03-14">(1174—76) Mär. 14</date><date type="issued" when="1176-03-14"/> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+               </issued></p><p><legalActor type="recipient">(Roger), Erzbischof von York</legalActor></p><p><legalActor type="recipient">(Hugo), Bischof von Durham</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType n="">Papsturkunde, litterae cum filo canapis</objectType></p><p><objectType n="">Anweisung, Einhaltung von Recht</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
-         </sourceDesc>
+</sourceDesc>
       </fileDesc>
       <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
          <langUsage>
@@ -35,7 +30,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p><legalActor>Alexander III.</legalActor> weist <legalActor><persName>(Roger), Erzbischof von York</persName></legalActor> und apostelischer Legat, <legalActor><persName>(Hugo), Bischof von Durham,</persName></legalActor> auf Beschwerde des <orgName>Klosters Rievaulx</orgName> (D. York) an:<list><item>den Klerikern von Welburne unter Androhung des Anathems zu untersagen, von den Mönchen von Rievaulx den Zehnten zu fordern</item><item>sie bei einem Verstoß unter Ausschluss der Appellation zu exkommunizieren</item></list></p>
+            <p><legalActor>Alexander III.</legalActor> weist <legalActor><persName>(Roger), Erzbischof von York</persName></legalActor> und apostelischer Legat, sowie <legalActor><persName>(Hugo), Bischof von Durham,</persName></legalActor> auf Beschwerde des <orgName>Klosters Rievaulx</orgName> (D. York) an:<list><item>den Klerikern von Welburne unter Androhung des Anathems zu untersagen, von den Mönchen von Rievaulx den Zehnten zu fordern</item><item>sie bei einem Verstoß unter Ausschluss der Appellation zu exkommunizieren</item></list></p>
          </div>
          
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Ex parte dilectorum filiorum nostrorum</diploPart></div>
