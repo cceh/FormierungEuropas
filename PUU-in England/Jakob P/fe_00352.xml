@@ -24,7 +24,7 @@
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Kanoniker des Augustinerpriorats von Stone</legalActor></p> <p> <legalActor type="recipient">R(oger), Prior des Augustinerpriorats von Stone</legalActor></p>  <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p>
-               <p><objectType n="">Juristisches, <diploDesc><objectType n="">Rechts- und Besitzbestätigung</objectType></diploDesc></objectType></p>
+               <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
@@ -57,7 +57,7 @@ fordern</item><item>Appellationsrecht an die Kurie</item><item>Perturbationsverb
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl>Original: -</bibl><bibl>Kopie: Chartular von Stone (13. Jh.), British Library Cotton MS Vespasian E XXIV, fol. 17.</bibl><bibl>Kopie: Transkription von David Casley (1734): in British Library Stowe MS 943, fol. 35v</bibl>
+               <bibl>Original: -</bibl><bibl>Kopie: Chartular von Stone (13. Jh.), British Library Cotton MS Vespasian E XXIV, fol. 17.</bibl><bibl>Kopie: Transkription von David Casley (1734): in British Library Stowe MS 943, fol. 35v.</bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>
