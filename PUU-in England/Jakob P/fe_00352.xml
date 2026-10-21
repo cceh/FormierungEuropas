@@ -20,9 +20,7 @@
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
                <p><issued><placeName>Anagni</placeName><date when="1174-05-31">(1174—1176) Mai 31</date><date when="1176-05-31"/> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
-               </issued></p>
-               <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p> <legalActor type="recipient">Kanoniker des Augustinerpriorats von Stone</legalActor></p> <p> <legalActor type="recipient">R(oger), Prior des Augustinerpriorats von Stone</legalActor></p>  <!-- kann enthalten: persName/orgName, ggf roleName -->
+               </issued></p><p> <legalActor type="recipient">Kanoniker des Augustinerpriorats von Stone</legalActor></p> <p> <legalActor type="recipient">R(oger), Prior des Augustinerpriorats von Stone</legalActor></p>  <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p>
                <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
@@ -42,7 +40,7 @@
             <p><persName>Alexander III.</persName> gewährt den <orgName>Kanonikern des Augustinerpriorats von Stone</orgName> (D. Lichfield) unter <persName>R(oger), Prior von Stone,</persName> folgende Privilegien und Rechte:</p><p><list><item>Aufnahme in den apostolischen Schutz all ihrer derzeitigen und zukünftigen geistlichen und weltlichen Güter</item><item>allgemeines Verbot, die Kanoniker, ihre 
 Besitzungen oder deren Aufseher und Verwalter zu suspendieren, mit einem
  Interdikt oder einer Exkommunikation zu belegen oder von ihnen oder 
-ihren Besitzungen ohne ordnungsgemäßes Gerichtsverfahren etwas zu 
+ihren Besitzungen etwas ohne ordnungsgemäßes Gerichtsverfahren zu 
 fordern</item><item>Appellationsrecht an die Kurie</item><item>Perturbationsverbot</item><item>Schlussformel: Sanctio negativa</item></list></p>
          </div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Sacrosancta Romana ecclesia deuotos et</diploPart></div>
