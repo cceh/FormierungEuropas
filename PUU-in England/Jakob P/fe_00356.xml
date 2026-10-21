@@ -16,7 +16,7 @@
               <diploDesc><p><authen type="formula" n="na">
                   <p>-</p>
                </authen></p>
-          <p><issued><placeName>Anagni</placeName><date type="issued" notBefore="1174-03-20" notAfter="1176-03-20">(1174—76) Mär. 20</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+          <p><issued><placeName>Anagni</placeName><date type="issued" when="1174-03-20">(1174—1176) Mär. 20</date><date type="issued" notBefore="1174-03-20" notAfter="1176-03-20"/> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Roger, Erzbischof von York</legalActor></p> <p> <legalActor type="recipient">Erzbistum York</legalActor></p> <p> <legalActor type="recipient">Archidiakone und andere Prälaten der Erzdiözese York</legalActor></p> <p><legalActor type="recipient">Zisterzienserabtei Rievaulx </legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
@@ -81,6 +81,12 @@
             <listBibl>
                <bibl>-</bibl>
             </listBibl>
+         </div>
+           <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>Holzmann (vgl. PUU England 1, S. 400) bestimmt die Datierung anhand des Itinerars Alexanders III.  und  der Amtszeit des Abtes Silvanus, der nach Atkinson (vgl. Cart. Rievaulx, S. XCII) bereits seit 1170 im Amt war. Tatsächlich war Silvanus bereits seit 1167 Abt von Rievaulx, was allerdings die Datierung nicht verändert (vgl. Knowles, Head, S. 140). Das Jahr 1175 ist als Ausstellungsjahr nicht möglich, da sich Alexander III. am 14. März dieses Jahres in Ferentino aufhielt. Vgl. JL 12445. ####Fe#####</p>
+            </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
