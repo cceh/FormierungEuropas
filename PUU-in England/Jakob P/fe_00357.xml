@@ -22,10 +22,7 @@
                             <p><legalActor type="recipient">(Roger), Erzbischof von York</legalActor></p>
                             <p><legalActor type="recipient">Archidiakone der Erzdiözese York</legalActor></p>
                             <p><legalActor type="recipient">Prälaten der Erzdiözese York</legalActor></p>
-                            <p><legalActor type="recipient">Zisterzienserabtei Rievaulx </legalActor></p>
-                            <p><legalActor type="recipient">(Silvanus), Abt der Zisterzienserabtei Rievaulx</legalActor></p>
-                            <p><legalActor type="recipient">Mönche der Zisterzienserabtei Rievaulx</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName -->
-                            <p><objectType n="">Papsturkunde, litterae cum filo canapis</objectType></p>
+                            <p/><p><objectType n="">Papsturkunde, litterae cum filo canapis</objectType></p>
                             <p><objectType n="">Anweisung, Einhaltung von Recht</objectType></p>
                             </diploDesc>
                  </sourceDesc>
