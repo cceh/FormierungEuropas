@@ -16,9 +16,7 @@
             <bibl>PUU England 1, S. 405-408, Nr. 137</bibl><bibl type="jaffe">-</bibl>
             <diploDesc><p><authen type="formula" n="na">
                   <p>-</p>
-               </authen></p><issued><placeName>Anagni</placeName><date type="issued" when="1176-02-18">1176 Feb 18</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
-               </issued>
-               <p><legalActor type="issuer">Alexander III.</legalActor></p> <p><legalActor type="recipient">Benediktinerkloster Chertsey</legalActor></p> 
+               </authen></p><issued><placeName>Anagni</placeName><date type="issued" when="1176-02-18">1176 Feb. 18</date></issued><p><legalActor type="recipient">Benediktinerkloster Chertsey</legalActor></p> 
                <p> <legalActor type="recipient">Aimar, Abt des Benediktinerklosters Chertsey</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p>
                <p><objectType n="">Juristisches, neues Recht</objectType></p>
