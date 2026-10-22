@@ -70,10 +70,7 @@
                   <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
                </list></diploPart>
          </div>
-         <div>
-            <head>Datatio:</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
-         </div>
+         <div><head>Datatio:</head><diploPart type="datatio">Cremone iii idus febr</diploPart></div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
@@ -106,7 +103,7 @@
          <div type="regesta">
             <head>Regesten</head>
             <!-- Konkordanzregesten -->
-            <listBibl><bibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 286, Nr. V59</bibl><bibl/></bibl><bibl>Mayr, Pontifikat, S. 115, Nr. 45</bibl>
+            <listBibl><bibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 286, Nr. V59</bibl></bibl><bibl>Mayr, Pontifikat, S. 115, Nr. 45</bibl>
             </listBibl>
          </div>
          <div>
