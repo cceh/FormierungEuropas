@@ -109,9 +109,7 @@
          <div type="regesta">
             <head>Regesten</head>
             <!-- Konkordanzregesten -->
-            <listBibl>
-               <bibl>JL 14459</bibl>
-               <bibl>Mayr: Der Pontifikat, S. 115, Nr. 45.</bibl>
+            <listBibl><bibl>Mayr, Pontifikat, S. 115, Nr. 45</bibl>
             </listBibl>
          </div>
          <div>
@@ -134,7 +132,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter"
+            <p>Incipit unvollständig</p><p/><p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter"
                lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt
                werden]</p>
          </div>
