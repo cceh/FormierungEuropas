@@ -33,7 +33,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
-               <p><legalActor type="recipient">Herzelin von Marbach, Propst der Benediktinerinnenabtei Schönensteinbach</legalActor></p>
+               <p><legalActor type="recipient">Herzelin von Marbach, Propst der Augustinerchorfrauenstifts Schönensteinbach</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &amp;gt; Litterae cum serico]</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
@@ -56,7 +56,7 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Viktor IV . ruft Propst Hentzelin von Marbach zum Schutz und zur Wache über die Kirche, die ihm anvertrauten Brüder und die Nonnen von Schönensteinbach auf.<list>
+            <p>Viktor IV . ruft Propst Hentzelin von Marbach zum Schutz und zur Wache über die Kirche, die ihm anvertrauten Brüder und die Nonnen des Augustinerchorfrauenstifts Schönensteinbach (D. ) auf.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
