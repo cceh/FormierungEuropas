@@ -18,9 +18,7 @@
             <diploDesc> <p><authen type="formula" n="na">
                   <p>-</p>
                </authen></p><p><issued><placeName>Anagni</placeName><date type="issued" when="1176-02-27">(1176) Feb. 27</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
-               </issued></p>
-               <p><legalActor type="issuer">Alexander III.</legalActor></p> <p><legalActor type="recipient">Benediktinerabtei von Chertsey</legalActor></p>
-               <p> <legalActor type="recipient">Prior der Benediktinerabtei von Chertsey</legalActor></p> <p> <legalActor type="recipient">Mönche der Benediktinerabtei von Chertsey</legalActor></p>  <!-- kann enthalten: persName/orgName, ggf roleName -->
+               </issued></p><p> <legalActor type="recipient">Prior der Benediktinerabtei von Chertsey</legalActor></p> <p> <legalActor type="recipient">Mönche der Benediktinerabtei von Chertsey</legalActor></p>  <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p>
                <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
