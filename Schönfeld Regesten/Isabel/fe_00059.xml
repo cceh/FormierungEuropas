@@ -101,15 +101,13 @@
          </div>
          <div type="editions">
             <head>Editionen</head>
-            <listBibl>
-               <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 286, Nr. V59</bibl>
-               <bibl>Bouquet: Recueil, Bd. XVI , S. 25, Nr. 86; Mansi: Sacrorum conciliorum nova, Bd. XXI , S. 977; Duchesne: Historiae Francorum, Bd. IV , S. 583; Würdtwein: Nova subsidia diplomatica, Bd. IX , S. 48, Nr. 24 (Ausz.);</bibl>
+            <listBibl><bibl>Bouquet: Recueil, Bd. XVI , S. 25, Nr. 86</bibl><bibl>Mansi: Sacrorum conciliorum nova, Bd. XXI , S. 977</bibl><bibl>Duchesne: Historiae Francorum, Bd. IV , S. 583</bibl><bibl>Würdtwein: Nova subsidia diplomatica, Bd. IX , S. 48, Nr. 24 (Ausz.);</bibl>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head>
             <!-- Konkordanzregesten -->
-            <listBibl><bibl>Mayr, Pontifikat, S. 115, Nr. 45</bibl>
+            <listBibl><bibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 286, Nr. V59</bibl><bibl/></bibl><bibl>Mayr, Pontifikat, S. 115, Nr. 45</bibl>
             </listBibl>
          </div>
          <div>
