@@ -17,7 +17,7 @@
                   <p>-</p>
                </authen></p>
           <p><issued><placeName>Anagni</placeName><date type="issued" when="1174-03-20">(1174—1176) Mär. 20</date><date when="1176-03-20"/> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
-               </issued></p><p> <legalActor type="recipient">Roger, Erzbischof von York</legalActor></p>  <p> <legalActor type="recipient">Archidiakone und andere Prälaten der Erzdiözese York</legalActor></p>  <!-- kann enthalten: persName/orgName, ggf roleName -->
+               </issued></p><p> <legalActor type="recipient">Roger, Erzbischof von York</legalActor></p>  <p> <legalActor type="recipient">Archidiakone und andere Prälaten der Erzdiözese York</legalActor></p> <p/> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum filo canapis</objectType></p>
                <p><objectType n="">Anweisung, Einhaltung von Recht</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
@@ -50,7 +50,7 @@
             <div>
             <listBibl>   
                <bibl>Original: -</bibl>
-               <bibl>Kopie: Chartular von Rievaulx (12. Jh.), Brit. Mus. Cott. Julius D 1, fol. 183v, Nr. 228.</bibl>
+               <bibl>Kopie: Chartular von Rievaulx (12. Jh.), Brit. Mus. Cott. Julius D 1, fol. 183v, Nr. 228</bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>
@@ -70,7 +70,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>PUU England 1, S. 403-404, Nr. 134.</bibl><bibl>Chart. Rievaulx, S. 196  Nr. 264. </bibl>
+               <bibl>PUU England 1, S. 403-404, Nr. 134</bibl><bibl>Chart. Rievaulx, S. 196  Nr. 264</bibl>
                <bibl/>
             </listBibl>
          </div>
