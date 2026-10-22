@@ -33,8 +33,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
-               <p>
-                  <legalActor type="recipient">[Recipient 1]</legalActor></p>
+               <p><legalActor type="recipient">Ludwig VII., König von Frankreich</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &amp;gt; Litterae cum serico]</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
@@ -57,7 +56,7 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Viktor IV. kündigt <persName>König Ludwig VII. von Frankreich</persName> die Ankunft seines Getreuen Stephan an und ruft ihn zum Verbleib in seiner Obödienz auf.<list>
+            <p>Viktor IV. kündigt <persName>König Ludwig VII. von Frankreich</persName> die Ankunft seines <persName>Getreuen Stephan</persName> an und ruft ihn zum Verbleib in seiner Obödienz auf.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
