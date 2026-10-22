@@ -81,7 +81,7 @@
                <listBibl>
                   <bibl type="original">[Original]</bibl>
                   <bibl type="msCopy">Rom, Biblioteca Vaticana, Ms. Reg. lat. 179; Digitalisat: https://digi.vatlib.it/view/MSS_Reg.lat.179</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="print"/>
                </listBibl>
             </div>
          </div>
@@ -101,7 +101,7 @@
          </div>
          <div type="editions">
             <head>Editionen</head>
-            <listBibl><bibl>RHGF 16, S. 25-26, Nr. 86</bibl><bibl>Mansi, Sacrorum conciliorum nova 21, Sp. 977-978</bibl><bibl>Duchesne: Historiae Francorum 4, S. 583</bibl><bibl>Würdtwein: Nova subsidia diplomatica 10, S. 48, Nr. 24 (Ausz.)</bibl>
+            <listBibl><bibl>RHGF 16, S. 25-26, Nr. 86</bibl><bibl>Mansi, Sacrorum conciliorum nova 21, Sp. 977-978</bibl><bibl/><bibl>Duchesne: Historiae Francorum 4, S. 583</bibl><bibl>Würdtwein: Nova subsidia diplomatica 10, S. 48, Nr. 24 (Ausz.)</bibl>
             </listBibl>
          </div>
          <div type="regesta">
