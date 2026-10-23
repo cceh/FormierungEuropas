@@ -26,11 +26,11 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Otto, Propst des Regularkanonikerstifts Rottenbuch</legalActor></p><p><legalActor type="recipient">Äbte der Klöster Ottobeuren und AltenburEmpfänger]</legalActor></p>
+               <p><legalActor type="recipient">Otto, Propst des Regularkanonikerstifts Rottenbuch</legalActor></p><p><legalActor type="recipient">Äbte der Klöster Ottobeuren und Altenburg</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, nicht kategorisierbar</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">[Anweisung</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
+               <p><objectType n="">Anweisung, Wiederherstellung von Recht</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
@@ -48,7 +48,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>Alexander III. weist die Äbte von Ottobeuren und Altenburg sowie den Propst von Baitenhausen an, den Streit zwischen zwei Äbten des Klosters Buren beizulegenRegestentext. Quellenzitate (diploPart) sind zulässig.]<list>
+            <p><legalActor><persName>Alexander III.</persName></legalActor> weist die Äbte von Ottobeuren und Altenburg sowie den Propst von Baitenhausen an, den Streit zwischen zwei Äbten des Klosters Buren beizulegenRegestentext. Quellenzitate (diploPart) sind zulässig.]<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
