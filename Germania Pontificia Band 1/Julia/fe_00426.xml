@@ -25,8 +25,8 @@
                <issued><placeName>–</placeName><date type="issued" notBefore="1159-01-01" notAfter="1181-12-31">(1159-1181)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
-               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p><legalActor type="recipient">Gregor, Bischof von Trient</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
@@ -48,7 +48,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>[Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
+            <p>Alexander III. an Gregor, Bischof von Trient: Ein Priester namens P. hat ihm berichtet, dass der Abt und die Brüder eines Klosters sich weigerten, ihn als Mönch aufzunehmen, es sei denn, er erkläre sich zur Zahlung von 30 Schilling für seine Aufnahme bereit. Nachdem diese Vereinbarung getroffen worden war, kleideten sie ihn am folgenden Tag in das Mönchsgewand ein; allerdings forderten die Mönche die 30 Schilling, der Abt verlangte 10 und die Gemeinschaft forderte 12 für seinen Unterhalt. Alexander weist den Bischof daher an, den Abt und die Mönche – sofern sich der Sachverhalt tatsächlich so verhält – eindringlich zur Rückgabe des Geldes zu ermahnen. Des Weiteren soll er den Abt sowie die führenden Mitglieder des Klosters von der Ausübung ihrer Ämter suspendieren und den besagten P. anweisen, sich ein anderes Kloster zu suchen, in dem er dem Herrn im Mönchsgewand dienen kann.Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
