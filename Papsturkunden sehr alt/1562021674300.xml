@@ -1,0 +1,121 @@
+<text type="charter" id="1562021674300">
+    <bibl>
+        <edition>Ed. partim 
+            <bibl_link target="Rivera Recio, Toledo">Rivera Recio Iglesia de Toledo</bibl_link> II 246sq. adn. 101</edition>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests/>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type>Original</descent_type>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script>
+            <pont_reg_add nr="Ib. Pont. II 40 n. 90">Orig.: Madrid Archivo Historico Nacional, Secc. Clero, Toledo.</pont_reg_add>
+        </script>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria/>
+        <date_p value="11790515" to="11790515" from="11780515">(1178–1179) mai. 15</date_p>
+        <initium/>
+        <pub_place>
+            <place_name category="Kirche" diocese="Roma" geodata="N 41°53′09″ E 12°30′21″" id="7602857" identification="Roma, Laterano" institution="Ecclesia s. Iohannis in Laterano">Laterano</place_name>
+        </pub_place>
+        <script_date/>
+        <state/>
+        <supplier>
+            <pers_name addition="Rolandus Bandinelli?" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa">Alexander III</pers_name>
+        </supplier>
+        <supplier_type>papa</supplier_type>
+        <user_comment/>
+        <worker>Santiago Domínguez Sánchez/Daniel Berger; digitale Fassung: Carolin Sachs, Thomas Czerner</worker>
+    </head>
+    <info>
+        <date_sort value="11790515">11790515</date_sort>
+        <idno>Ib. Pont. II 40 n. 90</idno>
+    </info>
+    <jaffe>
+        <jaffe1>-</jaffe1>
+        <jaffe2_no/>
+        <jaffe2_page/>
+        <jaffe2_worker>-</jaffe2_worker>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_add nr="Ib. Pont. II 40 n. 90"> De tempore praesentium litterarum (Dat. Lat. Idibus maii) cf. quod 
+                <pers_name addition="Rolandus Bandinelli?" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa">Alexander III</pers_name> suscipit prima vice a. 1173 et 1175 
+                <place_name category="Orden" identification="Orden de Santiago" institution="Militia Sancti Iacobi">fratribus Militiae s. Iacobi</place_name> (cf. 
+                <bibl_link target="Domínguez Sánchez, Documentos León">Domínguez Sánchez Documentos pontificios de León</bibl_link> p. 99sq. 103–107 n. 39. 43). De data a. 1178–1179 cf. Itinerarium 
+                <pers_name addition="Rolandus Bandinelli?" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa">Alexandri III</pers_name> in 
+                <bibl_link target="Jaffé, Regesta Pontificum Romanorum">JL. II</bibl_link> p. 323. 333. A. 1178–1179 in 
+                <place_name category="Bistum" diocese="Legio" geodata="N 42°36′00″ W 5°34′13″" id="3118532" identification="Leon episc." institution="Episcopatus Legionensis">ecclesia Legionensi</place_name> archidiaconus nomine 
+                <pers_name place="Leon" reg="Arnulfus archidiaconus">Arnulphus</pers_name> functus est (cf. 
+                <bibl_link target="Colección León 5">Fernández Catón Colección catedral León V</bibl_link> 490–492).</pont_reg_add>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_add nr="Ib. Pont. II 40 n. 90">Ib. Pont. II</pont_reg_add>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_add nr="Ib. Pont. II 40 n. 90">40 n. 90</pont_reg_add>
+        </pont_no>
+        <pontificate>Alexander III.</pontificate>
+        <receipt_inst>
+            <pont_reg_add nr="Ib. Pont. II 40 n. 90">León, Episc.</pont_reg_add> León, Episc. (Ib. Pont. II 40 n. 90); Ib. Pont. Toledo, Archiepisc.; Ordines militares, Ordo S. Iacobi v. etiam León, Eccl. cath. n. 38 (Ib. Pont. II 71); Ib. Pont. Ávila, Episc.</receipt_inst>
+        <regest_pont>
+            <pont_reg_add nr="Ib. Pont. II 40 n. 90">
+                <pers_name addition="Rolandus Bandinelli?" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa">
+                    <issuer> Alexander III</issuer> </pers_name>
+                <place_name category="Bistum" diocese="Avila" geodata="N 40°39′26″ W 4°41′58″" id="3129136" identification="Avila episc." institution="Episcopatus Abulensis">
+                    <adressee> Abulensi</adressee> </place_name> episcopo et 
+                <pers_name place="Leon" reg="Arnulfus archidiaconus">
+                    <adressee> A(rnulpho</adressee> </pers_name>) 
+                <place_name category="Bistum" diocese="Legio" geodata="N 42°36′00″ W 5°34′13″" id="3118532" identification="Leon episc." institution="Episcopatus Legionensis">
+                    <adressee> Legionensi</adressee> </place_name> archidiacono: committit eis causam quae inter (
+                <pers_name place="Toledo" reg="Cerebrunus archiepiscopus">Cerebrunum</pers_name>) 
+                <place_name category="Erzbistum" diocese="Toledo" geodata="N 39°51′29″ W 4°01′21″" id="2510409" identification="Toledo, archiepisc." institution="Archiepiscopatus Toletanus">Toletanum</place_name> archiepiscopum et magistrum et fratres Militiae s. Iacobi04 super quibusdam possessionibus, consuetudinibus et querelis aliis ventilatur.</pont_reg_add>
+        </regest_pont>
+        <worker_comment_pont>
+            <pont_reg_add nr="Ib. Pont. II 40 n. 90">Adressaten: Abulensi episcopo et A(rnulpho) Legionensi archidiacono. Anmerkungen und to do: ; Personen: , , , , , ; Orte: , , , , </pont_reg_add>
+        </worker_comment_pont>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

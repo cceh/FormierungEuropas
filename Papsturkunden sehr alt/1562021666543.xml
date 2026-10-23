@@ -1,0 +1,111 @@
+<text type="charter" id="1562021666543">
+    <bibl>
+        <edition/>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests/>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type>Erwähnung</descent_type>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script>
+            <pont_reg_main nr="Ib. Pont. II 33 n. *66">Laud. in León, Episc. n. 68.</pont_reg_main>
+        </script>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria>*</criteria>
+        <date_p value="11640603" to="11640603" from="11640603">(1164 ante iun. 3)</date_p>
+        <initium/>
+        <pub_place/>
+        <script_date/>
+        <state/>
+        <supplier>
+            <pers_name addition="Rolandus Bandinelli?" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa">Alexander III</pers_name>
+        </supplier>
+        <supplier_type>papa</supplier_type>
+        <user_comment/>
+        <worker>Santiago Domínguez Sánchez/Daniel Berger; digitale Fassung: Carolin Sachs, Thomas Czerner</worker>
+    </head>
+    <info>
+        <date_sort value="11640603">11640603</date_sort>
+        <idno>Ib. Pont. II 33 n. *66</idno>
+    </info>
+    <jaffe>
+        <jaffe1>-</jaffe1>
+        <jaffe2_no/>
+        <jaffe2_page/>
+        <jaffe2_worker>-</jaffe2_worker>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_main nr="Ib. Pont. II 33 n. *66"/>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_main nr="Ib. Pont. II 33 n. *66">Ib. Pont. II</pont_reg_main>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_main nr="Ib. Pont. II 33 n. *66">33 n. *66</pont_reg_main>
+        </pont_no>
+        <pontificate>Alexander III.</pontificate>
+        <receipt_inst>
+            <pont_reg_main nr="Ib. Pont. II 33 n. *66">León, Episc.</pont_reg_main> León, Episc. (Ib. Pont. II 33 n. *66); v. etiam León, Eccl. cath. n. *23 (Ib. Pont. II 68); Ib. Pont. Lugo, Episc.</receipt_inst>
+        <regest_pont>
+            <pont_reg_main nr="Ib. Pont. II 33 n. *66">
+                <pers_name addition="Rolandus Bandinelli?" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa">
+                    <issuer> Alexander III</issuer> </pers_name>
+                <pers_name addition="Albertinus" place="Leon" reg="Iohannes episcopus">
+                    <adressee> Iohanni</adressee> </pers_name>
+                <place_name category="Bistum" diocese="Legio" geodata="N 42°36′00″ W 5°34′13″" id="3118532" identification="Leon episc." institution="Episcopatus Legionensis">
+                    <adressee> Legionensi</adressee> </place_name> episcopo, per litteras apostolicas, mandat ut ecclesias de 
+                <place_name category="Stadt" diocese="Lucus Augusti (Lugo)" geodata="N 42°45′20″ W 7°14′29″" id="3107488" identification="Triacastela">Triacastella</place_name>, de 
+                <place_name category="Stadt" geodata="N 43°32′21″ W 6°43′25″" id="3115553" identification="Navia">Navia</place_name> et de 
+                <place_name category="Stadt" geodata="N 43°10′10″ W 6°14′30″" id="3107061" identification="Valcarcel">Valle Carceris (Valcárcel</place_name>) 
+                <pers_name place="Lugo" reg="Iohannes episcopus">Iohanni</pers_name>
+                <place_name category="Bistum" diocese="Lucus Augusti (Lugo)" geodata="N 43°00′36″ W 7°33′22″" id="3117814" identification="Lugo episc." institution="Episcopatus Lucensis">Lucensi</place_name> episcopo, cum integritate, statuto termino, restituat.</pont_reg_main>
+        </regest_pont>
+        <worker_comment_pont>
+            <pont_reg_main nr="Ib. Pont. II 33 n. *66">Adressaten: Iohanni Legionensi episcopo. Anmerkungen und to do: ; Personen: , , , , , ; Orte: , , , , </pont_reg_main>
+        </worker_comment_pont>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

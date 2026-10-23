@@ -1,0 +1,145 @@
+<text type="charter" id="1562192844001">
+    <bibl>
+        <edition>
+            <bibl_link target="Martínez, Abad de Carracedo">Martín Martínez Martínez D. Gualterio, abad de Carracedo en el siglo XII (1158–1184), in: El monacato en la diócesis de Astorga durante la Edad Media (Astorga 1995)</bibl_link> p. 229–253. 
+            <bibl_link target="Martínez Martínez, Cartulario Carracedo 1">Martín Martínez Martínez Cartulario de Carracedo</bibl_link> p. 63–65, n. 56 (ex Cartulario seu Indicador de Carracedo: Astorga, Archivo Histórico Diocesano, cogn. R-4)</edition>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests>
+            <bibl_link>Domínguez Sánchez San Claudio</bibl_link> p. 41 n. 21. 
+            <bibl_link target="Domínguez Sánchez, Documentos León">Domínguez Sánchez Documentos pontificios de León</bibl_link> p. 99 n. 38 (ex Inventarium instrumentorum monasterii s. Claudii (a. 1604): León Archivo Histórico Diocesano, Fondo del monasterio de San Claudio vol. 358)</regests>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type>Erwähnung</descent_type>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script>
+            <pont_reg_main nr="Ib. Pont. II 79 n. *1">Elucet e Cartulario seu Indicador de Carracedo: Astorga, Archivo Histórico Diocesano, cogn. R-4 f. 109 n. 15 (sub aera MCCX et die VIIII kalendas iulii) (cf. 
+                <bibl_link target="Martínez Martínez, Cartulario Carracedo 1">Martínez Martínez Cartulario de Carracedo</bibl_link> p. IX–XIX) et Inventarium instrumentorum monasterii s. Claudii (a. 1604): León Archivo Histórico Diocesano, Fondo del monasterio de San Claudio vol. 358 f. 87 (laud.; ad a. 1172) (cf. 
+                <bibl_link>Domínguez Sánchez San Claudio</bibl_link> p. 10).</pont_reg_main>
+        </script>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria>*</criteria>
+        <date_p value="11720623" to="11720623" from="11720623">1172 iun. 23</date_p>
+        <initium/>
+        <pub_place/>
+        <script_date/>
+        <state/>
+        <supplier>
+            <pers_name addition="Hyacinthus Bobo" key="193550312" life="1106-1198" place="Roma" reg="Celestinus III papa">Iacintus</pers_name> diaconus cardinalis s. Mariae in Cosmedin et apostolicae sedis (
+            <pers_name addition="Rolandus Bandinelli?" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa">Alexandri III</pers_name>) legatus</supplier>
+        <supplier_type>legatus</supplier_type>
+        <user_comment/>
+        <worker>Santiago Domínguez Sánchez/Daniel Berger; digitale Fassung: Thorsten Schlauwitz</worker>
+    </head>
+    <info>
+        <date_sort value="11720623">11720623</date_sort>
+        <idno>Ib. Pont. II 79 n. *1</idno>
+    </info>
+    <jaffe>
+        <jaffe1>-</jaffe1>
+        <jaffe2_no>-</jaffe2_no>
+        <jaffe2_page/>
+        <jaffe2_worker>-</jaffe2_worker>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_main nr="Ib. Pont. II 79 n. *1"> De re cf. 
+                <bibl_link target="España Sagrada 35">Risco España Sagrada XXXV</bibl_link> 231; 
+                <bibl_link>Díaz-Jiménez y Molleda Historia de San Claudio</bibl_link> p. 156sq.; Julio 
+                <bibl_link target="González, Collectio canonum ecclesiae">González</bibl_link> Regesta de Fernando II 104; 
+                <bibl_link>Domínguez Sánchez San Claudio</bibl_link> p. 12. Videatur insuper quod 
+                <bibl_link target="Martínez Martínez, Cartulario Carracedo 1">Martín Martínez Martínez Cartulario de Carracedo</bibl_link> p. 66–67 n. 57, edit aliud instrumentum, ex Cartulario Carracetensi, dat. Zamora a. 1172 iul. 10 (D f. 78 n. 31), in quo legatus 
+                <pers_name addition="Hyacinthus Bobo" key="193550312" life="1106-1198" place="Roma" reg="Celestinus III papa">Iacintus</pers_name> recipit 
+                <place_name addition="OSB, postea Ocist" category="Kloster" geodata="N 42° 34′ 15″ W 6° 43′ 53″" identification="San Salvador de Carracedo" institution="Monasterium s. Salvatoris (postea s. Mariae) de Carraceto">monasterium Carracetensem</place_name> in protectionem s. 
+                <place_name addition="Papa; S. Romana ecclesia" category="Bistum" diocese="Roma" geodata="N 41°53′12″ E 12°30′20″" id="11669597" identification="Roma, sedes apostolica et patriarchatus" institution="Sedes apostolica et episcopatus seu patriarchatus Romanus">Romanae ecclesiae</place_name> et suae, sub annuo censu unius morabetini persolvendo singulis annis in palatio 
+                <place_name category="Kirche" diocese="Roma" geodata="N 41°53′09″ E 12°30′21″" id="7602857" identification="Roma, Laterano" institution="Ecclesia s. Iohannis in Laterano">Lateranensi</place_name>. De legatione 
+                <pers_name addition="Hyacinthus Bobo" key="193550312" life="1106-1198" place="Roma" reg="Celestinus III papa">cardinalis Iacinti</pers_name> cf. 
+                <bibl_link target="Weiß, Legaten">Weiß Legaten</bibl_link> p. 173–203; 
+                <bibl_link target="Fleisch, Rom und die Iberische Halbinsel">Fleisch Rom</bibl_link> p. 144–161 cum studiis laudatis; 
+                <bibl_link target="Smith, Iberian Legations">Smith Iberian Legations</bibl_link> passim.</pont_reg_main>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_main nr="Ib. Pont. II 79 n. *1">Ib. Pont. II</pont_reg_main>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_main nr="Ib. Pont. II 79 n. *1">79 n. *1</pont_reg_main>
+        </pont_no>
+        <pontificate>Alexander III.</pontificate>
+        <receipt_inst>
+            <pont_reg_main nr="Ib. Pont. II 79 n. *1">San Claudio</pont_reg_main> San Claudio (Ib. Pont. II 79 n. *1); v. etiam Toldanos n. *1 (Ib. Pont. II 137); Ib. Pont. Astorga, Carracedo.</receipt_inst>
+        <regest_pont>
+            <pont_reg_main nr="Ib. Pont. II 79 n. *1">
+                <pers_name addition="Hyacinthus Bobo" key="193550312" life="1106-1198" place="Roma" reg="Celestinus III papa">
+                    <issuer> Iacintus</issuer>
+                </pers_name> diaconus cardinalis 
+                <place_name category="Kirche" diocese="Roma" geodata="N 41°53′41″ E 12°29′02″" id="3169070" identification="Roma, Santa Maria in Cosmedin" institution="Basilica s. Mariae in Cosmedin">s. Mariae in Cosmedin</place_name> et 
+                <place_name addition="Papa; S. Romana ecclesia" category="Bistum" diocese="Roma" geodata="N 41°53′12″ E 12°30′20″" id="11669597" identification="Roma, sedes apostolica et patriarchatus" institution="Sedes apostolica et episcopatus seu patriarchatus Romanus">apostolicae sedis</place_name> (
+                <pers_name addition="Rolandus Bandinelli?" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa">Alexandri III</pers_name>) legatus 
+                <pers_name place="San Claudio de León" reg="Pelagius abbas">
+                    <adressee> Pelagio abbati</adressee>
+                </pers_name>
+                <place_name addition="San Claudio de León" category="Klerus" diocese="Legio" geodata="N 42°36′20″ W 5°34′12″" identification="Leon, monasterio San Claudio" institution="monasterium s. Claudii">
+                    <adressee> monasterii s. Claudii Legionensis</adressee>
+                </place_name>, audit querelam et confirmat concordiam initam inter 
+                <place_name addition="OSB, postea Ocist" category="Kloster" geodata="N 42° 34′ 15″ W 6° 43′ 53″" identification="San Salvador de Carracedo" institution="Monasterium s. Salvatoris (postea s. Mariae) de Carraceto">monasteria Carracetesem (Carracedo)</place_name>, 
+                <place_name category="Bistum" diocese="Astorga" geodata="N 42°27′32″ W 6°03′22″" id="3129231" identification="Astorga, episc." institution="Episcopatus Asturicensis">Asturicensis</place_name> dioecesis, et 
+                <place_name addition="San Claudio de León" category="Klerus" diocese="Legio" geodata="N 42°36′20″ W 5°34′12″" identification="Leon, monasterio San Claudio" institution="monasterium s. Claudii">s. Claudii</place_name> super 
+                <place_name category="Kloster" diocese="Legio" geodata="N 42° 32′ 56″ W 5° 28′ 56″" identification="Toldanos, monasterio" institution="monasterium de Toletanus">monasterio de Toletanis (Toldanos)</place_name>, 
+                <place_name category="Bistum" diocese="Legio" geodata="N 42°36′00″ W 5°34′13″" id="3118532" identification="Leon, episc." institution="Episcopatus Legionensis">Legionensis dioecesis</place_name>, secesso ab oboedientia 
+                <place_name addition="OSB, postea Ocist" category="Kloster" geodata="N 42° 34′ 15″ W 6° 43′ 53″" identification="San Salvador de Carracedo" institution="Monasterium s. Salvatoris (postea s. Mariae) de Carraceto">monasterii de Carraceto</place_name>. Dictum 
+                <place_name category="Kloster" diocese="Legio" geodata="N 42° 32′ 56″ W 5° 28′ 56″" identification="Toldanos, monasterio" institution="monasterium de Toletanus">coenobium de Toletanis</place_name> nolebat ingredi in 
+                <place_name category="Kloster" identification="monasterio Claravallis">monasterio Clarae Vallis</place_name>, et ascriptum est denique 
+                <place_name addition="San Claudio de León" category="Klerus" diocese="Legio" geodata="N 42°36′20″ W 5°34′12″" identification="Leon, monasterio San Claudio" institution="monasterium s. Claudii">monasterio s. Claudii</place_name>. In dicta concordia decernitur quod, in recompensatione, 
+                <place_name addition="San Claudio de León" category="Klerus" diocese="Legio" geodata="N 42°36′20″ W 5°34′12″" identification="Leon, monasterio San Claudio" institution="monasterium s. Claudii">monasterium s. Claudii</place_name> debebat tradere 
+                <place_name addition="OSB, postea Ocist" category="Kloster" geodata="N 42° 34′ 15″ W 6° 43′ 53″" identification="San Salvador de Carracedo" institution="Monasterium s. Salvatoris (postea s. Mariae) de Carraceto">monasterio Carraceti</place_name>
+                <place_name addition="San Claudio de León" category="Klerus" diocese="Legio" geodata="N 42°36′20″ W 5°34′12″" identification="Leon, monasterio San Claudio" institution="monasterium s. Claudii">ecclesiam s. Claudii</place_name> loci de 
+                <place_name category="Stadt" diocese="Legio" geodata="N 42° 4′ 59″ W 5° 27′ 0″" identification="Valderas">Valderas</place_name>, 
+                <place_name category="Bistum" diocese="Legio" geodata="N 42°36′00″ W 5°34′13″" id="3118532" identification="Leon, episc." institution="Episcopatus Legionensis">Legionensis dioecesis</place_name>.</pont_reg_main>
+        </regest_pont>
+        <worker_comment_pont>
+            <pont_reg_main nr="Ib. Pont. II 79 n. *1">Adressaten: . Anmerkungen und to do: ; Personen: , , , , , ; Orte: , , , , </pont_reg_main>
+        </worker_comment_pont>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

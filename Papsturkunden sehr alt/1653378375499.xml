@@ -1,0 +1,118 @@
+<text type="charter" id="1653378375499">
+    <bibl>
+        <edition/>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests/>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type/>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script/>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria>*</criteria>
+        <date_p value="11620908" to="11620908" from="11620907">1162 sept. 7–8</date_p>
+        <initium/>
+        <pub_place>
+            <place_name addition="Grenzort zwischen Frankreich und dem Reich" category="Stadt" country="Frankreich" diocese="Cabillonum" geo_DMS_city="N 47°06′09″ E 5°15′56″" geodata="N 47°06′09″ E 5°15′56″" geodata_region="0" geodata_vague="0" geonames_city="2979310" id="2979310" identification="Saint-Jean-de-Losne" institution="Apud pontem Laone" region="Bourgogne-Franche-Comté" uuid="{0283D6E7-529D-4B55-9755-62340A1224E8}">Apud pontem Laone</place_name>
+        </pub_place>
+        <script_date/>
+        <state/>
+        <supplier>
+            <pers_name BNF="151070012" GND=" 100963838" GermaniaSacra="059-01656-001" Wikidata="Q241387" addition="Oktavian v. Monticelli; Gegenpapst" floruit="1138-1164" key="265054718" life="gest. 1164" literature="Lexikon des Mittelalters 8, Sp. 1666f." place="Roma" reg="Victor IV papa" sex="male" termofoffice="1159-1164" uuid="{A4C02906-F515-44A8-952C-03DA100FAE5C}">Victor IV papa</pers_name>
+        </supplier>
+        <supplier_type>papa</supplier_type>
+        <user_comment/>
+        <worker>Gall. Pont III,3: Beate Schilling; digitale Fassung: Valérie Lüthi, Johannes Luther</worker>
+    </head>
+    <info>
+        <date_sort value="11620908">11620908</date_sort>
+        <idno>Gall. Pont. III,3 287 n. *144</idno>
+    </info>
+    <jaffe>
+        <jaffe1/>
+        <jaffe2_no/>
+        <jaffe2_page/>
+        <jaffe2_worker/>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_add nr="Gall. Pont. III,3 287 n. *144">Voir: 
+                <bibl_link target="Gallia pontificia 3, 1" target2="1340743" uuid="{CA574245-0327-4FDE-B99B-819FA98DC6FC}">Gall. Pont. III,1</bibl_link> 185 n. *302 (
+                <bibl_link target="Jaffé, Regesta Pontificum Romanorum" target2="54640" uuid="{77346F34-E2AC-422A-92FA-1D3BFDF42FFC}">J. L.</bibl_link>, II, p. 161). La présence de 
+                <pers_name addition="Raymond d'Uzès" floruit="1157-1170/71" literature="Rouchier/Régné, Histoire, Bd. 2, S. 36-40" place="Viviers" reg="Raimundus episcopus" sex="male" termofoffice="1157-1170/71" uuid="{A3C42D4C-2E51-4EAF-820E-4DD3A053A93D}">l’évêque Raimond</pers_name> est attestée par le 
+                <bibl_link target="MGH DD FI" target2="47488" uuid="{5C8EF513-CDC3-4F1B-91C4-DC480CB17E4A}">M. G. H., Dipl. Frédéric Ier</bibl_link>, no 388 du 7 septembre 1162, réglant le conflit entre l’évêque et le comte de 
+                <place_name GND_city="4002122-1" LCCN_city="n80072433" VIAF_city="122720613" addition="Comté de Genève; Sitz der Grafen bis zum 13. Jh. in Annecy" category="Grafschaft" country="Frankreich" diocese="Geneva" geo_DEZIMAL_city="45.899167°, 6.129444°" geo_DMS_city="N 45° 53′ 57″ E 6° 7′ 46″" geodata="N 46°12′08″ E 6°08′44″" geodata_region="-1" geodata_vague="0" id="12470154" identification="Geneve, comitatus" institution="Comitatus Genevensis" region="Auvergne-Rhône-Alpes" uuid="{33B62F6F-8B75-453E-87D6-DC33E5F3BAA8}">Genève</place_name>; 
+                <bibl_link target="RI IV, 2,3" target2="117717" uuid="{2E4B3EB7-6B29-4324-9093-54C9AB532A4B}">Böhmer-Opll</bibl_link>, no 1145, p. 148; 
+                <bibl_link target="Chevalier, Regeste Dauphinois" target2="48077" uuid="{7AEB8E9C-4E6E-45EB-802A-3F6DBDC3D433}">Reg. dauph.</bibl_link>, I, no 4145, c. 694; 
+                <bibl_link target="Régné, Regeste Vivarois" target2="82163" uuid="{961F029E-7D3E-4DCF-AA07-878171EE55E6}">Reg. Vivarois</bibl_link>, no 41, p. 10.</pont_reg_add>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_add nr="Gall. Pont. III,3 287 n. *144">Gall. Pont. III,3</pont_reg_add>
+            <pont_reg_main nr="Gall. Pont. III,1 185 n. *302">Gall. Pont. III,1 </pont_reg_main>
+            <pont_reg_add nr="Gall. Pont. III,2 116 n. *174">Gall. Pont. III,2 </pont_reg_add>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_add nr="Gall. Pont. III,3 287 n. *144">287 n. *144</pont_reg_add>
+            <pont_reg_main nr="Gall. Pont. III,1 185 n. *302">185 n. *302</pont_reg_main>
+            <pont_reg_add nr="Gall. Pont. III,2 116 n. *174">116 n. *174 </pont_reg_add>
+        </pont_no>
+        <pontificate>Victor IV</pontificate>
+        <receipt_inst>
+            <pont_reg_add nr="Gall. Pont. III,3 287 n. *144">Viviers, episc.</pont_reg_add> Vienne, archiepisc. (Gall. Pont. III,1 185 n. *302); Grenoble, episc (Gall. Pont. III,2 116 n. *174); Viviers, episc. (Gall. Pont. III,3 287 n. *144)</receipt_inst>
+        <regest_pont>
+            <pont_reg_add nr="Gall. Pont. III,3 287 n. *144">
+                <pers_name BNF="151070012" GND=" 100963838" GermaniaSacra="059-01656-001" Wikidata="Q241387" addition="Oktavian v. Monticelli; Gegenpapst" floruit="1138-1164" key="265054718" life="gest. 1164" literature="Lexikon des Mittelalters 8, Sp. 1666f." place="Roma" reg="Victor IV papa" sex="male" termofoffice="1159-1164" uuid="{A4C02906-F515-44A8-952C-03DA100FAE5C}">
+                    <issuer> Victor IV</issuer> </pers_name> generalem synodum celebrat, cui 
+                <pers_name addition="evtl. identisch mit Stephan I.; päpstl. Legat; Erzkanzler v. Burgund" floruit="1155/56-1162" literature="Galland, Deux archevêchés, S. 38-40; Türck, Beherrschter Raum, S. 194-196" place="Vienne" reg="Stephanus II archiepiscopus" sex="male" termofoffice="1155/56- 1162 belegt" uuid="{A6192536-5E50-47F0-8C65-25EE6EC22C84}">Stephanus</pers_name>
+                <place_name GND_city="4119422-6" LCCN_city="n80139195" VIAF_city="152049885" category="Erzbistum" country="Frankreich" diocese="Vienna" geo_DEZIMAL_city="45.525833°, 4.874722°" geo_DMS_city="N 45° 31′ 33″ E 4° 52′ 29″" geodata="N 45°31′27″ E 4°52′23″" geodata_region="-1" geodata_vague="0" id="12042115" identification="Vienne, archiepisc." institution="Archiepiscopatus Viennensis" region="Auvergne-Rhône-Alpes" uuid="{A455AF61-5A74-42DB-8B56-D1F7671DBD76}">Viennensis</place_name> archiepiscopus una cum (
+                <pers_name floruit="1151-1162/63" literature="Bligny, Diocèse de Grenoble, S. 51f." place="Grenoble" reg="Gottfridus episcopus" sex="male" termofoffice="1151-1162/63" uuid="{649099DD-BE82-47B0-9076-9E4E98DB2BCC}">Gottfrido</pers_name>) 
+                <place_name BNF_city="cb119342062" GND_city="4021985-9" LCCN_city="n79091186" VIAF_city="265376682" category="Bistum" country="Frankreich" diocese="Gratianopolis" geo_DEZIMAL_city="45.2002, 5.7222" geo_DMS_city="N 45° 12′ 0.72″ E 5° 43′ 19.92″" geodata="N 45°10′37″ E 5°42′30″" geodata_region="-1" geodata_vague="0" id="12088670" identification="Grenoble, episc." institution="Episcopatus Gratianopolitanus" region="Auvergne-Rhône-Alpes" uuid="{EE7C60D9-ABFC-442B-B238-853D721BD402}">Gratianopolitano</place_name> et (
+                <pers_name addition="Raymond d'Uzès" floruit="1157-1170/71" literature="Rouchier/Régné, Histoire, Bd. 2, S. 36-40" place="Viviers" reg="Raimundus episcopus" sex="male" termofoffice="1157-1170/71" uuid="{A3C42D4C-2E51-4EAF-820E-4DD3A053A93D}">Raimundo</pers_name>) 
+                <place_name category="Bistum" country="Frankreich" diocese="Vivarium" geo_DEZIMAL_city="44.4828, 4.68895" geo_DMS_city="N 44°28′58″ E 4°41′20″" geodata="N 44°28′55″ E 4°41′25″" geodata_region="-1" geodata_vague="0" geonames_city="2967820" id="12047232" identification="Viviers, episc." institution="Episcopatus Vivariensis" region="Auvergne-Rhône-Alpes" uuid="{02075C7B-A0E6-44CE-B120-62F8DE2FC7BA}">Vivariensi</place_name> episcopis interest.</pont_reg_add>
+        </regest_pont>
+        <worker_comment_pont/>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

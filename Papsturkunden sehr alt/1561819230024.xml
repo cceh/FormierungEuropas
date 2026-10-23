@@ -1,0 +1,127 @@
+<text type="charter" id="1561819230024">
+    <bibl>
+        <edition/>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests>
+            <bibl_link target="Weiß, Legaten">Weiß Legaten</bibl_link> p. 178 n. 10</regests>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type>Original</descent_type>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script>
+            <pont_reg_add nr="Ib. Pont. II 27 n. 49">Orig. Lugo Archivo Capitular leg. 3.</pont_reg_add>
+        </script>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria/>
+        <date_p value="11550224" to="11550224" from="11550224">1155 febr. 24</date_p>
+        <initium/>
+        <pub_place>
+            <place_name category="Stadt" diocese="Burgos" geodata="N 42°21′01″ W 3°40′31″" id="3127461" identification="Burgos" institution="Burgensis civitatis">Burgos</place_name>
+        </pub_place>
+        <script_date/>
+        <state/>
+        <supplier>
+            <pers_name addition="Giacinto Bobone" key="193550312" life="gest. 1198" place="Roma" reg="Coelestinus III papa (Hyacintus Bobo)">Iacintus</pers_name> S.R.E. diaconus cardinalis s. Mariae in Cosmedin et legatus apostolicae sedis</supplier>
+        <supplier_type>legatus</supplier_type>
+        <user_comment/>
+        <worker>Santiago Domínguez Sánchez/Daniel Berger, digitale Fassung: Carolin Sachs, Thomas Czerner</worker>
+    </head>
+    <info>
+        <date_sort value="11550224">11550224</date_sort>
+        <idno>Ib. Pont. II 27 n. 49</idno>
+    </info>
+    <jaffe>
+        <jaffe1>-</jaffe1>
+        <jaffe2_no>-</jaffe2_no>
+        <jaffe2_page/>
+        <jaffe2_worker>-</jaffe2_worker>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_add nr="Ib. Pont. II 27 n. 49"> De re cf. 
+                <bibl_link>García Conde Episcopologio Lucense</bibl_link> p. 218. </pont_reg_add>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_add nr="Ib. Pont. II 27 n. 49">Ib. Pont. II</pont_reg_add>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_add nr="Ib. Pont. II 27 n. 49">27 n. 49</pont_reg_add>
+        </pont_no>
+        <pontificate>Hadrianus IV.</pontificate>
+        <receipt_inst>
+            <pont_reg_add nr="Ib. Pont. II 27 n. 49">León, Episc.</pont_reg_add> León, Episc. (Ib. Pont. II 27 n. 49); Ib. Pont. Lugo, Episc. v. etiam León, Eccl. cath. n. 8 (Ib. Pont. II 65); cf. Burgos, Episc. n. *96 (Ib. Pont. I 64).</receipt_inst>
+        <regest_pont>
+            <pont_reg_add nr="Ib. Pont. II 27 n. 49">
+                <pers_name addition="Giacinto Bobone" key="193550312" life="gest. 1198" place="Roma" reg="Coelestinus III papa (Hyacintus Bobo)">
+                    <issuer> Iacintus</issuer> </pers_name> S.R.E. diaconus cardinalis 
+                <place_name category="Kirche" diocese="Roma" geodata="N 41°53′41″ E 12°29′02″" id="3169070" identification="Roma, Santa Maria in Cosmedin" institution="Basilica s. Mariae in Cosmedin">s. Mariae in Cosmedin</place_name> et legatus (
+                <pers_name key="25397217" life="gest. 1159" place="Roma" reg="Hadrianus IV papa (Nicolaus Breakspear)">Hadriani IV</pers_name>) 
+                <place_name addition="Papa; S. Romana ecclesia" category="Bistum" diocese="Roma" geodata="N 41°53′12″ E 12°30′20″" id="11669597" identification="Roma sedes apostolica et patriarchatus" institution="Sedes apostolica et Episcopatus seu patriarchatus Romanus">apostolicae sedis</place_name> episcopis 
+                <place_name category="Bistum" diocese="Lucus Augusti (Lugo)" geodata="N 43°00′36″ W 7°33′22″" id="3117814" identification="Lugo episc." institution="Episcopatus Lucensis">
+                    <adressee> Lucensi</adressee> </place_name>
+                <pers_name place="Lugo" reg="Iohannes episcopus">
+                    <adressee> (Iohanni</adressee> </pers_name>) et 
+                <place_name category="Bistum" diocese="Legio" geodata="N 42°36′00″ W 5°34′13″" id="3118532" identification="Leon episc." institution="Episcopatus Legionensis">
+                    <adressee> Legionensi</adressee> </place_name> (
+                <pers_name addition="Albertinus" place="Leon" reg="Iohannes episcopus">
+                    <adressee> Iohanni</adressee> </pers_name>): mandat ut ad praesentiam eius vel 
+                <place_name addition="Papa; S. Romana ecclesia" category="Bistum" diocese="Roma" geodata="N 41°53′12″ E 12°30′20″" id="11669597" identification="Roma sedes apostolica et patriarchatus" institution="Sedes apostolica et Episcopatus seu patriarchatus Romanus">Romani</place_name> pontificis accedant, ad decidendam causam super detentatione archidiaconatus de 
+                <place_name category="Stadt" diocese="Lucus Augusti (Lugo)" geodata="N 42°45′20″ W 7°14′29″" id="3107488" identification="Triacastela">Triacastella</place_name> et ecclesiarum de 
+                <place_name category="Stadt" geodata="N 43°10′10″ W 6°14′30″" id="3107061" identification="Valcarcel">Valle Carceris (Valcárcel</place_name>) et 
+                <place_name category="Stadt" geodata="N 43°32′21″ W 6°43′25″" id="3115553" identification="Navia">Navia</place_name>; significat quod 
+                <place_name category="Bistum" diocese="Lucus Augusti (Lugo)" geodata="N 43°00′36″ W 7°33′22″" id="3117814" identification="Lugo episc." institution="Episcopatus Lucensis">Lucensis</place_name> episcopus in conciliis de 
+                <place_name category="Stadt" diocese="Palencia" geodata="N 41°39′19″ W 4°43′25″" id="3106672" identification="Valladolid">Valle Oliti</place_name> (a. 1155) et de 
+                <place_name BNE="" BNE_city="" BNF="" BNF_city="" GND="" GND_city="" GS_Klosterdatenbank="" Getty="" LCCN="" LCCN_city="" VIAF="" VIAF_city="" addition="" category="Stadt" country="" diocese="" geo_DEZIMAL_city="" geo_DMS_city="" geodata="N 42°0′37.56″ W 4°32′21.34″" geodata_region="" geodata_vague="" geonames_city="" getty_city="" id="" identification="Palencia" institution="" literature="" region="" uuid="">Palentia</place_name> (a. 1148) querimoniam detulit, quoniam ecclesiae de 
+                <place_name category="Stadt" diocese="Lucus Augusti (Lugo)" geodata="N 42°45′20″ W 7°14′29″" id="3107488" identification="Triacastela">Triacastella</place_name>, 
+                <place_name category="Stadt" geodata="N 43°10′10″ W 6°14′30″" id="3107061" identification="Valcarcel">Valle Carceris</place_name> et 
+                <place_name category="Stadt" geodata="N 43°32′21″ W 6°43′25″" id="3115553" identification="Navia">Navia</place_name>, sitae in episcopatu eius longis retro temporibus, a 
+                <place_name category="Bistum" diocese="Legio" geodata="N 42°36′00″ W 5°34′13″" id="3118532" identification="Leon episc." institution="Episcopatus Legionensis">Legionensi</place_name> episcopo illicite occupatae fuerant.</pont_reg_add>
+        </regest_pont>
+        <worker_comment_pont>
+            <pont_reg_add nr="Ib. Pont. II 27 n. 49">Adressaten: episcopis Lucensi (Iohanni) et Legionensi (Iohanni). Anmerkungen und to do: ; Personen: , , , , , ; Orte: , , , , </pont_reg_add>
+        </worker_comment_pont>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

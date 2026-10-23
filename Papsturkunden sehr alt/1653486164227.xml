@@ -1,0 +1,114 @@
+<text type="charter" id="1653486164227">
+    <bibl>
+        <edition/>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests/>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type/>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script/>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria>*</criteria>
+        <date_p value="11790703" to="11790703" from="">Ante 1179 febr. 15/iul. 4</date_p>
+        <initium/>
+        <pub_place>(
+            <place_name BNF_city="12139445g" GND_city="4050471-2" LCCN_city="n79018704" VIAF_city="145348938" addition="Lateranbasilika" category="Titelkirche" country="Italien" diocese="Roma" geo_DEZIMAL_city="41.90036, 12.49575" geo_DMS_city="N 41°54′01″ E 12°29′45″" geodata="N 41°53′09″ E 12°30′21″" geodata_region="0" geodata_vague="0" geonames_city="3169071" id="7602857" identification="Roma, S. Giovanni in Laterano" institution="Ecclesia s. Iohannis Laterano Romae sita" literature="IP I, 22" region="Latium" uuid="{023C7DF8-A8CF-43F7-A72C-A256CBC09529}">Roma, Laterano</place_name>)</pub_place>
+        <script_date/>
+        <state/>
+        <supplier>
+            <pers_name floruit="1176-1179" literature="Gall. Pont. III,3, S. 322f." place="Bonnefoy" reg="Robertus prior" sex="male" termofoffice="1176 belegt - 1179 belegt" uuid="{510235F8-9449-40C2-B42C-FA7C1105A72A}">Robertus prior</pers_name> et fratres Bonae Fidei</supplier>
+        <supplier_type>ad papam</supplier_type>
+        <user_comment/>
+        <worker>Gall. Pont III,3: Beate Schilling; digitale Fassung: Valérie Lüthi, Johannes Luther</worker>
+    </head>
+    <info>
+        <date_sort value="11790703">11790703</date_sort>
+        <idno>Gall. Pont. III,3 326 n. *2</idno>
+    </info>
+    <jaffe>
+        <jaffe1/>
+        <jaffe2_no/>
+        <jaffe2_page/>
+        <jaffe2_worker/>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_main nr="Gall. Pont. III,3 326 n. *2">Connu par la lettre que le pape manda aux évêques du 
+                <place_name GND_city="4111265-9" LCCN_city="n82052561" VIAF_city="147339129" category="Bistum" country="Frankreich" diocese="Anicium" geo_DEZIMAL_city="45.04205°, 3.883281°" geo_DMS_city="N 45° 2′ 31.38″ E 3° 52′ 59.81″" geodata="N 45°02′44″ E 3°53′06″" geodata_region="-1" geodata_vague="0" id="11777227" identification="Le Puy-en-Velay, episc." institution="Episcopatus Aniciensis/Podiensis" region="Auvergne-Rhône-Alpes" uuid="{7DD8A344-27A8-4B12-B457-93CE50BC4EC2}">Puy</place_name> et de 
+                <place_name category="Bistum" country="Frankreich" diocese="Vivarium" geo_DEZIMAL_city="44.4828, 4.68895" geo_DMS_city="N 44°28′58″ E 4°41′20″" geodata="N 44°28′55″ E 4°41′25″" geodata_region="-1" geodata_vague="0" geonames_city="2967820" id="12047232" identification="Viviers, episc." institution="Episcopatus Vivariensis" region="Auvergne-Rhône-Alpes" uuid="{02075C7B-A0E6-44CE-B120-62F8DE2FC7BA}">Viviers</place_name> à ce sujet (
+                <data_link col_id="1007" id="1653486164961">Gall. Pont. III,3 326 n. 3</data_link>).</pont_reg_main>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_main nr="Gall. Pont. III,3 326 n. *2">Gall. Pont. III,3</pont_reg_main>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_main nr="Gall. Pont. III,3 326 n. *2">326 n. *2</pont_reg_main>
+        </pont_no>
+        <pontificate>Alexander III</pontificate>
+        <receipt_inst>
+            <pont_reg_main nr="Gall. Pont. III,3 326 n. *2">Viviers, monasterium S. Mariae Bonae Fidei</pont_reg_main> Viviers, monasterium S. Mariae Bonae Fidei (Gall. Pont. III,3 326 n. *2)</receipt_inst>
+        <regest_pont>
+            <pont_reg_main nr="Gall. Pont. III,3 326 n. *2">
+                <pers_name BNF="13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN="n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{58C0B973-E9BB-4491-9207-7428DB953ADF}">
+                    <adressee> Alexandro III papae</adressee>
+                </pers_name>
+                <pers_name floruit="1176-1179" literature="Gall. Pont. III,3, S. 322f." place="Bonnefoy" reg="Robertus prior" sex="male" termofoffice="1176 belegt - 1179 belegt" uuid="{510235F8-9449-40C2-B42C-FA7C1105A72A}">
+                    <issuer> Robertus prior</issuer>
+                </pers_name> et 
+                <pers_name BNF="" GND="" GermaniaSacra="" LCCN="" Wikidata="" addition="" floruit="" key="" life="" literature="" place="" reg="fratres Bonae Fidei" sex="" termofoffice="" uuid="">
+                    <issuer> fratres</issuer> </pers_name>
+                <place_name BNE="" BNE_city="" BNF="" BNF_city="" GND="" GND_city="" GS_Klosterdatenbank="" Getty="" LCCN="" LCCN_city="" VIAF="" VIAF_city="" addition="OCart, heute eine Ruine" category="Kloster" country="Frankreich" diocese="Vivarium" geo_DEZIMAL_city="" geo_DMS_city="N 44°50′57″ E 4°07′08″" geodata="N 44°52′17″ E 4°10′38″" geodata_region="0" geodata_vague="0" geonames_city="3005334" getty_city="" id="12470220" identification="La Chatreuse de Bonnefoy" institution="Monasterium S. Mariae Bonae Fidei" literature="" region="Auvergne-Rhône-Alpes" uuid="{0C83F1A1-72CE-46A9-B6C3-7B4FB05967C9}">
+                    <issuer> Bonae Fidei</issuer>
+                </place_name> intimant quosdam in 
+                <place_name GND_city="4111265-9" LCCN_city="n82052561" VIAF_city="147339129" category="Bistum" country="Frankreich" diocese="Anicium" geo_DEZIMAL_city="45.04205°, 3.883281°" geo_DMS_city="N 45° 2′ 31.38″ E 3° 52′ 59.81″" geodata="N 45°02′44″ E 3°53′06″" geodata_region="-1" geodata_vague="0" id="11777227" identification="Le Puy-en-Velay, episc." institution="Episcopatus Aniciensis/Podiensis" region="Auvergne-Rhône-Alpes" uuid="{7DD8A344-27A8-4B12-B457-93CE50BC4EC2}">Aniciensi (Le Puy)</place_name> et 
+                <place_name category="Bistum" country="Frankreich" diocese="Vivarium" geo_DEZIMAL_city="44.4828, 4.68895" geo_DMS_city="N 44°28′58″ E 4°41′20″" geodata="N 44°28′55″ E 4°41′25″" geodata_region="-1" geodata_vague="0" geonames_city="2967820" id="12047232" identification="Viviers, episc." institution="Episcopatus Vivariensis" region="Auvergne-Rhône-Alpes" uuid="{02075C7B-A0E6-44CE-B120-62F8DE2FC7BA}">Vivariensi</place_name> episcopatibus eos contra tenorem privilegii Cartusiensi ordini ab 
+                <place_name BNF_city="12139445g" GND_city="4050471-2" LCCN_city="n79018704" VIAF_city="145348938" addition="Papa; S. Romana ecclesia" category="Patriarchat" country="Italien" diocese="Roma" geo_DEZIMAL_city="41.90036, 12.49575" geo_DMS_city="N 41°54′01″ E 12°29′45″" geodata="N 41°53′12″ E 12°30′20″" geodata_region="-1" geodata_vague="0" geonames_city="3169071" id="11669597" identification="Roma, sedes apostolica et patriarchatus" institution="Sedes apostolica et episcopatus seu patriarchatus Romanus" region="Latium" uuid="{16724754-A840-483A-A351-0E827C7915CF}">apostolica sede</place_name> indulti (
+                <data_link col_id="1006" id="1653486163430">Gall. Pont. III,3 325 n. 1 </data_link>) super decimis laborum et nutrimentorum animalium fatigare.</pont_reg_main>
+        </regest_pont>
+        <worker_comment_pont/>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

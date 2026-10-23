@@ -1,0 +1,132 @@
+<text type="charter" id="1653486162680">
+    <bibl>
+        <edition/>
+        <figure/>
+        <literature>Manque dans Wiederhold et dans 
+            <bibl_link target="Font-Réaulx, Lettres pontificales" target2="939832" uuid="{414D505A-8B67-4E2A-8BEF-6230CA527E67}">Font-Réaulx</bibl_link>.</literature>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests>
+            <bibl_link target="Jaffé, Regesta Pontificum Romanorum" target2="54640" uuid="{77346F34-E2AC-422A-92FA-1D3BFDF42FFC}">J. L.</bibl_link> –</regests>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type>Kopial</descent_type>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script>
+            <pont_reg_main nr="Gall. Pont. III,3 318 n. 1">Copie du XVIIe siècle dans Arch. dép. Ardèche, 1 H 15 dossier 1, fol. 1r-4v.</pont_reg_main>
+        </script>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria/>
+        <date_p value="11760925" to="11760925" from="11760925">1176 sept. 25</date_p>
+        <initium>Religiosam vitam eligentibus.</initium>
+        <pub_place>
+            <place_name category="Stadt" country="Italien" diocese="Anagnia" geo_DEZIMAL_city="41.7333, 13.1667" geo_DMS_city="N 41° 45′ 0″ E 13° 9′ 0″" geodata="N 41°44′37″ E 13°09′20″" geodata_region="0" geodata_vague="0" getty_city="7006676" id="3183098" identification="Anagni" institution="Civitas Anagnia" region="Latium" uuid="{FC3879BE-B5CD-4EE7-9E7A-2D350D020D03}">Anagnia</place_name>
+        </pub_place>
+        <script_date>Ego Alexander etc. Subscr. 14 card. Dat. Anag(n)ii p. m. Gratiani S. R. E. subdiac. et not., 7 cal. octobris, ind. 8 [recte 10], inc. d. a. 1177, pont. vero d. Alexandri pp. III a. 18.</script_date>
+        <state/>
+        <supplier>
+            <pers_name BNF="13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN="n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{58C0B973-E9BB-4491-9207-7428DB953ADF}">Alexander III papa</pers_name>
+        </supplier>
+        <supplier_type>papa</supplier_type>
+        <user_comment/>
+        <worker>Gall. Pont III,3: Beate Schilling; digitale Fassung: Valérie Lüthi, Johannes Luther</worker>
+    </head>
+    <info>
+        <date_sort value="11760925">11760925</date_sort>
+        <idno>Gall. Pont. III,3 318 n. 1</idno>
+    </info>
+    <jaffe>
+        <jaffe1/>
+        <jaffe2_no/>
+        <jaffe2_page/>
+        <jaffe2_worker/>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_main nr="Gall. Pont. III,3 318 n. 1">Le contexte historique de l’acquisition de ce privilège, par ailleurs classique, mérite attention. 
+                <pers_name floruit="1163-1173" literature="Gallia christiana XVI, Sp. 607" place="Les Chambons" reg="Guillelmus I abbas" sex="male" termofoffice="1163 belegt - 1173 belegt" uuid="{49027E42-EAE0-4911-8982-869FBA2DD19E}"> L’abbé Guillaume</pers_name> l’obtint à la veille de la paix de 
+                <place_name GND_city="4062501-1" LCCN_city="n79018142" VIAF_city="136651400" category="Stadt" country="Italien" diocese="Venetiae" geo_DMS_city="N 45° 26′ 0″ E 12° 20′ 0″" geodata="N 45°26′15″ E 12°20′9″" geodata_region="0" geodata_vague="0" id="3164603" identification="Venezia" institution="Civitas Venetia" region="Venetien" uuid="{E9ACF877-04B5-4C0C-AF6B-44EDA5841005}">Venise</place_name> à laquelle 
+                <pers_name addition="Robert de La Tour du Pin, zuvor Bf. v. Viviers (1171-1172/73)" floruit="1171-1195" literature="Gallans, Deux archevêchés, S. 87f., 89-111" place="Vienne" reg="Robertus archiepiscopus" sex="male" termofoffice="1173 belegt - 1195 belegt" uuid="{E03ACA95-9359-4109-A819-C4C3CFD205A7}">l’archevêque Robert</pers_name> de 
+                <place_name GND_city="4119422-6" LCCN_city="n80139195" VIAF_city="152049885" category="Erzbistum" country="Frankreich" diocese="Vienna" geo_DEZIMAL_city="45.525833°, 4.874722°" geo_DMS_city="N 45° 31′ 33″ E 4° 52′ 29″" geodata="N 45°31′27″ E 4°52′23″" geodata_region="-1" geodata_vague="0" id="12042115" identification="Vienne, archiepisc." institution="Archiepiscopatus Viennensis" region="Auvergne-Rhône-Alpes" uuid="{A455AF61-5A74-42DB-8B56-D1F7671DBD76}">Vienne</place_name> ainsi que l’abbé cistercien de 
+                <place_name VIAF_city="248738316" addition="OCist" category="Kloster" country="Frankreich" diocese="Vienna" geo_DMS_city="N 46° 27′ 49″ E 0° 13′ 51″" geodata="N 44°27′22″ E 5°09′19″" geodata_region="0" geodata_vague="0" id="11049336" identification="Abbaye Notre Dame de Bonnevaux" institution="Abbatia Bonae Vallis" region="Nouvelle-Aquitaine" uuid="{D2B612FC-07D9-444C-B03C-7350B124932E}">Bonnevaux (diocèse de Vienne)</place_name> et 
+                <pers_name addition="Thierry" floruit="1167-1205" life="gest. 1205" literature="Gall. Pont. III,1, S. 327-331." place="La Sylve-Bénite" reg="Theodericus prior" sex="male" termofoffice="1167 belegt - 1205" uuid="{1AFCA552-AA80-408E-A68B-CCD9C1F431AC}">le Chartreux Thierry</pers_name> de 
+                <place_name addition="OCart, auch La Silve-Bénite" category="Kloster" country="Frankreich" diocese="Vienna" geo_DMS_city="N 45°28′16″ E 5°32′06″" geodata="N 45°26′44″ E 5°28′58″" geodata_region="0" geodata_vague="0" geonames_city="12055883" id="12276976" identification="Chartreuse de la Sylve-Benite" institution="Silva Benedicta" region="Auvergne-Rhône-Alpes" uuid="{02B3665C-6EA5-43ED-A6D1-3C0770AB38E2}">La Silve-Bénite (diocèse de Vienne)</place_name> collaborèrent; voir 
+                <bibl_link target="Gallia pontificia 3, 1" target2="1340743" uuid="{CA574245-0327-4FDE-B99B-819FA98DC6FC}">Gall. Pont. III,1</bibl_link>, 189 n. *312, 321 n. *18–*19, 328 n. *1–*2. Le privilège en faveur des 
+                <place_name BNE="" BNE_city="" BNF="" BNF_city="" GND="" GND_city="" GS_Klosterdatenbank="" Getty="" LCCN="" LCCN_city="" VIAF="" VIAF_city="" addition="OCist; die Steine der Abtei wurden später für den Bau der Häuser in Les Chambons verwendet" category="Kloster" country="Frankreich" diocese="Vivarium" geo_DEZIMAL_city="" geo_DMS_city="N 45°06′00″ E 3°47′56″" geodata="N 44°37′43″ E 4°03′10″" geodata_region="0" geodata_vague="0" geonames_city="3031520" getty_city="" id="112470219" identification="Abbaye des Chambons" institution="Monasterium S. Mariae de Campis bonis" literature="" region="Auvergne-Rhône-Alpes" uuid="{DA0A235D-FEC2-4885-823B-768FDA883A9C}">Chambons</place_name> serait-il à rapprocher des deux lettres de 
+                <pers_name BNF="12488571m" GND="118535757" LCCN="n50047907" Wikidata="Q79789" addition="Barbarossa" floruit="1122-1190" key="29635765" life="1122-1190" place="regnum et imperium" reg="Fridericus I imperator" sex="male" termofoffice="1152-1190" uuid="{A865BE60-9B2E-48E0-9421-C874C75DE67B}">Frédéric Barberousse</pers_name> adressées à 
+                <pers_name addition="de Châteauneuf, Abt von Léoncel (1162-66) und Bonnevaux (1166-um 1194)" floruit="1142-1194" key="316732546" life="ca. 1120 - nach 1194" literature="Gall. Pont. III,3, S. 113; Dictionnaire d'histoire et de géographie ecclésiastiques 26, Sp. 194f." place="Bonnevaux" reg="s. Hugo abbas" sex="male" termofoffice="1166 - 1194 belegt" uuid="{B14C8117-08D7-4F1D-AE6A-D7F985F0DE3C}">Hugues</pers_name> de 
+                <place_name VIAF_city="248738316" addition="OCist" category="Kloster" country="Frankreich" diocese="Vienna" geo_DMS_city="N 46° 27′ 49″ E 0° 13′ 51″" geodata="N 44°27′22″ E 5°09′19″" geodata_region="0" geodata_vague="0" id="11049336" identification="Abbaye Notre Dame de Bonnevaux" institution="Abbatia Bonae Vallis" region="Nouvelle-Aquitaine" uuid="{D2B612FC-07D9-444C-B03C-7350B124932E}">Bonnevaux</place_name> et dont l’une invitait l’abbé à participer à des négociations avec le pape à partir de la fête de saint Michel (29 septembre) 1176 (
+                <bibl_link target="MGH DD FI" target2="47488" uuid="{5C8EF513-CDC3-4F1B-91C4-DC480CB17E4A}">M. G. H., Dipl. Frédéric Ier</bibl_link>, nos 654–655; 
+                <bibl_link target="RI IV, 2,3" target2="117717" uuid="{2E4B3EB7-6B29-4324-9093-54C9AB532A4B}">Böhmer-Opll</bibl_link>, nos 2192–2193, p. 133; 
+                <bibl_link target="Chevalier, Regeste Dauphinois" target2="48077" uuid="{7AEB8E9C-4E6E-45EB-802A-3F6DBDC3D433}">Reg. dauph.</bibl_link>, I, nos 4592 et 4606, c. 765, 767)? L’abbé des 
+                <place_name BNE="" BNE_city="" BNF="" BNF_city="" GND="" GND_city="" GS_Klosterdatenbank="" Getty="" LCCN="" LCCN_city="" VIAF="" VIAF_city="" addition="OCist; die Steine der Abtei wurden später für den Bau der Häuser in Les Chambons verwendet" category="Kloster" country="Frankreich" diocese="Vivarium" geo_DEZIMAL_city="" geo_DMS_city="N 45°06′00″ E 3°47′56″" geodata="N 44°37′43″ E 4°03′10″" geodata_region="0" geodata_vague="0" geonames_city="3031520" getty_city="" id="112470219" identification="Abbaye des Chambons" institution="Monasterium S. Mariae de Campis bonis" literature="" region="Auvergne-Rhône-Alpes" uuid="{DA0A235D-FEC2-4885-823B-768FDA883A9C}">Chambons</place_name> aurait-il alors accompagné l’abbé de 
+                <place_name VIAF_city="248738316" addition="OCist" category="Kloster" country="Frankreich" diocese="Vienna" geo_DMS_city="N 46° 27′ 49″ E 0° 13′ 51″" geodata="N 44°27′22″ E 5°09′19″" geodata_region="0" geodata_vague="0" id="11049336" identification="Abbaye Notre Dame de Bonnevaux" institution="Abbatia Bonae Vallis" region="Nouvelle-Aquitaine" uuid="{D2B612FC-07D9-444C-B03C-7350B124932E}">Bonnevaux</place_name> à la Curie? Sur la chronologie, voir 
+                <bibl_link target="Schludi, Weg nach Anagni" target2="174013" uuid="{D18AF9C7-E90F-48B7-BE85-B2B7B2C492F7}">U. Schludi, Der Weg nach Anagni. Versuch einer Rekonstruktion, dans Mitteilungen des Instituts für Österreichische Geschichtsforschung, 110, 2002</bibl_link>, p. 281–283, 318–328.</pont_reg_main>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_main nr="Gall. Pont. III,3 318 n. 1">Gall. Pont. III,3</pont_reg_main>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_main nr="Gall. Pont. III,3 318 n. 1">318 n. 1</pont_reg_main>
+        </pont_no>
+        <pontificate>Alexander III</pontificate>
+        <receipt_inst>
+            <pont_reg_main nr="Gall. Pont. III,3 318 n. 1">Viviers, monasterium S. Mariae de Campis bonis</pont_reg_main> Viviers, abbatia S. Mariae de Campis bonis (Gall. Pont. III,3 318 n. 1)</receipt_inst>
+        <regest_pont>
+            <pont_reg_main nr="Gall. Pont. III,3 318 n. 1">
+                <pers_name BNF="13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN="n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{58C0B973-E9BB-4491-9207-7428DB953ADF}">
+                    <issuer> Alexander III</issuer> </pers_name>
+                <pers_name floruit="1163-1173" literature="Gallia christiana XVI, Sp. 607" place="Les Chambons" reg="Guillelmus I abbas" sex="male" termofoffice="1163 belegt - 1173 belegt" uuid="{49027E42-EAE0-4911-8982-869FBA2DD19E}">
+                    <adressee> Vuillelmo abbati</adressee> </pers_name>
+                <place_name BNE="" BNE_city="" BNF="" BNF_city="" GND="" GND_city="" GS_Klosterdatenbank="" Getty="" LCCN="" LCCN_city="" VIAF="" VIAF_city="" addition="OCist; die Steine der Abtei wurden später für den Bau der Häuser in Les Chambons verwendet" category="Kloster" country="Frankreich" diocese="Vivarium" geo_DEZIMAL_city="" geo_DMS_city="N 45°06′00″ E 3°47′56″" geodata="N 44°37′43″ E 4°03′10″" geodata_region="0" geodata_vague="0" geonames_city="3031520" getty_city="" id="112470219" identification="Abbaye des Chambons" institution="Monasterium S. Mariae de Campis bonis" literature="" region="Auvergne-Rhône-Alpes" uuid="{DA0A235D-FEC2-4885-823B-768FDA883A9C}">
+                    <adressee> S. Mariae de Campis Bonis</adressee> </place_name>
+                <pers_name BNF="" GND="" GermaniaSacra="" LCCN="" Wikidata="" addition="" floruit="" key="" life="" literature="" place="" reg="fratres S. Mariae de Campis Bonis" sex="" termofoffice="" uuid="">
+                    <adressee> ejusque fratribus</adressee> </pers_name>: eorum postulationibus annuens, 
+                <place_name BNE="" BNE_city="" BNF="" BNF_city="" GND="" GND_city="" GS_Klosterdatenbank="" Getty="" LCCN="" LCCN_city="" VIAF="" VIAF_city="" addition="OCist; die Steine der Abtei wurden später für den Bau der Häuser in Les Chambons verwendet" category="Kloster" country="Frankreich" diocese="Vivarium" geo_DEZIMAL_city="" geo_DMS_city="N 45°06′00″ E 3°47′56″" geodata="N 44°37′43″ E 4°03′10″" geodata_region="0" geodata_vague="0" geonames_city="3031520" getty_city="" id="112470219" identification="Abbaye des Chambons" institution="Monasterium S. Mariae de Campis bonis" literature="" region="Auvergne-Rhône-Alpes" uuid="{DA0A235D-FEC2-4885-823B-768FDA883A9C}">B. Mariae monasterium</place_name> sub 
+                <pers_name BNF="120020645" GND="118593323" LCCN=" n79022118" Wikidata="Q33923" floruit="33-64" key="54940864" life="gest. ca. 64" place="Roma" reg="s. Petrus apostolus" sex="male" uuid="{DBECC144-1D59-4673-AAA7-BC12BBCA6E84}">b. Petri</pers_name> et sua protectione suscipit communitque privilegio. Statuit de ordine monastico secundum 
+                <pers_name addition="von Nursia" floruit="480-547" key="100179656" life="ca. 480-547" literature="PCBE 2/1, S. 285, Benedictus 3" place="Monte Cassino" reg="s. Benedictus abbas" sex="male" termofoffice="529-547" uuid="{294D6222-78C5-43E6-B90A-3994DF3B4D9F}">b. Benedicti</pers_name> regulam atque institutionem Cisterciensium observando. Confirmat possessiones propriis expressas vocabulis inter quas sunt 
+                <place_name BNE="" BNE_city="" BNF="" BNF_city="" GND="" GND_city="" GS_Klosterdatenbank="" Getty="" LCCN="" LCCN_city="" VIAF="" VIAF_city="" addition="OCist; die Steine der Abtei wurden später für den Bau der Häuser in Les Chambons verwendet" category="Kloster" country="Frankreich" diocese="Vivarium" geo_DEZIMAL_city="" geo_DMS_city="N 45°06′00″ E 3°47′56″" geodata="N 44°37′43″ E 4°03′10″" geodata_region="0" geodata_vague="0" geonames_city="3031520" getty_city="" id="112470219" identification="Abbaye des Chambons" institution="Monasterium S. Mariae de Campis bonis" literature="" region="Auvergne-Rhône-Alpes" uuid="{DA0A235D-FEC2-4885-823B-768FDA883A9C}">abbatia de Campis Bonis</place_name>, 7 grangiae et 2 celleraria. Statuit de pace, tranquillitate et integritate eorum infra clausuram locorum seu grangiarum eorum. Concedit de clericis et laicis libere ad conversionem suscipiendis et retinendis; de professione stabilitateque fratrum; de decimis; de integritate monasterii; de terris seu beneficiis eorum non alienandis; inhibet ne monachus vel conversus pro aliquo fidejubeat vel ab aliquo mutuo pecuniam accipiat propter domus eorum utilitatem; statuit de testimonio fratrum in causis profanis; de convocatione ad synodos; de benedictione abbatis; de consecrationibus altarium vel ecclesiarum, de exemptione excommunicationis vel interdicti. Confirmat libertates sive a praedecessoribus suis sive a regibus et principibus concessas.</pont_reg_main>
+        </regest_pont>
+        <worker_comment_pont/>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

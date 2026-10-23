@@ -1,0 +1,119 @@
+<text type="charter" id="1562276867142">
+    <bibl>
+        <edition>
+            <bibl_link target="Escalona, Historia Sahagún" uuid="{ABF114E9-64C2-4028-BCEC-1BB5601B2BC5}">Escalona Historia de Sahagún app. III</bibl_link> p. 541 n. 175. 
+            <bibl_link target="Colección Sahagún 4" uuid="{8618A447-18D7-46D4-BE9E-80BF48ADCBAF}">Fernández Flórez Colección de Sahagún IV</bibl_link> 300sq. n. 1347. 
+            <bibl_link target="Domínguez Sánchez, Documentos León" uuid="{11854E9F-B827-49B3-8720-94342D22363F}">Domínguez Sánchez Documentos pontificios de León</bibl_link> p. 91sq. n. 29</edition>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests>
+            <bibl_link target2="1314604" uuid="{256B4623-ADCA-41C2-B5EA-A9A85BC66BD5}">Vignau Índice de Sahagún</bibl_link> p. 530 n. 2306</regests>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type>Original</descent_type>
+        <dim>174 x 158 + 24 mm</dim>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script>
+            <pont_reg_main nr="Ib. Pont. II 119 n. 39">Orig.: Madrid Archivo Histórico Nacional, Clero carp. 899 n. 21. Becerro II de Sahagún (saec. XIV): Madrid, Archivo Histórico Nacional, Códices y Cartularios Ms. 988B f. 12’ (cf. 
+                <bibl_link target="Herrero de la Fuente, Colección de Sahagún II" uuid="{59D83381-F7CD-4814-A900-69F21A16F5DD}">M. Herrero Colección de Sahagún II</bibl_link>, p. XXIV).</pont_reg_main>
+        </script>
+        <seal>Bulla pendet ex filis sericis</seal>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria/>
+        <date_p value="11630531" to="11630531" from="11630531">(1163) mai. 31</date_p>
+        <initium>Cum ex iniuncto</initium>
+        <pub_place>
+            <place_name GND_city="4060530-9" VIAF_city="147443663" category="Stadt" country="Frankreich" geo_DEZIMAL_city="47.392778°, 0.688333°" geo_DMS_city="N 47° 23′ 34″ E 0° 41′ 18″" geodata="N 47°23'25.38″ E 0°41'22.97″" geodata_region="0" identification="Tours" region="Centre" uuid="{61F08241-F7B2-4E9B-8E67-B342920BF121}">Tours</place_name>
+        </pub_place>
+        <script_date>Dat. Turonis 2 kal. iun.</script_date>
+        <state/>
+        <supplier>
+            <pers_name BNF=" 13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN=" n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{D0AAAA76-4E0A-4470-9594-57CF75211EBB}">Alexander III</pers_name>
+        </supplier>
+        <supplier_type>papa</supplier_type>
+        <user_comment/>
+        <worker>Santiago Domínguez Sánchez/Daniel Berger; digitale Fassung: Carolin Sachs, Thorsten Schlauwitz</worker>
+    </head>
+    <info>
+        <date_sort value="11630531">11630531</date_sort>
+        <idno>JL 10870</idno>
+    </info>
+    <jaffe>
+        <jaffe1>7286</jaffe1>
+        <jaffe2_no>10870</jaffe2_no>
+        <jaffe2_page/>
+        <jaffe2_worker>JL</jaffe2_worker>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_main nr="Ib. Pont. II 119 n. 39"> De tempore cf. itinerarium 
+                <pers_name BNF=" 13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN=" n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{D0AAAA76-4E0A-4470-9594-57CF75211EBB}">Alexandri III</pers_name> in 
+                <bibl_link target="Jaffé, Regesta Pontificum Romanorum" uuid="{A29E737F-A8E2-448A-85C5-D823E0F38211}">JL.</bibl_link> II p. 169. – De re cf. 
+                <bibl_link target="Escalona, Historia Sahagún" uuid="{ABF114E9-64C2-4028-BCEC-1BB5601B2BC5}">Escalona Historia de Sahagún</bibl_link> p. 118.</pont_reg_main>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_main nr="Ib. Pont. II 119 n. 39">Ib. Pont. II</pont_reg_main>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_main nr="Ib. Pont. II 119 n. 39">119 n. 39</pont_reg_main>
+        </pont_no>
+        <pontificate>Alexander III.</pontificate>
+        <receipt_inst>
+            <pont_reg_main nr="Ib. Pont. II 119 n. 39">Sahagún</pont_reg_main> Sahagún (Ib. Pont. II 119 n. 39)</receipt_inst>
+        <regest_pont>
+            <pont_reg_main nr="Ib. Pont. II 119 n. 39">
+                <pers_name BNF=" 13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN=" n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{D0AAAA76-4E0A-4470-9594-57CF75211EBB}">Alexander III</pers_name>
+                <pers_name floruit="1150-1164" place="Sahagun; Monasterium ss. Facundi et Primitivi" reg="Dominicus (II) abbas" sex="male" termofoffice="1150-1164" uuid="{40403B39-9B07-4B7E-8948-249016D8C4D8}">Dominico</pers_name> abbati 
+                <place_name GND_city="4118213-3" LCCN_city="n81124108" VIAF_city="234186354" addition="OSB" category="Kloster" country="Spanien" diocese="Legio" geo_DEZIMAL_city="42.372222°, -5.027778°" geo_DMS_city="N 42° 22′ 20″ W 5° 1′ 40″" geodata="N 42°22′15″ W 5°01′46″" geodata_region="0" id="3111131" identification="Sahagun, Monasterium s. Facundi" institution="Monasterium s. Facundi" region="Kastilien-León" uuid="{8AEFA019-0F80-40C3-9AB6-8017225364A6}">s. Facundi</place_name>: ad exemplar 
+                <pers_name BNF=" 13322102z" GND="11859186X" GermaniaSacra="059-01257-001" LCCN="n/85/94733" Wikidata=" Q227967" addition="Raniero di Bieda; Rainerus de Bleda" floruit="vor 1078-1118" key="79143533" life="vor 1078-1118" place="Roma" reg="Paschalis II papa" sex="male" termofoffice="1099-1118" uuid="{1094C013-CDB5-4556-9CAA-0820B142AB39}">Paschalis II</pers_name> (Sahagún n. 22) et 
+                <pers_name BNF="145481118" GND="118719785" GermaniaSacra="066-02322-001" LCCN="n85287832" Wikidata="Q132845" addition="Nicolaus Breakspear" floruit="1120-1159" key="25397217" life="gest. 1159" place="Roma" reg="Hadrianus IV papa" sex="male" termofoffice="1154-1159" uuid="{CFE6AF90-6583-4B68-AF21-13BCB71F81EA}">Hadriani IV</pers_name> (Sahagún n. *36), confirmat et concedit ei et successoribus eius potestatem ligandi atque solvendi in villa 
+                <place_name GND_city="4118213-3" LCCN_city="n81124108" VIAF_city="234186354" category="Stadt" country="Spanien" geo_DEZIMAL_city="42.372222°, -5.027778°" geo_DMS_city="N 42° 22′ 20″ W 5° 1′ 40″" geodata="N 42°22'19.29″ W 5°1'49.58″" geodata_region="0" identification="Sahagun" region="Kastilien-León" uuid="{BB94BBC5-9743-49A4-8491-5AC739383858}">s. Facundi</place_name> et infra “cautum” monasterii, a rege 
+                <pers_name addition="el Bravo, Adefonsus" floruit="1109" key="40710875" life="1109" place="Castilla, Leon, Galicia" reg="Alfonsus VI rex" sex="male" uuid="{0678CF99-D5B3-471B-93F4-086512CA2AB1}">Aldefonso (VI</pers_name>
+                <place_name category="Königreich" geodata="N 42°21′01″ W 3°40′31″" geodata_region="-1" id="3127461" identification="Castilla" institution="Regnum Castellae" uuid="{F06FA4AC-E528-4E39-B528-D8A9DD0FBB92}">Castellae</place_name> et 
+                <place_name category="Königreich" diocese="Legio" geodata="N 42°36′00″ W 5°34′13″" geodata_region="-1" id="3118532" identification="Leon" institution="Regnum Legionis" uuid="{EA988EA6-BE5E-4439-9057-2E9C8F24352E}">Legionis</place_name>) determinatum; ac etiam habet ratum et concedit usum mitrae eidem abbati et successoribus eius.</pont_reg_main>
+        </regest_pont>
+        <worker_comment_pont>
+            <pont_reg_main nr="Ib. Pont. II 119 n. 39">Adressaten: Dominico abbati s. Facundi. Anmerkungen und to do: ; Personen: , , , , , ; Orte: , , , , </pont_reg_main>
+        </worker_comment_pont>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

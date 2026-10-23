@@ -1,0 +1,128 @@
+<text type="charter" id="1562277337887">
+    <bibl>
+        <edition>
+            <bibl_link target="Colección León 5" uuid="{D0303730-8567-47D9-9CFC-3ACC5A4375E7}">Fernández Catón Colección catedral de León V</bibl_link> 483–484 n. 1605. 
+            <bibl_link target="Martín López, Patrimonio de San Isidoro" target2="2488677" uuid="{44702B41-9C7F-43AA-8103-9683AA7B6323}">Martín López Patrimonio de San Isidoro</bibl_link> p. 152–153 n. 119. 
+            <bibl_link target="Domínguez Sánchez, Documentos León" uuid="{11854E9F-B827-49B3-8720-94342D22363F}">Domínguez Sánchez Documentos pontificios de León</bibl_link> p. 112 n. 48</edition>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests>
+            <bibl_link target=" García Villada, Catálogo León" uuid="{DC84DCB3-8CEB-42BE-8F7C-D598F542C852}">García Villada Catálogo</bibl_link> p. 211</regests>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type>Kopial</descent_type>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script>
+            <pont_reg_main nr="Ib. Pont. II 92 n. 20">León Archivo de la Catedral n. 8299 (copia simplex coeva).</pont_reg_main>
+        </script>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria/>
+        <date_p value="11770802" to="11770802" from="11770802">(1177) aug. 2</date_p>
+        <initium>Cum iam pridem</initium>
+        <pub_place>
+            <place_name GND_city="4062501-1" LCCN_city="n79018142" VIAF_city="136651400" category="Stadtviertel" country="Italien" geo_DMS_city="N 45° 26′ O 12° 20′" geodata="N 45° 26′ 19″ E 12° 20′ 5″" geodata_region="0" identification="Venezia, Rialto" region="Venetien" uuid="{2E23A47A-52CD-4B95-AC3C-40372053FD4D}">Venezia, Rialto</place_name>
+        </pub_place>
+        <script_date>Dat. Venetiae in Rivo Alto 4 non. aug.</script_date>
+        <state/>
+        <supplier>
+            <pers_name BNF=" 13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN=" n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{D0AAAA76-4E0A-4470-9594-57CF75211EBB}">Alexander III</pers_name>
+        </supplier>
+        <supplier_type>papa</supplier_type>
+        <user_comment/>
+        <worker>Santiago Domínguez Sánchez/Daniel Berger; digitale Fassung: Thorsten Schlauwitz</worker>
+    </head>
+    <info>
+        <date_sort value="11770802">11770802</date_sort>
+        <idno>Ib. Pont. II 92 n. 20</idno>
+    </info>
+    <jaffe>
+        <jaffe1>-</jaffe1>
+        <jaffe2_no>-</jaffe2_no>
+        <jaffe2_page/>
+        <jaffe2_worker>-</jaffe2_worker>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_main nr="Ib. Pont. II 92 n. 20"> De tempore cf. itinerarium 
+                <pers_name BNF=" 13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN=" n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{D0AAAA76-4E0A-4470-9594-57CF75211EBB}">Alexandri III</pers_name> in 
+                <bibl_link target="Jaffé, Regesta Pontificum Romanorum" uuid="{A29E737F-A8E2-448A-85C5-D823E0F38211}">JL.</bibl_link> II p. 313. Forsan loquitur ficticie de his litteris 
+                <pers_name floruit="1249" key="17453744" life="1249" place="León" reg="Lucas Tudensis" sex="male" uuid="{DCB66998-F052-4B8B-936D-03373F4FAC1E}">Lucas Tudensis</pers_name> in cap. 43 “De miraculis s. Isidori”, in quo narrat quod rex 
+                <pers_name floruit="1137-1188" key="192898432" life="1137-1188" place="Leon, Galicia" reg="Ferdinandus II rex" sex="male" termofoffice="1157-1188" uuid="{79BD82C2-B654-47A8-84BB-E983842BFBFD}">Ferdinandus II</pers_name>
+                <place_name GND_city="4035367-9" LCCN_city="n79084423" VIAF_city="140708126" category="Bistum" country="Spanien" diocese="Legio" geo_DEZIMAL_city="42.605556, -5.57" geo_DMS_city="N 42°36′20″ W 5°34′12″" geodata="N 42°36′00″ W 5°34′13″" geodata_region="-1" id="3118532" identification="Leon episc." institution="Episcopatus Legionensis" literature="Ib. Pont. II, 1" region="Kastilien-León" uuid="{D7F79CE0-86EC-4338-901F-6FFBFFEF042C}">Legionensis</place_name> et uxor eius, 
+                <pers_name addition="von Leon" floruit="1080-1130" key="57981530" life="1080-1130" place="Portugal" reg="Tarasia infantissa" sex="female" uuid="{FC15166F-F382-463A-8B9A-419A8D980CD4}">Tarasia</pers_name> (1177–1180), una cum episcopo 
+                <place_name GND_city="4035367-9" LCCN_city="n79084423" VIAF_city="140708126" category="Bistum" country="Spanien" diocese="Legio" geo_DEZIMAL_city="42.605556, -5.57" geo_DMS_city="N 42°36′20″ W 5°34′12″" geodata="N 42°36′00″ W 5°34′13″" geodata_region="-1" id="3118532" identification="Leon episc." institution="Episcopatus Legionensis" literature="Ib. Pont. II, 1" region="Kastilien-León" uuid="{D7F79CE0-86EC-4338-901F-6FFBFFEF042C}">Legionensi</place_name>, 
+                <pers_name addition="Albertinus" floruit="1139-1181" place="Leon" reg="Iohannes episcopus" sex="male" termofoffice="belegt 1139-1181" uuid="{6A021429-E985-496F-AE25-F11062E777EC}">Iohanne</pers_name>, supplicarunt pontifici (
+                <pers_name BNF=" 13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN=" n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{D0AAAA76-4E0A-4470-9594-57CF75211EBB}">Alexandro III</pers_name>) ut ecclesia cathedralis 
+                <place_name GND_city="4035367-9" LCCN_city="n79084423" VIAF_city="140708126" category="Bistum" country="Spanien" diocese="Legio" geo_DEZIMAL_city="42.605556, -5.57" geo_DMS_city="N 42°36′20″ W 5°34′12″" geodata="N 42°36′00″ W 5°34′13″" geodata_region="-1" id="3118532" identification="Leon episc." institution="Episcopatus Legionensis" literature="Ib. Pont. II, 1" region="Kastilien-León" uuid="{D7F79CE0-86EC-4338-901F-6FFBFFEF042C}">Legionensis</place_name> transferatur in ecclesiam 
+                <place_name BNE="XX142748" BNF="cb101603999" GND="4366218-3" GND_city="4035367-9" LCCN=" n80131838" LCCN_city="n79084423" VIAF="293889723" VIAF_city="140708126" category="Kloster" country="Spanien" diocese="Legio" geo_DEZIMAL_city="42.605556, -5.57" geo_DMS_city="N 42°36′20″ W 5°34′12″" geodata="N 42°36′02″ W 5°34′16″" geodata_region="0" id="6619208" identification="Leon, San Isidoro" institution="Monasterium s. Isidori vel Ysidori" region="Kastilien-León" uuid="{99A54F07-9FC6-4A58-97FC-AB5D53FE3456}">s. Isidori</place_name> (!), et quod ipse pontifex acceptavit hanc petitionem, et dictavit litteras executorias ad hoc, postea mirabiliter deperditas (!) Cf. Lucae de 
+                <place_name GND_city="4308215-4" LCCN_city=" n88234093" VIAF_city="151382375" category="Bistum" country="Spanien" diocese="Tuy" geo_DEZIMAL_city="42.048056°, -8.644444°" geo_DMS_city="N 42° 2′ 53″ W 8° 38′ 40″" geodata="N 42°02′50″ W 8°38′40″" geodata_region="-1" id="3107364" identification="Tuy episc." institution="Episcopatus Tudensis" region="Galicien" uuid="{3A9E7243-9581-4BFF-8E6F-F504D99199FD}">Tuy</place_name> Milagros de San Isidoro, Salamanca 1525 
+                <bibl_link uuid="{A483A22A-9BA3-4F67-962D-BBA04035E331}">(ed. Juan de Robles)</bibl_link> p. 82sq.; 
+                <bibl_link target="España Sagrada 35" uuid="{72EA8516-3967-4F05-8106-9304D1909F4F}">Risco España Sagrada XXXV</bibl_link> 364sq.</pont_reg_main>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_main nr="Ib. Pont. II 92 n. 20">Ib. Pont. II</pont_reg_main>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_main nr="Ib. Pont. II 92 n. 20">92 n. 20</pont_reg_main>
+        </pont_no>
+        <pontificate>Alexander III.</pontificate>
+        <receipt_inst>
+            <pont_reg_main nr="Ib. Pont. II 92 n. 20">San Isidoro</pont_reg_main> San Isidoro (Ib. Pont. II 92 n. 20); v. etiam Episc. n. 81 (Ib. Pont. II 37) ; et Eccl. cath. n. 30 (Ib. Pont. II 69).</receipt_inst>
+        <regest_pont>
+            <pont_reg_main nr="Ib. Pont. II 92 n. 20">
+                <pers_name BNF=" 13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN=" n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{D0AAAA76-4E0A-4470-9594-57CF75211EBB}">Alexander III</pers_name>
+                <pers_name floruit="1170" place="León, San Isidoro" reg="Martinus abbas" sex="male" termofoffice="1170 belegt" uuid="{E344567A-E9BE-4BE0-A414-B794505A07BE}">(Martino) abbati</pers_name> et capitulo monasterii 
+                <place_name BNE="XX142748" BNF="cb101603999" GND="4366218-3" GND_city="4035367-9" LCCN=" n80131838" LCCN_city="n79084423" VIAF="293889723" VIAF_city="140708126" category="Kloster" country="Spanien" diocese="Legio" geo_DEZIMAL_city="42.605556, -5.57" geo_DMS_city="N 42°36′20″ W 5°34′12″" geodata="N 42°36′02″ W 5°34′16″" geodata_region="0" id="6619208" identification="Leon, San Isidoro" institution="Monasterium s. Isidori vel Ysidori" region="Kastilien-León" uuid="{99A54F07-9FC6-4A58-97FC-AB5D53FE3456}">s. Isidori</place_name>
+                <place_name GND_city="4035367-9" LCCN_city="n79084423" VIAF_city="140708126" category="Bistum" country="Spanien" diocese="Legio" geo_DEZIMAL_city="42.605556, -5.57" geo_DMS_city="N 42°36′20″ W 5°34′12″" geodata="N 42°36′00″ W 5°34′13″" geodata_region="-1" id="3118532" identification="Leon episc." institution="Episcopatus Legionensis" literature="Ib. Pont. II, 1" region="Kastilien-León" uuid="{D7F79CE0-86EC-4338-901F-6FFBFFEF042C}">Legionensis</place_name>: in virtute oboedientiae et sub diversis poenis mandat ut firmiter observent compositionem quondam initam inter dictum monasterium et episcopum et canonicos 
+                <place_name GND_city="4035367-9" LCCN_city="n79084423" VIAF_city="140708126" category="Bistum" country="Spanien" diocese="Legio" geo_DEZIMAL_city="42.605556, -5.57" geo_DMS_city="N 42°36′20″ W 5°34′12″" geodata="N 42°36′00″ W 5°34′13″" geodata_region="-1" id="3118532" identification="Leon episc." institution="Episcopatus Legionensis" literature="Ib. Pont. II, 1" region="Kastilien-León" uuid="{D7F79CE0-86EC-4338-901F-6FFBFFEF042C}">Legionenses</place_name> super praestatione bituri et mellis, et super aliis consuetudinibus et iure episcopali; refert episcopum 
+                <place_name GND_city="4035367-9" LCCN_city="n79084423" VIAF_city="140708126" category="Bistum" country="Spanien" diocese="Legio" geo_DEZIMAL_city="42.605556, -5.57" geo_DMS_city="N 42°36′20″ W 5°34′12″" geodata="N 42°36′00″ W 5°34′13″" geodata_region="-1" id="3118532" identification="Leon episc." institution="Episcopatus Legionensis" literature="Ib. Pont. II, 1" region="Kastilien-León" uuid="{D7F79CE0-86EC-4338-901F-6FFBFFEF042C}">Legionensem</place_name>
+                <pers_name addition="Albertinus" floruit="1139-1181" place="Leon" reg="Iohannes episcopus" sex="male" termofoffice="belegt 1139-1181" uuid="{6A021429-E985-496F-AE25-F11062E777EC}">(Iohannem</pers_name>) querelam interposuisse (cf. San Isidoro n. *19), quia asserebat monasterium compositionem et iuramentum non servare; vetat eis ne excommunicatos vel interdictos episcopi ad divina officia, vel excommunicatos ad sepulturam seu ad conversionem in coenobio praesumant recipere, aut, cum commune interdictum terrae fuerit, nisi clausis ianuis, non pulsatis 
+                <place_name category="Region" geodata="N 45°34'53.81″ E 10°11'42.12″ ToDO" geodata_region="0" id="ToDO" identification="Campania (Kampanien)" institution="regio Campaniensis" uuid="{1E9488C1-3ED4-4717-A397-F182603FE82B}">Campanis</place_name>, exclusis excommunicatis et interdictis, suppressa voce, divina officia celebrare.</pont_reg_main>
+        </regest_pont>
+        <worker_comment_pont>
+            <pont_reg_main nr="Ib. Pont. II 92 n. 20">Adressaten: (Martino) abbati et capitulo monasterii s. Isidori Legionensis. Anmerkungen und to do: ; Personen: , , , , , ; Orte: , , , , </pont_reg_main>
+        </worker_comment_pont>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

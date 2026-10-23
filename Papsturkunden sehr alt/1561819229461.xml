@@ -1,0 +1,110 @@
+<text type="charter" id="1561819229461">
+    <bibl>
+        <edition/>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests>
+            <bibl_link target="Weiß, Legaten">Weiß Legaten</bibl_link> p. 176</regests>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type>Erwähnung</descent_type>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script>
+            <pont_reg_main nr="Ib. Pont. II 26 n. *47a">Laud. in charta regis Sancii III (ed. 
+                <bibl_link target="González, Alfonso VIII">González Reino</bibl_link> II 34 n. 16).</pont_reg_main>
+        </script>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria>*</criteria>
+        <date_p value="11550199" to="11550199" from="11550199">1155 (ian.?)</date_p>
+        <initium/>
+        <pub_place>
+            <place_name category="Stadt" diocese="Legio" geodata="N 42°36′00″ W 5°34′13″" id="3118532" identification="Leon">León</place_name>
+        </pub_place>
+        <script_date/>
+        <state/>
+        <supplier>
+            <pers_name addition="Giacinto Bobone" key="193550312" life="gest. 1198" place="Roma" reg="Coelestinus III papa (Hyacintus Bobo)">Iacintus</pers_name> (diac.) card. S.R.E. (apostolicae sedis legatus 
+            <pers_name key="25397217" life="gest. 1159" place="Roma" reg="Hadrianus IV papa (Nicolaus Breakspear)">Hadriani IV</pers_name>)</supplier>
+        <supplier_type>legatus</supplier_type>
+        <user_comment/>
+        <worker>Santiago Domínguez Sánchez/Daniel Berger, digitale Fassung: Carolin Sachs, Thomas Czerner</worker>
+    </head>
+    <info>
+        <date_sort value="11550199">11550199</date_sort>
+        <idno>Ib. Pont. II 26 n. *47a</idno>
+    </info>
+    <jaffe>
+        <jaffe1>-</jaffe1>
+        <jaffe2_no/>
+        <jaffe2_page/>
+        <jaffe2_worker>-</jaffe2_worker>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_main nr="Ib. Pont. II 26 n. *47a"> De tempore cf. 
+                <bibl_link target="Weiß, Legaten">Weiß Legaten</bibl_link> p. 176. </pont_reg_main>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_main nr="Ib. Pont. II 26 n. *47a">Ib. Pont. II</pont_reg_main>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_main nr="Ib. Pont. II 26 n. *47a">26 n. *47a</pont_reg_main>
+        </pont_no>
+        <pontificate>Hadrianus IV.</pontificate>
+        <receipt_inst>
+            <pont_reg_main nr="Ib. Pont. II 26 n. *47a">León, Episc.</pont_reg_main> León, Episc. (Ib. Pont. II 26 n. *47a)</receipt_inst>
+        <regest_pont>
+            <pont_reg_main nr="Ib. Pont. II 26 n. *47a">
+                <pers_name addition="Giacinto Bobone" key="193550312" life="gest. 1198" place="Roma" reg="Coelestinus III papa (Hyacintus Bobo)">
+                    <issuer> Iacintus</issuer> </pers_name> (diac.) card. S.R.E. (
+                <place_name addition="Papa; S. Romana ecclesia" category="Bistum" diocese="Roma" geodata="N 41°53′12″ E 12°30′20″" id="11669597" identification="Roma sedes apostolica et patriarchatus" institution="Sedes apostolica et Episcopatus seu patriarchatus Romanus">apostolicae sedis</place_name> legatus 
+                <pers_name key="25397217" life="gest. 1159" place="Roma" reg="Hadrianus IV papa (Nicolaus Breakspear)">Hadriani IV</pers_name>) in civitate 
+                <place_name BNE="" BNE_city="" BNF="" BNF_city="" GND="" GND_city="" GS_Klosterdatenbank="" Getty="" LCCN="" LCCN_city="" VIAF="" VIAF_city="" addition="" category="Stadt" country="" diocese="Legio" geo_DEZIMAL_city="" geo_DMS_city="" geodata="N 42°35′53.28″ W 5°34′17.97″" geodata_region="" geodata_vague="" geonames_city="" getty_city="" id="3118532" identification="Leon" institution="civitas Legione" literature="" region="" uuid="">Legionensi</place_name> moratur.</pont_reg_main>
+        </regest_pont>
+        <worker_comment_pont>
+            <pont_reg_main nr="Ib. Pont. II 26 n. *47a"/>
+        </worker_comment_pont>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

@@ -1,0 +1,117 @@
+<text type="charter" id="1422883505419">
+    <bibl>
+        <edition/>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests/>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type>Erwähnung</descent_type>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script>
+            <pont_reg_main nr="Ib. Pont. I 70 n. *113">Laud. in litteris Alexandri III a. (1164) oct. 25 episcopo Seguntino directis (ed. 
+                <bibl_link target="Minguella y Arnedo, Diócesis de Sigüenza">Minguella y Arnedo Historia I</bibl_link> 410 n. 55).</pont_reg_main>
+        </script>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria>*</criteria>
+        <date_p value="11641024" to="11641024" from="">(ante 1164 oct. 25)</date_p>
+        <initium/>
+        <pub_place/>
+        <script_date/>
+        <state/>
+        <supplier>(
+            <pers_name addition="de Segovia" life="1166" place="Toledo" reg="Iohannes archiepiscopus">Iohannes</pers_name>) Toletanus archiepisc. et 
+            <pers_name addition="Perez" life="Bischof bis 1181" place="Burgos" reg="Petrus (II) episcopus">(Petrus II)</pers_name> Burgensis episc.</supplier>
+        <supplier_type>ad papam</supplier_type>
+        <user_comment/>
+        <worker>Santiago Domínguez Sánchez/Daniel Berger; digitale Fassung: Thorsten Schlauwitz</worker>
+    </head>
+    <info>
+        <date_sort value="11641024">11641024</date_sort>
+        <idno>Ib. Pont. I 70 n. *113</idno>
+    </info>
+    <jaffe>
+        <jaffe1/>
+        <jaffe2_no>-</jaffe2_no>
+        <jaffe2_page/>
+        <jaffe2_worker>-</jaffe2_worker>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_main nr="Ib. Pont. I 70 n. *113"/>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_main nr="Ib. Pont. I 70 n. *113">Ib. Pont. I</pont_reg_main>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_main nr="Ib. Pont. I 70 n. *113">70 n. *113</pont_reg_main>
+        </pont_no>
+        <pontificate>Alexander III.</pontificate>
+        <receipt_inst>
+            <pont_reg_main nr="Ib. Pont. I 70 n. *113">Burgos, Episc.</pont_reg_main> Burgos, Episc. n. *113 (Ib. Pont. I 70); Toledo, Archiepisc.; Sigüenza, Episc; Osma, Episc.</receipt_inst>
+        <regest_pont>
+            <pont_reg_main nr="Ib. Pont. I 70 n. *113">(
+                <pers_name addition="de Segovia" life="1166" place="Toledo" reg="Iohannes archiepiscopus">
+                    <issuer>Iohannes</issuer> </pers_name>) 
+                <place_name category="archiepiscopatus" diocese="Toledo" geodata="N 39°51′29″ W 4°01′21″" identification="Toledo, archiepisc." institution="Archiepiscopatus Toletanus">
+                    <issuer>Toletanus</issuer> </place_name> archiepiscopus et (
+                <pers_name addition="Perez" life="Bischof bis 1181" place="Burgos" reg="Petrus (II) episcopus">
+                    <issuer>Petrus II</issuer> </pers_name>) 
+                <place_name category="episcopatus" diocese="Burgos" geodata="N 42°21′01″ W 3°40′31″" identification="Burgos, episc." institution="Episcopatus Burgensis">
+                    <issuer>Burgensis</issuer> </place_name> episcopus, iudices delegati ex mandato 
+                <pers_name key="88956811" life="1181" place="Roma" reg="Alexander III papa (Rolandus Bandinelli)">
+                    <adressee>Alexandri III</adressee> </pers_name> (cf. Burgos, Episc. n. 112) in causa, quae inter episcopos 
+                <place_name category="episcopatus" diocese="Siguenza" geodata="N 41°04′08″ W 2°38′35″" identification="Siguenza, episc" institution="Episcopatus Seguntinus">Seguntinum</place_name> et 
+                <place_name category="episcopatus" diocese="Osma" geodata="N 41°35′10″ W 3°03′55″" identification="El Burgo de Osma, episc." institution="Episcopatus Oxomensis">Oxomensem</place_name> de possessione quattuor villarum agitatur, apostolicae sedi per litteras referunt dictos episcopos litigantes nullo modo in regem 
+                <place_name geodata="N 40°00′00″ W 4°00′00″" identification="Hispania">Hispaniarum</place_name> (
+                <pers_name key="192898432" life="1188" place="Leon, Galicia" reg="Ferdinandus II rex">Fredinandum II</pers_name>
+                <place_name category="regnum" diocese="Leon" geodata="N 42°36′00″ W 5°34′13″" identification="Leon" institution="Regnum Legionis">Legionensem</place_name>) compromisisse.</pont_reg_main>
+        </regest_pont>
+        <worker_comment_pont>
+            <pont_reg_main nr="Ib. Pont. I 70 n. *113">Adressaten: . Anmerkungen und to do: ; Personen: Juan (II.), Ebf. v. Toledo, 
+                <pers_name addition="Pedro de Agen" life="1149" place="Segovia" reg="Petrus episcopus">Pedro</pers_name> (II.), Bf. v. Burgos, 
+                <pers_name key="88956811" life="1181" place="Roma" reg="Alexander III papa (Rolandus Bandinelli)">Alexander III</pers_name>., Papst, Sigüenza, Bf., Fernando (II.), Kg. v. León, Osma, Bf.; Orte: Sigüenza, Osma, , , </pont_reg_main>
+        </worker_comment_pont>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

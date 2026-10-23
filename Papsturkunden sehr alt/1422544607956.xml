@@ -1,0 +1,185 @@
+<text type="charter" id="1422544607956">
+    <bibl>
+        <edition/>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests/>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type>Erwähnung</descent_type>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script>
+            <pont_reg_add nr="Ib. Pont. I 63 n. *95">In actis concilii (ed. 
+                <bibl_link target="Erdmann, Papsttum und Portugal">Erdmann Papsttum</bibl_link> p. 55 n. 5 = 
+                <bibl_link target="Erdmann, O papado e Portugal">Erdmann Papado</bibl_link> p. 84 n. 5. Reg. 
+                <bibl_link target="Weiß, Legaten">Weiß Legaten</bibl_link> p. 176) Oniensem abbatem, non autem episcopum Burgensem invenies, sed ex charta Adefonsi VII a. 1155 febr. 4 eodem loco in favorem monasterii s. Facundi exhibita (ed. 
+                <bibl_link target="Colección Sahagún 4">Fernández Flórez Colección Sahagún IV</bibl_link> 256-258 n. 1320) elucet Victorem Burgensem episcopum huic concilio interfuisse.</pont_reg_add>
+            <pont_reg_main nr="Ib. Pont. II 26 n. *48">Acta imperfecta huius concilii ed. 
+                <bibl_link target="Erdmann, Papsttum und Portugal">Erdmann Papsttum</bibl_link> p. 55 n. 5 = 
+                <bibl_link target="Erdmann, O papado e Portugal">Erdmann Papado</bibl_link> p. 84 n. 5; cf. 
+                <bibl_link target="Weiß, Legaten">Weiß Legaten</bibl_link> p. 176sq. Nonnullae litterae expeditae in concilio conservantur. (Madrid Archivo Histórico Nacional, carp. 899 n. 1, privilegium Aldefonsi VII, procedens ex archivo monasterii s. Facundi, cum data Valladolid 1155, febr. 4, ed. 
+                <bibl_link target="Colección Sahagún 4">Fernández Flórez Colección de Sahagún IV</bibl_link> 256–258 n. 1320, in quo legitur: “Facta carta in Valle Olit, pridie nonas februarii, aera Mª Cª LCLª IIIª (...) Et tunc dominus Iacintus S.R.E. legatus celebravit concilium apud Vallem Olit cum domino imperatore, cum filiis imperatoris, Sancio et Ferrando regibus; cum archiepiscopis Iohanne Toletano, Pelagio06 Compostellano, cum episcopis Iohanne Legionensi, Martino Ovetensi, Victorio Burgensi, Ruderico Naiarensi, Vicencio Segobiensi, Enigo Avilensi, Navarro Salamanticensi, Stephano Zamorensi, Petro Asturicensi, Reimundo Palentino, Martino Auriensi, Iohanne Lucensi. Et tunc depositus fuit Mindoniensis episcopus”.</pont_reg_main>
+        </script>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria>*</criteria>
+        <date_p value="11550204" to="11550204" from="11550125">1155 (cr. ian. 25-febr. 4)</date_p>
+        <initium/>
+        <pub_place>
+            <place_name diocese="Palencia" geodata="N 41°39′19″ W 4°43′25″" identification="Valladolid">Valladolid</place_name>
+        </pub_place>
+        <script_date/>
+        <state/>
+        <supplier>
+            <pers_name addition="Giacinto Bobone" key="193550312" life="1198" place="Roma" reg="Coelestin III papa (Hyacintus Bobo)">Iacintus</pers_name> diac. card. s. Mariae in Cosmedin et apost. sedis legatus</supplier>
+        <supplier_type>legatus</supplier_type>
+        <user_comment/>
+        <worker>Berger (Ib. Pont. I); Domínguez Sánchez/Berger (Ib. Pont. II); digitale Fassung: Sachs/Czerner (Ib. Pont. II)</worker>
+    </head>
+    <info>
+        <date_sort value="11550204">11550204</date_sort>
+        <idno>Ib. Pont. I 63 n. *95</idno>
+    </info>
+    <jaffe>
+        <jaffe1>-</jaffe1>
+        <jaffe2_no/>
+        <jaffe2_page/>
+        <jaffe2_worker>-</jaffe2_worker>
+        <jaffe3_no/>
+        <list_keyword>
+            <keyword>Konzil</keyword>
+        </list_keyword>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_add nr="Ib. Pont. I 63 n. *95">De concilio cf. 
+                <bibl_link target="Palazzini, Dizionario dei concili">Diz. Conc</bibl_link>. VI 33sq.; 
+                <bibl_link target="García García, Concilios León">García y García Concilios</bibl_link> p. 442; 
+                <bibl_link target="Martínez Díez, Legislación">Martínez Díez Legislación</bibl_link> p. 349-353, ubi et anteriora studia reperies; insuper cf. 
+                <bibl_link target="Sandoval, Historia (1615)">Sandoval Historia</bibl_link> f. 208 (= II 323); 
+                <bibl_link target="Serrano, Obispado de Burgos">Serrano Obispado de Burgos</bibl_link> II 49. De tempore cf. 
+                <bibl_link target="Fita, Concilios de Salamanca y de Valladolid">Fita Concilios nacionales de Salamanca y Valladolid</bibl_link> p. 467-475. De 
+                <pers_name addition="Giacinto Bobone" key="193550312" life="1198" place="Roma" reg="Coelestin III papa (Hyacintus Bobo)">Iacinto</pers_name> cardinali diacono 
+                <place_name category="basilica" diocese="Roma" geodata="N 41°53′41″ E 12°29′02″" identification="Roma, Santa Maria in Cosmedin" institution="Basilica s. Mariae in Cosmedin">s. Mariae in Cosmedin</place_name> legationibusque eius cf. 
+                <bibl_link target="Fleisch, Rom und die Iberische Halbinsel">Fleisch Rom</bibl_link> p. 144-161 cum studiis laudatis nec non 
+                <bibl_link target="Smith, Iberian Legations">Smith Iberian Legations</bibl_link> passim.</pont_reg_add>
+            <pont_reg_main nr="Ib. Pont. II 26 n. *48"> Cf. etiam Sahagún n. *35. – De re, concilio et legatione cf. 
+                <bibl_link target="Saenz de Aguirre, Collectio">Sáenz de Aguirre Collectio maxima V</bibl_link> 69; 
+                <bibl_link target="Mansi, Sacrorum collectio">Mansi Sacrorum Conciliorum collectio XXI</bibl_link> 835sq.; 
+                <bibl_link target="Escalona, Historia Sahagún">Escalona Historia de Sahagún</bibl_link> p. 109. 115. 538; 
+                <bibl_link target="España Sagrada 35">Risco España Sagrada XXXV</bibl_link> 210; 
+                <bibl_link target="Tejada y Ramiro, Colección de cánones">Tejada y Ramiro Colección de cánones III</bibl_link> 273sq.; 
+                <bibl_link>Fita Primera legación del cardenal Jacinto</bibl_link> p. 530–555; 
+                <bibl_link target="Fita, Concilios de Salamanca y de Valladolid">Fita Concilios de Salamanca y Valladolid</bibl_link> p. 449–475; 
+                <bibl_link target="Rassow, La confradía de Belchite">Rassow La Cofradía de Belchite</bibl_link> p. 129; 
+                <bibl_link target="Fletcher, Episcopate">Fletcher The Episcopate</bibl_link> p. 32. 63. 175. 208. 211; 
+                <bibl_link target="Martínez Díez, Concilios">Martínez Díez Concilios</bibl_link> p. 573sq.; 
+                <bibl_link target="García García, Concilios León">García y García Concilios</bibl_link> p. 442; 
+                <bibl_link target="Martínez Díez, Legislación">Martínez Díez Legislación conciliar</bibl_link> p. 349–353; 
+                <bibl_link target="Smith, Iberian Legations">Smith Iberian Legations</bibl_link> p. 84. – De quaestione archidiaconatus de 
+                <place_name category="Stadt" diocese="Lucus Augusti (Lugo)" geodata="N 42°45′20″ W 7°14′29″" id="3107488" identification="Triacastela">Triacastella</place_name> cf. 
+                <bibl_link>García Conde Episcopologio Lucense</bibl_link> p. 218. – De legatione cardinalis 
+                <pers_name addition="Giacinto Bobone" key="193550312" life="gest. 1198" place="Roma" reg="Coelestinus III papa (Hyacintus Bobo)">Iacinti</pers_name> cf. 
+                <bibl_link target="Weiß, Legaten">Weiß Legaten</bibl_link> p. 173–203; 
+                <bibl_link target="Fleisch, Rom und die Iberische Halbinsel">Fleisch Rom</bibl_link> p. 144–161 cum studiis laudatis; 
+                <bibl_link target="Smith, Iberian Legations">Smith Iberian Legations</bibl_link> passim. Praeterea, videatur quod in illo tempore, in data 1155 antea febr. 1, cardinalis 
+                <pers_name addition="Giacinto Bobone" key="193550312" life="gest. 1198" place="Roma" reg="Coelestinus III papa (Hyacintus Bobo)">Iacintus</pers_name>, praesens in civitate 
+                <place_name BNE="" BNE_city="" BNF="" BNF_city="" GND="" GND_city="" GS_Klosterdatenbank="" Getty="" LCCN="" LCCN_city="" VIAF="" VIAF_city="" addition="" category="Stadt" country="" diocese="Legio" geo_DEZIMAL_city="" geo_DMS_city="" geodata="N 42°35′53.28″ W 5°34′17.97″" geodata_region="" geodata_vague="" geonames_city="" getty_city="" id="3118532" identification="Leon" institution="civitas Legione" literature="" region="" uuid="">Legionensi</place_name>, misit litteras regi 
+                <pers_name life="1134-1158" place="Castilla" reg="Sancius III rex">Sancio III</pers_name>
+                <place_name category="Königreich" geodata="N 42°21′01″ W 3°40′31″" id="3127461" identification="Castilla" institution="Regnum Castellae">Castellae</place_name> super habitatoribus villae de Olite. Cf. 
+                <bibl_link target="Weiß, Legaten">Weiß Legaten</bibl_link> p. 176sq.</pont_reg_main>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_add nr="Ib. Pont. I 63 n. *95">Ib. Pont. I</pont_reg_add>
+            <pont_reg_main nr="Ib. Pont. II 26 n. *48">Ib. Pont. II</pont_reg_main>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_add nr="Ib. Pont. I 63 n. *95">63 n. *95</pont_reg_add>
+            <pont_reg_main nr="Ib. Pont. II 26 n. *48">26 n. *48</pont_reg_main>
+        </pont_no>
+        <pontificate>Hadrianus IV.</pontificate>
+        <receipt_inst>
+            <pont_reg_add>Burgos, Episc.</pont_reg_add> Burgos, Episc. n. *95 (Ib. Pont. I 63); Regnum Castellae et Legionis; Palencia, Episc.; Oña n. *19 (Ib. Pont. I 135); León, Episc. n. *48 (Ib. Pont. II 26); Sahagún n. *35 (Ib. Pont. II 118); Toledo, Archiepisc.; Osma, Episc.; Sigüenza, Episc.; Segovia, Episc.; Compostela, Archiepisc.; Ávila, Episc.; Salamanca, Episc.; Zamora, Episc.; Astorga; Episc.; Lugo, Episc.; Ourense, Episc.; Lamego, Episc.; Viseu, Episc.; Coimbra, Episc.; Porto, Episc.; Pamplona, Episc.; Calahorra-Nájera, Episc.; Oviedo, Episc.; Almería, Episc. 
+            <pont_reg_main nr="Ib. Pont. II 26 n. *48">León, Episc.</pont_reg_main> León, Episc. (Ib. Pont. II 26 n. *48); Palencia, Valladolid;</receipt_inst>
+        <regest_pont>
+            <pont_reg_add nr="Ib. Pont. I 63 n. *95">
+                <pers_name addition="Giacinto Bobone" key="193550312" life="1198" place="Roma" reg="Coelestin III papa (Hyacintus Bobo)">
+                    <issuer>Iacintus</issuer> </pers_name> (diac. card. et) S.R.E. legatus (
+                <pers_name key="25397217" life="1159" place="Roma" reg="Hadrianus IV papa (Nicolaus Breakspear)">Hadriani IV</pers_name>) praesentibus 
+                <pers_name addition="Adefonsus, el Emperador" key="855131" life="1157" place="Castilla, Leon, Galicia" reg="Alfonsus VII rex">Adefonso VII</pers_name> rege, filiis eius 
+                <pers_name life="1158" place="Castilla" reg="Sancius III rex">Sancio</pers_name> et 
+                <pers_name key="192898432" life="1188" place="Leon, Galicia" reg="Ferdinandus II rex">Ferrando</pers_name> nec non archiepiscopis 
+                <place_name category="archiepiscopatus" diocese="Toledo" geodata="N 39°51′29″ W 4°01′21″" identification="Toledo, archiepisc." institution="Archiepiscopatus Toletanus">Toletano</place_name> ac 
+                <place_name category="archiepiscopatus" diocese="Santiago de Compostela" geodata="N 42°52′50″ W 8°32′44″" identification="Santiago de Compostela, archiepisc." institution="Archiepiscopatus Compostellanus">Compostellano</place_name> et permultis tam episcopis quam abbatibus generale concilium apud 
+                <place_name diocese="Palencia" geodata="N 41°39′19″ W 4°43′25″" identification="Valladolid">vallem Oliti</place_name> celebrat, cui inter alios 
+                <pers_name life="1156" place="Burgos" reg="Victor episcopus">Victor</pers_name>
+                <place_name category="episcopatus" diocese="Burgos" geodata="N 42°21′01″ W 3°40′31″" identification="Burgos, episc." institution="Episcopatus Burgensis">Burgensis</place_name> episcopus et 
+                <pers_name addition="de Alcocero" life="Abt bis 1160" place="Ona, San Salvador" reg="Iohannes (IV) abbas">Iohannes (IV</pers_name>) abbas 
+                <place_name addition="OSB" category="monasterium" diocese="Burgos" geodata="N 42°44′02″ W 3°24′53″" identification="Ona, San Salvador" institution="Monasterium s. Salvatoris Oniense">Oniensis</place_name> intersunt.</pont_reg_add>
+            <pont_reg_main nr="Ib. Pont. II 26 n. *48">
+                <pers_name addition="Giacinto Bobone" key="193550312" life="gest. 1198" place="Roma" reg="Coelestinus III papa (Hyacintus Bobo)">
+                    <issuer> Iacintus</issuer> </pers_name> (diac. card. et) S.R.E. (
+                <pers_name key="25397217" life="gest. 1159" place="Roma" reg="Hadrianus IV papa (Nicolaus Breakspear)">Hadriani IV</pers_name>) legatus, praesentibus rege 
+                <pers_name addition="Adefonsus, el Emperador" key="855131" life="1105-1157" place="Castilla, Leon, Galicia" reg="Alfonsus VII rex">Aldefonso VII</pers_name>
+                <place_name category="Königreich" geodata="N 42°21′01″ W 3°40′31″" id="3127461" identification="Castilla" institution="Regnum Castellae">Castellae</place_name> et 
+                <place_name category="Königreich" diocese="Legio" geodata="N 42°36′00″ W 5°34′13″" id="3118532" identification="Leon" institution="Regnum Legionis">Legionis</place_name>, filiis eius, 
+                <pers_name life="1134-1158" place="Castilla" reg="Sancius III rex">Sancio</pers_name> et 
+                <pers_name key="192898432" life="1137-1188" place="Leon, Galicia" reg="Ferdinandus II rex">Ferrando</pers_name>, necnon permultis archiepiscopis, episcopis et abbatibus, inter eos antistite 
+                <pers_name addition="Albertinus" place="Leon" reg="Iohannes episcopus">Iohanne</pers_name>
+                <place_name category="Bistum" diocese="Legio" geodata="N 42°36′00″ W 5°34′13″" id="3118532" identification="Leon episc." institution="Episcopatus Legionensis">Legionensi</place_name> et abbate 
+                <pers_name place="Sahagun; Monasterium ss. Facundi et Primitivi" reg="Dominicus (II) abbas">Dominico</pers_name>
+                <place_name addition="OSB" category="Kloster" diocese="Legio" geodata="N 42°22′15″ W 5°01′46″" id="3111131" identification="Sahagun" institution="Monasterium s. Facundi">Sancti Facundi</place_name>, generale concilium apud 
+                <place_name category="Stadt" diocese="Palencia" geodata="N 41°39′19″ W 4°43′25″" id="3106672" identification="Valladolid">Vallem Oleti</place_name> celebrat; in quo, inter alia, stabiliuntur iterum dispositiones concilii 
+                <place_name category="Kirche" diocese="Roma" geodata="N 41°53′09″ E 12°30′21″" id="7602857" identification="Roma, Laterano" institution="Ecclesia s. Iohannis in Laterano">Lateranensis</place_name> II a. 1139. In ipso concilio episcopus 
+                <place_name category="Bistum" diocese="Lucus Augusti (Lugo)" geodata="N 43°00′36″ W 7°33′22″" id="3117814" identification="Lugo episc." institution="Episcopatus Lucensis">Lucensis</place_name> querimoniam defert, quoniam ecclesiae de 
+                <place_name category="Stadt" diocese="Lucus Augusti (Lugo)" geodata="N 42°45′20″ W 7°14′29″" id="3107488" identification="Triacastela">Triacastella</place_name>, 
+                <place_name category="Stadt" geodata="N 43°10′10″ W 6°14′30″" id="3107061" identification="Valcarcel">Valle Carceris (Valcárcel</place_name>) et 
+                <place_name category="Stadt" geodata="N 43°32′21″ W 6°43′25″" id="3115553" identification="Navia">Navia</place_name>, sitae in episcopatu eius longis retro temporibus, a 
+                <place_name category="Bistum" diocese="Legio" geodata="N 42°36′00″ W 5°34′13″" id="3118532" identification="Leon episc." institution="Episcopatus Legionensis">Legionensi</place_name> episcopo illicite occupatae fuerant.</pont_reg_main>
+        </regest_pont>
+        <worker_comment_pont>
+            <pont_reg_add nr="Ib. Pont. I 63 n. *95">Adressaten: . Anmerkungen und to do: ; Personen: Hyazinth, Kardinaldiakon v. Santa Maria in Cosmedin u. Apostolischer Legat, Hadrian IV., Papst, Alfons VII., Kg. v. Kastilien u. León, Victor, Bf. v. Burgos, Juan (IV), Abt v. San Salvador de Oña, Sancho, Infant, Sohn v. Alfons VII.; Fernando, Infant, Sohn v. Alfons VII.; Orte: Valladolid (Diöz. Palencia), , , , </pont_reg_add>
+            <pont_reg_main nr="Ib. Pont. II 26 n. *48">Adressaten: . Anmerkungen und to do: ; Personen: , , , , , ; Orte: , , , , </pont_reg_main>
+        </worker_comment_pont>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

@@ -1,0 +1,128 @@
+<text type="charter" id="1642496438342">
+    <bibl>
+        <edition/>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests/>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type/>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script/>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria/>
+        <date_p value="11570523" to="11570523" from="11570523">1157 mai. 23</date_p>
+        <initium/>
+        <pub_place>
+            <place_name BNE="" BNE_city="" BNF="" BNF_city="12139445g" GND="" GND_city="4050471-2" GS_Klosterdatenbank="" Getty="" LCCN="" LCCN_city="n79018704" VIAF="" VIAF_city="145348938" addition="Lateranbasilika" category="Titelkirche" country="Italien" diocese="Roma" geo_DEZIMAL_city="41.90036, 12.49575" geo_DMS_city="N 41°54′01″ E 12°29′45″" geodata="N 41°53′09″ E 12°30′21″" geodata_region="0" geodata_vague="0" geonames_city="3169071" getty_city="" id="7602857" identification="Roma, S. Giovanni in Laterano" institution="Ecclesia s. Iohannis Laterano Romae sita" literature="" region="Latium" uuid="{023C7DF8-A8CF-43F7-A72C-A256CBC09529}">Roma, Laterano</place_name>
+        </pub_place>
+        <script_date/>
+        <state/>
+        <supplier>
+            <pers_name BNF="145481118" GND="118719785" GermaniaSacra="066-02322-001" LCCN="n85287832" Wikidata="Q132845" addition="Nicolaus Breakspear" floruit="1120-1159" key="25397217" life="gest. 1159" place="Roma" reg="Hadrianus IV papa" sex="male" termofoffice="1154-1159" uuid="{B40E33A7-DA02-4D3A-B425-0AB9B9A86FCD}">Hadrianus IV papa</pers_name>
+        </supplier>
+        <supplier_type>papa</supplier_type>
+        <user_comment/>
+        <worker>Gall. Pont. III,3: Beate Schilling; digitale Fassung: Valérie Lüthi, Johannes Luther</worker>
+    </head>
+    <info>
+        <date_sort value="11570523">11570523</date_sort>
+        <idno>Gall. Pont. III,3 84 n. 114</idno>
+    </info>
+    <jaffe>
+        <jaffe1/>
+        <jaffe2_no/>
+        <jaffe2_page/>
+        <jaffe2_worker/>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont/>
+        <pont_bd>
+            <pont_reg_add nr="Gall. Pont. III,3 84 n. 114">Gall. Pont. III,3</pont_reg_add>
+            <pont_reg_main nr="Gall. Pont. 181 n. 294">Gall. Pont. III,1</pont_reg_main>
+            <pont_reg_add nr="Gall. Pont. III,2 39 n. 53">Gall. Pont. III,2</pont_reg_add>
+            <pont_reg_add nr="Gall. Pont. III,3 38 n. 53">Gall. Pont. III,3</pont_reg_add>
+            <pont_reg_add nr="Gall. Pont. III,2 116 n. 171">Gall. Pont. III,2</pont_reg_add>
+            <pont_reg_add nr="Gall. Pont. III,2 294 n. 117">Gall. Pont. III,2</pont_reg_add>
+            <pont_reg_add nr="Gall. Pont. III,3 286 n. 141">Gall. Pont. III,3</pont_reg_add>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_add nr="Gall. Pont. III,3 84 n. 114">84 n. 114</pont_reg_add>
+            <pont_reg_main nr="Gall. Pont. 181 n. 294">181 n. 294</pont_reg_main>
+            <pont_reg_add nr="Gall. Pont. III,2 39 n. 53">39 n. 53</pont_reg_add>
+            <pont_reg_add nr="Gall. Pont. III,3 38 n. 53">38 n. 53</pont_reg_add>
+            <pont_reg_add nr="Gall. Pont. III,2 116 n. 171">116 n. 171</pont_reg_add>
+            <pont_reg_add nr="Gall. Pont. III,2 294 n. 117">294 n. 117</pont_reg_add>
+            <pont_reg_add nr="Gall. Pont. III,3 286 n. 141">286 n. 141</pont_reg_add>
+        </pont_no>
+        <pontificate>Hadrianus IV</pontificate>
+        <receipt_inst>
+            <pont_reg_add nr="Gall. Pont. III,3 84 n. 114">Die, episc.</pont_reg_add> Die, episc. (Gall. Pont. III,3 84 n. 114); Vienne, archiepisc. (Gall. Pont. 181 n. 294); Suffraganei Viennensi (Gall. Pont. III,2 39 n. 53 et Gall. Pont. III,3 38 n. 53); Grenoble, episc. (Gall. Pont. III,2 116 n. 171); Valence, episc. (Gall. Pont. III,2 294 n. 117); Viviers, episc. (Gall. Pont. III,3 286 n. 141)</receipt_inst>
+        <regest_pont>
+            <pont_reg_add nr="Gall. Pont. III,3 84 n. 114">
+                <pers_name BNF="145481118" GND="118719785" GermaniaSacra="066-02322-001" LCCN="n85287832" Wikidata="Q132845" addition="Nicolaus Breakspear" floruit="1120-1159" key="25397217" life="gest. 1159" place="Roma" reg="Hadrianus IV papa" sex="male" termofoffice="1154-1159" uuid="{B40E33A7-DA02-4D3A-B425-0AB9B9A86FCD}">
+                    <issuer> Hadrianus IV</issuer>
+                </pers_name>
+                <pers_name addition="apostolicae sedis legatus" floruit="1155/56-1162" literature="Galland, Deux archevêchés, S. 38-40" place="Vienne" reg="Stephanus II archiepiscopus" sex="male" termofoffice="1155/56- 1162 belegt" uuid="{046B8196-0E51-43B8-89CD-B289FA67E233}">
+                    <adressee> Stephano</adressee>
+                </pers_name> archiepiscopo et 
+                <pers_name BNF="" GND="" GermaniaSacra="" LCCN="" Wikidata="" addition="" floruit="" key="" life="" literature="" place="" reg="Canonici Viennensis ecclesiae" sex="" termofoffice="" uuid="">
+                    <adressee> canonicis</adressee>
+                </pers_name>
+                <place_name GND_city="4119422-6" LCCN_city="n80139195" VIAF_city="152049885" category="Erzbistum" country="Frankreich" diocese="Vienna" geo_DEZIMAL_city="45.525833°, 4.874722°" geo_DMS_city="N 45° 31′ 33″ E 4° 52′ 29″" geodata="N 45°31′27″ E 4°52′23″" geodata_region="-1" geodata_vague="0" id="12042115" identification="Vienne, archiepisc." institution="Archiepiscopatus Viennensis" region="Auvergne-Rhône-Alpes" uuid="{A455AF61-5A74-42DB-8B56-D1F7671DBD76}">
+                    <adressee> Viennensis ecclesiae</adressee>
+                </place_name> eorumque successoribus: in privilegio generali statuit ad exemplar 
+                <data_link col_id="1004" id="1642496433154">Gall. Pont. III,3 82 n. 103</data_link>, ut sex oppida vel civitates, 
+                <place_name BNF_city="cb119342062" GND_city="4021985-9" LCCN_city="n79091186" VIAF_city="265376682" category="Bistum" country="Frankreich" diocese="Gratianopolis" geo_DEZIMAL_city="45.2002, 5.7222" geo_DMS_city="N 45° 12′ 0.72″ E 5° 43′ 19.92″" geodata="N 45°10′37″ E 5°42′30″" geodata_region="-1" geodata_vague="0" id="12088670" identification="Grenoble, episc." institution="Episcopatus Gratianopolitanus" region="Auvergne-Rhône-Alpes" uuid="{EE7C60D9-ABFC-442B-B238-853D721BD402}">Gratianopolis</place_name>, 
+                <place_name GND_city="4119350-7" LCCN_city="n81101041" VIAF_city="11146030574635861686" category="Bistum" country="Frankreich" diocese="Valentia" geo_DEZIMAL_city="44.9325°, 4.891111°" geo_DMS_city="N 44° 55′ 57″ E 4° 53′ 28″" geodata="N 44°55′57″ E 4°53′27″" geodata_region="-1" geodata_vague="0" geonames_city="2971053" id="6453882" identification="Valence, episc." institution="Episcopatus Valentinus" region="Auvergne-Rhône-Alpes" uuid="{1AEA7039-162A-4332-9B14-F3111C55CB67}">Valentia</place_name>, 
+                <place_name category="Bistum" country="Frankreich" diocese="Dea Vocontiorum" geo_DEZIMAL_city="44.7536, 5.3703" geo_DMS_city="N 44° 45′ 12.96″ E 5° 22′ 13.08″" geodata="N 44°45′8″ E 5°22′16″" geodata_region="-1" geodata_vague="0" id="12047198" identification="Die, episc." institution="Episcopatus Diensis" region="Auvergne-Rhône-Alpes" uuid="{FC0940D8-961F-49AC-A336-1A7423B585DD}">Dia</place_name>, 
+                <place_name category="Bistum" country="Frankreich" diocese="Vivarium" geo_DEZIMAL_city="44.4828, 4.68895" geo_DMS_city="N 44°28′58″ E 4°41′20″" geodata="N 44°28′55″ E 4°41′25″" geodata_region="-1" geodata_vague="0" geonames_city="2967820" id="12047232" identification="Viviers, episc." institution="Episcopatus Vivariensis" region="Auvergne-Rhône-Alpes" uuid="{02075C7B-A0E6-44CE-B120-62F8DE2FC7BA}">Alba Vivarium</place_name>, 
+                <place_name GND_city="4020137-5" LCCN_city="n81018331" VIAF_city="130893302" addition="Genf" category="Bistum" country="Schweiz" diocese="Geneva" geo_DEZIMAL_city="46.200013°, 6.149985°" geo_DMS_city="N 46° 12′ 0.05″ E 6° 8′ 59.95″" geodata="N 46°12′4″ E 6°08′55″" geodata_region="-1" geodata_vague="0" geonames_city="2660646" id="12077152" identification="Geneve, episc." institution="Episcopatus Genevensis" region="Genf" uuid="{E5DCDACF-FA5E-4471-AE29-8E7BADDF9495}">Geneva</place_name>, 
+                <place_name category="Bistum" country="Frankreich" diocese="Mauriana" geo_DEZIMAL_city="45.27534, 6.35293" geo_DMS_city="N 45°16′31″ E 6°21′11″" geodata="N 45°16′36″ E 6°20′45″" geodata_region="-1" geodata_vague="0" geonames_city="2979303" id="12156741" identification="Saint-Jean-de-Maurienne, episc." institution="Episcopatus Maurianensis" region="Auvergne-Rhône-Alpes" uuid="{982CA9E6-1AF8-43F1-9130-1F4623A7E5A8}">Maurienna</place_name> in 
+                <place_name GND_city="4119422-6" LCCN_city="n80139195" VIAF_city="152049885" category="Erzbistum" country="Frankreich" diocese="Vienna" geo_DEZIMAL_city="45.525833°, 4.874722°" geo_DMS_city="N 45° 31′ 33″ E 4° 52′ 29″" geodata="N 45°31′27″ E 4°52′23″" geodata_region="-1" geodata_vague="0" id="12042115" identification="Vienne, archiepisc." institution="Archiepiscopatus Viennensis" region="Auvergne-Rhône-Alpes" uuid="{A455AF61-5A74-42DB-8B56-D1F7671DBD76}">Viennensis ecclesiae</place_name> «tanquam in propriae metropolitanae oboedientia et subjectione permaneant».</pont_reg_add>
+        </regest_pont>
+        <worker_comment_pont/>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

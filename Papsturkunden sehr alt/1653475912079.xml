@@ -1,0 +1,112 @@
+<text type="charter" id="1653475912079">
+    <bibl>
+        <edition/>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests/>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type/>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script/>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria>*</criteria>
+        <date_p value="11721215" to="11721215" from="11700101">(ante [1170–1172?] dec. 16)</date_p>
+        <initium/>
+        <pub_place/>
+        <script_date/>
+        <state/>
+        <supplier>
+            <pers_name BNF="13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN="n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{58C0B973-E9BB-4491-9207-7428DB953ADF}">Alexander III papa</pers_name>
+        </supplier>
+        <supplier_type>papa</supplier_type>
+        <user_comment/>
+        <worker>Gall. Pont III,3: Beate Schilling; digitale Fassung: Valérie Lüthi, Johannes Luther</worker>
+    </head>
+    <info>
+        <date_sort value="11721215">11721215</date_sort>
+        <idno>Gall. Pont. III,3 309 n. *14</idno>
+    </info>
+    <jaffe>
+        <jaffe1/>
+        <jaffe2_no/>
+        <jaffe2_page/>
+        <jaffe2_worker/>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_add nr="Gall. Pont. III,3 309 n. *14">Connu par la lettre d’ 
+                <pers_name BNF="13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN="n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{58C0B973-E9BB-4491-9207-7428DB953ADF}">Alexandre III</pers_name> adressée à l’évêque de 
+                <place_name category="Bistum" country="Frankreich" diocese="Vivarium" geo_DEZIMAL_city="44.4828, 4.68895" geo_DMS_city="N 44°28′58″ E 4°41′20″" geodata="N 44°28′55″ E 4°41′25″" geodata_region="-1" geodata_vague="0" geonames_city="2967820" id="12047232" identification="Viviers, episc." institution="Episcopatus Vivariensis" region="Auvergne-Rhône-Alpes" uuid="{02075C7B-A0E6-44CE-B120-62F8DE2FC7BA}">Viviers</place_name> au cours de l’affaire (
+                <data_link col_id="1006" id="1653475913657">Gall. Pont. III,3 309 n. 16 </data_link>).</pont_reg_add>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_add nr="Gall. Pont. III,3 309 n. *14">Gall. Pont. III,3</pont_reg_add>
+            <pont_reg_main nr="Gall. Pont. III,2 399 n. *111">Gall. Pont. III,2 </pont_reg_main>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_add nr="Gall. Pont. III,3 309 n. *14">309 n. *14</pont_reg_add>
+            <pont_reg_main nr="Gall. Pont. III,2 399 n. *111">399 n. *111 </pont_reg_main>
+        </pont_no>
+        <pontificate>Alexander III</pontificate>
+        <receipt_inst>
+            <pont_reg_add nr="Gall. Pont. III,3 309 n. *14">Viviers, ecclesia S. Andeoli</pont_reg_add> Valence, ecclesia S. Ruffi (Gall. Pont. III,2 399 n. *111); Viviers, ecclesia S. Vincentii martyris (Gall. Pont. III,3 296 n. *9);Viviers, ecclesia S. Andeoli (Gall. Pont. III,3 309 n. *14)</receipt_inst>
+        <regest_pont>
+            <pont_reg_add nr="Gall. Pont. III,3 309 n. *14">
+                <pers_name BNF="13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN="n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{58C0B973-E9BB-4491-9207-7428DB953ADF}">
+                    <issuer> Alexander III</issuer>
+                </pers_name> in controversia inter fratres 
+                <place_name GND_city="4119350-7" LCCN_city="n81101041" VIAF_city="11146030574635861686" addition="bis 1158 in Avignon, dann in Valence beheimatet; seit dem 14. Jh. intra muros" category="Kanonikerstift" country="Frankreich" diocese="Avennio/Valentia" geo_DEZIMAL_city="44.9325°, 4.891111°" geo_DMS_city="N 44° 55′ 57″ E 4° 53′ 28″" geodata="N 44°56′02″ E 4°53′22″" geodata_region="0" geodata_vague="0" geonames_city="2971053" id="122266954" identification="Saint-Ruf" institution="Ecclesia S. Ruffi" literature="Gall. Pont. III,3, S. 328-413" region="Auvergne-Rhône-Alpes" uuid="{8C73A63A-A194-46BC-ADBB-1222EA1EDD9B}">S. Ruphi</place_name> et canonicos 
+                <place_name addition="zu Saint-Ruf" category="Kanonikerstift" country="Frankreich" diocese="Vivarium" geo_DMS_city="N 44°22′24″ E 4°38′39″" geodata="N 44°22′16″ E 4°38′47″" geodata_region="0" geodata_vague="0" geonames_city="3030953" id="12450840" identification="Bourg-Saint-Andeol, Eglise Saint-Andeol" institution="Ecclesia S. Andeoli in loco qui Burgias dicitur" region="Auvergne-Rhône-Alpes" uuid="{4A3F644F-ACB5-476D-839B-5D9A57940D9E}">ecclesiae S. Andeoli</place_name>, inspectis rationibus, de fratrum suorum consilio praefatam ecclesiam cum omnibus bonis et possessionibus 
+                <pers_name BNF="" GND="" GermaniaSacra="" LCCN="" Wikidata="" addition="" floruit="" key="" life="" literature="" place="" reg="fratres S. Ruphi" sex="" termofoffice="" uuid="">
+                    <adressee> fratribus</adressee>
+                </pers_name>
+                <place_name GND_city="4119350-7" LCCN_city="n81101041" VIAF_city="11146030574635861686" addition="bis 1158 in Avignon, dann in Valence beheimatet; seit dem 14. Jh. intra muros" category="Kanonikerstift" country="Frankreich" diocese="Avennio/Valentia" geo_DEZIMAL_city="44.9325°, 4.891111°" geo_DMS_city="N 44° 55′ 57″ E 4° 53′ 28″" geodata="N 44°56′02″ E 4°53′22″" geodata_region="0" geodata_vague="0" geonames_city="2971053" id="122266954" identification="Saint-Ruf" institution="Ecclesia S. Ruffi" literature="Gall. Pont. III,3, S. 328-413" region="Auvergne-Rhône-Alpes" uuid="{8C73A63A-A194-46BC-ADBB-1222EA1EDD9B}">
+                    <adressee> S. Ruphi</adressee>
+                </place_name> adjudicat.</pont_reg_add>
+        </regest_pont>
+        <worker_comment_pont/>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

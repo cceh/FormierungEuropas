@@ -1,0 +1,111 @@
+<text type="charter" id="1643101333715">
+    <bibl>
+        <edition/>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests/>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type/>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script/>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria>*</criteria>
+        <date_p value="11790319" to="11790319" from="11790305">1179 mart. 5–19</date_p>
+        <initium/>
+        <pub_place>
+            <place_name BNF_city="12139445g" GND_city="4050471-2" LCCN_city="n79018704" VIAF_city="145348938" addition="Lateranbasilika" category="Titelkirche" country="Italien" diocese="Roma" geo_DEZIMAL_city="41.90036, 12.49575" geo_DMS_city="N 41°54′01″ E 12°29′45″" geodata="N 41°53′09″ E 12°30′21″" geodata_region="0" geodata_vague="0" geonames_city="3169071" id="7602857" identification="Roma, S. Giovanni in Laterano" institution="Ecclesia s. Iohannis Laterano Romae sita" literature="IP I, 22" region="Latium" uuid="{023C7DF8-A8CF-43F7-A72C-A256CBC09529}">Roma, Laterano</place_name>
+        </pub_place>
+        <script_date/>
+        <state/>
+        <supplier>
+            <pers_name BNF="13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN="n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{58C0B973-E9BB-4491-9207-7428DB953ADF}">Alexander III papa</pers_name>
+        </supplier>
+        <supplier_type>papa</supplier_type>
+        <user_comment/>
+        <worker>Gall. Pont III,3: Beate Schilling; digitale Fassung: Valérie Lüthi, Johannes Luther</worker>
+    </head>
+    <info>
+        <date_sort value="11790319">11790319</date_sort>
+        <idno>Gall. Pont. III,3 87 n. *124</idno>
+    </info>
+    <jaffe>
+        <jaffe1/>
+        <jaffe2_no/>
+        <jaffe2_page/>
+        <jaffe2_worker/>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_main nr="Gall. Pont. III,3 87 n. *124">
+                <pers_name floruit="1178-1190" literature="Chavalier, Notes, S. 269f." place="Die" reg="Robertus episcopus" sex="male" termofoffice="1178 belegt - 1190 belegt" uuid="{87522FE8-D75D-417D-987E-72FDDDEE46C6}">L’évêque Robert</pers_name> figure dans la liste des participants dans 
+                <bibl_link target="Mansi, Sacrorum collectio" target2="61889" uuid="{AAE0148F-7BB9-46B0-A90A-42DF09BA151F}">Mansi</bibl_link>, 22, c. 465. Voir 
+                <bibl_link target="Foreville, Lateran I–IV" target2="154985" uuid="{9244D5D6-74B3-4918-BD50-E62573219635}">R. Foreville, Lateran I–IV, Mainz, 1970 (Geschichte der ökumenischen Konzilien, 6)</bibl_link>, no 42, p. 454. Voir aussi 
+                <bibl_link target="Gallia pontificia 3, 1" target2="1340743" uuid="{CA574245-0327-4FDE-B99B-819FA98DC6FC}">Gall. Pont. III,1</bibl_link>190 n. *315.</pont_reg_main>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_main nr="Gall. Pont. III,3 87 n. *124">Gall. Pont. III,3</pont_reg_main>
+            <pont_reg_main nr="Gall. Pont. III,1 190 n. *315">Gall. Pont. III,1</pont_reg_main>
+            <pont_reg_main nr="Gall. Pont. III,2 120 n. *183">Gall. Pont. III,2</pont_reg_main>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_main nr="Gall. Pont. III,3 87 n. *124">87 n. *124</pont_reg_main>
+            <pont_reg_main nr="Gall. Pont. III,1 190 n. *315">190 n. *315</pont_reg_main>
+            <pont_reg_main nr="Gall. Pont. III,2 120 n. *183">120 n. *183</pont_reg_main>
+        </pont_no>
+        <pontificate>Alexander III</pontificate>
+        <receipt_inst>
+            <pont_reg_main nr="Gall. Pont. III,3 87 n. *124">Die, episc.</pont_reg_main> Die, episc. (Gall. Pont. III,3 87 n. *124); Vienne, archiepisc. (Gall. Pont. III,1 190 n. *315); Grenoble, episc. (Gall. Pont. III,2 120 n. *183)</receipt_inst>
+        <regest_pont>
+            <pont_reg_main nr="Gall. Pont. III,3 87 n. *124">Concilio generali ab 
+                <pers_name BNF="13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN="n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{58C0B973-E9BB-4491-9207-7428DB953ADF}">
+                    <issuer> Alexandro III</issuer> </pers_name>
+                <place_name BNF_city="12139445g" GND_city="4050471-2" LCCN_city="n79018704" VIAF_city="145348938" addition="Lateranbasilika" category="Titelkirche" country="Italien" diocese="Roma" geo_DEZIMAL_city="41.90036, 12.49575" geo_DMS_city="N 41°54′01″ E 12°29′45″" geodata="N 41°53′09″ E 12°30′21″" geodata_region="0" geodata_vague="0" geonames_city="3169071" id="7602857" identification="Roma, S. Giovanni in Laterano" institution="Ecclesia s. Iohannis Laterano Romae sita" literature="IP I, 22" region="Latium" uuid="{023C7DF8-A8CF-43F7-A72C-A256CBC09529}">in basilica Lateranensi quae appellatur Constantiniana</place_name> celebrato 
+                <pers_name BNF="" GND="" GermaniaSacra="" LCCN="" Wikidata="" addition="" floruit="1178-1190" key="" life="" literature="Chevalier, Notes, S. 269f." place="Die" reg="Robertus episcopus" sex="male" termofoffice="1178 belegt - 1190 belegt" uuid="{87522FE8-D75D-417D-987E-72FDDDEE46C6}">Robertus</pers_name>
+                <place_name category="Bistum" country="Frankreich" diocese="Dea Vocontiorum" geo_DEZIMAL_city="44.7536, 5.3703" geo_DMS_city="N 44° 45′ 12.96″ E 5° 22′ 13.08″" geodata="N 44°45′8″ E 5°22′16″" geodata_region="-1" geodata_vague="0" id="12047198" identification="Die, episc." institution="Episcopatus Diensis" region="Auvergne-Rhône-Alpes" uuid="{FC0940D8-961F-49AC-A336-1A7423B585DD}">Diensis</place_name> episcopus interest.</pont_reg_main>
+        </regest_pont>
+        <worker_comment_pont/>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

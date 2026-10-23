@@ -1,0 +1,126 @@
+<text type="charter" id="1562021661792">
+    <bibl>
+        <edition>
+            <bibl_link>Panera Burón Exención de la iglesia Legionense</bibl_link> p. 423 (ad a. 1154). 
+            <bibl_link target="Colección León 5">Fernández Catón Colección catedral de León V</bibl_link> 305sq. n. 1501 (ad a. 1157–1159). 
+            <bibl_link target="Domínguez Sánchez, Documentos León">Domínguez Sánchez Documentos pontificios de León</bibl_link> p. 84sq. n. 24 (ad a. 1157–1159)</edition>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests>
+            <bibl_link target=" García Villada, Catálogo León">García Villada Catálogo</bibl_link> p. 206</regests>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type>Original</descent_type>
+        <dim>190 x 170 + 23 mm</dim>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script>
+            <pont_reg_main nr="Ib. Pont. II 29 n. 55">Orig.: León Archivo de la Catedral n. 6327.</pont_reg_main>
+        </script>
+        <seal>Bulla pendet ex filo canapis.</seal>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria/>
+        <date_p value="11570608" to="11570608" from="11570608">(1157) iun. 8</date_p>
+        <initium> Dilectos filios nostros</initium>
+        <pub_place>
+            <place_name category="Kirche" diocese="Roma" geodata="N 41°53′09″ E 12°30′21″" id="7602857" identification="Roma, Laterano" institution="Ecclesia s. Iohannis in Laterano">Laterano</place_name>
+        </pub_place>
+        <script_date>Dat. Lat. 6 id. iun.</script_date>
+        <state/>
+        <supplier>
+            <pers_name addition="Nicolaus Breakspear" key="25397217" life="gest. 1159" place="Roma" reg="Hadrianus IV papa">Hadrianus IV</pers_name>
+        </supplier>
+        <supplier_type>papa</supplier_type>
+        <user_comment/>
+        <worker>Santiago Domínguez Sánchez/Daniel Berger; digitale Fassung: Carolin Sachs, Thomas Czerner</worker>
+    </head>
+    <info>
+        <date_sort value="11570608">11570608</date_sort>
+        <idno>Ib. Pont. II 29 n. 55</idno>
+    </info>
+    <jaffe>
+        <jaffe1>-</jaffe1>
+        <jaffe2_no/>
+        <jaffe2_page/>
+        <jaffe2_worker>-</jaffe2_worker>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_main nr="Ib. Pont. II 29 n. 55"> De data praesentium litterarum a. 1157 et non a. 1155, 1158 aut 1159, cf. itinerarium 
+                <pers_name addition="Nicolaus Breakspear" key="25397217" life="gest. 1159" place="Roma" reg="Hadrianus IV papa">Hadriani IV</pers_name> in 
+                <bibl_link target="Jaffé, Regesta Pontificum Romanorum">JL. II</bibl_link> p. 111. 125. 133 et 
+                <bibl_link target="Hiestand, Initienverzeichnis">Hiestand Initienverzeichnis</bibl_link> p. 204. 212. 216. 220. – De re cf. 
+                <bibl_link>Panera Burón Exención de la iglesia Legionense</bibl_link> p. 396sq.; 
+                <bibl_link target="Fletcher, Episcopate">Fletcher The Episcopate</bibl_link> p. 71; 
+                <bibl_link target="Fletcher, Las iglesias de León">Fletcher Las iglesias</bibl_link> p. 476; 
+                <bibl_link>Cavero Domínguez El episcopado</bibl_link> p. 219sq. </pont_reg_main>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_main nr="Ib. Pont. II 29 n. 55">Ib. Pont. II</pont_reg_main>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_main nr="Ib. Pont. II 29 n. 55">29 n. 55</pont_reg_main>
+        </pont_no>
+        <pontificate>Hadrianus IV.</pontificate>
+        <receipt_inst>
+            <pont_reg_main nr="Ib. Pont. II 29 n. 55">León, Episc.</pont_reg_main> León, Episc. (Ib. Pont. II 29 n. 55); v. etiam León, Eccl. cath. n. 14 (Ib. Pontificia II 66); Ib. Pont. Toledo, Archiepisc.</receipt_inst>
+        <regest_pont>
+            <pont_reg_main nr="Ib. Pont. II 29 n. 55">
+                <pers_name addition="Nicolaus Breakspear" key="25397217" life="gest. 1159" place="Roma" reg="Hadrianus IV papa">
+                    <issuer> Hadrianus IV</issuer> </pers_name>
+                <pers_name addition="Albertinus" place="Leon" reg="Iohannes episcopus">
+                    <adressee> (Iohanni) episcopo</adressee> </pers_name> et 
+                <place_name addition="Santa María de Regla" category="Kathedralkirche" diocese="Legio" geodata="N 42° 35′ 58″ W 5° 34′ 0″" id="6452812" identification="Leon, S. Marie de Regula" institution="Ecclesia cathedralis s. Mariae de Regula">
+                    <adressee> canonicis Legionensibus</adressee> </place_name>: precibus 
+                <pers_name place="León" reg="Gaucelmus archidiaconus">Gaucelmi archidiaconi</pers_name>
+                <place_name category="Bistum" diocese="Legio" geodata="N 42°36′00″ W 5°34′13″" id="3118532" identification="Leon episc." institution="Episcopatus Legionensis">Legionensis</place_name> et duorum 
+                <place_name addition="Santa María de Regla" category="Kathedralkirche" diocese="Legio" geodata="N 42° 35′ 58″ W 5° 34′ 0″" id="6452812" identification="Leon, S. Marie de Regula" institution="Ecclesia cathedralis s. Mariae de Regula">canonicorum Legionensium</place_name> procuratorum episcopi et capituli annuens (cf. León, Episc. n. *53), confirmat 
+                <place_name category="Bistum" diocese="Legio" geodata="N 42°36′00″ W 5°34′13″" id="3118532" identification="Leon episc." institution="Episcopatus Legionensis">Legionensem ecclesiam</place_name> ad ius 
+                <pers_name key="54940864" life="64" place="Roma" reg="Petrus apostolus">b. Petri</pers_name> specialiter pertinere; notificat, quod, quae 
+                <place_name category="Erzbistum" diocese="Toledo" geodata="N 39°51′29″ W 4°01′21″" id="2510409" identification="Toledo, archiepisc." institution="Archiepiscopatus Toletanus">Toletano</place_name> archiepiscopo super illicite cum violentia laicali extorta oboedientia scripsit, ex litteris apostolicis illi directis cognoverit; statuit enim ut infra quadraginta dies ex quo archiepiscopus scripta apostolica receperit, ab extorta oboedientia, episcopus 
+                <place_name category="Bistum" diocese="Legio" geodata="N 42°36′00″ W 5°34′13″" id="3118532" identification="Leon episc." institution="Episcopatus Legionensis">Legionensis</place_name> omni subiectione maneat absolutus.</pont_reg_main>
+        </regest_pont>
+        <worker_comment_pont>
+            <pont_reg_main nr="Ib. Pont. II 29 n. 55">Adressaten: episcopo et canonicis Legionensibus. Anmerkungen und to do: ; Personen: , , , , , ; Orte: , , , , </pont_reg_main>
+        </worker_comment_pont>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

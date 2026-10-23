@@ -1,0 +1,115 @@
+<text type="charter" id="1594240672484">
+    <bibl>
+        <edition>
+            <bibl_link target=" Henriquez, Menologium Cistertiense" uuid="{E5CDCDAC-D7CA-4AB1-972F-5A0A0D1C5AD4}">Henríquez Regula</bibl_link> p. 56 = 
+            <bibl_link target="Manrique, Cisterciensium Annalium" uuid="{B8B9922D-6C51-4248-B634-297AEA6217A1}">Manrique Annales II</bibl_link> 478 = 
+            <bibl_link target="Putte, Cronica Dunis" uuid="{31E679E0-5014-4097-9047-60A76B7524E5}">Chronica et cartularium</bibl_link> p. 125 = 
+            <bibl_link target="Migne, PL" uuid="{EA170AF2-7AB2-4028-B58C-31BD356471B9}">Migne PL</bibl_link> 200 col. 592. 
+            <bibl_link target2="1379707" uuid="{354EB4B1-0EE7-4BBA-8B99-3870CA324C28}">Castán Lanaspa Documentos de Sandoval</bibl_link> p. 47sq. n. 6. 
+            <bibl_link target="Domínguez Sánchez, Documentos León" uuid="{11854E9F-B827-49B3-8720-94342D22363F}">Domínguez Sánchez Documentos pontificios de León</bibl_link> p. 97sq. n. 36. 
+            <bibl_link target="Herrero Jiménez, Colección de Sandoval" uuid="{099D8A60-643E-49DE-BC41-25C975F7B936}">Herrero Jiménez Colección de Sandoval</bibl_link> p. 55–57 n. 8.</edition>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests/>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type>Kopial</descent_type>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script>
+            <pont_reg_add nr="Ib. Pont. II 139 n. 1">Madrid Archivo Histórico Nacional, Clero carp. 992 n. 5. (copia simplex imitativa coeva).</pont_reg_add>
+        </script>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no>Ego Alexander etc. Subscr. 3 episc., 7 card. presb. et 2 card. diac.</witness_no>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria/>
+        <date_p value="11690704" to="11690704" from="11690704">1169 iul. 4</date_p>
+        <initium>Attendentes quomodo vos</initium>
+        <pub_place>
+            <place_name GND_city="4005494-9" category="Stadt" country="Italien" diocese="Benevento" geo_DMS_city="N 41° 8′ O 14° 47′" geodata="N 41°07′55″ E 14°46′24″" geodata_region="0" id="3182179" identification="Benevento" institution="Beneventanorum oppidum" region="Kampanien" uuid="{5ABCF48C-404E-4271-912A-BC27B109E60E}">Benevento</place_name>
+        </pub_place>
+        <script_date>Dat. Beneventi p. m. Gerardi01 S.R.E. notarii 4 non. iul., ind. 2, a. d. inc. 1169, pont. v. d. Alexandri III a. 10.</script_date>
+        <state/>
+        <supplier>
+            <pers_name BNF=" 13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN=" n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{D0AAAA76-4E0A-4470-9594-57CF75211EBB}">Alexander III</pers_name>
+        </supplier>
+        <supplier_type>papa</supplier_type>
+        <user_comment/>
+        <worker>Santiago Domínguez Sánchez/Daniel Berger, digitale Fassung: Carolin Sachs, Thomas Czerner</worker>
+    </head>
+    <info>
+        <date_sort value="11690704">11690704</date_sort>
+        <idno>JL 11632</idno>
+    </info>
+    <jaffe>
+        <jaffe1>7767</jaffe1>
+        <jaffe2_no>11632</jaffe2_no>
+        <jaffe2_page/>
+        <jaffe2_worker>JL</jaffe2_worker>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_add nr="Ib. Pont. II 139 n. 1"/>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_add nr="Ib. Pont. II 139 n. 1">Ib. Pont. II</pont_reg_add>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_add nr="Ib. Pont. II 139 n. 1">139 n. 1</pont_reg_add>
+        </pont_no>
+        <pontificate>Alexander III.</pontificate>
+        <receipt_inst>
+            <pont_reg_add nr="Ib. Pont. II 139 n. 1">Sandoval</pont_reg_add> Sandoval (Ib. Pont. II 139 n. 1); Gall. Pont. Cîteaux.</receipt_inst>
+        <regest_pont>
+            <pont_reg_add nr="Ib. Pont. II 139 n. 1">
+                <pers_name BNF=" 13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN=" n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{D0AAAA76-4E0A-4470-9594-57CF75211EBB}">Alexander III</pers_name>
+                <pers_name floruit="1169" key="ToDO" place="Citeaux" reg="Alexander abbas" sex="male" termofoffice="belegt 1169" uuid="{9BAC6815-E675-45AA-8111-437B08D57503}">Alexandro abbati</pers_name>
+                <place_name GND="4126338-8" LCCN="n82045103" VIAF="145176756" category="Kloster" country="Frankreich" diocese="Cabillonum" geo_DEZIMAL_city="47.1156, 5.0553" geo_DMS_city="N 47° 6′ 56.16″ E 5° 3′ 19.08″" geodata="N 47°7'42″ E 5°5'35″" geodata_region="0" id="3024876" identification="Abbaye de Citeaux" institution="Cistercium" region="Bourgogne-Franche-Comté" uuid="{E0C25551-6358-4ECE-94A4-9E1F56A9C3D7}">Cisterciensi</place_name> et universis eiusdem ordinis coabbatibus etc.: concedit ut abbates ordinis Cisterciensis qui de aliquo crimine vel infamia respersi, aut publice convicti, a patribus abbatibus et demum a communi capitulo commoniti, suae praelationi sponte cedere noluerint, ad 
+                <place_name GND_city="4050471-2" LCCN_city="n79018704" VIAF_city="145348938" addition="Papa; S. Romana ecclesia" category="Bistum" country="Italien" diocese="Roma" geo_DEZIMAL_city="41.9667, 12.6667" geo_DMS_city="N 41° 53′ 0″ E 12° 29′ 0″" geodata="N 41°53′12″ E 12°30′20″" geodata_region="-1" id="11669597" identification="Roma, sedes apostolica et patriarchatus" institution="Sedes apostolica et Episcopatus seu patriarchatus Romanus" region="Latium" uuid="{2D170E98-4D42-4AD1-90F2-325218BC7142}">sedem apostolicam</place_name> appellandi facultatem non habeant aut suum reatum per episcopos defendendi; sancit ut si episcopi substitutos abbates benedicere forte renuerint, eisdem abbatibus liceat proprios novicios benedicere et alia quae ad illum officium pertinent exercere, donec episcopi ipsi duritiam suam recogitent, et abbates benedicendos benedicere non recussent; et, si episcopi aliquid ab abbatibus praeter oboedientiam debitam contra libertatem ipsius Ordinis a 
+                <place_name GND_city="4050471-2" LCCN_city="n79018704" VIAF_city="145348938" addition="Papa; S. Romana ecclesia" category="Bistum" country="Italien" diocese="Roma" geo_DEZIMAL_city="41.9667, 12.6667" geo_DMS_city="N 41° 53′ 0″ E 12° 29′ 0″" geodata="N 41°53′12″ E 12°30′20″" geodata_region="-1" id="11669597" identification="Roma, sedes apostolica et patriarchatus" institution="Sedes apostolica et Episcopatus seu patriarchatus Romanus" region="Latium" uuid="{2D170E98-4D42-4AD1-90F2-325218BC7142}">Romanis pontificibus</place_name> indultam expetiverint, liberum sit eisdem abbatibus, apostolica auctoritate, denegare quod petitur, ne occassione ista Ordo ipse qui hactenus liber extitit perpetue servitutis laqueo vinciatur; sancit quod si episcopi aliquam paenitentiam propter hoc in personas vel ecclesias eiusdem Ordinis promulgaverint, eadem sententia tamquam contra 
+                <place_name GND_city="4050471-2" LCCN_city="n79018704" VIAF_city="145348938" addition="Papa; S. Romana ecclesia" category="Bistum" country="Italien" diocese="Roma" geo_DEZIMAL_city="41.9667, 12.6667" geo_DMS_city="N 41° 53′ 0″ E 12° 29′ 0″" geodata="N 41°53′12″ E 12°30′20″" geodata_region="-1" id="11669597" identification="Roma, sedes apostolica et patriarchatus" institution="Sedes apostolica et Episcopatus seu patriarchatus Romanus" region="Latium" uuid="{2D170E98-4D42-4AD1-90F2-325218BC7142}">apostolicae sedis</place_name> indulta prolata irrita sit.</pont_reg_add>
+        </regest_pont>
+        <worker_comment_pont>
+            <pont_reg_add nr="Ib. Pont. II 139 n. 1">Adressaten: Alexandro abbati Cisterciensi et universis eiusdem ordinis coabbatibus etc.. Anmerkungen und to do: ; Personen: , , , , , ; Orte: , , , , </pont_reg_add>
+        </worker_comment_pont>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

@@ -1,0 +1,119 @@
+<text type="charter" id="1562021673502">
+    <bibl>
+        <edition>
+            <bibl_link target="Colección León 5">Fernández Catón Colección catedral de León V</bibl_link> 493sq. n. 1609</edition>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests>
+            <bibl_link target=" García Villada, Catálogo León">García Villada Catálogo</bibl_link> p. 1609</regests>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type>Original</descent_type>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script>
+            <pont_reg_main nr="Ib. Pont. II 40 n. 88">Orig.: León Archivo de la Catedral n. 9390.</pont_reg_main>
+        </script>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria/>
+        <date_p value="11789999" to="11789999" from="11789999">1178</date_p>
+        <initium/>
+        <pub_place/>
+        <script_date/>
+        <state/>
+        <supplier>Magister 
+            <pers_name place="León" reg="Thomas archidiaconus">Thomas</pers_name> Legionensis archidiaconus</supplier>
+        <supplier_type>ad papam</supplier_type>
+        <user_comment/>
+        <worker>Santiago Domínguez Sánchez/Daniel Berger; digitale Fassung: Carolin Sachs, Thomas Czerner</worker>
+    </head>
+    <info>
+        <date_sort value="11789999">11789999</date_sort>
+        <idno>Ib. Pont. II 40 n. 88</idno>
+    </info>
+    <jaffe>
+        <jaffe1>-</jaffe1>
+        <jaffe2_no/>
+        <jaffe2_page/>
+        <jaffe2_worker>-</jaffe2_worker>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_main nr="Ib. Pont. II 40 n. 88"> Verisimile est quod episcopi 
+                <place_name category="Bistum" diocese="Siguenza" geodata="N 41°04′08″ W 2°38′35″" id="3108961" identification="Siguenza episc" institution="Episcopatus Seguntinus">Seguntinus</place_name> et 
+                <place_name addition="Orense" category="Bistum" diocese="Ourense" geodata="N 42°20′12″ W 7°51′51″" id="3114965" identification="Ourense episc." institution="Episcopatus Auriensis">Auriensis</place_name> (
+                <pers_name life="gest. 1177/1179" place="Siguenza" reg="Ioscelmus episcopus">Goselinus</pers_name> et 
+                <pers_name place="Ourense" reg="Alfonsus episcopus">Aldefonsus</pers_name>) iudices delegati aut subdelegasi a 
+                <place_name addition="Papa; S. Romana ecclesia" category="Bistum" diocese="Roma" geodata="N 41°53′12″ E 12°30′20″" id="11669597" identification="Roma, sedes apostolica et patriarchatus" institution="Sedes apostolica et Episcopatus seu patriarchatus Romanus">sede apostolica</place_name> fuerint.</pont_reg_main>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_main nr="Ib. Pont. II 40 n. 88">Ib. Pont. II</pont_reg_main>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_main nr="Ib. Pont. II 40 n. 88">40 n. 88</pont_reg_main>
+        </pont_no>
+        <pontificate>Alexander III.</pontificate>
+        <receipt_inst>
+            <pont_reg_main nr="Ib. Pont. II 40 n. 88">León, Episc.</pont_reg_main> León, Episc. (Ib. Pont. II 40 n. 88); v. etiam León, Eccl. cath. n. 37 (Ib. Pont. II 70); Ib. Pont. Sigüenza, Episc.; Ourense, Episc.</receipt_inst>
+        <regest_pont>
+            <pont_reg_main nr="Ib. Pont. II 40 n. 88"> Magister 
+                <pers_name place="León" reg="Thomas archidiaconus">
+                    <issuer> Thomas</issuer> </pers_name>
+                <place_name category="Bistum" diocese="Legio" geodata="N 42°36′00″ W 5°34′13″" id="3118532" identification="Leon episc." institution="Episcopatus Legionensis">
+                    <issuer> Legionensis</issuer> </place_name> archidiaconus sub Ihesu Christi testimonio recognoscit quod 
+                <place_name category="Kirche" diocese="Legio" geodata="N 42° 35′ 52″ W 5° 34′ 17″" id="10341514" identification="Leon, iglesia San Marcelo" institution="ecclesia s. Marcelli">ecclesia s. Marcelli</place_name>, cum hospitali suo, pertinet ad ordinationem et dispositionem episcopi et 
+                <place_name addition="Santa María de Regla" category="Kathedralkirche" diocese="Legio" geodata="N 42° 35′ 58″ W 5° 34′ 0″" id="6452812" identification="Leon, S. Marie de Regula" institution="Ecclesia cathedralis s. Mariae de Regula">capituli Legionensium</place_name>; affirmat quod nullum privilegium vel aliud scripturae monumentum supradicta ecclesia et hospitale habent a papa 
+                <pers_name addition="Rolandus Bandinelli?" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa">Alexandro III</pers_name>, et promittit coram episcopis 
+                <pers_name life="gest. 1177/1179" place="Siguenza" reg="Ioscelmus episcopus">Goselino</pers_name>
+                <place_name category="Bistum" diocese="Siguenza" geodata="N 41°04′08″ W 2°38′35″" id="3108961" identification="Siguenza episc" institution="Episcopatus Seguntinus">Seguntino</place_name>, et 
+                <pers_name place="Ourense" reg="Alfonsus episcopus">Aldefonso</pers_name>
+                <place_name addition="Orense" category="Bistum" diocese="Ourense" geodata="N 42°20′12″ W 7°51′51″" id="3114965" identification="Ourense episc." institution="Episcopatus Auriensis">Auriensi</place_name> quod deinceps nullum privilegium pro ecclesia ipsa vel aliud rescriptum ab 
+                <pers_name addition="Rolandus Bandinelli?" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa">Alexandro III</pers_name> vel ab alio 
+                <place_name addition="Papa; S. Romana ecclesia" category="Bistum" diocese="Roma" geodata="N 41°53′12″ E 12°30′20″" id="11669597" identification="Roma, sedes apostolica et patriarchatus" institution="Sedes apostolica et Episcopatus seu patriarchatus Romanus">Romano</place_name> pontifice impetrabit.</pont_reg_main>
+        </regest_pont>
+        <worker_comment_pont>
+            <pont_reg_main nr="Ib. Pont. II 40 n. 88"/>
+        </worker_comment_pont>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

@@ -1,0 +1,120 @@
+<text type="charter" id="1644229835915">
+    <bibl>
+        <edition>
+            <bibl_link target="Chevalier, Cartulaire de Léoncel" target2="150239" uuid="{8110A104-A752-4681-9143-269854FDB29D}">Chevalier, Cartulaire de Léoncel</bibl_link>, no 13, p. 14 (d’après A, citant deux cotes anciennes: Ad 444 [Inv. A] et DCVII [Inv. B], et une notice dorsale)</edition>
+        <figure/>
+        <literature>
+            <bibl_link target=" Wiederhold, Papsturkunden in Frankreich 3" target2="123812" uuid="{270DDC64-5DAB-4ABE-BB5F-FCC834FB8FC3}">Wiederhold, III</bibl_link>, p. 17 [réimpr., p. 261]. 
+            <bibl_link target="Font-Réaulx, Lettres pontificales" target2="939832" uuid="{414D505A-8B67-4E2A-8BEF-6230CA527E67}">Font-Réaulx</bibl_link>, p. 73.</literature>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests>
+            <bibl_link target="Chevalier, Regeste Dauphinois" target2="48077" uuid="{7AEB8E9C-4E6E-45EB-802A-3F6DBDC3D433}">Reg. dauph.</bibl_link>, I, no 4232, c. 708. 
+            <bibl_link target="Dimier, Saint Hugues, Appendice, II" target2="1669675" uuid="{594C3EA6-3740-44A6-8B9D-AC8B12F0F99B}">Dimier, Saint Hugues</bibl_link>, Appendice, II, no 12, p. 249. 
+            <bibl_link target="Jaffé, Regesta Pontificum Romanorum" target2="54640" uuid="{77346F34-E2AC-422A-92FA-1D3BFDF42FFC}">J. L.</bibl_link> 11219</regests>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type>Original und Kopial</descent_type>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script>
+            <pont_reg_main nr="Gall. Pont. III,3 116 n. 5">Arch. dép. Drôme, 1 H 607 (A). Arch. dép. Drôme, 1 H 659 (D1). Indiqué dans Arch. dép. Drôme, 1 H 684 (microfilm 2 Mi 760/R2), inventaire du XVIe siècle (vers 1535), fol. 82r; Arch. dép. Drôme, 1 H 686 (microfilm 2 Mi 760/R2), inventaire du XVIIe siècle, fol. 52r; Arch. dép. Drôme, 1 H 754 (microfilm 2 Mi 801/R1), inventaire de 1750, fol. 111r.</pont_reg_main>
+        </script>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria/>
+        <date_p value="11650715" to="11650715" from="11650715">1165 iul. 15</date_p>
+        <initium>Quotiens illud a.</initium>
+        <pub_place>
+            <place_name GND_city="4040185-6" LCCN_city="n79120260" VIAF_city="155870890" category="Stadt" country="Frankreich" diocese="Monspessulanus" geo_DMS_city="N 43° 37′ 0″ E 3° 53′ 0″" geodata="N 43°36′39″ E 3°52′38″" geodata_region="0" geodata_vague="0" id="2992166" identification="Montpellier" institution="Civitas Monspessulanus" region="Okzitanien" uuid="{BBBCFE03-10C2-4649-9BCA-C5ECCA12BC27}">Monspessulanus</place_name>
+        </pub_place>
+        <script_date>Ego Alexander etc. Subscr. 12 card. Dat. apud Montem Pesulanum p. m. Hermanni S. R. E. subd. et not., id. jul., ind. 13, inc. d. a. 1165, pont. v. d. Alexandri pp. III a. 6.</script_date>
+        <state/>
+        <supplier>
+            <pers_name BNF="13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN="n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{58C0B973-E9BB-4491-9207-7428DB953ADF}">Alexander III papa</pers_name>
+        </supplier>
+        <supplier_type>papa</supplier_type>
+        <user_comment/>
+        <worker>Gall. Pont III,3: Beate Schilling; digitale Fassung: Valérie Lüthi, Johannes Luther</worker>
+    </head>
+    <info>
+        <date_sort value="11650715">11650715</date_sort>
+        <idno>JL 11219</idno>
+    </info>
+    <jaffe>
+        <jaffe1/>
+        <jaffe2_no>11219</jaffe2_no>
+        <jaffe2_page/>
+        <jaffe2_worker>JL</jaffe2_worker>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_main nr="Gall. Pont. III,3 116 n. 5">Sur les possessions confirmées, voir 
+                <bibl_link lang="" target="" target2="1669675" type="" uuid="{594C3EA6-3740-44A6-8B9D-AC8B12F0F99B}">Dimier, Saint Hugues</bibl_link>, p. 31–33; 
+                <bibl_link target="Josserand, Léoncel" target2="2144406" uuid="{9AF7F578-7777-4756-937F-C90C451AFE16}">Josserand, Léoncel</bibl_link>, p. 481, 482–484 (avec carte), 530.</pont_reg_main>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_main nr="Gall. Pont. III,3 116 n. 5">Gall. Pont. III,3</pont_reg_main>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_main nr="Gall. Pont. III,3 116 n. 5">116 n. 5</pont_reg_main>
+        </pont_no>
+        <pontificate>Alexander III</pontificate>
+        <receipt_inst>
+            <pont_reg_main nr="Gall. Pont. III,3 116 n. 5">Die, Leoncellum</pont_reg_main> Die, Leoncellum (Gall. Pont. III,3 116 n. 5)</receipt_inst>
+        <regest_pont>
+            <pont_reg_main nr="Gall. Pont. III,3 116 n. 5">
+                <pers_name BNF="13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN="n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{58C0B973-E9BB-4491-9207-7428DB953ADF}">
+                    <issuer> Alexander III</issuer> </pers_name>
+                <pers_name addition="de Châteauneuf, Abt von Léoncel (1162-66) und Bonnevaux (1166-um 1194)" floruit="1142-1194" key="316732546" life="ca. 1120 - nach 1194" literature="Gall. Pont. III,3, S. 113; Dictionnaire d'histoire et de géographie ecclésiastiques 26, Sp. 194f." place="Bonnevaux" reg="s. Hugo abbas" sex="male" termofoffice="1166 - 1194 belegt" uuid="{B14C8117-08D7-4F1D-AE6A-D7F985F0DE3C}">
+                    <adressee> Hugoni abbati</adressee> </pers_name>
+                <place_name addition="OCist" category="Kloster" country="Frankreich" diocese="Dea Vocontiorum" geo_DEZIMAL_city="44.9114, 5.1936" geo_DMS_city="N 44° 54′ 41.04″ E 5° 11′ 36.96″" geodata="N 44°54′41″ E 5°11′37″" geodata_region="0" geodata_vague="0" id="11071516" identification="Leoncel, Abbaye Sainte-Marie" institution="Monasterium S. Mariae de Leoncellis / Fontis Leonnae" literature="Gall. Pont. III,3, S. 111-119" region="Auvergne-Rhône-Alpes" uuid="{05013D49-238B-4088-96C6-F8EC834D5258}">
+                    <adressee> monasterii Fontis Leonne</adressee> </place_name>
+                <pers_name BNF="" GND="" GermaniaSacra="" LCCN="" Wikidata="" addition="" floruit="" key="" life="" literature="" place="" reg="monachi Leoncellis" sex="" termofoffice="" uuid="">
+                    <adressee> ejusque fratribus</adressee>
+                </pers_name>: suscipit monasterium eorum sub 
+                <pers_name BNF="120020645" GND="118593323" LCCN=" n79022118" Wikidata="Q33923" floruit="33-64" key="54940864" life="gest. ca. 64" place="Roma" reg="s. Petrus apostolus" sex="male" uuid="{DBECC144-1D59-4673-AAA7-BC12BBCA6E84}">b. Petri</pers_name> et sua protectione. Statuit de ordine monastico secundum 
+                <pers_name addition="von Nursia" floruit="480-547" key="100179656" life="ca. 480-547" literature="PCBE 2/1, S. 285, Benedictus 3" place="Monte Cassino" reg="s. Benedictus abbas" sex="male" termofoffice="529-547" uuid="{294D6222-78C5-43E6-B90A-3994DF3B4D9F}">b. Benedicti</pers_name> regulam et Cisterciensium fratrum institutionem observando. Confirmat possessiones propriis expressas vocabulis (inter quas 4 rangiae enumerantur). Statuit de laborum sive de nutrimentorum animalium decimis, de stabilitate fratrum, de tranquillitate et integritate monasterii et possessionum eorum, salva in omnibus 
+                <place_name BNF_city="12139445g" GND_city="4050471-2" LCCN_city="n79018704" VIAF_city="145348938" addition="Papa; S. Romana ecclesia" category="Patriarchat" country="Italien" diocese="Roma" geo_DEZIMAL_city="41.90036, 12.49575" geo_DMS_city="N 41°54′01″ E 12°29′45″" geodata="N 41°53′12″ E 12°30′20″" geodata_region="-1" geodata_vague="0" geonames_city="3169071" id="11669597" identification="Roma, sedes apostolica et patriarchatus" institution="Sedes apostolica et episcopatus seu patriarchatus Romanus" region="Latium" uuid="{16724754-A840-483A-A351-0E827C7915CF}">sedis apostolicae</place_name> auctoritate.</pont_reg_main>
+        </regest_pont>
+        <worker_comment_pont/>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

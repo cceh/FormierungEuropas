@@ -1,0 +1,116 @@
+<text type="charter" id="1644229836992">
+    <bibl>
+        <edition>
+            <bibl_link target="Chevalier, Cartulaire de Léoncel" target2="150239" uuid="{8110A104-A752-4681-9143-269854FDB29D}">Chevalier, Cartulaire de Léoncel</bibl_link>, no 25, p. 29 (d’après A, citant deux cotes anciennes: Tua 450 [Inv. A] et DCVIII [Inv. B], et une notice dorsale)</edition>
+        <figure/>
+        <literature>
+            <bibl_link target=" Wiederhold, Papsturkunden in Frankreich 3" target2="123812" uuid="{270DDC64-5DAB-4ABE-BB5F-FCC834FB8FC3}">Wiederhold, III</bibl_link>, p. 17 [réimpr., p. 261]. 
+            <bibl_link target="Font-Réaulx, Lettres pontificales" target2="939832" uuid="{414D505A-8B67-4E2A-8BEF-6230CA527E67}">Font-Réaulx</bibl_link>, p. 73.</literature>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests>
+            <bibl_link target="Chevalier, Regeste Dauphinois" target2="48077" uuid="{7AEB8E9C-4E6E-45EB-802A-3F6DBDC3D433}">Reg. dauph.</bibl_link>, I, no 4603, c. 766. 
+            <bibl_link target="Jaffé, Regesta Pontificum Romanorum" target2="54640" uuid="{77346F34-E2AC-422A-92FA-1D3BFDF42FFC}">J. L.</bibl_link> 12691</regests>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type>Original und Kopial</descent_type>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script>
+            <pont_reg_main nr="Gall. Pont. III,3 117 n. 6">Arch. dép. Drôme, 1 H 608 (A). Arch. dép. Drôme, 1 H 659 (D1). Indiqué dans Arch. dép. Drôme, 1 H 684 (microfilm 2 Mi 760/R2), inventaire du XVIe siècle (vers 1535), fol. 84r; Arch. dép. Drôme, 1 H 686 (microfilm 2 Mi 760/R2), inventaire du XVIIe siècle, fol. 53v; Arch. dép. Drôme, 1 H 754 (microfilm 2 Mi 801/R1), inventaire de 1750, fol. 111r.</pont_reg_main>
+        </script>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria/>
+        <date_p value="11760402" to="11760402" from="11760402">1176 april. 2</date_p>
+        <initium>Religiosam vitam eligentibus.</initium>
+        <pub_place>
+            <place_name BNE="" BNE_city="" BNF="" BNF_city="" GND="" GND_city="" GS_Klosterdatenbank="" Getty="" LCCN="" LCCN_city="" VIAF="" VIAF_city="" addition="" category="Stadt" country="Italien" diocese="Anagnia" geo_DEZIMAL_city="41.7333, 13.1667" geo_DMS_city="N 41° 45′ 0″ E 13° 9′ 0″" geodata="N 41°44′37″ E 13°09′20″" geodata_region="0" geodata_vague="0" geonames_city="" getty_city="7006676" id="3183098" identification="Anagni" institution="Civitas Anagnia" literature="" region="Latium" uuid="{FC3879BE-B5CD-4EE7-9E7A-2D350D020D03}">Anagnia</place_name>
+        </pub_place>
+        <script_date>Ego Alexander etc. Subscr. 14 card. Dat. Anagn. p. m. Gratiani S. R. E. subd. et not., 4 non. aprilis, ind. 9, inc. d. a. 1176, pont. v. d. Alexandri pp. III a. 17.</script_date>
+        <state/>
+        <supplier>
+            <pers_name BNF="13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN="n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{58C0B973-E9BB-4491-9207-7428DB953ADF}">Alexander III papa</pers_name>
+        </supplier>
+        <supplier_type>papa</supplier_type>
+        <user_comment/>
+        <worker>Gall. Pont III,3: Beate Schilling; digitale Fassung: Valérie Lüthi, Johannes Luther</worker>
+    </head>
+    <info>
+        <date_sort value="11760402">11760402</date_sort>
+        <idno>JL 12691</idno>
+    </info>
+    <jaffe>
+        <jaffe1/>
+        <jaffe2_no>12691</jaffe2_no>
+        <jaffe2_page/>
+        <jaffe2_worker>JL</jaffe2_worker>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_main nr="Gall. Pont. III,3 117 n. 6">Le domaine ici confirmé, considérablement accru depuis le privilège de 1165, a été étudié par 
+                <bibl_link target="Josserand, Léoncel" target2="2144406" uuid="{9AF7F578-7777-4756-937F-C90C451AFE16}">Josserand, Léoncel</bibl_link>, p. 486–487 (avec carte), 530. La plupart de ces possessions figureront deux ans plus tard dans l’acte 
+                <bibl_link target="MGH DD FI" target2="47488" uuid="{5C8EF513-CDC3-4F1B-91C4-DC480CB17E4A}">M. G. H., Dipl. Frédéric Ier</bibl_link>, no 751.</pont_reg_main>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_main nr="Gall. Pont. III,3 117 n. 6">Gall. Pont. III,3</pont_reg_main>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_main nr="Gall. Pont. III,3 117 n. 6">117 n. 6</pont_reg_main>
+        </pont_no>
+        <pontificate>Alexander III</pontificate>
+        <receipt_inst>
+            <pont_reg_main nr="Gall. Pont. III,3 117 n. 6">Die, Leoncellum</pont_reg_main> Die, Leoncellum (Gall. Pont. III,3 117 n. 6)</receipt_inst>
+        <regest_pont>
+            <pont_reg_main nr="Gall. Pont. III,3 117 n. 6">
+                <pers_name BNF="13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN="n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{58C0B973-E9BB-4491-9207-7428DB953ADF}">
+                    <issuer> Alexander III</issuer> </pers_name>
+                <pers_name floruit="1176" place="Sainte-Marie de Léoncel" reg="Pontius abbas" sex="male" termofoffice="1176 belegt" uuid="{1B541BD6-0AE3-4A53-843E-0BA769CB2926}">
+                    <adressee> Pontio abbati</adressee> </pers_name>
+                <place_name addition="OCist" category="Kloster" country="Frankreich" diocese="Dea Vocontiorum" geo_DEZIMAL_city="44.9114, 5.1936" geo_DMS_city="N 44° 54′ 41.04″ E 5° 11′ 36.96″" geodata="N 44°54′41″ E 5°11′37″" geodata_region="0" geodata_vague="0" id="11071516" identification="Leoncel, Abbaye Sainte-Marie" institution="Monasterium S. Mariae de Leoncellis / Fontis Leonnae" literature="Gall. Pont. III,3, S. 111-119" region="Auvergne-Rhône-Alpes" uuid="{05013D49-238B-4088-96C6-F8EC834D5258}">
+                    <adressee> monasterii S. Mariae de Leoncellis</adressee> </place_name>
+                <pers_name BNF="" GND="" GermaniaSacra="" LCCN="" Wikidata="" addition="" floruit="" key="" life="" literature="" place="" reg="monachi Leoncellis" sex="" termofoffice="" uuid="">
+                    <adressee> ejusque fratribus</adressee> </pers_name>: concedit ut in 
+                <data_link col_id="1006" id="1644229835915">Gall. Pont. III,3 116 n. 5</data_link>, adjunctis (inter possessiones) una grangia et 7 locis. Insuper statuit de clericis vel laicis ad conversionem libere recipiendis necnon de pace et tranquillitate infra clausuras locorum seu grangiarum eorum.</pont_reg_main>
+        </regest_pont>
+        <worker_comment_pont/>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

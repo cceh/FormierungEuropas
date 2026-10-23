@@ -1,0 +1,114 @@
+<text type="charter" id="1644229832309">
+    <bibl>
+        <edition>Vita b. Hugonis, c. 7 (éd. 
+            <bibl_link target="Dimier, Saint Hugues, Appendice, II" target2="1669675" uuid="{594C3EA6-3740-44A6-8B9D-AC8B12F0F99B}">Dimier, Saint Hugues</bibl_link>, Appendice, III, p. 282)</edition>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests>
+            <bibl_link target="Chevalier, Regeste Dauphinois" target2="48077" uuid="{7AEB8E9C-4E6E-45EB-802A-3F6DBDC3D433}">Reg. dauph.</bibl_link>, I, no 4139, c. 693. 
+            <bibl_link target="Dimier, Saint Hugues, Appendice, II" target2="1669675" uuid="{594C3EA6-3740-44A6-8B9D-AC8B12F0F99B}">Dimier, Saint Hugues</bibl_link>, Appendice, II, no 5, p. 248. 
+            <bibl_link target="Jaffé, Regesta Pontificum Romanorum" target2="54640" uuid="{77346F34-E2AC-422A-92FA-1D3BFDF42FFC}">J. L.</bibl_link> –</regests>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type/>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script/>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria>*</criteria>
+        <date_p value="11620716" to="11620716" from="11620415">(1162 april. 15–iul. 16)</date_p>
+        <initium/>
+        <pub_place>
+            <place_name GND_city="4040185-6" LCCN_city="n79120260" VIAF_city="155870890" category="Stadt" country="Frankreich" diocese="Monspessulanus" geo_DMS_city="N 43° 37′ 0″ E 3° 53′ 0″" geodata="N 43°36′39″ E 3°52′38″" geodata_region="0" geodata_vague="0" id="2992166" identification="Montpellier" institution="Civitas Monspessulanus" region="Okzitanien" uuid="{BBBCFE03-10C2-4649-9BCA-C5ECCA12BC27}">Monspessulanus</place_name>
+        </pub_place>
+        <script_date/>
+        <state/>
+        <supplier/>
+        <supplier_type>-</supplier_type>
+        <user_comment/>
+        <worker>Gall. Pont III,3: Beate Schilling; digitale Fassung: Valérie Lüthi, Johannes Luther</worker>
+    </head>
+    <info>
+        <date_sort value="11620716">11620716</date_sort>
+        <idno>Gall. Pont. III,3 116 n. *3</idno>
+    </info>
+    <jaffe>
+        <jaffe1/>
+        <jaffe2_no/>
+        <jaffe2_page/>
+        <jaffe2_worker/>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_main nr="Gall. Pont. III,3 116 n. *3">Étant donné que 
+                <pers_name addition="de Châteauneuf, Abt von Léoncel (1162-66) und Bonnevaux (1166-um 1194)" floruit="1142-1194" key="316732546" life="ca. 1120 - nach 1194" literature="Gall. Pont. III,3, S. 113; Dictionnaire d'histoire et de géographie ecclésiastiques 26, Sp. 194f." place="Bonnevaux" reg="s. Hugo abbas" sex="male" termofoffice="1166 - 1194 belegt" uuid="{B14C8117-08D7-4F1D-AE6A-D7F985F0DE3C}">Hugues</pers_name> apparaît, des 1163, comme abbé dans les chartes de 
+                <place_name addition="OCist" category="Kloster" country="Frankreich" diocese="Dea Vocontiorum" geo_DEZIMAL_city="44.9114, 5.1936" geo_DMS_city="N 44° 54′ 41.04″ E 5° 11′ 36.96″" geodata="N 44°54′41″ E 5°11′37″" geodata_region="0" geodata_vague="0" id="11071516" identification="Leoncel, Abbaye Sainte-Marie" institution="Monasterium S. Mariae de Leoncellis / Fontis Leonnae" literature="Gall. Pont. III,3, S. 111-119" region="Auvergne-Rhône-Alpes" uuid="{05013D49-238B-4088-96C6-F8EC834D5258}">Léoncel</place_name>, Dimier, p. 28, a daté sa consécration du premier séjour d’ 
+                <pers_name BNF="13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN="n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{58C0B973-E9BB-4491-9207-7428DB953ADF}">Alexandre III</pers_name> à 
+                <place_name GND_city="4040185-6" LCCN_city="n79120260" VIAF_city="155870890" category="Stadt" country="Frankreich" diocese="Monspessulanus" geo_DMS_city="N 43° 37′ 0″ E 3° 53′ 0″" geodata="N 43°36′39″ E 3°52′38″" geodata_region="0" geodata_vague="0" id="2992166" identification="Montpellier" institution="Civitas Monspessulanus" region="Okzitanien" uuid="{BBBCFE03-10C2-4649-9BCA-C5ECCA12BC27}">Montpellier</place_name> et non du second en 1165 durant lequel 
+                <pers_name addition="de Châteauneuf, Abt von Léoncel (1162-66) und Bonnevaux (1166-um 1194)" floruit="1142-1194" key="316732546" life="ca. 1120 - nach 1194" literature="Gall. Pont. III,3, S. 113; Dictionnaire d'histoire et de géographie ecclésiastiques 26, Sp. 194f." place="Bonnevaux" reg="s. Hugo abbas" sex="male" termofoffice="1166 - 1194 belegt" uuid="{B14C8117-08D7-4F1D-AE6A-D7F985F0DE3C}">Hugues</pers_name> impétra pourtant un privilège (
+                <data_link col_id="1006" id="1644229835915">Gall. Pont. III,3 116 n. 5</data_link>. La querelle des évêques de 
+                <place_name category="Bistum" country="Frankreich" diocese="Dea Vocontiorum" geo_DEZIMAL_city="44.7536, 5.3703" geo_DMS_city="N 44° 45′ 12.96″ E 5° 22′ 13.08″" geodata="N 44°45′8″ E 5°22′16″" geodata_region="-1" geodata_vague="0" id="12047198" identification="Die, episc." institution="Episcopatus Diensis" region="Auvergne-Rhône-Alpes" uuid="{FC0940D8-961F-49AC-A336-1A7423B585DD}">Die</place_name> et de 
+                <place_name GND_city="4119350-7" LCCN_city="n81101041" VIAF_city="11146030574635861686" category="Bistum" country="Frankreich" diocese="Valentia" geo_DEZIMAL_city="44.9325°, 4.891111°" geo_DMS_city="N 44° 55′ 57″ E 4° 53′ 28″" geodata="N 44°55′57″ E 4°53′27″" geodata_region="-1" geodata_vague="0" geonames_city="2971053" id="6453882" identification="Valence, episc." institution="Episcopatus Valentinus" region="Auvergne-Rhône-Alpes" uuid="{1AEA7039-162A-4332-9B14-F3111C55CB67}">Valence</place_name> au sujet de 
+                <place_name addition="OCist" category="Kloster" country="Frankreich" diocese="Dea Vocontiorum" geo_DEZIMAL_city="44.9114, 5.1936" geo_DMS_city="N 44° 54′ 41.04″ E 5° 11′ 36.96″" geodata="N 44°54′41″ E 5°11′37″" geodata_region="0" geodata_vague="0" id="11071516" identification="Leoncel, Abbaye Sainte-Marie" institution="Monasterium S. Mariae de Leoncellis / Fontis Leonnae" literature="Gall. Pont. III,3, S. 111-119" region="Auvergne-Rhône-Alpes" uuid="{05013D49-238B-4088-96C6-F8EC834D5258}">Léoncel</place_name> est ici attestée pour la première fois.</pont_reg_main>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_main nr="Gall. Pont. III,3 116 n. *3">Gall. Pont. III,3</pont_reg_main>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_main nr="Gall. Pont. III,3 116 n. *3">116 n. *3</pont_reg_main>
+        </pont_no>
+        <pontificate>Alexander III</pontificate>
+        <receipt_inst>
+            <pont_reg_main nr="Gall. Pont. III,3 116 n. *3">Die, Leoncellum</pont_reg_main> Die, Leoncellum (Gall. Pont. III,3 116 n. *3)</receipt_inst>
+        <regest_pont>
+            <pont_reg_main nr="Gall. Pont. III,3 116 n. *3">
+                <place_name BNE="" BNE_city="" BNF="" BNF_city="" GND="" GND_city="4119350-7" GS_Klosterdatenbank="" Getty="" LCCN="" LCCN_city="n81101041" VIAF="" VIAF_city="11146030574635861686" addition="" category="Bistum" country="Frankreich" diocese="Valentia" geo_DEZIMAL_city="44.9325°, 4.891111°" geo_DMS_city="N 44° 55′ 57″ E 4° 53′ 28″" geodata="N 44°55′57″ E 4°53′27″" geodata_region="-1" geodata_vague="0" geonames_city="2971053" getty_city="" id="6453882" identification="Valence, episc." institution="Episcopatus Valentinus" literature="" region="Auvergne-Rhône-Alpes" uuid="{1AEA7039-162A-4332-9B14-F3111C55CB67}">Valentino</place_name> et 
+                <place_name category="Bistum" country="Frankreich" diocese="Dea Vocontiorum" geo_DEZIMAL_city="44.7536, 5.3703" geo_DMS_city="N 44° 45′ 12.96″ E 5° 22′ 13.08″" geodata="N 44°45′8″ E 5°22′16″" geodata_region="-1" geodata_vague="0" id="12047198" identification="Die, episc." institution="Episcopatus Diensis" region="Auvergne-Rhône-Alpes" uuid="{FC0940D8-961F-49AC-A336-1A7423B585DD}">Diensi</place_name> episcopis de situ 
+                <place_name addition="OCist" category="Kloster" country="Frankreich" diocese="Dea Vocontiorum" geo_DEZIMAL_city="44.9114, 5.1936" geo_DMS_city="N 44° 54′ 41.04″ E 5° 11′ 36.96″" geodata="N 44°54′41″ E 5°11′37″" geodata_region="0" geodata_vague="0" id="11071516" identification="Leoncel, Abbaye Sainte-Marie" institution="Monasterium S. Mariae de Leoncellis / Fontis Leonnae" literature="Gall. Pont. III,3, S. 111-119" region="Auvergne-Rhône-Alpes" uuid="{05013D49-238B-4088-96C6-F8EC834D5258}">abbatiae Liuncellis</place_name> litigantibus, 
+                <pers_name addition="de Châteauneuf, Abt von Léoncel (1162-66) und Bonnevaux (1166-um 1194)" floruit="1142-1194" key="316732546" life="ca. 1120 - nach 1194" literature="Gall. Pont. III,3, S. 113; Dictionnaire d'histoire et de géographie ecclésiastiques 26, Sp. 194f." place="Bonnevaux" reg="s. Hugo abbas" sex="male" termofoffice="1166 - 1194 belegt" uuid="{B14C8117-08D7-4F1D-AE6A-D7F985F0DE3C}">Hugo abbas electus</pers_name> ad 
+                <pers_name BNF="13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN="n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{58C0B973-E9BB-4491-9207-7428DB953ADF}">Alexandrum III papam</pers_name> cum comitatu congruo proficiscitur, a quo gratanti animo recipitur et honorifice benedicitur.</pont_reg_main>
+        </regest_pont>
+        <worker_comment_pont/>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

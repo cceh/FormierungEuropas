@@ -1,0 +1,136 @@
+<text type="charter" id="1653486164961">
+    <bibl>
+        <edition>
+            <bibl_link target="Lemaitre, Cartulaire Bonnefoy" target2="429807" uuid="{D03A3EC3-FF5E-4B9A-8E8E-499D4C2D006A}">Lemaitre, Cartulaire de Bonnefoy</bibl_link>, no 9, p. 19</edition>
+        <figure/>
+        <literature>Manque dans Wiederhold et 
+            <bibl_link target="Font-Réaulx, Lettres pontificales" target2="939832" uuid="{414D505A-8B67-4E2A-8BEF-6230CA527E67}">Font-Réaulx</bibl_link>.</literature>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests>
+            <bibl_link target="Jaffé, Regesta Pontificum Romanorum" target2="54640" uuid="{77346F34-E2AC-422A-92FA-1D3BFDF42FFC}">J. L.</bibl_link> –</regests>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type>Kopial</descent_type>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script>
+            <pont_reg_main nr="Gall. Pont. III,3 326 n. 3">Arch. dép. Ardèche, 4 H 11, cartulaire, fol. 12r.</pont_reg_main>
+        </script>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria/>
+        <date_p value="11790704" to="11790704" from="11790215">(1179 febr. 15/iul. 4)</date_p>
+        <initium>Significantibus priore et fratribus.</initium>
+        <pub_place>
+            <place_name BNF_city="12139445g" GND_city="4050471-2" LCCN_city="n79018704" VIAF_city="145348938" addition="Lateranbasilika" category="Titelkirche" country="Italien" diocese="Roma" geo_DEZIMAL_city="41.90036, 12.49575" geo_DMS_city="N 41°54′01″ E 12°29′45″" geodata="N 41°53′09″ E 12°30′21″" geodata_region="0" geodata_vague="0" geonames_city="3169071" id="7602857" identification="Roma, S. Giovanni in Laterano" institution="Ecclesia s. Iohannis Laterano Romae sita" literature="IP I, 22" region="Latium" uuid="{023C7DF8-A8CF-43F7-A72C-A256CBC09529}">Roma, Laterano</place_name>
+        </pub_place>
+        <script_date>Dat. Lateran. etc.</script_date>
+        <state/>
+        <supplier>
+            <pers_name BNF="13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN="n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{58C0B973-E9BB-4491-9207-7428DB953ADF}">Alexander III papa</pers_name>
+        </supplier>
+        <supplier_type>papa</supplier_type>
+        <user_comment/>
+        <worker>Gall. Pont III,3: Beate Schilling; digitale Fassung: Valérie Lüthi, Johannes Luther</worker>
+    </head>
+    <info>
+        <date_sort value="11790704">11790704</date_sort>
+        <idno>Gall. Pont. III,3 326 n. 3</idno>
+    </info>
+    <jaffe>
+        <jaffe1/>
+        <jaffe2_no/>
+        <jaffe2_page/>
+        <jaffe2_worker/>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_main nr="Gall. Pont. III,3 326 n. 3">Vu que, quelques années plus tard, 
+                <pers_name BNF="107313571" GND="119499622" GermaniaSacra="069-02359-001" Wikidata="Q171520" addition="Hubertus Crivelli" floruit="1120-1187" key="85184598" life="ca. 1120-1187" place="Roma" reg="Urbanus III papa" sex="male" termofoffice="1185-1187" uuid="{3793223C-760C-4558-A073-B6EF327905AA}">Urbain III</pers_name> intercéda au même sujet auprès de l’abbé de 
+                <place_name addition="OSB" category="Kloster" country="Frankreich" diocese="Anicium" geo_DMS_city="N 44°56′20″ E 3°59′45″" geodata="N 44°56′22″ E 3°59′41″" geodata_region="0" geodata_vague="0" geonames_city="6616792" id="12276973" identification="Abbaye Saint-Chaffre du Monastier" institution="Monasterium S. Theofredi" region="Auvergne-Rhône-Alpes" uuid="{8467881A-80D6-4E48-9951-F414F618B588}">Saint-Chaffre</place_name> et des chanoines de 
+                <place_name addition="auch Monasterère/Prieuré du Charay; heute Ruinen" category="Kanonikerstift" country="Frankreich" diocese="Vivarium" geo_DMS_city="N 45°41′47″ E 4°56′38″" geodata="N 44°43′36″ E 4°31′42″" geodata_region="0" geodata_vague="0" geonames_city="2977356" id="12470218" identification="Saint-Priest, Collegiale Saint-Michel de Charay" institution="Ecclesia Carasiensis / Monasterium S. Michaelis de Carasio" region="Auvergne-Rhône-Alpes" uuid="{C0F2A372-B3BE-4484-AAE1-9388786A098A}">Charay</place_name> (
+                <data_link col_id="1008" id="1653486168336">Gall. Pont. III,3 328 n. 8 </data_link>), on peut conclure que cette lettre visait déjà ces deux institutions. Aussi un règlement avec 
+                <place_name addition="auch Monasterère/Prieuré du Charay; heute Ruinen" category="Kanonikerstift" country="Frankreich" diocese="Vivarium" geo_DMS_city="N 45°41′47″ E 4°56′38″" geodata="N 44°43′36″ E 4°31′42″" geodata_region="0" geodata_vague="0" geonames_city="2977356" id="12470218" identification="Saint-Priest, Collegiale Saint-Michel de Charay" institution="Ecclesia Carasiensis / Monasterium S. Michaelis de Carasio" region="Auvergne-Rhône-Alpes" uuid="{C0F2A372-B3BE-4484-AAE1-9388786A098A}">Charay</place_name>, réalisé le 12 octobre 1179 par 
+                <pers_name addition="Nicolas" floruit="1173-1205" literature="Rouchier/Régné, Histoire, Bd. 2, S. 47-68" place="Viviers" reg="Nicolaus episcopus" sex="male" termofoffice="1173-1205" uuid="{90D01D87-92E1-4AF9-8CAE-400956ADAEC7}">l’évêque Nicolas</pers_name> de 
+                <place_name category="Bistum" country="Frankreich" diocese="Vivarium" geo_DEZIMAL_city="44.4828, 4.68895" geo_DMS_city="N 44°28′58″ E 4°41′20″" geodata="N 44°28′55″ E 4°41′25″" geodata_region="-1" geodata_vague="0" geonames_city="2967820" id="12047232" identification="Viviers, episc." institution="Episcopatus Vivariensis" region="Auvergne-Rhône-Alpes" uuid="{02075C7B-A0E6-44CE-B120-62F8DE2FC7BA}">Viviers</place_name> (
+                <bibl_link target="Lemaitre, Cartulaire Bonnefoy" target2="429807" uuid="{D03A3EC3-FF5E-4B9A-8E8E-499D4C2D006A}">Lemaitre</bibl_link>, no 14, p. 22), apparaît-il comme le résultat de l’intervention pontificale. Sa date permet de préciser celle de la lettre du pape: 
+                <pers_name BNF="13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN="n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{58C0B973-E9BB-4491-9207-7428DB953ADF}">Alexandre III</pers_name> résidant au 
+                <place_name BNF_city="12139445g" GND_city="4050471-2" LCCN_city="n79018704" VIAF_city="145348938" addition="Lateranbasilika" category="Titelkirche" country="Italien" diocese="Roma" geo_DEZIMAL_city="41.90036, 12.49575" geo_DMS_city="N 41°54′01″ E 12°29′45″" geodata="N 41°53′09″ E 12°30′21″" geodata_region="0" geodata_vague="0" geonames_city="3169071" id="7602857" identification="Roma, S. Giovanni in Laterano" institution="Ecclesia s. Iohannis Laterano Romae sita" literature="IP I, 22" region="Latium" uuid="{023C7DF8-A8CF-43F7-A72C-A256CBC09529}">Latran</place_name> du 15 mars jusqu’au 5 août 1178 (voir 
+                <bibl_link target2="2027228" uuid="{2D5115E8-FC15-42D3-BAF5-427EFC0D8DF6}">Falkenstein, Litterae</bibl_link>, p. 364) et du 15 février jusqu’au 4 juillet 1179 (ibid.), une date vers la fin du second séjour paraît probable, puisque 
+                <pers_name addition="Nicolas" floruit="1173-1205" literature="Rouchier/Régné, Histoire, Bd. 2, S. 47-68" place="Viviers" reg="Nicolaus episcopus" sex="male" termofoffice="1173-1205" uuid="{90D01D87-92E1-4AF9-8CAE-400956ADAEC7}">l’évêque Nicolas</pers_name> de 
+                <place_name category="Bistum" country="Frankreich" diocese="Vivarium" geo_DEZIMAL_city="44.4828, 4.68895" geo_DMS_city="N 44°28′58″ E 4°41′20″" geodata="N 44°28′55″ E 4°41′25″" geodata_region="-1" geodata_vague="0" geonames_city="2967820" id="12047232" identification="Viviers, episc." institution="Episcopatus Vivariensis" region="Auvergne-Rhône-Alpes" uuid="{02075C7B-A0E6-44CE-B120-62F8DE2FC7BA}">Viviers</place_name> n’aurait certainement pas attendu une année pour agir. Un règlement avec 
+                <place_name addition="OSB" category="Kloster" country="Frankreich" diocese="Anicium" geo_DMS_city="N 44°56′20″ E 3°59′45″" geodata="N 44°56′22″ E 3°59′41″" geodata_region="0" geodata_vague="0" geonames_city="6616792" id="12276973" identification="Abbaye Saint-Chaffre du Monastier" institution="Monasterium S. Theofredi" region="Auvergne-Rhône-Alpes" uuid="{8467881A-80D6-4E48-9951-F414F618B588}">Saint-Chaffre</place_name>, discuté dans un premier temps avec 
+                <pers_name addition="Guillaume V de Varces" floruit="1179" literature="Chevalier, Cartulaire de Saint-Chaffre, p. XXIII" place="Saint-Chaffre du Monastier" reg="Willelmus V abbas" sex="male" termofoffice="1179 belegt" uuid="{DC075B45-45AE-4027-A8A8-8686FCA88A66}">l’abbé Guillaume</pers_name> (attesté seulement en 1179), et conclu, après sa mort, avec son successeur 
+                <pers_name addition="Francon" floruit="1184" literature="Chevalier, Cartulaire de Saint-Chaffre, p. XXIV" place="Saint-Chaffre du Monastier" reg="Franco abbas" sex="male" termofoffice="1184 belegt" uuid="{FC015E66-CA80-4019-B57C-285EC892C866}">l’abbé Francon</pers_name>, apparemment sans la médiation de l’évêque du 
+                <place_name GND_city="4111265-9" LCCN_city="n82052561" VIAF_city="147339129" category="Bistum" country="Frankreich" diocese="Anicium" geo_DEZIMAL_city="45.04205°, 3.883281°" geo_DMS_city="N 45° 2′ 31.38″ E 3° 52′ 59.81″" geodata="N 45°02′44″ E 3°53′06″" geodata_region="-1" geodata_vague="0" id="11777227" identification="Le Puy-en-Velay, episc." institution="Episcopatus Aniciensis/Podiensis" region="Auvergne-Rhône-Alpes" uuid="{7DD8A344-27A8-4B12-B457-93CE50BC4EC2}">Puy</place_name>, est transmis seulement par le cartulaire de 
+                <place_name addition="OSB" category="Kloster" country="Frankreich" diocese="Anicium" geo_DMS_city="N 44°56′20″ E 3°59′45″" geodata="N 44°56′22″ E 3°59′41″" geodata_region="0" geodata_vague="0" geonames_city="6616792" id="12276973" identification="Abbaye Saint-Chaffre du Monastier" institution="Monasterium S. Theofredi" region="Auvergne-Rhône-Alpes" uuid="{8467881A-80D6-4E48-9951-F414F618B588}">Saint-Chaffre</place_name> (
+                <bibl_link target="Chevalier, Cartulaire St-Chaffre" target2="429777" uuid="{EF5DDC85-1026-4A3B-9059-10675A34A0F2}">Chevalier, Cartulaire de Saint-Chaffre</bibl_link>, c. 464, p. 209 = 
+                <bibl_link target="Lemaitre, Cartulaire Bonnefoy" target2="429807" uuid="{D03A3EC3-FF5E-4B9A-8E8E-499D4C2D006A}">Lemaitre, Cartulaire de Bonnefoy</bibl_link>, Annexe, no 203, p. 161).</pont_reg_main>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_main nr="Gall. Pont. III,3 326 n. 3">Gall. Pont. III,3</pont_reg_main>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_main nr="Gall. Pont. III,3 326 n. 3">326 n. 3</pont_reg_main>
+        </pont_no>
+        <pontificate>Alexander III</pontificate>
+        <receipt_inst>
+            <pont_reg_main nr="Gall. Pont. III,3 326 n. 3">Viviers, monasterium S. Mariae Bonae Fidei</pont_reg_main> Viviers, episc. (Gall. Pont. III,3 290 n. 154); Viviers, monasterium S. Mariae Bonae Fidei (Gall. Pont. III,3 326 n. 3)</receipt_inst>
+        <regest_pont>
+            <pont_reg_main nr="Gall. Pont. III,3 326 n. 3">
+                <pers_name BNF="13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN="n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{58C0B973-E9BB-4491-9207-7428DB953ADF}">
+                    <issuer> Alexander III</issuer> </pers_name> (
+                <pers_name Wikidata="Q3387709" addition="Pierre de Solignac" floruit="1159-1189" literature="Gallia christiana II, Sp. 705-707." place="Le Puy-en-Velay" reg="Petrus IV episcopus" sex="male" termofoffice="1159-1189 belegt" uuid="{95866A90-5923-466D-BBAB-B9849BD3F5F8}">
+                    <adressee> Petro</adressee> </pers_name>) 
+                <place_name GND_city="4111265-9" LCCN_city="n82052561" VIAF_city="147339129" category="Bistum" country="Frankreich" diocese="Anicium" geo_DEZIMAL_city="45.04205°, 3.883281°" geo_DMS_city="N 45° 2′ 31.38″ E 3° 52′ 59.81″" geodata="N 45°02′44″ E 3°53′06″" geodata_region="-1" geodata_vague="0" id="11777227" identification="Le Puy-en-Velay, episc." institution="Episcopatus Aniciensis/Podiensis" region="Auvergne-Rhône-Alpes" uuid="{7DD8A344-27A8-4B12-B457-93CE50BC4EC2}">
+                    <adressee> Aniciensi (Le Puy)</adressee> </place_name> et (
+                <pers_name addition="Nicolas" floruit="1173-1205" literature="Rouchier/Régné, Histoire, Bd. 2, S. 47-68" place="Viviers" reg="Nicolaus episcopus" sex="male" termofoffice="1173-1205" uuid="{90D01D87-92E1-4AF9-8CAE-400956ADAEC7}">
+                    <adressee> Nicolao</adressee> </pers_name>) 
+                <place_name category="Bistum" country="Frankreich" diocese="Vivarium" geo_DEZIMAL_city="44.4828, 4.68895" geo_DMS_city="N 44°28′58″ E 4°41′20″" geodata="N 44°28′55″ E 4°41′25″" geodata_region="-1" geodata_vague="0" geonames_city="2967820" id="12047232" identification="Viviers, episc." institution="Episcopatus Vivariensis" region="Auvergne-Rhône-Alpes" uuid="{02075C7B-A0E6-44CE-B120-62F8DE2FC7BA}">
+                    <adressee> Vivariensi</adressee> </place_name> episcopis: scribit priorem et fratres 
+                <place_name BNE="" BNE_city="" BNF="" BNF_city="" GND="" GND_city="" GS_Klosterdatenbank="" Getty="" LCCN="" LCCN_city="" VIAF="" VIAF_city="" addition="OCart, heute eine Ruine" category="Kloster" country="Frankreich" diocese="Vivarium" geo_DEZIMAL_city="" geo_DMS_city="N 44°50′57″ E 4°07′08″" geodata="N 44°52′17″ E 4°10′38″" geodata_region="0" geodata_vague="0" geonames_city="3005334" getty_city="" id="12470220" identification="La Chatreuse de Bonnefoy" institution="Monasterium S. Mariae Bonae Fidei" literature="" region="Auvergne-Rhône-Alpes" uuid="{0C83F1A1-72CE-46A9-B6C3-7B4FB05967C9}">Bonae Fidei</place_name> sibi significavisse quod a quibusdam in eorum episcopatibus constitutis super decimis laborum et nutrimentorum animalium contra tenorem privilegii Cartusiensi ordini indulti (
+                <data_link col_id="1006" id="1653486163430">Gall. Pont. III,3 325 n. 1 </data_link>) fatigantur. Unde eis mandat quatinus sub suspensionis vel excommunicationis sententia prohibeant ne quis a fratribus 
+                <place_name BNE="" BNE_city="" BNF="" BNF_city="" GND="" GND_city="" GS_Klosterdatenbank="" Getty="" LCCN="" LCCN_city="" VIAF="" VIAF_city="" addition="OCart, heute eine Ruine" category="Kloster" country="Frankreich" diocese="Vivarium" geo_DEZIMAL_city="" geo_DMS_city="N 44°50′57″ E 4°07′08″" geodata="N 44°52′17″ E 4°10′38″" geodata_region="0" geodata_vague="0" geonames_city="3005334" getty_city="" id="12470220" identification="La Chatreuse de Bonnefoy" institution="Monasterium S. Mariae Bonae Fidei" literature="" region="Auvergne-Rhône-Alpes" uuid="{0C83F1A1-72CE-46A9-B6C3-7B4FB05967C9}">Bonae Fidei</place_name> vel aliis Cartusiensis ordinis decimas extorqueat.</pont_reg_main>
+        </regest_pont>
+        <worker_comment_pont/>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

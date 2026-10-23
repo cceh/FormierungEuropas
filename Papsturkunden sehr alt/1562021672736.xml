@@ -1,0 +1,155 @@
+<text type="charter" id="1562021672736">
+    <bibl>
+        <edition>
+            <bibl_link lang="" target="" target2="144166" type="" uuid="">Rodríguez de Lama Alejandro IV</bibl_link> 292–296 n. 310 (ad a. 1257!). 
+            <bibl_link target="Colección León 5">Fernández Catón Colección catedral de León V</bibl_link> 484–489 n. 1606. 
+            <bibl_link target="Domínguez Sánchez, Documentos León">Domínguez Sánchez Documentos pontificios de León</bibl_link> p. 113–115 n. 49</edition>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests>
+            <bibl_link target=" García Villada, Catálogo León">García Villada Catálogo</bibl_link> p. 159</regests>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type>Original</descent_type>
+        <dim>405 x 370 + 20 mm</dim>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script>
+            <pont_reg_main nr="Ib. Pont. II 38 n. 86">Orig.: León Archivo de la Catedral n. 1298.</pont_reg_main>
+        </script>
+        <seal>Bulla deest.</seal>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria/>
+        <date_p value="11771010" to="11771010" from="11771010">(1177) oct. 10</date_p>
+        <initium>Cum venerabilis frater</initium>
+        <pub_place>
+            <place_name category="Stadtviertel" geodata="N 45° 26′ 19″ E 12° 20′ 5″" identification="Venezia, Rialto">Venezia, Rialto</place_name>
+        </pub_place>
+        <script_date>Dat. Venetiae in Rivo Alto 6 id. oct.</script_date>
+        <state/>
+        <supplier>
+            <pers_name addition="Rolandus Bandinelli?" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa">Alexander III</pers_name>
+        </supplier>
+        <supplier_type>papa</supplier_type>
+        <user_comment/>
+        <worker>Santiago Domínguez Sánchez/Daniel Berger; digitale Fassung: Carolin Sachs, Thomas Czerner</worker>
+    </head>
+    <info>
+        <date_sort value="11771010">11771010</date_sort>
+        <idno>Ib. Pont. II 38 n. 86</idno>
+    </info>
+    <jaffe>
+        <jaffe1>-</jaffe1>
+        <jaffe2_no/>
+        <jaffe2_page/>
+        <jaffe2_worker>-</jaffe2_worker>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_main nr="Ib. Pont. II 38 n. 86"> De tempore praesentium litterarum cf. itinerarium 
+                <pers_name addition="Rolandus Bandinelli?" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa">Alexandri III</pers_name> in 
+                <bibl_link target="Jaffé, Regesta Pontificum Romanorum">JL. II</bibl_link> p. 315. – De legatione cardinalis 
+                <pers_name addition="Giacinto Bobone" key="193550312" life="gest. 1198" place="Roma" reg="Coelestinus III papa (Hyacintus Bobo)">Iacinti</pers_name> cf. 
+                <bibl_link target="Weiß, Legaten">Weiß Legaten</bibl_link> p. 173–203. </pont_reg_main>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_main nr="Ib. Pont. II 38 n. 86">Ib. Pont. II</pont_reg_main>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_main nr="Ib. Pont. II 38 n. 86">38 n. 86</pont_reg_main>
+        </pont_no>
+        <pontificate>Alexander III.</pontificate>
+        <receipt_inst>
+            <pont_reg_main nr="Ib. Pont. II 38 n. 86">León, Episc.</pont_reg_main> León, Episc. (Ib. Pont. II 38 n. 86); v. etiam Sahagún n. 55 (Ib. Pont. II 123); Eccl. cath. n. 35 (Ib. Pont. II 70); Ib. Pont. Sigüenza, Episc.; Oviedo, Episc.</receipt_inst>
+        <regest_pont>
+            <pont_reg_main nr="Ib. Pont. II 38 n. 86">
+                <pers_name addition="Rolandus Bandinelli?" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa">
+                    <issuer> Alexander III</issuer> </pers_name>
+                <pers_name life="gest. 1177/1179" place="Siguenza" reg="Ioscelmus episcopus">
+                    <adressee> (Ioscelmo</adressee> </pers_name>) 
+                <place_name category="Bistum" diocese="Siguenza" geodata="N 41°04′08″ W 2°38′35″" id="3108961" identification="Siguenza episc" institution="Episcopatus Seguntinus">
+                    <adressee> Seguntino</adressee> </place_name> et 
+                <pers_name place="Oviedo" reg="Rodericus (I) episcopus">
+                    <adressee> (Roderico</adressee> </pers_name>) 
+                <place_name category="Bistum" diocese="Oviedo" geodata="N 43°21′37″ W 5°50′41″" id="3114711" identification="Oviedo episc." institution="Episcopatus Ovetensis">
+                    <adressee> Ovetensi</adressee> </place_name> episcopis: committit eis causam inter 
+                <pers_name addition="Albertinus" place="Leon" reg="Iohannes episcopus">(Iohannem</pers_name>) episcopum et 
+                <place_name addition="Santa María de Regla" category="Kathedralkirche" diocese="Legio" geodata="N 42° 35′ 58″ W 5° 34′ 0″" id="6452812" identification="Leon, S. Marie de Regula" institution="Ecclesia cathedralis s. Mariae de Regula">canonicos Legionenses</place_name>, ex parte una, et 
+                <pers_name place="Sahagún, monasterium s. Facundi" reg="Guterrius abbas">(Guterrium) abbatem</pers_name> et capitulum 
+                <place_name addition="OSB" category="Kloster" diocese="Legio" geodata="N 42°22′15″ W 5°01′46″" id="3111131" identification="Sahagun, Monasterium s. Facundi" institution="Monasterium s. Facundi">monasterii s. Facundi</place_name> ex altera, super diversis articulis de iure et iurisdictione episcopi in ecclesiis ipsius villae et “cauti” monastici, et extra burgum et “cautum”. Procurator enim episcopi (cf. León, Episc. n. *78, *79 et *80) asserebat quod 
+                <place_name category="Bistum" diocese="Legio" geodata="N 42°36′00″ W 5°34′13″" id="3118532" identification="Leon episc." institution="Episcopatus Legionensis">Legionensis</place_name> episcopus in burgo et “cauto” 
+                <place_name BNE="" BNE_city="" BNF="" BNF_city="" GND="" GND_city="" GS_Klosterdatenbank="" Getty="" LCCN="" LCCN_city="" VIAF="" VIAF_city="" addition="" category="Stadt" country="" diocese="" geo_DEZIMAL_city="" geo_DMS_city="" geodata="N 42°22′19.29″ W 5°1′49.58″" geodata_region="" geodata_vague="" geonames_city="" getty_city="" id="" identification="Sahagun" institution="" literature="" region="" uuid="">s. Facundi</place_name> ius episcopale consuevit habere amplis retro temporibus, quia certum privilegium quod monasterium praesentabat datum ab 
+                <pers_name addition="Nicolaus Breakspear" key="25397217" life="gest. 1159" place="Roma" reg="Hadrianus IV papa">Hadriano IV</pers_name> (Sahagún n. *36) super eodem burgo et “cauto” 
+                <pers_name place="Sahagun; Monasterium ss. Facundi et Primitivi" reg="Dominicus abbas">Dominico abbati</pers_name> eiusdem monasterii, “personaliter” indultum fuit, et non valebat post mortem ipsius abbatis; ac etiam affirmabat quod monasterium usurpaverat tertias quarundam ecclesiarum, videlicet, 
+                <place_name category="Stadt" diocese="Legoni" geodata="N 42° 13′ 1″ W 5° 6′ 3″" id="3109658" identification="Santervas de Campos">s. Gervasii (Santervás</place_name>), 
+                <place_name BNE="" BNE_city="" BNF="" BNF_city="" GND="" GND_city="" GS_Klosterdatenbank="" Getty="" LCCN="" LCCN_city="" VIAF="" VIAF_city="" addition="" category="Stadt" country="" diocese="" geo_DEZIMAL_city="" geo_DMS_city="" geodata="N 42°50′05″ W 5°09′52″" geodata_region="" geodata_vague="" geonames_city="" getty_city="" id="" identification="Sahelices de Sabero" institution="" literature="" region="" uuid="">s. Felicis de Ceia (Sahelices)</place_name> et aliarum multarum quae ad 
+                <place_name category="Bistum" diocese="Legio" geodata="N 42°36′00″ W 5°34′13″" id="3118532" identification="Leon episc." institution="Episcopatus Legionensis">Legionensem</place_name> episcopum spectare noscuntur, et 
+                <place_name BNE="" BNE_city="" BNF="" BNF_city="" GND="" GND_city="" GS_Klosterdatenbank="" Getty="" LCCN="" LCCN_city="" VIAF="" VIAF_city="" addition="Cabezón de Liébana" category="Kloster" country="" diocese="" geo_DEZIMAL_city="" geo_DMS_city="" geodata="N 43° 8′ 00″ W 4° 35′ 00″" geodata_region="" geodata_vague="" geonames_city="" getty_city="" id="12060445" identification="Cabezon de Liebana, monasterio de Santa María la Real" institution="monasterium s. Mariae de Piasca" literature="" region="" uuid="">monasterium de Piasca, situm in Liebana</place_name>, et omnes ecclesias quas detinuerat comes 
+                <pers_name life="gest. vor 1177" reg="Didacus Assuri comes">Didacus Assuri</pers_name>, cuius corpus in 
+                <place_name addition="Santa María de Regla" category="Kathedralkirche" diocese="Legio" geodata="N 42° 35′ 58″ W 5° 34′ 0″" id="6452812" identification="Leon, S. Marie de Regula" institution="Ecclesia cathedralis s. Mariae de Regula">Legionensi ecclesia</place_name> requiescit. Procurator autem monasterii memorati (cf. León, Episc. n. *82, *83 et *84) significabat quod episcopus fecit destrui quandam ecclesiam eiusdem monasterii dicatam in honore 
+                <pers_name key="45705266" reg="s. Andreas apostolus">s. Andreae</pers_name>, reliquiis sanctorum quae ibi erant manibus laicorum male tractatis, et quod ipse in parochiis ecclesiarum monasterii novas fecit ecclesias, et permittebat ab aliis fieri, et quasdam de novis ecclesiis consecravit, et quod eis nocebat super decimis, primitiis, iuribus ecclesiasticis et possessionibus, et quod episcopus in villa 
+                <place_name BNE="" BNE_city="" BNF="" BNF_city="" GND="" GND_city="" GS_Klosterdatenbank="" Getty="" LCCN="" LCCN_city="" VIAF="" VIAF_city="" addition="" category="Stadt" country="" diocese="" geo_DEZIMAL_city="" geo_DMS_city="" geodata="N 42°22′19.29″ W 5°1′49.58″" geodata_region="" geodata_vague="" geonames_city="" getty_city="" id="" identification="Sahagun" institution="" literature="" region="" uuid="">s. Facundi</place_name> domos aedificare illegitime praesumpsit, et permisit homines suos de 
+                <place_name BNE="" BNE_city="" BNF="" BNF_city="" GND="" GND_city="" GS_Klosterdatenbank="" Getty="" LCCN="" LCCN_city="" VIAF="" VIAF_city="" addition="Castrotierra de Valmadrigal?" category="Stadt" country="" diocese="" geo_DEZIMAL_city="" geo_DMS_city="" geodata="" geodata_region="" geodata_vague="" geonames_city="" getty_city="" id="" identification="Castroterra" institution="" literature="" region="" uuid="">Castroterra</place_name> contra iustitiam detinere montes et hereditates monasterii; praeterea, asserens etiam quod quidam 
+                <place_name BNE="" BNE_city="" BNF="" BNF_city="" GND="" GND_city="" GS_Klosterdatenbank="" Getty="" LCCN="" LCCN_city="" VIAF="" VIAF_city="" addition="Santa María de Regla" category="Kathedralkirche" country="" diocese="Legio" geo_DEZIMAL_city="" geo_DMS_city="" geodata="N 42° 35′ 58″ W 5° 34′ 0″" geodata_region="" geodata_vague="" geonames_city="" getty_city="" id="6452812" identification="Leon, S. Marie de Regula" institution="Ecclesia cathedralis s. Mariae de Regula" literature="" region="" uuid="">Legionenses canonici</place_name> violentas manus iniecerunt in monachos 
+                <place_name addition="OSB" category="Kloster" diocese="Legio" geodata="N 42°22′15″ W 5°01′46″" id="3111131" identification="Sahagun, Monasterium s. Facundi" institution="Monasterium s. Facundi">s. Facundi</place_name>, alteri peregerunt insidias in eos, et quod episcopus memoratus eis tertias ecclesiarum 
+                <place_name BNE="" BNE_city="" BNF="" BNF_city="" GND="" GND_city="" GS_Klosterdatenbank="" Getty="" LCCN="" LCCN_city="" VIAF="" VIAF_city="" addition="" category="Kirche" country="" diocese="" geo_DEZIMAL_city="" geo_DMS_city="" geodata="N 43°8′6.93″ W 6°48′25.71″" geodata_region="" geodata_vague="" geonames_city="" getty_city="" id="3122266" identification="Fonteta (Santa Maria de Fonteto), ecclesia s. Martini" institution="ecclesia s. Martini de Fonte" literature="" region="" uuid="">s. Martini de Fonte</place_name>, 
+                <place_name category="Stadt" geodata="N 42° 15′ 46″ W 4° 51′ 26″" identification="San Roman de la Cuba">s. Romani de la Cuba</place_name> et aliarum ecclesiarum contra iustitiam auferre praesumpsit, et insuper quod idem episcopus et canonici ecclesias, villas et possessiones alias praescripti monasterii, videlicet 
+                <place_name category="Kirche" identification="ecclesia s. Vincentii de Aratoi (Valderaduey)" institution="ecclesia s. Vincentii de Aratoi">ecclesiam s. Vincentii de Aratoi (Valderaduey)</place_name>, 
+                <place_name category="Kirche" geodata=" N 42°31′17″ W 4°44′10″" identification="Saldana, ecclesia s. Martini" institution="ecclesia s. Martini de Saldania">ecclesiam s. Martini de Saldania (Saldaña)</place_name>, 
+                <place_name category="Stadt" geodata="N 42° 11′ 22″ W 5° 2′ 33.05″" identification="Villacaralon">Villam Carlon (Villacarralón)</place_name>, villam quae 
+                <place_name category="Stadt" geodata="N 42° 25′ 14″ W 5° 37′ 20″" identification="Valdevimbre">s. Maria de Val de Vimine (Valdevimbre)</place_name> dicitur, prata, molendina et possessiones alias 
+                <place_name category="Kirche" diocese="Legio" geodata="N 42°36′20″ W 5°34′12″" identification="Leon?, ecclesia s. Andreae" institution="ecclesia s. Andreae Legionensis">ecclesiae s. Andreae Legionensis</place_name>, quae ad ipsum monasterium pertinebant, contra iustitiam detinere praesumunt, asserens quod ipsi in villa 
+                <place_name BNE="" BNE_city="" BNF="" BNF_city="" GND="" GND_city="" GS_Klosterdatenbank="" Getty="" LCCN="" LCCN_city="" VIAF="" VIAF_city="" addition="" category="Stadt" country="" diocese="" geo_DEZIMAL_city="" geo_DMS_city="" geodata="N 42°22′19.29″ W 5°1′49.58″" geodata_region="" geodata_vague="" geonames_city="" getty_city="" id="" identification="Sahagun" institution="" literature="" region="" uuid="">s. Facundi</place_name> multos homines occiderunt et quosdam monachos ipsius monasterii lanceis vulneraverunt, boves, oves et cetera animalia inde abducere praesumpserunt. Mandat ergo 
+                <place_name category="Stadt" diocese="Roma" geodata="N 41°53′41″ E 12°29′02″" id="3169070" identification="Roma" institution="Romanorum urbs">Romanus</place_name> pontifex 
+                <place_name category="Bistum" diocese="Siguenza" geodata="N 41°04′08″ W 2°38′35″" id="3108961" identification="Siguenza episc" institution="Episcopatus Seguntinus">Seguntino</place_name> et 
+                <place_name category="Bistum" diocese="Oviedo" geodata="N 43°21′37″ W 5°50′41″" id="3114711" identification="Oviedo episc." institution="Episcopatus Ovetensis">Ovetensi</place_name> episcopis ut monachos et 
+                <place_name addition="OSB" category="Kloster" diocese="Legio" geodata="N 42°22′15″ W 5°01′46″" id="3111131" identification="Sahagun, Monasterium s. Facundi" institution="Monasterium s. Facundi">monasterium s. Facundi</place_name> ab impetitione memorati episcopi et canonicorum suorum super quaestione de consecratione cuiusdam ecclesiae infra 
+                <place_name category="Bistum" diocese="Legio" geodata="N 42°36′00″ W 5°34′13″" id="3118532" identification="Leon episc." institution="Episcopatus Legionensis">Legionensem episcopatum</place_name> constitutae ab episcopo alieno, vocato a 
+                <pers_name addition="Giacinto Bobone" key="193550312" life="gest. 1198" place="Roma" reg="Coelestinus III papa (Hyacintus Bobo)">Iacinto</pers_name>, 
+                <place_name category="Kirche" diocese="Roma" geodata="N 41°53′41″ E 12°29′02″" id="3169070" identification="Roma, Santa Maria in Cosmedin" institution="Basilica s. Mariae in Cosmedin">s. Mariae in Cosmedin</place_name> diacono cardinali et S.R.E. legato, et de verberatione canonicorum in cantorem et alios 
+                <place_name addition="Santa María de Regla" category="Kathedralkirche" diocese="Legio" geodata="N 42° 35′ 58″ W 5° 34′ 0″" id="6452812" identification="Leon, S. Marie de Regula" institution="Ecclesia cathedralis s. Mariae de Regula">canonicos Legionenses</place_name> penitus absolutos denuntient.</pont_reg_main>
+        </regest_pont>
+        <worker_comment_pont>
+            <pont_reg_main nr="Ib. Pont. II 38 n. 86">Adressaten: (Ioscelmo) Seguntino et (Roderico) Ovetensi episcopis. Anmerkungen und to do: ; Personen: , , , , , ; Orte: , , , , </pont_reg_main>
+        </worker_comment_pont>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

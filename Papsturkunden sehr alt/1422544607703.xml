@@ -1,0 +1,141 @@
+<text type="charter" id="1422544607703">
+    <bibl>
+        <edition/>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests>
+            <bibl_link target="Hernández, Cartularios de Toledo">Hernández Cartularios</bibl_link> p. 92sq. n. 94. 
+            <bibl_link target="Weiß, Legaten">Weiß Legaten</bibl_link> p. 175</regests>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type>Erwähnung</descent_type>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script>
+            <pont_reg_add nr="Ib. Pont. I 63 n. *94">Elucet ex chartis Adefonsi VII imperatoris et Sancii III regis his diebus exhibitis, quas inter alios Iacintus cardinalis et Victor Burgensis episcopus confirmaverunt (edd. 
+                <bibl_link target="Abajo-Martín, Documentación Palencia">Abajo Martín Documentación</bibl_link> p. 106 n. 49 [privilegium Sancii III] et 118 n. 56 [privilegium Adefonsi VII, ad a. 1155]; 
+                <bibl_link target="Fita, Madrid en el siglo XII ">Fita Madrid</bibl_link> p. 59 n. 6; 
+                <bibl_link target="Sánchez Belda, Documentos reales Galicia">Sánchez Belda Documentos</bibl_link> p. 133 n. 276; 
+                <bibl_link target="Privilegios Reales de la Catedral de Toledo">García Luján Privilegios Reales</bibl_link> II 62 n. 20).</pont_reg_add>
+            <pont_reg_main nr="Ib. Pont. II 26 n. *47">Laud. in privilegio Aldefonsi VII et in privilegio Sancii III eodem die exhibitis (edd. 
+                <bibl_link target="Pulgar, Historia Palencia">Del Pulgar Historia</bibl_link> II 223. 
+                <bibl_link target="González, Alfonso VIII">González Reino</bibl_link> II 28 n. 13. 
+                <bibl_link target="Abajo-Martín, Documentación Palencia">Abajo Martín Documentación de Palencia</bibl_link> p. 106–108 n. 49 [privilegium Sancii III] et p. 118–120 n. 56 [privilegium Aldefonsi VII, ad a. 1155]).</pont_reg_main>
+        </script>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria>*</criteria>
+        <date_p value="11540711" to="11540711" from="11540702">1154 iul. 2-11</date_p>
+        <initium/>
+        <pub_place>
+            <place_name diocese="Segovia" geodata="N 40°56′53″ W 4°07′06″" identification="Segovia">Segovia</place_name>
+        </pub_place>
+        <script_date/>
+        <state/>
+        <supplier>
+            <pers_name addition="Giacinto Bobone" key="193550312" life="1198" place="Roma" reg="Coelestin III papa (Hyacintus Bobo)">Iacintus</pers_name> diac. card. s. Mariae in Cosmedin et apost. sedis legatus</supplier>
+        <supplier_type>legatus</supplier_type>
+        <user_comment/>
+        <worker>Berger (Ib. Pont. I); Domínguez Sánchez/Berger (Ib. Pont. II); digitale Fassung: Sachs/Czerner (Ib. Pont. II)</worker>
+    </head>
+    <info>
+        <date_sort value="11540711">11540711</date_sort>
+        <idno>Ib. Pont. I 63 n. *94</idno>
+    </info>
+    <jaffe>
+        <jaffe1>-</jaffe1>
+        <jaffe2_no/>
+        <jaffe2_page/>
+        <jaffe2_worker>-</jaffe2_worker>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_add nr="Ib. Pont. I 63 n. *94">Cf. 
+                <bibl_link target="Smith, Iberian Legations">Smith Iberian Legations</bibl_link> p. 84. De 
+                <pers_name addition="Giacinto Bobone" key="193550312" life="1198" place="Roma" reg="Coelestin III papa (Hyacintus Bobo)">Iacinto</pers_name> cardinali diacono 
+                <place_name category="basilica" diocese="Roma" geodata="N 41°53′41″ E 12°29′02″" identification="Roma, Santa Maria in Cosmedin" institution="Basilica s. Mariae in Cosmedin">s. Mariae in Cosmedin</place_name> legationibusque eius cf. 
+                <bibl_link target="Fleisch, Rom und die Iberische Halbinsel">Fleisch Rom</bibl_link> p. 144-161 cum studiis laudatis nec non 
+                <bibl_link target="Smith, Iberian Legations">Smith Iberian Legations</bibl_link> passim.</pont_reg_add>
+            <pont_reg_main nr="Ib. Pont. II 26 n. *47"/>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_add nr="Ib. Pont. I 63 n. *94">Ib. Pont. I</pont_reg_add>
+            <pont_reg_main nr="Ib. Pont. II 26 n. *47">Ib. Pont. II</pont_reg_main>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_add nr="Ib. Pont. I 63 n. *94">63 n. *94</pont_reg_add>
+            <pont_reg_main nr="Ib. Pont. II 26 n. *47">26 n. *47</pont_reg_main>
+        </pont_no>
+        <pontificate>Anastasius IV.</pontificate>
+        <receipt_inst>
+            <pont_reg_add nr="Ib. Pont. I 63 n. *94">Burgos Episc.</pont_reg_add> Burgos Episc. n. *94 (Ib. Pont. I 63); Toledo, Archiepisc.; Palencia, Episc.; Osma, Episc.; Segovia, Episc.; Sigüenza, Episc.; Compostela, Archiepisc.; Ávila, Episc.; Salamanca, Episc.; Zamora, Episc.; Lugo, Episc.;Calahorra-Nájera, Episc.; Oviedo, Episc. 
+            <pont_reg_main nr="Ib. Pont. II 26 n. *47">León, Episc.</pont_reg_main> León, Episc. (Ib. Pont. II 26 n. *47); Ib. Pont. Regnum Castellae et Legionis. – De re et legatione Iacinti cf. Weiß Legaten p. 173–203, praesertim p. 175; Smith Iberian Legations p. 84.</receipt_inst>
+        <regest_pont>
+            <pont_reg_add nr="Ib. Pont. I 63 n. *94">
+                <pers_name addition="Giacinto Bobone" key="193550312" life="1198" place="Roma" reg="Coelestin III papa (Hyacintus Bobo)">
+                    <issuer>Iacintus</issuer> </pers_name> S.R.E. cardinalis et legatus (
+                <pers_name key="71750093" life="1154" place="Roma" reg="Anastasius IV papa (Conradus de Suburra)">Anastasii IV</pers_name>) una cum multis episcopis regnorum Castellae, 
+                <place_name category="regnum" diocese="Leon" geodata="N 42°36′00″ W 5°34′13″" identification="Leon" institution="Regnum Legionis">Legionis</place_name> atque 
+                <place_name category="regnum" geodata="N 42°45′18″ W 7°51′58″" identification="Galicia" institution="Regnum Gallaeciae">Gallaeciae</place_name> apud curiam 
+                <pers_name addition="Adefonsus, el Emperador" key="855131" life="1157" place="Castilla, Leon, Galicia" reg="Alfonsus VII rex">Adefonsi VII</pers_name> imperatoris moratur, ubi etiam 
+                <pers_name life="1156" place="Burgos" reg="Victor episcopus">Victor</pers_name>
+                <place_name category="episcopatus" diocese="Burgos" geodata="N 42°21′01″ W 3°40′31″" identification="Burgos, episc." institution="Episcopatus Burgensis">Burgensis</place_name> episcopus versatur.</pont_reg_add>
+            <pont_reg_main nr="Ib. Pont. II 26 n. *47">
+                <pers_name addition="Giacinto Bobone" key="193550312" life="gest. 1198" place="Roma" reg="Coelestinus III papa (Hyacintus Bobo)">
+                    <issuer> Iacintus</issuer> </pers_name>, diaconus cardinalis S.R.E. et 
+                <place_name addition="Papa; S. Romana ecclesia" category="Bistum" diocese="Roma" geodata="N 41°53′12″ E 12°30′20″" id="11669597" identification="Roma sedes apostolica et patriarchatus" institution="Sedes apostolica et Episcopatus seu patriarchatus Romanus">apostolicae sedis</place_name> (
+                <pers_name key="71750093" life="ca. 1073-1154" place="Roma" reg="Anastasius IV papa (Conradus de Suburra)">Anastasii IV</pers_name>) legatus in 
+                <place_name category="Region" geodata="N 40°00′00″ W 4°00′00″" id="2510769" identification="Hispania">Hispania</place_name>, una cum sexdecim episcopis, inter eos 
+                <pers_name addition="Albertinus" place="Leon" reg="Iohannes episcopus">Iohanne episcopo</pers_name>
+                <place_name category="Bistum" diocese="Legio" geodata="N 42°36′00″ W 5°34′13″" id="3118532" identification="Leon episc." institution="Episcopatus Legionensis">Legionensi</place_name>, apud curiam 
+                <pers_name addition="Adefonsus, el Emperador" key="855131" life="1105-1157" place="Castilla, Leon, Galicia" reg="Alfonsus VII rex">Aldefonsi VII imperatoris</pers_name> totius 
+                <place_name category="Region" geodata="N 40°00′00″ W 4°00′00″" id="2510769" identification="Hispania">Hispaniae</place_name> (regis 
+                <place_name category="Königreich" geodata="N 42°21′01″ W 3°40′31″" id="3127461" identification="Castilla" institution="Regnum Castellae">Castellae</place_name> et 
+                <place_name category="Königreich" diocese="Legio" geodata="N 42°36′00″ W 5°34′13″" id="3118532" identification="Leon" institution="Regnum Legionis">Legionis</place_name>) moratur.</pont_reg_main>
+        </regest_pont>
+        <worker_comment_pont>
+            <pont_reg_add nr="Ib. Pont. I 63 n. *94">Adressaten: . Anmerkungen und to do: ; Personen: Hyazinth, Kardinaldiakon v. Santa Maria in Cosmedin u. Apostolischer Legat, Anastasius IV., Papst, Alfons VII., Kg. v. Kastilien u. León, Victor, Bf. v. Burgos, , ; Orte: Segovia, , , , </pont_reg_add>
+            <pont_reg_main nr="Ib. Pont. II 26 n. *47"/>
+        </worker_comment_pont>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

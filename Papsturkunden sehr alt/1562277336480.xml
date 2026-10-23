@@ -1,0 +1,133 @@
+<text type="charter" id="1562277336480">
+    <bibl>
+        <edition>
+            <bibl_link uuid="{A483A22A-9BA3-4F67-962D-BBA04035E331}">Lucas de Tuy Milagros de San Isidoro, Salamanca 1525 (ed. Juan de Robles)</bibl_link> p. 397sq. 
+            <bibl_link uuid="{00E165AC-F595-481E-9AA7-913B6442A152}">Valcarce El dominio de San Isidoro</bibl_link> p. 82–85. 
+            <bibl_link uuid="{A76B20B3-FB26-4FE9-A79C-F141124D7A30}">Domínguez Sánchez Patrimonio de San Isidoro</bibl_link> p. 256–261 n. 137 (ex León Archivo de la Colegiata de San Isidoro n. 5). 
+            <bibl_link target="Martín López, Patrimonio de San Isidoro" target2="2488677" uuid="{44702B41-9C7F-43AA-8103-9683AA7B6323}">Martín López Patrimonio de San Isidoro</bibl_link> p. 145–149 n. 115. 
+            <bibl_link target="Domínguez Sánchez, Documentos León" uuid="{11854E9F-B827-49B3-8720-94342D22363F}">Domínguez Sánchez Documentos pontificios de León</bibl_link> p. 109–112 n. 47</edition>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests>
+            <bibl_link lang="" target="" target2="2488668" type="" uuid="{328F6746-5E1F-4119-82CE-E8BD9D838067}">Pérez Llamazares Catálogo de San Isidoro</bibl_link> p. 90</regests>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type>Original</descent_type>
+        <dim>840 x 640 + 30 mm</dim>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script>
+            <pont_reg_main nr="Ib. Pont. II 91 n. 18">Orig.: León Archivo de la Colegiata de San Isidoro n. 4. Copiae et excerpta: León Archivo de la Colegiata de San Isidoro n. 7 (copia simplex imitativa coeva), n. 5 (copia notarialis facta a Ferdinando Ferdinandi, notario regio in ecclesia Legionensi, a. 1344 oct. 13), n. 6 (copia facta in audientia ecclesiastica Legionensi, cum potestate Francisci Ferdinandi, vicarii episcopi Legionensis, a. 1480 sept. 9). Privilegios reales (saec. XVI): León Archivo de la Colegiata de San Isidoro Ms. LXXXI f. 202’– 210’ (cf. 
+                <bibl_link uuid="{328F6746-5E1F-4119-82CE-E8BD9D838067}">Pérez Llamazares Catálogo de San Isidoro</bibl_link> p. 74). Historia de la Real Colegiata (saec. XVII): León Archivo de la Colegiata de San Isidoro Ms. XCIV f. 63’–66 (cf. 
+                <bibl_link uuid="{328F6746-5E1F-4119-82CE-E8BD9D838067}">Pérez Llamazares Catálogo de San Isidoro</bibl_link> p. 78). Bulas apostólicas y privilegios reales (saec. XVII): León Archivo de la Colegiata de San Isidoro de León Ms. CVI f. 47 (exc.) (cf. 
+                <bibl_link uuid="{328F6746-5E1F-4119-82CE-E8BD9D838067}">Pérez Llamazares Catálogo de San Isidoro</bibl_link> p. 82). Visita Abacial (saec. XVII): León Archivo de la Colegiata de San Isidoro Ms. CIIbis f. 186’ (exc.)(cf. 
+                <bibl_link uuid="{328F6746-5E1F-4119-82CE-E8BD9D838067}">Pérez Llamazares Catálogo de San Isidoro</bibl_link> p. 80sq.). Visita Abacial (saec. XVIII): León Archivo de la Colegiata de San Isidoro Ms. CII f. 158’ (exc.) (cf. 
+                <bibl_link uuid="{328F6746-5E1F-4119-82CE-E8BD9D838067}">Pérez Llamazares Catálogo de San Isidoro</bibl_link> p. 80sq.).</pont_reg_main>
+        </script>
+        <seal>Bulla pendet ex filis sericis</seal>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no>Ego Alexander etc. Subscr. 2 episc., 8 card. presb. et 5 card. diac.</witness_no>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria/>
+        <date_p value="11760509" to="11760509" from="11760509">1176 mai. 9</date_p>
+        <initium>Religiosam vitam eligentibus</initium>
+        <pub_place>
+            <place_name category="Stadt" country="Italien" diocese="Anagni" geo_DEZIMAL_city="41.7333, 13.1667" geo_DMS_city="N 41° 45′ O 13° 9′" geodata="N 41°44′37″ E 13°09′20″" geodata_region="0" getty_city="7006676" id="3183098" identification="Anagni" region="Latium" uuid="{D36ECFF9-BB48-4859-A834-F46648AD9D04}">Anagni</place_name>
+        </pub_place>
+        <script_date>Dat. Anagniae p. m. Gratiani S.R.E. subdiac. et notarii 7 id. mai., ind. 9, inc. d. a. 1176, pont. v. d. Alexandri pp. III a. 17.</script_date>
+        <state/>
+        <supplier>
+            <pers_name BNF=" 13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN=" n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{D0AAAA76-4E0A-4470-9594-57CF75211EBB}">Alexander III</pers_name>
+        </supplier>
+        <supplier_type>papa</supplier_type>
+        <user_comment/>
+        <worker>Santiago Domínguez Sánchez/Daniel Berger; digitale Fassung: Carolin Sachs, Thomas Czerner</worker>
+    </head>
+    <info>
+        <date_sort value="11760509">11760509</date_sort>
+        <idno>Ib. Pont. II 91 n. 18</idno>
+    </info>
+    <jaffe>
+        <jaffe1>-</jaffe1>
+        <jaffe2_no> </jaffe2_no>
+        <jaffe2_page/>
+        <jaffe2_worker>-</jaffe2_worker>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_main nr="Ib. Pont. II 91 n. 18"> Rota, BV. – De re cf. 
+                <bibl_link uuid="{7A34B5DB-C5D1-41D0-9B69-ECF14C3BD87C}">Pérez Llamazares Historia de San Isidoro</bibl_link> p. 708; J. 
+                <bibl_link uuid="{E78A613C-6D75-4FFC-A8F1-9FD4BFC53509}">Rodríguez Señorío de Renueva</bibl_link> p. 126sq.; 
+                <bibl_link target="Fletcher, Las iglesias de León" uuid="{0834BEBE-CDE3-4A40-AE2C-F0A6E24F6CAC}">Fletcher Las iglesias</bibl_link> p. 477, 480; 
+                <bibl_link uuid="{4E101058-5066-40B1-ACA6-21046A190569}">Suárez Aproximación</bibl_link> p. 158. – 
+                <place_name BNE="XX142748" BNF="cb101603999" GND="4366218-3" GND_city="4035367-9" LCCN=" n80131838" LCCN_city="n79084423" VIAF="293889723" VIAF_city="140708126" category="Kloster" country="Spanien" diocese="Legio" geo_DEZIMAL_city="42.605556, -5.57" geo_DMS_city="N 42°36′20″ W 5°34′12″" geodata="N 42°36′02″ W 5°34′16″" geodata_region="0" id="6619208" identification="Leon, San Isidoro" institution="Monasterium s. Isidori vel Ysidori" region="Kastilien-León" uuid="{99A54F07-9FC6-4A58-97FC-AB5D53FE3456}">monasterium s. Isidori</place_name> sub censu unius marabotini etiam in Libro Censuum invenies, cf. 
+                <bibl_link target="Fabre, Le Liber Censuum" uuid="{7A7BDD92-5E3B-4B28-A648-9530FEC54AA9}">Fabre-Duchesne Liber censuum</bibl_link> I 221. II 116; cf. etiam 
+                <bibl_link target="Pfaff, Liber Censuum" uuid="{E9EED5D8-A489-4115-9247-DEB55AF3F1E5}">Pfaff Liber Censuum</bibl_link> p. 341 n. 646.</pont_reg_main>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_main nr="Ib. Pont. II 91 n. 18">Ib. Pont. II</pont_reg_main>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_main nr="Ib. Pont. II 91 n. 18">91 n. 18</pont_reg_main>
+        </pont_no>
+        <pontificate>Alexander III.</pontificate>
+        <receipt_inst>
+            <pont_reg_main nr="Ib. Pont. II 91 n. 18">San Isidoro</pont_reg_main> San Isidoro (Ib. Pont. II 91 n. 18)</receipt_inst>
+        <regest_pont>
+            <pont_reg_main nr="Ib. Pont. II 91 n. 18">
+                <pers_name BNF=" 13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN=" n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{D0AAAA76-4E0A-4470-9594-57CF75211EBB}">
+                    <issuer> Alexander III</issuer> </pers_name>
+                <pers_name floruit="1170" place="León, San Isidoro" reg="Martinus abbas" sex="male" termofoffice="1170 belegt" uuid="{E344567A-E9BE-4BE0-A414-B794505A07BE}">
+                    <adressee> Martino abbati</adressee> </pers_name>
+                <place_name BNE="XX142748" BNF="cb101603999" GND="4366218-3" GND_city="4035367-9" LCCN=" n80131838" LCCN_city="n79084423" VIAF="293889723" VIAF_city="140708126" category="Kloster" country="Spanien" diocese="Legio" geo_DEZIMAL_city="42.605556, -5.57" geo_DMS_city="N 42°36′20″ W 5°34′12″" geodata="N 42°36′02″ W 5°34′16″" geodata_region="0" id="6619208" identification="Leon, San Isidoro" institution="Monasterium s. Isidori vel Ysidori" region="Kastilien-León" uuid="{99A54F07-9FC6-4A58-97FC-AB5D53FE3456}">
+                    <adressee> monasterii s. Isidori</adressee> </place_name> eiusque fratribus tam praesentibus quam futuris etc.: ad exemplar 
+                <pers_name BNF=" 13488715t" GND="118682601" GermaniaSacra="064-00682-001" LCCN="n/85/287831" Wikidata="Q167610" addition="Bernardus Paganelli" floruit="1145-1153" key="142614511" life="gest. 1153" place="Roma" reg="Eugenius III papa" sex="male" termofoffice="1145-1153" uuid="{06C14F68-E0CE-4E0F-9350-E46E6C9D67F6}">Eugenii III</pers_name> (n. *6) et 
+                <pers_name BNF="145481118" GND="118719785" GermaniaSacra="066-02322-001" LCCN="n85287832" Wikidata="Q132845" addition="Nicolaus Breakspear" floruit="1120-1159" key="25397217" life="gest. 1159" place="Roma" reg="Hadrianus IV papa" sex="male" termofoffice="1154-1159" uuid="{CFE6AF90-6583-4B68-AF21-13BCB71F81EA}">Hadriani IV</pers_name> (n. *8) et ad postulationem eiusdem coenobii, 
+                <place_name BNE="XX142748" BNF="cb101603999" GND="4366218-3" GND_city="4035367-9" LCCN=" n80131838" LCCN_city="n79084423" VIAF="293889723" VIAF_city="140708126" category="Kloster" country="Spanien" diocese="Legio" geo_DEZIMAL_city="42.605556, -5.57" geo_DMS_city="N 42°36′20″ W 5°34′12″" geodata="N 42°36′02″ W 5°34′16″" geodata_region="0" id="6619208" identification="Leon, San Isidoro" institution="Monasterium s. Isidori vel Ysidori" region="Kastilien-León" uuid="{99A54F07-9FC6-4A58-97FC-AB5D53FE3456}">ecclesiam s. Isidori</place_name>, quae iuri 
+                <pers_name floruit="64" key="54940864" life="64" place="Roma" reg="Petrus apostolus" sex="male" uuid="{9A249ADC-75BD-4A3F-AEEF-0A2CD593965E}">b. Petri</pers_name> specialiter esse dinoscitur, sub 
+                <pers_name floruit="64" key="54940864" life="64" place="Roma" reg="Petrus apostolus" sex="male" uuid="{9A249ADC-75BD-4A3F-AEEF-0A2CD593965E}">b. Petri</pers_name> et sua protectione suscipit; statuit ut ordo canonicus secundum 
+                <pers_name floruit="354-430" key="66806872" life="354-430" reg="Augustinus sanctus" sex="male" uuid="{508DABB3-FD42-4D75-8B0B-B70E92B7CCCE}">b. Augustini</pers_name> regulam conservetur; sancit ut omnes possessiones et bona, propriis vocabulis expressa, firma et illibata monasterio conserventur; concedit liberam electionem abbati; concedit benedictionis gratiam a quocumque episcopo accipiendam; sancit ut chrisma, oleum sanctum, consecrationes et ordinationes a quocumque episcopo suscipiantur; prohibet ne ullus episcoporum ecclesiam aut clericos monasterii memorati interdicto supponat; concedit cum commune interdictum terrae fuerit divina officia celebrare; concedit liberam facultatem suscipiendi in monasterio ipso personas absolutas; interdicit ne ullus professorum de claustro discedat; concedit liberam sepulturam in dicto loco; sancit ut unus aureus ad indicium protectionis a 
+                <place_name GND_city="4050471-2" LCCN_city="n79018704" VIAF_city="145348938" addition="Papa; S. Romana ecclesia" category="Bistum" country="Italien" diocese="Roma" geo_DEZIMAL_city="41.9667, 12.6667" geo_DMS_city="N 41° 53′ 0″ E 12° 29′ 0″" geodata="N 41°53′12″ E 12°30′20″" geodata_region="-1" id="11669597" identification="Roma, sedes apostolica et patriarchatus" institution="Sedes apostolica et Episcopatus seu patriarchatus Romanus" region="Latium" uuid="{2D170E98-4D42-4AD1-90F2-325218BC7142}">sede apostolica</place_name> annuatim persolvatur.</pont_reg_main>
+        </regest_pont>
+        <worker_comment_pont>
+            <pont_reg_main nr="Ib. Pont. II 91 n. 18">Adressaten: Martino abbati monasterii s. Isidori eiusque fratribus tam praesentibus quam futuris etc.. Anmerkungen und to do: ; Personen: , , , , , ; Orte: , , , , </pont_reg_main>
+        </worker_comment_pont>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

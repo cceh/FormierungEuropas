@@ -1,0 +1,181 @@
+<text type="charter" id="1422544608863">
+    <bibl>
+        <edition>
+            <bibl_link target="Valiña Sampedro, Camino">Valiña El camino de Santiago</bibl_link> p. 123 (ad a. 1156); 
+            <bibl_link target="Colección León 5">Fernández Catón Colección León V</bibl_link> 281 n. 1485 ad a. 1155 iun. 19; 
+            <bibl_link target="Domínguez Sánchez, Documentos León">Domínguez Sánchez Documentos</bibl_link> p. 83 n. 22 ad a. 1155</edition>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests>
+            <bibl_link target=" García Villada, Catálogo León">García Villada Catálogo</bibl_link> p. 92</regests>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type>Original</descent_type>
+        <dim>190 x 180 + 22 mm</dim>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script>
+            <pont_reg_main nr="Ib. Pont. II 28 n. 54">Orig.: León Archivo de la Catedral n. 336.</pont_reg_main>
+            <pont_reg_add nr="Ib. Pont. I 65 n. 101">León Archivo de la Catedral n. 336.</pont_reg_add>
+        </script>
+        <seal>Bulla pendet ex filo canapis.</seal>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria/>
+        <date_p value="11570608" to="11570608" from="">(1157) iun. 8</date_p>
+        <initium>Cum dilectus filius</initium>
+        <pub_place>
+            <place_name category="Kirche" diocese="Roma" geodata="N 41°53′09″ E 12°30′21″" id="7602857" identification="Roma, Laterano" institution="Ecclesia s. Iohannis in Laterano">Laterano</place_name>
+        </pub_place>
+        <script_date>Dat. Lat. 6 id. iun.</script_date>
+        <state/>
+        <supplier>
+            <pers_name addition="Nicolaus Breakspear" key="25397217" life="gest. 1159" place="Roma" reg="Hadrianus IV papa">Hadrianus IV</pers_name>
+        </supplier>
+        <supplier_type>papa</supplier_type>
+        <user_comment/>
+        <worker>Berger (Ib. Pont. I); Santiago Domínguez Sánchez/Daniel Berger (Ib. Pont. II); digitale Fassung: Carolin Sachs, Thomas Czerner (Ib. Pont II)</worker>
+    </head>
+    <info>
+        <date_sort value="11570608">11570608</date_sort>
+        <idno>Ib. Pont. I 65 n. 101</idno>
+    </info>
+    <jaffe>
+        <jaffe1/>
+        <jaffe2_no>-</jaffe2_no>
+        <jaffe2_page/>
+        <jaffe2_worker>-</jaffe2_worker>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_main nr="Ib. Pont. II 28 n. 54"> In dorso legitur: “Anno 1155”. De tempore litterarum a. 1157 et non a. 1155 aut 1158, cf. itinerarium 
+                <pers_name addition="Nicolaus Breakspear" key="25397217" life="gest. 1159" place="Roma" reg="Hadrianus IV papa">Hadriani IV</pers_name> in 
+                <bibl_link target="Jaffé, Regesta Pontificum Romanorum">JL. II</bibl_link> p. 111. 125. 133, et 
+                <bibl_link target="Hiestand, Initienverzeichnis">Hiestand Initienverzeichnis</bibl_link> p. 204. 212. 216. – De re cf. 
+                <bibl_link>Estepa Estructura</bibl_link> p. 192 (ad a. 1190); 
+                <bibl_link target="Fletcher, Las iglesias de León">Fletcher Las iglesias</bibl_link> p. 476. 483. – De legatione cardinalis 
+                <pers_name addition="Giacinto Bobone" key="193550312" life="gest. 1198" place="Roma" reg="Coelestinus III papa (Hyacintus Bobo)">Iacinti</pers_name> cf. 
+                <bibl_link target="Weiß, Legaten">Weiß Legaten</bibl_link> p. 173–203. </pont_reg_main>
+            <pont_reg_add nr="Ib. Pont. I 65 n. 101">Ex itinerario 
+                <pers_name key="25397217" life="1159" place="Roma" reg="Hadrianus IV papa (Nicolaus Breakspear)">Hadriani IV</pers_name> elucet has litteras non a. 
+                <date value="11559999">1155</date>, sed a. 
+                <date value="11579999">1157</date> exhibitas esse, cf. 
+                <bibl_link target="Jaffé, Regesta Pontificum Romanorum">JL</bibl_link>. II p. 125. A. 
+                <date value="11550608">1155 iun. 8</date>
+                <pers_name key="25397217" life="1159" place="Roma" reg="Hadrianus IV papa (Nicolaus Breakspear)">Hadrianus IV</pers_name> in civitate 
+                <place_name diocese="Nepi" geodata="N 42°14′32″ E 12°20′37″" identification="Nepi">Nepesina</place_name>, a. 
+                <date value="11580608">1158 iun. 8</date>
+                <place_name diocese="Sutri" geodata="N 42°14′45″ E 12°13′02″" identification="Sutri">Sutrii</place_name> moratus est, cf. ibid. p. 111; 
+                <bibl_link target="Hiestand, Initienverzeichnis">Hiestand Initienverzeichnis</bibl_link> p. 216.</pont_reg_add>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_main nr="Ib. Pont. II 28 n. 54">Ib. Pont. II</pont_reg_main>
+            <pont_reg_add nr="Ib. Pont. I 65 n. 101">Ib. Pont. I</pont_reg_add>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_main nr="Ib. Pont. II 28 n. 54">28 n. 54</pont_reg_main>
+            <pont_reg_add nr="Ib. Pont. I 65 n. 101">65 n. 101</pont_reg_add>
+        </pont_no>
+        <pontificate>Hadrianus IV.</pontificate>
+        <receipt_inst>
+            <pont_reg_main nr="Ib. Pont. II 28 n. 54">León, Episc.</pont_reg_main>
+            <pont_reg_add nr="Ib. Pont. I 65 n. 101">Burgos, Episc.</pont_reg_add> León, Episc. n. 54 (Ib. Pont. II 28); Burgos, Episc. n. 101 (Ib. Pont. I 65); Lugo, Episc.; Zamora, Episc.; Palencia, Episc.; v. etiam León, Eccl. cath. n. 13 (Ib. Pont. II 65)</receipt_inst>
+        <regest_pont>
+            <pont_reg_main nr="Ib. Pont. II 28 n. 54">
+                <pers_name addition="Nicolaus Breakspear" key="25397217" life="gest. 1159" place="Roma" reg="Hadrianus IV papa"> Hadrianus IV </pers_name>
+                <pers_name addition="Esteban" place="Zamora" reg="Stephanus episcopus"> (Stephano </pers_name>) 
+                <place_name category="Bistum" diocese="Zamora" geodata="N 41°30′23″ W 5°44′40″" id="3104342" identification="Zamora episc." institution="Episcopatus Zamorensis">
+                    <adressee> Zamorensi</adressee> </place_name> (et 
+                <pers_name addition="Perez" place="Burgos" reg="Petrus (II) episcopus"> Petro II </pers_name>) 
+                <place_name category="Bistum" diocese="Burgos" geodata="N 42°21′01″ W 3°40′31″" id="3127461" identification="Burgos episc." institution="Episcopatus Burgensis">
+                    <adressee> Burgensi</adressee> </place_name> episcopis: committit eis causam quae vertitur inter episcopos 
+                <pers_name place="Lugo" reg="Iohannes episcopus">(Iohannem</pers_name>) 
+                <place_name category="Bistum" diocese="Lucus Augusti (Lugo)" geodata="N 43°00′36″ W 7°33′22″" id="3117814" identification="Lugo episc." institution="Episcopatus Lucensis">Lucensem</place_name> et 
+                <pers_name addition="Albertinus" place="Leon" reg="Iohannes episcopus">(Iohannem</pers_name>) 
+                <place_name category="Bistum" diocese="Legio" geodata="N 42°36′00″ W 5°34′13″" id="3118532" identification="Leon episc." institution="Episcopatus Legionensis">Legionensem</place_name> super archidiaconatu de 
+                <place_name category="Stadt" diocese="Lucus Augusti (Lugo)" geodata="N 42°45′20″ W 7°14′29″" id="3107488" identification="Triacastela">Triacastella</place_name>; certiores facit eos quod, cum nuper episcopus 
+                <place_name category="Bistum" diocese="Lucus Augusti (Lugo)" geodata="N 43°00′36″ W 7°33′22″" id="3117814" identification="Lugo episc." institution="Episcopatus Lucensis">Lucensis</place_name> quaestionem hanc movisse dicitur in praesentia 
+                <pers_name addition="Giacinto Bobone" key="193550312" life="gest. 1198" place="Roma" reg="Coelestinus III papa (Hyacintus Bobo)">Iacinti</pers_name>, diaconi cardinalis et legati 
+                <place_name addition="Papa; S. Romana ecclesia" category="Bistum" diocese="Roma" geodata="N 41°53′12″ E 12°30′20″" id="11669597" identification="Roma, sedes apostolica et patriarchatus" institution="Sedes apostolica et Episcopatus seu patriarchatus Romanus">apostolicae sedis</place_name> in 
+                <place_name category="Region" geodata="N 40°00′00″ W 4°00′00″" id="2510769" identification="Hispania">Hispania</place_name>, et ad litis contestationem processisse (León, Episc. n. *51), ceterum, contestata lite, et apud dictum cardinalem aliquamdiu ventilata, et agendi termino utrique parti praefixo, querelae suae idem episcopus 
+                <place_name category="Bistum" diocese="Lucus Augusti (Lugo)" geodata="N 43°00′36″ W 7°33′22″" id="3117814" identification="Lugo episc." institution="Episcopatus Lucensis">Lucensis</place_name> supersedit (León, Episc. n. *52), unde nunc, per praesentes litteras, 
+                <place_name category="Bistum" diocese="Zamora" geodata="N 41°30′23″ W 5°44′40″" id="3104342" identification="Zamora episc." institution="Episcopatus Zamorensis">Zamorensi</place_name> et 
+                <place_name category="Bistum" diocese="Burgos" geodata="N 42°21′01″ W 3°40′31″" id="3127461" identification="Burgos episc." institution="Episcopatus Burgensis">Burgensi</place_name> episcopis mandat quatinus si litem contestatam fuisse constiterit, in unum convenientes utramque partem ante suam praesentiam convocent, et rationibus utriusque diligenter auditis et plenarie cognitis, causam ipsam, mediante iustitia, decidant; si vero alter utra pars appellationis obstaculum decreverit opponendum, mandat ut testes faciant sibi nichilominus exhiberi, et, eis examinatis legitime, et si idonei fuerint inventi receptis, attestationes eorum quas iurati deposuerint, in scripturae seriem redigant, et sigillorum suorum impressione signantes, transmittant 
+                <place_name addition="Papa; S. Romana ecclesia" category="Bistum" diocese="Roma" geodata="N 41°53′12″ E 12°30′20″" id="11669597" identification="Roma, sedes apostolica et patriarchatus" institution="Sedes apostolica et Episcopatus seu patriarchatus Romanus">apostolicae sedis</place_name> notitiae cognoscendas; committit tandem eis causam quae vertitur inter episcopos 
+                <place_name category="Bistum" diocese="Legio" geodata="N 42°36′00″ W 5°34′13″" id="3118532" identification="Leon episc." institution="Episcopatus Legionensis">Legionensem</place_name> et 
+                <place_name category="Bistum" diocese="Palencia" geodata="N 42°00′34″ W 4°31′27″" id="3114531" identification="Palencia episc" institution="Episcopatus Palentinus">Palentinum</place_name> super iurisdictione de 
+                <place_name addition="Palencia" category="Stadt" geodata="N 41°53′00″ W 5°02′39″" id="3117008" identification="Medina de Rioseco">Medina (Medina de Rioseco</place_name>).</pont_reg_main>
+            <pont_reg_add nr="Ib. Pont. I 65 n. 101">
+                <pers_name key="25397217" life="1159" place="Roma" reg="Hadrianus IV papa (Nicolaus Breakspear)">
+                    <issuer>Hadrianus IV</issuer>
+                </pers_name> (
+                <pers_name addition="Esteban" life="Bischof bis 1174" place="Zamora" reg="Stephanus episcopus">
+                    <adressee>Stephano</adressee>
+                </pers_name>) 
+                <place_name category="episcopatus" diocese="Zamora" geodata="N 41°30′23″ W 5°44′40″" identification="Zamora, episc." institution="Episcopatus Zamorensis">
+                    <adressee>Zamorensi</adressee>
+                </place_name> (et 
+                <pers_name addition="Perez" life="Bischof bis 1181" place="Burgos" reg="Petrus (II) episcopus">
+                    <adressee>Petro II</adressee>
+                </pers_name>) 
+                <place_name category="episcopatus" diocese="Burgos" geodata="N 42°21′01″ W 3°40′31″" identification="Burgos, episc." institution="Episcopatus Burgensis">
+                    <adressee>Burgensi</adressee>
+                </place_name> episcopis: mandat, ut episcopos 
+                <place_name category="episcopatus" diocese="Lugo" geodata="N 43°00′36″ W 7°33′22″" identification="Lugo, episc." institution="Episcopatus Lucensis">Lucensem</place_name> (
+                <place_name category="episcopatus" diocese="Lugo" geodata="N 43°00′36″ W 7°33′22″" identification="Lugo, episc." institution="Episcopatus Lucensis">Lugo</place_name>) et 
+                <place_name category="episcopatus" diocese="Leon" geodata="N 42°36′00″ W 5°34′13″" identification="Leon, episc." institution="Episcopatus Legionensis">
+                    <recipient>Legionensem</recipient>
+                </place_name> (
+                <place_name diocese="Leon" geodata="N 42°36′00″ W 5°34′13″" identification="Leon">León</place_name>) litigantes de archidiaconatu, qui dicitur 
+                <place_name diocese="Lugo" geodata="N 42°45′20″ W 7°14′29″" identification="Triacastela">Triacastella</place_name> (
+                <place_name diocese="Lugo" geodata="N 42°45′20″ W 7°14′29″" identification="Triacastela">Triacastela</place_name>), in praesentiam suam convocent causamque inter eos iam diu etiam coram 
+                <pers_name addition="Giacinto Bobone" key="193550312" life="1198" place="Roma" reg="Coelestin III papa (Hyacintus Bobo)">I(acinto</pers_name>) diac. card. in 
+                <place_name geodata="N 40°00′00″ W 4°00′00″" identification="Hispania">Hispania</place_name> legationis officio fungente agitatam mediante iustitia decidant. Si vero alterutra pars illato sibi iudicio appellare decreverit, ipsi iudices testes exhiberi faciant, attestationes eorum in scripturae seriem redigant et sigillorum impressione signantes ad decisionem litis procedendam notitiae Romani pontificis cognoscendas transmittant. Eodem modo alia lis, quae inter 
+                <place_name category="episcopatus" diocese="Palencia" geodata="N 42°00′34″ W 4°31′27″" identification="Palencia, episc" institution="Episcopatus Palentinus">Palentinum</place_name> et 
+                <place_name category="episcopatus" diocese="Leon" geodata="N 42°36′00″ W 5°34′13″" identification="Leon, episc." institution="Episcopatus Legionensis">Legionensem</place_name> episcopos de 
+                <place_name addition="Palencia" geodata="N 41°53′00″ W 5°02′39″" identification="Medina de Rioseco">Medina (de Rioseco)</place_name> ventilatur, diffiniant.</pont_reg_add>
+        </regest_pont>
+        <worker_comment_pont>
+            <pont_reg_add nr="Ib. Pont. I 65 n. 101">Adressaten: (Stephano) Zamorensi (et 
+                <pers_name addition="Perez" life="Bischof bis 1181" place="Burgos" reg="Petrus (II) episcopus">Petro II</pers_name>) Burgensi episcopis. Anmerkungen und to do: ; Personen: Hadrian IV., Papst, Estebán, Bf. v. Zamora, 
+                <pers_name addition="Pedro de Agen" life="1149" place="Segovia" reg="Petrus episcopus">Pedro</pers_name> (II.), Bf. v. Burgos, Juan, Bf. v. Lugo, Hyazinth, Kardinaldiakon v. Santa Maria in Cosmedin u. Apostolischer Legat, Juan, Bf. v. León; Orte: Triacastela, Medina de Rioseco, Palencia, León, Lugo</pont_reg_add>
+        </worker_comment_pont>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

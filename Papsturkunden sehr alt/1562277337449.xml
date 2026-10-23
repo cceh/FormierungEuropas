@@ -1,0 +1,111 @@
+<text type="charter" id="1562277337449">
+    <bibl>
+        <edition>
+            <bibl_link uuid="{00E165AC-F595-481E-9AA7-913B6442A152}">Valcarce El dominio de San Isidoro</bibl_link> p. 174sq. 
+            <bibl_link target="Martín López, Patrimonio de San Isidoro" target2="2488677" uuid="{44702B41-9C7F-43AA-8103-9683AA7B6323}">Martín López Patrimonio de San Isidoro</bibl_link> p. 154–156 n. 121. Julio 
+            <bibl_link target="González, Regesta" uuid="{CB92BDF4-0F17-4924-A353-AF3DA1CECB0C}">González Regesta</bibl_link> de Fernando II p. 120)</edition>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests/>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type>Erwähnung</descent_type>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script>
+            <pont_reg_main nr="Ib. Pont. II 92 n. *22">Laud. in compositione inter abbatem et Velascum Henrici a. 1178 iun. 2 facta (Orig.: León Archivo de la Colegiata de San Isidoro n. 324).</pont_reg_main>
+        </script>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria>*</criteria>
+        <date_p value="11779999" to="11779999" from="11779999">(ante 1178)</date_p>
+        <initium/>
+        <pub_place/>
+        <script_date/>
+        <state/>
+        <supplier>
+            <pers_name BNF=" 13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN=" n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{D0AAAA76-4E0A-4470-9594-57CF75211EBB}">Alexander III</pers_name>
+        </supplier>
+        <supplier_type>papa</supplier_type>
+        <user_comment/>
+        <worker>Santiago Domínguez Sánchez/Daniel Berger; digitale Fassung: Thorsten Schlauwitz</worker>
+    </head>
+    <info>
+        <date_sort value="11779999">11779999</date_sort>
+        <idno>Ib. Pont. II 92 n. *22</idno>
+    </info>
+    <jaffe>
+        <jaffe1>-</jaffe1>
+        <jaffe2_no>-</jaffe2_no>
+        <jaffe2_page/>
+        <jaffe2_worker>-</jaffe2_worker>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_main nr="Ib. Pont. II 92 n. *22"/>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_main nr="Ib. Pont. II 92 n. *22">Ib. Pont. II</pont_reg_main>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_main nr="Ib. Pont. II 92 n. *22">92 n. *22</pont_reg_main>
+        </pont_no>
+        <pontificate>Alexander III.</pontificate>
+        <receipt_inst>
+            <pont_reg_main nr="Ib. Pont. II 92 n. *22">San Isidoro</pont_reg_main> San Isidoro (Ib. Pont. II 92 n. *22); v. etiam Ib. Pont. Salamanca, Episc.; Salamanca, Laici.</receipt_inst>
+        <regest_pont>
+            <pont_reg_main nr="Ib. Pont. II 92 n. *22">
+                <pers_name BNF=" 13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN=" n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{D0AAAA76-4E0A-4470-9594-57CF75211EBB}">Alexander III</pers_name> praecipit ut ecclesia s. Mariae de Vega01, sita in suburbio 
+                <place_name GND_city="4118281-9" LCCN_city="n79056177" VIAF_city="157093141" category="Stadt" country="Spanien" diocese="Salamantina" geo_DEZIMAL_city="40.97°, -5.67°" geo_DMS_city="N 40° 58′ 12″ W 5° 40′ 12″" geodata="N 40°57'53.88″ W 5°39'46.89″" geodata_region="0" identification="Salamanca" region="Kastilien-León" uuid="{0B48817B-014D-486D-8FEC-14784FD8CF56}">civitatis Salamantinae</place_name>, cum omnibus pertinentiis et redditibus suis, monasterio 
+                <place_name BNE="XX142748" BNF="cb101603999" GND="4366218-3" GND_city="4035367-9" LCCN=" n80131838" LCCN_city="n79084423" VIAF="293889723" VIAF_city="140708126" category="Kloster" country="Spanien" diocese="Legio" geo_DEZIMAL_city="42.605556, -5.57" geo_DMS_city="N 42°36′20″ W 5°34′12″" geodata="N 42°36′02″ W 5°34′16″" geodata_region="0" id="6619208" identification="Leon, San Isidoro" institution="Monasterium s. Isidori vel Ysidori" region="Kastilien-León" uuid="{99A54F07-9FC6-4A58-97FC-AB5D53FE3456}">s. Isidori</place_name> Legionensi revertatur. Significat quod orta fuit contentio inter 
+                <pers_name floruit="1170" place="León, San Isidoro" reg="Martinus abbas" sex="male" termofoffice="1170 belegt" uuid="{E344567A-E9BE-4BE0-A414-B794505A07BE}">Martinum abbatem</pers_name> ipsius monasterii et 
+                <pers_name addition="miles" floruit="1178" place="Salamanca" reg="Velascus Henrici" sex="male" uuid="{B122C698-D824-4B9D-97CA-4EC7E7ED722E}">Velascum Henrici</pers_name> militem Salamatinum, quia ipse miles, licet primo per testamentum, iure hereditario, ecclesiam s. Mariae de Vega01 coenobio 
+                <place_name BNE="XX142748" BNF="cb101603999" GND="4366218-3" GND_city="4035367-9" LCCN=" n80131838" LCCN_city="n79084423" VIAF="293889723" VIAF_city="140708126" category="Kloster" country="Spanien" diocese="Legio" geo_DEZIMAL_city="42.605556, -5.57" geo_DMS_city="N 42°36′20″ W 5°34′12″" geodata="N 42°36′02″ W 5°34′16″" geodata_region="0" id="6619208" identification="Leon, San Isidoro" institution="Monasterium s. Isidori vel Ysidori" region="Kastilien-León" uuid="{99A54F07-9FC6-4A58-97FC-AB5D53FE3456}">s. Isidori</place_name> concesserat, postea priorem et canonicos quos abbas 
+                <place_name BNE="XX142748" BNF="cb101603999" GND="4366218-3" GND_city="4035367-9" LCCN=" n80131838" LCCN_city="n79084423" VIAF="293889723" VIAF_city="140708126" category="Kloster" country="Spanien" diocese="Legio" geo_DEZIMAL_city="42.605556, -5.57" geo_DMS_city="N 42°36′20″ W 5°34′12″" geodata="N 42°36′02″ W 5°34′16″" geodata_region="0" id="6619208" identification="Leon, San Isidoro" institution="Monasterium s. Isidori vel Ysidori" region="Kastilien-León" uuid="{99A54F07-9FC6-4A58-97FC-AB5D53FE3456}">s. Isidori</place_name> miserat in ecclesiam s. Mariae02 ad serviendum Deo, absque iudicio et rationabili causa, fecerat expelli; qua propter abbas per nuntios suos in praesentia 
+                <pers_name BNF=" 13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN=" n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{D0AAAA76-4E0A-4470-9594-57CF75211EBB}">Alexandri III</pers_name> de tam iniusta electionem gravem deposuit querimoniam (cf. San Isidoro n. *21).</pont_reg_main>
+        </regest_pont>
+        <worker_comment_pont>
+            <pont_reg_main nr="Ib. Pont. II 92 n. *22">Adressaten: . Anmerkungen und to do: ; Personen: , , , , , ; Orte: , , , , </pont_reg_main>
+        </worker_comment_pont>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

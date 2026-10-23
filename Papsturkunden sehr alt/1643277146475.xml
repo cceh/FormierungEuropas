@@ -1,0 +1,108 @@
+<text type="charter" id="1643277146475">
+    <bibl>
+        <edition/>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests/>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type/>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script/>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria/>
+        <date_p value="11591231" to="11591231" from="11540101">(1154–1159)</date_p>
+        <initium/>
+        <pub_place/>
+        <script_date/>
+        <state/>
+        <supplier>
+            <pers_name BNF="145481118" GND="118719785" GermaniaSacra="066-02322-001" LCCN="n85287832" Wikidata="Q132845" addition="Nicolaus Breakspear" floruit="1120-1159" key="25397217" life="gest. 1159" place="Roma" reg="Hadrianus IV papa" sex="male" termofoffice="1154-1159" uuid="{B40E33A7-DA02-4D3A-B425-0AB9B9A86FCD}">Adrianus IV papa</pers_name>
+        </supplier>
+        <supplier_type>papa</supplier_type>
+        <user_comment/>
+        <worker>Gall. Pont III,3: Beate Schilling; digitale Fassung: Valérie Lüthi, Johannes Luther</worker>
+    </head>
+    <info>
+        <date_sort value="11591231">11591231</date_sort>
+        <idno>Gall. Pont. III,3 100 n. 5</idno>
+    </info>
+    <jaffe>
+        <jaffe1/>
+        <jaffe2_no/>
+        <jaffe2_page/>
+        <jaffe2_worker/>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont/>
+        <pont_bd>
+            <pont_reg_add nr="Gall. Pont. III,3 100 n. 5">Gall. Pont. III,3</pont_reg_add>
+            <pont_reg_main nr="Gall. Pont. III,2 394 n. *94">Gall. Pont. III,2 </pont_reg_main>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_add nr="Gall. Pont. III,3 100 n. 5">100 n. 5</pont_reg_add>
+            <pont_reg_main nr="Gall. Pont. III,2 394 n. *94">394 n. *94</pont_reg_main>
+        </pont_no>
+        <pontificate>Hadrianus IV</pontificate>
+        <receipt_inst>
+            <pont_reg_add nr="Gall. Pont. III,3 100 n. 5">Die, ecclesia S. Petri</pont_reg_add> Valence, ecclesia S. Ruffi (Gall. Pont. III,2 394 n. *94); Die, ecclesia S. Petri (Gall. Pont. III,3 100 n. 5)</receipt_inst>
+        <regest_pont>
+            <pont_reg_add nr="Gall. Pont. III,3 100 n. 5">
+                <pers_name BNF="145481118" GND="118719785" GermaniaSacra="066-02322-001" LCCN="n85287832" Wikidata="Q132845" addition="Nicolaus Breakspear" floruit="1120-1159" key="25397217" life="gest. 1159" place="Roma" reg="Hadrianus IV papa" sex="male" termofoffice="1154-1159" uuid="{B40E33A7-DA02-4D3A-B425-0AB9B9A86FCD}">
+                    <issuer> Adrianus IV</issuer> </pers_name>
+                <pers_name floruit="1154/1159" place="Die, Saint-Pierre" reg="Petrus prior" sex="male" termofoffice="1154/1159 belegt" uuid="{367BAD81-3E8E-46B6-9512-DA8EE13BC8CE}">
+                    <adressee> Petro priori</adressee> </pers_name>
+                <place_name BNE="" BNE_city="" BNF="" BNF_city="" GND="" GND_city="" GS_Klosterdatenbank="" Getty="" LCCN="" LCCN_city="" VIAF="" VIAF_city="" addition="Kirche bis zum 16. Jh. nachweisbar im Westen der Stadt" category="Kanonikerstift" country="Frankreich" diocese="Dea Vocontiorum" geo_DEZIMAL_city="44.7536, 5.3703" geo_DMS_city="N 44° 45′ 12.96″ E 5° 22′ 13.08″" geodata="N 44°45′25″ E 5°22′07″" geodata_region="0" geodata_vague="-1" geonames_city="" getty_city="" id="" identification="Die, Eglise Saint-Pierre" institution="Ecclesia S. Petri secus Diam" literature="Gall. Pont. III,3, S. 98-101" region="Auvergne-Rhône-Alpes" uuid="{083BB27E-AEC5-46D1-9FB7-9E5AD7FAD6DD}">
+                    <adressee> ecclesiae S. Petri Diensis</adressee> </place_name>
+                <pers_name BNF="" GND="" GermaniaSacra="" LCCN="" Wikidata="" addition="" floruit="" key="" life="" literature="" place="" reg="canonici S. Petri" sex="" termofoffice="" uuid="">
+                    <adressee> ejusque fratribus</adressee> </pers_name> regularem vitam professis: eorum postulationibus annuens, suscipit eorum ecclesiam sub b. Petri et sua protectione communitque privilegio. Statuit de ordine canonico secundum b. Augustini regulam et institutiones ecclesiae 
+                <place_name GND_city="4119350-7" LCCN_city="n81101041" VIAF_city="11146030574635861686" addition="bis 1158 in Avignon, dann in Valence beheimatet; seit dem 14. Jh. intra muros" category="Kanonikerstift" country="Frankreich" diocese="Avennio/Valentia" geo_DEZIMAL_city="44.9325°, 4.891111°" geo_DMS_city="N 44° 55′ 57″ E 4° 53′ 28″" geodata="N 44°56′02″ E 4°53′22″" geodata_region="0" geodata_vague="0" geonames_city="2971053" id="122266954" identification="Saint-Ruf" institution="Ecclesia S. Ruffi" literature="Gall. Pont. III,3, S. 328-413" region="Auvergne-Rhône-Alpes" uuid="{8C73A63A-A194-46BC-ADBB-1222EA1EDD9B}">S. Rufi</place_name> conservando. Confirmat possessiones inter quas nominat burgum juxta ipsam ecclesiam, jus parrochiale et 18 terras. Sancit ut nec Templariis nec Hospitalariis nec cuilibet alii liceat infra terminos ipsius ecclesiae oratorium vel ecclesiam eis invitis aedificare. Decernit de libertate sepulturae, salva justitia matricis ecclesiae, et de licentia divinorum officiorum celebrandorum cum generale interdictum terrae fuerit. Confirmat decimas sicut 
+                <pers_name BNF="16640450" Wikidata="Q1773290" addition="Hugo von Die (dort Bf. 1073-1083)" floruit="1072-1106" key="216323012" life="1035/40-1109" literature="Dictionnaire d'histoire et de géographie ecclésiastiques 25, Sp. 215-219; Lexikon des Mittelalters 5, Sp. 166; Goggin, Hugh; Blumenthal, Hugh; Rennie, Law" place="Lyon" reg="Hugo archiepiscopus" sex="male" termofoffice="1083-1106" uuid="{5ECD4271-4A73-4A4A-B9EC-2DC720A41704}">Hugo</pers_name> bonae memoriae 
+                <place_name category="Bistum" country="Frankreich" diocese="Dea Vocontiorum" geo_DEZIMAL_city="44.7536, 5.3703" geo_DMS_city="N 44° 45′ 12.96″ E 5° 22′ 13.08″" geodata="N 44°45′8″ E 5°22′16″" geodata_region="-1" geodata_vague="0" id="12047198" identification="Die, episc." institution="Episcopatus Diensis" region="Auvergne-Rhône-Alpes" uuid="{FC0940D8-961F-49AC-A336-1A7423B585DD}">Diensis</place_name> episcopus atque 
+                <pers_name Wikidata="Q78908529" addition="Ismido von Sassenage" floruit="1097-1115" literature="Chevalier, Notes, S. 268; Bibliotheca Sanctorum 7, Sp. 983–985; Dictionnaire d'histoire et de géographie ecclésiastiques 26, Sp. 267f." place="Die" reg="Ismido (Ismeon) episcopus" sex="male" termofoffice="1097-1115" uuid="{93F25741-2414-4ECF-BE59-2A9EC2A89150}">Ismido</pers_name> et alii successores ejus concesserunt.</pont_reg_add>
+        </regest_pont>
+        <worker_comment_pont/>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

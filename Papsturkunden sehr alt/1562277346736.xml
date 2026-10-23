@@ -1,0 +1,134 @@
+<text type="charter" id="1562277346736">
+    <bibl>
+        <edition>
+            <bibl_link target="Escalona, Historia Sahagún" uuid="{ABF114E9-64C2-4028-BCEC-1BB5601B2BC5}">Escalona Historia de Sahagún app. III</bibl_link> p. 541–543 n. 176. 
+            <bibl_link target="Colección León 5" uuid="{D0303730-8567-47D9-9CFC-3ACC5A4375E7}">Fernández Catón Colección catedral de León V</bibl_link> 330–333 n. 1515. 
+            <bibl_link target="Colección Sahagún 4" uuid="{8618A447-18D7-46D4-BE9E-80BF48ADCBAF}">Fernández Flórez Colección de Sahagún IV</bibl_link> 285–288 n. 1338. 
+            <bibl_link target="Domínguez Sánchez, Documentos León" uuid="{11854E9F-B827-49B3-8720-94342D22363F}">Domínguez Sánchez Documentos pontificios de León</bibl_link> p. 86sq. n. 25.</edition>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests>
+            <bibl_link target2="1314604" uuid="{256B4623-ADCA-41C2-B5EA-A9A85BC66BD5}">Vignau Índice de Sahagún</bibl_link> p. 530 n. 2307. 
+            <bibl_link target=" García Villada, Catálogo León" uuid="{DC84DCB3-8CEB-42BE-8F7C-D598F542C852}">García Villada Catálogo</bibl_link> p. 157</regests>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type>Original</descent_type>
+        <dim>578 x 617 + 25 mm</dim>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script>
+            <pont_reg_main nr="Ib. Pont. II 118 n. 37">Orig.: Madrid Archivo Histórico Nacional, Clero carp. 899 n. 19. Copiae et excerpta: León Archivo de la Catedral n. 875 (copia simplex imitativa coeva mutila in data). Becerro II de Sahagún (saec. XIV): Madrid, Archivo Histórico Nacional, Códices y Cartularios Ms. 988B f 6’–7’ (cf. 
+                <bibl_link target="Herrero de la Fuente, Colección de Sahagún II" uuid="{59D83381-F7CD-4814-A900-69F21A16F5DD}">M. Herrero Colección de Sahagún II</bibl_link>, p. XXIV).</pont_reg_main>
+        </script>
+        <seal>Bulla deest, sed filum sericum perdurat</seal>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no>Ego Alexander etc. Subscr. 3 episc., 2 card. presb. et 5 card. diac.</witness_no>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria/>
+        <date_p value="11610226" to="11610226" from="11610226">1161 febr. 26</date_p>
+        <initium>Apostolicae sedis auctoritate</initium>
+        <pub_place>
+            <place_name category="Stadt" country="Italien" diocese="Anagni" geo_DEZIMAL_city="41.7333, 13.1667" geo_DMS_city="N 41° 45′ O 13° 9′" geodata="N 41°44′37″ E 13°09′20″" geodata_region="0" getty_city="7006676" id="3183098" identification="Anagni" region="Latium" uuid="{D36ECFF9-BB48-4859-A834-F46648AD9D04}">Anagni</place_name>
+        </pub_place>
+        <script_date>Dat. Anagniae p. m. Hermanni S.R.E. subdiac. et notarii 4 kal. mart., ind. 9, inc. d. a. 1161, pont. v. d. Alexandri pp. III a. 2.</script_date>
+        <state/>
+        <supplier>
+            <pers_name BNF=" 13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN=" n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{D0AAAA76-4E0A-4470-9594-57CF75211EBB}">Alexander III</pers_name>
+        </supplier>
+        <supplier_type>papa</supplier_type>
+        <user_comment/>
+        <worker>Santiago Domínguez Sánchez/Daniel Bergerdigitale Fassung: Carolin Sachs, Thorsten Schlauwitz</worker>
+    </head>
+    <info>
+        <date_sort value="11610226">11610226</date_sort>
+        <idno>JL 10657</idno>
+    </info>
+    <jaffe>
+        <jaffe1>7163</jaffe1>
+        <jaffe2_no>10657</jaffe2_no>
+        <jaffe2_page/>
+        <jaffe2_worker>JL</jaffe2_worker>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_main nr="Ib. Pont. II 118 n. 37"> Cancellaria pontificia utebatur hoc tempore crebro computo 
+                <place_name category="Stadt" country="Italien" geo_DMS_city="N 43°42'35.85″ E 10°23'58.05″" geodata="N 43°42'35.85″ E 10°23'58.05″" geodata_region="0" identification="Pisa" region="Toskana" uuid="{5040CEAE-EE75-4519-BDC2-BE826291217A}">Pisae</place_name> in anno incarnationis. Cf. 
+                <bibl_link target="Jaffé, Regesta Pontificum Romanorum" uuid="{A29E737F-A8E2-448A-85C5-D823E0F38211}">JL.</bibl_link> I p. IX praefationem prioris editionis (“Ab 
+                <pers_name floruit="1088-1099" key="152552697" place="Roma" reg="Urbanus II papa (Odo de Lagery)" sex="male" termofoffice="1088-1099" uuid="{839EA34D-EB40-46C4-AD9A-62543D2018DE}">Urbano II</pers_name> ad 
+                <pers_name key="24956898" life="1145" place="Roma" reg="Lucius II papa (Gerardus Caccianemici)" sex="male" uuid="{286EFD06-CB25-4089-B0FD-B22FBF37F24D}">Lucium II</pers_name>, ab a. 1088 ad a. 1145, tria illa annorum incarnationis genera – anni vulgares, anni Florentini et anni Pisani – permixte adhibentur”). – De re cf. 
+                <bibl_link target="Escalona, Historia Sahagún" uuid="{ABF114E9-64C2-4028-BCEC-1BB5601B2BC5}">Escalona Historia de Sahagún</bibl_link> p. 118; 
+                <bibl_link uuid="{C5250E4D-944F-43D2-BBF1-083AF7FF5D12}">García Lobo Exención y jurisdicción</bibl_link> p. 4; 
+                <bibl_link target="Fletcher, Las iglesias de León" uuid="{0834BEBE-CDE3-4A40-AE2C-F0A6E24F6CAC}">Fletcher Las iglesias</bibl_link> p. 476. – 
+                <place_name GND_city="4118213-3" LCCN_city="n81124108" VIAF_city="234186354" addition="OSB" category="Kloster" country="Spanien" diocese="Legio" geo_DEZIMAL_city="42.372222°, -5.027778°" geo_DMS_city="N 42° 22′ 20″ W 5° 1′ 40″" geodata="N 42°22′15″ W 5°01′46″" geodata_region="0" id="3111131" identification="Sahagun, Monasterium s. Facundi" institution="Monasterium s. Facundi" region="Kastilien-León" uuid="{8AEFA019-0F80-40C3-9AB6-8017225364A6}">monasterium s. Facundi</place_name> sub censu duorum solidorum monetae illius terrae etiam in Libro Censuum invenies est, cf. 
+                <bibl_link target="Fabre, Le Liber Censuum" uuid="{7A7BDD92-5E3B-4B28-A648-9530FEC54AA9}">Fabre/Duchesne Liber censuum I</bibl_link> 221. II 116; cf. etiam 
+                <bibl_link target="Pfaff, Liber Censuum" uuid="{E9EED5D8-A489-4115-9247-DEB55AF3F1E5}">Pfaff Liber Censuum</bibl_link> p. 341 n. 645. Privilegium a. 1194 iul. 14 (n. 67) a 
+                <pers_name addition="Giacinto Bobone" floruit="1191-1198" key="193550312" life="gest. 1198" place="Roma" reg="Coelestinus III papa (Hyacintus Bobo)" sex="male" termofoffice="1191-1198" uuid="{51AF463A-36C4-4406-8BCC-3014123DE7D3}">Celestino III</pers_name> renovatum est.</pont_reg_main>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_main nr="Ib. Pont. II 118 n. 37">Ib. Pont. II</pont_reg_main>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_main nr="Ib. Pont. II 118 n. 37">118 n. 37</pont_reg_main>
+        </pont_no>
+        <pontificate>Alexander III.</pontificate>
+        <receipt_inst>
+            <pont_reg_main nr="Ib. Pont. II 118 n. 37">Sahagún</pont_reg_main> Sahagún (Ib. Pont. II 118 n. 37)</receipt_inst>
+        <regest_pont>
+            <pont_reg_main nr="Ib. Pont. II 118 n. 37">
+                <pers_name BNF=" 13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN=" n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{D0AAAA76-4E0A-4470-9594-57CF75211EBB}">Alexander III</pers_name>
+                <pers_name floruit="1150-1164" place="Sahagun; Monasterium ss. Facundi et Primitivi" reg="Dominicus (II) abbas" sex="male" termofoffice="1150-1164" uuid="{40403B39-9B07-4B7E-8948-249016D8C4D8}">Dominico</pers_name> abbati 
+                <place_name GND_city="4118213-3" LCCN_city="n81124108" VIAF_city="234186354" addition="OSB" category="Kloster" country="Spanien" diocese="Legio" geo_DEZIMAL_city="42.372222°, -5.027778°" geo_DMS_city="N 42° 22′ 20″ W 5° 1′ 40″" geodata="N 42°22′15″ W 5°01′46″" geodata_region="0" id="3111131" identification="Sahagun, Monasterium s. Facundi" institution="Monasterium s. Facundi" region="Kastilien-León" uuid="{8AEFA019-0F80-40C3-9AB6-8017225364A6}">monasterii ss. Facundi et Primitivi</place_name>, constituti 
+                <place_name GND_city="4118213-3" LCCN_city="n81124108" VIAF_city="234186354" category="Stadt" country="Spanien" geo_DEZIMAL_city="42.372222°, -5.027778°" geo_DMS_city="N 42° 22′ 20″ W 5° 1′ 40″" geodata="N 42°22'19.29″ W 5°1'49.58″" geodata_region="0" identification="Sahagun" region="Kastilien-León" uuid="{BB94BBC5-9743-49A4-8491-5AC739383858}">in loco qui dicitur Dominis sanctis</place_name>, eiusque fratribus tam praesentibus quam futuris etc.: precibus eiusdem monasterii annuens, ad instar 
+                <pers_name floruit="1073-1085" key="95301181" life="gest. 1085" place="Roma" reg="Gregorius VII papa (Hildebrandus‏)" sex="male" termofoffice="1073-1085" uuid="{542A6F22-2028-4DFE-B7D3-84C80AD332E4}">Gregorii VII</pers_name> (Sahagùn n. 7) et 
+                <pers_name floruit="1088-1099" key="152552697" place="Roma" reg="Urbanus II papa (Odo de Lagery)" sex="male" termofoffice="1088-1099" uuid="{839EA34D-EB40-46C4-AD9A-62543D2018DE}">Urbani II</pers_name> (
+                <place_name GND_city="4118213-3" LCCN_city="n81124108" VIAF_city="234186354" category="Stadt" country="Spanien" geo_DEZIMAL_city="42.372222°, -5.027778°" geo_DMS_city="N 42° 22′ 20″ W 5° 1′ 40″" geodata="N 42°22'19.29″ W 5°1'49.58″" geodata_region="0" identification="Sahagun" region="Kastilien-León" uuid="{BB94BBC5-9743-49A4-8491-5AC739383858}">Sahagún</place_name> n. 11), suscipit sub 
+                <pers_name floruit="64" key="54940864" life="64" place="Roma" reg="Petrus apostolus" sex="male" uuid="{9A249ADC-75BD-4A3F-AEEF-0A2CD593965E}">b. Petri</pers_name> et sua protectione monasterium, quod ad ius 
+                <pers_name floruit="64" key="54940864" life="64" place="Roma" reg="Petrus apostolus" sex="male" uuid="{9A249ADC-75BD-4A3F-AEEF-0A2CD593965E}">b. Petri</pers_name> specialiter pertinere dinoscitur, cum “cauto”, quod particulatim finitur; statuit ut quascumque possessiones et quaecumque bona idem monasterium iuste et canonice possidet, aut in futurum poterit adipisci, firma coenobio et illibata permaneant; sancit ut chrisma, oleum sanctum, consecrationes altarium seu basilicarum, ordinationes monachorum et clericorum degentium infra “cautum”, ab 
+                <pers_name addition="el Bravo, Adefonsus" floruit="1109" key="40710875" life="1109" place="Castilla, Leon, Galicia" reg="Alfonsus VI rex" sex="male" uuid="{0678CF99-D5B3-471B-93F4-086512CA2AB1}">Aldefonso (VI) rege</pers_name> (
+                <place_name category="Königreich" geodata="N 42°21′01″ W 3°40′31″" geodata_region="-1" id="3127461" identification="Castilla" institution="Regnum Castellae" uuid="{F06FA4AC-E528-4E39-B528-D8A9DD0FBB92}">Castellae</place_name> et 
+                <place_name category="Königreich" diocese="Legio" geodata="N 42°36′00″ W 5°34′13″" geodata_region="-1" id="3118532" identification="Leon" institution="Regnum Legionis" uuid="{EA988EA6-BE5E-4439-9057-2E9C8F24352E}">Legionis</place_name>) determinatum, a quocumque episcopo suscipiantur; sancit ut nullus episcoporum infra ipsum monasterium praesumat consecrationem aut ordinationem facere, aut missas publicas celebrare; concedit liberam electionem abbatis, secundum b. Benedicti regulam, maxime de eadem congregatione; concedit benedictionis gratiam a quocumque episcopo accipiendam; decernit tandem ut abbates et fratres, ad indicium huius perceptae a 
+                <place_name GND_city="4050471-2" LCCN_city="n79018704" VIAF_city="145348938" addition="Papa; S. Romana ecclesia" category="Bistum" country="Italien" diocese="Roma" geo_DEZIMAL_city="41.9667, 12.6667" geo_DMS_city="N 41° 53′ 0″ E 12° 29′ 0″" geodata="N 41°53′12″ E 12°30′20″" geodata_region="-1" id="11669597" identification="Roma, sedes apostolica et patriarchatus" institution="Sedes apostolica et Episcopatus seu patriarchatus Romanus" region="Latium" uuid="{2D170E98-4D42-4AD1-90F2-325218BC7142}">Romana Ecclesia</place_name> libertatis, duos solidos ipsius terrae monetae 
+                <place_name GND_city="4050471-2" LCCN_city="n79018704" VIAF_city="145348938" addition="Papa; S. Romana ecclesia" category="Bistum" country="Italien" diocese="Roma" geo_DEZIMAL_city="41.9667, 12.6667" geo_DMS_city="N 41° 53′ 0″ E 12° 29′ 0″" geodata="N 41°53′12″ E 12°30′20″" geodata_region="-1" id="11669597" identification="Roma, sedes apostolica et patriarchatus" institution="Sedes apostolica et Episcopatus seu patriarchatus Romanus" region="Latium" uuid="{2D170E98-4D42-4AD1-90F2-325218BC7142}">Romanis</place_name> pontificibus annis singulis persolvant.</pont_reg_main>
+        </regest_pont>
+        <worker_comment_pont>
+            <pont_reg_main nr="Ib. Pont. II 118 n. 37">Adressaten: Dominico abbati monasterii ss. Facundi et Primitivi, constituti in loco qui dicitur Dominis Sanctis, eiusque fratribus tam praesentibus quam futuris etc.. Anmerkungen und to do: ; Personen: , , , , , ; Orte: , , , , </pont_reg_main>
+        </worker_comment_pont>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

@@ -1,0 +1,135 @@
+<text type="charter" id="1562021665636">
+    <bibl>
+        <edition>
+            <bibl_link target="Martín Martín, Documentos Salamanca">Martín Martín Documentos de Salamanca</bibl_link> p. 130 n. 42 (ad a. 1167–1176); 
+            <bibl_link target="Domínguez Sánchez, Documentos León">Domínguez Sánchez Documentos pontificios de León</bibl_link> p. 94 n. 32</edition>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests/>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type/>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script/>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria/>
+        <date_p value="11630615" to="11630615" from="11630615">(1163) iun. 15</date_p>
+        <initium/>
+        <pub_place>
+            <place_name BNE="" BNE_city="" BNF="" BNF_city="" GND="" GND_city="" GS_Klosterdatenbank="" Getty="" LCCN="" LCCN_city="" VIAF="" VIAF_city="" addition="" category="Stadt" country="" diocese="" geo_DEZIMAL_city="" geo_DMS_city="" geodata="N 47°23′25.38″ E 0°41′22.97″" geodata_region="" geodata_vague="" geonames_city="" getty_city="" id="" identification="Tours" institution="" literature="" region="" uuid="">Tours</place_name>
+        </pub_place>
+        <script_date/>
+        <state/>
+        <supplier>
+            <pers_name addition="Rolandus Bandinelli?" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa">Alexander III</pers_name>
+        </supplier>
+        <supplier_type>papa</supplier_type>
+        <user_comment/>
+        <worker>Santiago Domínguez Sánchez/Daniel Berger; digitale Fassung: Carolin Sachs, Thomas Czerner</worker>
+    </head>
+    <info>
+        <date_sort value="11630615">11630615</date_sort>
+        <idno>Ib. Pont. II 32 n. 62</idno>
+    </info>
+    <jaffe>
+        <jaffe1>-</jaffe1>
+        <jaffe2_no/>
+        <jaffe2_page/>
+        <jaffe2_worker>-</jaffe2_worker>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_add nr="Ib. Pont. II 32 n. 62"> De tempore litterarum (“Dat. 
+                <place_name BNE="" BNE_city="" BNF="" BNF_city="" GND="" GND_city="" GS_Klosterdatenbank="" Getty="" LCCN="" LCCN_city="" VIAF="" VIAF_city="" addition="" category="Stadt" country="" diocese="" geo_DEZIMAL_city="" geo_DMS_city="" geodata="N 47°23′25.38″ E 0°41′22.97″" geodata_region="" geodata_vague="" geonames_city="" getty_city="" id="" identification="Tours" institution="" literature="" region="" uuid="">Turoni</place_name> 17 kal. iul.”) cf. itinerarium 
+                <pers_name addition="Rolandus Bandinelli?" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa">Alexandri III</pers_name> in 
+                <bibl_link target="Jaffé, Regesta Pontificum Romanorum">JL. II</bibl_link> p. 171. – De re cf. 
+                <bibl_link target="Fletcher, Las iglesias de León">Fletcher Las iglesias</bibl_link> p. 483. </pont_reg_add>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_add nr="Ib. Pont. II 32 n. 62">Ib. Pont. II</pont_reg_add>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_add nr="Ib. Pont. II 32 n. 62">32 n. 62</pont_reg_add>
+        </pont_no>
+        <pontificate>Alexander III.</pontificate>
+        <receipt_inst>
+            <pont_reg_add nr="Ib. Pont. II 32 n. 62">León, Episc.</pont_reg_add> León, Episc. (Ib. Pont. II 32 n. 62); Ib. Pont. Salamanca, Episc. v. etiam Ib. Pont. Zamora Episc.</receipt_inst>
+        <regest_pont>
+            <pont_reg_add nr="Ib. Pont. II 32 n. 62">
+                <pers_name addition="Rolandus Bandinelli?" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa">
+                    <issuer> Alexander III</issuer>
+                </pers_name> (
+                <pers_name addition="Albertinus" place="Leon" reg="Iohannes episcopus">
+                    <adressee> Iohanni</adressee>
+                </pers_name>) 
+                <place_name category="Bistum" diocese="Legio" geodata="N 42°36′00″ W 5°34′13″" id="3118532" identification="Leon episc." institution="Episcopatus Legionensis">
+                    <adressee> Legionensi</adressee>
+                </place_name> et 
+                <pers_name addition="Fernando el viejo" place="Astorga" reg="Ferdinandus episcopus">
+                    <adressee> (Fernando</adressee>
+                </pers_name>) 
+                <place_name category="Bistum" diocese="Asturica" geodata="N 42°27′32″ W 6°03′22″" id="3129231" identification="Astorga episc." institution="Episcopatus Asturicensis">
+                    <adressee> Asturicensi</adressee>
+                </place_name> episcopis: committit eis causam quae vertitur inter episcopos 
+                <pers_name place="Salamanca" reg="Ordonius episcopus">(Ordonium</pers_name>) 
+                <place_name category="Bistum" diocese="Salamanca" geodata="N 40°58′08″ W 5°39′50″" id="3111108" identification="Salamanca episc." institution="Episcopatus Salamantinus">Salamantinum</place_name> et 
+                <pers_name addition="Esteban" place="Zamora" reg="Stephanus episcopus">(Stephanum</pers_name>) 
+                <place_name category="Bistum" diocese="Zamora" geodata="N 41°30′23″ W 5°44′40″" id="3104342" identification="Zamora episc." institution="Episcopatus Zamorensis">Zamorensem</place_name> super 
+                <place_name category="Stadt" identification="Fuente de Sayago">Fonte de Sagavo (Fuente de Sayago</place_name>), cum ecclesia sua, et aliis sex ecclesiis, scilicet, de Valesca, 
+                <place_name category="Stadt" geodata="N 41° 12′ 20″ W 5° 53′ 37″" id="3109553" identification="Santiz">Sentiz</place_name>, 
+                <place_name addition="Castillo del Asmesnal" category="Burg" geodata="N 41° 11′ 56″ W 5° 55′ 49″" id="3129498" identification="Almesnal">Almeznal (Almesnal</place_name>), 
+                <place_name category="Stadt" identification="Torre de Bermudo">Turre de Vermudo (Torre de Bermudo</place_name>), 
+                <place_name category="Stadt" identification="Pilela">Pilela</place_name> et 
+                <place_name category="Stadt" identification="Aldea de Lanalziado">Aldea de Lanalziado</place_name>, atque super decimis de 
+                <place_name BNE="" BNE_city="" BNF="" BNF_city="" GND="" GND_city="" GS_Klosterdatenbank="" Getty="" LCCN="" LCCN_city="" VIAF="" VIAF_city="" addition="" category="Stadt" country="" diocese="" geo_DEZIMAL_city="" geo_DMS_city="" geodata="N 41°5′26.84″ W 5°59′55.17″" geodata_region="" geodata_vague="" geonames_city="" getty_city="" id="" identification="Ledesma" institution="" literature="" region="" uuid="">Ledesma</place_name>, cum terminis suis, necnon super 
+                <place_name category="Stadt" geodata="N 41°04′12″ W 5°53′59″" id="6544389" identification="Banos de Ledesma">Balneos (Baños de Ledesma</place_name>), 
+                <place_name category="Stadt" geodata="N 41° 4′ 40″ W 5° 51′ 41″" id="6360409" identification="Juzbado">Iusvado (Juzbado</place_name>) et 
+                <place_name category="Stadt" geodata="N 41° 3′ 49″ W 5° 49′ 24″" id="3130304" identification="Almenara de Tormes">Almanera (Almenara de Tormes</place_name>).</pont_reg_add>
+        </regest_pont>
+        <worker_comment_pont>
+            <pont_reg_add nr="Ib. Pont. II 32 n. 62">Adressaten: (Iohanni) Legionensi et (Fernando) Asturicensi episcopis. Anmerkungen und to do: ; Personen: , , , , , ; Orte: , , , , </pont_reg_add>
+        </worker_comment_pont>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

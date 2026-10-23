@@ -1,0 +1,165 @@
+<text type="charter" id="1562021663432">
+    <bibl>
+        <edition>
+            <bibl_link target="España Sagrada 35">Risco España Sagrada XXXV</bibl_link> app. V p. 421–424 = 
+            <bibl_link target="Migne, PL">Migne PL</bibl_link> 200 col. 219–222. 
+            <bibl_link target="Posadilla, Episcopologio">Posadilla Episcopologio I</bibl_link> app. III p. 245–248. 
+            <bibl_link>Panera Burón Exención de la iglesia Legionense</bibl_link> p. 423–425. 
+            <bibl_link target="Colección León 5">Fernández Catón Colección catedral de León V</bibl_link> 343–346 n. 1522. 
+            <bibl_link target="Domínguez Sánchez, Documentos León">Domínguez Sánchez Documentos pontificios de León</bibl_link> p. 90sq. n. 28 
+            <italic>Zu bearbeiten:</italic>
+            <bibl_link target="España Sagrada 35" uuid="{72EA8516-3967-4F05-8106-9304D1909F4F}">Risco España Sagrada XXXV</bibl_link> app. V p. 421–424 = 
+            <bibl_link target="Migne, PL" uuid="{EA170AF2-7AB2-4028-B58C-31BD356471B9}">Migne PL</bibl_link> 200 col. 219–222. 
+            <bibl_link target="Posadilla, Episcopologio" uuid="{826019E0-DA21-465D-8C29-ECD4D863BDC3}">Posadilla Episcopologio I</bibl_link> app. III p. 245–248. 
+            <bibl_link target2="2199008" uuid="{B57D4EC4-FD2A-4392-A403-4579D599A904}">Panera Burón Exención de la iglesia Legionense</bibl_link> p. 423–425. 
+            <bibl_link target="Colección León 5" uuid="{D0303730-8567-47D9-9CFC-3ACC5A4375E7}">Fernández Catón Colección catedral de León V</bibl_link> 343–346 n. 1522. 
+            <bibl_link target="Domínguez Sánchez, Documentos León" uuid="{11854E9F-B827-49B3-8720-94342D22363F}">Domínguez Sánchez Documentos pontificios de León</bibl_link> p. 90sq. n. 28.</edition>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests>
+            <bibl_link target=" García Villada, Catálogo León">García Villada Catálogo</bibl_link> p. 206 
+            <italic>Zu bearbeiten:</italic>
+            <bibl_link target=" García Villada, Catálogo León" uuid="{DC84DCB3-8CEB-42BE-8F7C-D598F542C852}">García Villada Catálogo</bibl_link> p. 206.</regests>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type>Original</descent_type>
+        <dim>520 x 630 + 20 mm</dim>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script>
+            <pont_reg_main nr="Ib. Pont. II 30 n. 58">Orig.: León Archivo de la Catedral n. 6329.</pont_reg_main>
+            <pont_reg_main nr="Ib. Pont. II 30 n. 058">Orig.: León Archivo de la Catedral n. 6329.</pont_reg_main>
+        </script>
+        <seal>Bulla deest, sed filum sericum perdurat.</seal>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no>Ego Alexander etc. Subscr. 3 episc., 3 card. presb. et 3 card. diac.</witness_no>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria/>
+        <date_p value="11630516" to="11630516" from="11630516">1163 mai. 16</date_p>
+        <initium>Ad sedem apostolicam</initium>
+        <pub_place>
+            <place_name category="Stadt" geodata="N 47°23'25.38″ E 0°41'22.97″" identification="Tours">Tours</place_name>
+        </pub_place>
+        <script_date>Dat. Turoni p. m. Hermanni S.R.E. subdiac. et notarii 17 kal. iun., inc. d. a. 1163, pont. v. d. Alexandri pp. III a. 4.</script_date>
+        <state/>
+        <supplier>
+            <pers_name addition="Rolandus Bandinelli?" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa">Alexander III</pers_name>
+        </supplier>
+        <supplier_type>papa</supplier_type>
+        <user_comment/>
+        <worker>Santiago Domínguez Sánchez/Daniel Berger; digitale Fassung: Carolin Sachs, Thomas Czerner</worker>
+    </head>
+    <info>
+        <date_sort value="11630516">11630516</date_sort>
+        <idno>JL 10859</idno>
+    </info>
+    <jaffe>
+        <jaffe1>7279</jaffe1>
+        <jaffe2_no>10859</jaffe2_no>
+        <jaffe2_page/>
+        <jaffe2_worker>JL</jaffe2_worker>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_main nr="Ib. Pont. II 30 n. 58"> Scissum sinistrorsum. Rota, BV. – De re 
+                <bibl_link target="España Sagrada 35">Risco España Sagrada XXXV</bibl_link> 215; 
+                <bibl_link>Panera Burón Exención de la iglesia Legionense</bibl_link> p. 397; 
+                <bibl_link target="Posadilla, Episcopologio">Posadilla Episcopologio I</bibl_link> 237; 
+                <bibl_link>Estepa Estructura</bibl_link> p. 469 (ex España Sagrada, et ad a. 1170); 
+                <bibl_link target="Fletcher, Las iglesias de León">Fletcher Las iglesias</bibl_link> p. 477 et 479; 
+                <bibl_link>Cavero Domínguez El episcopado</bibl_link> p. 220. </pont_reg_main>
+            <pont_reg_main nr="Ib. Pont. II 30 n. 058"> Scissum sinistrorsum. Rota, BV. – De re 
+                <bibl_link target="España Sagrada 35" uuid="{72EA8516-3967-4F05-8106-9304D1909F4F}">Risco España Sagrada XXXV</bibl_link> 215; 
+                <bibl_link target2="2199008" uuid="{B57D4EC4-FD2A-4392-A403-4579D599A904}">Panera Burón Exención de la iglesia Legionense</bibl_link> p. 397; 
+                <bibl_link target="Posadilla, Episcopologio" uuid="{826019E0-DA21-465D-8C29-ECD4D863BDC3}">Posadilla Episcopologio I</bibl_link> 237; 
+                <bibl_link target2="1136642" uuid="{0DDDD919-CD34-4E50-B63B-1DDBFD34CCD9}">Estepa Estructura</bibl_link> p. 469 (ex España Sagrada, et ad a. 1170); 
+                <bibl_link target="Fletcher, Las iglesias de León" uuid="{0834BEBE-CDE3-4A40-AE2C-F0A6E24F6CAC}">Fletcher Las iglesias</bibl_link> p. 477 et 479; 
+                <bibl_link target2="1355974" uuid="{C39AAA56-58C5-447B-86B1-87900010EF6A}">Cavero Domínguez El episcopado</bibl_link> p. 220. </pont_reg_main>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_main nr="Ib. Pont. II 30 n. 58">Ib. Pont. II</pont_reg_main>
+            <pont_reg_main nr="Ib. Pont. II 30 n. 058">Ib. Pont. II</pont_reg_main>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_main nr="Ib. Pont. II 30 n. 58">30 n. 58</pont_reg_main>
+            <pont_reg_main nr="Ib. Pont. II 30 n. 058">30 n. 058</pont_reg_main>
+        </pont_no>
+        <pontificate>Alexander III.</pontificate>
+        <receipt_inst>
+            <pont_reg_main nr="Ib. Pont. II 30 n. 58">León, Episc.</pont_reg_main> León, Episc. (Ib. Pont. II 30 n. 58); v. etiam León, Eccl. cath. n. 17 (Ib. Pont. II 66); Escalada n. 3 (Ib. Pont. II 101); Eslonza n. 3 (Ib. Pont. II 134). 
+            <pont_reg_main nr="Ib. Pont. II 30 n. 058">León, Episc.</pont_reg_main> León, Episc. (Ib. Pont. II 30 n. 58); v. etiam León, Eccl. cath. n. 17 (Ib. Pont. II 66); Escalada n. 3 (Ib. Pont. II 101); Eslonza n. 3 (Ib. Pont. II 134).</receipt_inst>
+        <regest_pont>
+            <pont_reg_main nr="Ib. Pont. II 30 n. 58">
+                <pers_name addition="Rolandus Bandinelli?" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa">Alexander III</pers_name>
+                <pers_name addition="Albertinus" place="Leon" reg="Iohannes episcopus">Iohanni</pers_name>
+                <place_name category="Bistum" diocese="Legio" geodata="N 42°36′00″ W 5°34′13″" id="3118532" identification="Leon episc." institution="Episcopatus Legionensis">Legionensi</place_name> episcopo eiusque successoribus etc.: ad exemplar 
+                <pers_name addition="Raniero di Bieda; Rainerus de Bleda" key="79143533" life="vor 1078-1118" place="Roma" reg="Paschalis II papa">Paschalis II</pers_name> (León, Episc. n. 13) et 
+                <pers_name addition="Nicolaus Breakspear" key="25397217" life="gest. 1159" place="Roma" reg="Hadrianus IV papa">Hadriani IV</pers_name> (León, Episc. n. 55) et precibus ipsius episcopi et capituli 
+                <place_name category="Bistum" diocese="Legio" geodata="N 42°36′00″ W 5°34′13″" id="3118532" identification="Leon episc." institution="Episcopatus Legionensis">Legionensium</place_name> annuens (cf. León, Episc. n. *57), statuit ut episcopus et successores eius nulli umquam metropolitano debeant nisi tantum 
+                <place_name addition="Papa; S. Romana ecclesia" category="Bistum" diocese="Roma" geodata="N 41°53′12″ E 12°30′20″" id="11669597" identification="Roma, sedes apostolica et patriarchatus" institution="Sedes apostolica et Episcopatus seu patriarchatus Romanus">Romano pontifici</place_name> subiacere, et omnes qui episcopo in eadem sede successerint per manus 
+                <place_name addition="Papa; S. Romana ecclesia" category="Bistum" diocese="Roma" geodata="N 41°53′12″ E 12°30′20″" id="11669597" identification="Roma, sedes apostolica et patriarchatus" institution="Sedes apostolica et Episcopatus seu patriarchatus Romanus">Romani pontificis</place_name> tamquam speciales 
+                <place_name category="Stadt" diocese="Roma" geodata="N 41°53′41″ E 12°29′02″" id="3169070" identification="Roma" institution="Romanorum urbs">Romanae Sedis</place_name> suffraganei consecrentur; sancit etiam ut omnes possessiones et bona, propriis vocabulis expressa, 
+                <place_name category="Bistum" diocese="Legio" geodata="N 42°36′00″ W 5°34′13″" id="3118532" identification="Leon episc." institution="Episcopatus Legionensis">Legionensi ecclesiae</place_name> perpetuis temporibus illibata conserventur, specialiter, ad exemplar 
+                <pers_name addition="Bernardus Paganelli" key="142614511" life="gest. 1153" place="Roma" reg="Eugenius III papa">Eugenii III</pers_name> (León, Episc. n. 46) et 
+                <pers_name addition="Nicolaus Breakspear" key="25397217" life="gest. 1159" place="Roma" reg="Hadrianus IV papa">Hadriani IV</pers_name> (León, Episc. n. *56), decimas ecclesiarum pertinentium ad honorem 
+                <place_name category="Kirche" diocese="Legio" geodata="N 42°36'0″ W 5°34'0″" identification="San Pelagii">s. Pelagii</place_name> (infantado de San Pelayo) concessas a 
+                <pers_name addition="Adefonsus, el Emperador" key="855131" life="1105-1157" place="Castilla, Leon, Galicia" reg="Alfonsus VII rex">rege Aldefonso VII</pers_name> (a. 1143 ian. 30).</pont_reg_main>
+            <pont_reg_main nr="Ib. Pont. II 30 n. 058">
+                <pers_name BNF=" 13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN=" n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{D0AAAA76-4E0A-4470-9594-57CF75211EBB}">Alexander III</pers_name>
+                <pers_name addition="Albertinus" floruit="1139-1181" place="Leon" reg="Iohannes episcopus" sex="male" termofoffice="belegt 1139-1181" uuid="{6A021429-E985-496F-AE25-F11062E777EC}">Iohanni</pers_name>
+                <place_name GND_city="4035367-9" LCCN_city="n79084423" VIAF_city="140708126" category="Bistum" country="Spanien" diocese="Legio" geo_DEZIMAL_city="42.605556, -5.57" geo_DMS_city="N 42°36′20″ W 5°34′12″" geodata="N 42°36′00″ W 5°34′13″" geodata_region="-1" id="3118532" identification="Leon episc." institution="Episcopatus Legionensis" literature="Ib. Pont. II, 1" region="Kastilien-León" uuid="{D7F79CE0-86EC-4338-901F-6FFBFFEF042C}">Legionensi</place_name> episcopo eiusque successoribus etc.: ad exemplar 
+                <pers_name BNF=" 13322102z" GND="11859186X" GermaniaSacra="059-01257-001" LCCN="n/85/94733" Wikidata=" Q227967" addition="Raniero di Bieda; Rainerus de Bleda" floruit="vor 1078-1118" key="79143533" life="vor 1078-1118" place="Roma" reg="Paschalis II papa" sex="male" termofoffice="1099-1118" uuid="{1094C013-CDB5-4556-9CAA-0820B142AB39}">Paschalis II</pers_name> (León, Episc. n. 13) et 
+                <pers_name BNF="145481118" GND="118719785" GermaniaSacra="066-02322-001" LCCN="n85287832" Wikidata="Q132845" addition="Nicolaus Breakspear" floruit="1120-1159" key="25397217" life="gest. 1159" place="Roma" reg="Hadrianus IV papa" sex="male" termofoffice="1154-1159" uuid="{CFE6AF90-6583-4B68-AF21-13BCB71F81EA}">Hadriani IV</pers_name> (León, Episc. n. 55) et precibus ipsius episcopi et capituli 
+                <place_name GND_city="4035367-9" LCCN_city="n79084423" VIAF_city="140708126" category="Bistum" country="Spanien" diocese="Legio" geo_DEZIMAL_city="42.605556, -5.57" geo_DMS_city="N 42°36′20″ W 5°34′12″" geodata="N 42°36′00″ W 5°34′13″" geodata_region="-1" id="3118532" identification="Leon episc." institution="Episcopatus Legionensis" literature="Ib. Pont. II, 1" region="Kastilien-León" uuid="{D7F79CE0-86EC-4338-901F-6FFBFFEF042C}">Legionensium</place_name> annuens (cf. León, Episc. n. *57), statuit ut episcopus et successores eius nulli umquam metropolitano debeant nisi tantum 
+                <place_name GND_city="4050471-2" LCCN_city="n79018704" VIAF_city="145348938" addition="Papa; S. Romana ecclesia" category="Bistum" country="Italien" diocese="Roma" geo_DEZIMAL_city="41.9667, 12.6667" geo_DMS_city="N 41° 53′ 0″ E 12° 29′ 0″" geodata="N 41°53′12″ E 12°30′20″" geodata_region="-1" id="11669597" identification="Roma, sedes apostolica et patriarchatus" institution="Sedes apostolica et Episcopatus seu patriarchatus Romanus" region="Latium" uuid="{2D170E98-4D42-4AD1-90F2-325218BC7142}">Romano pontifici</place_name> subiacere, et omnes qui episcopo in eadem sede successerint per manus 
+                <place_name GND_city="4050471-2" LCCN_city="n79018704" VIAF_city="145348938" addition="Papa; S. Romana ecclesia" category="Bistum" country="Italien" diocese="Roma" geo_DEZIMAL_city="41.9667, 12.6667" geo_DMS_city="N 41° 53′ 0″ E 12° 29′ 0″" geodata="N 41°53′12″ E 12°30′20″" geodata_region="-1" id="11669597" identification="Roma, sedes apostolica et patriarchatus" institution="Sedes apostolica et Episcopatus seu patriarchatus Romanus" region="Latium" uuid="{2D170E98-4D42-4AD1-90F2-325218BC7142}">Romani pontificis</place_name> tamquam speciales 
+                <place_name GND_city="4050471-2" LCCN_city="n79018704" VIAF_city="145348938" category="Stadt" country="Italien" diocese="Roma" geo_DEZIMAL_city="41.9667, 12.6667" geo_DMS_city="N 41° 53′ 0″ E 12° 29′ 0″" geodata="N 41°53′41″ E 12°29′02″" geodata_region="0" id="3169070" identification="Roma" institution="Romanorum urbs" region="Latium" uuid="{208E2E27-18F4-4E3B-8FB8-1723D62C2266}">Romanae Sedis</place_name> suffraganei consecrentur; sancit etiam ut omnes possessiones et bona, propriis vocabulis expressa, 
+                <place_name GND_city="4035367-9" LCCN_city="n79084423" VIAF_city="140708126" category="Bistum" country="Spanien" diocese="Legio" geo_DEZIMAL_city="42.605556, -5.57" geo_DMS_city="N 42°36′20″ W 5°34′12″" geodata="N 42°36′00″ W 5°34′13″" geodata_region="-1" id="3118532" identification="Leon episc." institution="Episcopatus Legionensis" literature="Ib. Pont. II, 1" region="Kastilien-León" uuid="{D7F79CE0-86EC-4338-901F-6FFBFFEF042C}">Legionensi ecclesiae</place_name> perpetuis temporibus illibata conserventur, specialiter, ad exemplar 
+                <pers_name BNF=" 13488715t" GND="118682601" GermaniaSacra="064-00682-001" LCCN="n/85/287831" Wikidata="Q167610" addition="Bernardus Paganelli" floruit="1145-1153" key="142614511" life="gest. 1153" place="Roma" reg="Eugenius III papa" sex="male" termofoffice="1145-1153" uuid="{06C14F68-E0CE-4E0F-9350-E46E6C9D67F6}">Eugenii III</pers_name> (León, Episc. n. 46) et 
+                <pers_name BNF="145481118" GND="118719785" GermaniaSacra="066-02322-001" LCCN="n85287832" Wikidata="Q132845" addition="Nicolaus Breakspear" floruit="1120-1159" key="25397217" life="gest. 1159" place="Roma" reg="Hadrianus IV papa" sex="male" termofoffice="1154-1159" uuid="{CFE6AF90-6583-4B68-AF21-13BCB71F81EA}">Hadriani IV</pers_name> (León, Episc. n. *56), decimas ecclesiarum pertinentium ad honorem 
+                <place_name category="Kirche" diocese="Legio" geodata="N 42°36'0″ W 5°34'0″" geodata_region="0" identification="San Pelagii" uuid="{C972E638-FADC-4756-9797-2F2F945C15A9}">s. Pelagii</place_name> (infantado de San Pelayo) concessas a 
+                <pers_name addition="Adefonsus, el Emperador" floruit="1105-1157" key="855131" life="1105-1157" place="Castilla, Leon, Galicia" reg="Alfonsus VII rex" sex="male" uuid="{D2894F7D-9A25-4131-BC1D-E2D7381B90C5}">rege Aldefonso VII</pers_name> (a. 1143 ian. 30).</pont_reg_main>
+        </regest_pont>
+        <worker_comment_pont>
+            <pont_reg_main nr="Ib. Pont. II 30 n. 58">Adressaten: Iohanni Legionensi episcopo eiusque successoribus etc. Anmerkungen und to do: ; Personen: , , , , , ; Orte: , , , , </pont_reg_main>
+            <pont_reg_main nr="Ib. Pont. II 30 n. 058">Adressaten: Iohanni Legionensi episcopo eiusque successoribus etc. Anmerkungen und to do: ; Personen: , , , , , ; Orte: , , , , </pont_reg_main>
+        </worker_comment_pont>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

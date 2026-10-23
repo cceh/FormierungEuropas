@@ -1,0 +1,134 @@
+<text type="charter" id="1642496442137">
+    <bibl>
+        <edition/>
+        <figure/>
+        <literature>
+            <bibl_link lang="" target="Wiederhold, Papsturkunden in Frankreich 3" target2="123812" type="" uuid="{270DDC64-5DAB-4ABE-BB5F-FCC834FB8FC3}">Wiederhold, III</bibl_link>, p. 14 et n. 4 [réimpr., p. 258].</literature>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests>
+            <bibl_link target="Chevalier, Regeste Dauphinois" target2="48077" uuid="{7AEB8E9C-4E6E-45EB-802A-3F6DBDC3D433}">Reg. dauph.</bibl_link>, I, no 4502, c. 751. 
+            <bibl_link target="Jaffé, Regesta Pontificum Romanorum" target2="54640" uuid="{77346F34-E2AC-422A-92FA-1D3BFDF42FFC}">J. L.</bibl_link> –</regests>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type/>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script/>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria>*</criteria>
+        <date_p value="11731231" to="11731231" from="11730101">(ante seu anno 1173)</date_p>
+        <initium/>
+        <pub_place/>
+        <script_date/>
+        <state/>
+        <supplier>
+            <pers_name BNF="13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN="n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{58C0B973-E9BB-4491-9207-7428DB953ADF}">Alexander III papa</pers_name>
+        </supplier>
+        <supplier_type>papa</supplier_type>
+        <user_comment/>
+        <worker>Gall. Pont. III,3: Beate Schilling; digitale Fassung: Valérie Lüthi, Johannes Luther</worker>
+    </head>
+    <info>
+        <date_sort value="11731231">11731231</date_sort>
+        <idno>Gall. Pont. III,3 86 n. *120</idno>
+    </info>
+    <jaffe>
+        <jaffe1/>
+        <jaffe2_no/>
+        <jaffe2_page/>
+        <jaffe2_worker/>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_main nr="Gall. Pont. III,3 86 n. *120">Commission mentionnée par l’ 
+                <bibl_link target="Fornier, Histoire (éd. Guillaume)" target2="1371519" uuid="{08E79BF1-0BDE-4DDC-A700-D7D4777A6C6E}">Histoire générale des Alpes maritimes ou Cottiennes, et particulière de leur métropolitaine Ambrun, de Marcellin Fornier (1592–1649], fol. 237r, publiée par P. Guillaume, I, Paris, 1890</bibl_link>, ici p. 720. La datation de cette commission pose problème: selon 
+                <bibl_link target="Fornier, Histoire (éd. Guillaume)" target2="1371519" uuid="{08E79BF1-0BDE-4DDC-A700-D7D4777A6C6E}">Fornier, Histoire (éd. Guillaume, I</bibl_link>, p. 720), elle aurait été confiée aux prélats cités après une médiation infructueuse, entreprise en 1174 par 
+                <pers_name Wikidata="Q3417724" addition="Raimon de Bollène" floruit="1163-1182" place="Arles" reg="Raimondus archiepiscopus" sex="male" termofoffice="1163-1182" uuid="{86D82461-3023-49CF-BD9C-9F633C8DDE63}">l’archevêque (Raimond)</pers_name>
+                <place_name GND_city="4085928-9" LCCN_city="n79089381" VIAF_city="243449555" category="Erzbistum" country="Frankreich" diocese="Arelate" geo_DEZIMAL_city="43.6767, 4.6278" geo_DMS_city="N 43° 40′ 36.12″ E 4° 37′ 40.08″" geodata="N 43°40′36″ E 4°37′41″" geodata_region="-1" geodata_vague="0" id="12032396" identification="Arles, archiepisc." institution="Episcopatus Arelatensis" region="Provence-Alpes-Côte d’Azur" uuid="{6ECDFBC7-4AB5-4D9B-A71B-E2E45BAF162E}">d’Arles</place_name> (1163–1182) (
+                <bibl_link target="Jaffé, Regesta Pontificum Romanorum" target2="54640" uuid="{77346F34-E2AC-422A-92FA-1D3BFDF42FFC}">J. L.</bibl_link> –). Or, 
+                <pers_name floruit="1163-1173" literature="Chevalier, Notes, S. 269" place="Die" reg="Petrus III episcopus" sex="male" termofoffice="1163 belegt - 1173 belegt" uuid="{65639536-7D2C-41D5-A462-860DFE526A22}">l’évêque Pierre</pers_name> de 
+                <place_name category="Bistum" country="Frankreich" diocese="Dea Vocontiorum" geo_DEZIMAL_city="44.7536, 5.3703" geo_DMS_city="N 44° 45′ 12.96″ E 5° 22′ 13.08″" geodata="N 44°45′8″ E 5°22′16″" geodata_region="-1" geodata_vague="0" id="12047198" identification="Die, episc." institution="Episcopatus Diensis" region="Auvergne-Rhône-Alpes" uuid="{FC0940D8-961F-49AC-A336-1A7423B585DD}">Die</place_name>, attesté jusqu’en 1173, et 
+                <pers_name addition="Guigues de Revel" floruit="1115-1169" literature="Dictionnaire d'histoire et de géographie ecclésiastiques 9, Sp. 1310" place="Notre-Dame de Boscodon" reg="Guigo abbas" sex="male" termofoffice="1142-1169" uuid="{AA3B24DB-9646-49A4-9F1C-01D17609AC69}"> l’abbé Guigues Ier</pers_name> de 
+                <place_name BNE="" BNE_city="" BNF="" BNF_city="" GND="" GND_city="" GS_Klosterdatenbank="" Getty="" LCCN="" LCCN_city="" VIAF="" VIAF_city="" addition="" category="Kloster" country="Frankreich" diocese="Eburodunum" geo_DEZIMAL_city="" geo_DMS_city="N 44°32′04″ E 6°28′19″" geodata="N 44°30′00″ E 6°27′22″" geodata_region="0" geodata_vague="0" geonames_city="3001268" getty_city="" id="6301947" identification="Abbaye Notre-Dame de Boscodon" institution="Monasterium S. Mariae Boscodunensis" literature="" region="Provence-Alpes-Côte d’Azur" uuid="{AF570D30-08B1-4E97-BAB4-5A4236DDA07E}">Boscodon</place_name> (attesté jusque vers 1169) ne peuvent avoir été commissionnés que par 
+                <pers_name BNF="13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN="n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{58C0B973-E9BB-4491-9207-7428DB953ADF}">Alexandre III</pers_name>. Il semble que Fornier ait confondu les juges d’une première tentative de médiation avec ceux qui avaient été commissionnés par 
+                <pers_name BNF="145570051" GND="100952313" GermaniaSacra="069-01470-001" LCCN="n/85/207467" Wikidata="Q182474" addition="Ubaldus Allucingoli" floruit="1097-1185" key="85172410" life="ca. 1097-1185" place="Roma" reg="Lucius III papa" sex="male" termofoffice="1181-1185" uuid="{2B7400B7-74E9-4A0B-90FA-ABF77CFBCA4B}">Lucius III</pers_name>. Ces derniers auraient d’ailleurs réalisé une amicabilis compositio, confirmée par 
+                <pers_name BNF="145570051" GND="100952313" GermaniaSacra="069-01470-001" LCCN="n/85/207467" Wikidata="Q182474" addition="Ubaldus Allucingoli" floruit="1097-1185" key="85172410" life="ca. 1097-1185" place="Roma" reg="Lucius III papa" sex="male" termofoffice="1181-1185" uuid="{2B7400B7-74E9-4A0B-90FA-ABF77CFBCA4B}">Lucius III</pers_name> (
+                <bibl_link target="Jaffé, Regesta Pontificum Romanorum" target2="54640" uuid="{77346F34-E2AC-422A-92FA-1D3BFDF42FFC}">J. L.</bibl_link> –; 
+                <bibl_link uuid="{EE188E99-D578-4D50-902F-2BD696BB2E35}">Böhmer-Baaken / Schmidt</bibl_link>, no 2124, p. 438). Fornier, Histoire, I, Appendice, p. 718 se prévaut d’un «récit qui en est déduit en l’acte de la pacification seconde ou mesme troisième et derniere qui eschoit au siècle suivant»..</pont_reg_main>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_main nr="Gall. Pont. III,3 86 n. *120">Gall. Pont. III,3</pont_reg_main>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_main nr="Gall. Pont. III,3 86 n. *120">86 n. *120</pont_reg_main>
+        </pont_no>
+        <pontificate>Alexander III</pontificate>
+        <receipt_inst>
+            <pont_reg_main nr="Gall. Pont. III,3 86 n. *120">Die, episc.</pont_reg_main> Die, episc. (Gall. Pont. III,3 86 n. *120)</receipt_inst>
+        <regest_pont>
+            <pont_reg_main nr="Gall. Pont. III,3 86 n. *120">(
+                <pers_name BNF="145570051" GND="100952313" GermaniaSacra="069-01470-001" LCCN="n/85/207467" Wikidata="Q182474" addition="Ubaldus Allucingoli" floruit="1097-1185" key="85172410" life="ca. 1097-1185" place="Roma" reg="Lucius III papa" sex="male" termofoffice="1181-1185" uuid="{2B7400B7-74E9-4A0B-90FA-ABF77CFBCA4B}"> Lucius III</pers_name> rectius:) 
+                <pers_name BNF="13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN="n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{58C0B973-E9BB-4491-9207-7428DB953ADF}">
+                    <issuer> Alexander III</issuer>
+                </pers_name> committit 
+                <pers_name floruit="1163-1173" literature="Chevalier, Notes, S. 269" place="Die" reg="Petrus III episcopus" sex="male" termofoffice="1163 belegt - 1173 belegt" uuid="{65639536-7D2C-41D5-A462-860DFE526A22}">
+                    <adressee> Petro</adressee>
+                </pers_name>
+                <place_name category="Bistum" country="Frankreich" diocese="Dea Vocontiorum" geo_DEZIMAL_city="44.7536, 5.3703" geo_DMS_city="N 44° 45′ 12.96″ E 5° 22′ 13.08″" geodata="N 44°45′8″ E 5°22′16″" geodata_region="-1" geodata_vague="0" id="12047198" identification="Die, episc." institution="Episcopatus Diensis" region="Auvergne-Rhône-Alpes" uuid="{FC0940D8-961F-49AC-A336-1A7423B585DD}">
+                    <adressee> Diensi</adressee>
+                </place_name> episcopo, 
+                <pers_name addition="Guigues de Revel" floruit="1115-1169" literature="Dictionnaire d'histoire et de géographie ecclésiastiques 9, Sp. 1310" place="Notre-Dame de Boscodon" reg="Guigo abbas" sex="male" termofoffice="1142-1169" uuid="{AA3B24DB-9646-49A4-9F1C-01D17609AC69}">
+                    <adressee> Guigoni de Revel abbati</adressee>
+                </pers_name>
+                <place_name BNE="" BNE_city="" BNF="" BNF_city="" GND="" GND_city="" GS_Klosterdatenbank="" Getty="" LCCN="" LCCN_city="" VIAF="" VIAF_city="" addition="" category="Kloster" country="Frankreich" diocese="Eburodunum" geo_DEZIMAL_city="" geo_DMS_city="N 44°32′04″ E 6°28′19″" geodata="N 44°30′00″ E 6°27′22″" geodata_region="0" geodata_vague="0" geonames_city="3001268" getty_city="" id="6301947" identification="Abbaye Notre-Dame de Boscodon" institution="Monasterium S. Mariae Boscodunensis" literature="" region="Provence-Alpes-Côte d’Azur" uuid="{AF570D30-08B1-4E97-BAB4-5A4236DDA07E}">
+                    <adressee> monasterii Boscodunensis (Boscodon, diocèse d’Embrun)</adressee>
+                </place_name> et 
+                <pers_name addition="Delegierter Richter von Papst Alexander III. (Lucius III.?)" floruit="ca. 1173" place="unbekannt" reg="Berengarius" sex="male" uuid="{B34A4C40-2CEF-4817-88B2-1128B7DB6771}">
+                    <adressee> Berengario</adressee>
+                </pers_name> litem inter 
+                <pers_name addition="Guillaume III de Bénévent" floruit="1135-1169" literature="Dictionnaire d'histoire et de géographie ecclésiastiques 15, Sp. 380" place="Embrun" reg="Guillelmus III archiepiscopus" sex="male" termofoffice="1135 belegt -1169" uuid="{57F7F4D9-0CAF-4677-AF2A-E76014EE48FA}">(Guillelmum) archiepiscopum</pers_name>
+                <place_name category="Bistum" country="Frankreich" diocese="Eburodunum" geo_DEZIMAL_city="44.5658, 6.4961" geo_DMS_city="N 44° 33′ 56.88″ E 6° 29′ 45.96″" geodata=" N 44°33′44″ E 6°29′42″" geodata_region="-1" geodata_vague="0" id="12095355" identification="Embrun, archiepisc." institution="Archiepiscopatus Ebredunensis" region="Provence-Alpes-Côte d’Azur" uuid="{3FCBCDCF-DD2D-4441-887C-E1BA6EF7E5E2}">Ebredunensem (Embrun)</place_name> ejusque canonicos sopiendam</pont_reg_main>
+        </regest_pont>
+        <worker_comment_pont/>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

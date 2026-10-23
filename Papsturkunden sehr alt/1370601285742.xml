@@ -1,0 +1,120 @@
+<text type="charter" id="1370601285742">
+    <bibl>
+        <edition>
+            <bibl_link target="Kristen, Dve neznámé listiny">Zdeněk Kristen</bibl_link> in: Sborník Vysoké školy pedagogické v Olomouci, Historie 4 (1957) 78</edition>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests/>
+        <reproduction>
+            <pic_original extern="https://www.monasterium.net/mom/CZ-NA/RM/1167/charter" name="" path="">Praha Národní archiv, Řád maltézských rytířů (ŘM) XXVIII, České velkopřevorství - Papežské buly, inv. n. 1167 (monasterium.net)</pic_original>
+        </reproduction>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type>Original und Kopial</descent_type>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script>
+            <pont_reg_main nr="Boh. Pont. 111 n. 13">Orig.: Praha Národní archiv, Řád maltézských rytířů (ŘM) XXVIII, České velkopřevorství – Papežské buly, inv. n. 1167. - Copia: Apographum saec. XIX in.: Moravský zemský archiv Brno, Bočkova sbírka G 1, sign. 3059.</pont_reg_main>
+        </script>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria/>
+        <date_p value="11781021" to="11781021" from="">(1178) oct. 21</date_p>
+        <initium>Quia prae omnibus</initium>
+        <pub_place>
+            <place_name BNE="" BNE_city="" BNF="" BNF_city="" GND="" GND_city="" GS_Klosterdatenbank="" Getty="" LCCN="" LCCN_city="" VIAF="" VIAF_city="" addition="1191 zerstört" category="Stadt" country="Italien" diocese="" geo_DEZIMAL_city="" geo_DMS_city="N 41° 48′ E 12° 43′" geodata="N 41°47′55″ E 12°42′22″" geodata_region="" geodata_vague="" geonames_city="" getty_city="" id="10376743" identification="Tusculum" institution="Civitas Tusculum" literature="" region="Latium" uuid="{FC9E8FC1-C12B-4FF2-88F9-40C5C83CC775}">Tuscolo</place_name>
+        </pub_place>
+        <script_date>Dat. Tusculani 12 kal. nov.</script_date>
+        <state/>
+        <supplier>Alexander III</supplier>
+        <supplier_type>papa</supplier_type>
+        <user_comment/>
+        <worker>Koenighaus</worker>
+    </head>
+    <info>
+        <idno>Boh. Pont. 111 n. 13</idno>
+    </info>
+    <jaffe>
+        <jaffe1/>
+        <jaffe2_no>-</jaffe2_no>
+        <jaffe2_page/>
+        <jaffe2_worker>-</jaffe2_worker>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_main nr="Boh. Pont. 111 n. 13">Gervasius Vissegradensis et Martinus Pragensis (
+                <date from="11749999" to="11829999">1174-1182</date>) praepositi (de iis cf. 
+                <bibl_link target="Wostry, Williko">Wilhelm Wostry Deutsche Weltgeistliche vor 1200. Kanzler Gervasius. Notar Martin</bibl_link> in: Sudetendeutsche Lebensbilder 3, hrsg. von Erich Gierach [Reichenberg 1934] p. 42-49 et 
+                <bibl_link target="Hanke-Hajek, Völkische Zusammensetzung">Hanke-Hajek Zusammensetzung [1940]</bibl_link> p. 34-39) permulta bona fratribus ordinis sancti Iohannis Hierosolimitani largiti sunt, v. 
+                <bibl_link target="Codex dipl. Bohemiae 1">Friedrich Cod. dipl. Bohem. I</bibl_link> n. 245. 318; ob eam rem haec charta ad archivum fratrum eorundem pervenit. Tempus evincitur ex eo, quod Alexander III die oct. 21 Tusculani annis 1178 et 
+                <date value="11809999">1180</date> morabatur; vicissim in litteris de morbo Gervasii praepositi (‘corripuerit in corpore’) enarratur, qui de praepositura sua iam resignavit (‘quondam ... preposito’) et mox (fortasse 
+                <date value="11790210">1179 febr. 10</date>) de vita discessit. De tempore et re cf. 
+                <bibl_link target="Kristen, Dve neznámé listiny">Kristen l.c.</bibl_link> p. 77-86 et 
+                <bibl_link target="Skopal, Založeni komendy Johanitu">Skopal Založení komendy</bibl_link> p. 20sq. adn. 50.</pont_reg_main>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_main nr="Boh. Pont. 111 n. 13">Boh. Pont.</pont_reg_main>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_main nr="Boh. Pont. 111 n. 13">111 n. 13</pont_reg_main>
+        </pont_no>
+        <pontificate>Alexander III.</pontificate>
+        <receipt_inst>
+            <pont_reg_main nr="Boh. Pont. 111 n. 13">Praha, Eccl. cath.</pont_reg_main> Praha, Eccl. cath. n. 13 (Boh. Pont. 111); Bohemia, Duces ac reges n. 73 (Boh. Pont. 59); Praha, Vyšehrad n. 8 (Boh. Pont. 122).</receipt_inst>
+        <regest_pont>
+            <pont_reg_main nr="Boh. Pont. 111 n. 13">
+                <pers_name reg="Alexander III papa">
+                    <issuer>Alexander III</issuer>
+                </pers_name>
+                <pers_name place="Praha" reg="Martinus praepositus">
+                    <adressee> M(artino) Bragensi praeposito </adressee>
+                </pers_name>et 
+                <pers_name place="Vysehrad" reg="Gervasius praepositus">
+                    <adressee>G(ervasio) quondam ibidem dicto praeposito (scil. Wissegradensi) </adressee>
+                </pers_name>: referente sibi Carsilio de Ger(vasio), quod, ex quo Dominus eum corripuerit in corpore, quidam filii afflictionem eius ampliare intendunt in rerum suarum violenta distractione, personas eorum cum omnibus eorum possessionibus in tutelam beatorum apostolorum Petri et Pauli et suam ponit et personas eorum commendat 
+                <pers_name addition="Sobeslav" place="Bohemia" reg="Sobeslaus II dux ">duci Boemiae</pers_name> et 
+                <pers_name addition="Eliska" place="Bohemia" reg="Elisabeth ducissa">uxori eius</pers_name>.</pont_reg_main>
+        </regest_pont>
+        <worker_comment_pont>
+            <pont_reg_main nr="Boh. Pont. 111 n. 13">Adressaten: M(artino) Bragensi praeposito et G(ervasio) quondam ibidem dicto praeposito (scil. Wissegradensi). Verweis auf Hauptregest:Bohemia, Duces ac reges n. 73 (Boh. Pont. 59); Praha, Vyšehrad n. 8 (ibid. 122).</pont_reg_main>
+        </worker_comment_pont>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

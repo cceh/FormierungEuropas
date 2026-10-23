@@ -1,0 +1,127 @@
+<text type="charter" id="1653475913657">
+    <bibl>
+        <edition/>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests/>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type/>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script/>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria/>
+        <date_p value="11721216" to="11721216" from="11701216">(1170–1172?) dec. 16</date_p>
+        <initium/>
+        <pub_place>
+            <place_name addition="1191 zerstört" category="Stadt" country="Italien" geo_DMS_city="N 41° 48′ E 12° 43′" geodata="N 41°47′55″ E 12°42′22″" geodata_region="0" geodata_vague="0" id="10376743" identification="Tusculum" institution="Civitas Tusculum" region="Latium" uuid="{FC9E8FC1-C12B-4FF2-88F9-40C5C83CC775}">Tusculum</place_name>
+        </pub_place>
+        <script_date/>
+        <state/>
+        <supplier>
+            <pers_name BNF="13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN="n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{58C0B973-E9BB-4491-9207-7428DB953ADF}">Alexander III papa</pers_name>
+        </supplier>
+        <supplier_type>papa</supplier_type>
+        <user_comment/>
+        <worker>Gall. Pont III,3: Beate Schilling; digitale Fassung: Valérie Lüthi, Johannes Luther</worker>
+    </head>
+    <info>
+        <date_sort value="11721216">11721216</date_sort>
+        <idno>Gall. Pont. III,3 309 n. 16</idno>
+    </info>
+    <jaffe>
+        <jaffe1/>
+        <jaffe2_no/>
+        <jaffe2_page/>
+        <jaffe2_worker/>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_add nr="Gall. Pont. III,3 309 n. 16">Voir: 
+                <bibl_link target="Gall. Pont. III/2" target2="2563706" uuid="{E7452BB7-98D6-4402-A290-2455F0510B9B}">Gall. Pont. III,2</bibl_link> 399 n. 113.</pont_reg_add>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_add nr="Gall. Pont. III,3 309 n. 16">Gall. Pont. III,3</pont_reg_add>
+            <pont_reg_main nr="Gall. Pont. III,2 399 n. 113">Gall. Pont. III,2 </pont_reg_main>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_add nr="Gall. Pont. III,3 309 n. 16">309 n. 16</pont_reg_add>
+            <pont_reg_main nr="Gall. Pont. III,2 399 n. 113">399 n. 113 </pont_reg_main>
+        </pont_no>
+        <pontificate>Alexander III</pontificate>
+        <receipt_inst>
+            <pont_reg_add nr="Gall. Pont. III,3 309 n. 16">Viviers, ecclesia S. Andeoli</pont_reg_add> Valence, ecclesia S. Ruffi (Gall. Pont. III,2 399 n. 113); Viviers, episc. (Gall. Pont. III,3 288 n. 148); Viviers, ecclesia S. Vincentii martyris (Gall. Pont. III,3 296 n. 10); Viviers, ecclesia S. Andeoli (Gall. Pont. III,3 309 n. 16)</receipt_inst>
+        <regest_pont>
+            <pont_reg_add nr="Gall. Pont. III,3 309 n. 16">
+                <pers_name BNF="13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN="n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{58C0B973-E9BB-4491-9207-7428DB953ADF}">
+                    <issuer> Alexander III</issuer>
+                </pers_name> (
+                <pers_name addition="Nicolas" floruit="1173-1205" literature="Rouchier/Régné, Histoire, Bd. 2, S. 47-68" place="Viviers" reg="Nicolaus episcopus" sex="male" termofoffice="1173-1205" uuid="{90D01D87-92E1-4AF9-8CAE-400956ADAEC7}">
+                    <adressee> Nicolao</adressee>
+                </pers_name>? 
+                <pers_name addition="Robert de La Tour du Pin, zuvor Bf. v. Viviers (1171-1172/73)" floruit="1171-1195" literature="Gallans, Deux archevêchés, S. 87f., 89-111" place="Vienne" reg="Robertus archiepiscopus" sex="male" termofoffice="1173 belegt - 1195 belegt" uuid="{E03ACA95-9359-4109-A819-C4C3CFD205A7}">
+                    <adressee> Roberto</adressee>
+                </pers_name>?) 
+                <place_name category="Bistum" country="Frankreich" diocese="Vivarium" geo_DEZIMAL_city="44.4828, 4.68895" geo_DMS_city="N 44°28′58″ E 4°41′20″" geodata="N 44°28′55″ E 4°41′25″" geodata_region="-1" geodata_vague="0" geonames_city="2967820" id="12047232" identification="Viviers, episc." institution="Episcopatus Vivariensis" region="Auvergne-Rhône-Alpes" uuid="{02075C7B-A0E6-44CE-B120-62F8DE2FC7BA}">
+                    <adressee> Vivariensi</adressee>
+                </place_name> episcopo: miratur plurimum eum fratres 
+                <place_name GND_city="4119350-7" LCCN_city="n81101041" VIAF_city="11146030574635861686" addition="bis 1158 in Avignon, dann in Valence beheimatet; seit dem 14. Jh. intra muros" category="Kanonikerstift" country="Frankreich" diocese="Avennio/Valentia" geo_DEZIMAL_city="44.9325°, 4.891111°" geo_DMS_city="N 44° 55′ 57″ E 4° 53′ 28″" geodata="N 44°56′02″ E 4°53′22″" geodata_region="0" geodata_vague="0" geonames_city="2971053" id="122266954" identification="Saint-Ruf" institution="Ecclesia S. Ruffi" literature="Gall. Pont. III,3, S. 328-413" region="Auvergne-Rhône-Alpes" uuid="{8C73A63A-A194-46BC-ADBB-1222EA1EDD9B}">S. Ruphi</place_name> super 
+                <place_name addition="zu Saint-Ruf" category="Kanonikerstift" country="Frankreich" diocese="Vivarium" geo_DMS_city="N 44°22′24″ E 4°38′39″" geodata="N 44°22′16″ E 4°38′47″" geodata_region="0" geodata_vague="0" geonames_city="3030953" id="12450840" identification="Bourg-Saint-Andeol, Eglise Saint-Andeol" institution="Ecclesia S. Andeoli in loco qui Burgias dicitur" region="Auvergne-Rhône-Alpes" uuid="{4A3F644F-ACB5-476D-839B-5D9A57940D9E}">ecclesia S. Andeoli</place_name> contra 
+                <place_name BNF_city="12139445g" GND_city="4050471-2" LCCN_city="n79018704" VIAF_city="145348938" addition="Papa; S. Romana ecclesia" category="Patriarchat" country="Italien" diocese="Roma" geo_DEZIMAL_city="41.90036, 12.49575" geo_DMS_city="N 41°54′01″ E 12°29′45″" geodata="N 41°53′12″ E 12°30′20″" geodata_region="-1" geodata_vague="0" geonames_city="3169071" id="11669597" identification="Roma, sedes apostolica et patriarchatus" institution="Sedes apostolica et episcopatus seu patriarchatus Romanus" region="Latium" uuid="{16724754-A840-483A-A351-0E827C7915CF}">apostolicae sedis</place_name> sententiam fatigare, cum eandem ecclesiam de qua olim inter praedictos fratres et canonicos 
+                <place_name addition="zu Saint-Ruf" category="Kanonikerstift" country="Frankreich" diocese="Vivarium" geo_DMS_city="N 44°22′24″ E 4°38′39″" geodata="N 44°22′16″ E 4°38′47″" geodata_region="0" geodata_vague="0" geonames_city="3030953" id="12450840" identification="Bourg-Saint-Andeol, Eglise Saint-Andeol" institution="Ecclesia S. Andeoli in loco qui Burgias dicitur" region="Auvergne-Rhône-Alpes" uuid="{4A3F644F-ACB5-476D-839B-5D9A57940D9E}">B. Andeoli</place_name> controversia verteretur, inspectis rationibus, de fratrum suorum consilio cum omnibus bonis et possessionibus fratribus 
+                <place_name GND_city="4119350-7" LCCN_city="n81101041" VIAF_city="11146030574635861686" addition="bis 1158 in Avignon, dann in Valence beheimatet; seit dem 14. Jh. intra muros" category="Kanonikerstift" country="Frankreich" diocese="Avennio/Valentia" geo_DEZIMAL_city="44.9325°, 4.891111°" geo_DMS_city="N 44° 55′ 57″ E 4° 53′ 28″" geodata="N 44°56′02″ E 4°53′22″" geodata_region="0" geodata_vague="0" geonames_city="2971053" id="122266954" identification="Saint-Ruf" institution="Ecclesia S. Ruffi" literature="Gall. Pont. III,3, S. 328-413" region="Auvergne-Rhône-Alpes" uuid="{8C73A63A-A194-46BC-ADBB-1222EA1EDD9B}">S. Ruphi</place_name> adjudicaverit (
+                <data_link col_id="1006" id="1653475912079">Gall. Pont. III,3 309 n. *14 </data_link>), salvo jure pontificali 
+                <place_name category="Bistum" country="Frankreich" diocese="Vivarium" geo_DEZIMAL_city="44.4828, 4.68895" geo_DMS_city="N 44°28′58″ E 4°41′20″" geodata="N 44°28′55″ E 4°41′25″" geodata_region="-1" geodata_vague="0" geonames_city="2967820" id="12047232" identification="Viviers, episc." institution="Episcopatus Vivariensis" region="Auvergne-Rhône-Alpes" uuid="{02075C7B-A0E6-44CE-B120-62F8DE2FC7BA}">Vivariensis</place_name> episcopi, censu olei et consueta reverentia 
+                <place_name category="Bistum" country="Frankreich" diocese="Vivarium" geo_DEZIMAL_city="44.4828, 4.68895" geo_DMS_city="N 44°28′58″ E 4°41′20″" geodata="N 44°28′55″ E 4°41′25″" geodata_region="-1" geodata_vague="0" geonames_city="2967820" id="12047232" identification="Viviers, episc." institution="Episcopatus Vivariensis" region="Auvergne-Rhône-Alpes" uuid="{02075C7B-A0E6-44CE-B120-62F8DE2FC7BA}">ecclesiae Vivariensis</place_name>. Refert se etiam decrevisse eandem ecclesiam «sub religione, oboedientia et subjectione 
+                <place_name GND_city="4119350-7" LCCN_city="n81101041" VIAF_city="11146030574635861686" addition="bis 1158 in Avignon, dann in Valence beheimatet; seit dem 14. Jh. intra muros" category="Kanonikerstift" country="Frankreich" diocese="Avennio/Valentia" geo_DEZIMAL_city="44.9325°, 4.891111°" geo_DMS_city="N 44° 55′ 57″ E 4° 53′ 28″" geodata="N 44°56′02″ E 4°53′22″" geodata_region="0" geodata_vague="0" geonames_city="2971053" id="122266954" identification="Saint-Ruf" institution="Ecclesia S. Ruffi" literature="Gall. Pont. III,3, S. 328-413" region="Auvergne-Rhône-Alpes" uuid="{8C73A63A-A194-46BC-ADBB-1222EA1EDD9B}">S. Ruphi»</place_name> permansuram, «ita quidem ut, si capitulum Vivariense jus fundi ad se probaret legitime pertinere, idem obtineret quod jure fundi de canonum sanctione debetur». Addit se accepisse eum sententiam apostolicam non observare, sed eandem ecclesiam molestare scil. indebitas ei exactiones imponere, «contra antiquam et rationabilem consuetudinem 
+                <place_name GND_city="4119350-7" LCCN_city="n81101041" VIAF_city="11146030574635861686" addition="bis 1158 in Avignon, dann in Valence beheimatet; seit dem 14. Jh. intra muros" category="Kanonikerstift" country="Frankreich" diocese="Avennio/Valentia" geo_DEZIMAL_city="44.9325°, 4.891111°" geo_DMS_city="N 44° 55′ 57″ E 4° 53′ 28″" geodata="N 44°56′02″ E 4°53′22″" geodata_region="0" geodata_vague="0" geonames_city="2971053" id="122266954" identification="Saint-Ruf" institution="Ecclesia S. Ruffi" literature="Gall. Pont. III,3, S. 328-413" region="Auvergne-Rhône-Alpes" uuid="{8C73A63A-A194-46BC-ADBB-1222EA1EDD9B}">S. Ruphi»</place_name> priorem per abbatem institui contradicere et permitttere ut presbyteri capellarum aliarumque ecclesiarum infra parrochiam 
+                <place_name addition="zu Saint-Ruf" category="Kanonikerstift" country="Frankreich" diocese="Vivarium" geo_DMS_city="N 44°22′24″ E 4°38′39″" geodata="N 44°22′16″ E 4°38′47″" geodata_region="0" geodata_vague="0" geonames_city="3030953" id="12450840" identification="Bourg-Saint-Andeol, Eglise Saint-Andeol" institution="Ecclesia S. Andeoli in loco qui Burgias dicitur" region="Auvergne-Rhône-Alpes" uuid="{4A3F644F-ACB5-476D-839B-5D9A57940D9E}">S. Andeoli</place_name> parrochianis ipsius ecclesiae contra voluntatem canonicorum ecclesiastica sacramenta ministrent. Unde ei mandat ut praescriptam ecclesiam non longius gravet, sed permittat in ea priorem secundum antiquam consuetudinem ordinari. Praecipit etiam ut capellanis vel presbyteris interdicat ne parrochianis ejusdem ecclesiae sacramenta ministrent. Decernit ut, si contra fratres 
+                <place_name GND_city="4119350-7" LCCN_city="n81101041" VIAF_city="11146030574635861686" addition="bis 1158 in Avignon, dann in Valence beheimatet; seit dem 14. Jh. intra muros" category="Kanonikerstift" country="Frankreich" diocese="Avennio/Valentia" geo_DEZIMAL_city="44.9325°, 4.891111°" geo_DMS_city="N 44° 55′ 57″ E 4° 53′ 28″" geodata="N 44°56′02″ E 4°53′22″" geodata_region="0" geodata_vague="0" geonames_city="2971053" id="122266954" identification="Saint-Ruf" institution="Ecclesia S. Ruffi" literature="Gall. Pont. III,3, S. 328-413" region="Auvergne-Rhône-Alpes" uuid="{8C73A63A-A194-46BC-ADBB-1222EA1EDD9B}">S. Ruphi</place_name> aliquid quaestionis habere aestimat, id coram 
+                <place_name category="Bistum" country="Frankreich" diocese="Dea Vocontiorum" geo_DEZIMAL_city="44.7536, 5.3703" geo_DMS_city="N 44° 45′ 12.96″ E 5° 22′ 13.08″" geodata="N 44°45′8″ E 5°22′16″" geodata_region="-1" geodata_vague="0" geonames_city="3021435" id="12047198" identification="Die, episc." institution="Episcopatus Diensis" region="Auvergne-Rhône-Alpes" uuid="{FC0940D8-961F-49AC-A336-1A7423B585DD}">Diensi</place_name> et 
+                <place_name BNF_city="cb119342062" GND_city="4021985-9" LCCN_city="n79091186" VIAF_city="265376682" category="Bistum" country="Frankreich" diocese="Gratianopolis" geo_DEZIMAL_city="45.2002, 5.7222" geo_DMS_city="N 45° 12′ 0.72″ E 5° 43′ 19.92″" geodata="N 45°10′37″ E 5°42′30″" geodata_region="-1" geodata_vague="0" id="12088670" identification="Grenoble, episc." institution="Episcopatus Gratianopolitanus" region="Auvergne-Rhône-Alpes" uuid="{EE7C60D9-ABFC-442B-B238-853D721BD402}">Gratianopolitano</place_name> episcopis ordine judiciario experiatur.</pont_reg_add>
+        </regest_pont>
+        <worker_comment_pont/>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

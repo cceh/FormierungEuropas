@@ -1,0 +1,135 @@
+<text type="charter" id="1562021668592">
+    <bibl>
+        <edition>
+            <bibl_link target="Yepes, Corónica general">Yepes Corónica</bibl_link> V 14sq. [versio castellana]; 
+            <bibl_link target="García García, Canonization">García y García A propos de la canonisation</bibl_link> p. 3–15; García y García La canonización de san Rosendo p. 167–170; 
+            <bibl_link lang="" target="" target2="1380334" type="" uuid="">Díaz y Díaz Ordoño de Celanova: Vida y milagros de San Rosendo</bibl_link> p. 278–281</edition>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests>
+            <bibl_link target="Weiß, Legaten">Weiß Legaten</bibl_link> p. 185 n. 37 [ad a. 1173 cr. febr.]</regests>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type/>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script/>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria/>
+        <date_p value="11729999" to="11729999" from="11721101">(1172 ex.)</date_p>
+        <initium/>
+        <pub_place/>
+        <script_date/>
+        <state/>
+        <supplier>
+            <pers_name addition="Giacinto Bobone" key="193550312" life="gest. 1198" place="Roma" reg="Coelestinus III papa (Hyacintus Bobo)">Iacintus</pers_name> S.R.E. diaconus cardinalis s. Mariae in Cosmedin et apostolicae sedis (
+            <pers_name addition="Rolandus Bandinelli?" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa">Alexandri III</pers_name>) legatus</supplier>
+        <supplier_type>legatus</supplier_type>
+        <user_comment/>
+        <worker>Santiago Domínguez Sánchez/Daniel Berger; digitale Fassung: Carolin Sachs, Thomas Czerner</worker>
+    </head>
+    <info>
+        <date_sort value="11729999">11729999</date_sort>
+        <idno>Ib. Pont. II 35 n. 72</idno>
+    </info>
+    <jaffe>
+        <jaffe1>-</jaffe1>
+        <jaffe2_no/>
+        <jaffe2_page/>
+        <jaffe2_worker>-</jaffe2_worker>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_add nr="Ib. Pont. II 35 n. 72"> De re cf. 
+                <bibl_link target="Goodich, Canonization Policy of Celestine III">Goodich The Canonization</bibl_link> p. 307–309; 
+                <bibl_link target="Petersohn, Kanonisationsdelegation">Petersohn Die päpstliche Kanonisationsdelegation</bibl_link> p. 163–206; 
+                <bibl_link lang="" target="" target2="468917" type="" uuid="">Paccioco Sublimia negotia</bibl_link> p. 21–41; 
+                <bibl_link target="Kemp, Canonization and authority">Kemp Canonization</bibl_link> p. 89sq.; 
+                <bibl_link target="Krafft, Papsturkunde und Heiligsprechung">Krafft Papsturkunde</bibl_link> p. 204–208. – De legatione cardinalis 
+                <pers_name addition="Giacinto Bobone" key="193550312" life="gest. 1198" place="Roma" reg="Coelestinus III papa (Hyacintus Bobo)">Iacinti</pers_name> cf. 
+                <bibl_link target="Weiß, Legaten">Weiß Legaten</bibl_link> p. 182–203; 
+                <bibl_link target="Fleisch, Rom und die Iberische Halbinsel">Fleisch Rom</bibl_link> p. 144–161 cum studiis laudatis; 
+                <bibl_link target="Smith, Iberian Legations">Smith Iberian Legations</bibl_link> passim. </pont_reg_add>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_add nr="Ib. Pont. II 35 n. 72">Ib. Pont. II</pont_reg_add>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_add nr="Ib. Pont. II 35 n. 72">35 n. 72</pont_reg_add>
+        </pont_no>
+        <pontificate>Alexander III.</pontificate>
+        <receipt_inst>
+            <pont_reg_add nr="Ib. Pont. II 35 n. 72">León, Episc.</pont_reg_add> León, Episc. (Ib. Pont. II 35 n. 72); Ib. Pont. Braga, Archiepisc. v. etiam Sahagún n. 43 (Ib. Pont. II 120); Toledo, Archiepisc.; Compostela, Archiepisc.; Oviedo, Episc.; Coria, Episc.; Zamora, Episc.; Lisboa, Episc.; Sigüenza, Episc.; Palencia, Episc.; Segovia, Episc.; Lugo, Episc.; Mondoñedo, Episc.; Tui, Episc.; Regnum Castellae; Regnum Legionis; Regnum Portugalliae.</receipt_inst>
+        <regest_pont>
+            <pont_reg_add nr="Ib. Pont. II 35 n. 72">
+                <pers_name addition="Giacinto Bobone" key="193550312" life="gest. 1198" place="Roma" reg="Coelestinus III papa (Hyacintus Bobo)">
+                    <issuer> Iacintus</issuer> </pers_name> S.R.E. diaconus cardinalis 
+                <place_name category="Kirche" diocese="Roma" geodata="N 41°53′41″ E 12°29′02″" id="3169070" identification="Roma, Santa Maria in Cosmedin" institution="Basilica s. Mariae in Cosmedin">
+                    <issuer> s. Mariae in Cosmedin</issuer> </place_name> et 
+                <place_name addition="Papa; S. Romana ecclesia" category="Bistum" diocese="Roma" geodata="N 41°53′12″ E 12°30′20″" id="11669597" identification="Roma, sedes apostolica et patriarchatus" institution="Sedes apostolica et Episcopatus seu patriarchatus Romanus">
+                    <issuer> apostolicae sedis</issuer> </place_name> (
+                <pers_name addition="Rolandus Bandinelli?" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa">Alexandri III</pers_name>) legatus 
+                <pers_name place="Braga" reg="Iohannes archiepiscopus">
+                    <adressee> Iohanni</adressee> </pers_name>
+                <place_name category="Erzbistum" diocese="Braga" geodata="N 41°33′01″ W 8°25′12″" id="2742032" identification="Braga, archiepisc." institution="Archiepiscopatus Bracarensis">
+                    <adressee> Bracarensi</adressee> </place_name> archiepiscopo et universis eius suffraganeis omnibusque ecclesiarum praelatis per provinciam suam constitutis: ad instantiam et preces 
+                <place_name category="Region" geodata="N 40°00′00″ W 4°00′00″" id="2510769" identification="Hispania">Hispaniae</place_name>
+                <pers_name key="192898432" life="1137-1188" place="Leon, Galicia" reg="Ferdinandus II rex">Ferdinandi (II</pers_name>
+                <place_name category="Königreich" diocese="Legio" geodata="N 42°36′00″ W 5°34′13″" id="3118532" identification="Leon" institution="Regnum Legionis">Legionensis</place_name>), 
+                <pers_name addition="el Noble" key="267847252" life="1155-1214" place="Castilla" reg="Alfonsus VIII rex">Alphonsi (VIII</pers_name>) 
+                <place_name category="Königreich" geodata="N 42°21′01″ W 3°40′31″" id="3127461" identification="Castilla" institution="Regnum Castellae">Castellae</place_name> et 
+                <pers_name addition="el Conquistador, el Fundador" key="3838240" life="ca. 1109-1185" place="Portugal" reg="Alfonsus I rex">Alphonsi (I</pers_name>) 
+                <place_name category="Königreich" geodata="N 40° 15′ 0″ W 8° 27′ 0″" identification="Portugal" institution="Regnum Portugalliae">Portugalliae</place_name> regum, et ad petitionem undecim episcoporum et quamplurium praelatorum, inter quos 
+                <pers_name addition="Albertinus" place="Leon" reg="Iohannes episcopus">Iohanne</pers_name>
+                <place_name category="Bistum" diocese="Legio" geodata="N 42°36′00″ W 5°34′13″" id="3118532" identification="Leon episc." institution="Episcopatus Legionensis">Legionensi</place_name> episcopo et 
+                <pers_name place="Sahagún, monasterium s. Facundi" reg="Guterrius abbas">(Guterrio) abbate</pers_name>
+                <place_name addition="OSB" category="Kloster" diocese="Legio" geodata="N 42°22′15″ W 5°01′46″" id="3111131" identification="Sahagun, Monasterium s. Facundi" institution="Monasterium s. Facundi">s. Facundi</place_name>, auctoritate domini papae, 
+                <pers_name addition="Rabinato" place="Mondonedo" reg="Rudesindus episcopus">Rudesindum</pers_name>
+                <place_name category="Bistum" diocese="Mondonedo" geodata="N 43°25′37″ W 7°21′30″" id="3116506" identification="Mondonedo episc." institution="Episcopatus Mindoniensis">Dumiensis</place_name> ecclesiae quondam episcopum canonizat, et mandat, ut sicut sanctus in terris ab universis Christi fidelibus veneretur.</pont_reg_add>
+        </regest_pont>
+        <worker_comment_pont>
+            <pont_reg_add nr="Ib. Pont. II 35 n. 72">Adressaten: Iohanni Bracarensi archiepiscopo et universis eius suffraganeis omnibusque ecclesiarum praelatis per provinciam suam constitutis. Anmerkungen und to do: ; Personen: , , , , , ; Orte: , , , , </pont_reg_add>
+        </worker_comment_pont>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

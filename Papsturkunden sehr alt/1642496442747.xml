@@ -1,0 +1,114 @@
+<text type="charter" id="1642496442747">
+    <bibl>
+        <edition/>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests/>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type/>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script/>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria/>
+        <date_p value="11750511" to="11750511" from="11750511">(1175) mai. 11</date_p>
+        <initium/>
+        <pub_place>
+            <place_name GND="4236682-3" GND_city="4236682-3" VIAF=" 244168908" VIAF_city="244168908" category="Stadt" country="Italien" diocese="Ferentinum" geo_DEZIMAL_city="41.693056°, 13.254444°" geo_DMS_city="N 41°41'33.76″ E 13°15'12.08″" geodata="N 41°41′43″ E 13°15′23″" geodata_region="0" geodata_vague="0" id="6539766" identification="Ferentino" institution="Civitas Ferentinum" literature="IP II, 147" region="Latium" uuid="{067A25DE-7F04-4BB9-BA0F-32D5639118A0}">Ferentinum</place_name>
+        </pub_place>
+        <script_date/>
+        <state/>
+        <supplier/>
+        <supplier_type/>
+        <user_comment/>
+        <worker>Gall. Pont. III,3: Beate Schilling; digitale Fassung: Valérie Lüthi, Johannes Luther</worker>
+    </head>
+    <info>
+        <date_sort value="11750511">11750511</date_sort>
+        <idno>Gall. Pont. III,3 86 n. 121</idno>
+    </info>
+    <jaffe>
+        <jaffe1/>
+        <jaffe2_no/>
+        <jaffe2_page/>
+        <jaffe2_worker/>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_add nr="Gall. Pont. III,3 86 n. 121">On ne sait pas qui était évêque de 
+                <place_name category="Bistum" country="Frankreich" diocese="Dea Vocontiorum" geo_DEZIMAL_city="44.7536, 5.3703" geo_DMS_city="N 44° 45′ 12.96″ E 5° 22′ 13.08″" geodata="N 44°45′8″ E 5°22′16″" geodata_region="-1" geodata_vague="0" id="12047198" identification="Die, episc." institution="Episcopatus Diensis" region="Auvergne-Rhône-Alpes" uuid="{FC0940D8-961F-49AC-A336-1A7423B585DD}">Die</place_name> a l’époque de cette lettre: selon le fragment d’un nécrologue cartusien, le chartreux 
+                <pers_name addition="Le Bienheureux Bernard, Prior von Portes" floruit="1176" literature="Chevalier, Notes, S. 269" place="Die" reg="Bernardus episcopus" sex="male" termofoffice="1176 belegt" uuid="{D67E4AF8-AB60-4EC8-A0D1-BD10FE82DF07}">Bernard</pers_name> aurait été évêque de 
+                <place_name category="Bistum" country="Frankreich" diocese="Dea Vocontiorum" geo_DEZIMAL_city="44.7536, 5.3703" geo_DMS_city="N 44° 45′ 12.96″ E 5° 22′ 13.08″" geodata="N 44°45′8″ E 5°22′16″" geodata_region="-1" geodata_vague="0" id="12047198" identification="Die, episc." institution="Episcopatus Diensis" region="Auvergne-Rhône-Alpes" uuid="{FC0940D8-961F-49AC-A336-1A7423B585DD}">Die</place_name> entre 
+                <pers_name floruit="1163-1173" literature="Chevalier, Notes, S. 269" place="Die" reg="Petrus III episcopus" sex="male" termofoffice="1163 belegt - 1173 belegt" uuid="{65639536-7D2C-41D5-A462-860DFE526A22}">Pierre</pers_name> et 
+                <pers_name floruit="1178-1190" literature="Chavalier, Notes, S. 269f." place="Die" reg="Robertus episcopus" sex="male" termofoffice="1178 belegt - 1190 belegt" uuid="{87522FE8-D75D-417D-987E-72FDDDEE46C6}">Robert</pers_name>. Sur 
+                <pers_name addition="Le Bienheureux Bernard, Prior von Portes" floruit="1176" literature="Chevalier, Notes, S. 269" place="Die" reg="Bernardus episcopus" sex="male" termofoffice="1176 belegt" uuid="{D67E4AF8-AB60-4EC8-A0D1-BD10FE82DF07}">Bernard</pers_name>, voir 
+                <bibl_link target="Chevalier, Essai Die" target2="440992" uuid="{02674FEA-46C8-4E92-A626-3252AC14FD7D}">Chevalier, Essai</bibl_link>, I, p. 215–216; 
+                <bibl_link target="Chevalier, Notes" target2="1953172" uuid="{DF886903-C1D9-4C28-B977-D1D2D3DFE2BA}">Chevalier, Notes</bibl_link>, p. 269.</pont_reg_add>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_add nr="Gall. Pont. III,3 86 n. 121">Gall. Pont. III,3</pont_reg_add>
+            <pont_reg_main nr="Gall. Pont III,1, 292 n. 65">Gall. Pont. III,1</pont_reg_main>
+            <pont_reg_add nr="Gall. Pont. III,2 50 n. 56">Gall. Pont. III,2</pont_reg_add>
+            <pont_reg_add nr="Gall. Pont. III,3 39 n. 56">Gall. Pont. III,3</pont_reg_add>
+            <pont_reg_add nr="Gall. Pont. III,2 119 n. 180">Gall. Pont. III,2</pont_reg_add>
+            <pont_reg_add nr="Gall. Pont. III,2 295 n. 122">Gall. Pont. III,2</pont_reg_add>
+            <pont_reg_add nr="Gall. Pont. III,3 290 n. 151">Gall. Pont. III,3</pont_reg_add>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_add nr="Gall. Pont. III,3 86 n. 121">86 n. 121</pont_reg_add>
+            <pont_reg_main nr="Gall. Pont III,1, 292 n. 65">292 n. 65</pont_reg_main>
+            <pont_reg_add nr="Gall. Pont. III,2 50 n. 56">40 n. 56</pont_reg_add>
+            <pont_reg_add nr="Gall. Pont. III,3 39 n. 56">39 n. 56</pont_reg_add>
+            <pont_reg_add nr="Gall. Pont. III,2 119 n. 180">119 n. 180</pont_reg_add>
+            <pont_reg_add nr="Gall. Pont. III,2 295 n. 122">295 n. 122</pont_reg_add>
+            <pont_reg_add nr="Gall. Pont. III,3 290 n. 151">290 n. 151</pont_reg_add>
+        </pont_no>
+        <pontificate>Alexander III</pontificate>
+        <receipt_inst>
+            <pont_reg_add nr="Gall. Pont. III,3 86 n. 121">Die, episc.</pont_reg_add> Die, episc. (Gall. Pont. III,3 86 n. 121); Vienne, abbatia S. Barnardi (Gall. Pont III,1, 292 n. 65); Suffraganei Viennensi (Gall. Pont. III,2 50 n. 56 et Gall. Pont. III,3 39 n. 56); Grenoble, episc. (Gall. Pont. III,2 119 n. 180); Valence, episc. (Gall. Pont. III,2 295 n. 122); Viviers, episc. (Gall. Pont. III,3 290 n. 151)</receipt_inst>
+        <regest_pont/>
+        <worker_comment_pont/>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

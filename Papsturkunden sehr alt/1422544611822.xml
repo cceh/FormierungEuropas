@@ -1,0 +1,184 @@
+<text type="charter" id="1422544611822">
+    <bibl>
+        <edition>
+            <bibl_link target="Minguella y Arnedo, Diócesis de Sigüenza" target2="467632">Minguella y Arnedo Historia I</bibl_link> 404 n. 49</edition>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests/>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type>Kopial</descent_type>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script/>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria/>
+        <date_p value="11640622" to="11640622" from="">(1164) iun. 22</date_p>
+        <initium/>
+        <pub_place>
+            <place_name category="Stadt" diocese="Sens" geodata="N 48°12′00″ E 3°17′00″" identification="Sens">Sens</place_name>
+        </pub_place>
+        <script_date/>
+        <state/>
+        <supplier>
+            <pers_name addition="Rolandus Bandinelli?" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa">Alexander III</pers_name>
+        </supplier>
+        <supplier_type>papa</supplier_type>
+        <user_comment/>
+        <worker>Berger (Ib. Pont. I); Santiago Domínguez Sánchez/Daniel Berger (Ib. Pont. II); digitale Fassung: Carolin Sachs, Thomas Czerner (Ib. Pont. II)</worker>
+    </head>
+    <info>
+        <date_sort value="11640622">11640622</date_sort>
+        <idno>Ib. Pont. I 70 n. 112</idno>
+    </info>
+    <jaffe>
+        <jaffe1/>
+        <jaffe2_no>-</jaffe2_no>
+        <jaffe2_page/>
+        <jaffe2_worker>-</jaffe2_worker>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_add nr="Ib. Pont. I 70 n. 112">De re v. supra Burgos, Episc. n. 110. Eodem die 
+                <pers_name key="88956811" life="1181" place="Roma" reg="Alexander III papa (Rolandus Bandinelli)">Alexander III</pers_name> litteras eiusdem argumenti capitulo 
+                <place_name category="episcopatus" diocese="Osma" geodata="N 41°35′10″ W 3°03′55″" identification="El Burgo de Osma, episc." institution="Episcopatus Oxomensis">Oxomensi</place_name> direxit (ed. 
+                <bibl_link target="Minguella y Arnedo, Diócesis de Sigüenza">Minguella y Arnedo Historia I</bibl_link> 409 n. 54).</pont_reg_add>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_add nr="Ib. Pont. I 70 n. 112">Ib. Pont. I</pont_reg_add>
+            <pont_reg_add nr="Ib. Pont. II 34 n. 69">Ib. Pont. II</pont_reg_add>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_add nr="Ib. Pont. I 70 n. 112">70 n. 112</pont_reg_add>
+            <pont_reg_add nr="Ib. Pont. II 34 n. 69">34 n. 69</pont_reg_add>
+        </pont_no>
+        <pontificate>Alexander III.</pontificate>
+        <receipt_inst>
+            <pont_reg_add nr="Ib. Pont. I 70 n. 112">Burgos, Episc.</pont_reg_add>
+            <pont_reg_add nr="Ib. Pont. II 34 n. 69">León, Episc.</pont_reg_add> Burgos, Episc. n. 112 (Ib. Pont. I 70); Sigüenza, Episc.; León, Episc. n. 69 (Ib. Pont. II 34); Toledo, Archiepisc.; Osma, Episc.; Zamora, Episc.</receipt_inst>
+        <regest_pont>
+            <pont_reg_add nr="Ib. Pont. I 70 n. 112">
+                <pers_name key="88956811" life="1181" place="Roma" reg="Alexander III papa (Rolandus Bandinelli)">
+                    <issuer>Alexander III</issuer>
+                </pers_name>
+                <pers_name addition="de Segovia" life="1166" place="Toledo" reg="Iohannes archiepiscopus">
+                    <adressee>I(ohanni)</adressee>
+                </pers_name>
+                <place_name category="archiepiscopatus" diocese="Toledo" geodata="N 39°51′29″ W 4°01′21″" identification="Toledo, archiepisc." institution="Archiepiscopatus Toletanus">
+                    <adressee>Toletano</adressee>
+                </place_name> archiepiscopo et 
+                <pers_name addition="Albertinus" life="Bischof bis 1181" place="Leon" reg="Iohannes episcopus">
+                    <adressee>I(ohanni)</adressee>
+                </pers_name>
+                <place_name category="episcopatus" diocese="Leon" geodata="N 42°36′00″ W 5°34′13″" identification="Leon, episc." institution="Episcopatus Legionensis">
+                    <adressee>Legionensi</adressee>
+                </place_name>, 
+                <pers_name addition="Esteban" life="Bischof bis 1174" place="Zamora" reg="Stephanus episcopus">
+                    <adressee>S(tephano)</adressee>
+                </pers_name>
+                <place_name category="episcopatus" diocese="Zamora" geodata="N 41°30′23″ W 5°44′40″" identification="Zamora, episc." institution="Episcopatus Zamorensis">
+                    <adressee>Zamorensi</adressee>
+                </place_name> et 
+                <pers_name addition="Perez" life="Bischof bis 1181" place="Burgos" reg="Petrus (II) episcopus">
+                    <adressee>P(etro II)</adressee>
+                </pers_name>
+                <place_name category="episcopatus" diocese="Burgos" geodata="N 42°21′01″ W 3°40′31″" identification="Burgos, episc." institution="Episcopatus Burgensis">
+                    <adressee>Burgensi</adressee>
+                </place_name> episcopis: memorans ea, quae eisdem episcopis - iudicibus delegatis in causa versa inter episcopos 
+                <place_name category="episcopatus" diocese="Siguenza" geodata="N 41°04′08″ W 2°38′35″" identification="Siguenza, episc" institution="Episcopatus Seguntinus">Seguntinum</place_name> et 
+                <place_name category="episcopatus" diocese="Osma" geodata="N 41°35′10″ W 3°03′55″" identification="El Burgo de Osma, episc." institution="Episcopatus Oxomensis">Oxomensem</place_name> - olim per scripta in mandatis dederit (Burgos, Episc. n. 110), cum litterae eorum super his nondum receperit, iterum mandat, ut infra triginta dies post harum susceptionem causam inquirant et secundum tenorem harum litterarum procedere studeant. Si episcopi litigantes, ut dicitur, re vera in regem 
+                <place_name geodata="N 40°00′00″ W 4°00′00″" identification="Hispania">Hispaniarum</place_name> (
+                <pers_name key="192898432" life="1188" place="Leon, Galicia" reg="Ferdinandus II rex">Fredinandum II</pers_name>
+                <place_name category="regnum" diocese="Leon" geodata="N 42°36′00″ W 5°34′13″" identification="Leon" institution="Regnum Legionis">Legionensem</place_name>) legitime compromiserunt, episcopum 
+                <place_name category="episcopatus" diocese="Osma" geodata="N 41°35′10″ W 3°03′55″" identification="El Burgo de Osma, episc." institution="Episcopatus Oxomensis">Oxomensem</place_name> a sententia excommunicationis, quam 
+                <place_name category="archiepiscopatus" diocese="Toledo" geodata="N 39°51′29″ W 4°01′21″" identification="Toledo, archiepisc." institution="Archiepiscopatus Toletanus">Toletanus</place_name> archiepiscopus iam promulgaverit (Burgos, Episc. n. *111), absolvant; si vero non, mandat, ut sententia excommunicationis firmiter observetur et insuper villae ab episcopo 
+                <place_name category="episcopatus" diocese="Osma" geodata="N 41°35′10″ W 3°03′55″" identification="El Burgo de Osma, episc." institution="Episcopatus Oxomensis">Oxomensi</place_name> occupatae, videlicet 
+                <place_name diocese="Siguenza" geodata="N 41°25′08″ W 3°22′31″" identification="Ayllon">Ailon</place_name> (
+                <place_name diocese="Siguenza" geodata="N 41°25′08″ W 3°22′31″" identification="Ayllon">Ayllón</place_name>), 
+                <place_name diocese="Siguenza" geodata="N 41°23′00″ W 3°05′29″" identification="Caracena">Caracena</place_name>, 
+                <place_name diocese="Siguenza" geodata="N 38°17′00″ W 5°49′00″" identification="Berlanga de Duero">Berlanga</place_name> atque 
+                <place_name diocese="Siguenza" geodata="N 41°29′11″ W 2°31′51″" identification="Almazan">Almazan</place_name>, interdicto subiaceant - sicut et 
+                <place_name category="ecclesia cathedralis" diocese="Osma" geodata="N 41°35′10″ W 3°03′55″" identification="El Burgo de Osma, eccl. cath." institution="Ecclesia Cathedralis Hoxomensis">ecclesia cathedralis Oxomensis</place_name>, si episcopus eius reatum suum non correxerit.</pont_reg_add>
+            <pont_reg_add nr="Ib. Pont. II 34 n. 69">
+                <pers_name addition="Rolandus Bandinelli?" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa">
+                    <issuer> Alexander III</issuer> </pers_name>
+                <pers_name addition="de Segovia" place="Toledo" reg="Iohannes archiepiscopus"> I(ohanni </pers_name>) 
+                <place_name category="Erzbistum" diocese="Toledo" geodata="N 39°51′29″ W 4°01′21″" id="2510409" identification="Toledo, archiepisc." institution="Archiepiscopatus Toletanus">
+                    <adressee> Toletano</adressee> </place_name> archiepiscopo, et 
+                <pers_name addition="Albertinus" place="Leon" reg="Iohannes episcopus"> I(ohanni </pers_name>) 
+                <place_name category="Bistum" diocese="Legio" geodata="N 42°36′00″ W 5°34′13″" id="3118532" identification="Leon episc." institution="Episcopatus Legionensis">
+                    <adressee> Legionensi</adressee> </place_name>, 
+                <pers_name addition="Esteban" place="Zamora" reg="Stephanus episcopus"> S(tephano </pers_name>) 
+                <place_name category="Bistum" diocese="Zamora" geodata="N 41°30′23″ W 5°44′40″" id="3104342" identification="Zamora episc." institution="Episcopatus Zamorensis">
+                    <adressee> Zamorensi</adressee> </place_name>, et 
+                <pers_name addition="Perez" place="Burgos" reg="Petrus (II) episcopus"> P(etro II </pers_name>) 
+                <place_name category="Bistum" diocese="Burgos" geodata="N 42°21′01″ W 3°40′31″" id="3127461" identification="Burgos episc." institution="Episcopatus Burgensis">
+                    <adressee> Burgensi</adressee> </place_name> episcopis: memorans ea, quae olim episcopis (
+                <place_name category="Erzbistum" diocese="Toledo" geodata="N 39°51′29″ W 4°01′21″" id="2510409" identification="Toledo, archiepisc." institution="Archiepiscopatus Toletanus">Toletano</place_name>, 
+                <place_name category="Bistum" diocese="Zamora" geodata="N 41°30′23″ W 5°44′40″" id="3104342" identification="Zamora episc." institution="Episcopatus Zamorensis">Zamorensi</place_name>, 
+                <place_name category="Bistum" diocese="Burgos" geodata="N 42°21′01″ W 3°40′31″" id="3127461" identification="Burgos episc." institution="Episcopatus Burgensis">Burgensi</place_name>), iudicibus delegatis in causa versa inter episcopos 
+                <place_name category="Bistum" diocese="Siguenza" geodata="N 41°04′08″ W 2°38′35″" id="3108961" identification="Siguenza episc" institution="Episcopatus Seguntinus">Seguntinum</place_name> et 
+                <place_name category="Bistum" diocese="Osma" geodata="N 41°35′10″ W 3°03′55″" id="3123622" identification="El Burgo de Osma episc." institution="Episcopatus Oxomensis">Oxomensem</place_name>, per scripta in mandatis dederit (cf. 
+                <bibl_link target="Berger, Iberia pontificia 1">Ib. Pont. I</bibl_link> 69 n. 110, [1163] nov. 13), cum litterae eorum super his nondum receperit, iterum mandat, ut infra triginta dies post harum susceptionem causam inquirant et secundum tenorem harum litterarum procedere studeant. Si episcopi litigantes, ut dicitur, re vera in regem 
+                <place_name category="Region" geodata="N 40°00′00″ W 4°00′00″" id="2510769" identification="Hispania">Hispaniarum</place_name>
+                <pers_name key="192898432" life="1137-1188" place="Leon, Galicia" reg="Ferdinandus II rex">(Fredinandum II</pers_name>
+                <place_name category="Königreich" diocese="Legio" geodata="N 42°36′00″ W 5°34′13″" id="3118532" identification="Leon" institution="Regnum Legionis">Legionensem</place_name>) legitime compromiserunt, episcopum 
+                <place_name category="Bistum" diocese="Osma" geodata="N 41°35′10″ W 3°03′55″" id="3123622" identification="El Burgo de Osma episc." institution="Episcopatus Oxomensis">Oxomensem</place_name> a sententia excommunicationis, quam 
+                <place_name category="Erzbistum" diocese="Toledo" geodata="N 39°51′29″ W 4°01′21″" id="2510409" identification="Toledo, archiepisc." institution="Archiepiscopatus Toletanus">Toletanus</place_name> archiepiscopus iam promulgaverit (cf. 
+                <bibl_link target="Berger, Iberia pontificia 1">Ib. Pont. I</bibl_link> 69 n. *111), absolvant; si vero non, mandat, ut sententia excommunicationis firmiter observetur et insuper villae ab episcopo 
+                <place_name category="Bistum" diocese="Osma" geodata="N 41°35′10″ W 3°03′55″" id="3123622" identification="El Burgo de Osma episc." institution="Episcopatus Oxomensis">Oxomensi</place_name> occupatae, videlicet 
+                <place_name category="Stadt" diocese="Siguenza" geodata="N 41°25′08″ W 3°22′31″" id="3129106" identification="Ayllon">Ailon (Ayllón)</place_name>, 
+                <place_name category="Stadt" diocese="Siguenza" geodata="N 41°23′00″ W 3°05′29″" id="3126443" identification="Caracena">Caracena</place_name>, 
+                <place_name category="Stadt" diocese="Siguenza" geodata="N 38°17′00″ W 5°49′00″" id="3128181" identification="Berlanga de Duero">Berlanga</place_name> atque 
+                <place_name category="Stadt" diocese="Siguenza" geodata="N 41°29′11″ W 2°31′51″" id="3130313" identification="Almazan">Almazan</place_name>, interdicto sub iaceant – sicut et 
+                <place_name category="Kathedralkirche" diocese="Osma" geodata="N 41°35′10″ W 3°03′55″" id="3123622" identification="El Burgo de Osma, eccl. cath." institution="Ecclesia Cathedralis Hoxomensis">ecclesia cathedralis Oxomensis</place_name>, si episcopus eius reatum suum non correxerit.</pont_reg_add>
+        </regest_pont>
+        <worker_comment_pont>
+            <pont_reg_add nr="Ib. Pont. I 70 n. 112">Adressaten: I(ohanni) Toletano archiepiscopo et I(ohanni) Legionensi, 
+                <pers_name addition="Esteban" life="Bischof bis 1174" place="Zamora" reg="Stephanus episcopus">S(tephano</pers_name>) Zamorensi et 
+                <pers_name addition="Perez" life="Bischof bis 1181" place="Burgos" reg="Petrus (II) episcopus">P(etro II</pers_name>) Burgensi episcopis. Anmerkungen und to do: ; Personen: 
+                <pers_name key="88956811" life="1181" place="Roma" reg="Alexander III papa (Rolandus Bandinelli)">Alexander III</pers_name>., Papst, Juan (II.), Ebf. v. Toledo, Juan, Bf. v. León, Estebán, Bf. v. Zamora, Fernando (II.), Kg. v. León, 
+                <pers_name addition="Pedro de Agen" life="1149" place="Segovia" reg="Petrus episcopus">Pedro</pers_name> (II.), Bf. v. Burgos; Sigüenza, Bf. ; Osma, Bf. ; Osma, Domkapitel; Orte: Ayllón, Caracena, Berlanga de Duero, Almazán, Osma, Kathedrale</pont_reg_add>
+        </worker_comment_pont>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

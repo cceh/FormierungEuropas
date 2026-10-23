@@ -1,0 +1,135 @@
+<text type="charter" id="1653378374734">
+    <bibl>
+        <edition>
+            <bibl_link target="Germain, Liber instrumentorium memoralium" target2="56218" uuid="{69F506B7-2F13-408B-8A2A-D0DD9EB0402E}">Germain, Liber instrumentorum memorialium</bibl_link>, no 19, p. 47; 
+            <bibl_link target="Migne, PL" target2="1002570" uuid="{A5F3DD37-8B72-40D6-9601-D803791C4EFF}">Migne, P. L.</bibl_link>, 200, no 89, c. 163</edition>
+        <figure/>
+        <literature>
+            <bibl_link target="Wiederhold, Papsturkunden in Frankreich 7" target2="481845" uuid="{D579CD77-EF44-47CA-9ED5-97E82AC434DB}">Wiederhold, VII</bibl_link>, p. 9 [réimpr., p. 719]).</literature>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests>
+            <bibl_link target="Gallia christiana novissima" target2="55865" uuid="{4BF1F4B3-1284-4190-934A-7D85F406256A}">Gallia Christiana novissima</bibl_link>, III, no 2528, c. 1048; 
+            <bibl_link target="Jaffé, Regesta Pontificum Romanorum" target2="54640" uuid="{77346F34-E2AC-422A-92FA-1D3BFDF42FFC}">J. L.</bibl_link> 10747 [sous le 15 juillet]</regests>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type/>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script/>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria/>
+        <date_p value="11620714" to="11620714" from="11620714">(1162) iul. 14</date_p>
+        <initium/>
+        <pub_place>
+            <place_name GND_city="4040185-6" LCCN_city="n79120260" VIAF_city="155870890" category="Stadt" country="Frankreich" diocese="Monspessulanus" geo_DMS_city="N 43° 37′ 0″ E 3° 53′ 0″" geodata="N 43°36′39″ E 3°52′38″" geodata_region="0" geodata_vague="0" id="2992166" identification="Montpellier" institution="Civitas Monspessulanus" region="Okzitanien" uuid="{BBBCFE03-10C2-4649-9BCA-C5ECCA12BC27}">Monspessulanus</place_name>
+        </pub_place>
+        <script_date/>
+        <state/>
+        <supplier>
+            <pers_name BNF="13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN="n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{58C0B973-E9BB-4491-9207-7428DB953ADF}">Alexander III papa</pers_name>
+        </supplier>
+        <supplier_type>papa</supplier_type>
+        <user_comment/>
+        <worker>Gall. Pont III,3: Beate Schilling; digitale Fassung: Valérie Lüthi, Johannes Luther</worker>
+    </head>
+    <info>
+        <date_sort value="11620714">11620714</date_sort>
+        <idno>JL 10747</idno>
+    </info>
+    <jaffe>
+        <jaffe1/>
+        <jaffe2_no>10747</jaffe2_no>
+        <jaffe2_page/>
+        <jaffe2_worker>JL</jaffe2_worker>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_main nr="Gall. Pont. III,3 287 n. 143">Sur le contexte, voir 
+                <bibl_link target="Fried, Schutz für Laienfürsten" target2="90770" uuid="{1EFB95ED-D958-49F9-858D-1B18C7165613}">J. Fried, Der päpstliche Schutz für Laienfürsten, Heidelberg, 1980 (Abhandlungen der Heidelberger Akademie der Wissenschaften. Philosophisch-Historische Klasse, 1980/1)</bibl_link>, p. 171–173, et, au sujet de la curie itinérante: 
+                <bibl_link target2="1897754" uuid="{F01D18EF-B037-49F0-88B2-9D9E2E6E41B7}">Hiestand, Kardinalizisches Gefolge</bibl_link>, p. 245–247.</pont_reg_main>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_main nr="Gall. Pont. III,3 287 n. 143">Gall. Pont. III,3</pont_reg_main>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_main nr="Gall. Pont. III,3 287 n. 143">287 n. 143</pont_reg_main>
+        </pont_no>
+        <pontificate>Alexander III</pontificate>
+        <receipt_inst>
+            <pont_reg_main nr="Gall. Pont. III,3 287 n. 143">Viviers, episc.</pont_reg_main> Viviers, episc. (Gall. Pont. III,3 287 n. 143); Montpellier, domini</receipt_inst>
+        <regest_pont>
+            <pont_reg_main nr="Gall. Pont. III,3 287 n. 143">
+                <pers_name BNF="13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN="n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{58C0B973-E9BB-4491-9207-7428DB953ADF}">
+                    <issuer> Alexander III</issuer> </pers_name> (
+                <pers_name Wikidata="Q3538335" addition="Pons d'Arsac" floruit="1162-1182" literature="Gallia christiana VI, Sp. 54-57." place="Narbonne" reg="Pontius archiepiscopus" sex="male" termofoffice="1162 belegt - 1182" uuid="{45606965-E69A-4E8E-A45C-CDEE89745919}">
+                    <adressee> Pontio</adressee> </pers_name>) 
+                <place_name GND_city="4117775-7" LCCN_city="n81081145" VIAF_city="163668245" category="Erzbistum" country="Frankreich" diocese="Narbo" geo_DEZIMAL_city="43.184722°, 3.003611°" geo_DMS_city="N 43° 11′ 5″ E 3° 0′ 13″" geodata="N 43°11′06″ E 3°00′14″" geodata_region="-1" geodata_vague="0" geonames_city="2990919" id="12095352" identification="Narbonne, archiepisc." institution="Archiepiscopatus Narbonensis" region="Okzitanien" uuid="{A87F4190-9769-4664-BDE8-0BB3FE0AA949}">
+                    <adressee> Narbonensi (Narbonne)</adressee> </place_name> archiepiscopo, 
+                <place_name GND_city="4085928-9" LCCN_city="n79089381" VIAF_city="243449555" category="Domkapitel" country="Frankreich" diocese="Arelat" geo_DEZIMAL_city="43.6767, 4.6278" geo_DMS_city="N 43° 40′ 36.12″ E 4° 37′ 40.08″" geodata="N 43°40′36″ E 4°37′41″" geodata_region="-1" geodata_vague="0" id="12089158" identification="Arles, Chapitre cathedrale de Saint-Trophime" institution="Capitulum cathedralis ecclesiae S. Trophimi" region="Provence-Alpes-Côte d’Azur" uuid="{2F66059B-CAA0-4703-951B-0B95A8BD6E5F}">
+                    <adressee> Arelatensis (Arles) ecclesiae capitulo</adressee> </place_name> et 
+                <pers_name BNF="" GND="" GermaniaSacra="" LCCN="" Wikidata="" addition="" floruit="" key="" life="" literature="" place="" reg="Arelatensis ecclesiae capitulum et universi utrique suffraganei" sex="" termofoffice="" uuid="">
+                    <adressee> universis utriusque suffraganeis</adressee> </pers_name>, (
+                <pers_name addition="Raymond d'Uzès" floruit="1157-1170/71" literature="Rouchier/Régné, Histoire, Bd. 2, S. 36-40" place="Viviers" reg="Raimundus episcopus" sex="male" termofoffice="1157-1170/71" uuid="{A3C42D4C-2E51-4EAF-820E-4DD3A053A93D}">
+                    <adressee> Raimundo</adressee> </pers_name>) 
+                <place_name category="Bistum" country="Frankreich" diocese="Vivarium" geo_DEZIMAL_city="44.4828, 4.68895" geo_DMS_city="N 44°28′58″ E 4°41′20″" geodata="N 44°28′55″ E 4°41′25″" geodata_region="-1" geodata_vague="0" geonames_city="2967820" id="12047232" identification="Viviers, episc." institution="Episcopatus Vivariensis" region="Auvergne-Rhône-Alpes" uuid="{02075C7B-A0E6-44CE-B120-62F8DE2FC7BA}">
+                    <adressee> Vivariensi</adressee> </place_name>, (
+                <pers_name Wikidata="Q3387709" addition="Pierre de Solignac" floruit="1159-1189" literature="Gallia christiana II, Sp. 705-707." place="Le Puy-en-Velay" reg="Petrus IV episcopus" sex="male" termofoffice="1159-1189 belegt" uuid="{95866A90-5923-466D-BBAB-B9849BD3F5F8}">
+                    <adressee> Petro</adressee> </pers_name>) 
+                <place_name GND_city="4111265-9" LCCN_city="n82052561" VIAF_city="147339129" category="Bistum" country="Frankreich" diocese="Anicium" geo_DEZIMAL_city="45.04205°, 3.883281°" geo_DMS_city="N 45° 2′ 31.38″ E 3° 52′ 59.81″" geodata="N 45°02′44″ E 3°53′06″" geodata_region="-1" geodata_vague="0" id="11777227" identification="Le Puy-en-Velay, episc." institution="Episcopatus Aniciensis/Podiensis" region="Auvergne-Rhône-Alpes" uuid="{7DD8A344-27A8-4B12-B457-93CE50BC4EC2}">
+                    <adressee> Aniciensi (Le Puy)</adressee> </place_name>, (
+                <pers_name Wikidata="Q2832258" addition="Aldebert III de Tournai" floruit="1123-1187" life="ca. 1100-1187" literature="Vincent-Cassy, Art. Mende (Lozère, France), bishopric. 2. The Bishops of Mende's Homage to the King of France, in: International Encyclopaedia for the Middle Ages-Online. A Supplement to LexMA-Online. Turnhout: Brepols Publishers, 2005" place="Mende" reg="Aldebertus III episcopus" sex="male" termofoffice="1153-1187" uuid="{2DBE2510-A9F8-491C-87EF-99DA842560DC}">
+                    <adressee> Aldeberto</adressee> </pers_name>) 
+                <place_name GND_city="4115093-4" LCCN_city="n83052771" VIAF_city="123920755" category="Bistum" country="Frankreich" diocese="Mimas" geo_DEZIMAL_city="44.518333°, 3.500556°" geo_DMS_city="N 44° 31′ 6″ E 3° 30′ 2″" geodata="N 44°33′02″ E 3°29′54″" geodata_region="-1" geodata_vague="0" id="12451023" identification="Mende, episc." institution="Episcopatus Mimatensis" region="Okzitanien" uuid="{3BBB629D-4ACC-4239-A122-1880EAE50A64}">
+                    <adressee> Mimatensi (Mende)</adressee> </place_name> et (
+                <pers_name floruit="1161-1210" literature="Gallia christiana 1, Sp. 208f." place="Rodez" reg="Hugo episcopus" sex="male" termofoffice="1161 belegt - 1210 belegt" uuid="{93013937-1990-4310-87B7-DAA27CCC6C85}">
+                    <adressee> Hugoni</adressee> </pers_name>) 
+                <place_name GND_city="4115777-1" LCCN_city="n81022944" VIAF_city="152450463" category="Bistum" country="Frankreich" diocese="Rutena" geo_DEZIMAL_city="44.35°, 2.574167°" geo_DMS_city="N 44° 21′ 0″ E 2° 34′ 27″" geodata="N 44°21′03″ E 2°34′26″" geodata_region="-1" geodata_vague="0" id="6948505" identification="Rodez, episc." institution="Episcopatus Rutensis" region="Okzitanien" uuid="{D4545478-3C9C-4C09-9EFF-183E53C9BCED}">
+                    <adressee> Ruthenensi (Rodez)</adressee> </place_name> episcopis: notificat se nobilem virum 
+                <pers_name Wikidata="Q1226820" addition="Guilhem VII" floruit="1149-1172" life="gest. 1172" literature="Lexikon des Mittelalters 9, Sp. 196." place="Montpellier" reg="Guillelmus VII princeps" sex="male" termofoffice="1149-1172" uuid="{6FB53354-B611-4FF2-AC7C-512239A5C748}">Guillelmum</pers_name> de 
+                <place_name GND_city="4040185-6" LCCN_city="n79120260" VIAF_city="155870890" category="Stadt" country="Frankreich" diocese="Monspessulanus" geo_DMS_city="N 43° 37′ 0″ E 3° 53′ 0″" geodata="N 43°36′39″ E 3°52′38″" geodata_region="0" geodata_vague="0" id="2992166" identification="Montpellier" institution="Civitas Monspessulanus" region="Okzitanien" uuid="{BBBCFE03-10C2-4649-9BCA-C5ECCA12BC27}">Montepessulano (Montpellier)</place_name> ejusque bona, homines et mercatores Montispessulanos sub 
+                <pers_name BNF="120020645" GND="118593323" LCCN=" n79022118" Wikidata="Q33923" floruit="33-64" key="54940864" life="gest. ca. 64" place="Roma" reg="s. Petrus apostolus" sex="male" uuid="{DBECC144-1D59-4673-AAA7-BC12BBCA6E84}">b. Petri</pers_name> et sua protectione suscepisse ipsosque tanquam principis apostolorum speciales filios confovere. Eis mandat quatenus pro 
+                <pers_name BNF="120020645" GND="118593323" LCCN=" n79022118" Wikidata="Q33923" floruit="33-64" key="54940864" life="gest. ca. 64" place="Roma" reg="s. Petrus apostolus" sex="male" uuid="{DBECC144-1D59-4673-AAA7-BC12BBCA6E84}">b. Petri</pers_name> et sua reverentia ipsos diligant ipsisque opem et consilium exhibeant necnon apud parrochianos eorum satisfactionem faciant.</pont_reg_main>
+        </regest_pont>
+        <worker_comment_pont/>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

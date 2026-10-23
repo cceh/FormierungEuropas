@@ -1,0 +1,146 @@
+<text type="charter" id="1642496441512">
+    <bibl>
+        <edition>
+            <bibl_link target="Chaix de Lavarène, Monumenta Arverniae" target2="441331" uuid="{ECDDFA93-583F-437D-9071-8875B2F36815}">Chaix de Lavarène, Monumenta</bibl_link>, no 197, p. 321</edition>
+        <figure/>
+        <literature>
+            <bibl_link target="Wiederhold, Papsturkunden in Frankreich 6" target2="481844" uuid="{6623B637-EEF0-41B7-A2EF-6E209EC9F6EF}">Wiederhold, VI</bibl_link>, p. 6 et n. 13 [réimpr., p. 604].</literature>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests>
+            <bibl_link target="Chevalier, Regeste Dauphinois" target2="48077" uuid="{7AEB8E9C-4E6E-45EB-802A-3F6DBDC3D433}">Reg. dauph.</bibl_link>, I, no 4442, c. 742; 
+            <bibl_link target="Jaffé, Regesta Pontificum Romanorum" target2="54640" uuid="{77346F34-E2AC-422A-92FA-1D3BFDF42FFC}">J. L.</bibl_link> 14264</regests>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type/>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script/>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria/>
+        <date_p value="11720225" to="11720225" from="11710224">(1171–1172) febr. 24 (25)</date_p>
+        <initium/>
+        <pub_place>
+            <place_name addition="1191 zerstört" category="Stadt" country="Italien" geo_DMS_city="N 41° 48′ E 12° 43′" geodata="N 41°47′55″ E 12°42′22″" geodata_region="0" geodata_vague="0" id="10376743" identification="Tusculum" institution="Civitas Tusculum" region="Latium" uuid="{FC9E8FC1-C12B-4FF2-88F9-40C5C83CC775}">Tusculum</place_name>
+        </pub_place>
+        <script_date/>
+        <state/>
+        <supplier>
+            <pers_name BNF="13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN="n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{58C0B973-E9BB-4491-9207-7428DB953ADF}">Alexander III papa</pers_name>
+        </supplier>
+        <supplier_type>papa</supplier_type>
+        <user_comment/>
+        <worker>Gall. Pont. III,3: Beate Schilling; digitale Fassung: Valérie Lüthi, Johannes Luther</worker>
+    </head>
+    <info>
+        <date_sort value="11720225">11720225</date_sort>
+        <idno>JL 14264</idno>
+    </info>
+    <jaffe>
+        <jaffe1/>
+        <jaffe2_no>14264</jaffe2_no>
+        <jaffe2_page/>
+        <jaffe2_worker>JL</jaffe2_worker>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_main nr="Gall. Pont. III,3 85 n. 119">Des années 1171, 1172 et 1181 qui conviennent à la présence du pape a 
+                <place_name addition="1191 zerstört" category="Stadt" country="Italien" geo_DMS_city="N 41° 48′ E 12° 43′" geodata="N 41°47′55″ E 12°42′22″" geodata_region="0" geodata_vague="0" id="10376743" identification="Tusculum" institution="Civitas Tusculum" region="Latium" uuid="{FC9E8FC1-C12B-4FF2-88F9-40C5C83CC775}">Tusculum</place_name> un 24 (25) février (voir 
+                <bibl_link target="Jaffé, Regesta Pontificum Romanorum" target2="54640" uuid="{77346F34-E2AC-422A-92FA-1D3BFDF42FFC}">J. L.</bibl_link>, II, p. 242, 250, 260, 407, 414), on peut écarter 1181, vu que le pape, dans sa relation detaillée, ne mentionne pas la commission du 
+                <pers_name BNF="133218797" GND="11955562X" GermaniaSacra="063-01080-001" LCCN="n/83/35224" Wikidata="Q103437" addition="Giacinto Bobone; Hyacintus Bobo" floruit="ca. 1106-1198" key="193550312" life="ca. 1106-1198" place="Roma" reg="Coelestinus III papa" sex="male" termofoffice="1191-1198" uuid="{0C97D788-BCC8-4F1C-88B6-DFCFD2D98527}">cardinal-diacre Hyacinthe (Célestin III)</pers_name> de 1174 dans cette affaire; voir la charte d’ 
+                <pers_name BNF="133218797" GND="11955562X" GermaniaSacra="063-01080-001" LCCN="n/83/35224" Wikidata="Q103437" addition="Giacinto Bobone; Hyacintus Bobo" floruit="ca. 1106-1198" key="193550312" life="ca. 1106-1198" place="Roma" reg="Coelestinus III papa" sex="male" termofoffice="1191-1198" uuid="{0C97D788-BCC8-4F1C-88B6-DFCFD2D98527}">Hyacinthe</pers_name> du 9 décembre 1174 (
+                <bibl_link target="Chaix de Lavarene, Monumenta" target2="441331" uuid="{ADCE8DCA-A74C-4462-A086-31BF4F51F65F}">Chaix de Lavarene, Monumenta</bibl_link>, Appendice, no 63, p. 508 [erronément sous 1175]; 
+                <bibl_link target="Weiß, Legaten" target2="56740" uuid="{9E3E25D3-903C-423B-AF35-2A17951F2829}">Weiß</bibl_link>, no 45, p. 188; 
+                <bibl_link target="Janssen, Legaten" target2="121898" uuid="{DDDE1767-044D-4C99-9241-F26292144A95}">Janssen</bibl_link>, p. 89 n. 10). Sur le 
+                <place_name category="Priorat" country="Frankreich" diocese="Arvernum" geo_DMS_city="N 45°04′21″ E 3°31′53″" geodata="N 45°04′24″ E 3°31′56″" geodata_region="0" geodata_vague="0" geonames_city="3026832" id="12276991" identification="Prieure de Chanteuges" institution="Prioratus de Cantagols" region="Auvergne-Rhône-Alpes" uuid="{DF41302E-EDC4-4494-A22D-F1F6E35B3597}">monastère de Chanteuges</place_name>, voir 
+                <bibl_link target="Gaussin, L’abbaye de La Chaise-Dieu" target2="448666" uuid="{D4031437-7222-4C1A-8E3F-D26A71B7A5BF}">Gaussin, L’abbaye de La Chaise-Dieu, 1962</bibl_link>, p. 150–151, 229–231, qui ne connaît (p. 182) que la commisssion du 
+                <pers_name BNF="133218797" GND="11955562X" GermaniaSacra="063-01080-001" LCCN="n/83/35224" Wikidata="Q103437" addition="Giacinto Bobone; Hyacintus Bobo" floruit="ca. 1106-1198" key="193550312" life="ca. 1106-1198" place="Roma" reg="Coelestinus III papa" sex="male" termofoffice="1191-1198" uuid="{0C97D788-BCC8-4F1C-88B6-DFCFD2D98527}">cardinal-diacre Hyacinthe</pers_name>. On notera ici une éventuelle commission de 
+                <pers_name floruit="1163-1173" literature="Chevalier, Notes, S. 269" place="Die" reg="Petrus III episcopus" sex="male" termofoffice="1163 belegt - 1173 belegt" uuid="{65639536-7D2C-41D5-A462-860DFE526A22}">l’évêque Pierre</pers_name> dans un conflit opposant 
+                <place_name GND_city="4119350-7" LCCN_city="n81101041" VIAF_city="11146030574635861686" addition="bis 1158 in Avignon, dann in Valence beheimatet; seit dem 14. Jh. intra muros" category="Kanonikerstift" country="Frankreich" diocese="Avennio/Valentia" geo_DEZIMAL_city="44.9325°, 4.891111°" geo_DMS_city="N 44° 55′ 57″ E 4° 53′ 28″" geodata="N 44°56′02″ E 4°53′22″" geodata_region="0" geodata_vague="0" geonames_city="2971053" id="122266954" identification="Saint-Ruf" institution="Ecclesia S. Ruffi" literature="Gall. Pont. III,3, S. 328-413" region="Auvergne-Rhône-Alpes" uuid="{8C73A63A-A194-46BC-ADBB-1222EA1EDD9B}">Saint-Ruf</place_name> a l’évêque de 
+                <place_name category="Bistum" country="Frankreich" diocese="Vivarium" geo_DEZIMAL_city="44.4828, 4.68895" geo_DMS_city="N 44°28′58″ E 4°41′20″" geodata="N 44°28′55″ E 4°41′25″" geodata_region="-1" geodata_vague="0" geonames_city="2967820" id="12047232" identification="Viviers, episc." institution="Episcopatus Vivariensis" region="Auvergne-Rhône-Alpes" uuid="{02075C7B-A0E6-44CE-B120-62F8DE2FC7BA}">Viviers</place_name>, prévue par 
+                <pers_name BNF="13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN="n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{58C0B973-E9BB-4491-9207-7428DB953ADF}">Alexandre III</pers_name> en 1170/72 (
+                <bibl_link target="Gallia pontificia 3, 1" target2="1340743" uuid="{CA574245-0327-4FDE-B99B-819FA98DC6FC}">Gallia pontificia, III</bibl_link>/2, 
+                <place_name GND_city="4119350-7" LCCN_city="n81101041" VIAF_city="11146030574635861686" addition="bis 1158 in Avignon, dann in Valence beheimatet; seit dem 14. Jh. intra muros" category="Kanonikerstift" country="Frankreich" diocese="Avennio/Valentia" geo_DEZIMAL_city="44.9325°, 4.891111°" geo_DMS_city="N 44° 55′ 57″ E 4° 53′ 28″" geodata="N 44°56′02″ E 4°53′22″" geodata_region="0" geodata_vague="0" geonames_city="2971053" id="122266954" identification="Saint-Ruf" institution="Ecclesia S. Ruffi" literature="Gall. Pont. III,3, S. 328-413" region="Auvergne-Rhône-Alpes" uuid="{8C73A63A-A194-46BC-ADBB-1222EA1EDD9B}">Saint-Ruf</place_name>, no 113).</pont_reg_main>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_main nr="Gall. Pont. III,3 85 n. 119">Gall. Pont. III,3</pont_reg_main>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_main nr="Gall. Pont. III,3 85 n. 119">85 n. 119</pont_reg_main>
+        </pont_no>
+        <pontificate>Alexander III</pontificate>
+        <receipt_inst>
+            <pont_reg_main nr="Gall. Pont. III,3 85 n. 119">Die, episc.</pont_reg_main> Die, episc. (Gall. Pont. III,3 85 n. 119); Clermont, monasterium Casae Dei</receipt_inst>
+        <regest_pont>
+            <pont_reg_main nr="Gall. Pont. III,3 85 n. 119">
+                <pers_name BNF="13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN="n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{58C0B973-E9BB-4491-9207-7428DB953ADF}">
+                    <issuer> Alexander III</issuer>
+                </pers_name> (
+                <pers_name addition="Géraud IV Hector" floruit="1159-1199" literature="Dictionnaire d'histoire et de géographie ecclésiastiques 11, Sp. 198" place="Cahors" reg="Guericus IV episcopus" sex="male" termofoffice="1159-1199" uuid="{C78A0B36-FFF0-4FBE-A2CD-6E9857F87752}">
+                    <adressee> Guerico</adressee>
+                </pers_name>) 
+                <place_name category="Bistum" diocese="Cadurca" geodata="N 44°26′57″ E 1°26′12″" geodata_region="0" geodata_vague="0" id="3029213" identification="Cahors, episc." institution="Episcopatus Cadurcensis" uuid="{F8E2D4C3-A687-4D08-AB04-3AF34A3FE077}">
+                    <adressee> Caturcensi (Cahors)</adressee>
+                </place_name> et (
+                <pers_name floruit="1163-1173" literature="Chevalier, Notes, S. 269" place="Die" reg="Petrus III episcopus" sex="male" termofoffice="1163 belegt - 1173 belegt" uuid="{65639536-7D2C-41D5-A462-860DFE526A22}">
+                    <adressee> Petro</adressee>
+                </pers_name>) 
+                <place_name category="Bistum" country="Frankreich" diocese="Dea Vocontiorum" geo_DEZIMAL_city="44.7536, 5.3703" geo_DMS_city="N 44° 45′ 12.96″ E 5° 22′ 13.08″" geodata="N 44°45′8″ E 5°22′16″" geodata_region="-1" geodata_vague="0" id="12047198" identification="Die, episc." institution="Episcopatus Diensis" region="Auvergne-Rhône-Alpes" uuid="{FC0940D8-961F-49AC-A336-1A7423B585DD}">
+                    <adressee> Diensi</adressee>
+                </place_name> episcopis: refert causam inter canonicos 
+                <place_name BNE="" BNE_city="" BNF="" BNF_city="" GND="" GND_city="" GS_Klosterdatenbank="" Getty="" LCCN="" LCCN_city="" VIAF="" VIAF_city="" addition="" category="Kanonikerstift" country="Frankreich" diocese="Arvernum" geo_DEZIMAL_city="" geo_DMS_city="N 45°17′39″ E 3°23′03″" geodata="N 45°17′37″ E 3°23′05″" geodata_region="0" geodata_vague="0" geonames_city="3029995" getty_city="" id="12276990" identification="Brioude, Chapitre Saint-Julien" institution="ecclesia S. Iuliani Brivatensis" literature="" region="Auvergne-Rhône-Alpes" uuid="{EF0169CD-54F8-4821-9E5B-E65FB1405BEE}">Brivatenses (Brioude, diocèse du Puy)</place_name> et monachos de 
+                <place_name category="Priorat" country="Frankreich" diocese="Arvernum" geo_DMS_city="N 45°04′21″ E 3°31′53″" geodata="N 45°04′24″ E 3°31′56″" geodata_region="0" geodata_vague="0" geonames_city="3026832" id="12276991" identification="Prieure de Chanteuges" institution="Prioratus de Cantagols" region="Auvergne-Rhône-Alpes" uuid="{DF41302E-EDC4-4494-A22D-F1F6E35B3597}">Cantagols (Chanteuges, diocèse du Puy)</place_name> exortam, qualiter illud monasterium olim a 
+                <place_name BNE="" BNE_city="" BNF="" BNF_city="" GND="" GND_city="" GS_Klosterdatenbank="" Getty="" LCCN="" LCCN_city="" VIAF="" VIAF_city="" addition="" category="Kanonikerstift" country="Frankreich" diocese="Arvernum" geo_DEZIMAL_city="" geo_DMS_city="N 45°17′39″ E 3°23′03″" geodata="N 45°17′37″ E 3°23′05″" geodata_region="0" geodata_vague="0" geonames_city="3029995" getty_city="" id="12276990" identification="Brioude, Chapitre Saint-Julien" institution="ecclesia S. Iuliani Brivatensis" literature="" region="Auvergne-Rhône-Alpes" uuid="{EF0169CD-54F8-4821-9E5B-E65FB1405BEE}">Brivatensibus</place_name> aedificatum et diuturnis temporibus possessum, postea vero abbati et monasterio 
+                <place_name BNE="" BNE_city="" BNF="" BNF_city="cb15259953g" GND="" GND_city="4491606-1" GS_Klosterdatenbank="" Getty="" LCCN="" LCCN_city="" VIAF="" VIAF_city="152027615" addition="OSB" category="Abtei" country="Frankreich" diocese="Arvernorum" geo_DEZIMAL_city="45.3222, 3.6975" geo_DMS_city="N 45° 19′ 19.92″ E 3° 41′ 51″" geodata="N 45°19′16″ E 3°41′47″" geodata_region="0" geodata_vague="0" geonames_city="" getty_city="" id="12156953" identification="Abbaye de la Chaise-Dieu" institution="Monasterium Casae Dei" literature="" region="Auvergne-Rhône-Alpes" uuid="{BDB5CDD2-9014-4801-8F49-D531F9A15C90}">Casae Dei (La Chaise-Dieu, diocèse de Clermont)</place_name> reformandum concessum fuerit, ita scilicet ut in prioratum converteretur et monachi quorum viginti a 
+                <place_name BNE="" BNE_city="" BNF="" BNF_city="cb15259953g" GND="" GND_city="4491606-1" GS_Klosterdatenbank="" Getty="" LCCN="" LCCN_city="" VIAF="" VIAF_city="152027615" addition="OSB" category="Abtei" country="Frankreich" diocese="Arvernorum" geo_DEZIMAL_city="45.3222, 3.6975" geo_DMS_city="N 45° 19′ 19.92″ E 3° 41′ 51″" geodata="N 45°19′16″ E 3°41′47″" geodata_region="0" geodata_vague="0" geonames_city="" getty_city="" id="12156953" identification="Abbaye de la Chaise-Dieu" institution="Monasterium Casae Dei" literature="" region="Auvergne-Rhône-Alpes" uuid="{BDB5CDD2-9014-4801-8F49-D531F9A15C90}">Casa Dei</place_name> venire debebant, 
+                <place_name BNE="" BNE_city="" BNF="" BNF_city="" GND="" GND_city="" GS_Klosterdatenbank="" Getty="" LCCN="" LCCN_city="" VIAF="" VIAF_city="" addition="" category="Kanonikerstift" country="Frankreich" diocese="Arvernum" geo_DEZIMAL_city="" geo_DMS_city="N 45°17′39″ E 3°23′03″" geodata="N 45°17′37″ E 3°23′05″" geodata_region="0" geodata_vague="0" geonames_city="3029995" getty_city="" id="12276990" identification="Brioude, Chapitre Saint-Julien" institution="ecclesia S. Iuliani Brivatensis" literature="" region="Auvergne-Rhône-Alpes" uuid="{EF0169CD-54F8-4821-9E5B-E65FB1405BEE}">Brivatenses</place_name> certis temporibus, scil. In 
+                <pers_name floruit="472-512" literature="PCBE 2/1, S. 812-813" place="Rom" reg="Rufius Postumius Festus consul" sex="male" termofoffice="472" uuid="{765B27D1-C5B9-451F-943A-408E43D6C4D5}">Festo</pers_name> s. Juliani (28 août) in 
+                <place_name BNE="" BNE_city="" BNF="" BNF_city="" GND="" GND_city="" GS_Klosterdatenbank="" Getty="" LCCN="" LCCN_city="" VIAF="" VIAF_city="" addition="" category="Kanonikerstift" country="Frankreich" diocese="Arvernum" geo_DEZIMAL_city="" geo_DMS_city="N 45°17′39″ E 3°23′03″" geodata="N 45°17′37″ E 3°23′05″" geodata_region="0" geodata_vague="0" geonames_city="3029995" getty_city="" id="12276990" identification="Brioude, Chapitre Saint-Julien" institution="ecclesia S. Iuliani Brivatensis" literature="" region="Auvergne-Rhône-Alpes" uuid="{EF0169CD-54F8-4821-9E5B-E65FB1405BEE}">refectorio Brivatensi</place_name>, et in 
+                <pers_name floruit="472-512" literature="PCBE 2/1, S. 812-813" place="Rom" reg="Rufius Postumius Festus consul" sex="male" termofoffice="472" uuid="{765B27D1-C5B9-451F-943A-408E43D6C4D5}">Festo</pers_name> s. Marcellini (20 avril) in 
+                <place_name category="Priorat" country="Frankreich" diocese="Arvernum" geo_DMS_city="N 45°04′21″ E 3°31′53″" geodata="N 45°04′24″ E 3°31′56″" geodata_region="0" geodata_vague="0" geonames_city="3026832" id="12276991" identification="Prieure de Chanteuges" institution="Prioratus de Cantagols" region="Auvergne-Rhône-Alpes" uuid="{DF41302E-EDC4-4494-A22D-F1F6E35B3597}">prioratu de Cantagols</place_name>, procurare illosque sicut dominos honorare deberent. Addit monachos contra hujusmodi institutiones se privilegio apostolicae auctoritatis (
+                <bibl_link target="Jaffé, Regesta Pontificum Romanorum" target2="54640" uuid="{77346F34-E2AC-422A-92FA-1D3BFDF42FFC}">J. L.</bibl_link> – ?) munitos asserere, quod quidem canonicos 
+                <place_name BNE="" BNE_city="" BNF="" BNF_city="" GND="" GND_city="" GS_Klosterdatenbank="" Getty="" LCCN="" LCCN_city="" VIAF="" VIAF_city="" addition="" category="Kanonikerstift" country="Frankreich" diocese="Arvernum" geo_DEZIMAL_city="" geo_DMS_city="N 45°17′39″ E 3°23′03″" geodata="N 45°17′37″ E 3°23′05″" geodata_region="0" geodata_vague="0" geonames_city="3029995" getty_city="" id="12276990" identification="Brioude, Chapitre Saint-Julien" institution="ecclesia S. Iuliani Brivatensis" literature="" region="Auvergne-Rhône-Alpes" uuid="{EF0169CD-54F8-4821-9E5B-E65FB1405BEE}">Brivatenses</place_name> ad jurisdictionem 
+                <pers_name BNF="120020645" GND="118593323" LCCN=" n79022118" Wikidata="Q33923" floruit="33-64" key="54940864" life="gest. ca. 64" place="Roma" reg="s. Petrus apostolus" sex="male" uuid="{DBECC144-1D59-4673-AAA7-BC12BBCA6E84}">b. Petri</pers_name> et suam nullo mediante spectantes non credere. Unde eis mandat ut utramque partem ad praesentiam vocent causamque audiant eamque, appellatione remota, fine debito terminent.</pont_reg_main>
+        </regest_pont>
+        <worker_comment_pont/>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

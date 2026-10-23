@@ -1,0 +1,215 @@
+<text type="charter" id="1422544643954">
+    <bibl>
+        <edition>
+            <bibl_link lang="" target="Papsturkunden in Spanien 2" type="">Kehr Papsturkunden Spanien II</bibl_link> 464 n. 131. 
+            <bibl_link target="Álamo, Colección Oña">Álamo Colección Oña</bibl_link> I 290 n. 242 ex A. 
+            <bibl_link target="Rodríguez de Lama, Colección diplomática riojana (1961)">Rodríguez de Lama Colección diplomática</bibl_link> p. 507 n. 153 ex B1 (editio partialis). 
+            <bibl_link target="Ledesma Rubio, Cartulario San Millán">Ledesma Rubio Cartulario San Millán</bibl_link> p. 308 n. 420 (mendose)</edition>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests>
+            <bibl_link target="Indice documentos procedentes 1">Índice de los documentos I</bibl_link> 282 n. 33. 
+            <bibl_link target="Weiß, Legaten">Weiß Legaten</bibl_link> p. 187 n. 39</regests>
+        <reproduction/>
+        <transcript>
+            <doc_edition extern="" name="Papsturkunden_Spanien_II_Navarra (nur OCR).pdf#page=466" path="">Kehr Papsturkunden Spanien II 464 n. 131 </doc_edition>
+        </transcript>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type>Original und Kopial</descent_type>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script>
+            <pont_reg_main nr="Ib. Pont. I 141 n. 35">Orig.: Madrid AHN, Sección Clero, Pergaminos, carp. 276 n. 8 (= A); San Millán de la Cogolla, Archivo del monasterio, leg. 7 n. 41 aut [olim?] A 2.1.3. Copiae et excerpta: Madrid AHN, Sección Clero, Pergaminos, carp. 1048 n. 20 (transsumpt. a. 1471 febr. 4 ex orig. in archivo monasterii s. Aemiliani asservato = B1); San Millán de la Cogolla Biblioteca del monasterio, Becerro III sive Bulario (ms. saec. XIII-XIV) f. 22’ (copia saec. XIII-XIV); San Millán de la Cogolla Biblioteca del monasterio, Chartularium ‚Colección diplomática’ saec. XVIII compositum per P. Plácido Romero (Colección Minguella), n. 440 (copia saec. XVIII).</pont_reg_main>
+        </script>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria/>
+        <date_p value="11731023" to="11731023" from="">1173 oct. 23</date_p>
+        <initium>Sacrosanctae Romanae ecclesiae laudanda consuetudo</initium>
+        <pub_place>
+            <place_name diocese="Leon" geodata="N 42°22′15″ W 5°01′46″" identification="Sahagun">Sahagún</place_name>
+        </pub_place>
+        <script_date>Dat. apud Sanctum Facundum p. m. Iohannis Georgii S.R.E. subdiac., 10 kal. nov., ind. 6, inc. d. a. 1173, pont. v. d. Alexandri pp. a. 15.</script_date>
+        <state/>
+        <supplier>
+            <pers_name addition="Giacinto Bobone" key="193550312" life="gest. 1198" place="Roma" reg="Coelestinus III papa (Hyacintus Bobo)">Iacintus</pers_name> S.R.E. diaconus cardinalis s. Mariae in Cosmedin et apostolicae sedis (
+            <pers_name addition="Rolandus Bandinelli?" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa">Alexandri III</pers_name>) legatus</supplier>
+        <supplier_type>legatus</supplier_type>
+        <user_comment/>
+        <worker>Berger (Ib. Pont. I); Santiago Domínguez Sánchez/Daniel Berger (Ib. Pont. II); digitale Fassung: Carolin Sachs, Thomas Czerner (Ib. Pont. II)</worker>
+    </head>
+    <info>
+        <date_sort value="11731023">11731023</date_sort>
+        <idno>Ib. Pont. I 141 n. 35</idno>
+    </info>
+    <jaffe>
+        <jaffe1>-</jaffe1>
+        <jaffe2_no/>
+        <jaffe2_page/>
+        <jaffe2_worker>-</jaffe2_worker>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_main nr="Ib. Pont. I 141 n. 35">Huius chartae bipartitae pars una in archivo 
+                <place_name addition="OSB" category="monasterium" diocese="Burgos" geodata="N 42°44′02″ W 3°24′53″" identification="Ona, San Salvador" institution="Monasterium s. Salvatoris Oniense">Oniensi</place_name> (nunc in Archivo Historico Nationali Matritensi [AHN] asservato), pars altera in archivo 
+                <place_name addition="OSB" category="monasterium" diocese="Calahorra" geodata="N 42°19′47″ W 2°51′43″" identification="San Millan de la Cogolla" institution="Monasterium s. Aemiliani">monasterii s. Aemiliani</place_name> tradita est. De scriptore, subscriptione cardinalis 
+                <pers_name addition="Giacinto Bobone" key="193550312" life="1198" place="Roma" reg="Coelestin III papa (Hyacintus Bobo)">Iacinti</pers_name> sigilloque eiusdem, quod de utraque parte pependit, cf. adnotationes apud 
+                <bibl_link target="Papsturkunden in Spanien 1">Kehr Papsturkunden Spanien I</bibl_link> 464. De re cf. 
+                <bibl_link target="Serrano, Cartulario de San Millán">Serrano Cartulario de San Millán</bibl_link> p. LXXXVIIsq. Laudatur haec charta insuper apud 
+                <bibl_link target="Fita, Canonización">Fita Canonización</bibl_link> p. 108; 
+                <bibl_link target="Säbekow, Legationen">Säbekow Legationen</bibl_link> p. 54; 
+                <bibl_link target="Serrano, Obispado de Burgos">Serrano Obispado de Burgos</bibl_link> II 108sq.; 
+                <bibl_link target="González, Alfonso VIII">González Reino</bibl_link> I 380; 
+                <bibl_link target="Smith, Iberian Legations">Smith Iberian Legations</bibl_link> p. 87. De decimis in villa de 
+                <place_name diocese="Burgos" geodata="N 42°36′10″ W 3°04′38″" identification="Altable">Artable</place_name> saec. XIII rursum quaestio inter monasterium 
+                <place_name addition="OSB" category="monasterium" diocese="Burgos" geodata="N 42°44′02″ W 3°24′53″" identification="Ona, San Salvador" institution="Monasterium s. Salvatoris Oniense">Oniense</place_name> et clericos eiusdem villae agitata est. Super hac controversia denique compositio episcopo 
+                <place_name category="episcopatus" diocese="Burgos" geodata="N 42°21′01″ W 3°40′31″" identification="Burgos, episc." institution="Episcopatus Burgensis">Burgensi</place_name> mediante intercessit, quam 
+                <pers_name key="100162520" life="1254" place="Roma" reg="Innocentius IV papa (Sinibaldus de Flesco)">Innocentius IV</pers_name> a. 
+                <date value="12470209">1247 febr. 9</date> roboravit (ed. 
+                <bibl_link target="Fita, Canonización">Fita Canonización</bibl_link> p. 120 n. 16; 
+                <bibl_link target="Álamo, Colección Oña">Álamo Colección Oña</bibl_link> II 623sq. n. 508).</pont_reg_main>
+            <pont_reg_add nr="Ib. Pont. II 36 n. 75"> Paulo antea, a. 1173 oct. 19, praesens in villa 
+                <place_name addition="OSB" category="Kloster" diocese="Legio" geodata="N 42°22′15″ W 5°01′46″" id="3111131" identification="Sahagun, Monasterium s. Facundi" institution="Monasterium s. Facundi">Sancti Facundi (Sahagún)</place_name>, 
+                <pers_name addition="Giacinto Bobone" key="193550312" life="gest. 1198" place="Roma" reg="Coelestinus III papa (Hyacintus Bobo)">cardinalis Iacintus</pers_name> misit litteram 
+                <place_name addition="OPraem" category="Kloster" diocese="Burgos" geodata="N 42°47′40″ W 4°15′32″" id="3130824" identification="Santa Maria de Aguilar de Campoo" institution="Monasterium s. Mariae Regalis de Aguilar">monasterio de Aguilar de Campoo</place_name>. Cf. Santa María de Aguilar de Campoo n. 1 (
+                <bibl_link target="Berger, Iberia pontificia 1">Ib. Pont. I</bibl_link> 163). Praeterea, eodem mense oct. 
+                <pers_name addition="Giacinto Bobone" key="193550312" life="gest. 1198" place="Roma" reg="Coelestinus III papa (Hyacintus Bobo)">cardinalis Iacintus</pers_name>, praesens in dicta villa 
+                <place_name addition="OSB" category="Kloster" diocese="Legio" geodata="N 42°22′15″ W 5°01′46″" id="3111131" identification="Sahagun, Monasterium s. Facundi" institution="Monasterium s. Facundi">Sancti Facundi</place_name>, misit litteras clericis 
+                <place_name category="Stadt" diocese="Palencia" geodata="N 41°39′19″ W 4°43′25″" id="3106672" identification="Valladolid">Vallis Oletim (Valladolid</place_name>) et 
+                <place_name addition="San Xulián y Basilisa de Samos" category="Kloster" geodata="N 42° 44′ 0″ W 7° 18′ 0″" identification="Monasterio de San Julián de Samos">monasterio de Samos</place_name>. Cf. 
+                <bibl_link target="Weiß, Legaten">Weiß Legaten</bibl_link> p. 187 n. 39.</pont_reg_add>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_main nr="Ib. Pont. I 141 n. 35">Ib. Pont. I</pont_reg_main>
+            <pont_reg_add nr="Ib. Pont. II 36 n. 75">Ib. Pont. II</pont_reg_add>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_main nr="Ib. Pont. I 141 n. 35">141 n. 35</pont_reg_main>
+            <pont_reg_add nr="Ib. Pont. II 36 n. 75">36 n. 75</pont_reg_add>
+        </pont_no>
+        <pontificate>Alexander III.</pontificate>
+        <receipt_inst>
+            <pont_reg_main nr="Ib. Pont. I 141 n. 35">San Salvador de Oña</pont_reg_main>
+            <pont_reg_add nr="Ib. Pont. II 36 n. 75">León, Episc.</pont_reg_add> San Salvador de Oña n. 35 (Ib. Pont. I 141); Burgos, Episc. n. *123 (Ib. Pont. I 73); Burgos, Eccl. Cath. n. *4 (Ib. Pont. I 92); León, Episc n. *75 (Ib. Pont. II 36); Calahorra-Nájera, San Millán; Astorga, Episc.; Coria, Episc.; Albarracín, Episc.</receipt_inst>
+        <regest_pont>
+            <pont_reg_main nr="Ib. Pont. I 141 n. 35">
+                <pers_name addition="Giacinto Bobone" key="193550312" life="1198" place="Roma" reg="Coelestin III papa (Hyacintus Bobo)">
+                    <issuer>Iacintus</issuer>
+                </pers_name> S.R.E. diaconus cardinalis, apostolicae sedis (
+                <pers_name key="88956811" life="1181" place="Roma" reg="Alexander III papa (Rolandus Bandinelli)">Alexandri III</pers_name>) legatus 
+                <pers_name life="belegt bis 1173" place="San Millan de la Cogolla" reg="Ferdinandus abbas">
+                    <adressee>F(errando)</adressee>
+                </pers_name>
+                <place_name addition="OSB" category="monasterium" diocese="Calahorra" geodata="N 42°19′47″ W 2°51′43″" identification="San Millan de la Cogolla" institution="Monasterium s. Aemiliani">
+                    <adressee>s. Aemiliani</adressee>
+                </place_name> (
+                <place_name addition="OSB" category="monasterium" diocese="Calahorra" geodata="N 42°19′47″ W 2°51′43″" identification="San Millan de la Cogolla" institution="Monasterium s. Aemiliani">San Millán de la Cogolla</place_name>) et 
+                <pers_name addition="de Castello" life="1187" place="Ona, San Salvador" reg="Iohannes (V) abbas">
+                    <adressee>Iohanni (V)</adressee>
+                </pers_name>
+                <place_name addition="OSB" category="monasterium" diocese="Burgos" geodata="N 42°44′02″ W 3°24′53″" identification="Ona, San Salvador" institution="Monasterium s. Salvatoris Oniense">
+                    <adressee>Oniensi</adressee>
+                </place_name> abbatibus: iterum transigit inter eos in sua praesentia constitutos compositionem super parrochianis, decimis, oblationibus ecclesiae de villa 
+                <place_name diocese="Burgos" geodata="N 42°36′10″ W 3°04′38″" identification="Altable">Artable</place_name> (
+                <place_name diocese="Burgos" geodata="N 42°36′10″ W 3°04′38″" identification="Altable">Altable</place_name>) - mediantibus 
+                <pers_name life="belegt bis 1173" place="Roma" reg="Iohannes Gregorius subdiaconus">Iohanne Georgii</pers_name> subdiacono S.R.E. et magistro 
+                <pers_name life="belegt bis 1173" reg="Stephanus magister">Stephano</pers_name>, 
+                <pers_name life="belegt bis 1173" place="Toledo" reg="G. archidiaconus">G.</pers_name>
+                <place_name category="ecclesia cathedralis" diocese="Toledo" geodata="N 39°51′29″ W 4°01′21″" identification="Toledo, eccl. cath." institution="Ecclesia Cathedralis Toletana">Toletano</place_name>, 
+                <pers_name addition="Mate" life="Bischof bis 1200" place="Burgos" reg="Marinus episcopus">Marino</pers_name> et 
+                <pers_name life="1208" place="Siguenza, Palencia" reg="Ardericus episcopus">Alderico</pers_name>
+                <place_name category="ecclesia cathedralis" diocese="Burgos" geodata="N 42°21′01″ W 3°40′31″" identification="Burgos, eccl. cath." institution="Ecclesia Cathedralis s. Mariae Burgensis">Burgensibus</place_name> archidiaconibus, praesentibus etiam 
+                <pers_name addition="Albertinus" life="Bischof bis 1181" place="Leon" reg="Iohannes episcopus">Io(hanne</pers_name>) 
+                <place_name category="episcopatus" diocese="Leon" geodata="N 42°36′00″ W 5°34′13″" identification="Leon, episc." institution="Episcopatus Legionensis">Legionensi</place_name>, 
+                <pers_name addition="Perez" life="Bischof bis 1181" place="Burgos" reg="Petrus (II) episcopus">P(etro</pers_name>) 
+                <place_name category="episcopatus" diocese="Burgos" geodata="N 42°21′01″ W 3°40′31″" identification="Burgos, episc." institution="Episcopatus Burgensis">Burgensi</place_name>, 
+                <pers_name life="Bischof bis 1177" place="Astorga" reg="Arnaldus (II) episcopus">A(rnaldo</pers_name>) 
+                <place_name category="episcopatus" diocese="Astorga" geodata="N 42°27′32″ W 6°03′22″" identification="Astorga, episc." institution="Episcopatus Asturicensis">Astoricensi</place_name>, 
+                <pers_name life="Bischof bis 1177" place="Coria" reg="Petrus (I) episcopus">P(etro</pers_name>) 
+                <place_name category="episcopatus" diocese="Coria" geodata="N 39°59′16″ W 6°32′16″" identification="Coria" institution="Episcopatus Cauriensis">Cauriensi</place_name> et 
+                <pers_name life="Bischof bis 1176" place="Albarracin" reg="Martinus episcopus">M(artino</pers_name>) 
+                <place_name category="episcopatus" diocese="Albarracin" geodata="N 40°24′29″ W 1°26′38″" identification="Albarracin, episc." institution="Episcopatus Albarracinensis">Alcabricensi</place_name> episcopis. Cum 
+                <pers_name addition="Giacinto Bobone" key="193550312" life="1198" place="Roma" reg="Coelestin III papa (Hyacintus Bobo)">Iacintus</pers_name> cardinalis olim legatione in 
+                <place_name geodata="N 40°00′00″ W 4°00′00″" identification="Hispania">Hispaniis</place_name> fungens hanc controversiam iam diu composuisset (Oña n. 22), abbas 
+                <place_name addition="OSB" category="monasterium" diocese="Calahorra" geodata="N 42°19′47″ W 2°51′43″" identification="San Millan de la Cogolla" institution="Monasterium s. Aemiliani">s. Aemiliani</place_name> ostendens etiam instrumentum super hoc confectum et auctoritate Romanorum pontificum 
+                <pers_name key="25397217" life="1159" place="Roma" reg="Hadrianus IV papa (Nicolaus Breakspear)">Hadriani (IV</pers_name>) et 
+                <pers_name key="88956811" life="1181" place="Roma" reg="Alexander III papa (Rolandus Bandinelli)">Alexandri (III</pers_name>) confirmatum (Oña n. 23. 32) conquestus est monasterium 
+                <place_name addition="OSB" category="monasterium" diocese="Burgos" geodata="N 42°44′02″ W 3°24′53″" identification="Ona, San Salvador" institution="Monasterium s. Salvatoris Oniense">Oniense</place_name> illam compositionem non servare; nunc quidem convenit inter duas partes, quod antiqua compositio stabilis permaneat et abbas 
+                <place_name addition="OSB" category="monasterium" diocese="Burgos" geodata="N 42°44′02″ W 3°24′53″" identification="Ona, San Salvador" institution="Monasterium s. Salvatoris Oniense">Oniensis</place_name> decimas, quas contra compositionem acceperit, 
+                <place_name addition="OSB" category="monasterium" diocese="Calahorra" geodata="N 42°19′47″ W 2°51′43″" identification="San Millan de la Cogolla" institution="Monasterium s. Aemiliani">monasterio s. Aemiliani</place_name> restituat; corpora vero parrochianorum ecclesiae pertinentis ad monasterium 
+                <place_name addition="OSB" category="monasterium" diocese="Calahorra" geodata="N 42°19′47″ W 2°51′43″" identification="San Millan de la Cogolla" institution="Monasterium s. Aemiliani">s. Aemiliani</place_name>, quae sepulta sunt in cimiterio oratorii 
+                <place_name addition="OSB" category="monasterium" diocese="Burgos" geodata="N 42°44′02″ W 3°24′53″" identification="Ona, San Salvador" institution="Monasterium s. Salvatoris Oniense">Oniensis</place_name>, si sine gravi scandalo poterit fieri, extumulentur et cimiterio ecclesiae 
+                <place_name addition="OSB" category="monasterium" diocese="Calahorra" geodata="N 42°19′47″ W 2°51′43″" identification="San Millan de la Cogolla" institution="Monasterium s. Aemiliani">s. Aemiliani</place_name> restituantur.</pont_reg_main>
+            <pont_reg_add nr="Ib. Pont. II 36 n. 75">
+                <pers_name addition="Giacinto Bobone" key="193550312" life="gest. 1198" place="Roma" reg="Coelestinus III papa (Hyacintus Bobo)">
+                    <issuer> Iacintus</issuer>
+                </pers_name> S.R.E. diaconus cardinalis 
+                <place_name category="Kirche" diocese="Roma" geodata="N 41°53′41″ E 12°29′02″" id="3169070" identification="Roma, Santa Maria in Cosmedin" institution="Basilica s. Mariae in Cosmedin">
+                    <issuer> s. Mariae in Cosmedin</issuer> </place_name> et 
+                <place_name addition="Papa; S. Romana ecclesia" category="Bistum" diocese="Roma" geodata="N 41°53′12″ E 12°30′20″" id="11669597" identification="Roma, sedes apostolica et patriarchatus" institution="Sedes apostolica et Episcopatus seu patriarchatus Romanus">
+                    <issuer> apostolicae sedis</issuer> </place_name> (
+                <pers_name addition="Rolandus Bandinelli?" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa">Alexandri III</pers_name>) legatus 
+                <pers_name life="belegt bis 1173" place="San Millan de la Cogolla" reg="Ferdinandus abbas"> F(errando </pers_name>) 
+                <place_name addition="OSB" category="Kloster" diocese="Calahorra" geodata="N 42°19′47″ W 2°51′43″" id="3110237" identification="San Millan de la Cogolla" institution="monasterium s. Aemiliani">
+                    <adressee> s. Aemiliani (de la Cogolla)</adressee> </place_name> et 
+                <pers_name addition="de Castello" life="1187" place="Ona, San Salvador" reg="Iohannes (V) abbas"> Iohanni </pers_name>
+                <place_name addition="OSB" category="Kloster" diocese="Burgos" geodata="N 42°44′02″ W 3°24′53″" id="3115068" identification="Ona, San Salvador" institution="Monasterium s. Salvatoris Oniense">
+                    <adressee> Oniensi (Oña</adressee> </place_name>) abbatibus: transigit inter praefatos abbates iterum compositionem super parochialibus decimis et oblationibus ecclesiae de villa 
+                <place_name category="Stadt" diocese="Burgos" geodata="N 42°36′10″ W 3°04′38″" id="3130241" identification="Altable">Artable</place_name> (
+                <place_name category="Stadt" diocese="Burgos" geodata="N 42°36′10″ W 3°04′38″" id="3130241" identification="Altable">Altable</place_name>), praesentibus et confirmantibus quinque episcopis, inter eos 
+                <pers_name addition="Albertinus" place="Leon" reg="Iohannes episcopus">Iohanne</pers_name>
+                <place_name category="Bistum" diocese="Legio" geodata="N 42°36′00″ W 5°34′13″" id="3118532" identification="Leon episc." institution="Episcopatus Legionensis">Legionensi</place_name>.</pont_reg_add>
+        </regest_pont>
+        <worker_comment_pont>
+            <pont_reg_main nr="Ib. Pont. I 141 n. 35">Adressaten: 
+                <pers_name life="belegt bis 1173" place="San Millan de la Cogolla" reg="Ferdinandus abbas">F(errando</pers_name>) s. Aemiliani (San Millán de la Cogolla) et 
+                <pers_name addition="de Castello" life="1187" place="Ona, San Salvador" reg="Iohannes (V) abbas">Iohanni (V</pers_name>) Oniensi abbatibus. Anmerkungen und to do: ; Personen: Hyazinth, Kardinaldiakon v. Santa Maria in Cosmedin u. Apostolischer Legat, 
+                <pers_name key="88956811" life="1181" place="Roma" reg="Alexander III papa (Rolandus Bandinelli)">Alexander III</pers_name>., Papst, 
+                <pers_name key="192898432" life="1188" place="Leon, Galicia" reg="Ferdinandus II rex">Ferrando</pers_name>, Abt v. San Millán de la Cogolla, Juan (V.), Abt v. San Salvador de Oña, Hadrian IV., Papst, Johannes Gregorii, Subdiakon S.R.E.; G., Archidiakon v. Toledo; 
+                <pers_name addition="Esteban" life="Bischof bis 1174" place="Zamora" reg="Stephanus episcopus">Stephanus</pers_name>, mag.; 
+                <pers_name addition="Mate" life="Bischof bis 1200" place="Burgos" reg="Marinus episcopus">Marino</pers_name>, Archidiakon (Diöz. Burgos); 
+                <pers_name life="1208" place="Siguenza, Palencia" reg="Ardericus episcopus">Arderico</pers_name>, Archidiakon (Diöz. Burgos); Juan, Bf. v. León; 
+                <pers_name addition="Pedro de Agen" life="1149" place="Segovia" reg="Petrus episcopus">Pedro</pers_name> (II.), Bf. v. Burgos; 
+                <pers_name addition="Pedro de Agen" life="1149" place="Segovia" reg="Petrus episcopus">Pedro</pers_name>, Bf. v. Coria; Martin, Bf. v. Albarracín; 
+                <pers_name addition="d'Izeste" life="Bischof bis 1168" place="Oloron-Sainte-Marie" reg="Arnaldus (II) episcopus">Arnaldo</pers_name>, Bf. v. Astorga;; Orte: Altable, , , , </pont_reg_main>
+        </worker_comment_pont>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

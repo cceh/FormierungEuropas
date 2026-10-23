@@ -1,0 +1,111 @@
+<text type="charter" id="1643728118757">
+    <bibl>
+        <edition/>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests/>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type/>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script/>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria/>
+        <date_p value="11540424" to="11540424" from="11540424">1154 april. 24</date_p>
+        <initium/>
+        <pub_place>
+            <place_name BNF_city="12139445g" GND_city="4050471-2" LCCN_city="n79018704" VIAF_city="145348938" addition="Lateranbasilika" category="Titelkirche" country="Italien" diocese="Roma" geo_DEZIMAL_city="41.90036, 12.49575" geo_DMS_city="N 41°54′01″ E 12°29′45″" geodata="N 41°53′09″ E 12°30′21″" geodata_region="0" geodata_vague="0" geonames_city="3169071" id="7602857" identification="Roma, S. Giovanni in Laterano" institution="Ecclesia s. Iohannis Laterano Romae sita" literature="IP I, 22" region="Latium" uuid="{023C7DF8-A8CF-43F7-A72C-A256CBC09529}">Roma, Laterano</place_name>
+        </pub_place>
+        <script_date/>
+        <state/>
+        <supplier>
+            <pers_name GND=" 100936296" GermaniaSacra="039-00099-001" LCCN="nb2007018705" Wikidata="Q179389" addition="Conradus de Suburra" floruit="ca. 1073-1154" key="31525357" life="ca. 1073-1154" place="Roma" reg="Anastasius IV papa" sex="male" termofoffice="1153-1154" uuid="{B636EEEB-A6B9-49F5-AC4C-66476DE936D3}">Anastasius IV papa</pers_name>
+        </supplier>
+        <supplier_type>papa</supplier_type>
+        <user_comment/>
+        <worker>Gall. Pont III,3: Beate Schilling; digitale Fassung: Valérie Lüthi, Johannes Luther</worker>
+    </head>
+    <info>
+        <date_sort value="11540424">11540424</date_sort>
+        <idno>Gall. Pont. III,3 104 n. 2</idno>
+    </info>
+    <jaffe>
+        <jaffe1/>
+        <jaffe2_no/>
+        <jaffe2_page/>
+        <jaffe2_worker/>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont/>
+        <pont_bd>
+            <pont_reg_add nr="Gall. Pont. III,3 104 n. 2">Gall. Pont. III,3</pont_reg_add>
+            <pont_reg_main nr="Gall. Pont. III,2 376 n. 61">Gall. Pont. III,2</pont_reg_main>
+            <pont_reg_add nr="Gall. Pont. III,3 100 n. 3">Gall. Pont III,3</pont_reg_add>
+            <pont_reg_add nr="Gall. Pont. III,3 102 n. 7">Gall. Pont. III,3</pont_reg_add>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_add nr="Gall. Pont. III,3 104 n. 2">104 n. 2</pont_reg_add>
+            <pont_reg_main nr="Gall. Pont. III,2 376 n. 61"> 376 n. 61</pont_reg_main>
+            <pont_reg_add nr="Gall. Pont. III,3 100 n. 3"> 100 n. 3</pont_reg_add>
+            <pont_reg_add nr="Gall. Pont. III,3 102 n. 7"> 102 n. 7</pont_reg_add>
+        </pont_no>
+        <pontificate>Anastasius IV</pontificate>
+        <receipt_inst>
+            <pont_reg_add nr="Gall. Pont. III,3 104 n. 2">Die, ecclesia S. Mariae de Claellis</pont_reg_add> Valence, ecclesia S. Ruffi (Gall. Pont. III,2 376 n. 61); Die, ecclesia S. Petri (Gall. Pont. III,3 100 n. 3); Die, ecclesia S. Mariae de Volvenco (Gall. Pont. III,3 102 n. 7); Die, ecclesia S. Mariae de Claellis (Gall. Pont. III,3 104 n. 2)</receipt_inst>
+        <regest_pont>
+            <pont_reg_add nr="Gall. Pont. III,3 104 n. 2">
+                <pers_name GND=" 100936296" GermaniaSacra="039-00099-001" LCCN="nb2007018705" Wikidata="Q179389" addition="Conradus de Suburra" floruit="ca. 1073-1154" key="31525357" life="ca. 1073-1154" place="Roma" reg="Anastasius IV papa" sex="male" termofoffice="1153-1154" uuid="{B636EEEB-A6B9-49F5-AC4C-66476DE936D3}">
+                    <issuer> Anastasius IV</issuer> </pers_name>
+                <pers_name floruit="1149-1155" literature="Vones-Liebenstein, Spanien, I, S. 255, 261, Anm. 114; Veyrenche, Chanoines réguliers, S. 179, 215f.," place="Saint-Ruf" reg="Durandus abbas" sex="male" termofoffice="1152 belegt - 1155 belegt" uuid="{4A299156-F9DC-413C-B965-39AC24AD8080}">
+                    <adressee> (Durando) abbati</adressee> </pers_name>
+                <place_name GND_city="4119350-7" LCCN_city="n81101041" VIAF_city="11146030574635861686" addition="bis 1158 in Avignon, dann in Valence beheimatet; seit dem 14. Jh. intra muros" category="Kanonikerstift" country="Frankreich" diocese="Avennio/Valentia" geo_DEZIMAL_city="44.9325°, 4.891111°" geo_DMS_city="N 44° 55′ 57″ E 4° 53′ 28″" geodata="N 44°56′02″ E 4°53′22″" geodata_region="0" geodata_vague="0" geonames_city="2971053" id="122266954" identification="Saint-Ruf" institution="Ecclesia S. Ruffi" literature="Gall. Pont. III,3, S. 328-413" region="Auvergne-Rhône-Alpes" uuid="{8C73A63A-A194-46BC-ADBB-1222EA1EDD9B}">
+                    <adressee> S. Ruffi</adressee> </place_name>
+                <pers_name BNF="" GND="" GermaniaSacra="" LCCN="" Wikidata="" addition="" floruit="" key="" life="" literature="" place="" reg="canonici S. Ruffi" sex="" termofoffice="" uuid="">
+                    <adressee> ejusque fratribus</adressee> </pers_name> regularem vitam professis: in privilegio generali confirmat 
+                <place_name BNE="" BNE_city="" BNF="" BNF_city="" GND="" GND_city="" GS_Klosterdatenbank="" Getty="" LCCN="" LCCN_city="" VIAF="" VIAF_city="" addition="" category="Kanonikerstift" country="Frankreich" diocese="Dea Vocontiorum" geo_DEZIMAL_city="" geo_DMS_city="N 44°49′36″ E 5°37′30″" geodata="N 44°49′40″ E 5°37′27″" geodata_region="0" geodata_vague="0" geonames_city="3024680" getty_city="" id="12277191" identification="Clelles, Eglise Sainte-Marie" institution="Ecclesia S. Mariae de Claellis" literature="Gall. Pont. III,3, S. 103f." region="Auvergne-Rhône-Alpes" uuid="{9C6E5707-FCF8-49F9-B0C9-FAF2F3FFB186}">ecclesiam S. Mariae de Claellis</place_name>.</pont_reg_add>
+        </regest_pont>
+        <worker_comment_pont/>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

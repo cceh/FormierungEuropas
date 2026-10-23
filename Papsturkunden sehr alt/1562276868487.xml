@@ -1,0 +1,113 @@
+<text type="charter" id="1562276868487">
+    <bibl>
+        <edition/>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests/>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type>Erwähnung</descent_type>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script/>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria>*</criteria>
+        <date_p value="11731207" to="11731207" from="11731207">1173 dec. 7</date_p>
+        <initium/>
+        <pub_place>
+            <place_name addition="OSB" category="Kloster" diocese="Burgos" geodata="N 41°57′50″ W 3°25′03″" id="3109532" identification="Santo Domingo de Silos" institution="Monasterium s. Dominici Silense">Santo Domingo de Silos</place_name> (?)</pub_place>
+        <script_date/>
+        <state/>
+        <supplier>
+            <pers_name addition="Giacinto Bobone" key="193550312" life="gest. 1198" place="Roma" reg="Coelestinus III papa (Hyacintus Bobo)">Iacintus</pers_name> S.R.E. diaconus cardinalis et legatus apostolicae sedis (
+            <pers_name addition="Rolandus Bandinelli?" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa">Alexandri III</pers_name>)</supplier>
+        <supplier_type>legatus</supplier_type>
+        <user_comment/>
+        <worker>Santiago Domínguez Sánchez/Daniel Berger</worker>
+    </head>
+    <info>
+        <date_sort value="11731207">11731207</date_sort>
+        <idno>Ib. Pont. II 121 n. *45</idno>
+    </info>
+    <jaffe>
+        <jaffe1>-</jaffe1>
+        <jaffe2_no>-</jaffe2_no>
+        <jaffe2_page/>
+        <jaffe2_worker>JL</jaffe2_worker>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_add nr="Ib. Pont. II 121 n. *45"> De re, praesertim, 
+                <bibl_link target="Yepes, Corónica general">Yepes Corónica</bibl_link> III 186sq. (ed. Pérez de Urbel I 285); 
+                <bibl_link target="Escalona, Historia Sahagún">Escalona Historia de Sahagún</bibl_link> p. 119. – De legatione cardinalis 
+                <pers_name addition="Giacinto Bobone" key="193550312" life="gest. 1198" place="Roma" reg="Coelestinus III papa (Hyacintus Bobo)">Iacinti</pers_name> cf. 
+                <bibl_link target="Weiß, Legaten">Weiß Legaten</bibl_link> p. 173–203. </pont_reg_add>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_add nr="Ib. Pont. II 121 n. *45">Ib. Pont. II</pont_reg_add>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_add nr="Ib. Pont. II 121 n. *45">121 n. *45</pont_reg_add>
+        </pont_no>
+        <pontificate>Alexander III.</pontificate>
+        <receipt_inst>
+            <pont_reg_add nr="Ib. Pont. II 121 n. *45">Sahagún</pont_reg_add> Sahagún (Ib. Pont. II 121 n. *45); San Pedro de Cardeña n. 22 (Ib. Pont. I 116).</receipt_inst>
+        <regest_pont>
+            <pont_reg_add nr="Ib. Pont. II 121 n. *45">
+                <pers_name addition="Giacinto Bobone" key="193550312" life="gest. 1198" place="Roma" reg="Coelestinus III papa (Hyacintus Bobo)">Iacintus</pers_name> S.R.E. diaconus cardinalis et legatus 
+                <place_name addition="Papa; S. Romana ecclesia" category="Bistum" diocese="Roma" geodata="N 41°53′12″ E 12°30′20″" id="11669597" identification="Roma, sedes apostolica et patriarchatus" institution="Sedes apostolica et Episcopatus seu patriarchatus Romanus">apostolicae sedis</place_name> (
+                <pers_name addition="Rolandus Bandinelli?" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa">Alexandri III</pers_name>), 
+                <pers_name place="Sahagún; Monasterium ss. Facundi et Primitivi" reg="Iohannes abbas">Iohanni abbati</pers_name> et monachis monasterii 
+                <place_name addition="OSB" category="Kloster" diocese="Burgos" geodata="N 42°18′15″ W 3°36′27″" identification="San Pedro de Cardena" institution="monasterium s. Petri de Caradigna"> s. Petri de Caradigna</place_name> (
+                <place_name addition="OSB" category="Kloster" diocese="Burgos" geodata="N 42°18′15″ W 3°36′27″" identification="San Pedro de Cardena" institution="monasterium s. Petri de Caradigna">Cardeña</place_name>, dioec. 
+                <place_name category="Bistum" diocese="Burgos" geodata="N 42°21′01″ W 3°40′31″" id="3127461" identification="Burgos episc." institution="Episcopatus Burgensis">Burgensis</place_name>) eiusque fratribus: suscipit dictum coenobium sub beatorum 
+                <pers_name key="54940864" life="64" place="Roma" reg="Petrus apostolus">Petri</pers_name> et 
+                <pers_name key="100178828" life="67" place="Roma" reg="Paulus apostolus">Pauli</pers_name> et sua protectione; confirmat omnia bona sua; et decernit ut ordo b. Benedicti, sicut ab illis nunc observatur, secundum 
+                <place_name addition="OSB" category="Kloster" diocese="Legio" geodata="N 42°22′15″ W 5°01′46″" id="3111131" identification="Sahagun, Monasterium s. Facundi" institution="Monasterium s. Facundi">monasterii s. Facundi</place_name> constitutionem, ita perpetuis temporibus a suis successoribus observetur.</pont_reg_add>
+        </regest_pont>
+        <worker_comment_pont>
+            <pont_reg_add nr="Ib. Pont. II 121 n. *45">Adressaten: Iohanni abbati et monachis monasterii s. Petri de Caradigna (Cardeña, dioec. Burgensis) eiusque fratribus. Anmerkungen und to do: ; Personen: , , , , , ; Orte: , , , , </pont_reg_add>
+        </worker_comment_pont>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

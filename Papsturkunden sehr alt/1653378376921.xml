@@ -1,0 +1,118 @@
+<text type="charter" id="1653378376921">
+    <bibl>
+        <edition>
+            <bibl_link target="Wiederhold, Papsturkunden in Frankreich 7" target2="481845" uuid="{D579CD77-EF44-47CA-9ED5-97E82AC434DB}">Wiederhold, VII</bibl_link>, no 82, p. 131 [réimpr., p. 841]</edition>
+        <figure/>
+        <literature>
+            <bibl_link target="Wiederhold, Papsturkunden in Frankreich 7" target2="481845" uuid="{D579CD77-EF44-47CA-9ED5-97E82AC434DB}">Wiederhold, VII</bibl_link>, p. 16 [réimpr., p. 726]).</literature>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests>
+            <bibl_link target="Jaffé, Regesta Pontificum Romanorum" target2="54640" uuid="{77346F34-E2AC-422A-92FA-1D3BFDF42FFC}">J. L.</bibl_link> –</regests>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type/>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script/>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria/>
+        <date_p value="11700520" to="11700520" from="11700520">(1170) mai. 20</date_p>
+        <initium/>
+        <pub_place>
+            <place_name GND_city="4304663-0" VIAF_city="126137506" category="Stadt" country="Italien" diocese="Verulum" geo_DEZIMAL_city="41.690833°, 13.417778°" geo_DMS_city="N 41° 41′ 27″ E 13° 25′ 4″" geodata="N 41°41′27″ E 13°25′4″" geodata_region="0" geodata_vague="0" id="3164528" identification="Veroli" institution="Civitas Verulana" region="Latium" uuid="{5CE95781-6B61-4EB3-A74A-9787168EC6F4}">Verulana</place_name>
+        </pub_place>
+        <script_date/>
+        <state/>
+        <supplier>
+            <pers_name BNF="13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN="n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{58C0B973-E9BB-4491-9207-7428DB953ADF}">Alexander III papa</pers_name>
+        </supplier>
+        <supplier_type>papa</supplier_type>
+        <user_comment/>
+        <worker>Gall. Pont III,3: Beate Schilling; digitale Fassung: Valérie Lüthi, Johannes Luther</worker>
+    </head>
+    <info>
+        <date_sort value="11700520">11700520</date_sort>
+        <idno>Gall. Pont. III,3 288 n. 146</idno>
+    </info>
+    <jaffe>
+        <jaffe1/>
+        <jaffe2_no/>
+        <jaffe2_page/>
+        <jaffe2_worker/>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_main nr="Gall. Pont. III,3 288 n. 146">Sur ce monastère, voir 
+                <bibl_link lang="" target="Belmon, Gévaudan" target2="170400" type="" uuid="{6A9CB4D8-4954-47B5-B7CD-C85792145C65}">J. Belmon, Les débuts d’un prieuré victorin en Gévaudan: le Monastier-Chirac (XIe–XIIe siècle), dans B. É.Ch., 152, 1994</bibl_link>, p. 5–50, ici p. 7 et 19 n. 70.</pont_reg_main>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_main nr="Gall. Pont. III,3 288 n. 146">Gall. Pont. III,3</pont_reg_main>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_main nr="Gall. Pont. III,3 288 n. 146">288 n. 146</pont_reg_main>
+        </pont_no>
+        <pontificate>Alexander III</pontificate>
+        <receipt_inst>
+            <pont_reg_main nr="Gall. Pont. III,3 288 n. 146">Viviers, episc.</pont_reg_main> Viviers, episc. (Gall. Pont. III,3 288 n. 146); Mende, monasterium Chiriacensi</receipt_inst>
+        <regest_pont>
+            <pont_reg_main nr="Gall. Pont. III,3 288 n. 146">
+                <pers_name BNF="13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN="n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{58C0B973-E9BB-4491-9207-7428DB953ADF}">
+                    <issuer> Alexander III</issuer> </pers_name> (
+                <pers_name Wikidata="Q2832258" addition="Aldebert III de Tournai" floruit="1123-1187" life="ca. 1100-1187" literature="Vincent-Cassy, Art. Mende (Lozère, France), bishopric. 2. The Bishops of Mende's Homage to the King of France, in: International Encyclopaedia for the Middle Ages-Online. A Supplement to LexMA-Online. Turnhout: Brepols Publishers, 2005" place="Mende" reg="Aldebertus III episcopus" sex="male" termofoffice="1153-1187" uuid="{2DBE2510-A9F8-491C-87EF-99DA842560DC}">
+                    <adressee> Aldeberto</adressee> </pers_name>) 
+                <place_name GND_city="4115093-4" LCCN_city="n83052771" VIAF_city="123920755" category="Bistum" country="Frankreich" diocese="Mimas" geo_DEZIMAL_city="44.518333°, 3.500556°" geo_DMS_city="N 44° 31′ 6″ E 3° 30′ 2″" geodata="N 44°33′02″ E 3°29′54″" geodata_region="-1" geodata_vague="0" id="12451023" identification="Mende, episc." institution="Episcopatus Mimatensis" region="Okzitanien" uuid="{3BBB629D-4ACC-4239-A122-1880EAE50A64}">
+                    <adressee> Mimatensi (Mende)</adressee> </place_name> et (
+                <pers_name addition="Raymond d'Uzès" floruit="1157-1170/71" literature="Rouchier/Régné, Histoire, Bd. 2, S. 36-40" place="Viviers" reg="Raimundus episcopus" sex="male" termofoffice="1157-1170/71" uuid="{A3C42D4C-2E51-4EAF-820E-4DD3A053A93D}">
+                    <adressee> Raimundo</adressee> </pers_name>) 
+                <place_name category="Bistum" country="Frankreich" diocese="Vivarium" geo_DEZIMAL_city="44.4828, 4.68895" geo_DMS_city="N 44°28′58″ E 4°41′20″" geodata="N 44°28′55″ E 4°41′25″" geodata_region="-1" geodata_vague="0" geonames_city="2967820" id="12047232" identification="Viviers, episc." institution="Episcopatus Vivariensis" region="Auvergne-Rhône-Alpes" uuid="{02075C7B-A0E6-44CE-B120-62F8DE2FC7BA}">
+                    <adressee> Vivariensi</adressee> </place_name> episcopis: mandat ut 
+                <pers_name addition="Sires de Chadenac; möglicherweise Geschwister oder ein Ehepaar" floruit="1170 belegt" literature="Wiederhold, VII, Nr. 82, S. 131" place="Chadenac" reg="G. et A. principes" termofoffice="1170" uuid="{D4B871B6-FEDF-4D28-9D0E-D856F3B71E0F}">G. et A.</pers_name> de 
+                <place_name addition="Weiler bei Mariac; Sitz einer Seigneurie?" category="Stadt" country="Frankreich" diocese="Mimas" geo_DMS_city="N 44°53′17″ E 4°22′23″" geodata="N 44°53′43″ E 4°21′14″" geodata_region="0" geodata_vague="0" geonames_city="2995775" id="3027662" identification="Chadenac" institution="Villa de Chaldemac" region="Auvergne-Rhône-Alpes" uuid="{DF177961-5E13-4989-A268-309EE918BC09}">Chaldemac (Chadenac, commune de Mariac</place_name>) moneant compellantque quatenus 
+                <place_name addition="OSB; Kloster Chirac" category="Kloster" country="Frankreich" diocese="Mimas" geo_DMS_city="N 44°31′00″ E 3°15′00″" geodata="N 44°30′55″ E 3°15′21″" geodata_region="0" geodata_vague="0" geonames_city="3003307" id="12470155" identification="Monastere Saint-Sauveur-de-Chirac" institution="Monasterium Chiriacensi" region="Okzitanien" uuid="{314E7A14-9BCA-4117-A305-850C01A87EDC}">Chiriacensi (Chirac, diocèse de Mende) monasterio</place_name> quod ad jus 
+                <place_name BNE="" BNE_city="" BNF="" BNF_city="" GND="" GND_city="4037694-1" GS_Klosterdatenbank="" Getty="" LCCN="" LCCN_city="n79108882" VIAF="" VIAF_city="248519813" addition="OSB" category="Kloster" country="Frankreich" diocese="Massilia" geo_DEZIMAL_city="43.296667°, 5.376389°" geo_DMS_city="N 43° 17′ 48″ E 5° 22′ 35″" geodata="N 43°17′25″ E 5°21′55″" geodata_region="0" geodata_vague="0" geonames_city="2995469" getty_city="" id="2995469" identification="Marseille, Abbaye Saint-Victor" institution="monasterium s. Victoris" literature="" region="Provence-Alpes-Côte d’Azur" uuid="{3C9180EB-B0B2-4CF5-BD99-69338086CF48}">Massiliensis monasterii (Saint-Victor de Marseille)</place_name> pertinet, villam de Menzozac restituant libereque dimittant vel in 
+                <place_name category="Bistum" country="Frankreich" diocese="Vivarium" geo_DEZIMAL_city="44.4828, 4.68895" geo_DMS_city="N 44°28′58″ E 4°41′20″" geodata="N 44°28′55″ E 4°41′25″" geodata_region="-1" geodata_vague="0" geonames_city="2967820" id="12047232" identification="Viviers, episc." institution="Episcopatus Vivariensis" region="Auvergne-Rhône-Alpes" uuid="{02075C7B-A0E6-44CE-B120-62F8DE2FC7BA}">Vivariensis</place_name> episcopi praesentia plenam exinde justitiam, appellatione remota, exhibeant. 
+                <place_name category="Bistum" country="Frankreich" diocese="Vivarium" geo_DEZIMAL_city="44.4828, 4.68895" geo_DMS_city="N 44°28′58″ E 4°41′20″" geodata="N 44°28′55″ E 4°41′25″" geodata_region="-1" geodata_vague="0" geonames_city="2967820" id="12047232" identification="Viviers, episc." institution="Episcopatus Vivariensis" region="Auvergne-Rhône-Alpes" uuid="{02075C7B-A0E6-44CE-B120-62F8DE2FC7BA}">Vivariensi</place_name> episcopo injungit ut, si illi causam potius intrare quam villam restituere velint, partes convocet et causam, rationibus auditis, viris discretis sibi ascitis, appellatione remota, decidat. Addit de excommunicationis sententia in praedictos viros ferienda, si neutrum horum adimpleverint.</pont_reg_main>
+        </regest_pont>
+        <worker_comment_pont/>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

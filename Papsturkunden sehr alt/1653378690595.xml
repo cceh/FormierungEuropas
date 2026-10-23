@@ -1,0 +1,124 @@
+<text type="charter" id="1653378690595">
+    <bibl>
+        <edition/>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests>
+            <bibl_link target="Chevalier, Regeste Dauphinois" target2="48077" uuid="{7AEB8E9C-4E6E-45EB-802A-3F6DBDC3D433}">Reg. dauph.</bibl_link>, I, no 3934, c. 658; 
+            <bibl_link target="Régné, Regeste Vivarois" target2="82163" uuid="{961F029E-7D3E-4DCF-AA07-878171EE55E6}">Reg. Vivarois</bibl_link>, no 38, p. 9</regests>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type/>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script/>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria>*</criteria>
+        <date_p value="11531231" to="11531231" from="11450101">(1145–1153)</date_p>
+        <initium/>
+        <pub_place/>
+        <script_date/>
+        <state/>
+        <supplier>
+            <pers_name addition="Abt von La Chaise-Dieu" floruit="1146-1154" literature="Bligny, Eglise et ordres religieux, S. 430-435" place="Valence" reg="Bernardus episcopus" sex="male" termofoffice="1146-1154 belegt" uuid="{2AB1C7D1-8A30-47BF-9B47-161FE1419543}">Bernardus</pers_name> Valentinensis episcopus</supplier>
+        <supplier_type>iudex del.</supplier_type>
+        <user_comment/>
+        <worker>Gall. Pont III,3: Beate Schilling; digitale Fassung: Valérie Lüthi, Johannes Luther</worker>
+    </head>
+    <info>
+        <date_sort value="11531231">11531231</date_sort>
+        <idno>Gall. Pont. III,3 286 n. *140</idno>
+    </info>
+    <jaffe>
+        <jaffe1/>
+        <jaffe2_no/>
+        <jaffe2_page/>
+        <jaffe2_worker/>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_main nr="Gall. Pont. III,3 286 n. *140">Connu par une lettre du 
+                <pers_name BNF="119428607" GND="118780719" LCCN=" n/83/165576" Wikidata="Q134259" addition="Louis VII, dit le Jeune (der Jüngere)" floruit="1120-1180" key="19686315" life="1120-1180" literature="Ehlers, Ludwig VII, S. 126-139; Sassier, Louis VII." place="Frankreich" reg="Ludovicus VII rex" sex="male" termofoffice="1137-1180" uuid="{89F30069-DFE5-4FEA-88E8-A04A75A53543}">roi Louis VII</pers_name> relatant les faits (dans 
+                <bibl_link target="Baluze, Auvergne" target2="91957" uuid="{66C9A9AF-AE80-42E5-B9AE-09911E95CCA7}">É. Baluze, Histoire généalogique de la maison d’Auvergne, II, Paris, 1708</bibl_link>, p. 66; 
+                <bibl_link target="Bouquet-Delisle, Recueil 14" target2="1385540" uuid="{D7B871F8-C8D1-4E84-89F0-68D01937CA02}">R. H. F., XIV</bibl_link>, c. 465; 
+                <bibl_link target="Luchaire, Actes Louis VII" target2="116445" uuid="{CED1EAA4-F0CD-48F9-A097-EFEA87739C00}">A. Luchaire, Études sur les actes de Louis VII, Paris, 1885</bibl_link>, no 600, p. 289).</pont_reg_main>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_main nr="Gall. Pont. III,3 286 n. *140">Gall. Pont. III,3</pont_reg_main>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_main nr="Gall. Pont. III,3 286 n. *140">286 n. *140</pont_reg_main>
+        </pont_no>
+        <pontificate>Eugenius III</pontificate>
+        <receipt_inst>
+            <pont_reg_main nr="Gall. Pont. III,3 286 n. *140">Viviers, episc.</pont_reg_main> Viviers, episc. (Gall. Pont. III,3 286 n. *140); Le Puy, episc.</receipt_inst>
+        <regest_pont>
+            <pont_reg_main nr="Gall. Pont. III,3 286 n. *140">Ex mandato 
+                <pers_name BNF="13488715t" GND="118682601" GermaniaSacra="064-00682-001" LCCN="n/85/287831" Wikidata="Q167610" addition="Bernardus Paganelli" floruit="1145-1153" key="142614511" life="gest. 1153" place="Roma" reg="Eugenius III papa" sex="male" termofoffice="1145-1153" uuid="{84656C92-90B9-40B7-BC86-8D47F942C7E3}">Eugenii III</pers_name> (
+                <bibl_link target="Gall. Pont. III/2" target2="2563706" uuid="{E7452BB7-98D6-4402-A290-2455F0510B9B}">Gall. Pont. III,2</bibl_link> 294 n. *115), 
+                <pers_name addition="Abt von La Chaise-Dieu" floruit="1146-1154" literature="Bligny, Eglise et ordres religieux, S. 430-435" place="Valence" reg="Bernardus episcopus" sex="male" termofoffice="1146-1154 belegt" uuid="{2AB1C7D1-8A30-47BF-9B47-161FE1419543}">
+                    <issuer> Bernardus</issuer> </pers_name>
+                <place_name GND_city="4119350-7" LCCN_city="n81101041" VIAF_city="11146030574635861686" category="Bistum" country="Frankreich" diocese="Valentia" geo_DEZIMAL_city="44.9325°, 4.891111°" geo_DMS_city="N 44° 55′ 57″ E 4° 53′ 28″" geodata="N 44°55′57″ E 4°53′27″" geodata_region="-1" geodata_vague="0" geonames_city="2971053" id="6453882" identification="Valence, episc." institution="Episcopatus Valentinus" region="Auvergne-Rhône-Alpes" uuid="{1AEA7039-162A-4332-9B14-F3111C55CB67}">
+                    <issuer> Valentinensis</issuer> </place_name> episcopus, praesentibus 
+                <pers_name addition="Guillaume III de Bénévent" floruit="1135-1169" literature="Dictionnaire d'histoire et de géographie ecclésiastiques 15, Sp. 380" place="Embrun" reg="Guillelmus III archiepiscopus" sex="male" termofoffice="1135 belegt -1169" uuid="{57F7F4D9-0CAF-4677-AF2A-E76014EE48FA}">Guillelmo</pers_name>
+                <place_name category="Bistum" country="Frankreich" diocese="Eburodunum" geo_DEZIMAL_city="44.5658, 6.4961" geo_DMS_city="N 44° 33′ 56.88″ E 6° 29′ 45.96″" geodata=" N 44°33′44″ E 6°29′42″" geodata_region="-1" geodata_vague="0" id="12095355" identification="Embrun, archiepisc." institution="Archiepiscopatus Ebredunensis" region="Provence-Alpes-Côte d’Azur" uuid="{3FCBCDCF-DD2D-4441-887C-E1BA6EF7E5E2}">Ebredunensi (Embrun)</place_name> archiepiscopo et 
+                <pers_name addition="Guillaume Ier" floruit="1146/47-1154" literature="Rouchier/Régné, Histoire, Bd. 2, S. 32-36; Babey, Le pouvoir temporel de l’évêque de Viviers, S. 33-49" place="Viviers" reg="Guillelmus episcopus" sex="male" termofoffice="1146/47 belegt - 1154 belegt" uuid="{A57B9F28-56EE-4EAB-8FF6-4BC0E87B0523}">Guillelmo</pers_name>
+                <place_name category="Bistum" country="Frankreich" diocese="Vivarium" geo_DEZIMAL_city="44.4828, 4.68895" geo_DMS_city="N 44°28′58″ E 4°41′20″" geodata="N 44°28′55″ E 4°41′25″" geodata_region="-1" geodata_vague="0" geonames_city="2967820" id="12047232" identification="Viviers, episc." institution="Episcopatus Vivariensis" region="Auvergne-Rhône-Alpes" uuid="{02075C7B-A0E6-44CE-B120-62F8DE2FC7BA}">Vivariensi</place_name> episcopo, pacis compositionem inter 
+                <pers_name BNF="" GND="" GermaniaSacra="" LCCN="" Wikidata="" addition="" floruit="1145-1155" key="" life="" literature="Gallia christiana II, Sp. 705." place="Le-Puy-en-Velay" reg="Petrus III episcopus" sex="male" termofoffice="1145 belegt - 1155 belegt" uuid="{16E4A074-088D-40A2-A876-FDED71A962F7}">
+                    <adressee> Petrum</adressee> </pers_name>
+                <place_name GND_city="4111265-9" LCCN_city="n82052561" VIAF_city="147339129" category="Bistum" country="Frankreich" diocese="Anicium" geo_DEZIMAL_city="45.04205°, 3.883281°" geo_DMS_city="N 45° 2′ 31.38″ E 3° 52′ 59.81″" geodata="N 45°02′44″ E 3°53′06″" geodata_region="-1" geodata_vague="0" id="11777227" identification="Le Puy-en-Velay, episc." institution="Episcopatus Aniciensis/Podiensis" region="Auvergne-Rhône-Alpes" uuid="{7DD8A344-27A8-4B12-B457-93CE50BC4EC2}">
+                    <adressee> Aniciensem (Le Puy)</adressee> </place_name> episcopum et 
+                <pers_name BNF="" GND="" GermaniaSacra="" LCCN="" Wikidata="" addition="Armand IV de Polignac" floruit="1105-1164" key="" life="" literature="Jacotin, Preuves de la Maison de Polignac, Bd. 1, S. 101-110." place="Polignac" reg="Armannus IV vicecomes" sex="male" termofoffice="1128 belegt - 1164 belegt" uuid="{84FF06A7-88C2-471F-801C-37210032A625}">
+                    <adressee> Armannum vicecomitem</adressee>
+                </pers_name>
+                <place_name addition="Sitz der Vizegrafen von Velay und Brioude (Herren von Polignac)" category="Burg" country="Frankreich" diocese="Anicium" geo_DMS_city="N 45°04'15″ E 3°51'37″" geodata="N 45°04′08″ E 3°51′37″" geodata_region="0" geodata_vague="0" geonames_city="2986472" id="12324232" identification="Polignac, castrum" institution="castrum quod vocatur Podianacus" region="Auvergne-Rhône-Alpes" uuid="{23FB85D6-F515-445E-84A0-B02DE6FEE040}">
+                    <adressee> Podempniacum (Polignac)</adressee> </place_name> filiosque ipsius 
+                <pers_name addition="Pons III" floruit="1145/53-1192" literature="Jacotin, Preuves de la Maison de Polignac, Bd. 1, S. 110-137" place="Polignac" reg="Pontius III vicecomes" sex="male" termofoffice="1164 belegt - 1192 belegt" uuid="{5421C9A8-5379-433C-8CDC-7BA2027B0AF3}">
+                    <adressee> Pontium</adressee> </pers_name> et 
+                <pers_name addition="Héracle" floruit="1142-1171" literature="Jacotin, Preuves de la Maison de Polignac, Bd. 1, S. 106-110" place="Polignac" reg="Eraclius II vicecomes" sex="male" termofoffice="1164 belegt - 1171 belegt" uuid="{4A01F2A3-A8E4-4DC7-BED8-E41E5F3E5A54}">
+                    <adressee> Eraclium</adressee> </pers_name> celebrat et tam patris quam filiorum multorumque militum sacramento firmare sigillisque antistitum consignare facit.</pont_reg_main>
+        </regest_pont>
+        <worker_comment_pont/>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

@@ -1,0 +1,117 @@
+<text type="charter" id="1562276868909">
+    <bibl>
+        <edition/>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests>
+            <bibl_link target="Weiß, Legaten" uuid="{94CB8B59-6BFB-4883-A9D1-6CFF6EBC5165}">Weiß Legaten</bibl_link> p. 186sq</regests>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type/>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script>
+            <pont_reg_main nr="Ib. Pont. II 121 n. 44">Cf. León, Episc. n. 75.</pont_reg_main>
+        </script>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria/>
+        <date_p value="11731099" to="11731099" from="11731099">1173 oct.</date_p>
+        <initium/>
+        <pub_place>
+            <place_name BNE="" BNE_city="" BNF="" BNF_city="" GND="" GND_city="4118213-3" GS_Klosterdatenbank="" Getty="" LCCN="" LCCN_city="n81124108" VIAF="" VIAF_city="234186354" addition="" category="Stadt" country="Spanien" diocese="" geo_DEZIMAL_city="42.372222°, -5.027778°" geo_DMS_city="N 42° 22′ 20″ W 5° 1′ 40″" geodata="N 42°22′19.29″ W 5°1′49.58″" geodata_region="0" geodata_vague="" geonames_city="" getty_city="" id="" identification="Sahagun" institution="" literature="" region="Kastilien-León" uuid="{BB94BBC5-9743-49A4-8491-5AC739383858}">Sahagún</place_name>
+        </pub_place>
+        <script_date/>
+        <state/>
+        <supplier>
+            <pers_name addition="Giacinto Bobone" floruit="1191-1198" key="193550312" life="gest. 1198" place="Roma" reg="Coelestinus III papa (Hyacintus Bobo)" sex="male" termofoffice="1191-1198" uuid="{51AF463A-36C4-4406-8BCC-3014123DE7D3}">Iacintus</pers_name> S.R.E. diaconus cardinalis s. Mariae in Cosmedin et apostolicae sedis (
+            <pers_name BNF=" 13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN=" n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{D0AAAA76-4E0A-4470-9594-57CF75211EBB}">Alexandri III</pers_name>) legatus</supplier>
+        <supplier_type>legatus</supplier_type>
+        <user_comment/>
+        <worker>Santiago Domínguez Sánchez/Daniel Berger; digitale Fassung: Thorsten Schlauwitz</worker>
+    </head>
+    <info>
+        <date_sort value="11731099">11731099</date_sort>
+        <idno>Ib. Pont. II 121 n. 44</idno>
+    </info>
+    <jaffe>
+        <jaffe1>-</jaffe1>
+        <jaffe2_no/>
+        <jaffe2_page/>
+        <jaffe2_worker>-</jaffe2_worker>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_main nr="Ib. Pont. II 121 n. 44"/>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_main nr="Ib. Pont. II 121 n. 44">Ib. Pont. II</pont_reg_main>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_main nr="Ib. Pont. II 121 n. 44">121 n. 44</pont_reg_main>
+        </pont_no>
+        <pontificate>Alexander III.</pontificate>
+        <receipt_inst>
+            <pont_reg_main nr="Ib. Pont. II 121 n. 44">Sahagún</pont_reg_main> Sahagún (Ib. Pont. II 121 n. 44); v. etiam San Salvador de Oña n. 35 (Ib. Pont. I 141); Santa María de Aguilar de Campoo n. 1 (Ib. Pont. I 163); Ib. Pont. Palencia, Valladolid; Lugo, Samos.</receipt_inst>
+        <regest_pont>
+            <pont_reg_main nr="Ib. Pont. II 121 n. 44">
+                <pers_name addition="Giacinto Bobone" floruit="1191-1198" key="193550312" life="gest. 1198" place="Roma" reg="Coelestinus III papa (Hyacintus Bobo)" sex="male" termofoffice="1191-1198" uuid="{51AF463A-36C4-4406-8BCC-3014123DE7D3}">
+                    <issuer> Iacintus</issuer> </pers_name> S.R.E. diaconus cardinalis 
+                <place_name GND_city="4050471-2" LCCN_city="n79018704" VIAF_city="145348938" category="Kirche" country="Italien" diocese="Roma" geo_DEZIMAL_city="41.9667, 12.6667" geo_DMS_city="N 41° 53′ 0″ E 12° 29′ 0″" geodata="N 41°53′41″ E 12°29′02″" geodata_region="0" id="3169070" identification="Roma, Santa Maria in Cosmedin" institution="Basilica s. Mariae in Cosmedin" region="Latium" uuid="{9D6BE7FD-A13A-45B6-B4D4-21F0BA2392CC}">s. Mariae in Cosmedin</place_name> et 
+                <place_name GND_city="4050471-2" LCCN_city="n79018704" VIAF_city="145348938" addition="Papa; S. Romana ecclesia" category="Bistum" country="Italien" diocese="Roma" geo_DEZIMAL_city="41.9667, 12.6667" geo_DMS_city="N 41° 53′ 0″ E 12° 29′ 0″" geodata="N 41°53′12″ E 12°30′20″" geodata_region="-1" id="11669597" identification="Roma, sedes apostolica et patriarchatus" institution="Sedes apostolica et Episcopatus seu patriarchatus Romanus" region="Latium" uuid="{2D170E98-4D42-4AD1-90F2-325218BC7142}">apostolicae sedis</place_name> (
+                <pers_name BNF=" 13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN=" n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{D0AAAA76-4E0A-4470-9594-57CF75211EBB}">Alexandri III</pers_name>) legatus in 
+                <place_name GND_city="4118213-3" LCCN_city="n81124108" VIAF_city="234186354" addition="OSB" category="Kloster" country="Spanien" diocese="Legio" geo_DEZIMAL_city="42.372222°, -5.027778°" geo_DMS_city="N 42° 22′ 20″ W 5° 1′ 40″" geodata="N 42°22′15″ W 5°01′46″" geodata_region="0" id="3111131" identification="Sahagun, Monasterium s. Facundi" institution="Monasterium s. Facundi" region="Kastilien-León" uuid="{8AEFA019-0F80-40C3-9AB6-8017225364A6}">monasterio s. Facundi</place_name> moratur, ubi varias litteras, directas videlicet ad abbatem et fratres 
+                <place_name addition="OPraem" category="Kloster" country="Spanien" diocese="Burgos" geo_DEZIMAL_city="42.792449°, -4.260222°" geo_DMS_city="N 42° 47′ 32.81″ W 4° 15′ 36.8″" geodata="N 42°47′40″ W 4°15′32″" geodata_region="0" id="3130824" identification="Santa Maria de Aguilar de Campoo" institution="Monasterium s. Mariae Regalis de Aguilar" region="Kastilien-León" uuid="{BA3E4CA4-E124-47FF-B823-8386E3040A5F}">monasterium s. Mariae de Aguilar (Aguilar de Campoo)</place_name>, ad abbates 
+                <place_name addition="OSB" category="Kloster" country="Spanien" diocese="Burgos" geo_DEZIMAL_city="42.734722°, -3.413889°" geo_DMS_city="N 42° 44′ 5″ W 3° 24′ 50″" geodata="N 42°44′02″ W 3°24′53″" geodata_region="0" id="3115068" identification="Ona, San Salvador" institution="Monasterium s. Salvatoris Oniense" region="Kastilien-León" uuid="{0CD2A02B-F353-4DF7-8F91-2E423E4AF0B7}">s. Salvatoris</place_name>
+                <place_name addition="OSB" category="Kloster" country="Spanien" diocese="Burgos" geo_DEZIMAL_city="42.734722°, -3.413889°" geo_DMS_city="N 42° 44′ 5″ W 3° 24′ 50″" geodata="N 42°44′02″ W 3°24′53″" geodata_region="0" id="3115068" identification="Ona, San Salvador" institution="Monasterium s. Salvatoris Oniense" region="Kastilien-León" uuid="{0CD2A02B-F353-4DF7-8F91-2E423E4AF0B7}">Oniensis</place_name> (
+                <place_name category="Stadt" diocese="Burgos" geodata="N 42°44′02″ W 3°24′53″" geodata_region="0" id="3115068" identification="Ona" uuid="{B7C5AABC-80CE-4CED-88F4-1CC7F3B6AB90}">Oña</place_name>) et 
+                <place_name addition="OSB" category="Kloster" country="Spanien" diocese="Calahorra" geo_DEZIMAL_city="42.166667, -2.866667" geo_DMS_city="N 42° 10′ 0″ W 2° 52′ 0″ W" geodata="N 42°19′47″ W 2°51′43″" geodata_region="0" id="3110237" identification="San Millan de la Cogolla" institution="monasterium s. Aemiliani" region="La Rioja" uuid="{7794A3E8-A472-45B0-8467-91B2035B3DFA}">s. Aemiliani (San Millán de la Cogolla)</place_name>, ad clericos ecclesiae Vallisoletanae (
+                <place_name GND_city="4119355-6" LCCN_city="n80001304" VIAF_city="362144783057828571770" category="Stadt" country="Spanien" diocese="Palencia" geo_DEZIMAL_city="41.650556°, -4.7325°" geo_DMS_city="N 41° 39′ 2″ W 4° 43′ 57″" geodata="N 41°39′19″ W 4°43′25″" geodata_region="0" id="3106672" identification="Valladolid" region="Kastilien-León" uuid="{BAC70517-F0A5-4249-8353-A62C0C0CD096}">Valladolid</place_name>), ad capitulum 
+                <place_name GND_city="7682686-7" VIAF_city="241258750" addition="San Xulián y Basilisa de Samos" category="Kloster" country="Spanien" geo_DEZIMAL_city="42.733333°, -7.3°" geo_DMS_city="N 42° 44′ 0″ W 7° 18′ 0″" geodata="N 42° 44′ 0″ W 7° 18′ 0″" geodata_region="0" identification="Monasterio de San Julián de Samos" region="Galicien" uuid="{D6032A46-985E-4263-8F63-C2ADBABDA99D}">Samonense (Samos</place_name>, 
+                <place_name GND_city=" 4111426-7" LCCN_city=" n80038183" VIAF_city="137201935" category="Bistum" country="Spanien" diocese="Lucus Augusti (Lugo)" geo_DEZIMAL_city="43.016667°, -7.566667°" geo_DMS_city="N 43°1′0″ W 7°34′0″" geodata="N 43°00′36″ W 7°33′22″" geodata_region="-1" id="3117814" identification="Lugo episc." institution="Episcopatus Lucensis" region="Galicien" uuid="{C4EB74A2-CAAD-464C-A3CA-5E986D6A95F2}">dioec. Lucensis</place_name>), scribit.</pont_reg_main>
+        </regest_pont>
+        <worker_comment_pont>
+            <pont_reg_main nr="Ib. Pont. II 121 n. 44"/>
+        </worker_comment_pont>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

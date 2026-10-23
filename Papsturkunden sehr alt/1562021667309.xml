@@ -1,0 +1,130 @@
+<text type="charter" id="1562021667309">
+    <bibl>
+        <edition>
+            <bibl_link target="López Sangil, Tumbo Viejo">López Sangil Tumbo Viejo</bibl_link> p. 192sq. n. 93 (ad [1164?] iun. 5)</edition>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests/>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type>Kopial</descent_type>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script>
+            <pont_reg_add nr="Ib. Pont. II 33 n. 68">Copia: Tumbo viejo de la catedral de Lugo (saec. XIII): Madrid Archivo Histórico Nacional, Sección Códices, cód. 1043 (cf. Alfonso Sánchez Mairena, El “Tumbo Viejo” de la catedral de Lugo (siglo XIII). La memoria escrita como arma jurídica. Universidad de Alcalá de Henares [Ineditum - Memoria del Diploma de Estudios Avanzados, 2010]) f. 43' (copia saec. XIII).</pont_reg_add>
+        </script>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria/>
+        <date_p value="11640603" to="11640603" from="11640603">(1164) iun. 3</date_p>
+        <initium/>
+        <pub_place>
+            <place_name BNE="" BNE_city="" BNF="" BNF_city="" GND="" GND_city="" GS_Klosterdatenbank="" Getty="" LCCN="" LCCN_city="" VIAF="" VIAF_city="" addition="" category="Stadt" country="" diocese="" geo_DEZIMAL_city="" geo_DMS_city="" geodata="N 48°11′55.93″ E 3°16′57.64″" geodata_region="" geodata_vague="" geonames_city="" getty_city="" id="" identification="Sens" institution="" literature="" region="" uuid="">Sens</place_name>
+        </pub_place>
+        <script_date/>
+        <state/>
+        <supplier>
+            <pers_name addition="Rolandus Bandinelli?" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa">Alexander III</pers_name>
+        </supplier>
+        <supplier_type>papa</supplier_type>
+        <user_comment/>
+        <worker>Santiago Domínguez Sánchez/Daniel Berger; digitale Fassung: Carolin Sachs, Thomas Czerner</worker>
+    </head>
+    <info>
+        <date_sort value="11640603">11640603</date_sort>
+        <idno>Ib. Pont. II 33 n. 68</idno>
+    </info>
+    <jaffe>
+        <jaffe1>-</jaffe1>
+        <jaffe2_no/>
+        <jaffe2_page/>
+        <jaffe2_worker>-</jaffe2_worker>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_add nr="Ib. Pont. II 33 n. 68"> De tempore (“Dat. Senonis 3 non. iun.”) cf. itinerarium 
+                <pers_name addition="Rolandus Bandinelli?" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa">Alexandri III</pers_name> in 
+                <bibl_link target="Jaffé, Regesta Pontificum Romanorum">JL. II</bibl_link> p. 180. – De re cf. 
+                <bibl_link target="Valiña Sampedro, Camino">Valiña El camino de Santiago</bibl_link> p. 211 (ad a. 1179). </pont_reg_add>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_add nr="Ib. Pont. II 33 n. 68">Ib. Pont. II</pont_reg_add>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_add nr="Ib. Pont. II 33 n. 68">33 n. 68</pont_reg_add>
+        </pont_no>
+        <pontificate>Alexander III.</pontificate>
+        <receipt_inst>
+            <pont_reg_add nr="Ib. Pont. II 33 n. 68">León, Episc.</pont_reg_add> León, Episc. (Ib. Pont. II 33 n. 68); Ib. Pont. Lugo, Episc v. etiam León, Eccl. cath. n. 25 (Ib. Pont. II 68); León, Laici n. 6 (Ib. Pont. II 145); Ib. Pont. Toledo, Archiepisc.; Astorga, Episc.; Zamora, Episc.</receipt_inst>
+        <regest_pont>
+            <pont_reg_add nr="Ib. Pont. II 33 n. 68">
+                <pers_name addition="Rolandus Bandinelli?" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa">
+                    <issuer> Alexander III</issuer> </pers_name> clero et populo de 
+                <place_name category="Stadt" diocese="Lucus Augusti (Lugo)" geodata="N 42°45′20″ W 7°14′29″" id="3107488" identification="Triacastela">
+                    <adressee> Triacastella</adressee> </place_name>, de 
+                <place_name category="Stadt" geodata="N 43°32′21″ W 6°43′25″" id="3115553" identification="Navia">Navia</place_name> et de 
+                <place_name category="Stadt" geodata="N 43°10′10″ W 6°14′30″" id="3107061" identification="Valcarcel">Valle Carceris (Valcárcel</place_name>): mandat ut 
+                <pers_name place="Lugo" reg="Iohannes episcopus">Iohanni</pers_name>
+                <place_name category="Bistum" diocese="Lucus Augusti (Lugo)" geodata="N 43°00′36″ W 7°33′22″" id="3117814" identification="Lugo episc." institution="Episcopatus Lucensis">Lucensi</place_name> episcopo tamquam eorum pontifici et pastori, oboedientiam ac reverentiam humiliter deferant; significat quod ecclesiae de 
+                <place_name category="Stadt" diocese="Lucus Augusti (Lugo)" geodata="N 42°45′20″ W 7°14′29″" id="3107488" identification="Triacastela">Triacastella</place_name>, de 
+                <place_name category="Stadt" geodata="N 43°32′21″ W 6°43′25″" id="3115553" identification="Navia">Navia</place_name> et de 
+                <place_name category="Stadt" geodata="N 43°10′10″ W 6°14′30″" id="3107061" identification="Valcarcel">Valle Carceris</place_name> per 
+                <pers_name addition="de Segovia" place="Toledo" reg="Iohannes archiepiscopus">Iohannem</pers_name>
+                <place_name category="Erzbistum" diocese="Toledo" geodata="N 39°51′29″ W 4°01′21″" id="2510409" identification="Toledo, archiepisc." institution="Archiepiscopatus Toletanus">Toletanum</place_name> archiepiscopum, de mandato 
+                <place_name addition="Papa; S. Romana ecclesia" category="Bistum" diocese="Roma" geodata="N 41°53′12″ E 12°30′20″" id="11669597" identification="Roma, sedes apostolica et patriarchatus" institution="Sedes apostolica et Episcopatus seu patriarchatus Romanus">sedis apostolicae</place_name> (cf. León, Episc. n. *64), 
+                <place_name category="Bistum" diocese="Lucus Augusti (Lugo)" geodata="N 43°00′36″ W 7°33′22″" id="3117814" identification="Lugo episc." institution="Episcopatus Lucensis">Lucensi ecclesiae</place_name> quondam investitae fuerant, et a 
+                <place_name category="Bistum" diocese="Legio" geodata="N 42°36′00″ W 5°34′13″" id="3118532" identification="Leon episc." institution="Episcopatus Legionensis">Legionensi</place_name> episcopo denuo illicite occupatae, et quod eidem 
+                <pers_name addition="Albertinus" place="Leon" reg="Iohannes episcopus">Iohanni</pers_name>
+                <place_name category="Bistum" diocese="Legio" geodata="N 42°36′00″ W 5°34′13″" id="3118532" identification="Leon episc." institution="Episcopatus Legionensis">Legionensi</place_name> episcopo tam litteris (cf. León, Episc. n. *66) quam nuntiis suis (cf. León, Episc. n. *67) viva voce mandaverat ut easdem ecclesias 
+                <pers_name place="Lugo" reg="Iohannes episcopus">Iohanni</pers_name>
+                <place_name category="Bistum" diocese="Lucus Augusti (Lugo)" geodata="N 43°00′36″ W 7°33′22″" id="3117814" identification="Lugo episc." institution="Episcopatus Lucensis">Lucensi</place_name> episcopo, cum integritate, statuto termino, restitueret; significat quoque quod, ne huiusmodi litigium in inmensum trahatur, 
+                <place_name category="Bistum" diocese="Legio" geodata="N 42°36′00″ W 5°34′13″" id="3118532" identification="Leon episc." institution="Episcopatus Legionensis">Legionensi</place_name> episcopo pertinaciter postponente, 
+                <place_name category="Bistum" diocese="Asturica" geodata="N 42°27′32″ W 6°03′22″" id="3129231" identification="Astorga episc." institution="Episcopatus Asturicensis">Asturicensi</place_name> et 
+                <place_name category="Bistum" diocese="Zamora" geodata="N 41°30′23″ W 5°44′40″" id="3104342" identification="Zamora episc." institution="Episcopatus Zamorensis">Zamorensi</place_name> episcopis, per apostolica scripta, mandavit (cf. León, Episc. n. *65), quatinus eundem 
+                <place_name category="Bistum" diocese="Lucus Augusti (Lugo)" geodata="N 43°00′36″ W 7°33′22″" id="3117814" identification="Lugo episc." institution="Episcopatus Lucensis">Lucensem</place_name>, auctoritate apostolica, in possessionem, sicut iam mandaverat archiepiscopus, restituerent.</pont_reg_add>
+        </regest_pont>
+        <worker_comment_pont>
+            <pont_reg_add nr="Ib. Pont. II 33 n. 68">Adressaten: clero et populo de Triacastella, de Navia et de Valle Carceris (Valcárcel). Anmerkungen und to do: ; Personen: , , , , , ; Orte: , , , , </pont_reg_add>
+        </worker_comment_pont>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

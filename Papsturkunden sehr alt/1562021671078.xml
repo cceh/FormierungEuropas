@@ -1,0 +1,109 @@
+<text type="charter" id="1562021671078">
+    <bibl>
+        <edition/>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests/>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type>Erwähnung</descent_type>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script>
+            <pont_reg_main nr="Ib. Pont. II 37 n. *82">Laud. in León, Episc. n. 86.</pont_reg_main>
+        </script>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria>*</criteria>
+        <date_p value="11771010" to="11771010" from="11771010">(ante 1177 oct. 10)</date_p>
+        <initium/>
+        <pub_place/>
+        <script_date/>
+        <state/>
+        <supplier>
+            <pers_name place="León" reg="Thomas archidiaconus">T(homas) archidiaconus</pers_name> Legionensis et 
+            <pers_name place="Monasterium s. Facundi (Sahagún)" reg="Iohannes sacrista">I(ohannes?) sacrista</pers_name> monasterii s. Facundi</supplier>
+        <supplier_type>ad papam</supplier_type>
+        <user_comment/>
+        <worker>Santiago Domínguez Sánchez/Daniel Berger; digitale Fassung: Carolin Sachs, Thomas Czerner</worker>
+    </head>
+    <info>
+        <date_sort value="11771010">11771010</date_sort>
+        <idno>Ib. Pont. II 37 n. *82</idno>
+    </info>
+    <jaffe>
+        <jaffe1>-</jaffe1>
+        <jaffe2_no/>
+        <jaffe2_page/>
+        <jaffe2_worker>-</jaffe2_worker>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_main nr="Ib. Pont. II 37 n. *82"/>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_main nr="Ib. Pont. II 37 n. *82">Ib. Pont. II</pont_reg_main>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_main nr="Ib. Pont. II 37 n. *82">37 n. *82</pont_reg_main>
+        </pont_no>
+        <pontificate>Alexander III.</pontificate>
+        <receipt_inst>
+            <pont_reg_main nr="Ib. Pont. II 37 n. *82">León, Episc.</pont_reg_main> León, Episc. (Ib. Pont. II 37 n. *82); v. etiam León, Eccl. cath. n. *31 (Ib. Pont. II 69); Sahagún n. *51 (Ib. Pont. II 122).</receipt_inst>
+        <regest_pont>
+            <pont_reg_main nr="Ib. Pont. II 37 n. *82"> Coram 
+                <pers_name addition="Rolandus Bandinelli?" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa">Alexandro III</pers_name>
+                <pers_name place="León" reg="Thomas archidiaconus">
+                    <issuer> T(homas) archidiaconus</issuer> </pers_name>
+                <place_name category="Bistum" diocese="Legio" geodata="N 42°36′00″ W 5°34′13″" id="3118532" identification="Leon episc." institution="Episcopatus Legionensis">
+                    <issuer> Legionensis</issuer> </place_name> et 
+                <pers_name place="Monasterium s. Facundi (Sahagún)" reg="Iohannes sacrista">
+                    <issuer> I(ohannes?) sacrista</issuer> </pers_name>
+                <place_name addition="OSB" category="Kloster" diocese="Legio" geodata="N 42°22′15″ W 5°01′46″" id="3111131" identification="Sahagun, Monasterium s. Facundi" institution="Monasterium s. Facundi">
+                    <issuer> monasterii s. Facundi</issuer> </place_name> de controversia inter ecclesias eorum orta disceptant.</pont_reg_main>
+        </regest_pont>
+        <worker_comment_pont>
+            <pont_reg_main nr="Ib. Pont. II 37 n. *82">Adressaten: . Anmerkungen und to do: ; Personen: , , , , , ; Orte: , , , , </pont_reg_main>
+        </worker_comment_pont>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

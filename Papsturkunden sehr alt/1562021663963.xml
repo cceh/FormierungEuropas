@@ -1,0 +1,118 @@
+<text type="charter" id="1562021663963">
+    <bibl>
+        <edition>
+            <bibl_link target="Valiña Sampedro, Camino">Valiña El camino de Santiago</bibl_link> p. 233sq. (s. d.). 
+            <bibl_link target="Colección León 5">Fernández Catón Colección catedral de León V</bibl_link> 348sq. n. 1524. 
+            <bibl_link target="Domínguez Sánchez, Documentos León">Domínguez Sánchez Documentos pontificios de León</bibl_link> p. 92 n. 30</edition>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests>
+            <bibl_link target=" García Villada, Catálogo León">García Villada Catálogo</bibl_link> p. 156</regests>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type>Original</descent_type>
+        <dim>280 x 285 + 30 mm</dim>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script>
+            <pont_reg_main nr="Ib. Pont. II 31 n. 60">Orig.: León Archivo de la Catedral n. 1269.</pont_reg_main>
+        </script>
+        <seal>Bulla pendet ex filis sericis.</seal>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria/>
+        <date_p value="11630614" to="11630614" from="11630614">(1163) iun. 14</date_p>
+        <initium>Quanto refrigescente caritate</initium>
+        <pub_place>
+            <place_name BNE="" BNE_city="" BNF="" BNF_city="" GND="" GND_city="" GS_Klosterdatenbank="" Getty="" LCCN="" LCCN_city="" VIAF="" VIAF_city="" addition="" category="Stadt" country="" diocese="" geo_DEZIMAL_city="" geo_DMS_city="" geodata="N 47°23′25.38″ E 0°41′22.97″" geodata_region="" geodata_vague="" geonames_city="" getty_city="" id="" identification="Tours" institution="" literature="" region="" uuid="">Tours</place_name>
+        </pub_place>
+        <script_date>Dat. Turoni 18 kal. iul.</script_date>
+        <state/>
+        <supplier>
+            <pers_name addition="Rolandus Bandinelli?" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa">Alexander III</pers_name>
+        </supplier>
+        <supplier_type>papa</supplier_type>
+        <user_comment/>
+        <worker>Santiago Domínguez Sánchez/Daniel Berger; digitale Fassung: Carolin Sachs, Thomas Czerner</worker>
+    </head>
+    <info>
+        <date_sort value="11630614">11630614</date_sort>
+        <idno>Ib. Pont. II 31 n. 60</idno>
+    </info>
+    <jaffe>
+        <jaffe1>-</jaffe1>
+        <jaffe2_no/>
+        <jaffe2_page/>
+        <jaffe2_worker>-</jaffe2_worker>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_main nr="Ib. Pont. II 31 n. 60"> De tempore cf. itinerarium 
+                <pers_name addition="Rolandus Bandinelli?" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa">Alexandri III</pers_name> in 
+                <bibl_link target="Jaffé, Regesta Pontificum Romanorum">JL. II</bibl_link> 170sq. – De re cf. 
+                <bibl_link target="Valiña Sampedro, Camino">Valiña El camino de Santiago</bibl_link> p. 210sq.; 
+                <bibl_link target="Fletcher, Episcopate">Fletcher The Episcopate</bibl_link> p. 205. </pont_reg_main>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_main nr="Ib. Pont. II 31 n. 60">Ib. Pont. II</pont_reg_main>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_main nr="Ib. Pont. II 31 n. 60">31 n. 60</pont_reg_main>
+        </pont_no>
+        <pontificate>Alexander III.</pontificate>
+        <receipt_inst>
+            <pont_reg_main nr="Ib. Pont. II 31 n. 60">León, Episc.</pont_reg_main> León, Episc. (Ib. Pont. II 31 n. 60); v. etiam León, Eccl. cath. n. 18 (Ib. Pont. II 67); Ib. Pont. Lugo, Episc.</receipt_inst>
+        <regest_pont>
+            <pont_reg_main nr="Ib. Pont. II 31 n. 60">
+                <pers_name addition="Rolandus Bandinelli?" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa">
+                    <issuer> Alexander III</issuer> </pers_name>
+                <pers_name addition="Albertinus" place="Leon" reg="Iohannes episcopus">
+                    <adressee> Iohanni</adressee> </pers_name>
+                <place_name category="Bistum" diocese="Legio" geodata="N 42°36′00″ W 5°34′13″" id="3118532" identification="Leon episc." institution="Episcopatus Legionensis">
+                    <adressee> Legionensi</adressee> </place_name> episcopo: precibus eius annuens, confirmat ei eiusque successoribus et, per eum, 
+                <place_name category="Bistum" diocese="Legio" geodata="N 42°36′00″ W 5°34′13″" id="3118532" identification="Leon episc." institution="Episcopatus Legionensis">ecclesiae Legionensi</place_name>, archidiaconatum de 
+                <place_name category="Stadt" diocese="Lucus Augusti (Lugo)" geodata="N 42°45′20″ W 7°14′29″" id="3107488" identification="Triacastela">Triacastella</place_name>, cum ecclesiis, decimis et aliis pertinentiis suis, ab ipso et eius antecessoribus per continuum quadraginta retro annorum spatium sine legitima interruptione cuiuslibet quiete possessum.</pont_reg_main>
+        </regest_pont>
+        <worker_comment_pont>
+            <pont_reg_main nr="Ib. Pont. II 31 n. 60">Adressaten: Iohanni Legionensi episcopo. Anmerkungen und to do: ; Personen: , , , , , ; Orte: , , , , </pont_reg_main>
+        </worker_comment_pont>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

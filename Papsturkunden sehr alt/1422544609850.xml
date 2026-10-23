@@ -1,0 +1,115 @@
+<text type="charter" id="1422544609850">
+    <bibl>
+        <edition/>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests/>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type>Erwähnung</descent_type>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script>
+            <pont_reg_main nr="Ib. Pont. I 67 n. *104">Elucet ex serie episcoporum huius concilii participum, quae cuidam codici Cicestriensi (Chichester) saec. XII inscripta est (London British Library, Cotton Vitellius A xvii, f. 16’. Edd. 
+                <bibl_link target="Reuter, Bishops">Reuter Bishops</bibl_link> p. 125. 
+                <bibl_link target="Somerville, Council of Tours">Somerville Alexander III</bibl_link> p. 27sq. Reg. 
+                <bibl_link target="Jaffé, Regesta Pontificum Romanorum">JL</bibl_link>. -).</pont_reg_main>
+        </script>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria>*</criteria>
+        <date_p value="11630519" to="11630519" from="11630519">1163 mai. 19</date_p>
+        <initium/>
+        <pub_place>
+            <place_name diocese="Tours" geodata="N 47°23′00″ E 0°41′00″" identification="Tours">Tours</place_name>
+        </pub_place>
+        <script_date/>
+        <state/>
+        <supplier>
+            <pers_name key="88956811" life="1181" place="Roma" reg="Alexander III papa (Rolandus Bandinelli)">Alexander III</pers_name>
+        </supplier>
+        <supplier_type>papa</supplier_type>
+        <user_comment/>
+        <worker>Berger (Ib. Pont. I)</worker>
+    </head>
+    <info>
+        <idno>Ib. Pont. I 67 n. *104</idno>
+        <date_sort value="11630519">11630519</date_sort>
+    </info>
+    <jaffe>
+        <jaffe1>-</jaffe1>
+        <jaffe2_no/>
+        <jaffe2_page/>
+        <jaffe2_worker>-</jaffe2_worker>
+        <jaffe3_no/>
+        <list_keyword>
+            <keyword>Konzil</keyword>
+        </list_keyword>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>De concilio cf. Somerville Alexander III passim; 
+            <bibl_link target="Pontal, Conciles de la France">Pontal Conciles</bibl_link> p. 344-348; 
+            <bibl_link target="Jaffé, Regesta Pontificum Romanorum">JL</bibl_link>. II p. 168. Cf. etiam 
+            <bibl_link target="Fleisch, Sacerdotium">Fleisch Sacerdotium</bibl_link> p. 162sq.</main_comment_pont>
+        <pont_bd>
+            <pont_reg_main nr="Ib. Pont. I 67 n. *104">Ib. Pont. I</pont_reg_main>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_main nr="Ib. Pont. I 67 n. *104">67 n. *104</pont_reg_main>
+        </pont_no>
+        <pontificate>Alexander III.</pontificate>
+        <receipt_inst>
+            <pont_reg_main nr="Ib. Pont. I 67 n. *104">Burgos, Episc.</pont_reg_main>Burgos, Episc. n. *104 (Ib. Pont. I 67); León, Episc. n. *59 (Ib. Pont. II 30); Sahagún n. *38 (Ib. Pont. II 119); Toledo, Archiepisc.; Segovia, Episc.; Sigüenza, Episc.; Compostela, Archiepisc.; Ávila, Episc.; Coria, Episc.; Lugo, Episc.; Astorga, Episc.; Zamora, Episc.; Tarragona, Archiepisc.; Pamplona, Episc.; Tarazona, Episc.; Zaragoza, Episc.; Vich, Episc.; Tortosa, Episc.; Girona, Episc.; Urgel, Episc.; Barcelona, Episc.</receipt_inst>
+        <regest_pont>
+            <pont_reg_main nr="Ib. Pont. I 67 n. *104">
+                <pers_name key="88956811" life="1181" place="Roma" reg="Alexander III papa (Rolandus Bandinelli)">
+                    <issuer>Alexander III</issuer> </pers_name>
+                <place_name diocese="Tours" geodata="N 47°23′00″ E 0°41′00″" identification="Tours">Turonis</place_name> concilium generale celebrat, cui et (
+                <pers_name addition="Perez" life="Bischof bis 1181" place="Burgos" reg="Petrus (II) episcopus">Petrus II</pers_name>) 
+                <place_name category="episcopatus" diocese="Burgos" geodata="N 42°21′01″ W 3°40′31″" identification="Burgos, episc." institution="Episcopatus Burgensis">Burgensis</place_name> episcopus interest.</pont_reg_main>
+        </regest_pont>
+        <worker_comment_pont>
+            <pont_reg_main nr="Ib. Pont. I 67 n. *104">Adressaten: . Anmerkungen und to do: ; Personen: 
+                <pers_name key="88956811" life="1181" place="Roma" reg="Alexander III papa (Rolandus Bandinelli)">Alexander III</pers_name>., Papst, 
+                <pers_name addition="Pedro de Agen" life="1149" place="Segovia" reg="Petrus episcopus">Pedro</pers_name> (II.), Bf. v. Burgos, , , , ; Orte: , , , , </pont_reg_main>
+        </worker_comment_pont>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

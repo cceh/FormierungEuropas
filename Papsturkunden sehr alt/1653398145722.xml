@@ -1,0 +1,129 @@
+<text type="charter" id="1653398145722">
+    <bibl>
+        <edition>
+            <bibl_link lang="" target="Maassen, Beiträge" target2="495798" type="" uuid="{6CA6559F-596B-4440-8220-1DFD0A747819}">F. Maassen, Beiträge zur juristischen Literaturgeschichte des Mittelalters, dans Sitzungsberichte der Philosophisch-Historischen Classe der kaiserlichen Akademie der Wissenschaften, 24/1–2, 1857 </bibl_link>, p. 64 n. 5 (d’après Innsbruck, Cod. 90).</edition>
+        <figure/>
+        <literature>
+            <bibl_link target="Holtzmann, Papsturkunden in England 1" target2="449093" uuid="{BB912561-60C2-4384-BA4A-70E61DCF322F}">Holtzmann, I</bibl_link>, p. 94 (Collectio Cottoniana); 
+            <bibl_link lang="" target="Holtzmann, Papsturkunden in England 3" target2="449095" type="" uuid="{6AAA9B60-22B3-47D8-8A28-6CD5B9BD8029}">Holtzmann, III</bibl_link>, p. 70 (Collectio Petrihusensis). Walther-Holtzmann-Kartei, no 99a, en ligne: Stephan Kuttner Institute of Medieval Canon Law (http://www.kuttner-institute.jura.uni-muenchen.de)</literature>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests>
+            <bibl_link target="Chevalier, Regeste Dauphinois" target2="48077" uuid="{7AEB8E9C-4E6E-45EB-802A-3F6DBDC3D433}">Reg. dauph.</bibl_link>, I, no 4565, c. 761. 
+            <bibl_link target="Régné, Regeste Vivarois" target2="82163" uuid="{961F029E-7D3E-4DCF-AA07-878171EE55E6}">Reg. Vivarois</bibl_link>, no 46, p. 11. 
+            <bibl_link target="Jaffé, Regesta Pontificum Romanorum" target2="54640" uuid="{77346F34-E2AC-422A-92FA-1D3BFDF42FFC}">J. L.</bibl_link> 12433</regests>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type>Original und Kopial</descent_type>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script>
+            <pont_reg_main nr="Gall. Pont. III,3 289 n. 150">Collectio Oenipontana, dans Innsbruck, Universitätsbibliothek, Cod. 90 (appendice de textes, rajouté au Decretum de Gratien). Collectio Cottoniana, 3, 56, dans Londres, British Library, Cotton Vitellius E. XIII. Collectio Petrihusensis, 2, 23, 12, dans Cambridge, Peterhouse College, ms. 193, 114, 203, 180.</pont_reg_main>
+        </script>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria/>
+        <date_p value="11750131" to="11750131" from="11750131">(1175) ian. 31</date_p>
+        <initium>Audivimus pravam et.</initium>
+        <pub_place>
+            <place_name GND="4236682-3" GND_city="4236682-3" VIAF=" 244168908" VIAF_city="244168908" category="Stadt" country="Italien" diocese="Ferentinum" geo_DEZIMAL_city="41.693056°, 13.254444°" geo_DMS_city="N 41°41'33.76″ E 13°15'12.08″" geodata="N 41°41′43″ E 13°15′23″" geodata_region="0" geodata_vague="0" id="6539766" identification="Ferentino" institution="Civitas Ferentinum" literature="IP II, 147" region="Latium" uuid="{067A25DE-7F04-4BB9-BA0F-32D5639118A0}">Ferentinum</place_name>
+        </pub_place>
+        <script_date>Dat. Ferentini 2 kal. febr.</script_date>
+        <state/>
+        <supplier>
+            <pers_name BNF="13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN="n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{58C0B973-E9BB-4491-9207-7428DB953ADF}">Alexander III papa</pers_name>
+        </supplier>
+        <supplier_type>papa</supplier_type>
+        <user_comment/>
+        <worker>Gall. Pont III,3: Beate Schilling; digitale Fassung: Valérie Lüthi, Johannes Luther</worker>
+    </head>
+    <info>
+        <date_sort value="11750131">11750131</date_sort>
+        <idno>JL 12433</idno>
+    </info>
+    <jaffe>
+        <jaffe1/>
+        <jaffe2_no>12433</jaffe2_no>
+        <jaffe2_page/>
+        <jaffe2_worker>JL</jaffe2_worker>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_main nr="Gall. Pont. III,3 289 n. 150">Sur la Collectio Oenipontana, voir 
+                <bibl_link target="Kuttner, Repertorium" target2="467445" uuid="{53014561-2504-46C0-A2A7-459F63CA320B}">S. Kuttner, Repertorium der Kanonistik (1140–1234), Città del Vaticano, 1937</bibl_link>, p. 286, et, au sujet du manuscrit, voir 
+                <bibl_link target="Neuhauser, Katalog 1-2" target2="56578" uuid="{D2148F73-D619-48A7-93F9-CE037653BFB3}">W. Neuhauser, Katalog der Handschriften der Universitätsbibliothek Innsbruck. Cod.1–100, Wien, 1987 (Veröffentlichungen der Kommission für Schrift- und Buchwesen des Mittelalters, 2, 4, 1)</bibl_link>, p. 247–250. Les collections des manuscrits de 
+                <place_name BNF_city="cb119861367" GND_city="4074335-4" LCCN_city="n79005665" VIAF_city="261467287" category="Stadt" country="England" diocese="Londinium" geo_DEZIMAL_city="51.507222, -0.1275" geo_DMS_city="N 51° 30′ 26″ W 0° 7′ 39″" geodata="N 51°30′31″ E 0°07′33″" geodata_region="0" geodata_vague="0" id="2643743" identification="London" institution="Civitas Londinium" region="Greater London" uuid="{E30F3826-E3B9-4D7D-8118-EA35C3C3C85C}">Londres</place_name> et de 
+                <place_name GND_city="4009351-7" LCCN_city="n79018410" VIAF_city="153543201" category="Stadt" country="England" diocese="Elia" geo_DEZIMAL_city="52.2°, 0.116667°" geo_DMS_city="N 52° 12′ 0″ E 0° 7′ 0″" geodata="N 52°12′00″ E 0°07′00″" geodata_region="0" geodata_vague="0" id="2653941" identification="Cambridge" institution="Urbs Cantabrigia" region="East" uuid="{A594E00B-D620-494E-A0F3-BF694CA60985}">Cambridge</place_name>, mutilés, appartiennent à la famille de collections dite de 
+                <place_name GND_city="4119169-9" LCCN_city="n81018214" VIAF_city="151276369" category="Stadt" country="England" diocese="Vigornia" geo_DEZIMAL_city="52.192, -2.22" geo_DMS_city="N 52° 11′ 31.2″ W 2° 13′ 12″" geodata="N 52°11′22″ W 2°13′12″" geodata_region="0" geodata_vague="0" id="2633563" identification="Worcester" institution="Civitas Vigornia" region="West Midlands" uuid="{18D0608F-07B4-4FA8-B4F0-F32EA524A87A}">“Worcester” (Wigorniensis)</place_name>; voir 
+                <bibl_link target="Duggan, Decretal Collections" target2="1356548" uuid="{8FF601F5-BA16-4601-B61F-39530530DB83}">C. Duggan, Decretal Collections from Gratian’s Decretum to the Compilationes antiquae. The Making of the New Case Law, dans W. Hartmann, K. Pennington (dir.), The History of Medieval Canon Law in the Classical Period (1140–1234). From Gratian to the Decretals of Pope Gregory IX, Washington D. C., 2008</bibl_link>, p. 274–277. Sur 
+                <pers_name addition="Nicolas" floruit="1173-1205" literature="Rouchier/Régné, Histoire, Bd. 2, S. 47-68" place="Viviers" reg="Nicolaus episcopus" sex="male" termofoffice="1173-1205" uuid="{90D01D87-92E1-4AF9-8CAE-400956ADAEC7}">l’évêque Nicolas</pers_name> (1173–1205), voir 
+                <bibl_link target="Rouchier, Histoire du Vivarais" target2="90239" uuid="{484B3AF5-2850-43B5-935F-F7785196072B}">Régné, Histoire</bibl_link>, II, p. 47–68.</pont_reg_main>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_main nr="Gall. Pont. III,3 289 n. 150">Gall. Pont. III,3</pont_reg_main>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_main nr="Gall. Pont. III,3 289 n. 150">289 n. 150</pont_reg_main>
+        </pont_no>
+        <pontificate>Alexander III</pontificate>
+        <receipt_inst>
+            <pont_reg_main nr="Gall. Pont. III,3 289 n. 150">Viviers, episc.</pont_reg_main> Grenoble, episc. (Gall. Pont. III,2 118 n. 179); Viviers, episc. (Gall. Pont. III,3 289 n. 150)</receipt_inst>
+        <regest_pont>
+            <pont_reg_main nr="Gall. Pont. III,3 289 n. 150">
+                <pers_name BNF="13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN="n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{58C0B973-E9BB-4491-9207-7428DB953ADF}">
+                    <issuer> Alexander III</issuer>
+                </pers_name> (
+                <pers_name Wikidata="Q106936841" addition="Jean Ier de Sassenage" floruit="1162/63-1220" literature="Dictionnaire d'histoire et de géographie ecclésiastiques 27, Sp. 596." place="Grenoble" reg="Iohannes episcopus" sex="male" termofoffice="1162/63-1220" uuid="{0A51DE30-828D-436A-AD7C-55EA31BAB7BD}">
+                    <adressee> Johanni</adressee>
+                </pers_name>) 
+                <place_name BNF_city="cb119342062" GND_city="4021985-9" LCCN_city="n79091186" VIAF_city="265376682" category="Bistum" country="Frankreich" diocese="Gratianopolis" geo_DEZIMAL_city="45.2002, 5.7222" geo_DMS_city="N 45° 12′ 0.72″ E 5° 43′ 19.92″" geodata="N 45°10′37″ E 5°42′30″" geodata_region="-1" geodata_vague="0" id="12088670" identification="Grenoble, episc." institution="Episcopatus Gratianopolitanus" region="Auvergne-Rhône-Alpes" uuid="{EE7C60D9-ABFC-442B-B238-853D721BD402}">
+                    <adressee> Graciopolitano</adressee>
+                </place_name> et (
+                <pers_name addition="Nicolas" floruit="1173-1205" literature="Rouchier/Régné, Histoire, Bd. 2, S. 47-68" place="Viviers" reg="Nicolaus episcopus" sex="male" termofoffice="1173-1205" uuid="{90D01D87-92E1-4AF9-8CAE-400956ADAEC7}">
+                    <adressee> Nicolao</adressee>
+                </pers_name>) 
+                <place_name category="Bistum" country="Frankreich" diocese="Vivarium" geo_DEZIMAL_city="44.4828, 4.68895" geo_DMS_city="N 44°28′58″ E 4°41′20″" geodata="N 44°28′55″ E 4°41′25″" geodata_region="-1" geodata_vague="0" geonames_city="2967820" id="12047232" identification="Viviers, episc." institution="Episcopatus Vivariensis" region="Auvergne-Rhône-Alpes" uuid="{02075C7B-A0E6-44CE-B120-62F8DE2FC7BA}">
+                    <adressee> Vivariensi</adressee>
+                </place_name> episcopis: scribit se audivisse de prava consuetudine in partibus ejus irrepta quod videlicet aliqui, cum clericos capiant aut in eos manus violentas injiciant, ne puniri possint, ab eisdem clericis juramentum de pacis observantia extorquent. Miratur eos in puniendis hujusmodi malefactoribus querimoniam expectare cum non ignorent illos qui in clericos manus injiciunt violentas ex ipso actu sententiam excommunicationis incurrere. Eis mandat quatenus illos qui, talia praesumentes, in clericis manus violentas extenderunt vel in posterum extenderint, sublato appellationis remedio, pace taliter extorta non obstante, excommunicent donec quid abstulerint, restituant et de illatis injuriis congrue satisfaciant et cum litteris eorum apostolico se conspectui repraesentent.</pont_reg_main>
+        </regest_pont>
+        <worker_comment_pont/>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>

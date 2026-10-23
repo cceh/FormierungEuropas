@@ -1,0 +1,132 @@
+<text type="charter" id="1653378378452">
+    <bibl>
+        <edition/>
+        <figure/>
+        <literature/>
+        <literature_short/>
+        <material/>
+        <mention>0</mention>
+        <regests>
+            <bibl_link target="Jaffé, Regesta Pontificum Romanorum" target2="54640" uuid="{77346F34-E2AC-422A-92FA-1D3BFDF42FFC}">J. L.</bibl_link> –</regests>
+        <reproduction/>
+        <transcript/>
+    </bibl>
+    <descent>
+        <charter_type/>
+        <descent_type/>
+        <dim/>
+        <diplomat_comment/>
+        <notarial_signature/>
+        <script/>
+        <seal/>
+        <sigle/>
+        <signature/>
+        <witness_card_diac/>
+        <witness_card_eps/>
+        <witness_card_pbr/>
+        <witness_no/>
+        <witness_other/>
+    </descent>
+    <head>
+        <criteria>*</criteria>
+        <date_p value="11731231" to="11731231" from="11720101">(1172–1173)</date_p>
+        <initium/>
+        <pub_place/>
+        <script_date/>
+        <state/>
+        <supplier>
+            <pers_name BNF="13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN="n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{58C0B973-E9BB-4491-9207-7428DB953ADF}">Alexander III papa</pers_name>
+        </supplier>
+        <supplier_type>papa</supplier_type>
+        <user_comment/>
+        <worker>Gall. Pont III,3: Beate Schilling; digitale Fassung: Valérie Lüthi, Johannes Luther</worker>
+    </head>
+    <info>
+        <date_sort value="11731231">11731231</date_sort>
+        <idno>Gall. Pont. III,3 289 n. *149</idno>
+    </info>
+    <jaffe>
+        <jaffe1/>
+        <jaffe2_no/>
+        <jaffe2_page/>
+        <jaffe2_worker/>
+        <jaffe3_no/>
+        <main_comment_jaffe/>
+        <regest_jaffe/>
+        <worker_comment_jaffe/>
+    </jaffe>
+    <pont>
+        <main_comment_pont>
+            <pont_reg_main nr="Gall. Pont. III,3 289 n. *149">Connu par un accord conclu en 1173 entre 
+                <pers_name Wikidata="Q3387709" addition="Pierre de Solignac" floruit="1159-1189" literature="Gallia christiana II, Sp. 705-707." place="Le Puy-en-Velay" reg="Petrus IV episcopus" sex="male" termofoffice="1159-1189 belegt" uuid="{95866A90-5923-466D-BBAB-B9849BD3F5F8}">l’évêque Pierre</pers_name> du 
+                <place_name GND_city="4111265-9" LCCN_city="n82052561" VIAF_city="147339129" category="Bistum" country="Frankreich" diocese="Anicium" geo_DEZIMAL_city="45.04205°, 3.883281°" geo_DMS_city="N 45° 2′ 31.38″ E 3° 52′ 59.81″" geodata="N 45°02′44″ E 3°53′06″" geodata_region="-1" geodata_vague="0" id="11777227" identification="Le Puy-en-Velay, episc." institution="Episcopatus Aniciensis/Podiensis" region="Auvergne-Rhône-Alpes" uuid="{7DD8A344-27A8-4B12-B457-93CE50BC4EC2}">Puy</place_name> et le 
+                <pers_name addition="Pons III" floruit="1145/53-1192" literature="Jacotin, Preuves de la Maison de Polignac, Bd. 1, S. 110-137" place="Polignac" reg="Pontius III vicecomes" sex="male" termofoffice="1164 belegt - 1192 belegt" uuid="{5421C9A8-5379-433C-8CDC-7BA2027B0AF3}">vicomte Ponce</pers_name> de 
+                <place_name addition="Sitz der Vizegrafen von Velay und Brioude (Herren von Polignac)" category="Burg" country="Frankreich" diocese="Anicium" geo_DMS_city="N 45°04'15″ E 3°51'37″" geodata="N 45°04′08″ E 3°51′37″" geodata_region="0" geodata_vague="0" geonames_city="2986472" id="12324232" identification="Polignac, castrum" institution="castrum quod vocatur Podianacus" region="Auvergne-Rhône-Alpes" uuid="{23FB85D6-F515-445E-84A0-B02DE6FEE040}">Polignac</place_name> dans lequel un des médiateurs est désigné comme 
+                <pers_name addition="Robert de La Tour du Pin, zuvor Bf. v. Viviers (1171-1172/73)" floruit="1171-1195" literature="Gallans, Deux archevêchés, S. 87f., 89-111" place="Vienne" reg="Robertus archiepiscopus" sex="male" termofoffice="1173 belegt - 1195 belegt" uuid="{E03ACA95-9359-4109-A819-C4C3CFD205A7}">R.</pers_name> Dei gratia 
+                <place_name GND_city="4119422-6" LCCN_city="n80139195" VIAF_city="152049885" category="Erzbistum" country="Frankreich" diocese="Vienna" geo_DEZIMAL_city="45.525833°, 4.874722°" geo_DMS_city="N 45° 31′ 33″ E 4° 52′ 29″" geodata="N 45°31′27″ E 4°52′23″" geodata_region="-1" geodata_vague="0" id="12042115" identification="Vienne, archiepisc." institution="Archiepiscopatus Viennensis" region="Auvergne-Rhône-Alpes" uuid="{A455AF61-5A74-42DB-8B56-D1F7671DBD76}">Viennensis</place_name> electus et 
+                <place_name category="Bistum" country="Frankreich" diocese="Vivarium" geo_DEZIMAL_city="44.4828, 4.68895" geo_DMS_city="N 44°28′58″ E 4°41′20″" geodata="N 44°28′55″ E 4°41′25″" geodata_region="-1" geodata_vague="0" geonames_city="2967820" id="12047232" identification="Viviers, episc." institution="Episcopatus Vivariensis" region="Auvergne-Rhône-Alpes" uuid="{02075C7B-A0E6-44CE-B120-62F8DE2FC7BA}">Vivariensis</place_name> episcopus (
+                <bibl_link target=" Vaissète-De Vic, Languedoc" target2="64011" uuid="{8EB27CEC-7A29-42D9-AEC5-479F0F5F4D81}">Vic-Vaissète, Histoire générale de Languedoc</bibl_link>, VIII², no 16, p. 296 = 
+                <bibl_link lang="" target="Layettes du trésor des Chartes 1" target2="940751" type="" uuid="{CA4180D8-F2AD-479D-B3BD-FD2B0C274EDC}">A. Teulet, Layettes du Trésor des chartes, I, Paris, 1863 </bibl_link>, no 245, p. 105). Cette translation, inconnue jusqu’ici de l’historiographie (voir 
+                <bibl_link target="Galland, Deux archevêchés" target2="120491" uuid="{17DCFF97-03FB-4656-9BCA-B714DD42BE86}">Galland, Deux archevêchés</bibl_link>, p. 87–88; 
+                <bibl_link target="Gallia pontificia 3, 1" target2="1340743" uuid="{CA574245-0327-4FDE-B99B-819FA98DC6FC}">Gall. Pont. III,1</bibl_link> 186 n. 305), se situe avant le 11 août 1173, première attestation de 
+                <pers_name addition="Robert de La Tour du Pin, zuvor Bf. v. Viviers (1171-1172/73)" floruit="1171-1195" literature="Gallans, Deux archevêchés, S. 87f., 89-111" place="Vienne" reg="Robertus archiepiscopus" sex="male" termofoffice="1173 belegt - 1195 belegt" uuid="{E03ACA95-9359-4109-A819-C4C3CFD205A7}">Robert</pers_name> comme élu de 
+                <place_name GND_city="4119422-6" LCCN_city="n80139195" VIAF_city="152049885" category="Erzbistum" country="Frankreich" diocese="Vienna" geo_DEZIMAL_city="45.525833°, 4.874722°" geo_DMS_city="N 45° 31′ 33″ E 4° 52′ 29″" geodata="N 45°31′27″ E 4°52′23″" geodata_region="-1" geodata_vague="0" id="12042115" identification="Vienne, archiepisc." institution="Archiepiscopatus Viennensis" region="Auvergne-Rhône-Alpes" uuid="{A455AF61-5A74-42DB-8B56-D1F7671DBD76}">Vienne</place_name> (ibid.). Les auteurs anciens ont bien connu cette charte, mais suivant 
+                <bibl_link target="Gallia christiana" target2="45496" uuid="{95F21CA6-F92F-485F-8A72-EFBB8C52ABFD}">Gallia Christiana</bibl_link>, XVI, c. 558, on contestait l’identité de 
+                <pers_name addition="Robert de La Tour du Pin, zuvor Bf. v. Viviers (1171-1172/73)" floruit="1171-1195" literature="Gallans, Deux archevêchés, S. 87f., 89-111" place="Vienne" reg="Robertus archiepiscopus" sex="male" termofoffice="1173 belegt - 1195 belegt" uuid="{E03ACA95-9359-4109-A819-C4C3CFD205A7}">R.</pers_name> avec 
+                <pers_name addition="Robert de La Tour du Pin, zuvor Bf. v. Viviers (1171-1172/73)" floruit="1171-1195" literature="Gallans, Deux archevêchés, S. 87f., 89-111" place="Vienne" reg="Robertus archiepiscopus" sex="male" termofoffice="1173 belegt - 1195 belegt" uuid="{E03ACA95-9359-4109-A819-C4C3CFD205A7}">l’archevêque Robert</pers_name> de 
+                <place_name GND_city="4119422-6" LCCN_city="n80139195" VIAF_city="152049885" category="Erzbistum" country="Frankreich" diocese="Vienna" geo_DEZIMAL_city="45.525833°, 4.874722°" geo_DMS_city="N 45° 31′ 33″ E 4° 52′ 29″" geodata="N 45°31′27″ E 4°52′23″" geodata_region="-1" geodata_vague="0" id="12042115" identification="Vienne, archiepisc." institution="Archiepiscopatus Viennensis" region="Auvergne-Rhône-Alpes" uuid="{A455AF61-5A74-42DB-8B56-D1F7671DBD76}">Vienne</place_name> tout en supposant l’existence d’un évêque de 
+                <place_name category="Bistum" country="Frankreich" diocese="Vivarium" geo_DEZIMAL_city="44.4828, 4.68895" geo_DMS_city="N 44°28′58″ E 4°41′20″" geodata="N 44°28′55″ E 4°41′25″" geodata_region="-1" geodata_vague="0" geonames_city="2967820" id="12047232" identification="Viviers, episc." institution="Episcopatus Vivariensis" region="Auvergne-Rhône-Alpes" uuid="{02075C7B-A0E6-44CE-B120-62F8DE2FC7BA}">Viviers</place_name> de ce nom, attesté le 11 novembre 1171 (
+                <bibl_link target="Chevalier, Regeste Dauphinois" target2="48077" uuid="{7AEB8E9C-4E6E-45EB-802A-3F6DBDC3D433}">Reg. dauph.</bibl_link>, I, no 4452, c. 743) et mentionné pour la dernière fois dans la décrétale du 31 janvier (1175) (
+                <data_link col_id="1006" id="1653398145722">Gall. Pont. III,3 289 n. 150 </data_link>); voir 
+                <bibl_link target="Rouchier, Histoire du Vivarais" target2="90239" uuid="{484B3AF5-2850-43B5-935F-F7785196072B}">Régné, Histoire</bibl_link>, II, p. 45. L’adresse de cette lettre ne donne pourtant pas les noms des évêques destinataires. Il n’existe pas non plus de témoignage sur l’origine casadéenne de 
+                <pers_name addition="Robert de La Tour du Pin, zuvor Bf. v. Viviers (1171-1172/73)" floruit="1171-1195" literature="Gallans, Deux archevêchés, S. 87f., 89-111" place="Vienne" reg="Robertus archiepiscopus" sex="male" termofoffice="1173 belegt - 1195 belegt" uuid="{E03ACA95-9359-4109-A819-C4C3CFD205A7}">Robert</pers_name> de 
+                <place_name GND_city="4119422-6" LCCN_city="n80139195" VIAF_city="152049885" category="Erzbistum" country="Frankreich" diocese="Vienna" geo_DEZIMAL_city="45.525833°, 4.874722°" geo_DMS_city="N 45° 31′ 33″ E 4° 52′ 29″" geodata="N 45°31′27″ E 4°52′23″" geodata_region="-1" geodata_vague="0" id="12042115" identification="Vienne, archiepisc." institution="Archiepiscopatus Viennensis" region="Auvergne-Rhône-Alpes" uuid="{A455AF61-5A74-42DB-8B56-D1F7671DBD76}">Vienne</place_name>, affirmée par la 
+                <bibl_link target="Gallia christiana" target2="45496" uuid="{95F21CA6-F92F-485F-8A72-EFBB8C52ABFD}">Gallia Christiana</bibl_link>, XVI, c. 558, et 
+                <bibl_link target="Gaussin, L’abbaye de La Chaise-Dieu" target2="448666" uuid="{D4031437-7222-4C1A-8E3F-D26A71B7A5BF}">P.-R. Gaussin, L’abbaye de La Chaise-Dieu (1043–1518), Toulouse, 1962</bibl_link>, p. 370.</pont_reg_main>
+        </main_comment_pont>
+        <pont_bd>
+            <pont_reg_main nr="Gall. Pont. III,3 289 n. *149">Gall. Pont. III,3</pont_reg_main>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_main nr="Gall. Pont. III,3 289 n. *149">289 n. *149</pont_reg_main>
+        </pont_no>
+        <pontificate>Alexander III</pontificate>
+        <receipt_inst>
+            <pont_reg_main nr="Gall. Pont. III,3 289 n. *149">Viviers, episc.</pont_reg_main> Viviers, episc. (Gall. Pont. III,3 289 n. *149)</receipt_inst>
+        <regest_pont>
+            <pont_reg_main nr="Gall. Pont. III,3 289 n. *149">
+                <pers_name BNF="13483911s" GND="118819712" GermaniaSacra="069-00059-002" LCCN="n/82/90954" Wikidata="Q160116" addition="Rolandus Bandinelli?" floruit="1105-1181" key="88956811" life="ca. 1105-1181" place="Roma" reg="Alexander III papa" sex="male" termofoffice="1159-1181" uuid="{58C0B973-E9BB-4491-9207-7428DB953ADF}">
+                    <issuer> Alexander III</issuer>
+                </pers_name>
+                <pers_name addition="Robert de La Tour du Pin, zuvor Bf. v. Viviers (1171-1172/73)" floruit="1171-1195" literature="Galland, Deux archevêchés, S. 87f., 89-111" place="Vienne" reg="Robertus archiepiscopus" sex="male" termofoffice="1173 belegt - 1195 belegt" uuid="{E03ACA95-9359-4109-A819-C4C3CFD205A7}">
+                    <adressee> Robertum</adressee>
+                </pers_name>
+                <place_name category="Bistum" country="Frankreich" diocese="Vivarium" geo_DEZIMAL_city="44.4828, 4.68895" geo_DMS_city="N 44°28′58″ E 4°41′20″" geodata="N 44°28′55″ E 4°41′25″" geodata_region="-1" geodata_vague="0" geonames_city="2967820" id="12047232" identification="Viviers, episc." institution="Episcopatus Vivariensis" region="Auvergne-Rhône-Alpes" uuid="{02075C7B-A0E6-44CE-B120-62F8DE2FC7BA}">
+                    <adressee> Vivariensem</adressee>
+                </place_name> episcopum in 
+                <place_name GND_city="4119422-6" LCCN_city="n80139195" VIAF_city="152049885" category="Erzbistum" country="Frankreich" diocese="Vienna" geo_DEZIMAL_city="45.525833°, 4.874722°" geo_DMS_city="N 45° 31′ 33″ E 4° 52′ 29″" geodata="N 45°31′27″ E 4°52′23″" geodata_region="-1" geodata_vague="0" id="12042115" identification="Vienne, archiepisc." institution="Archiepiscopatus Viennensis" region="Auvergne-Rhône-Alpes" uuid="{A455AF61-5A74-42DB-8B56-D1F7671DBD76}">Viennensem sedem</place_name> transfert.</pont_reg_main>
+        </regest_pont>
+        <worker_comment_pont/>
+    </pont>
+    <decr>
+        <decr_no/>
+        <decr_initium/>
+        <date_decr value="" to="" from=""/>
+        <decr_main_comment/>
+        <decr_initium_parts/>
+        <decr_reception/>
+        <decr_regest/>
+        <decr_scripts/>
+        <wh_no/>
+    </decr>
+    <regimp>
+        <date_regimp value="" to="" from=""/>
+        <main_comment_regimp/>
+        <monarch/>
+        <pub_place_regimp/>
+        <regest_regimp/>
+        <regimp_bd/>
+        <regimp_no/>
+        <worker_comment_regimp/>
+    </regimp>
+</text>
