@@ -15,14 +15,14 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>Germ. Pont. 1, S. 27, Nr. 85</bibl><bibl type="jaffe">10628</bibl>
-            <bibl>Hödl/Classen, Admonter Briefsammlung, S. Nr. 53</bibl>
+            <bibl>Hödl/Classen, Admonter Briefsammlung, S. 103-106, Nr. 53</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
                <p><authen type="formula" n="na">
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Anagni</placeName><date type="issued" notBefore="1160-04-04" notAfter="1160-04-04">04 April (1160)</date>
+               <issued><placeName>Anagni</placeName><date type="issued" notBefore="1160-04-04" notAfter="1160-04-04">(1160) Apr. 04 April (1160)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
