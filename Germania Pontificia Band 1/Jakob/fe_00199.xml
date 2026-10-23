@@ -22,7 +22,7 @@
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Anagni</placeName><date type="issued" notBefore="1160-04-04" notAfter="1160-04-04">(1160) Apr. 04 April (1160)</date>
+               <issued><placeName>Anagni</placeName><date type="issued" notBefore="1160-04-04" notAfter="1160-04-04">(1160) Apr. 04</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
