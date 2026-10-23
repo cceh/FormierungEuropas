@@ -20,7 +20,7 @@
                   </authen></p> <issued><placeName>Anagni</placeName><date type="issued" notBefore="1176-11-02" notAfter="1176-11-02">1176 Nov. 2</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p> <legalActor type="recipient">Säkularkanonikerstift St. Martin le Grand, London</legalActor></p> <p> <legalActor type="recipient">Godefrid, Dekan des Säkularkanonikerstifts</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient">Säkularkanonikerstift St. Martin le Grand, London</legalActor></p> <p> <legalActor type="recipient">Godefrid, Dekan des Säkularkanonikerstifts St. Martin le Grand</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p>
                <p><objectType n="">Juristisches, </objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
