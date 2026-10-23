@@ -17,7 +17,7 @@
             <diploDesc><p><authen type="formula" n=""><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen><issued><placeName>Anagni</placeName><date type="issued" when="1176-06-03">1176 Jun. 3</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Zisterzienserkloster St. Marys, Sawtrey</legalActor></p> <p> <legalActor type="recipient">Paganus, Abt des Zisterzienserklosters St. Mary's, Sawtrey</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><legalActor type="recipient">Kloster St. Marys, Sawtrey</legalActor></p> <p> <legalActor type="recipient">Paganus, Abt des Zisterzienserklosters St. Mary's, Sawtrey</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p>
                <p><objectType n="">Juristisches, Rechtsbestätigung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
