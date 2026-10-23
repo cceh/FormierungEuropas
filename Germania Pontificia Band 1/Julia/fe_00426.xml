@@ -30,7 +30,7 @@
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, nicht kategorisierbar</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">[Anweisung, Wiederherstellung von Recht</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
+               <p><objectType n="">Anweisung, Wiederherstellung von Recht</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
@@ -48,7 +48,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>Alexander III. an Gregor, Bischof von Trient: Ein Priester namens P. hat ihm berichtet, dass der Abt und die Brüder eines Klosters sich weigerten, ihn als Mönch aufzunehmen, es sei denn, er erkläre sich zur Zahlung von 30 Schilling für seine Aufnahme bereit. Nachdem diese Vereinbarung getroffen worden war, kleideten sie ihn am folgenden Tag in das Mönchsgewand ein; allerdings forderten die Mönche die 30 Schilling, der Abt verlangte 10 und die Gemeinschaft forderte 12 für seinen Unterhalt. Alexander weist den Bischof daher an, den Abt und die Mönche – sofern sich der Sachverhalt tatsächlich so verhält – eindringlich zur Rückgabe des Geldes zu ermahnen. Des Weiteren soll er den Abt sowie die führenden Mitglieder des Klosters von der Ausübung ihrer Ämter suspendieren und den besagten P. anweisen, sich ein anderes Kloster zu suchen, in dem er dem Herrn im Mönchsgewand dienen kann.Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
+            <p><legalActor><persName>Alexander III.</persName></legalActor> an Gregor, Bischof von Trient: Ein Priester namens P. hat ihm berichtet, dass der Abt und die Brüder eines Klosters sich weigerten, ihn als Mönch aufzunehmen, es sei denn, er erkläre sich zur Zahlung von 30 Schilling für seine Aufnahme bereit. Nachdem diese Vereinbarung getroffen worden war, kleideten sie ihn am folgenden Tag in das Mönchsgewand ein; allerdings forderten die Mönche die 30 Schilling, der Abt verlangte 10 und die Gemeinschaft forderte 12 für seinen Unterhalt. Alexander weist den Bischof daher an, den Abt und die Mönche – sofern sich der Sachverhalt tatsächlich so verhält – eindringlich zur Rückgabe des Geldes zu ermahnen. Des Weiteren soll er den Abt sowie die führenden Mitglieder des Klosters von der Ausübung ihrer Ämter suspendieren und den besagten P. anweisen, sich ein anderes Kloster zu suchen, in dem er dem Herrn im Mönchsgewand dienen kann.Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
