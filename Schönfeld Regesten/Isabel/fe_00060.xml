@@ -80,7 +80,7 @@
             <div>
                <listBibl>
                   <bibl type="original">Colmar, Archives d'Alsace, Fonds de Haut-Rhin, H Schoenensteinbach I/1</bibl>
-                  <bibl type="msCopy">Abschrift Dietler, Colmar, Archives d'Alsace, Fonds de Haut-Rhin</bibl>
+                  <bibl type="msCopy"/>
                   <bibl type="print"/>
                </listBibl>
             </div>
@@ -117,7 +117,7 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>[Text und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
+               <p>Dorsualvermerk: [Text und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
  Kommentar]</p>
             </diploDesc>
          </div>
