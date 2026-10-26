@@ -77,8 +77,8 @@
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="historiography">
@@ -89,16 +89,7 @@
             </listBibl>
          </div>
          <div type="editions">
-            <head>Editionen</head>
-            <listBibl>
-               <bibl>Germ.Pont. 1, S. 405, Nr. 2</bibl>
-               <bibl>[Edition 2]</bibl>
-            </listBibl>
-         </div>
-         <div type="regesta">
-            <head>Regesten</head>
-            <listBibl>
-               <bibl>JL –</bibl>
+            <head>Editionen</head><listBibl><bibl>Germ.Pont. 1, S. 405, Nr. 2-</bibl></listBibl></div><div type="regesta"><listBibl>
                <bibl>[Regest 2]</bibl>
             </listBibl>
          </div>
