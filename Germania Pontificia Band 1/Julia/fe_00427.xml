@@ -25,8 +25,8 @@
                <issued><placeName>–</placeName><date type="issued" notBefore="1159-01-01" notAfter="1177-12-31">(1159-1177)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
-               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p><legalActor type="recipient">[Bischof von Brescia</legalActor></p><p><legalActor type="recipient">Abt von SantEmpfänger]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
@@ -48,7 +48,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>[Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
+            <p>Alexander III. weist den Bischof von Brescia und den Abt von Sant’Eufemia an, den Streit zwischen den Äbten von Valle Alta und San Lorenzo di Trento beizulegen – ohne die Möglichkeit einer Berufung. Zudem sollen sie den Abt von San Lorenzo dazu ermahnen, dem Abt von Valle Alta den gebührenden Gehorsam zu leisten und sich dessen Disziplinargewalt zu unterwerfen. Des Weiteren sollen sie dem Prior und den Brüdern der Kirche San Lorenzo – unter Androhung des Bannes – untersagen, dem Abt weiterhin Gehorsam zu leisten, sollte dieser ihren Ermahnungen keine Folge leistenRegestentext. Quellenzitate (diploPart) sind zulässig.]<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
