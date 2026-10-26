@@ -48,14 +48,13 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>Alexander III. gewährt auf Bitten des Propstes Engelbert dem Augustiner-Chorherrenstift St Michael an der Etsch (D. ) folgende Rechte: Er stellt die Kirche unter apostolischen Schutz, bestätigt die Augustinusregel sowie deren Besitzungen – die im Einzelnen namentlich aufgeführt sind – und gewährt verschiedene Rechte.Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
+            <p><legalActor><persName>Alexander III.</persName></legalActor> gewährt auf Bitten des Propstes Engelbert dem Augustiner-Chorherrenstift St Michael an der Etsch (D. ) folgende Rechte: Er stellt die Kirche unter apostolischen Schutz, bestätigt die Augustinusregel sowie deren Besitzungen – die im Einzelnen namentlich aufgeführt sind – und gewährt verschiedene Rechte.Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
 
          <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Cum nobis sitit amet]</diploPart>
+            <head>Incipit</head><diploPart type="incipit" xml:lang="lat">Cum nobis sitit amet]</diploPart>
          </div>
          <div>
             <head>Subscriptiones</head>
