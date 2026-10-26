@@ -26,7 +26,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <p><legalActor type="recipient">[Augustiner-Chorherrenstift St. Michael an der Etsch</legalActor></p><p><legalActor type="recipient">Engelbert, Propst des Augustiner Empfänger]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
@@ -48,7 +48,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>Alexander III. gewährt auf Bitten des Propstes Engelbert dem Augustiner-Chorherrenstift St Michael an der Etsch (D. ) folg, Propst von St. Michael usw.: Er stellt die Kirche unter apostolischen Schutz, bestätigt die Augustinusregel sowie deren Besitzungen – die im Einzelnen namentlich aufgeführt sind – und gewährt verschiedene Rechte.Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
+            <p>Alexander III. gewährt auf Bitten des Propstes Engelbert dem Augustiner-Chorherrenstift St Michael an der Etsch (D. ) folgende Rechte: Er stellt die Kirche unter apostolischen Schutz, bestätigt die Augustinusregel sowie deren Besitzungen – die im Einzelnen namentlich aufgeführt sind – und gewährt verschiedene Rechte.Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
