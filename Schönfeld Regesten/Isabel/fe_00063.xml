@@ -61,14 +61,14 @@
 
          <div>
             <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">Officii nostri decet ualde propositu</diploPart></div>
+            <diploPart type="incipit" xml:lang="lat">Officii nostri decet ualde propositum</diploPart></div>
          <div>
             <head>Subscriptiones:</head>
             <diploPart type="subscriptio" xml:lang="lat"><list><item>Ego <persName>Victor catholicę ecclesię episcopus</persName> subscripsi</item><item>Ego <persName>Hubaldus Ferentinus episcopus</persName> subscripsi</item><item>Ego <persName>Guido presbiter cardinalis tituli Calixti</persName> subscripsi</item><item>Ego <persName>Iohannes presbiter cardinalis tituli Pastoris</persName> subscripsi</item><item>Ego <persName>Unfredus presbiter cardinalis tituli sancte Susanne</persName> subscripsi</item><item>Ego <persName>Gerardus diaconus cardinalis sancte Marie in Aquiro</persName> subscripsi</item><item>Ego <persName>Gerardus diaconus cardinalis sanctis Georgii ad velum aureum</persName> subscripsi.</item></list></diploPart>
          </div>
          <div>
             <head>Datatio:</head>
-            <diploPart type="datatio">Datum Cremone per manum Iohannis sancte Romane ecclesie presbiteri cardinalis et cancellarii, nonas aprilis indictione X, incarnationis dominice anno MCLXII , pontificatus vero dompni Victoris pape [ quarti anno tertio. ]</diploPart>
+            <diploPart type="datatio">Dat. Cremone per manum <persName>Iohannis sancte Romane ecclesie presbiteri cardinalis et cancellarii</persName>, non. april(is indictione X, incarnationis dominice anno MCLXII , pontificatus vero dompni Victoris pape [ quarti anno tertio. ]</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
