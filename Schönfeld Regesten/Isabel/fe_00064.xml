@@ -7,14 +7,10 @@
       <fileDesc>
          <titleStmt>
             <title>fe_00064</title>
-            <respStmt>
-               <resp>Die Formierung Europas</resp>
-               <persName>[Name der Bearbeiter*in]</persName>
-            </respStmt>
+            <respStmt><resp>Die Formierung Europas</resp><persName>IB</persName></respStmt>
             <respStmt>
                <resp when="2025">Encoding:</resp>
-               <persName>SG</persName><persName>[Name der Überarbeiter*in/Auszeichnung, in der Regel identisch wie Name der Bearbeiter*in]</persName>
-            </respStmt>
+               <persName>SG, IB</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -23,7 +19,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+            <bibl type="jaffe"/>
             <bibl type="Schoenfeld">Schönfeld, Urkunden der Gegenpäpste, S. 289–290, Nr. V64</bibl>
             <diploDesc>
                <p><authen type="formula" n="na">
