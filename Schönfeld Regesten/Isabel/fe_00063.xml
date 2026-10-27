@@ -31,7 +31,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
-               <p><legalActor type="recipient">Erphon, Abt der Benediktinerabtei St. Peter, Neuweiler</legalActor></p><p><legalActor type="recipient">Philipp, Verwalter der Kollegiatskirche St. Adelphus in Neuweiler</legalActor></p>
+               <p><legalActor type="recipient">Erpho, Abt der Benediktinerabtei St. Peter, Neuweiler</legalActor></p><p><legalActor type="recipient">Philipp, Verwalter der Kollegiatskirche St. Adelphus in Neuweiler</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">Papsturkunde, feierliches Privileg</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
@@ -54,7 +54,7 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Viktor IV. bestätigt dem <persName>Erphon, Abt der <orgName>Benediktinerabtei St. Peter in <placeName>Neuweiler</placeName></orgName></persName> (D. Straßburg), die Einigung im Streit zwischen ihm samt den Mönchen seines Klosters und <persName>Philipp, Verwalter der Kollegiatskirche St. Adelphus in Neuweiler</persName> (D. Straßburg), Samt seinen Kanonikern, die die päpstlichen Delegaten <persName>Gerland, Abt des <orgName>Prämonstratenserpriorats Floreffe</orgName></persName> (D. Lüttich), und <persName>Bertold, Abt der Benediktinerabtei Altdorf</persName> (D. Straßburg), herbeigeführt hatten.<list>
+            <p>Viktor IV. bestätigt dem <persName>Erpho, Abt der <orgName>Benediktinerabtei St. Peter in <placeName>Neuweiler</placeName></orgName></persName> (D. Straßburg), die Einigung im Streit zwischen ihm samt den Mönchen seines Klosters und <persName>Philipp, Verwalter der Kollegiatskirche St. Adelphus in Neuweiler</persName> (D. Straßburg), Samt seinen Kanonikern, die die päpstlichen Delegaten <persName>Gerland, Abt des <orgName>Prämonstratenserpriorats Floreffe</orgName></persName> (D. Lüttich), und <persName>Bertold, Abt der Benediktinerabtei Altdorf</persName> (D. Straßburg), herbeigeführt hatten.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
