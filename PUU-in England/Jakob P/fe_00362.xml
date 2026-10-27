@@ -16,10 +16,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>PUU England 1, S. 413-414, Nr. 141</bibl><bibl type="jaffe">-</bibl>
-            <diploDesc> <p><authen type="formula" n=""><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></p><issued><placeName>Vieste</placeName><date type="issued" notBefore="1177-02-28" notAfter="1177-02-28">(1177) Feb. 28</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
-               </issued>
-               <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Priorat von Llanthony</legalActor></p> <p> <legalActor type="recipient">Roger, Prior von Llanthony</legalActor></p> <p><legalActor type="recipient">Augustinerkanoniker von Llanthony</legalActor></p> <p> </p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+            <diploDesc> <p><authen type="formula" n=""><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></p><issued><placeName>Vieste</placeName><date type="issued" notBefore="1177-02-28" notAfter="1177-02-28">(1177) Feb. 28</date></issued><p><legalActor type="recipient">Priorat von Llanthony</legalActor></p> <p> <legalActor type="recipient">Roger, Prior von Llanthony</legalActor></p> <p><legalActor type="recipient">Augustinerkanoniker von Llanthony</legalActor></p> <p> </p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p>
                <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
@@ -36,7 +33,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. bestätigt Roger, Prior des Augustinerpriorats Llanthony (D. Worcester), und den Kanonikern von Llanthony den Besitz der Kapelle von Little Barrington mit ihren Pertinenzen, wie sie ihnen von B(artholomaeus), Bischof von Exeter, und dem (Laurentius), Prior des benediktinischen Kathedralpriorats von Coventry, gerichtlich zugesprochen wurde.
+            <p>Alexander III. gewährt Roger, Prior des Augustinerpriorats Llanthony (D. Worcester), und den Kanonikern von Llanthony ein Privileg den Besitz der Kapelle von Little Barrington mit ihren Pertinenzen, wie sie ihnen von B(artholomaeus), Bischof von Exeter, und dem (Laurentius), Prior des benediktinischen Kathedralpriorats von Coventry, gerichtlich zugesprochen wurde.
                <list><item>Schlussformeln: Perturbationsformel, Sanctio negativa</item></list>
                </p><p/>
          </div>
