@@ -26,12 +26,12 @@
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Cremona</placeName><date type="issued" notBefore="1162-04-01" notAfter="1162-04-01">(1162) Apr. 1</date>
+               <issued><placeName>Cremona</placeName><date notAfter="1162-04-01" notBefore="1162-04-01" type="issued">(1162) Apr. 1</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Issuer]</legalActor></p>
+               <p><legalActor type="issuer">Viktor IV.</legalActor></p>
                <p>
-                  <legalActor type="recipient">[Recipient 1]</legalActor></p>
+                  <legalActor type="recipient">[Gerhard, Abt des ]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &amp;gt; Litterae cum serico]</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
@@ -54,7 +54,7 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Viktor IV . bestätigt dem Abt von Heylissem, Gerard, das Urteil im Streit mit dem Abt von Floreffe, das von den Legaten Abt Wiric von S. Trudo (Truiden) und Archi- diakon Bruno von Lüttich gefällt worden war.<list>
+            <p>Viktor IV. bestätigt dem Abt von Heylissem, Gerard, das Urteil im Streit mit dem Abt von Floreffe, das von den Legaten Abt Wiric von S. Trudo (Truiden) und Archi- diakon Bruno von Lüttich gefällt worden war.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
