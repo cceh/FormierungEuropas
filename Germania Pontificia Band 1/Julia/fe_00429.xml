@@ -66,13 +66,13 @@
                </list></diploPart>
          </div>
          <div>
-            <head>Datatio</head><diploPart type="datatio">Datum Venetie ad Rivo alto per manum Gratiani sancte Romane ecclesie subdiaconi et notarii, quarto Idus Augusti, indictione X, incarnationis Dominice anno MCLXXVII, pontificatus vero domni Alexandri pape III, anno XVIII.</diploPart>
+            <head>Datatio</head><diploPart type="datatio">Datum Venetie ad Rivo alto per manum <persName>Gratiani sancte Romane ecclesie subdiaconi et notarii</persName>, quarto Idus Augusti, indictione X, incarnationis Dominice anno MCLXXVII, pontificatus vero domni Alexandri pape III, anno XVIII.</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
+                  <bibl type="original">Original heute verloren</bibl>
                   <bibl type="msCopy">[handschriftliche Kopie]</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
@@ -109,7 +109,7 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
+               <p>[OriginalübAngaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
             </diploDesc>
          </div>
          <div type="commentary">
