@@ -102,7 +102,7 @@
          <div type="regesta">
             <head>Regesten</head>
             <!-- Konkordanzregesten -->
-            <listBibl><bibl>Germ. Pont. 3, S. 63, Nr. 2</bibl><bibl>Walter: Les régestes, S. 257</bibl><bibl>Mayr, Pontifikat, S. 116, Nr. 48</bibl></listBibl>
+            <listBibl><bibl>Germ. Pont. 3, S. 63, Nr. 2</bibl><bibl>Mayr, Pontifikat, S. 116, Nr. 48</bibl><bibl><bibl>Walter, Régestes, S. 257-25</bibl><bibl/></bibl><bibl>Fischer, Neuweiler, S. 12</bibl></listBibl>
          </div>
          <div>
             <head>Diplomatischer Kommentar</head><diploDesc><p>[Text und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
@@ -115,7 +115,7 @@
          <div type="bibliography">
             <head>Bibliographie</head>
             <listBibl>
-               <bibl><bibl>Fischer, Neuweiler, S. 12</bibl><bibl/>[Weitere Referenzen als listBibl]</bibl>
+               <bibl><bibl/>[Weitere Referenzen als listBibl]</bibl>
             </listBibl>
          </div>
          <div type="note">
