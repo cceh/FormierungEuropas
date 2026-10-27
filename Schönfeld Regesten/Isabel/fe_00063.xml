@@ -31,7 +31,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
-               <p><legalActor type="recipient">Erphon, Abt des Benediktinerabt St. Peter, Neuweiler</legalActor></p>
+               <p><legalActor type="recipient">Erphon, Abt der Benediktinerabtei St. Peter, Neuweiler</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">Papsturkunde, feierliches Privileg</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
@@ -54,7 +54,7 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Viktor IV . bestätigt dem Erphon, Abt der Benediktinerabtei von St. Peter in Neuweiler (D. Sraßburg) die Einigung im Streit zwischen ihm samt den Mönchen seines Klosters und Philipp, dem Verwalter der Kollegiatskirche St. Adelf samt seinen Kanonikern, die die päpstlichen Delegaten Abt Gerland von Floreffe und Abt Bertold von Altdorf herbeigeführt hatten.<list>
+            <p>Viktor IV . bestätigt dem Erphon, Abt der Benediktinerabtei St. Peter in Neuweiler (D. Sraßburg), die Einigung im Streit zwischen ihm samt den Mönchen seines Klosters und Philipp, dem Verwalter der Kollegiatskirche St. Adelf samt seinen Kanonikern, die die päpstlichen Delegaten Abt Gerland von Floreffe und Abt Bertold von Altdorf herbeigeführt hatten.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
@@ -104,12 +104,8 @@
             <listBibl><bibl>Germ. Pont. 3, S. 63, Nr. 2</bibl><bibl>Fischer: Abtei und Stadt Neuweiler, S. 12</bibl><bibl>Walter: Les régestes, S. 257</bibl><bibl>Mayr, Pontifikat, S. 116, Nr. 48</bibl></listBibl>
          </div>
          <div>
-            <head>Diplomatischer Kommentar</head>
-            <diploDesc>
-               <p>[Text und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
- Kommentar]</p>
-            <p>Rota-Inschrift: Rota-Inschrift: sanctus Petrus / sanctus Paulus / Vic papa / tor IIII</p><p>Rota-Devise: Rota-Devise: Tu es gloria mea, tu es susceptor meus, tu exaltas caput meum domine</p><p>Bene Valete: x</p><p>Komma: –</p></diploDesc>
-         </div>
+            <head>Diplomatischer Kommentar</head><diploDesc><p>[Text und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
+ Kommentar]</p></diploDesc></div>
          <div type="commentary">
             <head>Sachkommentar</head>
             <p>[Inhalt des Sachkommentars. Bibliographische Referenzen werden als Bibliographische
