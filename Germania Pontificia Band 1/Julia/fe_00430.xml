@@ -25,8 +25,8 @@
                <issued><placeName>Anagni</placeName><date type="issued" notBefore="1174-01-30" notAfter="1174-01-30">1174 Jan. 30</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p><legalActor type="recipient">[Augustiner-Chorherrenstift Au</legalActor></p><p><legalActor type="recipient">HEmpfänger]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
