@@ -68,8 +68,7 @@
          </div>
          <div>
             <head>Datatio:</head>
-            <diploPart type="datatio">Dat. Cremone per manum <persName>Iohannis sancte Romane ecclesie presbiteri cardinalis et cancellarii</persName>, non. april(is), indictione X, incarnationis dominice anno MCLXII, pontificatus vero dompni Uictoris pape [ quarti anno tertio. ]</diploPart>
-         </div>
+            <diploPart type="datatio">Dat. Cremone per manum <persName>Iohannis sancte Romane ecclesie presbiteri cardinalis et cancellarii</persName>, non. april(is), indictione X, incarnationis dominice anno MCLXII, pontificatus vero dompni Uictoris pape IIII. anno III.</diploPart></div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
@@ -104,9 +103,7 @@
          <div type="regesta">
             <head>Regesten</head>
             <!-- Konkordanzregesten -->
-            <listBibl>
-               <bibl>JL 14460</bibl>
-               <bibl>GP III, S. 63, Nr. 2; Fischer: Abtei und Stadt Neuweiler, S. 12; Walter: Les régestes, S. 257; Mayr: Der Pontifikat, S. 116, Nr. 48; Abb. dig.: PH Arch. départ. du Bas-Rhin, Strassbourg; PH Goe (Auss.).</bibl>
+            <listBibl><bibl>Germ. Pont. 3 III, S. 63, Nr. 2; Fischer: Abtei und Stadt Neuweiler, S. 12; Walter: Les régestes, S. 257; Mayr: Der Pontifikat, S. 116, Nr. 48; Abb. dig.: PH Arch. départ. du Bas-Rhin, Strassbourg; PH Goe (Auss.).</bibl>
             </listBibl>
          </div>
          <div>
