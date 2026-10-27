@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
-<TEI source="formierung-europas_pontificia" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc><titleStmt><title>fe_00179</title><respStmt><resp>Datenquelle</resp><persName>JB</persName></respStmt>
@@ -29,7 +26,7 @@
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
+               <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
@@ -71,7 +68,7 @@
                <listBibl>
                   <bibl type="original">Linz, Oberösterreichisches Landesarchiv, Urkunden Garsten, 1179 IV 05; digital verfügbar unter: https://www.monasterium.net/mom/da7833d2-4ea1-4ea2-851f-4e5e23bdc2a3/361c385a-a204-4109-a43f-6c76b2d7d5ed/charter?q=Garsten</bibl>
                   <bibl type="msCopy">Linz, Oberösterreichisches Landesarchiv, Codex Traditionum monasterii Garstensis, fol. 8v-10v</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
