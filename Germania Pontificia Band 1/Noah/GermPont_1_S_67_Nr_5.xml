@@ -97,14 +97,13 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Germ.Pont. 1, S. 67, Nr. 5</bibl>
+               
                <bibl>[Edition 2]</bibl>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head>
-            <listBibl>
-               <bibl>JL 11630</bibl>
+            <listBibl><bibl>Germ. Pont. 1, S. 67, Nr. 5</bibl><bibl>JL 11630</bibl>
                <bibl>[Regest 2]</bibl>
             </listBibl>
          </div>
