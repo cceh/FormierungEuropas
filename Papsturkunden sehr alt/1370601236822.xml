@@ -1,1 +1,74 @@
-<text id="1370601236822" type="charter"><info><idno>Boh. Pont. 209 n. *4</idno><date_sort value="11590901">11590901</date_sort></info><head><criteria>*</criteria><supplier>Hadrianus IV</supplier><supplier_type>papa</supplier_type><date_p to="11590901" value="11590901">(1154 dec. 4 - 1159 sept. 1)</date_p><worker>Koenighaus</worker></head><jaffe><jaffe2_worker/><jaffe2_no>-</jaffe2_no></jaffe><pont><receipt_inst><pont_reg_main nr="Boh. Pont. 209 n. *4">Hradisko</pont_reg_main> Hradisko n. *4 (Boh. Pont. 209); Moravia, Duces ac marchiones n. *15 (Boh. Pont. 168).</receipt_inst><pont_bd><pont_reg_main nr="Boh. Pont. 209 n. *4">Boh. Pont.</pont_reg_main></pont_bd><pont_no><pont_reg_main nr="Boh. Pont. 209 n. *4">209 n. *4</pont_reg_main></pont_no><pontificate>Hadrianus IV.</pontificate><regest_pont><pont_reg_main nr="Boh. Pont. 209 n. *4"><pers_name reg="Hadrianus IV papa"><issuer>Hadrianus IV</issuer></pers_name> petente <pers_name place="Moravia" reg="Otto III princeps ">Ottone marchione Moraviensi</pers_name><place_name identification="Olomouc" institution="Monasterium (b. Mariae virg. et) s. Stephani Gradicense (extra muros Olomucenses)"><adressee>monasterio Gradicensi</adressee></place_name> privilegium concedit et possesiones eius confirmat.</pont_reg_main></regest_pont><main_comment_pont><pont_reg_main nr="Boh. Pont. 209 n. *4">cf. etiam Moravia, Duces ac marchiones n. *15. - De re cf. etiam <bibl_link target="Teige, Zpráva o pramenech">Teige Zpráva o pramenech (1894)</bibl_link> p. 30sq.</pont_reg_main></main_comment_pont><worker_comment_pont><pont_reg_main nr="Boh. Pont. 209 n. *4">Adressaten: monasterium Gradicense. Verweis auf Hauptregest:Moravia, Duces ac marchiones n. *15 (Boh. Pont. 168).</pont_reg_main></worker_comment_pont></pont><descent><descent_type>Erwähnung</descent_type><script><pont_reg_main nr="Boh. Pont. 209 n. *4">Fragmentum adulteratum (seu potius ab annalista voluntarie amplificatum). Te f. 24’ (ed. <bibl_link target="Neumann, Historia de fundatoribus">Neumann</bibl_link> [1922] p. 31) et Si f. 31’.</pont_reg_main></script><sigle><pont_reg_main nr="Boh. Pont. 209 n. *4">Te = Historia de fundatoribus et progressu monasterii Gradicensis … auctore Ioanne Tetzelio Miglicensi (ms. saec. XVII in.): Moravský zemský archiv Brno, Čerroniho sbírka II n. 385, cf. Švábenský l.c. p. 663sqq. Si = Michael Siebenaicher (†1680) Historica relatio de conditoribus primo arcis dein monasterii Gradicensis (ms. a. 1676): ibid., Premonstráti Kl. Hradisko E 55, Sign. II 1, kart. 1 (inv. č. 199).</pont_reg_main></sigle></descent><bibl><mention>0</mention><edition><bibl_link target="Ruebner, Memoriale saeculorum">Ruebner Memoriale (1751)</bibl_link> p. 64; <bibl_link target="Codex dipl. Moraviae 1">Boczek Cod. dipl. Morav. I</bibl_link> 265 n. 288 [ad a. 1155]; <bibl_link target="Codex dipl. Bohemiae 1">Friedrich Cod. dipl. Bohem. I</bibl_link> 190 n. 201</edition><regests><bibl_link target="Regesta Bohemiae et Moraviae 1">Erben Regesta I</bibl_link> 130 n. 291. 133 n. 298</regests></bibl></text>
+<text id="1370601236822" type="charter">
+    <info>
+        <idno>Boh. Pont. 209 n. *4</idno>
+        <date_sort value="11590901">11590901</date_sort>
+    </info>
+    <head>
+        <criteria>*</criteria>
+        <supplier>Hadrianus IV</supplier>
+        <supplier_type>papa</supplier_type>
+        <date_p to="11590901" value="11590901">(1154 dec. 4 - 1159 sept. 1)</date_p>
+        <worker>Koenighaus</worker>
+    </head>
+    <jaffe>
+        <jaffe2_worker/>
+        <jaffe2_no>-</jaffe2_no>
+    </jaffe>
+    <pont>
+        <receipt_inst><pont_reg_main nr="Boh. Pont. 209 n. *4">Hradisko</pont_reg_main> Hradisko n.
+            *4 (Boh. Pont. 209); Moravia, Duces ac marchiones n. *15 (Boh. Pont.
+            168).</receipt_inst>
+        <pont_bd>
+            <pont_reg_main nr="Boh. Pont. 209 n. *4">Boh. Pont.</pont_reg_main>
+        </pont_bd>
+        <pont_no>
+            <pont_reg_main nr="Boh. Pont. 209 n. *4">209 n. *4</pont_reg_main>
+        </pont_no>
+        <pontificate>Hadrianus IV.</pontificate>
+        <regest_pont>
+            <pont_reg_main nr="Boh. Pont. 209 n. *4"><pers_name reg="Hadrianus IV papa"
+                        ><issuer>Hadrianus IV</issuer></pers_name> petente <pers_name
+                    place="Moravia" reg="Otto III princeps ">Ottone marchione
+                    Moraviensi</pers_name><place_name identification="Olomouc"
+                    institution="Monasterium (b. Mariae virg. et) s. Stephani Gradicense (extra muros Olomucenses)"
+                        ><adressee>monasterio Gradicensi</adressee></place_name> privilegium
+                concedit et possesiones eius confirmat.</pont_reg_main>
+        </regest_pont>
+        <main_comment_pont>
+            <pont_reg_main nr="Boh. Pont. 209 n. *4">cf. etiam Moravia, Duces ac marchiones n. *15.
+                - De re cf. etiam <bibl_link target="Teige, Zpráva o pramenech">Teige Zpráva o
+                    pramenech (1894)</bibl_link> p. 30sq.</pont_reg_main>
+        </main_comment_pont>
+        <worker_comment_pont>
+            <pont_reg_main nr="Boh. Pont. 209 n. *4">Adressaten: monasterium Gradicense. Verweis auf
+                Hauptregest:Moravia, Duces ac marchiones n. *15 (Boh. Pont. 168).</pont_reg_main>
+        </worker_comment_pont>
+    </pont>
+    <descent>
+        <descent_type>Erwähnung</descent_type>
+        <script>
+            <pont_reg_main nr="Boh. Pont. 209 n. *4">Fragmentum adulteratum (seu potius ab annalista
+                voluntarie amplificatum). Te f. 24’ (ed. <bibl_link
+                    target="Neumann, Historia de fundatoribus">Neumann</bibl_link> [1922] p. 31) et
+                Si f. 31’.</pont_reg_main>
+        </script>
+        <sigle>
+            <pont_reg_main nr="Boh. Pont. 209 n. *4">Te = Historia de fundatoribus et progressu
+                monasterii Gradicensis … auctore Ioanne Tetzelio Miglicensi (ms. saec. XVII in.):
+                Moravský zemský archiv Brno, Čerroniho sbírka II n. 385, cf. Švábenský l.c. p.
+                663sqq. Si = Michael Siebenaicher (†1680) Historica relatio de conditoribus primo
+                arcis dein monasterii Gradicensis (ms. a. 1676): ibid., Premonstráti Kl. Hradisko E
+                55, Sign. II 1, kart. 1a (inv. č. 199).</pont_reg_main>
+        </sigle>
+    </descent>
+    <bibl>
+        <mention>0</mention>
+        <edition><bibl_link target="Ruebner, Memoriale saeculorum">Ruebner Memoriale
+                (1751)</bibl_link> p. 64; <bibl_link target="Codex dipl. Moraviae 1">Boczek Cod.
+                dipl. Morav. I</bibl_link> 265 n. 288 [ad a. 1155]; <bibl_link
+                target="Codex dipl. Bohemiae 1">Friedrich Cod. dipl. Bohem. I</bibl_link> 190 n.
+            201</edition>
+        <regests><bibl_link target="Regesta Bohemiae et Moraviae 1">Erben Regesta I</bibl_link> 130
+            n. 291. 133 n. 298</regests>
+    </bibl>
+</text>
