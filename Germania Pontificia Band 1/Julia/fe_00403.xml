@@ -14,8 +14,10 @@
             <bibl>Germ. Pont. 1, S. 368, Nr. 15</bibl><bibl>Plechl, Tegernseer Briefsammlung, S. 279-280, Nr. 250</bibl><bibl type="jaffe">-</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
-               <p><authen type="formula" n="na"><p>-</p><p/><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></p>
-               
+               <p><authen type="formula" n="na"><p>-</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></p>
+               <issued><placeName>Venedig, Rialto</placeName><date type="issued" when="1177-07-14">(1177) Jul. 14</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
                <p><legalActor type="issuer">Alexander III. </legalActor></p>
                <p><legalActor type="recipient">Albert, Bischof von Freising</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
