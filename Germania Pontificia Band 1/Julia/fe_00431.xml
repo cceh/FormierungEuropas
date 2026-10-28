@@ -54,9 +54,7 @@
          </div>
 
          <div>
-            <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Quotiens apostolice protectionis Dilectis filiis Lorem ipsum dolor sit amet]</diploPart>
-         </div>
+            <head>Incipit</head><diploPart type="incipit" xml:lang="lat">Quotiens apostolice protectionis suffragium requiritur</diploPart></div>
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
