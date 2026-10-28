@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
-<TEI source="formierung-europas_pontificia" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc><titleStmt><title>fe_00403</title><respStmt><resp>Datenquelle</resp><persName>JB</persName></respStmt>
@@ -15,7 +12,6 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>Germ. Pont. 1, S. 335, Nr. 19</bibl><bibl type="jaffe">-</bibl>
-            <bibl>[Weiteres Konkordanzregest]</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
                <p><authen type="formula" n="na"><p>-</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></p>
@@ -92,8 +88,8 @@
          <div type="regesta">
             <head>Regesten</head>
             <listBibl>
-               <bibl>JL 13321</bibl>
-               <bibl>Germ. Pont. 1, S. 335, Nr. 19 (1177, Juni 14 - 1179, März 12)</bibl><bibl>Germ. Pont. 1, S. 368, Nr. 15 (1177, Juni 14 - 1179, März 12)</bibl>
+               <bibl/>
+               <bibl>Germ. Pont. 1, S. 368, Nr. 15 (1177, Juni 14 - 1179, März 12)</bibl><bibl>Germ. Pont. 1, S. 335, Nr. 19 (1177, Juni 14 - 1179, März 12)</bibl>
             </listBibl>
          </div>
          <div>
