@@ -41,7 +41,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor><persName>Alexander III.</persName> </legalActor>weist <legalActor cert="high" type="recipient" xml:space="default"><persName>Albert, den Bischof von Freising,</persName></legalActor> an, keine Kirchen, die auf dem Grundbesitz der <orgName>Benediktinerabtei Tegernsee</orgName> (D. Freising) errichtet worden sind, eigenmächtig und gegen den Willen des Abts und der Brüder des Klosters zu vergeben. Vielmehr solle er sich bemühen, bei Vakanz solcher Kirchen in seiner Diözese geeignete Personen für diese zu ernennen und verweist auf das Präsentationsrecht, das sein Vorgänger Eugen III. verliehen hat. </p>
+            <p><legalActor><persName>Alexander III.</persName> </legalActor>weist <legalActor cert="high" type="recipient" xml:space="default"><persName>Albert, den Bischof von Freising,</persName></legalActor> an, keine Kirchen, die auf dem Grundbesitz der <orgName>Benediktinerabtei Tegernsee</orgName> (D. Freising) errichtet worden sind, eigenmächtig und gegen den Willen des Abts und der Brüder des Klosters zu vergeben. Vielmehr solle er sich bemühen, bei Vakanz solcher Kirchen in seiner Diözese geeignete Personen für diese zu ernennen und verweist auf das Präsentationsrecht, das sein Vorgänger Eugen III. verliehen hat.</p>
          </div>
 
          <div>
@@ -112,7 +112,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>Hier fehlt im Template Ausstellungsort und Datum: bitte ergänzen! Ausstellungsdatum: (12. März 1179)</p>
+            <p>-</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
