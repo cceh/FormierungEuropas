@@ -1,66 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
-<TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen -->
+<TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <!-- Ordnername hier ergänzen -->
    <teiHeader>
-      <fileDesc><titleStmt><title>fe_00351</title><respStmt><resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp><persName>JP</persName></respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>JP, IB</persName></respStmt>
+      <fileDesc>
+         <titleStmt>
+            <title>fe_00351</title>
+            <respStmt>
+               <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+               <persName>JP</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2024">Encoding:</resp>
+               <persName>JP, IB, FL</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
-            <idno>PUU England 1, S. 335-336, Nr. 76</idno><availability>
+            <idno>PUU England 1, S. 335-336, Nr. 76</idno>
+            <availability>
                <licence>Lizenz</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>PUU England 1, S. 335-336, Nr. 76</bibl><bibl type="jaffe">10616</bibl>
+            <bibl>PUU England 1, S. 335-336, Nr. 76</bibl>
+            <bibl type="jaffe">10616</bibl>
             <diploDesc>
                <p><authen type="formula" n="na">
-                  <p>-</p>
-               </authen></p>
-               <issued><placeName>Anagni</placeName><date type="issued" when="1160-01-15">(1160) Jan. 15</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+                     <p>-</p>
+                  </authen></p>
+               <issued><placeName>Anagni</placeName><date type="issued" when="1160-01-15">(1160)
+                     Jan. 15</date>
+                  <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p> <legalActor type="recipient">Benediktinerkloster St. Oswald in Bardney</legalActor></p><p><legalActor type="recipient">Walter, Abt des Benediktinerklosters St. Oswald in Bardney</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p>
+                  <legalActor type="recipient">Benediktinerkloster St. Oswald in
+                     Bardney</legalActor></p>
+               <p><legalActor type="recipient">Walter, Abt des Benediktinerklosters St. Oswald in
+                     Bardney</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p>
                <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
-<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
-            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+               <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
          </sourceDesc>
       </fileDesc>
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+            xmlns:as="http://www.w3.org/ns/activitystreams#"
+            xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+            xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
+            xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
+            xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+            xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+            xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
          <langUsage>
             <language ident="ger">German</language>
             <language ident="lat">Latin</language>
             <language ident="en-GB">English</language>
-         </langUsage></profileDesc>
+         </langUsage>
+      </profileDesc>
    </teiHeader>
    <text>
       <body>
-         <div type="abstract"><head>Abstract:</head>
-            <p> Alexander III. verleiht aufgrund von Bitten dem Kloster St. Oswald (D.Lincoln) unter Abt Walter ein Privileg und gewährt die folgenden Rechte: </p><p><list><item>Bestätigung der durch Jordan, Abt des Benediktinerklosters Charroux (D. Poitiers), mit  Zustimmung seines Kapitels gewährten Befreiung von der Gerichtsbarkeit des Klosters Charroux und der Gehorsamspflicht gegenüber diesem</item><item>Perturbationsverbot</item></list></p><p>Schlussformel: Sanctio negativa</p>
-               
+         <div type="abstract">
+            <head>Abstract:</head>
+            <p>
+              <persName>Alexander III.</persName> verleiht aufgrund von Bitten dem <orgName>Kloster
+                  St. Oswald</orgName> (D.Lincoln) unter <persName>Abt Walter</persName> ein
+               Privileg und gewährt die folgenden Rechte: </p>
+            <p><list>
+                  <item>Bestätigung der durch <persName>Jordan, Abt des Benediktinerklosters Charroux</persName> (D.
+                     Poitiers), mit  Zustimmung seines Kapitels gewährten Befreiung von der
+                     Gerichtsbarkeit des <orgName>Klosters Charroux</orgName> und der Gehorsamspflicht gegenüber
+                     diesem</item>
+                  <item>Perturbationsverbot</item>
+               </list></p>
+            <p>Schlussformel: Sanctio negativa</p>
+
          </div>
-         
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Ad hoc in beati Petri</diploPart></div>
+
+         <div>
+            <head>Incipit:</head>
+            <diploPart type="incipit" xml:lang="lat">Ad hoc in beati Petri</diploPart>
+         </div>
          <div>
             <head> Subscriptiones </head>
-            <diploPart type="subscriptio" xml:lang="lat"><list><item>-</item></list></diploPart>
+            <diploPart type="subscriptio" xml:lang="lat"><list>
+                  <item>-</item>
+               </list></diploPart>
          </div>
-         <div><head>Datatio:</head><diploPart type="datatio">Dat. Anagn. XVIII kal. februarii.</diploPart></div>
+         <div>
+            <head>Datatio:</head>
+            <diploPart type="datatio">Dat. Anagn. XVIII kal. februarii.</diploPart>
+         </div>
          <div type="msSources">
-             <head>Handschriftliche Überlieferung</head>
+            <head>Handschriftliche Überlieferung</head>
             <div>
-            <listBibl>   
-               <bibl>Original: -</bibl>
-               <bibl>Kopie: Chartular von Bardney (13. Jh.), London, British Library, Cotton MS Vespasian E  XX, fol. 23</bibl></listBibl>
-         </div>
+               <listBibl>
+                  <bibl>Original: -</bibl>
+                  <bibl>Kopie: Chartular von Bardney (13. Jh.), London, British Library, Cotton MS
+                     Vespasian E XX, fol. 23</bibl>
+               </listBibl>
+            </div>
          </div>
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
                <bibl>-</bibl>
-               
+
             </listBibl>
          </div>
          <div type="historiography">
@@ -77,14 +132,18 @@
             </listBibl>
          </div>
          <div type="regesta">
-            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <head>Regesten</head>
+            <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>JL 10616</bibl></listBibl>
+               <bibl>JL 10616</bibl>
+            </listBibl>
          </div>
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Holtzmann datiert die vorliegende Urkunde und fe_00383 nach fe_00382 auf das Jahr 1160, da er davon ausgeht, dass alle drei Urkunden gleichzeitig ausgestellt wurden. Vgl. PUU England S. 336.</p>
+               <p>Holtzmann datiert die vorliegende Urkunde und fe_00383 nach fe_00382 auf das Jahr
+                  1160, da er davon ausgeht, dass alle drei Urkunden gleichzeitig ausgestellt
+                  wurden. Vgl. PUU England S. 336.</p>
             </diploDesc>
          </div>
          <div type="commentary">
@@ -93,14 +152,30 @@
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
-         <listBibl>
-            <bibl>[Titel 1]</bibl>
-            <bibl>[Titel 2]</bibl>
-         </listBibl>
+            <listBibl>
+               <bibl>[Titel 1]</bibl>
+               <bibl>[Titel 2]</bibl>
+            </listBibl>
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p/><p>Nach Endkorrektur löschen:</p><p/><p>Nach Verwendung löschen: Alexander episcopus seruus seruorum Dei. Dilectis filiis Waltero abbati et uniuersis monachis monasterii sancti Oswaldisalutem et apostolicam benedictionem. Ad hoc in beati Petriapostolorum principis cathedra licet immeriti domino auctore resi-demus, ut de uniuersarum ecclesiarum quiete debeamus propensius cogitare et religiosarum personarum iustis petitionibus facilem im-pertiri consensum. Eapropter, dilecti in domino filii, uestris iustis postulationibus benigno concurrentes assensu monasterium, in quodiuino mancipati estis obsequio, sicut Iordanus abbas Carofensiscum consilio et assensu capituli sui a dominio et dispositione sua rationabiliter exemisse dinoscitur, ita ab illorum iurisdictione atque obedientia liberum esse censemus et libertatem ipsam uobis et") monasterio uestro in posterum robur firmitatis inuiolabiliter optineredecernimus atque deuotioni uestre ipsam auctoritate apostolica con-firmamus et presentis scripti patrocinio communimus. Statuentes,ut nulli omnino etc. Si quis autem etc. Dat. Anagn. X V I I I kal.februarii.</p>
+            <p/>
+            <p>Nach Endkorrektur löschen:</p>
+            <p/>
+            <p>Nach Verwendung löschen: Alexander episcopus seruus seruorum Dei. Dilectis filiis
+               Waltero abbati et uniuersis monachis monasterii sancti Oswaldisalutem et apostolicam
+               benedictionem. Ad hoc in beati Petriapostolorum principis cathedra licet immeriti
+               domino auctore resi-demus, ut de uniuersarum ecclesiarum quiete debeamus propensius
+               cogitare et religiosarum personarum iustis petitionibus facilem im-pertiri consensum.
+               Eapropter, dilecti in domino filii, uestris iustis postulationibus benigno
+               concurrentes assensu monasterium, in quodiuino mancipati estis obsequio, sicut
+               Iordanus abbas Carofensiscum consilio et assensu capituli sui a dominio et
+               dispositione sua rationabiliter exemisse dinoscitur, ita ab illorum iurisdictione
+               atque obedientia liberum esse censemus et libertatem ipsam uobis et") monasterio
+               uestro in posterum robur firmitatis inuiolabiliter optineredecernimus atque deuotioni
+               uestre ipsam auctoritate apostolica con-firmamus et presentis scripti patrocinio
+               communimus. Statuentes,ut nulli omnino etc. Si quis autem etc. Dat. Anagn. X V I I I
+               kal.februarii.</p>
          </div>
       </body>
    </text>
