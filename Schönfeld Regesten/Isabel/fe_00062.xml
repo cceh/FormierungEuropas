@@ -53,7 +53,7 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Viktor IV. bestätigt <diploDesc><legalActor type="recipient">G[erhard], Abt des <orgName>Prämonstratenserstifts Heylissem</orgName></legalActor></diploDesc> (D. Lüttich), ein Urteil im Streit mit <persName>Wazelin, Abt der <orgName>Benediktinerabtei von Florennes</orgName></persName> (D. Lüttich) um ein Allod und die Hälfte der Kirche von <placeName>Pellaines</placeName>. Der Rechtspruch war von den Legaten <persName>Wiric, Abt der Benediktinerabtei S. Trudo in Truiden</persName> (D. Lüttich) und <persName>Archidiakon Bruno, Archiakon der Lütticher Kirche,</persName> gefällt worden.<list>
+            <p>Viktor IV. bestätigt <diploDesc><legalActor type="recipient">G[erhard], Abt des <orgName>Prämonstratenserstifts Heylissem</orgName></legalActor></diploDesc> (D. Lüttich), ein Urteil im Streit mit <persName>Wazelin, Abt der <orgName>Benediktinerabtei von Florennes</orgName></persName> (D. Lüttich) um ein Allod <placeName>Chapeauvau</placeName> und die Hälfte der Kirche von <placeName>Pellaines</placeName>. Der Rechtspruch war von den Legaten <persName>Wiric, Abt der Benediktinerabtei St. Truiden</persName> (D. Lüttich) und <persName>Archidiakon Bruno, Archiakon der Lütticher Kirche,</persName> gefällt worden.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
@@ -105,13 +105,13 @@
          <div type="regesta">
             <head>Regesten</head>
             <!-- Konkordanzregesten -->
-            <listBibl><bibl>Schaus, Papstregesten, S. 201, Nr. 9</bibl><bibl>Wauters: Table chronologique des chartes 11, S. 209 (##)</bibl><bibl>Mayr, Pontifikat, S. 116, Nr. 47</bibl>
+            <listBibl><bibl>Schaus, Papstregesten, S. 201, Nr. 9</bibl><bibl>Wauters, Table chronologique 11/1, S. 209</bibl><bibl>Mayr, Pontifikat, S. 116, Nr. 47</bibl>
             </listBibl>
          </div>
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Am unteren Bildrand Beschädigung (Stück herausgeschnitten, das in einem Riss endet), der sich über die Dataio und die letzten drei Zeilen des Urkundentexts erstreckt.</p>
+               <p>Am unteren Bildrand Beschädigung: Es wurde ein Pergamentstück, wahrscheinlich mit dem Siegel, herausgeschnitten. Die Fehlstelle erstreckt sich über die Datatio und die letzten drei Zeilen des Urkundentexts und endet in einem Riss.</p>
             </diploDesc>
          </div>
          <div type="commentary">
@@ -126,7 +126,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>Digitalisat aus Bestand "INTERLOR" -&amp;gt; Kooperationsordner Aachen_Köln_Würzburg/Digitalisate/Louvain-la-Neuve, Dateien: Arch. eccl. 8292_Nr. 9r.JPG</p><p>Arch. eccl. 8292_Nr. 9v.JPG</p><p/><p/><p>Nach Endkorrektur löschen:</p><p/><p/><p>Victor episcopus servus servorum Dei. Dilecto filio G. abbati de Helmcines salutem et apostolicam benedictionem. Sicut assumpti regimmis cura providere nos ammonet, ut ecclesiarum negotiapacis intentio salubri fine distringat, sic iterum apostolatus offitii ratione constringimur consensus nostri auctoritate, que rationabiliter ab ecclesiasticis personis decisa fuerint, roborare et apostolice sedis scriptis communire, ne forte in posterum contentio recidiva ex pace litigium gignat et alicuius excusationis obiectu, quod canonice est diffinitum, in dubium reducat. Proinde tue, dilecte fili abbas G., ac fratrum tuorum paci et tranquilitate volentes in domino providere sententiam canonice et rationabiliter prolatam a dilectis filiis nostris Wirico sancti Trudonis abbate et Bru[none] Leodiensis ecclesie archidiacono super controversia, [qu]e inter te et Wazelmum ahbatem deFlorines de medietate ecclesie de Pellines et allodii d[e C ]apenual agitabantur, ratam habemus et apostolica auctoritate confirmamus et, ne deinceps super h[iis ullam] inquietationem patiaris, omnimodis interdicimus. Datierung: Datum Cremo[ne], kalendas aprilis.</p><p/><p/><p/><p/><p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter"
+            <p>Digitalisat aus Bestand "INTERLOR" -&amp;gt; Kooperationsordner Aachen_Köln_Würzburg/Digitalisate/Louvain-la-Neuve, Dateien: Arch. eccl. 8292_Nr. 9r.JPG</p><p>Arch. eccl. 8292_Nr. 9v.JPG</p><p/><p>Nach Endkorrektur löschen:</p><p/><p>Victor episcopus servus servorum Dei. Dilecto filio G. abbati de Helmcines salutem et apostolicam benedictionem. Sicut assumpti regimmis cura providere nos ammonet, ut ecclesiarum negotiapacis intentio salubri fine distringat, sic iterum apostolatus offitii ratione constringimur consensus nostri auctoritate, que rationabiliter ab ecclesiasticis personis decisa fuerint, roborare et apostolice sedis scriptis communire, ne forte in posterum contentio recidiva ex pace litigium gignat et alicuius excusationis obiectu, quod canonice est diffinitum, in dubium reducat. Proinde tue, dilecte fili abbas G., ac fratrum tuorum paci et tranquilitate volentes in domino providere sententiam canonice et rationabiliter prolatam a dilectis filiis nostris Wirico sancti Trudonis abbate et Bru[none] Leodiensis ecclesie archidiacono super controversia, [qu]e inter te et Wazelmum ahbatem deFlorines de medietate ecclesie de Pellines et allodii d[e C ]apenual agitabantur, ratam habemus et apostolica auctoritate confirmamus et, ne deinceps super h[iis ullam] inquietationem patiaris, omnimodis interdicimus. Datierung: Datum Cremo[ne], kalendas aprilis.</p><p/><p/><p/><p/><p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter"
                lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt
                werden]</p>
          </div>

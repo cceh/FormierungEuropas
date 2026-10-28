@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
-<TEI source="formierung-europas_pontificia" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc><titleStmt><title>fe_00403</title><respStmt><resp>Datenquelle</resp><persName>JB</persName></respStmt>
@@ -14,18 +11,19 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>Germ. Pont. 1, S. 335, Nr. 19</bibl><bibl type="jaffe">-</bibl>
-            <bibl>[Weiteres Konkordanzregest]</bibl>
+            <bibl>Germ. Pont. 1, S. 368, Nr. 15</bibl><bibl>Plechl, Tegernseer Briefsammlung, S. 279-280, Nr. 250</bibl><bibl type="jaffe">-</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
                <p><authen type="formula" n="na"><p>-</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></p>
-               
+               <issued><placeName>(Rom, Lateran)</placeName><date type="issued" when="1177-07-14">(1179 Mär. 12)</date>
+                  <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
+               </issued>
                <p><legalActor type="issuer">Alexander III. </legalActor></p>
                <p><legalActor type="recipient">Albert, Bischof von Freising</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, Litterae cum filo canapis</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">Anweisung, Wiederherstellung von Recht</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
+               <p><objectType n="">Anweisung, Wiederherstellung von Recht / Einhaltung von Recht</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
@@ -43,7 +41,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor><persName>Alexander III.</persName> </legalActor>weist <legalActor><persName>Albert, Bischof von Freising</persName></legalActor>, an, keine Kirchen, die auf dem Grundbesitz der <orgName>Benediktinerabtei Tegernsee</orgName> (D. Freising) errichtet wurden, eigenmächtig und gegen den Willen des Abtes und der Brüder an beliebige Personen zu vergeben. Vielmehr solle er sich bemühen, bei Vakanz solcher Kirchen in seiner Diözese geeignete Personen für diese zu ernennen und verweist auf das Präsentationsrecht, das sein Vorgänger Papst Eugen III. verliehen hatte. </p>
+            <p><legalActor><persName>Alexander III.</persName> </legalActor>weist <legalActor cert="high" type="recipient" xml:space="default"><persName>Albert, den Bischof von Freising,</persName></legalActor> an, keine Kirchen, die auf dem Grundbesitz der <orgName>Benediktinerabtei Tegernsee</orgName> (D. Freising) errichtet worden sind, eigenmächtig und gegen den Willen des Abts und der Brüder des Klosters zu vergeben. Vielmehr solle er sich bemühen, bei Vakanz solcher Kirchen in seiner Diözese geeignete Personen für diese zu ernennen und verweist auf das Präsentationsrecht, das sein Vorgänger Eugen III. verliehen hat. // und erinnert ihn an das durch seinen Vorgänger, Eugen III., verliehene Präsentationsrecht des Klosters. //</p>
          </div>
 
          <div>
@@ -52,7 +50,7 @@
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+                  <item>-</item>
                </list></diploPart>
          </div>
          <div>
@@ -64,7 +62,7 @@
                <listBibl>
                   <bibl type="original">-</bibl>
                   <bibl type="msCopy">München, Bayerische Staatsbibliothek, Clm 19411, fol. 124v-125r (p. 250-251); digital verfügbar unter: https://daten.digitale-sammlungen.de/bsb00008249/images/index.html?id=00008249&amp;groesser=&amp;fip=193.174.98.30&amp;no=&amp;seite=254</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
@@ -85,37 +83,36 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Plechl, Tegernseer Briefsammlung, S. 279-280, Nr. 250</bibl>
-               <bibl>Meichelbeck, Historiae Frisingensis I, S. 374</bibl>
+               <bibl>Plechl, Tegernseer Briefsammlung, S. 279-280, Nr. 250 (1179 Mär. 12)</bibl>
+               <bibl>Meichelbeck, Historia Frisingensis 1, 1, S. 374</bibl>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head>
             <listBibl>
-               <bibl>JL 13321</bibl>
-               <bibl>Germ. Pont. 1, S. 335, Nr. 19 (1177, Juni 14 - 1179, März 12)</bibl><bibl>Germ. Pont. 1, S. 368, Nr. 15 (1177, Juni 14 - 1179, März 12)</bibl>
+               <bibl>Germ. Pont. 1, S. 368, Nr. 15 (1177 Jun. 14-1179 Mär. 12)</bibl><bibl>Germ. Pont. 1, S. 335, Nr. 19 (1177 Jun. 14-1179 Mär. 12)</bibl><bibl>Plechl, Studien 3, S. 449, Nr. 288 (1179 Mär. 12)</bibl>
             </listBibl>
          </div>
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Die Originalüberlieferung ist nicht erhalten. Aus dem Inhalt und Wortlaut (<diploPart>per apostolica scripta precipiendo mandamus</diploPart>) geht jedoch hervor, dass es sich um eine Litterae cum filo canapis gehandelt haben muss. Zur Datierung vgl. Brackmann, Studien und Vorarbeiten 1, S. 239-242; Plechl, Studien 3, S. 449-450.</p>
+               <p>Die Originalüberlieferung ist nicht erhalten. Aus dem Inhalt und Wortlaut (<diploPart>per apostolica scripta precipiendo mandamus</diploPart>) geht jedoch hervor, dass es sich um eine Littera cum filo canapis gehandelt haben muss. </p><p>Zur Datierung und zum Ausstellungsort vgl. <bibl>Brackmann, Studien und Vorarbeiten 1, S. 239-242,</bibl> und <bibl>Plechl, Studien 3, S. 449-450</bibl>.</p>
             </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Der vorliegenden Litterae Alexanders III. ging eine Supplik von Rupert, Abt des Klosters Tegernsee, voraus, in dem er die Übergriffe des Bischof bei der Besetzung der Kirchen auf Klostergrund angeprangert hatte, voraus (Germ. Pont. 1, S. 366, Nr. 9; ##FE Nr. 00412 ##). Das Präsentationsrecht für die Eigenkirchen hatte bereits Papst Eugen III. dem Kloster Tegernsee in seinem Privileg vom 21. November 1150 (Germ. Pont. 1, S. 364, Nr. 3; JL 9411) verliehen. Alexander III. bestätigte in seinem Privileg vom 12. März 1179 dem Kloster Tegernsee das Präsentationsrecht (Germ. Pont. 1, S. 368, Nr. 16; ##FE Nr. 00418##) und machte Albert mit dem vorliegenden Schreiben auf die Neuregelung aufmerksam.</p>
+            <p>Der vorliegenden Littera Alexanders III. ging eine Supplik von <persName>Rupert, dem Abt der Benediktinerabtei Tegernsee,</persName> voraus, in der er die Übergriffe des Bischofs bei der Besetzung der Kirchen auf Klostergrund angeprangert hatte (vgl. <bibl>Germ. Pont. 1, S. 366, Nr. 9</bibl>; ##FE Nr. 00412 ##). Das Präsentationsrecht für die Eigenkirchen hatte bereits Papst Eugen III. der Benediktinerabtei Tegernsee in seinem Privileg vom 21. November 1150  verliehen (vgl. <bibl>Germ. Pont. 1, S. 364, Nr. 3</bibl>; <bibl>JL 9411</bibl>). Alexander III. bestätigte in seinem Privileg vom 12. März 1179 der Benediktinerabtei Tegernsee das Präsentationsrecht und machte Albert mit dem vorliegenden Schreiben auf die Neuregelung aufmerksam (vgl. <bibl>Germ. Pont. 1, S. 368, Nr. 16</bibl>; ##FE Nr. 00418##).</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
             <listBibl>
                <bibl>Brackmann, Studien und Vorarbeiten 1, S. 239-242</bibl>
-               <bibl>Plechl, Studien 3, S. 449-450.</bibl>
+               <bibl>Plechl, Studien 3, S. 449-450</bibl>
             </listBibl>
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>Hier fehlt im Template Ausstellungsort und Datum: bitte ergänzen! Ausstellungsdatum: (12. März 1179)</p>
+            <p>-</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>

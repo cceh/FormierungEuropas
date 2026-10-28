@@ -31,11 +31,11 @@
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
                <p>
-                  <legalActor type="recipient">[Recipient 1]</legalActor></p>
+                  <legalActor type="recipient">Wazelin, Abt der Benediktinerabtei von Florennes</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &amp;gt; Litterae cum serico]</objectType></p>
+               <p><objectType ref="na">Papsturkunde, Litterae #####</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
-               <p><objectType ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &amp;gt; Beauftragung durch…]</objectType></p>
+               <p><objectType ref="na">Anweisung, Einhaltung von Recht</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
@@ -54,15 +54,14 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Viktor IV. ruft den Wazelin, Abt von Florennes, zur Unterwerfung unter das von Abt Wiric von S. Trudo (Truiden) und Archidiakon Bruno von Lüttich in der Kontroverse zwischen den Äbten von Heylissem und Florennes gefällten Urteils auf und fordert, dass dieser die Abtei Heylissem in dieser Sache nicht mehr belästigen solle.<list>
+            <p>Viktor IV. ruft <persName>W(azelin), Abt der <orgName>Benediktinerabtei von Florennes</orgName></persName> (D. Lüttich), zur Unterwerfung unter das von <persName>W(iricus), Abt der <orgName>Benediktinerabtei St. Truiden</orgName></persName>, und <persName>Archidiakon Bruno von Lüttich</persName> in der Kontroverse zwischen den Äbten des <orgName>Prämonstratenserstifts Heylissem</orgName> (D. Lüttich) und des Klosters Florennes gefällten Urteils auf und fordert, dass dieser die Abtei Heylissem in dieser Sache nicht mehr belästigen solle.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
 
          <div>
             <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">Quoniam servorum dei</diploPart>
-         </div>
+            <diploPart type="incipit" xml:lang="lat">Quoniam servorum dei non est</diploPart></div>
          <div>
             <head>Subscriptiones:</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
@@ -70,8 +69,7 @@
                </list></diploPart>
          </div>
          <div>
-            <head>Datatio:</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
+            <head>Datatio:</head><diploPart type="datatio">Dat. Cremone idus aprilis.</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
@@ -99,7 +97,7 @@
          </div>
          <div type="editions">
             <head>Editionen</head>
-            <listBibl><bibl/><bibl>PUU Niederlande, S. 231-332, Nr. 99</bibl><bibl>Reusens: Analectes, Bd. XXIV , S. 204, Nr. 13</bibl>
+            <listBibl><bibl>PUU Niederlande, S. 231-332, Nr. 99</bibl><bibl>Reusens, Analectes 24, S. 204-205, Nr. 13</bibl>
             </listBibl>
          </div>
          <div type="regesta">
@@ -107,7 +105,7 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 289–290, Nr. V64</bibl>
-               <bibl>Wauters, Table chronologique 11, S. 209</bibl><bibl>Mayr, Pontifikat, S. 117, Nr. 51</bibl>
+               <bibl>Wauters, Table chronologique 11/1, S. 209</bibl><bibl>Mayr, Pontifikat, S. 117, Nr. 51</bibl>
             </listBibl>
          </div>
          <div>
@@ -130,7 +128,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter"
+            <p>Nach Endkorrektur löschen:</p><p>Uictor episcopus seruus seruorum Dei. Dilecto filio W. abbati Florinensi salutem et apostolicam benedictionem. Quoniam seruorum Dei non est litigare, profecto se longe esse a religionis professione demonstrat, qui post causam iudiciario ordine terminatam nouas lites suscitare conatur. Quod ergo de causa, que agitabatur inter te et dilectum filium nostrum G. abbatem de Helencin(is) de allodio de Cappendale et ecclesia de Pellines a dilectis filiis nostris W. sancti Trudon(is) abbate et B. archid(iacono) nostra auctoritate statutum fuit, quos ordinauimus suscipere probationem testium, ratum esse debuisset et rebus iudicatis standum. Quia uero tu per subreptionem, ut nobis uidetur, quarumdam litterarum, quas a nostra parte tibi datas profers, contraire niteris nostre ordinationi, quam in tui presentia Cremone sollempniter ex consilio fratrum nostrorum et aliorum religiosorum uirorum constituimus, tibi in hoc deferre non possumus nec inopem a tua potentia in sua iusticia opprimi patiemur. Eapropter per apostolica tibi scripta mandamus et precipimus, ut ulterius ecclesiam de Helenc(inis) super allodio de Cappendale et ecclesiam de Pellines, quam illi canonice secundum formam a nobis datam suam esse probauerunt, aliquo modo molestare presumas, sed predictis fratribus remoto omni appellationis subterfugio pacem quiete possessionis per te et per tuos monachos per succedentia tempora inuiolabiliter conserues et teneas, ne iteratus clamor ad nos ulterius super his redire debeat. Septem autem marcas, quas fraude quasi per compositionem ab eis extorques, precipimus, ut nullatenus recipias, quia non esse uidetur pium apud Deum, qui odio habet rapinam in holocaustum. Dat. Cremone idus aprilis.</p><p/><p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter"
                lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt
                werden]</p>
          </div>
