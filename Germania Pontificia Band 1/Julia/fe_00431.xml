@@ -22,7 +22,7 @@
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Tusculanum</placeName><date type="issued" notBefore="1171-02-04" notAfter="1181-02-04">(1171-1181 Februar 04</date>
+               <issued><placeName>Tusculanum</placeName><date type="issued" notBefore="1171-02-04" notAfter="1181-02-04">(1171-1181) Februar 04</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
@@ -124,7 +124,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+            <p>[Ausstellungsdatum könnte 1171 Feb. 04, 1172 Feb. 04, 1179 Feb. 04 oder 1181 Feb. Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
