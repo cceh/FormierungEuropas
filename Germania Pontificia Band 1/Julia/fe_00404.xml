@@ -18,7 +18,7 @@
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Laterano</placeName><date type="issued" notBefore="1179-03-31" notAfter="1179-03-31">(1179) März 31</date>
+               <issued><placeName>Rom, Lateran</placeName><date type="issued" notBefore="1179-03-31" notAfter="1179-03-31">(1179) Mär. 31</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
@@ -94,7 +94,7 @@
             <head>Regesten</head>
             <listBibl>
                <bibl>JL 13196 (31. März 1166-1179)</bibl>
-               <bibl>Germ. Pont. 1, S. 338, Nr. 1 </bibl><bibl>Germ. Pont. 1, S. 335, Nr. 20 (1179 Mär. 31)</bibl>
+               <bibl>Germ. Pont. 1, S. 338, Nr. 1  (1179 Mär. 31)</bibl><bibl>Germ. Pont. 1, S. 335, Nr. 20 (1179 Mär. 31)</bibl>
             </listBibl>
          </div>
          <div>
