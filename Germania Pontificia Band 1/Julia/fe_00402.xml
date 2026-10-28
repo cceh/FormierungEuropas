@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
-<TEI source="formierung-europas_pontificia" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc><titleStmt><title>fe_00402</title><respStmt><resp>Datenquelle</resp><persName>JB</persName></respStmt>
@@ -15,14 +12,13 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>Germ. Pont. 1, S. 335, Nr. 18</bibl><bibl type="jaffe">–</bibl>
-            <bibl>[Weiteres Konkordanzregest]</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
                <p><authen type="formula" n="na">
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Venezia</placeName><date type="issued" notBefore="1177-07-14" notAfter="1177-07-14">(1177), Juli 14</date>
+               <issued><placeName>Venedig, Rialto</placeName><date type="issued" when="1177-07-14">(1177) Jul. 14</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
@@ -30,7 +26,7 @@
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, Litterae, nicht kategorisierbar</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
+               <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
@@ -48,7 +44,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor><persName>Alexander III.</persName></legalActor> bestätigt <legalActor><persName>Albert, Bischof von Freising</persName></legalActor>, und seiner Kirche die Grenzen des Bistums, sowohl hinsichtlich ihres Verlaufs entlang des Baches namens Sunnelahe (<diploPart>Sunnelahe</diploPart>), an dem das Kloster Steingaden liegt, als auch hinsichtlich der Bezeichnungen, die in den ältesten Urkunden der Kirche, in denen die Bistumsgrenzen beschrieben werden, enthalten sind.</p>
+            <p><legalActor><persName>Alexander III.</persName></legalActor> bestätigt <legalActor cert="high" type="recipient" xml:space="default"><persName>Albert, dem Bischof von Freising,</persName></legalActor> und seiner Kirche die Grenzen des Bistums, sowohl hinsichtlich ihres Verlaufs entlang des Bachs namens Sunnelahe (<diploPart>Sunnelahe</diploPart>), an dem das <orgName>Prämonstratenserkloster Steingaden</orgName> liegt, als auch hinsichtlich der Bezeichnungen, die in den ältesten Aufzeichnungen der Freisinger Kirche, in denen die Bistumsgrenzen beschrieben werden, enthalten sind.</p><p>Schlussformeln: Sanctio negativa</p>
          </div>
 
          <div>
@@ -57,11 +53,11 @@
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+                  <item>-</item>
                </list></diploPart>
          </div>
          <div>
-            <head>Datatio</head><diploPart type="datatio">Dat. Venet. in Rivo alto, II. id. Iulii.</diploPart>
+            <head>Datatio</head><diploPart type="datatio">Dat. Venet. in Rivo alto II id. iulii.</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
@@ -69,7 +65,7 @@
                <listBibl>
                   <bibl type="original">-</bibl>
                   <bibl type="msCopy">München, Bayerische Staatsbibliothek, Liber copiarum et traditionum ecclesie Frisingensis, Hochstift Freising, Lit. III, D 2 n. 335, fol. 25 (17. Jh.)</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
@@ -88,8 +84,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Brackmann, Studien und Vorarbeiten I, S. 235</bibl>
-               <bibl>[Edition 2]</bibl>
+               <bibl>Brackmann, Studien und Vorarbeiten 1, S. 235</bibl>
             </listBibl>
          </div>
          <div type="regesta">
@@ -102,23 +97,22 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Die Litterae ist nur noch kopial überliefert, daher kann aufgrund des Wortlauts und Inhalts nur vermutet werden, dass es sich ursprünglich um eine Litterae cum serico gehandelt hat. Datiert nach dem Itinerar Alexanders III.</p>
+               <p>Die Littera ist nur noch kopial überliefert, daher kann aufgrund des Wortlauts und Inhalts nur vermutet werden, dass es sich ursprünglich um eine Littera cum serico handelte. Die Datierung basiert auf dem Itinerar Alexanders III., der sich nur 1177 länger in Venedig aufhielt (vgl. <bibl>JL 12836-12956</bibl>).</p>
             </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Zur Auseinandersetzung zwischen dem Bistum Augsburg und dem Bistum Freising um die Zugehörigkeit des Prämonstratenserklosters Steingaden vgl. <bibl>Brackmann, Studien und Vorarbeiten I, S. 230-236</bibl>. Vgl. auch ##FE Nr. ??'##.</p>
+            <p>Um die Zugehörigkeit des Prämonstratenserklosters Steingaden kam es zwischen dem Bistum Augsburg und dem Bistum Freising zu Auseinandersetzungen (vgl. <bibl>Brackmann, Studien und Vorarbeiten 1, S. 230-236)</bibl>. ##Vgl. auch ##FE Nr. ??'##.##</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
             <listBibl>
-               <bibl>[Werk 1]</bibl>
-               <bibl>[Werk 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+            <p>[FE Nr. ergänzen??]</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>

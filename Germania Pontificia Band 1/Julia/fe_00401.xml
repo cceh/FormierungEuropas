@@ -44,7 +44,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor>Alexander III.</legalActor> dankt <persName>Albert, dem Bischof von Freising,</persName> für seine langjährige Freundschaft sowie die Ergebenheit, die Albert der römischen Kirche und insbesondere seiner eigenen Person entgegenbringe. Er äußert seine Freude über Alberts Wunsch, zu ihm zu kommen, und versichert, dass er ihn gerne empfangen und ehrenvoll behandeln werde. </p>
+            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName></legalActor> dankt <legalActor cert="high" type="recipient" xml:space="default"><persName>Albert, dem Bischof von Freising,</persName></legalActor> für seine langjährige Freundschaft sowie die Ergebenheit, die Albert der römischen Kirche und insbesondere seiner eigenen Person entgegenbringe. Er äußert seine Freude über Alberts Wunsch, zu ihm zu kommen, und versichert, dass er ihn gerne empfangen und ehrenvoll behandeln werde. </p>
          </div>
 
          <div>
@@ -115,7 +115,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+            <p>[wie Datierung im Header taggen?]</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
