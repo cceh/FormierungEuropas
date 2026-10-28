@@ -44,7 +44,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor><persName>Alexander III.</persName></legalActor> bestätigt <legalActor><persName>Albert, dem Bischof von Freising</persName></legalActor>, und seiner Kirche die Grenzen des Bistums, sowohl hinsichtlich ihres Verlaufs entlang des Bachs namens Sunnelahe (<diploPart>Sunnelahe</diploPart>), an dem das Kloster Steingaden liegt, als auch hinsichtlich der Bezeichnungen, die in den ältesten Urkunden der Kirche, in denen die Bistumsgrenzen beschrieben werden, enthalten sind.</p>
+            <legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName></legalActor> bestätigt <legalActor><persName>Albert, dem Bischof von Freising</persName></legalActor>, und seiner Kirche die Grenzen des Bistums, sowohl hinsichtlich ihres Verlaufs entlang des Bachs namens Sunnelahe (<diploPart>Sunnelahe</diploPart>), an dem das Kloster Steingaden liegt, als auch hinsichtlich der Bezeichnungen, die in den ältesten Urkunden der Kirche, in denen die Bistumsgrenzen beschrieben werden, enthalten sind.
          </div>
 
          <div>
