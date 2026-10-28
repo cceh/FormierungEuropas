@@ -68,10 +68,7 @@
                   <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
                </list></diploPart>
          </div>
-         <div>
-            <head>Datatio:</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
-         </div>
+         <div><head>Datatio:</head><diploPart type="datatio">Dat. Cremone, kalend. Aprilis</diploPart></div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
@@ -108,7 +105,7 @@
                <bibl>Diplomata Belgica (irrtümlich als JL 14462 verzeichnet), Nr. 2083: https://www.diplomata-belgica.be/charter_details_fr.php?dibe_id=2083</bibl>
                <bibl>Mayr, Pontifikat, S. 118, Nr. 54</bibl><bibl>Wauters, Table chronologique 2, S. 437</bibl><bibl>Wauters, Table chronologique 11/1, S. 209 oder 210 (##???##)</bibl></listBibl></div><div><head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>[Text und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
+               <p>[Die DatText und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
  Kommentar]</p>
             </diploDesc>
          </div>
