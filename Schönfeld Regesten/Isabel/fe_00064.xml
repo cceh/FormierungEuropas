@@ -31,7 +31,7 @@
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
                <p>
-                  <legalActor type="recipient">[Recipient 1]</legalActor></p>
+                  <legalActor type="recipient">Wazelin, Abt der Benediktinerabtei von Florennes</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &amp;gt; Litterae cum serico]</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
@@ -54,7 +54,7 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Viktor IV. ruft Wazelin, Abt der Benediktinerabtei von Florennes (D. L, zur Unterwerfung unter das von Abt Wiric von S. Trudo in Truiden und Archidiakon Bruno von Lüttich in der Kontroverse zwischen den Äbten von Heylissem und Florennes gefällten Urteils auf und fordert, dass dieser die Abtei Heylissem in dieser Sache nicht mehr belästigen solle.<list>
+            <p>Viktor IV. ruft <persName>Wazelin, Abt der Benediktinerabtei von Florennes</persName> (D. Lüttich), zur Unterwerfung unter das von Abt Wiric von S. Trudo in Truiden und Archidiakon Bruno von Lüttich in der Kontroverse zwischen den Äbten von Heylissem und Florennes gefällten Urteils auf und fordert, dass dieser die Abtei Heylissem in dieser Sache nicht mehr belästigen solle.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
