@@ -1,20 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
-<TEI source="fe_schoenfeld" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<TEI source="fe_schoenfeld" xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>fe_00055</title>
-            <respStmt><resp>Die Formierung Europas</resp><persName>IB</persName></respStmt>
+            <respStmt>
+               <resp>Die Formierung Europas</resp>
+               <persName>IB</persName>
+            </respStmt>
             <respStmt>
                <resp when="2025">Encoding:</resp>
-               <persName>SG, IB</persName></respStmt>
+               <persName>SG, IB, CH</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
-            <availability><licence>Lizenz</licence></availability>
+            <availability>
+               <licence>Lizenz</licence>
+            </availability>
          </publicationStmt>
          <sourceDesc>
             <bibl type="jaffe">14479</bibl>
@@ -24,11 +31,13 @@
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Cremona</placeName><date type="issued" when="1161-06-05">(1161) Jun. (5/13)</date><date type="issued" when="1161-06-13"/>
+               <issued><placeName>Cremona</placeName><date type="issued" when="1161-06-05">(1161)
+                     Jun. (5/13)</date><date type="issued" when="1161-06-13"/>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
-               <p><legalActor type="recipient">Humbert, Erzbischof von Besançon</legalActor></p><p><legalActor type="recipient">Besançon, Domkapitel</legalActor></p>
+               <p><legalActor type="recipient">Humbert, Erzbischof von Besançon</legalActor></p>
+               <p><legalActor type="recipient">Besançon, Domkapitel</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">Papsturkunde, Litterae cum filo canapis</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
@@ -38,8 +47,19 @@
             </diploDesc>
          </sourceDesc>
       </fileDesc>
-      
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+            xmlns:as="http://www.w3.org/ns/activitystreams#"
+            xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+            xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
+            xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
+            xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+            xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+            xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
          <langUsage>
             <language ident="ger">German</language>
             <language ident="lat">Latin</language>
@@ -51,14 +71,21 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p><persName>Viktor IV.</persName> informiert <persName>H(umbert), Erzbischof von Besançon</persName>, und das dortige <orgName>Domkapitel von St. Johann</orgName> (D. Besançon), dass er <persName>P(etrus), Abt der Benediktinerabtei St. Vincent</persName> (D. Besançon), als Humberts Stellvertreter (vicarius) für die Feier der Messe in Vertretung des Erzbischofs auf Humberts Bitten den Gebrauch von Mitra und Ring gestattet habe.<list>
+            <p><persName>Viktor IV.</persName> informiert <persName>H(umbert), Erzbischof von
+                  Besançon</persName>, und das dortige <orgName>Domkapitel von St. Johann</orgName>
+               (D. Besançon), dass er <persName>P(etrus), Abt der Benediktinerabtei St.
+                  Vincent</persName> (D. Besançon), als Humberts Stellvertreter (<diploPart>vicarius</diploPart>) für die
+               Feier der Messe in Vertretung des Erzbischofs auf Humberts Bitten den Gebrauch von
+               Mitra und Ring gestattet habe.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
 
          <div>
             <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">Consuevit apostolice sedis benignitas humiles</diploPart></div>
+            <diploPart type="incipit" xml:lang="lat">Consuevit apostolice sedis benignitas
+               humiles</diploPart>
+         </div>
          <div>
             <head>Subscriptiones:</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
@@ -74,7 +101,10 @@
             <div>
                <listBibl>
                   <bibl type="original">-</bibl>
-                  <bibl type="msCopy">Chartular des Erzbistums Besançon, 13. Jh, Besançon, Bibliothèques et archives métropolitaines Besançon, Bibliothèque d'étude et de conservation, Fonds général Ms 716</bibl><bibl type="msCopy"/>
+                  <bibl type="msCopy">Chartular des Erzbistums Besançon, 13. Jh, Besançon,
+                     Bibliothèques et archives métropolitaines Besançon, Bibliothèque d'étude et de
+                     conservation, Fonds général Ms 716</bibl>
+                  <bibl type="msCopy"/>
                   <bibl type="print">Gallia Christiana 15, Sp. 40, Nr. 41</bibl>
                </listBibl>
             </div>
@@ -95,7 +125,8 @@
          </div>
          <div type="editions">
             <head>Editionen</head>
-            <listBibl><bibl>Chart. Besançon, S. 213–115, Nr. 7.</bibl>
+            <listBibl>
+               <bibl>Chart. Besançon, S. 213–115, Nr. 7.</bibl>
             </listBibl>
          </div>
          <div type="regesta">
@@ -103,26 +134,63 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>Gall. Pont. 1, S. 124, Nr. 2</bibl>
-               <bibl>Gall. Pont. 1, S. 67, Nr. 89</bibl><bibl>Gall. Pont. 1, S. 86, Nr. 28</bibl><bibl>Aposcripta-40374, https://telma-chartes.irht.cnrs.fr/aposcripta.php/192564</bibl><bibl>Mayr, Pontifikat, S. 131, Nr. 79</bibl>
+               <bibl>Gall. Pont. 1, S. 67, Nr. 89</bibl>
+               <bibl>Gall. Pont. 1, S. 86, Nr. 28</bibl>
+               <bibl>Aposcripta-40374,
+                  https://telma-chartes.irht.cnrs.fr/aposcripta.php/192564</bibl>
+               <bibl>Mayr, Pontifikat, S. 131, Nr. 79</bibl>
             </listBibl>
          </div>
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Schönfeld datiert fälschlicherweise auf Humberts Todestag, den 1. Oktober 1161. Datierung korrigiert nach Hägi (Chart. Besançon, S. 214–215). Die Datierung auf 1161 hat <bibl>Güterbock, Burgund, S. 187–188</bibl> vorgenommen.</p>
+               <p>Schönfeld datiert fälschlicherweise auf Humberts Todestag, den 1. Oktober 1161.
+                  Datierung korrigiert nach Hägi (Chart. Besançon, S. 214–215). Die Datierung auf
+                  1161 hat <bibl>Güterbock, Burgund, S. 187–188</bibl> vorgenommen.</p>
             </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Aufgrund des Ausstellungszeitpunkts wurde die Urkunde höchstwahrscheinlich auf dem Konzil von Cremona (21. Mai bis Mitte Juni 1161) ausgestellt. Dies legt nahe, dass Abt Petrus von St. Vincent den Wunsch Viktors IV., die <orgName>Kirche von Besançon</orgName> an sich zu binden, zu seinem Vorteil nutzte (vgl. Gall. Pont. 1, S. 67, Anm. zu Nr. 89). Mit dem Vorrecht, bei liturgischen Gottesdiensten und Synoden die Bischofsinsignien tragen zu dürfen, erhöht Viktor IV. den Abt gegenüber allen anderen Äbten der Diözese. Bereits zuvor hatte Humbert der <orgName>Abtei von St. Vincent</orgName> eine herausragende Stellung in der Kirche von Besançon zuerkannt (Urkunde vom 27. Oktober 1140, ediert in Mariotte, Bourgogne, S. 198). Dabon abgesehen, waren Zugeständnisse an bedeutende Äbte unter den Konkurrenten Alexanders III. nicht unüblich. Entsprechende Privilegien ergingen an Corvey (fe-00057; JL 14466), Hersfeld (##fe-000xx##; JL 14468), Fulda (##fe-000xx##; JL 14493 sowie ##fe-000xx##; JL 14493) und Stablo (##fe-000xx##; JL 14492 sowie ##fe-000xx##; JL 14503).</p><p>Humberts Nachfolger Herbert, Erzbischof von Besançon (1163-1170) und ein Vertrauter Viktors IV., widersetzte sich später dieser Privilegierung. In seinem feierlichen Privileg für den Abt und das Kloster Saint-Vincent vom 6. November 1179 (##fe_xxxxx##; JL 13490; Gall. Pont. 1, S. 125, Nr. 3) ignorierte Alexandern III. die von Viktor IV. gewährten Privilegien. Als <persName>Wilhelm de la Tour, Erzbischof von Besançon</persName> (1245–1268) sie am 23. März 1253 urkundlich (vgl. <bibl>Gallia Christiana 15</bibl>, Nr. 92) wieder geltend machte, führte man das Privileg auf <persName>Hugo II., Abt von Saint-Vincent</persName> (1085-1101), und einen Papst Viktor IV. aus der Gründungszeit der Abtei - tatsächlich <persName>Viktor III.</persName> (1086-1087) - zurück (vgl. Gall. Pont. 1, S. 124-125).</p><p>Zur Position der Kirche von Besançon im Alexandrinischen Schisma siehe Hägi in: <bibl>Chart. Besançon, S. 23–26</bibl>.</p></div>
+            <p>Aufgrund des Ausstellungszeitpunkts wurde die Urkunde höchstwahrscheinlich auf dem
+               Konzil von Cremona (21. Mai bis Mitte Juni 1161) ausgestellt. Dies legt nahe, dass
+               Abt Petrus von St. Vincent den Wunsch Viktors IV., die <orgName>Kirche von
+                  Besançon</orgName> an sich zu binden, zu seinem Vorteil nutzte (vgl. Gall. Pont.
+               1, S. 67, Anm. zu Nr. 89). Mit dem Vorrecht, bei liturgischen Gottesdiensten und
+               Synoden die Bischofsinsignien tragen zu dürfen, erhöht Viktor IV. den Abt gegenüber
+               allen anderen Äbten der Diözese. Bereits zuvor hatte Humbert der <orgName>Abtei von
+                  St. Vincent</orgName> eine herausragende Stellung in der Kirche von Besançon
+               zuerkannt (Urkunde vom 27. Oktober 1140, ediert in Mariotte, Bourgogne, S. 198).
+               Dabon abgesehen, waren Zugeständnisse an bedeutende Äbte unter den Konkurrenten
+               Alexanders III. nicht unüblich. Entsprechende Privilegien ergingen an Corvey
+               (fe-00057; JL 14466), Hersfeld (fe_00071; JL 14468), Fulda (fe_00111; JL
+               14493 sowie fe_00111; JL 14493) und Stablo (fe_00110; JL 14492 sowie
+               fe_00127; JL 14503).</p>
+            <p>Humberts Nachfolger Herbert, Erzbischof von Besançon (1163-1170) und ein Vertrauter
+               Viktors IV., widersetzte sich später dieser Privilegierung. In seinem feierlichen
+               Privileg für den Abt und das <orgName>Kloster Saint-Vincent</orgName> vom 6. November 1179
+               (##fe_xxxxx##; JL 13490; Gall. Pont. 1, S. 125, Nr. 3) ignorierte Alexandern III. die
+               von Viktor IV. gewährten Privilegien. Als <persName>Wilhelm de la Tour, Erzbischof
+                  von Besançon</persName> (1245–1268) sie am 23. März 1253 urkundlich (vgl.
+                  <bibl>Gallia Christiana 15</bibl>, Nr. 92) wieder geltend machte, führte man das
+               Privileg auf <persName>Hugo II., Abt von Saint-Vincent</persName> (1085-1101), und
+               einen Papst Viktor IV. aus der Gründungszeit der Abtei - tatsächlich <persName>Viktor
+                  III.</persName> (1086-1087) - zurück (vgl. Gall. Pont. 1, S. 124-125).</p>
+            <p>Zur Position der Kirche von Besançon im Alexandrinischen Schisma siehe Hägi in:
+                  <bibl>Chart. Besançon, S. 23–26</bibl>.</p>
+         </div>
          <div type="bibliography">
             <head>Bibliographie</head>
             <listBibl>
-               <bibl>Güterbock, Burgund, S. 187–188</bibl><bibl>Locatelli, Réform, S. 663, 1228, Anm. 54</bibl>
+               <bibl>Güterbock, Burgund, S. 187–188</bibl>
+               <bibl>Locatelli, Réform, S. 663, 1228, Anm. 54</bibl>
             </listBibl>
          </div>
          <div type="note">
-            <head>Notizen</head><p>fe-Nummern Querverweise einfügen</p><p>Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter"
+            <head>Notizen</head>
+            <p>fe-Nummern Querverweise einfügen</p>
+            <p>Fulda (fe_00111; JL 14493 sowie fe_00111; JL 14493) ist eine Doppelnenneung.</p>
+            <p>(##fe_xxxxx##; JL 13490; Gall. Pont. 1, S. 125, Nr. 3) konnte nicht gefunden werden.</p>
+            <p>Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter"
                lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt
                werden]</p>
          </div>
