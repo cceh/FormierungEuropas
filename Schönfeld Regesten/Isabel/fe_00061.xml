@@ -28,8 +28,7 @@
                <p><authen type="formula" n="na">
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-                  </authen></p>
-               <issued><placeName>(Cremona)</placeName><date type="issued" notBefore="1162-04-01" notAfter="1162-04-30">(1162 Apr)</date>
+                  </authen></p><issued><placeName>Cremona</placeName><date type="issued" notBefore="1162-04-01" notAfter="1162-04-30">(1162) Apr. 1</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
@@ -105,7 +104,7 @@
                <bibl>Diplomata Belgica (irrtümlich als JL 14462 verzeichnet), Nr. 2083: https://www.diplomata-belgica.be/charter_details_fr.php?dibe_id=2083</bibl>
                <bibl>Mayr, Pontifikat, S. 118, Nr. 54</bibl><bibl>Wauters, Table chronologique 2, S. 437</bibl><bibl>Wauters, Table chronologique 11/1, S. 209</bibl></listBibl></div><div><head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Die Datierung unfolgt der einzig bei Wauters, Table chronologique 11/1, S. 209 hinterlegten Datatio.]</p>
+               <p>Die Datierung folgt der einzig bei Wauters, Table chronologique 11/1, S. 209 überlieferten Datatio.</p>
             </diploDesc>
          </div>
          <div type="commentary">
