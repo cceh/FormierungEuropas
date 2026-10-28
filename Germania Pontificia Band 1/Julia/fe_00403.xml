@@ -15,7 +15,7 @@
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
                <p><authen type="formula" n="na"><p>-</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></p>
-               <issued><placeName>Rom, Lateran</placeName><date type="issued" when="1177-07-14">(1179 Mär. 12)</date>
+               <issued><placeName>(Rom, Lateran)</placeName><date type="issued" when="1177-07-14">(1179 Mär. 12)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III. </legalActor></p>
