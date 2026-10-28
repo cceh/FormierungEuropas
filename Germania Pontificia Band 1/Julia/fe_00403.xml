@@ -14,14 +14,14 @@
             <bibl>Germ. Pont. 1, S. 368, Nr. 15</bibl><bibl type="jaffe">-</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
-               <p><authen type="formula" n="na"><p>-</p><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></p>
+               <p><authen type="formula" n="na"><p>-</p><p/><!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  --></authen></p>
                
                <p><legalActor type="issuer">Alexander III. </legalActor></p>
                <p><legalActor type="recipient">Albert, Bischof von Freising</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, Litterae cum filo canapis</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">Anweisung, Wiederherstellung von Recht</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
+               <p><objectType n="">Anweisung, Wiederherstellung von Recht</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
