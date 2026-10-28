@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
-<TEI source="fe_schoenfeld" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<TEI source="fe_schoenfeld" xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc>
@@ -13,7 +14,8 @@
             </respStmt>
             <respStmt>
                <resp when="2025">Encoding:</resp>
-               <persName>SG, IB</persName><persName/>
+               <persName>SG, IB, CH</persName>
+               <persName/>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -30,7 +32,8 @@
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Lodi</placeName><date type="issued" when="1161-07-25">(1161) Jul. 25</date>
+               <issued><placeName>Lodi</placeName><date type="issued" when="1161-07-25">(1161) Jul.
+                     25</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
@@ -45,8 +48,19 @@
             </diploDesc>
          </sourceDesc>
       </fileDesc>
-      
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+            xmlns:as="http://www.w3.org/ns/activitystreams#"
+            xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+            xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
+            xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
+            xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+            xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+            xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
          <langUsage>
             <language ident="ger">German</language>
             <language ident="lat">Latin</language>
@@ -58,14 +72,26 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p><persName>Viktor IV.</persName> gewährt <persName>Hillin, Erzbischof von Trier und Legat des Apostolischen Stuhls</persName>, folgende Rechte:<list>
-                  <item>Bestätigung des mit dem <persName>Propst</persName>, <persName>Dekan</persName> und <orgName>Kapitel der Wormser Domkirche</orgName> durch Vogt <persName>Folmar [I.], Graf von Blies-Kastel</persName>, vorgenommenen Tauschs von zwei Hofstätten und <rs>19 Hufen seines Hofes Partenheim</rs> gegen die Burg Nassau und ihre Hofstelle, die durch <persName>Simon [I.], Graf von Saarbrücken</persName>, mit Zustimmung und in Gegenwart des <persName>Bischofs von Worms</persName> übergeben worden war.</item><item>Perturbationsverbot</item><item>Schlussformel: Sanctio negativa</item>
+            <p><persName>Viktor IV.</persName> gewährt <persName>Hillin, Erzbischof von Trier und
+                  Legat des Apostolischen Stuhls</persName>, folgende Rechte:<list>
+                  <item>Bestätigung des mit dem <persName>Propst</persName>,
+                        <persName>Dekan</persName> und <orgName>Kapitel der Wormser
+                        Domkirche</orgName> durch Vogt <persName>Folmar [I.], Graf von
+                        Blies-Kastel</persName>, vorgenommenen Tauschs von zwei Hofstätten und
+                        <rs>19 Hufen seines Hofes Partenheim</rs> gegen die Burg Nassau und ihre
+                     Hofstelle, die durch <persName>Simon [I.], Graf von Saarbrücken</persName>, mit
+                     Zustimmung und in Gegenwart des <persName>Bischofs von Worms</persName>
+                     übergeben worden war.</item>
+                  <item>Perturbationsverbot</item>
+                  <item>Schlussformel: Sanctio negativa</item>
                </list></p>
          </div>
 
          <div>
             <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">Que a personis ecclesiasticis rationabili </diploPart></div>
+            <diploPart type="incipit" xml:lang="lat">Que a personis ecclesiasticis
+               rationabili </diploPart>
+         </div>
          <div>
             <head>Subscriptiones:</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
@@ -80,7 +106,8 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">Koblenz, Landeshauptarchiv, Best. 1 A, Nr. 72; Digitalisat: https://apertus.rlp.de/index.php?PLINK=1&amp;ID=d67c2e43-d958-41eb-b7e3-d89424d16f3d</bibl>
+                  <bibl type="original">Koblenz, Landeshauptarchiv, Best. 1 A, Nr. 72; Digitalisat:
+                     https://apertus.rlp.de/index.php?PLINK=1&amp;ID=d67c2e43-d958-41eb-b7e3-d89424d16f3d</bibl>
                   <bibl type="msCopy">[handschriftliche Kopie]</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
@@ -104,20 +131,30 @@
             <head>Editionen</head>
             <listBibl>
                <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 283–284, Nr. V54</bibl>
-               <bibl>Günther, CD Rhein-Mosel 1, S. 366, Nr. 170</bibl><bibl>Beyer, UB Mittelrhein 1, S. 687, Nr. 626</bibl>
+               <bibl>Günther, CD Rhein-Mosel 1, S. 366, Nr. 170</bibl>
+               <bibl>Beyer, UB Mittelrhein 1, S. 687, Nr. 626</bibl>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head>
             <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>Germ. Pont. 10, S. 132, Nr. 304</bibl><bibl>Germ. Pont. 3, S. 153, Nr. 4 (Anm.)</bibl><bibl>Beyer, UB Mittelrhein 2, S. 716, Nr. 682</bibl><bibl>Goerz, Rgg. Mittelrhein 2, S. 43, Nr. 195</bibl><bibl>Wauters, Table chronologique 2, S. 430</bibl><bibl>Mötsch, Balduineen, S. 109, Nr. 146</bibl><bibl>Mayr, Pontifikat, S. 112, Nr. 40</bibl><bibl>Bischoff, Urkundenformate, S. 141</bibl>
+               <bibl>Germ. Pont. 10, S. 132, Nr. 304</bibl>
+               <bibl>Germ. Pont. 3, S. 153, Nr. 4 (Anm.)</bibl>
+               <bibl>Beyer, UB Mittelrhein 2, S. 716, Nr. 682</bibl>
+               <bibl>Goerz, Rgg. Mittelrhein 2, S. 43, Nr. 195</bibl>
+               <bibl>Wauters, Table chronologique 2, S. 430</bibl>
+               <bibl>Mötsch, Balduineen, S. 109, Nr. 146</bibl>
+               <bibl>Mayr, Pontifikat, S. 112, Nr. 40</bibl>
+               <bibl>Bischoff, Urkundenformate, S. 141</bibl>
             </listBibl>
          </div>
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Dorsualvermerk (s. Link zum Original): "Scripta est. Confirmatio dictoris pp. IV ... 2 audire" muss lauten "confirmatio victoris pp. IV". </p><p>Bulle anhängend an gelben Seidenfäden.</p>
+               <p>Dorsualvermerk (s. Link zum Original): <diploPart>"Scripta est. Confirmatio dictoris pp. IV
+                     ... 2 audire" muss lauten "confirmatio victoris pp. IV".</diploPart></p>
+               <p>Bulle anhängend an gelben Seidenfäden.</p>
             </diploDesc>
          </div>
          <div type="commentary">
@@ -127,12 +164,43 @@
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
-            <listBibl><bibl>Gensicke, Westerwald, S. 158.</bibl>
+            <listBibl>
+               <bibl>Gensicke, Westerwald, S. 158.</bibl>
             </listBibl>
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p/><p>Identität des erwähnten Bischofs von Worms näher bestimmbar?</p><p/><p>Nach Endkorrektur löschen:</p><p/><p>Victor episcopus servus servorum dei. Venerabili fratri H[illino]Treverensi archiepiscopo et apostolice sedis legato salutem et apostolicam benedictionem. Que apersonis ecclesiasticis rationabili providentia et sapienti dispensatione facta esse noscuntur, nosconvenit confirmare et, ne in posterum, quod utiliter et provide factum est, dissolvatur, apos-tolice sedis auctoritate munire. Eapropter, venerabilis in domino frater, concanbium et commu-tationem, quam cum preposito, decano et maioris Warmaciensis ecclesie capitulo pro utilitatecommisse tibi ecclesie rationabiliter fecisse dinosceris, auctoritate apostolica confirmamus. In quoquidem concambio, sicut in tuis et predicti capituli scriptis continetur, decem et VIIII mansosin villa tua Parthenheim et duas areas, que duodecim libras tunc temporis annuatim solvebant,excepta decima et advocatia per manum Folmari comitis de castele eiusdem curie advocati pre-fatis filiis nostris, preposito decano et ceteris canonicis maioris Warmaciensis ecclesie et per eossuis successoribus legitime tradidisti et pro his castrum de Nassov et curiam adiacentem ab ipsisper manum Symonis, comitis de Salabrug (!), iamdicte Warmaciensi ecclesie liberi advocatieorum episcopo presente et consentiente legitima traditione recepisti. Predictum ergo castrumet curiam cum omni integritate sua a sepedicto capitulo tibi et per te Treverensi ecclesie traditapresenti pagina confirmantes, statuimus, ut nulli de cetero liceat te seu commissam tibi ecclesiamin predictis bonis gravare aut aliquibus molestiis temere perturbare. Si qua igitur ecclesiasticasecularisve persona, hanc nostram confirmationem sciens, contra eam venire presumpserit, nisi,secundo tertiove commonita, presumptionem suam digne correxerit, dei omnipotentis et beato-rum Petri et Pauli apostolorum eius et nostram indignationem incurrat et in extremo examinedistricte ultioni subiaceat.Datierung: Datum Laude, VIII kalendas augusti</p><p/><p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter"
+            <p/>
+            <p>Identität des erwähnten Bischofs von Worms näher bestimmbar?</p>
+            <p/>
+            <p>Nach Endkorrektur löschen:</p>
+            <p/>
+            <p>Victor episcopus servus servorum dei. Venerabili fratri H[illino]Treverensi
+               archiepiscopo et apostolice sedis legato salutem et apostolicam benedictionem. Que
+               apersonis ecclesiasticis rationabili providentia et sapienti dispensatione facta esse
+               noscuntur, nosconvenit confirmare et, ne in posterum, quod utiliter et provide factum
+               est, dissolvatur, apos-tolice sedis auctoritate munire. Eapropter, venerabilis in
+               domino frater, concanbium et commu-tationem, quam cum preposito, decano et maioris
+               Warmaciensis ecclesie capitulo pro utilitatecommisse tibi ecclesie rationabiliter
+               fecisse dinosceris, auctoritate apostolica confirmamus. In quoquidem concambio, sicut
+               in tuis et predicti capituli scriptis continetur, decem et VIIII mansosin villa tua
+               Parthenheim et duas areas, que duodecim libras tunc temporis annuatim
+               solvebant,excepta decima et advocatia per manum Folmari comitis de castele eiusdem
+               curie advocati pre-fatis filiis nostris, preposito decano et ceteris canonicis
+               maioris Warmaciensis ecclesie et per eossuis successoribus legitime tradidisti et pro
+               his castrum de Nassov et curiam adiacentem ab ipsisper manum Symonis, comitis de
+               Salabrug (!), iamdicte Warmaciensi ecclesie liberi advocatieorum episcopo presente et
+               consentiente legitima traditione recepisti. Predictum ergo castrumet curiam cum omni
+               integritate sua a sepedicto capitulo tibi et per te Treverensi ecclesie
+               traditapresenti pagina confirmantes, statuimus, ut nulli de cetero liceat te seu
+               commissam tibi ecclesiamin predictis bonis gravare aut aliquibus molestiis temere
+               perturbare. Si qua igitur ecclesiasticasecularisve persona, hanc nostram
+               confirmationem sciens, contra eam venire presumpserit, nisi,secundo tertiove
+               commonita, presumptionem suam digne correxerit, dei omnipotentis et beato-rum Petri
+               et Pauli apostolorum eius et nostram indignationem incurrat et in extremo
+               examinedistricte ultioni subiaceat.Datierung: Datum Laude, VIII kalendas augusti</p>
+            <p/>
+            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter"
                lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt
                werden]</p>
          </div>

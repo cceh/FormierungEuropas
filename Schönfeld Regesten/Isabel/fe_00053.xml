@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
-<TEI source="fe_schoenfeld" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<TEI source="fe_schoenfeld" xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc>
@@ -13,7 +14,8 @@
             </respStmt>
             <respStmt>
                <resp when="2025">Encoding:</resp>
-               <persName>SG, IB</persName><persName/>
+               <persName>SG, IB, CH</persName>
+               <persName/>
                <persName/>
             </respStmt>
          </titleStmt>
@@ -31,7 +33,8 @@
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Lodi</placeName><date type="issued" when="1161-07-25">1161 Jul. 25</date>
+               <issued><placeName>Lodi</placeName><date type="issued" when="1161-07-25">1161 Jul.
+                     25</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
@@ -46,8 +49,19 @@
          </sourceDesc>
       </fileDesc>
 
-      
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+            xmlns:as="http://www.w3.org/ns/activitystreams#"
+            xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+            xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
+            xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
+            xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+            xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+            xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
          <langUsage>
             <language ident="ger">German</language>
             <language ident="lat">Latin</language>
@@ -59,15 +73,47 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-<p><persName>Viktor IV.</persName> gewährt und bestätigt auf dessen Bitten <persName>Hillin, Erzbischof von Trier,</persName> und seinen Nachfolgern im Hinblick auf dessen Treue zu und Verdienste um die Kirche und Viktor selbst folgende Rechte und Besitzungen:</p><p><list>
-      <item>Aufnahme seiner Person und der Trierer Kirche in den Apostolischen Schutz</item><item>alle von Viktors Amtsvorgängern <persName>Johannes XIII.</persName>, <persName>Benedikt VII.</persName>, <persName>Leo IX.</persName>, <persName>Viktor II.,</persName> <persName>Innozenz II.</persName>, <persName>Eugen III. </persName>und <persName>Hadrian IV.</persName> oder von Kaisern oder Königen gewährten Würden, Ehren und Freiheiten</item><item>Bestätigung aller derzeitigen und künftigen Besitzungen und Güter</item><item>die von <persName>Otto [I. von Salm], Graf von Rheineck und Pfalzgraf bei
-                  Rhein</persName>, und seiner Gattin <persName>Gertrud [von Northeim], Pfalzgräfin bei Rhein</persName> übertragene Burg Treis (Tris) mit Bann und Zubehörungen</item><item>die Freiheit vom Spolienrecht gemäß dem Konzil von
-                  <placeName>Chalkedon</placeName></item><item>den Gebrauch des <rs><rs>Prachtrosses</rs></rs> bei den Stationsgottesdiensten und das Vortragen des K<rs>reuzes</rs></item><item>den Besitz der <orgName>Benediktinerabtei St. Maximin</orgName> (D. Trier) wie von <persName>König Konrad [III.]</persName> und Hillins Vorgänger <persName>Albero, Erzbischof von Trier</persName> gewährt</item><item>alle von <persName>Kaiser Friedrich I.</persName>, gewährten und bestätigten Rechte und Besitzungen: die Abtei St. Maximin für Hillins militärische Dienste; die Burg Tris mit Zubehörungen, Bann- und Gerichtsgewalt; alle Burgen, Dörfer und Besitzungen des Bistums Trier</item><item>den von König Konrad [III.] auf Anraten <persName>Bernhards, Abt der Zisterzienserabtei Clairvaux</persName>, und der <orgName>deutschen Fürsten</orgName> ausgehandelten Vergleich zwischen Albero, Erzbischof von Trier, und <persName>Heinrich, Graf von Namur</persName>.</item><item>Perturbationsverbot</item><item>Schlussformeln: Sanctio negativa, Sanctio positiva</item>
-  </list></p></div>
+            <p><persName>Viktor IV.</persName> gewährt und bestätigt auf dessen Bitten
+                  <persName>Hillin, Erzbischof von Trier,</persName> und seinen Nachfolgern im
+               Hinblick auf dessen Treue zu und Verdienste um die Kirche und Viktor selbst folgende
+               Rechte und Besitzungen:</p>
+            <p><list>
+                  <item>Aufnahme seiner Person und der Trierer Kirche in den Apostolischen
+                     Schutz</item>
+                  <item>alle von Viktors Amtsvorgängern <persName>Johannes XIII.</persName>,
+                        <persName>Benedikt VII.</persName>, <persName>Leo IX.</persName>,
+                        <persName>Viktor II.</persName>, <persName>Innozenz II.</persName>,
+                        <persName>Eugen III. </persName>und <persName>Hadrian IV.</persName> oder
+                     von Kaisern oder Königen gewährten Würden, Ehren und Freiheiten</item>
+                  <item>Bestätigung aller derzeitigen und künftigen Besitzungen und Güter</item>
+                  <item>die von <persName>Otto [I. von Salm], Graf von Rheineck und Pfalzgraf bei
+                        Rhein</persName>, und seiner Gattin <persName>Gertrud [von Northeim],
+                        Pfalzgräfin bei Rhein,</persName> übertragene Burg Treis (Tris) mit Bann und
+                     Zubehörungen</item>
+                  <item>die Freiheit vom Spolienrecht gemäß dem Konzil von
+                        <placeName>Chalkedon</placeName></item>
+                  <item>den Gebrauch des <rs><rs>Prachtrosses</rs></rs> bei den
+                     Stationsgottesdiensten und das Vortragen des <rs>Kreuzes</rs></item>
+                  <item>den Besitz der <orgName>Benediktinerabtei St. Maximin</orgName> (D. Trier)
+                     wie von <persName>König Konrad [III.]</persName> und Hillins Vorgänger
+                        <persName>Albero, Erzbischof von Trier,</persName> gewährt</item>
+                  <item>alle von <persName>Kaiser Friedrich I.</persName> gewährten und bestätigten
+                     Rechte und Besitzungen: die Abtei St. Maximin für Hillins militärische Dienste;
+                     die Burg Tris mit Zubehörungen, Bann- und Gerichtsgewalt; alle Burgen, Dörfer
+                     und Besitzungen des Bistums Trier</item>
+                  <item>den von König Konrad [III.] auf Anraten <persName>Bernhards, Abt der
+                        Zisterzienserabtei Clairvaux</persName>, und der <orgName>deutschen
+                        Fürsten</orgName> ausgehandelten Vergleich zwischen Albero, Erzbischof von
+                     Trier, und <persName>Heinrich, Graf von Namur</persName>.</item>
+                  <item>Perturbationsverbot</item>
+                  <item>Schlussformeln: Sanctio negativa, Sanctio positiva</item>
+               </list></p>
+         </div>
 
          <div>
             <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">In eminenti sedis apostolicę specula</diploPart>
+            <diploPart type="incipit" xml:lang="lat">In eminenti sedis apostolicę
+               specula</diploPart>
          </div>
          <div>
             <head>Subscriptiones:</head>
@@ -88,13 +134,14 @@
             <head>Datatio:</head>
             <diploPart type="datatio">Dat(um) Laude p(er) manu(m) <persName>Gerardi sanctę Romanę
                   ecclesię diaconus cardinalis</persName>, VIII kal(endas) aug.(usti) indictione
-               VIIII. Incarnationis d(omi)nice anno. M.C.L.X.I. Pontificatus uero do(m)pni Uictoris. pp. IIII. anno s(e)c(un)do.</diploPart>
+               VIIII. Incarnationis d(omi)nice anno. M.C.L.X.I. Pontificatus uero do(m)pni Uictoris.
+               pp. IIII. anno s(e)c(un)do.</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">Original, Koblenz, LHA , Best. 1 A, Nr. 73; Digitalisat:
+                  <bibl type="original">Original, Koblenz, Landeshauptarchiv , Best. 1 A, Nr. 73; Digitalisat:
                      https://apertus.rlp.de/index.php?PLINK=1&amp;ID=c1b94ec7-822e-4265-98f4-111105a19c5e</bibl>
                   <bibl type="msCopy">[handschriftliche Kopie]</bibl>
                   <bibl type="print">[Druck]</bibl>
@@ -119,18 +166,23 @@
             <head>Editionen</head>
             <listBibl>
                <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 281–283, Nr. V53</bibl>
-               <bibl>Wampach, UB Luxemburg 1, S. 648, Nr. 471</bibl><bibl>Würdtwein, Nova
-                  subsidia 9, S. 204, Nr. 127</bibl><bibl>Beyer, UB Mittelrhein 1, S. 685-686, Nr. 624 (Ausz.) bzw. S. 685, Nr. 625 (Ausz.)</bibl>
+               <bibl>Wampach, UB Luxemburg 1, S. 648, Nr. 471</bibl>
+               <bibl>Würdtwein, Nova subsidia 9, S. 204, Nr. 127</bibl>
+               <bibl>Beyer, UB Mittelrhein 1, S. 685-686, Nr. 624 (Ausz.) bzw. S. 685, Nr. 625
+                  (Ausz.)</bibl>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head>
             <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>Germ. Pont. 10, S. 131, Nr. 302 bzw. S. 214, Nr. 46</bibl><bibl>Beyer, UB Mittelrhein 2, S. 716, Nr. 680</bibl>
+               <bibl>Germ. Pont. 10, S. 131, Nr. 302 bzw. S. 214, Nr. 46</bibl>
+               <bibl>Beyer, UB Mittelrhein 2, S. 716, Nr. 680</bibl>
                <bibl>Wauters, Table chronologique 2, S. 430</bibl>
-               <bibl>Goerz, Rgg. Mittelrhein 2, S. 55, Nr. 193</bibl><bibl>Mötsch, Balduineen, S. 109, Nr. 145</bibl>
-               <bibl>Mayr, Pontifikat, S. 112, Nr. 39 bzw. S. 113, Nr. 41 (geht von zwei separaten Überlieferungen aus; widerlegt in Germ. Pont. 10, S. 131, Nr. 302)</bibl>
+               <bibl>Goerz, Rgg. Mittelrhein 2, S. 55, Nr. 193</bibl>
+               <bibl>Mötsch, Balduineen, S. 109, Nr. 145</bibl>
+               <bibl>Mayr, Pontifikat, S. 112, Nr. 39 bzw. S. 113, Nr. 41 (geht von zwei separaten
+                  Überlieferungen aus; widerlegt in Germ. Pont. 10, S. 131, Nr. 302)</bibl>
                <bibl>Bischoff, Urkundenformate, S. 141</bibl>
             </listBibl>
          </div>
@@ -138,31 +190,131 @@
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
                <p/>
-               <p>Rota-Inschrift: <diploPart>sanctus Petrus|sanctus Paulus|Vic papa|tor IIII</diploPart></p>
-               <p>Rota-Devise: <diploPart>Tu es gloria mea, tu es susceptor meus, tu exaltas caput meum domine.</diploPart></p><p><lb/>Kein Siegel erhalten.</p>
+               <p>Rota-Inschrift: <diploPart>sanctus Petrus|sanctus Paulus|Vic papa|tor
+                     IIII</diploPart></p>
+               <p>Rota-Devise: <diploPart>Tu es gloria mea, tu es susceptor meus, tu exaltas caput
+                     meum domine.</diploPart></p>
+               <p><lb/>Kein Siegel erhalten.</p>
             </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p/><p>Die Abtei St. Maximin bei Trier war auch Teil des Konflikts zwischen Graf Heinrich von
-               Namur und Erzbischof Albero von Trier. Nachdem Heinrich schließlich nach der Einigung die
-               Absolution empfangen und einen Treueeid abgelegt hatte, erhielt er mit Ausnahme der
-               Burg Manderscheid (Mandresheit) alle seine Lehen zurück und gelobte, den Ort
-               Rudolfsberg (Rudolfvisberk) nicht wieder zu befestigen.</p>
-            <p>Das Originaldiplom Friedrichs I. wurde auf Bitten Papst Hadrians IV. gewährt: Koblenz, Landeshauptarchiv, Bestand 1A, Nr.
-               67 (6. Januar 1157). Vgl. auch RI IV,2,1 Nr. 431. Bestätigungen früherer
-               Privilegierungen Hillins von Trier durch die zwei direkten Vorgänger Alexanders III.
-               sind: Koblenz, Landeshauptarchiv, Bestand 1A, Nr. 62 (Eugen III., 27. Mai 1152; JL
-               9582) und ebd., Bestand 1A, Nr. 64 bzw. 66 (Hadrian IV., 15. Juni 1155 bzw. 21. Mai
-               1157; JL 10078 bzw. 10279). Digitalisate aller Urkunden unter:
-               https://apertus.rlp.de/.</p>
+            <p/>
+            <p>Die Abtei St. Maximin bei Trier war auch Teil des Konflikts zwischen Graf Heinrich
+               von Namur und Erzbischof Albero von Trier. Nachdem Heinrich schließlich nach der
+               Einigung die Absolution empfangen und einen Treueeid abgelegt hatte, erhielt er mit
+               Ausnahme der Burg Manderscheid (Mandresheit) alle seine Lehen zurück und gelobte, den
+               Ort Rudolfsberg (Rudolfvisberk) nicht wieder zu befestigen.</p>
+            <p>Das Originaldiplom Friedrichs I. wurde auf Bitten Papst Hadrians IV. gewährt:
+               Koblenz, Landeshauptarchiv, Bestand 1A, Nr. 67 (6. Januar 1157). Vgl. auch RI IV,2,1
+               Nr. 431. Bestätigungen früherer Privilegierungen Hillins von Trier durch die zwei
+               direkten Vorgänger Alexanders III. sind: Koblenz, Landeshauptarchiv, Bestand 1A, Nr.
+               62 (Eugen III., 27. Mai 1152; JL 9582) und ebd., Bestand 1A, Nr. 64 bzw. 66 (Hadrian
+               IV., 15. Juni 1155 bzw. 21. Mai 1157; JL 10078 bzw. 10279). Digitalisate aller
+               Urkunden unter: https://apertus.rlp.de/.</p>
          </div>
          <div type="bibliography">
-            <listBibl> <bibl/></listBibl>
+            <listBibl>
+               <bibl/>
+            </listBibl>
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p/><p>@PL: Sollen Rota-Inschrift und Devise aufgeführt werden? (IB)</p><p/><p>Nach Endkorrektur löschen:</p><p>Victor episcopus servus servorum dei. Venerabili fratri HillinoTreverensi archiepiscopo eiusque successoribus canonice substituendis in perpetuum. In eminenti sedisapostolicę specula, disponente domino, constituti fratres nostros episcopos aliosque prelatos sinceradebemus caritate diligere et in suo iure attentius confovere. Inter ceteros autem ecclesiarum prelatoseos nos convenit propensiori dilectionis affectu complecti et exhibitione maioris gratię honorare, quoshonestate et religione cognoscimus prepollere et quos ferventiorem devotionem atque fidelitatem sacro-sanctę Romanę ecclesię in suis necessitatibus recolimus constanter exhibuisse. Eapropter, venerabilisin domino frater Hilline archiepiscope, devotionis tue sinceritatem, quam erga beatum Petrum et nosipsos habere dinosceris, sollicitius attendentes, considerantes etiam, quanta sedi apostolicę obsequiaprestiteris et quam devote atque fideliter in oportunitatibus suis semper ei curaveris adhesisse, per-sonam tuam et commissam tue gubernationi ecclesiam intima in domino caritate complectimur ettuis velut nostri karissimi fratris postulationibus animo libenti annuere cupimus. Quocirca iustispetitionibus tuis grato concurrentes assensu personam tuam et Treverensem ecclesiam, cui, deoauctore, presides, sub beati Petri et nostra protectione speciali quadam prerogativa esse censemus etdignitates omnes seu honores ac libertates ipsius a predecessoribus nostris lohanne XIII, BenedictoVII, Leone VIIII, Victore II, lnnocentio, Eugenio et Adriano felicis memorię Romanis pontificibusaut imperatoribus vel regibus eidem ecclesię concessas tibi tuisque successoribus auctoritate apostolicaconfirmamus et presentis scripti privilegio communimus. Statuentes, ut, quascumque possessiones,quecumque bona eadem ecclesia in presentiarum iuste et canonice possidet aut in futurum concessione pontificum, largitione regum vel principum, oblatione fidelium seu aliis iustis modis, prestante domino,poterit adipisci, firma tibi tuisque successoribus et illibata permaneant et nominatim castrum Trisappellatum cum banno et appendiciis suis, quod nobilis vir comes Otto assensu et voluntate uxoris suę Gertrudis palatine comitissę predicte ecclesię rationabiliter noscitur contulisse. Sanccimus etiam,ut iuxta, quod in sacro Calcedonensi concilio statutum est, nulli regi vel imperatori seu advocato,nulli ecclesiasticę seculari[…]ve (!) persone liceat decedentium archiepiscoporum seu presbiterorumvel reliquorum clericorum Treverensis ecclesię bona persuadere seu diripere, set potius hęc ipsa adopus eligendi antistitus iuxta dispositionem yconomi et clericorum libere conserventur. Ob maioremquoque reverentiam et decorem commisse tibi ecclesię tam de equitando per stationes cum Nacco,quam etiam de cruce ante te deferenda, quod a predecessoribus nostris apostolicę memorię viris Tre-verensibus archiepiscopis est concessum et autenticis privilegiis roboratum, nos quoque tibi apostolicaauctoritate concedimus. Illud preterea viris, quod illustris memorie Conradus Romanorum rex siveipsius antecessores in abbatia sancti Maximini habuisse noscuntur, quod predecessorum tuo bonerecordationis Alberoni et per eum Treverensis ecclesię ab eodem Conrado collatum seu restitutum est,quemadmodum in eiusdem regis scripto de restitutione et confirmatione rationabiliter continetur,tibi tuisque successoribus confirmamus. Carissimus vero filius noster Fredericus illustris Romanorumimperator pro magno atque honesto servitio, quod sibi et universo regno in expeditione laudabiliterac fideliter contulisti, eandem abbatiam sancti Maximini cum omni iure proprietatis habendam,ordinandam et ea integritate et usu possidendam, quo predeccessores sui eam habuisse noscunturet Treverensis ecclesię suis privilegiis confirmasse recognoscens ipsam abbatiam ad tuam ecclesiamrationabiliter pertinere et iuris esse omnes de ea calumpniam, omnes querimonias futuris rescindenstibi tuisque successoribus, sicut in scripto eius continetur, concessit atque in perpetuum confirmavit.Predictum quoque castrum, quod Tris dicitur, cum omni banno et districto suo et cum omnibusad ipsum pertinentibus, omnes similiter calumpnias et omnes querimonias, quas de eodem castroet pertinentiis suis adversus Treverensem ecclesiam et personam tuam videbatur habere, omninorescindens tuam et eiusdem ecclesię iustitia videns et recognoscens tibi tuisque successoribus penitusrefutavit suoque privilegio confirmavit. Omnia etiam castra, omnes villas atque possessiones adtuum episcopatum pertinentes eo modo et tenore, quo usque ad tempora tua ecclesia Treverensispossedit ac possidet, tibi et successoribus tuis libere in perpetuum habenda et possidenda concessit etauctoritatis sive munimine roboravit. Nos quoque ecclesię tuę speciali sacrosanctę Romanę ecclesięfilię iura sua illibata volentes et integra conservare, quicquid predictus filius noster FredericusRomanorum imperator, sicut superius dictum est, et quicquid predecessores sui reges seu etiamimperatores tibi et Treverensi ecclesię concesserunt et confirmaverunt, apostolicę sedis auctoritateratum esse decernimus et tam tibi quam successoribus tuis presenti privilegio in perpetuum con-firmamus. Pacem quoque atque concordia sive transactionem, quę inter predictum predeccessoremtuum et nobilem virum Henricum Namucensis comitem in presentia memorati regis Conradi perbonę memorię Bernardum quondam Clarevallensem abbatem et principes Teutonici regni ratio-nabili providentia, sicut inferius continetur, facta est et eiusdem regis scripto confirmata ratam etinconvulsam futuris temporibus decernimus permanere. Comes siquidem antedicto archiepiscopoper omnia satisfaciens ei fidelitatem iterato iuravit atque de predicta abbatia eidem archiepiscopoomnem calumpnias omnimodo refutavit. Sic itaque absolutionem ab archiepiscopo imperavit et excepto castro de Mandresheit cum suis pertinentiis beneficium suum cum integritate recepit. Iuravitetiam idem comes, quod Rudolvisberk neque reedificaret neque aliquem reedificare iuvaret. Quodsi adversus ista presumeret et infra decem et octo septimanas congruam emendationem exhibereminime vellet, terram suam ita in manu archiepiscopi obligavit, ut beneficiati deincens (!) beneficiasua ex illa terra ab archiepiscopo libere reciperent atque tenerent. Decernimus ergo, ut nulli omninohominum liceat supradictam ecclesiam temere perturbare aut eius possessiones auferre vel ablatasretinere, minuere seu quibuslibet vexationibus fatigare, set illibata omnia et integra conserventureorum, pro quorum gubernatione et sustentatione concessa sunt, usibus omnimodis profutura. Salvain omnibus apostolicę sedis auctoriate. Si qua igitur in futurum ecclesiastica secularisve persona,hanc nostrę constitutionis paginam sciens, contra eam temere venire temptaverit, secundo tertiovecommonita, nisi presumptionem suam congrua satisfactione correxerit, potestatis honorisque sui dig-nitate careat reamque se divino iudicio existere de perpetrata iniquitate cognoscat et a sacratissimocorpore ac sanguine dei et domini redemptoris nostri Ihesu Christi aliena fiat atque in extremoexamine districte ultioni subiaceat. Cunctis autem eidem loco sua iura servantibus sit pax domininostri Ihesu Christi, quatinus et hic fructum bone actionis percipiant et apud districtum iudicempremia eternę pacis inveniant. Amen, Amen, Amen.</p><p>[eventuell ##FE## Querverweise einfügen.]</p>
+            <p/>
+            <p>@PL: Sollen Rota-Inschrift und Devise aufgeführt werden? (IB)</p>
+            <p/>
+            <p>Nach Endkorrektur löschen:</p>
+            <p>Victor episcopus servus servorum dei. Venerabili fratri HillinoTreverensi
+               archiepiscopo eiusque successoribus canonice substituendis in perpetuum. In eminenti
+               sedisapostolicę specula, disponente domino, constituti fratres nostros episcopos
+               aliosque prelatos sinceradebemus caritate diligere et in suo iure attentius
+               confovere. Inter ceteros autem ecclesiarum prelatoseos nos convenit propensiori
+               dilectionis affectu complecti et exhibitione maioris gratię honorare, quoshonestate
+               et religione cognoscimus prepollere et quos ferventiorem devotionem atque fidelitatem
+               sacro-sanctę Romanę ecclesię in suis necessitatibus recolimus constanter exhibuisse.
+               Eapropter, venerabilisin domino frater Hilline archiepiscope, devotionis tue
+               sinceritatem, quam erga beatum Petrum et nosipsos habere dinosceris, sollicitius
+               attendentes, considerantes etiam, quanta sedi apostolicę obsequiaprestiteris et quam
+               devote atque fideliter in oportunitatibus suis semper ei curaveris adhesisse,
+               per-sonam tuam et commissam tue gubernationi ecclesiam intima in domino caritate
+               complectimur ettuis velut nostri karissimi fratris postulationibus animo libenti
+               annuere cupimus. Quocirca iustispetitionibus tuis grato concurrentes assensu personam
+               tuam et Treverensem ecclesiam, cui, deoauctore, presides, sub beati Petri et nostra
+               protectione speciali quadam prerogativa esse censemus etdignitates omnes seu honores
+               ac libertates ipsius a predecessoribus nostris lohanne XIII, BenedictoVII, Leone
+               VIIII, Victore II, lnnocentio, Eugenio et Adriano felicis memorię Romanis
+               pontificibusaut imperatoribus vel regibus eidem ecclesię concessas tibi tuisque
+               successoribus auctoritate apostolicaconfirmamus et presentis scripti privilegio
+               communimus. Statuentes, ut, quascumque possessiones,quecumque bona eadem ecclesia in
+               presentiarum iuste et canonice possidet aut in futurum concessione pontificum,
+               largitione regum vel principum, oblatione fidelium seu aliis iustis modis, prestante
+               domino,poterit adipisci, firma tibi tuisque successoribus et illibata permaneant et
+               nominatim castrum Trisappellatum cum banno et appendiciis suis, quod nobilis vir
+               comes Otto assensu et voluntate uxoris suę Gertrudis palatine comitissę predicte
+               ecclesię rationabiliter noscitur contulisse. Sanccimus etiam,ut iuxta, quod in sacro
+               Calcedonensi concilio statutum est, nulli regi vel imperatori seu advocato,nulli
+               ecclesiasticę seculari[…]ve (!) persone liceat decedentium archiepiscoporum seu
+               presbiterorumvel reliquorum clericorum Treverensis ecclesię bona persuadere seu
+               diripere, set potius hęc ipsa adopus eligendi antistitus iuxta dispositionem yconomi
+               et clericorum libere conserventur. Ob maioremquoque reverentiam et decorem commisse
+               tibi ecclesię tam de equitando per stationes cum Nacco,quam etiam de cruce ante te
+               deferenda, quod a predecessoribus nostris apostolicę memorię viris Tre-verensibus
+               archiepiscopis est concessum et autenticis privilegiis roboratum, nos quoque tibi
+               apostolicaauctoritate concedimus. Illud preterea viris, quod illustris memorie
+               Conradus Romanorum rex siveipsius antecessores in abbatia sancti Maximini habuisse
+               noscuntur, quod predecessorum tuo bonerecordationis Alberoni et per eum Treverensis
+               ecclesię ab eodem Conrado collatum seu restitutum est,quemadmodum in eiusdem regis
+               scripto de restitutione et confirmatione rationabiliter continetur,tibi tuisque
+               successoribus confirmamus. Carissimus vero filius noster Fredericus illustris
+               Romanorumimperator pro magno atque honesto servitio, quod sibi et universo regno in
+               expeditione laudabiliterac fideliter contulisti, eandem abbatiam sancti Maximini cum
+               omni iure proprietatis habendam,ordinandam et ea integritate et usu possidendam, quo
+               predeccessores sui eam habuisse noscunturet Treverensis ecclesię suis privilegiis
+               confirmasse recognoscens ipsam abbatiam ad tuam ecclesiamrationabiliter pertinere et
+               iuris esse omnes de ea calumpniam, omnes querimonias futuris rescindenstibi tuisque
+               successoribus, sicut in scripto eius continetur, concessit atque in perpetuum
+               confirmavit.Predictum quoque castrum, quod Tris dicitur, cum omni banno et districto
+               suo et cum omnibusad ipsum pertinentibus, omnes similiter calumpnias et omnes
+               querimonias, quas de eodem castroet pertinentiis suis adversus Treverensem ecclesiam
+               et personam tuam videbatur habere, omninorescindens tuam et eiusdem ecclesię iustitia
+               videns et recognoscens tibi tuisque successoribus penitusrefutavit suoque privilegio
+               confirmavit. Omnia etiam castra, omnes villas atque possessiones adtuum episcopatum
+               pertinentes eo modo et tenore, quo usque ad tempora tua ecclesia Treverensispossedit
+               ac possidet, tibi et successoribus tuis libere in perpetuum habenda et possidenda
+               concessit etauctoritatis sive munimine roboravit. Nos quoque ecclesię tuę speciali
+               sacrosanctę Romanę ecclesięfilię iura sua illibata volentes et integra conservare,
+               quicquid predictus filius noster FredericusRomanorum imperator, sicut superius dictum
+               est, et quicquid predecessores sui reges seu etiamimperatores tibi et Treverensi
+               ecclesię concesserunt et confirmaverunt, apostolicę sedis auctoritateratum esse
+               decernimus et tam tibi quam successoribus tuis presenti privilegio in perpetuum
+               con-firmamus. Pacem quoque atque concordia sive transactionem, quę inter predictum
+               predeccessoremtuum et nobilem virum Henricum Namucensis comitem in presentia memorati
+               regis Conradi perbonę memorię Bernardum quondam Clarevallensem abbatem et principes
+               Teutonici regni ratio-nabili providentia, sicut inferius continetur, facta est et
+               eiusdem regis scripto confirmata ratam etinconvulsam futuris temporibus decernimus
+               permanere. Comes siquidem antedicto archiepiscopoper omnia satisfaciens ei
+               fidelitatem iterato iuravit atque de predicta abbatia eidem archiepiscopoomnem
+               calumpnias omnimodo refutavit. Sic itaque absolutionem ab archiepiscopo imperavit et
+               excepto castro de Mandresheit cum suis pertinentiis beneficium suum cum integritate
+               recepit. Iuravitetiam idem comes, quod Rudolvisberk neque reedificaret neque aliquem
+               reedificare iuvaret. Quodsi adversus ista presumeret et infra decem et octo
+               septimanas congruam emendationem exhibereminime vellet, terram suam ita in manu
+               archiepiscopi obligavit, ut beneficiati deincens (!) beneficiasua ex illa terra ab
+               archiepiscopo libere reciperent atque tenerent. Decernimus ergo, ut nulli
+               omninohominum liceat supradictam ecclesiam temere perturbare aut eius possessiones
+               auferre vel ablatasretinere, minuere seu quibuslibet vexationibus fatigare, set
+               illibata omnia et integra conserventureorum, pro quorum gubernatione et sustentatione
+               concessa sunt, usibus omnimodis profutura. Salvain omnibus apostolicę sedis
+               auctoriate. Si qua igitur in futurum ecclesiastica secularisve persona,hanc nostrę
+               constitutionis paginam sciens, contra eam temere venire temptaverit, secundo
+               tertiovecommonita, nisi presumptionem suam congrua satisfactione correxerit,
+               potestatis honorisque sui dig-nitate careat reamque se divino iudicio existere de
+               perpetrata iniquitate cognoscat et a sacratissimocorpore ac sanguine dei et domini
+               redemptoris nostri Ihesu Christi aliena fiat atque in extremoexamine districte
+               ultioni subiaceat. Cunctis autem eidem loco sua iura servantibus sit pax domininostri
+               Ihesu Christi, quatinus et hic fructum bone actionis percipiant et apud districtum
+               iudicempremia eternę pacis inveniant. Amen, Amen, Amen.</p>
+            <p>[eventuell ##FE## Querverweise einfügen.]</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
