@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
-<TEI source="formierung-europas_pontificia" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc><titleStmt><title>fe_00404</title><respStmt><resp>Datenquelle</resp><persName>JB</persName></respStmt>
@@ -68,8 +65,8 @@
             <div>
                <listBibl>
                   <bibl type="original">München, Bayerisches Hauptstaatsarchiv, Freising St. Johann; digital verfügbar unter: https://urkundenrepositorium.uni-marburg.de/entities/urkunde/2089a5d3-1838-4c54-8a04-051e21561533</bibl>
-                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="msCopy">-</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
@@ -98,7 +95,7 @@
             <head>Regesten</head>
             <listBibl>
                <bibl>JL 13196 (datiert 31. März 1166-1179)</bibl>
-               <bibl>Germ. Pont. 1, S. 335, Nr. 20</bibl><bibl>Germ. Pont. 1, S. 338, Nr. 1</bibl>
+               <bibl>Germ. Pont. 1, S. 338, Nr. 1</bibl><bibl>Germ. Pont. 1, S. 335, Nr. 20</bibl>
             </listBibl>
          </div>
          <div>
