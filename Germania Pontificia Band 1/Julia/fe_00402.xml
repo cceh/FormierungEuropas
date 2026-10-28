@@ -44,7 +44,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor><persName>Alexander III.</persName></legalActor> bestätigt <legalActor><persName>Albert, dem Bischof von Freising</persName></legalActor>, und seiner Kirche die Grenzen des Bistums, sowohl hinsichtlich ihres Verlaufs entlang des Bachs namens Sunnelahe (<diploPart>Sunnelahe</diploPart>), an dem das Kloster Steingaden liegt, als auch hinsichtlich der Bezeichnungen, die in den ältesten Urkunden der Kirche, in denen die Bistumsgrenzen beschrieben werden, enthalten sind.</p>
+            <p><legalActor><persName>Alexander III.</persName></legalActor> bestätigt <legalActor><persName>Albert, Bischof von Freising</persName></legalActor>, und seiner Kirche die Grenzen des Bistums, sowohl hinsichtlich ihres Verlaufs entlang des Baches namens Sunnelahe (<diploPart>Sunnelahe</diploPart>), an dem das Kloster Steingaden liegt, als auch hinsichtlich der Bezeichnungen, die in den ältesten Urkunden der Kirche, in denen die Bistumsgrenzen beschrieben werden, enthalten sind.</p>
          </div>
 
          <div>
@@ -57,7 +57,7 @@
                </list></diploPart>
          </div>
          <div>
-            <head>Datatio</head><diploPart type="datatio">Dat. Venet. in Rivo alto, II. id. Iulii.</diploPart>
+            <head>Datatio</head><diploPart type="datatio">Dat. Venet. in Rivo alto II id. iulii.</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
@@ -65,7 +65,7 @@
                <listBibl>
                   <bibl type="original">-</bibl>
                   <bibl type="msCopy">München, Bayerische Staatsbibliothek, Liber copiarum et traditionum ecclesie Frisingensis, Hochstift Freising, Lit. III, D 2 n. 335, fol. 25 (17. Jh.)</bibl>
-                  <bibl type="print">-</bibl>
+                  <bibl type="print">[Druck]</bibl>
                </listBibl>
             </div>
          </div>
@@ -85,6 +85,7 @@
             <head>Editionen</head>
             <listBibl>
                <bibl>Brackmann, Studien und Vorarbeiten I, S. 235</bibl>
+               <bibl>[Edition 2]</bibl>
             </listBibl>
          </div>
          <div type="regesta">
@@ -97,7 +98,7 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Die Littera ist nur kopial überliefert. Daher kann aufgrund des Wortlauts und Inhalts nur vermutet werden, dass es sich ursprünglich um eine Littera cum serico gehandelt hat. Die Datierung basiert Itinerar Alexanders III., der sich 1177  (vgl. JL).</p>
+               <p>Die Litterae ist nur noch kopial überliefert, daher kann aufgrund des Wortlauts und Inhalts nur vermutet werden, dass es sich ursprünglich um eine Litterae cum serico gehandelt hat. Datiert nach dem Itinerar Alexanders III.</p>
             </diploDesc>
          </div>
          <div type="commentary">
@@ -107,7 +108,8 @@
          <div type="bibliography">
             <head>Bibliographie</head>
             <listBibl>
-               <bibl>-</bibl>
+               <bibl>[Werk 1]</bibl>
+               <bibl>[Werk 2]</bibl>
             </listBibl>
          </div>
          <div type="note">
