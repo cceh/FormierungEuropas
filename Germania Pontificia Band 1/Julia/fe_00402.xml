@@ -44,7 +44,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName></legalActor> bestätigt <legalActor><persName>Albert, dem Bischof von Freising</persName></legalActor>, und seiner Kirche die Grenzen des Bistums, sowohl hinsichtlich ihres Verlaufs entlang des Bachs namens Sunnelahe (<diploPart>Sunnelahe</diploPart>), an dem das Kloster Steingaden liegt, als auch hinsichtlich der Bezeichnungen, die in den ältesten Urkunden der Kirche, in denen die Bistumsgrenzen beschrieben werden, enthalten sind.
+            <p><legalActor><persName>Alexander III.</persName></legalActor> bestätigt <legalActor><persName>Albert, dem Bischof von Freising</persName></legalActor>, und seiner Kirche die Grenzen des Bistums, sowohl hinsichtlich ihres Verlaufs entlang des Bachs namens Sunnelahe (<diploPart>Sunnelahe</diploPart>), an dem das Kloster Steingaden liegt, als auch hinsichtlich der Bezeichnungen, die in den ältesten Urkunden der Kirche, in denen die Bistumsgrenzen beschrieben werden, enthalten sind.</p>
          </div>
 
          <div>
@@ -57,7 +57,7 @@
                </list></diploPart>
          </div>
          <div>
-            <head>Datatio</head><diploPart type="datatio">Dat. Venet. in Rivo alto II id. iulii.</diploPart>
+            <head>Datatio</head><diploPart type="datatio">Dat. Venet. in Rivo alto, II. id. Iulii.</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
@@ -84,7 +84,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Brackmann, Studien und Vorarbeiten 1, S. 235</bibl>
+               <bibl>Brackmann, Studien und Vorarbeiten I, S. 235</bibl>
             </listBibl>
          </div>
          <div type="regesta">
