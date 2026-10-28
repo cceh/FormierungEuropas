@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
-<TEI source="formierung-europas_pontificia" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc><titleStmt><title>fe_00401</title><respStmt><resp>Datenquelle</resp><persName>JB</persName></respStmt>
@@ -15,7 +12,6 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>Germ. Pont. 1, S. 335, Nr. 17</bibl><bibl type="jaffe">13938</bibl>
-            <bibl>[Weiteres Konkordanzregest]</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
                <p><authen type="formula" n="na">
@@ -30,7 +26,7 @@
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, Litterae, nicht kategorisierbar</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">Dank, für Unterstützung</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
+               <p><objectType n="">Dank, für Unterstützung</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
@@ -48,7 +44,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor><persName>Alexander III.</persName> </legalActor>dankt <legalActor><persName>Albert, Bischof von Freising</persName></legalActor>, für seine langjährige Freundschaft sowie die Ergebenheit, die Albert der römischen Kirche und insbesondere seiner eigenen Person entgegenbringe. Er äußert seine Freude über Alberts Wunsch, zu ihm zu kommen, und versichert, dass er ihn gern empfangen und ehrenvoll behandeln werde. </p>
+            <p><legalActor>Alexander III.</legalActor> dankt <persName>Albert, dem Bischof von Freising,</persName> für seine langjährige Freundschaft sowie die Ergebenheit, die Albert der römischen Kirche und insbesondere seiner eigenen Person entgegenbringe. Er äußert seine Freude über Alberts Wunsch, zu ihm zu kommen, und versichert, dass er ihn gerne empfangen und ehrenvoll behandeln werde. </p>
          </div>
 
          <div>
@@ -57,7 +53,7 @@
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+                  <item>-</item>
                </list></diploPart>
          </div>
          <div>
@@ -68,8 +64,8 @@
             <div>
                <listBibl>
                   <bibl type="original">-</bibl>
-                  <bibl type="msCopy">München, Bayerische Staatsbibliothek, Clm 19411, fol. 125v (p. 251); digital verfügbar unter: https://daten.digitale-sammlungen.de/bsb00008249/images/index.html?id=00008249&amp;groesser=&amp;fip=193.174.98.30&amp;no=&amp;seite=255 </bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="msCopy">München, Bayerische Staatsbibliothek, Clm 19411, fol. 125r (p. 251); digital verfügbar unter: https://daten.digitale-sammlungen.de/bsb00008249/images/index.html?id=00008249&amp;groesser=&amp;fip=193.174.98.30&amp;no=&amp;seite=255 </bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
@@ -91,31 +87,30 @@
             <head>Editionen</head>
             <listBibl>
                <bibl>Plechl, Tegernseer Briefsammlung, S. 282, Nr. 253</bibl>
-               <bibl>Pez, Thesaurus Anecdotorum VI, 1, Sp. 393-394, Nr. 8</bibl>
+               <bibl>Pez, Thesaurus Anecdotorum 6, 1, Sp. 393-394, Nr. 8</bibl>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head>
             <listBibl>
                <bibl>JL 13938 (datiert 1159-1181)</bibl>
-               <bibl>Germ. Pont. 1, S. 335, Nr. 17</bibl>
+               <bibl>Germ. Pont. 1, S. 335, Nr. 17 (datiert um 1174)</bibl>
             </listBibl>
          </div>
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Aufgrund der fehlenden Originalüberlieferung kann das päpstliche Schreiben nicht mehr näher kategorisiert werden. Dem Inhalt nach zu urteilen, könnte es sich um eine Litterae cum serico gehandelt haben. Die Datierung dieses Stücks leitet sich von der Parteinahme Alberts für Alexander III. ab. Diese ist um das Jahr 1174 anzusetzen. Jaffé gibt als Ausstellungszeitraum die gesamte Pontifikatsdauer an.</p>
+               <p>Aufgrund der fehlenden Originalüberlieferung kann das päpstliche Schreiben nicht mehr näher kategorisiert werden. Dem Inhalt nach zu urteilen, könnte es sich um eine Littera cum serico gehandelt haben. Die Datierung dieses Stücks leitet sich von der Parteinahme Alberts für Alexander III. ab. Diese ist um das Jahr 1174 anzusetzen. Jaffé hat als Ausstellungszeitraum die gesamte Pontifikatsdauer angegeben (vgl. <bibl>JL 13938</bibl>).</p>
             </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Bischof Albert von Freising hatte sich erst um das Jahr 1174 zu Alexander III. bekannt. Darauf deutet sein Nichterscheinen auf dem Regensburger Hoftag im Jahr 1174 hin (vgl. Chronicon magni presbyteri, MGH SS 17, S. 498). Über den geplanten Aufenthalt bei Alexander III. ist nichts Weiteres bekannt (<bibl>vgl. Plech, Tegernseer Briefsammlung, S. 282</bibl>).</p>
+            <p>Bischof Albert von Freising hatte sich erst um das Jahr 1174 zu Alexander III. bekannt. Darauf deutet sein Nichterscheinen auf dem Regensburger Hoftag im Jahr 1174 hin (vgl. <bibl>Chronicon magni presbyteri, MGH SS 17, S. 498</bibl>). Über den geplanten Aufenthalt bei Alexander III. ist nichts Weiteres bekannt (vgl. <bibl>Plech, Tegernseer Briefsammlung, S. 282</bibl>).</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
             <listBibl>
-               <bibl>[Werk 1]</bibl>
-               <bibl>[Werk 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="note">
