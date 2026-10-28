@@ -30,7 +30,7 @@
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, Litterae cum serico</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p><p><objectType n="">Alexander III., Urheberg 2]</objectType></p>
+               <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
@@ -48,7 +48,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>[Alexander III. an Heinrich, den Propst der Kirche von Owen, und seine Mitbrüder: In Anerkennung der Hingabe, die sie gegenüber dem heiligen Petrus und ihm selbst bekunden, nimmt er sie und ihre Kirche samt all ihrem Besitz unter apostolischen Schutz und bestätigt die Regel des heiligen Augustinus.Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
+            <p>Alexander III. nimmt Heinrich, Propst des Augustiner-Chorherrenstiftes Au (D. Trient) r Kirche von Owen, und seine Mitbrüder: In Anerkennung der Hingabe, die sie gegenüber dem heiligen Petrus und ihm selbst bekunden, nimmt er sie und ihre Kirche samt all ihrem Besitz unter apostolischen Schutz und bestätigt die Regel des heiligen Augustinus.Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
