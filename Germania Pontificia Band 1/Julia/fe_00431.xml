@@ -26,7 +26,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <p><legalActor type="recipient">Augustiner-Chorherrenstift Au</legalActor></p><p><legalActor type="recipient">Heinrich, PrEmpfänger]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
@@ -48,7 +48,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>[Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
+            <p>[Alexander III. an Heinrich, den Propst der Kirche von Owen, und seine Mitbrüder: In Anerkennung der Hingabe, die sie gegenüber dem heiligen Petrus und ihm selbst bekunden, nimmt er sie und ihre Kirche samt all ihrem Besitz unter apostolischen Schutz und bestätigt die Regel des heiligen Augustinus.Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
