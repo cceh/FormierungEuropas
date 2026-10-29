@@ -101,7 +101,7 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Original verloren; Kopialüberlieferung? Suchen! Anhand der Datierung dieses Privilegs und des am selben Tag ausgestellten Privilegs für das Kloster Rott am Inn (##FE Nr. 00408##) Alexanders III. datierte Brackmann die zwei weiteren Litterae Alexanders III. für Bischof Albert von Freising (vgl. ##FE 00404 und FE 00405##) ebenfalls in das Jahr 1179 (vgl. Germ. Pont. 1, S. 338, Nr. 1).</p>
+               <p>Original verloren; Anhand der Datierung dieses Privilegs und des am selben Tag ausgestellten Privilegs für das Kloster Rott am Inn (##FE Nr. 00408##) Alexanders III. datierte Brackmann die zwei weiteren Litterae Alexanders III. für Bischof Albert von Freising (vgl. ##FE 00404 und FE 00405##) ebenfalls in das Jahr 1179 (vgl. Germ. Pont. 1, S. 338, Nr. 1).</p>
             </diploDesc>
          </div>
          <div type="commentary">
@@ -116,7 +116,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+            <p>[<diploDesc>Kopialüberlieferung? Suchen!</diploDesc>]</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
