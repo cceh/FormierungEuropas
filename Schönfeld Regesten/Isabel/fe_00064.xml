@@ -33,7 +33,7 @@
                <p>
                   <legalActor type="recipient">Wazelin, Abt der Benediktinerabtei von Florennes</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType ref="na">Papsturkunde, Litterae #####</objectType></p>
+               <p><objectType ref="na">Papsturkunde, Litterae cum filo canapis</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
                <p><objectType ref="na">Anweisung, Einhaltung von Recht</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
