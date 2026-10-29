@@ -26,7 +26,7 @@
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p><issued><placeName>Rom, St. Peter</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" unit="cm" xml:space="default" notAfter="1167-07-31" notBefore="1167-07-31" type="issued">1167 Jul. 31</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
-               </issued><p><legalActor type="issuer">Paschalis III.</legalActor></p><p><legalActor type="recipient">Straßburg, Domkapitel</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType ref="na">Papsturkunde, Litterae cum serico</objectType></p><!-- Referenz aus Liste entnehmen --><p><objectType ref="na">Jurisitisches, Rechts- und Besitzbestätigung</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+               </issued><p><legalActor type="issuer">Paschalis III.</legalActor></p><p><legalActor type="recipient">Straßburg, Domkapitel</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType ref="na">Papsturkunde, Litterae cum serico</objectType></p><!-- Referenz aus Liste entnehmen --><p><objectType ref="na">Juristisches, Rechts- und Besitzbestätigung</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
@@ -87,7 +87,7 @@
             <head>Editionen</head>
             <listBibl>
                <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 315–316, Nr. P11</bibl>
-               <bibl>Würdtwein, Nova subsidia 10, S. 25, Nr. 9</bibl><bibl>Wiegand: Urkundenbuch der Stadt Straßburg, Bd. I, S. 95, Nr. 114</bibl>
+               <bibl>Würdtwein, Nova subsidia 10, S. 25, Nr. 9</bibl><bibl>UB Stadt Straßburg 1, S. 95, Nr. 114</bibl>
             </listBibl>
          </div>
          <div type="regesta">
