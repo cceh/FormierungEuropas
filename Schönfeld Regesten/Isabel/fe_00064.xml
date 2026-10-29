@@ -111,12 +111,12 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Hinweise zu Datierung und Erläuterung der Vorgänge in <bibl>PUU Niederlande, S. 231</bibl>.</p><p/>
+               <p>Hinweise zu Datierung in <bibl>PUU Niederlande, S. 231</bibl>.</p><p/>
             </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Siehe auch fe_00062 und ##fe_000## (PUU Niederlande, Nr. 97).  [Inhalt des Sachkommentars. Bibliographische Referenzen werden als Bibliographische
+            <p>Siehe auch fe_00062 und ##fe_000## (PUU Niederlande, Nr. 97). Erläuterungen der Vorgänge in <diploDesc><diploDesc/></diploDesc><bibl>PUU Niederlande, S. 231</bibl><diploDesc>.</diploDesc> [Inhalt des Sachkommentars. Bibliographische Referenzen werden als Bibliographische
                Angabe getagged.]</p>
          </div>
          <div type="bibliography">
