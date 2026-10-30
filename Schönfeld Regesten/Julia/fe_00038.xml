@@ -69,7 +69,7 @@
                </list></diploPart>
          </div>
          <div>
-            <head>Datatio:</head><diploPart type="datatio">Datum Taurini, XVII. kal. ebruarii.</diploPart>
+            <head>Datatio:</head><diploPart type="datatio">Datum Taurini, XVII. kal. Februarii.</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
@@ -113,7 +113,7 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Die Jahresangabe ist nach dem Itinerar Viktors IV. erschlossen. Aufgrund der fehlenden Originalüberlieferung ist nur aus dem Inhalt - Aufforderung zur Teilnahme an der Synode von Cremona - und dem Wortlaut (per apostolica scripta mandamus) zu erschließen, dass es sich um eine Litterae cum filo canapis gehandelt haben muss. <diploPart type="rota"/></p>
+               <p>Die Jahresangabe ist nach dem Itinerar Viktors IV. erschlossen. Aufgrund der fehlenden Originalüberlieferung ist nur aus dem Inhalt - Aufforderung zur Teilnahme an der Synode von Cremona - und dem Wortlaut (<diploPart>per apostolica scripta mandamus</diploPart>) zu erschließen, dass es sich um eine Litterae cum filo canapis gehandelt haben muss. <diploPart type="rota"/></p>
             </diploDesc>
          </div>
          <div type="commentary">
