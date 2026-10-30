@@ -1,5 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="fe_schoenfeld">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI source="fe_schoenfeld" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc>
@@ -35,9 +37,9 @@
                <p>
                   <legalActor type="recipient">[Recipient 1]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &gt; Litterae cum serico]</objectType></p>
+               <p><objectType ref="na">[Quellentyp, siehe Guidelines. z.B.: Papsturkunde &amp;gt; Litterae cum serico]</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
-               <p><objectType ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &gt; Beauftragung durch…]</objectType></p>
+               <p><objectType ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &amp;gt; Beauftragung durch…]</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
@@ -56,7 +58,7 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Viktor IV . ordnet gegenüber den Mönchen von Vlierbeek die Wahl eines Abtes inner- halb einer Frist von 30 Tagen an.<list>
+            <p>Viktor IV. ordnet gegenüber den Mönchen von Vlierbeek die Wahl eines Abtes innerhalb einer Frist von 30 Tagen an.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
@@ -103,15 +105,13 @@
             <head>Editionen</head>
             <listBibl>
                <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 290, Nr. V66</bibl>
-               <bibl>Miraeus: Opera diplomatica, Bd. II , S. 829, Nr. 34; Sanderus: Chorographia sacra Brabantie, S. 58; de Marneffe: Cartulaire, S. 175;</bibl>
+               <bibl>Miraeus, Opera diplomatica, Bd. II , S. 829, Nr. 34; Sanderus: Chorographia sacra Brabantie, S. 58; de Marneffe: Cartulaire, S. 175;</bibl>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head>
             <!-- Konkordanzregesten -->
-            <listBibl>
-               <bibl>JL 14462</bibl>
-               <bibl>Wauters: Table chronologique des chartes, Bd. XI, S. 210; Mayr: Der Pontifikat, S. 118, Nr. 53.</bibl>
+            <listBibl><bibl>Wauters, Table chronologique 11, S. 210</bibl><bibl>Mayr, Pontifikat, S. 118, Nr. 53</bibl>
             </listBibl>
          </div>
          <div>
