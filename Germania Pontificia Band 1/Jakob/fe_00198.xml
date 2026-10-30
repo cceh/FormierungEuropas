@@ -26,7 +26,7 @@
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Terracina</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1159-10-05" precision="high" unit="cm" xml:space="default" notBefore="1159-10-05" type="issued">1159 Okt. 05</date>
+               <issued><placeName>Terracina</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1159-10-05" precision="high" unit="cm" xml:space="default" notBefore="1159-10-05" type="issued">(1159 Okt. 05)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
@@ -103,7 +103,7 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Zu den Problemen der Überlieferung dieses Stücks und zur Datierung vgl. <bibl>Somerville, Beginnings of Alexander III’s Pontificate, S. 363</bibl>. </p>
+               <p>Zu den Problemen der Überlieferung dieses Stücks und zur Datierung vgl. <bibl>Somerville, Beginning, S. 363</bibl>. </p>
             </diploDesc>
          </div>
          <div type="commentary">
