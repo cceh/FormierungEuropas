@@ -20,7 +20,7 @@
             <diploDesc><p><authen type="formula" n="na">
                <p>[-]</p>
                <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-            </authen></p><p><issued><placeName>Tusculanum</placeName><date type="issued" notBefore="1171-03-19" notAfter="1181-03-19">(1171—81) Mär. 19</date><date type="issued" when="1171-03-19"/><date type="issued" when="1172-03-19"/><date type="issued" when="1172-03-19"/> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            </authen></p><p><issued><placeName>Tusculanum</placeName><date type="issued" notBefore="1171-03-19" notAfter="1181-03-19">(1171—81) Mär. 19</date><date type="issued" when="1171-03-19"/><date type="issued" when="1172-03-19"/><date type="issued" when="1181-03-19"/> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Domkapitel von Salisbury</legalActor></p><p><legalActor type="recipient">Dekan von Salisbury</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
@@ -84,7 +84,7 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>[Kommentar]</p>
+            <p>Vom Itinerar Alexanders III. kommen nur 1171, 1172 und 1181 in Betrach</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
