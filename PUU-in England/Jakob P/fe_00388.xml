@@ -20,7 +20,7 @@
             <diploDesc><p><authen type="formula" n="na">
                <p>[*+?-]</p>
                <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-            </authen></p><p><issued><placeName>[Ausstellungsort]</placeName><date type="issued" notBefore="1162-01-01" notAfter="1181-12-31">(1162—81). </date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            </authen></p><p><issued><placeName>-</placeName><date type="issued" notBefore="1162-01-01" notAfter="1181-12-31">(1162—81)</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Domkapitel von St. Cuthbert (in Durham)</legalActor></p><p><legalActor type="recipient">Germanus, Prior von St Cuthbert (in Durham)</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
