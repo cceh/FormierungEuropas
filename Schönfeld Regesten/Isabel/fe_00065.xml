@@ -1,17 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="fe_schoenfeld">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI source="fe_schoenfeld" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>fe_00065</title>
-            <respStmt>
-               <resp>Die Formierung Europas</resp>
-               <persName>[Name der Bearbeiter*in]</persName>
-            </respStmt>
+            <respStmt><resp>Die Formierung Europas</resp><persName>IB</persName></respStmt>
             <respStmt>
                <resp when="2025">Encoding:</resp>
-               <persName>SG</persName><persName>[Name der Überarbeiter*in/Auszeichnung, in der Regel identisch wie Name der Bearbeiter*in]</persName>
+               <persName>SG, IB</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -28,16 +27,15 @@
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Cremona</placeName><date type="issued" notBefore="1161-04-23" notAfter="1161-04-23">(1161), April 23</date>
+               <issued><placeName>Cremona</placeName><date type="issued" notBefore="1161-04-23" notAfter="1161-04-23">(1161) Apr. 23</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Issuer]</legalActor></p>
-               <p>
-                  <legalActor type="recipient">[Recipient 1]</legalActor></p>
+               <p><legalActor type="issuer">Viktor IV.</legalActor></p>
+               <p><legalActor type="recipient">Gero, Bischof von Halberstadt</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType ref="na">[Quellentyp, siehe Guidelines. Z.B.: Papsturkunde &gt; Litterae cum serico]</objectType></p>
+               <p><objectType ref="na">Papsturkunde, Litterae cum serico</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
-               <p><objectType ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &gt; Beauftragung durch…]</objectType></p>
+               <p><objectType ref="na">Juristisches, neues Recht</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
@@ -56,15 +54,14 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Viktor IV . erteilt dem Bischof von Halberstadt, Gero, die Erlaubnis, dass die Priester des dortigen Doms an Sonn- und Feiertagen während der Messe Dalmatiken und die Äbte von Ilsenburg und Wimmelburg die Mitra tragen dürfen.<list>
-                  <item>[Listeneintrag 1]</item>
+            <p>Viktor IV. erlaubt gegenüber <persName>Gero, Bischof von Halberstadt</persName></p><p><list>
+                  <item>das Tragen von Dalmatiken durch die <orgName>Domherren von Halberstadt</orgName> während Sonn- und Feiertagsmessen</item><item> <persName>T[hiether], Abt der <orgName>Benediktinerabteie Ilsenburg</orgName></persName>, und <persName>R[udolf], Abt der <orgName>Benediktinerabtei Wimmelburg</orgName></persName> (beide D. Halberstadt) das Tragen der Mitra</item>
                </list></p>
          </div>
 
          <div>
             <head>Incipit:</head>
-            <diploPart type="incipit" xml:lang="lat">Novit apostolice sedis</diploPart>
-         </div>
+            <diploPart type="incipit" xml:lang="lat">Novit apostolice sedis clementia fidelis</diploPart></div>
          <div>
             <head>Subscriptiones:</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
@@ -73,13 +70,13 @@
          </div>
          <div>
             <head>Datatio:</head>
-            <diploPart type="datatio">Datum Cremone, VIIII kalendas maii.</diploPart>
+            <diploPart type="datatio">Dat(um) Cremone viiii kal(endas) maii.</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">Original, Magdeburg, LHA Sachsen-Anhalt, Rep. U 5, I, Nr. 1a;</bibl>
+                  <bibl type="original">Magdeburg, Landesarchiv Sachsen-Anhalt, U 5, I Nr. 1a; Digitalisat Marburger Urkundenrepositorium. Nr. 16187: https://urkundenrepositorium.uni-marburg.de/handle/lba/16187</bibl>
                   <bibl type="msCopy">[handschriftliche Kopie]</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
@@ -103,27 +100,24 @@
             <head>Editionen</head>
             <listBibl>
                <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 290, Nr. V65</bibl>
-               <bibl>Pflugk-Harttung: Acta, Bd. I, S. 288, Nr. 423; Schmidt: Urkundenbuch des Hochstifts Halberstadt, Bd. I, S. 224, Nr. 259; Krühne: Urkundenbuch der Klöster, S. 615, Nr. 11;</bibl>
+               <bibl>Pflugk-Harttung, Acta inedita 1, S. 288, Nr. 324</bibl><bibl>UB Hochstift Halberstadt 1, S. 224, Nr. 259</bibl><bibl>UB Klöster Mansfeld, S. 615, Nr. 11</bibl>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head>
             <!-- Konkordanzregesten -->
-            <listBibl>
-               <bibl>JL 14461</bibl>
-               <bibl>GP V/2, S. 254, Nr. 141; ibid., S. 273, Nr. 20; ibid., S. 359, Nr. 10; ibid., S. 381, Nr. 1; Jacobs: Urkundenbuch, Bd. II, S. 516, Nr. 1; Mayr: Der Pontifikat, S. 118, Nr. 52; Abb. dig.: PH LBA, Nr. 16187.</bibl>
+            <listBibl><bibl>Germ. Pont. 5/2, S. 254, Nr. 141</bibl><bibl>Germ. Pont. 5/2, S. 273, Nr. 20</bibl><bibl>Germ. Pont. 5/2, S. 359, Nr. 10</bibl><bibl>Germ. Pont. 5/2, S. 381, Nr. 1</bibl><bibl>UB Ilsenburg 2, S. 516, Nr. 1</bibl><bibl>Mayr, Pontifikat, S. 118, Nr. 52</bibl>
             </listBibl>
          </div>
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>[Text und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
- Kommentar]</p>
+               <p>Zur Datierung vgl. <bibl>Ohnesorge, Legaten Deutschland, S. 11, Anm. 22</bibl>.</p>
             </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>[Inhalt des Sachkommentars. Bibliographische Referenzen werden als Bibliographische
+            <p>Sachliche Einordnung bei <bibl>Bogumil, Halberstadt, S. 69, Anm. 60 und S. 242</bibl>; <bibl>Schreiber, Kurie und Kloster 1, S. 156, Anm. 3</bibl> sowie <bibl>Salmon, Mitra, S. 83</bibl>.</p><p>Nach <bibl>Germ. Pont. 5/2, S. 254, Nr. 141</bibl> steht das Privileg mit dem Konzil von Lodi (19.‒22. Juni 1161) in Zusammenhang, das ursprünglich für den 21. Mai 1161 in Cremona angesetzt gewesen war. Bischof Geros Teilnahme am Konzil könnte seine Zeugenschaft in der vor Mailand ausgestellten Urkunde Kaiser Friedrichs I. (vgl. <bibl>MGH DD F I 10,2, S. 152-153, Nr. 326</bibl>: https://www.dmgh.de/mgh_dd_f_i_2/index.htm#page/151/mode/1up und <bibl>RI IV,2,2 n. 949</bibl>: https://www.regesta-imperii.de/id/1161-06-03_1_0_4_2_2_391_949) vom 3. Juni 1161 vermuten lassen.</p><p>Ein Jahr zuvor hatte Viktor IV. ein ähnliches Privileg für Magdeburg gewährt (siehe ##fe_00xxx##; JL 14430).</p><p>[Inhalt des Sachkommentars. Bibliographische Referenzen werden als Bibliographische
                Angabe getagged.]</p>
          </div>
          <div type="bibliography">
@@ -134,9 +128,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Kommentare zur Diplomatik und Datierung, zum Inhalt und zum Kontext. Mit "Enter"
-               lässt sich ein neuer Absatz (p) hinzufügen. Literaturangaben können als bibl getagt
-               werden]</p>
+            <p/><p>fe_Verweis einfügen</p><p/><p>Archivreferenz: https://recherche.landesarchiv.sachsen-anhalt.de/Query/detail.aspx?ID=2111916</p><p/><p>Nach Endkorrektur löschen:</p><p>Vi]ctor episcopus servus servorum Dei. Venerabili fratri G[eroni] Halverstatensi episcopo salutem et apostolicam benedictionem. Novit apostolice sedis clementia fideles sibi et devotos diligere et honorare et pro bene meritis illorum iustis postulationibus suis, domino auctore, gratiori assensu concurrere. Inde est, venerabilis in domino frater episcope, quod devotionem tuam, quam erga sacrosanctam Romanam ecclesiam et nos habere dinosceris, propensius attendentes, tue dilectionis et honeste petitionis intuitu sacerdotibus maioris ecclesie in dominicis et aliis sollempnitatibus missarum sollempnia in dalmaticis celebrare concedimus et dilectis filiis nostris T[hiethero] Felsineburgensi et R[udolfo] Wimodeburgensi abbatibus usum mitrarum indulgemus.Dat. Cremone, VIIII kal. maii.</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>

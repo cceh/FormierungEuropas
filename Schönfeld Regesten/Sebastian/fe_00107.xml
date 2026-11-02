@@ -7,10 +7,10 @@
       <fileDesc>
          <titleStmt>
             <title>fe_00107</title>
-            <respStmt><resp>Die Formierung Europas</resp><persName>[Name der Bearbeiter*in]</persName></respStmt>
+            <respStmt><resp>Die Formierung Europas</resp><persName>SG</persName></respStmt>
             <respStmt>
                <resp when="2025">Encoding:</resp>
-               <persName>SG</persName><persName>SG</persName></respStmt>
+               <persName>SG, IB</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -24,9 +24,9 @@
             <diploDesc><p><authen type="formula" n="na">
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-                  </authen></p><issued><placeName>Rom, S. Peter</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" unit="cm" xml:space="default" notAfter="1167-07-31" notBefore="1167-07-31" type="issued">1167, Juli 31</date>
+                  </authen></p><issued><placeName>Rom, St. Peter</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" unit="cm" xml:space="default" notAfter="1167-07-31" notBefore="1167-07-31" type="issued">1167 Jul. 31</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
-               </issued><p><legalActor type="issuer">Paschalis III.</legalActor></p><p><legalActor type="recipient">Straßburg, Domkapitel</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType ref="na">Papsturkunde, einfaches Privileg</objectType></p><!-- Referenz aus Liste entnehmen --><p><objectType ref="na">Paschalis III., Urheber</objectType></p><p><objectType ref="na">Jurisitisches, neues Recht</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+               </issued><p><legalActor type="issuer">Paschalis III.</legalActor></p><p><legalActor type="recipient">Straßburg, Domkapitel</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType ref="na">Papsturkunde, Litterae cum serico</objectType></p><!-- Referenz aus Liste entnehmen --><p><objectType ref="na">Juristisches, Rechts- und Besitzbestätigung</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
@@ -43,7 +43,7 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Paschalis III. verleiht auf Bitten des Archidiakons Heinrich dem Propst C., dem Dekan H. und den Klerikern des Domstifts zu Straßburg ein Privileg und trifft folgende Bestimmungen:<list><item>Bestätigt ein in Straßburg erlassenes Edikt Kaiser Friedrichs I. (<bibl>D F I *1146</bibl>). Dieses sei durch den Straßburger Bischof, den Klerus und das Volk bekräftigt worden</item><item>Spricht einen Bann gegen alle aus, die gegen die durch den Kaiser festgesetzten Abgabepflichten verstoßen</item><item>Verbietet unter Androhung der Exkommunikation, die Straßburger Kirche und ihr <diploPart>atrium</diploPart> zu verletzen</item><item>Erlaubt die Suspension zinspflichtiger Priester nach dreimaliger Ermahnung, bis sie Bischof und Kapitel Genugtuung geleistet haben</item></list></p>
+            <p>Paschalis III. bestätigt auf Bitten des <persName>Archidiakons Heinrich</persName> dem <persName>Propst C[onrad]</persName>, dem <persName>Dekan H.</persName> und den <persName>Klerikern des <orgName>Domstifts zu Straßburg</orgName></persName> ein in Straßburg erlassenes Edikt Kaiser Friedrichs I. (<bibl>D F I *1146</bibl>), das durch den Straßburger Bischof, den Klerus und das Volk bekräftigt worden sei. Ferner legt er fest:<list><item>Bannung aller, die gegen die durch den Kaiser festgesetzten Abgabepflichten verstoßen</item><item>Verbot, die Immunität der Straßburger Kirche und ihres <diploPart>atrium</diploPart> zu verletzen und Exkommunikation aller, die dem zuwiderhandeln </item><item>Suspension säumiger, zinspflichtiger Priester nach dreimaliger Ermahnung, bis sie Bischof und Kapitel Genugtuung geleistet haben</item></list></p>
          </div>
 
          <div>
@@ -63,7 +63,7 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">Strassburg, AD du Bas-Rhin, G 2733/6</bibl>
+                  <bibl type="original">Straßburg, Archives d'Alsace, Fonds du Bas-Rhin, G 2733/6</bibl>
                   <bibl type="msCopy">[handschriftliche Kopie]</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
@@ -87,15 +87,13 @@
             <head>Editionen</head>
             <listBibl>
                <bibl>Schönfeld, Urkunden der Gegenpäpste, S. 315–316, Nr. P11</bibl>
-               <bibl>Würdtwein: Nova subsidia diplomatica, Bd. X, S. 25, Nr. 9</bibl><bibl>Wiegand: Urkundenbuch der Stadt Straßburg, Bd. I, S. 95, Nr. 114</bibl>
+               <bibl>Würdtwein, Nova subsidia 10, S. 25, Nr. 9</bibl><bibl>UB Stadt Straßburg 1, S. 95, Nr. 114</bibl>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head>
             <!-- Konkordanzregesten -->
-            <listBibl>
-               <bibl>JL 14489</bibl>
-               <bibl>GP III, S. 19, Nr. 6</bibl><bibl>Wentzcke: Regesten der Bischöfe von Strassburg, Bd. I/2, S. 343, Nr. 583</bibl><bibl>Schwarz: Herrscher- und Reichstitel, S. 331, Nr. 103</bibl><bibl>Abb. dig.: PH Arch. départ. du Bas-Rhin, Strassbourg</bibl>
+            <listBibl><bibl>Germ. Pont. 3, S. 19‒20, Nr. 6</bibl><bibl>Schwarz, Reichstitel, S. 331, Nr. 103</bibl><bibl/><bibl>Wentzcke, Rgg. Bischöfe Strassburg 1/2, S. 343, Nr. 583</bibl>
             </listBibl>
          </div>
          <div>
@@ -113,12 +111,12 @@
          <div type="bibliography">
             <head>Bibliographie</head>
             <listBibl>
-               <bibl>RI IV,2,2 n. D1689</bibl><bibl>MGH D F I. *1146</bibl>
+               <bibl>MGH D F I. *1146</bibl><bibl>RI IV,2,2 n. D1689 (https://www.regesta-imperii.de/id/1167-07-31_1_0_4_2_2_1134_D1689)</bibl>
             </listBibl>
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[...]</p>
+            <p/><p>Nach Endkorrektur löschen:</p><p/><p>Pascalis episcopus servus servorum Dei. Dilectis filiis C[onrado] preposito, H. decano et ceteris canonicis maioris ecclesie Argentinensis salutem et apostolicam benedictionem. Immobili debet esse firmitate subnixum, quod imperialis statuit maiestas et apostolica confirmat auctoritas. Eapropter, dilecti in domino filii, vestris iustis postulationibus, quas nobis per dilectum filium nostrum Henr[icum] archidiaconum vestrum porrexistis, grato concurrentes assensu edictum imperiale, quod serenissimus imperator Fredericus semper augustus in episcopatu Argentinensi promulgavit et episcopus vester cum clero sub discrimine officii et beneficii affirmavit et populus iureiurando firmavit, devotioni vestre apostolica auctoritate confirmamus et presenti scripti patrocinio communimus. Statuentes, ut secundum statuta eiusdem filii de cetero tributarii ecclesie vestre statutis temporibus iura vobis absque contradictione persolvant, et, si contumaciter ea usque ad festum sancti Andree retinere presumpserint et satisfacere neglexerint, a iure proprio cadant et, si proterve adhuc retinuerint, anathematis gladio feriantur. Et ad hec adicimus, ut nemo ecclesiam aut atrium vestre ecclesie violare presumat et, qui fecerit, excommunicatus et infamis, prout in statutis iam dicti filii nostri decretum est, usque ad condignam satisfactionem habeatur. Nulli ergo omnino hominum fas sit hanc nostre confirmationis paginam temere infringere aut ei aliquatenus contraire. Si quis autem tributariorum et censualium sacerdos confirmationem nostram et edictum imperiale pronuntiare et summa diligentia servare neglexerit, post tertiam ammonitionem fratrum suspensum eum esse decernimus, donec episcopo et vobis satisfecerit.Datum Rome, apud sanctum Petrum, II kal. augusti.</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>

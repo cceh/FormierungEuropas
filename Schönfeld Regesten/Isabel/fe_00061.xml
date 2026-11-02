@@ -28,8 +28,7 @@
                <p><authen type="formula" n="na">
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-                  </authen></p>
-               <issued><placeName>(Cremona)</placeName><date type="issued" notBefore="1162-04-01" notAfter="1162-04-30">(1162 Apr)</date>
+                  </authen></p><issued><placeName>Cremona</placeName><date type="issued" notBefore="1162-04-01" notAfter="1162-04-30">(1162) Apr. 1</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Viktor IV.</legalActor></p>
@@ -37,7 +36,7 @@
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">Papsturkunde, Litterae cum filo canapis</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
-               <p><objectType ref="na">[Bezugspunkt (refpoint), siehe Guidelines. Z.B.: Viktor IV. &amp;gt; Beauftragung durch…]</objectType></p>
+               <p><objectType ref="na">Juristisches, neues Recht</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
@@ -68,10 +67,7 @@
                   <item>[Kardinalsunterschriften. Diese können in Listen gruppiert werden.]</item>
                </list></diploPart>
          </div>
-         <div>
-            <head>Datatio:</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
-         </div>
+         <div><head>Datatio:</head><diploPart type="datatio">Dat. Cremone, kalend. Aprilis</diploPart></div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
@@ -106,10 +102,9 @@
             <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>Diplomata Belgica (irrtümlich als JL 14462 verzeichnet), Nr. 2083: https://www.diplomata-belgica.be/charter_details_fr.php?dibe_id=2083</bibl>
-               <bibl>Mayr, Pontifikat, S. 118, Nr. 54</bibl><bibl>Wauters, Table chronologique 2, S. 437</bibl><bibl>Wauters, Table chronologique 11/1, S. 209 oder 210 (##???##)</bibl></listBibl></div><div><head>Diplomatischer Kommentar</head>
+               <bibl>Mayr, Pontifikat, S. 118, Nr. 54</bibl><bibl>Wauters, Table chronologique 2, S. 437</bibl><bibl>Wauters, Table chronologique 11/1, S. 209</bibl></listBibl></div><div><head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>[Text und Inhalte <diploPart type="rota">Rota</diploPart>Diplomatischer
- Kommentar]</p>
+               <p>Die Datierung folgt der bei Wauters (<bibl>Wauters, Table chronologique 11/1, S. 209</bibl>) überlieferten Datatio. Weitere erschlossene Ausstellungstage beinhalten den 4. April (Mayr), den 1. April (Chart. Afflighem). Miraeus erschließt das Jahr auf 1163.</p>
             </diploDesc>
          </div>
          <div type="commentary">

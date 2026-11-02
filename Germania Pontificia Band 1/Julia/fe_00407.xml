@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
-<TEI source="formierung-europas_pontificia" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc><titleStmt><title>fe_00407</title><respStmt><resp>Datenquelle</resp><persName>JB</persName></respStmt>
@@ -15,14 +12,13 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>Germ. Pont. 1, S. 354, Nr. 1</bibl><bibl type="jaffe">12814</bibl>
-            <bibl>[Weiteres Konkordanzregest]</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
                <p><authen type="formula" n="na">
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Ferrara</placeName><date type="issued" notBefore="1177-04-28" notAfter="1177-04-28">1177 Apr. 28</date>
+               <issued><placeName>Ferrara</placeName><date type="issued" when="1177-04-28">1177 Apr. 28</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
@@ -30,7 +26,7 @@
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">Jurisitisches, Rechts- und Besitzbestätigung</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
+               <p><objectType n="">Jurisitisches, Rechts- und Besitzbestätigung</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
@@ -49,8 +45,10 @@
          <div type="abstract">
             <head>Abstract</head>
             <p><legalActor><persName>Alexander III.</persName></legalActor> gewährt auf Bitten des <legalActor><persName>Abtes Egilolf</persName></legalActor> dem <legalActor><orgName>Benediktinerkloster Attel</orgName></legalActor> (D. Freising) folgende Rechte:<list>
-                  <item>die Aufnahme in den apostolischen Schutz.</item><item>Bestätigung der Regel des heiligen Benedikt.</item><item>Bestätigung aller Besitzungen und Güter, die das Stift in der Gegenwart rechtmäßig besitzt beziehungsweise in der Zukunft rechtmäßig erwerben wird, darunter einige namentlich genannte Besitzungen, insbesondere alles, was der Graf Engelbert von Hall dem Kloster geschenkt hat. </item><item>Bestätigung der bisher verliehenen Freiheiten und Immunitäten sowie Gewohnheiten des Klosters.</item><item>Befreiung vom Novalzehnten für Eigenbau und für Tierfutter.</item><item>das Präsentationsrecht für die Eigenkirchen.</item><item>die ungehinderte Aufnahme von Klerikern und Laien, die der Welt entfliehen wollen.</item><item>das freie Begräbnisrecht.</item><item>Ferner legt er fest:</item><item>das Verbot, nach Ablegung der Profess ohne die Erlaubnis des Abtes das Stift zu verlassen, außer bei Übertritt zur strengeren Lebensweise (<diploPart>arctior vita</diploPart>), und untersagt die Aufnahme des Ausscheidenden durch Dritte.</item><item>dass Altar- und Kirchenweihen, Ordinationen der Mönche und das heilige Öl vom Diözesanbischof zu empfangen sind, solange dieser rechtgläubig sei und in der Gunst des apostolischen Stuhls stehe. Andernfalls sei es den Mönchen erlaubt, einen ihnen genehmen Bischof um die Spendung der Sakramente zu ersuchen.</item><item>dass die Brüder beim Tod des Abtes nach den Vorgaben der Regel des heiligen Benedikt ohne jeden Druck von außen gemeinschaftlich oder nach dem Votum der <diploPart>sanior pars</diploPart> einen Nachfolger wählen sollen.</item><item>Schlussformeln: Perturbationsverbot, Sanctio negativa und positiva.</item>
-               </list></p>
+                  <item>die Aufnahme in den apostolischen Schutz.</item><item>die Bestätigung der Regel des heiligen Benedikt.</item><item>die Bestätigung aller Besitzungen und Güter, die das Kloster gegenwärtig rechtmäßig besitzt beziehungsweise in der Zukunft rechtmäßig erwerben wird, darunter einige namentlich genannte Besitzungen, ##insbesondere alles, was der Graf Engelbert von Hall dem Kloster geschenkt hat. ##</item><item>die Bestätigung der bisher verliehenen Freiheiten und Immunitäten sowie Gewohnheiten des Klosters.</item><item>die Befreiung vom Novalzehnten für Eigenbau und für Tierfutter.</item><item>das Präsentationsrecht für die Eigenkirchen.</item><item>die ungehinderte Aufnahme von Klerikern und Laien, die der Welt entfliehen wollen. ##sofern niemand widerspricht auch halten ##</item><item>das freie Begräbnisrecht.</item></list>
+               Ferner legt er fest:<list><item>das Verbot, nach Ablegung der Profess ohne die Erlaubnis des Abts das Kloster zu verlassen, außer beim Übertritt zur strengeren Lebensweise (<diploPart>vita </diploPart>arctior), und untersagt die Aufnahme des Ausscheidenden durch Dritte.</item><item>dass Altar- und Kirchenweihen, Ordinationen der Mönche und das heilige Öl vom Diözesanbischof zu empfangen sind, solange dieser rechtgläubig sei und in der Gunst des apostolischen Stuhls stehe. Andernfalls sei es den Mönchen erlaubt, einen ihnen genehmen Bischof um die Spendung der Sakramente zu ersuchen.</item><item>die freie Wahl des Abts nach der Regel des hl. Benedikt, ohne jeden Druck von außen, gemeinschaftlich oder nach dem Votum der <diploPart>sanior pars</diploPart>.</item><item>das Perturbationsverbot.</item></list>
+               </p>
+               <p>Schlussformeln: Sanctio negativa und positiva.</p>
          </div>
 
          <div>
@@ -59,19 +57,19 @@
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>(R.) Ego Alexander catholice ecclesie episcopus subscripsi. (BV.).</item><item>Ego Hubaldus Hostiensis episcopus subscripsi.</item><item>Ego Gualterius Albanensis episcopus subscripsi.</item><item>Ego Chunradus Mogontinus archiepiscopus et Sabinensis episcopus subscripsi.</item><item>Ego Guillielmus episcopus Portuensis et sancte Rufine subscripsi.</item><item>Ego Manfredus Prenestinus episcopus subscripsi.</item><item>Ego Ildebrandus basilice XII apostolorum presbyter cardinalis subscripsi.</item><item>Ego Iohannes presbyter cardinalis tituli sancte Anastasie subscripsi.</item><item>Ego Boso presbyter cardinalis sancte Pudentiane tituli Pastoris subscripsi.</item><item>Ego Theodinus presbyter cardinalis sancti Vitalis tituli Vestine subscripsi.</item><item>Ego Petrus presbyter cardinalis tituli sancte Susanne subscripsi.</item><item>Ego Iacinthus sancte Marie in Cosmidyn diaconus cardinalis subscripsi.</item><item>Ego Ardicio diaconus cardinalis sancti Theodori subscripsi.</item><item>Ego Cinthyus diaconus cardinalis sancti Adriani subscripsi.</item><item>Ego Hugo diaconus cardinalis sancti Angeli subscripsi.</item><item>Ego Laborans diaconus cardinalis sancte Marie in Porticu subscripsi.</item>
+                  <item>(R.) Ego Alexander catholice ecclesie episcopus subscripsi. (BV.)</item><item>Ego <persName>Hubaldus Hostiensis episcopus</persName> subscripsi.</item><item>Ego <persName>Gualderius Albanensis episcopus</persName> subscripsi.</item><item>Ego <persName>Chunradus Mogontinus archiepiscopus et Sabinensis episcopus</persName> subscripsi.</item><item>Ego <persName>Guilielmus episcopus Portuensis et sancte Rufine</persName> subscripsi.</item><item>Ego <persName>Manfredus Prenestinus episcopus</persName> subscripsi.</item><item>Ego <persName>Ildebrandus Basilice XII. apostolorum presbyter cardinalis</persName> subscripsi.</item><item>Ego <persName>Iohannes presbyter cardinalis tituli sancte Anastasie</persName> subscripsi.</item><item>Ego <persName>Boso presbyter cardinalis sancte Pudentiane tituli Pastoris</persName> subscripsi.</item><item>Ego <persName>Theodinus presbyter cardinalis sancti Vitalis tituli Vestine</persName> subscripsi.</item><item>Ego <persName>Petrus presbyter cardinalis tituli sancte Susanne</persName> subscripsi.</item><item>Ego <persName>Iacinthus sancte Marie in Cosmidyn diaconus cardinalis</persName> subscripsi.</item><item>Ego <persName>Ardicio diaconus cardinalis sancti Theodori</persName> subscripsi.</item><item>Ego <persName>Cinthyus diaconus cardinalis sancti Adriani</persName> subscripsi.</item><item>Ego <persName>Hugo diaconus cardinalis sancti Angeli</persName> subscripsi.</item><item>Ego <persName>Laborans diaconus cardinalis sancte Marie in Porticu</persName> subscripsi.</item>
                </list></diploPart>
          </div>
          <div>
-            <head>Datatio</head><diploPart type="datatio">Dat. Ferrarie per manum Gratiani sancte Romane ecclesie subdiaconi et notarii, IIII Kalendas Maii, indictione X, incarnationis dominice anno MCLXXVII, pontificatus vero domni Alexandri pape III, anno XVIII.</diploPart>
+            <head>Datatio</head><diploPart type="datatio">Dat. Ferrarie per manum <persName>Gratiani sancte Romane ecclesie subdiaconi et notarii</persName>, IIII. Kalendas Maii Indictione X. Incarnationis dominice anno MCLXXVII. Pontificatus vero domini Alexandri pape III. anno XVIII.</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
                   <bibl type="original">München, Bayerisches Hauptstaatsarchiv, Kloster Attel, Urk. Nr. 5; digital verfügbar unter: https://urkundenrepositorium.uni-marburg.de/entities/urkunde/adc961e2-37a1-4170-bf7b-29915e37acdb </bibl>
-                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="msCopy">-</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
@@ -92,32 +90,31 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Meichelbeck, Historiae Frisingensis II, S. 15-16, Nr. 26</bibl>
-               <bibl>Monumenta Boica 1, S. 269-270</bibl>
+               <bibl>Meichelbeck, Historiae Frisingensis 2, 2, S. 15-16, Nr. 26</bibl>
+               <bibl>Monumenta Boica 1, S. 269-271 (ohne Subskribenten)</bibl>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head>
             <listBibl>
                <bibl>JL 12814</bibl>
-               <bibl>Germ. Pont. 1, S. 354-355, Nr. 1</bibl>
+               <bibl>Germ. Pont. 1, S. 354-355, Nr. 1</bibl><bibl>Lang, Regesta 1, S. 296</bibl>
             </listBibl>
          </div>
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Rota, Inschrift: <diploPart>sanctus Petrus | sanctus Paulus | Alex | ander | pape |III</diploPart>, Devise: <diploPart>Vias tuas, domine, demonstra michi</diploPart>.  Bulle an gelben Seidenfäden. Aufschrift auf der Aversseite: <diploPart>Alex | ander papa III</diploPart>, auf der Reversseite sind die Köpfe der Apostelfürsten Petrus und Paulus abgebildet.</p>
+               <p>Rota vorhanden; Inschrift: <diploPart>sanctus Petrus | sanctus Paulus | Alexa | nder | pape |III;</diploPart> Devise: <diploPart>Vias tuas domine demonstra michi</diploPart>. Bulle an gelben Seidenfäden; Aufschrift auf der Aversseite: <diploPart>Alex | ander | papa III</diploPart>, auf der Reversseite sind die Köpfe der Apostelfürsten Petrus und Paulus abgebildet.</p>
             </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Das Kloster Attel wurde um 1037 durch die Grafen von Dießen-Andechs gegründet, wurde kurz darauf jedoch wieder zerstört, wie aus einer Urkunde des Grafen Engelbert von Limburg hervorgeht (vgl. Monumenta Boica 1, S. 269-270) aus dem Jahr 1137 hervorgeht. Daraufhin erfolgte durch Fraf Engelbert die Wiederherstellung des Klosters, dessen Andenken auch in diesem päpstlichen Privileg erwähnt wird.</p>
+            <p>Das Kloster Attel wurde um 1037 durch die Grafen von Dießen-Andechs gegründet, wurde kurz darauf jedoch wieder zerstört, wie aus einer Urkunde <persName>Engelberts, des Grafen von Limburg,</persName> aus dem Jahr 1137 hervorgeht (vgl. <bibl>Monumenta Boica 1, S. 266-267, Nr. 1</bibl>). Daraufhin erfolgte durch Graf Engelbert die Wiederherstellung des Klosters, dessen Andenken auch in diesem feierlichen Privileg Alexanders III. erwähnt wird (<diploPart>bona memoria Engelberti comitis Hallensis</diploPart>).</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
             <listBibl>
-               <bibl>[Werk 1]</bibl>
-               <bibl>[Werk 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="note">
