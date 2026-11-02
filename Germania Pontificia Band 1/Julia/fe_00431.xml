@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
-<TEI source="formierung-europas_pontificia" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<TEI source="formierung-europas_pontificia" xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
-      <fileDesc><titleStmt><title>fe_00431</title><respStmt><resp>Datenquelle</resp><persName>JB</persName></respStmt>
-            <respStmt><resp when="2026">Encoding</resp><persName>JB</persName></respStmt>
+      <fileDesc>
+         <titleStmt>
+            <title>fe_00431</title>
+            <respStmt>
+               <resp>Datenquelle</resp>
+               <persName>JB</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2026">Encoding</resp>
+               <persName>JB</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -14,7 +24,8 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>Germ. Pont. 1, S. 408, Nr. 2</bibl><bibl type="jaffe">–</bibl>
+            <bibl>Germ. Pont. 1, S. 408, Nr. 2</bibl>
+            <bibl type="jaffe">–</bibl>
             <bibl>[Weiteres Konkordanzregest]</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
@@ -22,21 +33,38 @@
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Tusculanum</placeName><date type="issued" notBefore="1171-02-04" notAfter="1181-02-04">(1171-1181) Februar 04</date>
+               <issued><placeName>Tusculanum</placeName><date type="issued" when="1171-02-04">(1171-1181) Februar 04</date>
+                  <date type="issued" when="1172-02-04"></date>
+                 <date type="issued" when="1179-02-04"></date>
+                  <date type="issued" when="1181-02-04"></date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Augustiner-Chorherrenstift Au</legalActor></p><p><legalActor type="recipient">Heinrich, Propst des Augustiner-Chorherrenstifts Au</legalActor></p>
+               <p><legalActor type="recipient">Augustiner-Chorherrenstift Au</legalActor></p>
+               <p><legalActor type="recipient">Heinrich, Propst des Augustiner-Chorherrenstifts
+                     Au</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, Litterae cum serico</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
+               <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
+               <p><objectType n="">Alexander III., Urheber</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
       </fileDesc>
-      
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+            xmlns:as="http://www.w3.org/ns/activitystreams#"
+            xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+            xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
+            xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
+            xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+            xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+            xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
          <langUsage>
             <language ident="ger">German</language>
             <language ident="lat">Latin</language>
@@ -48,26 +76,37 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor><persName>Alexander III.</persName></legalActor> nimmt <legalActor><persName>Heinrich, Propst des Augustiner-Chorherrenstiftes Au</persName></legalActor> (D. Trient), und seine Mitbrüder in Anerkennung der Hingabe, die sie gegenüber dem heiligen Petrus und ihm selbst gezeigt haben, samt all ihrem Besitz in den apostolischen Schutz und bestätigt ihnen die Regel des heiligen Augustinus.</p>
+            <p><legalActor><persName>Alexander III.</persName></legalActor> nimmt
+                     <legalActor><persName>Heinrich, Propst des Augustiner-Chorherrenstiftes
+                     Au</persName></legalActor> (D. Trient), und seine Mitbrüder in Anerkennung der
+               Hingabe, die sie gegenüber dem heiligen Petrus und ihm selbst gezeigt haben, samt all
+               ihrem Besitz in den apostolischen Schutz und bestätigt ihnen die Regel des heiligen
+               Augustinus.</p>
          </div>
 
          <div>
-            <head>Incipit</head><diploPart type="incipit" xml:lang="lat">Quotiens apostolice protectionis suffragium requiritur</diploPart></div>
+            <head>Incipit</head>
+            <diploPart type="incipit" xml:lang="lat">Quotiens apostolice protectionis suffragium
+               requiritur</diploPart>
+         </div>
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften
+                     können auch in drei separaten Listen gruppiert werden.]</item>
                </list></diploPart>
          </div>
          <div>
-            <head>Datatio</head><diploPart type="datatio">Dat. Tuscul., II. Non. Februarii. </diploPart>
+            <head>Datatio</head>
+            <diploPart type="datatio">Dat. Tuscul., II. Non. Februarii. </diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
                   <bibl type="original">-</bibl>
-                  <bibl type="msCopy">Muri-Gries, Stiftsarchiv, Liber copialis ecclesiae Owensis, fol. 34 (16. Jh.)</bibl>
+                  <bibl type="msCopy">Muri-Gries, Stiftsarchiv, Liber copialis ecclesiae Owensis,
+                     fol. 34 (16. Jh.)</bibl>
                   <bibl type="print">[Druck]</bibl>
                </listBibl>
             </div>
@@ -103,12 +142,25 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Diese päpstliche Litterae ist nur im Kopialbuch des Stifts aus dem 16. Jahrhundert überliefert. Dem Wortlaut nach muss es sich um eine Litterae cum serico gehandelt haben.</p>
+               <p>Diese päpstliche Litterae ist nur im Kopialbuch des Stifts aus dem 16. Jahrhundert
+                  überliefert. Dem Wortlaut nach muss es sich um eine Litterae cum serico gehandelt
+                  haben.</p>
             </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Das Stift Au wurde um das Jahr 1160 durch den Graf Arnold und seine Frau Mathilde als Kanonikerstift bei Bozen in den Eisackauen gegründet. Es war wie die Stifte St. Michael an der Etsch und Neustift bei Brixen durch die unter Erzbischof Konrad I. von Salzburg nach Südtirol ausstrahlenden Salzburger Regularkanonikerreform beeinflusst. Aufgrund der Lage in den Eisackauen wurde das Kloster mehrfach überflutet. Die Überschwemmung im Jahr 1405/1406 führte schließlich zum Umzug der Chorherren in deie Burg Gries. Das Privileg Alexanders III. vom 30. Januar 1174 bestätigte dem Stift verschiedene Rechte und stellte es in den apostolischen Schutz (##FE Nr. 00430##). Die vorliegende Litterae könnte entweder vor dem feierlichen Privileg am 04. Februar 1171 oder 1172 oder nach dem Frieden von Venedig am 04. Februar 1179 oder 1181 ausgestellt worden sein. Vgl. <bibl>Brackmann, Studien und Vorarbeiten 1, S. 248</bibl>.</p>
+            <p>Das Stift Au wurde um das Jahr 1160 durch den Graf Arnold und seine Frau Mathilde als
+               Kanonikerstift bei Bozen in den Eisackauen gegründet. Es war wie die Stifte St.
+               Michael an der Etsch und Neustift bei Brixen durch die unter Erzbischof Konrad I. von
+               Salzburg nach Südtirol ausstrahlenden Salzburger Regularkanonikerreform beeinflusst.
+               Aufgrund der Lage in den Eisackauen wurde das Kloster mehrfach überflutet. Die
+               Überschwemmung im Jahr 1405/1406 führte schließlich zum Umzug der Chorherren in deie
+               Burg Gries. Das Privileg Alexanders III. vom 30. Januar 1174 bestätigte dem Stift
+               verschiedene Rechte und stellte es in den apostolischen Schutz (##FE Nr. 00430##).
+               Die vorliegende Litterae könnte entweder vor dem feierlichen Privileg am 04. Februar
+               1171 oder 1172 oder nach dem Frieden von Venedig am 04. Februar 1179 oder 1181
+               ausgestellt worden sein. Vgl. <bibl>Brackmann, Studien und Vorarbeiten 1, S.
+                  248</bibl>.</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
@@ -119,7 +171,8 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>Ausstellungsdatum könnte 1171 Feb. 04, 1172 Feb. 04, 1179 Feb. 04 oder 1181 Feb. 04 sein. Wie stelle ich das dar? Hannah fragen! </p>
+            <p>Ausstellungsdatum könnte 1171 Feb. 04, 1172 Feb. 04, 1179 Feb. 04 oder 1181 Feb. 04
+               sein. Wie stelle ich das dar? Hannah fragen! </p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
