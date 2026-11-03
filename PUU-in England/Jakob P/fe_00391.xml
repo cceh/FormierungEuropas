@@ -39,10 +39,10 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. verleiht dem Prior und Konvent von St. Augustine's in Bristol ein Privileg und gewährt die folgenden Rechte und bestätigt die folgenden Besitzungen:<list><item>Bestätigung des Besitzes der Kirche von Berkeley mit ihren namentlich genannten Kapellen und anderen Pertinenzen</item><item>Perturbationsverbot</item> </list>Schlussformel: Sanctio negativa </p>
+            <p>Alexander III. verleiht dem Prior und Konvent von St. Augustine's in Bristol ein Privileg und gewährt folgende Rechte und bestätigt  folgende Besitzungen:<list><item>Bestätigung des Besitzes der Kirche von Berkeley mit ihren namentlich genannten Kapellen und weiteren Pertinenzen</item><item>Perturbationsverbot</item> </list>Schlussformel: Sanctio negativa </p>
          </div>
         
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat"/></div>
          <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung</head>
