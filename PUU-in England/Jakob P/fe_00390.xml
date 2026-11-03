@@ -18,7 +18,7 @@
          <sourceDesc>
             <bibl>PUU England 1, S. 339-340, Nr. 79</bibl><bibl type="jaffe">-</bibl>
             <diploDesc><p>
-                <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen>
+                <authen type="formula" n=""><p>[-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen>
                <issued><placeName>Anagni</placeName><date type="issued" notBefore="1160-10-17" notAfter="1160-10-17">(1160) Okt. 17</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
@@ -39,7 +39,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. verleiht dem Meister und den Brüdern des Templerordens ein Privileg und bestätigt die folgenden Rechte und Besitzungen:<list><item>Bestätigung der ihnen von Nigel, Bischof von Ely, mit Zustimmung der beiden Gründer R. und seines Sohn Gilbert übertragenen Kirche von Wilburgham</item><item>Perturbationsverbot</item></list>Schlussformel: Sanctio negativa</p><p/>
+            <p>Alexander III. verleiht dem Meister und den Brüdern des Templerordens ein Privileg und bestätigt die folgenden Rechte und Besitzungen:<list><item>Bestätigung der ihnen von Nigel, Bischof von Ely, mit Zustimmung der beiden Gründer R. und seines Sohnes Gilbert übertragenen Kirche von Wilburgham</item><item>Perturbationsverbot</item></list>Schlussformel: Sanctio negativa</p><p/>
          </div>
       
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustis pententium desideriis dignum est</diploPart></div>
