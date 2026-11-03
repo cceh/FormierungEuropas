@@ -3,12 +3,9 @@
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
 <TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen -->
    <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
-            <respStmt>
+      <fileDesc><titleStmt><title>fe_00391</title><respStmt>
                <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
-               <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+               <persName>JP</persName>
             </respStmt>
            <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
          </titleStmt>
@@ -19,8 +16,8 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>PUU England 1, S. 392, Nr. 120</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
-            <diploDesc><p><issued><placeName>Ferentino</placeName><date type="issued" notBefore="1175-06-27" notAfter="1175-06-27">(1175) Juni 27.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            <bibl>PUU England 1, S. 392, Nr. 120</bibl><bibl type="jaffe">-</bibl>
+            <diploDesc><p><issued><placeName>Ferentino</placeName><date type="issued" notBefore="1175-06-27" notAfter="1175-06-27">(1175) Jun. 27</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">Kloster St. Augustine's in Bristol (OSA)</legalActor></p><p><legalActor type="recipient">Prior von St. Augustine's in Bristol</legalActor></p><p><legalActor type="recipient">Konvent von St. Augustine's in Bristol</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
