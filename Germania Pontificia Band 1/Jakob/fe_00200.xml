@@ -44,9 +44,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor><persName>Alexander III.</persName></legalActor> antwortet auf die Anfrage des <legalActor><persName>Erzbischofs von Salzburg</persName></legalActor>, dass Ehen von Knechten, die gegen den Willen ihrer Herren geschlossen werden, nach kirchlichem Recht unter keinen Umständen aufgelöst werden dürfen. Dennoch müssen die Knechte weiterhin ihren Herren die ihnen gebührenden und üblichen Dienste leisten.<list>
-                  <item>[Listeneintrag 1]</item>
-               </list></p>
+            <p><legalActor><persName>Alexander III.</persName></legalActor> antwortet auf die Anfrage des <legalActor><persName>Erzbischofs von Salzburg</persName></legalActor>, dass Ehen von Knechten, die gegen den Willen ihrer Herren geschlossen werden, nach kirchlichem Recht unter keinen Umständen aufgelöst werden dürfen. Dennoch müssen die Knechte weiterhin ihren Herren die ihnen gebührenden und üblichen Dienste leisten.</p>
          </div>
 
          <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Dignum est et a rationis</diploPart></div>
@@ -62,7 +60,7 @@
             <div>
                <listBibl>
                   <bibl type="original">-</bibl>
-                  <bibl type="msCopy">Paris, Bibliothèque national de France, ms. lat. 14664, f. 151r–v https://gallica.bnf.fr/ark:/12148/btv1b9067123g/f155.item</bibl><bibl type="msCopy">London, British Library, Royal MS 10 A II., fol. 10</bibl><bibl type="msCopy">Leipzig, Universitätsbibliothek, Ms 1242</bibl>
+                  <bibl type="msCopy">Paris, Bibliothèque national de France, ms. lat. 14664, f. 151r–v; digital verfügbar unter: https://gallica.bnf.fr/ark:/12148/btv1b9067123g/f155.item</bibl><bibl type="msCopy">London, British Library, Royal MS 10 A II., fol. 10</bibl><bibl type="msCopy">Leipzig, Universitätsbibliothek, Ms 1242</bibl>
                   <bibl type="print">-</bibl>
                </listBibl>
             </div>
