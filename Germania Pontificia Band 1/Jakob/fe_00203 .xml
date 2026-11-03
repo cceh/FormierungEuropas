@@ -28,7 +28,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Eberhard, Erzbischof von Salzburg</legalActor></p>
-               <p><legalActor type="recipient">Hildebrand, Kardinalpriester von Santi XII Apostoli</legalActor></p>
+               <p><legalActor type="recipient">Hildebrand, Kardinalpriester der Titelkirche Santi XII Apostoli</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Urkunde eines nichtpäpstlichen Ausstellers, andere</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
@@ -50,7 +50,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>Erzbischof Eberhard von Salzburg versichert Hildebrand, Kardinalpriester von Santi XII Apostoli und apostolischer Legat, seinen Gehorsam gegenüber Papst Alexander III.</p><p><list>
+            <p>Eberhard, Erzbischof von Salzburg, versichert Hildebrand, Kardinalpriester der Basikvon Santi XII Apostoli und apostolischer Legat, seinen Gehorsam gegenüber Papst Alexander III.</p><p><list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
