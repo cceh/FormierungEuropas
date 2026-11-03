@@ -46,10 +46,10 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor>Hubald, Kardinalbischof von Ostia</legalActor>, lobt Eberhard I., Erzbischof von Salzburg, für seinen Widerstand gegen den Schismatiker Octavian, ruft ihn zur weiteren Ablehnung Octavians auf und sichert ihm Unterstützung im Kamp gegen die Schismatiker zu. </p>
+            <p><legalActor><persName>Hubald, Kardinalbischof von Ostia</persName></legalActor>, lobt <legalActor><persName>Eberhard I., Erzbischof von Salzburg</persName></legalActor>, für seinen Widerstand gegen den Schismatiker <persName>Octavian</persName>, ruft ihn zur weiteren Ablehnung Octavians auf und sichert ihm Unterstützung im Kampf gegen die Schismatiker zu. </p>
          </div>
 
-         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Pater omnium Christianorum, Christi vicarius</diploPart></div>
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Pater omnium Christianorum Christi vicarius</diploPart></div>
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
