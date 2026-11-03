@@ -22,8 +22,7 @@
                <issued><placeName>Venezia, Rialto</placeName><date type="issued" notBefore="1177-06-22" notAfter="1177-06-22">1177 Juni 22.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Zisterzienserkloster Meaux</legalActor></p> <p> <legalActor type="recipient">Philipp, Abt des Klosters Meaux</legalActor></p> <p> <legalActor type="recipient">Paganus, Abt des Klosters St. Marys</legalActor></p> <p> <legalActor type="recipient">Paganus, Abt des Klosters St. Marys</legalActor></p> <p> <legalActor type="recipient">Paganus, Abt des Klosters St. Marys</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <p><legalActor type="recipient">Zisterzienserkloster Meaux</legalActor></p> <p> <legalActor type="recipient">Philipp, Abt des Zisterzienserklosters Meaux</legalActor></p> <p> <legalActor type="recipient">Paganus, Abt des Klosters St. Marys</legalActor></p><p><objectType n=""/></p>
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
@@ -39,7 +38,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. nimmt das Kloster Meaux unter dem Abt Philipp in den päpstlichen Schutz und bestätigt die Cisterzienserregel, genannte Besitzungen und Bechte.</p>
+            <p>Alexander III. nimmt das Kloster Meaux (D. York) unter dem Abt Philipp in den päpstlichen Schutz und bestätigt die Cisterzienserregel, genannte Besitzungen und Bechte.</p>
          </div>
          
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
