@@ -69,16 +69,14 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Farrer, Reg. Early Yorkshire 3, S. 103, Nr. 1392</bibl><bibl>Chart. Meaux, S.16-18, Nr. 5</bibl>
-               <bibl>[Edition 2]</bibl>
+               <bibl/><bibl>PUU England 1, S. 419-420, Nr. 148</bibl><bibl>Farrer, Reg. Early Yorkshire 3, S. 103, Nr. 1392</bibl><bibl>Chart. Meaux, S.16-18, Nr. 5</bibl>
+               <bibl/>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>J-L. *12751</bibl>
-               <bibl>[Regest 2]</bibl>
-            </listBibl>
+               <bibl>J-L. *12751</bibl></listBibl>
          </div>
           <div>
             <head>Diplomatischer Kommentar</head>
@@ -86,7 +84,7 @@
                <p/> </diploDesc> </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Die vorliegende Urkunde orientiert sich an fe_00371 (vgl. PUU England 1, S. 419-</p>
+            <p>Die vorliegende Urkunde orientiert sich an fe_00371 (vgl. <bibl>PUU England 1, S. 419</bibl>).</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
