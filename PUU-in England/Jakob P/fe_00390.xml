@@ -18,7 +18,7 @@
          <sourceDesc>
             <bibl>PUU England 1, S. 339-340, Nr. 79</bibl><bibl type="jaffe">-</bibl>
             <diploDesc><p>
-               
+                <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen>
                <issued><placeName>Anagni</placeName><date type="issued" notBefore="1160-10-17" notAfter="1160-10-17">(1160) Okt. 17</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
