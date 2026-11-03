@@ -17,10 +17,13 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>PUU England 1, S. 392, Nr. 120</bibl><bibl type="jaffe">-</bibl>
-            <diploDesc><p><issued><placeName>Ferentino</placeName><date type="issued" notBefore="1175-06-27" notAfter="1175-06-27">(1175) Jun. 27</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            <diploDesc><p>
+               <authen type="formula" n=""><p>[-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen>
+               <issued><placeName>Ferentino</placeName><date type="issued" notBefore="1175-06-27" notAfter="1175-06-27">(1175) Jun. 27</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">Augustinerpriorei St. Augustine's in Bristol </legalActor></p><p><legalActor type="recipient">Prior von St. Augustine's in Bristol</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Paptsurkunde, litterae cum serico</objectType></p>
                <p><objectType n="">Paptsurkunde, litterae cum serico</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
@@ -38,8 +41,7 @@
          <div type="abstract"><head>Abstract:</head>
             <p>Alexander III. bestätigt dem Prior und Konvent von St. Augustiner's in Bristol namentlich aufgeführte Besitzungen.</p>
          </div>
-         <div type="other"><head>Echtheitskriterien:</head>
-            <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
+        
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
          <div type="msSources">
@@ -82,6 +84,12 @@
          <div type="commentary">
             <head>Sachkommentar</head>
             <p>[Kommentar]</p>
+         </div>
+          <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>Die Chartularabschrift gibt den Namen des Bischofs von Ely fälschlich mit Nikolaus statt Nigel wieder (vgl. <bibl>PUU England 1, S. 339</bibl>)</p>
+            </diploDesc>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
