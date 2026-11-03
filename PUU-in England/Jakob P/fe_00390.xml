@@ -41,8 +41,7 @@
          <div type="abstract"><head>Abstract:</head>
             <p>Alexander III. bestätigt dem Meister und den Brüdern des Templerordens die ihnen vom Bischof Nigellus von Ely mit Zustimmung der Gründer übertragene Kirche in Wilburgham.</p>
          </div>
-         <div type="other"><head>Echtheitskriterien:</head>
-            <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
+      
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
          <div type="msSources">
@@ -81,6 +80,12 @@
                <bibl>[Regest 1]</bibl>
                <bibl>[Regest 2]</bibl>
             </listBibl>
+         </div>
+          <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>H</p>
+            </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
