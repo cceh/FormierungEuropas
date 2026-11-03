@@ -50,12 +50,10 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor><persName>Eberhard, Erzbischof von Salzburg</persName></legalActor>, versichert <legalActor><persName>Hildebrand, Kardinalpriester der Basilica Santi XII Apostoli und apostolischer Legat</persName></legalActor>, dass er weder von der Einheit der römischen Kirche noch von seinem Gehorsam gegenüber <persName>Papst Alexander III.</persName> abweichen werde.</p><p><list>
-                  <item>[Listeneintrag 1]</item>
-               </list></p>
+            <p><legalActor><persName>Eberhard, Erzbischof von Salzburg</persName></legalActor>, versichert <legalActor><persName>Hildebrand, Kardinalpriester der Basilica Santi XII Apostoli und apostolischer Legat</persName></legalActor>, dass er weder von der Einheit der römischen Kirche noch von seinem Gehorsam gegenüber <persName>Papst Alexander III.</persName> abweichen werde.</p><p/>
          </div>
 
-         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Vasa figuli probat fornax, et</diploPart></div>
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Vasa figuli probat fornax et</diploPart></div>
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
