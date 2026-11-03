@@ -70,7 +70,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>[Edition 1]</bibl>
+               <bibl>PUU England 1, S. 392, Nr. 120</bibl>
                <bibl>[Edition 2]</bibl>
             </listBibl>
          </div>
@@ -88,7 +88,7 @@
           <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Gelbes Seidenbüschel (vgl. James, Catalogue, S. 782). Holtzmann meinte innerhalb der durch einen Stockflock komprimierten Datierung ein V ausmachen zu können (vgl. PUU England 1, S. 392).</p>
+               <p>Gelbes Seidenbüschel (vgl. <bibl>James, Catalogue, S. 782</bibl>). Holtzmann meinte innerhalb der durch einen StockflockDatierung ein V ausmachen zu können (vgl. <bibl>PUU England 1, S. 392</bibl>).</p>
             </diploDesc>
          </div>
          <div type="bibliography">
