@@ -47,7 +47,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName></legalActor> verweigert der Wahl <persName>Werners</persName> zum Abt des <orgName>Benediktinerklosters Admont</orgName> (D. Graz-Seckau) seine Bestätigung, der zuvor Abt des <orgName>Benediktinerklosters St. Lambrecht</orgName> (D. Graz-Seckau) gewesen ist und nun auf das Betreiben <persName>Romans II., des Bischofs von Gurk,</persName> zum Abt von Admont gewählt worden ist. Er verweist stattdessen auf die Zuständigkeit des Salzburger Erzbischofs, in dessen Erzdiözese beide Klöster liegen.</p>
+            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName></legalActor> verweigert der Wahl <persName>Werners</persName> zum Abt des <legalActor cert="high" type="recipient" xml:space="default"><orgName>Benediktinerklosters Admont</orgName></legalActor> (D. Graz-Seckau) seine Bestätigung, der zuvor Abt des <orgName>Benediktinerklosters St. Lambrecht</orgName> (D. Graz-Seckau) gewesen ist und nun auf das Betreiben <persName>Romans II., des Bischofs von Gurk,</persName> zum Abt von Admont gewählt worden ist. Er verweist stattdessen auf die Zuständigkeit des Salzburger Erzbischofs, in dessen Erzdiözese beide Klöster liegen.</p>
          </div>
 
          <div>
