@@ -22,7 +22,7 @@
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Anagni</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1160-04-04" precision="high" unit="cm" xml:space="default" notBefore="1160-04-04" type="issued">(1160) Apr. 04</date>
+               <issued><placeName>Anagni</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" when="1160-04-04" precision="high" unit="cm" xml:space="default" type="issued">(1160) Apr. 04</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
