@@ -28,28 +28,41 @@
             <bibl>PUU England 1, S. 335-336, Nr. 76</bibl>
             <bibl type="jaffe">10616</bibl>
             <diploDesc>
-               <p><authen type="formula" n="na">
+               <p>
+                  <authen type="formula" n="na">
                      <p>-</p>
-                  </authen></p>
-               <issued><placeName>Anagni</placeName><date type="issued" when="1160-01-15">(1160)
-                     Jan. 15</date>
+                  </authen>
+               </p>
+               <issued>
+                  <placeName>Anagni</placeName>
+                  <date type="issued" when="1160-01-15">(1160) Jan. 15</date>
                   <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued>
-               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p>
+                  <legalActor type="issuer">Alexander III.</legalActor>
+               </p>
                <p>
                   <legalActor type="recipient">Benediktinerkloster St. Oswald in
-                     Bardney</legalActor></p>
-               <p><legalActor type="recipient">Walter, Abt des Benediktinerklosters St. Oswald in
-                     Bardney</legalActor></p>
+                     Bardney</legalActor>
+               </p>
+               <p>
+                  <legalActor type="recipient">Walter, Abt des Benediktinerklosters St. Oswald in
+                     Bardney</legalActor>
+               </p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p>
-               <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
+               <p>
+                  <objectType n="">Papsturkunde, litterae cum serico</objectType>
+               </p>
+               <p>
+                  <objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType>
+               </p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
       </fileDesc>
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      <xenoData>
+         <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
             xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
             xmlns:as="http://www.w3.org/ns/activitystreams#"
             xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
@@ -59,7 +72,8 @@
             xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
             xmlns:bf="http://www.openlinksw.com/schemas/bif#"
             xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-            xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+            xmlns:org="http://www.w3.org/ns/org#"/>
+      </xenoData>
       <profileDesc>
          <langUsage>
             <language ident="ger">German</language>
@@ -73,16 +87,18 @@
          <div type="abstract">
             <head>Abstract:</head>
             <p>
-              <persName>Alexander III.</persName> verleiht aufgrund von Bitten dem <orgName>Kloster
+               <persName>Alexander III.</persName> verleiht aufgrund von Bitten dem <orgName>Kloster
                   St. Oswald</orgName> (D.Lincoln) unter <persName>Abt Walter</persName> ein
                Privileg und gewährt die folgenden Rechte: </p>
-            <p><list>
-                  <item>Bestätigung der durch <persName>Jordan, Abt des Benediktinerklosters Charroux</persName> (D.
-                     Poitiers), mit  Zustimmung seines Kapitels gewährten Befreiung von der
-                     Gerichtsbarkeit des <orgName>Klosters Charroux</orgName> und der Gehorsamspflicht gegenüber
-                     diesem</item>
+            <p>
+               <list>
+                  <item>Bestätigung der durch <persName>Jordan, Abt des Benediktinerklosters
+                        Charroux</persName> (D. Poitiers), mit  Zustimmung seines Kapitels gewährten
+                     Befreiung von der Gerichtsbarkeit des <orgName>Klosters Charroux</orgName> und
+                     der Gehorsamspflicht gegenüber diesem</item>
                   <item>Perturbationsverbot</item>
-               </list></p>
+               </list>
+            </p>
             <p>Schlussformel: Sanctio negativa</p>
 
          </div>
@@ -93,9 +109,11 @@
          </div>
          <div>
             <head> Subscriptiones </head>
-            <diploPart type="subscriptio" xml:lang="lat"><list>
+            <diploPart type="subscriptio" xml:lang="lat">
+               <list>
                   <item>-</item>
-               </list></diploPart>
+               </list>
+            </diploPart>
          </div>
          <div>
             <head>Datatio:</head>
@@ -105,8 +123,8 @@
             <head>Handschriftliche Überlieferung</head>
             <div>
                <listBibl>
-                  <bibl>Original: -</bibl>
-                  <bibl>Kopie: Chartular von Bardney (13. Jh.), London, British Library, Cotton MS
+                  <bibl type="original">Original: -</bibl>
+                  <bibl type="msCopy">Kopie: Chartular von Bardney (13. Jh.), London, British Library, Cotton MS
                      Vespasian E XX, fol. 23</bibl>
                </listBibl>
             </div>
