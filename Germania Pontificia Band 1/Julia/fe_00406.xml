@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI source="formierung-europas_pontificia" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc><titleStmt><title>fe_00406</title><respStmt><resp>Datenquelle</resp><persName>JB</persName></respStmt>
@@ -102,12 +105,12 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Original verloren; Anhand der Datierung dieses Privilegs und des am selben Tag ausgestellten Privilegs Alexanders III. für das <orgName>Benediktinerkloster Rott</orgName> (vgl. ##FE Nr. 00408##) lassen sich zwei weitere Litterae Alexanders III. für <persName>Albert, den Bischof von Freising,</persName> ebenfalls in das Jahr 1179 datieren (vgl. ##FE Nr. 00404, und FE Nr. 00405##).</p>
+               <p>Original verloren. Anhand der Datierung dieses Privilegs und des am selben Tag ausgestellten Privilegs Alexanders III. für das <orgName>Benediktinerkloster Rott</orgName> (vgl. ##FE Nr. 00408##) lassen sich zwei weitere Litterae Alexanders III. für <persName>Albert, den Bischof von Freising,</persName> ebenfalls in das Jahr 1179 datieren (vgl. ##FE Nr. 00404, und FE Nr. 00405##).</p>
             </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Die Gründung des Klosters Ebersberg geht auf die Grafen Eberhard I. und Adalbero I. von Sempt zurück, die innerhalb ihrer Burg Ebersberg zunächst ein Kanonikerstift errichteten. Im Jahr 1013 wurde das Stift in ein Benediktinerkloster umgewandelt und durch Mönche aus St. Ulrich und Afra in Augsburg besiedelt. </p>
+            <p>Die Gründung des Klosters Ebersberg geht auf die Grafen Eberhard I. und Adalbero I. von Sempt zurück, die innerhalb ihrer Burg Ebersberg zunächst ein Kanonikerstift errichteten. Im Jahr 1013 wurde das Stift in ein Benediktinerkloster umgewandelt und durch Mönche aus St. Ulrich und Afra in Augsburg besiedelt. Vgl. <bibl>Sammer, Ebersberg, S. 423-443</bibl>.</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>

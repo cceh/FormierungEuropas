@@ -8,7 +8,7 @@
                <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
                <persName>JP</persName>
             </respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>JP</persName></respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>JP, IB</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -18,7 +18,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>PUU England 1, S. 417, Nr. 145</bibl><bibl type="jaffe">-</bibl>
-            <diploDesc><p> <authen type="formula" n=""><p>[-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></p> <issued><placeName>Ferrara</placeName><date type="issued" notBefore="1177-05-06" notAfter="1177-05-06">(1177) Mai 6</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            <diploDesc><p> <authen type="formula" n=""><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></p> <issued><placeName>Ferrara</placeName><date type="issued" notBefore="1177-05-06" notAfter="1177-05-06">(1177) Mai 6</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued>
                <p/>
                <p> <legalActor type="recipient">Templerorden</legalActor></p> <p> <legalActor type="recipient">Meister des Templerordens</legalActor></p> <p> <legalActor type="recipient">Brüder des Templerordens</legalActor></p>  <!-- kann enthalten: persName/orgName, ggf roleName -->
@@ -38,7 +38,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. bestätigt die Beilegung des Rechtstreits zwischen dem Meister des Templerordens, den Brüdern des Templerordens, den Mönchen der Kirche von Ely (D. Ely) und dem Bischof G(otfried) von Ely über namentlich genannte Besitzungen und Kirchen.<list><item>Diese geschlossene Vereinbarung wird auf Grundlage einer vorliegenden Urkunde des Bischofs und der Mönche für gültig erklärt und bestätigt.</item><item>Schlussformeln: Perturbationsverbot, Sanctio negativa</item></list></p><p/>
+            <p><persName>Alexander III.</persName> verleiht dem <persName>Meister des Templerordens</persName> und den <orgName>Brüdern des Templerordens</orgName> ein Privileg und bestätigt die folgenden Besitzungen und gewährt die folgenden Rechte:<list><item>Bestätigung der geschlossenen Vereinbarung zwischen dem Templerorden und den <orgName>Mönchen der Kirche von Ely</orgName> (D. Ely) und <persName>G(otfried), Bischof von Ely</persName>, auf Grundlage einer vorliegenden Urkunde</item><item>Perturbationsverbot</item></list>Schlussformeln: Sanctio negativa</p><p/>
          </div>
          
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Cum inter vos et monachos</diploPart></div>
@@ -48,7 +48,7 @@
             <div>
             <listBibl>   
                <bibl>Original: -</bibl>
-               <bibl>Kopie: Templerchartular (15. Jh.), in., Brit. Lib. Nero Cott. C IX fol. 23. </bibl>
+               <bibl>Kopie: Templerchartular (15. Jh.), British Library, Nero MS Cotton C IX, fol. 23</bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>
@@ -82,7 +82,7 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Laut Holtzmann existiert eine Bestätigungsurkunde König Heinrichs II. in demselben Chartular fol. 23. Vgl. PUU England 1, S. 417.</p>
+            <p>Laut Holtzmann (vgl. <bibl>PUU England 1, S. 417</bibl>) existiert eine Bestätigungsurkunde König Heinrichs II. in demselben Chartular (<bibl>British Library, Nero MS Cotton C IX, fol. 23</bibl>; vgl. <bibl>Letters and Charters 2, ed. Vincent, S. 81, Nr. 833</bibl>).</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
@@ -93,7 +93,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>Alexander episcopus seruus seruorum Dei. Dilectis filiis ma-gistro et fratribus militie Templi salutem et apostolicam benedic-tionem. Cum inter uos et monachos Eliensis ecclesie superquibusdam locis uidelicet de Daneia et Elmenea et super ecclesiisde Kirkeby, Wilburgham et Wendea et eorum pertinentiis questioaliquamdiu agitata fuisset, tandem uos et predicti monachi neenonetiam uenerabilis frater noster Eliensis episcopus super hiis ami-cabilem et spontaneam compositionem fecistis. Quam utique com-positionem, sicut de libero et spontaneo assensu partium facta estet hinc inde suseepta et in autentico scripto predicti episcopi etmonachorum contineri dinoscitur, ratam habemus et firmam eam-que auctoritate apostolica confirmamus et presentis scripti patro-cinio communimus. Statuentes, ut nulli omnino etc. Si quis autemetc. Dat. Ferrarie II0 non. maii</p>
+            <p>Nach Endkorrektur löschen:</p><p/><p>Alexander episcopus seruus seruorum Dei. Dilectis filiis ma-gistro et fratribus militie Templi salutem et apostolicam benedic-tionem. Cum inter uos et monachos Eliensis ecclesie superquibusdam locis uidelicet de Daneia et Elmenea et super ecclesiisde Kirkeby, Wilburgham et Wendea et eorum pertinentiis questioaliquamdiu agitata fuisset, tandem uos et predicti monachi neenonetiam uenerabilis frater noster Eliensis episcopus super hiis ami-cabilem et spontaneam compositionem fecistis. Quam utique com-positionem, sicut de libero et spontaneo assensu partium facta estet hinc inde suseepta et in autentico scripto predicti episcopi etmonachorum contineri dinoscitur, ratam habemus et firmam eam-que auctoritate apostolica confirmamus et presentis scripti patro-cinio communimus. Statuentes, ut nulli omnino etc. Si quis autemetc. Dat. Ferrarie II0 non. maii</p>
          </div>
       </body>
    </text>
