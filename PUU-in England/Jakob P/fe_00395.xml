@@ -16,8 +16,11 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>PUU England 1, S. 421-423, Nr. 150</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
-            <diploDesc><p><issued><placeName>Venezia, Rialto</placeName><date type="issued" notBefore="1177-07-18" notAfter="1177-07-18">(1177) Juli 18.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            <bibl>PUU England 1, S. 421-423, Nr. 150</bibl><bibl type="jaffe">-</bibl>
+            
+             
+            <diploDesc><p><authen type="formula" n=""><p>[-]</p></authen>
+               <issued><placeName>Venedig, Rialto</placeName><date type="issued" notBefore="1177-07-18" notAfter="1177-07-18">(1177) Jul. 18</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Kirche von Newhouse</legalActor></p> <p> <legalActor type="recipient">David, Abt der Kirche von Newhouse</legalActor></p> <p> <legalActor type="recipient">Kanoniker der Kirche von Newhouse</legalActor></p> <p/> <!-- kann enthalten: persName/orgName, ggf roleName -->
@@ -38,8 +41,7 @@
          <div type="abstract"><head>Abstract:</head>
             <p>Alex ander III. nimmt den Abt David und die Kanoniker der Kirche von Newhouse in den päpstlichen Schutz, bestätigt ihnen das Präsentations- und Appellationsrecht und befreit sie vom bischöflichen Bann.</p>
          </div>
-         <div type="other"><head>Echtheitskriterien:</head>
-            <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
+        
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
          <div type="msSources">
@@ -79,6 +81,10 @@
                <bibl>Reg. H. I. Bell  Engl. Hist. Rev. XXXVI  397 n. 22. </bibl>
             </listBibl>
          </div>
+          <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>Gelb-Rote Seidenbüschel. Bulle fehlt. Erste Zeile Hervorgehoben.</p> </diploDesc> </div>
          <div type="commentary">
             <head>Sachkommentar</head>
             <p>[Kommentar]</p>
