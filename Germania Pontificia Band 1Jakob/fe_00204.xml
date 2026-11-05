@@ -50,12 +50,12 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Eberhard, Erzbischof von Salzburg</persName></legalActor>, bringt gegenüber <legalActor cert="high" type="recipient" xml:space="default"><persName>Hildebrand, Kardinalpriester von Santi XII Apostoli und apostolischer Legat</persName></legalActor>, seine Zuversicht zum Ausdruck, dass er seine Position im Schisma, auch dank der Unterstützung des Bischofs von Concordia, wird halten können.<list>
+            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Eberhard, Erzbischof von Salzburg</persName></legalActor>, bringt gegenüber <legalActor cert="high" type="recipient" xml:space="default"><persName>Hildebrand, Kardinalpriester von Santi XII Apostoli und apostolischer Legat</persName></legalActor>, seine Zuversicht zum Ausdruck, dass er seine Position im Schisma, auch dank der Unterstützung des <persName>Bischofs von Concordia</persName>, wird halten können.<list>
                   <item>-</item>
                </list></p>
          </div>
 
-         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Credimus et certi sumus, quod</diploPart></div>
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Credimus et certi sumus quod</diploPart></div>
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
@@ -71,7 +71,7 @@
             <div>
                <listBibl>
                   <bibl type="original">-</bibl>
-                  <bibl type="msCopy">Wien, Österreichische Nationalbibliothek, Codex Vindobonensispalatinus (cvp.) 629, fol. 54v</bibl>
+                  <bibl type="msCopy">Wien, Österreichische Nationalbibliothek, Codex Vindobonensis Palatinus (CVP) 629, fol. 54v</bibl>
                   <bibl type="print">-</bibl>
                </listBibl>
             </div>
