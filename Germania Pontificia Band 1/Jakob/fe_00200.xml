@@ -18,7 +18,7 @@
             <diploDesc><p><authen type="formula" n="na"><p>[-]</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>–</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" notAfter="1164-12-31" precision="high" unit="cm" xml:space="default" notBefore="1159-09-07" type="issued">(1159-1164)</date>
+               <issued><placeName>–</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" unit="cm" xml:space="default" notAfter="1164-12-31" notBefore="1159-09-07" type="issued">(1159-1164)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
