@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI source="formierung-europas_pontificia" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc><titleStmt><title>fe_00179</title><respStmt><resp>Datenquelle</resp><persName>JB</persName></respStmt>
@@ -48,8 +51,8 @@
                   <item>die Aufnahme in den apostolischen Schutz.</item><item>Bestätigung aller Besitzungen und Güter, die das Kloster in der Gegenwart rechtmäßig besitzt beziehungsweise in der Zukunft rechtmäßig erwerben wird, darunter einige namentlich genannten Besitzungen.</item><item>das freie Begräbnisrecht.</item><item>Befreiung des Klosters vom allgemeinden Interdikt.</item><item>die ungehinderte Aufnahme von Klerikern und Laien, die der Welt entfliehen wollen.</item><item>Befreiung vom Novalzehnten für Eigenbau und für Tierfutter.</item></list></p>
             <p>
               Ferner legt er fest:
-               <list><item>dass Altar- und Kirchenweihen, Ordinationen der Mönche und das heilige Öl vom Diözesanbischof zu empfangen sind, solange dieser rechtgläubig sei und in der Gunst des apostolischen Stuhls stehe.</item><item>das Verbot, nach Ablegung der Profess ohne die Erlaubnis des Abts das Kloster zu verlassen, außer bei Übertritt zur strengeren Lebensweise (<diploPart>artior religio</diploPart>), und untersagt außerdem die Aufnahme des Ausscheidenden durch Dritte.</item><item>dass die Brüder beim Tod des Abtes nach den Vorgaben der Regel des heiligen Benedikt ohne jeden Druck von außen gemeinschaftlich oder nach dem Votum der <diploPart>sanior pars</diploPart> einen Nachfolger wählen sollen.</item>
-               </list>Schlussformeln: Perturbationsverbot, Sanctio negativa und positiva.</p>
+               <list><item>dass Altar- und Kirchenweihen, Ordinationen der Mönche und das heilige Öl vom Diözesanbischof zu empfangen sind, solange dieser rechtgläubig sei und in der Gunst des apostolischen Stuhls stehe.</item><item>das Verbot, nach Ablegung der Profess ohne die Erlaubnis des Abts das Kloster zu verlassen, außer bei Übertritt zur strengeren Lebensweise (<diploPart>artior religio</diploPart>), und untersagt außerdem die Aufnahme des Ausscheidenden durch Dritte.</item><item>dass die Brüder beim Tod des Abtes nach den Vorgaben der Regel des heiligen Benedikt ohne jeden Druck von außen gemeinschaftlich oder nach dem Votum der <diploPart>sanior pars</diploPart> einen Nachfolger wählen sollen.</item><item>das Perturbationsverbot.</item>
+               </list>Schlussformeln: Sanctio negativa und positiva.</p>
          </div>
 
          <div>
