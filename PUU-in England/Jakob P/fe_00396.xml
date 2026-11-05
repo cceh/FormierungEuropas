@@ -3,10 +3,7 @@
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
 <TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen -->
    <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
-            <respStmt>
+      <fileDesc><titleStmt><title>fe_00396</title><respStmt>
                <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
                <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
             </respStmt>
@@ -19,8 +16,8 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>PUU England 1, S. 423, Nr. 151</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
-            <diploDesc><p> <authen type="formula" n=""><p>[-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen><issued><placeName>Venezia, Rialto</placeName><date type="issued" notBefore="1177-09-14" notAfter="1177-09-14">(1177) Sep.  14</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            <bibl>PUU England 1, S. 423, Nr. 151</bibl><bibl type="jaffe">-</bibl>
+            <diploDesc><p> <authen type="formula" n=""><p>[-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen><issued><placeName>Venedig, Rialto</placeName><date type="issued" notBefore="1177-09-14" notAfter="1177-09-14">(1177) Sep.  14</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Kloster Spalding</legalActor></p> <p> <legalActor type="recipient">Reginald, Prior des Klosters Spalding</legalActor></p> <p> <legalActor type="recipient">Mönche des Klosters Spalding</legalActor></p>  <!-- kann enthalten: persName/orgName, ggf roleName -->
