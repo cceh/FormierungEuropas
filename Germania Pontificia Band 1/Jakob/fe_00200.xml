@@ -44,7 +44,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor><persName>Alexander III.</persName></legalActor> antwortet auf die Anfrage des <legalActor><persName>Erzbischofs von Salzburg</persName></legalActor>, dass Ehen von Knechten, die gegen den Willen ihrer Herren geschlossen werden, nach kirchlichem Recht unter keinen Umständen aufgelöst werden dürfen. Dennoch müssen die Knechte weiterhin ihren Herren die ihnen gebührenden und üblichen Dienste leisten.</p>
+            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName></legalActor> antwortet auf die Anfrage des <legalActor><persName>Erzbischofs von Salzburg</persName></legalActor>, dass Ehen von Knechten, die gegen den Willen ihrer Herren geschlossen werden, nach kirchlichem Recht unter keinen Umständen aufgelöst werden dürfen. Dennoch müssen die Knechte weiterhin ihren Herren die ihnen gebührenden und üblichen Dienste leisten.</p>
          </div>
 
          <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Dignum est et a rationis</diploPart></div>
