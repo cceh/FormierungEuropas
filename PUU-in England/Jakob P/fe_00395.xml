@@ -77,14 +77,13 @@
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>[Regest 1]</bibl>
-               <bibl>Reg. H. I. Bell  Engl. Hist. Rev. XXXVI  397 n. 22. </bibl>
+               <bibl>Bell, Original (a), S. 397, Nr. 22</bibl>
             </listBibl>
          </div>
           <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Gelb-Rote Seidenbüschel. Bulle fehlt. Erste Zeile Hervorgehoben.</p> </diploDesc> </div>
+               <p/> </diploDesc> </div>
          <div type="commentary">
             <head>Sachkommentar</head>
             <p>[Kommentar]</p>
