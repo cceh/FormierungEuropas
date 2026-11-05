@@ -24,7 +24,7 @@
             </authen></p><p><issued><placeName>Tusculum</placeName><date notAfter="1172-05-14" notBefore="1172-05-14" type="issued">1172 Mai 14</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Augustinerabtei Haughmon</legalActor></p><p><legalActor type="recipient"><legalActor type="recipient">Alured, Abt der Augustinerabtei Haughmon</legalActor>d</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><legalActor type="recipient">Augustinerabtei Haughmon</legalActor></p><p><legalActor type="recipient">Alured, Abt der Augustinerabtei Haughmon</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p>
                  <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
