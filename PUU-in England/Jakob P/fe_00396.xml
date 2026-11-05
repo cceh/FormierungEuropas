@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc><titleStmt><title>fe_00396</title><respStmt>
                <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
-               <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+               <persName>JP</persName>
             </respStmt>
            <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
          </titleStmt>
@@ -37,7 +37,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. verleiht (Reginald), Prior des Klosters Spalding, und den Mönchen des Klosters Spalding (D. Lincoln) ein Privileg und gewährt die folgenden Rechte: <list><item>Bestätigung der namentlich genannten Kirchen, die zum Nutzen der Armen und der Gastfreundschaft bestimmt wurden, unter vorbehalt der Rechte des Diözesanbischofs und derjeniger, die in den Kirchen Dienst leisten</item><item>Perturbationsverbot</item></list>Schlussformel: Sanctio negativa</p>
+            <p>Alexander III. verleiht (Reginald), Prior des Klosters Spalding, und den Mönchen des Klosters Spalding (D. Lincoln) ein Privileg und gewährt die folgenden Rechte: <list><item>Bestätigung der namentlich genannten und zum Nutzen deKirchen, die zum Nutzen der Armen und der Gastfreundschaft bestimmt wurden, unter vorbehalt der Rechte des Diözesanbischofs und derjeniger, die in den Kirchen Dienst leisten</item><item>Perturbationsverbot</item></list>Schlussformel: Sanctio negativa</p>
          </div>
         
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustis petentium desideriis dignum est</diploPart></div>
