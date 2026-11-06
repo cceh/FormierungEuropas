@@ -44,9 +44,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Eberhard, Erzbischof von Salzburg</persName></legalActor>, versichert <legalActor>Alexander III.</legalActor> seine Treue und lässt ihn wissen, dass er selbst gemeinsam mit vielen anderen nicht von der Einheit der Kirche abweichen werde.<list>
-                  <item>[Listeneintrag 1]</item>
-               </list></p>
+            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Eberhard, Erzbischof von Salzburg</persName></legalActor>, versichert <legalActor cert="high" type="recipient" xml:space="default"><persName>Alexander III.</persName></legalActor> seine Treue und lässt ihn wissen, dass er selbst gemeinsam mit vielen anderen nicht von der Einheit der Kirche abweichen werde.</p>
          </div>
 
          <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Gloriosus Deus qui sicut semper</diploPart></div>
