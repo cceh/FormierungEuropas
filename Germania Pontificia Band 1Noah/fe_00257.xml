@@ -48,7 +48,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor cert="high" type="issuer" xml:space="default">Alexander III.</legalActor> ermahnt Adalbert, den Erzbischof von Salzburg, zu Gehorsam und weist ihn an, die schon einmal angewiesene Exkommunikation über all diejenigen, die die Gehöfte <persName>Konrads, des Erzbischofs von Mainz und zugleich päpstlichen Legaten,</persName> mit Feuer verwüstet haben, zu vollziehen.</p>
+            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName></legalActor> ermahnt <legalActor cert="high" type="recipient" xml:space="default"><persName>Adalbert, den Erzbischof von Salzburg,</persName></legalActor> zu Gehorsam und weist ihn an, die schon einmal angewiesene Exkommunikation über all diejenigen, die die Gehöfte <persName>Konrads, des Erzbischofs von Mainz und zugleich päpstlichen Legaten,</persName> mit Feuer verwüstet haben, zu vollziehen.</p>
             <list>
                
             </list>
