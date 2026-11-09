@@ -52,7 +52,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>Alexander III. bestätigt auf Bitten des Abts Pilgrim dem Benediktinerkloster St. Paul im Lavanttal (D. Gurk) den Besitz der Kirche St. Martin, sofern das Kloster diese rechtmäßig besitzt.</p><list>
+            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName></legalActor> bestätigt auf Bitten des <legalActor cert="high" type="recipient" xml:space="default"><persName>Abts Pilgrim</persName></legalActor> dem <legalActor cert="high" type="beneficiary" xml:space="default">Benediktinerkloster St. Paul im Lavanttal</legalActor> (D. Gurk) den Besitz der Kirche St. Martin, sofern das Kloster diese rechtmäßig besitzt.</p><list>
                   <item>Schlussformeln: Sanctio negativa.</item>
                </list>
          </div>
