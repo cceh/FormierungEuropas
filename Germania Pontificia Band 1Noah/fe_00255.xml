@@ -34,7 +34,7 @@
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, Litterae cum filo canapis</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">Juristisches, Exkommunikation</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
+               <p><objectType n="">Juristisches, Exkommunikation</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
@@ -52,7 +52,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><persName>Alexander III.</persName> beauftragt <persName>Adalbert, den Erzbischof von Salzburg,</persName> über all diejenigen, die die Gehöfte <persName>Konrads, des Erzbischofs von Mainz und zugleich päpstlichen Legaten,</persName> mit Feuer verwüstet haben, die Exkommunikation zu verhängen.</p>
+            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName></legalActor> beauftragt <legalActor cert="high" type="recipient" xml:space="default"><persName>Adalbert, den Erzbischof von Salzburg,</persName></legalActor> über all diejenigen, die die Gehöfte <persName>Konrads, des Erzbischofs von Mainz und zugleich päpstlichen Legaten,</persName> mit Feuer verwüstet haben, die Exkommunikation zu verhängen.</p>
          </div>
 
          <div>
