@@ -50,7 +50,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><persName>Alexander III.</persName> gestattet <persName>Peregrin, dem Abt des Benediktinerklosters St. Paul im Lavanttal,</persName> sowie seinen Nachfolgern das Tragen der Mitra und verleiht dem <orgName>Benediktinerkloster St. Paul im Lavanttal</orgName> (D. Gurk) weitere Rechte:<list>
+            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName></legalActor> gestattet <legalActor cert="high" type="recipient" xml:space="default">Peregrin, dem Abt des Benediktinerklosters St. Paul im Lavanttal,</legalActor> sowie seinen Nachfolgern das Tragen der Mitra und verleiht dem Benediktinerkloster St. Paul im Lavanttal (D. Gurk) weitere Rechte:<list>
                   <item>Er gewährt das Präsentationsrecht für die Eigenkirchen. Wenn aber ein durch das Kloster vorgeschlagener Priester nicht die Zustimmung des Diözesanbischofs und des Papstes findet, soll es dem Kloster freistehen, dem Diözesanbischof einen Priester für mehrere Kirchen zu präsentieren.</item><item>die Befreiung des Klosters vom Novalzehnten für Eigenbau.</item><item>Ferner legt er fest, dass Landbesitzungen (<diploPart>terrae</diploPart>) des Klosters, die seit 40 Jahren von Zehnten befreit waren, überhaupt zehntfrei sein sollen.</item>
                </list></p>
                <p>Schlussformeln: Sanctio negativa.</p>
