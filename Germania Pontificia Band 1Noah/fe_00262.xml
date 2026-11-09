@@ -30,11 +30,11 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Piligrim, Abt des Benediktinerkloster St. Paul im Lavanttal</legalActor></p><p><legalActor type="recipient">Benediktinerkloster St. Paul im Lavanttal</legalActor></p>
+               <p><legalActor type="recipient">Benediktinerkloster St. Paul im Lavanttal</legalActor></p><p><legalActor type="recipient">Piligrim, Abt des Benediktinerkloster St. Paul im Lavanttal</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, Litterae cum serico</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">Juristisches, Rechtsbestätigungen</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
+               <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
@@ -53,7 +53,7 @@
          <div type="abstract">
             <head>Abstract</head>
             <p><persName>Alexander III.</persName> bestätigt dem <orgName>Benediktinerkloster St. Paul im Lavanttal</orgName> (D. Gurk) unter <persName>Piligrim, dem Abt des Benediktinerkloster St. Paul im Lavanttal,</persName> den Besitz der Kirche St. Martin, sofern das Kloster diese rechtmäßig besitzt.</p><list>
-                  <item>Schlussformel: Sanctio negativa</item>
+                  <item>Schlussformeln: Sanctio negativa.</item>
                </list>
          </div>
 
