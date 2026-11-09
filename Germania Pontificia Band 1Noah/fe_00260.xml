@@ -24,7 +24,7 @@
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Venedig</placeName><date type="issued" notBefore="1177-06-04" notAfter="1177-06-04">(1177) Jun. 4</date>
+               <issued><placeName>Venedig</placeName><date type="issued" when="1177-06-04">(1177) Jun. 4</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
@@ -51,8 +51,9 @@
          <div type="abstract">
             <head>Abstract</head>
             <p><persName>Alexander III.</persName> gestattet <persName>Peregrin, dem Abt des Benediktinerklosters St. Paul im Lavanttal,</persName> sowie seinen Nachfolgern das Tragen der Mitra und verleiht dem <orgName>Benediktinerkloster St. Paul im Lavanttal</orgName> (D. Gurk) weitere Freiheiten und Rechte.<list>
-                  <item>Er gewährt das Präsentationsrecht für die Eigenkirchen. Wenn aber ein durch das Kloster vorgeschlagener Priester nicht die Zustimmung des Diözesanbischofs und des Papstes findet, soll es dem Kloster freistehen, dem Diözesanbischof einen Priester für mehrere Kirchen zu präsentieren.</item><item>Er befreit das Kloster von Zehnten für Neubrüche bei Eigenbau.</item><item>Ferner legt er fest, dass Landbesitzungen (<diploPart>terrae</diploPart>) des Klosters, die seit 40 Jahren von Zehnten befreit waren, überhaupt zehntfrei sein sollen.</item><item>Schlussformeln: Sanctio negativa.</item>
+                  <item>Er gewährt das Präsentationsrecht für die Eigenkirchen. Wenn aber ein durch das Kloster vorgeschlagener Priester nicht die Zustimmung des Diözesanbischofs und des Papstes findet, soll es dem Kloster freistehen, dem Diözesanbischof einen Priester für mehrere Kirchen zu präsentieren.</item><item>Er befreit das Kloster von Zehnten für Neubrüche bei Eigenbau.</item><item>Ferner legt er fest, dass Landbesitzungen (<diploPart>terrae</diploPart>) des Klosters, die seit 40 Jahren von Zehnten befreit waren, überhaupt zehntfrei sein sollen.</item>
                </list></p>
+               <p>Schlussformeln: Sanctio negativa.</p>
          </div>
 
          <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Quanto puriorem devotionem circa nos</diploPart></div>
