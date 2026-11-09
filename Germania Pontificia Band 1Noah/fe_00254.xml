@@ -53,8 +53,9 @@
          <div type="abstract">
             <head>Abstract</head>
             <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName></legalActor> bestätigt <legalActor cert="high" type="recipient" xml:space="default"><persName>Ecard, dem Propst der Propsteikirche Maria Saal,</persName></legalActor> die Entscheidung, die zuvor <persName>Adalbert, der Erzbischof von Salzburg,</persName> im Rechtsstreit zwischen besagtem Propst und gewissen Priestern (<diploPart>quidam presbiteri</diploPart>) um den Besitz einiger Kapellen zugunsten der <orgName>Propsteikirche Maria Saal</orgName> (D. Gurk) gefällt hat.<list>
-                  <item>Er bestätigt gemäß einem ihm vorliegenden Schreiben Adalberts den rechtmäßigen Besitz einiger nicht namentlich genannter Kapellen.</item><item>Schlussformeln: Perturbationsverbot, Sanctio negativa</item>
+                  <item>Er bestätigt gemäß einem ihm vorliegenden Schreiben Adalberts den rechtmäßigen Besitz einiger nicht namentlich genannter Kapellen.</item><item>Er </item>
                </list></p>
+               <p>Schlussformeln: Sanctio negativa.</p>
          </div>
 
          <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Cum inter te et quosdam</diploPart></div>
