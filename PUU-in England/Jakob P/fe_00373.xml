@@ -18,7 +18,7 @@
          <sourceDesc>
             <bibl>PUU England 1, S. 386-389, Nr. 117</bibl><bibl type="jaffe">-</bibl>
             <diploDesc><p><authen type="formula" n="na">
-               <p>[-]</p>
+               <p>-</p>
                <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
             </authen></p><p><issued><placeName>Anagni</placeName><date type="issued" notBefore="1173-03-31" notAfter="1173-03-31">1173 Mär. 31</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
