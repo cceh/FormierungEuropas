@@ -5,11 +5,11 @@
          <titleStmt>
             <title>fe_00272</title><respStmt>
                <resp>Datenquelle</resp>
-               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+               <persName>NW</persName>
             </respStmt>
             <respStmt>
                <resp when="2026">Encoding</resp>
-               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+               <persName>NW</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -20,14 +20,13 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>Germ. Pont. 1, S. 54-55, Nr. 4</bibl><bibl type="jaffe">11364</bibl>
-            <bibl>[Weiteres Konkordanzregest]</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
                <p><authen type="formula" n="na">
-                     <p>[*+?-]</p>
+                     <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Benevento</placeName><date type="issued" notBefore="1167-11-24" notAfter="1167-11-24">24 November (1167)</date>
+               <issued><placeName>Benevent</placeName><date type="issued" notBefore="1167-11-24" notAfter="1167-11-24">24 November (1167)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">[Aussteller]</legalActor></p>
