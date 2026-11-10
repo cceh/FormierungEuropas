@@ -53,7 +53,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>Gualterius, der Bischof von Albano, berichtet Alexander III. von seiner Reise nach Ungarn, mit der beauftragt worden ist, um die gegen Adalbert, den Erzbischof von Salzburg, vorgebrachten Anklagepunkte zu untersuchen.<list>
+            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Gualterius, der Bischof von Albano,</persName></legalActor> berichtet Alexander III. von seiner Reise nach Ungarn, mit der beauftragt worden ist, um die gegen <persName>Adalbert, den Erzbischof von Salzburg,</persName> vorgebrachten Anklagepunkte ebendort zu untersuchen.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
