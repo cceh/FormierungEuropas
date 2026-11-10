@@ -52,9 +52,8 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName></legalActor> bestätigt <legalActor cert="high" type="recipient" xml:space="default"><persName>Heinrich I., dem Bischof von Gurk,</persName></legalActor> und seinen Amtsnachfolgern die Grenzen des <orgName>Bistums Gurk</orgName> und das Vikariat (<diploPart>vicaria</diploPart>) der Salzburger Kirche.<list>
-                  <item>Schlussformeln: Sanctio negativa.</item>
-               </list></p>
+            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName></legalActor> bestätigt <legalActor cert="high" type="recipient" xml:space="default"><persName>Heinrich I., dem Bischof von Gurk,</persName></legalActor> und seinen Amtsnachfolgern die Grenzen des <orgName>Bistums Gurk</orgName> und das Vikariat (<diploPart>vicaria</diploPart>) der Salzburger Kirche.</p>
+            <p>Schlussformeln: Sanctio negativa.</p>
          </div>
 
          <div>
