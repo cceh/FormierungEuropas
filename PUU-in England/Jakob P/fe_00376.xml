@@ -7,7 +7,7 @@
                <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
                <persName>JP</persName>
             </respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>JP, IB</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -18,12 +18,12 @@
          <sourceDesc>
             <bibl>PUU England 1, S. 392-393, Nr. 121</bibl><bibl type="jaffe">12505</bibl>
             <diploDesc><p><authen type="formula" n="na">
-               <p>[-]</p>
+               <p>-</p>
                <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-            </authen></p><p><issued><placeName>Ferentino</placeName><date type="issued" notBefore="1175-07-05" notAfter="1175-07-05">(1175) Jul. 5</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            </authen></p><p><issued><placeName>Ferentino</placeName><date type="issued" when="1175-07-05">(1175) Jul. 5</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Adam, Abt von Evesham </legalActor></p><p><legalActor type="recipient">Benediktinerabtei von Evasham</legalActor></p>
+               <p><legalActor type="recipient">Adam, Abt der Benediktinerabtei Evesha</legalActor></p><p><legalActor type="recipient"><legalActor type="recipient">Adam, Abt der Benediktinerabtei Evesha</legalActor>m </legalActor></p><p><legalActor type="recipient">Benediktinerabtei Evasham</legalActor></p>
                 <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum filo serico</objectType></p>
                 <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
