@@ -18,14 +18,13 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>Germ. Pont. 1, S. 67, Nr. 5</bibl><bibl type="jaffe">11630</bibl>
-            <bibl>[Weiteres Konkordanzregest]</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
                <p><authen type="formula" n="na">
                      <p>[*+?-]</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Benevento</placeName><date type="issued" notBefore="1169-07-01" notAfter="1169-07-01">01 Juli 1169</date>
+               <issued><placeName>Benevent</placeName><date type="issued" notBefore="1169-07-01" notAfter="1169-07-01">01 Juli 1169</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">[Aussteller]</legalActor></p>
