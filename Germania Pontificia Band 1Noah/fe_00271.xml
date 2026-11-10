@@ -52,12 +52,12 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>[Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
+            <p>Alexander III. Quellenzitate (diploPart) sind zulässig.]<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
 
-         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Dilecti filii nostri fratres Monasterii</diploPart></div>
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Dilecti filii nostri Monasterii S.</diploPart></div>
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
