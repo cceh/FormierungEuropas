@@ -27,7 +27,7 @@
                      <p>*</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>–</placeName><date type="issued" notBefore="1176-01-01" notAfter="1176-12-31">(1176)</date>
+               <issued><placeName>–</placeName><date type="issued" notBefore="1176-01-01" notAfter="1176-12-31">(1176 Aug.)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Gualterius, Bischof von Albano</legalActor></p>
@@ -109,7 +109,7 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
+               <p>[Der Brief ]</p>
             </diploDesc>
          </div>
          <div type="commentary">
