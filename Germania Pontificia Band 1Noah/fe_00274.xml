@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>fe_00272</title><respStmt>
+            <title>fe_00274</title><respStmt>
                <resp>Datenquelle</resp>
                <persName>NW</persName>
             </respStmt>
@@ -23,13 +23,13 @@
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
                <p><authen type="formula" n="na">
-                     <p>[*+?-]</p>
+                     <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Tusculanum</placeName><date type="issued" notBefore="1171-05-27" notAfter="1181-05-27">27 Mai (1171-1181)</date>
+               <issued><placeName>Tusculanum</placeName><date type="issued" notBefore="1171-05-27" notAfter="1181-05-27">(1171-1181) Mai 27</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">[Empfänger]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
