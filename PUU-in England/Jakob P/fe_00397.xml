@@ -20,7 +20,7 @@
             <diploDesc><p><authen type="formula" n=""><p>[-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen><issued><placeName>Venedig, Rialto</placeName><date type="issued" notBefore="1177-10-13" notAfter="1177-10-13">(1177) Okt. 13</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Benediktinerabtei Evesham</legalActor></p> <p> <legalActor type="recipient">Abt von Evesham</legalActor></p> <p/> <p/> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><legalActor type="recipient">Benediktinerabtei Evesham</legalActor></p> <p> <legalActor type="recipient">Abt von Evesham</legalActor></p>  <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
@@ -39,8 +39,7 @@
          <div type="abstract"><head>Abstract:</head>
             <p>Alexander III. bestätigt dem Abt und den Mönchen von Evesham den Besitz der Kirche St. Michael'''s in London.</p>
          </div>
-         <div type="other"><head>Echtheitskriterien:</head>
-            <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
+         
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
          <div type="msSources">
@@ -79,6 +78,12 @@
                <bibl>JL: 12955 nach Mitteilung von K. Pertz. </bibl>
                <bibl>[Regest 2]</bibl>
             </listBibl>
+         </div>
+          <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p> </p>
+            </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
