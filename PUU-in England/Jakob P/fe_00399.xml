@@ -22,7 +22,8 @@
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Gilbertinerpriorat St. Mary's in Old Malton</legalActor></p> <p> <legalActor type="recipient">Roger, Prior von St. Mary's in Old Malton</legalActor></p>  <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p>
+                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
@@ -39,8 +40,7 @@
          <div type="abstract"><head>Abstract:</head>
             <p>Alexander III. nimmt, nach dem Vorgang Innocenz' II., Eugens III. und Hadrians IV. das Gilbertinerpriorat St. Mary's in Old Malton unter dem Prior Hoger in den päpstlichen Schutz und bestätigt seine Besitzungen und Rechte.</p>
          </div>
-         <div type="other"><head>Echtheitskriterien:</head>
-            <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
+        
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
          <div type="msSources">
@@ -79,6 +79,12 @@
                <bibl>[Regest 1]</bibl>
                <bibl>[Regest 2]</bibl>
             </listBibl>
+         </div>
+          <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p> </p>
+            </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
