@@ -25,9 +25,7 @@
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">(Roger), Erzbischof von York</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><legalActor type="recipient">(Robert), Bischof von Lincoln</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><legalActor type="recipient">(Richard), Bischof von Chester</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><legalActor type="beneficiary">Zisterzienserabtei von Rufford </legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p>
+               <p><legalActor type="recipient">(Richard), Bischof von Chester</legalActor></p><p><objectType n="">Papsturkunde, litterae cum serico</objectType></p>
                 <p><objectType n="">Anweisung, Beachtung von Recht</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
