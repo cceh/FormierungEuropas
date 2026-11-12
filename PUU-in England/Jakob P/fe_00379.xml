@@ -20,7 +20,13 @@
             <diploDesc><p><authen type="formula" n="na">
                <p>-</p>
                <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-            </authen></p><p><issued><placeName>Lateran</placeName><date type="issued" when="1166-05-09">(1166—79) Mai 9</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            </authen></p><p><issued><placeName>Lateran</placeName><date type="issued" when="1166-05-09">(1166—79) Mai 9</date><date type="issued" when="1167-05-09"/>
+<date type="issued" when="1168-05-09"/><date type="issued" when="1169-05-09"/>
+<date type="issued" when="1170-05-09"/><date type="issued" when="1171-05-09"/>
+<date type="issued" when="1172-05-09"/><date type="issued" when="1173-05-09"/>
+<date type="issued" when="1174-05-09"/><date type="issued" when="1175-05-09"/>
+<date type="issued" when="1176-05-09"/><date type="issued" when="1177-05-09"/>
+<date type="issued" when="1178-05-09"/><date type="issued" when="1179-05-09"/> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Prokurator und Brüder des Hospitals von St. Peter's (St. Leonard's), York</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
