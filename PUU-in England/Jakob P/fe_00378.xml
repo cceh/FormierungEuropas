@@ -20,7 +20,14 @@
             <diploDesc><p><authen type="formula" n="na">
                <p>-</p>
                <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-            </authen></p><p><issued><placeName>Lateran</placeName><date type="issued" when="1166-05-01">(1166—79) Mai 1</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            </authen></p><p><issued><placeName>Lateran</placeName><date type="issued" when="1166-05-01">(1166—79) Mai 1</date><date type="issued" when="1167-05-01"/>
+<date type="issued" when="1168-05-01"/><date type="issued" when="1169-05-01"/>
+<date type="issued" when="1170-05-01"/><date type="issued" when="1171-05-01"/>
+<date type="issued" when="1172-05-01"/><date type="issued" when="1173-05-01"/>
+<date type="issued" when="1174-05-01"/><date type="issued" when="1175-05-01"/>
+<date type="issued" when="1176-05-01"/><date type="issued" when="1177-05-01"/>
+<date type="issued" when="1178-05-01"/><date type="issued" when="1179-05-01">
+</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Roger, Erzbischof von York</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
@@ -43,7 +50,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p> Alexander III. weist den Erzbischof (Roger) von York und die Bischöfe (Hugo) von Durham und die Kleriker ihrer Diözesen an, ihre Untergebenen zur Beachtung der Zehntfreiheit des Klosters Rievaulx (D. York) wie aller Zisterzienserklöster anzuhalten.<list><item>Falls ein Laie es wagen sollte, unrechtmäßigerweise den Zehnten vom Kloster zu fordern, dann soll er exkommuniziert werden.</item><item>Falls ein Mönch, Kleriker oder Kanoniker es wagen sollte, unrechtmäßigerweise den Zehnten vom Kloster zu fordern, dann soll er  von seinem Amt suspendiert werden. </item><item>Die Bischöfe sollen bis zu einer Wiedergutmachung für die Aufrechterhaltung der Exkommunikation und Suspension sorgen. </item><item>Wer gewaltsam Hand an die Brüder des Klosters legt, soll exkommuniziert werden.</item></list></p>
+            <p> Alexander III. weist Roger, Erzbischof von York, und die Bischöfe (Hugo) von Durham und die Kleriker ihrer Diözesen an, ihre Untergebenen zur Beachtung der Zehntfreiheit des Klosters Rievaulx (D. York) wie aller Zisterzienserklöster anzuhalten.<list><item>Falls ein Laie es wagen sollte, unrechtmäßigerweise den Zehnten vom Kloster zu fordern, dann soll er exkommuniziert werden.</item><item>Falls ein Mönch, Kleriker oder Kanoniker es wagen sollte, unrechtmäßigerweise den Zehnten vom Kloster zu fordern, dann soll er  von seinem Amt suspendiert werden. </item><item>Die Bischöfe sollen bis zu einer Wiedergutmachung für die Aufrechterhaltung der Exkommunikation und Suspension sorgen. </item><item>Wer gewaltsam Hand an die Brüder des Klosters legt, soll exkommuniziert werden.</item></list></p>
          </div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat"><diploPart type="incipit" xml:lang="lat">Audiuimus et audientes mirati sumus</diploPart></diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">Dat. Lat. kal. madii</diploPart></div>
