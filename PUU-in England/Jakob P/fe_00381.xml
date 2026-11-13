@@ -20,7 +20,7 @@
             <diploDesc><p><authen type="formula" n="na">
                <p>-</p>
                <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-            </authen></p><p><issued><placeName>Anagni</placeName>(1160-1179) Okt. 15 <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            </authen></p><p><issued><placeName>Anagni</placeName><date type="issued" when="1166-10-15">(1160—79) Okt. 15</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Meister und Brüder des Templerordens</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
