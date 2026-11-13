@@ -29,7 +29,7 @@
 <date type="issued" when="1178-05-12"/><date type="issued" when="1179-05-12"/> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p> <legalActor type="beneficiary">Meister und Brüder des Templerorden</legalActor></p><p><legalActor type="beneficiary">s</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="beneficiary">Templerorden</legalActor></p><p><legalActor type="beneficiary">Meister des Templerordens</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p>
                <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
