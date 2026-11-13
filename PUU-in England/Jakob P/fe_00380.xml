@@ -29,7 +29,7 @@
 <date type="issued" when="1178-05-12"/><date type="issued" when="1179-05-12"/> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p> <legalActor type="beneficiary">Meister und Brüder des Templerordens</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="beneficiary">Meister und Brüder des Templerorden</legalActor></p><p><legalActor type="beneficiary">s</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p>
                <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
@@ -54,7 +54,7 @@
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl>Original: Papal Documents, London, Lambeth Palace Library, P.D., Nr. 6</bibl>
+               <bibl>Original: Papal Documents, London, Lambeth Palace Library, P.D. 6</bibl>
                <bibl>Kopie: - </bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
