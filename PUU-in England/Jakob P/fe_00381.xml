@@ -20,7 +20,7 @@
             <diploDesc><p><authen type="formula" n="na">
                <p>-</p>
                <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-            </authen></p><p><issued><placeName>Anagni</placeName><date type="issued" when="1166-10-15">(1160—79) Okt. 15</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            </authen></p><p><issued><placeName>Anagni</placeName><date type="issued" when="1160-10-15">(1160—79) Okt. 15</date><date type="issued" when="1161-10-15"/><date type="issued" when="1162-10-15"/><date type="issued" when="1163-10-15"/><date type="issued" when="1164-10-15"/><date type="issued" when="1165-10-15"/><date type="issued" when="1166-10-15"/><date type="issued" when="1167-10-15"/><date type="issued" when="1168-10-15"/><date type="issued" when="1169-10-15"/><date type="issued" when="1170-10-15"/><date type="issued" when="1171-10-15"/><date type="issued" when="1172-10-15"/><date type="issued" when="1173-10-15"/><date type="issued" when="1174-10-15"/><date type="issued" when="1175-10-15"/><date type="issued" when="1176-10-15"/><date type="issued" when="1177-10-15"/><date type="issued" when="1178-10-15"/><date type="issued" when="1179-10-15"/> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Meister und Brüder des Templerordens</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
