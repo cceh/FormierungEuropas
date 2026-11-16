@@ -9,11 +9,11 @@
             <title>fe_00108</title>
             <respStmt>
                <resp>Die Formierung Europas</resp>
-               <persName>[Name der Bearbeiter*in]</persName>
+               <persName>SG</persName>
             </respStmt>
             <respStmt>
                <resp when="2025">Encoding:</resp>
-               <persName>SG</persName><persName>SG</persName>
+               <persName>SG, IB</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -30,15 +30,15 @@
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Rom, S. Peter</placeName><date type="issued" notBefore="1167-08-06" notAfter="1167-08-06">1167, August 6</date>
+               <issued><placeName>Rom, St. Peter</placeName><date type="issued" notBefore="1167-08-06" notAfter="1167-08-06">1167 Aug. 6</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Paschalis III.</legalActor></p>
-               <p><legalActor type="recipient">Ludwig, Bischof v. Basel</legalActor></p>
+               <p><legalActor type="recipient">Ludwig, Bischof von Basel</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">Papsturkunde, feierliches Privileg</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
-               <p><objectType ref="na">Paschalis III., Urheber</objectType></p><p><objectType ref="na">Juristisches, Rechtsbestätigung</objectType></p>
+               <p><objectType ref="na">Paschalis III.</objectType></p><p><objectType ref="na">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
@@ -57,7 +57,7 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Paschalis III. wiederholt in einem an den Bischof Ludwig von Basel und seine Nachfolger gerichtetes Privileg die von seinem Vorgänger Innozenz II. getroffenen Bestimmungen:</p><p><list><item>Verbietet Bischof Ludwig von Basel und seinen Nachfolgern, den der Basler Kirche zustehenden Zehnten als <diploPart>beneficium</diploPart> zu vergeben oder anderweitig zu entfremden</item><item>Setzt der Gewohnheit ein Ende, den Zehnten alle vier Jahre einzutreiben. Stattdessen soll jedes Jahr ein Viertel des Zehnten eingetrieben werden</item></list></p>
+            <p>Paschalis III. wiederholt in einem an den Bischof <persName>Ludwig, Bischof von Basel</persName>, und seine Nachfolger gerichtetes Privileg die von seinem Vorgänger Innozenz II. getroffenen Bestimmungen:</p><p><list><item>Verbietet Bischof Ludwig von Basel und seinen Nachfolgern, den der Basler Kirche zustehenden Zehnten als <diploPart>beneficium</diploPart> zu vergeben oder anderweitig zu entfremden</item><item>Setzt der Gewohnheit ein Ende, den Zehnten alle vier Jahre einzutreiben. Stattdessen soll jedes Jahr ein Viertel des Zehnten eingetrieben werden</item></list></p>
          </div>
 
          <div>
