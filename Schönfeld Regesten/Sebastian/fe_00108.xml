@@ -115,7 +115,7 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Die Urkunde ist eine nahezu wörtliche Wiederholung des an <persName>Orthlib, Bischof von Basel,</persName> adressierten Privilegs Innozenz II. vom 31. März 1142 (<bibl>JL 8218</bibl>; <bibl>Trouillat: Monuments, Bd. I, S. 285-286, Nr. 187</bibl> https://archive.org/details/bub_gb__SgVAAAAQAAJ/page/285/mode/2up).</p>
+            <p>Die Urkunde ist eine nahezu wörtliche Wiederholung des an <persName>Orthlib, Bischof von Basel,</persName> adressierten Privilegs Innozenz II. vom 31. März 1142 (<bibl>JL 8218</bibl>; <bibl>Trouillat: Monuments, Bd. I, S. 285-286, Nr. 187</bibl>, https://archive.org/details/bub_gb__SgVAAAAQAAJ/page/285/mode/2up).</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
@@ -125,7 +125,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[...]</p>
+            <p>[Werden auch Links zu Literaturangaben hinterlegt?</p><p>...]</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
