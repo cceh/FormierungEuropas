@@ -64,8 +64,8 @@
             <div>
                <listBibl>
                   <bibl type="original">Deperditum, erwähnt in einem Schreiben Ruperts an Papst Alexander III. (Germ. Pont. 1, S. 366, Nr. 9; ##FE Nr. 00412##)</bibl>
-                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="msCopy">-</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
@@ -86,8 +86,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl/>
-               <bibl>[Edition 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="regesta">
@@ -110,8 +109,7 @@
          <div type="bibliography">
             <head>Bibliographie</head>
             <listBibl>
-               <bibl>Plechl, Studien III, S. 445-449</bibl>
-               <bibl>[Werk 2]</bibl>
+               <bibl>Plechl, Studien 3, S. 445-449</bibl>
             </listBibl>
          </div>
          <div type="note">
