@@ -30,7 +30,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <p><legalActor type="recipient">Klerus des Archidiakonats Gars</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, Litterae cum filo canapis</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
@@ -52,7 +52,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName> </legalActor>erinnert alle Priester und Kleriker im Archidiakonats Gars an die Tugenden Gehorsam (<diploPart>obedientia</diploPart>) und Geduld (<diploPart>patientia</diploPart>) und weist sie an, <persName>H.(einrich), dem Stiftspropst des Augustiner-Chorherrenstifts Gars,</persName> der gegenüber der römischen Kirche und dem Papst lobenswerte Frömmigkeit an den Tag legt, den geschuldeten Gehorsam zu leisten und ihn wie einen Vater und Lehrer in Ehren zu halten.</p>
+            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName> </legalActor>erinnert alle Priester und Kleriker des Archidiakonats Gars an die Tugenden Gehorsam (<diploPart>obedientia</diploPart>) und Geduld (<diploPart>patientia</diploPart>) und weist sie an, <persName>H.(einrich), dem Stiftspropst des Augustiner-Chorherrenstifts Gars,</persName> der gegenüber der römischen Kirche und dem Papst lobenswerte Frömmigkeit an den Tag legt, den geschuldeten Gehorsam zu leisten und ihn wie einen Vater und Lehrer in Ehren zu halten.</p>
          </div>
 
          <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Qui magistris et prelatis suis</diploPart></div>
