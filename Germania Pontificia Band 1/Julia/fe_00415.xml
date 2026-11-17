@@ -44,7 +44,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor><persName>Alexander III.</persName></legalActor> nimmt auf Bitten des <legalActor><persName>Abts Rupert</persName></legalActor> das <legalActor><orgName>Benediktinerkloster Tegernsee</orgName> </legalActor>(D. Freising) in den apostolischen Schutz und gewährt Rupert den Gebrauch der Mitra an hohen Festtagen während der feierlichen Messfeier, bei Prozessionen seiner Kirche sowie bei Bischofsversammlungen.</p>
+            <legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName></legalActor> nimmt auf Bitten des <legalActor cert="high" type="recipient" xml:space="default">Abts Rupert</legalActor> das <legalActor><orgName>Benediktinerkloster Tegernsee</orgName> </legalActor>(D. Freising) in den apostolischen Schutz und gewährt Rupert den Gebrauch der Mitra an hohen Festtagen während der feierlichen Messfeier, bei Prozessionen seiner Kirche sowie bei Bischofsversammlungen.
          </div>
 
          <div>
