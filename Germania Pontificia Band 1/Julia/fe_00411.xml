@@ -18,7 +18,7 @@
                      <p>*</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>(Tegernsee)</placeName><date type="issued" notBefore="1176-01-01" notAfter="1176-12-31">(1178 Jun. - 1179 Jan.)</date>
+               <issued><placeName>(Tegernsee)</placeName><date type="issued" notBefore="1178-06-01" notAfter="1179-01-31">(1178 Jun. - 1179 Jan.)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Gregor, päpstlicher Legat</legalActor></p>
