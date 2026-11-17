@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
-<TEI source="formierung-europas_pontificia" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc><titleStmt><title>fe_00410</title><respStmt><resp>Datenquelle</resp><persName>JB</persName></respStmt>
@@ -15,13 +12,12 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>Germ. Pont. 1, S. 365, Nr. 7a</bibl><bibl type="jaffe">–</bibl>
-            <bibl>[Weiteres Konkordanzregest]</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
                <p><authen type="formula" n="na">
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-                  </authen></p><issued><placeName>(Augsburg)</placeName><date type="issued" notBefore="1151-01-01" notAfter="1155-12-31">(1158 Jun 08 - Juli)</date>
+                  </authen></p><issued><placeName>(Augsburg)</placeName><date type="issued" notBefore="1151-01-01" notAfter="1155-12-31">(1158 Jun. 08 - Juli)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Heinrich, Kardinalpriester von Santi Achillei e Nerei</legalActor></p><p><legalActor type="issuer">Hyazinth, Kardinaldiakon von Santa Maria in Cosmedin</legalActor></p>
@@ -58,7 +54,7 @@
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+                  <item>-</item>
                </list></diploPart>
          </div>
          <div>
@@ -70,7 +66,7 @@
                <listBibl>
                   <bibl type="original">-</bibl>
                   <bibl type="msCopy">München, Bayerische Staatsbibliothek, Clm 19411, fol. 129r (p. 259); digital verfügbar unter: https://daten.digitale-sammlungen.de/bsb00008249/images/index.html?id=00008249&amp;groesser=&amp;fip=193.174.98.30&amp;no=&amp;seite=263</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
@@ -92,7 +88,7 @@
             <head>Editionen</head>
             <listBibl>
                <bibl>Plechl, Tegernseer Briefsammlung, S. 300-301, Nr. 270</bibl>
-               <bibl>Pez, Thesaurus anecdotorum VI, 2, S. 31, Nr. 50</bibl>
+               <bibl>Pez, Thesaurus anecdotorum 6, 2, S. 31, Nr. 50</bibl>
             </listBibl>
          </div>
          <div type="regesta">
