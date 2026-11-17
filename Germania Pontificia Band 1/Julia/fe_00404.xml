@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
-<TEI source="formierung-europas_pontificia" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc><titleStmt><title>fe_00404</title><respStmt><resp>Datenquelle</resp><persName>JB</persName></respStmt>
@@ -47,7 +44,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor><persName>Alexander III.</persName></legalActor> bestätigt auf Bitten von <legalActor><persName>Albert, dem Bischof von Freising</persName>,</legalActor> die Kapelle St. Johann in Freising sowie deren Zuwendungen und Güter, die ihr bei der Weihe durch den Bischof von Freising übertragen worden sind.</p><p>Schlussformeln: Sanctio negativa.</p>
+            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName></legalActor> bestätigt auf Bitten von <legalActor cert="high" type="recipient" xml:space="default"><persName>Albert, dem Bischof von Freising,</persName></legalActor> die Kapelle St. Johann in Freising sowie deren Zuwendungen und Güter, die ihr bei der Weihe durch den Bischof von Freising übertragen worden sind.</p><p>Schlussformeln: Sanctio negativa.</p>
          </div>
 
          <div>
