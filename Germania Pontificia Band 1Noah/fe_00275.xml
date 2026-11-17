@@ -76,8 +76,8 @@
             <div>
                <listBibl>
                   <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="msCopy">-</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
@@ -103,7 +103,6 @@
             <head>Regesten</head>
             <listBibl>
                <bibl/><bibl/><bibl/><bibl>JL 14301</bibl><bibl>Germ. Pont. 1, S. 80, Nr. 1</bibl>
-               <bibl>[Regest 2]</bibl>
             </listBibl>
          </div>
          <div>
