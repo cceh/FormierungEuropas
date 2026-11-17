@@ -53,7 +53,7 @@
          <div type="abstract">
             <head>Abstract</head>
             <p>[Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
-                  <item>[Listeneintrag 1]</item>
+                  <item>[Listeneintrag </item><item/>
                </list></p>
          </div>
 
@@ -69,8 +69,7 @@
          </div>
          <div>
             <head>Datatio</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
-         </div>
+            <diploPart type="datatio">Dat. Tusculan. VI kal. iunii</diploPart></div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
