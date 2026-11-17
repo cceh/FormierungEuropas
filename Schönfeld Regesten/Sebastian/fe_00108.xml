@@ -9,11 +9,11 @@
             <title>fe_00108</title>
             <respStmt>
                <resp>Die Formierung Europas</resp>
-               <persName>SG</persName>
+               <persName>[Name der Bearbeiter*in]</persName>
             </respStmt>
             <respStmt>
                <resp when="2025">Encoding:</resp>
-               <persName>SG, IB</persName>
+               <persName>SG</persName><persName>SG</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -30,15 +30,15 @@
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Rom, St. Peter</placeName><date type="issued" when="1167-08-06">1167 Aug. 6</date>
+               <issued><placeName>Rom, S. Peter</placeName><date type="issued" notBefore="1167-08-06" notAfter="1167-08-06">1167, August 6</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Paschalis III.</legalActor></p>
-               <p><legalActor type="recipient">Ludwig, Bischof von Basel</legalActor></p>
+               <p><legalActor type="recipient" subtype="bishop">Ludwig, Bischof v. Basel</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType ref="na">Papsturkunde, feierliches Privileg</objectType></p>
                <!-- Referenz aus Liste entnehmen -->
-               <p><objectType ref="na">Paschalis III.</objectType></p><p><objectType ref="na">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
+               <p><objectType ref="na">Paschalis III., Urheber</objectType></p><p><objectType ref="na">Juristisches, Rechtsbestätigung</objectType></p>
                <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
@@ -57,7 +57,7 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p>Paschalis III. bestätigt <persName>Ludwig, Bischof von Basel</persName>, und seinen Nachfolgern die von <persName>Papst Innozenz II.</persName> getroffenen Bestimmungen:</p><p><list><item>Verbietet Bischof Ludwig von Basel und seinen Nachfolgern, den der Basler Kirche zustehenden Zehnten als <diploPart>beneficium</diploPart> zu vergeben oder anderweitig zu entfremden</item><item>Setzt der Gewohnheit ein Ende, den Zehnten alle vier Jahre einzutreiben. Stattdessen soll jedes Jahr ein Viertel des Zehnten eingetrieben werden</item></list></p>
+            <p>Paschalis III. wiederholt in einem an den Bischof Ludwig von Basel und seine Nachfolger gerichtetes Privileg die von seinem Vorgänger Innozenz II. getroffenen Bestimmungen:</p><p><list><item>Verbietet Bischof Ludwig von Basel und seinen Nachfolgern, den der Basler Kirche zustehenden Zehnten als <diploPart>beneficium</diploPart> zu vergeben oder anderweitig zu entfremden</item><item>Setzt der Gewohnheit ein Ende, den Zehnten alle vier Jahre einzutreiben. Stattdessen soll jedes Jahr ein Viertel des Zehnten eingetrieben werden</item></list></p>
          </div>
 
          <div>
@@ -66,7 +66,7 @@
          <div>
             <head>Subscriptiones:</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>Ego <persName>Johannes presbyter Cardinalis tit. Pastoris</persName> subscripsi.</item><item>Ego Winbfredus presb. card. tit. Sancte Susane subscripsi.</item><item>Ego Albertus presb. card. tit. Sancti Grisogoni subscripsi.</item><item>Ego Obyzo presb. card. tit. Sancti Gementis subscripsi.</item><item>Ego Paschalis catholice ecclesie episcopus subscripsi.</item><item>Ego Johannes Albanensis episcopus subscripsi.</item><item>Ego Martinus Tusculanus episcopus subscripsi.</item><item>Ego Laudus dyaconus cardinalis S. Angeli subscripsi.</item><item>Ego Lanfredus diac. cardinalis S. Marie noue subscripsi.</item>
+                  <item>Ego Johannes presbyter Cardinalis tit. Pastoris.</item><item>Ego Winbfredus presb. card. tit. Sancte Susane.</item><item>Ego Albertus presb. card. tit. Sancti Grisogoni.</item><item>Ego Obyzo presb. card. tit. Sancti Gementis.</item><item>Ego Paschalis catholice ecclesie episcopus.</item><item>Ego Johannes Albanensis episcopus.</item><item>Ego Martinus Tusculanus episcopus.</item><item>Ego Laudus dyaconus cardinalis S. Angeli.</item><item>Ego Lanfredus diac. cardinalis S. Marie noue.</item>
                </list></diploPart>
          </div>
          <div><head>Datatio:</head><diploPart type="datatio">Datum Rome, apud Sanctum Petrum, per manum Johannis Sancte Romane ecclesie presbyteri cardinalis et cancellarii, VIII. Idus Augusti; Indictione XV.  Incarnationis dominice anno M°C°LXVII°. Pontificatus uero dompni Paschalis pape III , anno III.</diploPart></div>
@@ -98,13 +98,15 @@
             <head>Editionen</head>
             <listBibl>
                
-               <bibl>Trouillat: Monuments, Bd. I, S. 344, Nr. 226 (https://archive.org/details/bub_gb__SgVAAAAQAAJ/page/343/mode/2up)</bibl>
+               <bibl>Trouillat: Monuments, Bd. I, S. 344, Nr. 226 https://archive.org/details/bub_gb__SgVAAAAQAAJ/page/343/mode/2up</bibl>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head>
             <!-- Konkordanzregesten -->
-            <listBibl><bibl>Germ. Pont. 2/2, S. 226, Nr. 23</bibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 316, Nr. P12</bibl><bibl>Ochs: Geschichte, Bd. I, S. 263, Anm. 2</bibl><bibl>Bader: Regesta, S. 216</bibl><bibl>Winistörfer: Die Grafen von Froburg, S. 63</bibl><bibl>Boos: Geschichte, S. 35</bibl><bibl>Hidber: Schweizerisches Urkundenregister, Bd. II, S. 213, Nr. 2231</bibl><bibl>Vautrey: Histoire, Bd. I, S. 174</bibl><bibl>Kocher: Solothurner Urkundenbuch, Bd. I, S. 101, Nr. 197</bibl>
+            <listBibl>
+               <bibl>JL 14490</bibl>
+               <bibl>GP II/2, S. 226, Nr. 23</bibl><bibl>Schönfeld, Urkunden der Gegenpäpste, S. 316, Nr. P12</bibl><bibl>Ochs: Geschichte, Bd. I, S. 263, Anm. 2</bibl><bibl>Bader: Regesta, S. 216</bibl><bibl>Winistörfer: Die Grafen von Froburg, S. 63</bibl><bibl>Boos: Geschichte, S. 35</bibl><bibl>Hidber: Schweizerisches Urkundenregister, Bd. II, S. 213, Nr. 2231</bibl><bibl>Vautrey: Histoire, Bd. I, S. 174</bibl><bibl>Kocher: Solothurner Urkundenbuch, Bd. I, S. 101, Nr. 197</bibl>
             </listBibl>
          </div>
          <div>
@@ -113,7 +115,10 @@
                <p>Nach der Wiedergabe in der Edition Trouillas hat der Kopist die Spalten mit der Papst- und den Kardinalsunterschriften zu einem einzigen Block zusammengefasst.</p>
             </diploDesc>
          </div>
-         <div type="commentary"><head>Sachkommentar</head><persName>Orthlib, Bischof von Basel,</persName><bibl>JL 8218</bibl></div>
+         <div type="commentary">
+            <head>Sachkommentar</head>
+            <p>Die Urkunde ist eine nahezu wörtliche Wiederholung des an Orthlib, Bischof von Basel adressierten Privilegs Innozenz II. von 1142, März 31 (<bibl>JL 8218</bibl>; <bibl>Trouillat: Monuments, Bd. I, S. 285-286, Nr. 187</bibl> https://archive.org/details/bub_gb__SgVAAAAQAAJ/page/285/mode/2up).</p>
+         </div>
          <div type="bibliography">
             <head>Bibliographie</head>
             <listBibl>
@@ -122,7 +127,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Werden auch Links zu Literaturangaben hinterlegt?</p><p>...]</p>
+            <p>[...]</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
