@@ -60,7 +60,7 @@
                </list></diploPart>
          </div>
          <div>
-            <head>Datatio</head><diploPart type="datatio">Dat. Laterani, per manum <persName>Alberti, sancte Romane ecclesie presbiteri cardinalis et cancellarii</persName>. II Non. Aprilis Indictione XII. Incarnationis dominice anno MCLXXVIIII. Pontificatus vero domni Alexandri pape III, anno XX.</diploPart>
+            <head>Datatio</head><diploPart type="datatio">Dat. Laterani, per manum <legalActor cert="high" type="notary" xml:space="default"><persName>Alberti, sancte Romane ecclesie presbiteri cardinalis et cancellarii</persName></legalActor>. II Non. Aprilis Indictione XII. Incarnationis dominice anno MCLXXVIIII. Pontificatus vero domni Alexandri pape III, anno XX.</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
