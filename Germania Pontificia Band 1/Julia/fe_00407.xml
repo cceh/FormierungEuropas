@@ -61,7 +61,7 @@
                </list></diploPart>
          </div>
          <div>
-            <head>Datatio</head><diploPart type="datatio">Dat. Ferrarie per manum <persName>Gratiani sancte Romane ecclesie subdiaconi et notarii</persName>, IIII. Kalendas Maii Indictione X. Incarnationis dominice anno MCLXXVII. Pontificatus vero domini Alexandri pape III. anno XVIII.</diploPart>
+            <head>Datatio</head><diploPart type="datatio">Dat. Ferrarie per manum <legalActor cert="high" type="notary" xml:space="default"><persName>Gratiani sancte Romane ecclesie subdiaconi et notarii</persName></legalActor>, IIII. Kalendas Maii Indictione X. Incarnationis dominice anno MCLXXVII. Pontificatus vero domini Alexandri pape III. anno XVIII.</diploPart>
          </div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
