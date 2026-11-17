@@ -76,8 +76,8 @@
             <div>
                <listBibl>
                   <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="msCopy">-</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
@@ -96,8 +96,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Germ.Pont. 1, S. 70, Nr. 3</bibl>
-               <bibl>[Edition 2]</bibl>
+               <bibl>Brackmann, Studien und Vorarbeiten 1, S.  </bibl>
             </listBibl>
          </div>
          <div type="regesta">
