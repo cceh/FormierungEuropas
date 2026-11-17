@@ -29,7 +29,7 @@
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Rom, S. Peter</placeName><date type="issued" when="1167-08-06">1167, August 6</date>
+               <issued><placeName>Rom, S. Peter</placeName><date type="issued" when="1167-08-06">1167, Aug. 6</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Paschalis III.</legalActor></p>
@@ -125,7 +125,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[...]</p>
+            <p>[Nach Endkorrektur löschen:</p><p>Paschalis cpiscopus scruus seruorum Dei venerabili fratri Lodowico Basiliensi episcopo eiusquc succcssoribus canonice substituendis in perpetuum. Oportet nos pro ecclesiarum statu satagcre et earum quieti et utililati , auxiliante Domino , salubriter prouidere. Dignura namque et honestati conueniens esse dinoscitur ut qui ad earum regimcn assumpli sumus, male acta corrigerc et bene gesta flrmare debeamus. Quia igilur , venerabilis in Domino fralrer Lodowicke ]</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>
