@@ -74,9 +74,7 @@
          </div>
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
-            <listBibl>
-               <bibl>[Regest 1]</bibl>
-               <bibl>Regg. H. 1. Bell  Engl. hist. Rev. XXXVI  397 n. 10. </bibl>
+            <listBibl><bibl>Bell, Papal Bulls, S. 397, Nr. 10</bibl>
             </listBibl>
          </div>
          <div>
@@ -86,7 +84,7 @@
             </diploDesc>
          </div><div type="commentary">
             <head>Sachkommentar</head>
-            <p>In Teilen wird eine Vorurkunde Hadrians IV. benutzt (vgl. <bibl>PUU England 1, S. 307-309, Nr. 62</bibl>); Die Vorbeurkundungen König Heinrichs II. sind <bibl>Vincent, Letters and Charters 4, S. 383-386, Nr. 2294 und 2295</bibl>.</p><p/><p/></div>
+            <p>In Teilen wird eine Vorurkunde Hadrians IV. genutzt (vgl. <bibl>PUU England 1, S. 307-309, Nr. 62</bibl>); Die Vorbeurkundungen König Heinrichs II. sind <bibl>Vincent, Letters and Charters 4, S. 383-386, Nr. 2294 und 2295</bibl>.</p><p/><p/></div>
          <div type="bibliography">
             <head>Bibliographie</head>
          <listBibl>
