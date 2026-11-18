@@ -14,9 +14,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>PUU England 1, S. 342-343, Nr. 81</bibl><bibl type="jaffe">-</bibl>
-            <diploDesc><div type="other"><head>Echtheitskriterien:</head>
-            <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div><p><issued><placeName>Anagni</placeName><date type="issued" when="1160-11-20">1160 Nov. 20</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            <diploDesc><p><authen type="formula" n=""><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen><issued><placeName>Anagni</placeName><date type="issued" when="1160-11-20">1160 Nov. 20</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Zisterzienserkloster Sibton</legalActor></p><p><legalActor type="recipient">Hugo, Abt des Zisterzienserklosters Sibton</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
@@ -40,9 +38,7 @@
                   <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
         <div>
             <head> Subscriptiones:</head><diploPart type="subscriptio" xml:lang="lat">
-               <list>
-                  <item>(R) Ego Alexander catholice ecclesie episcopus subscripsi. (BV)</item><item>Ego <persName>Hvbaldus Hostiensis episcopus</persName> subscripsi.</item><item>Ego <persName>Bernardus Portuensis et sancte Rufine episcopus</persName> subscripsi.</item><item>Ego <persName>Astaldus presb. card. tit. sancte Prisce</persName> subscripsi.</item><item>Ego <persName>Iohannes presb. card. tit. sancte ANASTASIE</persName> subscripsi.</item><item>Ego <persName>lacintus diac. card. sancte Marie in Cosmydyn</persName> subscripsi.</item><item>Ego <persName>Ardicio diac. card. sancti Theodori</persName> subscripsi.</item><item>Ego <persName>Iohannes diac. card. sancte Marie in porticu</persName> subscripsi.</item>
-               </list>
+               <list/>
             </diploPart>
          </div> 
           <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
