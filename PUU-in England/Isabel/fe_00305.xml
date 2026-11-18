@@ -15,7 +15,7 @@
             <diploDesc><p><authen type="formula" n=""><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen><issued><placeName>Anagni</placeName><date type="issued" when="1160-11-23">(1160) Nov. 23</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">R(oger), Erzbischof von York</legalActor></p><p><legalActor type="recipient">York, Domkapitel</legalActor></p><p><legalActor type="recipient">Archidiakone und Dekane des Erzbistums York</legalActor></p><p><legalActor type="recipient">H(ugo), Bischof von Durham</legalActor></p><p><legalActor type="recipient">Durham, Domkapite</legalActor></p><p><legalActor type="recipient">Archidiakone und Dekane des Bistums Durham</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><legalActor type="recipient">R(oger), Erzbischof von York</legalActor></p><p><legalActor type="recipient">Archidiakone und Dekane des Erzbistums York</legalActor></p><p><legalActor type="recipient">H(ugo), Bischof von Durham</legalActor></p><p><legalActor type="recipient">Archidiakone und Dekane des Bistums Durham</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum filo canapis</objectType></p><p><objectType n="">Anweisung, ]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
@@ -33,9 +33,15 @@
          <div type="abstract"><head>Abstract:</head>
             <p>Alexander III. befiehlt dem <persName>R(oger), Erzbischof von York</persName>, und <persName>H(ugo), Bischof von Durham</persName>, und den Archidiakonen und Dekanen in ihren Diözesen, ihre Parochianen von der Belästigung der <orgName>Mönche des <orgName>Zisterzienserklosters Rievaulx</orgName></orgName> abzuhalten.</p>
          </div>
-         <div type="other"><head>Echtheitskriterien:</head>
-            <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
+                  <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
+         <div>
+            <head> Subscriptiones </head>
+            <diploPart type="subscriptio" xml:lang="lat">
+               <list>
+                  <item/>
+               </list>
+            </diploPart>
+         </div> 
          <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung</head>
@@ -73,6 +79,10 @@
                <bibl>[Regest 1]</bibl>
                <bibl>[Regest 2]</bibl>
             </listBibl>
+         </div>
+          <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc><p>Das Stück ähnelt einem feierlichen Privileg, weist aber in der Chartularüberlieferung weder dreifaches Amen noch Subskriptionen auf. Datierung ohne Indiktionsjahr.</p></diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
