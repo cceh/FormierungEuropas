@@ -19,7 +19,7 @@
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Gilbert, Bischof von Hereford</legalActor></p><p><legalActor type="recipient">Gotfried, Archidiakon von Worcester</legalActor><legalActor type="recipient"/></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <p><objectType n="">[Typisierung 1</objectType></p><p><objectType n="">]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
@@ -34,10 +34,10 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. überträgt dem Bischof G(ilbert) von Hereford und dem Archidiakon G(otfried) von Worcester die Entscheidung des Prozesses zwischen den Kanonikern von St. Sepulcre und St. Mary in Warwiclc über Pfarrechte.</p>
+            <p>Alexander III. überträgt dem Bischof G(ilbert) von Hereford und dem Archidiakon G(otfried) von Worcester die Entscheidung des Prozesses zwischen den Kanonikern von St. Sepulcre und St. Mary in Warwick über Pfarrechte.</p>
          </div>
          <div type="other"><head>Echtheitskriterien:</head>
-            <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
+            <authen type="formula" n=""><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
          <div type="msSources">
