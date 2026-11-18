@@ -3,7 +3,7 @@
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
 <TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen -->
    <teiHeader>
-      <fileDesc><titleStmt><titleStmt><title>fe_00305</title></titleStmt><respStmt><resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp><persName>IB</persName></respStmt><respStmt><resp when="2024">Encoding:</resp><persName>IB</persName></respStmt></titleStmt>
+      <fileDesc><titleStmt><title>fe_00305</title><respStmt><resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp><persName>IB</persName></respStmt><respStmt><resp when="2024">Encoding:</resp><persName>IB</persName></respStmt></titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
             <idno>PUU England 1, S. 344-345, Nr. 83</idno><availability>
@@ -11,11 +11,11 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>PUU England 1, S. 344-345, Nr. 83</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
-            <diploDesc><p><issued><placeName>Anagni</placeName><date type="issued" notBefore="1160-11-23" notAfter="1160-11-23">(1160) November 23.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            <bibl>PUU England 1, S. 344-345, Nr. 83</bibl><bibl type="jaffe">-</bibl>
+            <diploDesc><p><authen type="formula" n=""><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen><issued><placeName>Anagni</placeName><date type="issued" when="1160-11-23">(1160) Nov. 23</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p> <legalActor type="recipient">Boger, Erzbischof von York</legalActor></p><p><legalActor type="recipient">Domkapitel des Erzbistums York</legalActor></p><p><legalActor type="recipient">Hugo, Bischof von Durham</legalActor></p><p><legalActor type="recipient">Domkapitel des Bistums Durham</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><legalActor type="recipient">Roger, Erzbischof von York</legalActor></p><p><legalActor type="recipient">Domkapitel des Erzbistums York</legalActor></p><p><legalActor type="recipient">Hugo, Bischof von Durham</legalActor></p><p><legalActor type="recipient">Domkapitel des Bistums Durham</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
