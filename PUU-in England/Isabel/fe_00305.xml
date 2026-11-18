@@ -16,7 +16,7 @@
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">R(oger), Erzbischof von York</legalActor></p><p><legalActor type="recipient">Archidiakone und Dekane des Erzbistums York</legalActor></p><p><legalActor type="recipient">H(ugo), Bischof von Durham</legalActor></p><p><legalActor type="recipient">Archidiakone und Dekane des Bistums Durham</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">Papsturkunde, litterae cum filo canapis</objectType></p><p><objectType n="">Anweisung, ]</objectType></p>
+               <p><objectType n="">Papsturkunde, litterae cum filo canapis</objectType></p><p><objectType n="">Anweisung, Einhaltung von Recht</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
