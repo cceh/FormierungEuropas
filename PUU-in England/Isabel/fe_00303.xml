@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_puu-in"> <!-- Ordnername hier ergänzen -->
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen -->
    <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
-            <respStmt>
-               <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
-               <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
-            </respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
+      <fileDesc><titleStmt><title>fe_00303</title><respStmt><resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp><persName>IB</persName></respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>IB</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -16,12 +13,12 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>PUU England 1, S. 342-343, Nr. 81</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
-            <diploDesc><p><issued><placeName>Anagni</placeName><date type="issued" notBefore="1160-11-20" notAfter="1160-11-20">1160 November 20.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            <bibl>PUU England 1, S. 342-343, Nr. 81</bibl><bibl type="jaffe">-</bibl>
+            <diploDesc><p><authen type="formula" n=""><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen><issued><placeName>Anagni</placeName><date type="issued" when="1160-11-20">1160 Nov. 20</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p> <legalActor type="recipient">Zisterzienserkloster Sibton</legalActor></p><p><legalActor type="recipient">Hugo, Abt des Klosters Sibton</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <p> <legalActor type="recipient">Zisterzienserkloster Sibton</legalActor></p><p><legalActor type="recipient">Hugo, Abt des Zisterzienserklosters Sibton</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p><p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
@@ -36,18 +33,23 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. nimmt das Kloster Sibton unter dem Abt Hugo in den päpstlichen Schutz, bestätigt die Zisterzienserregel und verleiht verschiedene Rechte.</p>
+            <p>Alexander III. gewährt und bestätigt dem <orgName>Zisterzienserkloster Sibton</orgName> unter <persName>Hugo, Abt des Klosters</persName>, folgende Rechte und Besitzungen:</p><p><list><item>Aufnahme in den apostolischen Schutz</item><item>Bestätigung der Regel des hl. Benedikt gemäß der Ordnung der Zisterzienser</item><item>Bestätigung aller gegenwärtigen und zukünftig gewährten oder erworbenen Besitzungen und Güter</item><item>Befreiung von Zehnten bei Eigenbau und für Tierfutter</item><item>freie Wahl, Absetzung und Amtsenthebung des Abtes gemäß der Statuten und Privilegien des Zisterzienserordens</item></list></p><p>Ferner legt er fest:<list><item>Verbot einen der Brüder nach abgelegter Profess ohne Erlaubnis aufzunehmen oder zurückzuhalten</item><item>Verbot des Interdikts über Rufford durch Erzbischof oder Bischof ohne vorhergehende Verfehlung des Abts und der Brüder der Abtei</item><item>Erlaubnis zur Gottesdienstfeier hinter geschlossenen Türen und unter Ausschluss der Exokummizierten und Interdizierten bei allgemeinem Interdikt</item><item>Exkommunikation aller, die innerhalb der Grangien oder Orte durch Gewalt, Raub, Diebstahl oder Ergreifung eines Menschen den Klosterfrieden brechen</item><item>Perturbationsverbot</item></list>Schlussformeln: Sanctio negativa und positiva</p>
          </div>
-         <div type="other"><head>Echtheitskriterien:</head>
-            <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
-         <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
+                  <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Religiosis desideriis dignum est facilem</diploPart></div>
+        <div>
+            <head> Subscriptiones:</head>
+            <diploPart type="subscriptio" xml:lang="lat">
+               <list>
+                  <item>-</item></list>
+                              </diploPart>
+         </div> 
+          <div><head>Datatio:</head><diploPart type="datatio">Dat. Anagnie XII° kal. decembris, incarnationis dominice anno M°CLX, pontificatus nostri anno secundo.</diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
                <bibl>[Original]</bibl>
-               <bibl>Chartular von Sibton s. XIV in., Brit. Mus. Arundel 221 fol.  144 (alt: 153). </bibl>
+               <bibl>Kopie: Chartular von Sibton (1300-1340), London, British Library, Arundel MS 221, fol.  144</bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>
@@ -79,6 +81,10 @@
                <bibl>[Regest 2]</bibl>
             </listBibl>
          </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc><p>Das Stück ähnelt einem feierlichen Privileg, weist aber in der Chartularüberlieferung weder dreifaches Amen noch Subskriptionen auf. Datierung ohne Indiktionsjahr.</p></diploDesc>
+         </div>
          <div type="commentary">
             <head>Sachkommentar</head>
             <p>[Kommentar]</p>
@@ -92,7 +98,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+            <p>[Nach Endkorrektur löschen:</p><p>Alexander episcopus, servus servorum Dei. Dilectis filiis Hugoni abbati monasterii sancte Marie de Sibeton(a) eiusque fratribus tam presentibus quam futuris regularem vitam professis in perpetuum.Religiosis desideriis dignum est facilem prebere consensum, ut fidelis devotio celerem sortiatur effectum. Eapropter, dilecti in domino filii, vestris iustis postulationibus clementer annuimus et prefatum monasterium, in quo divino mancipati estis obsequio, sub beati Petri et nostra protectione suscipimus et presentis scripti privilegio communimus. In primis siquidem statuentes, ut ordo monasticus, qui in vestro cenobio secundum Dei timorem et beati Benedicti regulam ac Cisterciensium fratrum consuetudinem noscitur institutus, perpetuis ibidem temporibus inviolabiliter observetur.Preterea quascumque possessiones, quecumque bona idem monasterium in presentiarum iuste et canonice possidet aut in futurum concessione pontificum, largitione regum vel principum, oblatione fidelium seu aliis iustis modis Deo propitio poterit adipisci, firma vobis vestrisque successoribus et illibata permaneant.Sane laborum vestrorum, quos propriis manibus aut sumptibus colitis, sive de nutrimentis vestrorum animalium nullus a vobis decimas presumat exigere. Addentes etiam auctoritate apostolica prohibemus, ne quis fratres vestros, clericos videlicet vel laicos, post factam in monasterio vestro professionem absque licentia vestra suscipere audeat vel retinere. Sancimus quoque, ne quis archiepiscopus vel episcopus sive cuiuslibet ordinis locum vestrum a divinis interdicat officiis, nisi abbatis vel fratrum ipsius loci evidens et manifesta culpa extiterit. Liceat autem vobis, cum commune interdictum terre fuerit, clausis ianuis, exclusis excommunicatis et interdictis divina officia celebrare.Paci siquidem et tranquillitati vestre paterna sollicitudine providentes auctoritate apostolica prohibemus, ut nullus infra clausuram locorum sive grangiarum vestrarum violentiam vel rapinam vel furtum facere vel hominem capere audeat, et si quis hoc temerario ausu presumpserit, tanquam sacrilegus iudicetur et excommunicationis ultione plectatur.Preterea omnes libertates seu etiam immunitates ac regias consuetudines a karissimo filio nostro Henrico illustri rege Anglorum vobis et ecclesie vestre indultas et scripti sui munimine roboratas auctoritate apostolica confirmamus et illibatas perpetuo statuimus permanere. Prohibentes, ne quispiam hominum vos aut ecclesiam vestram de omnibus auxiliis, geldis, wapentachis, hundris, danegeldis, murdris, assisis, sciris, placitis, querelis, scutagiis, theloneis, pontagiis, paagiis et omnibus servitiis, consuetudinibus, seculari exactione et omni terreno servitio, quod alicui seculari persone pertinebat, audeat infestare, set liberi et quieti ab huiusmodi exactionibus maneatis, quemadmodum predictus filius noster illustris rex Henricus scriptis suis vobis rationabiliter confirmavit.Presenti quoque decreto sancimus, ut episcopi, in quorum episcopatibus monasteria vestra consistunt, nec regularem et canonicam electionem abbatis vestri umquam impediant nec de removendo aut deponendo eo, qui pro tempore fuerit, contra statuta Cisterciensis ordinis et auctoritatem privilegiorum suorum se ullatenus intromittant.Decernimus ergo etc., salva sedis apostolice auctoritate. Si qua igitur etc. Cunctis autem etc. Amen.]</p>
          </div>
       </body>
    </text>
