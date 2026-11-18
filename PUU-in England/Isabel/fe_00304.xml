@@ -32,10 +32,7 @@
          <div type="abstract"><head>Abstract:</head>
             <p>Alexander III. an die Mönche und Aelred, Abt des Zisterzienserklosters Rievaulx, verbietet Mönchen anderer Orden, ihre Weiden und Besitzungen zu betreten.</p>
          </div>
-         <div type="other"><head>Echtheitskriterien:</head>
-            <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
-         <div>
+                  <div>
             <head> Subscriptiones </head>
             <diploPart type="subscriptio" xml:lang="lat">
                <list>
@@ -79,6 +76,12 @@
                <bibl>[Regest 1]</bibl>
                <bibl>[Regest 2]</bibl>
             </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p/>
+            </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
