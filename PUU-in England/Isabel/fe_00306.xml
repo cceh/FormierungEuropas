@@ -12,10 +12,10 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>PUU England 1, S. 345, Nr. 84</bibl><bibl type="jaffe">-</bibl>
-            <diploDesc><p><authen type="formula" n=""><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen><issued><placeName>Anagni</placeName><date type="issued" when="1160-08-03">(1160—61) Aug.3</date><date type="issued" notBefore="1160-08-03" notAfter="1161-08-03"/> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            <diploDesc><p><authen type="formula" n=""><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen><issued><placeName>Anagni</placeName><date type="issued" when="1160-08-03">(1160—61) Aug.3</date><date type="issued" when="1161-08-03"/> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p> <legalActor type="recipient">Gilbert, Bischof von Hereford</legalActor></p><p><legalActor type="recipient">Gotfried, Archidiakon von Worcester</legalActor><legalActor type="recipient"/></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient">Gilbert Foliot, Bischof von Hereford</legalActor></p><p><legalActor type="recipient">Gotfried, Archidiakon von Worcester</legalActor><legalActor type="recipient"/></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1</objectType></p><p><objectType n="">]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
