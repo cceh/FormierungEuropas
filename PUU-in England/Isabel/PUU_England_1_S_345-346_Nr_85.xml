@@ -3,7 +3,7 @@
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
 <TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen -->
    <teiHeader>
-      <fileDesc><titleStmt><title>fe_00306</title><respStmt><resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp><persName>IB</persName></respStmt><respStmt><resp when="2024">Encoding:</resp><persName>IB</persName></respStmt></titleStmt>
+      <fileDesc><titleStmt><title>fe_00xxx</title><respStmt><resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp><persName>IB</persName></respStmt><respStmt><resp when="2024">Encoding:</resp><persName>IB</persName></respStmt></titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
             <idno>PUU England 1, S. 345-346, Nr. 85</idno><availability>
