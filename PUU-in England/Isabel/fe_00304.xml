@@ -16,7 +16,7 @@
          <sourceDesc>
             <bibl>PUU England 1, S. 343-344, Nr. 82</bibl><bibl type="jaffe">-</bibl>
             <diploDesc><p><issued><placeName>Anagni</placeName><date type="issued" when="1160-11-23">(1160) Nov. 23</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
-               </issued></p><p><legalActor type="issuer">Alexander III.</legalActor></p><p><legalActor type="recipient">Zisterzienserkloster Rievaulx</legalActor></p><p><legalActor type="recipient">Aelred, Abt des Zisterzienserklosters Rievaulx</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType n="">[PaTypisierung 1</objectType></p><p><objectType n="">]</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+               </issued></p><p><legalActor type="issuer">Alexander III.</legalActor></p><p><legalActor type="recipient">Zisterzienserkloster Rievaulx</legalActor></p><p><legalActor type="recipient">Aelred, Abt des Zisterzienserklosters Rievaulx</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType n="">[Papsturkunde, litterae cum filo canapis</objectType></p><p><objectType n="">]</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
