@@ -18,7 +18,7 @@
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Zisterzienserkloster Sibton</legalActor></p><p><legalActor type="recipient">Hugo, Abt des Zisterzienserklosters Sibton</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p><p><objectType n="">]</objectType></p>
+               <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p><p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
@@ -33,7 +33,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. gewährt und bestätigt dem <orgName>Zisterzienserkloster Sibton</orgName> unter <persName>Hugo, Abt des Klosters</persName>, folgende Rechte und Besitzungen:</p><p><list><item>Aufnahme in den apostolischen Schutz</item><item>Bestätigung der Regel des hl. Benedikt gemäß der Ordnung der Zisterzienser</item><item>Bestätigung aller gegenwärtigen und zukünftig gewährten oder erworbenen Besitzungen und Güter</item><item>Befreiung von Zehnten bei Eigenbau  und für Tierfutter</item><item/></list></p>
+            <p>Alexander III. gewährt und bestätigt dem <orgName>Zisterzienserkloster Sibton</orgName> unter <persName>Hugo, Abt des Klosters</persName>, folgende Rechte und Besitzungen:</p><p><list><item>Aufnahme in den apostolischen Schutz</item><item>Bestätigung der Regel des hl. Benedikt gemäß der Ordnung der Zisterzienser</item><item>Bestätigung aller gegenwärtigen und zukünftig gewährten oder erworbenen Besitzungen und Güter</item><item>Befreiung von Zehnten bei Eigenbau und für Tierfutter</item></list></p><p>Ferner legt er fest:<list><item/></list></p>
          </div>
                   <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Religiosis desideriis dignum est facilem</diploPart></div>
         <div>
