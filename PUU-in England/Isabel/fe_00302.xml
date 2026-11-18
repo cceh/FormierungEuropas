@@ -16,7 +16,7 @@
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Zisterzienserkloster St. Mary's Rufford</legalActor></p><p><legalActor type="recipient">Elias, Abt des Zisterzienserkloster St. Mary's Rufford</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p><p><objectType n="">]</objectType></p>
+               <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p><p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
@@ -31,7 +31,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. bestätigt dem Kloster St. Mary's in Rufford unter dem Abt Elias folgende Rechte und Besitzungen</p><p><list><item>Bestätigung der Regel des hl. Benedikt nach der Ordnung der Zisterzienser</item><item>Bestätigung aller </item><item>Aufnahme in den apostolischen Schutz</item><item>Perturbationsverbot</item></list></p><p>Schlussformeln: Sanctio negativa und positiva</p>
+            <p>Alexander III. bestätigt dem Kloster St. Mary's in Rufford unter dem Abt Elias folgende Rechte und Besitzungen:</p><p><list><item>Bestätigung der Regel des hl. Benedikt nach der Ordnung der Zisterzienser</item><item>Bestätigung aller </item><item>Aufnahme in den apostolischen Schutz</item><item>Perturbationsverbot</item></list></p><p>Schlussformeln: Sanctio negativa und positiva</p>
          </div>
                  <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Pie postulatio uoluntatis effectu debet</diploPart></div>
         <div>
