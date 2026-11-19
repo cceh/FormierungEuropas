@@ -1,61 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
-<TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen -->
+<TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <!-- Ordnername hier ergänzen -->
    <teiHeader>
-      <fileDesc><titleStmt><title>fe_00354</title><respStmt><resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp><persName>JP</persName></respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>JP, IB</persName></respStmt>
+      <fileDesc>
+         <titleStmt>
+            <title>fe_00354</title>
+            <respStmt>
+               <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+               <persName>JP</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2024">Encoding</resp>
+               <persName>JP, IB, FL</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
-            <idno>PUU England 1, S. 401-402, Nr. 132</idno><availability>
+            <idno>PUU England 1, S. 401-402, Nr. 132</idno>
+            <availability>
                <licence>Lizenz</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>PUU England 1, S. 401-402, Nr. 132</bibl><bibl type="jaffe">-</bibl>
+            <bibl type="jaffe">-</bibl>
+            <bibl type="main">PUU England 1, S. 401-402, Nr. 132</bibl>
             <diploDesc>
-               
                <p><authen type="formula" n="na">
-                  <p>-</p>
-               </authen></p>
-               <p><issued><placeName>Anagni</placeName><date type="issued" when="1176-03-14">(1174—1176) Mär. 14</date><date type="issued" when="1176-03-14"/> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
-               
-             </issued></p><p><legalActor type="recipient">Hugo, Bischof von Durham</legalActor></p><p><legalActor type="recipient">Clemens, Abt der Benediktinerabtei St. Mary in York</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType n="">Papsturkunde, litterae cum filo canapis</objectType></p>
-             <p><objectType n="">Anweisung, Wiederherstellung von Recht</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
-            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+                     <p>-</p>
+                  </authen>
+               </p>
+               <issued>
+                     <placeName>Anagni</placeName>
+                  <date type="issued" when="1176-03-14">(1174—1176) Mär. 14</date>
+                  <date type="issued" when="1176-03-14"></date>
+                     <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+                  </issued>
+               <p><legalActor type="recipient">Hugo, Bischof von Durham</legalActor></p>
+               <p><legalActor type="recipient">Clemens, Abt der Benediktinerabtei St. Mary in
+                     York</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Papsturkunde, litterae cum filo canapis</objectType></p>
+               <p><objectType n="">Anweisung, Wiederherstellung von Recht</objectType></p>
+               <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
          </sourceDesc>
       </fileDesc>
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+            xmlns:as="http://www.w3.org/ns/activitystreams#"
+            xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+            xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
+            xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
+            xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+            xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+            xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
          <langUsage>
             <language ident="ger">German</language>
             <language ident="lat">Latin</language>
             <language ident="en-GB">English</language>
-         </langUsage></profileDesc>
+         </langUsage>
+      </profileDesc>
    </teiHeader>
    <text>
       <body>
-         <div type="abstract"><head>Abstract:</head>
-            <p><legalActor><persName>Alexander III.</persName></legalActor> weist <legalActor><persName>(Hugo), Bischof von Durham</persName></legalActor>, und <legalActor><persName>(Clemens), Abt der Benediktinerabtei St. Mary</persName> </legalActor>(D. York) an, die Beschwerden des Klosters Rievaulx (D. York) zu untersuchen, Prozesse zu entscheiden und verletzte Rechte wiederherzustellen: <list> <item>Rückgabe der durch<persName> Naven von Middle Head</persName> und weiterer Personen, die von Rievaulx benannt werden sollen,  gewaltsam besetzten Besitzungen unter Ausschluss der Appellation </item><item>Rückgabe des unrechtmäßig von den Kanonikern von Old Malton (D. York) besetzten Ödlands unterhalb von Pickering </item><item>Verbot an die Kanoniker von Sempringham (D. Lincoln) das Kloster Rievaulx wegen eines Grundstücks, das dem Kloster von <persName>Adam</persName>, dem Sohn <persName>Peters</persName>, und dessen Mutter überlassen wurde, zu belästigen.</item><item>Verbot an Kanoniker von Kirkham (D. York) der übermäßigen Nutzung der ihnen und dem Kloster Rievaulx gemeinsam zustehenden Weide von <placeName>Helmsley</placeName></item></list>    </p>  
+         <div type="abstract">
+            <head>Abstract:</head>
+            <p><legalActor><persName>Alexander III.</persName></legalActor> weist
+                     <legalActor><persName>(Hugo), Bischof von Durham</persName></legalActor>, und
+                     <legalActor><persName>(Clemens), Abt der Benediktinerabtei St. Mary</persName>
+               </legalActor>(D. York) an, die Beschwerden des Klosters Rievaulx (D. York) zu
+               untersuchen, Prozesse zu entscheiden und verletzte Rechte wiederherzustellen: <list>
+                  <item>Rückgabe der durch<persName> Naven von Middle Head</persName> und weiterer
+                     Personen, die von Rievaulx benannt werden sollen,  gewaltsam besetzten
+                     Besitzungen unter Ausschluss der Appellation </item>
+                  <item>Rückgabe des unrechtmäßig von den Kanonikern von Old Malton (D. York)
+                     besetzten Ödlands unterhalb von Pickering </item>
+                  <item>Verbot an die Kanoniker von Sempringham (D. Lincoln) das Kloster Rievaulx
+                     wegen eines Grundstücks, das dem Kloster von <persName>Adam</persName>, dem
+                     Sohn <persName>Peters</persName>, und dessen Mutter überlassen wurde, zu
+                     belästigen.</item>
+                  <item>Verbot an Kanoniker von Kirkham (D. York) der übermäßigen Nutzung der ihnen
+                     und dem Kloster Rievaulx gemeinsam zustehenden Weide von
+                        <placeName>Helmsley</placeName></item>
+               </list>
+            </p>
          </div>
-         
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Querelam dilectorum filiorum nostrorum abbatis</diploPart></div>
+
+         <div>
+            <head>Incipit:</head>
+            <diploPart type="incipit" xml:lang="lat">Querelam dilectorum filiorum nostrorum
+               abbatis</diploPart>
+         </div>
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
                   <item>-</item>
                </list></diploPart>
          </div>
-         <div><head>Datatio:</head><diploPart type="datatio">Data Anagnie II idus martii. </diploPart></div>
-         <div type="msSources">
-             <head>Handschriftliche Überlieferung</head>
-            <div>
-            <listBibl>   
-               <bibl>Original: -</bibl>
-               <bibl>Kopie: Chartular von Rievaulx (12.Jh.), London, British Library, Cotton MS Julius D I, fol. 185, Nr. 231</bibl>
-               <bibl>[ggf. Druck]</bibl>
-            </listBibl>
+         <div>
+            <head>Datatio:</head>
+            <diploPart type="datatio">Data Anagnie II idus martii. </diploPart>
          </div>
+         <div type="msSources">
+            <head>Handschriftliche Überlieferung</head>
+            <div>
+               <listBibl>
+                  <bibl>Original: -</bibl>
+                  <bibl>Kopie: Chartular von Rievaulx (12.Jh.), London, British Library, Cotton MS
+                     Julius D I, fol. 185, Nr. 231</bibl>
+                  <bibl>[ggf. Druck]</bibl>
+               </listBibl>
+            </div>
          </div>
          <div type="decretals">
             <head>Dekretalen</head>
@@ -72,12 +134,14 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>PUU England 1, S. 401-402, Nr. 132</bibl><bibl>Chart. Rievaulx, S. 197-198, Nr. 267</bibl>
+               <bibl>PUU England 1, S. 401-402, Nr. 132</bibl>
+               <bibl>Chart. Rievaulx, S. 197-198, Nr. 267</bibl>
                <bibl/>
             </listBibl>
          </div>
          <div type="regesta">
-            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <head>Regesten</head>
+            <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>-</bibl>
             </listBibl>
@@ -85,23 +149,88 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Holzmann (vgl. PUU England 1, S. 400) bestimmt die Datierung anhand des Itinerars Alexanders III.  und  der Amtszeit des Abtes Silvanus, der nach Atkinson (vgl. Cart. Rievaulx, S. XCII) bereits seit 1170 im Amt war. Tatsächlich war Silvanus bereits seit 1167 Abt von Rievaulx, was allerdings die Datierung nicht verändert (vgl. Knowles, Head, S. 140). Das Jahr 1175 ist als Ausstellungsjahr nicht möglich, da sich Alexander III. am 14. März dieses Jahres in Ferentino aufhielt. Vgl. JL 12445. ####Fe#####</p>
+               <p>Holzmann (vgl. PUU England 1, S. 400) bestimmt die Datierung anhand des Itinerars
+                  Alexanders III.  und  der Amtszeit des Abtes Silvanus, der nach Atkinson (vgl.
+                  Cart. Rievaulx, S. XCII) bereits seit 1170 im Amt war. Tatsächlich war Silvanus
+                  bereits seit 1167 Abt von Rievaulx, was allerdings die Datierung nicht verändert
+                  (vgl. Knowles, Head, S. 140). Das Jahr 1175 ist als Ausstellungsjahr nicht
+                  möglich, da sich Alexander III. am 14. März dieses Jahres in Ferentino aufhielt.
+                  Vgl. JL 12445. ####Fe#####</p>
             </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Die vorliegende Urkunde gehört zu einer Reihe von Urkunden, die Alexander entweder 1174 oder 1176 für das Kloster Rievaulx ausstellte (vgl. fe_00353, fe_00355, fe_00356 und fe_00357). </p><p>Laut Jamroziak stehen die Prozesse mit den Kanonikern von Old Malton, Sempringham und Kirkham wahrscheinlich in keiner Verbindung zueinander. Der Streit zwischen Old Malton und Rievaulx scheint 1175 durch König Heinrich II. beigelegt worden zu sein. Vgl. Jamroziak, Rievaulx, S. 161–162.</p>
+            <p>Die vorliegende Urkunde gehört zu einer Reihe von Urkunden, die Alexander entweder
+               1174 oder 1176 für das Kloster Rievaulx ausstellte (vgl. fe_00353, fe_00355, fe_00356
+               und fe_00357). </p>
+            <p>Laut Jamroziak stehen die Prozesse mit den Kanonikern von Old Malton, Sempringham und
+               Kirkham wahrscheinlich in keiner Verbindung zueinander. Der Streit zwischen Old
+               Malton und Rievaulx scheint 1175 durch König Heinrich II. beigelegt worden zu sein.
+               Vgl. Jamroziak, Rievaulx, S. 161–162.</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
-         <listBibl>
-            <bibl>Emilia Jamroziak, Rievaulx Abbey and its Social Context, 1132–1300. Memory, Locality, and Networks. Turnhout 2005</bibl>
-            <bibl/>
-         </listBibl>
+            <listBibl>
+               <bibl>Emilia Jamroziak, Rievaulx Abbey and its Social Context, 1132–1300. Memory,
+                  Locality, and Networks. Turnhout 2005</bibl>
+               <bibl/>
+            </listBibl>
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p/><p>Alternativer Abstract (IB):</p><p/><p>Alexander III. beauftragt Hugo, den Bischof von Durham (D. Durham), und Clemens, den Abt von St. Marien in York (D. York), Beschwerden des Abts und der Brüder des Zisterzienserklosters Rievaulx (D. York) zu untersuchen, zu entscheiden und unter Zuhilfenahme kanonischer Maßnahmen folgendes Recht wiederherzustellen:Rückgabe der durch Naven von Middle Head (Midelhouet) und anderen besetzten Klosterbesitzungen unter Ausschluss der AppellationRückgabe der unrechtmäßig durch die Kanoniker von Old Malton (D. York) besetzten Wüstung unterhalb von PickeringPerturbationsverbot an die Kanoniker von Sempringham bezüglich eines von Adam, Sohn des Peter, und seiner Mutter überlassenen GrundstücksVerbot der übermäßigen Nutzung der ihnen und dem Koster Rievaulx zugestandenen Weiden von Helmsley.</p><p/><p/><p/><p/><p/><p/><p>Nach Endkorrektur löschen:</p><p/><p/><p/><p>Alexander episcopus seruus seruorum Dei. Venerabili fratri Dunelmensi episcopo et dilecto filio abbati sancte Marie Ebor(a-censis) salutem et apostolicam benedictionem. Querelam dilectorum filiorum nostrorum abbatis et fratrum monasterii Rieual-l(ensis) accepimus, quod Nauen de Midelhouet et quidam alii quasdampossessiones ad monasterium predictorum fratrum pertinentes per uiolentiam detinent occupatas. Quia igitur predicto monasterioiura sua integra conseruare tenemur et huiusmodi presumptores ecclesiastica censura compescere, discretioni uestre per apostolicascripta mandamus, quatinus predictum uirum et ceteros, quos idemfratres uobis nominabunt, moneatis attentius et districtione eccle-siastica compellatis, ut memoratis fratribus et eorum monasteriopossessiones suas restituant et in pace dimittant uel in presentiauestra sublato appellationis remedio exhibeant iustitie complemen-tum. Preterea questi sunt nobis idem fratres, quod canonici de Maltun uastum de sub Picaring(e), quod ad eorum monasterium pertinere dicitur. minus licite occupare presumunt et canonici de Sempling(a)ham eos super quadam terra, quam Adam tilius Petriet mater eius pia largitione sibi concesserunt, indebite fatigarenon cessant. Adiecerunt etiam, quod canonici de Kirkeham pas-cua de Helmesleia, que predictis fratribus et canonicis communiter prout dicitur concessa fuerunt, ultra quam eos deceat uel ipsi consueuerint, usibus suorum animalium occupant, unde idem fratres in hac parte se plurimum grauari noscuntur. Quocirca presentium uobis auctoritate mandamus, quatinus partibus ante uestram pre-sentiam conuocatis prefatos canonicos scilicet de Maltun et deSemplingaham sollicite monere curetis et si necesse fuerit districtecompellere, ut memoratis fratribus super prescripto uasto et terranullam molestiam inferant uel grauamen, set ipsos ea libere possidere permittant. Yerumtamen si quid6' iuris in eis se habere con-fidunt, cum eisdem fratribus coram uobis ordine iudiciario experi-antur et uos causam audiatis et causa auditac) concordia uel iudicioterminetis. Canonicis quoque de Kirkaham ex nostra parte inhi-beatis, ne prescripta pascua ultra rationabilem et antiquam con-suetudinem occupent, set suo iure contenti id, quod ad memoratos fratres exinde pertinet, eos pacifice possidere permittant, ita quodidem fratres non habeant aduersus eos materiam querelandi. DataAnagnie II idus martii.</p>
+            <p/>
+            <p>Alternativer Abstract (IB):</p>
+            <p/>
+            <p>Alexander III. beauftragt Hugo, den Bischof von Durham (D. Durham), und Clemens, den
+               Abt von St. Marien in York (D. York), Beschwerden des Abts und der Brüder des
+               Zisterzienserklosters Rievaulx (D. York) zu untersuchen, zu entscheiden und unter
+               Zuhilfenahme kanonischer Maßnahmen folgendes Recht wiederherzustellen:Rückgabe der
+               durch Naven von Middle Head (Midelhouet) und anderen besetzten Klosterbesitzungen
+               unter Ausschluss der AppellationRückgabe der unrechtmäßig durch die Kanoniker von Old
+               Malton (D. York) besetzten Wüstung unterhalb von PickeringPerturbationsverbot an die
+               Kanoniker von Sempringham bezüglich eines von Adam, Sohn des Peter, und seiner Mutter
+               überlassenen GrundstücksVerbot der übermäßigen Nutzung der ihnen und dem Koster
+               Rievaulx zugestandenen Weiden von Helmsley.</p>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p>Nach Endkorrektur löschen:</p>
+            <p/>
+            <p/>
+            <p/>
+            <p>Alexander episcopus seruus seruorum Dei. Venerabili fratri Dunelmensi episcopo et
+               dilecto filio abbati sancte Marie Ebor(a-censis) salutem et apostolicam
+               benedictionem. Querelam dilectorum filiorum nostrorum abbatis et fratrum monasterii
+               Rieual-l(ensis) accepimus, quod Nauen de Midelhouet et quidam alii
+               quasdampossessiones ad monasterium predictorum fratrum pertinentes per uiolentiam
+               detinent occupatas. Quia igitur predicto monasterioiura sua integra conseruare
+               tenemur et huiusmodi presumptores ecclesiastica censura compescere, discretioni
+               uestre per apostolicascripta mandamus, quatinus predictum uirum et ceteros, quos
+               idemfratres uobis nominabunt, moneatis attentius et districtione eccle-siastica
+               compellatis, ut memoratis fratribus et eorum monasteriopossessiones suas restituant
+               et in pace dimittant uel in presentiauestra sublato appellationis remedio exhibeant
+               iustitie complemen-tum. Preterea questi sunt nobis idem fratres, quod canonici de
+               Maltun uastum de sub Picaring(e), quod ad eorum monasterium pertinere dicitur. minus
+               licite occupare presumunt et canonici de Sempling(a)ham eos super quadam terra, quam
+               Adam tilius Petriet mater eius pia largitione sibi concesserunt, indebite fatigarenon
+               cessant. Adiecerunt etiam, quod canonici de Kirkeham pas-cua de Helmesleia, que
+               predictis fratribus et canonicis communiter prout dicitur concessa fuerunt, ultra
+               quam eos deceat uel ipsi consueuerint, usibus suorum animalium occupant, unde idem
+               fratres in hac parte se plurimum grauari noscuntur. Quocirca presentium uobis
+               auctoritate mandamus, quatinus partibus ante uestram pre-sentiam conuocatis prefatos
+               canonicos scilicet de Maltun et deSemplingaham sollicite monere curetis et si necesse
+               fuerit districtecompellere, ut memoratis fratribus super prescripto uasto et
+               terranullam molestiam inferant uel grauamen, set ipsos ea libere possidere
+               permittant. Yerumtamen si quid6' iuris in eis se habere con-fidunt, cum eisdem
+               fratribus coram uobis ordine iudiciario experi-antur et uos causam audiatis et causa
+               auditac) concordia uel iudicioterminetis. Canonicis quoque de Kirkaham ex nostra
+               parte inhi-beatis, ne prescripta pascua ultra rationabilem et antiquam con-suetudinem
+               occupent, set suo iure contenti id, quod ad memoratos fratres exinde pertinet, eos
+               pacifice possidere permittant, ita quodidem fratres non habeant aduersus eos materiam
+               querelandi. DataAnagnie II idus martii.</p>
          </div>
       </body>
    </text>
