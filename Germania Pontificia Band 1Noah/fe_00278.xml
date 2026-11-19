@@ -30,7 +30,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">St. Veit]</legalActor></p>
+               <p><legalActor type="recipient">Benediktinerkloster St. Veit</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
@@ -52,7 +52,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName></legalActor> gewährt auf Bitten des Abts des Konvents dem  (D. ) folgende Rechte:<list>
+            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName></legalActor> gewährt auf Bitten des Abts des Konvents dem <legalActor cert="high" type="beneficiary" xml:space="default">Benediktinerkloster St. Veit</legalActor> (D. ) folgende Rechte:<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
