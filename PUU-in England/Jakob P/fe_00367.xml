@@ -20,7 +20,7 @@
             <diploDesc><p><authen type="formula" n=""><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></p><issued><placeName>Venedig, Rialto</placeName><date type="issued" when="1177-05-23">(1177) Mai 23</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">(Richard), Erzbischof von Canterbury und apostolischer Legat</legalActor></p><p><objectType n="">Papsturkunde, litterae cum filo canapis</objectType></p>
+               <p><legalActor type="recipient">(Richard), Erzbischof von Canterbury</legalActor></p><p><objectType n="">Papsturkunde, litterae cum filo canapis</objectType></p>
                <p><objectType n="">Juristisches, Rechtsstreit</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
