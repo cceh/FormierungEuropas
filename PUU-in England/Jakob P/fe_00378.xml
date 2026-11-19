@@ -21,13 +21,9 @@
                <p>-</p>
                <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
             </authen></p><p><issued><placeName>Lateran</placeName><date type="issued" when="1166-05-01">(1166—79) Mai 1</date><date type="issued" when="1167-05-01"/>
-<date type="issued" when="1168-05-01"/><date type="issued" when="1169-05-01"/>
-<date type="issued" when="1170-05-01"/><date type="issued" when="1171-05-01"/>
-<date type="issued" when="1172-05-01"/><date type="issued" when="1173-05-01"/>
-<date type="issued" when="1174-05-01"/><date type="issued" when="1175-05-01"/>
-<date type="issued" when="1176-05-01"/><date type="issued" when="1177-05-01"/>
-<date type="issued" when="1178-05-01"/><date type="issued" when="1179-05-01">
-</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+<date type="issued" when="1177-05-01"/>
+<date type="issued" when="1178-05-01"/>
+<!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
             
                <p><legalActor type="recipient">(Roger de Pont L'Évêque), Erzbischof von York</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
