@@ -29,7 +29,7 @@
                <issued><placeName>Venedig</placeName><date type="issued" notBefore="1177-04-07" notAfter="1177-04-07">1177 Apr. 7</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">[Empfänger]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
@@ -52,7 +52,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>[Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
+            <p>Alexander III. gewährt auf Bitten des Abts Adelbert dem Zisterziensterkloster Raitenhaslach (D. Passau) folgende Rechte:<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
