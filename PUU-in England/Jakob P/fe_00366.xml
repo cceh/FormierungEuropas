@@ -47,8 +47,8 @@
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl>Original: -</bibl>
-               <bibl>Kopie: Templerchartular (15. Jh.), British Library, Nero MS Cotton C IX, fol. 23</bibl>
+               <bibl type="Original">Original: -</bibl>
+               <bibl type="msCopy">Kopie: Templerchartular (15. Jh.), British Library, Nero MS Cotton C IX, fol. 23</bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>
