@@ -4,7 +4,7 @@
 <TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen -->
    <teiHeader>
       <fileDesc><titleStmt><title>fe_00361</title><respStmt><resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp><persName>JP</persName></respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>JP, IB, CH</persName></respStmt>
+           <respStmt><resp when="2024">Encoding</resp><persName>JP, IB, CH</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -33,17 +33,17 @@
    </teiHeader>
    <text>
       <body>
-         <div type="abstract"><head>Abstract:</head>
+         <div type="abstract"><head>Abstract</head>
             <p><persName>Alexander III.</persName> verleiht der Londoner <orgName>Stiftskirche St. Martin le Grand</orgName> (D. London) unter <persName>Dekan Godefrid</persName> ein Privileg und gewährt die folgenden Rechte und Besitzungen:<list><item>Aufnahme der Kirche in den apostolischen Schutz</item><item>Bestätigung aller derzeitigen und künftigen Besitzungen und Güter jedweder Art, darunter einige namentlich und in ihrem Umfang genannte Besitzungen</item><item>Bestätigung der Freiheiten, Immunitäten sowie der alten Gewohnheiten</item><item>das freie Begräbnisrecht</item><item>Befreiung vom allgemeinen Interdikt</item></list>Ferner legt er fest:<list><item>dass niemand die Kirche sowie die Diener (<diploPart>servitores</diploPart>) der Kirche oder ihre Kapellen durch ungerechtfertigte Belästigungen oder Belastungen bedrängen oder ihnen neue unrechtmäßige Abgaben auferlegen darf</item><item>Perturbationsverbot</item></list>Schlussformeln: Sanctio negativa und positiva</p>
          </div>
 
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Effectum iusta postulantibus indulgere et</diploPart></div>
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Effectum iusta postulantibus indulgere et</diploPart></div>
       <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
                   <item>Ego <persName>Alexander catholice ecclesie episcopus</persName> ss. </item><item>Ego <persName>Hubaldus Hostiensis episcopus</persName> ss.</item><item>Ego <persName>Iohannes sanctorum Iohannis et Pauli presb. card. tit. Pamachi</persName> ss.</item><item>Ego <persName>Albertus presb. card. tit. sancti Laurentii in Lucina</persName> ss.</item><item>Ego <persName>Willelmus presb. card. tit. sancti Petri ad vincula</persName> ss</item><item>Ego <persName>Boso presb. card. sancte Pudentiane tit. Pastoris</persName> ss.</item><item>Ego <persName>Theodinus presb. card. sancti Vitalis tit. Vestine</persName> ss.</item><item>Ego <persName>Manfredus presb. card. sancte Cecilie</persName> ss.</item><item>Ego <persName>Petrus presb. card. tit. sancte Susanne</persName> ss.</item><item>Ego <persName>Iac(intus) diac. card. sancte Marie in Cosmidyn</persName> ss.</item><item>Ego <persName>Iohannes presb. card. sancti Marci</persName> ss.</item><item>Ego <persName>Cinthyus diac. card. sancti Adriani</persName> ss.</item><item>Ego<persName> Ugo diac. card. sancti Eustachii iuxta templum Agrippe ss.</persName></item><item>Ego <persName>Laborans diac. card. sancte Marię in porticu</persName> ss.</item><item>Ego <persName>Raynerius diac. card. sancti Georgii ad uelum aureum</persName> ss.</item></list></diploPart>
          </div>
-            <div><head>Datatio:</head><diploPart type="datatio">Dat. Anagnie per manum <persName>Graciani sancte Romane ecclesie subdiaconi et notarii</persName>, IIII non. nouembr., indictione X, incarnationis dominice anno M C LXX VII, pontificatus uero domni Alexandri pape III anno XVIII.</diploPart></div>
+            <div><head>Datatio</head><diploPart type="datatio">Dat. Anagnie per manum <persName>Graciani sancte Romane ecclesie subdiaconi et notarii</persName>, IIII non. nouembr., indictione X, incarnationis dominice anno M C LXX VII, pontificatus uero domni Alexandri pape III anno XVIII.</diploPart></div>
           
          <div type="msSources">
              <head>Handschriftliche Überlieferung</head>
