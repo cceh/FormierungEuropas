@@ -52,7 +52,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName> </legalActor>erinnert alle Priester und Kleriker des Archidiakonats Gars an die Tugenden Gehorsam (<diploPart>obedientia</diploPart>) und Geduld (<diploPart>patientia</diploPart>) und weist sie an, <persName>H.(einrich), dem Stiftspropst des Augustiner-Chorherrenstifts Gars,</persName> der gegenüber der römischen Kirche und dem Papst lobenswerte Frömmigkeit an den Tag legt, den geschuldeten Gehorsam zu leisten und ihn wie einen Vater und Lehrer in Ehren zu halten. Sollten sie den Gehorsam weiterhin verweigern, steht es dem Stiftspropst frei, nach kanonischem Recht und mit päpstlicher Autorität über sie zu urteilen ().</p>
+            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName> </legalActor>erinnert alle Priester und Kleriker des Archidiakonats Gars an die Tugenden Gehorsam (<diploPart>obedientia</diploPart>) und Geduld (<diploPart>patientia</diploPart>) und weist sie an, <persName>H.(einrich), dem Stiftspropst des Augustiner-Chorherrenstifts Gars,</persName> der gegenüber der römischen Kirche und dem Papst lobenswerte Frömmigkeit an den Tag legt, den geschuldeten Gehorsam zu leisten und ihn wie einen Vater und Lehrer in Ehren zu halten. Sollten sie den Gehorsam weiterhin verweigern, steht es dem Stiftspropst frei, nach kanonischem Recht und mit päpstlicher Autorität (<diploPart>auctore domino</diploPart>) über sie zu urteilen.</p>
          </div>
 
          <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Qui magistris et prelatis suis</diploPart></div>
