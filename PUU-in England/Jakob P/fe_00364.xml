@@ -4,7 +4,7 @@
 <TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen -->
    <teiHeader>
       <fileDesc><titleStmt><title>fe_00364</title><respStmt><resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp><persName>JP</persName></respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>JP, IB, CH</persName></respStmt>
+           <respStmt><resp when="2024">Encoding</resp><persName>JP, IB, CH</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -31,12 +31,12 @@
    </teiHeader>
    <text>
       <body>
-         <div type="abstract"><head>Abstract:</head>
+         <div type="abstract"><head>Abstract</head>
             <p><persName>Alexander III.</persName> gewährt <persName>(Walter), Abt der Benediktinerabtei Westminster</persName> (D. London), den Gebrauch von Handschuhen während der Messe an Festtagen.</p>
          </div>
          
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Hortatur nos et admonet cura </diploPart></div>
-         <div><head>Datatio:</head><diploPart type="datatio">Dat. Venet. in Riuo alto IIII non. aprilis. </diploPart></div>
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Hortatur nos et admonet cura </diploPart></div>
+         <div><head>Datatio</head><diploPart type="datatio">Dat. Venet. in Riuo alto IIII non. aprilis. </diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung</head>
             <div>
