@@ -71,21 +71,21 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>PUU England 1, S. 415-417, Nr. 144</bibl>
+               <bibl/>
                <bibl/>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>Mason, Westminster, Nr. 176, S. 86-87</bibl>
+               <bibl>Mason, Reg. Westminster Nr. 176, S. 86-87</bibl>
                <bibl/>
             </listBibl>
          </div>
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Einfaches Amen; keine Rota oder Bene valete vorhanden. Die Jahreszahl ist falsch überliefert und muss 1177 nach Itinerar sowie richtiger Indikationszahl und Papstjahr sein (vgl. <bibl>PUU England 1, S. 417</bibl> u.<bibl> Mason, Westminster, S. 87</bibl>).</p>
+               <p>Einfaches Amen; keine Rota oder Bene valete vorhanden. Die Jahreszahl ist falsch überliefert und muss 1177 nach Itinerar sowie richtiger Indikationszahl und Papstjahr sein (vgl. <bibl>PUU England 1, S. 417</bibl> u.<bibl> Mason, Reg. Westminster S. 87</bibl>).</p>
             </diploDesc>
          </div>
          <div type="commentary">
