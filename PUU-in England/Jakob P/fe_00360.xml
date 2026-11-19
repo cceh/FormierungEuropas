@@ -14,7 +14,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>PUU England 1, S. 409-411, Nr. 139</bibl><bibl type="jaffe">-</bibl>
-            <diploDesc><p><authen type="formula" n=""><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen><issued><placeName>Anagni</placeName><date type="issued" when="1176-06-03">1176 Jun. 3</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            <diploDesc><p><authen type="formula" n="na"><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen><issued><placeName>Anagni</placeName><date type="issued" when="1176-06-03">1176 Jun. 3</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p><p><legalActor type="recipient">Zisterzienserkloster St. Marys, Sawtry</legalActor></p> <p> <legalActor type="recipient">Paganus, Abt des Zisterzienserklosters St. Mary's, Sawtry</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p>
                <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
