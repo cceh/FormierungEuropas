@@ -8,7 +8,7 @@
                <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
                <persName>JP</persName>
             </respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>JP, CH</persName></respStmt>
+           <respStmt><resp when="2024">Encoding</resp><persName>JP, CH</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -38,8 +38,8 @@
             <p><persName>Alexander III.</persName> verleiht dem <orgName>Augustinerpriorat Llanthony</orgName> (D. Worcester) unter <persName>Roger, Prior von Llanthony</persName>, ein Privileg und gewährt die folgenden Rechte: <list><item>Bestätigung der namentlich genannten Kirchen, die ihnen von namentlich genannten Bischöfen zur Versorgung der Armen sowie der Gastfreundschaft übertragen wurden </item><item>Perturbationsverbot</item></list>Schlussformeln: Sanctio negativa</p><p/>
          </div>
         
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustis petentium desideriis dignum est</diploPart></div>
-         <div><head>Datatio:</head><diploPart type="datatio">Dat. Veste kal. mart. </diploPart></div>
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Iustis petentium desideriis dignum est</diploPart></div>
+         <div><head>Datatio</head><diploPart type="datatio">Dat. Veste kal. mart. </diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung</head>
             <div>
