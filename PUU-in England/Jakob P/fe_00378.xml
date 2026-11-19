@@ -33,7 +33,7 @@
                <p><legalActor type="recipient">(Roger de Pont L'Évêque), Erzbischof von York</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><legalActor type="recipient">(Hugo du Puiset), Bischof von Durham</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p> <legalActor type="recipient">Kleriker der Diözese</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">Papsturkunde, litterae cum filo canapis</objectType></p>
+               <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p>
                <p><objectType n="">Anweisung, Beachtung von Recht</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
