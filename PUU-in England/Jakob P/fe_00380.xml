@@ -20,8 +20,8 @@
             <diploDesc><p><authen type="formula" n="na">
                <p>-</p>
                <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-            </authen></p><p><issued><placeName>Lateran</placeName><date type="issued" when="1166-05-12">(<diploDesc><issued>1166—1167/1178—1179</issued></diploDesc>) Mai 12</date><date type="issued" when="1167-05-12"/>
-<date type="issued" when="1168-05-12"/>
+            </authen></p><p><issued><placeName>Lateran</placeName><date type="issued" when="1166-05-12">(1166—1167/1178—1179 Mai 12</date><date type="issued" when="1167-05-12"/>
+
 <date type="issued" when="1178-05-12"/><date type="issued" when="1179-05-12"/> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
