@@ -62,7 +62,10 @@
          </div>
          <div type="editions">
             <head>Editionen</head>
-            <listBibl/>
+            <listBibl>
+               <bibl/>
+               <bibl/>
+            </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
