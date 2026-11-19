@@ -21,9 +21,7 @@
                <p>-</p>
                <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
             </authen></p><p><issued><placeName>Lateran</placeName><date type="issued" notBefore="1166-05-01" notAfter="1179-05-01">(1166) Mai 1</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
-               </issued></p>
-               <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">(Roger <persName>de Pont L'Évêque</persName>), Erzbischof von York</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               </issued></p><p><legalActor type="recipient">(Roger de Pont L'Évêque), Erzbischof von York</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><legalActor type="recipient">(Robert de Chesney), Bischof von Lincoln</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><legalActor type="recipient">(Richard Peche), Bischof von Chester</legalActor></p><p><objectType n="">Papsturkunde, litterae cum serico</objectType></p>
                 <p><objectType n="">Anweisung, Beachtung von Recht</objectType></p>
@@ -84,7 +82,7 @@
           <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Seidenfäden und Bleibulle liegen vor. Der Papstname in der Intitulatio weist eine Initiale auf und ist in Litterae elongatae ausgeführt.  Der Urkunde fehlen eine Arenga, Sanctio und Comminatio. Aus dem Itinerar Alexanders III. ergeben sich die möglichen Ausstellungsjahre 1166/1167 oder 1177/1178. Von diesen kommt allerdings nur das Jahr 1166 infrage, da es das einzige Jahr war, in dem alle drei Bischofsämter gleichzeitig besetzt waren (vgl. <bibl>Duggan, Decretals of Alexander, S. 120</bibl>).</p><p>Auf Grundlage dieser Datierung gehört die vorliegende Urkunde zu den frühesten Beispielen der von Ludwig Falkenstein beschriebenen Mischform päpstlicher litterae. Sie folgt dem insbesondere seit 1179 häufig verwendeten Formular <diploPart>Audiuimus et audientes</diploPart> und wurde mit Seidenschnüren bulliert, obgleich sie, wie für Mandate üblich, ohne eine Arenga, Sanctio oder Comminatio ausgefertigt wurde (vgl. <bibl>Falkenstein, Mischformen, S. 336, S. 350–352</bibl>). Bezüglich der 1160 verliehen Zehntfreiheit an die Zisterzienservgl. fe_00302.</p>
+               <p>Seidenfäden und Bleibulle liegen vor. Der Papstname in der Intitulatio weist eine Initiale auf und ist in Litterae elongatae ausgeführt.  Der Urkunde fehlen eine Arenga, Sanctio und Comminatio. Aus dem Itinerar Alexanders III. ergeben sich die möglichen Ausstellungsjahre 1166/1167 oder 1177/1178. Von diesen kommt allerdings nur das Jahr 1166 infrage, da es das einzige Jahr war, in dem alle drei Bischofsämter gleichzeitig besetzt waren (vgl. <bibl>Duggan, Decretals of Alexander, S. 120</bibl>).</p><p>Auf Grundlage dieser Datierung gehört die vorliegende Urkunde zu den frühesten Beispielen der von Ludwig Falkenstein beschriebenen Mischform päpstlicher litterae. Sie folgt dem insbesondere seit 1179 häufig verwendeten Formular <diploPart>Audiuimus et audientes</diploPart> und wurde mit Seidenschnüren bulliert, obgleich sie, wie für Mandate üblich, ohne eine Arenga, Sanctio oder Comminatio ausgefertigt wurde (vgl. <bibl>Falkenstein, Mischformen, S. 336, S. 350–352</bibl>). Bezüglich der 1160 verliehen Zehntfreiheit an die Zisterzienserabtei vgl. fe_00302.</p>
             </diploDesc>
          </div>
          <div type="commentary">
