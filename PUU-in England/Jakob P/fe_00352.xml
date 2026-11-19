@@ -13,7 +13,7 @@
                <persName>JP</persName>
             </respStmt>
             <respStmt>
-               <resp when="2024">Encoding:</resp>
+               <resp when="2024">Encoding</resp>
                <persName>JP, IB, FL</persName>
             </respStmt>
          </titleStmt>
@@ -31,11 +31,17 @@
                <p><authen type="formula" n="na">
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-                  </authen></p>
-               <p><issued><placeName>Anagni</placeName><date when="1174-05-31">(1174—1176) Mai
-                        31</date><date when="1176-05-31"/>
+                  </authen>
+               </p>
+               <issued>
+                  <placeName>Anagni</placeName>
+                  <date type="issued" when="1174-05-31">(1174/1176) Mai 31</date>
+                  <date type="issued" when="1176-05-31"/>
                      <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
-                  </issued></p>
+                  </issued>
+               <p>
+                  <legalActor type="issuer">Alexander III.</legalActor>
+               </p>   
                <p>
                   <legalActor type="recipient">Kanoniker des Augustinerpriorats von
                      Stone</legalActor></p>
@@ -72,10 +78,10 @@
    <text>
       <body>
          <div type="abstract">
-            <head>Abstract:</head>
+            <head>Abstract</head>
             <p><persName>Alexander III.</persName> gewährt den <orgName>Kanonikern des
                   Augustinerpriorats von Stone</orgName> (D. Lichfield) unter <persName>R(oger),
-                  Prior von Stone,</persName> folgende Privilegien und Rechte:</p>
+                  Prior von Stone</persName>, folgende Privilegien und Rechte:</p>
             <p><list>
                   <item>Aufnahme in den apostolischen Schutz samt aller derzeitigen und zukünftigen
                      kirchlichen und weltlichen Güter</item>
@@ -89,7 +95,7 @@
             <p>Schlussformel: Sanctio negativa</p>
          </div>
          <div>
-            <head>Incipit:</head>
+            <head>Incipit</head>
             <diploPart type="incipit" xml:lang="lat">Sacrosancta Romana ecclesia deuotos
                et</diploPart>
          </div>
@@ -100,7 +106,7 @@
                </list></diploPart>
          </div>
          <div>
-            <head>Datatio:</head>
+            <head>Datatio</head>
             <diploPart type="datatio">Dat. Anagnie II kal. iunii. </diploPart>
          </div>
          <div type="msSources">
@@ -110,7 +116,7 @@
                   <bibl type="original">Original: -</bibl>
                   <bibl type="msCopy">Kopie: Chartular von Stone (13. Jh.), London, British Library,
                      Cotton MS Vespasian E XXIV, fol. 17</bibl>
-                  <bibl type="msCopy">Kopie: Transkription von David Casley (1734): in London,
+                  <bibl type="msCopy">Kopie: Transkription von David Casley (1734), London,
                      British Library, Stowe MS 943, fol. 35v</bibl>
                   <bibl type="print">[ggf. Druck]</bibl>
                </listBibl>
@@ -147,7 +153,7 @@
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
                <p>Das Jahr 1175 ist als Austellungsjahr nicht möglich, da sich Alexander III. hier
-                  am 31. Mai in <placeName>Ferentino</placeName> aufhielt. Vgl. JL 12489. ####Fe#####</p>
+                  am 31. Mai in Ferentino aufhielt. Vgl. JL 12489. ####Fe#####</p>
             </diploDesc>
          </div>
          <div type="commentary">

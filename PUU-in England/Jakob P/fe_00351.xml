@@ -13,7 +13,7 @@
                <persName>JP</persName>
             </respStmt>
             <respStmt>
-               <resp when="2024">Encoding:</resp>
+               <resp when="2024">Encoding</resp>
                <persName>JP, IB, FL</persName>
             </respStmt>
          </titleStmt>
@@ -85,7 +85,7 @@
    <text>
       <body>
          <div type="abstract">
-            <head>Abstract:</head>
+            <head>Abstract</head>
             <p>
                <persName>Alexander III.</persName> verleiht aufgrund von Bitten dem <orgName>Kloster
                   St. Oswald</orgName> (D.Lincoln) unter <persName>Abt Walter</persName> ein
@@ -104,7 +104,7 @@
          </div>
 
          <div>
-            <head>Incipit:</head>
+            <head>Incipit</head>
             <diploPart type="incipit" xml:lang="lat">Ad hoc in beati Petri</diploPart>
          </div>
          <div>
@@ -116,7 +116,7 @@
             </diploPart>
          </div>
          <div>
-            <head>Datatio:</head>
+            <head>Datatio</head>
             <diploPart type="datatio">Dat. Anagn. XVIII kal. februarii.</diploPart>
          </div>
          <div type="msSources">
