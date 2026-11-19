@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
-<TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <!-- Ordnername hier ergänzen -->
    <teiHeader>
       <fileDesc>
@@ -35,7 +34,7 @@
                <issued>
                   <placeName>Anagni</placeName>
                   <date type="issued" when="1174-03-14">(1174/1176) Mär. 14</date>
-                  <date type="issued" when="1176-03-14"></date>
+                  <date type="issued" when="1176-03-14"/>
                </issued>
                <p>
                   <legalActor type="recipient">Silvanus, Abt der Zisterzienserabtei
@@ -51,18 +50,8 @@
             </diploDesc>
          </sourceDesc>
       </fileDesc>
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-            xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-            xmlns:as="http://www.w3.org/ns/activitystreams#"
-            xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-            xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
-            xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
-            xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
-            xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
-            xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-            xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-            xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
-      <profileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
          <langUsage>
             <language ident="ger">German</language>
             <language ident="lat">Latin</language>
@@ -74,10 +63,8 @@
       <body>
          <div type="abstract">
             <head>Abstract:</head>
-            <p><legalActor><persName>Alexander III.</persName></legalActor> bestätigt auf deren
-               Bitte <legalActor>Silvanus, Abt der Zisterzienserabtei von Rievaulx</legalActor>
-               (D. York), und den <orgName>Mönchen der Zisterzienserabtei von Rievaulx</orgName> folgende Rechte und
-               Besitzungen:</p>
+            <p><legalActor><persName>Alexander III.</persName></legalActor> gewährt <legalActor>Silvanus, Abt der Zisterzienserabtei von Rievaulx</legalActor>
+               (D. York) und den Mönchen der Zisterzienserabtei von Rievaulx  ein Privileg und gewährt die folgenden Rechte:</p>
             <p><list>
                   <item>die von <persName>Bernhard de Balliol</persName> übereignete
                      Fischerei</item>
