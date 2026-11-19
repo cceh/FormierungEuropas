@@ -62,15 +62,12 @@
          </div>
          <div type="editions">
             <head>Editionen</head>
-            <listBibl>
-               <bibl>PUU England 1, S. 414-415, Nr. 143</bibl>
-               <bibl/>
-            </listBibl>
+            <listBibl/>
          </div>
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>Mason, Westminster, S. 86, Nr. 175</bibl>
+               <bibl>Mason, Reg. Westminster S. 86, Nr. 175</bibl>
                <bibl/>
             </listBibl>
          </div>
