@@ -32,7 +32,7 @@
             
                <p><legalActor type="recipient">(Roger de Pont L'Évêque), Erzbischof von York</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><legalActor type="recipient">(Hugo du Puiset), Bischof von Durham</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p> <legalActor type="recipient">Kleriker der Diözese</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p>
                <p><objectType n="">Anweisung, Beachtung von Recht</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
@@ -49,7 +49,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p><persName>Alexander III.</persName> weist <persName>(Roger de Pont L'Évêque), Erzbischof von York</persName>, und <persName>(Hugo du Puiset), Bischof von Durham</persName>, die Zehntfreiheit des <orgName>Zisterzienserklosters Rievaulx</orgName> (D. York)  sowie anderer Zisterzienserklöster gegen unrechtmäßige Forderungen aufgrund falscher Auslegung päpstlicher Privilegien zu schützen. Ferner legt er fest:Dead<list><item>Falls ein Laie es wagen sollte, unrechtmäßigerweise den Zehnten vom Kloster zu fordern, dann soll er exkommuniziert werden.</item><item>Falls ein Mönch, Kleriker oder Kanoniker es wagen sollte, unrechtmäßigerweise den Zehnten vom Kloster zu fordern, dann soll er  von seinem Amt suspendiert werden. </item><item>Die Bischöfe sollen bis zu einer Wiedergutmachung für die Aufrechterhaltung der Exkommunikation und Suspension sorgen. </item><item>Wer gewaltsam Hand an die Brüder des Klosters legt, soll exkommuniziert werden.</item></list></p>
+            <p><persName>Alexander III.</persName> weist <persName>(Roger de Pont L'Évêque), Erzbischof von York</persName>, und <persName>(Hugo du Puiset), Bischof von Durham</persName>, die Zehntfreiheit des <orgName>Zisterzienserklosters Rievaulx</orgName> (D. York)  sowie anderer Zisterzienserklöster gegen unrechtmäßige Forderungen aufgrund falscher Auslegung päpstlicher Privilegien zu schützen. Ferner legt er fest:<list><item>die Exkommunikation aller Laien und die Suspendierung aller Mönche, Kleriker oder Kanoniker, die unrechtmäßigerweise den Zehnten fordern</item><item>die Aufrechterhaltung der Strafen durch den Bischof bis zur Leistung eines Ausgleichs</item><item>die Exkommunikation aller, die gewaltsam Hand an die Brüder des Klosters legen, bis sie einen Ausgleich geleistet haben und unter Vorlage eines Schreibens des Diözesanbischofs über den wahren Sachverhalt persönlich vor dem Papst erschienen sind</item></list></p>
          </div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat"><diploPart type="incipit" xml:lang="lat">Audiuimus et audientes mirati sumus</diploPart></diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">Dat. Lat. kal. madii</diploPart></div>
