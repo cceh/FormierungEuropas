@@ -29,8 +29,8 @@
                <issued><placeName>Velletri</placeName><date type="issued" when="1180-02-13">1180 Feb. 13</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
-               <p><legalActor type="recipient">Zisterziensterkloster Raitenhaslach</legalActor></p><p><legalActor type="recipient">, Abt des Zisterziensterklosters Raitenhaslach</legalActor></p>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p><legalActor type="recipient">Zisterziensterkloster Raitenhaslach</legalActor></p><p><legalActor type="recipient">Adelbert, Abt des Zisterziensterklosters Raitenhaslach</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
