@@ -19,7 +19,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>Germ.Pont. 1, S. 87, Nr. 1</bibl><bibl type="jaffe">12800</bibl>
+            <bibl>Germ. Pont. 1, S. 87-88, Nr. 1</bibl><bibl type="jaffe">12800</bibl>
             <bibl>[Weiteres Konkordanzregest]</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
@@ -76,30 +76,26 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
+                  <bibl type="original">-</bibl>
                   <bibl type="msCopy">[handschriftliche Kopie]</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
-               <bibl>[Quelle 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="editions">
-            <head>Editionen</head>
-            <listBibl>
-               <bibl>Germ.Pont. 1, S. 87, Nr. 1</bibl>
+            <head>Editionen</head><listBibl>
                <bibl>[Edition 2]</bibl>
             </listBibl>
          </div>
@@ -107,7 +103,7 @@
             <head>Regesten</head>
             <listBibl>
                <bibl>JL 12800</bibl>
-               <bibl>[Regest 2]</bibl>
+               <bibl>Germ. Pont. 1, S. 87-88, Nr. 1</bibl>
             </listBibl>
          </div>
          <div>
