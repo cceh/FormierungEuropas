@@ -24,7 +24,7 @@
 <date type="issued" when="1177-05-01"/>
 <date type="issued" when="1178-05-01"/>
 <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
-               </issued></p>
+               </issued></p><p><legalActor type="issuer">Alexander III.</legalActor></p>
             
                <p><legalActor type="recipient">(Roger de Pont L'Évêque), Erzbischof von York</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><legalActor type="recipient">(Hugo du Puiset), Bischof von Durham</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
