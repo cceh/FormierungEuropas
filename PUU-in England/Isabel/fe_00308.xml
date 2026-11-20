@@ -14,7 +14,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>PUU England 1, S. 346-347, Nr. 86</bibl><bibl type="jaffe">-</bibl>
-            <diploDesc><p><issued><placeName>Anagni</placeName><date type="issued" notBefore="1161-02-07" notAfter="1161-02-07">(1161) Feb. 7</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            <diploDesc><p><div type="other"><authen type="formula" n=""><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div><issued><placeName>Anagni</placeName><date type="issued" notBefore="1161-02-07" notAfter="1161-02-07">(1161) Feb. 7</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Wolter, Sakristan der Benediktinerabtei Westminster</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
@@ -33,11 +33,9 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. bestätigt <persName>Wolter, Sakristan der Benediktienrabtei Westminster</persName>, auf Bitte dessen und des <persName>L(aurentius), Abt von Westminster</persName>, folgende Rechte und Besitzungen:<list><item>die Kirche in Sawbridgeworth, die der Abt Laurentius der Sakristei zur Beschaffung der Altarbeleuchtung zugewiesen hat.</item><item>Perturbationsverbot</item></list>Schlussformel: Sanctio negativa</p>
+            <p>Alexander III. bestätigt <persName>Wolter, Sakristan der Benediktienrabtei Westminster</persName>, auf Bitte dessen und des <persName>L(aurentius), Abt von Westminster</persName>, folgende Rechte und Besitzungen:<list><item>die Kirche in Sawbridgeworth, die der Abt Laurentius der Sakristei zur Beschaffung der Altarbeleuchtung zugewiesen hat.</item><item>Perturbationsverbot</item></list>Schlussformel: Sanctio negativa</p>
          </div>
-         <div type="other"><head>Echtheitskriterien:</head>
-            <authen type="formula" n=""><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustis petentium desideriis facilem nos</diploPart></div>
+                  <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustis petentium desideriis facilem nos</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio"><diploPart type="incipit" xml:lang="lat">Dat. Anagn. VII idus februarii</diploPart></diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung</head>
