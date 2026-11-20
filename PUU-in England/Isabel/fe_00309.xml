@@ -31,7 +31,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p><persName>Alexander III.</persName> bestätigt dem Prior Walter des Hospitaliterordens in England nach dem Vorgang von Innocenz IL, Lucius II., Eugen III. und Hadrian IV. das Haus Holy Cross (bei Winchester).</p>
+            <p><persName>Alexander III.</persName> bestätigt Walter, Prior des Hospitaliterordens in England, nach dem Vorgang von Innocenz IL, Lucius II., Eugen III. und Hadrian IV. das Haus Holy Cross (bei Winchester).</p>
          </div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustis petentium desideriis facilem nos</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">Dat. Terracin. kal. decembris.</diploPart></div>
@@ -72,10 +72,12 @@
                <bibl>Reg. Delaville-Leroulx Gart. gen. de Vordre  de St. Jean IV 245 n. 297his. </bibl>
             </listBibl>
          </div>
-         <div type="commentary">
+         <div>
             <head>Diplomatischer Kommentar</head>
-            <p/>
-            </div>
+            <diploDesc>
+               <p>[ <diploPart/>]</p>
+            </diploDesc>
+         </div>
             <div type="commentary">
             <head>Sachkommentar</head>
             <p>Die erwähnten Urkunden von Innocenz II. und Lucius II. sind n. 19 und 28; diejenigen Eugens III. und Hadrians IV. sind verloren; vgl. aber S. 126. Unser Stück wird in dem Chartular fol. 4 unter den 1372 an den Bischof William of Wykeham abgegebenen Archivalien genannt mit dem Begest: Alexander episcopus et in quarta linea: effectu sunt prosequente.</p>
