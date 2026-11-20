@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia"><!-- Ordnername hier ergänzen für einzelne Sammlungen --><teiHeader>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI source="formierung-europas_pontificia" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><!-- Ordnername hier ergänzen für einzelne Sammlungen --><teiHeader>
       <fileDesc>
          <titleStmt><title>fe_00249</title><respStmt>
                <resp>Datenquelle</resp>
                <persName>NW</persName>
             </respStmt><respStmt>
                <resp when="2026">Encoding</resp>
-               <persName>NW</persName>
+               <persName>NW, JB</persName>
             </respStmt></titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -26,7 +29,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Augustiner-Chorherrenstift Seckau</legalActor></p><p><legalActor type="recipient">Werner, Stiftspropst des Augustiner-Chorherrenstifts Seckau</legalActor></p>
+               <p><legalActor type="recipient">Augustiner-Chorherrenstift Seckau</legalActor></p><p><legalActor type="recipient">Werner, Propst des Augustiner-Chorherrenstifts Seckau</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p><p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
@@ -45,8 +48,8 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName></legalActor> gewährt auf Bitten des <legalActor cert="high" type="recipient" xml:space="default"><persName>Stiftspropsts Werner</persName></legalActor> dem <legalActor cert="high" type="beneficiary" xml:space="default"><orgName>Augustiner-Chorherrenstift Seckau</orgName></legalActor> (D. Graz-Seckau) folgende Rechte:<list>
-                  <item>die Aufnahme in den apostolischen Schutz, wie schon durch <persName>Innozenz II.</persName></item><item>die Bestätigung der Einrichtung der religiosen Gemeinschaft nach der Regel des hl. Augustinus.</item><item>die Bestätigung aller Besitzungen und Güter, die das Stift in der Gegenwart rechtmäßig besitzt beziehungsweise in der Zukunft rechtmäßig erwerben wird, darunter einige namentlich genannte Besitzungen und unter Nennung der jeweiligen Stifter.</item><item>die Befreiung vom Novalzehnten für Eigenbau und für Tierfutter.</item><item>das Recht, Weltgeistliche und Laien aufzunehmen und, sofern niemand Widerspruch einlegt, zu halten.</item><item>das freie Begräbnisrecht.</item><item>die freie Wahl des Stiftspropsts gemäß der Regel des hl. Augustinus.</item>
+            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName></legalActor> gewährt auf Bitten des <legalActor cert="high" type="recipient" xml:space="default"><persName>Propsts Werner</persName></legalActor> dem <legalActor cert="high" type="beneficiary" xml:space="default"><orgName>Augustiner-Chorherrenstift Seckau</orgName></legalActor> (D. Graz-Seckau) folgende Rechte:<list>
+                  <item>die Aufnahme in den apostolischen Schutz, wie schon durch seinen Vorgänger <persName>Papst Innozenz II.</persName></item><item>die Bestätigung der Einrichtung der religiösen Gemeinschaft nach der Regel des hl. Augustinus.</item><item>die Bestätigung aller Besitzungen und Güter, die das Stift in der Gegenwart rechtmäßig besitzt beziehungsweise in der Zukunft rechtmäßig erwerben wird, darunter einige namentlich genannte Besitzungen und unter Nennung der jeweiligen Stifter.</item><item>die Befreiung vom Novalzehnten für Eigenbau und für Tierfutter.</item><item>das Recht, Weltgeistliche und Laien aufzunehmen und, sofern niemand Widerspruch einlegt, zu halten.</item><item>das freie Begräbnisrecht.</item><item>die freie Wahl des Propsts gemäß der Regel des hl. Augustinus.</item>
                   </list></p>
             <p>Ferner legt er fest:<list>
                      <item>das Verbot, nach Ablegung der Profess ohne die Erlaubnis des Priors das Stift zu verlassen, außer bei Übertritt zur strengeren Lebensweise (<diploPart>arcior religio</diploPart>), und untersagt die Aufnahme des Ausscheidenden durch Dritte.</item><item>dass Altar- und Kirchweihen, Ordinationen der Geistlichen und das heilige Öl vom Diözesanbischof zu empfangen sind, sofern dieser in der Gnade des apostolischen Stuhls steht. Andernfalls steht es den Chorherren frei, einen ihnen genehmen Bischof um die Spende der Sakramente zu ersuchen.</item><item>das Perturbationsverbot.</item></list></p>
@@ -57,10 +60,10 @@
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>(R.) Ego Alexander catholice ecclesie episcopus subscripsi. (BV.)</item><item>Ego <persName>Bernardus Portuensis et sancte Ruphine episcopus</persName> subscripsi.</item><item>Ego <persName>Chunradus Moguntine sedis archiepiscopus et Sabinensis episcopus</persName> subscripsi.</item><item>Ego <persName>Oddo Tusculanus episcopus</persName> subscripsi.</item><item>Ego <persName>Johannes presbyter cardinalis sanctorum Johannis  et Pauli tituli Pamachii</persName> subscripsi.</item><item>Ego <persName>Ildebrandus basilicę xii apostolorum presbyter cardinalis</persName> subscripsi.</item><item>Ego <persName>Albertus presbyter cardinalis tituli sancti Laurentii in Lucina</persName> subscripsi.</item><item>Ego <persName>Guilelmus presbyter cardinalis tituli sancti Petri ad Uincula</persName> subscripsi.</item><item>Ego <persName>Boso presbyter cardinalis sancte Pudentiane tituli Pastoris</persName> subscripsi.</item><item>Ego <persName>Petrus presbyter cardinalis tituli sancti Laurentii in Damaso</persName> subscripsi.</item><item>Ego <persName>Jacobus diaconus cardinalis sancte Marie in Cosmydyn</persName> subscripsi.</item><item>Ego <persName>Cinthius diaconus cardinalis sancti Adriani</persName> subscripsi.</item><item>Ego <persName>Manfredus diaconus cardinalis sancti Georgii ad Velum aureum</persName> subscripsi.</item><item>Ego <persName>Hugo diaconus cardinalis sancti Eustachii iuxta templum Agrippe</persName> subscripsi.</item>
+                  <item>(R.) Ego Alexander catholice ecclesie episcopus subscripsi. (BV.)</item><item>Ego <persName>Bernardus Portuensis et sancte Ruphine episcopus</persName> subscripsi.</item><item>Ego <persName>Chunradus Moguntine sedis archiepiscopus et Sabinensis episcopus</persName> subscripsi.</item><item>Ego <persName>Oddo Tusculanus episcopus</persName> subscripsi.</item><item>Ego <persName>Johannes presbyter cardinalis sanctorum Johannis  et Pauli tituli Pamachii</persName> subscripsi.</item><item>Ego <persName>Ildebrandus basilicę xii apostolorum presbyter cardinalis</persName> subscripsi.</item><item>Ego <persName>Albertus presbyter cardinalis tituli sancti Laurentii in Lucina</persName> subscripsi.</item><item>Ego <persName>Guilelmus presbyter cardinalis tituli sancti Petri ad Vincula</persName> subscripsi.</item><item>Ego <persName>Boso presbyter cardinalis sancte Pudentiane tituli Pastoris</persName> subscripsi.</item><item>Ego <persName>Petrus presbyter cardinalis tituli sancti Laurentii in Damaso</persName> subscripsi.</item><item>Ego <persName>Jacobus diaconus cardinalis sancte Marie in Cosmydyn</persName> subscripsi.</item><item>Ego <persName>Cinthius diaconus cardinalis sancti Adriani</persName> subscripsi.</item><item>Ego <persName>Manfredus diaconus cardinalis sancti Georgii ad Velum aureum</persName> subscripsi.</item><item>Ego <persName>Hugo diaconus cardinalis sancti Eustachii iuxta templum Agrippe</persName> subscripsi.</item>
                </list></diploPart>
          </div>
-         <div><head>Datatio</head><diploPart type="subscriptio" xml:lang="lat">Datum Tusculani per manum <legalActor cert="high" type="notary" xml:space="default"><persName>Gratiani sancte Romane ecclesie subdiaconi et notarii</persName></legalActor>, IIII. idus Februarii, indictione IIII., incarnationis dominice anno M.C.LXXX, pontificatus uero domini Alexandri pape iii. anno duodecimo.</diploPart></div>
+         <div><head>Datatio</head><diploPart type="subscriptio" xml:lang="lat">Datum Tusculani per manum <legalActor cert="high" type="notary" xml:space="default"><persName>Gratiani sancte Romane ecclesie subdiaconi et notarii</persName></legalActor>, IIII. idus Februarii, indictione IIII., incarnationis dominice anno M.C.LXX, pontificatus uero domini Alexandri pape III. anno duodecimo.</diploPart></div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
@@ -87,7 +90,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>UB Steiermark 1, S. 501-505, Nr. 540</bibl><bibl>Diplomataria Styriae 1, ed. Pusch/Fröhlich, S. 157-158, Nr. 18 (gekürzt)</bibl>
+               <bibl>UB Steiermark 1, S. 501-505, Nr. 540</bibl><bibl>Diplomataria Styriae 1, ed. Pusch/Fröhlich, S. 157-158, Nr. 18 (gekürzt)</bibl><bibl>Migne PL 200, Sp. 717-718, Nr. 782 (gekürzt)</bibl>
             </listBibl>
          </div>
          <div type="regesta">
@@ -100,12 +103,12 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Die Datierung ist nicht stimmig. Das Inkarnationsjahr 1170 und das 12. Pontifikatsjahr Alexanders III. differieren um ein Jahr. Die Indiktion legt das Jahr 1171 nahe.</p><p>Rota vorhanden; Inschrift: <diploPart cert="high" type="rota" xml:space="default">S(an)c(tu)s PETRUS | S(an)c(tu)s PAULUS | ALEXA | NDER | p(a)p(a) | III</diploPart>; Devise: <diploPart cert="high" type="rota" xml:space="default">Vias tuas domine demonstra michi</diploPart>.</p><p>Bulle abgerissen, rote und gelbe Seidenfäden zum Teil erhalten; Avers-Seite: <diploPart>ALEX | ANDER | P(A)P(A) III</diploPart>; Revers-Seite: <diploPart>S(ANCTUS) P(AULUS) S(ANCTUS) PE(TRUS)</diploPart>, samt Porträts der Apostelfürsten.</p>
+               <p>Das Original gibt die Datierung mit dem Jahr 1170, 4. Indiktion, 10. Februar, zwölftes Pontifikatsjahr Alexanders III. an. Jaffé-Löwenfeld korrigiert die Jahreszahl ohne weitere Erklärung auf das Jahr 1171 (vgl. auch <bibl>Germ. Pont. 1, S. 100, Nr. 2</bibl>). Aufgrund des in der päpstlichen Kanzlei verwendeten Annunziationsstil (25.3.) für den Jahresanfang muss die Jahresangabe um einen Zähler auf das Jahr 1171 erhöht werden. Dies passt auch zur angegebenen 4. Indiktion und dem zwölften Pontifikatsjahrs Alexanders III.</p><p>Rota vorhanden; Inschrift: <diploPart cert="high" type="rota" xml:space="default">S(an)c(tu)s PETRUS | S(an)c(tu)s PAULUS | ALEXA | NDER | p(a)p(a) | III</diploPart>; Devise: <diploPart cert="high" type="rota" xml:space="default">Vias tuas domine demonstra michi</diploPart>.</p><p>Bulle abgerissen, rote und gelbe Seidenfäden zum Teil erhalten; Avers-Seite: <diploPart>ALEX | ANDER | P(A)P(A) III</diploPart>; Revers-Seite: <diploPart>S(ANCTUS) P(AULUS) S(ANCTUS) PE(TRUS)</diploPart>, samt Porträts der Apostelfürsten.</p>
             </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Bei der vorliegenden Urkunde handelt es sich um eine Nachurkunde des Privilegs Innozenz II. von 1143 (vgl. <bibl>Germ. Pont. 1, S. 100, Nr. 1</bibl>). Aus dem Urkundentext geht eindeutig hervor, dass es sich bei dem Empfänger des feierlichen Priviliegs um ein Augustiner-Chorherrenstift handeln muss, auch wenn in der bisherigen Forschung, etwa auch in der maßgeblichen Edition der Urkunde (vgl. <bibl>UB Steiermark 1, S. 501-505, Nr. 540</bibl>), häufig vom Kloster Seckau die Rede gewesen ist. Rainer Murauer, der sich im Rahmen seines Beitrags zum Papsttum und der Erzdiözese Salzburg im Hochmittelalter mit der päpstlichen Urkundentätigkeit ebendort auseinandergesetzt hat, hat die vorliegende Privilegierung in den Kontext weiterer Privilegierungen verschiedener Augustiner-Chorherrenstifte eingeordnet (vgl. <bibl>Murauer, Erzbistum Salzburg, S. 407-410</bibl>).</p>
+            <p>Bei der vorliegenden Urkunde handelt es sich um eine Nachurkunde des Privilegs Innozenz II. von 1143 (vgl. <bibl>Germ. Pont. 1, S. 100, Nr. 1; JL 8349</bibl>). Aus dem Urkundentext geht eindeutig hervor, dass es sich bei dem Empfänger des feierlichen Priviliegs um ein Augustiner-Chorherrenstift handeln muss, auch wenn in der bisherigen Forschung, etwa auch in der maßgeblichen Edition der Urkunde (vgl. <bibl>UB Steiermark 1, S. 501-505, Nr. 540</bibl>), häufig vom Kloster Seckau die Rede gewesen ist. Rainer Murauer, der sich im Rahmen seines Beitrags zum Papsttum und der Erzdiözese Salzburg im Hochmittelalter mit der päpstlichen Urkundentätigkeit ebendort auseinandergesetzt hat, hat die vorliegende Privilegierung in den Kontext weiterer Privilegierungen verschiedener Augustiner-Chorherrenstifte eingeordnet (vgl. <bibl>Murauer, Erzbistum Salzburg, S. 407-410</bibl>).</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>

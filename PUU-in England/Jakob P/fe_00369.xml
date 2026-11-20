@@ -7,7 +7,7 @@
                <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
                <persName>JP</persName>
             </respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>JP, IB</persName></respStmt>
+           <respStmt><resp when="2024">Encoding</resp><persName>JP, IB, CH</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -39,21 +39,21 @@
    </teiHeader>
    <text>
       <body>
-         <div type="abstract"><head>Abstract:</head>
-            <p><persName>Alexander III.</persName> verleiht der <orgName>Benediktinerabtei Westminster</orgName> (D. London) unter <persName>Laurentius, Abt von Westminster,</persName> ein Privileg und gewährt die folgenden Rechte:  </p><p><list> <item>Aufnahme in den apostolischen Schutz</item><item>Bestätigung der Einrichtung der religiosen Gemeinschaft nach der Regel des hl. Benedikt</item><item>Bestätigung aller derzeitigen und künftigen Besitzungen und Güter jedweder Herkunft</item><item>den Empfang des heiligen Öls vom Diozesanbischof, wenn dieser in der Gnade des apostolischen Stuhls stehe; andernfalls von einem ihnen genehmen Bischof</item><item>den Empfang der Ordinationen von einem beliebigen Bischof ihrer Wahl </item><item>den Empfang der Weihen der kleineren Altäre von einem beliebigen Bischof ihrer Wahl unter Verweis auf die bereits durch seine Vorgänger erfolgte Aufnahme in den apostolischen Schutz und die Exemtion insbesondere von der Gerichtsbarkeit des Londoner Bischofs</item><item>Perturbationsverbot</item></list>Schlussformeln: Sanctio negativa und positiva.</p>
+         <div type="abstract"><head>Abstract</head>
+            <p><persName>Alexander III.</persName> verleiht der <orgName>Benediktinerabtei Westminster</orgName> (D. London) unter <persName>Laurentius, Abt von Westminster</persName>, ein Privileg und gewährt die folgenden Rechte:  </p><p><list> <item>Aufnahme in den apostolischen Schutz</item><item>Bestätigung der Einrichtung der religiosen Gemeinschaft nach der Regel des hl. Benedikt</item><item>Bestätigung aller derzeitigen und künftigen Besitzungen und Güter jedweder Herkunft</item><item>den Empfang des heiligen Öls vom Diozesanbischof, wenn dieser in der Gnade des apostolischen Stuhls stehe; andernfalls von einem ihnen genehmen Bischof</item><item>den Empfang der Ordinationen von einem beliebigen Bischof ihrer Wahl </item><item>den Empfang der Weihen der kleineren Altäre von einem beliebigen Bischof ihrer Wahl unter Verweis auf die bereits durch seine Vorgänger erfolgte Aufnahme in den apostolischen Schutz und die Exemtion insbesondere von der Gerichtsbarkeit des Londoner Bischofs</item><item>Perturbationsverbot</item></list>Schlussformeln: Sanctio negativa und positiva.</p>
          </div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Quotiens illud a nobis petitur</diploPart></div>
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Quotiens illud a nobis petitur</diploPart></div>
          <div>
             <head> Subscriptiones </head>
             <diploPart type="subscriptio" xml:lang="lat"><list><item>Ego <persName>Alexander catholice ecclesie episcopus</persName> ss.</item><item><diploPart type="subscriptio" xml:lang="lat"><diploPart type="subscriptio" xml:lang="lat"/></diploPart><diploPart type="subscriptio" xml:lang="lat"><diploPart type="subscriptio" xml:lang="lat"/></diploPart>Ego <persName>Hubaldus Hostiensis episcopus</persName> ss.</item><item><diploPart type="subscriptio" xml:lang="lat"><diploPart type="subscriptio" xml:lang="lat"/></diploPart>Ego <persName>Bernardus Portuensis et sancte Rufine episcopus</persName> ss.</item><item><diploPart type="subscriptio" xml:lang="lat"><diploPart type="subscriptio" xml:lang="lat"/></diploPart>Ego <persName>Iohannes presb. card. sanctorum Iohannis et Pauli tit. Pamachii</persName> ss.</item><item><diploPart type="subscriptio" xml:lang="lat"><diploPart type="subscriptio" xml:lang="lat"/></diploPart>Ego <persName>Iohannes presb. card. tit. sancte Anastasie</persName> ss.</item><item><diploPart type="subscriptio" xml:lang="lat"><diploPart type="subscriptio" xml:lang="lat"/></diploPart>Ego <persName>Guillelmus presb. card. tit. sancti Petri ad uincula</persName> ss.</item><item><diploPart type="subscriptio" xml:lang="lat"><diploPart type="subscriptio" xml:lang="lat"/></diploPart>Ego <persName>Petrus presb. card. tit. sancti Laurentii in Damaso</persName> ss.</item><item><diploPart type="subscriptio" xml:lang="lat"><diploPart type="subscriptio" xml:lang="lat">E</diploPart></diploPart>go <persName>Iohannes presb. card. tit. sancti Marci</persName> ss.</item><item><diploPart type="subscriptio" xml:lang="lat"><diploPart type="subscriptio" xml:lang="lat"/></diploPart>Ego <persName>Ardicio diac. card. sancti Theodori</persName> ss.</item><item><diploPart type="subscriptio" xml:lang="lat"><diploPart type="subscriptio" xml:lang="lat"/></diploPart>Ego <persName>Cinthius diac. card. sancti Adriani</persName> ss.</item><item><diploPart type="subscriptio" xml:lang="lat"><diploPart type="subscriptio" xml:lang="lat"/></diploPart>Ego <persName>Vitellius diac. card. sanctorum Sergii et Bachi</persName> ss.</item><item><diploPart type="subscriptio" xml:lang="lat"><diploPart type="subscriptio" xml:lang="lat"/></diploPart>Ego <persName>Petrus de Bono diac. card. sancte Marie in Aquiro</persName> ss.</item></list></diploPart>
          </div>
-         <div><head>Datatio:</head><diploPart type="datatio">Dat. Tusculan. per manum <persName>Graciani sancte Romane ecclesie subdiaconi et notarii</persName>, III. non. decembris, indictione V, incarnationis dominice anno M C LXX I, pontificatus uero domni Alexandri pape tertii anno XIII.</diploPart></div>
+         <div><head>Datatio</head><diploPart type="datatio">Dat. Tusculan. per manum <persName>Graciani sancte Romane ecclesie subdiaconi et notarii</persName>, III. non. decembris, indictione V, incarnationis dominice anno M C LXX I, pontificatus uero domni Alexandri pape tertii anno XIII.</diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl>Original: -</bibl>
-               <bibl>Kopie: Westminster Abbey Domesday (Anfang 14. Jh.), London, Westminster Abbey, Muniment Book 11, fol. 7r–v</bibl><bibl>Kopie: London, Westminster Abbey, Muniment Book 12, fol. 1</bibl><bibl>Kopie: Chartulare von Westminster (14. Jh.), London, British Library, Cotton MS Faustina A III, fol. 168v–169v</bibl><bibl>Kopie: (15. Jh.), London, British Library, Cotton MS Titus  A VIII, fol. 47r–v </bibl>
+               <bibl type="original">Original: -</bibl>
+               <bibl type="msCopy">Kopie: Westminster Abbey Domesday (Anfang 14. Jh.), London, Westminster Abbey, Muniment Book 11, fol. 7r–v</bibl><bibl type="msCopy">Kopie: London, Westminster Abbey, Muniment Book 12, fol. 1</bibl><bibl type="msCopy">Kopie: Chartulare von Westminster (14. Jh.), London, British Library, Cotton MS Faustina A III, fol. 168v–169v</bibl><bibl type="msCopy">Kopie: (15. Jh.), London, British Library, Cotton MS Titus  A VIII, fol. 47r–v</bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>
@@ -93,7 +93,7 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Bereits Papst Innozenz II. hatte die Abtei Westminster unter den apostolischen Schutz genommen (vgl. <bibl>PUU England 1, Nr. 17, S. 241-242</bibl> u. <bibl>Mason, Reg. Westminster S. 85</bibl>).</p>
+            <p>Bereits Papst <persName>Innozenz II.</persName> hatte die Abtei Westminster unter den apostolischen Schutz genommen (vgl. <bibl>PUU England 1, Nr. 17, S. 241-242</bibl> u. <bibl>Mason, Reg. Westminster S. 85</bibl>).</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>

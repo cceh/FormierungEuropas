@@ -1,10 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI source="formierung-europas_pontificia" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>fe_00250</title><respStmt><resp>Datenquelle</resp><persName>NW</persName></respStmt>
-            <respStmt><resp when="2026">Encoding</resp><persName>NW</persName></respStmt>
+            <respStmt><resp when="2026">Encoding</resp><persName>NW, JB</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -46,7 +49,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName></legalActor> verweigert der Wahl <persName>Werners</persName> zum Abt des <legalActor cert="high" type="recipient" xml:space="default"><orgName>Benediktinerklosters Admont</orgName></legalActor> (D. Graz-Seckau) seine Bestätigung, um die er ersucht worden ist. Werner ist zuvor Abt des <orgName>Benediktinerklosters St. Lambrecht</orgName> (D. Graz-Seckau) gewesen ist und nun auf das Betreiben <persName>Romans II., des Bischofs von Gurk,</persName> zum Abt von Admont gewählt worden. Alexander verweist stattdessen auf die Zuständigkeit des Salzburger Erzbischofs, in dessen Erzdiözese beide Klöster liegen.</p>
+            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName></legalActor> verweigert der Wahl <persName>Werners</persName> zum Abt des <legalActor cert="high" type="recipient" xml:space="default"><orgName>Benediktinerklosters Admont</orgName></legalActor> (D. Graz-Seckau) seine Bestätigung, um die er ersucht worden ist. Werner war zuvor Abt des <orgName>Benediktinerklosters St. Lambrecht</orgName> (D. Graz-Seckau) und wurde nun auf das Betreiben <persName>Romans II., des Bischofs von Gurk,</persName> zum Abt von Admont gewählt. Alexander verweist stattdessen auf die Zuständigkeit des Salzburger Erzbischofs, in dessen Erzdiözese beide Klöster liegen.</p>
          </div>
 
          <div>
@@ -65,7 +68,7 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">-</bibl>
+                  <bibl type="original">Deperditum, erwähnt in Gesta Archiepiscoporum Salisburgensium (MGH SS 11), S. 48, cap. 28</bibl>
                   <bibl type="msCopy">-</bibl>
                   <bibl type="print">-</bibl>
                </listBibl>
@@ -79,7 +82,7 @@
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
-            <listBibl><bibl>Gesta Archiepiscoporum Salisburgensium (MGH SS 11), cap. 28, S. 48</bibl></listBibl>
+            <listBibl><bibl>Gesta Archiepiscoporum Salisburgensium (MGH SS 11), S. 48, cap. 28</bibl></listBibl>
          </div>
          <div type="editions">
             <head>Editionen</head>
@@ -96,7 +99,7 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Das Deperditum basiert auf der Erwähnung eines schriftlichen Ersuchens des Benediktinerklosters St. Lambrecht an Alexander III. um die Bestätigung der Wahl des neuen Abts in der Historiographie (vgl. <bibl>Gesta Archiepiscoporum Salisburgensium (MGH SS 11), cap. 28, S. 48</bibl>: <diploPart>missus est nuncius cum litteris supplicatoriis congregationis ad apostolicum Alexandrum qui tunc Venetiae [...] morabatur</diploPart>). Die Datierung auf das Jahr 1177 basiert auf dem Itinerar Alexanders III. (vgl. <bibl>JL 12836-12956</bibl>).</p>
+               <p>Das Deperditum basiert auf der Erwähnung eines schriftlichen Ersuchens des Benediktinerklosters St. Lambrecht an Alexander III. um die Bestätigung der Wahl des neuen Abts in der Historiographie (vgl. <bibl>Gesta Archiepiscoporum Salisburgensium (MGH SS 11), S. 48, cap. 28</bibl>: <diploPart>missus est nuncius cum litteris supplicatoriis congregationis ad apostolicum Alexandrum qui tunc Venetiae [...] morabatur</diploPart>). Die Datierung auf das Jahr 1177 basiert auf dem Itinerar Alexanders III. (vgl. <bibl>JL 12836-12956</bibl>).</p>
             </diploDesc>
          </div>
          <div type="commentary">

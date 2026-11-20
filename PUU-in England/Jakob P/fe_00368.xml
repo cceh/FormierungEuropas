@@ -7,7 +7,7 @@
                <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
                <persName>JP</persName>
             </respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>JP, IB</persName></respStmt>
+           <respStmt><resp when="2024">Encoding</resp><persName>JP, IB, CH</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -42,17 +42,17 @@
    </teiHeader>
    <text>
       <body>
-         <div type="abstract"><head>Abstract:</head>
+         <div type="abstract"><head>Abstract</head>
             <p>Alexander III. verleiht dem <orgName>Benediktinerpriorat Walden</orgName> (D. London) ein Privileg und gewährt die folgenden Rechte: <list><item>Aufnahme in den apostolischen Schutz mit allen derzeitigen und zukünftigen Besitzungen</item><item>Bestätigung der namentlich genannten Kirchen und Besitzungen</item><item>Zehntfreiheit für Neubrüche bei Eigenbau und für Tierfutter</item><item>Perturbationsverbot</item></list>Schlussformeln: Sanctio negativa</p>
          </div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Petitiones filiorum ecclesie que rationi</diploPart></div>
-         <div><head>Datatio:</head><diploPart type="datatio">Dat. Beneuent. III kal. ianuarii. </diploPart></div>
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Petitiones filiorum ecclesie que rationi</diploPart></div>
+         <div><head>Datatio</head><diploPart type="datatio">Dat. Beneuent. III kal. ianuarii. </diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl>Original: -</bibl>
-               <bibl>Kopie: Chartular von Walden (a. 1387), London, British Library, Harley MS 3697, fol. 69v, Nr. II</bibl><bibl>Kopie: Transkript von Robert Glover (1577) in London, British Library, Egerton MS 3789, fol. 49v–55r </bibl>
+               <bibl type="original">Original: -</bibl>
+               <bibl type="msCopy">Kopie: Chartular von Walden (a. 1387), London, British Library, Harley MS 3697, fol. 69v, Nr. II</bibl><bibl type="msCopy">Kopie: Transkript von Robert Glover (1577) in London, British Library, Egerton MS 3789, fol. 49v–55r </bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>
@@ -92,7 +92,7 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Die vorliegende Urkunde wiederholt ein Privileg von Papst Eugen III. (vgl. <bibl>PUU England 1, S. 375 u. S. 279-281, Nr. 43</bibl>).</p>
+            <p>Die vorliegende Urkunde wiederholt ein Privileg von Papst <persName>Eugen III.</persName> (vgl. <bibl>PUU England 1, S. 375 u. S. 279-281, Nr. 43</bibl>).</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>

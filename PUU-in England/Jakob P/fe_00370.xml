@@ -8,7 +8,7 @@
                <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
                <persName>JP</persName>
             </respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>JP, IB</persName></respStmt>
+           <respStmt><resp when="2024">Encoding</resp><persName>JP, IB, CH</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -40,23 +40,23 @@
    </teiHeader>
    <text>
       <body>
-         <div type="abstract"><head>Abstract:</head>
+         <div type="abstract"><head>Abstract</head>
             <p><persName>Alexander III.</persName> verleiht der <orgName>Augustinerabtei Haughmond</orgName> (D. Coventry-Lichfield) unter <persName>Alfred, Abt von Haughmond</persName>, ein Privileg und gewährt die folgenden Rechte:
             <list><item>Aufnahme der Abtei in den apostolischen Schutz</item><item>Bestätigung der Einrichtung der religiosen Gemeinschaft nach der Regel des hl. Augustinus</item><item>Bestätigung aller derzeitigen und zukünftigen Besitzungen und Güter jedweder Herkunft, darunter einige namentlich und im Umfang genannte Besitzungen unter Angabe der jeweils namentlich genannten Stifter</item><item>Zehntfreiheit für Neubrüche bei Eigenbau und für Tierfutter</item><item>Bestätigung der von Bischöfen, Königen und Fürsten gewährten Freiheiten und Immunitäten </item><item>das freie Begräbnisrecht</item><item>die freie Wahl des Abtes nach der Regel des hl. Augustinus</item></list>Ferner legt er fest: <list><item>dass niemand Brüder der Abtei nach Ablegung ihrer Profess ohne schriftliche Erlaubnis aufnehmen darf, außer bei Übertritt zur strengeren Lebensweise (<diploPart>artior religio</diploPart>)</item><item>dass weder weltliche noch geistliche Personen von der in der Urkunde genannten Kirche oder den ihr unterstellten Orten neue und rechtswidrige Abgaben fordern oder ihnen unrechtmäßige Belastungen auferlegen dürfen</item><item>Perturbationsverbot</item></list>Schlussformeln: Sanctio negativa und positiva</p>
          </div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Quotiens illud a nobis petitur</diploPart></div>
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Quotiens illud a nobis petitur</diploPart></div>
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
                   <item>-</item></list></diploPart>
          </div>
-         <div><head>Datatio:</head><diploPart type="datatio">Dat. Tusculan. per manum <persName>Graciani sancte Romane ecclesie subdiaconi et notarii</persName>, II idus maii, indictione V, incarnationis dominice anno M. C. LXXII, pontificatus uero domni Alexandri pape III anno tertio decimo.</diploPart></div>
+         <div><head>Datatio</head><diploPart type="datatio">Dat. Tusculan. per manum <persName>Graciani sancte Romane ecclesie subdiaconi et notarii</persName>, II idus maii, indictione V, incarnationis dominice anno M. C. LXXII, pontificatus uero domni Alexandri pape III anno tertio decimo.</diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl>Original: -</bibl>
-               <bibl>Kopie: Registrum abbatiarum de Lichfield (13. Jh.), London, British Library, Harley MS 3868, fol. 11</bibl>
+               <bibl type="original">Original: -</bibl>
+               <bibl type="msCopy">Kopie: Registrum abbatiarum de Lichfield (13. Jh.), London, British Library, Harley MS 3868, fol. 11</bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>
@@ -94,7 +94,7 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Zu den Besitzungen der Abtei vgl. <bibl>Chart. Haughmond, S. 5-15</bibl> und <bibl>Nichols, Collectanea 1, S. 362-374</bibl>. Die Nr. 441 des<bibl> Chart. Haughmond</bibl> bietet lediglich eine Auflistung verschiedener von Päpsten gewährter Rechte, darunter auch die der vorliegenden Urkunde. </p>
+            <p>Zu den Besitzungen der Abtei vgl. <bibl>Chart. Haughmond, S. 5-15</bibl> und <bibl>Nichols, Collectanea 1, S. 362-374</bibl>. Die Nr. 441 des <bibl>Chart. Haughmond</bibl> bietet lediglich eine Auflistung verschiedener von Päpsten gewährter Rechte, darunter auch die der vorliegenden Urkunde.</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>

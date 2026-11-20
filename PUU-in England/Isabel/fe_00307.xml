@@ -3,7 +3,7 @@
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
 <TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen -->
    <teiHeader>
-      <fileDesc><titleStmt><title>fe_00xxx</title><respStmt><resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp><persName>IB</persName></respStmt><respStmt><resp when="2024">Encoding:</resp><persName>IB</persName></respStmt></titleStmt>
+      <fileDesc><titleStmt><title>fe_00307</title><respStmt><resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp><persName>IB</persName></respStmt><respStmt><resp when="2024">Encoding:</resp><persName>IB</persName></respStmt></titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
             <idno>PUU England 1, S. 345-346, Nr. 85</idno><availability>
@@ -12,11 +12,11 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>PUU England 1, S. 345-346, Nr. 85</bibl><bibl type="jaffe">-</bibl>
-            <diploDesc><p><issued><placeName>Anagni</placeName><date type="issued" when="1161-02-07">(1161) Feb. 7</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            <diploDesc><p><authen type="formula" n=""><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen><issued><placeName>Anagni</placeName><date type="issued" when="1161-02-07">(1161) Feb. 7</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Roger, Infirmarius von Westminster</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <p><legalActor type="recipient">Roger, Infirmarius der Benediktinerabtei Westminster</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p><p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
@@ -31,18 +31,18 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. bestätigt dem Infirmarius Boger von Westminster auf Bitten des Abts L(aurentius) den Besitz der Kirchen in Battersea und Wandsworth, die der Abt der Infirmarie zur Nutznießung zugewiesen hat.</p>
-         </div>
-         <div type="other"><head>Echtheitskriterien:</head>
-            <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
-         <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
+            <p>Alexander III. bestätigt auf Bitten des <persName>L(aurentius), Abt der Benediktinerabtei Westminster</persName>, <persName>Roger, dem Infirmarius der Abtei</persName>, folgende Rechte und Besitzungenen:</p><list>
+		<item>die Kirchen in <placeName>Battersea</placeName> und <placeName>Wandsworth</placeName>, die Abt Laurentius der Infirmarie zur Nutznießung zugewiesen hat</item><item>das Perturbationsverbot</item>
+		</list><p/><p>Schlussformel: Sanctio negativa.</p>
+		         </div>
+                 <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustis petentium desideriis facilem nos</diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">Dat. Anagn. VII Idus februarii</diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
                <bibl>[Original]</bibl>
-               <bibl>Westminster Domesday er. a. 1308, Westminster Abbey Muniment  books vol. 11 fol. 570' [=  C];  Chartular von Westminster s. XIV,  Brit. Mus. Gott. Faustina A III fol. 200 /= DJ. </bibl>
+               <bibl>Kopie: Westminster Abbey Domesday (14. Jh.), London, Westminster Abbey, Muniment Book 11, fol. 570v</bibl><bibl>Kopie: Chartular von Westminster Abbey (14. Jh.), London, British Library, Cotton MS Faustina A III, fol. 200</bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>
@@ -63,7 +63,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>[Edition 1]</bibl>
+               <bibl>PUU England 1, S. 345-346, Nr. 85</bibl>
                <bibl>[Edition 2]</bibl>
             </listBibl>
          </div>
@@ -73,6 +73,10 @@
                <bibl>[Regest 1]</bibl>
                <bibl>[Regest 2]</bibl>
             </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc><p/></diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
@@ -87,7 +91,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+            <p>[</p><p/><p>Nach Endkorrektur löschen:</p><p/><p>Alexander episcopus seruus seruorum Dei. Dilecto filio Rogerioinfirmario Westm(onasterii) salutem et apostolicam benedictionem.Iustis petentium desideriis facilem nos conuenit impertiri consen-sum et uota, que a rationis tramite non discordant, effectu suntprosequente complenda. Eapropter, dilecte in domino fili, tam tuisquam L. abbatis tui petitionibus annuentes ecclesiam de Patriceseiaet ecclesiam de Wendelesorda cum pertinentiis suis, quas predictusL. abbas domui infirmorum fratrum ad communes usus eorum con-cessisse dinoscitur, tibi et per te eidem domui auctoritate aposto-lica confirmamus et presentis scripti patrocinio communimus. Sta-tuentes, ut nulli omnino etc. Si quis autem etc. Dat. Anagn. VII idus februarii</p><p/><p>Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
          </div>
       </body>
    </text>

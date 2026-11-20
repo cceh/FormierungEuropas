@@ -1,8 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI source="formierung-europas_pontificia" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc><titleStmt><title>fe_00251</title><respStmt><resp>Datenquelle</resp><persName>NW</persName></respStmt>
-            <respStmt><resp when="2026">Encoding</resp><persName>NW</persName></respStmt>
+            <respStmt><resp when="2026">Encoding</resp><persName>NW, JB</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -45,7 +48,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName></legalActor> gewährt auf Bitten des <legalActor cert="high" type="recipient" xml:space="default"><persName>Abts Werner</persName></legalActor> dem <legalActor cert="high" type="beneficiary" xml:space="default"><orgName>Benediktinerkloster St. Lambrecht</orgName></legalActor> (D. Graz-Seckau) folgende Rechte:<list>
+            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName></legalActor> gewährt auf Bitten des <legalActor cert="high" type="recipient" xml:space="default"><persName>Abts Werner</persName></legalActor> dem <legalActor cert="high" type="beneficiary" xml:space="default"><orgName>Benediktinerkloster St. Lambrecht</orgName></legalActor> (D. Graz-Seckau) nach dem Vorbild seiner Vorgänger <persName>Paschalis II.</persName>, <persName>Honorius II.</persName> und <persName>Eugen III.</persName> folgende Rechte:<list>
                   <item>die Aufnahme in den apostolischen Schutz.</item><item>die Bestätigung aller Besitzungen und Güter, die das Kloster in der Gegenwart besitzt beziehungsweise in der Zukunft rechtmäßig erwerben wird, darunter einige namentlich genannte Besitzungen und unter Nennung der jeweiligen Stifter.</item><item>das freie Begräbnisrecht.</item><item>die freie Wahl des Abts gemäß der Regel des hl. Benedikt. Es obliegt dem Papst, den Elekten zu bestätigen.</item></list></p>
             <p>Ferner legt er fest:<list><item>dass Altar- und Kirchweihen und das heilige Öl vom Erzbischof von Salzburg zu empfangen sind, sofern dieser in der Gnade des apostolischen Stuhls steht. Andernfalls steht es den Mönchen frei, einen ihnen genehmen Bischof um die Spende der Sakramente zu ersuchen.</item><item>dass weder der Erzbischof von Salzburg noch der Abt des Klosters die Güter des Klosters ohne die Zustimmung der leitenden Brüder (<diploPart>meliores fratres</diploPart>) anderen als Lehen auftragen oder sie anderweitig entfremden dürfen.</item><item>das Perturbationsverbot.</item></list></p>
             <p>Schlussformeln: Sanctio negativa und positiva.</p>
@@ -55,10 +58,10 @@
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>(R.) Ego Alexander catholice ecclesie episcopus subscripsi. (BV.)</item><item>Ego <persName>Hvbaldus Hostienstis episcopus</persName> subscripsi.</item><item>Ego <persName>Johannes presbiter cardinalis sanctorum Johannis et Pauli tituli Pimachii</persName> subscripsi.</item><item>Ego <persName>Theodinus presbiter cardinalis sancti Vitalis tituli Vestine</persName> subscripsi.</item><item>Ego <persName>Petrus presbiter cardinalis tituli sancte Susanne</persName> subscripsi.</item><item>Ego <persName>Uuaarus presbiter cardinalis tituli sancti Stephani in Celiomonte</persName> subscripsi.</item><item>Ego <persName>Jacobus diaconus cardinalis sancte Marie in Cosmidyn</persName> subscripsi.</item><item>Ego <persName>Gratianus diaconus cardinalis sanctorum Cosme et Damiani</persName> subscripsi.</item><item>Ego <persName>Mathias diaconus cardinalis sancte Marie Noue</persName> subscripsi.</item>
+                  <item>(R.) Ego Alexander catholice ecclesie episcopus subscripsi. (BV.)</item><item>Ego <persName>Hvbaldus Hostienstis episcopus</persName> subscripsi.</item><item>Ego <persName>Johannes presbiter cardinalis sanctorum Johannis et Pauli tituli Pamachii</persName> subscripsi.</item><item>Ego <persName>Theodinus presbiter cardinalis sancti Vitalis tituli Vestine</persName> subscripsi.</item><item>Ego <persName>Petrus presbiter cardinalis tituli sancte Susanne</persName> subscripsi.</item><item>Ego <persName>Vivianus presbiter cardinalis tituli sancti Stephani in Celiomonte</persName> subscripsi.</item><item>Ego <persName>Jacobus diaconus cardinalis sancte Marie in Cosmidyn</persName> subscripsi.</item><item>Ego <persName>Gratianus diaconus cardinalis sanctorum Cosme et Damiani</persName> subscripsi.</item><item>Ego <persName>Mathias diaconus cardinalis sancte Marie Nove</persName> subscripsi.</item>
                </list></diploPart>
          </div>
-         <div><head>Datatio</head><diploPart type="datatio">Datum Laterani per manum <legalActor cert="high" type="notary" xml:space="default"><persName>Alberti sancte Romane ecclesie presbiteri cardinalis et cancellarii</persName></legalActor> V. kal. Apriles, indictione XII., incarnationis dominice anno M.C.LXXX.VIII., pontificatus uero domini Alexandri pape iii. anno XX.</diploPart></div>
+         <div><head>Datatio</head><diploPart type="datatio">Datum Laterani per manum <legalActor cert="high" type="notary" xml:space="default"><persName>Alberti sancte Romane ecclesie presbiteri cardinalis et cancellarii</persName></legalActor> V. kal. Aprilis, indictione XII., incarnationis dominice anno M.C.LXX.VIII., pontificatus uero domini Alexandri pape III., anno XX.</diploPart></div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
@@ -100,12 +103,12 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Rota; Inschrift: <diploPart cert="high" type="rota" xml:space="default">S(an)c(tu)s PETRUS | S(an)c(tu)s PAULUS | ALEXA | NDER p(a)p(a) III.</diploPart>; Devise fehlt.</p><p>Bulle an gelben und roten Seidenfäden; Avers-Seite: <diploPart>ALEX | ANDER | P(A)P(A) III.</diploPart>; Revers-Seite: <diploPart>S(anctus) PA(ULUS) S(anctus) PE(TRUS)</diploPart>, samt Portäts der Apostelfürsten.</p>
+               <p>Die Indiktion ist einen Zähler zu hoch angegeben, eigentlich müsste im Jahr 1178 die 11. Indiktion stehen. Rota; Inschrift: <diploPart cert="high" type="rota" xml:space="default">S(an)c(tu)s PETRUS | S(an)c(tu)s PAULUS | ALEXA | NDER p(a)p(a) III.</diploPart>; Devise fehlt.</p><p>Bulle an gelben und roten Seidenfäden; Avers-Seite: <diploPart>ALEX | ANDER | P(A)P(A) III.</diploPart>; Revers-Seite: <diploPart>S(anctus) PA(ULUS) S(anctus) PE(TRUS)</diploPart>, samt Portäts der Apostelfürsten. Die Edition von Josef von Zahn im ersten Band des Urkundenbuches der Steiermark gibt die Schreibweise der Kardinalpriester nicht immer korrekt an: statt <diploPart>Pamachii </diploPart>liest er <diploPart>Pimachii </diploPart>(vermutlich da das "a" in der Falz steht) und statt <diploPart>Vivianus</diploPart> liest er <diploPart>UUaarus </diploPart>(vgl. <bibl>UB Steiermark 1, S. 561</bibl>).</p>
             </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Das vorliegende feierliche Privileg baut auf die Vorurkunden für das Benediktinerkloster St. Lambrecht von <persName>Paschalis II.</persName> (<bibl>Germ. Pont. 1, S. 103, Nr. 1</bibl>), von <persName>Honorius II.</persName> (<bibl>Germ. Pont. 1, S. 103, Nr. 2</bibl>) und von <persName>Eugen III.</persName> (<bibl>Germ. Pont. 1, S. 103-104, Nr. 3</bibl>) auf.</p>
+            <p>Das vorliegende feierliche Privileg baut auf die Vorurkunden für das Benediktinerkloster St. Lambrecht von <persName>Papst Paschalis II.</persName> (<bibl>Germ. Pont. 1, S. 103, Nr. 1; JL 6230</bibl>), von <persName>Papst Honorius II.</persName> (<bibl>Germ. Pont. 1, S. 103, Nr. 2; JL 7254</bibl>) und von <persName>Papst Eugen III.</persName> (<bibl>Germ. Pont. 1, S. 103-104, Nr. 3; JL 9207</bibl>) auf.</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
