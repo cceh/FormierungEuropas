@@ -49,8 +49,8 @@
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl>Original: -</bibl>
-               <bibl>Kopie: Chartular von Rievaulx (12. Jh), London, British Library, Cotton Julius MS D I, fol. 187, Nr. 233</bibl><bibl>Kopie: Chartular von Meaux (15. Jh.), London, British Library, Lansdowne MS 424, fol. 7v</bibl>
+               <bibl type="original">-</bibl>
+               <bibl type="msCopy">Chartular von Rievaulx (12. Jh), London, British Library, Cotton Julius MS D I, fol. 187, Nr. 233</bibl><bibl type="msCopy">Chartular von Meaux (15. Jh.), London, British Library, Lansdowne MS 424, fol. 7v</bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>
