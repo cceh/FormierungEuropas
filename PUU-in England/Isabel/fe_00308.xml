@@ -37,14 +37,14 @@
          </div>
          <div type="other"><head>Echtheitskriterien:</head>
             <authen type="formula" n=""><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
-         <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustis petentium desideriis facilem nos</diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio"><diploPart type="incipit" xml:lang="lat">Dat. Anagn. VII idus februarii</diploPart></diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
                <bibl>[Original]</bibl>
-               <bibl>Westminster Bomesday er. a. 1308, Westminster Abbey Muniment  books vol. 11 fol. 382 f=  C];  Chartular von Westminster s. XIV,  Brit. Mus. Cott. Faustina A III fol. 169' f=  DJ. </bibl>
+               <bibl>Kopie: Westminster Abbey Domesday (14. Jh.), London, Westminster Abbey, Muniment Book 11fol. 382 f=  C];  Chartular von Westminster s. XIV,  Brit. Mus. Cott. Faustina A III fol. 169' f=  DJ. </bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>
