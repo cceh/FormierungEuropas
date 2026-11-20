@@ -6,7 +6,7 @@
       <fileDesc><titleStmt>
             <title>fe_00374</title>
             <respStmt> <resp> Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp><persName>JP</persName></respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>JP, IB, CH</persName></respStmt>
+           <respStmt><resp when="2024">Encoding</resp><persName>JP, IB, CH</persName></respStmt>
          </titleStmt><publicationStmt>
             <publisher>Die Formierung Europas</publisher>
             <idno>PUU England 1, S. 389-390, Nr. 118</idno><availability>
@@ -35,10 +35,10 @@
    </teiHeader>
    <text>
       <body>
-         <div type="abstract"><head>Abstract:</head><p>Alexander III. gewährt <persName>Laurentius, Abt der Benediktinerabtei Westminster</persName> (D. London), und seinen Nachfolgern das Recht zum Gebrauch von Mitra und Ring während der Messfeier an Sonntagen und anderen hohen Feiertagen, bei Prozessionen des Klosters sowie bei päpstlichen oder bischöflichen Konzilien.</p>
+         <div type="abstract"><head>Abstract</head><p><persName>Alexander III.</persName> gewährt <persName>Laurentius, Abt der Benediktinerabtei Westminster</persName> (D. London), und seinen Nachfolgern das Recht zum Gebrauch von Mitra und Ring während der Messfeier an Sonntagen und anderen hohen Feiertagen, bei Prozessionen des Klosters sowie bei päpstlichen oder bischöflichen Konzilien.</p>
          </div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Cum monasterium tibi commissum specialiter</diploPart></div>
-         <div><head>Datatio:</head><diploPart type="datatio">Dat. Anagn. XIIII kal. maii.</diploPart></div>
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Cum monasterium tibi commissum specialiter</diploPart></div>
+         <div><head>Datatio</head><diploPart type="datatio">Dat. Anagn. XIIII kal. maii.</diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung</head>
             <div>
