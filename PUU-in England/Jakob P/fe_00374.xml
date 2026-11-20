@@ -19,7 +19,7 @@
                <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
             </authen></p><p><issued><placeName>Anagni</placeName><date type="issued" when="1160-04-18">(1160—1161/1173) Apr. 18</date><date type="issued" when="1161-04-18"/><date type="issued" when="1173-04-18"/> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
-               <p><diploDesc><legalActor type="recipient">Benediktinerabtei Westminster</legalActor></diploDesc></p>
+               <p><p><legalActor type="issuer">Alexander III.</legalActor></p><diploDesc><legalActor type="recipient">Benediktinerabtei Westminster</legalActor></diploDesc></p>
                <p><legalActor type="recipient">Laurentius, Abt des Benediktinerkloster Westminster</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p> 
                <p><objectType n="">Juristisches, neues Recht</objectType></p>
