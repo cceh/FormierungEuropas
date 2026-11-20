@@ -12,7 +12,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>PUU England 1, S. 347, Nr. 87</bibl><bibl type="jaffe">-</bibl>
-            <diploDesc><p><issued><placeName>Terracina</placeName><date type="issued" when="1161-12-01">(1161) Dez. 1</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            <diploDesc><p><authen type="formula" n=""><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen><issued><placeName>Terracina</placeName><date type="issued" when="1161-12-01">(1161) Dez. 1</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Walter, Prior des Johanniterordens in England</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
@@ -33,8 +33,6 @@
          <div type="abstract"><head>Abstract:</head>
             <p><persName>Alexander III.</persName> bestätigt dem Prior Walter des Hospitaliterordens in England nach dem Vorgang von Innocenz IL, Lucius II., Eugen III. und Hadrian IV. das Haus Holy Cross (bei Winchester).</p>
          </div>
-         <div type="other"><head>Echtheitskriterien:</head>
-            <authen type="formula" n=""><p>[-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustis petentium desideriis facilem nos</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">Dat. Terracin. kal. decembris.</diploPart></div>
          <div type="msSources">
