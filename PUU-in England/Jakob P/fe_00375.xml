@@ -41,7 +41,7 @@
    </teiHeader>
    <text>
       <body>
-         <div type="abstract"><head>Abstract:</head><p><persName>Alexander III.</persName> verleiht dem <orgName>Augustinerpriorat St. Mary's in Ulvescroft</orgName> (D. Lincoln) unter <persName>Wilhelm, Prior der Kirche St. Mary's</persName>, ein Privileg und gewährt folgende Rechte:<list><item>Aufnahme in den apostolischen Schutz</item><item>Bestätigung aller derzeitigen und zukünftigen Besitzungen und Güter jedweder Herkunft, darunter einige namentlich genannte Besitzungen unter Angabe der jeweiligen Schenker</item><item>Bestätigung der Rechte, Würden und Freiheiten, die das Priorat und die Kirche seit 40 Jahren besitzen</item><item> das freie Begräbnisrecht</item><item>Befreiung vom Zehnten für Neubrüche bei Eigenbau und für Tierfutter</item><item>die freie und ungehinderte Aufnahme von Klerikern und Laien, die der Welt entfliehen wollen</item><item>Präsentationsrecht für die Eigenkirchen</item><item>freie Wahl des Priors gemäß der Regel des hl. Augustinus</item></list>Ferner legt er fest:<list><item>dass Altar- und Kirchweihen, Ordinationen der Kleriker und das heilige Öl vom Diözesanbischof zu empfangen sind, wenn dieser in der Gnade des apostolischen Stuhls steht; andernfalls sei es ihnen erlaubt, einen Bischof ihrer Wahl um die genannten Weihehandlungen zu ersuchen</item><item>Perturbationsverbot</item></list>Schlussformeln: Sanctio negativa und positiva.</p><p/></div>
+         <div type="abstract"><head>Abstract:</head><p><persName>Alexander III.</persName> verleiht dem <orgName>Augustinerpriorat St. Mary's in Ulvescroft</orgName> (D. Lincoln) unter <persName>Wilhelm, Prior der Kirche St. Mary's</persName>, ein Privileg und gewährt folgende Rechte:<list><item>Aufnahme in den apostolischen Schutz</item><item>Bestätigung aller derzeitigen und zukünftigen Besitzungen und Güter jedweder Herkunft, darunter einige namentlich genannte Besitzungen unter Angabe der jeweiligen Schenker</item><item>Bestätigung der Rechte, Würden und Freiheiten, die das Priorat und die Kirche seit 40 Jahren besitzen</item><item>das freie Begräbnisrecht</item><item>Befreiung vom Zehnten für Neubrüche bei Eigenbau und für Tierfutter</item><item>die freie und ungehinderte Aufnahme von Klerikern und Laien, die der Welt entfliehen wollen</item><item>Präsentationsrecht für die Eigenkirchen</item><item>freie Wahl des Priors gemäß der Regel des hl. Augustinus</item></list>Ferner legt er fest:<list><item>dass Altar- und Kirchweihen, Ordinationen der Kleriker und das heilige Öl vom Diözesanbischof zu empfangen sind, wenn dieser in der Gnade des apostolischen Stuhls steht; andernfalls sei es ihnen erlaubt, einen Bischof ihrer Wahl um die genannten Weihehandlungen zu ersuchen</item><item>Perturbationsverbot</item></list>Schlussformeln: Sanctio negativa und positiva.</p><p/></div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Quociens illud a nobis expetitur</diploPart></div>
           <div>
             <head>Subscriptiones</head>
@@ -54,8 +54,8 @@
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl>Original: -</bibl>
-               <bibl>Kopie: (13. Jh.), London, British Library, Harley Ch 111 A 6 </bibl>
+               <bibl type="original">-</bibl>
+               <bibl type="msCopy">(13. Jh.), London, British Library, Harley Ch 111 A 6</bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>
@@ -87,7 +87,7 @@
           <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Dreifaches Amen; fehlende Nachahmung der Schrift aber Nachahmung der Rota und Bene valete (vgl. <bibl>PUU England 1, S. 390</bibl>)</p><p/>
+               <p>Dreifaches Amen; fehlende Nachahmung der Schrift, aber Nachahmung der Rota und Bene valete (vgl. <bibl>PUU England 1, S. 390</bibl>)</p><p/>
             </diploDesc>
          </div>
          <div type="commentary">
