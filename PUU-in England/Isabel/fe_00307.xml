@@ -15,7 +15,7 @@
             <diploDesc><p><authen type="formula" n=""><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen><issued><placeName>Anagni</placeName><date type="issued" when="1161-02-07">(1161) Feb. 7</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Roger, Infirmarius von Westminster</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><legalActor type="recipient">Roger, Infirmarius der Benediktinerabtei Westminster</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p><p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
@@ -31,7 +31,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. bestätigt <persName>Roger, Infirmarius von Westminster</persName>, auf Bitten des L(aurentius), Abt von Westminster, den Besitz der Kirchen in Battersea und Wandsworth, die der Abt der Infirmarie zur Nutznießung zugewiesen hat.</p>
+            <p>Alexander III. bestätigt <persName>Roger, Infirmarius der Benediktinerabtei Westminster</persName>, auf Bitten des Abtes L(aurentius), Abt von Westminster, den Besitz der Kirchen in Battersea und Wandsworth, die der Abt der Infirmarie zur Nutznießung zugewiesen hat.</p>
          </div>
                  <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">Dat. Anagn. VII Idus februarii</diploPart></div>
