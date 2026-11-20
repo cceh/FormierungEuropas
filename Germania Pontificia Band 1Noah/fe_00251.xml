@@ -48,7 +48,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName></legalActor> gewährt auf Bitten des <legalActor cert="high" type="recipient" xml:space="default"><persName>Abts Werner</persName></legalActor> dem <legalActor cert="high" type="beneficiary" xml:space="default"><orgName>Benediktinerkloster St. Lambrecht</orgName></legalActor> (D. Graz-Seckau) nach dem Vorbild seiner Vorgänger Paschalis II., Honorius II. und Eugen III. folgende Rechte:<list>
+            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName></legalActor> gewährt auf Bitten des <legalActor cert="high" type="recipient" xml:space="default"><persName>Abts Werner</persName></legalActor> dem <legalActor cert="high" type="beneficiary" xml:space="default"><orgName>Benediktinerkloster St. Lambrecht</orgName></legalActor> (D. Graz-Seckau) nach dem Vorbild seiner Vorgänger <persName>Paschalis II.</persName>, <persName>Honorius II.</persName> und <persName>Eugen III.</persName> folgende Rechte:<list>
                   <item>die Aufnahme in den apostolischen Schutz.</item><item>die Bestätigung aller Besitzungen und Güter, die das Kloster in der Gegenwart besitzt beziehungsweise in der Zukunft rechtmäßig erwerben wird, darunter einige namentlich genannte Besitzungen und unter Nennung der jeweiligen Stifter.</item><item>das freie Begräbnisrecht.</item><item>die freie Wahl des Abts gemäß der Regel des hl. Benedikt. Es obliegt dem Papst, den Elekten zu bestätigen.</item></list></p>
             <p>Ferner legt er fest:<list><item>dass Altar- und Kirchweihen und das heilige Öl vom Erzbischof von Salzburg zu empfangen sind, sofern dieser in der Gnade des apostolischen Stuhls steht. Andernfalls steht es den Mönchen frei, einen ihnen genehmen Bischof um die Spende der Sakramente zu ersuchen.</item><item>dass weder der Erzbischof von Salzburg noch der Abt des Klosters die Güter des Klosters ohne die Zustimmung der leitenden Brüder (<diploPart>meliores fratres</diploPart>) anderen als Lehen auftragen oder sie anderweitig entfremden dürfen.</item><item>das Perturbationsverbot.</item></list></p>
             <p>Schlussformeln: Sanctio negativa und positiva.</p>
@@ -103,7 +103,7 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Rota; Inschrift: <diploPart cert="high" type="rota" xml:space="default">S(an)c(tu)s PETRUS | S(an)c(tu)s PAULUS | ALEXA | NDER p(a)p(a) III.</diploPart>; Devise fehlt.</p><p>Bulle an gelben und roten Seidenfäden; Avers-Seite: <diploPart>ALEX | ANDER | P(A)P(A) III.</diploPart>; Revers-Seite: <diploPart>S(anctus) PA(ULUS) S(anctus) PE(TRUS)</diploPart>, samt Portäts der Apostelfürsten.</p>
+               <p>Die Indiktion istRota; Inschrift: <diploPart cert="high" type="rota" xml:space="default">S(an)c(tu)s PETRUS | S(an)c(tu)s PAULUS | ALEXA | NDER p(a)p(a) III.</diploPart>; Devise fehlt.</p><p>Bulle an gelben und roten Seidenfäden; Avers-Seite: <diploPart>ALEX | ANDER | P(A)P(A) III.</diploPart>; Revers-Seite: <diploPart>S(anctus) PA(ULUS) S(anctus) PE(TRUS)</diploPart>, samt Portäts der Apostelfürsten.</p>
             </diploDesc>
          </div>
          <div type="commentary">
