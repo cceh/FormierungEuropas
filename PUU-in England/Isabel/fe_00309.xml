@@ -35,8 +35,8 @@
          </div>
          <div type="other"><head>Echtheitskriterien:</head>
             <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
-         <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Iustis petentium desideriisfacilem nos</diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">Dat. Terracin. kal. decembris.</diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung</head>
             <div>
@@ -87,7 +87,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[NachAlexander episcopus seruus seruorum Dei. Dilectis filiis Wal-terio priori Ierosolimitani hospitalis in Anglia eiusque fratribussalutem et apostolicam benedictionem. Iustis petentium desideriisfacilem nos conuenit impertiri consensum et uota, que a rationistramite non discordant, effectu sunt prosequente complenda. Ea-propter, dilecti in domino filii, uestris iustis postulationibus benignoconcurrentes assensu et uestigiis predecessorum nostrorum felicisrecordationis Innocentii, Lucii, Eugenii et Adriani ßomanorumpontificum inherentes domum sancte Crucis cum pertinentiis suis,sicut eam in presentiarum canonice et pacifice possidetis, deuotioniuestre auetoritate apostolica confirmamus et presentis scripti pa-trocinio communimus. Statuentes, ut nulli omnino etc. Si quisautem etc. Dat. Terracin. kal. decembrisAnmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+            <p>[Nach Endkorrektur löschen:</p><p>Alexander episcopus seruus seruorum Dei. Dilectis filiis Wal-terio priori Ierosolimitani hospitalis in Anglia eiusque fratribussalutem et apostolicam benedictionem. Iustis petentium desideriisfacilem nos conuenit impertiri consensum et uota, que a rationistramite non discordant, effectu sunt prosequente complenda. Ea-propter, dilecti in domino filii, uestris iustis postulationibus benignoconcurrentes assensu et uestigiis predecessorum nostrorum felicisrecordationis Innocentii, Lucii, Eugenii et Adriani ßomanorumpontificum inherentes domum sancte Crucis cum pertinentiis suis,sicut eam in presentiarum canonice et pacifice possidetis, deuotioniuestre auetoritate apostolica confirmamus et presentis scripti pa-trocinio communimus. Statuentes, ut nulli omnino etc. Si quisautem etc. Dat. Terracin. kal. decembrisAnmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
          </div>
       </body>
    </text>
