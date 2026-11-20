@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_puu-in"> <!-- Ordnername hier ergänzen -->
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen -->
    <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>[Die Nummer des Regests im Projekt_Dateiname beginnt mit "Ordner", zum Beispiel FO für Formierung Europas]</title>
-            <respStmt>
-               <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
-               <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
-            </respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
+      <fileDesc><titleStmt><title>fe_00308</title><respStmt><resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp><persName>IB</persName></respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>IB</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -16,12 +13,12 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>PUU England 1, S. 346-347, Nr. 86</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
-            <diploDesc><p><issued><placeName>Anagni</placeName><date type="issued" notBefore="1161-02-07" notAfter="1161-02-07">(1161) Februar 7.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            <bibl>PUU England 1, S. 346-347, Nr. 86</bibl><bibl type="jaffe">-</bibl>
+             <diploDesc><p><authen type="formula" n=""><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen><issued><placeName>Anagni</placeName><date type="issued" notBefore="1161-02-07" notAfter="1161-02-07">(1161) Feb. 7</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p> <legalActor type="recipient">Wolter, Sakristan von Westminster Abbey</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <p> <legalActor type="recipient">Wolter, Sakristan der Benediktinerabtei Westminster</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p><p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
@@ -36,18 +33,16 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. bestätigt dem Sakristan Wolter von Westminster Abbey den Besitz der Kirche in Sawbridgeworth, die der Abt L(aurentius) der Sakristei zur Beschaffung der Altarbeleuchtung zu- gewiesen hat.</p>
+            <p>Alexander III. bestätigt <persName>Wolter, Sakristan der Benediktienrabtei Westminster</persName>, auf Bitte dessen und des <persName>L(aurentius), Abt von Westminster</persName>, folgende Rechte und Besitzungen:<list><item>die Kirche in Sawbridgeworth, die der Abt Laurentius der Sakristei zur Beschaffung der Altarbeleuchtung zugewiesen hat.</item><item>Perturbationsverbot</item></list>Schlussformel: Sanctio negativa</p>
          </div>
-         <div type="other"><head>Echtheitskriterien:</head>
-            <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
-         <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
+                  <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustis petentium desideriis facilem nos</diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio"><diploPart type="incipit" xml:lang="lat">Dat. Anagn. VII idus februarii</diploPart></diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
                <bibl>[Original]</bibl>
-               <bibl>Westminster Bomesday er. a. 1308, Westminster Abbey Muniment  books vol. 11 fol. 382 f=  C];  Chartular von Westminster s. XIV,  Brit. Mus. Cott. Faustina A III fol. 169' f=  DJ. </bibl>
+               <bibl>Kopie: Westminster Abbey Domesday (14. Jh.), London, Westminster Abbey, Muniment Book 11, fol. 382</bibl><bibl>Kopie: Chartular von Westminster Abbey (14. Jh.), London, British Library, Cotton MS Faustina A III, fol. 169v</bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>
@@ -79,9 +74,13 @@
                <bibl>[Regest 2]</bibl>
             </listBibl>
          </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <p>Da diese Urkunde und fe_307 am selben Tag ausgestellt wurden wie die beiden Kanonisationsbullen für den hl. Edward den Bekenner (JL 10653; ##fe_00xxx## und JL 10654; ##fe_00xxx##), datiert Holtzmann (vgl.<bibl>PUU England 1, S. 346</bibl>) sie auf das Jahr 1161.</p>
+         </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Wegen der Datierung vgl. n. 85.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
@@ -92,7 +91,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+            <p>[Nach Endkorrektur löschen:</p><p/><p>Alexander episcopus seruus seruorum Dei. Dilecto filio Gru-alterob&amp;gt; Westm(onasteriensis) ecclesie sacristec) salutem et''' aposto-licam benedictionem. Iustis petentium desideriis facilem nos con-uenit impertiri consensum et uota, que a rationis tramite nondiscordant, effectu sunt prosequente complenda. Eapropter, dilectein domino fili, tam tuis quam L. abbatis tui petitionibus annuentesecclesiam de Sabrieteswrda*1 cum pertinentiis suis, quam predictusL. abbas ad inuenienda luminaria altaris sacristie noscitur rationa-biliter contulisse, tibi et per te eidem sacristie auctoritate aposto-lica confirmamus et presentis scripti patrocinio communimus. Sta-tuentes, ut nulli omnino etc. Si quis autem etc. Dat. Anagn. VIIid. febr.</p>
          </div>
       </body>
    </text>

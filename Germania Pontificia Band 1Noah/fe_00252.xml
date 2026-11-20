@@ -1,10 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
+<TEI source="formierung-europas_pontificia" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>fe_00252</title><respStmt><resp>Datenquelle</resp><persName>NW</persName></respStmt>
-            <respStmt><resp when="2026">Encoding</resp><persName>NW</persName></respStmt>
+            <respStmt><resp when="2026">Encoding</resp><persName>NW, JB</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -47,9 +50,9 @@
          <div type="abstract">
             <head>Abstract</head>
             <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName></legalActor> gewährt auf Bitten des <legalActor cert="high" type="recipient" xml:space="default"><persName>Abts Heinrich</persName></legalActor> dem <legalActor cert="high" type="beneficiary" xml:space="default"><orgName>Benediktinerkloster Millstatt</orgName></legalActor> (D. Gurk) folgende Rechte:<list>
-                  <item>die Aufnahme in den apostolischen Schutz, wie schon durch <persName>Calixt II.</persName>, <persName>Innozenz II.</persName> und <persName>Eugen III.</persName></item><item>die Bestätigung aller Besitzungen und Güter, die das Kloster in der Gegenwart rechtmäßig besitzt beziehungsweise in der Zukunft rechtmäßig erwerben wird, darunter einige namentlich genannte Besitzungen und unter Nennung der jeweiligen Stifter.</item><item>die freie Wahl des Abts gemäß der Regel des hl. Benedikt.</item><item>das freie Begräbnisrecht.</item><item>die freie Wahl des Klostervogts. Zugleich verbietet er, dass diesem oder anderen die Besitzungen des Klosters ohne die Zustimmung der Brüder als Lehen aufgetragen werden dürfen. Es steht dem Kloster frei, einen neuen Vogt zu erwählen, sollten Besitzungen des Kloster abhanden kommen und der Vogt sich damit als unnütz erweisen.</item>
+                  <item>die Aufnahme in den apostolischen Schutz, wie schon durch seine Vorgänger <persName>Calixt II.</persName>, <persName>Innozenz II.</persName> und <persName>Eugen III.</persName> gewährt.</item><item>die Bestätigung aller Besitzungen und Güter, die das Kloster in der Gegenwart rechtmäßig besitzt beziehungsweise in der Zukunft rechtmäßig erwerben wird, darunter einige namentlich genannte Besitzungen und unter Nennung der jeweiligen Stifter.</item><item>die freie Wahl des Abts gemäß der Regel des hl. Benedikt.</item><item>das freie Begräbnisrecht.</item><item>die freie Wahl des Klostervogts. Zugleich verbietet er, dass diesem oder anderen Personen die Besitzungen des Klosters ohne die Zustimmung der Brüder als Lehen aufgetragen werden dürfen. Es steht dem Kloster frei, einen neuen Vogt zu erwählen, sollten Besitzungen des Kloster abhanden kommen und der Vogt sich damit als unnütz erweisen.</item>
                </list></p>
-            <p>Ferner legt er fest:</p><p><list><item>das Verbot, dass der Bischof oder andere die Kapellen des Klosters ohne explizite Aufforderung durch die Brüder mit Priestern besetzen.</item><item>dass das Kloster für den erfahrenen Schutz künftig jährlich eine Goldmünze an den Papst entrichten muss.</item><item>das Perturbationsverbot.</item></list></p>
+            <p>Ferner legt er fest:</p><p><list><item>das Verbot, dass der Bischof oder andere die Kapellen des Klosters ohne explizite Aufforderung durch die Brüder mit Priestern besetzen.</item><item>dass das Kloster für den erfahrenen Schutz künftig die Zahlung eines jährlichen Zinses in Höhe einer Goldmünze an den apostolischen Stuhl entrichten muss.</item><item>das Perturbationsverbot.</item></list></p>
             <p>Schlussformeln: Sanctio negativa und positiva.</p>
          </div>
 
