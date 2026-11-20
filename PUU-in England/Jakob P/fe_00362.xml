@@ -7,7 +7,7 @@
          <titleStmt><title>fe_00362</title><respStmt>
                <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
                <persName>JP</persName>
-            </respStmt><respStmt><resp when="2024">Encoding:</resp><persName>JP, IB</persName></respStmt></titleStmt>
+            </respStmt><respStmt><resp when="2024">Encoding</resp><persName>JP, IB, CH</persName></respStmt></titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
             <idno>PUU England 1, S. 413-414, Nr. 141</idno><availability>
@@ -16,7 +16,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>PUU England 1, S. 413-414, Nr. 141</bibl><bibl type="jaffe">-</bibl>
-            <diploDesc> <p><authen type="formula" n=""><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></p><issued><placeName>Vieste</placeName><date type="issued" notBefore="1177-02-28" notAfter="1177-02-28">(1177) Feb. 28</date></issued><p><legalActor type="recipient">Priorat von Llanthony</legalActor></p> <p> <legalActor type="recipient">Roger, Prior von Llanthony</legalActor></p> <p><legalActor type="recipient">Augustinerkanoniker von Llanthony</legalActor></p> <p> </p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+            <diploDesc> <p><authen type="formula" n="na"><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></p><issued><placeName>Vieste</placeName><date type="issued" notBefore="1177-02-28" notAfter="1177-02-28">(1177) Feb. 28</date></issued><p><legalActor type="issuer">Alexander III.</legalActor></p><p><legalActor type="recipient">Priorat von Llanthony</legalActor></p> <p> <legalActor type="recipient">Roger, Prior von Llanthony</legalActor></p> <p><legalActor type="recipient">Augustinerkanoniker von Llanthony</legalActor></p> <p> </p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p>
                <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
@@ -32,18 +32,18 @@
    </teiHeader>
    <text>
       <body>
-         <div type="abstract"><head>Abstract:</head>
-            <p><persName>Alexander III.</persName> verleiht <persName>Roger, Prior des Augustinerpriorats Llanthony</persName> (D. Worcester), und den Kanonikern von Llanthony ein Privileg und gewährt die folgenden Rechte: </p><p><list><item>Besitzbestätigung der Kapelle von Little Barrington mit ihren Pertinenzen, wie sie ihnen von B(artholomaeus), Bischof von Exeter, und dem (Laurentius), Prior des benediktinischen Kathedralpriorats von Coventry, gerichtlich zugesprochen wurde</item><item>Perturbationsformel</item></list>Schlussformeln: Sanctio negativa
+         <div type="abstract"><head>Abstract</head>
+            <p><persName>Alexander III.</persName> verleiht dem <orgName>Augustinerpriorat Llanthony</orgName> (D. Worcester) unter <persName>Roger, Prior von Llanthony</persName>, ein Privileg und gewährt die folgenden Rechte: </p><p><list><item>Besitzbestätigung der Kapelle von Little Barrington mit ihren Pertinenzen, wie sie ihnen von <persName>B(artholomaeus), Bischof von Exeter</persName>, und dem <persName>(Laurentius), Prior des benediktinischen Kathedralpriorats von Coventry</persName>, gerichtlich zugesprochen wurde</item><item>Perturbationsformel</item></list>Schlussformeln: Sanctio negativa
                </p><p/>
          </div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustis petentium desideriis dignum est</diploPart></div>
-         <div><head>Datatio:</head><diploPart type="datatio">Dat. Veste II kal. martii.</diploPart></div>
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Iustis petentium desideriis dignum est</diploPart></div>
+         <div><head>Datatio</head><diploPart type="datatio">Dat. Veste II kal. martii.</diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl>Original: -</bibl>
-               <bibl>Kopie: Chartular von Lanthony (ca. 1350), London, The National Archives, C 115/75, General cartulary of Llanthony Priory Gloucestershire vol. A 2, Teil XXVI,  Nr. 12</bibl>
+               <bibl type="Original">Original: -</bibl>
+               <bibl type="msCopy">Kopie: Chartular von Lanthony (ca. 1350), London, The National Archives, C 115/75, General cartulary of Llanthony Priory Gloucestershire vol. A 2, Teil XXVI,  Nr. 12</bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>

@@ -4,7 +4,7 @@
 <TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen -->
    <teiHeader>
       <fileDesc><titleStmt><title>fe_00361</title><respStmt><resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp><persName>JP</persName></respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>JP, IB</persName></respStmt>
+           <respStmt><resp when="2024">Encoding</resp><persName>JP, IB, CH</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -17,7 +17,8 @@
             <diploDesc> <p><authen type="formula" n="na">
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-                  </authen></p> <issued><placeName>Anagni</placeName><date type="issued" notBefore="1176-11-02" notAfter="1176-11-02">1176 Nov. 2</date></issued><p> <legalActor type="recipient">Säkularkanonikerstift St. Martin le Grand, London</legalActor></p> <p> <legalActor type="recipient">Godefrid, Dekan des Säkularkanonikerstifts St. Martin le Grand</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName -->
+                  </authen></p> <issued><placeName>Anagni</placeName><date type="issued" notBefore="1176-11-02" notAfter="1176-11-02">1176 Nov. 2</date></issued><p>
+                  <legalActor type="issuer">Alexander III.</legalActor></p><p> <legalActor type="recipient">Säkularkanonikerstift St. Martin le Grand, London</legalActor></p> <p> <legalActor type="recipient">Godefrid, Dekan des Säkularkanonikerstifts St. Martin le Grand</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p>
                <p><objectType n="">Juristisches, Rechts- und Besitzbestätigungen</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
@@ -33,24 +34,24 @@
    </teiHeader>
    <text>
       <body>
-         <div type="abstract"><head>Abstract:</head>
+         <div type="abstract"><head>Abstract</head>
             <p><persName>Alexander III.</persName> verleiht der Londoner <orgName>Stiftskirche St. Martin le Grand</orgName> (D. London) unter <persName>Dekan Godefrid</persName> ein Privileg und gewährt die folgenden Rechte und Besitzungen:<list><item>Aufnahme der Kirche in den apostolischen Schutz</item><item>Bestätigung aller derzeitigen und künftigen Besitzungen und Güter jedweder Art, darunter einige namentlich und in ihrem Umfang genannte Besitzungen</item><item>Bestätigung der Freiheiten, Immunitäten sowie der alten Gewohnheiten</item><item>das freie Begräbnisrecht</item><item>Befreiung vom allgemeinen Interdikt</item></list>Ferner legt er fest:<list><item>dass niemand die Kirche sowie die Diener (<diploPart>servitores</diploPart>) der Kirche oder ihre Kapellen durch ungerechtfertigte Belästigungen oder Belastungen bedrängen oder ihnen neue unrechtmäßige Abgaben auferlegen darf</item><item>Perturbationsverbot</item></list>Schlussformeln: Sanctio negativa und positiva</p>
          </div>
 
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Effectum iusta postulantibus indulgere et</diploPart></div>
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Effectum iusta postulantibus indulgere et</diploPart></div>
       <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>Ego <persName>Alexander catholice ecclesie episcopus</persName> ss. </item><item>Ego Hubaldus Hostiensis episcopus ss.</item><item>Ego <persName>Iohannes sanctorum Iohannis et Pauli presb. card. tit. Pamachi</persName> ss.</item><item>Ego <persName>Albertus presb. card. tit. sancti Laurentii in Lucina</persName> ss.</item><item>Ego <persName>Willelmus presb. card. tit. sancti Petri ad vincula</persName> ss</item><item>Ego <persName>Boso presb. card. sancte Pudentiane tit. Pastoris</persName> ss.</item><item>Ego <persName>Theodinus presb. card. sancti Vitalis tit. Vestine</persName> ss.</item><item>Ego <persName>Manfredus presb. card. sancte Cecilie</persName> ss.</item><item>Ego <persName>Petrus presb. card. tit. sancte Susanne</persName> ss.</item><item>Ego <persName>Iac(intus) diac. card. sancte Marie in Cosmidyn</persName> ss.</item><item>Ego <persName>Iohannes presb. card. sancti Marci</persName> ss.</item><item>Ego <persName>Cinthyus diac. card. sancti Adriani</persName> ss.</item><item>Ego<persName> Ugo diac. card. sancti Eustachii iuxta templum Agrippe ss.</persName></item><item>Ego <persName>Laborans diac. card. sancte Marię in porticu</persName> ss.</item><item>Ego <persName>Raynerius diac. card. sancti Georgii ad uelum aureum</persName> ss.</item></list></diploPart>
+                  <item>Ego <persName>Alexander catholice ecclesie episcopus</persName> ss. </item><item>Ego <persName>Hubaldus Hostiensis episcopus</persName> ss.</item><item>Ego <persName>Iohannes sanctorum Iohannis et Pauli presb. card. tit. Pamachi</persName> ss.</item><item>Ego <persName>Albertus presb. card. tit. sancti Laurentii in Lucina</persName> ss.</item><item>Ego <persName>Willelmus presb. card. tit. sancti Petri ad vincula</persName> ss</item><item>Ego <persName>Boso presb. card. sancte Pudentiane tit. Pastoris</persName> ss.</item><item>Ego <persName>Theodinus presb. card. sancti Vitalis tit. Vestine</persName> ss.</item><item>Ego <persName>Manfredus presb. card. sancte Cecilie</persName> ss.</item><item>Ego <persName>Petrus presb. card. tit. sancte Susanne</persName> ss.</item><item>Ego <persName>Iac(intus) diac. card. sancte Marie in Cosmidyn</persName> ss.</item><item>Ego <persName>Iohannes presb. card. sancti Marci</persName> ss.</item><item>Ego <persName>Cinthyus diac. card. sancti Adriani</persName> ss.</item><item>Ego<persName> Ugo diac. card. sancti Eustachii iuxta templum Agrippe ss.</persName></item><item>Ego <persName>Laborans diac. card. sancte Marię in porticu</persName> ss.</item><item>Ego <persName>Raynerius diac. card. sancti Georgii ad uelum aureum</persName> ss.</item></list></diploPart>
          </div>
-            <div><head>Datatio:</head><diploPart type="datatio">Dat. Anagnie per manum <persName>Graciani sancte Romane ecclesie subdiaconi et notarii</persName>, IIII non. nouembr., indictione X, incarnationis dominice anno M C LXX VII, pontificatus uero domni Alexandri pape III anno XVIII.</diploPart></div>
+            <div><head>Datatio</head><diploPart type="datatio">Dat. Anagnie per manum <persName>Graciani sancte Romane ecclesie subdiaconi et notarii</persName>, IIII non. nouembr., indictione X, incarnationis dominice anno M C LXX VII, pontificatus uero domni Alexandri pape III anno XVIII.</diploPart></div>
           
          <div type="msSources">
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl>Original: -</bibl>
-               <bibl>Kopie: Rotulus a. 1335, London, Westminster Abbey, Muniment Nr. 13167</bibl><bibl>Kopie: Chartular von St. Martin le Grand (15. Jh.), London, Westminster Abbey, Muniment  books Vol. V, fol. 10v </bibl><bibl>Kopie: Abschrift des Chartulars von Sir Julius Caesar (17. Jh.), London, British Library, Lansdowne MS 170, fol. 53</bibl>
+               <bibl type="Orginal">Original: -</bibl>
+               <bibl type="msCopy">Kopie: Rotulus a. 1335, London, Westminster Abbey, Muniment Nr. 13167</bibl><bibl type="msCopy">Kopie: Chartular von St. Martin le Grand (15. Jh.), London, Westminster Abbey, Muniment  books Vol. V, fol. 10v </bibl><bibl type="msCopy">Kopie: Abschrift des Chartulars von Sir Julius Caesar (17. Jh.), London, British Library, Lansdowne MS 170, fol. 53</bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>
@@ -88,7 +89,7 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Es besteht eine Vorurkunde von Lucius II. (<bibl>PUU England 1, S. 256-258, Nr. 30</bibl>). </p>
+            <p>Es besteht eine Vorurkunde von <persName>Lucius II.</persName> (<bibl>PUU England 1, S. 256-258, Nr. 30</bibl>). </p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>

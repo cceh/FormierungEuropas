@@ -1,11 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
-<TEI source="formierung-europas_pontificia" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc><titleStmt><title>fe_00200</title><respStmt><resp>Datenquelle</resp><persName>JM</persName></respStmt>
-            <respStmt><resp when="2026">Encoding</resp><persName>JM, JB</persName></respStmt>
+            <respStmt><resp when="2026">Encoding</resp><persName>JM, JB, MG</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -18,7 +15,7 @@
             <diploDesc><p><authen type="formula" n="na"><p>[-]</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>–</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" unit="cm" xml:space="default" notAfter="1164-12-31" notBefore="1159-09-07" type="issued">(1159-1164)</date>
+               <issued><placeName>–</placeName><date cert="high" evidence="internal" generatedBy="human" instant="unknown" precision="high" unit="cm" xml:space="default" notAfter="1164-12-31" notBefore="1159-01-01" type="issued">(1159-1164)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
@@ -105,7 +102,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>WH 344</p><p>Stand 3. Juli 2026 ist die Londoner Handschrift noch nicht digitalisiert zugänglich. Das digitale Archiv der British Library könnte das Digitalisat aber irgendwann in diesem Daten https://searcharchives.bl.uk/catalog/040-002106484 hochladen.</p>
+            <p>WH 344</p><p>Stand 3. Juli 2026 ist die Londoner Handschrift noch nicht digitalisiert zugänglich. Das digitale Archiv der British Library könnte das Digitalisat aber irgendwann in diesen Daten https://searcharchives.bl.uk/catalog/040-002106484 hochladen.</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>

@@ -4,7 +4,7 @@
 <TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen -->
    <teiHeader>
       <fileDesc><titleStmt><title>fe_00360</title><respStmt><resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp><persName>JP</persName></respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>JP, IB</persName></respStmt>
+           <respStmt><resp when="2024">Encoding</resp><persName>JP, IB, CH</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -14,8 +14,8 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>PUU England 1, S. 409-411, Nr. 139</bibl><bibl type="jaffe">-</bibl>
-            <diploDesc><p><authen type="formula" n=""><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen><issued><placeName>Anagni</placeName><date type="issued" when="1176-06-03">1176 Jun. 3</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
-               </issued></p><p><legalActor type="recipient">Zisterzienserkloster St. Marys, Sawtry</legalActor></p> <p> <legalActor type="recipient">Paganus, Abt des Zisterzienserklosters St. Mary's, Sawtry</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+            <diploDesc><p><authen type="formula" n="na"><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen><issued><placeName>Anagni</placeName><date type="issued" when="1176-06-03">1176 Jun. 3</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+               </issued></p><p><legalActor type="issuer">Alexander III.</legalActor></p><p><legalActor type="recipient">Zisterzienserkloster St. Marys, Sawtry</legalActor></p> <p> <legalActor type="recipient">Paganus, Abt des Zisterzienserklosters St. Mary's, Sawtry</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p>
                <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
@@ -31,11 +31,11 @@
    </teiHeader>
    <text>
       <body>
-         <div type="abstract"><head>Abstract:</head>
-            <p><persName>Alexander III.</persName> verleiht dem <orgName>Kloster St. Mary's</orgName> in <placeName>Sawtry</placeName> (D. Lincoln) unter <persName>Paganus, Abt von St. Mary's</persName>, ein Privileg und gewährt die folgenden Rechte und Besitzungen: <list><item>Aufnahme des Klosters in den apostolischen Schutz</item><item>Bestätigung der Einrichtung der religiosen Gemeinschaft nach der Regel des hl. Benedikt und nach der Lebensweise der Zisterzienser</item><item>Bestätigung aller derzeitigen und künftigen Besitzungen und Güter, darunter einige namentlich und in ihrem Umfang genannte Besitzungen von namentlich genannten Schenkern auf Grundlage von Urkunden, die durch Helius von Chaio, Stephan, König von England, und seinen Sohn Wilhelm ausgestellt wurden</item><item>Bestätigung der von König Heinrich [II.] gewährten Freiheiten und Immunitäten und königlichen Gewohnheiten</item><item>Garantie eines besonderen Friedens für die Klosterbezirke und die Grangien</item><item>Bekräftigung der Verbindlichkeit der geleisteten Profess</item><item>ungehinderte Aufnahme freier Personen, die der Welt entfliehen wollen</item><item>Befreiung vom Zehnten bei Eigenbau und für Tierfutter</item><item>Perturbationsverbot</item></list> Schlussformeln: Sanctio negativa und positiva.</p>
+         <div type="abstract"><head>Abstract</head>
+            <p><persName>Alexander III.</persName> verleiht dem <orgName>Zisterzienserkloster St. Mary's</orgName> in <placeName>Sawtry</placeName> (D. Lincoln) unter <persName>Paganus, Abt von St. Mary's</persName>, ein Privileg und gewährt die folgenden Rechte und Besitzungen: <list><item>Aufnahme des Klosters in den apostolischen Schutz</item><item>Bestätigung der Einrichtung der religiosen Gemeinschaft nach der Regel des hl. Benedikt und nach der Lebensweise der Zisterzienser</item><item>Bestätigung aller derzeitigen und künftigen Besitzungen und Güter, darunter einige namentlich und in ihrem Umfang genannte Besitzungen von namentlich genannten Schenkern auf Grundlage von Urkunden, die durch <persName>Helius von Chaio</persName>, <persName>Stephan, König von England</persName>, und seinen Sohn <persName>Wilhelm</persName> ausgestellt wurden</item><item>Bestätigung der von <persName>König Heinrich [II.]</persName> gewährten Freiheiten und Immunitäten und königlichen Gewohnheiten</item><item>Garantie eines besonderen Friedens für die Klosterbezirke und die Grangien</item><item>Bekräftigung der Verbindlichkeit der geleisteten Profess</item><item>ungehinderte Aufnahme freier Personen, die der Welt entfliehen wollen</item><item>Befreiung vom Zehnten bei Eigenbau und für Tierfutter</item><item>Perturbationsverbot</item></list> Schlussformeln: Sanctio negativa und positiva.</p>
          </div>
          
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Religiosam uitam eligentibus apostolicum conuenit</diploPart></div>
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Religiosam uitam eligentibus apostolicum conuenit</diploPart></div>
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
@@ -44,12 +44,12 @@
                   <item>Ego <persName>Iac(intus) diac. card. sancte Marie in Cosmidyn</persName> ss.</item><item>Ego <persName>Cinthyus diac. card. sancti Adriani</persName> ss.</item><item>Ego <persName>Hugo diac. card. sancti Eustachii iuxta templum Agrippe</persName> ss.</item><item>Ego <persName>Laborans diac. card. sancte Marię in porticu</persName> ss.</item><item>Ego <persName>Rayneri[us] diac. card. sancti Georgii ad uelum aureum</persName> ss.</item>
                </list></diploPart>
          </div>
-         <div><head>Datatio:</head><diploPart type="datatio">Dat. Anagnie per manum <persName>Gratiani sancte Romane ecclesie subdiaconi et notarii</persName>, III non. iunii, indictione VIIII, incarnationis dominice anno M C LXX VI, pontificatus uero domni Alexandri pape III anno XVII.</diploPart></div>
+         <div><head>Datatio</head><diploPart type="datatio">Dat. Anagnie per manum <persName>Gratiani sancte Romane ecclesie subdiaconi et notarii</persName>, III non. iunii, indictione VIIII, incarnationis dominice anno M C LXX VI, pontificatus uero domni Alexandri pape III anno XVII.</diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl>Orginal: London, British Library, Cotton MS Augustus II 125</bibl><bibl>[ggf. Druck]</bibl>
+               <bibl type="Original">Orginal: London, British Library, Cotton MS Augustus II 125</bibl><bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>
          </div>
@@ -88,7 +88,7 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Es existiert eine Vorurkunde von Eugen III. (<bibl>PUU England 1, S. 277-279, Nr. 42</bibl>). Für die Besitzliste wurde eine Besitzbestätigung aus einer vorangegangenen Urkunde Alexanders III. genutzt (##fe_000xx##; PUU England 1, S. 366-367, Nr. 102). <bibl>Vgl. PUU England 1, S. 409.</bibl></p>
+            <p>Es existiert eine Vorurkunde von <persName>Eugen III.</persName> (<bibl>PUU England 1, S. 277-279, Nr. 42</bibl>). Für die Besitzliste wurde eine Besitzbestätigung aus einer vorangegangenen Urkunde Alexanders III. genutzt (##fe_000xx##; PUU England 1, S. 366-367, Nr. 102). <bibl>Vgl. PUU England 1, S. 409.</bibl></p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>

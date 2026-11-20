@@ -23,18 +23,18 @@
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
                <p><authen type="formula" n="na">
-                     <p>[*+?-]</p>
+                     <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Anagni</placeName><date type="issued" notBefore="1178-02-07" notAfter="1178-02-07">07 Februar 1178</date>
+               <issued><placeName>Anagni</placeName><date type="issued" when="1178-02-07">1178 Feb. 7</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
-               <p><legalActor type="recipient">[Empfänger]</legalActor></p>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p><legalActor type="recipient">Augustiner-Chorherrenstift Au</legalActor></p><p><legalActor type="recipient">Lothar, Stiftspropst des Augustiner-Chorherrenstifts Au</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">[Typisierung 2]</objectType></p>
+               <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
@@ -52,32 +52,32 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>[Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
-                  <item>[Listeneintrag 1]</item>
+            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName></legalActor> gewährt auf Bitten des <legalActor cert="high" type="recipient" xml:space="default"><persName>Stiftspropsts Lothar</persName></legalActor> dem <legalActor cert="high" type="beneficiary" xml:space="default"><persName>Augustiner-Chorherrenstift Au (am Inn)</persName></legalActor> (ED. Salzburg) folgende Rechte:<list>
+                  <item>die Aufnahme in den apostolischen Schutz, wie schon durch <persName>Hadrian IV.</persName></item><item>die Bestätigung der Einrichtung der religiosen Gemeinschaft nach der Regel des hl. Augustinus.</item><item>die Bestätigung aller Besitzungen und Güter, die das Stift in der Gegenwart rechtmäßig besitzt beziehungsweise in der Zukunft rechtmäßig erwerben wird, darunter einige namentlich genannte Besitzungen.</item><item>das freie Begräbnisrecht.</item><item>die freie Wahl des Stiftspropsts gemäß der Regel des hl. Augustinus.</item>
                </list></p>
+            <p>Ferner legt er fest:<list><item>das Verbot, nach Ablegung der Profess ohne die Erlaubnis des Konvents das Stift zu verlassen, außer bei Übertritt zur strengeren Lebensweise (<diploPart>arctior religio</diploPart>), und untersagt ohne schriftliche Erlaubnis des Kovents die Aufnahme des Ausscheidenden durch Dritte. Sollte der Ausscheidende auch nach dreimaliger Aufforderung durch den Stiftspropst nicht zurückkehren, steht es dem Stiftspropst frei, nach kanonischem Recht über ihn zu urteilen (<diploPart>canonicam in eum proferre sententiam</diploPart>).</item><item>das Perturbationsverbot.</item></list></p>
+            <p>Schlussformeln: Sanctio negativa und positiva.</p>
          </div>
 
          <div>
             <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
-         </div>
+            <diploPart type="incipit" xml:lang="lat">Quoniam sine vero cultu Religionis</diploPart></div>
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+                  <item>(R.) Ego Alexander Catholicae Ecclesiae Episcopus subscripsi. (BV.)</item><item>Ego <persName>Hubaldus Hostienfis Episcopus </persName>subscripsi.</item><item>Ego <persName>Ioannes Presbyter Cardinalis Tituli Sancoturm Ioannis, &amp; Pauli</persName> subscripsi.</item><item>Ego <persName>Albertus Presbyter Cardinalis Tituli Sancti Laurentii in Lucina</persName> subscripsi.</item><item>Ego <persName>Bono Presbyter Cardinalis Sanctae Pudentianae Tituli Sancti Paftoris</persName> subscripsi.</item><item>Ego <persName>Ioannes Presbyter Cardinalis Tituli Sancti Marci</persName> subscripsi.</item><item>Ego <persName>Petrus Presbyter Cardinalis Tituli Sanctae Sufannae</persName> subscripsi.</item><item>Ego <persName>Iacobus Diaconus Cardinalis</persName> subscripsi.</item><item>Ego <persName>Ordicio Diaconus Cardinalis Tituli Sancti Theodori</persName> subscripsi.</item><item>Ego <persName>Tymphius Diaconus Cardinalis Sancti Adriani</persName> subscripsi.</item><item>Ego <persName>Hugnitio Sancti Angeli Diaconus Cardinalis Sanctae Mariae in Porticu</persName> subscripsi</item><item>Ego <persName>Ramerius Diaconus Cardinalis Sancti Georgii ad velum Aureum</persName> subscripsi.</item>
                </list></diploPart>
          </div>
          <div>
             <head>Datatio</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
-         </div>
+            <diploPart type="datatio">Datis Romae per manum <legalActor cert="high" type="notary" xml:space="default"><persName>Boetiani sanctae Romanae ecclesiae Subdiaconi et Notarii</persName></legalActor> VII. Idus Februarii Indictione II. Incarnationis Dominicae anno 1187. Pontificatus vero Alexandri Papae III. Anno XIX</diploPart></div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="original">München, Bayerisches Hauptstaatsarchiv, Kloster Au Urkunden 9; digital verfügbar unter: https://urkundenrepositorium.uni-marburg.de/handle/lba/8616</bibl>
+                  <bibl type="msCopy">-</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
@@ -96,7 +96,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>XX</bibl>
+               <bibl>Bullarium Lateranense, Anhang, S. 1-2</bibl><bibl>Monumenta Boica 1, S. 221-222, Nr. 7 (?) </bibl>
                <bibl/>
             </listBibl>
          </div>
@@ -104,29 +104,28 @@
             <head>Regesten</head>
             <listBibl>
                <bibl>JL 13022</bibl>
-               <bibl>Germ.Pont. 1, S. 82-83, Nr. 2</bibl><bibl>Lang, Regesta 1, S. 300</bibl>
+               <bibl>Germ. Pont. 1, S. 82-83, Nr. 2</bibl><bibl>Lang, Regesta 1, S. 300</bibl>
             </listBibl>
          </div>
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>[Angaben zu inneren und äußeren Merkmalen (Siegel, graphische Zeichen), Datierung und Echtheit. Literaturangaben (bibl) und Quellenzitate (diploPart) sind zulässig.]</p>
+               <p>Rota vorhanden; Inschrift: <diploPart cert="high" type="rota" xml:space="default">S(an)c(tu)s PETRUS | S(an)c(tu)s PAULUS | ALEXA | NDER | p(a)p(a) | III</diploPart>; Devise: <diploPart cert="high" type="rota" xml:space="default">vias tuas domine demonstra michi</diploPart>.</p><p>Der Urkundentext des feierlichen Privilegs Alexanders III. für das Augustiner-Chorherrenstift Au (am Inn) weist eine außerordentlich hohe Übereinstimmung mit einem zweiten Privileg Alexanders auf, das kopial überliefert ist und auf den 29. April 1177 datiert (vgl. <bibl>Monumenta Boica 1, S. 221-222, Nr. 7</bibl>; <bibl>JL 12818</bibl>). Trotz stelllenweiser Abweichungen - gerade bei Eigennamen! - ist vermutet worden, dass es sich hier um dasselbe Privileg handelt (vgl. <bibl>Germ. Pont. 1, S. 82-83, Nr. 2</bibl>). Brackmann hat diesen Umstand zu erklären versucht, indem er die Abweichungen zwischen den zwei Textfassungen als bewusste Verfälschungen durch Rasur in den Kontext der Auseinandersetzungen zwischen dem Augustiner-Chorherrenstift Au (am Inn) und dem <orgName>Augustiner-Chorherrenstift Gars</orgName> (ED. Salzburg) um Besitzungen eingeordnet hat (vgl. <bibl>Brackmann, Studien und Vorarbeiten 1, S. 133-135</bibl>). </p>
             </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>[Kommentare zur Identifizierung von Personen, Institutionen und Orten, zu Vor- und Nachurkunden, Konfliktverläufen etc. Literaturnageben (bibl) sind zulässig]</p>
+            <p>Die Vorurkunde Hadrians IV. lässt sich lediglich als Deperditum aus dem vorliegenden Privileg ableiten (vgl. <bibl>Germ. Pont 1, S. 82, Nr.*1</bibl>). </p><p>Das feierliche Privileg Alexanders III. wird 1476 von <persName>Sixtus IV.</persName> wieder aufgegriffen (vgl. <bibl>Bullarium Lateranense, Anhang, S. 2-4</bibl>).</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
             <listBibl>
-               <bibl>[Werk 1]</bibl>
-               <bibl>[Werk 2]</bibl>
+               <bibl>Hartig, Die oberbayerischen Stifte 1, S. 165-171</bibl>
             </listBibl>
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Projektinterne Kommentare zu Bearbeitungsstand, offenen Fragen, Hinweisen etc.]</p>
+            <p>[Diözese überprüfen]</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>

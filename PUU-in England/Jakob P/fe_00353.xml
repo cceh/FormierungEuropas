@@ -1,61 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
-<TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen -->
+<TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <!-- Ordnername hier ergänzen -->
    <teiHeader>
-      <fileDesc><titleStmt><title>fe_00353</title><respStmt><resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp><persName>JP</persName></respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>JP, IB</persName></respStmt>
+      <fileDesc>
+         <titleStmt>
+            <title>fe_00353</title>
+            <respStmt>
+               <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+               <persName>JP</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2024">Encoding</resp>
+               <persName>JP, IB, FL</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
-            <idno>PUU England 1, S. 400-401, Nr. 131</idno><availability>
+            <idno>PUU England 1, S. 400-401, Nr. 131</idno>
+            <availability>
                <licence>Lizenz</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>PUU England 1, S. 400-401, Nr. 131</bibl><bibl type="jaffe">-</bibl>
+            <bibl type="jaffe">-</bibl>
+            <bibl type="main">PUU England 1, S. 400-401, Nr. 131</bibl>
             <diploDesc>
-                 <p><authen type="formula" n="na">
-                  <p>-</p>
-               </authen></p>
-               <issued><placeName>Anagni</placeName><date type="issued" when="1174-03-14">(1174—76) Mär. 14</date><date type="issued" when="1176-03-14"/></issued><p> <legalActor type="recipient">Silvanus, Abt der Zisterzienserabtei Rievaulx</legalActor></p><p> <legalActor type="recipient">Mönche der Zisterzienserabtei Rievaulx</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><authen type="formula" n="na">
+                     <p>-</p>
+                  </authen>
+               </p>
+               <issued>
+                  <placeName>Anagni</placeName>
+                  <date type="issued" when="1174-03-14">(1174/1176) Mär. 14</date>
+                  <date type="issued" when="1176-03-14"/>
+               </issued>
+               <p>
+                   <legalActor type="issuer">Alexander III.</legalActor>
+               </p>
+               <p>
+                  <legalActor type="recipient">Silvanus, Abt der Zisterzienserabtei
+                     Rievaulx</legalActor></p>
+               <p>
+                  <legalActor type="recipient">Mönche der Zisterzienserabtei
+                  Rievaulx</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p>
                <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
-<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
-            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+               <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
          </sourceDesc>
       </fileDesc>
+
+      
       <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
          <langUsage>
             <language ident="ger">German</language>
             <language ident="lat">Latin</language>
             <language ident="en-GB">English</language>
-         </langUsage></profileDesc>
+         </langUsage>
+      </profileDesc>
    </teiHeader>
    <text>
       <body>
-         <div type="abstract"><head>Abstract:</head>
-            <p><legalActor><persName>Alexander III.</persName></legalActor> bestätigt auf deren Bitte <legalActor>Silvanus, Abt des Zisterzienserklosters von Rievaulx</legalActor> (D. York), und den <orgName>Mönchen des Klosters</orgName> folgende Rechte und Besitzungen:</p><p><list>
-               <item>die von <persName>Bernhard de Balliol</persName> übereignete Fischerei</item><item>weitere durch Bernhard de Balliol, <persName>Acharias von Tunstall</persName>, <persName>Heinrich von Willarby</persName> und dessen Sohn <persName/><persName>Adelard</persName> übertragene Besitzungen</item><item>Perturbationsverbot</item></list></p><p>Schlussformel: Sanctio negativa</p>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p><persName>Alexander III.</persName> verleiht der
+                  <orgName>Zisterzienserabtei Rievaulx</orgName> (D. York) unter
+                  <persName>Silvanus, Abt der Zisterzienserabtei Rievaulx</persName>, ein
+               Privileg und gewährt die folgenden Rechte:</p>
+            <p><list>
+                  <item>Bestätigung der durch <persName>Bernhard de Balliol</persName> übereigneten
+                     Fischerei</item>
+                  <item>Bestätigung der durch Bernhard de Balliol, <persName>Acharias von
+                        Tunstall</persName>, <persName>Heinrich von Willarby</persName> und dessen
+                     Sohn <persName>Adelard</persName> übertragenen Besitzungen</item>
+                  <item>Perturbationsverbot</item>
+               </list></p>
+            <p>Schlussformel: Sanctio negativa</p>
          </div>
-         
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustis petentium desideriis dignum est</diploPart></div><div/>
+
+         <div>
+            <head>Incipit</head>
+            <diploPart type="incipit" xml:lang="lat">Iustis petentium desideriis dignum
+               est</diploPart>
+         </div>
+         <div/>
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
                   <item>-</item>
                </list></diploPart>
          </div>
-         <div><head>Datatio:</head><diploPart type="datatio">Data Anagnie II idus martii.</diploPart></div>
-         <div type="msSources">
-             <head>Handschriftliche Überlieferung</head>
-            <div>
-            <listBibl>   
-               <bibl>Original: -</bibl>
-               <bibl>Kopie: Chartular von Rievaulx (12. Jh), London, British Library, Cotton MS Julius D I, fol. 184v, Nr. 230</bibl>
-               <bibl>[ggf. Druck]</bibl>
-            </listBibl>
+         <div>
+            <head>Datatio</head>
+            <diploPart type="datatio">Data Anagnie II idus martii.</diploPart>
          </div>
+         <div type="msSources">
+            <head>Handschriftliche Überlieferung</head>
+            <div>
+               <listBibl>
+                  <bibl type="original"/><bibl type="msCopy">Chartular von Rievaulx (12. Jh), London, British Library, Cotton MS
+                     Julius D I, fol. 184v, Nr. 230</bibl>
+                  <bibl type="print">[ggf. Druck]</bibl>
+               </listBibl>
+            </div>
          </div>
          <div type="decretals">
             <head>Dekretalen</head>
@@ -73,35 +124,63 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>PUU England 1, S. 400-401, Nr. 131</bibl><bibl>Chart Rievaulx,  S. 378, Nr. 33</bibl><bibl>Farrer, Reg. Early Yorkshire II, S. 502, Nr. 1231</bibl>
+               <bibl>PUU England 1, S. 400-401, Nr. 131</bibl>
+               <bibl>Chart Rievaulx,  S. 378, Nr. 33</bibl>
+               <bibl>Farrer, Reg. Early Yorkshire II, S. 502, Nr. 1231</bibl>
                <bibl/>
             </listBibl>
          </div>
          <div type="regesta">
-            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <head>Regesten</head>
+            <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>-</bibl>
                <bibl/>
             </listBibl>
          </div>
-          <div>
+         <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Holzmann (vgl. PUU England 1, S. 400) bestimmt die Datierung anhand des Itinerars Alexanders III.  und  der Amtszeit des Abtes Silvanus, der nach Atkinson (vgl. Cart. Rievaulx, S. XCII) bereits seit 1170 im Amt war. Tatsächlich war Silvanus bereits seit 1167 Abt von Rievaulx, was allerdings die Datierung nicht verändert (vgl. Knowles, Head, S. 140). Das Jahr 1175 ist als Ausstellungsjahr nicht möglich, da sich Alexander III. am 14. März dieses Jahres in Ferentino aufhielt. Vgl. JL 12445. ####Fe#####</p>
+               <p>Holtzmann (vgl. <bibl>PUU England 1, S. 400</bibl>) bestimmt die Datierung anhand des Itinerars
+                  Alexanders III.  und der Amtszeit des Abtes Silvanus, der nach Atkinson (vgl.
+                  <bibl>Cart. Rievaulx, S. XCII</bibl>) bereits seit 1170 im Amt war, auf den Zeitraum 1174-1176. Tatsächlich war Silvanus
+                  bereits seit 1167 Abt von Rievaulx, was allerdings die Datierung nicht verändert
+                  (vgl. <bibl>Knowles, Head, S. 140</bibl>). Das Jahr 1175 ist als Ausstellungsjahr nicht
+                  möglich, da sich Alexander III. am 14. März dieses Jahres in Ferentino aufhielt
+                  (vgl. JL 12445. ####Fe#####).</p>
             </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Die vorliegende Urkunde gehört zu einer Reihe von Urkunden, die Alexander entweder 1174 oder 1176 für das Kloster Rievaulx ausstellte (vgl. fe_00354, fe_00355, fe_00356 und fe_00357). Zu den Besitzungen und lokalen Netzwerken des Klosters Rievaulx siehe die Studie von Emilia Jamroziak (vgl. Jamroziak, Rievaulx, insb. S. 196–197).</p>
+            <p>Die vorliegende Urkunde gehört zu einer Reihe von Urkunden, die Alexander entweder
+               1174 oder 1176 für das Kloster Rievaulx ausstellte (vgl. fe_00354, fe_00355, fe_00356
+               und fe_00357). Zu den Besitzungen und lokalen Netzwerken des Klosters Rievaulx siehe
+               die Studie von Emilia Jamroziak (vgl. <bibl>Jamroziak, Rievaulx, insb. S. 196–197</bibl>).</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
-         <listBibl>
-            <bibl>Emilia Jamroziak, Rievaulx Abbey and its Social Context, 1132–1300. Memory, Locality, and Networks. Turnhout 2005.</bibl>
-         </listBibl>
+            <listBibl>
+               <bibl>Emilia Jamroziak, Rievaulx Abbey and its Social Context, 1132–1300. Memory,
+                  Locality, and Networks. Turnhout 2005.</bibl>
+            </listBibl>
          </div>
          <div type="note">
-            <head>Notizen</head><p/><p/><p>Nach Endkorrektur löschen:</p><p/><p>Alexander episcopus seruus seruorum Dei. Dilectis filiis Sil(uano) abbati et fratribus Rieuall(ensibus) salutem et apostolicam benedictionem. Iustis petentium desideriis dignum est nos facilemprebere consensum et uota, que a rationis tramite non discordanteffectu sunt prosequenten) complenda. Eapropter, dilecti in dominofilii, uestris iustis postulationibus grato concurrentes assensu pisca-riam et alias possessiones a Bernardo de Bailloil monasterio uestropia largitione concessas et possessiones illas, quas Acharias deTonstal et Henricus de Willard(ebi) et Alardus filius eius prescriptomonasterio in perpetuam elemosinam dederunt, sicut eas rationabi-liter possidetis, uobis et per uos eidem monasterio auctoritateapostolica confirmamus et presentis scripti patrocinio communimus.Decernimus ergo, ut nulli omnino etc. Si quis autem etc. DataAnagnie II idus martii.</p>
+            <head>Notizen</head>
+            <p/>
+            <p/>
+            <p>Nach Endkorrektur löschen:</p>
+            <p/>
+            <p>Alexander episcopus seruus seruorum Dei. Dilectis filiis Sil(uano) abbati et
+               fratribus Rieuall(ensibus) salutem et apostolicam benedictionem. Iustis petentium
+               desideriis dignum est nos facilemprebere consensum et uota, que a rationis tramite
+               non discordanteffectu sunt prosequenten) complenda. Eapropter, dilecti in
+               dominofilii, uestris iustis postulationibus grato concurrentes assensu pisca-riam et
+               alias possessiones a Bernardo de Bailloil monasterio uestropia largitione concessas
+               et possessiones illas, quas Acharias deTonstal et Henricus de Willard(ebi) et Alardus
+               filius eius prescriptomonasterio in perpetuam elemosinam dederunt, sicut eas
+               rationabi-liter possidetis, uobis et per uos eidem monasterio auctoritateapostolica
+               confirmamus et presentis scripti patrocinio communimus.Decernimus ergo, ut nulli
+               omnino etc. Si quis autem etc. DataAnagnie II idus martii.</p>
          </div>
       </body>
    </text>

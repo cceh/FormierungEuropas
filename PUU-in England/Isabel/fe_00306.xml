@@ -3,10 +3,7 @@
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
 <TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen -->
    <teiHeader>
-      <fileDesc><titleStmt><title>fe_00306</title><respStmt>
-               <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
-               <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
-            </respStmt><respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt></titleStmt>
+      <fileDesc><titleStmt><title>fe_00306</title><respStmt><resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp><persName>IB</persName></respStmt><respStmt><resp when="2024">Encoding:</resp><persName>IB</persName></respStmt></titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
             <idno>PUU England 1, S. 345, Nr. 84</idno><availability>
@@ -14,12 +11,12 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>PUU England 1, S. 345, Nr. 84</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
-            <diploDesc><p><issued><placeName>Anagni</placeName><date type="issued" notBefore="1160-08-03" notAfter="1161-08-03">(1160—61) August 3.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            <bibl>PUU England 1, S. 345, Nr. 84</bibl><bibl type="jaffe">-</bibl>
+            <diploDesc><p><authen type="formula" n=""><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen><issued><placeName>Anagni</placeName><date type="issued" when="1160-08-03">(1160—61) Aug.3</date><date type="issued" when="1161-08-03"/> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p> <legalActor type="recipient">Gilbert, Bischof von Hereford</legalActor></p><p><legalActor type="recipient">Gotfried, Archidiakon von Worcester</legalActor><legalActor type="recipient"/></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">[Typisierung 1]</objectType></p>
+               <p> <legalActor type="recipient">G(ilbert Foliot), Bischof von Hereford</legalActor></p><p><legalActor type="recipient">G(otfried), Archidiakon von Worcester</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Papsturkunde, litterae cum filo canapis</objectType></p><p><objectType n="">Juristisches, Delegierung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
@@ -34,18 +31,16 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. überträgt dem Bischof G(ilbert) von Hereford und dem Archidiakon G(otfried) von Worcester die Entscheidung des Prozesses zwischen den Kanonikern von St. Sepulcre und St. Mary in Warwiclc über Pfarrechte.</p>
+            <p>Alexander III. überträgt <persName>G(ilbert), Bischof von Hereford</persName>, und <persName>G(otfried), Archidiakon von Worcester</persName>, die Entscheidung der Streitsache zwischen dem <persName>Prior Radulf</persName> und <persName>Kanonikern des <orgName>Priorats St. Sepulcre</orgName></persName> sowie dem <orgName>Kollegiatsstift St. Mary's</orgName> in <placeName>Warwick</placeName> über angeblich gewaltsam entzogene Rechte an einer Pfarrei sowie einer jährlichen Abgabe von 30 Denaren. Die Streitparteien sollen zur Anhörung geladen und der Konflikt kanonisch und unter Ausschluss der Appellation beigelegt werden.</p>
          </div>
-         <div type="other"><head>Echtheitskriterien:</head>
-            <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
-         <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
+                  <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Causam que inter canonicos ecclesie</diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">Dat. Anagn. III non. aug.</diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
                <bibl>[Original]</bibl>
-               <bibl>Chartular von St. Mary's, Warwick s. XV in., Puhl. Bec. Off.Ex- chequer, Kings Bemembrancer, Mise, books vol. 22 fol. X VIII n. 26. </bibl>
+               <bibl>Kopie: Chartular von St. Mary's, Warwick (15.-16. Jh.), London, The National Archives, Kew, E 164/22, fol. XVIII, Nr. 26</bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>
@@ -66,7 +61,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>[Edition 1]</bibl>
+               <bibl>PUU England 1, S. 345, Nr. 84</bibl>
                <bibl>[Edition 2]</bibl>
             </listBibl>
          </div>
@@ -77,9 +72,13 @@
                <bibl>[Regest 2]</bibl>
             </listBibl>
          </div>
-         <div type="commentary">
+        <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc><p>Die Datierung ergibt sich aus der Abreise Alexanders III. aus Anagni im Februar 1162 (vgl. <bibl>JL, S. 153</bibl>) und der Translation Gilbert Foliots vom Bischof von Hereford nach London im März 1163 (s. ##fe_00xxx (Versetzungsbefehl Alexanders III. o.ä.)##).</p></diploDesc>
+         </div>
+          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Bie Sentenz der Bichter folgt in der Hs. unmittelbar auf das Mandat (als n. 27). Bischof Gilbert Foliot von Hereford wurde 1163 nach London transferiert, daraus ergibt sich die Datierung.</p>
+            <p>Die Sentenz der Richter folgt in der Hs. unmittelbar auf das Mandat (vgl. <bibl>London, The National Archives, Kew, E 164/22, fol. XVIII, Nr. 27</bibl>).</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
@@ -88,10 +87,7 @@
             <bibl>[Titel 2]</bibl>
          </listBibl>
          </div>
-         <div type="note">
-            <head>Notizen</head>
-            <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
-         </div>
+         <div type="note"><head>Notizen</head><p>fe-Verweis einfügen</p><p/><p>Nach Endkorrektur löschen:</p><p>Alexander episcopus, servus servorum Dei, venerabili fratri G. Herefordensi episcopo et dilecto filio G. Wigornensi archidiacono, salutem et apostolicam benedictionem.Causam, quae inter canonicos ecclesiae Sanctae Mariae et Omnium Sanctorum et Radulphum priorem et canonicos Sancti Sepulchri super iure parochiali et annua pensione XXX denariorum, quam praedicti canonici Sanctae Mariae et Omnium Sanctorum ab ipso priore et canonicis Sancti Sepulchri sibi conqueruntur violenter auferri, noscitur agitari, discretioni vestrae committimus audiendam et fine canonico terminandam.Quocirca experientiae vestrae per apostolica scripta mandamus, quatenus utramque partem ante vestram praesentiam convocetis et, rationibus hinc inde auditis diligenter et cognitis, eandem causam, remoto appellationis obstaculo, mediante iustitia terminetis.Datum Anagniae, III Nonas Augusti.</p></div>
       </body>
    </text>
 </TEI>

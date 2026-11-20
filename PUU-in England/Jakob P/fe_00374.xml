@@ -17,9 +17,9 @@
             <diploDesc><p><authen type="formula" n="na">
                <p>-</p>
                <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-            </authen></p><p><issued><placeName>Anagni</placeName><date type="issued" when="1160-04-18">(1160—73) Apr. 18</date><date type="issued" when="1161-04-18"/><date type="issued" when="1162-04-18"/><date type="issued" when="1163-04-18"/><date type="issued" when="1164-04-18"/><date type="issued" when="1165-04-18"/><date type="issued" when="1166-04-18"/><date type="issued" when="1167-04-18"/><date type="issued" when="1168-04-18"/><date type="issued" when="1169-04-18"/><date type="issued" when="1170-04-18"/><date type="issued" when="1171-04-18"/><date type="issued" when="1172-04-18"/><date type="issued" when="1173-04-18"/> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            </authen></p><p><issued><placeName>Anagni</placeName><date type="issued" when="1160-04-18">(1160—1161/1173) Apr. 18</date><date type="issued" when="1161-04-18"/><date type="issued" when="1173-04-18"/> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
-               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p><diploDesc><legalActor type="recipient">Benediktinerabtei Westminster</legalActor></diploDesc></p>
                <p><legalActor type="recipient">Laurentius, Abt des Benediktinerkloster Westminster</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p> 
                <p><objectType n="">Juristisches, neues Recht</objectType></p>
@@ -35,7 +35,7 @@
    </teiHeader>
    <text>
       <body>
-         <div type="abstract"><head>Abstract:</head><p>Alexander III. gewährt <persName>Laurentius, Abt der Benediktinerabtei Westminster</persName> (D. London), und seinen Nachfolgern den Gebrauch von Mitra und Ring während der Messfeier an Sonntagen und anderen hohen Feiertagen, bei Prozessionen innerhalb des Klosters sowie bei päpstlichen oder episkopalen Konzilien.</p>
+         <div type="abstract"><head>Abstract:</head><p>Alexander III. gewährt <persName>Laurentius, Abt der Benediktinerabtei Westminster</persName> (D. London), und seinen Nachfolgern das Recht zum Gebrauch von Mitra und Ring während der Messfeier an Sonntagen und anderen hohen Feiertagen, bei Prozessionen des Klosters sowie bei päpstlichen oder bischöflichen Konzilien.</p>
          </div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Cum monasterium tibi commissum specialiter</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">Dat. Anagn. XIIII kal. maii.</diploPart></div>
@@ -44,7 +44,7 @@
             <div>
             <listBibl>   
                <bibl>Original: -</bibl>
-               <bibl>Kopie:  Westminster Abbey Muniment  books, vol. 11 fol. 7v.</bibl><bibl>Kopie: Chartular von Westminster (14. Jh), London, British Library, Cotton MS Faustina A III, fol. 200.</bibl>
+               <bibl>Kopie: Westminster Abbey Domesday (Anfang 14. Jh.), London, Westminster Abbey, Muniment Book 11 fol. 7v</bibl><bibl>Kopie: Chartular von Westminster (14. Jh.), London, British Library, Cotton MS Faustina A III, fol. 200</bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>
@@ -64,19 +64,19 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>PUU England 1, S. 389-390, Nr. 118</bibl>
+               <bibl/>
                <bibl/>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>Mason, Westminster, S. 86, Nr. 173</bibl>
+               <bibl>Mason, Reg. Westminster, S. 86, Nr. 173</bibl>
             </listBibl>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Die Datierung wird bestimmt durch den Tod des Abtes Laurentius im April 1173, den Holtzmann fälschlicherweise auf das Jahr  1176 datiert. Vgl. <bibl>PUU England 1, S.389</bibl>; <bibl>Mason, Westminster, S. 86</bibl>.</p>
+            <p>Die Datierung ergibt sich aus dem Itinerar Alexanders III. und dem Tod des Abtes Laurentius im April 1173, den Holtzmann fälschlicherweise in das Jahr 1176 datiert (vgl. <bibl>PUU England 1, S. 389</bibl> u. <bibl>Mason, Reg. Westminster, S. 86</bibl>).</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>

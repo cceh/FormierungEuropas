@@ -4,7 +4,7 @@
 <TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen -->
    <teiHeader>
       <fileDesc><titleStmt><title>fe_00364</title><respStmt><resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp><persName>JP</persName></respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>JP, IB</persName></respStmt>
+           <respStmt><resp when="2024">Encoding</resp><persName>JP, IB, CH</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -14,8 +14,8 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>PUU England 1, S. 414-415, Nr. 143</bibl><bibl type="jaffe">-</bibl>
-            <diploDesc><p> <authen type="formula" n=""><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></p>
-            <issued><placeName>Venedig, Rialto</placeName><date type="issued" notBefore="1177-04-02" notAfter="1177-04-02">(1177) Apr. 2</date></issued><p> <legalActor type="recipient">Walter, Abt der Benediktinerabtei Westminster</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+            <diploDesc><p> <authen type="formula" n="na"><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></p>
+            <issued><placeName>Venedig, Rialto</placeName><date type="issued" notBefore="1177-04-02" notAfter="1177-04-02">(1177) Apr. 2</date></issued><p><legalActor type="issuer">Alexander III.</legalActor></p><p> <legalActor type="recipient">Walter, Abt der Benediktinerabtei Westminster</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p>
                <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p><p/>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
@@ -31,18 +31,18 @@
    </teiHeader>
    <text>
       <body>
-         <div type="abstract"><head>Abstract:</head>
+         <div type="abstract"><head>Abstract</head>
             <p><persName>Alexander III.</persName> gewährt <persName>(Walter), Abt der Benediktinerabtei Westminster</persName> (D. London), den Gebrauch von Handschuhen während der Messe an Festtagen.</p>
          </div>
          
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Hortatur nos et admonet cura </diploPart></div>
-         <div><head>Datatio:</head><diploPart type="datatio">Dat. Venet. in Riuo alto IIII non. aprilis. </diploPart></div>
+         <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Hortatur nos et admonet cura</diploPart></div>
+         <div><head>Datatio</head><diploPart type="datatio">Dat. Venet. in Riuo alto IIII non. aprilis.</diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl>Original: -</bibl>
-               <bibl>Kopie: Westminster Abbey Domesday (Anfang 14. Jh.), London, Westminster Abbey, Muniment Book 11, fol. 7v</bibl><bibl>Kopie: Chartular von Westminster Abbey (14. Jh.), London, British Library, Cotton MS Faustina A III, fol. 170v; Kopie hiervon (17. Jh.): Oxford, Bodleian Library, MS James 24, S. 56</bibl>
+               <bibl type="Orginal">Original: -</bibl>
+               <bibl type="msCopy">Kopie: Westminster Abbey Domesday (Anfang 14. Jh.), London, Westminster Abbey, Muniment Book 11, fol. 7v</bibl><bibl type="msCopy">Kopie: Chartular von Westminster Abbey (14. Jh.), London, British Library, Cotton MS Faustina A III, fol. 170v; Kopie hiervon (17. Jh.): Oxford, Bodleian Library, MS James 24, S. 56</bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>
@@ -63,14 +63,14 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>PUU England 1, S. 414-415, Nr. 143</bibl>
+               <bibl/>
                <bibl/>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>Mason, Westminster, S. 86, Nr. 175</bibl>
+               <bibl>Mason, Reg. Westminster S. 86, Nr. 175</bibl>
                <bibl/>
             </listBibl>
          </div>

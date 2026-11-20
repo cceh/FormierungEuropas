@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
-<TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <!-- Ordnername hier ergänzen -->
    <teiHeader>
       <fileDesc>
@@ -13,7 +12,7 @@
                <persName>JP</persName>
             </respStmt>
             <respStmt>
-               <resp when="2024">Encoding:</resp>
+               <resp when="2024">Encoding</resp>
                <persName>JP, IB, FL</persName>
             </respStmt>
          </titleStmt>
@@ -61,20 +60,8 @@
             </diploDesc>
          </sourceDesc>
       </fileDesc>
-      <xenoData>
-         <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-            xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-            xmlns:as="http://www.w3.org/ns/activitystreams#"
-            xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-            xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
-            xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
-            xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
-            xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
-            xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-            xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-            xmlns:org="http://www.w3.org/ns/org#"/>
-      </xenoData>
-      <profileDesc>
+      
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
          <langUsage>
             <language ident="ger">German</language>
             <language ident="lat">Latin</language>
@@ -85,10 +72,9 @@
    <text>
       <body>
          <div type="abstract">
-            <head>Abstract:</head>
+            <head>Abstract</head>
             <p>
-               <persName>Alexander III.</persName> verleiht aufgrund von Bitten dem <orgName>Kloster
-                  St. Oswald</orgName> (D.Lincoln) unter <persName>Abt Walter</persName> ein
+               <persName>Alexander III.</persName> verleiht dem <orgName>Benediktinerkloster St. Oswald</orgName> (D.Lincoln) unter <persName>Walter</persName>, <persName>Abt von St. Oswald, </persName>ein
                Privileg und gewährt die folgenden Rechte: </p>
             <p>
                <list>
@@ -104,7 +90,7 @@
          </div>
 
          <div>
-            <head>Incipit:</head>
+            <head>Incipit</head>
             <diploPart type="incipit" xml:lang="lat">Ad hoc in beati Petri</diploPart>
          </div>
          <div>
@@ -116,7 +102,7 @@
             </diploPart>
          </div>
          <div>
-            <head>Datatio:</head>
+            <head>Datatio</head>
             <diploPart type="datatio">Dat. Anagn. XVIII kal. februarii.</diploPart>
          </div>
          <div type="msSources">
@@ -161,7 +147,7 @@
             <diploDesc>
                <p>Holtzmann datiert die vorliegende Urkunde und fe_00383 nach fe_00382 auf das Jahr
                   1160, da er davon ausgeht, dass alle drei Urkunden gleichzeitig ausgestellt
-                  wurden. Vgl. PUU England S. 336.</p>
+                  wurden (vgl. <bibl>PUU England S. 336</bibl>).</p>
             </diploDesc>
          </div>
          <div type="commentary">

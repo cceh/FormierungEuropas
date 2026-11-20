@@ -1,17 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Germ.Pont. 1, S. 86, Nr. 4</title>
-            <respStmt>
+            <title>fe_00277</title><respStmt>
                <resp>Datenquelle</resp>
-               <persName>[ggf. Name der ursprünglichen Bearbeiter*in]</persName>
+               <persName>NW</persName>
             </respStmt>
             <respStmt>
                <resp when="2026">Encoding</resp>
-               <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+               <persName>NW</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -21,12 +19,11 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>Germ.Pont. 1, S. 86, Nr. 4</bibl><bibl type="jaffe">13608</bibl>
-            <bibl>[Weiteres Konkordanzregest]</bibl>
+            <bibl>Germ. Pont. 1, S. 86, Nr. 4</bibl><bibl type="jaffe">13608</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
                <p><authen type="formula" n="na">
-                     <p>[*+?-]</p>
+                     <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
                <issued><placeName>Velletri</placeName><date type="issued" notBefore="1180-02-13" notAfter="1180-02-13">13 Februar 1180</date>
@@ -79,23 +76,21 @@
             <div>
                <listBibl>
                   <bibl type="original">[Original]</bibl>
-                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="msCopy">-</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
          <div type="decretals">
             <head>Dekretalen</head>
             <listBibl>
-               <bibl>[Dekretale 1]</bibl>
-               <bibl>[Dekretale 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>[Quelle 1]</bibl>
-               <bibl>[Quelle 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="editions">
@@ -109,7 +104,7 @@
             <head>Regesten</head>
             <listBibl>
                <bibl>JL 13608</bibl>
-               <bibl>[Regest 2]</bibl>
+               <bibl>Germ. Pont. 1, S. 86, Nr. 4</bibl><bibl>Lang, Regesta 1, S. 308</bibl>
             </listBibl>
          </div>
          <div>
@@ -125,8 +120,7 @@
          <div type="bibliography">
             <head>Bibliographie</head>
             <listBibl>
-               <bibl>[Werk 1]</bibl>
-               <bibl>[Werk 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="note">

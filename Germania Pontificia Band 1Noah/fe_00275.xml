@@ -52,7 +52,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName> </legalActor>erinnert alle Priester und Kleriker des Archidiakonats Gars an die Tugenden Gehorsam (<diploPart>obedientia</diploPart>) und Geduld (<diploPart>patientia</diploPart>) und weist sie an, <persName>H.(einrich), dem Stiftspropst des Augustiner-Chorherrenstifts Gars,</persName> der gegenüber der römischen Kirche und dem Papst lobenswerte Frömmigkeit an den Tag legt, den geschuldeten Gehorsam zu leisten und ihn wie einen Vater und Lehrer in Ehren zu halten.</p>
+            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName> </legalActor>erinnert alle Priester und Kleriker des Archidiakonats Gars an die Tugenden Gehorsam (<diploPart>obedientia</diploPart>) und Geduld (<diploPart>patientia</diploPart>) und weist sie an, <persName>H.(einrich), dem Stiftspropst des Augustiner-Chorherrenstifts Gars,</persName> der gegenüber der römischen Kirche und dem Papst lobenswerte Frömmigkeit an den Tag legt, den geschuldeten Gehorsam zu leisten und ihn wie einen Vater und Lehrer in Ehren zu halten. Sollten sie den Gehorsam weiterhin verweigern, steht es dem Stiftspropst frei, mit päpstlicher Autorität (<diploPart>auctore domino</diploPart>) über sie zu urteilen.</p>
          </div>
 
          <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Qui magistris et prelatis suis</diploPart></div>
@@ -67,7 +67,7 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">München, Bayerisches Hauptstaatsarchiv, ##XXX##</bibl>
+                  <bibl type="original">München, Bayerisches Hauptstaatsarchiv, Kloster Gars Urkunden 2; digital verfügbar unter: https://urkundenrepositorium.uni-marburg.de/handle/lba/8880</bibl>
                   <bibl type="msCopy">-</bibl>
                   <bibl type="print">-</bibl>
                </listBibl>
@@ -94,7 +94,7 @@
          <div type="regesta">
             <head>Regesten</head>
             <listBibl>
-               <bibl>JL 14301</bibl><bibl>Germ. Pont. 1, S. 80, Nr. 1</bibl>
+               <bibl>JL 14301</bibl><bibl>Germ. Pont. 1, S. 80, Nr. 1 (1171/1172 Jun. 15)</bibl>
             </listBibl>
          </div>
          <div>
@@ -115,7 +115,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[Ref-Point 2? / Archiv anfragen!]</p>
+            <p>[Ref-Point 2? / wirklich päpstl. Autorität?]</p>
          </div>
          <!--  Bei den Dateien aus RI stehen hier der Inhalt aus der Tabellenspalte "footnote", Annotationen sind als <note> aufgenommen.-->
       </body>

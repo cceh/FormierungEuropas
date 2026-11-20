@@ -7,7 +7,7 @@
                <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
                <persName>JP</persName>
             </respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>JP, IB</persName></respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>JP, IB, CH</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -36,17 +36,17 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p><persName>Alexander III.</persName> beauftragt den apostolischen Legaten <persName>(Richard), Erzbischof von Canterbury</persName>, mit der Durchsetzung des von <persName>(Silvanus), Abt der Zisterzienserabtei Rievaulx</persName>, und <persName>(Gregor), Prior des <orgName>Augustiner-Chorherrenstifts Bridlington</orgName></persName>, getroffenen Urteils im Streit zwischen der <orgName>Prämonstratenserabtei Newhouse</orgName> (D. Lincoln) und den <orgName>Benediktinerinnen von Elstow</orgName> (D. Lincoln) um den Besitz der Kirche von <placeName>Halton</placeName>. <list> <item>Auf Grundlage des Briefes von (Silvanus) und (Gregor) sei offensichtlich geworden, dass die Kanoniker von Newhouse die Kirche von Halton infolge der Präsentation durch den Grundherrn und kraft bischöflicher Autorität durch kanonische Einsetzung erhalten hätten.</item><item>Dies sei durch die älteren und ehrwürdigeren Männer der Kirchenprovinz eidlich bestätigt worden.</item><item>Ebenso sei vor demjenigen, der die Amtsgeschäfte des Archidiakons wahrnahm, auf einem Provinzialkapitel bezeugt worden, dass die Nonnen die Kirche seit mehr als 40 Jahren nicht mehr besessen hätten.</item><item>Alexander III. beauftragt (Richard), Erzbischof von Canterbury, dafür zu sorgen, dass die Kanoniker von Newhouse die Kirche von Halton ungestört besitzen können.</item><item>Bei Zuwiderhandlung solle den Nonnen unter Ausschluss jeder Appellation immerwährendes Schweigen auferlegt werden.</item><item>Auch den Suffraganen des Erzbischofs soll aufgetragen werden, während dessen Abwesenheit zu verhindern, dass die Nonnen die Kanoniker belästigen oder bedrängen.</item> </list></p>
+            <p><persName>Alexander III.</persName> beauftragt den apostolischen Legaten <persName>(Richard), Erzbischof von Canterbury</persName>, mit der Durchsetzung des von <persName>(Silvanus), Abt der Zisterzienserabtei Rievaulx</persName>, und <persName>(Gregor), Prior des <orgName>Augustiner-Chorherrenstifts Bridlington</orgName></persName>, getroffenen Urteils im Streit zwischen der <orgName>Prämonstratenserabtei Newhouse</orgName> (D. Lincoln) und den <orgName>Benediktinerinnen von Elstow</orgName> (D. Lincoln) um den Besitz der Kirche von <placeName>Halton</placeName>. Er weist ihn an:<list> <item>dafür zu sorgen, dass die Kanoniker von Newhouse die Kirche von Halton ungestört besitzen können.</item><item>den Nonnen bei Zuwiderhandlung unter Ausschluss jeder Appellation Schweigen aufzuerlegen</item><item>seinen Suffraganen aufzutragen, auch während seiner Abwesenheit zu verhindern, dass die Nonnen die Kanoniker belästigen oder bedrängen</item></list>Zur Begründung der Entscheidung führt er aus: <list><item>Aus dem Schreiben von (Silvanus) und (Gregor) sei offensichtlich geworden, dass die Kanoniker von Newhouse die Kirche von Halton infolge der Präsentation durch den Grundherrn und kraft bischöflicher Autorität durch kanonische Einsetzung erhalten hätten.</item><item>Dies sei durch die älteren und ehrwürdigeren Männer der Kirchenprovinz eidlich bestätigt worden.</item><item>Ebenso sei vor demjenigen, der die Amtsgeschäfte des Archidiakons wahrnahm, auf einem Provinzialkapitel bezeugt worden, dass die Nonnen die Kirche seit mehr als 40 Jahren nicht mehr besessen hätten.</item></list></p>
          </div>
          
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Ex litteris dilectorum filiorum nostrorum </diploPart></div>
+         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Ex litteris dilectorum filiorum nostrorum</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">Dat. Venet. in Riuo alto X. kal. iunii. </diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl>Original: -</bibl>
-               <bibl>Kopie: Inseriert in ein Mandat Richards von Canterbury, London, British Library, Harley Ch 43 G 24</bibl>
+               <bibl type="Original">Original: -</bibl>
+               <bibl type="msCopy">Kopie: Inseriert in ein Mandat Richards von Canterbury, London, British Library, Harley Ch 43 G 24</bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>
