@@ -23,7 +23,7 @@
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Tusculanum</placeName><date type="issued" notBefore="1171-02-10" notAfter="1171-02-10">1171 Feb. 10</date>
+               <issued><placeName>Tusculanum</placeName><date type="issued" when="1171-02-10">1171 Feb. 10</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
@@ -52,6 +52,8 @@
             <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName> </legalActor>gewährt auf Bitten des <legalActor cert="high" type="recipient" xml:space="default"><persName>Abts Liutold</persName></legalActor> dem <legalActor cert="high" type="beneficiary" xml:space="default"><orgName>Benediktinerkloster Admont</orgName></legalActor> (D. ) folgende Rechte:<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
+            <p>Ferner legt er fest:<list><item>x</item></list></p>
+            <p>Schlussformeln: .</p>
          </div>
 
          <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Officii nostri nos ammonet et</diploPart></div>
