@@ -68,11 +68,9 @@
             </listBibl>
          </div>
          <div type="editions">
-            <head>Editionen</head>
-            <listBibl>
-               <bibl>PUU England 1, S. 403-404, Nr. 134</bibl><bibl>Chart. Rievaulx, S. 196  Nr. 264</bibl>
+            <head>Editionen<bibl>Chart. Rievaulx, S. 196  Nr. 264</bibl>
                <bibl/>
-            </listBibl>
+            </head>
          </div>
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
