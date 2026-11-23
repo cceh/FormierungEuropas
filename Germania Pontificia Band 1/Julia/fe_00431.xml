@@ -76,8 +76,7 @@
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften
-                     können auch in drei separaten Listen gruppiert werden.]</item>
+                  <item>-</item>
                </list></diploPart>
          </div>
          <div>
@@ -97,23 +96,16 @@
          </div>
          <div type="decretals">
             <head>Dekretalen</head>
-            <listBibl>
-               <bibl>-</bibl>
-               <bibl/>
-            </listBibl>
+            <listBibl><bibl>-</bibl></listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
-            <listBibl>
-               <bibl>-</bibl>
-               <bibl/>
-            </listBibl>
+            <listBibl><bibl>-</bibl></listBibl>
          </div>
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
                <bibl>Brackmann, Studien und Vorarbeiten 1, S. 248, Nr. 20</bibl>
-               <bibl>[Edition 2]</bibl>
             </listBibl>
          </div>
          <div type="regesta">
