@@ -2,7 +2,7 @@
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc><titleStmt><title>fe_00416</title><respStmt><resp>Datenquelle</resp><persName>JB</persName></respStmt>
-            <respStmt><resp when="2026">Encoding</resp><persName>JB</persName></respStmt>
+            <respStmt><resp when="2026">Encoding</resp><persName>JB, NW</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -12,7 +12,6 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>Germ. Pont. 1, S. 367, Nr. 13</bibl><bibl type="jaffe">12857</bibl>
-            <bibl>[Weiteres Konkordanzregest]</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
                <p><authen type="formula" n="na">
@@ -27,7 +26,7 @@
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, Litterae cum filo canapis</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">Anweisung, Wiederherstellung von Recht</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
+               <p><objectType n="">Anweisung, Wiederherstellung von Recht</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
@@ -45,7 +44,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor><persName>Alexander III.</persName> </legalActor>weist <legalActor><persName>Adalbert, Erzbischof von Salzburg</persName></legalActor>, an, H., C. und deren Söhne zu ermahnen, das den Brüdern des Benediktinerklosters Tegernsee (D. Freising) gehörende Allodialgut in den Salinen zurückzugeben, gegebenenfalls unter Androhung der Exkommunikation. </p>
+            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName></legalActor> weist Adalbert, den Erzbischof von Salzburg, an, H., C. und deren Söhne zu ermahnen, das den Brüdern des Benediktinerklosters Tegernsee (D. Freising) gehörende Allodialgut in den Salinen zurückzugeben, gegebenenfalls unter Androhung der Exkommunikation. </p>
          </div>
 
          <div>
