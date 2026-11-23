@@ -52,15 +52,14 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>Alexander III.]<list>
+            <p>Alexander III.<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
 
          <div>
             <head>Incipit</head>
-            <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
-         </div>
+            <diploPart type="incipit" xml:lang="lat">Admonet nos et hortatur suscepti</diploPart></div>
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
