@@ -16,7 +16,7 @@
          <sourceDesc>
             <bibl>PUU England 1, S. 343-344, Nr. 82</bibl><bibl type="jaffe">-</bibl>
             <diploDesc><p><authen type="formula" n=""><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen><issued><placeName>Anagni</placeName><date type="issued" when="1160-11-23">(1160) Nov. 23</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
-               </issued></p><p><legalActor type="issuer">Alexander III.</legalActor></p><p><legalActor type="recipient">Zisterzienserkloster Rievaulx</legalActor></p><p><legalActor type="recipient">Aelred, Abt des Zisterzienserklosters Rievaulx</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType n="">Papsturkunde, litterae cum filo canapis</objectType></p><p><objectType n="">Anweisung, Schutzmaßnahme</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+               </issued></p><p><legalActor type="issuer">Alexander III.</legalActor></p><p><legalActor type="recipient">Zisterzienserkloster Rievaulx</legalActor></p><p><legalActor type="recipient">Aelred, Abt des Zisterzienserklosters Rievaulx</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType n="">Papsturkunde, litterae cum filo canapis</objectType></p><p><objectType n="">Juristisches, Schutzmaßnahme</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
       </fileDesc>
@@ -83,7 +83,7 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Holtzmann verweist darauf, dass die Urkunde nahezu gleichzeitig mit dem großen Privileg für Rievaulx vom 20. November 1160 (<bibl>JL 10635</bibl>; ##fe_00xxx##) ausgestellt wurde (vgl. <bibl>PUU England 1, S. 343</bibl>). Zur Natur und Erscheinungsform der Privilegierung des Zisterzienserordens im 12. Jahrhundert siehe die Studie von Friedrich Pfurtscheller (<bibl>Pfurtscheller, Privilegierung, S. 16-175</bibl>).</p>
+            <p>Holtzmann verweist darauf, dass die Urkunde nahezu gleichzeitig mit dem großen Privileg für Rievaulx vom 20. November 1160 (<bibl>JL 10635</bibl>; ##fe_00xxx##) ausgestellt wurde (vgl. <bibl>PUU England 1, S. 343</bibl>). Zur Einordnung der päpstlichen Privilegierung des Zisterzienserordens im 12. Jahrhundert siehe<bibl>Pfurtscheller, Privilegierung, S. 16-175</bibl>.</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
