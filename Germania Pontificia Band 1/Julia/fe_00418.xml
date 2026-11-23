@@ -56,31 +56,22 @@
             <div>
                <listBibl>
                   <bibl type="original">München, Bayerisches Hauptstaatsarchiv, Kloster Tegernsee, Urk. 1179 III 12; digital verfügbar unter: https://papal-bulls.adw-goe.de/charters/2311</bibl>
-                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="msCopy">-</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
          <div type="decretals">
             <head>Dekretalen</head>
-            <listBibl>
-               <bibl>-</bibl>
-               <bibl/>
-            </listBibl>
+            <listBibl><bibl>-</bibl></listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
-            <listBibl>
-               <bibl>-</bibl>
-               <bibl/>
-            </listBibl>
+            <listBibl><bibl>-</bibl></listBibl>
          </div>
          <div type="editions">
             <head>Editionen</head>
-            <listBibl>
-               <bibl>Monumenta Boica 6, S. 186-188, Nr. 25</bibl><bibl>Hund-Gewold, Metropolis Salisburgensis 3, S. 277-278</bibl>
-               <bibl/>
-            </listBibl>
+            <listBibl><bibl>Monumenta Boica 6, S. 186-188, Nr. 25</bibl><bibl>Hund-Gewold, Metropolis Salisburgensis 3, S. 277-278</bibl></listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head>
