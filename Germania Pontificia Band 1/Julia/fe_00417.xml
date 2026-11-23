@@ -64,29 +64,22 @@
             <div>
                <listBibl>
                   <bibl type="original">Deperditum, erwähnt im Schreiben des Propstes Otto von Raitenbuch an Rupert, Abt von Tegernsee (vgl. Plechl, Studien 3, S. 407, Nr. 117)</bibl>
-                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="msCopy">-</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
          <div type="decretals">
             <head>Dekretalen</head>
-            <listBibl>
-               <bibl>-</bibl>
-               <bibl/>
-            </listBibl>
+            <listBibl><bibl>-</bibl></listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
-            <listBibl>
-               <bibl>-</bibl>
-               <bibl/>
-            </listBibl>
+            <listBibl><bibl>-</bibl></listBibl>
          </div>
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl/>
                <bibl>[Edition 2]</bibl>
             </listBibl>
          </div>
@@ -110,8 +103,7 @@
          <div type="bibliography">
             <head>Bibliographie</head>
             <listBibl>
-               <bibl>[Werk 1]</bibl>
-               <bibl>[Werk 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="note">
