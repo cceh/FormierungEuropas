@@ -32,7 +32,7 @@
          <div type="abstract"><head>Abstract:</head>
             <p>Alexander III. verbietet auf Bitten der <orgName>Mönche</orgName> des <orgName>Zisterzienserklosters Rievaulx</orgName> und ihres <persName>Abts Aelred</persName> Mönchen anderer Orden, in die Weiden und Besitzungen der Abtei einzudringen.</p>
          </div>
-                  <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustis petentium desideriis facilem</diploPart></div>
+                  <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustis petentium desideriis facilem nos</diploPart></div>
                   <div>
             <head> Subscriptiones </head>
             <diploPart type="subscriptio" xml:lang="lat">
@@ -46,7 +46,7 @@
             <div>
             <listBibl>   
                <bibl>[Original]</bibl>
-               <bibl>Chartular von Rievaulx (1175-1399), London, British Library, Cotton MS Julius D I, fol. 179, Nr. 219</bibl>
+               <bibl>Kopie: Chartular von Rievaulx (1175-1399), London, British Library, Cotton MS Julius D I, fol. 179, Nr. 219</bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>
@@ -67,7 +67,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl/><bibl>PUU England 1, S. 343-344, Nr. 82</bibl><bibl>Chart. Rievaulx, S. 190, Nr. 255</bibl>
+               <bibl>PUU England 1, S. 343-344, Nr. 82</bibl><bibl>Chart. Rievaulx, S. 190, Nr. 255</bibl>
                <bibl>[Edition 2]</bibl>
             </listBibl>
          </div>
