@@ -17,7 +17,7 @@
             <diploDesc><p> <authen type="formula" n="na"><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></p>
             <issued><placeName>Venedig, Rialto</placeName><date type="issued" notBefore="1177-04-02" notAfter="1177-04-02">(1177) Apr. 2</date></issued><p><legalActor type="issuer">Alexander III.</legalActor></p><p> <legalActor type="recipient">Walter, Abt der Benediktinerabtei Westminster</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p>
-               <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p><p/>
+               <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
@@ -41,8 +41,7 @@
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl type="original">Original: -</bibl>
-               <bibl type="msCopy">Kopie: Westminster Abbey Domesday (Anfang 14. Jh.), London, Westminster Abbey, Muniment Book 11, fol. 7v</bibl><bibl type="msCopy">Kopie: Chartular von Westminster Abbey (14. Jh.), London, British Library, Cotton MS Faustina A III, fol. 170v; Kopie hiervon (17. Jh.): Oxford, Bodleian Library, MS James 24, S. 56</bibl>
+               <bibl type="original"/><bibl type="msCopy">Westminster Abbey Domesday (Anfang 14. Jh.), London, Westminster Abbey, Muniment Book 11, fol. 7v</bibl><bibl type="msCopy">Chartular von Westminster Abbey (14. Jh.), London, British Library, Cotton MS Faustina A III, fol. 170v; Kopie hiervon (17. Jh.): Oxford, Bodleian Library, MS James 24, S. 56</bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>
