@@ -18,7 +18,7 @@
             <diploDesc> <p><authen type="formula" n="na">
                   <p>-</p>
                </authen></p><p><issued><placeName>Anagni</placeName><date type="issued" when="1176-02-27">(1176) Feb. 27</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
-               </issued></p><p> <legalActor type="recipient">Prior der Benediktinerabtei von Chertsey</legalActor></p> <p> <legalActor type="recipient">Mönche der Benediktinerabtei von Chertsey</legalActor></p>  <!-- kann enthalten: persName/orgName, ggf roleName -->
+               </issued></p><p><legalActor type="issuer">Alexander III.</legalActor></p><p> <legalActor type="recipient">Prior der Benediktinerabtei von Chertsey</legalActor></p> <p> <legalActor type="recipient">Mönche der Benediktinerabtei von Chertsey</legalActor></p>  <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p>
                <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
@@ -35,8 +35,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-           <p> Alexander III. verleiht der Benediktinerabtei Chertsey (D. Winchester) unter dem Prior und den Mönchen der Abtei von Chertsey (D. Winchester) ein Privileg und gewährt die folgenden Rechte: <list>
-               <item>Bestätigung der Nutzung des Zehnten der Dörfer Chertsey, Egham, Thorpe und Chobham für die Wiederherstellung des Klosters und deren Wirtschaftsgebäuden (<diploPart type="other">officinae</diploPart>), die auf den Rat des verstorbenen Bischof von Winchester, Wilhelm Giffard, mit Zustimmung des gesamten Kapitels, auf Dauer zu diesem Zweck bestimmt wurde.</item></list></p><p>Ferner legt er fest:</p><p><list><item>dass dem Abt von Chertsey nicht erlaubt sei, die genannten Zehnten einzubehalten und einem anderen Nutzen zuzuführen, stattdessen sollen zwei rechtschaffene Männer diesen Zehnten für die Wiederherstellung des Klosters verwalten </item><item>Verbot die urkundliche Bestätigung zu beeinträchtigen oder ihr zuwiderzuhandeln. </item></list>Schlussformeln: Sanctio negativa
+           <p> Alexander III. verleiht der Benediktinerabtei Chertsey (D. Winchester) unter dem Prior und den Mönchen der Abtei von Chertsey (D. Winchester) ein Privileg und gewährt die folgenden Rechte: <list><item>Bestätigung der Nutzung des Zehnten der Dörfer Chertsey, Egham, Thorpe und Chobham für die Wiederherstellung des Klosters und deren Wirtschaftsgebäuden (<diploPart type="other">officinae</diploPart>), die auf den Rat des verstorbenen Bischof von Winchester, Wilhelm Giffard, mit Zustimmung des gesamten Kapitels, auf Dauer zu diesem Zweck bestimmt wurde</item></list></p><p>Ferner legt er fest:</p><p><list><item>dass dem Abt von Chertsey nicht erlaubt sei, die genannten Zehnten einzubehalten und einem anderen Nutzen zuzuführen, stattdessen sollen zwei rechtschaffene Männer diesen Zehnten für die Wiederherstellung des Klosters verwalten </item><item>Verbot die urkundliche Bestätigung zu beeinträchtigen oder ihr zuwiderzuhandeln. </item></list>Schlussformeln: Sanctio negativa
                 </p>
          </div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustis pententium desideriis dignum est</diploPart></div>
