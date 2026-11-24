@@ -72,30 +72,24 @@
          </div>
          <div type="decretals">
             <head>Dekretalen</head>
-            <listBibl>
-               <bibl>-</bibl>
-               <bibl/>
-            </listBibl>
+            <listBibl><bibl>-</bibl></listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
-            <listBibl>
-               <bibl>-</bibl>
-               <bibl/>
-            </listBibl>
+            <listBibl><bibl>-</bibl></listBibl>
          </div>
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
                <bibl>Plechl, Tegernseer Briefsammlung, S. 24, Nr. 16</bibl>
-               <bibl>Pez, Thesaurus anecdotorum VI, 1, Sp. 396-397, Nr. 13</bibl>
+               <bibl>Pez, Thesaurus anecdotorum 6, 1, Sp. 396-397, Nr. 13</bibl>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head>
             <listBibl>
                <bibl>JL 13864</bibl>
-               <bibl>Germ. Pont. 1, S. 372, Nr. 5 (datiert 1159-1181)</bibl><bibl>Plechl, Studien 4, 2, S. 419, Nr. 51</bibl>
+               <bibl>Germ. Pont. 1, S. 372, Nr. 5 (datiert 1159-1181)</bibl><bibl>##Plechl, Tegernseer Briefsammlung, S. 24, Nr. 16##</bibl><bibl>Plechl, Studien 4, 2, S. 419, Nr. 51</bibl>
             </listBibl>
          </div>
          <div>
