@@ -25,7 +25,7 @@
 <date type="issued" when="1178-05-09"/><date type="issued" when="1179-05-09"/> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p> <legalActor type="recipient">Prokurator <legalActor type="recipient">des Hospitals von St. Peter's (St. Leonard's), York</legalActor></legalActor></p><p><legalActor type="recipient">Brüder des Hospitals von St. Peter's (St. Leonard's), York</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient">Prokurator des Hospitals von St. Peter's (St. Leonard's), York</legalActor></p><p><legalActor type="recipient">Brüder des Hospitals von St. Peter's (St. Leonard's), York</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p>
                 <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
