@@ -18,7 +18,7 @@
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>–</placeName><date type="issued" notBefore="1179-01-01" notAfter="1180-12-31">(1180 Sep.-Okt.)</date>
+               <issued><placeName>–</placeName><date type="issued" notBefore="1180-09-01" notAfter="1180-10-31">(1180 Sep.-Okt.)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Petrus de Bono, Kardinalpriester von Santa Susanna</legalActor></p>
