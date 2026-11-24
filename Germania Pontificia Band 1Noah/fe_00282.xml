@@ -26,7 +26,7 @@
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Tusculanum</placeName><date type="issued" notBefore="1171-01-31" notAfter="1171-01-31">1171 Jan. 31</date>
+               <issued><placeName>Tusculanum</placeName><date type="issued" when="1171-01-31">1171 Jan. 31</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
@@ -52,8 +52,8 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>Alexander III. gewährt auf Bitten des Propsts Werner dem Augustiner-Chorherrenstift Seckau (D. Salzburg) folgende Rechte:]<list>
-                  <item>[Listeneintrag 1]</item>
+            <p>Alexander III. gewährt auf Bitten des Propsts Werner dem Augustiner-Chorherrenstift Seckau (D. Salzburg) folgende Rechte:<list>
+                  <item>x</item>
                </list></p>
          </div>
 
