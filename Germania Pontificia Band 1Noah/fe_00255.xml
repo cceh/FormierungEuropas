@@ -35,7 +35,7 @@
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">Adalbert, Erzbischof von Salzburg</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">Papsturkunde, Litterae cum filo canapis</objectType></p>
+               <p><objectType n="">Papsturkunde, Litterae (cum filo canapis)</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
                <p><objectType n="">Anweisung, Exkommunikation</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
@@ -73,7 +73,7 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">Deperditum, erwähnt in Mandat Alexanders III. vom Juni 1174 (##FE Nr. 00257)</bibl>
+                  <bibl type="original">-</bibl>
                   <bibl type="msCopy">-</bibl>
                   <bibl type="print">-</bibl>
                </listBibl>
