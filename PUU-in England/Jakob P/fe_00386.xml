@@ -7,7 +7,7 @@
                <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
                <persName>JP</persName>
             </respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>JP</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -20,10 +20,11 @@
             <diploDesc><p><authen type="formula" n="na">
                <p>[-]</p>
                <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-            </authen></p><p><issued><placeName>Laterano</placeName><date type="issued" notBefore="1179-02-27" notAfter="1179-02-27">(1179) Feb. 27</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            </authen></p><p><issued><placeName>Lateran</placeName><date type="issued" notBefore="1179-02-27" notAfter="1179-02-27">(1179) Feb. 27</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p> <legalActor type="recipient">Abt und Konvent der Benediktinerabtei Evesham</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><legalActor type="recipient">Benediktinerabtei Evesham</legalActor></p>
+               <p> <legalActor type="recipient">Abt der Benediktinerabtei Evesham</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p>
                  <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
@@ -40,7 +41,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. bestätigt auf Bitten des Abtes und des Konvents des Klosters Evesham (D. Worcester) den Besitz des Priorats Odense in Dänemark, das dem Kloster auf Anraten und mit Zustimmung des Diözesanbischofs Hubald vom ehemaligen König der Dänen, Erik, übertragen worden war, wie es in den darüber ausgestellten authentischen Urkunden bezeugt ist.<list><item>Schlussformeln: Perturbationsformel, Sanctio negativa.</item></list> </p>
+            <p><legalActor><persName>Alexander III.</persName></legalActor> verleiht dem <orgName>Augustinerpriorat Stone</orgName> (D. Coventry) ein Privileg, bestätigt die folgenden Besitzungen und gewährt die folgenden Rechte:Alexander III. bestätigt auf Bitten des Abtes und des Konvents des Klosters Evesham (D. Worcester) den Besitz des Priorats Odense in Dänemark, das dem Kloster auf Anraten und mit Zustimmung des Diözesanbischofs Hubald vom ehemaligen König der Dänen, Erik, übertragen worden war, wie es in den darüber ausgestellten authentischen Urkunden bezeugt ist.<list><item>Schlussformeln: Perturbationsformel, Sanctio negativa.</item></list> </p>
          </div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Cum deuoti ecclesie filii id</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">Dat. Lat. III kal. martii.</diploPart></div>
