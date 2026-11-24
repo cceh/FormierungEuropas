@@ -69,10 +69,7 @@
                   <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
                </list></diploPart>
          </div>
-         <div>
-            <head>Datatio</head>
-            <diploPart type="datatio">[Diplomatische Transkription der Datierungszeile]</diploPart>
-         </div>
+         <div><head>Datatio</head><diploPart type="datatio">Data Tusculani per manum Gratiani sancte Romane ecclesie subdiaconi et notarii, secundo kalendas Februarii, indictione quarta, incarnationis dominice anno MCLXX (!), pontificatus vero domini Alexandri pape tertii anno duodecimo.</diploPart></div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
