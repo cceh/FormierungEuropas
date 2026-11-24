@@ -44,7 +44,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Petrus de Bono, der Kardinalpriester der Titelkirche Santa Susanna und zugleich apostolischer Legat,</persName></legalActor> weist Rupert, den Abt des Benediktinerklosters Tegernsee, an, persönlich vor ihm zu erscheinen.</p>
+            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Petrus de Bono, der Kardinalpriester der Titelkirche Santa Susanna und zugleich apostolischer Legat,</persName></legalActor> weist <legalActor cert="high" type="recipient" xml:space="default"><persName>Rupert, den Abt des Benediktinerklosters Tegernsee,</persName></legalActor> an, persönlich vor ihm zu erscheinen.</p>
          </div>
 
          <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">-</diploPart></div>
