@@ -29,7 +29,7 @@
                <issued><placeName>Tusculanum</placeName><date type="issued" notBefore="1171-01-31" notAfter="1171-01-31">1171 Jan. 31</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
-               <p><legalActor type="issuer">[Aussteller]</legalActor></p>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">[Empfänger]</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p>
@@ -52,7 +52,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p>[Regestentext. Quellenzitate (diploPart) sind zulässig.]<list>
+            <p>Alexander III. gewährt auf Bitten des Propsts Werner dem Augustiner-Chorherrenstift Seckau (D. Salzburg) folgende Rechte:]<list>
                   <item>[Listeneintrag 1]</item>
                </list></p>
          </div>
