@@ -47,8 +47,7 @@
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl type="original">Original: -</bibl>
-               <bibl type="msCopy">Kopie: Templerchartular (15. Jh.), British Library, Nero MS Cotton C IX, fol. 23</bibl>
+               <bibl type="original"/><bibl type="msCopy"> Templerchartular (15. Jh.), British Library, Nero MS Cotton C IX, fol. 23</bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>
@@ -69,7 +68,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>PUU England 1, S. 417, Nr. 145</bibl>
+               <bibl/>
                <bibl>[Edition 2]</bibl>
             </listBibl>
          </div>
