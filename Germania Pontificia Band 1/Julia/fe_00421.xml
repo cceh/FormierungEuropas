@@ -2,7 +2,7 @@
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc><titleStmt><title>fe_00421</title><respStmt><resp>Datenquelle</resp><persName>JB</persName></respStmt>
-            <respStmt><resp when="2026">Encoding</resp><persName>JB</persName></respStmt>
+            <respStmt><resp when="2026">Encoding</resp><persName>JB, NW</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -12,7 +12,6 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>Germ. Pont. 1, S. 372, Nr. 4</bibl><bibl type="jaffe">13178</bibl>
-            <bibl>[Weiteres Konkordanzregest]</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
                <p><authen type="formula" n="na">
@@ -26,7 +25,7 @@
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, Litterae cum serico</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
+               <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
