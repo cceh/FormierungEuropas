@@ -7,7 +7,7 @@
                <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
                <persName>JP</persName>
             </respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>JP</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -19,7 +19,7 @@
             <bibl>PUU England 1, S. 419, Nr. 147</bibl><bibl type="jaffe">-</bibl>
             <diploDesc><p>
                <authen type="formula" n=""><p>[-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen>
-               <issued><placeName>Venezia, Rialto</placeName><date type="issued" notBefore="1177-06-16" notAfter="1177-06-16">(1177) Jun. 16</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+               <issued><placeName>Venedig, Rialto</placeName><date type="issued" notBefore="1177-06-16" notAfter="1177-06-16">(1177) Jun. 16</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">Augustinerabtei Haughmond</legalActor></p> <p> <legalActor type="recipient">Abt der Abtei Haughmond</legalActor></p>  <!-- kann enthalten: persName/orgName, ggf roleName -->
