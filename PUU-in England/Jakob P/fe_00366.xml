@@ -20,7 +20,7 @@
             <bibl>PUU England 1, S. 417, Nr. 145</bibl><bibl type="jaffe">-</bibl>
             <diploDesc><p> <authen type="formula" n="na"><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></p> <issued><placeName>Ferrara</placeName><date type="issued" when="1177-05-06">(1177) Mai 6</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued>
-               <p/><p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Templerorden</legalActor></p> <p> <legalActor type="recipient">Meister des Templerordens</legalActor></p> <p> <legalActor type="recipient">Brüder des Templerordens</legalActor></p>  <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p>
                <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
@@ -38,7 +38,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract</head>
-            <p><persName>Alexander III.</persName> verleiht dem <persName>Meister des Templerordens</persName> und den Brüdern des <orgName>Templerordens</orgName> ein Privileg und bestätigt die folgenden Besitzungen und gewährt die folgenden Rechte:<list><item>Bestätigung der geschlossenen Vereinbarung zwischen dem Templerorden und den <orgName>Mönchen der Kirche von Ely</orgName> (D. Ely) und <persName>G(otfried), Bischof von Ely</persName>, auf Grundlage einer vorliegenden Urkunde</item><item>Perturbationsverbot</item></list>Schlussformeln: Sanctio negativa</p><p/>
+            <p><persName>Alexander III.</persName> verleiht dem <persName>Meister des Templerordens</persName> und den Brüdern des <orgName>Templerordens</orgName> ein Privileg und bestätigt die folgenden Besitzungen und gewährt die folgenden Rechte:<list><item>Bestätigung der geschlossenen Vereinbarung zwischen dem Templerorden und den Mönchen der Kirche von Ely (D. Ely) und <persName>G(otfried), Bischof von Ely</persName>, auf Grundlage einer vorliegenden Urkunde</item><item>Perturbationsverbot</item></list>Schlussformeln: Sanctio negativa</p><p/>
          </div>
          
          <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Cum inter vos et monachos</diploPart></div>
