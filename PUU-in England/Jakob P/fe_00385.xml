@@ -20,10 +20,11 @@
             <diploDesc><p><authen type="formula" n="na">
                <p>[-]</p>
                <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-            </authen></p><p><issued><placeName>Laterano</placeName><date type="issued" notBefore="1178-05-29" notAfter="1179-05-29">(1178—79) Mai 29</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            </authen></p><p><issued><placeName>Laterano</placeName><date type="issued" notBefore="1178-05-29" notAfter="1179-05-29">(1178—1179) Mai 29</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p> <legalActor type="recipient">Prior und Kanoniker des Augustinerpriorats Stone</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient">Augustinerpriorat Stone</legalActor></p> 
+                <p> <legalActor type="recipient">Prior des Augustinerpriorats Stone</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p>
                <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
