@@ -41,12 +41,10 @@
                   <legalActor type="issuer">Alexander III.</legalActor>
                </p>
                <p>
-                  <legalActor type="recipient">Benediktinerkloster St. Oswald in
-                     Bardney</legalActor>
+                  <legalActor type="recipient">Benediktinerkloster Bardney</legalActor>
                </p>
                <p>
-                  <legalActor type="recipient">Walter, Abt des Benediktinerklosters St. Oswald in
-                     Bardney</legalActor>
+                  <legalActor type="recipient">Walter, Abt des Benediktinerklosters Bardney</legalActor>
                </p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p>
@@ -74,7 +72,7 @@
          <div type="abstract">
             <head>Abstract</head>
             <p>
-               <persName>Alexander III.</persName> verleiht dem <orgName>Benediktinerkloster St. Oswald</orgName> (D. Lincoln) unter <persName>Walter</persName>, <persName>Abt von St. Oswald, </persName>ein
+               <persName>Alexander III.</persName> verleiht dem <orgName>Benediktinerkloster Bardney </orgName>(D. Lincoln) unter <persName>Walter</persName>, <persName>Abt von Bardney, </persName>ein
                Privileg und gewährt die folgenden Rechte: </p>
             <p>
                <list>
@@ -130,7 +128,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>PUU England 1, S. 335-336, Nr. 76</bibl>
+               <bibl/>
                <bibl/>
             </listBibl>
          </div>
