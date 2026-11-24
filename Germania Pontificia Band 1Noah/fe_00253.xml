@@ -49,7 +49,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName></legalActor> bestätigt dem <legalActor cert="high" type="recipient" xml:space="default"><orgName>Benediktinerkloster Millstatt</orgName></legalActor> (D. Gurk) den Besitz der Kapelle St. Focatus sowie weiterer Kapellen.</p>
+            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName></legalActor> bestätigt dem <legalActor cert="high" type="recipient" xml:space="default"><orgName>Benediktinerkloster Millstatt</orgName></legalActor> (D. Salzburg) den Besitz der Kapelle St. Focatus sowie weiterer Kapellen.</p>
          </div>
 
          <div>
@@ -70,7 +70,7 @@
             <head>Frühester Überlieferungsträger</head>
             <div>
                <listBibl>
-                  <bibl type="original">Deperditum, erwähnt in der Millstätter Registratur aus dem Ende des 16. Jahrhunderts (vgl.<bibl>Monumenta historica ducatus Carinthiae 3, S. 461, Nr. 1221)</bibl>-</bibl>
+                  <bibl type="original">-</bibl>
                   <bibl type="msCopy">-</bibl>
                   <bibl type="print">-</bibl>
                </listBibl>
