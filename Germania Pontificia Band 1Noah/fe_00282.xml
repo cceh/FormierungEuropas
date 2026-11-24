@@ -20,11 +20,10 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>Germ.Pont. 1, S. 97, Nr. 1</bibl><bibl type="jaffe">11876</bibl>
-            <bibl>[Weiteres Konkordanzregest]</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
                <p><authen type="formula" n="na">
-                     <p>[*+?-]</p>
+                     <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
                <issued><placeName>Tusculanum</placeName><date type="issued" notBefore="1171-01-31" notAfter="1171-01-31">31 Januar 1171</date>
