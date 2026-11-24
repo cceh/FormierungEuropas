@@ -79,9 +79,15 @@
                <bibl>-</bibl>
             </listBibl>
          </div>
+          <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>Wahrscheinlich gleichzeitig entstanden wie fe_00371 (vgl.<bibl>PUU England 1, S. 386</bibl>).</p>
+            </diploDesc>
+         </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Wahrscheinlich gleichzeitig entstanden wie fe_00371 (vgl. <bibl>PUU England 1, S. 386</bibl>).</p>
+            <p/>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
