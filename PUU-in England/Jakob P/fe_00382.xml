@@ -72,14 +72,14 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>PUU England 1, S. 336-338, Nr. 77</bibl>
+               <bibl/>
                <bibl>[Edition 2]</bibl>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>JL: 10617 </bibl>
+               <bibl/>
                <bibl>[Regest 2]</bibl>
             </listBibl>
          </div>
@@ -91,7 +91,7 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Es existiert eine Vorurkunde von Hadrian IV., vgl. PUU England 1, S. 315-317, Nr. 66.</p>
+            <p>Es existiert eine Vorurkunde von Hadrian IV. (vgl. <bibl>PUU England 1, S. 315-317, Nr. 66</bibl>).</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
