@@ -82,9 +82,15 @@
                <bibl>[Regest 2]</bibl>
             </listBibl>
          </div>
+           <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>Michael Gervers (vgl.<bibl> Ch. Knights of St. John 2, S. xlvii und 113</bibl>) geht davon aus, dass die Urkunde um das Jahr 1175 ausgestellt wurde.</p>
+            </diploDesc>
+         </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Michael Gervers (vgl. <bibl>Ch. Knights of St. John 2, S. xlvii und 113</bibl>) geht davon aus, dass die Urkunde um das Jahr 1175 ausgestellt wurde.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
