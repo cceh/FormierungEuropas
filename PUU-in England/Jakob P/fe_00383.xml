@@ -40,7 +40,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p/><p/><p><persName/></p><p><legalActor><persName>Alexander III.</persName></legalActor> verleiht dem <orgName>Kloster Bardney</orgName> (D. Lincoln) unter <persName>Walter, Abt von Bardney</persName>, ein Privileg und gewährt die folgenden Rechte:</p><p><list><item>Bestätigung der alten Freiheiten und Gewohnheiten des Klosters</item><item>Bestätigung aller gegenwärtigen und zukünftigen Güter sowie die von den englischen Königen und anderen weltlichen Männern gewährten Immunitäten</item><item>Perturbationsformel</item></list>Schlussformel: Sanctio negativa</p><p/>
+            <p/><p><legalActor><persName>Alexander III.</persName></legalActor> verleiht dem <orgName>Kloster Bardney</orgName> (D. Lincoln) unter <persName>Walter, Abt von Bardney</persName>, ein Privileg und gewährt die folgenden Rechte:</p><p><list><item>Bestätigung der alten Freiheiten und Gewohnheiten des Klosters</item><item>Bestätigung aller gegenwärtigen und zukünftigen Güter sowie die von den englischen Königen und anderen weltlichen Männern gewährten Immunitäten</item><item>Perturbationsformel</item></list>Schlussformel: Sanctio negativa</p><p/>
          </div>
         
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Ad hoc uniuersarum ecclesiarum gubernatio</diploPart></div>
@@ -81,6 +81,12 @@
                <bibl>JL: 10620 </bibl>
                <bibl>[Regest 2]</bibl>
             </listBibl>
+         </div>
+         <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p>Datierung nach fe_00382.</p>
+            </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
