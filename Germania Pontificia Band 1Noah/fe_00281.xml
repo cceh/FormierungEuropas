@@ -52,7 +52,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor cert="high" type="issuer" xml:space="default">Alexander III.</legalActor> legt fest, dass im Benediktinerinnenkloster St. Georgen am Längssee (ED. Salzburg), Neuburg (D. Augsburg) und Bergen (D. Eichstätt, die allesamt Liutold, dem Abt des Benediktinerklosters Admont, unterstehen, </p><p>Schlussformeln: Sanctio negativa.</p>
+            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName></legalActor> legt fest, dass im <orgName>Benediktinerinnenkloster St. Georgen am Längssee</orgName> (ED. Salzburg), im Neuburg (D. Augsburg) und im Bergen (D. Eichstätt, die allesamt <legalActor cert="high" type="recipient" xml:space="default">Liutold, dem Abt des Benediktinerklosters Admont,</legalActor> unterstehen, </p><p>Schlussformeln: Sanctio negativa.</p>
          </div>
 
          <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Viris religiosis et locis eorum</diploPart></div>
