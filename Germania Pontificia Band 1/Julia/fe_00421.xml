@@ -17,7 +17,7 @@
                <p><authen type="formula" n="na">
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-                  </authen></p><issued><placeName>Rom, Lateran</placeName><date type="issued" when="1166-03-07">(1166-1179) Mär. 7</date><date type="issued" when="1167-03-07"/>
+                  </authen></p><issued><placeName>Rom, Lateran</placeName><date type="issued" when="1166-03-07">(1166-1179) Mär. 7</date><date type="issued" when="1167-03-07"/><date type="issued" when="1168-03-07"/><date type="issued" when="1169-03-07"/><date type="issued" when="1170-03-07"/><date type="issued" when="1171-03-07"/><date type="issued" when="1172-03-07"/><date type="issued" when="1173-03-07"/><date type="issued" when="1174-03-07"/><date type="issued" when="1175-03-07"/><date type="issued" when="1176-03-07"/><date type="issued" when="1177-03-07"/><date type="issued" when="1178-03-07"/><date type="issued" when="1179-03-07"/>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
