@@ -41,7 +41,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Eberhard, Erzbischof von Salzburg</persName></legalActor>, versichert <legalActor cert="high" type="recipient" xml:space="default">Alexander III.,</legalActor> seine Treue und lässt ihn wissen, dass er selbst gemeinsam mit vielen anderen nicht von der Einheit der Kirche abweichen werde.</p>
+            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Eberhard, Erzbischof von Salzburg,</persName></legalActor> versichert <legalActor cert="high" type="recipient" xml:space="default"><persName>Alexander III.</persName></legalActor> seine Treue und lässt ihn wissen, dass er selbst gemeinsam mit vielen anderen nicht von der Einheit der Kirche abweichen werde.</p>
          </div>
 
          <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Gloriosus Deus qui sicut semper</diploPart></div>
@@ -93,7 +93,7 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Brackmann datiert das vorliegende Schreiben Eberhards an Alexander III. auf das Ende des Jahres 1161, da ab diesem Zeitpunkt auch der <persName>Bischof Cono von Concordia</persName> und der <persName>Patriarch von Aquileija, Ulrich II. von Treffen</persName>, begannen, sich zur alexandrinischen Partei zu bekennen. Vgl. <bibl>Germ. Pont. 1, S. 29, Nr. 92</bibl> sowie ##FE Nr. 00205##.</p>
+               <p>Brackmann datiert das vorliegende Schreiben Eberhards an Alexander III. auf das Ende des Jahres 1161, da ab diesem Zeitpunkt auch der <persName>Bischof Cono von Concordia</persName> und der <persName>Patriarch von Aquileija, Ulrich II. von Treffen,</persName> begannen, sich zur alexandrinischen Partei zu bekennen. Vgl. <bibl>Germ. Pont. 1, S. 29, Nr. 92</bibl> sowie ##FE Nr. 00205##.</p>
             </diploDesc>
          </div>
          <div type="commentary">
