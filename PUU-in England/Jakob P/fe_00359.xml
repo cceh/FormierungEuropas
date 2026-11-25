@@ -1,60 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
-<TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen -->
+<TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <!-- Ordnername hier ergänzen -->
    <teiHeader>
-      <fileDesc><titleStmt><title>fe_00359</title>
-            <respStmt><resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp><persName>JP</persName></respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>JP, IB</persName></respStmt>
+      <fileDesc>
+         <titleStmt>
+            <title>fe_00359</title>
+            <respStmt>
+               <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+               <persName>JP</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2024">Encoding</resp>
+               <persName>JP, IB, FL</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
-            <idno>PUU England 1, S. 408-409, Nr. 138</idno><availability>
+            <idno>PUU England 1, S. 408-409, Nr. 138</idno>
+            <availability>
                <licence>Lizenz</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>PUU England 1, S. 408-409, Nr. 138</bibl><bibl type="jaffe">-</bibl>
-            <diploDesc> <p><authen type="formula" n="na">
-                  <p>-</p>
-               </authen></p><p><issued><placeName>Anagni</placeName><date type="issued" when="1176-02-27">(1176) Feb. 27</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
-               </issued></p><p><legalActor type="issuer">Alexander III.</legalActor></p><p> <legalActor type="recipient">Prior der Benediktinerabtei von Chertsey</legalActor></p> <p> <legalActor type="recipient">Mönche der Benediktinerabtei von Chertsey</legalActor></p>  <!-- kann enthalten: persName/orgName, ggf roleName -->
+            <bibl type="jaffe">-</bibl>
+            <bibl type="main">PUU England 1, S. 408-409, Nr. 138</bibl>
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>-</p>
+                  </authen>
+               </p>
+               <issued>
+                  <placeName>Anagni</placeName>
+                  <date type="issued" when="1176-02-27">(1176) Feb. 27</date>
+                     <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+                  </issued>
+               <p><legalActor type="issuer">Alexander III.</legalActor></p>
+               <p>
+                  <legalActor type="recipient">Prior der Benediktinerabtei von
+                  Chertsey</legalActor></p>
+               <p>
+                  <legalActor type="recipient">Mönche der Benediktinerabtei von
+                     Chertsey</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p>
                <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
-<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
-            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+               <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
          </sourceDesc>
       </fileDesc>
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+            xmlns:as="http://www.w3.org/ns/activitystreams#"
+            xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+            xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
+            xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
+            xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+            xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+            xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
          <langUsage>
             <language ident="ger">German</language>
             <language ident="lat">Latin</language>
             <language ident="en-GB">English</language>
-         </langUsage></profileDesc>
+         </langUsage>
+      </profileDesc>
    </teiHeader>
    <text>
       <body>
-         <div type="abstract"><head>Abstract:</head>
-           <p> Alexander III. verleiht der Benediktinerabtei Chertsey (D. Winchester) unter dem Prior und den Mönchen der Abtei von Chertsey (D. Winchester) ein Privileg, bestätigt die folgenden Besitzungen und gewährt die folgenden Rechte: <list><item>Bestätigung der Nutzung der Zehnten aus den Dörfern Chertsey, Egham, Thorpe und Chobham für die Wiederherstellung des Klosters und seiner Wirtschaftsgebäude (<diploPart type="other">officinae</diploPart>), die auf Rat des verstorbenen Bischofs von Winchester, <persName>Wilhelm Giffard</persName>,  sowie mit Zustimmung des gesamten Kapitels auf Dauer für diesen Zweck bestimmt worden sind</item></list></p><p>Ferner legt er fest:</p><p><list><item>dass es dem Abt von Chertsey nicht erlaubt sei, die genannten Zehnten einzubehalten und einem anderen Nutzen zuzuführen; stattdessen sollen zwei rechtschaffene Männer die Zehnten für die Wiederherstellung des Klosters verwalten </item><item>Perturbationsverbot</item></list>Schlussformeln: Sanctio negativa
-                </p>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p><persName>Alexander III.</persName> verleiht der <orgName>Benediktinerabtei Chertsey</orgName> (D. Winchester) unter dem
+               Prior und den Mönchen der Abtei von Chertsey (D. Winchester) ein Privileg, bestätigt
+               die folgenden Besitzungen und gewährt die folgenden Rechte: <list>
+                  <item>Bestätigung der Nutzung der Zehnten aus den Dörfern Chertsey, Egham, Thorpe
+                     und Chobham für die Wiederherstellung des Klosters und seiner
+                     Wirtschaftsgebäude (<diploPart type="other">officinae</diploPart>), die auf Rat
+                     des verstorbenen Bischofs von Winchester, <persName>Wilhelm
+                     Giffard</persName>,  sowie mit Zustimmung des gesamten Kapitels auf Dauer für
+                     diesen Zweck bestimmt worden sind</item>
+               </list></p>
+            <p>Ferner legt er fest:</p>
+            <p><list>
+                  <item>dass es dem Abt von Chertsey nicht erlaubt sei, die genannten Zehnten
+                     einzubehalten und einem anderen Nutzen zuzuführen; stattdessen sollen zwei
+                     rechtschaffene Männer die Zehnten für die Wiederherstellung des Klosters
+                     verwalten </item>
+                  <item>Perturbationsverbot</item>
+               </list>Schlussformeln: Sanctio negativa  </p>
          </div>
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustis pententium desideriis dignum est</diploPart></div>
-          <div>
+         <div>
+            <head>Incipit</head>
+            <diploPart type="incipit" xml:lang="lat">Iustis pententium desideriis dignum
+               est</diploPart>
+         </div>
+         <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
                   <item>-</item>
                </list></diploPart>
          </div>
-         <div><head>Datatio:</head><diploPart type="datatio">Datum Anagnie quarto kal. martii.</diploPart></div>
-         <div type="msSources">
-             <head>Handschriftliche Überlieferung</head>
-            <div>
-            <listBibl>   
-               <bibl>Original: -</bibl>
-               <bibl>Kopie: Chartular von Chertsey (13. Jh.), London, British Library, Cotton MS Vitellius A  XIII, fol. 74v</bibl>
-               <bibl>[ggf. Druck]</bibl>
-            </listBibl>
+         <div>
+            <head>Datatio</head>
+            <diploPart type="datatio">Datum Anagnie quarto kal. martii.</diploPart>
          </div>
+         <div type="msSources">
+            <head>Handschriftliche Überlieferung</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">-</bibl>
+                  <bibl type="msCopy">Chartular von Chertsey (13. Jh.), London, British Library, Cotton MS
+                     Vitellius A XIII, fol. 74v</bibl>
+                  <bibl type="print">[ggf. Druck]</bibl>
+               </listBibl>
+            </div>
          </div>
          <div type="decretals">
             <head>Dekretalen</head>
@@ -72,12 +136,12 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>PUU England 1, S. 408-409, Nr. 138</bibl>
-               
+               <bibl/>
             </listBibl>
          </div>
          <div type="regesta">
-            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <head>Regesten</head>
+            <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>[Regest 1]</bibl>
                <bibl>[Regest 2]</bibl>
@@ -86,7 +150,9 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Holtzmann geht davon aus, dass diese Urkunde bei derselben Gelegenheit wie das Privileg fe_00358 ausgestellt wurde, also im Jahr 1176 (vgl.<bibl> PUU England 1, S. 408</bibl>).</p>
+               <p>Holtzmann geht davon aus, dass diese Urkunde bei derselben Gelegenheit wie das
+                  Privileg fe_00358 ausgestellt wurde, also im Jahr 1176 (vgl.<bibl> PUU England 1,
+                     S. 408</bibl>).</p>
             </diploDesc>
          </div>
          <div type="commentary">
@@ -95,14 +161,33 @@
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
-         <listBibl>
-            <bibl>[Titel 1]</bibl>
-            <bibl>[Titel 2]</bibl>
-         </listBibl>
+            <listBibl>
+               <bibl>[Titel 1]</bibl>
+               <bibl>[Titel 2]</bibl>
+            </listBibl>
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>Bitte nach Endkorrektur löschen:</p><p/><p>[A]lexander episcopus seruus seruorum Dei. Dilectis filiis priori et monachis de Certeseya salutem et apostolicam benedictionem.Iustis petentium desideriis dignum est nos facilem prebere con-sensum et uota, que a rationis tramite non discordant, effectu suntprosequente complenda. Peruenit siquidem ad audientiam nostrain,quod quasdam deeimationes quatuor uillarum monasterii uestri,scilicet de Certeseya, de Eggeham, de Thorp et de Chabbeham,cum consensu totius capituli et consilio et auetoritate bone me-morie Willelmi Giffardi quondam Wintoniensis episcopi ad repa-rationem monasterii uestri et officinarum eius assignastis et inperpetuum concessistis. Vnde quoniam, quod tam prouida et ra-tionabili deliberatione dispositum est et statutum, in sua debetfirmitate consistere et apostolico robore communiri, uobis prescriptasdecimas ad reparationem monasterii et officinarum eius, secundumquod de communi consensu capituli assignate sunt, auetoritateapostolica confirmamus et presentis scripti patrocinio communimus.Statuentes, ne abbati uestro liceat predictas decimationes ad manussuas retinere uel in alios usus expendere, sed per duos honestosuiros in reparationem monasterii et officinarum eius, secundumquod dictum est, fideliter expendantur. Decernimus ergo, ut nullifas sit hanc paginam nostre confirmationis infringere uel ei ali-quatenus contraire. Si quis autem etc. Datum Anagnie quartokal. martii.</p>
+            <p>Bitte nach Endkorrektur löschen:</p>
+            <p/>
+            <p>[A]lexander episcopus seruus seruorum Dei. Dilectis filiis priori et monachis de
+               Certeseya salutem et apostolicam benedictionem.Iustis petentium desideriis dignum est
+               nos facilem prebere con-sensum et uota, que a rationis tramite non discordant,
+               effectu suntprosequente complenda. Peruenit siquidem ad audientiam nostrain,quod
+               quasdam deeimationes quatuor uillarum monasterii uestri,scilicet de Certeseya, de
+               Eggeham, de Thorp et de Chabbeham,cum consensu totius capituli et consilio et
+               auetoritate bone me-morie Willelmi Giffardi quondam Wintoniensis episcopi ad
+               repa-rationem monasterii uestri et officinarum eius assignastis et inperpetuum
+               concessistis. Vnde quoniam, quod tam prouida et ra-tionabili deliberatione dispositum
+               est et statutum, in sua debetfirmitate consistere et apostolico robore communiri,
+               uobis prescriptasdecimas ad reparationem monasterii et officinarum eius, secundumquod
+               de communi consensu capituli assignate sunt, auetoritateapostolica confirmamus et
+               presentis scripti patrocinio communimus.Statuentes, ne abbati uestro liceat predictas
+               decimationes ad manussuas retinere uel in alios usus expendere, sed per duos
+               honestosuiros in reparationem monasterii et officinarum eius, secundumquod dictum
+               est, fideliter expendantur. Decernimus ergo, ut nullifas sit hanc paginam nostre
+               confirmationis infringere uel ei ali-quatenus contraire. Si quis autem etc. Datum
+               Anagnie quartokal. martii.</p>
          </div>
       </body>
    </text>
