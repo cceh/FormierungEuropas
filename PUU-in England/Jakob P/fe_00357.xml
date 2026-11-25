@@ -1,45 +1,182 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
-<TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><!-- Ordnername hier ergänzen -->
-<teiHeader>
-    <fileDesc>
-        <titleStmt><title>fe_00357</title><respStmt><resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp><persName>JP</persName></respStmt><respStmt><resp when="2024">Encoding:</resp><persName>JP, IB</persName></respStmt></titleStmt>
-        <publicationStmt>
-            <publisher>Die Formierung Europas</publisher>
-            <idno>PUU England 1, S. 404, Nr. 135</idno><availability>
-                <licence>Lizenz</licence>
+<TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <!-- Ordnername hier ergänzen -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>fe_00357</title>
+                <respStmt>
+                    <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+                    <persName>JP</persName>
+                </respStmt>
+                <respStmt>
+                    <resp when="2024">Encoding</resp>
+                    <persName>JP, IB, FL</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Die Formierung Europas</publisher>
+                <idno>PUU England 1, S. 404, Nr. 135</idno>
+                <availability>
+                    <licence>Lizenz</licence>
                 </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <bibl>PUU England 1, S. 404, Nr. 135</bibl><bibl type="jaffe">-</bibl>
-                    <diploDesc>
-                        <p><authen type="formula" n="na">
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="jaffe">-</bibl>
+                <bibl type="main">PUU England 1, S. 404, Nr. 135</bibl>
+                <diploDesc>
+                    <p><authen type="formula" n="na">
                             <p>-</p>
-                            </authen></p>
-                            <p><issued><placeName>Anagni</placeName><date type="issued" when="1174-04-20">(1174/1176) Apr. 20</date><date when="1176-04-20"/><!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar --> </issued></p>
-                            <p><legalActor type="issuer">Alexander III.</legalActor></p>
-                            <p><legalActor type="recipient">(Roger), Erzbischof von York</legalActor></p>
-                            <p><legalActor type="recipient">Archidiakone der Erzdiözese York</legalActor></p>
-                            <p><legalActor type="recipient">Prälaten der Erzdiözese York</legalActor></p>
-                            <p><objectType n="">Papsturkunde, litterae cum filo canapis</objectType></p>
-                            <p><objectType n="">Anweisung, Einhaltung von Recht</objectType></p>
-                            </diploDesc>
-                 </sourceDesc>
-            </fileDesc><xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc><langUsage><language ident="ger">German</language> <language ident="lat">Latin</language> <language ident="en-GB">English</language></langUsage></profileDesc></teiHeader>
-            <text><body>
-            <div type="abstract"><head>Abstract:</head><p><legalActor>Alexander III.</legalActor> untersagt <legalActor><persName>(Roger), Erzbischof von York</persName></legalActor>, sowie den Archidiakonen und sonstigen Prälaten seiner Diözese, von <persName>(Silvanus), Abt von Rievaulx</persName> (D. York), oder den <persName>Mönchen des Klosters</persName> gegen die Vorschriften des Zisterzienserordens einen Zeugeneid zu fordern. </p><p/></div>
-            
-            <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Auctoritati Romanę ecclesie manifestius derogat</diploPart></div>
+                        </authen>
+                    </p>
+                    <issued>
+                        <placeName>Anagni</placeName>
+                        <date type="issued" when="1174-04-20">(1174/1176) Apr. 20</date>
+                        <date type="issued" when="1176-04-20"></date><!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+                        </issued>
+                    <p><legalActor type="issuer">Alexander III.</legalActor></p>
+                    <p><legalActor type="recipient">(Roger), Erzbischof von York</legalActor></p>
+                    <p><legalActor type="recipient">Archidiakone der Erzdiözese
+                        York</legalActor></p>
+                    <p><legalActor type="recipient">Prälaten der Erzdiözese York</legalActor></p>
+                    <p><objectType n="">Papsturkunde, litterae cum filo canapis</objectType></p>
+                    <p><objectType n="">Anweisung, Einhaltung von Recht</objectType></p>
+                </diploDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                xmlns:as="http://www.w3.org/ns/activitystreams#"
+                xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+                xmlns:dc="http://purl.org/dc/elements/1.1/"
+                xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
+                xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+                xmlns:fabio="https://purl.org/spar/fabio#"
+                xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+                xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+                xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+        <profileDesc>
+            <langUsage>
+                <language ident="ger">German</language>
+                <language ident="lat">Latin</language>
+                <language ident="en-GB">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="abstract">
+                <head>Abstract</head>
+                <p><persName>Alexander III.</persName> untersagt <persName>(Roger),
+                            Erzbischof von York</persName>, sowie den Archidiakonen und
+                    sonstigen Prälaten seiner Diözese, von <persName>(Silvanus), Abt von
+                        Rievaulx</persName> (D. York), oder den <orgName>Mönchen des
+                        Klosters</orgName> gegen die Vorschriften des Zisterzienserordens einen
+                    Zeugeneid zu fordern. </p>
+                <p/>
+            </div>
+
             <div>
-            <head>Subscriptiones</head>
-            <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>-</item>
-               </list></diploPart>
-         </div>
-            <div><head>Datatio:</head><diploPart type="datatio">Dat. Anagnie XII kal. madii.</diploPart></div><div type="msSources"><head>Handschriftliche Überlieferung</head><div><listBibl><bibl>Original: -</bibl><bibl>Kopie: Chartular von Rievaulx (12. Jh.), London, British Library, Cotton MS Julius D 1, fol. 186, Nr. 232</bibl><bibl>[ggf. Druck]</bibl></listBibl></div></div><div type="decretals"><head>Dekretalen</head><listBibl><bibl>-</bibl></listBibl></div><div type="historiography"><head>Erwähnungen in der Historiographie</head><listBibl><bibl/></listBibl></div><div type="editions"><head>Editionen</head><listBibl><bibl>Chart. Rievaulx, S. 378 Nr. 34</bibl><bibl/><bibl/></listBibl></div><div type="regesta"><head>Regesten</head><!-- Konkordanzregesten --><listBibl><bibl>-</bibl><bibl/></listBibl></div> <div>
-            <head>Diplomatischer Kommentar</head>
-            <diploDesc>
-               <p>In der Inskription fehlt die Bezeichnung des Erzbischofs Roger von York als apostolischer Legat. Da Roger erst 1164 zum apostolischen Legaten ernannt wurde, käme bei einer zuverlässigen Abschrift auch das Jahr 1160 infrage. Bei einem Überlieferungsfehler wäre auch nach dem Itinerar des Papstes das Jahr 1173 möglich (vgl. JL 12223). Holtzmann geht auch von einem solchen Überlieferungsfehler aus und datiert die vorliegende Urkunde aufgrund der engen Parallelen zu fe_00356 auf das Jahr 1174 oder 1175 (<bibl>PUU England 1, S. 404</bibl>). Das Jahr 1175 ist als Ausstellungsjahr nicht möglich, da sich Alexander III. am 20. April dieses Jahres in Ferentino aufhielt. Vgl.  JL 12462. ####Fe#####</p>
-            </diploDesc>
-         </div><div type="commentary"><head>Sachkommentar</head><p/><p/></div><div type="bibliography"><head>Bibliographie</head><listBibl><bibl>[Titel 1]</bibl><bibl>[Titel 2]</bibl></listBibl></div><div type="note"><head>Notizen</head><p/><p>Nach Endkorrektur löschen: </p><p/><p>Alexander episcopus seruus seruorum Dei. Venerabili fratri Eboracensi archiepiscopo et dilectis filiis archidiaconis et aliis ec-clesiarum prelatis in eius episcopatu constitutis salutem et apostolicam benedictionem. Auctoritati Romane ecclesie manifestius derogat, qui eius decretis et statutis contraire presumit, cum non debeant a quolibet presumptione temeraria uiolari, que sunt apo-stolice sedis prouidentia constituta. Inde est, quod discretioni uestre auctoritate apostolica probibemus, quatinus nullus uestrum ab abbate Rieuall(ensi) uel fratribus eiusdem monasterii in testimonium uocatis iuramentum contra instituta ordinis Cistercii exigerepresumat, sed interrogati sub periculo anime sue uel in uerbo ueri-tatis eorum testimonium firmum et stabile haberi uolumus. Dat.Anagnie X I I kal. madii.</p></div></body></text></TEI>
+                <head>Incipit</head>
+                <diploPart type="incipit" xml:lang="lat">Auctoritati Romanę ecclesie manifestius
+                    derogat</diploPart>
+            </div>
+            <div>
+                <head>Subscriptiones</head>
+                <diploPart type="subscriptio" xml:lang="lat"><list>
+                        <item>-</item>
+                    </list></diploPart>
+            </div>
+            <div>
+                <head>Datatio</head>
+                <diploPart type="datatio">Dat. Anagnie XII kal. madii.</diploPart>
+            </div>
+            <div type="msSources">
+                <head>Handschriftliche Überlieferung</head>
+                <div>
+                    <listBibl>
+                        <bibl type="original">-</bibl>
+                        <bibl type="msCopy">Chartular von Rievaulx (12. Jh.), London, British Library,
+                            Cotton MS Julius D 1, fol. 186, Nr. 232</bibl>
+                        <bibl type="print">[ggf. Druck]</bibl>
+                    </listBibl>
+                </div>
+            </div>
+            <div type="decretals">
+                <head>Dekretalen</head>
+                <listBibl>
+                    <bibl>-</bibl>
+                </listBibl>
+            </div>
+            <div type="historiography">
+                <head>Erwähnungen in der Historiographie</head>
+                <listBibl>
+                    <bibl/>
+                </listBibl>
+            </div>
+            <div type="editions">
+                <head>Editionen</head>
+                <listBibl>
+                    <bibl>Chart. Rievaulx, S. 378 Nr. 34</bibl>
+                    <bibl/>
+                    <bibl/>
+                </listBibl>
+            </div>
+            <div type="regesta">
+                <head>Regesten</head>
+                <!-- Konkordanzregesten -->
+                <listBibl>
+                    <bibl>-</bibl>
+                    <bibl/>
+                </listBibl>
+            </div>
+            <div>
+                <head>Diplomatischer Kommentar</head>
+                <diploDesc>
+                    <p>In der Inskription fehlt die Bezeichnung des Erzbischofs Roger von York als
+                        apostolischer Legat. Da Roger erst 1164 zum apostolischen Legaten ernannt
+                        wurde, käme bei einer zuverlässigen Abschrift auch das Jahr 1160 infrage.
+                        Bei einem Überlieferungsfehler wäre auch nach dem Itinerar des Papstes das
+                        Jahr 1173 möglich (vgl. JL 12223). Holtzmann geht auch von einem solchen
+                        Überlieferungsfehler aus und datiert die vorliegende Urkunde aufgrund der
+                        engen Parallelen zu fe_00356 auf das Jahr 1174 oder 1175 (<bibl>PUU England
+                            1, S. 404</bibl>). Das Jahr 1175 ist als Ausstellungsjahr nicht möglich,
+                        da sich Alexander III. am 20. April dieses Jahres in Ferentino aufhielt (vgl.  JL 12462. ####Fe#####).</p>
+                </diploDesc>
+            </div>
+            <div type="commentary">
+                <head>Sachkommentar</head>
+                <p/>
+                <p/>
+            </div>
+            <div type="bibliography">
+                <head>Bibliographie</head>
+                <listBibl>
+                    <bibl>[Titel 1]</bibl>
+                    <bibl>[Titel 2]</bibl>
+                </listBibl>
+            </div>
+            <div type="note">
+                <head>Notizen</head>
+                <p/>
+                <p>Nach Endkorrektur löschen: </p>
+                <p/>
+                <p>Alexander episcopus seruus seruorum Dei. Venerabili fratri Eboracensi
+                    archiepiscopo et dilectis filiis archidiaconis et aliis ec-clesiarum prelatis in
+                    eius episcopatu constitutis salutem et apostolicam benedictionem. Auctoritati
+                    Romane ecclesie manifestius derogat, qui eius decretis et statutis contraire
+                    presumit, cum non debeant a quolibet presumptione temeraria uiolari, que sunt
+                    apo-stolice sedis prouidentia constituta. Inde est, quod discretioni uestre
+                    auctoritate apostolica probibemus, quatinus nullus uestrum ab abbate
+                    Rieuall(ensi) uel fratribus eiusdem monasterii in testimonium uocatis iuramentum
+                    contra instituta ordinis Cistercii exigerepresumat, sed interrogati sub periculo
+                    anime sue uel in uerbo ueri-tatis eorum testimonium firmum et stabile haberi
+                    uolumus. Dat.Anagnie X I I kal. madii.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
