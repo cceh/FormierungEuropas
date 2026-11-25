@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
-<TEI source="formierung-europas_pontificia" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc>
@@ -115,7 +112,7 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Die Rechtsbestätigung wird vermutlich 1176 durch Alexander III. wiederholt (vgl. <bibl>Germ. Pont. 1, S. 127, Nr. 15</bibl>; ##FE Nr. 00265##).</p><p>Die vorliegende Urkunde ist inhaltlich im Kontext der zeitgenössischen Emanzipationsbestrebungen des Bistums Gurk als Eigenbistum des Erzbistums // der Erzdiözese //Salzburg zu verorten (vgl. <bibl>Monumenta historica ducatus Carinthiae 1, S. 13-15</bibl>).</p>
+            <p>Die Rechtsbestätigung wird vermutlich 1176 durch Alexander III. wiederholt (vgl. <bibl>Germ. Pont. 1, S. 127, Nr. 15</bibl>; ##FE Nr. 00265##).</p><p>Die vorliegende Urkunde ist inhaltlich im Kontext der zeitgenössischen Emanzipationsbestrebungen des Bistums Gurk als Eigenbistum der Erzdiözese Salzburg zu verorten (vgl. <bibl>Monumenta historica ducatus Carinthiae 1, S. 13-15</bibl>).</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
