@@ -13,8 +13,8 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>PUU England 1, S. 342-343, Nr. 81</bibl><bibl type="jaffe">-</bibl>
-            <diploDesc><p><authen type="formula" n=""><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen><issued><placeName>Anagni</placeName><date type="issued" when="1160-11-20">1160 Nov. 20</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            <bibl type="main">PUU England 1, S. 342-343, Nr. 81</bibl><bibl type="jaffe">-</bibl>
+            <diploDesc><p><authen type="formula" n="na"><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen><issued><placeName>Anagni</placeName><date type="issued" when="1160-11-20">1160 Nov. 20</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Zisterzienserkloster Sibton</legalActor></p><p><legalActor type="recipient">Hugo, Abt des Zisterzienserklosters Sibton</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
@@ -33,7 +33,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. gewährt und bestätigt dem <orgName>Zisterzienserkloster Sibton</orgName> (D. Norwich) unter <persName>Hugo, Abt von Sibton</persName>, folgende Rechte und Besitzungen:</p><p><list><item>Aufnahme in den apostolischen Schutz</item><item>Bestätigung der Regel des hl. Benedikt gemäß den Zisterziensern</item><item>Bestätigung aller gegenwärtigen und zukünftig gewährten oder erworbenen Besitzungen und Güter</item><item>Befreiung von Zehnten bei Eigenbau und für Tierfutter</item><item>Verbot des Interdikts über Sibton durch Erzbischof oder Bischof ohne vorhergehende Verfehlung des Abts und der Brüder der Abtei</item><item>Erlaubnis zur Gottesdienstfeier hinter geschlossenen Türen und unter Ausschluss der Exkummizierten und Interdizierten bei allgemeinem Interdikt</item><item>freie Wahl, Absetzung und Amtsenthebung des Abtes gemäß den Statuten und Privilegien des Zisterzienserordens</item></list></p><p>Ferner legt er fest:<list><item>Verbindlichkeit der abgelegten Profess</item><item>Exkommunikation aller, die den Frieden in den Klosterbezirken und Grangien brechen</item><item>Perturbationsverbot</item></list>Schlussformeln: Sanctio negativa und positiva</p>
+            <p><persName>Alexander III.</persName> gewährt und bestätigt dem <orgName>Zisterzienserkloster Sibton</orgName> (D. Norwich) unter <persName>Hugo, Abt von Sibton</persName>, folgende Rechte und Besitzungen:</p><p><list><item>Aufnahme in den apostolischen Schutz</item><item>Bestätigung der Regel des hl. Benedikt gemäß den Zisterziensern</item><item>Bestätigung aller gegenwärtigen und zukünftig gewährten oder erworbenen Besitzungen und Güter</item><item>Befreiung von Zehnten bei Eigenbau und für Tierfutter</item><item>Verbot des Interdikts über Sibton durch Erzbischof oder Bischof ohne vorhergehende Verfehlung des Abts und der Brüder der Abtei</item><item>Erlaubnis zur Gottesdienstfeier hinter geschlossenen Türen und unter Ausschluss der Exkummizierten und Interdizierten bei allgemeinem Interdikt</item><item>freie Wahl, Absetzung und Amtsenthebung des Abtes gemäß den Statuten und Privilegien des Zisterzienserordens</item></list></p><p>Ferner legt er fest:<list><item>Verbindlichkeit der abgelegten Profess</item><item>Exkommunikation aller, die den Frieden in den Klosterbezirken und Grangien brechen</item><item>Perturbationsverbot</item></list>Schlussformeln: Sanctio negativa und positiva</p>
          </div>
                   <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Religiosis desideriis dignum est facilem</diploPart></div>
         <div>
@@ -48,9 +48,9 @@
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl>[Original]</bibl>
-               <bibl>Kopie: Chartular von Sibton (1300-1340), London, British Library, Arundel MS 221, fol.  144</bibl>
-               <bibl>[ggf. Druck]</bibl>
+               <bibl type="original">[Original]</bibl>
+               <bibl type="msCopy">Chartular von Sibton (1300-1340), London, British Library, Arundel MS 221, fol.  144</bibl>
+               <bibl type="print">[ggf. Druck]</bibl>
             </listBibl>
          </div>
          </div>
