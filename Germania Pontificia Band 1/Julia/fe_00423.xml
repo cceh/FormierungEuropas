@@ -1,11 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
-<TEI source="formierung-europas_pontificia" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc><titleStmt><title>fe_00423</title><respStmt><resp>Datenquelle</resp><persName>JB</persName></respStmt>
-            <respStmt><resp when="2026">Encoding</resp><persName>JB</persName></respStmt>
+            <respStmt><resp when="2026">Encoding</resp><persName>JB, NW</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -15,22 +12,21 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>Germ. Pont. 1, S. 377-378, Nr. 9</bibl><bibl type="jaffe">12483</bibl>
-            <bibl>[Weiteres Konkordanzregest]</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
                <p><authen type="formula" n="na">
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>Ferentino</placeName><date type="issued" notBefore="1175-05-15" notAfter="1175-05-15">(1175) Mai 15</date>
+               <issued><placeName>Ferentino</placeName><date type="issued" when="1175-05-15">(1175) Mai 15</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Otto, Propst des Regularkanonikerstifts Rottenbuch</legalActor></p>
+               <p><legalActor type="recipient">## (Augustiner-Chorherrrenstift) Rottenbuch ##</legalActor></p><p><legalActor type="recipient">Otto, Propst des (Augustiner-Chorherrenstifts) Rottenbuch ###</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">Papsturkunde, Litterae cum serico</objectType></p>
+               <p><objectType n="">Papsturkunde, Litterae (cum serico)</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
+               <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
@@ -48,9 +44,11 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor><persName>Alexander III.</persName></legalActor> gewährt <legalActor><persName>Otto, Propst des Regularkanonikerstifts Rottenbuch</persName></legalActor> (D. Freising), folgende Rechte: <list>
-                  <item>Aufnahme in den apostolischen Schutz.</item><item>Aufnahme von Klerikern aus dem deutschen Reich, die sich vom Schisma abkehren wollen und eine angemessene Genugtuung leisten, und Rückführung dieser in die Einheit der römischen Kirche und die Obödienz Alexanders III.</item><item>Er entbindet Otto sowie seine Kirche und die Kleriker seiner Kirchen von jeglichem Gehorsam gegenüber jenen Bischöfen, die sich der schismatischen Partei angeschlossen haben, bis diese zum Gehorsam und zur Ehrerbietung gegenüber Alexander III. sowie zur Einheit der römischen Kirche zurückkehren.</item><item>die Befugnis, jenen Priestern und Klerikern im Herrschaftsgebiet von Rottenbuch, die weiterhin im Schisma verharren, den Zehnten oder sonstige kirchliche Einkünfte vorzuenthalten, bis sie zur Einsicht gelangen.</item>
+            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName></legalActor> gewährt <legalActor cert="high" type="recipient" xml:space="default"><persName>Otto, dem Propst des Regularkanonikerstifts Rottenbuch,</persName></legalActor> folgende Rechte: ## gewährt auf Bitten des Propsts Otto dem (Augustiner-Chorherrenstift) Rottenbuch (D. Freising) folgende Rechte: ###<list>
+                  <item>die Aufnahme ## Propst Ottos, des Stifts sowie aller zugehörigen Besitzungen## in den apostolischen Schutz.</item><item>Aufnahme von Klerikern aus dem deutschen Reich, die sich vom Schisma abkehren wollen und eine angemessene Genugtuung leisten, und Rückführung dieser in die Einheit der römischen Kirche und die Obödienz Alexanders III.</item><item>Er entbindet Otto sowie seine Kirche und die Kleriker seiner Kirchen von jeglichem Gehorsam gegenüber jenen Bischöfen, die sich der schismatischen Partei angeschlossen haben, bis diese zum Gehorsam und zur Ehrerbietung gegenüber Alexander III. sowie zur Einheit der römischen Kirche zurückkehren.</item><item>die Befugnis, jenen Priestern und Klerikern im Herrschaftsgebiet von Rottenbuch, die weiterhin im Schisma verharren, den Zehnten oder sonstige kirchliche Einkünfte vorzuenthalten, bis sie zur Einsicht gelangen.</item>
                </list></p>
+               <p>Ferner legt er fest:<list><item>das Perturbationsverbot.</item></list></p>
+               <p>Schlussformeln: Sanctio negativa.</p>
          </div>
 
          <div>
@@ -59,7 +57,7 @@
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+                  <item>-</item>
                </list></diploPart>
          </div>
          <div>
@@ -71,23 +69,17 @@
                <listBibl>
                   <bibl type="original">-</bibl>
                   <bibl type="msCopy">München, Bayerische Staatsbibliothek, Clm 12202b, fol. 19r; digital verfügbar unter: https://www.digitale-sammlungen.de/de/view/bsb00133626?page=40,41</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
          <div type="decretals">
             <head>Dekretalen</head>
-            <listBibl>
-               <bibl>-</bibl>
-               <bibl/>
-            </listBibl>
+            <listBibl><bibl>-</bibl></listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
-            <listBibl>
-               <bibl>-</bibl>
-               <bibl/>
-            </listBibl>
+            <listBibl><bibl>-</bibl></listBibl>
          </div>
          <div type="editions">
             <head>Editionen</head>
@@ -106,18 +98,17 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Aufgrund der fehlenden Originalüberlieferung kann nur aufgrund des Inhalts vermutet werden, dass es sich beim päpstlichen Schreiben um eine Litterae cum serico gehandelt hat. Datiert nach dem Itinerar Alexanders III. </p>
+               <p>Aufgrund der fehlenden Originalüberlieferung kann nur aufgrund des Inhalts vermutet werden, dass es sich beim päpstlichen Schreiben um eine Littera cum serico gehandelt hat.</p><p>Datiert nach dem Itinerar Alexanders III. (vgl. ##Beleg einfügen##)</p>
             </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Propst Otto I. aus der Familie der Grafen von Falkenstein leitete das Regularkanonikerstift Rottenbuch zwischen den Jahren 1147 und 1180. Während des Alexandrinischen Schismas positionierte er sich auf der Seite Alexanders III. und nahm auch an den Friedensverhandlungen von Venedig im Jahr 1177 teil. Außerdem vermittelte er zahlreiche Privilegien für andere religiöse Gemeinschaften in der Diözese Freising, etwa für seinen Bruder Abt Rupert von Tegernsee. Vgl. <bibl>Plechl, Studien 4, 2, S. 430-433</bibl>.</p>
+            <p>Propst Otto I. aus der Familie der Grafen von Falkenstein leitete das Regularkanonikerstift Rottenbuch zwischen den Jahren 1147 und 1180. Während des Alexandrinischen Schismas positionierte er sich auf der Seite Alexanders III. und nahm auch an den Friedensverhandlungen von Venedig im Jahr 1177 teil. Außerdem vermittelte er zahlreiche Privilegien für andere religiöse Gemeinschaften in der Diözese Freising, etwa für seinen Bruder <persName>Rupert, den Abt Benediktinerklosters Tegernsee</persName> (vgl. <bibl>Plechl, Studien 4, 2, S. 430-433</bibl>).</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
             <listBibl>
-               <bibl>[Werk 1]</bibl>
-               <bibl>[Werk 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="note">
