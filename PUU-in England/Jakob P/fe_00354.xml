@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
-<TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <!-- Ordnername hier ergänzen -->
    <teiHeader>
       <fileDesc>
@@ -32,11 +33,12 @@
                   </authen>
                </p>
                <issued>
-                     <placeName>Anagni</placeName>
+                  <placeName>Anagni</placeName>
                   <date type="issued" when="1176-03-14">(1174/1176) Mär. 14</date>
                   <date type="issued" when="1176-03-14"/>
-                     <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
-                  </issued>
+                  <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+               </issued>
+               <p><legalActor type="issuer"> Alexander III.</legalActor></p>
                <p><legalActor type="recipient">(Hugo), Bischof von Durham</legalActor></p>
                <p><legalActor type="recipient">(Clemens), Abt der Benediktinerabtei St. Mary in
                      York</legalActor></p>
@@ -48,8 +50,19 @@
             </diploDesc>
          </sourceDesc>
       </fileDesc>
-      
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+            xmlns:as="http://www.w3.org/ns/activitystreams#"
+            xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+            xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
+            xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
+            xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+            xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+            xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
          <langUsage>
             <language ident="ger">German</language>
             <language ident="lat">Latin</language>
@@ -60,27 +73,31 @@
    <text>
       <body>
          <div type="abstract">
-            <head>Abstract:</head>
-            <p><legalActor><persName>Alexander III.</persName></legalActor> beauftragt <legalActor><persName>(Hugo), Bischof von Durham</persName></legalActor>, und
-                     <legalActor><persName>(Clemens), Abt der Benediktinerabtei St. Mary</persName>
-               </legalActor>(D. York), damit, in den folgenden Fällen die Beschwerden des Klosters Rievaulx (D. York) zu
-               untersuchen, Streitfälle zu entscheiden und verletzte Rechte wiederherzustellen. Er weist sie an:<list>
-                  <item>für eine Rückgabe der von<persName> Naven von Middle Head</persName> und weiteren Personen, die von Rievaulx benannt werden sollen, gewaltsam besetzten
+            <head>Abstract</head>
+            <p><persName>Alexander III.</persName> beauftragt
+                     <persName>(Hugo), Bischof von Durham</persName>, und
+                     <persName>(Clemens), Abt der Benediktinerabtei St. Mary</persName> 
+               (D. York), damit, in den folgenden Fällen die Beschwerden des <orgName>Klosters
+                  Rievaulx</orgName> (D. York) zu untersuchen, Streitfälle zu entscheiden und verletzte Rechte
+               wiederherzustellen. Er weist sie an:<list>
+                  <item>für eine Rückgabe der von <persName>Naven von Middle Head</persName> und
+                     weiteren Personen, die von Rievaulx benannt werden sollen, gewaltsam besetzten
                      Besitzungen unter Ausschluss der Appellation zu sorgen</item>
-                  <item>für eine Rückgabe des unrechtmäßig von den Kanonikern von Old Malton (D. York)
-                     besetzten Ödlands unterhalb von Pickering zu sorgen</item>
-                  <item>die Kanoniker von Sempringham (D. Lincoln) zu ermahnen, das Kloster Rievaulx
-                     wegen eines Grundstücks, das <persName>Adam</persName>, der Sohn <persName>Peters</persName>, und dessen Mutter dem Kloster überlassen haben, nicht zu
-                     belästigen</item>
-                  <item>den Kanonikern von Kirkham (D. York) die übermäßige Nutzung der ihnen
-                     und dem Kloster Rievaulx gemeinsam zustehenden Weide von
-                        <placeName>Helmsley </placeName>zu verbieten</item>
+                  <item>für eine Rückgabe des unrechtmäßig von den <orgName>Kanonikern von Old Malton</orgName> (D.
+                     York) besetzten Ödlands unterhalb von <placeName>Pickering</placeName> zu sorgen</item>
+                  <item>die <orgName>Kanoniker von Sempringham</orgName> (D. Lincoln) zu ermahnen, das Kloster Rievaulx
+                     wegen eines Grundstücks, das <persName>Adam</persName>, der Sohn
+                        <persName>Peters</persName>, und dessen Mutter dem Kloster überlassen haben,
+                     nicht zu belästigen</item>
+                  <item>den <orgName>Kanonikern von Kirkham</orgName> (D. York) die übermäßige Nutzung der ihnen und
+                     dem Kloster Rievaulx gemeinsam zustehenden Weide von <placeName>Helmsley
+                     </placeName>zu verbieten</item>
                </list>
             </p>
          </div>
 
          <div>
-            <head>Incipit:</head>
+            <head>Incipit</head>
             <diploPart type="incipit" xml:lang="lat">Querelam dilectorum filiorum nostrorum
                abbatis</diploPart>
          </div>
@@ -91,17 +108,17 @@
                </list></diploPart>
          </div>
          <div>
-            <head>Datatio:</head>
+            <head>Datatio</head>
             <diploPart type="datatio">Data Anagnie II idus martii. </diploPart>
          </div>
          <div type="msSources">
             <head>Handschriftliche Überlieferung</head>
             <div>
                <listBibl>
-                  <bibl>Original: -</bibl>
-                  <bibl>Kopie: Chartular von Rievaulx (12.Jh.), London, British Library, Cotton MS
+                  <bibl type="original">-</bibl>
+                  <bibl type="msCopy">Chartular von Rievaulx (12. Jh.), London, British Library, Cotton MS
                      Julius D I, fol. 185, Nr. 231</bibl>
-                  <bibl>[ggf. Druck]</bibl>
+                  <bibl type="print">[ggf. Druck]</bibl>
                </listBibl>
             </div>
          </div>
@@ -119,7 +136,8 @@
          </div>
          <div type="editions">
             <head>Editionen</head>
-            <listBibl><bibl>Chart. Rievaulx, S. 197-198, Nr. 267</bibl>
+            <listBibl>
+               <bibl>Chart. Rievaulx, S. 197-198, Nr. 267</bibl>
                <bibl/>
             </listBibl>
          </div>
@@ -133,13 +151,14 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Holzmann (vgl. <bibl>PUU England 1, S. 400</bibl>) bestimmt die Datierung anhand des Itinerars
-                  Alexanders III. und der Amtszeit des Abtes Silvanus, der nach Atkinson (vgl.
-                  <bibl>Cart. Rievaulx, S. xcii</bibl>) bereits seit 1170 im Amt war, auf den Zeitraum 1174-1176. Tatsächlich war Silvanus
-                  bereits seit 1167 Abt von Rievaulx, was allerdings die Datierung nicht verändert
-                  (vgl. <bibl>Knowles, Head, S. 140</bibl>). Das Jahr 1175 ist als Ausstellungsjahr nicht
-                  möglich, da sich Alexander III. am 14. März dieses Jahres in Ferentino aufhielt.
-                  Vgl. JL 12445. ####Fe#####</p>
+               <p>Holtzmann (vgl. <bibl>PUU England 1, S. 400</bibl>) bestimmt die Datierung anhand
+                  des Itinerars Alexanders III. und der Amtszeit des Abtes Silvanus, der nach
+                  Atkinson (vgl. <bibl>Cart. Rievaulx, S. xcii</bibl>) bereits seit 1170 im Amt war,
+                  auf den Zeitraum 1174-1176. Tatsächlich war Silvanus bereits seit 1167 Abt von
+                  Rievaulx, was allerdings die Datierung nicht verändert (vgl. <bibl>Knowles, Heads,
+                     S. 140</bibl>). Das Jahr 1175 ist als Ausstellungsjahr nicht möglich, da sich
+                  Alexander III. am 14. März dieses Jahres in Ferentino aufhielt. Vgl. JL 12445.
+                  ####Fe#####</p>
             </diploDesc>
          </div>
          <div type="commentary">
@@ -149,7 +168,8 @@
                und fe_00357). </p>
             <p>Laut Jamroziak stehen die Prozesse mit den Kanonikern von Old Malton, Sempringham und
                Kirkham wahrscheinlich in keiner Verbindung zueinander. Der Streit zwischen Old
-               Malton und Rievaulx scheint 1175 durch König Heinrich II. beigelegt worden zu sein (vgl. <bibl>Jamroziak, Rievaulx, S. 161–162</bibl>).</p>
+               Malton und Rievaulx scheint 1175 durch König <persName>Heinrich II.</persName> beigelegt worden zu sein
+               (vgl. <bibl>Jamroziak, Rievaulx, S. 161–162</bibl>).</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
@@ -160,7 +180,9 @@
             </listBibl>
          </div>
          <div type="note">
-            <head>Notizen</head><p/><p>Nach Endkorrektur löschen:</p>
+            <head>Notizen</head>
+            <p/>
+            <p>Nach Endkorrektur löschen:</p>
             <p/>
             <p/>
             <p/>
