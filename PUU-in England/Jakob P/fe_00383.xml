@@ -7,7 +7,7 @@
                <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
                <persName>JP</persName>
             </respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>JP</persName></respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>JP, IB</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -71,14 +71,14 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl/>
+               <bibl>PUU England 1, S. 338-339, Nr. 78</bibl>
                <bibl>[Edition 2]</bibl>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>JL: 10620 </bibl>
+               <bibl/>
                <bibl>[Regest 2]</bibl>
             </listBibl>
          </div>
