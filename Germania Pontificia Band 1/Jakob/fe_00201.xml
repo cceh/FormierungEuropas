@@ -12,11 +12,10 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>Germ. Pont. 1, S. 27-28, Nr. 87</bibl><bibl type="jaffe">10645</bibl>
-            <bibl>[Weiteres Konkordanzregest]</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
                <p><authen type="formula" n="na">
-                     <p>[-]</p>
+                     <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
                <issued><placeName>Anagni</placeName><date type="issued" when="1161-01-20">(1161) Jan. 20 </date>
@@ -61,7 +60,7 @@
             <div>
                <listBibl>
                   <bibl type="original">-</bibl>
-                  <bibl type="msCopy">Wien, Österreichische Nationalbibliothek, Codex Vindobonensis Palatinus (CVP) 629, fol. 49r-50r</bibl><bibl type="msCopy">Hannover, Niedersächsische Landesbibliothek, Codex XI 671, fol. 469r-470v.</bibl>
+                  <bibl type="msCopy">Wien, Österreichische Nationalbibliothek, Codex Vindobonensis Palatinus (CVP) 629, fol. 49r-50r</bibl><bibl type="msCopy">Hannover, Niedersächsische Landesbibliothek, Codex XI 671, fol. 469r-470v</bibl>
                   <bibl type="print">-</bibl>
                </listBibl>
             </div>
