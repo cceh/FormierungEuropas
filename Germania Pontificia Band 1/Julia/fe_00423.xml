@@ -73,17 +73,11 @@
          </div>
          <div type="decretals">
             <head>Dekretalen</head>
-            <listBibl>
-               <bibl>-</bibl>
-               <bibl/>
-            </listBibl>
+            <listBibl><bibl>-</bibl></listBibl>
          </div>
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
-            <listBibl>
-               <bibl>-</bibl>
-               <bibl/>
-            </listBibl>
+            <listBibl><bibl>-</bibl></listBibl>
          </div>
          <div type="editions">
             <head>Editionen</head>
@@ -102,7 +96,7 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Aufgrund der fehlenden Originalüberlieferung kann nur aufgrund des Inhalts vermutet werden, dass es sich beim päpstlichen Schreiben um eine Litterae cum serico gehandelt hat. Datiert nach dem Itinerar Alexanders III. </p>
+               <p>Aufgrund der fehlenden Originalüberlieferung kann nur aufgrund des Inhalts vermutet werden, dass es sich beim päpstlichen Schreiben um eine Littera cum serico gehandelt hat. Datiert nach dem Itinerar Alexanders III. </p>
             </diploDesc>
          </div>
          <div type="commentary">
