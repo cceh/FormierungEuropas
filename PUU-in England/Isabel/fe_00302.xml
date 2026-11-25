@@ -46,9 +46,9 @@
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl>Original: London, British Library, Harley Ch. 111 A 5</bibl>
-               <bibl>[Kopie]</bibl>
-               <bibl>[ggf. Druck]</bibl>
+               <bibl type="original">Original: London, British Library, Harley Ch. 111 A 5</bibl>
+               <bibl type="msCopy">[Kopie]</bibl>
+               <bibl type="print">[ggf. Druck]</bibl>
             </listBibl>
          </div>
          </div>
