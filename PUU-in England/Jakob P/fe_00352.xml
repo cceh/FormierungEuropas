@@ -35,7 +35,7 @@
                <issued>
                   <placeName>Anagni</placeName>
                   <date type="issued" when="1174-05-31">(1174/1176) Mai 31</date>
-                  <date type="issued" when="1176-05-31"/>
+                  <date type="issued" when="1176-05-31"></date>
                      <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                   </issued>
                <p>
@@ -102,10 +102,10 @@
             <head>Handschriftliche Überlieferung</head>
             <div>
                <listBibl>
-                  <bibl type="original">Original: -</bibl>
-                  <bibl type="msCopy">Kopie: Chartular von Stone (13. Jh.), London, British Library,
+                  <bibl type="original">-</bibl>
+                  <bibl type="msCopy">Chartular von Stone (13. Jh.), London, British Library,
                      Cotton MS Vespasian E XXIV, fol. 17</bibl>
-                  <bibl type="msCopy">Kopie: Transkription von David Casley (1734), London,
+                  <bibl type="msCopy">Transkription von David Casley (1734), London,
                      British Library, Stowe MS 943, fol. 35v</bibl>
                   <bibl type="print">[ggf. Druck]</bibl>
                </listBibl>

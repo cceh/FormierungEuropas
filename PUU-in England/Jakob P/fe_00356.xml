@@ -1,59 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
-<TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen -->
+<TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <!-- Ordnername hier ergänzen -->
    <teiHeader>
       <fileDesc>
-         <titleStmt><title>fe_00356</title><respStmt><resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp><persName>JP</persName></respStmt><respStmt><resp when="2024">Encoding:</resp><persName>JP, IB</persName></respStmt></titleStmt>
+         <titleStmt>
+            <title>fe_00356</title>
+            <respStmt>
+               <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+               <persName>JP</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2024">Encoding</resp>
+               <persName>JP, IB, FL</persName>
+            </respStmt>
+         </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
-            <idno>PUU England 1, S. 403-404, Nr. 134</idno><availability>
+            <idno>PUU England 1, S. 403-404, Nr. 134</idno>
+            <availability>
                <licence>Lizenz</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>PUU England 1, S. 403-404, Nr. 134</bibl><bibl type="jaffe">-</bibl>
-              <diploDesc><p><authen type="formula" n="na">
-                  <p>-</p>
-               </authen></p>
-          <p><issued><placeName>Anagni</placeName><date type="issued" when="1174-03-20">(1174/1176) Mär. 20</date><date when="1176-03-20"/> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
-               </issued></p><p> <legalActor type="recipient">R(oger), Erzbischof von York</legalActor></p>  <p> <legalActor type="recipient">Archidiakone der Erzdiözese York </legalActor></p><p><legalActor type="recipient">Prälaten der Erzdiözese York </legalActor></p>   <!-- kann enthalten: persName/orgName, ggf roleName -->
+            <bibl type="jaffe">-</bibl>
+            <bibl type="main">PUU England 1, S. 403-404, Nr. 134</bibl>
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>-</p>
+                  </authen>
+               </p>
+               <issued>
+                  <placeName>Anagni</placeName>
+                  <date type="issued" when="1174-03-20">(1174/1176) Mär. 20</date>
+                  <date type="issued" when="1176-03-20"></date>
+                     <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+                  </issued>
+               <p><legalActor type="issuer"> Alexander III.</legalActor></p>
+               <p><legalActor type="recipient">R(oger), Erzbischof von York</legalActor></p>
+               <p><legalActor type="recipient">Archidiakone der Erzdiözese York </legalActor></p>
+               <p><legalActor type="recipient">Prälaten der Erzdiözese York </legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum filo canapis</objectType></p>
                <p><objectType n="">Anweisung, Einhaltung von Recht</objectType></p>
-<!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
-            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
+               <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
          </sourceDesc>
       </fileDesc>
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+            xmlns:as="http://www.w3.org/ns/activitystreams#"
+            xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+            xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
+            xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
+            xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+            xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+            xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
          <langUsage>
             <language ident="ger">German</language>
             <language ident="lat">Latin</language>
             <language ident="en-GB">English</language>
-         </langUsage></profileDesc>
+         </langUsage>
+      </profileDesc>
    </teiHeader>
    <text>
       <body>
-         <div type="abstract"><head>Abstract:</head>
-            <p><legalActor><persName>Alexander III.</persName></legalActor> verbietet<legalActor> <persName>R(oger), Erzbischof von York </persName></legalActor>und apostolischem Legat, sowie den Archidiakonen und Prälaten seiner Diözese, das <orgName>Kloster Rievaulx</orgName> (D. York), dessen Abt oder Mönche entgegen dem Wortlaut ihrer Privilegien mit dem Interdikt oder der Exkommunikation zu belegen.</p>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p><persName>Alexander III.</persName> verbietet <persName>R(oger), Erzbischof von York </persName>und apostolischem
+               Legat, sowie den Archidiakonen und Prälaten seiner Diözese, die <orgName>Zisterzienserabtei Rievaulx</orgName> (D. York), dessen Abt oder Mönche entgegen dem Wortlaut ihrer
+               Privilegien mit dem Interdikt oder der Exkommunikation zu belegen.</p>
          </div>
-         
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Auctoritati Romane ecclesie manifestius derogat</diploPart></div>
+
+         <div>
+            <head>Incipit</head>
+            <diploPart type="incipit" xml:lang="lat">Auctoritati Romane ecclesie manifestius
+               derogat</diploPart>
+         </div>
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
                   <item>-</item>
                </list></diploPart>
          </div>
-         <div><head>Datatio:</head><diploPart type="datatio">Dat. Anagnie XIII kal. aprilis. </diploPart></div>
-         <div type="msSources">
-             <head>Handschriftliche Überlieferung</head>
-            <div>
-            <listBibl>   
-               <bibl>Original: -</bibl>
-               <bibl>Kopie: Chartular von Rievaulx (12. Jh.), London, British Library, Cotton MS Julius D 1, fol. 183v, Nr. 228</bibl>
-               <bibl>[ggf. Druck]</bibl>
-            </listBibl>
+         <div>
+            <head>Datatio</head>
+            <diploPart type="datatio">Dat. Anagnie XIII kal. aprilis. </diploPart>
          </div>
+         <div type="msSources">
+            <head>Handschriftliche Überlieferung</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">-</bibl>
+                  <bibl type="msCopy">Chartular von Rievaulx (12. Jh.), London, British Library, Cotton MS
+                     Julius D 1, fol. 183v, Nr. 228</bibl>
+                  <bibl type="print">[ggf. Druck]</bibl>
+               </listBibl>
+            </div>
          </div>
          <div type="decretals">
             <head>Dekretalen</head>
@@ -73,30 +122,70 @@
             </head>
          </div>
          <div type="regesta">
-            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <head>Regesten</head>
+            <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>-</bibl>
             </listBibl>
          </div>
-           <div>
+         <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Holzmann (vgl.<bibl> PUU England 1, S. 400</bibl>) bestimmt die Datierung anhand des Itinerars Alexanders III.  und  der Amtszeit des Abtes Silvanus, der nach Atkinson (vgl. <bibl>Cart. Rievaulx, S. XCII</bibl>) bereits seit 1170 im Amt war. Tatsächlich war Silvanus bereits seit 1167 Abt von Rievaulx, was allerdings die Datierung nicht verändert (vgl. <bibl>Knowles, Head, S. 140</bibl>). Das Jahr 1175 ist als Ausstellungsjahr nicht möglich, da sich Alexander III. den März dieses Jahres in Ferentino aufhielt. Vgl. zum 21. März JL 12447. ####Fe#####</p>
+               <p>Holtzmann (vgl. <bibl>PUU England 1, S. 400</bibl>) bestimmt die Datierung anhand
+                  des Itinerars Alexanders III. und der Amtszeit des Abtes Silvanus, der nach
+                  Atkinson (vgl. <bibl>Cart. Rievaulx, S. XCII</bibl>) bereits seit 1170 im Amt war.
+                  Tatsächlich war Silvanus bereits seit 1167 Abt von Rievaulx, was allerdings die
+                  Datierung nicht verändert (vgl. <bibl>Knowles, Heads, S. 140</bibl>). Das Jahr 1175
+                  ist als Ausstellungsjahr nicht möglich, da sich Alexander III. am 21. März dieses
+                  Jahres in Ferentino aufhielt (vgl. JL 12447. ####Fe#####).</p>
             </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Die vorliegende Urkunde gehört zu einer Reihe von Urkunden, die Alexander entweder 1174 oder 1176 für das Kloster Rievaulx ausstellte (vgl. fe_00353, fe_00354, fe_00355 und fe_00357). </p>
+            <p>Die vorliegende Urkunde gehört zu einer Reihe von Urkunden, die Alexander III. entweder
+               1174 oder 1176 für das Kloster Rievaulx ausstellte (vgl. fe_00353, fe_00354, fe_00355
+               und fe_00357). </p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
-         <listBibl>
-            <bibl>-</bibl>
-         </listBibl>
+            <listBibl>
+               <bibl>-</bibl>
+            </listBibl>
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p/><p/><p/><p/><p>Anmerkung: Bei den genannten Privilegien könnte es sich um "Attendented quomodo" handeln, eine Privilegierung an den gesamten Zisterzienserorden, die in drei Redaktionen (Benevent, 15. Januar 1169 -&amp;gt; JL 11583 und 14. Juli 1169 -&amp;gt; JL 11632 (Text in Migne PL 200, Sp. 593-594 -&amp;gt; https://mlat.uzh.ch/browser/11589 ; Abschrift in: Chartular von Fountains Abbey, Oxford, Bodleian Libraries, Oxford University College 167, fol. 37r -&amp;gt; JL-) überliefert ist und sich mit der Eingrenzung von Befugnissen des Episkopats gegenüber zisterziensischen Äbten beschäftigt. In Version 2 wird aber ein Verbot des Interdikts oder der Exkommunikation nicht im Einzelnen erwähnt. Hinweis aufnehmen?</p><p>Lit.: Guido Cariboni, The three privileges „Attendentes quomodo“ of Alexander III. Revision, use and tradition of papal documentation among the Cistercians, in: Studi medievali 57 (2016), S. 631–647. (PDF in Sciebo)</p><p/><p>Nach Endkorrektur löschen:</p><p/><p>Alexander episcopus seruus seruorum Dei. Venerabiii fratriR. Eboracensi archiepiscopo, apostolice sedis legato, et dilectisfiliis archidiaconis et aliis (jcclesiarum prelatis in eius episcopatuconstitutis salutem et apostolicam benedictionem. Auctoritatißomane ecclesie manifestius derogat, qui eius priuilegiis et statutiscontraire presumit, cum non debeant a quolibet presumptione te-meraria uiolari, que sunt apostolice sedis prouidentia constituta.Inde est, quod cum religiosi uiri fratres Cisterciensis ordinis apo-stolica priuilegia noscantur habere, que obtinere uolumus inuio-labilem firmitatem, discretioni uestre auetoritate apostolica prohi-bemus, quatinus nullus uestrum in monasterium Rieuallense aut inabbatem uel fratres eiusdem monasterii contra tenorem priuilegio-rum suorum interdicti aut excommunicationis sententiam proferrepresumat nec uerba eorundem priuilegiorum peruertere audeat, quianostrum est tantum, dubia, si qua in eisdem priuilegiis comparue-runt, enodare. Dat. Anagnie XIII kal. aprilis</p>
+            <p/>
+            <p/>
+            <p/>
+            <p/>
+            <p>Anmerkung: Bei den genannten Privilegien könnte es sich um "Attendented quomodo"
+               handeln, eine Privilegierung an den gesamten Zisterzienserorden, die in drei
+               Redaktionen (Benevent, 15. Januar 1169 -&amp;gt; JL 11583 und 14. Juli 1169 -&amp;gt;
+               JL 11632 (Text in Migne PL 200, Sp. 593-594 -&amp;gt;
+               https://mlat.uzh.ch/browser/11589 ; Abschrift in: Chartular von Fountains Abbey,
+               Oxford, Bodleian Libraries, Oxford University College 167, fol. 37r -&amp;gt; JL-)
+               überliefert ist und sich mit der Eingrenzung von Befugnissen des Episkopats gegenüber
+               zisterziensischen Äbten beschäftigt. In Version 2 wird aber ein Verbot des Interdikts
+               oder der Exkommunikation nicht im Einzelnen erwähnt. Hinweis aufnehmen?</p>
+            <p>Lit.: Guido Cariboni, The three privileges „Attendentes quomodo“ of Alexander III.
+               Revision, use and tradition of papal documentation among the Cistercians, in: Studi
+               medievali 57 (2016), S. 631–647. (PDF in Sciebo)</p>
+            <p/>
+            <p>Nach Endkorrektur löschen:</p>
+            <p/>
+            <p>Alexander episcopus seruus seruorum Dei. Venerabiii fratriR. Eboracensi
+               archiepiscopo, apostolice sedis legato, et dilectisfiliis archidiaconis et aliis
+               (jcclesiarum prelatis in eius episcopatuconstitutis salutem et apostolicam
+               benedictionem. Auctoritatißomane ecclesie manifestius derogat, qui eius priuilegiis
+               et statutiscontraire presumit, cum non debeant a quolibet presumptione te-meraria
+               uiolari, que sunt apostolice sedis prouidentia constituta.Inde est, quod cum
+               religiosi uiri fratres Cisterciensis ordinis apo-stolica priuilegia noscantur habere,
+               que obtinere uolumus inuio-labilem firmitatem, discretioni uestre auetoritate
+               apostolica prohi-bemus, quatinus nullus uestrum in monasterium Rieuallense aut
+               inabbatem uel fratres eiusdem monasterii contra tenorem priuilegio-rum suorum
+               interdicti aut excommunicationis sententiam proferrepresumat nec uerba eorundem
+               priuilegiorum peruertere audeat, quianostrum est tantum, dubia, si qua in eisdem
+               priuilegiis comparue-runt, enodare. Dat. Anagnie XIII kal. aprilis</p>
          </div>
       </body>
    </text>

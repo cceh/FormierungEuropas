@@ -34,8 +34,8 @@
                </p>
                <issued>
                   <placeName>Anagni</placeName>
-                  <date type="issued" when="1176-03-14">(1174/1176) Mär. 14</date>
-                  <date type="issued" when="1176-03-14"/>
+                  <date type="issued" when="1174-03-14">(1174/1176) Mär. 14</date>
+                  <date type="issued" when="1176-03-14"></date>
                   <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued>
                <p><legalActor type="issuer"> Alexander III.</legalActor></p>
@@ -77,7 +77,7 @@
             <p><persName>Alexander III.</persName> beauftragt
                      <persName>(Hugo), Bischof von Durham</persName>, und
                      <persName>(Clemens), Abt der Benediktinerabtei St. Mary</persName> 
-               (D. York), damit, in den folgenden Fällen die Beschwerden des <orgName>Klosters
+               (D. York), damit, in den folgenden Fällen die Beschwerden der <orgName>Zisterzienserabtei
                   Rievaulx</orgName> (D. York) zu untersuchen, Streitfälle zu entscheiden und verletzte Rechte
                wiederherzustellen. Er weist sie an:<list>
                   <item>für eine Rückgabe der von <persName>Naven von Middle Head</persName> und
@@ -157,18 +157,18 @@
                   auf den Zeitraum 1174-1176. Tatsächlich war Silvanus bereits seit 1167 Abt von
                   Rievaulx, was allerdings die Datierung nicht verändert (vgl. <bibl>Knowles, Heads,
                      S. 140</bibl>). Das Jahr 1175 ist als Ausstellungsjahr nicht möglich, da sich
-                  Alexander III. am 14. März dieses Jahres in Ferentino aufhielt. Vgl. JL 12445.
-                  ####Fe#####</p>
+                  Alexander III. am 14. März dieses Jahres in Ferentino aufhielt (vgl. JL 12445.
+                  ####Fe#####).</p>
             </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Die vorliegende Urkunde gehört zu einer Reihe von Urkunden, die Alexander entweder
+            <p>Die vorliegende Urkunde gehört zu einer Reihe von Urkunden, die Alexander III. entweder
                1174 oder 1176 für das Kloster Rievaulx ausstellte (vgl. fe_00353, fe_00355, fe_00356
                und fe_00357). </p>
             <p>Laut Jamroziak stehen die Prozesse mit den Kanonikern von Old Malton, Sempringham und
                Kirkham wahrscheinlich in keiner Verbindung zueinander. Der Streit zwischen Old
-               Malton und Rievaulx scheint 1175 durch König <persName>Heinrich II.</persName> beigelegt worden zu sein
+               Malton und Rievaulx scheint 1175 durch <persName>König Heinrich II. von England</persName> beigelegt worden zu sein
                (vgl. <bibl>Jamroziak, Rievaulx, S. 161–162</bibl>).</p>
          </div>
          <div type="bibliography">

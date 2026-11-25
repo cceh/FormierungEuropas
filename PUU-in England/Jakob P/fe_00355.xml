@@ -1,55 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
-<TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <!-- Ordnername hier ergänzen -->
+<TEI source="formierung-europas_puu-in" xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <!-- Ordnername hier ergänzen -->
    <teiHeader>
-      <fileDesc><titleStmt><title>fe_00355</title><respStmt><resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp><persName>JP</persName></respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>JP, IB</persName></respStmt>
+      <fileDesc>
+         <titleStmt>
+            <title>fe_00355</title>
+            <respStmt>
+               <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+               <persName>JP</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2024">Encoding</resp>
+               <persName>JP, IB, FL</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
-            <idno>PUU England 1, S. 402-403, Nr. 133</idno><availability>
+            <idno>PUU England 1, S. 402-403, Nr. 133</idno>
+            <availability>
                <licence>Lizenz</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>PUU England 1, S. 402-403, Nr. 133</bibl><bibl type="jaffe">-</bibl>
-            <diploDesc><p><authen type="formula" n="na">
-                  <p>-</p> </authen></p><p><issued><placeName>Anagni</placeName><date type="issued" when="1174-03-14">(1174/1176) Mär. 14</date><date type="issued" when="1176-03-14"/> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
-               </issued></p><p><legalActor type="recipient">(Roger), Erzbischof von York</legalActor></p><p><legalActor type="recipient">(Hugo), Bischof von Durham</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType n="">Papsturkunde, litterae cum filo canapis</objectType></p><p><objectType n="">Anweisung, Einhaltung von Recht</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
-            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
-</sourceDesc>
+            <bibl type="jaffe">-</bibl>
+            <bibl type="main">PUU England 1, S. 402-403, Nr. 133</bibl>
+            <diploDesc>
+               <p><authen type="formula" n="na">
+                     <p>-</p>
+                  </authen>
+               </p>
+               <issued>
+                  <placeName>Anagni</placeName>
+                  <date type="issued" when="1174-03-14">(1174/1176) Mär. 14</date>
+                  <date type="issued" when="1176-03-14"></date>
+                     <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+                  </issued>
+               <p><legalActor type="issuer"> Alexander III.</legalActor></p>
+               <p><legalActor type="recipient">(Roger), Erzbischof von York</legalActor></p>
+               <p><legalActor type="recipient">(Hugo), Bischof von Durham</legalActor></p>
+               <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Papsturkunde, litterae cum filo canapis</objectType></p>
+               <p><objectType n="">Anweisung, Einhaltung von Recht</objectType></p>
+               <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
+            <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>-->
+            </diploDesc>
+         </sourceDesc>
       </fileDesc>
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+            xmlns:as="http://www.w3.org/ns/activitystreams#"
+            xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+            xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
+            xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
+            xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+            xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+            xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+      <profileDesc>
          <langUsage>
             <language ident="ger">German</language>
             <language ident="lat">Latin</language>
             <language ident="en-GB">English</language>
-         </langUsage></profileDesc>
+         </langUsage>
+      </profileDesc>
    </teiHeader>
    <text>
       <body>
-         <div type="abstract"><head>Abstract:</head>
-            <p><legalActor>Alexander III.</legalActor> weist <legalActor><persName>(Roger), Erzbischof von York</persName></legalActor> und apostolischer Legat, sowie <legalActor><persName>(Hugo), Bischof von Durham,</persName></legalActor> auf Beschwerde des <orgName>Klosters Rievaulx</orgName> (D. York) an:<list><item>den Klerikern von Welburne unter Androhung des Anathems zu untersagen, von den Mönchen von Rievaulx den Zehnten einzufordern</item><item>die Kleriker bei Zuwiderhandlung unter Ausschluss der Appellation zu exkommunizieren</item></list></p>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p><persName>Alexander III.</persName> weist <persName>(Roger),
+                     Erzbischof von York</persName> und apostolischen Legat, sowie
+                     <persName>(Hugo), Bischof von Durham,</persName> auf
+               Beschwerde der <orgName>Zisterzienserabtei Rievaulx</orgName> (D. York) an:<list>
+                  <item>den <orgName>Klerikern von Welburne</orgName> unter Androhung des Anathems zu untersagen, von
+                     den Mönchen von Rievaulx den Zehnten einzufordern</item>
+                  <item>die Kleriker bei Zuwiderhandlung unter Ausschluss der Appellation zu
+                     exkommunizieren</item>
+               </list></p>
          </div>
-         
-         <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Ex parte dilectorum filiorum nostrorum</diploPart></div>
+
+         <div>
+            <head>Incipit</head>
+            <diploPart type="incipit" xml:lang="lat">Ex parte dilectorum filiorum
+               nostrorum</diploPart>
+         </div>
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
                   <item>-</item>
                </list></diploPart>
          </div>
-         <div><head>Datatio:</head><diploPart type="datatio">Data Anagnie II idus martii.</diploPart></div>
-         <div type="msSources">
-             <head>Handschriftliche Überlieferung</head>
-            <div>
-            <listBibl>   
-               <bibl>Original: -</bibl>
-               <bibl>Kopie: Chartular von Rievaulx (12. Jh.), London, British Library, Cotton MS Julius B I, fol. 184, Nr. 229</bibl>
-               <bibl>[ggf. Druck]</bibl>
-            </listBibl>
+         <div>
+            <head>Datatio</head>
+            <diploPart type="datatio">Data Anagnie II idus martii.</diploPart>
          </div>
+         <div type="msSources">
+            <head>Handschriftliche Überlieferung</head>
+            <div>
+               <listBibl>
+                  <bibl type="original">-</bibl>
+                  <bibl type="msCopy">Chartular von Rievaulx (12. Jh.), London, British Library, Cotton MS
+                     Julius B I, fol. 184, Nr. 229</bibl>
+                  <bibl type="print">[ggf. Druck]</bibl>
+               </listBibl>
+            </div>
          </div>
          <div type="decretals">
             <head>Dekretalen</head>
@@ -66,37 +124,62 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>PUU England 1, S. 402-403, Nr. 133</bibl><bibl>Chart. Rievaulx, S. 197, Nr. 265</bibl>
+               <bibl>PUU England 1, S. 402-403, Nr. 133</bibl>
+               <bibl>Chart. Rievaulx, S. 197, Nr. 265</bibl>
                <bibl/>
             </listBibl>
          </div>
          <div type="regesta">
-            <head>Regesten</head> <!-- Konkordanzregesten -->
+            <head>Regesten</head>
+            <!-- Konkordanzregesten -->
             <listBibl>
                <bibl>-</bibl>
                <bibl/>
             </listBibl>
-            </div>
-             <div>
+         </div>
+         <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Holzmann (vgl. <bibl>PUU England 1, S. 400</bibl>) bestimmt die Datierung anhand des Itinerars Alexanders III.  und  der Amtszeit des Abtes Silvanus, der nach Atkinson (vgl. <bibl>Cart. Rievaulx, S. XCII</bibl>) bereits seit 1170 im Amt war. Tatsächlich war Silvanus bereits seit 1167 Abt von Rievaulx, was allerdings die Datierung nicht verändert (vgl. <bibl>Knowles, Head, S. 140</bibl>). Das Jahr 1175 ist als Ausstellungsjahr nicht möglich, da sich Alexander III. am 14. März dieses Jahres in Ferentino aufhielt. Vgl. JL 12445. ####Fe#####</p>
+               <p>Holtzmann (vgl. <bibl>PUU England 1, S. 400</bibl>) bestimmt die Datierung anhand
+                  des Itinerars Alexanders III. und der Amtszeit des Abtes Silvanus, der nach
+                  Atkinson (vgl. <bibl>Cart. Rievaulx, S. XCII</bibl>) bereits seit 1170 im Amt war.
+                  Tatsächlich war Silvanus bereits seit 1167 Abt von Rievaulx, was allerdings die
+                  Datierung nicht verändert (vgl. <bibl>Knowles, Heads, S. 140</bibl>). Das Jahr 1175
+                  ist als Ausstellungsjahr nicht möglich, da sich Alexander III. am 14. März dieses
+                  Jahres in Ferentino aufhielt (vgl. JL 12445. ####Fe#####).</p>
             </diploDesc>
          </div>
-            <div type="commentary">
+         <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Die vorliegende Urkunde gehört zu einer Reihe von Urkunden, die Alexander entweder 1174 oder 1176 für das Kloster Rievaulx ausstellte (vgl. fe_00353, fe_00354, fe_00356 und fe_00357). </p>
+            <p>Die vorliegende Urkunde gehört zu einer Reihe von Urkunden, die Alexander III. entweder
+               1174 oder 1176 für das Kloster Rievaulx ausstellte (vgl. fe_00353, fe_00354, fe_00356
+               und fe_00357). </p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
-         <listBibl>
-            <bibl>[Titel 1]</bibl>
-            <bibl>[Titel 2]</bibl>
-         </listBibl>
+            <listBibl>
+               <bibl>[Titel 1]</bibl>
+               <bibl>[Titel 2]</bibl>
+            </listBibl>
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>Nach Endkorrektur löschen:</p><p/><p/><p><lb/>Alexander episcopus seruus seruorum Dei. Venerabilibus fratribus Eboracensi archiepiscopo, apostolice sedis legato, et Dunel-mensi episeopo salutem et apostolicam benedictionem. Ex parte dilectorum filiorum nostrorum abbatis et fratrum Rieuall(ensium)ad nos est querela perlata, quod quidam clerici in uestra iurisdictione constituti decimas ab eis contra tenorem priuilegiorum nostrorum exigere non uerentur. Quia igitur non mediocriter nos et Komanam ecclesiam offendunt, qui contra tenorem priuilegiorumnostrorum temeritate qualibet uenire presumunt, fraternitati uestreper apostolica scripta precipiendo mandamus, quatenus clericis deWelleburna et ceteris in uestra iurisdictione constitutis, quos idemfratres uobis nominabunt, ex nostra et uestra parte sub distric-tione anathematis inhibeatis, ne ab eisdem fratribus contra tenorempriuilegiorum nostrorum decimas presumant exigere. Quod si contraprohibitionem uestram uenire presumpserint, eos appellatione re-mota excommunicationis uinculo innodetis. Data Anagnie II idusmartii.</p>
+            <p>Nach Endkorrektur löschen:</p>
+            <p/>
+            <p/>
+            <p><lb/>Alexander episcopus seruus seruorum Dei. Venerabilibus fratribus Eboracensi
+               archiepiscopo, apostolice sedis legato, et Dunel-mensi episeopo salutem et
+               apostolicam benedictionem. Ex parte dilectorum filiorum nostrorum abbatis et fratrum
+               Rieuall(ensium)ad nos est querela perlata, quod quidam clerici in uestra
+               iurisdictione constituti decimas ab eis contra tenorem priuilegiorum nostrorum
+               exigere non uerentur. Quia igitur non mediocriter nos et Komanam ecclesiam offendunt,
+               qui contra tenorem priuilegiorumnostrorum temeritate qualibet uenire presumunt,
+               fraternitati uestreper apostolica scripta precipiendo mandamus, quatenus clericis
+               deWelleburna et ceteris in uestra iurisdictione constitutis, quos idemfratres uobis
+               nominabunt, ex nostra et uestra parte sub distric-tione anathematis inhibeatis, ne ab
+               eisdem fratribus contra tenorempriuilegiorum nostrorum decimas presumant exigere.
+               Quod si contraprohibitionem uestram uenire presumpserint, eos appellatione re-mota
+               excommunicationis uinculo innodetis. Data Anagnie II idusmartii.</p>
          </div>
       </body>
    </text>
