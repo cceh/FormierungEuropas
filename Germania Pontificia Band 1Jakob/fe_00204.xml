@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
-<TEI source="formierung-europas_pontificia" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc><titleStmt><title>fe_00204</title><respStmt>
@@ -50,7 +47,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Eberhard, Erzbischof von Salzburg</persName></legalActor>, bringt gegenüber <legalActor cert="high" type="recipient" xml:space="default"><persName>Hildebrand, Kardinalpriester von Santi XII Apostoli und apostolischer Legat</persName></legalActor>, seine Zuversicht zum Ausdruck, dass er seine Position im Schisma, auch dank der Unterstützung des <persName>Bischofs von Concordia</persName>, wird halten können.<list>
+            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Eberhard, Erzbischof von Salzburg,</persName></legalActor> bringt gegenüber <legalActor cert="high" type="recipient" xml:space="default"><persName>Hildebrand, Kardinalpriester von Santi XII Apostoli und apostolischer Legat,</persName></legalActor> seine Zuversicht zum Ausdruck, dass er seine Position im Schisma, auch dank der Unterstützung des <persName>Bischofs von Concordia,</persName> wird halten können.<list>
                   <item>-</item>
                </list></p>
          </div>
