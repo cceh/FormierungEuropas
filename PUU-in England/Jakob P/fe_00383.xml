@@ -20,10 +20,10 @@
             <diploDesc> <p><authen type="formula" n="na">
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-                  </authen></p><p><issued><placeName>Anagni</placeName><date type="issued" notBefore="1160-01-18" notAfter="1160-01-18">(1160) Jan. 18</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+                  </authen></p><p><issued><placeName>Anagni</placeName><date type="issued" when="1160-01-18">(1160) Jan. 18</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p> <legalActor type="recipient">Benediktinerkloster Bardney</legalActor></p><p><legalActor type="recipient">Walter, Abt des Klosters Bardney</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient">Benediktinerkloster Bardney</legalActor></p><p><legalActor type="recipient">Walter, Abt des Benediktinerklosters Bardney</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p>
                <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
@@ -40,7 +40,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p/><p><legalActor><persName>Alexander III.</persName></legalActor> verleiht dem <orgName>Kloster Bardney</orgName> (D. Lincoln) unter <persName>Walter, Abt von Bardney</persName>, ein Privileg und gewährt die folgenden Rechte:</p><p><list><item>Bestätigung der alten Freiheiten und Gewohnheiten des Klosters</item><item>Bestätigung aller gegenwärtigen und zukünftigen Güter sowie der von den englischen Königen und anderen weltlichen Männern gewährten Immunitäten</item><item>Perturbationsverbot</item></list>Schlussformel: Sanctio negativa</p><p/>
+            <p/><legalActor><persName>Alexander III.</persName></legalActor> verleiht dem <orgName>Benediktinerkloster Bardney</orgName> (D. Lincoln) unter <persName>Walter, Abt von Bardney</persName>, ein Privileg und gewährt die folgenden Rechte:<p><list><item>Bestätigung der alten Freiheiten und Gewohnheiten des Klosters</item><item>Bestätigung aller gegenwärtigen und zukünftigen Güter sowie der von den englischen Königen und anderen weltlichen Männern gewährten Immunitäten</item><item>Perturbationsverbot</item></list>Schlussformel: Sanctio negativa</p><p/>
          </div>
         
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Ad hoc uniuersarum ecclesiarum gubernatio</diploPart></div>
