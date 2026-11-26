@@ -7,7 +7,7 @@
                <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
                <persName>JP</persName>
             </respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>JP</persName></respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>JP, IB</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -18,7 +18,7 @@
          <sourceDesc>
             <bibl>PUU England 1, S. 437-438, Nr. 165</bibl><bibl type="jaffe">-</bibl>
             <diploDesc><p><authen type="formula" n="na">
-               <p>[-]</p>
+               <p>-</p>
                <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
             </authen></p><p><issued><placeName>Anagni</placeName>
             <date type="issued" when="1160-10-25">(1160/1173/1175—1176/1179) Okt. 25</date>  
