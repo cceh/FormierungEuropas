@@ -7,7 +7,7 @@
                <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
                <persName>JP</persName>
             </respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>JP, IB</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -17,7 +17,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>PUU England 1, S. 421, Nr. 149</bibl><bibl type="jaffe">-</bibl>
-            <diploDesc><p><authen type="formula" n=""><p>[-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen><issued><placeName>Venedig, Rialto</placeName><date type="issued" notBefore="1177-07-03" notAfter="1177-07-03">(1177) Jul. 3</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            <diploDesc><p><authen type="formula" n=""><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen><issued><placeName>Venedig, Rialto</placeName><date type="issued" when="1177-07-03">(1177) Jul. 3</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">Benediktinerabtei St. Werburgh in Cheshire</legalActor></p> <p><legalActor type="recipient">(Robert II.), Abt von St. Werburgh in Cheshire</legalActor></p>   <!-- kann enthalten: persName/orgName, ggf roleName -->
@@ -68,7 +68,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>Chart. St. Werburgh, S. 112, Nr. 63</bibl>
+               <bibl>PUU England 1, S. 421, Nr. 149</bibl><bibl>Chart. St. Werburgh, S. 112, Nr. 63</bibl>
                <bibl>[Edition 2]</bibl>
             </listBibl>
          </div>
