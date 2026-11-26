@@ -7,7 +7,7 @@
                <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
                <persName>JP</persName>
             </respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>JP, IB</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -18,12 +18,12 @@
          <sourceDesc>
             <bibl>PUU England 1, S. 392, Nr. 120</bibl><bibl type="jaffe">-</bibl>
             <diploDesc><p>
-               <authen type="formula" n=""><p>[-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen>
-               <issued><placeName>Ferentino</placeName><date type="issued" notBefore="1175-06-27" notAfter="1175-06-27">(1175) Jun. (27)</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+               <authen type="formula" n=""><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen>
+               <issued><placeName>Ferentino</placeName><date type="issued" when="1175-06-27">(1175) Jun. (27)</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Augustinerpriorat St. Augustine's in Bristol </legalActor></p><p><legalActor type="recipient">Prior von St. Augustine's in Bristol</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">Paptsurkunde, litterae cum serico</objectType></p>
+               <p><legalActor type="recipient">Augustinerpriorat St. Augustine's Bristol </legalActor></p><p><legalActor type="recipient">Prior von St. Augustine's Bristol</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p>
                <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
@@ -39,7 +39,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. verleiht dem Augustinerpriorat St. Augustine's in Bristol (D. Worcester) ein Privileg, bestätigt die folgenden Besitzungen und gewährt die folgenden Rechte:<list><item>Bestätigung des Besitzes der Kirche von Berkeley mit ihren namentlich genannten Kapellen und weiteren Pertinenzen</item><item>Perturbationsverbot</item> </list>Schlussformel: Sanctio negativa </p>
+            <p><persName>Alexander III.</persName> verleiht dem Augustinerpriorat St. Augustine's in Bristol (D. Worcester) ein Privileg, bestätigt die folgenden Besitzungen und gewährt die folgenden Rechte:<list><item>Bestätigung des Besitzes der Kirche von Berkeley mit ihren namentlich genannten Kapellen und weiteren Pertinenzen</item><item>Perturbationsverbot</item> </list>Schlussformel: Sanctio negativa </p>
          </div>
         
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustis petentium desideriis dignum est</diploPart></div>
@@ -70,7 +70,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl/>
+               <bibl>PUU England 1, S. 392, Nr. 120</bibl>
                <bibl>[Edition 2]</bibl>
             </listBibl>
          </div>
