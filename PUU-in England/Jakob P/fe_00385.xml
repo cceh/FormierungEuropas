@@ -18,9 +18,9 @@
          <sourceDesc>
             <bibl>PUU England 1, S. 438-439, Nr. 166</bibl><bibl type="jaffe">-</bibl>
             <diploDesc><p><authen type="formula" n="na">
-               <p>[-]</p>
+               <p>-</p>
                <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-            </authen></p><p><issued><placeName>Laterano</placeName><date type="issued" when="1178-05-29">(1178—1179) Mai 29</date><date type="issued" when="1179-05-29"/> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            </authen></p><p><issued><placeName>Lateran</placeName><date type="issued" when="1178-05-29">(1178—1179) Mai 29</date><date type="issued" when="1179-05-29"/> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p> <legalActor type="recipient">Augustinerpriorat Stone</legalActor></p> 
@@ -78,7 +78,7 @@
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>Chart. Stone, S. 15 </bibl>
+               <bibl>Chart. Stone, S. 15</bibl>
             </listBibl>
          </div>
          <div>
