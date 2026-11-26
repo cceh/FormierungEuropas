@@ -7,7 +7,7 @@
                <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
                <persName>JP</persName>
             </respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>JP</persName></respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>JP, IB</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -41,7 +41,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p><legalActor><persName>Alexander III.</persName></legalActor> verleiht dem <orgName>Augustinerpriorat Stone</orgName> (D. Coventry) ein Privileg, bestätigt die folgenden Besitzungen und gewährt die folgenden Rechte:</p><p><list><item>Bestätigung der Kirchen von Bradeley und Dilhorne sowie der ihnen von den Diözesanbischöfen und anderen Personen verliehenen Freiheiten und Immunitäten</item><item> Perturbationsverbot</item></list>Schlussformel: Sanctio negativa</p>
+            <p><legalActor><persName>Alexander III.</persName></legalActor> verleiht dem <orgName>Augustinerpriorat Stone</orgName> (D. Coventry) ein Privileg, bestätigt die folgenden Besitzungen und gewährt die folgenden Rechte:</p><p><list><item>Bestätigung der Kirchen von <placeName>Bradeley</placeName> und <placeName>Dilhorne</placeName> sowie der ihnen von den Diözesanbischöfen und anderen Personen verliehenen Freiheiten und Immunitäten</item><item> Perturbationsverbot</item></list>Schlussformel: Sanctio negativa</p>
          </div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustis petentium desideriis dignum est</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">Dat. Lat. IIII kal. iunii</diploPart></div>
@@ -71,14 +71,14 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl/>
+               <bibl>PUU England 1, S. 438-439, Nr. 166</bibl>
                <bibl/>
             </listBibl>
          </div>
          <div type="regesta">
             <head>Regesten</head> <!-- Konkordanzregesten -->
             <listBibl>
-               <bibl>Chart. Stone, S. 15. </bibl>
+               <bibl>Chart. Stone, S. 15 </bibl>
             </listBibl>
          </div>
          <div>
