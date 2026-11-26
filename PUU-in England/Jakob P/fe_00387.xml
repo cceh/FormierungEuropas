@@ -7,7 +7,7 @@
                <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
                <persName>JP</persName>
             </respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>JP</persName></respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>JP, IB</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -18,13 +18,13 @@
          <sourceDesc>
             <bibl>PUU England 1, S. 439-440, Nr. 168</bibl><bibl type="jaffe">13173</bibl>
             <diploDesc><p><authen type="formula" n="na">
-               <p>[-]</p>
+               <p>-</p>
                <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
-            </authen></p><p><issued><placeName>Lateran</placeName><date type="issued" notBefore="1179-02-28" notAfter="1179-02-28">(1179) Feb. 28</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            </authen></p><p><issued><placeName>Lateran</placeName><date type="issued" when="1179-02-28">(1179) Feb. 28</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">Benediktinerabtei Evesham</legalActor></p>
-               <p> <legalActor type="recipient">Abt (Adam) der Benediktinerabtei Evesham</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient">(Adam), Abt der Benediktinerabtei Evesham</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p>
                <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
@@ -41,7 +41,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p><legalActor><persName>Alexander III.</persName></legalActor> verleiht der <orgName>Benediktinerabtei Evesham</orgName> (D. Worcester) unter <persName>(Adam), Abt von Evesham,</persName> ein Privileg, bestätigt die folgenden Besitzungen und gewährt die folgenden Rechte:<list> <item>Bestätigung der Kirche von Hillingdon mit der zu ihr gehörenden Kapelle von Uxbridge (Middlesex) und ihrer übrigen Pertinenzen</item></list>Ferner legt er fest: <list><item>dass niemand das Kloster hinsichtlich der genannten Kirche oder ihrer Besitzungen unrechtmäßig belästigen oder bedrängen soll</item><item>Perturbationsverbot</item></list>Schlussformel: Sanctio negativa</p>
+            <p><legalActor><persName>Alexander III.</persName></legalActor> verleiht der <orgName>Benediktinerabtei Evesham</orgName> (D. Worcester) unter <persName>(Adam), Abt von Evesham,</persName> ein Privileg, bestätigt die folgenden Besitzungen und gewährt die folgenden Rechte:<list> <item>Bestätigung der Kirche von <placeName>Hillingdon</placeName> mit der zu ihr gehörenden Kapelle von <placeName>Uxbridge</placeName> (Middlesex) und ihrer übrigen Pertinenzen</item></list>Ferner legt er fest: <list><item>dass niemand das Kloster hinsichtlich der genannten Kirche oder ihrer Besitzungen unrechtmäßig belästigen oder bedrängen soll</item><item>Perturbationsverbot</item></list>Schlussformel: Sanctio negativa</p>
          </div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustis petentium desideriis dignum est</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">Dat. Lateran. II. kal. martii.</diploPart></div>
