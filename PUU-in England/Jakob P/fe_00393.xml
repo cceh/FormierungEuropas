@@ -18,7 +18,7 @@
          <sourceDesc>
             <bibl>PUU England 1, S. 419-420, Nr. 148</bibl><bibl type="jaffe">*12751</bibl>
             <diploDesc><p>
-                <authen type="formula" n=""><p>[-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen>
+                <authen type="formula" n=""><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen>
                <issued><placeName>Venedig, Rialto</placeName><date type="issued" notBefore="1177-06-22" notAfter="1177-06-22">1177 Jun. 22</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
