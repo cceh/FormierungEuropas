@@ -46,7 +46,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p><legalActor><persName>Alexander III.</persName></legalActor> verleiht dem <orgName>Priorat St. Nicolas </orgName>(D. Exeter) ein Privileg, bestätigt die folgenden Besitzungen und gewährt die folgenden Rechte:<list><item>Bestätigung der Kirche in Leigh (Dorsetshire) mit ihren Pertinenzen</item><item>Perturbationsverbot</item></list>Schlussformel: Sanctio negativa</p>
+            <p><legalActor><persName>Alexander III.</persName></legalActor> verleiht dem <orgName>Priorat St. Nicolas </orgName>(D. Exeter) ein Privileg, bestätigt die folgenden Besitzungen und gewährt die folgenden Rechte:<list><item>Bestätigung der Kirche in <placeName>Leigh</placeName> (Dorsetshire) mit ihren Pertinenzen</item><item>Perturbationsverbot</item></list>Schlussformel: Sanctio negativa</p>
          </div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustis petentium desideriis dignum est</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">Dat. Anagnie VIII kal. nouembris.</diploPart></div>
@@ -76,7 +76,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl/>
+               <bibl>PUU England 1, S. 437-438, Nr. 165</bibl>
                <bibl>[Edition 2]</bibl>
             </listBibl>
          </div>
