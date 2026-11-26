@@ -7,7 +7,7 @@
                <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
                <persName>JP</persName>
             </respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>JP, IB</persName></respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -17,7 +17,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>PUU England 1, S. 421, Nr. 149</bibl><bibl type="jaffe">-</bibl>
-            <diploDesc><p><authen type="formula" n=""><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen><issued><placeName>Venedig, Rialto</placeName><date type="issued" when="1177-07-03">(1177) Jul. 3</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            <diploDesc><p><authen type="formula" n=""><p>[-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen><issued><placeName>Venedig, Rialto</placeName><date type="issued" notBefore="1177-07-03" notAfter="1177-07-03">(1177) Jul. 3</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">Benediktinerabtei St. Werburgh in Cheshire</legalActor></p> <p><legalActor type="recipient">(Robert II.), Abt von St. Werburgh in Cheshire</legalActor></p>   <!-- kann enthalten: persName/orgName, ggf roleName -->
@@ -37,7 +37,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p><persName>Alexander III.</persName> verleiht aufgrund eines Schreibens der <orgName>Benediktinerabtei St. Werburgh</orgName> (D. Coventry-Lichfield) in Chester (Cheshire) unter <persName>(Robert II.), Abt von St. Werburgh</persName>, ein Privileg und gewährt die folgenden Rechte:  <list><item>Bestätigung des Beschlusses der Abtei, künftig nur noch geeigneten Klerikern ihre Kirchen zu übertragen</item></list>Zur Begründung der Entscheidung führt er aus: <list> <item>dass die Abtei in der Vergangenheit häufig von Reichen und Mächtigen gezwungen worden sei, ihre Kirchen Klerikern zu übertragen, die der Kirche nicht persönlich dienten</item><item>dass diese Kleriker wiederum zum Schaden der Abtei die Kirchen gegen einen Zins weniger geeigneten Personen übertragen hätten</item></list>Schlussformel: Sanctio negativa</p>
+            <p>Alexander III. verleiht aufgrund eines Schreibens der Benediktinerabtei St. Werburgh (D. Coventry-Lichfield) in Chester (Cheshire) unter (Robert II.), Abt von St. Werburgh, ein Privileg und gewährt die folgenden Rechte:  <list><item>Bestätigung des Beschlusses der Abtei, künftig nur noch geeigneten Klerikern ihre Kirchen zu übertragen</item></list>Zur Begründung der Entscheidung führt er aus: <list> <item>dass die Abtei in der Vergangenheit häufig von Reichen und Mächtigen gezwungen worden sei, ihre Kirchen Klerikern zu übertragen, die der Kirche nicht persönlich dienten</item><item>diese hätten wiederum zum Schaden der Abtei die Kirchen gegen einen Zins weniger geeigneten Personen übertragen</item></list>Schlussformel: Sanctio negativa</p>
          </div>
          
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Intelleximus ex tenore litterarum uestrarum</diploPart></div>
@@ -46,8 +46,8 @@
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl>Original: Papal Documents, London, Lambeth Palace Library, P.D. 9</bibl>
-               <bibl>Kopie: Chartulare von St. Werburgh (1330-1370), London, British Library, Harley MS 1965 (Auszug)</bibl><bibl>Kopie: Chartulare von St. Werburgh (1300-1340), London, British Library, Harley MS 2062 (Auszug) </bibl>
+               <bibl>Original: Papal Documents, London, Lambeth Palace Library P.D. 9</bibl>
+               <bibl>Kopie: Chartulare von St. Werburgh (frühes 14. Jh.), London, British Library Harley MS 1965 </bibl><bibl>Kopie: Chartulare von St. Werburgh (frühes 14. Jh.), London, British Library Harley MS 2062  </bibl>
                <bibl>[ggf. Druck]</bibl>
             </listBibl>
          </div>
@@ -68,7 +68,7 @@
          <div type="editions">
             <head>Editionen</head>
             <listBibl>
-               <bibl>PUU England 1, S. 421, Nr. 149</bibl><bibl>Chart. St. Werburgh, S. 112, Nr. 63</bibl>
+               <bibl>Chart. St. Werburgh, S. 112, Nr. 63</bibl>
                <bibl>[Edition 2]</bibl>
             </listBibl>
          </div>
@@ -82,10 +82,10 @@
          <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Gelb-rote Seidenbüschel. Bulle fehlt. Erste Zeile hervorgehoben.</p> </diploDesc> </div>
+               <p>Gelb-Rote Seidenbüschel. Bulle fehlt. Erste Zeile hervorgehoben.</p> </diploDesc> </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Das Chartular in Harley MS 2026 ist eine Abschrift des Chartulars in Harley MS 1965 (vgl. <bibl>Davis, Chartularies, S. 27</bibl>). Beide Chartulare überliefern  nach Holtzmann (<bibl>PUU England 1, S. 421</bibl>) nur einen undatierten Auszug aus der Originalurkunde.</p>
+            <p>Das Chartular in Harley MS 2026 ist eine Abschrift des Chartulars in Harley MS 1965 (vgl. <bibl>Davis, Chartularies, S. 27</bibl>) und beide Chartulare überliefern  nur einen undatierten Auszug aus der Originalurkunde.</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
