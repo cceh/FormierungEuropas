@@ -55,7 +55,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName> </legalActor>bestätigt auf Bitten des <legalActor cert="high" type="recipient" xml:space="default"><persName>Dompropsts Siboto</persName></legalActor> dem <legalActor cert="high" type="beneficiary" xml:space="default"><orgName>Domkapitel von Salzburg</orgName></legalActor> den Besitz der Kirche St. Martin (im Lungau), die der Erzbischof von Salzburg und zugleich päpstlicher Legat dem Domkapitel übereignet hat.</p>
+            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName> </legalActor>bestätigt auf Bitten des <legalActor cert="high" type="recipient" xml:space="default"><persName>Dompropsts Siboto</persName></legalActor> dem <legalActor cert="high" type="beneficiary" xml:space="default"><orgName>Domkapitel von Salzburg</orgName></legalActor> den Besitz der Kirche St. Martin (im Lungau) (D. Salzburg), die der Erzbischof von Salzburg und zugleich päpstlicher Legat dem Domkapitel übereignet hat.</p>
             <p>Schlussformeln: Sanctio negativa.</p>
          </div>
 
@@ -69,7 +69,7 @@
                   <item>-</item>
                </list></diploPart>
          </div>
-         <div><head>Datatio</head><diploPart type="datatio">Dat. Velletr. XVIIII kal. ianuarii.</diploPart></div>
+         <div><head>Datatio</head><diploPart type="datatio">Dat. Velletr., XVIIII kal. Ianuarii.</diploPart></div>
          <div type="msSources">
             <head>Frühester Überlieferungsträger</head>
             <div>
