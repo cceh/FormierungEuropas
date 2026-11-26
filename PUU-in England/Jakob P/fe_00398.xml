@@ -17,11 +17,12 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>PUU England 1, S. 430-431, Nr. 156</bibl><bibl type="jaffe">[Jaffe-Nummer]</bibl>
-            <diploDesc><p><issued><placeName>Laterano</placeName><date type="issued" notBefore="1166-03-14" notAfter="1179-03-14">(1166—79) März 14.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            <diploDesc><p> <authen type="formula" n=""><p>[-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen><issued><placeName>Laterano</placeName><date type="issued" notBefore="1166-03-14" notAfter="1179-03-14">(1166—79) März 14.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p> <legalActor type="recipient">Jocelinus, Bischof von Winchester</legalActor></p> <p> <legalActor type="recipient">Kanoniker von Holy Trinity</legalActor></p> <p> <legalActor type="recipient">Kanoniker von St- Paul's</legalActor></p> <p/>  <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p> <legalActor type="recipient">Jocelinus, Bischof von Winchester</legalActor></p> <p> <legalActor type="recipient">Kanoniker von Holy Trinity</legalActor></p> <p> <legalActor type="recipient">Kanoniker von St- Paul's</legalActor></p>   <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
+                  <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
          </sourceDesc>
@@ -38,8 +39,7 @@
          <div type="abstract"><head>Abstract:</head>
             <p>Alexander III. beauftragt den Bischof von Winchester, den Priester Jocelinus, der sich nach seiner Bückkehr aus Dänemark, wo er die Weihe empfangen haben will, in den Besitz der Kirche St. Ed- mund's in London gesetzt habe unter der Behauptung, sie gehöre den Kanonikern von Holy Trinity, daraus zu entfernen und den zwischen den Kanonikern von Holy Trinity und St. PauVs strittigen Anspruch auf diese Kirche zu entscheiden.</p>
          </div>
-         <div type="other"><head>Echtheitskriterien:</head>
-            <authen type="formula" n=""><p>[*+?-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></div>
+         
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">-</diploPart></div>
          <div type="msSources">
@@ -78,6 +78,12 @@
                <bibl>[Regest 1]</bibl>
                <bibl>Reg. Maxwell Lyte im 9"' Report of the Hist. Ms. Comm. App.  p. 49. </bibl>
             </listBibl>
+         </div>
+          <div>
+            <head>Diplomatischer Kommentar</head>
+            <diploDesc>
+               <p> </p>
+            </diploDesc>
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
