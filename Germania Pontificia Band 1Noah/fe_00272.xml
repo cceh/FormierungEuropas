@@ -37,7 +37,7 @@
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, Litterae (cum filo canapis)</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">Anweisung, ##Translation??##</objectType></p>
+               <p><objectType n="">Anweisung, Translation</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
@@ -55,7 +55,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName></legalActor> weist die Brüder des <legalActor cert="high" type="recipient" xml:space="default"><orgName>Benediktinerklosters Biburg</orgName></legalActor> (D. Regensburg) an, der Translation <persName>Heinrichs, des Abts des Benediktinerklosters Biburg,</persName> der das Abbatiat im <orgName>Benediktinerkloster St. Peter in Salzburg</orgName> (ED. Salzburg) antreten soll, statt zu geben und sich einen neuen Abt zu wählen. Er begründet die Translation mit dem schriftlichen Ersuchen der Brüder des Benediktinerklosters St. Peter in Salzburg und des Salzburger Erzbischofs, die Heinrich einstimmig zum Abt des Klosters gewählt haben, weil er dort aufgewachsen ist. </p>
+            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName></legalActor> weist die Brüder des <legalActor cert="high" type="recipient" xml:space="default"><orgName>Benediktinerklosters Biburg</orgName></legalActor> (D. Regensburg) an, der Translation <persName>Heinrichs, des Abts des Benediktinerklosters Biburg,</persName> der das Abbatiat im <orgName>Benediktinerkloster St. Peter in Salzburg</orgName> (D. Salzburg) antreten soll, statt zu geben und sich einen neuen Abt zu wählen. Er begründet die Translation mit dem schriftlichen Ersuchen der Brüder des Benediktinerklosters St. Peter in Salzburg und des Salzburger Erzbischofs, die Heinrich einstimmig zum Abt des Klosters gewählt haben, weil er dort aufgewachsen ist. </p>
          </div>
 
          <div><head>Incipit</head><diploPart type="incipit" xml:lang="lat">Dilecti filii nostri fratres Monasterii</diploPart></div>
