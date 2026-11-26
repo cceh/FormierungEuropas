@@ -20,7 +20,7 @@
             <diploDesc><p> <authen type="formula" n=""><p>[-]</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen><issued><placeName>Lateran</placeName><date type="issued" notBefore="1166-03-14" notAfter="1179-03-14">(1166—79) März 14.</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Bischof von Winchester</legalActor></p> <p><legalActor type="recipient">Priester Jocelin</legalActor></p>    <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><legalActor type="recipient">Bischof von Winchester</legalActor></p> <p/>    <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">[Typisierung 1]</objectType></p>
                   <p><objectType n="">[Typisierung 1]</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
