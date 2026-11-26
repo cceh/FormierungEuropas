@@ -22,7 +22,7 @@
                <issued><placeName>Venedig, Rialto</placeName><date type="issued" notBefore="1177-06-16" notAfter="1177-06-16">(1177) Jun. 16</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Augustinerabtei Haughmond</legalActor></p> <p> <legalActor type="recipient">Abt der Abtei Haughmond</legalActor></p>  <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><legalActor type="recipient">Augustinerabtei Haughmond</legalActor></p> <p> <legalActor type="recipient">Abt der Augustinerabtei Haughmond</legalActor></p>  <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p>
                   <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
@@ -39,7 +39,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. verleiht dem Abt und den Kanonikern von Haughmond (D. Coventry-Lichfield) ein Privileg, bestätigt die folgenden Besitzungen und gewährt die folgenden Rechte:<list><item>Bestätigung der Kirche von Leebotwood mit ihren Pertinenzen</item> <item>Perturbationsverbot</item></list>Schlussformel: Sanctio negativa </p>
+            <p><persName>Alexander III.</persName> verleiht dem Abt der Augustinerabtei Haughmond und deren <orgName>Kanonikern von Haughmond</orgName> (D. Coventry-Lichfield) ein Privileg, bestätigt die folgenden Besitzungen und gewährt die folgenden Rechte:<list><item>Bestätigung der Kirche von Leebotwood mit ihren Pertinenzen</item> <item>Perturbationsverbot</item></list>Schlussformel: Sanctio negativa </p>
          </div>
         
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Religiosis uiris propensius adesse tenemur</diploPart></div>
