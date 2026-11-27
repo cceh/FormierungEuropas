@@ -44,7 +44,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName></legalActor> weist die Äbte des <orgName>Benediktinerklosters Ottobeuren</orgName> (D. Augsburg) und des <orgName>Benediktinerklosters Altenburg</orgName> (D. Passau) sowie den <legalActor><persName>Otto I., den Propst des Regularkanonikerstifts ##Augustiner-Chorherrenstifts## Rottenbuch</persName></legalActor> (D. Freising) an, den Fall um die Wahl des <persName>Abts des Benediktinerklosters Benediktbeuern</persName> eingehend zu prüfen und eine endgültige Entscheidung zu treffen.</p>
+            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName></legalActor> weist die Äbte des <orgName>Benediktinerklosters Ottobeuren</orgName> (D. Augsburg) und des <orgName>Benediktinerklosters Altenburg</orgName> (D. Passau) sowie den <legalActor cert="high" type="recipient" xml:space="default"><persName>Otto I., den Propst des Regularkanonikerstifts ##Augustiner-Chorherrenstifts## Rottenbuch,</persName></legalActor>  an, den Fall um die Wahl des <persName>Abts des Benediktinerklosters Benediktbeuern</persName> eingehend zu prüfen und eine endgültige Entscheidung zu treffen.</p>
          </div>
 
          <div>
