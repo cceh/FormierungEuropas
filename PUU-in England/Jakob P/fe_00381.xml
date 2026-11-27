@@ -7,7 +7,7 @@
                <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
                <persName>JP</persName>
             </respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>JP, IB</persName></respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>JP, IB, CH</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -16,7 +16,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>PUU England 1, S. 437, Nr. 164</bibl><bibl type="jaffe">-</bibl>
+            <bibl type="main">PUU England 1, S. 437, Nr. 164</bibl><bibl type="jaffe">-</bibl>
             <diploDesc><p><authen type="formula" n="na">
                <p>-</p>
                <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
@@ -41,7 +41,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. verleiht dem <persName>Meister</persName> und den <orgName>Brüdern des <orgName>Templerordens</orgName></orgName> ein Privileg, bestätigt die folgenden Besitzungen und gewährt die folgenden Rechte:<list> <item>Bestätigung ihrer Besitzungen, insbesondere des ihnen von <persName>Thomas de Briançon</persName> überlassenen G. von Thurrock samt dessen Besitzung und der Mühle von Thurrock</item><item>Perturbationsverbot</item></list>Schlussformel: Sanctio negativa</p>
+            <p><persName>Alexander III.</persName> verleiht dem <persName>Meister</persName> und den <orgName>Brüdern des <orgName>Templerordens</orgName></orgName> ein Privileg, bestätigt die folgenden Besitzungen und gewährt die folgenden Rechte:<list> <item>Bestätigung ihrer Besitzungen, insbesondere des ihnen von <persName>Thomas de Briançon</persName> überlassenen G. von Thurrock samt dessen Besitzung und der Mühle von <placeName>Thurrock</placeName></item><item>Perturbationsverbot</item></list>Schlussformel: Sanctio negativa</p>
          </div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustis petentium desideriis dignum est</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">Dat. Anagn. idus octobris.</diploPart></div>
@@ -49,9 +49,9 @@
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl>Original: - </bibl>
-               <bibl>Kopie: Templerchartular (13. Jh.), London, British Library, Add MS 49613 A, fol. 50v</bibl><bibl>Kopie: Chartular der Johanniter (1442-1549), London, British Library, Cotton MS Nero E VI, fol. 201</bibl>
-               <bibl>[ggf. Druck]</bibl>
+               <bibl type="original">-</bibl>
+               <bibl type="msCopy">Templerchartular (13. Jh.), London, British Library, Add MS 49613 A, fol. 50v</bibl><bibl type="msCopy">Chartular der Johanniter (1442-1549), London, British Library, Cotton MS Nero E VI, fol. 201</bibl>
+               <bibl type="print">[ggf. Druck]</bibl>
             </listBibl>
          </div>
          </div>
@@ -85,7 +85,7 @@
            <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Michael Gervers geht davon aus, dass die Urkunde um das Jahr 1175 ausgestellt wurde (vgl.<bibl> Chart. Knights of St. John 2, S. xlvii und 113</bibl>).</p>
+               <p>Michael Gervers geht davon aus, dass die Urkunde um das Jahr 1175 ausgestellt wurde (vgl. <bibl>Chart. Knights of St. John 2, S. xlvii und 113</bibl>).</p>
             </diploDesc>
          </div>
          <div type="commentary">
