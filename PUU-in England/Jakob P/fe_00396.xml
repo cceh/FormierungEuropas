@@ -7,7 +7,7 @@
                <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
                <persName>JP</persName>
             </respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>JP, IB</persName></respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>JP, IB, CH</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -16,11 +16,11 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>PUU England 1, S. 423, Nr. 151</bibl><bibl type="jaffe">-</bibl>
-            <diploDesc><p> <authen type="formula" n=""><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen><issued><placeName>Venedig, Rialto</placeName><date type="issued" when="1177-09-14">(1177) Sep. 14</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
+            <bibl type="main">PUU England 1, S. 423, Nr. 151</bibl><bibl type="jaffe">-</bibl>
+            <diploDesc><p> <authen type="formula" n="na"><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen><issued><placeName>Venedig, Rialto</placeName><date type="issued" when="1177-09-14">(1177) Sep. 14</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-                <p><legalActor type="recipient">Benediktinerpriorat Spalding </legalActor></p> <p><legalActor type="recipient">(Reginald), Prior des Benediktinerpriorats Spalding</legalActor></p>  <!-- kann enthalten: persName/orgName, ggf roleName -->
+                <p><legalActor type="recipient">Benediktinerpriorat Spalding</legalActor></p> <p><legalActor type="recipient">(Reginald), Prior des Benediktinerpriorats Spalding</legalActor></p>  <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p>
                <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
@@ -37,7 +37,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p><persName>Alexander III.</persName> verleiht dem <orgName>Benediktinerpriorat Spalding</orgName> (D. Lincoln) unter <persName>(Reginald), Prior von Spalding</persName>, ein Privileg, bestätigt die folgenden Besitzungen und gewährt die folgenden Rechte: <list><item>Bestätigung der zur Versorgung der Armen und zum Nutzen der Gastfreundschaft bestimmten Kirchen von <placeName>Weston</placeName>, <placeName>Moulton</placeName>, <placeName>Pinchbeck</placeName>, <placeName>Surfleet</placeName>, <placeName>Sibsey</placeName>, <placeName>Alkborough</placeName> mitsamt ihrer Pertinenzen unter Vorbehalt des Rechts des Diözesanbischofs und derjeniger, die in den Kirchen dienen sollen</item><item>Perturbationsverbot</item></list>Schlussformel: Sanctio negativa</p>
+            <p><persName>Alexander III.</persName> verleiht dem <orgName>Benediktinerpriorat Spalding</orgName> (D. Lincoln) unter <persName>(Reginald), Prior von Spalding</persName>, ein Privileg, bestätigt die folgenden Besitzungen und gewährt die folgenden Rechte:<list><item>Bestätigung der zur Versorgung der Armen und zum Nutzen der Gastfreundschaft bestimmten Kirchen von <placeName>Weston</placeName>, <placeName>Moulton</placeName>, <placeName>Pinchbeck</placeName>, <placeName>Surfleet</placeName>, <placeName>Sibsey</placeName>, <placeName>Alkborough</placeName> mitsamt ihrer Pertinenzen unter Vorbehalt des Rechts des Diözesanbischofs und derjeniger, die in den Kirchen dienen sollen</item><item>Perturbationsverbot</item></list>Schlussformel: Sanctio negativa</p>
          </div>
         
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustis petentium desideriis dignum est</diploPart></div>
@@ -46,9 +46,9 @@
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl>Original: -</bibl>
-               <bibl>Kopie: Chartular von Spalding (1300-1499), London, British Library, MS Add 35296, fol. 284v</bibl><bibl>Kopie: Chartular von Spalding (1300-1499), London, British Library, MS Add 35296, fol. 362v</bibl>
-               <bibl>[ggf. Druck]</bibl>
+               <bibl type="original">-</bibl>
+               <bibl type="msCopy">Chartular von Spalding (1300-1499), London, British Library, MS Add 35296, fol. 284v</bibl><bibl type="msCopy">Chartular von Spalding (1300-1499), London, British Library, MS Add 35296, fol. 362v</bibl>
+               <bibl type="print">[ggf. Druck]</bibl>
             </listBibl>
          </div>
          </div>
