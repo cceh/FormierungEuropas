@@ -22,7 +22,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">(Otto I.,) Propst des Regularkanonikerstifts ##Augustiner-Chorherrenstifts## Rottenbuch</legalActor></p><p><legalActor type="recipient">(Gernod, Prior Benediktinerklosters Ottobeuren##</legalActor></p><p><legalActor type="recipient">##Abt des Benediktinerklosters Altenburg##</legalActor></p><p><legalActor type="recipient">der Klöster Ottobeuren und Altenburg</legalActor></p>
+               <p><legalActor type="recipient">(Otto I.,) Propst des Regularkanonikerstifts ##Augustiner-Chorherrenstifts## Rottenbuch</legalActor></p><p><legalActor type="recipient">(Gernod,) Abt Benediktinerklosters Ottobeuren</legalActor></p><p><legalActor type="recipient">##Abt des Benediktinerklosters Altenburg##</legalActor></p><p><legalActor type="recipient">der Klöster Ottobeuren und Altenburg</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, Litterae ##(cum filo canapis)##</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
@@ -44,7 +44,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName></legalActor> weist die Äbte des <orgName>Benediktinerklosters Ottobeuren</orgName> (D. Augsburg) und des <orgName>Benediktinerklosters Altenburg</orgName> (D. Passau) sowie <legalActor cert="high" type="recipient" xml:space="default"><persName>(Otto I.,) den Propst des Regularkanonikerstifts ##Augustiner-Chorherrenstifts## Rottenbuch,</persName></legalActor>  an, den Fall um die ##zwiespältige## Wahl des Abts des <orgName>Benediktinerklosters Benediktbeuern</orgName> (D. Augsburg) eingehend zu prüfen und eine endgültige Entscheidung zu treffen.</p>
+            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName></legalActor> weist  Benediktinerklosters Ottobeuren (D. Augsburg) und des <orgName>Benediktinerklosters Altenburg</orgName> (D. Passau) sowie <legalActor cert="high" type="recipient" xml:space="default"><persName>(Otto I.,) den Propst des Regularkanonikerstifts ##Augustiner-Chorherrenstifts## Rottenbuch,</persName></legalActor>  an, den Fall um die ##zwiespältige## Wahl des Abts des <orgName>Benediktinerklosters Benediktbeuern</orgName> (D. Augsburg) eingehend zu prüfen und eine endgültige Entscheidung zu treffen.</p>
          </div>
 
          <div>
