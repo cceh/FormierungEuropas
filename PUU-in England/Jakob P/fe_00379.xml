@@ -16,7 +16,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>PUU England 1, S. 435-436, Nr. 162</bibl><bibl type="jaffe">-</bibl>
+            <bibl type="main">PUU England 1, S. 435-436, Nr. 162</bibl><bibl type="jaffe">-</bibl>
             <diploDesc><p><authen type="formula" n="na">
                <p>-</p>
                <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
@@ -42,7 +42,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. verleiht dem <persName>Prokurator</persName> und den <persName>Brüdern des <orgName>Hospitals von St. Peter's</orgName></persName>  (D. York) ein Privileg, bestätigt die folgenden Besitzungen und gewährt die folgenden Rechte:</p><p><list> <item>Bestätigung der namentlich genannten Besitzungen, wie sie durch die Urkunden der namentlich genannten Stifter bezeugt sind</item><item>Perturbationsverbot</item></list>Schlussformel: Sanctio negativa</p><p/><p/>
+            <p><persName>Alexander III.</persName> verleiht dem <persName>Prokurator</persName> und den <persName>Brüdern des <orgName>Hospitals von St. Peter's</orgName></persName>  (D. York) ein Privileg, bestätigt die folgenden Besitzungen und gewährt die folgenden Rechte:</p><p><list> <item>Bestätigung der namentlich genannten Besitzungen, wie sie durch die Urkunden der namentlich genannten Stifter bezeugt sind</item><item>Perturbationsverbot</item></list>Schlussformel: Sanctio negativa</p><p/><p/>
          </div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustis petentium desideriis dignum est</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">Dat. Lat. VII idus maii.</diploPart></div>
@@ -50,9 +50,9 @@
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl>Original: -</bibl>
-               <bibl>Kopie: Chartular von St. Leonard's York (15. Jh.), London,  British Library, Cotton MS Nero  D III, fol. 68v</bibl>
-               <bibl>[ggf. Druck]</bibl>
+               <bibl type="original">-</bibl>
+               <bibl type="msCopy">Chartular von St. Leonard's York (15. Jh.), London,  British Library, Cotton MS Nero  D III, fol. 68v</bibl>
+               <bibl type="print">[ggf. Druck]</bibl>
             </listBibl>
          </div>
          </div>
