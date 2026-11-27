@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc><titleStmt><title>fe_00304</title>
             <respStmt><resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp><persName>IB</persName></respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>IB</persName></respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>IB, CH</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -14,7 +14,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>PUU England 1, S. 343-344, Nr. 82</bibl><bibl type="jaffe">-</bibl>
+            <bibl type="main">PUU England 1, S. 343-344, Nr. 82</bibl><bibl type="jaffe">-</bibl>
             <diploDesc><p><authen type="formula" n="na"><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen><issued><placeName>Anagni</placeName><date type="issued" when="1160-11-23">(1160) Nov. 23</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p><p><legalActor type="issuer">Alexander III.</legalActor></p><p><legalActor type="recipient">Zisterzienserkloster Rievaulx</legalActor></p><p><legalActor type="recipient">Aelred, Abt des Zisterzienserklosters Rievaulx</legalActor></p><!-- kann enthalten: persName/orgName, ggf roleName --><p><objectType n="">Papsturkunde, litterae cum filo canapis</objectType></p><p><objectType n="">Juristisches, Schutzmaßnahme</objectType></p><!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
             <p>ggf. die Zentralen Regestenwerke wie JL hier doppeln? -> sonst in den Regestenwerken</p>--></diploDesc>
@@ -30,7 +30,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. verbietet auf Bitten der <orgName>Mönche</orgName> des <orgName>Zisterzienserklosters Rievaulx</orgName> (D. York) und <persName>Aelreds, des Abtes von Rievaulx,</persName> Mönchen anderer Orden, in die Weiden und Besitzungen der Abtei einzudringen.</p>
+            <p><persName>Alexander III.</persName> verbietet auf Bitten der <orgName>Mönche des <orgName>Zisterzienserklosters Rievaulx</orgName></orgName> (D. York) und <persName>Aelreds, des Abtes von Rievaulx</persName>, Mönchen anderer Orden, in die Weiden und Besitzungen der Abtei einzudringen.</p>
          </div>
                   <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustis petentium desideriis facilem nos</diploPart></div>
                   <div>
