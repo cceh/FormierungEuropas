@@ -22,7 +22,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">(Otto I.,) Propst des Regularkanonikerstifts ##Augustiner-Chorherrenstifts## Rottenbuch</legalActor></p><p><legalActor type="recipient">(Gernod,) Abt Benediktinerklosters Ottobeuren</legalActor></p><p><legalActor type="recipient">(Wichard,) Abt des Benediktinerklosters Altenburg</legalActor></p>
+               <p><legalActor type="recipient">(Otto I.,) Propst des Regularkanonikerstifts ##Augustiner-Chorherrenstifts## Rottenbuch</legalActor></p><p><legalActor type="recipient">(Gernod,) des Abt Benediktinerklosters Ottobeuren</legalActor></p><p><legalActor type="recipient">(Wichard,) Abt des Benediktinerklosters Altenburg</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, Litterae ##(cum filo canapis)##</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
