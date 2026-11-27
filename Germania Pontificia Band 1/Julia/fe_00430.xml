@@ -26,7 +26,7 @@
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, feierliches Privileg</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
-               <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p><p><objectType n="">Alexander III., Urheber</objectType></p>
+               <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
             </diploDesc>
          </sourceDesc>
@@ -67,8 +67,8 @@
             <div>
                <listBibl>
                   <bibl type="original">Nürnberg, Germanisches Nationalmuseum, Perg. Urk. 1174 I 30; digital verfügbar unter: https://urkundenrepositorium.uni-marburg.de/entities/urkunde/49f5e89a-cf77-4d92-94f9-b1adbde3a5ed</bibl>
-                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="msCopy">-</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
