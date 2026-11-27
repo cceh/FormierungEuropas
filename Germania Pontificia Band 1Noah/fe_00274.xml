@@ -33,7 +33,7 @@
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Augustiner-Chorherrenstift Herrenchiemsee</legalActor></p><p><legalActor type="recipient">Ulrich, Stiftspropst des Augustiner-Chorherrenstifts Herrenchiemsee</legalActor></p>
+               <p><legalActor type="recipient">Augustiner-Chorherrenstift Herrenchiemsee</legalActor></p><p><legalActor type="recipient">Ulrich, Propst des Augustiner-Chorherrenstifts Herrenchiemsee</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, Litterae cum serico</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
