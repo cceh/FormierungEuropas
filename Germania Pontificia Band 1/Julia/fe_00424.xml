@@ -44,7 +44,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName></legalActor> weist die Äbte des <orgName>Benediktinerklosters Ottobeuren</orgName> (D. Augsburg) und des <orgName>Benediktinerklosters Altenburg</orgName> (D. Passau) sowie den <legalActor><persName>Otto I., den Propst des Regularkanonikerstifts ##Augustiner-Chorherrenstifts## Rottenbuch</persName></legalActor> (D. Freising) an, den Fall um die Wahl des <persName>Abtes von Benediktbeuern</persName> eingehend zu prüfen und eine endgültige Entscheidung zu treffen.</p>
+            <p><legalActor cert="high" type="issuer" xml:space="default"><persName>Alexander III.</persName></legalActor> weist die Äbte des <orgName>Benediktinerklosters Ottobeuren</orgName> (D. Augsburg) und des <orgName>Benediktinerklosters Altenburg</orgName> (D. Passau) sowie den <legalActor><persName>Otto I., den Propst des Regularkanonikerstifts ##Augustiner-Chorherrenstifts## Rottenbuch</persName></legalActor> (D. Freising) an, den Fall um die Wahl des <persName>Abts des Benediktinerklosters Benediktbeuern</persName> eingehend zu prüfen und eine endgültige Entscheidung zu treffen.</p>
          </div>
 
          <div>
@@ -53,7 +53,7 @@
          <div>
             <head>Subscriptiones</head>
             <diploPart type="subscriptio" xml:lang="lat"><list>
-                  <item>[Diplomatische Transkription der Zeugenlisten. Kardinalsunterschriften können auch in drei separaten Listen gruppiert werden.]</item>
+                  <item>-</item>
                </list></diploPart>
          </div>
          <div>
@@ -64,8 +64,8 @@
             <div>
                <listBibl>
                   <bibl type="original">Deperditum, erwähnt in Supplik der Äbte von Altenburg und Ottobeuren und des Propstes von Rottenbuch (Germ. Pont. 2,1, S. 74, Nr. 12; ##FE Nr. ??'##)</bibl>
-                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="msCopy">-</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
