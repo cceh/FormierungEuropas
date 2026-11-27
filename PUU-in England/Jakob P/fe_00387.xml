@@ -7,7 +7,7 @@
                <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
                <persName>JP</persName>
             </respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>JP, IB</persName></respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>JP, IB, CH</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -16,7 +16,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>PUU England 1, S. 439-440, Nr. 168</bibl><bibl type="jaffe">13173</bibl>
+            <bibl type="main">PUU England 1, S. 439-440, Nr. 168</bibl><bibl type="jaffe">13173</bibl>
             <diploDesc><p><authen type="formula" n="na">
                <p>-</p>
                <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
@@ -41,7 +41,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p><legalActor><persName>Alexander III.</persName></legalActor> verleiht der <orgName>Benediktinerabtei Evesham</orgName> (D. Worcester) unter <persName>(Adam), Abt von Evesham,</persName> ein Privileg, bestätigt die folgenden Besitzungen und gewährt die folgenden Rechte:<list> <item>Bestätigung der Kirche von <placeName>Hillingdon</placeName> mit der zu ihr gehörenden Kapelle von <placeName>Uxbridge</placeName> (Middlesex) und ihrer übrigen Pertinenzen</item></list>Ferner legt er fest: <list><item>dass niemand das Kloster hinsichtlich der genannten Kirche oder ihrer Besitzungen unrechtmäßig belästigen oder bedrängen soll</item><item>Perturbationsverbot</item></list>Schlussformel: Sanctio negativa</p>
+            <p><persName>Alexander III.</persName> verleiht der <orgName>Benediktinerabtei Evesham</orgName> (D. Worcester) unter <persName>(Adam), Abt von Evesham</persName>, ein Privileg, bestätigt die folgenden Besitzungen und gewährt die folgenden Rechte:<list> <item>Bestätigung der Kirche von <placeName>Hillingdon</placeName> mit der zu ihr gehörenden Kapelle von <placeName>Uxbridge</placeName> (Middlesex) und ihrer übrigen Pertinenzen</item></list>Ferner legt er fest: <list><item>dass niemand das Kloster hinsichtlich der genannten Kirche oder ihrer Besitzungen unrechtmäßig belästigen oder bedrängen soll</item><item>Perturbationsverbot</item></list>Schlussformel: Sanctio negativa</p>
          </div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustis petentium desideriis dignum est</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">Dat. Lateran. II. kal. martii.</diploPart></div>
@@ -49,9 +49,9 @@
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl>Original: -</bibl>
-               <bibl>Kopie: Chartular von Evesham (1200-1399), London, British Library MS Harley 3763, fol. 97</bibl>
-               <bibl>[ggf. Druck]</bibl>
+               <bibl type="original">-</bibl>
+               <bibl type="msCopy">Chartular von Evesham (1200-1399), London, British Library MS Harley 3763, fol. 97</bibl>
+               <bibl type="print">[ggf. Druck]</bibl>
             </listBibl>
          </div>
          </div>
