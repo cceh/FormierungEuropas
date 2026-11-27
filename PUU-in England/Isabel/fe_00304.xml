@@ -45,9 +45,9 @@
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl>[Original]</bibl>
+               <bibl type="original">[Original]</bibl>
                <bibl type="msCopy">Chartular von Rievaulx (1175-1399), London, British Library, Cotton MS Julius D I, fol. 179, Nr. 219</bibl>
-               <bibl>[ggf. Druck]</bibl>
+               <bibl type="print">[ggf. Druck]</bibl>
             </listBibl>
          </div>
          </div>
@@ -94,7 +94,7 @@
          </div>
          <div type="note">
             <head>Notizen</head>
-            <p>[fe-Verweise einfügen</p><p/><p>@PL: Letzter Satz Sachkommentar überflüssig?</p><p/><p>Nach Endkorrektur löschen:</p><p/><p>Alexander episcopus, servus servorum Dei. Dilectis filiis Ailredo abbati et fratribus Bieval(lensis) monasterii salutem et apostolicam benedictionem.Iustis petentium desideriis facilem nos convenit impertiri consensum et vota, que a rationis tramite non discordant, effectu sunt prosequente complenda. Eapropter, dilecti in domino filii, vestris iustis postulationibus celerem impertientes assensum auctoritate apostolica inhibemus, ut nulli alterius ordinis fratres in pasturas et possessiones vestras temeraria usurpatione vobis invitis intrare presumant, ne per eorum molestiam pax et quies vestra debeat disturbari.Dat. Anagn(ie) VIII kal. decembris.</p>
+            <p>[fe-Verweise einfügen, CH: Stand 27.11.2026 konnte kein fe-Verweis gefunden werden.]</p><p/><p>@PL: Letzter Satz Sachkommentar überflüssig?</p><p/><p>Nach Endkorrektur löschen:</p><p/><p>Alexander episcopus, servus servorum Dei. Dilectis filiis Ailredo abbati et fratribus Bieval(lensis) monasterii salutem et apostolicam benedictionem.Iustis petentium desideriis facilem nos convenit impertiri consensum et vota, que a rationis tramite non discordant, effectu sunt prosequente complenda. Eapropter, dilecti in domino filii, vestris iustis postulationibus celerem impertientes assensum auctoritate apostolica inhibemus, ut nulli alterius ordinis fratres in pasturas et possessiones vestras temeraria usurpatione vobis invitis intrare presumant, ne per eorum molestiam pax et quies vestra debeat disturbari.Dat. Anagn(ie) VIII kal. decembris.</p>
          </div>
       </body>
    </text>
