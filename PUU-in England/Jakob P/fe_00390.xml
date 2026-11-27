@@ -39,7 +39,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p><persName>Alexander III.</persName> verleiht dem Meister und den Brüdern des Templerordens ein Privileg, bestätigt die folgenden Besitzungen und gewährt die folgenden Rechte:<list><item>Bestätigung der ihnen von <persName>Nigel, Bischof von Ely</persName>, mit Zustimmung der beiden Gründer, <persName>R.</persName> und seines Sohnes <persName>Gilbert</persName>, übertragenen Kirche von <placeName>Wilburgham</placeName> mit allen ihren Freiheiten und Pertinenzen</item><item>Perturbationsverbot</item></list>Schlussformel: Sanctio negativa</p><p/>
+            <p><persName>Alexander III.</persName> verleiht dem <persName>Meister</persName> und den <persName>Brüdern des <orgName>Templerordens</orgName></persName> ein Privileg, bestätigt die folgenden Besitzungen und gewährt die folgenden Rechte:<list><item>Bestätigung der ihnen von <persName>Nigel, Bischof von Ely</persName>, mit Zustimmung der beiden Gründer, <persName>R.</persName> und seines Sohnes <persName>Gilbert</persName>, übertragenen Kirche von <placeName>Wilburgham</placeName> mit allen ihren Freiheiten und Pertinenzen</item><item>Perturbationsverbot</item></list>Schlussformel: Sanctio negativa</p><p/>
          </div>
       
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustis pententium desideriis dignum est</diploPart></div>
@@ -48,9 +48,9 @@
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl>[Original]</bibl>
-               <bibl>Kopie: Templerchartular (1248-1258), London, British Library, Add MS 49613 A, fol. 50</bibl><bibl>Kopie: Chartular des Hospitals von St. Johannis von Jerusalem (15. Jh.), London, British Library, Cotton MS Nero C IX, fol. 23</bibl>
-               <bibl>[ggf. Druck]</bibl>
+               <bibl type="original">[Original]</bibl>
+               <bibl type="msCopy">Templerchartular (1248-1258), London, British Library, Add MS 49613 A, fol. 50</bibl><bibl type="mrCopy">Chartular des Hospitals von St. Johannis von Jerusalem (15. Jh.), London, British Library, Cotton MS Nero C IX, fol. 23</bibl>
+               <bibl type="print">[ggf. Druck]</bibl>
             </listBibl>
          </div>
          </div>
@@ -89,7 +89,7 @@
          </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Aus der Amtszeit des Bischofs Nigel (1133–1169) und dem Itinerar Alexanders III. ergibt sich das Ausstellungsjahr 1160 (vgl.<bibl> PUU England 1, S. 339</bibl>). </p>
+            <p>Aus der Amtszeit des Bischofs Nigel (1133–1169) und dem Itinerar Alexanders III. ergibt sich das Ausstellungsjahr 1160 (vgl. <bibl>PUU England 1, S. 339</bibl>).</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
