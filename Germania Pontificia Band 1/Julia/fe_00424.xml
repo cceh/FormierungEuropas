@@ -18,11 +18,11 @@
                      <p>*</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>–</placeName><date type="issued" notBefore="1176-01-01" notAfter="1176-12-31">(um 1176)</date>
+               <issued><placeName>–</placeName><date type="issued" notBefore="1175-01-01" notAfter="1177-12-31">(um 1176)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Otto I., Propst des Regularkanonikerstifts ##Augustiner-Chorherrenstifts## Rottenbuch</legalActor></p><p><legalActor type="recipient">Äbte der Klöster Ottobeuren und Altenburg</legalActor></p>
+               <p><legalActor type="recipient">Otto I., Propst des Regularkanonikerstifts ##Augustiner-Chorherrenstifts## Rottenbuch</legalActor></p><p><legalActor type="recipient">Abt des Benediktinerklostersder Klöster Ottobeuren und Altenburg</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, nicht kategorisierbar</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
