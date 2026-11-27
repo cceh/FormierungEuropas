@@ -7,7 +7,7 @@
                <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
                <persName>JP</persName>
             </respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>JP, IB</persName></respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>JP, IB, CH</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -16,9 +16,9 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>PUU England 1, S. 419-420, Nr. 148</bibl><bibl type="jaffe">*12751</bibl>
+            <bibl type="main">PUU England 1, S. 419-420, Nr. 148</bibl><bibl type="jaffe">*12751</bibl>
             <diploDesc><p>
-                <authen type="formula" n=""><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen>
+                <authen type="formula" n="na"><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen>
                <issued><placeName>Venedig, Rialto</placeName><date type="issued" when="1177-06-22">1177 Jun. 22</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
@@ -38,7 +38,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p><persName>Alexander III.</persName> verleiht <persName>Philipp, Abt von Meaux,</persName> und dem <orgName>Zisterzienserkloster Meaux</orgName> (D. York) ein Privileg, bestätigt die folgenden Besitzungen und gewährt die folgenden Rechte:<list> <item>Aufnahme des Klosters in den apostolischen Schutz</item><item>Bestätigung  der Regel des hl. Benedikt gemäß den Zisterziensern</item><item>Bestätigung aller derzeitigen und künftigen Besitzungen und Güter, darunter einige namentlich und in ihrem Umfang genannte Besitzungen von namentlich genannten Stiftern</item><item>Garantie eines besonderen Friedens für die Klosterbezirke und die Grangien</item><item>Befreiung vom Zehnten bei Eigenbau und für Tierfutter</item><item>die Aufnahme von Klerikern und Laien, die der Welt entfliehen wollen</item></list>Ferner legt er fest:<list><item>dass kein Bruder nach abgelegter Profess ohne die Erlaubnis des Priors oder Abtes das Kloster verlassen darf und niemand einen Ausscheidenden ohne die schriftliche Erlaubnis der Gemeinschaft aufnehmen darf</item><item>Perturbationsverbot</item></list>Schlussformeln: Sanctio negativa und positiva </p>
+            <p><persName>Alexander III.</persName> verleiht <persName>Philipp, Abt von Meaux</persName>, und dem <orgName>Zisterzienserkloster Meaux</orgName> (D. York) ein Privileg, bestätigt die folgenden Besitzungen und gewährt die folgenden Rechte:<list> <item>Aufnahme des Klosters in den apostolischen Schutz</item><item>Bestätigung der Regel des hl. Benedikt gemäß den Zisterziensern</item><item>Bestätigung aller derzeitigen und künftigen Besitzungen und Güter, darunter einige namentlich und in ihrem Umfang genannte Besitzungen von namentlich genannten Stiftern</item><item>Garantie eines besonderen Friedens für die Klosterbezirke und die Grangien</item><item>Befreiung vom Zehnten bei Eigenbau und für Tierfutter</item><item>die Aufnahme von Klerikern und Laien, die der Welt entfliehen wollen</item></list>Ferner legt er fest:<list><item>dass kein Bruder nach abgelegter Profess ohne die Erlaubnis des Priors oder Abtes das Kloster verlassen darf und niemand einen Ausscheidenden ohne die schriftliche Erlaubnis der Gemeinschaft aufnehmen darf</item><item>Perturbationsverbot</item></list>Schlussformeln: Sanctio negativa und positiva</p>
          </div>
          
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Religiosam uitam eligentibus apostolicum conuenit</diploPart></div>
@@ -47,9 +47,9 @@
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl>[Original]</bibl>
-               <bibl>Kopie: Chartular von Meaux (1400-1499), London, British Library, Lansdowne MS 424, fol. 7  </bibl><bibl>Kopie: Abschrift des Chartulars (17. Jahrhundert), London, British Library, Add MS 26736, fol. 4 </bibl>
-               <bibl>[ggf. Druck]</bibl>
+               <bibl type="original">[Original]</bibl>
+               <bibl type="msCopy">Chartular von Meaux (1400-1499), London, British Library, Lansdowne MS 424, fol. 7  </bibl><bibl type="msCopy">Abschrift des Chartulars (17. Jahrhundert), London, British Library, Add MS 26736, fol. 4</bibl>
+               <bibl type="print">[ggf. Druck]</bibl>
             </listBibl>
          </div>
          </div>
@@ -81,10 +81,10 @@
           <div>
             <head>Diplomatischer Kommentar</head>
             <diploDesc>
-               <p>Dreifaches Armen. </p> </diploDesc> </div>
+               <p>Dreifaches Armen.</p> </diploDesc> </div>
          <div type="commentary">
             <head>Sachkommentar</head>
-            <p>Die vorliegende Urkunde orientiert sich an fe_00371 (vgl. <bibl>PUU England 1, S. 419</bibl>). In den<bibl> Regesta Pontificum Romanorum </bibl>(<bibl>JL *12751, S. 301</bibl>) wird die Urkunde irrtümlicherweise als Deperditum betrachtet, weil Jaffé das Regest auf Grundlage der von Thomas Burton im 15. Jahrhundert verfassten <bibl>Chronica monasterii de Melsa</bibl> erstellt wurde.</p>
+            <p>Die vorliegende Urkunde orientiert sich an fe_00371 (vgl. <bibl>PUU England 1, S. 419</bibl>). In den <bibl>Regesta Pontificum Romanorum</bibl> (<bibl>JL *12751, S. 301</bibl>) wird die Urkunde irrtümlicherweise als Deperditum betrachtet, weil Jaffé das Regest auf Grundlage der von Thomas Burton im 15. Jahrhundert verfassten <bibl>Chronica monasterii de Melsa</bibl> erstellt hat.</p>
          </div>
          <div type="bibliography">
             <head>Bibliographie</head>
