@@ -7,7 +7,7 @@
                <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
                <persName>JP</persName>
             </respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>JP, IB</persName></respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>JP, IB, CH</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -16,7 +16,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>PUU England 1, S. 438-439, Nr. 166</bibl><bibl type="jaffe">-</bibl>
+            <bibl type="main">PUU England 1, S. 438-439, Nr. 166</bibl><bibl type="jaffe">-</bibl>
             <diploDesc><p><authen type="formula" n="na">
                <p>-</p>
                <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
@@ -41,7 +41,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p><legalActor><persName>Alexander III.</persName></legalActor> verleiht dem <orgName>Augustinerpriorat Stone</orgName> (D. Coventry) ein Privileg, bestätigt die folgenden Besitzungen und gewährt die folgenden Rechte:</p><p><list><item>die Kirchen von <placeName>Bradeley</placeName> und <placeName>Dilhorne</placeName> sowie die ihnen von den Diözesanbischöfen und anderen Personen verliehenen Freiheiten und Immunitäten</item><item> Perturbationsverbot</item></list>Schlussformel: Sanctio negativa</p>
+            <p><persName>Alexander III.</persName> verleiht dem <orgName>Augustinerpriorat Stone</orgName> (D. Coventry) ein Privileg, bestätigt die folgenden Besitzungen und gewährt die folgenden Rechte:</p><p><list><item>die Kirchen von <placeName>Bradeley</placeName> und <placeName>Dilhorne</placeName> sowie die ihnen von den Diözesanbischöfen und anderen Personen verliehenen Freiheiten und Immunitäten</item><item>Perturbationsverbot</item></list>Schlussformel: Sanctio negativa</p>
          </div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustis petentium desideriis dignum est</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">Dat. Lat. IIII kal. iunii.</diploPart></div>
@@ -49,9 +49,9 @@
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl>Original: -</bibl>
-               <bibl>Kopie: Chartular von Stone (1230-1499), British Library, Cotton MS Vespasian E  XXIV, fol. 17;</bibl><bibl>Transkription von David Casley (1734) London, British Library, Stowe MS 943, fol. 36</bibl>
-               <bibl>[ggf. Druck]</bibl>
+               <bibl type="original">-</bibl>
+               <bibl type="msCopy">Chartular von Stone (1230-1499), British Library, Cotton MS Vespasian E  XXIV, fol. 17</bibl><bibl type="msCopy">Transkription von David Casley (1734) London, British Library, Stowe MS 943, fol. 36</bibl>
+               <bibl type="print">[ggf. Druck]</bibl>
             </listBibl>
          </div>
          </div>
