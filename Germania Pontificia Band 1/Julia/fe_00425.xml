@@ -64,8 +64,8 @@
             <div>
                <listBibl>
                   <bibl type="original">Deperditum, erwähnt im Schreiben Salomons an den Patriarch Ulrich von Aquileia (vgl. Pez, Thesaurus anecdotorum VI, 1, Sp. 432-433, Nr. 158)</bibl>
-                  <bibl type="msCopy">[handschriftliche Kopie]</bibl>
-                  <bibl type="print">[Druck]</bibl>
+                  <bibl type="msCopy">-</bibl>
+                  <bibl type="print">-</bibl>
                </listBibl>
             </div>
          </div>
@@ -79,7 +79,7 @@
          <div type="historiography">
             <head>Erwähnungen in der Historiographie/Nichturkundliche Erwähnungen</head>
             <listBibl>
-               <bibl>-</bibl>
+               <bibl>Pez, Thesaurus anecdotorum 6, 1, Sp. 432-433, Nr. 158, </bibl>
                <bibl/>
             </listBibl>
          </div>
@@ -110,8 +110,7 @@
          <div type="bibliography">
             <head>Bibliographie</head>
             <listBibl>
-               <bibl>[Werk 1]</bibl>
-               <bibl>[Werk 2]</bibl>
+               <bibl>-</bibl>
             </listBibl>
          </div>
          <div type="note">
