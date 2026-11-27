@@ -7,7 +7,7 @@
                <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
                <persName>JP</persName>
             </respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>JP, IB</persName></respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>JP, IB, CH</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -16,13 +16,13 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>PUU England 1, S. 392, Nr. 120</bibl><bibl type="jaffe">-</bibl>
+            <bibl type="main">PUU England 1, S. 392, Nr. 120</bibl><bibl type="jaffe">-</bibl>
             <diploDesc><p>
-               <authen type="formula" n=""><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen>
+               <authen type="formula" n="na"><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen>
                <issued><placeName>Ferentino</placeName><date type="issued" when="1175-06-27">(1175) Jun. (27)</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued></p>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
-               <p><legalActor type="recipient">Augustinerpriorat St. Augustine's Bristol </legalActor></p><p><legalActor type="recipient">Prior von St. Augustine's Bristol</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
+               <p><legalActor type="recipient">Augustinerpriorat St. Augustine's Bristol</legalActor></p><p><legalActor type="recipient">Prior von St. Augustine's Bristol</legalActor></p> <!-- kann enthalten: persName/orgName, ggf roleName -->
                <p><objectType n="">Papsturkunde, litterae cum serico</objectType></p>
                <p><objectType n="">Juristisches, Rechts- und Besitzbestätigung</objectType></p>
 <!--  <p>Information zu Quelldatensätzen, die in diesem aufgegangen sind?</p>
@@ -43,14 +43,14 @@
          </div>
         
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustis petentium desideriis dignum est</diploPart></div>
-         <div><head>Datatio:</head><diploPart type="datatio">Dat. Ferentin [V] kal. iul. </diploPart></div>
+         <div><head>Datatio:</head><diploPart type="datatio">Dat. Ferentin [V] kal. iul.</diploPart></div>
          <div type="msSources">
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl>Original: Papal Documents, London, Lambeth Palace Library, P.D. 8</bibl>
-               <bibl>Kopie: -</bibl>
-               <bibl>[ggf. Druck]</bibl>
+               <bibl type="original">Papal Documents, London, Lambeth Palace Library, P.D. 8</bibl>
+               <bibl type="msCopy">-</bibl>
+               <bibl type="print">[ggf. Druck]</bibl>
             </listBibl>
          </div>
          </div>
