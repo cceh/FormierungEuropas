@@ -1,11 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?>
-<TEI source="formierung-europas_pontificia" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_pontificia">
    <!-- Ordnername hier ergänzen für einzelne Sammlungen -->
    <teiHeader>
       <fileDesc><titleStmt><title>fe_00426</title><respStmt><resp>Datenquelle</resp><persName>JB</persName></respStmt>
-            <respStmt><resp when="2026">Encoding</resp><persName>JB</persName></respStmt>
+            <respStmt><resp when="2026">Encoding</resp><persName>JB, NW</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -15,14 +12,13 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>Germ. Pont. 1, S. 403, Nr. 10</bibl><bibl type="jaffe">14149</bibl>
-            <bibl>[Weiteres Konkordanzregest]</bibl>
             <!-- Konkordanzregesten / Quelldatensätze, die in diesem aufgegangen sind -->
             <diploDesc>
                <p><authen type="formula" n="na">
                      <p>-</p>
                      <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
                   </authen></p>
-               <issued><placeName>–</placeName><date type="issued" notBefore="1159-01-01" notAfter="1181-12-31">(1159-1181)</date>
+               <issued><placeName>–</placeName><date type="issued" notBefore="1159-09-07" notAfter="1181-08-30">(1159-1181)</date>
                   <!-- normalisiertes Datum als value mit notBefore, notAfter oder when -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
@@ -48,7 +44,7 @@
       <body>
          <div type="abstract">
             <head>Abstract</head>
-            <p><legalActor><persName>Alexander III.</persName></legalActor> weist <legalActor><persName>Gregor, Bischof von Trient</persName></legalActor>, an, den Abt und die Mönche zur Rückgabe der Geldzahlung zu bewegen, falls sich der Sachverhalt wie geschildert verhält.  <list>
+            <p><legalActor><persName>Alexander III.</persName></legalActor> weist <legalActor><persName>Gregor, den Bischof von Trient</persName></legalActor>, an, den Abt und die Mönche zur Rückgabe der Geldzahlung zu bewegen, falls sich der Sachverhalt wie geschildert verhält.  <list>
                   <item>Ein Priester namens P. hat ihm berichtet, dass der Abt und die Brüder eines Klosters sich weigerten, ihn als Mönch aufzunehmen, es sei denn, er erkläre sich zur Zahlung von 30 Schilling für seine Aufnahme bereit.</item><item>Nachdem diese Vereinbarung getroffen worden war, kleideten sie ihn am folgenden Tag in das Mönchsgewand ein. Allerdings forderten die Mönche die 30 Schilling, der Abt verlangte 10 und die Gemeinschaft forderte 12 für seinen Unterhalt.</item><item>Des Weiteren soll er den Abt sowie die führenden Mitglieder des Klosters von der Ausübung ihrer Ämter suspendieren und den erwähnten P. anweisen, sich ein anderes Kloster zu suchen, in dem er dem Herrn im Mönchsgewand dienen kann.</item>
                </list></p>
          </div>
