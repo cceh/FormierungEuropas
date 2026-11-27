@@ -24,7 +24,7 @@
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
                <p><legalActor type="recipient">Otto I., Propst des Regularkanonikerstifts ##Augustiner-Chorherrenstifts## Rottenbuch</legalActor></p><p><legalActor type="recipient">##Abt des Benediktinerklosters Ottobeuren##</legalActor></p><p><legalActor type="recipient">##Abt des Benediktinerklosters Altenburg##</legalActor></p><p><legalActor type="recipient">der Klöster Ottobeuren und Altenburg</legalActor></p>
                <!-- kann enthalten: persName/orgName, ggf roleName -->
-               <p><objectType n="">Papsturkunde, nicht kategorisierbar</objectType></p>
+               <p><objectType n="">Papsturkunde, Litterae ##(cum filo canapis)##</objectType></p>
                <!-- Typisierung als value n="" wiederholen. Bei den values ist die Einheitlichkeit wichtig! -->
                <p><objectType n="">Anweisung, Einhaltung von Recht</objectType></p>
                <!-- <p>Konkordanzregesten: ggf. die zentralen Regestenwerke wie JL hier doppeln? oder oben bibl in sourceDesc? -> sonst in den Regestenwerken</p>-->
