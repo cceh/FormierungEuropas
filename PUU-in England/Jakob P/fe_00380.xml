@@ -7,7 +7,7 @@
                <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
                <persName>JP</persName>
             </respStmt>
-           <respStmt><resp when="2024">Encoding:</resp><persName>JP, IB</persName></respStmt>
+           <respStmt><resp when="2024">Encoding:</resp><persName>JP, IB, CH</persName></respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Die Formierung Europas</publisher>
@@ -16,7 +16,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>PUU England 1, S. 436-437, Nr. 163</bibl><bibl type="jaffe">-</bibl>
+            <bibl type="main">PUU England 1, S. 436-437, Nr. 163</bibl><bibl type="jaffe">-</bibl>
             <diploDesc><p><authen type="formula" n="na">
                <p>-</p>
                <!-- Echtheitskriterien, values für n: "na", "forgery", "deperditum", "suspected forgery", "deperditum forgery", "deperditum suspected forgery"  -->
@@ -42,7 +42,7 @@
    <text>
       <body>
          <div type="abstract"><head>Abstract:</head>
-            <p>Alexander III. verleiht dem Meister und den Brüdern des Templerordens ein Privileg und verbietet den Erzbischöfen, Bischöfen und ihren Amtsträgern:<list> <item>den Kirchen des Ordens unrechtmäßige Abgaben aufzuerlegen, sie ohne einen offenkundigen und rechtmäßigen Grund mit dem Interdikt zu belegen oder über ein Mitglied des Ordens die Exkommunikation zu verhängen</item><item>ihre Pfarrangehörigen daran zu hindern, dem Orden Almosen zukommen zu lassen</item></list>Ferner legt er fest:<list><item>Perturbationsverbot</item></list>Schlussformel: Sanctio negativa</p>
+            <p><persName>Alexander III.</persName> verleiht dem <persName>Meister</persName> und den <persName>Brüdern des <orgName>Templerordens</orgName></persName> ein Privileg und verbietet den Erzbischöfen, Bischöfen und ihren Amtsträgern:<list> <item>den Kirchen des Ordens unrechtmäßige Abgaben aufzuerlegen, sie ohne einen offenkundigen und rechtmäßigen Grund mit dem Interdikt zu belegen oder über ein Mitglied des Ordens die Exkommunikation zu verhängen</item><item>ihre Pfarrangehörigen daran zu hindern, dem Orden Almosen zukommen zu lassen</item></list>Ferner legt er fest:<list><item>Perturbationsverbot</item></list>Schlussformel: Sanctio negativa</p>
          </div>
          <div><head>Incipit:</head><diploPart type="incipit" xml:lang="lat">Iustis postulationibus religiosorum uirorum facilem</diploPart></div>
          <div><head>Datatio:</head><diploPart type="datatio">Dat. Lat. IIII id. [m]ad[ii].</diploPart></div>
@@ -50,9 +50,9 @@
              <head>Handschriftliche Überlieferung</head>
             <div>
             <listBibl>   
-               <bibl>Original: Papal Documents, London, Lambeth Palace Library, P.D. 6</bibl>
-               <bibl>Kopie: - </bibl>
-               <bibl>[ggf. Druck]</bibl>
+               <bibl type="origianl">Papal Documents, London, Lambeth Palace Library, P.D. 6</bibl>
+               <bibl type="msCopy">-</bibl>
+               <bibl type="print">[ggf. Druck]</bibl>
             </listBibl>
          </div>
          </div>
