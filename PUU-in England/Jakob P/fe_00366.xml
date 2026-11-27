@@ -17,7 +17,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>PUU England 1, S. 417, Nr. 145</bibl><bibl type="jaffe">-</bibl>
+            <bibl type="main">PUU England 1, S. 417, Nr. 145</bibl><bibl type="jaffe">-</bibl>
             <diploDesc><p> <authen type="formula" n="na"><p>-</p><!-- Echtheitskriterien, auch mit n arbeiten für Unterscheidungen ohne Formel --></authen></p> <issued><placeName>Ferrara</placeName><date type="issued" when="1177-05-06">(1177) Mai 6</date> <!-- Muss auch bei Jaffé in die values! Kein Mischen möglich, Zeiträume durchsuchbar -->
                </issued>
                <p><legalActor type="issuer">Alexander III.</legalActor></p>
